@@ -1,0 +1,122 @@
+/* Weenie - Olthoi Resurgent (24358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24358;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (24358, 'bookolthoiresurgent');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
+VALUES (24358, 272, 24358);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24358, 1, 'Olthoi Resurgent') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24358, 1, 33558378) /* SETUP_DID */
+     , (24358, 3, 536870932) /* SOUND_TABLE_DID */
+     , (24358, 8, 100674407) /* ICON_DID */
+     , (24358, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24358, 9, 0) /* LOCATIONS_INT */
+     , (24358, 1, 8192) /* ITEM_TYPE_INT */
+     , (24358, 93, 1044) /* PHYSICS_STATE_INT */
+     , (24358, 5, 160) /* ENCUMB_VAL_INT */
+     , (24358, 16, 8) /* ITEM_USEABLE_INT */
+     , (24358, 8, 200) /* MASS_INT */
+     , (24358, 19, 90) /* VALUE_INT */
+     , (24358, 150, 103) /* HOOK_PLACEMENT_INT */
+     , (24358, 151, 9) /* HOOK_TYPE_INT */
+     , (24358, 37, 50) /* RESIST_ITEM_APPRAISAL_INT */
+     , (24358, 174, 17) /* APPRAISAL_PAGES_INT */
+     , (24358, 175, 17) /* APPRAISAL_MAX_PAGES_INT */
+     , (24358, 22, 1000) /* AVAILABLE_CHARACTER_INT */
+     , (24358, 9007, 8) /* Book_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24358, 39, 1.22) /* DEFAULT_SCALE_FLOAT */
+     , (24358, 54, 3) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24358, 22, False) /* INSCRIBABLE_BOOL */;
+
+INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (24358, 0, 'Asheron', 'prewritten', 4294967295, False, 'The Olthoi they have struck terror into my heart ever since my first steps on the blasted landscapes of their home world. In that first excursion I lost much. 
+
+Upon my second visit, I was given insight into a vast culture that was gifted with an incredible intelligence and understanding of tactics. The swarm there was bolstered and guided by their Queen.  As though she was the facilitator and coordinator of all their efforts.
+
+During a battle with what appeared to be the Olthoi''s only natural enemy, what some 
+')
+     , (24358, 1, 'Asheron', 'prewritten', 4294967295, False, 'here refer to as Grievvers, I was able to construct a mystical structure to allow us to bear witness to the battle. We watched a fantastic massacre and were able to obtain an Olthoi specimen for study. As we made our way out of my shelter a great rumbling began deep beneath the soil.  I instructed the expedition to retreat to the portal with the specimen, while I remained behind to examine this new threat.  As the research expedition disappeared into the grayish-yellow mist that was the air on that world I was met with a most terrible sight, an Olthoi Queen.
+')
+     , (24358, 2, 'Asheron', 'prewritten', 4294967295, False, 'Her armies, tired and beaten by the savagery of their assailants, lined up beside her and in front of her as she issued a complex sequence of hisses, chitters and clicks. I began my retreat slowly until she released the horde upon me.  Flying beasts dropped from the sky in an effort to grasp my robes and hoist me into the air, but the magic of my armor was too strong for them to pierce.  Then without warning, all of my defensive spells disappeared and I was left to my weakest magic.  I ran...I was not able to continue to hold off their assault and so I resigned myself to seeing that the iris of my portal was closed so that they could not 
+')
+     , (24358, 3, 'Asheron', 'prewritten', 4294967295, False, 'make their way through.
+
+The queen pursued, carried aloft by a host of her flying beasts.  As they lowered her to the ground they fell from the air exhausted, perhaps dying.  The portal back to Auberean was closed; I needed only to use one of the gems that myself and a few others carried for emergencies, but I feared that whatever it was that was draining my access to the higher magics would render the gem impotent.
+
+I called upon my knowledge and reached within the dying mana streams of that 
+')
+     , (24358, 4, 'Asheron', 'prewritten', 4294967295, False, 'world and I fought her. 
+
+I was able to open a hole in her carapace utilizing the most base of the heiromantic spells in my arsenal, but I did not kill her - I merely stunned her. While she reeled, her horde became confused and reverted to the the collection of food and fighting amongst themselves.  I felt the magic return to me and used the gem to return home. 
+
+Against my advice, the Emperor sanctioned return expeditions to obtain as many specimens as Gaerlan could.  I opened each portal and closed them upon their return. 
+')
+     , (24358, 5, 'Asheron', 'prewritten', 4294967295, False, 'In all, over twenty variations were collected and many more catalogued before they captured the Queen.
+
+When Gaerlan made his way back to my school with the Queen specimen, it became apparent that he had captured the same Queen I had fought.  She was injured, suffering from wounds inflicted by our warriors and at her breast was a deep crack from the assault I levied against her years before.
+
+When she came into Knorr she was incoherent, nearly insensate but I saw 
+')
+     , (24358, 6, 'Asheron', 'prewritten', 4294967295, False, 'something that drove a deeper fear into my being:  recognition.  She knew me.  I could tell by the way that her eyes fixated upon me and held there gaze until I left her presence.  The way they bore into me like flame.
+
+The impact of her arrival was felt immediately.  Other olthoi specimens began to act out aggressively in their pens.  Research was suspended as we attempted to regain control over the lesser Olthoi. 
+
+We learned very quickly that the Queen was breeding. She was developing an egg 
+')
+     , (24358, 7, 'Asheron', 'prewritten', 4294967295, False, 'sac upon her arrival and though she was injured it did not slow the progress.
+
+She was weakened and had no forces with which to rout us, and then the disaster struck.  A portal had remained open from their world to this, one that we had not known about.  Olthoi species began pouring through and as they came into proximity of their hive mind and leader they...
+...you know the rest. My society entered a war against the Olthoi that lasted for over one hundred years, and in the end, we lost.
+')
+     , (24358, 8, 'Asheron', 'prewritten', 4294967295, False, 'I took every precaution to end their invasion but they bred so quickly, and with the birth of new Queens we fought several hives at once.  They did not make war on one another as was speculated about their home world.  They were all of the same brood, irrevocably tied to their one Queen.
+
+After all of those years of fighting we made our way to Ireth Lassel as a last effort to sequester and save our race.  But not before a massive loss of life to acquire formulae from my father''s research.
+
+')
+     , (24358, 9, 'Asheron', 'prewritten', 4294967295, False, 'During the war we had obtained one queen, mature and developed.  With the assistance of five of the most potent practitioners of Acumen Manim we were able to render her insensate.  We used her as a research specimen in conjunction with my father''s works hoping to create a venom that would be used against them.  But the Queen had already dispatched flyers to Ireth Lassel carrying a single egg that would grow into another Queen.  Our efforts to discover the location of the burgeoning hive failed, and the safety of my people took precedence over the research. 
+')
+     , (24358, 10, 'Asheron', 'prewritten', 4294967295, False, 'After our years of failing to find this Queen I, with a heavy heart, cast the spell that sent my race into the flux of portal space, where they do not age, and are kept alive through a means that I still do not completely understand.  Then I concealed my whereabouts through the most potent use of illusion that had ever been enacted and began my research anew.  After nearly five hundred years I had found my answer.  But I had only enough venom for one use.
+
+I left my lonely tower to find the Queen that ruled all the world and was met instead by the Virindi.  Our conflict was short, for
+')
+     , (24358, 11, 'Asheron', 'prewritten', 4294967295, False, 'all their current potency they were still lesser beings learning to adapt to a strange world. Yet they were able to harm me and when that conflict was done, I was drained of much energy and so returned to my tower, knowing that I would require all my strength if I were to defeat the Queen.
+
+But my conflict with the Virindi had greater repercussions.  My portal network was reactivated through some nefarious means, and as a result portals opened on all worlds to which we Empyrean had traveled.  This caused an influx of creatures to the world, an occurrence I was unaware 
+')
+     , (24358, 12, 'Asheron', 'prewritten', 4294967295, False, 'of until...
+
+Some years later your people arrived, and as I made my way from my tower back to Ireth Lassel I was in awe.  I was horrified that the portal network I had established had gone so terribly awry.  All manner of creatures, from worlds that I had visited with my students, roamed across the land.
+
+Most, with rudimentary intelligence, were enslaved, stirring the vats that the Olthoi used to assist in the growth of their fungal blooms.  Others remained free, establishing minor outposts and occupying the great 
+')
+     , (24358, 13, 'Asheron', 'prewritten', 4294967295, False, 'halls of my people. 
+
+The Aluvians, the Isparian with whom we Empyrean had the most contact, were enslaved.  When Thorsten and Elysa made their way to my island, I made the decision to follow my heart.  This land was concealed.  The Queen here needed to be destroyed so that the people who had been brought here could live their lives.
+
+I gave the phial over to Elysa and strengthened the spell that surrounds these lands.  The Olthoi could not pierce the veil over this island... or so I had thought.
+')
+     , (24358, 14, 'Asheron', 'prewritten', 4294967295, False, 'But now, as it was when the Queen of the Olthoi first asserted herself over the hordes that poured through the portals from their world to this, I am stricken with an illness that drives the mana from me, making the access of higher magics impossible.  The Olthoi have bred another variant of their leeches. 
+
+I have erected a shield about my tower to ward it against the Olthoi presence but there is little that I can do beyond this.  I must open portals to the mainland in hopes that some will come to my aid.
+')
+     , (24358, 15, 'Asheron', 'prewritten', 4294967295, False, 'Then we must band together and prepare for this menace.  For if she is returned and alive then I fear only the worst.
+
+I fear that she has always been searching for me. The numbers that have poured forth from the ground lead me to believe that there is a horde greater than the horde that first swarmed over Knorr and cast the civilized world of the Yalain aside.  I fear that she leads them with a singular prupose, that of revenge. But I do not think that she will stop with me. 
+
+If she is allowed to breed on Ireth Lassel
+')
+     , (24358, 16, 'Asheron', 'prewritten', 4294967295, False, 'then everything that I have worked for and all that I have done in this life has been for naught. 
+
+');
+
