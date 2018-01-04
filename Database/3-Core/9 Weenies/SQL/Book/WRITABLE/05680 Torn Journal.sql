@@ -1,0 +1,62 @@
+/* Weenie - Torn Journal (5680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5680;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (5680, 'journalcambarth2');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
+VALUES (5680, 272, 5680);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5680, 16, 'The first half of a small, handwritten journal.') /* LONG_DESC_STRING */
+     , (5680, 1, 'Torn Journal') /* NAME_STRING */
+     , (5680, 15, 'A small, handwritten journal, evidently torn in half.') /* SHORT_DESC_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5680, 1, 33554771) /* SETUP_DID */
+     , (5680, 3, 536870932) /* SOUND_TABLE_DID */
+     , (5680, 8, 100668117) /* ICON_DID */
+     , (5680, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5680, 9, 0) /* LOCATIONS_INT */
+     , (5680, 1, 8192) /* ITEM_TYPE_INT */
+     , (5680, 93, 1044) /* PHYSICS_STATE_INT */
+     , (5680, 5, 80) /* ENCUMB_VAL_INT */
+     , (5680, 16, 8) /* ITEM_USEABLE_INT */
+     , (5680, 8, 230) /* MASS_INT */
+     , (5680, 19, 40) /* VALUE_INT */
+     , (5680, 174, 6) /* APPRAISAL_PAGES_INT */
+     , (5680, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
+     , (5680, 22, 1000) /* AVAILABLE_CHARACTER_INT */
+     , (5680, 9007, 8) /* Book_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5680, 39, 1.22) /* DEFAULT_SCALE_FLOAT */
+     , (5680, 54, 0.3) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5680, 22, False) /* INSCRIBABLE_BOOL */;
+
+INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (5680, 0, 'Cambarth', 'prewritten', 4294967295, False, '4th of Frostfell, 13th Year of Exile
+
+Today a most curious thing occurred.  Asjan and I were discussing worker productivity when there was a soft knock at the door.  Upon opening it, a violet-cloaked figure wearing a mask floated - floated! - in the air before us.  Asjan gasped and froze.  I asked this creature if I could help it, reasoning that since it knocked politely, in our fashion, it must have Intellect.  The Thing introduced itself as "Lord Sarvaen," a noble of Arwic, and offered me a business proposition.  I asked what it had in mind.
+')
+     , (5680, 1, 'Cambarth', 'prewritten', 4294967295, False, '"Sarvaen" floated in the room, the ragged trailings of its cloak fluttering, and explained that it had need for the unique crystals I had discovered in the mountain.  Its voice was... Ah, but I lack the words.  Deep it was, and oddly cadenced.  It was beyond question not a man''s voice, and sounded as if it came through a tunnel, or from the grave.  Straight-faced, I asked what it offered in turn.  At this, one violet-draped "arm" rose and placed a gem upon the table.  I did not see its hand for the folds of the cloak.
+')
+     , (5680, 2, 'Cambarth', 'prewritten', 4294967295, False, 'It was a ruby; large, flawless, and more finely cut than any stone I have ever seen.  I have not the words to do justice to this amazing artifact.
+
+Exchanging raw crystal of undetermined worth for such incredible craftsmanship seemed like a sound decision, so I offered to draw up a contract.  "Sarvaen''s" cloak rippled, as if a swarm of insects were beating against the interior, and it said that true men preferred to do business without records.
+')
+     , (5680, 3, 'Cambarth', 'prewritten', 4294967295, False, 'At this, Asjan''s nerve snapped, and he ran from the room shrieking hysterically.  The Thing turned to mark his passage, and I believe I saw a flash of violet-blue light from behind the corner of its bizarre mask.
+
+The deal, fortunately, was quickly agreed upon, and "Sarvaen" left a small pile of jewels behind, as a token of its good faith.  I calculate their worth to be in excess of 100,000 Pyreal.
+')
+     , (5680, 4, 'Cambarth', 'prewritten', 4294967295, False, 'I do not trust this Thing by any account. But one cannot argue with the profit - which is, after all, why I am in this hellish place!
+')
+     , (5680, 5, 'Cambarth', 'prewritten', 4294967295, False, '7th Frostfell
+
+Asjan has disappeared. A badly written note, supposedly from him, was found, saying that he went home to Qalaba''r. I know the Thing did it. It still believes that I believe it is a man, and it must remain so improbably ignorant
+');
+

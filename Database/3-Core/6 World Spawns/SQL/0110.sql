@@ -1,0 +1,251 @@
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (1757, 1880162304, 17826074, 28.3415, -110.215, -65.995, -0.66739, 0, 0, 0.744708) /* Shadow Lieutenant */
+     , (4253, 1880162305, 17826084, 30, -150, -65.995, 0.714421, 0, 0, -0.699716) /* Panumbris Shadow */
+     , (1757, 1880162306, 17826084, 31.8846, -149.961, -65.995, 0.796084, 0, 0, -0.605186) /* Shadow Lieutenant */
+     , (1757, 1880162307, 17826084, 33.16, -150.349, -65.995, 0.855982, 0, 0, -0.517005) /* Shadow Lieutenant */
+     , (278, 1880162308, 17826085, 40, -34.75, -65.995, 0, 0, 0, -1) /* Door */
+     , (6806, 1880162309, 17826087, 38.5224, -49.8941, -65.995, 0.001025, 0, 0, 0.999999) /* Nexus Fragment */
+     , (6806, 1880162310, 17826087, 42.3109, -49.1833, -65.995, -0.148425, 0, 0, 0.988924) /* Nexus Fragment */
+     , (6806, 1880162311, 17826087, 39.7912, -53.9276, -65.995, -0.002994, 0, 0, -0.999996) /* Nexus Fragment */
+     , (278, 1880162312, 17826089, 40, -74.75, -65.995, 0, 0, 0, -1) /* Door */
+     , (278, 1880162313, 17826092, 40, -95.25, -65.995, 1, 0, 0, 0) /* Door */
+     , (4254, 1880162314, 17826093, 39.8965, -107.451, -65.995, 0.004086, 0, 0, 0.999992) /* Umbris Shadow */
+     , (4253, 1880162315, 17826096, 40.8481, -119.787, -65.995, -0.057927, 0, 0, -0.998321) /* Panumbris Shadow */
+     , (4253, 1880162316, 17826096, 39.1616, -118.213, -65.995, -0.007959, 0, 0, -0.999968) /* Panumbris Shadow */
+     , (2131, 1880162317, 17826099, 40, -130, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162318, 17826099, 40, -126.5, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162319, 17826099, 40, -133.5, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162320, 17826099, 43, -130, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162321, 17826099, 37, -130, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162322, 17826099, 37, -127, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162323, 17826099, 43, -127, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162324, 17826099, 37, -133, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162325, 17826099, 43, -133, -65.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (1757, 1880162326, 17826113, 48.6844, -110.228, -65.995, 0.665161, 0, 0, 0.7467) /* Shadow Lieutenant */
+     , (1757, 1880162327, 17826115, 50.1093, -123.928, -65.995, 0.389091, 0, 0, 0.921199) /* Shadow Lieutenant */
+     , (1757, 1880162328, 17826119, 49.2023, -133.994, -65.995, -0.842851, 0, 0, -0.538146) /* Shadow Lieutenant */
+     , (4065, 1880162329, 17826194, 40, -130.016, -44.8933, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162330, 17826194, 40.034, -129.345, -44.8933, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162331, 17826194, 39.9759, -130.588, -44.8933, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162332, 17826194, 39.29, -129.963, -44.8933, 0.998344, 0, 0, 0.057524) /* Lightning Trap */
+     , (4065, 1880162333, 17826194, 40.7154, -129.94, -44.8933, 0.772458, 0, 0, -0.635065) /* Lightning Trap */
+     , (4065, 1880162334, 17826194, 39.5244, -129.596, -44.8988, -0.950789, 0, 0, -0.309839) /* Lightning Trap */
+     , (4065, 1880162335, 17826194, 40.4433, -129.546, -44.9122, -0.95998, 0, 0, 0.280069) /* Lightning Trap */
+     , (4065, 1880162336, 17826194, 39.4785, -130.359, -44.8854, -0.919601, 0, 0, 0.392854) /* Lightning Trap */
+     , (4065, 1880162337, 17826194, 40.4672, -130.328, -44.9122, -0.663864, 0, 0, 0.747854) /* Lightning Trap */
+     , (4253, 1880162338, 17826236, 40, -120, -35.995, 0.020795, 0, 0, 0.999784) /* Panumbris Shadow */
+     , (2131, 1880162339, 17826237, 40, -130, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162340, 17826237, 40, -127, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162341, 17826237, 40, -133, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162342, 17826237, 37, -130, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162343, 17826237, 43, -130, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162344, 17826237, 37, -127, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162345, 17826237, 43, -127, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162346, 17826237, 37, -133, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162347, 17826237, 43, -133, -35.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (4253, 1880162348, 17826271, 30.6857, -136.234, -23.995, -0.814815, 0, 0, -0.579721) /* Panumbris Shadow */
+     , (1757, 1880162349, 17826271, 32.4577, -140.609, -23.995, -0.920331, 0, 0, -0.39114) /* Shadow Lieutenant */
+     , (4253, 1880162350, 17826273, 38.9097, -114.503, -23.995, 0.999775, 0, 0, -0.0212238) /* Panumbris Shadow */
+     , (1757, 1880162351, 17826274, 40.4685, -116.571, -23.995, 0.995449, 0, 0, 0.095296) /* Shadow Lieutenant */
+     , (1757, 1880162352, 17826274, 35.7128, -117.345, -23.995, 0.942097, 0, 0, -0.335339) /* Shadow Lieutenant */
+     , (1757, 1880162353, 17826276, 42.6932, -144.846, -23.995, 0.840754, 0, 0, -0.541418) /* Shadow Lieutenant */
+     , (1757, 1880162354, 17826277, 39.8734, -153.584, -23.995, 0.0250896, 0, 0, 0.999685) /* Shadow Lieutenant */
+     , (4253, 1880162355, 17826281, 49.0218, -136.178, -23.995, 0.657593, 0, 0, -0.753373) /* Panumbris Shadow */
+     , (4253, 1880162356, 17826289, -0.555292, -138.562, -17.995, -0.059997, 0, 0, 0.998199) /* Panumbris Shadow */
+     , (4253, 1880162357, 17826305, 18.3043, -100.016, -17.995, 0.754564, 0, 0, -0.656227) /* Panumbris Shadow */
+     , (4065, 1880162358, 17826325, 39.2522, -130.101, -17.9178, 0.999834, 0, 0, -0.01822) /* Lightning Trap */
+     , (4065, 1880162359, 17826325, 39.8198, -130.915, -17.9177, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162360, 17826325, 39.9794, -130.222, -17.8642, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162361, 17826325, 40.0704, -129.438, -17.8509, 1, 0, 0, 0) /* Lightning Trap */
+     , (4065, 1880162362, 17826325, 40.6287, -130.139, -17.8117, 0.999834, 0, 0, -0.01822) /* Lightning Trap */
+     , (4065, 1880162363, 17826325, 39.5626, -129.621, -17.927, -0.964117, 0, 0, -0.265476) /* Lightning Trap */
+     , (4065, 1880162364, 17826325, 40.5074, -129.705, -17.8468, -0.501663, 0, 0, 0.865063) /* Lightning Trap */
+     , (4065, 1880162365, 17826325, 40.4308, -130.656, -17.9003, 0.542407, 0, 0, 0.840116) /* Lightning Trap */
+     , (4065, 1880162366, 17826325, 39.4119, -130.618, -17.8334, 0.762212, 0, 0, 0.647327) /* Lightning Trap */
+     , (4253, 1880162367, 17826344, 70, -100, -17.995, 0.315322, 0, 0, -0.948985) /* Panumbris Shadow */
+     , (1757, 1880162368, 17826344, 72.5546, -100.119, -17.995, 0.357232, 0, 0, -0.934016) /* Shadow Lieutenant */
+     , (1757, 1880162369, 17826349, 70, -164.553, -17.995, 1, 0, 0, 0) /* Shadow Lieutenant */
+     , (1757, 1880162370, 17826349, 69.6262, -162.349, -17.995, 0.988771, 0, 0, 0.149438) /* Shadow Lieutenant */
+     , (4253, 1880162371, 17826378, 20.6568, -129.85, -5.995, -0.686292, 0, 0, 0.727326) /* Panumbris Shadow */
+     , (6796, 1880162372, 17826399, 40, -30, -5.995, 1, 0, 0, 0) /* Surface Portal */
+     , (4253, 1880162373, 17826407, 38.6819, -122.718, -5.995, -0.0224761, 0, 0, 0.999747) /* Panumbris Shadow */
+     , (4253, 1880162374, 17826407, 41.4358, -120.737, -5.995, -0.122647, 0, 0, -0.99245) /* Panumbris Shadow */
+     , (2131, 1880162375, 17826408, 40, -130, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162376, 17826408, 40, -127, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162377, 17826408, 40, -133, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162378, 17826408, 37, -130, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162379, 17826408, 43, -130, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162380, 17826408, 37, -127, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162381, 17826408, 43, -127, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162382, 17826408, 37, -133, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (2131, 1880162383, 17826408, 43, -133, -5.995, 1, 0, 0, 0) /* Pressure Plate */
+     , (4253, 1880162384, 17826410, 40.1469, -149.022, -5.995, -0.999727, 0, 0, -0.02336) /* Panumbris Shadow */
+     , (1757, 1880162385, 17826418, 59.7055, -129.583, -5.995, 0.73288, 0, 0, 0.680358) /* Shadow Lieutenant */
+     , (1757, 1880162386, 17826418, 62.3352, -130.707, -5.995, 0.699431, 0, 0, 0.7147) /* Shadow Lieutenant */
+     , (4065, 1880162387, 17826436, 39.5402, -129.845, 9.59375, 0.999999, 0, 0, -0.001398) /* Lightning Trap */
+     , (4065, 1880162388, 17826436, 40.8459, -129.942, 9.52688, 0.999999, 0, 0, -0.001398) /* Lightning Trap */
+     , (4065, 1880162389, 17826436, 40.1783, -129.271, 9.52688, 0.999999, 0, 0, -0.001398) /* Lightning Trap */
+     , (4065, 1880162390, 17826436, 40.1067, -130.45, 9.567, 0.999999, 0, 0, -0.001398) /* Lightning Trap */
+     , (4065, 1880162391, 17826436, 40.148, -129.789, 9.62049, 0.999999, 0, 0, -0.001398) /* Lightning Trap */
+     , (4065, 1880162392, 17826436, 39.6945, -129.489, 9.55944, 0.941437, 0, 0, 0.33719) /* Lightning Trap */
+     , (4065, 1880162393, 17826436, 40.7073, -129.495, 9.62631, 0.904038, 0, 0, -0.427453) /* Lightning Trap */
+     , (4065, 1880162394, 17826436, 39.6107, -130.237, 9.62632, 0.894133, 0, 0, -0.447801) /* Lightning Trap */
+     , (4065, 1880162395, 17826436, 40.5949, -130.257, 9.63969, 0.657206, 0, 0, -0.753711) /* Lightning Trap */
+     , (6122, 1880162396, 17826442, 40, -140, 12.005, 1, 0, 0, 0) /* Acid */
+     , (6122, 1880162397, 17826443, 40, -220, 12.005, 1, 0, 0, 0) /* Acid */
+     , (1758, 1880162398, 17826447, 29.3112, -98.0754, 18.005, -0.982602, 0, 0, 0.185725) /* Shadow */
+     , (1758, 1880162399, 17826447, 29.9641, -96.4099, 18.005, -0.982602, 0, 0, 0.185725) /* Shadow */
+     , (1758, 1880162400, 17826447, 30.5676, -99.0111, 18.005, -0.996345, 0, 0, 0.085423) /* Shadow */
+     , (1757, 1880162401, 17826452, 36.9159, -90.741, 18.005, -0.454727, 0, 0, 0.890631) /* Shadow Lieutenant */
+     , (1757, 1880162402, 17826455, 41.6938, -91.0367, 18.005, 0.393769, 0, 0, 0.91921) /* Shadow Lieutenant */
+     , (1757, 1880162403, 17826458, 39.3543, -112.359, 18.005, -0.979135, 0, 0, -0.203209) /* Shadow Lieutenant */
+     , (1757, 1880162404, 17826458, 40.5344, -112.395, 18.005, -0.94912, 0, 0, 0.314914) /* Shadow Lieutenant */
+     , (1758, 1880162405, 17826468, 50, -100, 18.005, 1, 0, 0, 0) /* Shadow */
+     , (1758, 1880162406, 17826468, 50.4677, -101.281, 18.005, 0.984727, 0, 0, 0.174108) /* Shadow */
+     , (1757, 1880162407, 17826468, 49.2263, -102.56, 18.005, 0.999965, 0, 0, -0.008333) /* Shadow Lieutenant */
+     , (619, 1880162408, 17826474, 29.2604, -160.683, 24.0082, 0.151748, 0, 0, -0.988419) /* Revenant */
+     , (619, 1880162409, 17826474, 31.0374, -161.897, 24.0082, 0.027333, 0, 0, -0.999626) /* Revenant */
+     , (4217, 1880162410, 17826482, 30.57, -180.849, 24.0082, -0.357547, 0, 0, 0.933895) /* Dark Revenant */
+     , (278, 1880162411, 17826502, 40.01, -145, 24.005, 0, 0, 0, -1) /* Door */
+     , (4217, 1880162412, 17826503, 40.3196, -151.218, 24.0082, -0.004314, 0, 0, -0.999991) /* Dark Revenant */
+     , (4217, 1880162413, 17826504, 38.4678, -158.673, 24.0082, -0.260072, 0, 0, -0.965589) /* Dark Revenant */
+     , (4217, 1880162414, 17826504, 43.448, -158.281, 24.0082, 0.341336, 0, 0, -0.939941) /* Dark Revenant */
+     , (4217, 1880162415, 17826509, 39.5014, -169.622, 24.0082, 0.038796, 0, 0, 0.999247) /* Dark Revenant */
+     , (619, 1880162416, 17826514, 41.8841, -179.321, 24.0082, -0.677953, 0, 0, 0.735106) /* Revenant */
+     , (619, 1880162417, 17826514, 37.4811, -179.509, 24.0082, 0.697564, 0, 0, 0.716523) /* Revenant */
+     , (619, 1880162418, 17826519, 40.4423, -190.006, 24.0082, -0.00420396, 0, 0, 0.999991) /* Revenant */
+     , (619, 1880162419, 17826519, 37.8085, -189.814, 24.0082, -0.180305, 0, 0, 0.983611) /* Revenant */
+     , (619, 1880162420, 17826519, 42.8101, -188.414, 24.0082, 0.0621611, 0, 0, 0.998066) /* Revenant */
+     , (3955, 1880162421, 17826525, 40, -210, 24.005, 1, 0, 0, 0) /* linkmonstergen15minutes */
+     , (3954, 1880162422, 17826525, 40, -212.087, 24.005, 1, 0, 0, 0) /* linkitemgen15minutes */
+     , (7923, 1880162423, 17826525, 38.8125, -210.424, 24.005, 0.0109672, 0, 0, -0.99994) /* linkmonstergen3minutes */
+     , (278, 1880162424, 17826526, 40, -225, 24.005, 0, 0, 0, -1) /* Door */
+     , (6812, 1880162425, 17826528, 37.3208, -239.608, 24.079, -0.982428, 0, 0, 0.186643) /* Adventurer's warning */
+     , (6796, 1880162426, 17826530, 40, -270, 24.005, 0.707107, 0, 0, -0.707107) /* Surface Portal */
+     , (619, 1880162427, 17826536, 51.9496, -159.687, 24.0082, 0.128104, 0, 0, -0.991761) /* Revenant */
+     , (619, 1880162428, 17826536, 49.1401, -160.457, 24.0082, -0.0359218, 0, 0, -0.999355) /* Revenant */
+     , (619, 1880162429, 17826540, 50.262, -167.596, 24.0082, -0.010705, 0, 0, -0.999943) /* Revenant */
+     , (619, 1880162430, 17826544, 50, -180, 24.0082, 0.0457802, 0, 0, 0.998952) /* Revenant */
+     , (619, 1880162431, 17826544, 48.5329, -178.892, 24.0082, 0.152634, 0, 0, 0.988283) /* Revenant */;
+
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880162329';
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880162331';
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880162330';
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880162333';
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880162332';
+UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880162387';
+UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880162390';
+UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880162389';
+UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880162388';
+UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880162391';
+UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1880162360';
+UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1880162359';
+UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1880162361';
+UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1880162362';
+UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1880162358';
+UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1880162421';
+UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1880162334';
+UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1880162335';
+UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1880162336';
+UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1880162337';
+UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1880162392';
+UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1880162393';
+UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1880162394';
+UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1880162395';
+UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='1880162364';
+UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='1880162365';
+UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='1880162363';
+UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='1880162366';
+UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='1880162423';
+UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='1880162422';
+
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880162317';
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880162318';
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880162319';
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880162320';
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880162321';
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880162375';
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880162376';
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880162377';
+UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880162378';
+UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880162379';
+UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880162339';
+UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880162340';
+UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880162341';
+UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880162342';
+UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880162343';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162418';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162419';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162420';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162430';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162431';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162416';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162417';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162410';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162413';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162414';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162427';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162428';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162429';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162408';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162409';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162402';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162401';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162398';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162399';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162400';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162405';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162406';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162407';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162403';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162404';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162373';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162374';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162371';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162384';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162385';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162386';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162357';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162367';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162368';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162369';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162370';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162356';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162350';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162351';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162352';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162348';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162355';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162353';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162349';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162354';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162338';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162314';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162326';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162304';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162328';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162327';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162305';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162306';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162307';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162315';
+UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162316';
+UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880162322';
+UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880162323';
+UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880162324';
+UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880162325';
+UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880162380';
+UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1880162381';
+UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1880162382';
+UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1880162383';
+UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='1880162344';
+UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='1880162345';
+UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='1880162346';
+UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='1880162347';
+UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162415';
+UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162412';
+UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162311';
+UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162310';
+UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162309';
+UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='1880162425';
+

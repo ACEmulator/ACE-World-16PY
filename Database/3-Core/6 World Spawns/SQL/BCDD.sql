@@ -1,0 +1,30 @@
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (2577, 2077085696, 3168600065, 80.7535, 175.126, -0.895, -0.201833, 0, 0, -0.97942) /* Shallows Shark */
+     , (2577, 2077085697, 3168600065, 81.3769, 171.228, -0.895, 0.519932, 0, 0, -0.854208) /* Shallows Shark */
+     , (2577, 2077085698, 3168600065, 101.744, 170.074, -0.895, 0.687568, 0, 0, -0.72612) /* Shallows Shark */
+     , (2577, 2077085699, 3168600065, 101.701, 162.356, -0.895, -0.0168647, 0, 0, -0.999858) /* Shallows Shark */
+     , (2577, 2077085700, 3168600065, 88.0812, 153.142, -0.895, -0.537949, 0, 0, -0.842977) /* Shallows Shark */
+     , (2577, 2077085701, 3168600065, 80.4614, 140.662, -0.895, 0.276092, 0, 0, -0.961131) /* Shallows Shark */
+     , (2577, 2077085702, 3168600065, 88.3409, 141.886, -0.895, 0.794608, 0, 0, -0.607123) /* Shallows Shark */
+     , (2578, 2077085703, 3168600065, 66.3014, 117.719, -0.895, 0.498697, 0, 0, 0.866777) /* Shallows Lurker */
+     , (2578, 2077085704, 3168600065, 57.1897, 123.505, -0.895, 0.879289, 0, 0, 0.476289) /* Shallows Lurker */
+     , (2578, 2077085705, 3168600065, 44.5986, 126.503, -0.895, 0.782933, 0, 0, 0.622106) /* Shallows Lurker */
+     , (2579, 2077085706, 3168600065, 59.3524, 136.437, -0.895, 0.909561, 0, 0, -0.415571) /* Shallows Slayer */
+     , (2579, 2077085707, 3168600065, 69.66, 146.419, -0.895, 0.986242, 0, 0, -0.165309) /* Shallows Slayer */
+     , (1154, 2077085708, 3168600065, 117.02, 100.47, -0.095, -0.0429888, 0, 0, -0.999076) /* linkmonstergen */;
+
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077085708';
+
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085696';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085697';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085698';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085699';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085700';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085701';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085702';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085703';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085704';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085705';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085706';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085707';
+

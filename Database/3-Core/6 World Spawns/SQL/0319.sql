@@ -1,0 +1,61 @@
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (9687, 1882296320, 51970304, 0.0230001, -43.404, -5.995, 0, 0, 0, -1) /* Storage */
+     , (9687, 1882296321, 51970304, -3.608, -39.98, -5.995, -0.707107, 0, 0, -0.707107) /* Storage */
+     , (278, 1882296322, 51970306, 4.75, -40, -6, 0.707107, 0, 0, -0.707107) /* Door */
+     , (11697, 1882296323, 51970307, 14.0306, -20.114, -5.995, 0.696707, 0, 0, -0.717356) /* Floor Hook */
+     , (9686, 1882296324, 51970307, 10.1259, -15.604, -4.32, -0.999989, 0, 0, -0.00478195) /* Wall Hook */
+     , (278, 1882296325, 51970309, 10, -24.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
+     , (11697, 1882296326, 51970320, 20, 4.13086, -5.995, 1, 0, 0, -4.37114E-08) /* Floor Hook */
+     , (9686, 1882296327, 51970320, 15.6054, -0.00737062, -4.3, -0.707107, 0, 0, -0.707107) /* Wall Hook */
+     , (278, 1882296328, 51970322, 20, -4.75, -6, -4.37114E-08, 0, 0, -1) /* Door */
+     , (9686, 1882296329, 51970328, 19.9588, -15.1013, -4.3, 1, 0, 0, 0) /* Wall Hook */
+     , (11697, 1882296330, 51970328, 20, -20, -5.995, 1, 0, 0, 0) /* Floor Hook */
+     , (9686, 1882296331, 51970328, 15.1014, -19.9684, -4.3, -0.714424, 0, 0, -0.699713) /* Wall Hook */
+     , (14059, 1882296332, 51970328, 20.0682, -18.5777, -5.995, 1, 0, 0, 0) /* Villa */
+     , (9686, 1882296333, 51970329, 19.9979, -34.8959, -4.3, 0.00368296, 0, 0, -0.999993) /* Wall Hook */
+     , (11697, 1882296334, 51970329, 20, -30, -5.995, 1, 0, 0, -4.37114E-08) /* Floor Hook */
+     , (9686, 1882296335, 51970329, 24.8939, -29.9547, -4.3, 0.714424, 0, 0, -0.699713) /* Wall Hook */
+     , (11730, 1882296336, 51970335, 20, -50, -5.995, 1, 0, 0, 0) /* House Portal */
+     , (10762, 1882296351, 51970335, 146.776, 107.924, 135.205, -0.719142, 0, 0, -0.694864) /* Portal Linkspot */
+     , (568, 1882296337, 51970337, 20, -45.25, -6, 1, 0, 0, 0) /* Door */
+     , (9686, 1882296338, 51970348, 29.8549, -34.3941, -4.3, -0.029195, 0, 0, -0.999574) /* Wall Hook */
+     , (278, 1882296339, 51970350, 30, -25.25, -6, 1, 0, 0, 0) /* Door */
+     , (11697, 1882296340, 51970351, 40, -5.99258, -5.995, 1, 0, 0, 0) /* Floor Hook */
+     , (9686, 1882296341, 51970351, 44.388, -10.2405, -4.3, 0.704517, 0, 0, -0.709687) /* Wall Hook */
+     , (278, 1882296342, 51970353, 35.25, -10, -6, -0.707107, 0, 0, -0.707107) /* Door */
+     , (9686, 1882296343, 51970354, -4.39398, -20.0622, 1.5, -0.696708, 0, 0, -0.717355) /* Wall Hook */
+     , (11697, 1882296344, 51970354, -0.752003, -24.0199, 0.005, -0.00525027, 0, 0, 0.999986) /* Floor Hook */
+     , (278, 1882296345, 51970356, 4.75, -20, 0, 0.707107, 0, 0, -0.707107) /* Door */
+     , (9686, 1882296346, 51970361, 10.0959, -29.9483, 1.5, -0.354161, 0, 0, -0.935185) /* Wall Hook */
+     , (9686, 1882296347, 51970364, 29.9432, -20.0868, 1.5, 0.935786, 0, 0, -0.352568) /* Wall Hook */
+     , (11697, 1882296348, 51970369, 44.1812, -30.4155, 0.005, 0.716417, 0, 0, -0.697672) /* Floor Hook */
+     , (9686, 1882296349, 51970369, 40.1348, -25.6021, 1.68725, 0.999755, 0, 0, -0.0221374) /* Wall Hook */
+     , (278, 1882296350, 51970371, 35.25, -30, 0, -0.707107, 0, 0, -0.707107) /* Door */;
+
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882296332';
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882296336';
+
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296320';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296321';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296323';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296324';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296326';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296327';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296329';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296330';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296331';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296333';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296334';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296335';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296336';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296338';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296340';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296341';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296343';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296344';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296346';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296347';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296348';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882296349';
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882296351';
+

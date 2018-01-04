@@ -1,0 +1,72 @@
+/* Weenie - Quality Chilling Isparian Mace (19889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19889;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (19889, 'maceisparianshiveringmajor');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
+VALUES (19889, 18, 19889);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19889, 1, 'Quality Chilling Isparian Mace') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (19889, 1, 33556382) /* SETUP_DID */
+     , (19889, 3, 536870932) /* SOUND_TABLE_DID */
+     , (19889, 37, 5) /* ITEM_SKILL_LIMIT_DID */
+     , (19889, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
+     , (19889, 6, 67111919) /* PALETTE_BASE_DID */
+     , (19889, 7, 268436382) /* CLOTHINGBASE_DID */
+     , (19889, 8, 100672914) /* ICON_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19889, 9, 1048576) /* LOCATIONS_INT */
+     , (19889, 1, 1) /* ITEM_TYPE_INT */
+     , (19889, 19, 2000) /* VALUE_INT */
+     , (19889, 3, 2) /* PALETTE_TEMPLATE_INT */
+     , (19889, 5, 750) /* ENCUMB_VAL_INT */
+     , (19889, 16, 1) /* ITEM_USEABLE_INT */
+     , (19889, 8, 950) /* MASS_INT */
+     , (19889, 18, 1) /* UI_EFFECTS_INT */
+     , (19889, 150, 103) /* HOOK_PLACEMENT_INT */
+     , (19889, 151, 2) /* HOOK_TYPE_INT */
+     , (19889, 93, 1044) /* PHYSICS_STATE_INT */
+     , (19889, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (19889, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (19889, 160, 20) /* WIELD_DIFFICULTY_INT */
+     , (19889, 33, 1) /* BONDED_INT */
+     , (19889, 36, 9999) /* RESIST_MAGIC_INT */
+     , (19889, 166, 38) /* SLAYER_CREATURE_TYPE_INT */
+     , (19889, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (19889, 107, 300) /* ITEM_CUR_MANA_INT */
+     , (19889, 44, 18) /* DAMAGE_INT */
+     , (19889, 108, 300) /* ITEM_MAX_MANA_INT */
+     , (19889, 45, 8) /* DAMAGE_TYPE_INT */
+     , (19889, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
+     , (19889, 47, 4) /* ATTACK_TYPE_INT */
+     , (19889, 48, 5) /* WEAPON_SKILL_INT */
+     , (19889, 49, 35) /* WEAPON_TIME_INT */
+     , (19889, 51, 1) /* COMBAT_USE_INT */
+     , (19889, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (19889, 9007, 6) /* MeleeWeapon_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19889, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (19889, 21, 0.6) /* WEAPON_LENGTH_FLOAT */
+     , (19889, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (19889, 39, 1) /* DEFAULT_SCALE_FLOAT */
+     , (19889, 138, 3) /* SLAYER_DAMAGE_BONUS_FLOAT */
+     , (19889, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */
+     , (19889, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19889, 69, False) /* IS_SELLABLE_BOOL */
+     , (19889, 22, True) /* INSCRIBABLE_BOOL */
+     , (19889, 23, True) /* DESTROY_ON_SELL_BOOL */;
+
+INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (19889, 1589) /* HeartSeeker3_SpellID */
+     , (19889, 1613) /* BloodDrinker3_SpellID */
+     , (19889, 1035) /* ColdProtectionSelf6_SpellID */
+     , (19889, 1377) /* CoordinationSelf5_SpellID */;
+

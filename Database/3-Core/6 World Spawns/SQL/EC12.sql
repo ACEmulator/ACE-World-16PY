@@ -1,0 +1,48 @@
+INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+VALUES (27863, 2126585856, 3960602625, 127.497, 37.8518, 104.007, -0.902211, 0, 0, -0.431294) /* Mosswart Cringer */
+     , (27863, 2126585857, 3960602625, 126.831, 43.6282, 104.007, -0.319185, 0, 0, -0.947692) /* Mosswart Cringer */
+     , (27863, 2126585858, 3960602625, 133.586, 50.216, 103.907, 0.386892, 0, 0, -0.922125) /* Mosswart Cringer */
+     , (27864, 2126585859, 3960602625, 140.418, 48.3478, 103.907, -0.495506, 0, 0, -0.868605) /* Mosswart Muck Stalker */
+     , (27864, 2126585860, 3960602625, 132.086, 41.0797, 104.007, -0.975322, 0, 0, 0.220787) /* Mosswart Muck Stalker */
+     , (27864, 2126585861, 3960602625, 101.836, 56.7141, 103.907, -0.378547, 0, 0, -0.925582) /* Mosswart Muck Stalker */
+     , (27864, 2126585862, 3960602625, 103.639, 49.0669, 103.907, 0.949552, 0, 0, 0.313609) /* Mosswart Muck Stalker */
+     , (27863, 2126585863, 3960602625, 97.8057, 53.8049, 103.907, 0.616892, 0, 0, -0.787048) /* Mosswart Cringer */
+     , (27863, 2126585864, 3960602625, 108.471, 56.4506, 103.907, -0.478247, 0, 0, -0.878225) /* Mosswart Cringer */
+     , (27864, 2126585865, 3960602625, 111.045, 85.288, 103.557, 0.998171, 0, 0, -0.0604593) /* Mosswart Muck Stalker */
+     , (27864, 2126585866, 3960602625, 121.671, 84.6674, 103.107, 0.975997, 0, 0, 0.217785) /* Mosswart Muck Stalker */
+     , (27863, 2126585867, 3960602625, 121.671, 84.6674, 103.107, 0.975997, 0, 0, 0.217785) /* Mosswart Cringer */
+     , (27863, 2126585868, 3960602625, 138.764, 99.6232, 103.107, 0.742896, 0, 0, 0.669407) /* Mosswart Cringer */
+     , (28000, 2126585869, 3960602625, 133.986, 110.589, 103.105, 0.653642, 0, 0, 0.756804) /* Mosswart Scavenger */
+     , (28000, 2126585870, 3960602625, 125.699, 141.713, 103.556, -0.22893, 0, 0, -0.973443) /* Mosswart Scavenger */
+     , (22257, 2126585871, 3960602625, 114.12, 107.853, 103.105, -0.999924, 0, 0, 0.0123018) /* Fishing Hole */
+     , (22257, 2126585872, 3960602625, 119.647, 117.074, 103.105, -0.962823, 0, 0, 0.270134) /* Fishing Hole */
+     , (22257, 2126585873, 3960602625, 107.735, 114.126, 103.105, -0.962823, 0, 0, 0.270134) /* Fishing Hole */
+     , (22257, 2126585874, 3960602625, 110.628, 99.6546, 103.105, -0.671001, 0, 0, -0.741457) /* Fishing Hole */
+     , (22257, 2126585875, 3960602625, 107.49, 131.028, 103.105, -0.998186, 0, 0, -0.0602023) /* Fishing Hole */
+     , (22257, 2126585876, 3960602625, 119.772, 125.675, 103.105, -0.504023, 0, 0, 0.86369) /* Fishing Hole */
+     , (4219, 2126585877, 3960602625, 130.381, 46.435, 104.005, 0.999464, 0, 0, -0.0327399) /* linkmonstergen7minutes */;
+
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2126585877';
+
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585856';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585857';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585858';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585859';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585860';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585861';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585862';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585863';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585864';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585865';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585866';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585867';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585868';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585869';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585870';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585871';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585872';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585873';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585874';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585875';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585876';
+

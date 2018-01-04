@@ -1,0 +1,40 @@
+/* Weenie - Villa (10639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10639;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (10639, 'housevilla947');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
+VALUES (10639, 148, 10639);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10639, 1, 'Villa') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (10639, 1, 33557058) /* SETUP_DID */
+     , (10639, 8, 100671886) /* ICON_DID */
+     , (10639, 42, 947) /* HOUSEID_DID */
+     , (10639, 44, 151) /* RESTRICTION_EFFECT_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10639, 161, 50) /* HOUSE_MAX_HOOKS_USABLE_INT */
+     , (10639, 9, 0) /* LOCATIONS_INT */
+     , (10639, 1, 128) /* ITEM_TYPE_INT */
+     , (10639, 93, 52) /* PHYSICS_STATE_INT */
+     , (10639, 5, 10) /* ENCUMB_VAL_INT */
+     , (10639, 16, 1) /* ITEM_USEABLE_INT */
+     , (10639, 8, 10) /* MASS_INT */
+     , (10639, 155, 2) /* HOUSE_TYPE_INT */
+     , (10639, 19, 0) /* VALUE_INT */
+     , (10639, 9007, 53) /* House_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10639, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10639, 1, True) /* STUCK_BOOL */
+     , (10639, 71, True) /* NODRAW_BOOL */
+     , (10639, 13, True) /* ETHEREAL_BOOL */
+     , (10639, 14, False) /* GRAVITY_STATUS_BOOL */
+     , (10639, 24, True) /* UI_HIDDEN_BOOL */;
+
