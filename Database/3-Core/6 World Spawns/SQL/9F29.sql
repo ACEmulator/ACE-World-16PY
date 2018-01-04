@@ -14,18 +14,18 @@ VALUES (3954, 2045939725, 2670264582, 11.4933, 156.367, 290.005, -0.411547, 0, 0
      , (25791, 2045939720, 2670264321, 35.9044, 132.257, 290.005, 0.00287147, 0, 0, -0.999996) /* Numb */
      , (25790, 2045939719, 2670264321, 36.6449, 135.789, 290.005, -0.920189, 0, 0, -0.391474) /* Nip */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045939713';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2045939725';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045939713'; /* linkmonstergen7minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2045939725'; /* linkitemgen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939712';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939714';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939715';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939717';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939716';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939718';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939719';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939720';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939722';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939723';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939724';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939712'; /* linkmonstergen7minutes <- Sam */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939714'; /* linkmonstergen7minutes <- Robert */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939715'; /* linkmonstergen7minutes <- The Mayor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939717'; /* linkmonstergen7minutes <- Emma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939716'; /* linkmonstergen7minutes <- Elijah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939718'; /* linkmonstergen7minutes <- Chef Pleist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939719'; /* linkmonstergen7minutes <- Nip */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939720'; /* linkmonstergen7minutes <- Numb */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939722'; /* linkitemgen15minutes <- Poofy Snowball */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939723'; /* linkitemgen15minutes <- Poofy Snowball */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939724'; /* linkitemgen15minutes <- Poofy Snowball */
 

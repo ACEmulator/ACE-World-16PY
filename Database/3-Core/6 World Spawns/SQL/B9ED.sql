@@ -21,10 +21,10 @@ VALUES (7365, 2074005504, 3119316993, 120.732, 36.0609, 8.17331, 0.140177, 0, 0,
      , (7216, 2074005526, 3119316993, 102.975, 180.217, 100.149, -0.945071, 0, 0, 0.326864) /* lavalandashwestmixgen */
      , (7216, 2074005527, 3119316993, 123.866, 88.5251, 39.6446, -0.209628, 0, 0, 0.977781) /* lavalandashwestmixgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074005514';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074005514'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005515';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005516';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005517';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005518';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005515'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005516'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005517'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005518'; /* linkmonstergen3minutes <- Mist Golem */
 

@@ -10,7 +10,7 @@ VALUES (26587, 2075541504, 3143893261, 2.21711, 85.6406, 1.205, 0.0149285, 0, 0,
      , (27103, 2075541509, 3143892993, 25.2428, 168.985, 21.36, 0.116487, 0, 0, 0.993192) /* burunencampmentruffiangenerator */
      , (27103, 2075541508, 3143892993, 108.416, 164.841, 6.005, 0.999421, 0, 0, -0.0340289) /* burunencampmentruffiangenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075541505';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075541505'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075541504';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075541504'; /* linkmonstergen3minutes <- Odd Looking Vine */
 

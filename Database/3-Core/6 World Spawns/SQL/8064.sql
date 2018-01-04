@@ -7,9 +7,9 @@ VALUES (7923, 2013675521, 2154037504, 150.541, 159.992, 27.705, 0.976016, 0, 0, 
      , (4676, 2013675523, 2154037249, 151.126, 172.613, 28.005, 0.995039, 0, 0, -0.0994901) /* Yaraq Outpost */
      , (7923, 2013675526, 2154037249, 105.176, 56.5036, 95.205, -0.3468, 0, 0, 0.937939) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013675521';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2013675526';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013675521'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2013675526'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013675524';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2013675527';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013675524'; /* linkmonstergen3minutes <- Ahyara */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2013675527'; /* linkmonstergen3minutes <- Sentry */
 

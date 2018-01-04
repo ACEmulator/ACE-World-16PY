@@ -31,9 +31,9 @@ VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 
      , (8451, 2123505684, 3911319553, 120.7, 59.7, 3, 1, 0, 0, 0) /* Nature's Balm */
      , (8441, 2123505688, 3911319553, 14.0457, 36.922, 18.9282, -0.138733, 0, 0, 0.99033) /* Zenzaburou Hensu */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2123505677';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2123505677'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505689';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505690';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505688'; /* linkmonstergen <- Zenzaburou Hensu */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505689'; /* linkmonstergen <- Leather Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505690'; /* linkmonstergen <- Ivory Crafter */
 

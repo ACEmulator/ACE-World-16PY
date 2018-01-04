@@ -42,22 +42,22 @@ VALUES (23336, 2070556696, 3064135936, 50.4806, 136.37, 3.4978, 0.85756, 0, 0, -
      , (22257, 2070556711, 3064135681, 93.4123, 150.255, 1.555, -0.463351, 0, 0, -0.886175) /* Fishing Hole */
      , (22257, 2070556712, 3064135681, 121.937, 144.194, 1.555, 0.766635, 0, 0, -0.642083) /* Fishing Hole */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070556697';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070556697'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556696';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556698';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556699';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556700';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556702';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556703';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556704';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556705';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556706';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556707';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556708';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556709';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556710';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556711';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556712';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556713';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556696'; /* linkmonstergen3minutes <- Tackle Master */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556698'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556699'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556700'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556702'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556703'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556704'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556705'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556706'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556707'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556708'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556709'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556710'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556711'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556712'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070556713'; /* linkmonstergen3minutes <- Fishing Hole */
 

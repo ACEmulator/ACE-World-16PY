@@ -30,15 +30,15 @@ VALUES (23881, 1999667207, 1929904384, 60.2402, 183.265, 12.005, -0.285622, 0, 0
      , (24060, 1999667232, 1929904129, 91.4406, 170.868, 12.0007, 0.239332, 0, 0, -0.970938) /* Decorative Bronze Statue  */
      , (24061, 1999667233, 1929904129, 93.5983, 169.106, 12.005, -0.636316, 0, 0, -0.771428) /* Oxidized Statue  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1999667214';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1999667251';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1999667214'; /* linkitemgen25seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1999667251'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667211';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667212';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667213';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667216';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667217';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667218';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667219';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1999667239';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667211'; /* linkitemgen25seconds <- Stout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667212'; /* linkitemgen25seconds <- Stout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667213'; /* linkitemgen25seconds <- Stout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667216'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667217'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667218'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667219'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1999667239'; /* linkmonstergen5minutes <- Ulgrim the Unappreciated */
 

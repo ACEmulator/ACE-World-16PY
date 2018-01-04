@@ -10,9 +10,9 @@ VALUES (887, 2010537984, 2103836673, 80.933, 133.718, 10.005, -0.0866729, 0, 0, 
      , (940, 2010537995, 2103836673, 113.17, 95.3906, 10.005, -0.019239, 0, 0, -0.999815) /* Drudge Sneaker */
      , (4219, 2010537996, 2103836673, 115.654, 95.1658, 10.005, 0.579403, 0, 0, 0.815041) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010537996';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010537996'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537995';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537994';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537993';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537995'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537994'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537993'; /* linkmonstergen7minutes <- Drudge Prowler */
 

@@ -8,7 +8,7 @@ VALUES (1378, 2062389251, 2933457154, 178.368, 29.9465, 16.005, -0.0382559, 0, 0
      , (412, 2062389250, 2933456897, 186.278, 30.0483, 16, -0.710799, 0, 0, -0.703395) /* Door */
      , (509, 2062389255, 2933456897, 178.332, 65.8374, 16.005, 0.999998, 0, 0, -0.00197659) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062389253';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062389253'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062389252';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062389252'; /* linkmonstergen <- Tan Rat */
 

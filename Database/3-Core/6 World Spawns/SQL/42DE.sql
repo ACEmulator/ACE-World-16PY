@@ -7,8 +7,8 @@ VALUES (1369, 1949163520, 1121845249, 17.8754, 66.9698, 0.005, -0.976146, 0, 0, 
      , (3953, 1949163525, 1121845249, 16.8755, 88.5354, 0.005, 0.64814, 0, 0, -0.761522) /* linkmonstergen30minutes */
      , (30386, 1949163526, 1121845249, 12.8004, 74.3821, 4.005, -0.957745, 0, 0, -0.28762) /* Suzuhara Sheshumi */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1949163525';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1949163525'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1949163524';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1949163526';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1949163524'; /* linkmonstergen30minutes <- Feruza ibn Salaq */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1949163526'; /* linkmonstergen30minutes <- Suzuhara Sheshumi */
 

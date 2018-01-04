@@ -11,15 +11,15 @@ VALUES (412, 2140291072, 4179886345, 83.05, 82.24, 30.01, -1, 0, 0, 0) /* Door *
      , (7925, 2140291081, 4179886081, 166.299, 179.546, -0.895, 0.867083, 0, 0, 0.498164) /* linkmonstergen10minutes */
      , (8470, 2140291082, 4179886081, 164.084, 189.422, -0.895, 0.99828, 0, 0, -0.0586229) /* Sulthis Eye Stalk */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2140291078';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2140291081';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2140291078'; /* linkmonstergen7minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2140291081'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291073';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291077';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291076';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291079';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291080';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291074';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291075';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291082';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291073'; /* linkmonstergen7minutes <- Sata Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291077'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291076'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140291079'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291080'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291074'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291075'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2140291082'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
 

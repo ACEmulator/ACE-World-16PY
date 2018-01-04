@@ -17,12 +17,12 @@ VALUES (884, 2040057856, 2576154880, 154.808, 50.6586, 104.805, 0.167685, 0, 0, 
      , (25450, 2040057866, 2576154625, 155.525, 44.2053, 110.005, -0.281523, 0, 0, -0.959554) /* A small pile of rocks */
      , (25450, 2040057867, 2576154625, 141.271, 38.3649, 110.005, -0.0182977, 0, 0, -0.999833) /* A small pile of rocks */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040057872';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040057872'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057866';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057867';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057869';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057868';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057870';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057871';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057866'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057867'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057869'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057868'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057870'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057871'; /* linkmonstergen3minutes <- A small pile of rocks */
 

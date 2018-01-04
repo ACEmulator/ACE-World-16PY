@@ -25,29 +25,29 @@ VALUES (5683, 2097487899, 3495035136, 176.5, 9.65124, 246.805, 0.979303, 0, 0, 0
      , (1626, 2097487908, 3495034881, 140.559, 51.2243, 238.012, 0.784462, 0, 0, -0.620177) /* Silver Rat */
      , (1988, 2097487907, 3495034881, 126.1, 29.7544, 238.005, 0.249644, 0, 0, 0.968338) /* Dark Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2097487918';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2097487918'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487897';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487898';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487899';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487900';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487901';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487902';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487903';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487904';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487905';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487906';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487907';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487908';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487884';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487909';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487886';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487910';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487911';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487912';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487913';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487914';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487915';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487916';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487917';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487897'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487898'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487899'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487900'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487901'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487902'; /* linkmonstergen7minutes <- Kilif Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487903'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487904'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487905'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487906'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487907'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487908'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487884'; /* linkmonstergen7minutes <- Kilif Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487909'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487886'; /* linkmonstergen7minutes <- Kilif Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487910'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487911'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487912'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487913'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487914'; /* linkmonstergen7minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487915'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487916'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2097487917'; /* linkmonstergen7minutes <- Kilif Zefir */
 

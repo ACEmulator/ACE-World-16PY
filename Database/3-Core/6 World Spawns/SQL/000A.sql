@@ -51,51 +51,51 @@ VALUES (30711, 1879089154, 655617, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -
      , (25879, 1879089209, 655822, 13.5088, -79.7573, 6.012, 0.69925, 0, 0, 0.714877) /* Pestilence Rat */
      , (25879, 1879089210, 655837, 32.6071, -69.8589, 6.012, 0.801726, 0, 0, 0.597692) /* Pestilence Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879089155';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1879089165';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1879089193';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1879089207';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879089155'; /* linkmonstergen30seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1879089165'; /* linkmonstergen1minute */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1879089193'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1879089207'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089154';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089158';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089157';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089160';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089164';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089163';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089162';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089161';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089167';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089166';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089175';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089176';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089181';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089169';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089168';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089170';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089177';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089180';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089179';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089178';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089208';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089209';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089210';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089189';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089184';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089183';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089188';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089203';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089204';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089192';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089187';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089182';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089171';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089172';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089173';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089200';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089195';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089205';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089186';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089201';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089198';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089197';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089154'; /* linkmonstergen30seconds <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089158'; /* linkmonstergen30seconds <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089157'; /* linkmonstergen30seconds <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879089160'; /* linkmonstergen30seconds <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089164'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089163'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089162'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089161'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089167'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089166'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089175'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089176'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089181'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089169'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089168'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089170'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089177'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089180'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089179'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089178'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089208'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089209'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879089210'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089189'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089184'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089183'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089188'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089203'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879089204'; /* linkmonstergen3minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089192'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089187'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089182'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089171'; /* linkmonstergen2minutes <- Pestilence Rat */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089172'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089173'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089200'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089195'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089205'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089186'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089201'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089198'; /* linkmonstergen2minutes <- Restless Spirit */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879089197'; /* linkmonstergen2minutes <- Restless Spirit */
 

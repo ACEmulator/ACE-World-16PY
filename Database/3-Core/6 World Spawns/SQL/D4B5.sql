@@ -15,20 +15,20 @@ VALUES (2565, 2102087680, 3568631809, 93.7447, 77.825, -0.0894999, 0.290695, 0, 
      , (2579, 2102087693, 3568631809, 118.191, 126.789, -0.895, -0.877687, 0, 0, -0.479234) /* Shallows Slayer */
      , (1154, 2102087694, 3568631809, 91.4546, 53.6129, 0.005, -0.439422, 0, 0, -0.898281) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102087694';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102087694'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087680';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087681';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087682';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087683';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087684';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087685';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087686';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087687';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087689';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087690';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087691';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087692';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087693';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087680'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087681'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087682'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087683'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087684'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087685'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087686'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087687'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087688'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087689'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087690'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087691'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087692'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102087693'; /* linkmonstergen <- Shallows Slayer */
 

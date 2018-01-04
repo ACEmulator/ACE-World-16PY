@@ -14,19 +14,19 @@ VALUES (2582, 2002575360, 1976434689, 106.885, 44.4537, 302.87, 0.191177, 0, 0, 
      , (2399, 2002575372, 1976434689, 56.7213, 38.0942, 302.728, 0.743068, 0, 0, -0.669216) /* White Jade */
      , (1542, 2002575373, 1976434689, 55.4336, 37.2557, 302.724, 0.978414, 0, 0, -0.206653) /* linkitemgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2002575366';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2002575371';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2002575373';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2002575366'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2002575371'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2002575373'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575360';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575361';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575362';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575363';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575364';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575365';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575367';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575368';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575369';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575370';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2002575372';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575360'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575361'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575362'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575363'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575364'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575365'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575367'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575368'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575369'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575370'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2002575372'; /* linkitemgen <- White Jade */
 

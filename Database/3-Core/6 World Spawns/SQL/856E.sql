@@ -11,9 +11,9 @@ VALUES (1815, 2018959364, 2238578944, 129.679, 14.2732, 14.005, -0.37542, 0, 0, 
      , (1148, 2018959363, 2238578689, 139.51, 18.25, 14, 0.707107, 0, 0, 0.707107) /* Door */
      , (1791, 2018959366, 2238578689, 130.47, 10.5797, 17.549, 1, 0, 0, 0) /* Smith Maqura */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2018959367';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2018959367'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959368';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959369';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959370';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959368'; /* linkmonstergen <- Ya-Bint-Al-Hawa */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959369'; /* linkmonstergen <- Anid Al-Fadee */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959370'; /* linkmonstergen <- Gabal Feteh */
 

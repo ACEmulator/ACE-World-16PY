@@ -13,7 +13,7 @@ VALUES (412, 2112163840, 3729850629, 84.95, 133.76, 16.01, 0, 0, 0, -1) /* Door 
      , (5108, 2112163850, 3729850369, 29.6267, 103.483, 16.9082, -0.429638, 0, 0, -0.903001) /* LIFESTONES SIGN */
      , (12725, 2112163857, 3729850369, 109.504, 81.1371, 29.205, 0.81105, 0, 0, -0.584977) /* Sentry */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2112163856';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2112163856'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2112163857';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2112163857'; /* linkmonstergen3minutes <- Sentry */
 

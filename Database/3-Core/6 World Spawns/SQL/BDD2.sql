@@ -14,12 +14,12 @@ VALUES (8654, 2078089227, 3184656653, 156.552, 69.0686, 186.005, -0.676902, 0, 0
      , (5838, 2078089222, 3184656385, 182.205, 68.453, 190.005, 0.382683, 0, 0, -0.92388) /* Jourgensson */
      , (5835, 2078089221, 3184656385, 134.418, 64.387, 186.005, 0.92388, 0, 0, -0.382683) /* Provisioner Murdo */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2078089225';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2078089225'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089223';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089229';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089220';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089218';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089227';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089222';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089223'; /* linkmonstergen15minutes <- Karwin, the Lunatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089229'; /* linkmonstergen15minutes <- Journeyman Cook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089220'; /* linkmonstergen15minutes <- Gwillim, the Apprentice */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089218'; /* linkmonstergen15minutes <- MacDugal */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089227'; /* linkmonstergen15minutes <- Gillian the Poacher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078089222'; /* linkmonstergen15minutes <- Jourgensson */
 

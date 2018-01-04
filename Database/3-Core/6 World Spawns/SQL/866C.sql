@@ -19,7 +19,7 @@ VALUES (143, 2019999746, 2255225089, 151.24, 176.823, 9.705, 0.708955, 0, 0, 0.7
      , (6441, 2019999754, 2255224833, 156.129, 169.143, 10, 0.217715, 0, 0, -0.976012) /* Well */
      , (1910, 2019999753, 2255224833, 27.4715, 14.4277, 9.71065, 1, 0, 0, 0) /* Tufa */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019999757';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019999757'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019999756';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019999756'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

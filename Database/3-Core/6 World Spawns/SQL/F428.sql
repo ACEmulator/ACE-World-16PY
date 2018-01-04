@@ -6,10 +6,10 @@ VALUES (8482, 2135064576, 4096262400, 108, 176, 21.66, 1, 0, 0, 0) /* Small Temp
      , (7110, 2135064581, 4096262145, 103.425, 151.683, 28.005, 0.736738, 0, 0, 0.676178) /* Ulu Sclavus */
      , (7110, 2135064580, 4096262145, 107.007, 156.573, 32.055, -0.240083, 0, 0, 0.970752) /* Ulu Sclavus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2135064577';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2135064577'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064578';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064579';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064580';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064581';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064578'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064579'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064580'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135064581'; /* linkmonstergen5minutes <- Ulu Sclavus */
 

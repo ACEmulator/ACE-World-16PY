@@ -7,7 +7,7 @@ VALUES (3951, 2056962055, 2846621957, 35.0556, 16.3168, 78.005, 0.704387, 0, 0, 
      , (152, 2056962051, 2846621697, 55.2338, 31.5182, 77.3675, 0.599547, 0, 0, 0.80034) /* Font */
      , (174, 2056962054, 2846621697, 27.0959, 31.3504, 77.3925, 0.0467018, 0, 0, -0.998909) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056962055';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056962055'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056962056';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056962056'; /* linkmonstergen1hour <- Eldrista the Adventurer */
 

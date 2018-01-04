@@ -9,14 +9,14 @@ VALUES (1760, 2045214721, 2658664704, 86.0083, 86.0349, 26.005, -0.781817, 0, 0,
      , (1761, 2045214726, 2658664449, 85.4627, 84.5061, 41.205, -0.147991, 0, 0, -0.988989) /* Skeleton Captain */
      , (1760, 2045214725, 2658664449, 87.4674, 80.507, 41.205, 0.983724, 0, 0, 0.179686) /* Skeleton Warrior */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045214728';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045214728'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214720';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214721';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214722';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214723';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214724';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214725';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214726';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214727';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214720'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214721'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214722'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214723'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214724'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214725'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214726'; /* linkmonstergen <- Skeleton Captain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045214727'; /* linkmonstergen <- Skeleton Warrior */
 

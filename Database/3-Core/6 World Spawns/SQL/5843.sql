@@ -17,21 +17,21 @@ VALUES (6645, 1971597331, 1480786176, 2.8708, -47.526, -11.99, 0.117311, 0, 0, -
      , (7607, 1971597322, 1480786242, 57.4595, -39.1378, 0.0065, 0.994077, 0, 0, -0.108677) /* Ember */
      , (7924, 1971597323, 1480786250, 47.5694, -2.73518, 6.005, 0.00917398, 0, 0, 0.999958) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1971597323';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1971597323'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597317';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597318';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597319';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597320';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597322';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597321';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597315';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597316';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597314';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597312';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597329';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597331';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597332';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597334';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597317'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597318'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597319'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597320'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597322'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597321'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597315'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597316'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597314'; /* linkmonstergen5minutes <- Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597313'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597312'; /* linkmonstergen5minutes <- Ember */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597329'; /* linkmonstergen5minutes <- Magma Golem Exarch */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597331'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597332'; /* linkmonstergen5minutes <- Inferno */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971597334'; /* linkmonstergen5minutes <- Magma Golem */
 

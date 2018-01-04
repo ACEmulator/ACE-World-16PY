@@ -19,7 +19,7 @@ VALUES (1630, 1943212038, 1026621696, 156.011, 59.8305, 316.008, 0.987443, 0, 0,
      , (912, 1943212044, 1026621441, 156.7, 61.1293, 321.014, 0.799331, 0, 0, -0.600891) /* revenantgenerator */
      , (911, 1943212045, 1026621441, 154.545, 60.9306, 321.014, -0.667872, 0, 0, -0.744276) /* lichgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1943212041';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1943212041'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1943212038';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1943212038'; /* linkmonstergen <- Lich Lord */
 

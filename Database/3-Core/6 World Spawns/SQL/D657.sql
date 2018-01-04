@@ -9,14 +9,14 @@ VALUES (192, 2103799814, 3596026114, 156.258, 61.5682, 25.2055, 0.0443321, 0, 0,
      , (1154, 2103799809, 3596025857, 149.664, 20.7554, 30.005, -0.0994797, 0, 0, 0.99504) /* linkmonstergen */
      , (4109, 2103799810, 3596025857, 152.78, 20.3847, 30.011, -0.912033, 0, 0, 0.410118) /* Carrion Shreth */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2103799809';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2103799809'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799811';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799812';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799813';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799814';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799815';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799816';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799810';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799808';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799811'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799812'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799813'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799814'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799815'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799816'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799810'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103799808'; /* linkmonstergen <- Gnawer Shreth */
 

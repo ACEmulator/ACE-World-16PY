@@ -8,8 +8,8 @@ VALUES (7925, 2062254089, 2931294466, 11.3773, 81.8636, 96, -0.639249, 0, 0, 0.7
      , (1429, 2062254082, 2931294209, 10.0096, 73.4443, 96.005, 0.99824, 0, 0, 0.0593073) /* itemcabbagegenerator */
      , (1429, 2062254083, 2931294209, 12.0664, 73.0563, 96.005, 0.00583338, 0, 0, -0.999983) /* itemcabbagegenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062254089';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062254089'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254087';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254088';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254087'; /* linkmonstergen10minutes <- Banderling Blade */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254088'; /* linkmonstergen10minutes <- Banderling Ogre */
 

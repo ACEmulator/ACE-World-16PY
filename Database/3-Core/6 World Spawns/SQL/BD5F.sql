@@ -14,19 +14,19 @@ VALUES (941, 2077618184, 3177119745, 182.16, 9.79337, 5.911, -0.638935, 0, 0, -0
      , (941, 2077618196, 3177119745, 178.084, 3.16924, 5.561, -0.374925, 0, 0, 0.927055) /* Water Golem */
      , (7923, 2077618197, 3177119745, 178.837, 12.4531, 5.555, -0.142626, 0, 0, -0.989777) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077618197';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077618197'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618184';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618185';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618187';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618188';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618189';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618191';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618192';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618193';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618194';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618195';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618196';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618186';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618190';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618184'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618185'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618187'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618188'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618189'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618191'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618192'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618193'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618194'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618195'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618196'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618186'; /* linkmonstergen3minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077618190'; /* linkmonstergen3minutes <- Water Golem */
 

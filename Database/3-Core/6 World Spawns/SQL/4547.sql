@@ -5,10 +5,10 @@ VALUES (194, 1951690752, 1162280961, 189.97, 79.9196, 18.7014, 0.0357912, 0, 0, 
      , (1154, 1951690755, 1162280961, 183.517, 75.6158, 19.4024, -0.800058, 0, 0, 0.599923) /* linkmonstergen */
      , (1987, 1951690756, 1162280961, 86.67, 15.9415, 11.1733, 0.433298, 0, 0, -0.901251) /* Ghost Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951690755';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951690755'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690752';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690753';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690754';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690756';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690752'; /* linkmonstergen <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690753'; /* linkmonstergen <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690754'; /* linkmonstergen <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951690756'; /* linkmonstergen <- Ghost Wisp */
 

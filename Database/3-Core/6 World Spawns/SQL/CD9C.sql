@@ -16,14 +16,14 @@ VALUES (192, 2094645252, 3449553154, 84.867, 149.934, 21.205, 0.853138, 0, 0, -0
      , (412, 2094645250, 3449552897, 65.4446, 127.753, 22, -0.864274, 0, 0, -0.503021) /* Door */
      , (174, 2094645262, 3449552897, 55.9345, 150.022, 22.005, -0.549164, 0, 0, 0.835714) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094645254';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094645254'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645252';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645253';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645256';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645257';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645258';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645263';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645261';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645260';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645252'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645253'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645256'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645257'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645258'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645263'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645261'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645260'; /* linkmonstergen <- Drudge Prowler */
 

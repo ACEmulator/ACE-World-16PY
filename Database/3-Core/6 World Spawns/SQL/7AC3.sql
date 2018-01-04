@@ -8,9 +8,9 @@ VALUES (1132, 2007773184, 2059599873, 93.4587, 70.6899, 209.59, -0.740246, 0, 0,
      , (1022, 2007773190, 2059599873, 53.3458, 84.0209, 229.67, 0.0366308, 0, 0, 0.999329) /* Mayoi Portal */
      , (1154, 2007773191, 2059599873, 44.7165, 70.4087, 230.826, -0.114247, 0, 0, 0.993452) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007773191';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007773191'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773185';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773186';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773187';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773185'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773186'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773187'; /* linkmonstergen <- Ice Golem */
 

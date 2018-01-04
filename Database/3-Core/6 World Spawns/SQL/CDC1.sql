@@ -10,13 +10,13 @@ VALUES (14518, 2094796831, 3451977729, 65.084, 72.7267, 0.00700001, -0.691435, 0
      , (14518, 2094796830, 3451977729, 76.2977, 65.4277, 0.00700001, 0.0749845, 0, 0, -0.997185) /* Shivver */
      , (21418, 2094796833, 3451977729, 73.8507, 72.7684, 0.005, 0.729495, 0, 0, -0.683987) /* Frost Guardian Lair */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094796824';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094796824'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796825';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796826';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796827';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796828';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796829';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796830';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796831';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796825'; /* linkmonstergen3minutes <- Chill */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796826'; /* linkmonstergen3minutes <- Chill */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796827'; /* linkmonstergen3minutes <- Chill */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796828'; /* linkmonstergen3minutes <- Chill */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796829'; /* linkmonstergen3minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796830'; /* linkmonstergen3minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094796831'; /* linkmonstergen3minutes <- Shivver */
 

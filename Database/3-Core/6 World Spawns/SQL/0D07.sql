@@ -11,14 +11,14 @@ VALUES (30795, 1892708353, 218562817, 60.2218, 84.8796, 43.514, 0.707107, 0, 0, 
      , (25876, 1892708360, 218562561, 59.0846, 81.4177, 0.00499999, 0.905728, 0, 0, -0.423859) /* Sephal Nefane */
      , (25875, 1892708361, 218562561, 58.5923, 83.7553, 0.00499999, 0.976675, 0, 0, 0.214722) /* Parfal Nefane */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892708362';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892708362'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708355';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708356';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708357';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708358';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708359';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708360';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708361';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708354';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708355'; /* linkmonstergen5minutes <- Glissnal Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708356'; /* linkmonstergen5minutes <- Glissnal Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708357'; /* linkmonstergen5minutes <- Listris Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708358'; /* linkmonstergen5minutes <- Listris Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708359'; /* linkmonstergen5minutes <- Listris Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708360'; /* linkmonstergen5minutes <- Sephal Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708361'; /* linkmonstergen5minutes <- Parfal Nefane */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892708354'; /* linkmonstergen5minutes <- Glissnal Nefane */
 

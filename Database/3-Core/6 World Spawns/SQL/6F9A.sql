@@ -12,16 +12,16 @@ VALUES (7924, 1996070912, 1872363521, 127.381, 10.6922, 240.005, 0.704555, 0, 0,
      , (7110, 1996070922, 1872363521, 127.181, 33.2661, 238.803, 0.213596, 0, 0, 0.976922) /* Ulu Sclavus */
      , (27375, 1996070923, 1872363521, 187.766, 17.3918, 240.005, 0.782208, 0, 0, -0.623018) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1996070912';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1996070912'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070913';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070914';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070916';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070915';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070917';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070918';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070919';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070920';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070921';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070922';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070913'; /* linkmonstergen5minutes <- Essa Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070914'; /* linkmonstergen5minutes <- Aste Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070916'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070915'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070917'; /* linkmonstergen5minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070918'; /* linkmonstergen5minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070919'; /* linkmonstergen5minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070920'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070921'; /* linkmonstergen5minutes <- Ulu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1996070922'; /* linkmonstergen5minutes <- Ulu Sclavus */
 

@@ -14,17 +14,17 @@ VALUES (3970, 2035113985, 2497052928, 10.5789, 111.361, 140.889, 1, 0, 0, 0) /* 
      , (4180, 2035113992, 2497052673, 9.68077, 111.024, 147.206, -0.578764, 0, 0, -0.815495) /* Corpse */
      , (2131, 2035113994, 2497052673, 30.1485, 145.548, 129.894, -4.37114E-08, 0, 0, -1) /* Pressure Plate */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035113984';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2035113991';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035113984'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2035113991'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035113994';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035113995';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113986';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113987';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113988';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113989';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113990';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113996';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113997';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113993';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035113994'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035113995'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113986'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113987'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113988'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113989'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113990'; /* linkmonstergen15minutes <- Wood Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113996'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113997'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2035113993'; /* linkmonstergen15minutes <- Ivory Crafter */
 

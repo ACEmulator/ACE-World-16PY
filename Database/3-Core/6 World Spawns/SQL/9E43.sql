@@ -28,7 +28,7 @@ VALUES (1148, 2044997632, 2655191296, 34.8974, 178.992, 43.205, 0.707107, 0, 0, 
      , (5486, 2044997648, 2655191041, 27.268, 52.294, 50.005, 1, 0, 0, 0) /* Al-Jalima Portal */
      , (4567, 2044997647, 2655191041, 136.755, 152.403, 20.005, 0.707107, 0, 0, -0.707107) /* Lin Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2044997652';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2044997652'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2044997651';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2044997651'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

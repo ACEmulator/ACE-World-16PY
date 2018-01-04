@@ -28,24 +28,24 @@ VALUES (204, 1881985024, 46989568, 33.1573, -39.9882, -23.9925, 0.723111, 0, 0, 
      , (950, 1881985050, 46989940, 99.9972, -48.6128, 6.0075, -0.931999, 0, 0, 0.362461) /* Zombie */
      , (8192, 1881985051, 46989952, 23, -20, 12, 0.707107, 0, 0, -0.707107) /* The Floating City */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881985043';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881985043'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985039';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985038';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985036';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985033';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985029';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985030';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985028';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985024';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985032';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985031';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985027';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985047';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985049';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985050';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985045';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985046';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985025';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985034';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985039'; /* linkmonstergen7minutes <- Ghost Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985038'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985036'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985033'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985029'; /* linkmonstergen7minutes <- Lich */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985030'; /* linkmonstergen7minutes <- Lich */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985028'; /* linkmonstergen7minutes <- Lich */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985024'; /* linkmonstergen7minutes <- Lich */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985032'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985031'; /* linkmonstergen7minutes <- Lich */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985027'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985047'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985049'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985050'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985045'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985046'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985025'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881985034'; /* linkmonstergen7minutes <- Sandstone Golem */
 

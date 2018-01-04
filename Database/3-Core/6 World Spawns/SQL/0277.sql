@@ -13,15 +13,15 @@ VALUES (4219, 1881632768, 41353513, 30.3478, -40, 0.005, 1, 0, 0, 0) /* linkmons
      , (28427, 1881632777, 41353769, 110, -1.776, 6.005, 0, 0, 0, -1) /* Guardian of the Crypt */
      , (28427, 1881632778, 41353796, 190, -1.776, 6.005, 0, 0, 0, -1) /* Guardian of the Crypt */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881632772';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881632771';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881632768';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881632774';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881632772'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881632771'; /* linkmonstergen7minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881632768'; /* linkmonstergen7minutes */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881632774'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632778';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632776';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881632770';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881632769';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881632775';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632777'; /* linkmonstergen5minutes <- Guardian of the Crypt */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632778'; /* linkmonstergen5minutes <- Guardian of the Crypt */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881632776'; /* linkmonstergen5minutes <- Guardian of the Crypt */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881632770'; /* linkmonstergen7minutes <- Glogluuk */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881632769'; /* linkmonstergen7minutes <- Coglock */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881632775'; /* linkmonstergen7minutes <- Plocagruuk */
 

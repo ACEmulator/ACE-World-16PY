@@ -14,15 +14,15 @@ VALUES (1148, 2012803072, 2140078336, 156.025, 108, 121.205, 0.707107, 0, 0, 0.7
      , (12304, 2012803087, 2140078081, 162.803, 171.15, 124.005, -0.712141, 0, 0, -0.702036) /* Agent of the Arcanum  */
      , (6026, 2012803078, 2140078081, 168.131, 110.708, 124.005, -0.99993, 0, 0, -0.011845) /* Devana bint Hamudi */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2012803077';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2012803081';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2012803086';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2012803077'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2012803081'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2012803086'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803074';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803075';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803076';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803073';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803078';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012803080';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2012803085';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803074'; /* linkmonstergen15minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803075'; /* linkmonstergen15minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803076'; /* linkmonstergen15minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803073'; /* linkmonstergen15minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012803078'; /* linkmonstergen15minutes <- Devana bint Hamudi */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012803080'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2012803085'; /* linkmonstergen3minutes <- Jordan Ibn'Ikia */
 

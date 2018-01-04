@@ -15,7 +15,7 @@ VALUES (1154, 2124664846, 3929866496, 10.2572, 181.39, 78.005, -0.312238, 0, 0, 
      , (174, 2124664842, 3929866241, 17.036, 174.877, 78, 0.382683, 0, 0, -0.92388) /* Well */
      , (5108, 2124664848, 3929866241, 26.4825, 181.531, 78.2407, 0.754346, 0, 0, -0.656477) /* LIFESTONES SIGN */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2124664846';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2124664846'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2124664845';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2124664845'; /* linkmonstergen <- Inuo KonKou */
 

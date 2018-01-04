@@ -83,9 +83,9 @@ VALUES (2252, 2094272547, 3443589376, 162.438, 111.823, 54.005, -0.250755, 0, 0,
      , (2270, 2094272559, 3443589121, 140.827, 82.8542, 54.005, 0.652508, 0, 0, 0.757782) /* Physician */
      , (4776, 2094272561, 3443589121, 77.5197, 115.593, 54.005, 0.0547887, 0, 0, -0.998498) /* collectorwingshogen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094272571';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2094272589';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094272571'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2094272589'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094272570';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2094272588';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094272570'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2094272588'; /* linkmonstergen3minutes <- Lia Tze */
 

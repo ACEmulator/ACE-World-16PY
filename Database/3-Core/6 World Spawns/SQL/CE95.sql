@@ -78,14 +78,14 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (638, 2095665197, 3465871361, 89.3005, 21.4586, 20.04, -0.38671, 0, 0, -0.922201) /* Bowyer  */
      , (637, 2095665198, 3465871361, 158.76, 24.24, 20.04, 1, 0, 0, 0) /* Blacksmith  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095665191';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2095665214';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095665191'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2095665214'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665203';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665208';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665207';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665215';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665213';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665254';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665258';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665203'; /* linkmonstergen <- Weary-looking Man */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665208'; /* linkmonstergen <- Olivier Rognath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665207'; /* linkmonstergen <- Alexander the Deft */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665215'; /* linkmonstergen <- Alexander's Apprentice */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665213'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665254'; /* linkmonstergen3minutes <- Samuel, Former Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665258'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

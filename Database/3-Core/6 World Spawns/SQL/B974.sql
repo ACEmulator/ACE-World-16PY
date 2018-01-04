@@ -11,10 +11,10 @@ VALUES (1403, 2073509893, 3111387395, 104.624, 112.184, 80.005, -0.98208, 0, 0, 
      , (720, 2073509892, 3111387137, 100.45, 108, 83, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (7, 2073509896, 3111387137, 107.919, 99.1782, 83.005, 0.0496223, 0, 0, 0.998768) /* Drudge Skulker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073509894';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073509894'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509895';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509897';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509896';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509898';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509895'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509897'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509896'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073509898'; /* linkmonstergen3minutes <- Drudge Skulker */
 

@@ -225,17 +225,17 @@ VALUES (957, 1880768512, 27525376, 20, -60, -36, 0.863506, 0, 0, -0.504339) /* m
      , (960, 1880768735, 27525777, 67.307, -29.349, 18, 0.707107, 0, 0, -0.707107) /* mitesquiregen */
      , (897, 1880768736, 27525783, 65.25, -60, 18, 1, 0, 0, 0) /* mitesquibgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880768551';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880768537';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880768578';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880768551'; /* linkitemgen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880768537'; /* linkitemgen */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880768578'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768547';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768548';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768549';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768550';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768534';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768535';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768536';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880768571';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880768572';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768547'; /* linkitemgen <- Cobalt */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768548'; /* linkitemgen <- Gypsum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768549'; /* linkitemgen <- Powdered Hematite */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880768550'; /* linkitemgen <- Powdered Quartz */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768534'; /* linkitemgen <- Ruby */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768535'; /* linkitemgen <- Yellow Garnet */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880768536'; /* linkitemgen <- Green Jade */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880768571'; /* linkitemgen <- Agate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880768572'; /* linkitemgen <- Azurite */
 

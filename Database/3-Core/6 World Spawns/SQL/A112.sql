@@ -34,39 +34,39 @@ VALUES (24955, 2047942688, 2702311425, 107.757, 87.4765, 153.34, 0.621747, 0, 0,
      , (24955, 2047942700, 2702311425, 99.2468, 86.3578, 154.665, 0.508349, 0, 0, -0.861151) /* Gotrok Montok */
      , (24129, 2047942701, 2702311425, 100.515, 90.734, 154.814, 0.985439, 0, 0, 0.170027) /* linkmonstergen2minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047942673';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2047942701';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047942673'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2047942701'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942675';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942676';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942678';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942679';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942680';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942682';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942697';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942695';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942694';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942693';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942692';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942691';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942690';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942689';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942699';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942700';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942659';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942660';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942661';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942662';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942663';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942664';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942665';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942666';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942667';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942668';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942669';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942670';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942672';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2047942698';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2047942696';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942675'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942676'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942678'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942679'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942680'; /* linkmonstergen3minutes <- Dire Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942682'; /* linkmonstergen3minutes <- Dire Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942697'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942695'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942694'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942693'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942692'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942691'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942690'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942688'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942689'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942699'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942700'; /* linkmonstergen3minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942659'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942660'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942661'; /* linkmonstergen3minutes <- Dread Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942662'; /* linkmonstergen3minutes <- Dread Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942663'; /* linkmonstergen3minutes <- Gotrok Extas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942664'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942665'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942666'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942667'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942668'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942669'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942670'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047942672'; /* linkmonstergen3minutes <- Gotrok Gigas */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2047942698'; /* linkmonstergen2minutes <- Gotrok Montok Commander */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2047942696'; /* linkmonstergen2minutes <- Gotrok Montok Lieutenant */
 

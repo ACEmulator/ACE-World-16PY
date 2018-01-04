@@ -19,7 +19,7 @@ VALUES (4547, 2119426057, 3846045955, 86.6978, 8.78249, 120.005, 0.999849, 0, 0,
      , (4515, 2119426060, 3846045697, 126.425, 19.3223, 110.546, -0.707107, 0, 0, -0.707107) /* The Touch of Healing */
      , (4518, 2119426061, 3846045697, 137.651, 19.3005, 110.52, -0.707107, 0, 0, -0.707107) /* The Nanto Scribe */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119426064';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119426064'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119426065';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119426065'; /* linkmonstergen <- Shin Ro */
 

@@ -35,37 +35,37 @@ VALUES (19288, 1967497216, 1415184640, 68.5494, -50.2328, 0.0098, -0.741622, 0, 
      , (19297, 1967497256, 1415184808, 186.415, -19.9969, 6.005, -0.689839, 0, 0, -0.723963) /* Bronze Statue of a Reedshark */
      , (19294, 1967497257, 1415184809, 186.942, -80.0891, 6.055, -0.680987, 0, 0, -0.732296) /* Bronze Statue of a Mosswart */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967497234';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967497234'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497237';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497236';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497235';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497239';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497240';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497238';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497216';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497219';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497218';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497217';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497220';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497223';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497222';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497226';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497221';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497225';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497224';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497228';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497229';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497231';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497230';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497227';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497232';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497243';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497254';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497255';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497253';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497257';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497242';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497241';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497256';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497237'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497236'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497235'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497239'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497240'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497238'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497216'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497219'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497218'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497217'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497220'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497223'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497222'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497226'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497221'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497225'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497224'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497228'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497229'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497231'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497230'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497227'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497232'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497243'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497254'; /* linkmonstergen3minutes <- Bronze Statue of a Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497255'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497253'; /* linkmonstergen3minutes <- Bronze Statue of a Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497257'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497242'; /* linkmonstergen3minutes <- Bronze Statue of a Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497241'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967497256'; /* linkmonstergen3minutes <- Bronze Statue of a Reedshark */
 

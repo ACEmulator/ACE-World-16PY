@@ -116,9 +116,9 @@ VALUES (857, 2121588777, 3880648963, 86.9182, 153.638, 34.005, 0.445417, 0, 0, 0
      , (11811, 2121588811, 3880648705, 85.4, 134.997, 32.005, -0.99925, 0, 0, -0.0387243) /* Shosa Kiroji Matanui */
      , (7923, 2121588813, 3880648705, 79.6925, 88.354, 32.005, -0.563311, 0, 0, 0.826245) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121588813';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121588813'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588904';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588811';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588920';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588904'; /* linkmonstergen3minutes <- Sign */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588811'; /* linkmonstergen3minutes <- Shosa Kiroji Matanui */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588920'; /* linkmonstergen3minutes <- Li Fong */
 

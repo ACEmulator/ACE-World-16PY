@@ -40,11 +40,11 @@ VALUES (4686, 2030403592, 2421686545, 173.852, 132.299, 0.005, 0.755999, 0, 0, -
      , (4645, 2030403605, 2421686273, 35.2427, 160.153, 5.34729, 0.997699, 0, 0, 0.0678047) /* Al-Arqas */
      , (27547, 2030403635, 2421686273, 142.744, 89.0523, 0.00500003, -0.362012, 0, 0, 0.932173) /* Bind Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030403608';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030403608'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403598';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403630';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403603';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403631';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403636';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403598'; /* linkmonstergen3minutes <- Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403630'; /* linkmonstergen3minutes <- Jalina al-Hajj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403603'; /* linkmonstergen3minutes <- Jilsaya bint Dah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403631'; /* linkmonstergen3minutes <- Adara al-Rajin */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403636'; /* linkmonstergen3minutes <- Apprentice Cook */
 

@@ -57,46 +57,46 @@ VALUES (2572, 1880698880, 26411264, 60, -20, -11.982, 1, 0, 0, 0) /* K'nath D'No
      , (2571, 1880698935, 26411342, 89.8585, -37.6231, 0.018, -4.37114E-08, 0, 0, -1) /* K'nath N'osaj */
      , (1938, 1880698936, 26411342, 90, -38.514, 0, -4.37114E-08, 0, 0, -1) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880698905';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880698905'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698915';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698916';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698917';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698923';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698924';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698907';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698908';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698909';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698904';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698903';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698912';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698920';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698921';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698911';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698910';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698899';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698894';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698893';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698892';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698891';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698896';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698900';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698919';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698928';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698926';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698927';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698925';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698931';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698932';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698934';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698935';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698882';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698886';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698881';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698880';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698883';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698887';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698888';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698889';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698915'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698916'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698917'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698923'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698924'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698907'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698908'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698909'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698904'; /* linkmonstergen <- K'nath S'tath */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698903'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698912'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698920'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698921'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698911'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698910'; /* linkmonstergen <- K'nath N'gell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698899'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698894'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698893'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698892'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698891'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698896'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698900'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698919'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698928'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698926'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698927'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698925'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698931'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698932'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698934'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698935'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698930'; /* linkmonstergen <- K'nath N'osaj */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698882'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698886'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698881'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698880'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698883'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698887'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698888'; /* linkmonstergen <- K'nath D'Nob */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880698889'; /* linkmonstergen <- K'nath D'Nob */
 

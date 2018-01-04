@@ -8,8 +8,8 @@ VALUES (5710, 1900367875, 341115136, 184.091, 8.05826, 64.805, -0.896775, 0, 0, 
      , (7358, 1900367878, 341114881, 155.259, 36.5979, 70.005, -0.773375, 0, 0, -0.633949) /* eruptlethefxgen */
      , (5711, 1900367877, 341114881, 172.71, 33.4181, 70.0065, 0.932492, 0, 0, 0.361191) /* Flamma */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1900367874';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1900367874'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1900367877';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1900367875';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1900367877'; /* linkmonstergen30minutes <- Flamma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1900367875'; /* linkmonstergen30minutes <- Flare */
 

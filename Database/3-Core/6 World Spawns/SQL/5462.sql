@@ -9,12 +9,12 @@ VALUES (15793, 1967529984, 1415708929, 0.018757, -9.55409, 0.079, -0.319929, 0, 
      , (15759, 1967529991, 1415708954, 28.8947, -20.6798, 0.005, -0.782665, 0, 0, -0.622443) /* linkitemgen10seconds */
      , (15789, 1967529992, 1415708954, 27.2903, -18.5597, 0.079, -0.782665, 0, 0, -0.622443) /* Scrawled Bloody Note */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967529991';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967529991'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529992';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529990';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529988';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529986';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529987';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529992'; /* linkitemgen10seconds <- Scrawled Bloody Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529990'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529988'; /* linkitemgen10seconds <- A Painfully Scrawled Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529986'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529984'; /* linkitemgen10seconds <- A Hastily Scrawled Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967529987'; /* linkitemgen10seconds <- Bloody Scrawled Note */
 

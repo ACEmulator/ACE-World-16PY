@@ -8,13 +8,13 @@ VALUES (200, 2100695040, 3546349569, 104.825, 17.3837, 6.011, -0.310096, 0, 0, 0
      , (1154, 2100695046, 3546349569, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374) /* linkmonstergen */
      , (1542, 2100695047, 3546349569, 109.588, 14.5499, 6.005, 0.697717, 0, 0, 0.716374) /* linkitemgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2100695046';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2100695047';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2100695046'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2100695047'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695040';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695041';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695042';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695043';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2100695044';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2100695045';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695040'; /* linkmonstergen <- Mud Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695041'; /* linkmonstergen <- Mud Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695042'; /* linkmonstergen <- Mud Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100695043'; /* linkmonstergen <- Mud Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2100695044'; /* linkitemgen <- Mugwort */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2100695045'; /* linkitemgen <- Mugwort */
 

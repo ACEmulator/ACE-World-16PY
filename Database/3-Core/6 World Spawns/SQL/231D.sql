@@ -7,10 +7,10 @@ VALUES (24276, 1915867151, 589103360, 59.672, 112.63, 59.8108, 0.973459, 0, 0, -
      , (24274, 1915867150, 589103105, 60.0046, 115.087, 60.3131, -0.99956, 0, 0, 0.0296711) /* Banderling Aggressor */
      , (4219, 1915867144, 589103105, 55.9537, 176.821, 42.5348, -0.75176, 0, 0, 0.659437) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1915867144';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1915867144'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867147';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867151';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867149';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867150';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867147'; /* linkmonstergen7minutes <- Banderling Savage */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867151'; /* linkmonstergen7minutes <- Banderling Savage */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867149'; /* linkmonstergen7minutes <- Banderling Aggressor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915867150'; /* linkmonstergen7minutes <- Banderling Aggressor */
 

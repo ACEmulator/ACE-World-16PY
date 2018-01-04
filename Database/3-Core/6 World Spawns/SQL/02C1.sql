@@ -19,23 +19,23 @@ VALUES (27772, 1881935886, 46203154, 37.0318, -36.4181, -5.995, -0.9415, 0, 0, -
      , (8475, 1881935884, 46203253, 120, -20, 6, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (7924, 1881935885, 46203261, 139.456, -21.1812, 6.01222, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881935885';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881935888';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881935885'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881935888'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935883';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935872';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935875';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935879';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935874';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935876';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935878';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935882';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935880';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935881';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935873';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935891';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935890';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935889';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935887';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935886';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935883'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935872'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935875'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935879'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935874'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935876'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935878'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935882'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935880'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935881'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935873'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935891'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935890'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935889'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935887'; /* linkitemgen10seconds <- Labyrinthine Necklace */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935886'; /* linkitemgen10seconds <- Adjanite Gem */
 

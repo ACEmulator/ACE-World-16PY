@@ -16,9 +16,9 @@ VALUES (8553, 2134999047, 4095213837, 32.7054, 45.6692, 162.705, 1, 0, 0, 0) /* 
      , (5408, 2134999051, 4095213569, 149.224, 147.803, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (5408, 2134999052, 4095213569, 132.296, 147.871, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134999043';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134999043'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999041';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999042';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999049';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999041'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999042'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999049'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
 

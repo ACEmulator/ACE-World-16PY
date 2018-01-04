@@ -62,10 +62,10 @@ VALUES (994, 2013855765, 2156921088, 30.72, 150.24, 124.01, 0.892979, 0, 0, -0.4
      , (27547, 2013855823, 2156920833, 75.5241, 32.4954, 124.005, 0.497901, 0, 0, -0.867234) /* Bind Stone */
      , (19464, 2013855795, 2156920833, 55.7027, 113.29, 127.605, 0.670732, 0, 0, 0.7417) /* Coron Usgin */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013855778';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013855778'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855776';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855795';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855821';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855826';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855776'; /* linkmonstergen3minutes <- Ufet, Prophet of Blades */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855795'; /* linkmonstergen3minutes <- Coron Usgin */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855821'; /* linkmonstergen3minutes <- Sign */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855826'; /* linkmonstergen3minutes <- Coman ibn Rashid */
 

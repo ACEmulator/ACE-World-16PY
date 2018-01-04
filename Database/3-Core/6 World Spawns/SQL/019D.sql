@@ -22,7 +22,7 @@ VALUES (383, 1880739840, 27066631, 10, -30, 0, 0.707107, 0, 0, -0.707107) /* mos
      , (1925, 1880739860, 27066714, 17.2111, -20.9968, 18, -0.424694, 0, 0, -0.905337) /* Chest */
      , (962, 1880739861, 27066720, 40, -20, 18, 1, 0, 0, 0) /* mosswartfeedergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880739859';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880739859'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880739858';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880739858'; /* linkmonstergen <- Mosswart Shaman */
 

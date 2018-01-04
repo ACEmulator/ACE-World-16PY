@@ -8,13 +8,13 @@ VALUES (2611, 2083340288, 3268673537, 116.029, 87.4832, 138.399, -0.998568, 0, 0
      , (2611, 2083340294, 3268673537, 139.021, 84.3655, 142.168, 0.99584, 0, 0, -0.0911199) /* Zofrit Zefir */
      , (3955, 2083340295, 3268673537, 116.029, 87.4832, 138.387, -0.998568, 0, 0, -0.0534991) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083340295';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083340295'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340288';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340289';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340290';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340291';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340292';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340293';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340294';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340288'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340289'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340290'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340291'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340292'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340293'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340294'; /* linkmonstergen15minutes <- Zofrit Zefir */
 

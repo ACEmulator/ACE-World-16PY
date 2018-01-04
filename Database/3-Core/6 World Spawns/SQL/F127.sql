@@ -4,8 +4,8 @@ VALUES (8484, 2131914752, 4045865216, 60, 154, 22.005, 1, 0, 0, 0) /* Small Ruin
      , (1154, 2131914753, 4045864961, 53.1713, 166.207, 22.005, 0.898824, 0, 0, -0.43831) /* linkmonstergen */
      , (7126, 2131914754, 4045864961, 66.0058, 156.303, 25.7577, -0.7399, 0, 0, -0.672717) /* Cursed Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131914753';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131914753'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131914754';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131914755';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131914754'; /* linkmonstergen <- Cursed Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131914755'; /* linkmonstergen <- Cursed Wisp */
 

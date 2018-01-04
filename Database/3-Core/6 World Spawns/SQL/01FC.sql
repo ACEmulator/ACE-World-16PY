@@ -34,28 +34,28 @@ VALUES (12, 1881128960, 33292544, -1.80562, -40.4949, 0.01, 0.707107, 0, 0, -0.7
      , (5056, 1881128992, 33292691, 69.1925, -53.7621, 6, 0, 0, 0, -1) /* Chest */
      , (12, 1881128993, 33292697, 69.866, -78.328, 6.01, 0.241922, 0, 0, -0.970296) /* Red Phyntos Wasp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881128962';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881128962'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128991';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128983';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128980';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128978';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128964';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128965';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128960';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128966';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128961';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128974';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128972';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128973';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128977';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128969';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128970';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128987';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128988';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128989';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128993';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128990';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128985';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128991'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128983'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128984'; /* linkmonstergen <- Adult Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128980'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128978'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128964'; /* linkmonstergen <- Spiny Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128965'; /* linkmonstergen <- Spiny Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128960'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128966'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128961'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128974'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128972'; /* linkmonstergen <- Adult Reedshark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128973'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128977'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128969'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128970'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128987'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128988'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128989'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128993'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128990'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128985'; /* linkmonstergen <- Adult Reedshark */
 

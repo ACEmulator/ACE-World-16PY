@@ -9,13 +9,13 @@ VALUES (10733, 1881751552, 43254016, 0, -60, 0.005, 1, 0, 0, 0) /* Surface */
      , (1610, 1881751559, 43254033, 25.6482, -41.1335, 0.005, 0.345517, 0, 0, -0.938412) /* Drudge Ravener */
      , (1610, 1881751560, 43254033, 26.2301, -38.3481, 0.005, 0.345517, 0, 0, -0.938412) /* Drudge Ravener */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881751553';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881751553'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751558';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751557';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751560';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751559';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751556';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751555';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751554';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751558'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751557'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751560'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751559'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751556'; /* linkmonstergen3minutes <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751555'; /* linkmonstergen3minutes <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881751554'; /* linkmonstergen3minutes <- Staging Ground Director */
 

@@ -10,14 +10,14 @@ VALUES (4179, 1908494336, 471138560, 178.485, 58.6678, 0.405, 0.335658, 0, 0, 0.
      , (30683, 1908494351, 471138305, 57.9359, 6.8165, -0.09285, 0.813742, 0, 0, -0.581227) /* Withered Banderling Hierophant */
      , (30691, 1908494348, 471138305, 184.332, 18.5854, 1.82224, 0.914875, 0, 0, -0.403736) /* Withered Raider Justicar */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908494337';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908494337'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494338';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494339';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494340';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494346';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494347';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494348';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494350';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494351';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494338'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494339'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494340'; /* linkmonstergen15minutes <- Withered Transcendent Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494346'; /* linkmonstergen15minutes <- Withered Banderling Hierophant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494347'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494348'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494350'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908494351'; /* linkmonstergen15minutes <- Withered Banderling Hierophant */
 

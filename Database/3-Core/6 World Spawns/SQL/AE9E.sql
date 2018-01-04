@@ -18,7 +18,7 @@ VALUES (892, 2062147590, 2929590528, 157.85, 152.651, 90.005, -0.965564, 0, 0, 0
      , (892, 2062147593, 2929590273, 109.362, 128.709, 94.005, 0.0922657, 0, 0, 0.995734) /* drudgeprowlergen */
      , (892, 2062147592, 2929590273, 131.784, 154.851, 94.005, 0.117128, 0, 0, 0.993117) /* drudgeprowlergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062147612';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062147612'; /* Trap Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062147607';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062147607'; /* Trap Door <- Trap Door */
 

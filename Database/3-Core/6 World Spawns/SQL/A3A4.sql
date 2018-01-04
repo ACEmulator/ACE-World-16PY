@@ -18,8 +18,8 @@ VALUES (5424, 2050637831, 2745434370, 58.8272, 83.9826, 68.005, 0.958775, 0, 0, 
      , (509, 2050637830, 2745434113, 117.425, 103.42, 80.005, -0.831115, 0, 0, 0.556101) /* Life Stone */
      , (2567, 2050637832, 2745434113, 53.284, 80.8736, 68.005, -0.957913, 0, 0, -0.28706) /* Brown Rabbit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050637835';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050637835'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637834';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637832';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637834'; /* linkmonstergen <- Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637832'; /* linkmonstergen <- Brown Rabbit */
 

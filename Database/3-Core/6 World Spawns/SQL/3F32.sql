@@ -27,8 +27,8 @@ VALUES (2543, 1945313289, 1060241668, 65.6117, 30.8234, 8.405, -0.98389, 0, 0, -
      , (794, 1945313293, 1060241409, 75.6346, 28.1274, 3.108, 0.453658, 0, 0, 0.891176) /* applegenerator */
      , (2385, 1945313292, 1060241409, 147.354, 166.059, 34.9491, 0.669374, 0, 0, 0.742926) /* Disaster Maze */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945313303';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945313303'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313315';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313295';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313315'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313295'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

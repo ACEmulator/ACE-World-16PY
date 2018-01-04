@@ -18,7 +18,7 @@ VALUES (412, 2103791616, 3595895045, 107.05, 82.24, 52.01, -1, 0, 0, 0) /* Door 
      , (5142, 2103791630, 3595894785, 107.622, 71.0277, 52.005, -0.998231, 0, 0, 0.0594489) /* IMPORTANT SIGN  */
      , (6441, 2103791633, 3595894785, 162.034, 75.6874, 44.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2103791635';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2103791635'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103791636';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103791636'; /* linkmonstergen3minutes <- Sentry */
 

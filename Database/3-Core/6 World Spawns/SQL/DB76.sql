@@ -19,23 +19,23 @@ VALUES (412, 2109169664, 3681943553, 36, 33.48, 16, 1, 0, 0, 0) /* Door */
      , (227, 2109169702, 3681943553, 162.836, 79.6814, 16.006, 0.443383, 0, 0, 0.896332) /* Tumerok Gladiator */
      , (7924, 2109169703, 3681943553, 172.501, 90.4132, 16.005, 0.64182, 0, 0, 0.766855) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109169703';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109169703'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169686';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169687';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169693';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169694';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169697';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169698';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169699';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169700';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169701';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169702';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169689';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169690';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169691';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169692';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169696';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169695';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169686'; /* linkmonstergen5minutes <- Tumerok Major */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169687'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169688'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169693'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169694'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169697'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169698'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169699'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169700'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169701'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169702'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169689'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169690'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169691'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169692'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169696'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109169695'; /* linkmonstergen5minutes <- Tumerok Priest */
 

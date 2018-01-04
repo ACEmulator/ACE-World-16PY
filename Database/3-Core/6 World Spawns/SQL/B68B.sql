@@ -9,14 +9,14 @@ VALUES (942, 2070458368, 3062562817, 88.2303, 82.3229, 80.2289, -0.770662, 0, 0,
      , (1154, 2070458375, 3062562817, 82.4416, 83.007, 80.005, 0.956191, 0, 0, -0.292743) /* linkmonstergen */
      , (1542, 2070458376, 3062562817, 84.9983, 86.802, 80.3217, 0.956191, 0, 0, -0.292743) /* linkitemgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070458375';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2070458376';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070458375'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2070458376'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458368';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458369';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458370';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458371';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458372';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458373';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458374';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458368'; /* linkmonstergen <- Wood Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458369'; /* linkmonstergen <- Wood Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458370'; /* linkmonstergen <- Wood Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458371'; /* linkmonstergen <- Wood Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458372'; /* linkitemgen <- Gypsum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458373'; /* linkitemgen <- Powdered Agate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458374'; /* linkitemgen <- Comfrey */
 

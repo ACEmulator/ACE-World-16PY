@@ -5,9 +5,9 @@ VALUES (1154, 2038919168, 2557935617, 110.939, 37.0252, 66.4912, -0.914318, 0, 0
      , (1760, 2038919171, 2557935617, 112.167, 35.9109, 66.7039, -0.998317, 0, 0, 0.0579925) /* Skeleton Warrior */
      , (4162, 2038919172, 2557935617, 112.542, 125.408, 31.491, -0.958868, 0, 0, -0.283851) /* Dungeon Binar Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2038919168';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2038919168'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919169';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919170';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919171';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919169'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919170'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038919171'; /* linkmonstergen <- Skeleton Warrior */
 

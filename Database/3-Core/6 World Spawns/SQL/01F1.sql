@@ -7,10 +7,10 @@ VALUES (1332, 1881083904, 32571649, 7.41081, -40.0382, 0.005, 0.723111, 0, 0, 0.
      , (1154, 1881083909, 32571661, 30.8346, -0.671319, 0, 1, 0, 0, 0) /* linkmonstergen */
      , (613, 1881083910, 32571680, 47.8226, -49.6339, 0, 0.321026, 0, 0, -0.94707) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881083909';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881083909'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083905';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083906';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083907';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083908';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083905'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083906'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083907'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881083908'; /* linkmonstergen <- Outcast Monouga */
 

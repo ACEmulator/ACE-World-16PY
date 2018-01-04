@@ -10,12 +10,12 @@ VALUES (11442, 1917566976, 616300804, 145.798, 107.862, 49.307, -0.70001, 0, 0, 
      , (11487, 1917566983, 616300545, 158.043, 94.8603, 46.005, -0.478063, 0, 0, 0.878326) /* Littoral Siraluun */
      , (546, 1917566984, 616300545, 158.431, 84.2578, 46.005, 0.945671, 0, 0, -0.325124) /* Egg */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917566978';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917566978'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566977';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566979';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566982';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566985';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566983';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566977'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566979'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566982'; /* linkmonstergen7minutes <- Littoral Siraluun */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566984'; /* linkmonstergen7minutes <- Egg */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566985'; /* linkmonstergen7minutes <- Egg */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566983'; /* linkmonstergen7minutes <- Littoral Siraluun */
 

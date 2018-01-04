@@ -10,12 +10,12 @@ VALUES (4261, 2136051712, 4112056321, 139.266, 43.5207, 99.105, 0.931543, 0, 0, 
      , (5408, 2136051720, 4112056321, 43.3117, 108.067, 30.005, -0.692695, 0, 0, 0.72123) /* Waterfall */
      , (5408, 2136051721, 4112056321, 43.6134, 100.291, 30.005, -0.692695, 0, 0, 0.72123) /* Waterfall */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136051718';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136051718'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051712';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051713';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051714';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051715';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051716';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051717';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051712'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051713'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051714'; /* linkmonstergen7minutes <- Slithis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051715'; /* linkmonstergen7minutes <- Slithis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051716'; /* linkmonstergen7minutes <- Slithis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136051717'; /* linkmonstergen7minutes <- Sulthis Eye Stalk */
 

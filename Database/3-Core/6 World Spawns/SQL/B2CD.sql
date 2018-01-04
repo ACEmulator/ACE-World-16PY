@@ -11,10 +11,10 @@ VALUES (167, 2066534400, 2999779584, 68.5356, 30.3735, 109.66, -0.735155, 0, 0, 
      , (167, 2066534402, 2999779584, 78.0829, 29.1787, 109.66, -0.735155, 0, 0, -0.677899) /* Sarcophagus */
      , (167, 2066534401, 2999779584, 73.4454, 29.7277, 109.66, -0.735155, 0, 0, -0.677899) /* Sarcophagus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066534410';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066534410'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534406';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534407';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534408';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534406'; /* linkmonstergen <- Skeleton Captain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534409'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534407'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534408'; /* linkmonstergen <- Skeleton */
 

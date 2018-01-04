@@ -44,33 +44,33 @@ VALUES (4219, 1880842287, 28705024, 0.027693, 0.401601, 0.005, -0.00420404, 0, 0
      , (1762, 1880842316, 28705113, 90.5068, -31.195, 0.005, -0.99788, 0, 0, -0.065076) /* Skeleton Lord */
      , (3971, 1880842318, 28705114, 89.9178, -38.0345, 0, -4.37114E-08, 0, 0, -1) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880842287';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880842287'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842289';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842288';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842290';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842292';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842298';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842291';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842293';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842295';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842294';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842299';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842303';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842301';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842300';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842310';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842309';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842307';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842311';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842312';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842315';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842314';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842316';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842304';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842305';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842308';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842306';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842302';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842289'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842288'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842290'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842292'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842298'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842291'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842293'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842295'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842294'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842299'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842303'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842301'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842300'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842310'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842309'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842307'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842311'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842312'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842313'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842315'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842314'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842316'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842304'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842305'; /* linkmonstergen7minutes <- Seared Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842308'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842306'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880842302'; /* linkmonstergen7minutes <- Seared Skeleton */
 

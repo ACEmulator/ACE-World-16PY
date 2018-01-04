@@ -10,14 +10,14 @@ VALUES (7345, 2022371335, 2293170177, 60.0534, 29.7927, 122.007, -0.0997237, 0, 
      , (22808, 2022371341, 2293170177, 62.9881, 38.932, 137.205, 0.999806, 0, 0, -0.019711) /* Runed Chest */
      , (7924, 2022371342, 2293170177, 66.2591, 29.3099, 122.075, 0.672522, 0, 0, 0.740077) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2022371342';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2022371342'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371335';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371336';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371337';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371338';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371332';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371333';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371340';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371339';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371335'; /* linkmonstergen5minutes <- Banderling Striker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371336'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371337'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371338'; /* linkmonstergen5minutes <- Banderling Striker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371332'; /* linkmonstergen5minutes <- Banderling Rogue */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371333'; /* linkmonstergen5minutes <- Banderling Rogue */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371340'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2022371339'; /* linkmonstergen5minutes <- Banderling Berserker */
 

@@ -7,11 +7,11 @@ VALUES (7317, 2100527104, 3543662593, 13.3697, 138.63, 170.005, 0.216202, 0, 0, 
      , (24943, 2100527109, 3543662593, 4.37168, 144.439, 170.083, 0.00165857, 0, 0, 0.999999) /* Gotrok Obeloth */
      , (24942, 2100527110, 3543662593, 4.78173, 136.686, 169.799, -0.0815006, 0, 0, -0.996673) /* Gotrok Lithos */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2100527105';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2100527105'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527106';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527107';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527108';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527109';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527110';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527106'; /* linkmonstergen5minutes <- Gotrok Obeloth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527107'; /* linkmonstergen5minutes <- Gotrok Obeloth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527108'; /* linkmonstergen5minutes <- Gotrok Obeloth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527109'; /* linkmonstergen5minutes <- Gotrok Obeloth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2100527110'; /* linkmonstergen5minutes <- Gotrok Lithos */
 

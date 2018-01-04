@@ -68,20 +68,20 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (19457, 2010529840, 2103705601, 60.4462, 83.5872, 18.9739, 0.71897, 0, 0, -0.695041) /* fireworksgen */
      , (19196, 2010529843, 2103705601, 59.9142, 83.5841, 18.839, 0.699647, 0, 0, -0.714488) /* Nullified Statue of a Drudge */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010529818';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2010529830';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2010529885';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010529818'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2010529830'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2010529885'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529817';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529826';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529853';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529859';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529869';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529870';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529875';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529871';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529872';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529873';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529874';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2010529884';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529817'; /* linkmonstergen <- Akyafi ibn Sumwar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529826'; /* linkmonstergen <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529853'; /* linkmonstergen <- Small Creepy Statue */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529859'; /* linkmonstergen <- Apprentice Alchemist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529869'; /* linkmonstergen <- Mara al-Luq */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529870'; /* linkmonstergen <- Ma'yad ibn Ibsar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529875'; /* linkmonstergen3minutes <- Lockpick Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529871'; /* linkmonstergen3minutes <- Salvaging Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529872'; /* linkmonstergen3minutes <- Alchemy Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529873'; /* linkmonstergen3minutes <- Cooking Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529874'; /* linkmonstergen3minutes <- Fletching Forge */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2010529884'; /* linkmonstergen30minutes <- Antius Blackmoor */
 

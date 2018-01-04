@@ -5,8 +5,8 @@ VALUES (4939, 2024116224, 2321088769, 155.993, 161.043, 22.005, 1, 0, 0, 0) /* U
      , (7, 2024116226, 2321088513, 148.183, 156.453, 20.005, -0.902393, 0, 0, 0.430915) /* Drudge Skulker */
      , (193, 2024116227, 2321088513, 148.702, 159.161, 20.005, -0.271363, 0, 0, 0.962477) /* Drudge Slinker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2024116228';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2024116228'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024116226';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024116227';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024116226'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024116227'; /* linkmonstergen15minutes <- Drudge Slinker */
 

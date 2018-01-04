@@ -10,14 +10,14 @@ VALUES (8600, 2136117248, 4113105154, 84, 187, 12.805, 1, 0, 0, 0) /* Moars Labo
      , (27856, 2136117253, 4113104897, 83.4101, 180.703, 18.006, 0.74583, 0, 0, -0.666136) /* Miry Moarsman */
      , (27856, 2136117252, 4113104897, 88.4713, 167.218, 18.006, 0.25242, 0, 0, 0.967618) /* Miry Moarsman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136117257';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136117257'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117249';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117250';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117251';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117252';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117253';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117254';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117255';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117256';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117249'; /* linkmonstergen7minutes <- Miry Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117250'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117251'; /* linkmonstergen7minutes <- Muck Glutton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117252'; /* linkmonstergen7minutes <- Miry Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117253'; /* linkmonstergen7minutes <- Miry Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117254'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117255'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136117256'; /* linkmonstergen7minutes <- Miry Moarsman */
 

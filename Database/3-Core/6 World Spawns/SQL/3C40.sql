@@ -15,20 +15,20 @@ VALUES (1452, 1942224912, 1010827520, 124.736, 59.039, 74.824, 0.64458, 0, 0, -0
      , (8138, 1942224914, 1010827265, 102.116, 60.8093, 80.01, -0.989371, 0, 0, -0.145412) /* Extas Raider */
      , (8137, 1942224915, 1010827265, 100.913, 56.0901, 80.01, -0.0666758, 0, 0, 0.997775) /* Tiatus Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1942224910';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1942224924';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1942224910'; /* linkitemgen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1942224924'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224909';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224922';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224921';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224912';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224914';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224919';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224916';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224918';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224920';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224917';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224923';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224915';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224913';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224909'; /* linkitemgen <- Sack */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224922'; /* linkitemgen <- Gifted Healing Kit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224921'; /* linkitemgen <- Peerless Healing Kit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224912'; /* linkitemgen <- Super Cheese */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224914'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224919'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224916'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224918'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224920'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224917'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224923'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224915'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224913'; /* linkmonstergen5minutes <- Extas Raider */
 

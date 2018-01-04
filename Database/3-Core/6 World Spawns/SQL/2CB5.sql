@@ -14,10 +14,10 @@ VALUES (11390, 1925926917, 750059778, 32.0295, 76.5995, 1.605, 0.888487, 0, 0, -
      , (28258, 1925926925, 750059521, 8.15369, 13.8091, 0.005, 0.912633, 0, 0, -0.408781) /* Balarazo */
      , (10866, 1925926920, 750059521, 6.04761, 23.4479, 0.005, 0.980902, 0, 0, 0.194504) /* Mazur ibn Stounis */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1925926919';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1925926919'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926918';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926920';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926921';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926925';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926918'; /* linkmonstergen30seconds <- Shalon ibn Mayar the Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926920'; /* linkmonstergen30seconds <- Mazur ibn Stounis */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926921'; /* linkmonstergen30seconds <- Britana */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1925926925'; /* linkmonstergen30seconds <- Balarazo */
 

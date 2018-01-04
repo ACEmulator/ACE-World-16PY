@@ -10,8 +10,8 @@ VALUES (28413, 1950674986, 1146028288, 36.4547, 151.022, 2.405, 0.69941, 0, 0, -
      , (28081, 1950674947, 1146028033, 68.2054, 131.611, 2.40497, 0.0198956, 0, 0, -0.999802) /* direlandsburunmidcamp */
      , (28081, 1950674948, 1146028033, 32.3839, 104.155, 0.005, -0.510579, 0, 0, -0.859831) /* direlandsburunmidcamp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1950674985';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1950674985'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1950674984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1950674986';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1950674984'; /* linkmonstergen5minutes <- Odd Looking Vine */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1950674986'; /* linkmonstergen5minutes <- Backpack */
 

@@ -9,14 +9,14 @@ VALUES (4111, 2101690381, 3562275072, 151.708, 69.8762, 74.811, -0.295062, 0, 0,
      , (4111, 2101690379, 3562274817, 146.066, 62.0855, 80.005, 0.740853, 0, 0, -0.671667) /* Hunter Shreth */
      , (4111, 2101690380, 3562274817, 159.032, 52.2034, 80.011, 0.00444781, 0, 0, -0.99999) /* Hunter Shreth */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101690376';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101690376'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690380';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690379';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690380';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690381';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690382';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690383';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690380'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690379'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690377'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690378'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690380'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690381'; /* linkmonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690382'; /* linkmonstergen <- Vorous Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101690383'; /* linkmonstergen <- Vorous Shreth */
 

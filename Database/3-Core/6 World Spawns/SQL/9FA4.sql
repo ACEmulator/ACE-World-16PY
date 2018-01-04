@@ -16,7 +16,7 @@ VALUES (412, 2046443520, 2678325504, 132, 155.99, 86, -1, 0, 0, 8.74228E-08) /* 
      , (509, 2046443529, 2678325249, 164.197, 163.109, 84.4142, 0.396587, 0, 0, 0.917997) /* Life Stone */
      , (174, 2046443527, 2678325249, 152.896, 148.302, 85.6481, -0.315111, 0, 0, 0.949055) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046443535';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046443535'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046443534';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046443534'; /* linkmonstergen3minutes <- Weaponsmith Omaro Nagate */
 

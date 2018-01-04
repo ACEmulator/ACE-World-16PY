@@ -171,15 +171,15 @@ VALUES (6122, 1983148032, 1665597699, 10, -150, -24, -0.707107, 0, 0, -0.707107)
      , (4451, 1983148204, 1665598310, 225.25, -190, -5.995, 0.707107, 0, 0, -0.707107) /* Door */
      , (7924, 1983148205, 1665598318, 140, -180, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1983148205';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1983148205'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148117';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148120';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148119';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148122';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148121';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148128';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148126';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148125';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148124';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148117'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148120'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148119'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148122'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148121'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148128'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148126'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148125'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983148124'; /* linkmonstergen5minutes <- Olthoi Grub */
 

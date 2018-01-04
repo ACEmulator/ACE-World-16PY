@@ -8,9 +8,9 @@ VALUES (12050, 2120540162, 3863871746, 175.407, 34.7014, 32.005, 0.802951, 0, 0,
      , (917, 2120540160, 3863871489, 147.611, 163.752, 21.8966, -0.382683, 0, 0, -0.92388) /* Hebian-to */
      , (12304, 2120540170, 3863871489, 189.171, 35.1752, 32.005, -0.412186, 0, 0, -0.9111) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2120540163';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2120540169';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2120540163'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2120540169'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120540162';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2120540168';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120540162'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2120540168'; /* linkmonstergen3minutes <- Jubei Minawoto */
 

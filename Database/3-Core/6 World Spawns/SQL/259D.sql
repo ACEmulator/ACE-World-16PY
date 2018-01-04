@@ -7,11 +7,11 @@ VALUES (27280, 1918488576, 631046145, 83.6707, 83.8345, 30.005, -0.0289871, 0, 0
      , (11488, 1918488581, 631046145, 90.5318, 82.7164, 30.005, 0.192243, 0, 0, -0.981347) /* Marsh Siraluun */
      , (11488, 1918488582, 631046145, 89.046, 81.7073, 30.005, -0.463156, 0, 0, -0.886277) /* Marsh Siraluun */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918488578';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1918488579';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918488578'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1918488579'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918488576';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488582';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488581';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488580';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918488576'; /* linkmonstergen3minutes <- Aun Tahuirea */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488582'; /* linkmonstergen3minutes <- Marsh Siraluun */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488581'; /* linkmonstergen3minutes <- Marsh Siraluun */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918488580'; /* linkmonstergen3minutes <- Marsh Siraluun */
 

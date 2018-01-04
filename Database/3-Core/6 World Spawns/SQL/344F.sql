@@ -5,9 +5,9 @@ VALUES (20626, 1933897729, 877592577, 12.1478, 145.202, 89.7757, 0.0359576, 0, 0
      , (20633, 1933897732, 877592577, 178.232, 172.12, 139.584, -0.999729, 0, 0, 0.0232713) /* Warlock of the Blood */
      , (20633, 1933897733, 877592577, 174.868, 175.138, 139.584, -0.492642, 0, 0, -0.870232) /* Warlock of the Blood */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1933897730';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1933897730'; /* linkmonstergen1minute */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897731';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897732';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897733';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897731'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897732'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933897733'; /* linkmonstergen1minute <- Warlock of the Blood */
 

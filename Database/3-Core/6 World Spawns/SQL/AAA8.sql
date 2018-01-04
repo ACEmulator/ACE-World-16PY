@@ -18,22 +18,22 @@ VALUES (1610, 2057994266, 2863137024, 158.646, 59.9403, 172.005, -0.252188, 0, 0
      , (1610, 2057994271, 2863136769, 157.895, 106.51, 168.26, -0.972219, 0, 0, -0.234075) /* Drudge Ravener */
      , (1610, 2057994270, 2863136769, 189.809, 67.9661, 170.189, -0.932885, 0, 0, 0.360174) /* Drudge Ravener */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2057994274';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2057994274'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994258';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994259';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994260';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994261';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994262';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994263';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994264';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994265';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994266';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994267';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994268';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994269';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994270';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994271';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994272';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994273';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994258'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994259'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994260'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994261'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994262'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994263'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994264'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994265'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994266'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994267'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994268'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994269'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994270'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994271'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994272'; /* linkmonstergen5minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057994273'; /* linkmonstergen5minutes <- Drudge Ravener */
 

@@ -19,13 +19,13 @@ VALUES (412, 2056986626, 2847015173, 89.01, 80.56, 94.025, 0.707107, 0, 0, 0.707
      , (412, 2056986631, 2847014913, 78.985, 84.01, 97.5, 0.707107, 0, 0, -0.707107) /* Door */
      , (10706, 2056986632, 2847014913, 92, 92, 97.505, -0.382683, 0, 0, -0.92388) /* Wheel of Fortune */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056986633';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056986633'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986642';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986635';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986636';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986637';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986638';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986639';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986640';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986642'; /* linkmonstergen15minutes <- Monty the Munificent */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986635'; /* linkmonstergen15minutes <- Aluvian High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986636'; /* linkmonstergen15minutes <- Aluvian High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986637'; /* linkmonstergen15minutes <- Aluvian Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986638'; /* linkmonstergen15minutes <- Aluvian Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986639'; /* linkmonstergen15minutes <- Aluvian Low-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056986640'; /* linkmonstergen15minutes <- Aluvian Low-Stakes Gamesmaster */
 

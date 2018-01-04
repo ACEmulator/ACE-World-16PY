@@ -5,9 +5,9 @@ VALUES (4217, 2099511296, 3527409665, 53.856, 183.283, 275.77, 0.130499, 0, 0, 0
      , (7924, 2099511299, 3527409665, 50.3179, 184.629, 275.584, -0.83085, 0, 0, 0.556496) /* linkmonstergen5minutes */
      , (24671, 2099511300, 3527409665, 51.5726, 177.779, 275.118, -0.837756, 0, 0, 0.546044) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2099511299';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2099511299'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511296';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511297';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511298';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511296'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511297'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099511298'; /* linkmonstergen5minutes <- Dark Leech */
 

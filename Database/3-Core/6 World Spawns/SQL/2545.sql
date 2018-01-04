@@ -14,15 +14,15 @@ VALUES (8127, 1918128128, 625278977, 129.674, 123.416, 0.00500003, 0.714544, 0, 
      , (11534, 1918128140, 625278977, 137.569, 122.701, 0.015, -0.910911, 0, 0, -0.412604) /* Enku Zefir */
      , (7924, 1918128141, 625278977, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918128141';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918128141'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128132';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128133';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128134';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128135';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128136';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128137';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128138';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128139';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128140';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128132'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128133'; /* linkmonstergen5minutes <- Stasis Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128134'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128135'; /* linkmonstergen5minutes <- Tempest Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128136'; /* linkmonstergen5minutes <- Chaos Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128137'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128138'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128139'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128140'; /* linkmonstergen5minutes <- Enku Zefir */
 

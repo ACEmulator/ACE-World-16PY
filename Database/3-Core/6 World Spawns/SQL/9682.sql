@@ -11,14 +11,14 @@ VALUES (1759, 2036867074, 2525102336, 81.1534, 9.28927, 25.705, -0.158966, 0, 0,
      , (1760, 2036867077, 2525102081, 93.8932, 4.48126, 26.005, 0.167261, 0, 0, 0.985913) /* Skeleton Warrior */
      , (1759, 2036867078, 2525102081, 67.1216, 13.6802, 25.6001, 0.899552, 0, 0, 0.436813) /* Skeleton */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2036867081';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2036867081'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867072';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867073';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867074';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867075';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867076';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867077';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867078';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867082';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867072'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867073'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867074'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867075'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867076'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867077'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867078'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036867082'; /* linkmonstergen <- Skeleton */
 

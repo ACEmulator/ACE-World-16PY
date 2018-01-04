@@ -18,9 +18,9 @@ VALUES (4548, 2119421958, 3845980416, 182.822, 175.592, 96.005, -0.881957, 0, 0,
      , (4519, 2119421964, 3845980161, 163.698, 27.849, 76.327, 0.92388, 0, 0, -0.382683) /* Nanto */
      , (4517, 2119421961, 3845980161, 179.816, 140.054, 97.824, 1, 0, 0, 0) /* South Town Supplies */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119421966';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119421966'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421965';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421962';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421972';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421965'; /* linkmonstergen3minutes <- Miyako Nujou-Wah  */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421962'; /* linkmonstergen3minutes <- Wa Shi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421972'; /* linkmonstergen3minutes <- Apprentice Cook */
 

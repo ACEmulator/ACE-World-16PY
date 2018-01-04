@@ -28,23 +28,23 @@ VALUES (7, 1880522752, 23593220, 6.11635, -68.4512, -5.99668, 0.886102, 0, 0, -0
      , (7, 1880522778, 23593344, 86.6228, -48.565, 0.003325, -0.901785, 0, 0, -0.432185) /* Drudge Skulker */
      , (4924, 1880522779, 23593347, 50.0032, -4.08276, 6.19466, 0, 0, 0, -1) /* Surface Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880522769';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880522770';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880522771';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880522769'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880522770'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880522771'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522768';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522778';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522772';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522773';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522767';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522766';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522765';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522758';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522757';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522752';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522753';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522755';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880522761';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880522764';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522768'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522778'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522772'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522773'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522777'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522767'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522766'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522765'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522758'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522757'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522752'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522753'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880522755'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880522761'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880522764'; /* linkitemgen25seconds <- Nanto Town Stamp */
 

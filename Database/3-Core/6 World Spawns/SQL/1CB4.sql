@@ -4,7 +4,7 @@ VALUES (25314, 1909145602, 481558785, 104.445, 18.9122, 2.0075, 0.36461, 0, 0, -
      , (5408, 1909145600, 481558529, 188.092, 20, 0, 0.999958, 0, 0, -0.00919763) /* Waterfall */
      , (5408, 1909145601, 481558529, 180.589, 20, 0, 0.999958, 0, 0, -0.00919763) /* Waterfall */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1909145603';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1909145603'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909145602';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909145602'; /* linkmonstergen1hour <- Undead Mechanic */
 

@@ -10,15 +10,15 @@ VALUES (11520, 1908125696, 465240065, 124.321, 187.225, 82.006, 0.747583, 0, 0, 
      , (11480, 1908125704, 465240065, 64.7859, 154.969, 82.005, -0.0183726, 0, 0, 0.999831) /* Olthoi Harvester */
      , (11480, 1908125705, 465240065, 59.3873, 170.248, 81.905, 0.993519, 0, 0, 0.113662) /* Olthoi Harvester */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908125702';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908125702'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125696';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125697';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125698';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125699';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125700';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125701';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125703';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125704';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125705';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125696'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125697'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125698'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125699'; /* linkmonstergen3minutes <- Hea Elder Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125700'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125701'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125703'; /* linkmonstergen3minutes <- Olthoi Harvester */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125704'; /* linkmonstergen3minutes <- Olthoi Harvester */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125705'; /* linkmonstergen3minutes <- Olthoi Harvester */
 

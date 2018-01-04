@@ -7,11 +7,11 @@ VALUES (9143, 2031378432, 2437283841, 42.746, 14.2601, 11.506, 0.705896, 0, 0, 0
      , (1632, 2031378437, 2437283841, 40.7653, 9.15561, 10.3251, -0.929806, 0, 0, 0.368051) /* Drudge Slave */
      , (7924, 2031378438, 2437283841, 51.0818, 20.3128, 13.3905, -0.628452, 0, 0, -0.777849) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2031378438';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2031378438'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378433';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378434';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378435';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378436';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378437';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378433'; /* linkmonstergen5minutes <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378434'; /* linkmonstergen5minutes <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378435'; /* linkmonstergen5minutes <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378436'; /* linkmonstergen5minutes <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2031378437'; /* linkmonstergen5minutes <- Drudge Slave */
 

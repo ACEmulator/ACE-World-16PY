@@ -39,12 +39,12 @@ VALUES (4692, 2019065865, 2240282880, 38.6551, 89.2179, 86.005, -0.102954, 0, 0,
      , (12304, 2019065885, 2240282625, 14.1746, 101.391, 86.005, -0.734511, 0, 0, -0.678597) /* Agent of the Arcanum  */
      , (174, 2019065876, 2240282625, 56.2507, 120.015, 86.05, 0.274904, 0, 0, -0.961472) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019065878';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2019065883';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2019065903';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019065878'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2019065883'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2019065903'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065877';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065884';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2019065882';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2019065904';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065877'; /* linkmonstergen3minutes <- Janda Sulifiya */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065884'; /* linkmonstergen3minutes <- Janda's Apprentice */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2019065882'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2019065904'; /* linkitemgen10seconds <- A note */
 

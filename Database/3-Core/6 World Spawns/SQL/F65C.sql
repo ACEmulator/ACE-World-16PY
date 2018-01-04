@@ -22,8 +22,8 @@ VALUES (5437, 2137374729, 4133224708, 186.509, 80.645, 20.005, 0.699619, 0, 0, 0
      , (21476, 2137374736, 4133224449, 175.169, 41.1797, 20.005, -0.999933, 0, 0, -0.0115849) /* Haven Residential Halls */
      , (7923, 2137374735, 4133224449, 171.419, 66.7358, 20.005, 0.0553425, 0, 0, -0.998467) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137374739';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137374739'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374738';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374745';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374738'; /* linkmonstergen3minutes <- Han Rin-Jo, Jojii Adherent */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374745'; /* linkmonstergen3minutes <- Apprentice Cook */
 

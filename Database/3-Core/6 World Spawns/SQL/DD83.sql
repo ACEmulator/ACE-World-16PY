@@ -12,14 +12,14 @@ VALUES (1612, 2111320064, 3716349953, 116.025, 35.0397, 0.340301, 0.894653, 0, 0
      , (419, 2111320074, 3716349953, 161.642, 29.1686, 0.005, -0.997425, 0, 0, 0.0717179) /* itemclothing-generator */
      , (1154, 2111320075, 3716349953, 157.733, 28.3515, 0.005, -0.887815, 0, 0, -0.4602) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111320075';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111320075'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320064';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320065';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320066';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320067';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320068';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320069';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320070';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320071';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320064'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320065'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320066'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320067'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320068'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320069'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320070'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111320071'; /* linkmonstergen <- Azure Gromnie */
 

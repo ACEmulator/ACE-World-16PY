@@ -40,39 +40,39 @@ VALUES (22477, 1978941440, 1598292225, 0, -30, 0.0132, 0, 0, 0, -1) /* Statue of
      , (278, 1978941476, 1598292390, 230, -125.25, 0, 1, 0, 0, 0) /* Door */
      , (22685, 1978941478, 1598292394, 239.477, -112.149, 0.005, 0.0427559, 0, 0, -0.999086) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1978941475';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1978941475'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941474';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941452';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941453';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941445';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941441';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941460';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941454';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941446';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941467';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941461';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941442';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941440';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941455';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941447';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941468';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941462';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941443';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941471';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941456';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941449';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941469';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941464';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941450';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941444';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941465';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941457';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941451';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941470';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941466';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941458';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941463';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941459';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941448';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941474'; /* linkmonstergen30seconds <- Oolutanga, the Tusker King */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941452'; /* linkmonstergen30seconds <- Statue of Alchemical Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941453'; /* linkmonstergen30seconds <- Statue of Armor Tinker's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941445'; /* linkmonstergen30seconds <- Statue of Scholarly Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941441'; /* linkmonstergen30seconds <- Statue of Axer's Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941460'; /* linkmonstergen30seconds <- Statue of Thrower's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941454'; /* linkmonstergen30seconds <- Statue of Cook's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941446'; /* linkmonstergen30seconds <- Statue of Bowman's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941467'; /* linkmonstergen30seconds <- Statue of Crossbowman's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941461'; /* linkmonstergen30seconds <- Statue of Enchanter's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941442'; /* linkmonstergen30seconds <- Statue of Fletcher's Dreams */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941440'; /* linkmonstergen30seconds <- Statue of Knifer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941455'; /* linkmonstergen30seconds <- Statue of Artificer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941447'; /* linkmonstergen30seconds <- Statue of Healer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941468'; /* linkmonstergen30seconds <- Statue of Leaper's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941462'; /* linkmonstergen30seconds <- Statue of Item Tinker's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941443'; /* linkmonstergen30seconds <- Statue of Lockpicker's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941471'; /* linkmonstergen30seconds <- Statue of Life Giver's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941456'; /* linkmonstergen30seconds <- Statue of Resistance Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941449'; /* linkmonstergen30seconds <- Statue of Macer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941469'; /* linkmonstergen30seconds <- Statue of Archmage's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941464'; /* linkmonstergen30seconds <- Statue of Magic Tinker's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941450'; /* linkmonstergen30seconds <- Statue of Dodge Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941444'; /* linkmonstergen30seconds <- Statue of Evasive Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941465'; /* linkmonstergen30seconds <- Statue of Spearman's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941457'; /* linkmonstergen30seconds <- Statue of Sprinter's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941451'; /* linkmonstergen30seconds <- Statue of Swordsman's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941470'; /* linkmonstergen30seconds <- Statue of Staffer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941466'; /* linkmonstergen30seconds <- Statue of Sorcerer's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941458'; /* linkmonstergen30seconds <- Statue of Brawler's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941463'; /* linkmonstergen30seconds <- Statue of Greedy Wishes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941459'; /* linkmonstergen30seconds <- Statue of Weapon Tinker's Wish */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978941448'; /* linkmonstergen30seconds <- Statue of Greedy Wishes */
 

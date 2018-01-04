@@ -55,8 +55,8 @@ VALUES (979, 2037886994, 2541420800, 151.2, 175.2, 0.005, 0.716302, 0, 0, -0.697
      , (4770, 2037887006, 2541420545, 169.143, 174.213, 0.00500005, 0.529507, 0, 0, 0.848306) /* collectorgharundimgen */
      , (635, 2037887007, 2541420545, 156.925, 172.749, 0.005, -0.751475, 0, 0, -0.659762) /* Healer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037887015';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037887015'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887014';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887049';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887014'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887049'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

@@ -10,14 +10,14 @@ VALUES (1610, 2057859089, 2860974336, 79.8492, 36.6437, 21.205, 0.968113, 0, 0, 
      , (1610, 2057859084, 2860974081, 76.8234, 37.8633, 26.0045, -0.991788, 0, 0, 0.127896) /* Drudge Ravener */
      , (1610, 2057859085, 2860974081, 79.3856, 39.2988, 26.0045, 0.0726619, 0, 0, 0.997357) /* Drudge Ravener */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2057859081';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2057859081'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859089';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859088';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859086';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859082';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859083';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859084';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859085';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859087';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859089'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859088'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859086'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859082'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859083'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859084'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859085'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859087'; /* linkmonstergen3minutes <- Drudge Ravener */
 

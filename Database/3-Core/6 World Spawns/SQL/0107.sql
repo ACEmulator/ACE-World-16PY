@@ -32,33 +32,33 @@ VALUES (193, 1880125440, 17236224, 33.0548, -6.7053, -17.9967, -4.37114E-08, 0, 
      , (193, 1880125470, 17236333, 28.8915, -19.9735, 6.00332, 0.707107, 0, 0, -0.707107) /* Drudge Slinker */
      , (193, 1880125471, 17236335, 31.1758, -31.1234, 3.004, -0.866025, 0, 0, -0.5) /* Drudge Slinker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880125469';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880125469'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125468';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125467';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125466';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125465';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125463';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125452';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125460';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125450';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125451';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125448';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125447';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125446';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125444';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125457';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125456';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125458';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125440';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125441';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125471';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125470';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125459';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125449';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125461';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125462';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125455';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125454';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125443';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125468'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125467'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125466'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125465'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125463'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125452'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125460'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125450'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125451'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125448'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125447'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125446'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125444'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125457'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125456'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125458'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125440'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125441'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125471'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125470'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125459'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125449'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125461'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125462'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125455'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125454'; /* linkmonstergen3minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880125443'; /* linkmonstergen3minutes <- Drudge Prowler */
 

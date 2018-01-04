@@ -36,7 +36,7 @@ VALUES (4979, 1880182784, 18153728, -2.1713, -20.2492, 0, 0.707107, 0, 0, 0.7071
      , (5086, 1880182837, 18153922, 57.5073, -18.3513, 24.005, 0.983956, 0, 0, 0.178412) /* linkmonstergen30seconds */
      , (278, 1880182834, 18153935, 85.25, -40, 24, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880182837';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880182837'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880182835';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880182835'; /* linkmonstergen30seconds <- Grand Sentinel Muroba */
 

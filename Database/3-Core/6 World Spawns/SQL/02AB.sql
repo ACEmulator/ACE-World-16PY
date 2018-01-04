@@ -68,33 +68,33 @@ VALUES (5489, 1881845760, 44761344, 10, -170, -23.995, 1, 0, 0, 0) /* "Mag-Ma!" 
      , (8967, 1881845828, 44761609, 160.011, -149.005, 12.109, -0.999612, 0, 0, -0.0278636) /* Decaying Warrior */
      , (8967, 1881845829, 44761626, 162.151, -192.332, 12.009, -0.98933, 0, 0, -0.14569) /* Decaying Warrior */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881845798';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881845799';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881845774';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881845798'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881845799'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881845774'; /* An evil trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845808';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845810';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845817';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845813';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845815';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845816';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845827';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845828';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845825';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845829';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845824';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845823';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845821';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845789';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845790';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845776';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845767';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845771';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845770';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845812';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845809';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845764';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845766';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881845775';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845808'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845810'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845817'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845813'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845815'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845816'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845827'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845828'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845825'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845829'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845824'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845823'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845821'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845789'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845790'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845777'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845776'; /* linkmonstergen3minutes <- Decaying Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845767'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845771'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881845770'; /* linkmonstergen3minutes <- Fleshless Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845812'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845809'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845764'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881845766'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881845775'; /* An evil trap <- Pressure Plate */
 

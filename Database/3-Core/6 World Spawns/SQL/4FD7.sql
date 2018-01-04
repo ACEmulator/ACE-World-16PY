@@ -11,7 +11,7 @@ VALUES (910, 1962766336, 1339490305, 148.742, 25.9148, 33.4503, 0.999948, 0, 0, 
      , (1627, 1962766345, 1339490305, 153.904, 52.1678, 30.5081, -0.921846, 0, 0, 0.387556) /* Tusker Crimsonback */
      , (1154, 1962766346, 1339490305, 156.36, 51.777, 30.3528, -0.698155, 0, 0, 0.715946) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1962766346';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1962766346'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1962766345';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1962766345'; /* linkmonstergen <- Tusker Crimsonback */
 

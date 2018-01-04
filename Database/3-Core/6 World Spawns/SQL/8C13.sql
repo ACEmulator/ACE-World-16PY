@@ -12,16 +12,16 @@ VALUES (7923, 2025926658, 2350055425, 78.1143, 22.1488, 456.005, 0.889125, 0, 0,
      , (19537, 2025926693, 2350055425, 103.644, 8.59104, 454.733, 0.313682, 0, 0, -0.949528) /* Avalanche */
      , (21420, 2025926696, 2350055425, 89.1797, 17.5921, 456.005, -0.421745, 0, 0, -0.906714) /* Lightning Guardian Lair */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025926658';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025926658'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926684';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926685';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926689';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926690';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926691';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926692';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926693';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926694';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926687';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926684'; /* linkmonstergen3minutes <- Astyrrian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926685'; /* linkmonstergen3minutes <- Scintilla */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926688'; /* linkmonstergen3minutes <- Blizzard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926689'; /* linkmonstergen3minutes <- Blizzard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926690'; /* linkmonstergen3minutes <- Avalanche */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926691'; /* linkmonstergen3minutes <- Avalanche */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926692'; /* linkmonstergen3minutes <- Avalanche */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926693'; /* linkmonstergen3minutes <- Avalanche */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926694'; /* linkmonstergen3minutes <- Astyrrian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025926687'; /* linkmonstergen3minutes <- Astyrrian */
 

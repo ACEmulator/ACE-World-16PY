@@ -8,7 +8,7 @@ VALUES (1154, 2082947078, 3262382339, 109.065, 87.7252, 24.005, 0.994564, 0, 0, 
      , (509, 2082947076, 3262382081, 138.373, 111.336, 24.005, -0.989899, 0, 0, -0.141772) /* Life Stone */
      , (174, 2082947077, 3262382081, 116.739, 76.9951, 24.005, -0.00354529, 0, 0, -0.999994) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2082947078';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2082947078'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2082947079';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2082947079'; /* linkmonstergen <- Raxanza Folthid */
 

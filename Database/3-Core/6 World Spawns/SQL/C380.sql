@@ -17,7 +17,7 @@ VALUES (4446, 2084044809, 3279945985, 36.6029, 128.646, 34.005, -0.510865, 0, 0,
      , (5070, 2084044819, 3279945729, 30.773, 125.765, 34.005, 1, 0, 0, 0) /* East Lytelthorpe Outpost */
      , (174, 2084044813, 3279945729, 17.248, 133.958, 34.005, 1, 0, 0, 0) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2084044807';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2084044807'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2084044815';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2084044815'; /* linkmonstergen <- Ercel */
 

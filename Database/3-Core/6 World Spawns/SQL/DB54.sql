@@ -15,13 +15,13 @@ VALUES (3955, 2109030403, 3679715584, 109.746, 137.251, 20, 0.682429, 0, 0, -0.7
      , (929, 2109030400, 3679715329, 8.892, 190.003, 20.005, -0.0790033, 0, 0, -0.996874) /* Shoushi */
      , (10706, 2109030406, 3679715329, 95, 127, 20.005, 0.707107, 0, 0, -0.707107) /* Wheel of Fortune */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109030403';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109030403'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030407';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030408';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030410';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030411';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030404';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030405';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030407'; /* linkmonstergen15minutes <- Sho High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030408'; /* linkmonstergen15minutes <- Sho High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030409'; /* linkmonstergen15minutes <- Sho Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030410'; /* linkmonstergen15minutes <- Sho Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030411'; /* linkmonstergen15minutes <- Sho Low-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030404'; /* linkmonstergen15minutes <- Sho Low-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109030405'; /* linkmonstergen15minutes <- Mi Gan-Zo */
 

@@ -6,8 +6,8 @@ VALUES (9527, 2067271693, 3011576073, 81.57, 154.859, 23.205, 0.841323, 0, 0, -0
      , (8278, 2067271685, 3011575809, 87.8195, 174.353, 24.005, 0.507325, 0, 0, -0.861755) /* Scarecrow */
      , (509, 2067271686, 3011575809, 113.068, 162.61, 24.005, -0.456331, 0, 0, 0.88981) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2067271694';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2067271694'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2067271688';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2067271693';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2067271688'; /* linkitemgen <- Purchasing Order */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2067271693'; /* linkitemgen <- Larry the Rabbit Master */
 

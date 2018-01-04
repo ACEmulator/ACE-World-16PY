@@ -29,9 +29,9 @@ VALUES (951, 2066354202, 2996896001, 59.4382, 38.4653, 88.005, -0.851432, 0, 0, 
      , (951, 2066354191, 2996895745, 103.133, 45.6591, 90.005, 0.111966, 0, 0, 0.993712) /* banderlingguardgen */
      , (951, 2066354190, 2996895745, 105.127, 42.7001, 90.005, 0.994109, 0, 0, 0.108381) /* banderlingguardgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066354189';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066354189'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354186';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354187';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354188';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354186'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354187'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354188'; /* linkmonstergen <- Blood Shreth */
 

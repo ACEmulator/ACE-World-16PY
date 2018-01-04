@@ -14,8 +14,8 @@ VALUES (165, 2136313867, 4116250881, 181.248, 80.5406, 20.05, -0.999728, 0, 0, -
      , (25990, 2136313869, 4116250625, 186.564, 105.419, 20.005, 0.45742, 0, 0, -0.889251) /* Small Creepy Statue */
      , (6441, 2136313868, 4116250625, 157.873, 113.209, 20.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136313863';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136313863'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313862';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313869';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313862'; /* linkmonstergen <- Leather Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313869'; /* linkmonstergen <- Small Creepy Statue */
 

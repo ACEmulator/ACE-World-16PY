@@ -8,8 +8,8 @@ VALUES (143, 2093588480, 3432644864, 86.3698, 113.105, 6.0125, 1, 0, 0, 0) /* Ch
      , (618, 2093588485, 3432644609, 98.3683, 109.852, 6.00562, 0.997725, 0, 0, -0.0674221) /* Cow */
      , (1154, 2093588486, 3432644609, 101.049, 110.409, 6.005, 0.986354, 0, 0, -0.164636) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093588486';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093588486'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093588485';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093588484';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093588485'; /* linkmonstergen <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093588484'; /* linkmonstergen <- Cow */
 

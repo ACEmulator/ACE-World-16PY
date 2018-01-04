@@ -124,7 +124,7 @@ VALUES (3959, 1881116672, 33095936, -1.5177, -123.203, -18, -0.358363, 0, 0, -0.
      , (1392, 1881116794, 33096520, 123.219, -39.332, 60.005, -0.681918, 0, 0, -0.731428) /* Peddler */
      , (278, 1881116795, 33096522, 115.245, -40, 60, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881116770';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881116770'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881116769';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881116769'; /* linkitemgen <- Gifted Healing Kit */
 

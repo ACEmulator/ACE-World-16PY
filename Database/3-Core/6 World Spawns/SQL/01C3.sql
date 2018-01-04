@@ -20,9 +20,9 @@ VALUES (2342, 1880895488, 29556998, 9.69263, -83.642, 0, -4.37114E-08, 0, 0, -1)
      , (1764, 1880895506, 29557064, 140.007, -20.4698, 0.005, 1, 0, 0, 0) /* Greater Mu-miyah */
      , (1154, 1880895507, 29557064, 140, -20, 0, 1, 0, 0, 0) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880895507';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880895495';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880895507'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880895495'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880895506';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880895494';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880895506'; /* linkmonstergen <- Greater Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880895494'; /* linkmonstergen <- Gotrok Amploth */
 

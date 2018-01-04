@@ -6,11 +6,11 @@ VALUES (24310, 1917329414, 612499712, 37.839, 23.7106, 214.812, 0.234256, 0, 0, 
      , (24310, 1917329415, 612499712, 38.2331, 21.893, 214.812, 0.216051, 0, 0, 0.976382) /* Direland Rat */
      , (14520, 1917329418, 612499457, 36.5899, 18.183, 220.01, -0.482813, 0, 0, -0.875724) /* Pyreal Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917329409';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917329409'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329414';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329416';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329417';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329415';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329418';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329414'; /* linkmonstergen3minutes <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329416'; /* linkmonstergen3minutes <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329417'; /* linkmonstergen3minutes <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329415'; /* linkmonstergen3minutes <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917329418'; /* linkmonstergen3minutes <- Pyreal Golem */
 

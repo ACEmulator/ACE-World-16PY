@@ -32,8 +32,8 @@ VALUES (4543, 2108928012, 3678077184, 182.922, 126.976, 20.005, 0.986327, 0, 0, 
      , (4568, 2108928014, 3678076929, 157.019, 181.322, 20.403, -0.062832, 0, 0, 0.998024) /* Portal to Tou-Tou */
      , (4501, 2108928013, 3678076929, 180.664, 138.736, 21.9042, -0.707107, 0, 0, -0.707107) /* The Tree of Healing */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108928017';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108928017'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928016';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928031';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928016'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928031'; /* linkmonstergen3minutes <- Apprentice Alchemist */
 

@@ -5,10 +5,10 @@ VALUES (4108, 2117320704, 3812360193, 79.0735, 62.3125, 102.604, 0.691352, 0, 0,
      , (1154, 2117320707, 3812360193, 71.145, 72.369, 102.005, 0.152635, 0, 0, -0.988283) /* linkmonstergen */
      , (4108, 2117320708, 3812360193, 22.645, 24.5366, 91.847, 0.260325, 0, 0, 0.965521) /* Gnawer Shreth */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2117320707';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2117320707'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320704';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320705';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320706';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320708';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320704'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320705'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320706'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2117320708'; /* linkmonstergen <- Gnawer Shreth */
 

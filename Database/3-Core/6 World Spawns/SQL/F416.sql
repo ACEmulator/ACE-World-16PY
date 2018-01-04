@@ -5,10 +5,10 @@ VALUES (7111, 2134990848, 4095082497, 33.3281, 92.8884, 89.8584, 0.386027, 0, 0,
      , (7334, 2134990851, 4095082497, 14.53, 147.2, 119.88, -0.222865, 0, 0, 0.974849) /* Skeleton Bone Knight */
      , (7334, 2134990852, 4095082497, 7.80548, 125.504, 108.565, -0.136433, 0, 0, 0.990649) /* Skeleton Bone Knight */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134990850';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134990850'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990848';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990849';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990851';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990852';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990848'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990849'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990851'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134990852'; /* linkmonstergen7minutes <- Skeleton Bone Knight */
 

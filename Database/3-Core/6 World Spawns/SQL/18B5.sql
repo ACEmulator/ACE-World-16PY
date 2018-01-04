@@ -14,16 +14,16 @@ VALUES (11517, 1904955392, 414515456, 51.4383, 115.787, 62.8065, -0.761276, 0, 0
      , (11519, 1904955400, 414515201, 68.3971, 93.3714, 81.0446, -0.994053, 0, 0, 0.108896) /* Hea Itealuan */
      , (11522, 1904955409, 414515201, 47.8827, 130.649, 68.0744, -0.910937, 0, 0, 0.412546) /* Hea Shaman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1904955406';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1904955406'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955394';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955392';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955396';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955400';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955403';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955410';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955408';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955407';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955411';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955394'; /* linkmonstergen7minutes <- Hea Elder Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955392'; /* linkmonstergen7minutes <- Hea Elder Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955396'; /* linkmonstergen7minutes <- Hea Itealuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955400'; /* linkmonstergen7minutes <- Hea Itealuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955403'; /* linkmonstergen7minutes <- Hea Nualuan */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955409'; /* linkmonstergen7minutes <- Hea Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955410'; /* linkmonstergen7minutes <- Hea Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955408'; /* linkmonstergen7minutes <- Hea Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955407'; /* linkmonstergen7minutes <- Hea Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1904955411'; /* linkmonstergen7minutes <- Hea Shaman */
 

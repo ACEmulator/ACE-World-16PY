@@ -14,19 +14,19 @@ VALUES (949, 2037211140, 2530607360, 153.086, 63.0263, 88.0092, 0.492463, 0, 0, 
      , (232, 2037211144, 2530607105, 153.672, 80.9074, 103.205, 0.987593, 0, 0, 0.157034) /* Tumerok Scout */
      , (4107, 2037211145, 2530607105, 156.032, 80.464, 103.205, 0.140979, 0, 0, -0.990013) /* Tumerok Worker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037211141';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2037211142';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2037211149';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037211141'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2037211142'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2037211149'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037211136';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037211150';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037211143';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211137';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211138';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211139';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211140';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211144';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211145';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211146';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211147';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037211136'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037211150'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037211143'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211137'; /* linkmonstergen30minutes <- Green Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211138'; /* linkmonstergen30minutes <- Green Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211139'; /* linkmonstergen30minutes <- Green Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211140'; /* linkmonstergen30minutes <- Red Rat */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211144'; /* linkmonstergen30minutes <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211145'; /* linkmonstergen30minutes <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211146'; /* linkmonstergen30minutes <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2037211147'; /* linkmonstergen30minutes <- Tumerok Worker */
 

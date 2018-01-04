@@ -7,9 +7,9 @@ VALUES (21282, 2073489498, 3111059457, 62.8831, 91.666, 10.004, -0.558599, 0, 0,
      , (24862, 2073489512, 3111059457, 97.96, 54.8623, 10.005, 0.0783016, 0, 0, 0.99693) /* Tunnels to the Harbinger */
      , (24860, 2073489513, 3111059457, 148.017, 127.047, 10.005, -0.62465, 0, 0, 0.780905) /* Tunnels to the Harbinger */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073489508';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073489508'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489509';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489510';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489511';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489509'; /* linkmonstergen5minutes <- Emissary of Asheron */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489510'; /* linkmonstergen5minutes <- Vincadi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073489511'; /* linkmonstergen5minutes <- Issk */
 

@@ -18,7 +18,7 @@ VALUES (412, 2052800512, 2780037381, 132.439, 60.3891, 52.01, -1, 0, 0, 0) /* Do
      , (5142, 2052800526, 2780037121, 135.676, 44.509, 52.2909, -0.999991, 0, 0, 0.0043269) /* IMPORTANT SIGN  */
      , (5108, 2052800527, 2780037121, 172.215, 99.1548, 46.005, 0.986826, 0, 0, -0.161786) /* LIFESTONES SIGN */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2052800531';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2052800531'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2052800530';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2052800530'; /* linkmonstergen3minutes <- Sentry */
 

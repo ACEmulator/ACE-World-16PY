@@ -12,16 +12,16 @@ VALUES (7923, 2026594304, 2360737793, 185.916, 68.1771, 55.472, -0.736948, 0, 0,
      , (1919, 2026594314, 2360737793, 186.891, 69.4064, 55.472, 0.949969, 0, 0, -0.312343) /* Chest */
      , (4105, 2026594315, 2360737793, 187.091, 68.3023, 55.472, 0.0235906, 0, 0, -0.999722) /* Tumerok Priest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2026594304';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2026594304'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594310';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594306';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594307';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594308';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594309';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594305';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594311';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594312';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594315';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594310'; /* linkmonstergen3minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594306'; /* linkmonstergen3minutes <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594307'; /* linkmonstergen3minutes <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594308'; /* linkmonstergen3minutes <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594309'; /* linkmonstergen3minutes <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594305'; /* linkmonstergen3minutes <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594313'; /* linkmonstergen3minutes <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594311'; /* linkmonstergen3minutes <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594312'; /* linkmonstergen3minutes <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2026594315'; /* linkmonstergen3minutes <- Tumerok Priest */
 

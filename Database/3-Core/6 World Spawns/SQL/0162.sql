@@ -33,28 +33,28 @@ VALUES (1915, 1880498176, 23200001, 2.96198, -133.634, 0, -0.626434, 0, 0, -0.77
      , (4110, 1880498206, 23200243, 71.5837, -57.7406, 12.011, -0.707107, 0, 0, -0.707107) /* Blood Shreth */
      , (1460, 1880498207, 23200244, 73.6734, -60.0302, 12, -0.993961, 0, 0, -0.109734) /* itemfoodhealgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880498198';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880498199';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880498198'; /* linknewbiemonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880498199'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498177';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498178';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498179';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498180';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498190';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498188';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498182';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498183';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498206';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498202';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498197';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498203';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498201';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498195';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498184';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498187';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498185';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498186';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498191';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498200';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498208';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498177'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498178'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498179'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498180'; /* linknewbiemonstergen <- Hunter Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498190'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498188'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498182'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498183'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498206'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498202'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498197'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498203'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498201'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498195'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498184'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498187'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498185'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498186'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498191'; /* linkitemgen25seconds <- Brogord's Axe */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498200'; /* linkitemgen25seconds <- Holtburg Town Stamp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498208'; /* linkitemgen25seconds <- Letter to Ryndya */
 

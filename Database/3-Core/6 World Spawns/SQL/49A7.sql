@@ -12,17 +12,17 @@ VALUES (1154, 1956278272, 1235681281, 81.142, 95.5928, 74.0389, -0.155055, 0, 0,
      , (11627, 1956278282, 1235681281, 84.0574, 93.3022, 74.2891, 0.0220108, 0, 0, -0.999758) /* Crafter of Blades */
      , (23523, 1956278283, 1235681281, 76.1251, 88.7232, 74.707, 0.372352, 0, 0, -0.928092) /* Crafter of Atlatls */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1956278272';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1956278272'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278273';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278275';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278274';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278276';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278278';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278277';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278279';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278280';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278281';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278282';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278283';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278273'; /* linkmonstergen <- Crafter of Axes */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278275'; /* linkmonstergen <- Crafter of Fists */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278274'; /* linkmonstergen <- Crafter of Bows */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278276'; /* linkmonstergen <- Crafter of Arbelests */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278278'; /* linkmonstergen <- Crafter of Maces */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278277'; /* linkmonstergen <- Crafter of Knives */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278279'; /* linkmonstergen <- Crafter of Orbs */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278280'; /* linkmonstergen <- Crafter of Spears */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278281'; /* linkmonstergen <- Crafter of Staves */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278282'; /* linkmonstergen <- Crafter of Blades */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956278283'; /* linkmonstergen <- Crafter of Atlatls */
 

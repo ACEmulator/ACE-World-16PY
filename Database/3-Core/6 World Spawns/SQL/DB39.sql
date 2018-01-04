@@ -5,9 +5,9 @@ VALUES (4219, 2108919810, 3677946112, 57.9904, 89.4965, 22.805, -0.0197151, 0, 0
      , (1630, 2108919812, 3677946112, 54.93, 85.6178, 22.8075, 0.981332, 0, 0, -0.192321) /* Lich Lord */
      , (1762, 2108919813, 3677945857, 58.1967, 107.657, 28.005, 0.999986, 0, 0, -0.0052817) /* Skeleton Lord */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108919810';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108919810'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919811';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919812';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919813';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919811'; /* linkmonstergen7minutes <- Lich Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919812'; /* linkmonstergen7minutes <- Lich Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108919813'; /* linkmonstergen7minutes <- Skeleton Lord */
 

@@ -37,9 +37,9 @@ VALUES (27247, 2074177584, 3122069766, 89.4882, 182.685, 84.005, 0.031287, 0, 0,
      , (12304, 2074177563, 3122069505, 28.7045, 184.06, 82.005, -0.698498, 0, 0, 0.715612) /* Agent of the Arcanum  */
      , (1351, 2074177555, 3122069505, 66.844, 9.35452, 133.225, 0.0701175, 0, 0, -0.997539) /* Sign */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074177562';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074177562'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177561';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177586';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177582';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177561'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177586'; /* linkmonstergen3minutes <- Journeyman Alchemist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177582'; /* linkmonstergen3minutes <- Miko Li, Jojii Adherent */
 

@@ -4,7 +4,7 @@ VALUES (509, 2072080384, 3088515073, 169.278, 140.476, 49.905, 0.798891, 0, 0, 0
      , (3951, 2072080386, 3088515073, 175.024, 165.254, 49.905, -0.698047, 0, 0, 0.716052) /* linkmonstergen1hour */
      , (14867, 2072080387, 3088515073, 172.743, 162.698, 49.905, 0.116424, 0, 0, -0.9932) /* Jo Ten-Ma */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2072080386';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2072080386'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072080385';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072080385'; /* linkmonstergen1hour <- Koga Hideki */
 

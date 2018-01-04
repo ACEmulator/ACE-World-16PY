@@ -41,11 +41,11 @@ VALUES (4542, 2107879448, 3661299974, 114.211, 40.7714, 18.005, -0.333767, 0, 0,
      , (4503, 2107879447, 3661299713, 153.228, 86.1752, 2.79562, 0.707107, 0, 0, -0.707107) /* Tekai the Scribe */
      , (5431, 2107879449, 3661299713, 116.827, 38.5033, 19.8, 0.707107, 0, 0, -0.707107) /* Forest's Blessing Bows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107879438';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2107879470';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107879438'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2107879470'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879437';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879445';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879469';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879472';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879437'; /* linkmonstergen <- Wing Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879445'; /* linkmonstergen <- Collector */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879469'; /* linkmonstergen3minutes <- Tian Li Quan */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879472'; /* linkmonstergen3minutes <- Jojii Shrine */
 

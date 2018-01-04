@@ -67,34 +67,34 @@ VALUES (234, 1880756224, 27328768, 60, -20, 0.005, 0.707107, 0, 0, -0.707107) /*
      , (1293, 1880756289, 27328872, 5.245, -20, 30, -0.707107, 0, 0, -0.707107) /* Door */
      , (2561, 1880756290, 27328877, 120, 0, 30, 1, 0, 0, 0) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880756256';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880756256'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756280';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756281';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756248';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756249';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756250';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756242';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756243';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756244';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756245';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756236';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756237';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756232';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756224';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756225';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756226';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756227';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756265';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756235';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756257';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756261';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756262';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756285';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756286';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756255';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756239';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756277';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756278';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756258';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756280'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756281'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756248'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756249'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756250'; /* linkmonstergen <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756242'; /* linkmonstergen <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756243'; /* linkmonstergen <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756244'; /* linkmonstergen <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756245'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756236'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756237'; /* linkmonstergen <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756232'; /* linkmonstergen <- Tumerok Officer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756224'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756225'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756226'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756227'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756265'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756235'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756257'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756261'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756262'; /* linkmonstergen <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756285'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756286'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756255'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756239'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756277'; /* linkmonstergen <- Drudge Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756278'; /* linkmonstergen <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880756258'; /* linkmonstergen <- High Tumerok */
 

@@ -7,11 +7,11 @@ VALUES (1104, 2046398464, 2677604353, 161.945, 113.932, 94.9361, 0.410024, 0, 0,
      , (177, 2046398469, 2677604353, 45.8647, 33.325, 51.7621, -0.269463, 0, 0, 0.963011) /* Spiny Armoredillo */
      , (3955, 2046398470, 2677604353, 96.011, 61.7143, 70.6308, -0.570613, 0, 0, 0.821219) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046398470';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046398470'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398466';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398467';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398468';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398469';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398465';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398466'; /* linkmonstergen15minutes <- Limestone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398467'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398468'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398469'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398465'; /* linkmonstergen15minutes <- Ghost Wisp */
 

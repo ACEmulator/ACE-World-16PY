@@ -42,25 +42,25 @@ VALUES (8377, 1924206655, 722534674, 37.4016, 156.663, 48.505, 0.707107, 0, 0, -
      , (24571, 1924206634, 722534401, 179.755, 108.735, 48.5534, 0.382683, 0, 0, -0.92388) /* Portcullis */
      , (24873, 1924206635, 722534401, 177.624, 114.107, 48.005, 0.172802, 0, 0, -0.984957) /* Gate Guard */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924206612';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1924206606';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924206612'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1924206606'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206614';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206613';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206616';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206615';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206618';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206617';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206620';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206619';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206622';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206628';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206627';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206629';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206631';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206635';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206636';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206637';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206656';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206657';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206614'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206613'; /* linkmonstergen10minutes <- Auroch Bull */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206616'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206615'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206618'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206617'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206620'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206619'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206622'; /* linkmonstergen30minutes <- Aun Xathurea the Leather Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206628'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206627'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206629'; /* linkmonstergen30minutes <- Ulna bint-Fasha the Ivory Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206631'; /* linkmonstergen30minutes <- Yukara Miko the Collector */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206635'; /* linkmonstergen30minutes <- Gate Guard */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206636'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206637'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206656'; /* linkmonstergen30minutes <- Small Creepy Statue */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206657'; /* linkmonstergen30minutes <- Finn Skigg */
 

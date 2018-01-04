@@ -7,11 +7,11 @@ VALUES (8478, 2139197440, 4162388224, 132, 32, 15.66, 1, 0, 0, 0) /* Small Templ
      , (7112, 2139197445, 4162387969, 131.479, 11.84, 26.055, -0.113278, 0, 0, -0.993563) /* Chomu Sclavus */
      , (7112, 2139197444, 4162387969, 134.541, 5.72952, 22.005, -0.897259, 0, 0, -0.441505) /* Chomu Sclavus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2139197442';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2139197442'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197441';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197443';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197444';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197445';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197446';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197441'; /* linkmonstergen5minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197443'; /* linkmonstergen5minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197444'; /* linkmonstergen5minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197445'; /* linkmonstergen5minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139197446'; /* linkmonstergen5minutes <- Chomu Sclavus */
 

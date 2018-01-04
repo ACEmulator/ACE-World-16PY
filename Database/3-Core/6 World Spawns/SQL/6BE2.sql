@@ -10,9 +10,9 @@ VALUES (1371, 1992171522, 1809973504, 179.377, 83.6521, 84.005, 0.669614, 0, 0, 
      , (2566, 1992171526, 1809973249, 157.128, 82.2775, 84.005, 0.666972, 0, 0, 0.745082) /* Black Rabbit */
      , (2566, 1992171527, 1809973249, 151.765, 79.7195, 84.005, 0.99742, 0, 0, -0.0717797) /* Black Rabbit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1992171529';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1992171529'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171526';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171527';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171528';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171526'; /* linkmonstergen <- Black Rabbit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171527'; /* linkmonstergen <- Black Rabbit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171528'; /* linkmonstergen <- Black Rabbit */
 

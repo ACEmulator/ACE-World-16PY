@@ -15,15 +15,15 @@ VALUES (1632, 2047561743, 2696216834, 132.071, 109.98, 76.01, 0.427793, 0, 0, -0
      , (1154, 2047561739, 2696216577, 148.104, 115.99, 76.005, 0.994405, 0, 0, -0.105635) /* linkmonstergen */
      , (1625, 2047561746, 2696216577, 171.401, 145.947, 76.012, -0.971848, 0, 0, -0.235609) /* Mountain Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047561739';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047561739'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561733';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561734';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561748';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561747';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561744';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561743';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561745';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561746';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561749';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561733'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561734'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561748'; /* linkmonstergen <- Banderling Blade */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561747'; /* linkmonstergen <- Banderling Blade */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561744'; /* linkmonstergen <- Banderling Blade */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561743'; /* linkmonstergen <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561745'; /* linkmonstergen <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561746'; /* linkmonstergen <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561749'; /* linkmonstergen <- Mountain Rat */
 

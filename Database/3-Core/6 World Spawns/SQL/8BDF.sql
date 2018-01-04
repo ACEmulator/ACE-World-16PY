@@ -6,9 +6,9 @@ VALUES (1154, 2025713664, 2346647553, 132.492, 25.7688, 31.105, 0.718912, 0, 0, 
      , (1918, 2025713668, 2346647553, 132.6, 21.4677, 31.105, -0.971202, 0, 0, -0.238259) /* Chest */
      , (1918, 2025713669, 2346647553, 133.631, 23.3941, 31.1, -0.971202, 0, 0, -0.238259) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025713664';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025713664'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713665';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713666';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713667';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713665'; /* linkmonstergen <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713666'; /* linkmonstergen <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025713667'; /* linkmonstergen <- Granite Golem */
 

@@ -10,7 +10,7 @@ VALUES (171, 2042081281, 2608529665, 15.4891, 63.9802, 21.705, -0.733635, 0, 0, 
      , (4673, 2042081285, 2608529409, 4.55382, 121.688, 16.1473, 0.997482, 0, 0, -0.0709216) /* Samsur Outpost */
      , (5076, 2042081292, 2608529409, 21.5397, 107.928, 16.005, -0.962445, 0, 0, -0.271476) /* East Samsur Outpost */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2042081282';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2042081282'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2042081289';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2042081289'; /* linkmonstergen3minutes <- Saqat */
 

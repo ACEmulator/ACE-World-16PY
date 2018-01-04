@@ -50,16 +50,16 @@ VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.70
      , (27248, 1984778292, 1691680769, 82.2909, 66.7715, 78.005, -0.99692, 0, 0, -0.0784281) /* Corin of Stonehold */
      , (14, 1984778305, 1691680769, 112.009, 101.073, 78.0057, -0.989876, 0, 0, 0.141933) /* Cow */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984778308';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984778272';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984778308'; /* linkitemgen10seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984778272'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984778307';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778291';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778303';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778271';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778304';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778306';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778309';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778310';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778305';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984778307'; /* linkitemgen10seconds <- Barnar the Tinker's Note */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778291'; /* linkmonstergen3minutes <- Olcris, Nuhmudira's Student */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778303'; /* linkmonstergen3minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778271'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778304'; /* linkmonstergen3minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778306'; /* linkmonstergen3minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778309'; /* linkmonstergen3minutes <- Suzuhara Baijin */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778310'; /* linkmonstergen3minutes <- Cyphis Suldow */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778305'; /* linkmonstergen3minutes <- Cow */
 

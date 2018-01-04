@@ -13,7 +13,7 @@ VALUES (1148, 2010525696, 2103640320, 35.975, 84, 9.205, 0.707107, 0, 0, -0.7071
      , (5178, 2010525708, 2103640065, 23.5602, 85.6381, 11.9683, 0.719682, 0, 0, 0.694304) /* Lubziklan al-Luq */
      , (7923, 2010525709, 2103640065, 24.6039, 88.2084, 12.005, -0.609033, 0, 0, 0.793145) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010525709';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010525709'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010525708';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010525708'; /* linkmonstergen3minutes <- Lubziklan al-Luq */
 

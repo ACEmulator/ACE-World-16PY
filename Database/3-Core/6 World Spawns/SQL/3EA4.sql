@@ -7,8 +7,8 @@ VALUES (3917, 1944731652, 1050935554, 84.8114, 35.3803, -0.795, -0.876774, 0, 0,
      , (4042, 1944731654, 1050935297, 93.0624, 22.1705, 0.157455, 0.532675, 0, 0, -0.84632) /* Plateau Portal */
      , (1392, 1944731653, 1050935297, 78.1891, 33.7882, 0.005, -0.47425, 0, 0, -0.88039) /* Peddler */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1944731651';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1944731651'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1944731650';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1944731652';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1944731650'; /* linkmonstergen <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1944731652'; /* linkmonstergen <- Collector */
 

@@ -31,24 +31,24 @@ VALUES (7, 1880444928, 22348035, 28.142, -38.4548, -11.9967, -0.954306, 0, 0, -0
      , (3955, 1880444957, 22348184, 17.8439, -10.3975, 12, 1, 0, 0, 0) /* linkmonstergen15minutes */
      , (5085, 1880444958, 22348184, 19.4498, -8.80799, 12.005, -0.144762, 0, 0, 0.989466) /* linkitemgen25seconds */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880444955';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880444957';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880444941';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880444958';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880444955'; /* linknewbiemonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880444957'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880444941'; /* Lightning Trap */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880444958'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444945';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444947';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444942';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444952';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444933';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444928';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444949';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444934';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444951';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444929';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444936';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880444940';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880444931';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880444954';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444945'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444947'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444942'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444952'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444933'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444930'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880444928'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444949'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444934'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444951'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444929'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880444936'; /* linkmonstergen15minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880444940'; /* Lightning Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880444931'; /* linkitemgen25seconds <- The Hundred Trackless Paths */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880444954'; /* linkitemgen25seconds <- Samsur Town Stamp */
 

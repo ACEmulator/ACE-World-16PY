@@ -10,15 +10,15 @@ VALUES (7924, 1910673408, 506003457, 76.5827, 124.685, 94.005, 0.389334, 0, 0, 0
      , (23562, 1910673416, 506003457, 90.328, 119.275, 94.005, -0.998339, 0, 0, -0.0576071) /* Abyssal Shadow */
      , (24129, 1910673417, 506003457, 87.3, 135.11, 94.005, -0.366388, 0, 0, -0.930462) /* linkmonstergen2minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1910673408';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1910673417';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1910673408'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1910673417'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673410';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673412';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673413';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673414';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673415';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673416';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1910673411';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673409'; /* linkmonstergen5minutes <- Destroyer Grievver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673410'; /* linkmonstergen5minutes <- Destroyer Grievver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673412'; /* linkmonstergen5minutes <- Abyssal Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673413'; /* linkmonstergen5minutes <- Abyssal Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673414'; /* linkmonstergen5minutes <- Shadow Spectre */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673415'; /* linkmonstergen5minutes <- Abyssal Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910673416'; /* linkmonstergen5minutes <- Abyssal Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1910673411'; /* linkmonstergen2minutes <- Shadow Phantom Leader */
 

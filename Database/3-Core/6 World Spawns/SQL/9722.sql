@@ -57,11 +57,11 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (1065, 2037522462, 2535587841, 120.041, 82.629, 105.51, 0.0400236, 0, 0, -0.999199) /* House of Scrolls */
      , (4773, 2037522463, 2535587841, 65.5429, 104.959, 105.605, -0.771647, 0, 0, 0.636051) /* collectorstonegharundimgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037522471';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2037522501';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037522471'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2037522501'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522470';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522496';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522500';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522509';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522470'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522496'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522500'; /* linkmonstergen3minutes <- Aun Maerirea */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522509'; /* linkmonstergen3minutes <- Journeyman Alchemist */
 

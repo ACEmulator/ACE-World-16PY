@@ -6,10 +6,10 @@ VALUES (2577, 2006331392, 2036531201, 107.063, 112.963, -0.899, 0.951353, 0, 0, 
      , (5360, 2006331401, 2036531201, 108.145, 116.666, -0.15175, -0.976921, 0, 0, -0.213601) /* Corpse of Abmim ibn Ibsar */
      , (4219, 2006331403, 2036531201, 112.025, 109.294, -0.895, 0.25595, 0, 0, -0.96669) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2006331403';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2006331403'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331402';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331394';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331393';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331392';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331402'; /* linkmonstergen7minutes <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331394'; /* linkmonstergen7minutes <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331393'; /* linkmonstergen7minutes <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2006331392'; /* linkmonstergen7minutes <- Shallows Shark */
 

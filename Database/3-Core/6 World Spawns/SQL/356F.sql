@@ -7,11 +7,11 @@ VALUES (29217, 1935077381, 896467210, 155, 76, 13.805, 1, 0, 0, 0) /* Guardian *
      , (27989, 1935077379, 896466945, 150.643, 61.563, 36.005, -0.142539, 0, 0, -0.989789) /* Guruk Smasher */
      , (7924, 1935077380, 896466945, 155.783, 65.1405, 36.005, 0.999951, 0, 0, -0.00989864) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1935077380';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1935077380'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077379';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077381';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077376'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077377'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077378'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077379'; /* linkmonstergen5minutes <- Guruk Smasher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1935077381'; /* linkmonstergen5minutes <- Guardian */
 

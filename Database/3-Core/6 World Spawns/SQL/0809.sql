@@ -11,12 +11,12 @@ VALUES (25863, 1887473672, 134807808, 152.889, 57.0187, 21.605, 0.999489, 0, 0, 
      , (25859, 1887473670, 134807553, 159.175, 57.5429, 31.205, -0.915751, 0, 0, -0.401747) /* Biaka */
      , (25863, 1887473671, 134807553, 158.952, 62.4585, 31.205, -0.528958, 0, 0, -0.848648) /* Hellion */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1887473675';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1887473675'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473669';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473670';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473671';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473672';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473673';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473674';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473669'; /* linkmonstergen5minutes <- Biaka */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473670'; /* linkmonstergen5minutes <- Biaka */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473671'; /* linkmonstergen5minutes <- Hellion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473672'; /* linkmonstergen5minutes <- Hellion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473673'; /* linkmonstergen5minutes <- Hellion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1887473674'; /* linkmonstergen5minutes <- The Black Breath */
 

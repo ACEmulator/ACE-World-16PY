@@ -13,17 +13,17 @@ VALUES (23512, 2060648448, 2905604097, 90.9025, 17.4502, 147.822, -0.895312, 0, 
      , (23345, 2060648459, 2905604097, 7.41239, 153.279, 101.682, -0.91545, 0, 0, 0.402432) /* Iron Golem Guardian */
      , (23345, 2060648460, 2905604097, 31.5207, 132.228, 105.662, 0.991281, 0, 0, -0.131767) /* Iron Golem Guardian */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2060648450';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2060648450'; /* linkmonstergen1minute */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648449';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648451';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648452';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648453';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648454';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648455';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648456';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648457';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648458';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648459';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648460';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648449'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648451'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648452'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648453'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648454'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648455'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648456'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648457'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648458'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648459'; /* linkmonstergen1minute <- Iron Golem Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060648460'; /* linkmonstergen1minute <- Iron Golem Guardian */
 

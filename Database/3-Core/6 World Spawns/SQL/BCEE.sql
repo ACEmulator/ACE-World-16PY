@@ -66,15 +66,15 @@ VALUES (7426, 2077155328, 3169714177, 83.8505, 83.9277, 170.005, -0.692915, 0, 0
      , (7093, 2077155396, 3169714177, 116.152, 96.1847, 170.024, 0.995728, 0, 0, -0.0923388) /* Hellfire */
      , (7093, 2077155397, 3169714177, 125.68, 83.5602, 171.902, -0.932863, 0, 0, -0.360232) /* Hellfire */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077155388';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077155388'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155389';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155390';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155391';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155392';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155393';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155394';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155395';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155396';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155397';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155389'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155390'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155391'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155392'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155393'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155394'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155395'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155396'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155397'; /* linkmonstergen5minutes <- Hellfire */
 

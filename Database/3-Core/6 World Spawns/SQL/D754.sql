@@ -6,8 +6,8 @@ VALUES (906, 2104836097, 3612606720, 81.5939, 38.177, 38.405, -0.0202601, 0, 0, 
      , (193, 2104836099, 3612606724, 80.714, 31.6755, 34.005, 0.112684, 0, 0, -0.993631) /* Drudge Slinker */
      , (720, 2104836096, 3612606465, 83.05, 29.2561, 34, 0.707107, 0, 0, -0.707107) /* Sliding Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2104836101';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2104836101'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2104836099';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2104836100';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2104836099'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2104836100'; /* linkmonstergen <- Drudge Slinker */
 

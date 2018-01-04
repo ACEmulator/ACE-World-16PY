@@ -33,26 +33,26 @@ VALUES (146, 1880453120, 22479104, 3.27918, -45.7444, -12, 0, 0, 0, -1) /* Coffi
      , (30507, 1880453170, 22479208, 16.8594, -46.4999, 0.005, 0.724723, 0, 0, -0.689041) /* Mad Star Marionette */
      , (146, 1880453151, 22479216, 17.4139, -57.2606, 0, -0.707107, 0, 0, -0.707107) /* Coffin */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880453130';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880453164';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880453130'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880453164'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880453129';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453165';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453153';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453152';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453168';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453163';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453169';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453167';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453155';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453157';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453158';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453160';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453159';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453154';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453161';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453125';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453166';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453156';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453170';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880453129'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453165'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453153'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453152'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453168'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453163'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453169'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453167'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453155'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453157'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453158'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453160'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453159'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453154'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453161'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453125'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453166'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453156'; /* linkmonstergen7minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453170'; /* linkmonstergen7minutes <- Mad Star Marionette */
 

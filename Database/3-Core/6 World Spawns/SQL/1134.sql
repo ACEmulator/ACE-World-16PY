@@ -54,27 +54,27 @@ VALUES (6855, 1897086987, 288620800, 81.6822, 57.8933, 42.005, -0.92505, 0, 0, 0
      , (19457, 1897087021, 288620545, 89.631, 87.409, 49, -0.0617631, 0, 0, -0.998091) /* fireworksgen */
      , (19207, 1897087027, 288620545, 89.5038, 87.375, 48.916, 0.997208, 0, 0, -0.0746683) /* Nullified Statue of a Virindi */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1897086991';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1897087048';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1897086991'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1897087048'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086999';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086983';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086985';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086987';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086988';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086990';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086992';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086993';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086998';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087000';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087004';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087006';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087051';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087043';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087010';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087044';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087045';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087046';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087047';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086999'; /* linkmonstergen15minutes <- Oak Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086983'; /* linkmonstergen15minutes <- Sang Nen-Kai the Weaponsmith */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086984'; /* linkmonstergen15minutes <- Jeweler Daryam ibn Zubed */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086985'; /* linkmonstergen15minutes <- Ivory Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086987'; /* linkmonstergen15minutes <- Sung Wenxio the Armorer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086988'; /* linkmonstergen15minutes <- Grocer Nihara bint Umar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086990'; /* linkmonstergen15minutes <- Berkholt the Burly Barkeep */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086992'; /* linkmonstergen15minutes <- Scribe Muhiza bint Murqidh  */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086993'; /* linkmonstergen15minutes <- Leather Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897086998'; /* linkmonstergen15minutes <- Thiuda the Sharp-Eyed Bowyer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087000'; /* linkmonstergen15minutes <- Ellimar Jorning the Healer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087004'; /* linkmonstergen15minutes <- Yuan Hanzu */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087006'; /* linkmonstergen15minutes <- Town Crier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087051'; /* linkmonstergen15minutes <- Tanami Kei */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087043'; /* linkmonstergen15minutes <- Aaminah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897087010'; /* linkmonstergen15minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087044'; /* linkitemgen10seconds <- Half Empty Cider */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087045'; /* linkitemgen10seconds <- Empty Mug */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087046'; /* linkitemgen10seconds <- Strands of Silk */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1897087047'; /* linkitemgen10seconds <- Sweet Smelling Bark */
 

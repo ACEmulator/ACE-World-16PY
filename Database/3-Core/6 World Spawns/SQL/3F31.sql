@@ -15,9 +15,9 @@ VALUES (19715, 1945309196, 1060176128, 54.5726, 181.332, -5.195, -0.658079, 0, 0
      , (24221, 1945309202, 1060175873, 67.2259, 182.241, 1.18674, 0.178722, 0, 0, -0.9839) /* Wai Jhou */
      , (23631, 1945309197, 1060175873, 65.964, 123.254, 159.889, -0.999891, 0, 0, 0.0147444) /* eventmadcowgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945309201';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945309201'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309198';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309200';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309199';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309198'; /* linkmonstergen3minutes <- Caelis Renning */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309200'; /* linkmonstergen3minutes <- Kreavon */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309199'; /* linkmonstergen3minutes <- Aun Teverea */
 

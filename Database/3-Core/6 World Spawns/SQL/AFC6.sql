@@ -36,28 +36,28 @@ VALUES (1520, 2063360013, 2948989192, 135.497, 59.2485, 120.008, -0.999996, 0, 0
      , (937, 2063360016, 2948988929, 107.483, 141.864, 120.008, -0.171382, 0, 0, -0.985205) /* Banderling Guard */
      , (937, 2063360015, 2948988929, 129.099, 60.1659, 120.008, -0.992, 0, 0, -0.126235) /* Banderling Guard */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2063360012';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2063360028';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2063360030';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2063360012'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2063360028'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2063360030'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360013';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360014';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360015';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360016';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360017';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360020';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360022';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360021';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360025';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360024';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360027';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360026';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360023';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360018';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360010';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360006';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360034';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2063360029';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2063360032';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2063360031';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360013'; /* linkmonstergen <- Banderling Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360014'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360015'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360016'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360017'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360020'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360022'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360021'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360025'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360024'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360027'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360026'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360023'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360018'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360010'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360006'; /* linkmonstergen <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2063360034'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2063360029'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2063360032'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2063360031'; /* Door <- Pressure Plate */
 

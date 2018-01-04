@@ -33,12 +33,12 @@ VALUES (20225, 2073501713, 3111256320, 181.605, 85.0497, 33.705, -0.347513, 0, 0
      , (827, 2073501716, 3111256065, 110.905, 78.0281, 34.005, 0.997874, 0, 0, 0.065168) /* Opal House */
      , (823, 2073501708, 3111256065, 103.561, 31.771, 24.005, 0.955278, 0, 0, 0.29571) /* Smith Wah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073501725';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073501725'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501701';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501719';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501724';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501749';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501750';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501751';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501701'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501719'; /* linkmonstergen3minutes <- Dai Ya the Scholar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501724'; /* linkmonstergen3minutes <- Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501749'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501750'; /* linkmonstergen3minutes <- Bleeargh, Mosswart Swamp Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501751'; /* linkmonstergen3minutes <- Ydnew */
 

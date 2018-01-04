@@ -10,12 +10,12 @@ VALUES (7434, 1998655497, 1913716992, 11.8545, 106.748, 142.005, -0.999935, 0, 0
      , (2181, 1998655493, 1913716737, 11.9909, 102.98, 142.082, 1, 0, 0, 0) /* Door */
      , (7431, 1998655495, 1913716737, 77.678, 105.761, 108.007, -0.882948, 0, 0, -0.469471) /* Lich */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1998655493';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1998655488';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1998655496';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1998655493'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1998655488'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1998655496'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655490';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655492';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1998655491';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1998655495';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655490'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655492'; /* Door <- Button */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1998655491'; /* Door <- Button */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1998655495'; /* linkmonstergen10minutes <- Lich */
 

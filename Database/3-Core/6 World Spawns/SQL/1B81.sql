@@ -19,24 +19,24 @@ VALUES (23617, 1907888147, 461438977, 177.955, 93.8916, 84.005, -0.736628, 0, 0,
      , (265, 1907888145, 461438977, 162.992, 104.791, 80.005, -0.806154, 0, 0, 0.591705) /* Meat */
      , (8138, 1907888161, 461438977, 43.9897, 54.3865, 131.681, 0.992198, 0, 0, 0.124675) /* Extas Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1907888143';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1907888146';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1907888143'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1907888146'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888155';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888156';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888157';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888158';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888159';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888151';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888147';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888149';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888150';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888148';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888161';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888160';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888152';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888153';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888154';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1907888144';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1907888145';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888155'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888156'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888157'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888158'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888159'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888151'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888147'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888149'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888150'; /* linkmonstergen <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888148'; /* linkmonstergen <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888161'; /* linkmonstergen <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888160'; /* linkmonstergen <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888152'; /* linkmonstergen <- Tumerok Trooper */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888153'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1907888154'; /* linkmonstergen <- Ascendant Tumerok */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1907888144'; /* linkitemgen <- Meat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1907888145'; /* linkitemgen <- Meat */
 

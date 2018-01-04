@@ -11,13 +11,13 @@ VALUES (183, 2138402816, 4149673985, 57.6223, 147.419, 69.2383, 0.679384, 0, 0, 
      , (939, 2138402825, 4149673985, 95.6856, 142.529, 72.0333, 0.355132, 0, 0, -0.934816) /* Young Banderling */
      , (5503, 2138402826, 4149673985, 90.3098, 150.204, 72.9376, -0.77933, 0, 0, -0.626614) /* Damp Caverns Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2138402821';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2138402821'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402818';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402819';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402820';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402823';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402824';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402825';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402816';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402818'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402819'; /* linkmonstergen15minutes <- Rust Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402820'; /* linkmonstergen15minutes <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402823'; /* linkmonstergen15minutes <- Banderling Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402824'; /* linkmonstergen15minutes <- Young Banderling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402825'; /* linkmonstergen15minutes <- Young Banderling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402816'; /* linkmonstergen15minutes <- Banderling Raver */
 

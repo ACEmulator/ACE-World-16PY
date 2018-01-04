@@ -8,11 +8,11 @@ VALUES (27710, 1918967808, 638713857, 115.228, 53.1511, 12.4068, 0.273471, 0, 0,
      , (419, 1918967814, 638713857, 124.959, 50.4596, 12.4183, -0.932958, 0, 0, -0.359984) /* itemclothing-generator */
      , (3955, 1918967815, 638713857, 122.278, 51.8488, 12.1948, 0.0723913, 0, 0, -0.997376) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918967815';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918967815'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967808';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967809';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967810';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967811';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967812';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967808'; /* linkmonstergen15minutes <- Brass Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967809'; /* linkmonstergen15minutes <- Brass Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967810'; /* linkmonstergen15minutes <- Brass Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967811'; /* linkmonstergen15minutes <- Brass Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918967812'; /* linkmonstergen15minutes <- Copper Gromnie */
 

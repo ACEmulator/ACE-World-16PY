@@ -12,10 +12,10 @@ VALUES (1616, 2075553792, 3144089601, 11.9509, 161.245, 6.005, 0.452024, 0, 0, 0
      , (394, 2075553802, 3144089601, 37.1368, 82.15, 6.005, 0.720563, 0, 0, -0.69339) /* undead-generator */
      , (394, 2075553803, 3144089601, 40.0336, 76.9768, 6.005, 0.393663, 0, 0, -0.919255) /* undead-generator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075553796';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075553796'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553792';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553793';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553794';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553795';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553792'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553793'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553794'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553795'; /* linkmonstergen <- Swamp Gromnie */
 

@@ -25,26 +25,26 @@ VALUES (24662, 1892032529, 207749121, 42.0957, 42.4065, -0.095, 0.62181, 0, 0, -
      , (24323, 1892032551, 207749121, 41.66, 23.7663, -0.09175, -0.479179, 0, 0, 0.877717) /* Undead Sailor */
      , (7297, 1892032552, 207749121, 38.5979, 26.7679, -0.095, -0.684522, 0, 0, -0.728992) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892032522';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892032522'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032534';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032535';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032536';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032537';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032538';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032539';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032540';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032541';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032542';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032543';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032544';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032545';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032546';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032547';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032548';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032549';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032550';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032551';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032530';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032533';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032534'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032535'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032536'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032537'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032538'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032539'; /* linkmonstergen <- Skeletal Mate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032540'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032541'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032542'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032543'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032544'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032545'; /* linkmonstergen <- Skeletal Swashbuckler */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032546'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032547'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032548'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032549'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032550'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032551'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032530'; /* linkmonstergen <- Undead Sailor */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892032533'; /* linkmonstergen <- Undead Captain */
 

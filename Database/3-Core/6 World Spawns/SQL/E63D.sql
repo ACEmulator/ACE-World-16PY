@@ -53,8 +53,8 @@ VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0
      , (12304, 2120470562, 3862757377, 102.536, 54.7218, 86.005, 0.999884, 0, 0, 0.0152548) /* Agent of the Arcanum  */
      , (4519, 2120470558, 3862757377, 75.014, 131.72, 86.005, 0.92388, 0, 0, -0.382683) /* Nanto */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2120470561';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2120470561'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470560';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470589';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470560'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470589'; /* linkmonstergen3minutes <- Small Creepy Statue */
 

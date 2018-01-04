@@ -13,10 +13,10 @@ VALUES (9417, 2049040393, 2719875330, 146.6, 40.4578, 578.01, -0.28363, 0, 0, -0
      , (28460, 2049040398, 2719875073, 91.4526, 50.558, 560.267, -0.454417, 0, 0, -0.890789) /* generatormorgluukheadlinvak */
      , (9406, 2049040390, 2719875073, 89.1623, 86.0302, 611.055, 0.654336, 0, 0, -0.756204) /* Lord Kresovus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049040385';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049040385'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040384';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040390';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040394';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040397';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040384'; /* linkmonstergen15minutes <- Aurutis */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040390'; /* linkmonstergen15minutes <- Lord Kresovus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040394'; /* linkmonstergen15minutes <- Master Ulkas */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049040397'; /* linkmonstergen15minutes <- Captain K'rank */
 

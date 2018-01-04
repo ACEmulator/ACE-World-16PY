@@ -70,15 +70,15 @@ VALUES (2295, 2090184730, 3378184454, 128.664, 138.718, 10.805, 0.0274312, 0, 0,
      , (2282, 2090184739, 3378184193, 140.563, 131.317, 15.3086, 1, 0, 0, 0) /* The True Shot */
      , (2286, 2090184740, 3378184193, 137.613, 88.1268, 13.9037, 0.707107, 0, 0, -0.707107) /* The Emerald Unicorn */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2090184749';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2090184755';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2090184779';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2090184749'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2090184755'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2090184779'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090184750';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184754';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184756';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184777';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184780';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184778';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184789';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090184750'; /* linkmonstergen3minutes <- Tsua Kagemata */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184754'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184756'; /* linkmonstergen3minutes <- Tsua's Apprentice */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184777'; /* linkmonstergen3minutes <- Ro Bi-Jor, Apprentice Tailor */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184780'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184778'; /* linkitemgen25seconds <- Dusty Sollerets */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184789'; /* linkitemgen25seconds <- Apprentice Fletcher */
 

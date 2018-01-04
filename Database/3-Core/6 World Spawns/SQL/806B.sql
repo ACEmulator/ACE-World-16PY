@@ -15,17 +15,17 @@ VALUES (1759, 2013704195, 2154496256, 153.518, 165.833, 1.66, 0.78916, 0, 0, -0.
      , (1759, 2013704205, 2154496001, 157.907, 169.853, 8.005, 0.998502, 0, 0, 0.054722) /* Skeleton */
      , (1759, 2013704194, 2154496001, 156.727, 149.79, 8.005, 0.048203, 0, 0, -0.998838) /* Skeleton */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013704201';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013704201'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704192';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704193';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704194';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704195';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704196';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704197';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704198';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704199';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704200';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704205';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704206';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704192'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704193'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704194'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704195'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704196'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704197'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704198'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704199'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704200'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704205'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013704206'; /* linkmonstergen <- Skeleton */
 

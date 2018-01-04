@@ -18,18 +18,18 @@ VALUES (7124, 1881931776, 46137600, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -
      , (7123, 1881931792, 46137631, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128) /* Dark Leech */
      , (8479, 1881931793, 46137632, 56.193, -50, 0, -0.707107, 0, 0, -0.707107) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881931790';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881931791';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881931790'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881931791'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881931782';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931787';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931789';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931781';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931779';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931780';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931776';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931788';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931792';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931777';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931778';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881931782'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931787'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931789'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931781'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931779'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931780'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931776'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931788'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931792'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931777'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931778'; /* linkmonstergen4minutes <- Dark Leech */
 

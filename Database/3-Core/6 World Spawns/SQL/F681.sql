@@ -5,7 +5,7 @@ VALUES (22725, 2137526272, 4135649281, 174.363, 174.604, 63.8756, -0.880913, 0, 
      , (22715, 2137526275, 4135649281, 25.7886, 163.59, 35.7874, -0.623433, 0, 0, -0.781877) /* North Tusker Forest */
      , (22714, 2137526276, 4135649281, 76.2657, 123.358, 51.6312, -0.0082116, 0, 0, 0.999966) /* Central Tusker Forest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137526273';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137526273'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137526274';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137526274'; /* linkmonstergen3minutes <- Town Crier */
 

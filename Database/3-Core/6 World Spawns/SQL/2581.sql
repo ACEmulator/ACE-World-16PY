@@ -51,13 +51,13 @@ VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, 
      , (12050, 1918373918, 629211137, 110.966, 115.545, 220.005, 0.664729, 0, 0, -0.747084) /* Agent of the Arcanum */
      , (7923, 1918373919, 629211137, 111.105, 116.734, 220.005, 0.151545, 0, 0, -0.98845) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918373919';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1918373944';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1918373954';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918373919'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1918373944'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1918373954'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918373918';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373945';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373955';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373957';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1918373956';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918373918'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373945'; /* linkmonstergen3minutes <- Town Crier */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373955'; /* linkmonstergen3minutes <- Fort Tethana Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373957'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1918373956'; /* Door <- Lever */
 

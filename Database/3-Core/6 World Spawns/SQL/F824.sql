@@ -12,17 +12,17 @@ VALUES (4248, 2139242496, 4163108865, 144.308, 42.8453, 18.006, -0.961814, 0, 0,
      , (7925, 2139242506, 4163108865, 136.131, 32.2069, 18.6608, 0.981857, 0, 0, -0.189624) /* linkmonstergen10minutes */
      , (8470, 2139242507, 4163108865, 140.609, 177.249, -0.895, 0.992699, 0, 0, 0.120615) /* Sulthis Eye Stalk */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2139242506';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2139242506'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242496';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242497';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242498';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242499';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242500';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242501';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242502';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242503';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242504';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242505';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242507';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242496'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242497'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242498'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242499'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242500'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242501'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242502'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242503'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242504'; /* linkmonstergen10minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242505'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139242507'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
 

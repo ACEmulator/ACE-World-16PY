@@ -9,9 +9,9 @@ VALUES (9323, 1881788416, 43843843, 5.42385, 1.48456, 0.005, -0.999997, 0, 0, 0.
      , (9307, 1881788423, 43843856, 110.996, -9.77293, 0.005, 0.690515, 0, 0, 0.723318) /* Renselm */
      , (9323, 1881788424, 43843857, 105.928, -21.6028, 0.005, 0.040441, 0, 0, 0.999182) /* Exit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881788417';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881788417'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788418';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788421';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788423';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788418'; /* linkmonstergen3minutes <- Saelar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788421'; /* linkmonstergen3minutes <- Hahnain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881788423'; /* linkmonstergen3minutes <- Renselm */
 

@@ -19,23 +19,23 @@ VALUES (1761, 2080681984, 3226140673, 100.451, 185.395, 58.5415, -0.943858, 0, 0
      , (7923, 2080682001, 3226140673, 108.746, 179.447, 56.8429, 0.589847, 0, 0, -0.807515) /* linkmonstergen3minutes */
      , (886, 2080682002, 3226140673, 105.362, 181.398, 57.4661, 0.987895, 0, 0, 0.155126) /* armoredillospinygen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2080682001';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2080682001'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681984';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681985';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681986';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681987';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681988';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681989';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681990';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681991';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681992';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681993';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681994';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681995';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681996';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681997';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681998';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681999';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080682000';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681984'; /* linkmonstergen3minutes <- Skeleton Captain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681985'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681986'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681987'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681988'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681989'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681990'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681991'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681992'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681993'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681994'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681995'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681996'; /* linkmonstergen3minutes <- Skeleton Captain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681997'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681998'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080681999'; /* linkmonstergen3minutes <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080682000'; /* linkmonstergen3minutes <- Skeleton Warrior */
 

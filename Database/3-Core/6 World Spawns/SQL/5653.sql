@@ -8,9 +8,9 @@ VALUES (21485, 1969565696, 1448280364, 10.277, -5.6044, 12.005, 1, 0, 0, -4.3711
      , (21407, 1969565713, 1448280487, 32.0414, -9.63425, 48.005, 0.999994, 0, 0, 0.00332623) /* Electric Destruction */
      , (21408, 1969565714, 1448280487, 27.403, -9.36988, 48.005, 0.999994, 0, 0, 0.00332623) /* Entropic Decay */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969565699';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969565699'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565698';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565697';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565696';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565698'; /* linkmonstergen5minutes <- Bookshelf */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565697'; /* linkmonstergen5minutes <- Bookshelf */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969565696'; /* linkmonstergen5minutes <- Bookshelf */
 

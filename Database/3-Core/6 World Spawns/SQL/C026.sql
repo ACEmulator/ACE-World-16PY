@@ -8,7 +8,7 @@ VALUES (1030, 2080530439, 3223716097, 155.768, 136.778, 108.005, 1, 0, 0, 0) /* 
      , (965, 2080530434, 3223716098, 153.396, 74.1105, 97.66, 0.549177, 0, 0, -0.835706) /* zombiegen */
      , (509, 2080530432, 3223715841, 173.629, 124.122, 106.478, -0.962302, 0, 0, 0.271983) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2080530438';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2080530438'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080530437';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080530437'; /* linkmonstergen <- Lich Lord */
 

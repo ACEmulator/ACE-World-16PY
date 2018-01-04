@@ -6,9 +6,9 @@ VALUES (4014, 2101686276, 3562209536, 96.4613, 48.225, 34.805, -0.931491, 0, 0, 
      , (1154, 2101686277, 3562209536, 101.277, 44.7385, 34.805, -0.866671, 0, 0, -0.49888) /* linkmonstergen */
      , (4014, 2101686275, 3562209536, 98.103, 49.7198, 34.805, -0.931491, 0, 0, -0.363764) /* itemlowmagicgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101686277';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101686277'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686278';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686280';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686279';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686278'; /* linkmonstergen <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686280'; /* linkmonstergen <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101686279'; /* linkmonstergen <- Sandstone Golem */
 

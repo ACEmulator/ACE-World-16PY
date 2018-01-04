@@ -27,27 +27,27 @@ VALUES (1631, 2007384093, 2053374208, 38.9186, 159.215, 8.805, -0.261685, 0, 0, 
      , (1986, 2007384091, 2053373953, 77.8926, 156.124, -0.895, -0.70109, 0, 0, 0.713073) /* Water Wisp */
      , (263, 2007384080, 2053373953, 77.291, 144.357, -0.226, -0.508553, 0, 0, -0.861031) /* Fish */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007384066';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2007384070';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2007384095';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2007384088';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2007384096';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007384066'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2007384070'; /* linkitemscattergen */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2007384095'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2007384088'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2007384096'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384067';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384071';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384080';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384081';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384082';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384083';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2007384086';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384091';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384090';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384089';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384093';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384092';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384094';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384068';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384073';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384077';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2007384085';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384067'; /* Door <- Button */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384071'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384080'; /* linkitemscattergen <- Fish */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384081'; /* linkitemscattergen <- Fish */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384082'; /* linkitemscattergen <- Fish */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384083'; /* linkitemscattergen <- Fish */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2007384086'; /* linkmonstergen5minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384091'; /* linkmonstergen10minutes <- Water Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384090'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384089'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384093'; /* linkmonstergen10minutes <- Drudge Servant */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384092'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384094'; /* linkmonstergen10minutes <- Drudge Slave */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384068'; /* linkmonstergen10minutes <- Undead */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384073'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384077'; /* linkmonstergen10minutes <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2007384085'; /* linkitemgen25seconds <- A Note to Ma'yad */
 

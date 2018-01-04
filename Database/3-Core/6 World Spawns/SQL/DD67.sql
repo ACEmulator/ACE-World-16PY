@@ -5,10 +5,10 @@ VALUES (211, 2111205376, 3714515200, 37.2161, 130.496, 16.0055, 0.194984, 0, 0, 
      , (211, 2111205379, 3714514945, 35.5262, 131.27, 31.2055, -0.299959, 0, 0, -0.953952) /* Mudlurk Mosswart */
      , (211, 2111205378, 3714514945, 32.9438, 132.303, 31.2055, -0.299959, 0, 0, -0.953952) /* Mudlurk Mosswart */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111205380';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111205380'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205379';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205376'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205377'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205378'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111205379'; /* linkmonstergen <- Mudlurk Mosswart */
 

@@ -10,14 +10,14 @@ VALUES (7102, 2131918852, 4045930753, 131.944, 33.3635, 20.0066, -0.993879, 0, 0
      , (7102, 2131918855, 4045930497, 172.908, 171.915, 0.00660002, -0.150514, 0, 0, -0.988608) /* Mosswart Mire-Witch */
      , (7103, 2131918856, 4045930497, 170.033, 169.446, 0.00660002, 0.879072, 0, 0, -0.476689) /* Mosswart Clinger */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131918848';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131918848'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918849';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918850';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918851';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918852';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918853';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918854';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918855';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918856';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918849'; /* linkmonstergen7minutes <- Mosswart Clinger */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918850'; /* linkmonstergen7minutes <- Mosswart Clinger */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918851'; /* linkmonstergen7minutes <- Mosswart Clinger */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918852'; /* linkmonstergen7minutes <- Mosswart Mire-Witch */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918853'; /* linkmonstergen7minutes <- Mosswart Clinger */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918854'; /* linkmonstergen7minutes <- Mosswart Clinger */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918855'; /* linkmonstergen7minutes <- Mosswart Mire-Witch */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131918856'; /* linkmonstergen7minutes <- Mosswart Clinger */
 

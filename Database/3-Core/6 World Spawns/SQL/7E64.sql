@@ -16,13 +16,13 @@ VALUES (9499, 2011578377, 2120483089, 107, 114, 12.005, -4.37114E-08, 0, 0, -1) 
      , (1110, 2011578369, 2120482817, 50.5739, 98.7056, 13.7855, 0.92388, 0, 0, -0.382683) /* Yaraq */
      , (10706, 2011578372, 2120482817, 95, 104, 12.005, -0.685501, 0, 0, -0.728072) /* Wheel of Fortune */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011578375';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011578375'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578373';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578374';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578379';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578380';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578373'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578374'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578377'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578376'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578378'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578379'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578380'; /* linkmonstergen15minutes <- Arshid al-Qiyid */
 

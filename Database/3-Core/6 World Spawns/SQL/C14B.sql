@@ -12,17 +12,17 @@ VALUES (2131, 2081730560, 3242917889, 39.2284, 164.762, 20.005, 0.273503, 0, 0, 
      , (4064, 2081730570, 3242917889, 30.8525, 142.034, 24.4186, -0.294288, 0, 0, -0.955717) /* Whirling Blade Trap */
      , (4064, 2081730571, 3242917889, 29.2911, 143.258, 24.4186, -0.294288, 0, 0, -0.955717) /* Whirling Blade Trap */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2081730566';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2081730567';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2081730569';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2081730568';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2081730570';
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2081730571';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2081730566'; /* Whirling Blade Trap */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2081730567'; /* Whirling Blade Trap */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2081730569'; /* Whirling Blade Trap */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2081730568'; /* Whirling Blade Trap */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2081730570'; /* Whirling Blade Trap */
+UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2081730571'; /* Whirling Blade Trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2081730560';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2081730561';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2081730564';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2081730565';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2081730563';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2081730562';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2081730560'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2081730561'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2081730564'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2081730565'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2081730563'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2081730562'; /* Whirling Blade Trap <- Pressure Plate */
 

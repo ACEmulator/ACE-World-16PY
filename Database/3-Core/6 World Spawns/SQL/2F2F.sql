@@ -57,23 +57,23 @@ VALUES (23, 1928523776, 791609345, 124.105, 60.5153, 2.029, -0.760273, 0, 0, -0.
      , (5404, 1928523831, 791609345, 145.064, 61.9663, 2, -0.700984, 0, 0, -0.713177) /* Small Virindi Mana Field */
      , (5404, 1928523832, 791609345, 141.411, 57.9143, 2.30308, -0.700984, 0, 0, -0.713177) /* Small Virindi Mana Field */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1928523796';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1928523797';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1928523791';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1928523796'; /* linknewbiemonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1928523797'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1928523791'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523776';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523778';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523779';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523780';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523781';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523782';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523783';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523784';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523785';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523786';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523787';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523788';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523789';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523790';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523776'; /* linknewbiemonstergen <- Virindi Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523777'; /* linknewbiemonstergen <- Virindi Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928523778'; /* linknewbiemonstergen <- Virindi Servant */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523779'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523780'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523781'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523782'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523783'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1928523784'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523785'; /* linkmonstergen30minutes <- Tusker Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523786'; /* linkmonstergen30minutes <- Tusker Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523787'; /* linkmonstergen30minutes <- Tusker Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523788'; /* linkmonstergen30minutes <- Tusker Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523789'; /* linkmonstergen30minutes <- Tusker Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1928523790'; /* linkmonstergen30minutes <- Tusker Guard */
 

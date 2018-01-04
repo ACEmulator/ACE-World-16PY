@@ -8,11 +8,11 @@ VALUES (14414, 2109038593, 3679846656, 8.49244, 82.3928, 20.005, 0.346304, 0, 0,
      , (14460, 2109038595, 3679846401, 27.8602, 63.3384, 20.005, -0.173445, 0, 0, 0.984844) /* Sentry */
      , (14459, 2109038596, 3679846401, 26.2151, 104.501, 20.005, 0.949175, 0, 0, -0.314749) /* Sentry */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109038594';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2109038599';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109038594'; /* linkmonstergen30seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2109038599'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038595';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038596';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038593';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2109038598';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038595'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038596'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038593'; /* linkmonstergen30seconds <- Sir Tenshin */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2109038598'; /* linkmonstergen30seconds <- Sentry */
 

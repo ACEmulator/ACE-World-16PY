@@ -6,7 +6,7 @@ VALUES (412, 2078801921, 3196059912, 128.861, 42.8621, 30, -4.37114E-08, 0, 0, -
      , (12304, 2078801925, 3196059649, 135.362, 41.195, 30.005, -0.389746, 0, 0, -0.920922) /* Agent of the Arcanum  */
      , (4425, 2078801924, 3196059649, 110.607, 52.3658, 29.6412, 0.779167, 0, 0, 0.626817) /* Lytelthorpe */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2078801922';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2078801922'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078801923';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078801923'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

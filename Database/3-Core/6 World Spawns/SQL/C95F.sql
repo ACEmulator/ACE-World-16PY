@@ -8,12 +8,12 @@ VALUES (1987, 2090201088, 3378446337, 57.3313, 56.7357, 6.5, 0.699983, 0, 0, 0.7
      , (1622, 2090201094, 3378446337, 56.9109, 13.3427, 5.91, -0.845666, 0, 0, 0.533713) /* Mire Phyntos Wasp */
      , (941, 2090201095, 3378446337, 33.3081, 4.07506, 5.911, -0.650172, 0, 0, 0.759787) /* Water Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2090201089';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2090201089'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201088';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201091';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201092';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201093';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201094';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201095';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201088'; /* linkmonstergen <- Ghost Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201091'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201092'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201093'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201094'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090201095'; /* linkmonstergen <- Water Golem */
 

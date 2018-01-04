@@ -11,15 +11,15 @@ VALUES (2181, 2130014216, 4015456513, 55.7042, 8.96617, 8.882, 0.707107, 0, 0, -
      , (1154, 2130014218, 4015456257, 49.0242, 7.67184, 0.005, 0.303765, 0, 0, -0.952747) /* linkmonstergen */
      , (1763, 2130014217, 4015456257, 56.4839, 9.79876, 15.205, 0.96079, 0, 0, -0.277279) /* Lesser Mu-miyah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2130014214';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2130014216';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2130014218';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2130014214'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2130014216'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2130014218'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014213';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014212';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014211';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014210';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014209';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2130014208';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2130014217';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014213'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014212'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014211'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014210'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014209'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2130014208'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2130014217'; /* linkmonstergen <- Lesser Mu-miyah */
 

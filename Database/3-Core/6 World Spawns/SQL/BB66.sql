@@ -16,11 +16,11 @@ VALUES (1619, 2075549698, 3144024321, 35.9, 40.1616, 8.0055, 0.0606623, 0, 0, 0.
      , (509, 2075549705, 3144024065, 69.0502, 127.265, 6.005, 0.997055, 0, 0, 0.0766877) /* Life Stone */
      , (903, 2075549706, 3144024065, 16.0264, 160.885, 5.905, -0.75825, 0, 0, -0.651963) /* phyntoswaspbluegen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075549702';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075549702'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549698';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549699';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549700';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549701';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549711';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549698'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549699'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549700'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549701'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549711'; /* linkmonstergen <- Mud Golem */
 

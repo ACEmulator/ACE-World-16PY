@@ -14,19 +14,19 @@ VALUES (24310, 1929445391, 806355200, 130.165, 63.0778, 6.812, -0.994527, 0, 0, 
      , (24310, 1929445398, 806354945, 130.972, 83.4905, 12.012, -0.999567, 0, 0, -0.0294198) /* Direland Rat */
      , (24310, 1929445397, 806354945, 130.41, 78.7178, 15.8231, -0.962638, 0, 0, 0.270791) /* Direland Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1929445388';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1929445389';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1929445388'; /* linkitemgen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1929445389'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1929445386';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1929445387';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445394';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445395';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445396';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445398';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445397';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445399';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445390';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445391';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445392';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445393';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1929445386'; /* linkitemgen <- Sunstone */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1929445387'; /* linkitemgen <- Sunstone */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445394'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445395'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445396'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445398'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445397'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445399'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445390'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445391'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445392'; /* linkmonstergen <- Direland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1929445393'; /* linkmonstergen <- Direland Rat */
 

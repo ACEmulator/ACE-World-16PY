@@ -28,32 +28,32 @@ VALUES (20203, 1934950401, 894435584, 133.024, 59.1581, 206.005, 0.885304, 0, 0,
      , (20632, 1934950425, 894435329, 62.0798, 35.7473, 145.441, 0.713458, 0, 0, 0.700698) /* Champion of the Blood */
      , (20633, 1934950426, 894435329, 131.863, 57.4591, 211.008, -0.435799, 0, 0, 0.900044) /* Warlock of the Blood */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1934950403';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1934950419';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1934950403'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1934950419'; /* linkmonstergen1minute */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1934950401';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950404';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950405';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950406';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950407';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950408';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950409';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950410';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950411';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950412';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950413';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950414';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950415';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950416';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950417';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950418';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950420';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950421';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950422';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950423';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950424';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950425';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950426';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950427';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950428';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1934950401'; /* linkmonstergen3minutes <- Alatar Locke */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950404'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950405'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950406'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950407'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950408'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950409'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950410'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950411'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950412'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950413'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950414'; /* linkmonstergen1minute <- Warrior of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950415'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950416'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950417'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950418'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950420'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950421'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950422'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950423'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950424'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950425'; /* linkmonstergen1minute <- Champion of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950426'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950427'; /* linkmonstergen1minute <- Warlock of the Blood */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1934950428'; /* linkmonstergen1minute <- Champion of the Blood */
 

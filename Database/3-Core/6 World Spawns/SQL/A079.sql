@@ -10,14 +10,14 @@ VALUES (1760, 2047315969, 2692284674, 132.796, 140.291, 18.805, 0.145798, 0, 0, 
      , (1759, 2047315971, 2692284417, 130.071, 124.785, 24.0025, -0.263048, 0, 0, 0.964783) /* Skeleton */
      , (1759, 2047315972, 2692284417, 134.46, 123.571, 24.0025, 0.324372, 0, 0, 0.94593) /* Skeleton */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047315975';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047315975'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315969';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315970';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315971';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315972';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315973';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315974';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315976';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315968';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315969'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315970'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315971'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315972'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315973'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315974'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315976'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047315968'; /* linkmonstergen <- Skeleton Warrior */
 

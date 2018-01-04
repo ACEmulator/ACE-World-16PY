@@ -6,11 +6,11 @@ VALUES (238, 1931661312, 841809921, 35.1311, 13.4481, 132.005, 0.386257, 0, 0, 0
      , (1629, 1931661316, 841809921, 39.8802, 10.6969, 132.011, 0.377902, 0, 0, -0.925846) /* Tusker Guard */
      , (1154, 1931661317, 841809921, 39.1198, 12.6584, 132.005, 0.93935, 0, 0, 0.34296) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1931661317';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1931661317'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661312';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661314';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661315';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661316';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661312'; /* linkmonstergen <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661313'; /* linkmonstergen <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661314'; /* linkmonstergen <- Virindi Puppet */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661315'; /* linkmonstergen <- Tusker Slave */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1931661316'; /* linkmonstergen <- Tusker Guard */
 

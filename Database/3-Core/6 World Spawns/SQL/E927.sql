@@ -8,11 +8,11 @@ VALUES (8554, 2123526152, 3911647233, 27.0309, 126.135, 0.005, -0.92388, 0, 0, -
      , (6535, 2123526150, 3911647233, 74.4751, 49.3057, 12.0025, 0.000229358, 0, 0, -1) /* Small Shadow Child */
      , (6535, 2123526151, 3911647233, 72.3928, 128.084, 13.2658, 0.992878, 0, 0, 0.119134) /* Small Shadow Child */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2123526145';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2123526145'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526148';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526149';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526150';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526151';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526147';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526148'; /* linkmonstergen7minutes <- Small Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526149'; /* linkmonstergen7minutes <- Small Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526150'; /* linkmonstergen7minutes <- Small Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526151'; /* linkmonstergen7minutes <- Small Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123526147'; /* linkmonstergen7minutes <- Small Shadow Child */
 

@@ -31,33 +31,33 @@ VALUES (197, 1880399885, 21627136, 11.8759, -0.876738, -5.99, 0.197234, 0, 0, -0
      , (195, 1880399912, 21627216, 30.7857, -57.2982, 0.011, -0.631092, 0, 0, -0.775708) /* Granite Golem */
      , (2180, 1880399884, 21627219, 35.2482, -60.0104, 0.02675, 0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880399884';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880399910';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880399884'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880399910'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880399874';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399893';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399892';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399895';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399894';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399891';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399897';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399902';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399903';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399904';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399901';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399898';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399907';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399909';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399905';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399911';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399912';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399886';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399887';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399885';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399888';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399896';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399889';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399899';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399900';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399890';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880399874'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399893'; /* linkmonstergen5minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399892'; /* linkmonstergen5minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399895'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399894'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399891'; /* linkmonstergen5minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399897'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399902'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399903'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399904'; /* linkmonstergen5minutes <- Unstable Magma Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399901'; /* linkmonstergen5minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399898'; /* linkmonstergen5minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399907'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399909'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399905'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399911'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399912'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399886'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399887'; /* linkmonstergen5minutes <- Drudge Lurker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399885'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399888'; /* linkmonstergen5minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399896'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399889'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399899'; /* linkmonstergen5minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399900'; /* linkmonstergen5minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880399890'; /* linkmonstergen5minutes <- Drudge Lurker */
 

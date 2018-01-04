@@ -54,23 +54,23 @@ VALUES (905, 1880784896, 27787524, 0, -60, -6, 0.707107, 0, 0, -0.707107) /* rat
      , (568, 1880784948, 27787645, 50, -75.25, 0, 1, 0, 0, 0) /* Door */
      , (1289, 1880784949, 27787648, 64.75, -80, 0, 0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880784915';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880784910';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880784942';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880784947';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880784945';
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880784908';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880784915'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880784910'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880784942'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880784947'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880784945'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880784908'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880784921';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880784914';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784920';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784922';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784909';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880784934';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880784941';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784935';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784933';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784946';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880784944';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880784907';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880784921'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880784914'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784920'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784922'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880784909'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880784934'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880784941'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784935'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784933'; /* Door <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880784946'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880784944'; /* linkmonstergen <- Desert Rat */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880784907'; /* linkmonstergen <- Desert Rat */
 

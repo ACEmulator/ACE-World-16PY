@@ -13,8 +13,8 @@ VALUES (27554, 2030895115, 2429550848, 57.7154, 108.431, 282.005, 0.245539, 0, 0
      , (7923, 2030895112, 2429550593, 64.5901, 113.213, 297.205, 0.946173, 0, 0, -0.323661) /* linkmonstergen3minutes */
      , (6356, 2030895111, 2429550593, 62.1963, 107.7, 297.21, 0.764914, 0, 0, 0.644132) /* Silencia's Magma Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030895112';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030895112'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895116';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895111';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895116'; /* linkmonstergen3minutes <- Journeyman Cook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895111'; /* linkmonstergen3minutes <- Silencia's Magma Golem */
 

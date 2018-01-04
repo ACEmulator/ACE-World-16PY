@@ -7,11 +7,11 @@ VALUES (202, 2061168653, 2913927169, 89.4052, 176.853, 112.011, -0.992771, 0, 0,
      , (22800, 2061168651, 2913927169, 82.6212, 183.432, 112.005, 0.654367, 0, 0, -0.756177) /* Runed Chest */
      , (11531, 2061168658, 2913927169, 91.9045, 180.401, 112.01, 0.595867, 0, 0, -0.803083) /* Sand Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2061168656';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2061168656'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168653';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168658';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168657';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168654';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168655';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168653'; /* linkmonstergen10minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168658'; /* linkmonstergen10minutes <- Sand Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168657'; /* linkmonstergen10minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168654'; /* linkmonstergen10minutes <- Sandstone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2061168655'; /* linkmonstergen10minutes <- Sandstone Golem */
 

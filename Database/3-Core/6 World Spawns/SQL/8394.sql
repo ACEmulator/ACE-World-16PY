@@ -4,9 +4,9 @@ VALUES (4219, 2017017860, 2207514625, 146.781, 184.658, 238.778, 0.284006, 0, 0,
      , (2574, 2017017862, 2207514625, 103.029, 130.483, 224.005, -0.312326, 0, 0, -0.949975) /* Rough Monouga */
      , (2574, 2017017863, 2207514625, 146.257, 183.522, 238.908, 0.562647, 0, 0, 0.826697) /* Rough Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2017017860';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2017017860'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017861';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017862';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017863';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017861'; /* linkmonstergen7minutes <- Rough Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017862'; /* linkmonstergen7minutes <- Rough Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017863'; /* linkmonstergen7minutes <- Rough Monouga */
 

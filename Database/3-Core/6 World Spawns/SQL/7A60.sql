@@ -8,12 +8,12 @@ VALUES (180, 2007367680, 2053111809, 94.9092, 30.6459, -0.0873998, 0.614061, 0, 
      , (7925, 2007367686, 2053111809, 101.946, 19.5955, 0.005, -0.328104, 0, 0, 0.944642) /* linkmonstergen10minutes */
      , (26614, 2007367687, 2053111809, 98.2965, 22.413, 0.005, 0.832615, 0, 0, -0.553852) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007367686';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007367686'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367680';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367681';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367682';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367683';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367684';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367685';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367680'; /* linkmonstergen10minutes <- Sandy Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367681'; /* linkmonstergen10minutes <- Sandy Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367682'; /* linkmonstergen10minutes <- Sandy Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367683'; /* linkmonstergen10minutes <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367684'; /* linkmonstergen10minutes <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007367685'; /* linkmonstergen10minutes <- Shore Armoredillo */
 

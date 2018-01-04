@@ -13,18 +13,18 @@ VALUES (1605, 1967235083, 1410990081, 51.0101, 126.146, 42.7602, 0.951041, 0, 0,
      , (1605, 1967235094, 1410990081, 51.8618, 114.907, 41.4946, 0.647861, 0, 0, -0.761759) /* Auroch Fire Yearling */
      , (7924, 1967235095, 1410990081, 52.5929, 118.602, 42.8041, -0.840143, 0, 0, -0.542364) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967235095';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967235095'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235083';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235085';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235088';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235087';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235086';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235089';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235090';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235091';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235092';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235093';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235094';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235084';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235083'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235085'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235088'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235087'; /* linkmonstergen5minutes <- Auroch Fire Bull */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235086'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235089'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235090'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235091'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235092'; /* linkmonstergen5minutes <- Auroch Fire Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235093'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235094'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967235084'; /* linkmonstergen5minutes <- Auroch Fire Yearling */
 

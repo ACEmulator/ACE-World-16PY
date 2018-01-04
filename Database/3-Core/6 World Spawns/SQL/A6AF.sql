@@ -8,9 +8,9 @@ VALUES (1215, 2053828610, 2796486912, 152.54, 57.756, 48.005, -0.0220572, 0, 0, 
      , (412, 2053828608, 2796486657, 155.533, 65.2591, 48, -0.00490871, 0, 0, -0.999988) /* Door */
      , (412, 2053828609, 2796486657, 151.218, 61.1763, 48, 0.703627, 0, 0, -0.710569) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2053828614';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2053828614'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828615';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828616';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828617';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828615'; /* linkmonstergen10minutes <- Drudge Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828616'; /* linkmonstergen10minutes <- Drudge Robber */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828617'; /* linkmonstergen10minutes <- Drudge Servant */
 

@@ -75,20 +75,20 @@ VALUES (673, 2076831773, 3164537091, 16.8398, 102.414, 70.01, -0.984041, 0, 0, -
      , (7923, 2076831796, 3164536833, 176.596, 87.138, 32.005, 0.58705, 0, 0, -0.809551) /* linkmonstergen3minutes */
      , (16898, 2076831805, 3164536833, 62.425, 57.171, 54.005, 0.422618, 0, 0, -0.906308) /* Sanctum Residential Halls */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076831819';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076831796';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076831819'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076831796'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831818';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831820';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831794';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831802';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831826';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831825';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831827';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831828';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831829';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831830';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831831';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831832';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831833';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831818'; /* linkmonstergen3minutes <- Royal Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831820'; /* linkmonstergen3minutes <- Sign */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831794'; /* linkmonstergen3minutes <- Lieutenant Kenneth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831802'; /* linkmonstergen3minutes <- Glysander Cartoth */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831826'; /* linkmonstergen3minutes <- Barnar the Tinker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831825'; /* linkmonstergen3minutes <- Alec */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831827'; /* linkmonstergen3minutes <- Guard Hamdyn */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831828'; /* linkmonstergen3minutes <- Guard Fassel */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831829'; /* linkmonstergen3minutes <- Guard Sorchia */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831830'; /* linkmonstergen3minutes <- Guard Ellyon */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831831'; /* linkmonstergen3minutes <- Guard Lo Pan */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831832'; /* linkmonstergen3minutes <- Guard Haigh */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831833'; /* linkmonstergen3minutes <- Guard Devon */
 

@@ -9,14 +9,14 @@ VALUES (1461, 2075574277, 3144417281, 88.2086, 180.516, 6.0055, 0.871549, 0, 0, 
      , (948, 2075574284, 3144417281, 61.9191, 141.236, 5.105, 0.368444, 0, 0, 0.92965) /* Mosswart Feeder */
      , (948, 2075574285, 3144417281, 52.1295, 187.807, 5.555, 0.785285, 0, 0, 0.619134) /* Mosswart Feeder */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075574281';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075574281'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574280';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574277';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574279';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574278';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574282';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574283';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574284';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574285';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574280'; /* linkmonstergen7minutes <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574277'; /* linkmonstergen7minutes <- Mosswart Mucker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574279'; /* linkmonstergen7minutes <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574278'; /* linkmonstergen7minutes <- Creeper Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574282'; /* linkmonstergen7minutes <- Creeper Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574283'; /* linkmonstergen7minutes <- Mosswart Feeder */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574284'; /* linkmonstergen7minutes <- Mosswart Feeder */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075574285'; /* linkmonstergen7minutes <- Mosswart Feeder */
 

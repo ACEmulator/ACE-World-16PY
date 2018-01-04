@@ -18,23 +18,23 @@ VALUES (14522, 1970548756, 1464008960, 3.71956, -48.6704, -11.99, 0.231058, 0, 0
      , (14518, 1970548747, 1464009026, 58.6484, -39.7003, 0.007, -0.999377, 0, 0, 0.035306) /* Shivver */
      , (7924, 1970548748, 1464009034, 47.6846, -1.11617, 6.005, 0.00274642, 0, 0, -0.999996) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1970548748';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1970548758';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1970548748'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1970548758'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548741';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548742';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548743';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548744';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548745';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548747';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548746';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548739';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548740';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548738';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548737';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548736';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548757';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548756';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548759';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970548754';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548741'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548742'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548743'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548744'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548745'; /* linkmonstergen5minutes <- Horripal */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548747'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548746'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548739'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548740'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548738'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548737'; /* linkmonstergen5minutes <- Horripal */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548736'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548757'; /* linkmonstergen5minutes <- Horripal */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548756'; /* linkmonstergen5minutes <- Unstable Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970548759'; /* linkmonstergen5minutes <- Glacial Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970548754'; /* linkmonstergen15minutes <- Glacial Golem Margrave */
 

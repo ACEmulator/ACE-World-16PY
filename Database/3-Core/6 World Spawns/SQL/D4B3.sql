@@ -10,14 +10,14 @@ VALUES (1919, 2102079488, 3568500737, 180.449, 104.49, -0.895, -0.527677, 0, 0, 
      , (2565, 2102079496, 3568500737, 172.965, 90.7627, -0.4395, -0.394812, 0, 0, -0.918762) /* Shore Armoredillo */
      , (1154, 2102079497, 3568500737, 151.624, 83.9039, -0.095, -0.446349, 0, 0, -0.894859) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102079497';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102079497'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079489';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079490';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079491';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079492';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079493';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079494';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079495';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079496';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079489'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079490'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079491'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079492'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079493'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079494'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079495'; /* linkmonstergen <- Shore Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102079496'; /* linkmonstergen <- Shore Armoredillo */
 

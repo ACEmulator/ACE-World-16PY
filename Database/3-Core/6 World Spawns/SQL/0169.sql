@@ -38,36 +38,36 @@ VALUES (4015, 1880526848, 23658755, 0, -140, -12, 1, 0, 0, 0) /* itemlowminergen
      , (2581, 1880526884, 23658912, 141.678, -88.3682, 0.061099, -0.707107, 0, 0, -0.707107) /* Snowy Mattekar */
      , (2581, 1880526885, 23658919, 147.006, -87.1996, 0.061099, -0.707107, 0, 0, -0.707107) /* Snowy Mattekar */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880526881';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880526874';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880526869';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880526870';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880526856';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880526881'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880526874'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880526869'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880526870'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880526856'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526880';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526882';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526878';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526879';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526877';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526875';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526873';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526885';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526884';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526883';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526866';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526867';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526868';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526863';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526862';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526861';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526864';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526872';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526871';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526865';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526854';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526855';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526852';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526851';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526849';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526860';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526880'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526882'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526878'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526879'; /* linkmonstergen <- White Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880526877'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526875'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526873'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526885'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526884'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880526883'; /* linkmonstergen <- White Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526866'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526867'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526868'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526863'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526862'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880526861'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526864'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526872'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526871'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880526865'; /* linkmonstergen <- Great Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526854'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526855'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526852'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526851'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526849'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880526860'; /* linkmonstergen <- Ice Golem */
 

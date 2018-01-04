@@ -6,9 +6,9 @@ VALUES (14341, 2012626947, 2137260033, 108, 84, 48.45, 1, 0, 0, 0) /* Chess Boar
      , (3964, 2012626951, 2137260033, 107.833, 20.7367, 22.2769, 0.845215, 0, 0, -0.534427) /* Chest */
      , (4219, 2012626952, 2137260033, 102.753, 15.1998, 22.7383, 0.507229, 0, 0, -0.861811) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2012626952';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2012626952'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626949';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626948';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626950';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626949'; /* linkmonstergen7minutes <- Drudge Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626948'; /* linkmonstergen7minutes <- Drudge Servant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012626950'; /* linkmonstergen7minutes <- Drudge Slave */
 

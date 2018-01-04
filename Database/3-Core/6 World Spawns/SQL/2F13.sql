@@ -10,14 +10,14 @@ VALUES (23563, 1928409102, 789774592, 128.816, 82.7136, 56.005, 0.970904, 0, 0, 
      , (22910, 1928409106, 789774337, 137.963, 83.8895, 59.611, -0.513452, 0, 0, 0.858118) /* Pandemonium Shadow */
      , (7924, 1928409105, 789774337, 132.452, 97.2003, 56.005, -0.999989, 0, 0, -0.00476966) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1928409105';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1928409105'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409103';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409102';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409104';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409098';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409099';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409100';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409101';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409106';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409103'; /* linkmonstergen5minutes <- Sinister Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409102'; /* linkmonstergen5minutes <- Sinister Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409104'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409098'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409099'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409100'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409101'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409106'; /* linkmonstergen5minutes <- Pandemonium Shadow */
 

@@ -5,7 +5,7 @@ VALUES (1148, 2008420352, 2069954819, 173.665, 152.446, 10.005, 0.707107, 0, 0, 
      , (1148, 2008420353, 2069954561, 179.665, 160.446, 10.005, 0.707107, 0, 0, 0.707107) /* Door */
      , (1148, 2008420354, 2069954561, 185.155, 157.456, 10.005, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008420357';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008420357'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008420356';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008420356'; /* linkmonstergen3minutes <- Stranger in Town */
 

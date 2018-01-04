@@ -9,14 +9,14 @@ VALUES (1615, 1953853440, 1196883969, 101.849, 114.932, -0.095, -0.583434, 0, 0,
      , (1615, 1953853447, 1196883969, 81.6705, 115.538, 0.005, -0.717677, 0, 0, 0.696377) /* Ash Gromnie */
      , (1154, 1953853448, 1196883969, 85.0706, 115.641, 0.005, -0.717677, 0, 0, 0.696377) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1953853448';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1953853448'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853440';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853441';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853442';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853443';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853444';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853445';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853446';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853447';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853440'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853441'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853442'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853443'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853444'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853445'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853446'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853447'; /* linkmonstergen <- Ash Gromnie */
 

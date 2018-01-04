@@ -8,9 +8,9 @@ VALUES (153, 2060963846, 2910650640, 36, 78, 52.005, 1, 0, 0, 0) /* Fountain */
      , (3955, 2060963843, 2910650369, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 0.0710457) /* linkmonstergen15minutes */
      , (4980, 2060963845, 2910650369, 29.7878, 90.2518, 52.05, -0.92388, 0, 0, -0.382683) /* Refreshing Fountain */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2060963843';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2060963843'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963841';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963842';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963840';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963841'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963842'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963840'; /* linkmonstergen15minutes <- Kayna bint Iswas */
 

@@ -15,16 +15,16 @@ VALUES (1943, 2020130833, 2257322240, 182.707, 75.3185, 300.005, -0.372936, 0, 0
      , (9251, 2020130839, 2257321985, 184.53, 77.8212, 303.605, 0.12606, 0, 0, -0.992023) /* Brutish Monouga */
      , (9251, 2020130838, 2257321985, 185.934, 81.4679, 303.605, -0.993526, 0, 0, 0.113609) /* Brutish Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2020130830';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2020130830'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130831';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130832';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130834';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130835';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130836';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130837';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130838';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130839';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130840';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130841';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130831'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130832'; /* linkmonstergen7minutes <- Wily Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130834'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130835'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130836'; /* linkmonstergen7minutes <- Grizzled Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130837'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130838'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130839'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130840'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130841'; /* linkmonstergen7minutes <- Brutish Monouga */
 

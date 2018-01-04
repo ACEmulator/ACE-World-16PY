@@ -77,10 +77,10 @@ VALUES (143, 2079850581, 3212837140, 56.345, 133.03, 54.005, -0.725211, 0, 0, -0
      , (4426, 2079850542, 3212836865, 78.8835, 54.5024, 40.005, 1, 0, 0, 0) /* Dafrida the Tailor */
      , (4417, 2079850543, 3212836865, 82.7276, 54.5476, 40.005, 1, 0, 0, 0) /* Lone Tree Bows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2079850545';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2079850545'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850535';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850577';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850580';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850587';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850535'; /* linkmonstergen3minutes <- Lord Aleval */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850577'; /* linkmonstergen3minutes <- Guard Chandler Hammett */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850580'; /* linkmonstergen3minutes <- Dame Brinna O'Shea */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850587'; /* linkmonstergen3minutes <- Apprentice Cook */
 

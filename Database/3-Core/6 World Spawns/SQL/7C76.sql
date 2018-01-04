@@ -434,437 +434,437 @@ VALUES (9686, 2009554944, 2088108290, 156.717, 63.9235, 16.85, 0.744238, 0, 0, -
      , (11977, 2009555106, 2088108033, 39.1814, 35.5405, 14.005, -0.699243, 0, 0, -0.714884) /* Cottage */
      , (11977, 2009555107, 2088108033, 37.9914, 78.6601, 12.005, -0.707927, 0, 0, -0.706286) /* Cottage */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2009555104';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2009555105';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2009555098';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2009555099';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2009555100';
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2009555101';
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2009555102';
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2009555103';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2009555104'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2009555105'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2009555098'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2009555099'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2009555100'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2009555101'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2009555102'; /* Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2009555103'; /* Cottage */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555372';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555373';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555374';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555375';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555112';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555081';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555082';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555092';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555343';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555344';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555345';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555346';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555347';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555348';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555083';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555084';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555085';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555086';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555087';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555096';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555089';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555090';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555097';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555349';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555350';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555351';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555352';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555353';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555354';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555355';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555356';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555357';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555358';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555359';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555360';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555361';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555362';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555363';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555088';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555093';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555094';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555095';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555091';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555364';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555365';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555366';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555367';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555368';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555369';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555370';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555371';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555338';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555339';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555340';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555341';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555342';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555113';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555062';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555063';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555064';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555065';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555066';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555067';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555068';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555069';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555309';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555310';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555311';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555312';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555313';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555314';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555315';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555316';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555317';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555318';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555319';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555320';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555321';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555322';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555323';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555324';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555070';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555071';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555072';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555325';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555326';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555327';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555328';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555073';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555074';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555075';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555076';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555077';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555078';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555329';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555330';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555331';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555332';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555333';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555334';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555335';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555336';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555337';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555173';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555174';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555175';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555176';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555177';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555106';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554962';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554963';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554964';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554965';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554966';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554967';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554968';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554969';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554970';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554971';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555149';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555150';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555151';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555152';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555153';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555154';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555155';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555156';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555157';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555158';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555159';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555160';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555161';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555162';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555163';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554972';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554973';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554974';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554975';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555164';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555165';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555166';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555167';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554976';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554977';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554978';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554979';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554980';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554981';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554982';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554983';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555168';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555169';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555170';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555171';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555172';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555207';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555208';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555209';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555210';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555211';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555107';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554985';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554986';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555178';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555179';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555180';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555181';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555182';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555183';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555184';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554987';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554988';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554989';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554990';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554991';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554992';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554993';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554994';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554995';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555185';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555186';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555187';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555188';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555189';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555190';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555191';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555192';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555193';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555194';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555195';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555196';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555197';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555198';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555199';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554996';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554997';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554998';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554999';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555000';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555001';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555200';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555201';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555202';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555203';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555204';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555205';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555206';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555241';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555242';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555243';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555244';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555245';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555108';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555003';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555004';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555005';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555212';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555213';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555214';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555215';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555216';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555217';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555006';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555007';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555008';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555009';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555010';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555011';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555012';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555013';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555218';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555219';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555220';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555221';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555222';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555223';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555224';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555225';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555226';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555227';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555228';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555229';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555230';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555231';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555232';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555233';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555014';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555015';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555016';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555017';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555018';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555019';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555234';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555235';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555236';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555237';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555238';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555239';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555240';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555275';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555276';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555277';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555278';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555279';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555109';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555022';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555023';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555033';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555246';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555247';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555248';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555249';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555250';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555251';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555024';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555025';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555026';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555027';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555028';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555037';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555030';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555031';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555038';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555252';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555253';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555254';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555255';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555256';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555257';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555258';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555259';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555260';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555261';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555262';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555263';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555264';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555265';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555266';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555029';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555034';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555035';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555036';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555032';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555267';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555268';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555269';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555270';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555271';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555272';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555273';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555274';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555304';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555305';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555306';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555307';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555308';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555110';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555039';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555040';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555041';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555042';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555043';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555044';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555045';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555046';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555047';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555048';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555280';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555281';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555282';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555283';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555284';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555285';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555286';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555287';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555288';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555289';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555290';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555291';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555292';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555293';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555294';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555049';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555050';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555051';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555052';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555295';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555296';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555297';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555298';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555053';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555054';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555055';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555056';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555057';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555058';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555059';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555060';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555299';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555300';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555301';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555302';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555303';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555114';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555144';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555145';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555146';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555147';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555148';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555111';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554944';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554945';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555115';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555116';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555117';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555118';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555119';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555120';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555121';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554946';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554947';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554948';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554949';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554950';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554951';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554952';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554953';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554954';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555122';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555123';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555124';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555125';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555126';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555127';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555128';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555129';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555130';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555131';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555132';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555133';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555134';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555135';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555136';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554955';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554956';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554957';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554958';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554959';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554960';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555137';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555138';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555139';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555140';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555141';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555142';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555143';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555372'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555373'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555374'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555375'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555376'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555112'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555081'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555082'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555092'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555343'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555344'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555345'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555346'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555347'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555348'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555083'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555084'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555085'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555086'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555087'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555096'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555089'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555090'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555097'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555349'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555350'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555351'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555352'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555353'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555354'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555355'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555356'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555357'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555358'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555359'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555360'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555361'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555362'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555363'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555088'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555093'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555094'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555095'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555091'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555364'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555365'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555366'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555367'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555368'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555369'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555370'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009555371'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555338'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555339'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555340'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555341'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555342'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555113'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555062'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555063'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555064'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555065'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555066'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555067'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555068'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555069'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555309'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555310'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555311'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555312'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555313'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555314'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555315'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555316'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555317'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555318'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555319'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555320'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555321'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555322'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555323'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555324'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555070'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555071'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555072'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555325'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555326'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555327'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555328'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555073'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555074'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555075'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555076'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555077'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555078'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555329'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555330'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555331'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555332'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555333'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555334'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555335'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555336'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009555337'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555173'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555174'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555175'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555176'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555177'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555106'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554962'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554963'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554964'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554965'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554966'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554967'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554968'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554969'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554970'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554971'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555149'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555150'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555151'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555152'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555153'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555154'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555155'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555156'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555157'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555158'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555159'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555160'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555161'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555162'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555163'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554972'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554973'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554974'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554975'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555164'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555165'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555166'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555167'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554976'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554977'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554978'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554979'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554980'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554981'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554982'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009554983'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555168'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555169'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555170'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555171'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2009555172'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555207'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555208'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555209'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555210'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555211'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555107'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554985'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554986'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555178'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555179'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555180'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555181'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555182'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555183'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555184'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554987'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554988'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554989'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554990'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554991'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554992'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554993'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554994'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554995'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555185'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555186'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555187'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555188'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555189'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555190'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555191'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555192'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555193'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555194'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555195'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555196'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555197'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555198'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555199'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554996'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554997'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554998'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009554999'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555000'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555001'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555200'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555201'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555202'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555203'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555204'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555205'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2009555206'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555241'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555242'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555243'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555244'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555245'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555108'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555003'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555004'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555005'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555212'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555213'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555214'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555215'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555216'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555217'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555006'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555007'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555008'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555009'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555010'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555011'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555012'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555013'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555218'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555219'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555220'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555221'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555222'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555223'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555224'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555225'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555226'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555227'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555228'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555229'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555230'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555231'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555232'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555233'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555014'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555015'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555016'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555017'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555018'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555019'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555234'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555235'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555236'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555237'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555238'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555239'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2009555240'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555275'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555276'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555277'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555278'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555279'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555109'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555022'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555023'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555033'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555246'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555247'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555248'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555249'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555250'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555251'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555024'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555025'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555026'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555027'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555028'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555037'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555030'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555031'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555038'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555252'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555253'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555254'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555255'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555256'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555257'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555258'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555259'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555260'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555261'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555262'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555263'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555264'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555265'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555266'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555029'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555034'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555035'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555036'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555032'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555267'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555268'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555269'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555270'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555271'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555272'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555273'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2009555274'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555304'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555305'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555306'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555307'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555308'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555110'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555039'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555040'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555041'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555042'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555043'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555044'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555045'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555046'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555047'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555048'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555280'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555281'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555282'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555283'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555284'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555285'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555286'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555287'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555288'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555289'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555290'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555291'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555292'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555293'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555294'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555049'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555050'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555051'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555052'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555295'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555296'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555297'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555298'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555053'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555054'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555055'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555056'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555057'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555058'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555059'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555060'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555299'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555300'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555301'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555302'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2009555303'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555114'; /* Cottage <- BootSpot */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555144'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555145'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555146'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555147'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555148'; /* Cottage <- Yard Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555111'; /* Cottage <- Cottage */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554944'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554945'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555115'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555116'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555117'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555118'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555119'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555120'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555121'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554946'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554947'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554948'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554949'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554950'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554951'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554952'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554953'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554954'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555122'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555123'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555124'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555125'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555126'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555127'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555128'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555129'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555130'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555131'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555132'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555133'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555134'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555135'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555136'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554955'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554956'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554957'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554958'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554959'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009554960'; /* Cottage <- Storage */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555137'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555138'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555139'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555140'; /* Cottage <- Wall Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555141'; /* Cottage <- Ceiling Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555142'; /* Cottage <- Floor Hook */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2009555143'; /* Cottage <- Floor Hook */
 

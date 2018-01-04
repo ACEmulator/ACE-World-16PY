@@ -12,7 +12,7 @@ VALUES (961, 2088095746, 3344761088, 107.504, 105.123, 6.005, 0.189309, 0, 0, -0
      , (1480, 2088095750, 3344760833, 107.096, 104.585, 21.205, 0.703075, 0, 0, 0.711115) /* mosswartfoodgen */
      , (899, 2088095751, 3344760833, 104.972, 106.722, 21.205, 0.0297087, 0, 0, 0.999559) /* mosswartmudlurkgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088095754';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088095754'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088095753';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088095753'; /* linkmonstergen <- Mosswart Shaman */
 

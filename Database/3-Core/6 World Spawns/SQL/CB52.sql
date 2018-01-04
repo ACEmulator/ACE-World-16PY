@@ -22,7 +22,7 @@ VALUES (4029, 2092245013, 3411149056, 177.681, 28.7836, 34.805, 0.815261, 0, 0, 
      , (420, 2092245003, 3411148801, 159.721, 21.0337, 40.005, -0.849534, 0, 0, 0.527534) /* itemfood-generator */
      , (962, 2092245005, 3411148801, 190.686, 2.83045, 40.005, -0.863681, 0, 0, -0.504038) /* mosswartfeedergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2092245002';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2092245002'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2092245001';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2092245001'; /* linkmonstergen <- Mosswart Shaman */
 

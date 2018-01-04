@@ -10,9 +10,9 @@ VALUES (19127, 1985863680, 1709047809, 191.356, 23.9887, 146.112, 0.707107, 0, 0
      , (19435, 1985863689, 1709047809, 61.6642, 156.519, 69.5815, 0.555531, 0, 0, 0.831496) /* Red Phyntos Wasp */
      , (22258, 1985863690, 1709047809, 136.709, 17.344, 155.486, -0.707107, 0, 0, -0.707107) /* Olthoi Flag */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1985863681';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1985863688';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1985863681'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1985863688'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1985863680';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1985863689';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1985863680'; /* linkmonstergen3minutes <- Verdentine Magnan */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1985863689'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
 

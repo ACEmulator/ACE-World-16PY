@@ -30,33 +30,33 @@ VALUES (183, 2034917376, 2493907200, 61.4356, 178.163, 46.0055, -0.179464, 0, 0,
      , (2131, 2034917397, 2493906945, 61.4784, 177.629, 61.26, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (4097, 2034917398, 2493906945, 62.8516, 176.025, 63.6125, 0.668639, 0, 0, -0.743587) /* Magic trap */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2034917392';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2034917395';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2034917393';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2034917398';
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2034917385';
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2034917402';
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2034917390';
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2034917386';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2034917392'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2034917395'; /* Magic trap */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2034917393'; /* Magic trap */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2034917398'; /* Magic trap */
+UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2034917385'; /* linkmonstergen30minutes */
+UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2034917402'; /* Magic trap */
+UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2034917390'; /* Magic trap */
+UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2034917386'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917391';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917379';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917380';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917382';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917383';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917387';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917388';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917405';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2034917394';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2034917397';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2034917396';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917384';
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917381';
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2034917401';
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2034917403';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917399';
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917400';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917391'; /* linkmonstergen <- Banderling Captain */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917376'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917377'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917378'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917379'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917380'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917382'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917383'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917387'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917388'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917405'; /* linkmonstergen <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2034917394'; /* Magic trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2034917397'; /* Magic trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2034917396'; /* Magic trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917384'; /* linkmonstergen30minutes <- Banderling Breeder */
+UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917381'; /* linkmonstergen30minutes <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2034917401'; /* Magic trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2034917403'; /* Magic trap <- Pressure Plate */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917399'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917400'; /* linkmonstergen3minutes <- Banderling Raver */
 

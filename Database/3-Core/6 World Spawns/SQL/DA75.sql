@@ -60,16 +60,16 @@ VALUES (143, 2108116992, 3665101097, 152.63, 115.815, 18.015, 1, 0, 0, 0) /* Che
      , (2223, 2108117031, 3665100801, 115.708, 119.415, 18.005, 0.260949, 0, 0, -0.965353) /* Orcud the Beggar */
      , (2229, 2108117030, 3665100801, 177.166, 78.3451, 18.005, -0.713924, 0, 0, -0.700224) /* Ludora the Healer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108117020';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108117020'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117047';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117032';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117013';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117052';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117031';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117048';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117051';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117050';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117049';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117053';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117047'; /* linkmonstergen <- Royal Guard Tabbeth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117032'; /* linkmonstergen <- Dinsmal the Beggar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117013'; /* linkmonstergen <- Binthura the Beggar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117052'; /* linkmonstergen <- Journeyman Alchemist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117031'; /* linkmonstergen <- Orcud the Beggar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117048'; /* linkmonstergen <- Gorak */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117051'; /* linkmonstergen <- Lugian Juggernaut */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117050'; /* linkmonstergen <- Extas Lugian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117049'; /* linkmonstergen <- Tiatus Lugian */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108117053'; /* linkmonstergen <- Agent of the Arcanum */
 

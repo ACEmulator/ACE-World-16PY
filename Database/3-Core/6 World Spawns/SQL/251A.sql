@@ -16,19 +16,19 @@ VALUES (24314, 1917952012, 622461185, 154.883, 152.083, 12.005, -0.676076, 0, 0,
      , (24315, 1917952019, 622460929, 151.775, 154.862, 12, 0.907242, 0, 0, 0.420609) /* Skeletal Hero */
      , (24314, 1917952021, 622460929, 163.104, 172.628, 10.005, 0.998635, 0, 0, -0.0522235) /* Skeletal Champion */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917952010';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917952010'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952012';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952013';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952014';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952015';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952016';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952017';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952018';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952019';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952021';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952022';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952023';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952024';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952025';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952012'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952013'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952014'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952015'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952016'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952017'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952018'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952019'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952021'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952022'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952023'; /* linkmonstergen7minutes <- Primeval Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952024'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952025'; /* linkmonstergen7minutes <- Skeletal Champion */
 

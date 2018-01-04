@@ -9,11 +9,11 @@ VALUES (1759, 2023174144, 2306015233, 110.933, 67.565, 15.5206, 0.255206, 0, 0, 
      , (422, 2023174151, 2306015233, 110.172, 65.24, 15.6393, -0.734043, 0, 0, 0.679103) /* itemshield-generator */
      , (1154, 2023174152, 2306015233, 108.626, 63.848, 15.9007, -0.931769, 0, 0, 0.363051) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2023174152';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2023174152'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174145';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174146';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174147';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174148';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174144';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174145'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174146'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174147'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174148'; /* linkmonstergen <- Skeleton */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023174144'; /* linkmonstergen <- Skeleton */
 

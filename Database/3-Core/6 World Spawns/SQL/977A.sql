@@ -6,11 +6,11 @@ VALUES (3955, 2037882880, 2541355009, 35.946, 86.6731, 0.00500003, 0.886479, 0, 
      , (618, 2037882884, 2541355009, 37.5144, 103.999, 0.00561999, 0.984966, 0, 0, 0.17275) /* Cow */
      , (618, 2037882885, 2541355009, 34.2863, 103.191, 0.00561999, -0.902448, 0, 0, 0.430798) /* Cow */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037882880';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037882880'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882881';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882882';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882883';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882884';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882885';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882881'; /* linkmonstergen15minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882882'; /* linkmonstergen15minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882883'; /* linkmonstergen15minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882884'; /* linkmonstergen15minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037882885'; /* linkmonstergen15minutes <- Cow */
 

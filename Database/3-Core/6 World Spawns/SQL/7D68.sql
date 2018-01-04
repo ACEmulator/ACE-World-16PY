@@ -12,7 +12,7 @@ VALUES (4708, 2010546178, 2103968000, 130.41, 16.9826, 9.705, -0.481166, 0, 0, -
      , (5083, 2010546182, 2103967745, 126.474, 13.731, 10.005, 0.707107, 0, 0, -0.707107) /* North Yaraq Outpost */
      , (5142, 2010546184, 2103967745, 60.0789, 24.8942, 14.1607, 0.0294754, 0, 0, -0.999565) /* IMPORTANT SIGN  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010546187';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010546187'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010546186';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010546186'; /* linkmonstergen3minutes <- Nasun ibn Tifar */
 

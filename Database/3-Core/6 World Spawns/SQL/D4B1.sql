@@ -9,14 +9,14 @@ VALUES (1154, 2102071296, 3568369665, 124.996, 115.145, -0.095, 0.471069, 0, 0, 
      , (2579, 2102071303, 3568369665, 160.679, 118.902, -0.445, 0.0689638, 0, 0, -0.997619) /* Shallows Slayer */
      , (2577, 2102071304, 3568369665, 165.505, 114.832, -0.445, 0.385185, 0, 0, -0.922839) /* Shallows Shark */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102071296';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102071296'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071301';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071302';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071303';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071304';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071300';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071299';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071298';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071297';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071301'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071302'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071303'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071304'; /* linkmonstergen <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071300'; /* linkmonstergen <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071299'; /* linkmonstergen <- Shallows Shark */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071298'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102071297'; /* linkmonstergen <- Shallows Slayer */
 

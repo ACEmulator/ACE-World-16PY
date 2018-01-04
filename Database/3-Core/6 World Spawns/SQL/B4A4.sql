@@ -10,15 +10,15 @@ VALUES (941, 2068463616, 3030646785, 92.6545, 98.3278, 27.111, 0.0346579, 0, 0, 
      , (941, 2068463624, 3030646785, 97.7965, 58.5554, 27.111, -0.36502, 0, 0, 0.931) /* Water Golem */
      , (4219, 2068463625, 3030646785, 131.329, 133.689, 27.105, 0.467503, 0, 0, -0.883991) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2068463625';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2068463625'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463616';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463617';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463618';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463619';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463620';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463621';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463622';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463623';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463624';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463616'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463617'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463618'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463619'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463620'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463621'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463622'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463623'; /* linkmonstergen7minutes <- Water Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068463624'; /* linkmonstergen7minutes <- Water Golem */
 

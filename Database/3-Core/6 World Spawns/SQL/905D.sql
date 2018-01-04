@@ -6,11 +6,11 @@ VALUES (7, 2030424064, 2422013953, 139.406, 74.103, 29.8314, -0.978195, 0, 0, -0
      , (12, 2030424068, 2422013953, 98.7027, 186, 23.2438, 0.413156, 0, 0, -0.91066) /* Red Phyntos Wasp */
      , (7923, 2030424069, 2422013953, 100.462, 184.437, 23.6457, -0.901872, 0, 0, -0.432003) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030424069';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2030424067';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030424069'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2030424067'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424064';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424065';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424066';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2030424068';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424064'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424065'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030424066'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2030424068'; /* linkmonstergen <- Red Phyntos Wasp */
 

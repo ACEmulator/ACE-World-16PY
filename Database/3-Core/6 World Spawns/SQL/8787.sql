@@ -15,16 +15,16 @@ VALUES (1762, 2021158928, 2273771776, 150.115, 173.818, 108.005, -0.749725, 0, 0
      , (1762, 2021158931, 2273771521, 150.062, 180.181, 116.805, -0.904134, 0, 0, 0.427249) /* Skeleton Lord */
      , (22208, 2021158930, 2273771521, 154.032, 179.108, 116.805, -0.901893, 0, 0, -0.431959) /* Skeleton Wraith */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2021158924';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2021158924'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158925';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158926';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158927';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158928';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158929';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158931';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158932';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158933';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158934';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158925'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158926'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158927'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158928'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158929'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158930'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158931'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158932'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158933'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158934'; /* linkmonstergen7minutes <- Skeleton Lord */
 

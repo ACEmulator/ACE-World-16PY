@@ -76,72 +76,72 @@ VALUES (201, 1976856577, 1564934400, -2.63825, -50.4166, 0.01, 0.840773, 0, 0, 0
      , (22382, 1976856646, 1564934546, 70.4168, -34.0964, 18.005, 0.972407, 0, 0, -0.233293) /* Unarmed Combat Gem of Enlightenment */
      , (22383, 1976856647, 1564934546, 65.8371, -33.9622, 18.005, 0.972407, 0, 0, -0.233293) /* War Magic Gem of Enlightenment */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1976856631';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1976856630';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1976856631'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1976856630'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856609';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856608';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856611';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856610';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856600';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856601';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856607';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856606';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856602';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856603';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856604';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856605';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856577';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856578';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856583';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856584';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856593';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856592';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856580';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856581';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856590';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856589';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856599';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856598';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856587';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856586';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856596';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856595';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856645';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856644';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856647';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856646';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856641';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856643';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856642';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856615';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856616';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856613';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856612';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856619';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856620';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856617';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856618';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856622';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856621';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856628';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856627';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856629';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856624';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856623';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856626';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856638';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856639';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856637';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856634';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856635';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856632';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856633';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856663';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856640';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856661';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856662';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856658';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856659';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856660';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856609'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856608'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856611'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856610'; /* linkmonstergen3minutes <- Copper Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856600'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856601'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856607'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856606'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856602'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856603'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856604'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856605'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856577'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856578'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856583'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856584'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856593'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856592'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856580'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856581'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856590'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856589'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856599'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856598'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856587'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856586'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856596'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976856595'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856645'; /* linkitemgen10seconds <- Thrown Weapon Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856644'; /* linkitemgen10seconds <- Sword Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856647'; /* linkitemgen10seconds <- War Magic Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856646'; /* linkitemgen10seconds <- Unarmed Combat Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856641'; /* linkitemgen10seconds <- Run Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856643'; /* linkitemgen10seconds <- Staff Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856642'; /* linkitemgen10seconds <- Spear Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856615'; /* linkitemgen10seconds <- Axe Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856616'; /* linkitemgen10seconds <- Bow Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856613'; /* linkitemgen10seconds <- Arcane Lore Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856612'; /* linkitemgen10seconds <- Alchemy Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856619'; /* linkitemgen10seconds <- Creature Enchantment Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856620'; /* linkitemgen10seconds <- Crossbow Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856617'; /* linkitemgen10seconds <- Cooking Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856618'; /* linkitemgen10seconds <- Creature Appraisal Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856622'; /* linkitemgen10seconds <- Deception Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856621'; /* linkitemgen10seconds <- Dagger Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856628'; /* linkitemgen10seconds <- Leadership Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856627'; /* linkitemgen10seconds <- Jump Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856629'; /* linkitemgen10seconds <- Life Magic Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856624'; /* linkitemgen10seconds <- Healing Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856623'; /* linkitemgen10seconds <- Fletching Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856626'; /* linkitemgen10seconds <- Item Enchantment Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856638'; /* linkitemgen10seconds <- Melee Defense Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856639'; /* linkitemgen10seconds <- Missile Defense Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856637'; /* linkitemgen10seconds <- Mana Conversion Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856634'; /* linkitemgen10seconds <- Mace Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856635'; /* linkitemgen10seconds <- Magic Defense Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856632'; /* linkitemgen10seconds <- Lockpick Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856633'; /* linkitemgen10seconds <- Loyalty Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856663'; /* linkitemgen10seconds <- Gem of Raising Self */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856640'; /* linkitemgen10seconds <- Personal Appraisal Gem of Enlightenment */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856661'; /* linkitemgen10seconds <- Gem of Raising Quickness */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856662'; /* linkitemgen10seconds <- Gem of Raising Focus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856658'; /* linkitemgen10seconds <- Gem of Raising Endurance */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856659'; /* linkitemgen10seconds <- Gem of Raising Coordination */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976856660'; /* linkitemgen10seconds <- Gem of Raising Strength */
 

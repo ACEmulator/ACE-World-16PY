@@ -6,9 +6,9 @@ VALUES (28061, 2075033601, 3135766790, 7.61252, 108.175, -1.795, -0.738658, 0, 0
      , (7179, 2075033602, 3135766790, 9.9822, 105.618, -1.795, 0.907843, 0, 0, -0.419311) /* Relic Bones */
      , (7211, 2075033600, 3135766529, 84, 110, 26.005, 1, 0, 0, 0) /* Northwest Direlands Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075033605';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075033605'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033604';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033603';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033602';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033604'; /* linkmonstergen10minutes <- Cursed Bones */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033603'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075033602'; /* linkmonstergen10minutes <- Relic Bones */
 

@@ -5,8 +5,8 @@ VALUES (5197, 2105880577, 3629318400, 79.454, 186.352, 36.41, -0.714083, 0, 0, 0
      , (720, 2105880576, 3629318145, 81.6393, 176.424, 32.005, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (174, 2105880580, 3629318145, 91.6652, 175.938, 32.005, 0.701325, 0, 0, -0.712841) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2105880579';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2105880579'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105880578';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105880577';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105880578'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105880577'; /* linkmonstergen <- Nen Ai */
 

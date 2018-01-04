@@ -22,14 +22,14 @@ VALUES (1104, 1881911296, 45809920, 3.29999, -10, -18, 0.707107, 0, 0, -0.707107
      , (8498, 1881911316, 45810065, 87.3101, -98.4892, 24.005, -0.637548, 0, 0, -0.770411) /* Surface */
      , (4219, 1881911317, 45810071, 108.67, -88.2302, 24.005, -0.641997, 0, 0, -0.766707) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881911317';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881911317'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911310';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911314';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911312';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911309';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911308';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911307';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911306';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911310'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911313'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911314'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911312'; /* linkmonstergen7minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911309'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911308'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911307'; /* linkmonstergen7minutes <- Panumbris Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911306'; /* linkmonstergen7minutes <- Shadow Lieutenant */
 

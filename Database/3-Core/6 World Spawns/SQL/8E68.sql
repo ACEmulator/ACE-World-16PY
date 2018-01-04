@@ -10,14 +10,14 @@ VALUES (1762, 2028371976, 2389180672, 61.4683, 34.5634, 13.705, -0.950892, 0, 0,
      , (1762, 2028371980, 2389180417, 130.756, 16.8886, 10.0025, 0.281226, 0, 0, -0.959642) /* Skeleton Lord */
      , (7923, 2028371981, 2389180417, 184.622, 129.966, 10.005, 0.921354, 0, 0, 0.388725) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2028371981';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2028371981'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371975';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371976';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371978';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371979';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371980';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371977';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371982';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371983';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371975'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371976'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371978'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371979'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371980'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371977'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371982'; /* linkmonstergen3minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028371983'; /* linkmonstergen3minutes <- Skeleton Lord */
 

@@ -8,13 +8,13 @@ VALUES (23483, 2126565376, 3960274945, 158.676, 189.42, 0.005, 0.315322, 0, 0, -
      , (23487, 2126565382, 3960274945, 140.845, 162.357, 0.005, 0.128977, 0, 0, 0.991648) /* Sata Sclavus Lord */
      , (4219, 2126565383, 3960274945, 134.777, 184.477, 0.00499999, -0.588644, 0, 0, -0.808393) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2126565383';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2126565383'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565376';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565377';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565378';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565379';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565380';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565381';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565382';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565376'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565377'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565378'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565379'; /* linkmonstergen7minutes <- Aste Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565380'; /* linkmonstergen7minutes <- Essa Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565381'; /* linkmonstergen7minutes <- Essa Sclavus Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126565382'; /* linkmonstergen7minutes <- Sata Sclavus Lord */
 

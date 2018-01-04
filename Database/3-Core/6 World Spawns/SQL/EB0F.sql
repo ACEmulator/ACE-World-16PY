@@ -9,13 +9,13 @@ VALUES (11534, 2125524994, 3943629066, 154.364, 154.432, 236.015, 0.926441, 0, 0
      , (11533, 2125524998, 3943628801, 114.564, 134.655, 150.015, -0.491572, 0, 0, -0.870837) /* Azael Zefir */
      , (11533, 2125524997, 3943628801, 115.217, 128.49, 150.015, -0.794987, 0, 0, -0.606626) /* Azael Zefir */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2125525000';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2125525000'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524993';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524994';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524995';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524996';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524997';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524998';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524999';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524993'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524994'; /* linkmonstergen7minutes <- Enku Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524995'; /* linkmonstergen7minutes <- Enku Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524996'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524997'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524998'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524999'; /* linkmonstergen7minutes <- Azael Zefir */
 

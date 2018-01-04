@@ -11,14 +11,14 @@ VALUES (1758, 2025517060, 2343502081, 83.7967, 153.551, 66.005, 0.999991, 0, 0, 
      , (1756, 2025517062, 2343501825, 101.663, 140.579, 64.005, 0.999786, 0, 0, -0.0206827) /* Shadow Child */
      , (1756, 2025517061, 2343501825, 99.0093, 186.525, 64.005, 0.936535, 0, 0, -0.350574) /* Shadow Child */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025517066';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025517066'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517064';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517062';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517061';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517060';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517059';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517058';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517057';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517056';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517064'; /* linkmonstergen15minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517062'; /* linkmonstergen15minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517061'; /* linkmonstergen15minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517060'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517059'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517058'; /* linkmonstergen15minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517057'; /* linkmonstergen15minutes <- Shadow Child */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025517056'; /* linkmonstergen15minutes <- Shadow Lieutenant */
 

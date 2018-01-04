@@ -6,11 +6,11 @@ VALUES (2564, 1973137408, 1505427457, 16.3917, 149.978, -0.0894999, -0.00400898,
      , (2564, 1973137412, 1505427457, 12.4739, 128.965, -0.0894999, -0.798444, 0, 0, 0.602069) /* Freshwater Armoredillo */
      , (1154, 1973137413, 1505427457, 12.6402, 130.765, -0.095, -0.998938, 0, 0, 0.0460735) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1973137413';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1973137413'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137408';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137410';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137411';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137412';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137408'; /* linkmonstergen <- Freshwater Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137409'; /* linkmonstergen <- Freshwater Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137410'; /* linkmonstergen <- Freshwater Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137411'; /* linkmonstergen <- Freshwater Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973137412'; /* linkmonstergen <- Freshwater Armoredillo */
 

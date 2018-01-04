@@ -7,8 +7,8 @@ VALUES (7923, 1946357766, 1076953344, 86.3901, 130.739, 148.005, -0.0243289, 0, 
      , (24215, 1946357764, 1076953089, 81.3965, 128.485, 163.205, 0.999989, 0, 0, -0.00459411) /* Black Hill Collector */
      , (24216, 1946357765, 1076953089, 80.8736, 135.185, 163.205, 0.3813, 0, 0, -0.924451) /* Black Hill Trophy Smith */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1946357766';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1946357766'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1946357764';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1946357765';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1946357764'; /* linkmonstergen3minutes <- Black Hill Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1946357765'; /* linkmonstergen3minutes <- Black Hill Trophy Smith */
 

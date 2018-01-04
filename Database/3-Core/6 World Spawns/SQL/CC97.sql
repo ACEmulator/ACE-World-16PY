@@ -4,9 +4,9 @@ VALUES (193, 2093576192, 3432448001, 109.619, 39.4264, 20.005, -0.923587, 0, 0, 
      , (193, 2093576194, 3432448001, 94.7516, 35.3521, 20.005, 0.79502, 0, 0, -0.606583) /* Drudge Slinker */
      , (193, 2093576195, 3432448001, 92.3337, 36.2211, 20.005, 0.727035, 0, 0, -0.686601) /* Drudge Slinker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093576193';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093576193'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576192';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576195';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576194';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576192'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576195'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093576194'; /* linkmonstergen <- Drudge Slinker */
 

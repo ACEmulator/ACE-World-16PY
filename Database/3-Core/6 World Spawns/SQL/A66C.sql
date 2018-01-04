@@ -11,16 +11,16 @@ VALUES (6320, 2053554176, 2792096000, 83.5479, 141.65, 16.8029, 0.978168, 0, 0, 
      , (21164, 2053554187, 2792095745, 82.2517, 125.347, 22.417, -0.0782945, 0, 0, 0.99693) /* Gout */
      , (21164, 2053554185, 2792095745, 83.6881, 125.571, 22.518, -0.0782945, 0, 0, 0.99693) /* Gout */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2053554192';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2053554189';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2053554192'; /* linkitemgen25seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2053554189'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053554176';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053554193';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554187';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554185';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554184';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554186';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554190';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554191';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554188';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053554176'; /* linkitemgen25seconds <- Minor Smoldering Stone */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053554193'; /* linkitemgen25seconds <- Textbook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554187'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554185'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554184'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554186'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554190'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554191'; /* linkmonstergen7minutes <- Gout */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2053554188'; /* linkmonstergen7minutes <- Gout */
 

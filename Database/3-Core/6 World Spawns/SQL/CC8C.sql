@@ -12,8 +12,8 @@ VALUES (4448, 2093531141, 3431727363, 40.7592, 41.187, 26.005, -0.979909, 0, 0, 
      , (4431, 2093531145, 3431727105, 26.6086, 56.118, 25.3302, 0.568074, 0, 0, -0.822978) /* Rithwic Outpost */
      , (509, 2093531146, 3431727105, 34.3448, 76.644, 24.005, -0.999474, 0, 0, 0.0324358) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093531144';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093531144'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531147';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531143';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531147'; /* linkmonstergen15minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531143'; /* linkmonstergen15minutes <- Mindorla */
 

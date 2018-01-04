@@ -12,17 +12,17 @@ VALUES (25723, 2121547776, 3879993345, 149.79, 54.0383, 33.5018, -0.928481, 0, 0
      , (25723, 2121547786, 3879993345, 84.2545, 75.4328, 32.005, 0.667129, 0, 0, 0.744942) /* Tree */
      , (7924, 2121547787, 3879993345, 84.942, 79.179, 32.005, -0.640118, 0, 0, 0.768277) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121547787';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121547787'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547776';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547778';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547779';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547780';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547781';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547782';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547783';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547784';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547785';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547786';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547776'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547777'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547778'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547779'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547780'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547781'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547782'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547783'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547784'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547785'; /* linkmonstergen5minutes <- Tree */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121547786'; /* linkmonstergen5minutes <- Tree */
 

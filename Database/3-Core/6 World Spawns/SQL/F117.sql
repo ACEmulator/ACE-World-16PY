@@ -9,14 +9,14 @@ VALUES (7111, 2131849216, 4044816385, 44.9163, 71.5448, 19.905, -0.95157, 0, 0, 
      , (8591, 2131849223, 4044816385, 43.0937, 80.1686, 19.9082, -0.959304, 0, 0, -0.282376) /* Dark Revenant */
      , (8592, 2131849224, 4044816385, 41.4549, 67.5594, 19.9082, -0.98214, 0, 0, -0.18815) /* Revenant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131849221';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131849221'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849220';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849222';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849223';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849219';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849216';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849217';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849218';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849224';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849220'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849222'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849223'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849219'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849216'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849217'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849218'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849224'; /* linkmonstergen7minutes <- Revenant */
 

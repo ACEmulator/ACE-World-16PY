@@ -7,7 +7,7 @@ VALUES (412, 2089332738, 3364552961, 92.6327, 179.239, 22, -0.707107, 0, 0, -0.7
      , (1403, 2089332737, 3364552705, 104.614, 155.365, 22.005, -0.982966, 0, 0, -0.183785) /* cluelostlightgen */
      , (12304, 2089332741, 3364552705, 87.527, 185.499, 22.005, 0.00969807, 0, 0, 0.999953) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089332740';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089332740'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089332739';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089332739'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

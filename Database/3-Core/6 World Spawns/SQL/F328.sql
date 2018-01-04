@@ -18,23 +18,23 @@ VALUES (7923, 2134016000, 4079484929, 170.068, 81.3513, 14.3496, 0.694507, 0, 0,
      , (201, 2134016016, 4079484929, 186.031, 11.3428, 21.5622, 0.999205, 0, 0, -0.0398603) /* Obsidian Golem */
      , (201, 2134016017, 4079484929, 165.925, 183.153, 18.01, -0.0534329, 0, 0, 0.998571) /* Obsidian Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134016001';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2134016000';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134016001'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2134016000'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016002';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016003';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016004';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016005';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016006';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016007';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016008';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016009';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016010';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016011';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016012';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016013';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016014';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016015';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016016';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016017';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016002'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016003'; /* linkmonstergen5minutes <- Dark Magus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016004'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016005'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134016006'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016007'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016008'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016009'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016010'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016011'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016012'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016013'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016014'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016015'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016016'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2134016017'; /* linkmonstergen3minutes <- Obsidian Golem */
 

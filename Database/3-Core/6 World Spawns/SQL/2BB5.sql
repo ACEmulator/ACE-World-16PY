@@ -10,7 +10,7 @@ VALUES (11392, 1924878341, 733282560, 157.178, 12.4023, 94.005, -0.528559, 0, 0,
      , (5086, 1924878344, 733282305, 179.401, 76.9476, 0.005, -0.162572, 0, 0, 0.986697) /* linkmonstergen30seconds */
      , (509, 1924878345, 733282305, 155.71, 9.3781, 99.005, 0.27163, 0, 0, -0.962402) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924878344';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924878344'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924878346';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924878346'; /* linkmonstergen30seconds <- Town Crier */
 

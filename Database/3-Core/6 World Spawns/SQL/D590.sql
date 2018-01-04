@@ -14,16 +14,16 @@ VALUES (1612, 2102984704, 3582984193, 18.9408, 110.304, 0.00464, 0.83303, 0, 0, 
      , (1400, 2102984716, 3582984193, 48.8308, 122.281, -0.095, 0.772531, 0, 0, -0.634977) /* itemfishgenerator */
      , (1400, 2102984717, 3582984193, 55.5215, 108.677, 0.005, 0.206324, 0, 0, -0.978484) /* itemfishgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102984714';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102984714'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984704';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984705';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984706';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984707';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984708';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984709';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984710';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984711';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984712';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984713';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984704'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984705'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984706'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984707'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984708'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984709'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984710'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984711'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984712'; /* linkmonstergen <- Azure Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102984713'; /* linkmonstergen <- Azure Gromnie */
 

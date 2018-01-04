@@ -9,11 +9,11 @@ VALUES (7923, 2040422404, 2581987329, 129.49, 158.516, 78.0535, -0.676551, 0, 0,
      , (14566, 2040422414, 2581987329, 180.325, 156.886, 77.905, 0.725186, 0, 0, -0.688553) /* Akiekie Ember */
      , (14579, 2040422415, 2581987329, 172.46, 172.542, 77.555, 0.998039, 0, 0, 0.0625902) /* Entrance to Portal Space */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040422404';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2040422413';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040422404'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2040422413'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422406';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422408';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422412';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2040422414';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422406'; /* linkmonstergen3minutes <- Aun Tikakhe */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422408'; /* linkmonstergen3minutes <- Aun Aulakhe */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040422412'; /* linkmonstergen3minutes <- Aun Saritea */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2040422414'; /* linkitemgen10seconds <- Akiekie Ember */
 

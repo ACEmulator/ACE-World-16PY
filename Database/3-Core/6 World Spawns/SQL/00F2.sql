@@ -9,12 +9,12 @@ VALUES (29713, 1880039424, 15859985, 10, 0, -5.995, 0, 0, 0, -1) /* Enchanted Da
      , (7923, 1880039431, 15860049, 10, -120, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (29593, 1880039432, 15860053, 10, -125.519, 0.005, 0, 0, 0, -1) /* Lever */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880039430';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880039425';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880039431';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880039430'; /* Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880039425'; /* Guardian */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880039431'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880039432';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880039426';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039424';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039429';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880039432'; /* Guardian <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880039426'; /* Guardian <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039424'; /* linkmonstergen3minutes <- Enchanted Dais */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039429'; /* linkmonstergen3minutes <- Ensorcelled Dais */
 

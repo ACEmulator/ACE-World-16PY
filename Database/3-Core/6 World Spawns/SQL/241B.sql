@@ -4,9 +4,9 @@ VALUES (1623, 1916907520, 605749249, 112.664, 67.9054, 10.005, -0.994054, 0, 0, 
      , (1623, 1916907522, 605749249, 108.695, 67.7702, 10.005, -0.980415, 0, 0, 0.196942) /* Desert Rat */
      , (1154, 1916907523, 605749249, 112.298, 61.8963, 10.005, -0.895725, 0, 0, 0.444609) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1916907523';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1916907523'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907520';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907521';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907522';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907520'; /* linkmonstergen <- Desert Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907521'; /* linkmonstergen <- Desert Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1916907522'; /* linkmonstergen <- Desert Rat */
 

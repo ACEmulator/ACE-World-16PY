@@ -5,9 +5,9 @@ VALUES (7924, 2050678787, 2746089473, 127.54, 113.006, 46.005, -0.967671, 0, 0, 
      , (7978, 2050678790, 2746089473, 132.265, 96.2974, 43.9985, -0.984992, 0, 0, -0.1726) /* Scrawed Grievver */
      , (7978, 2050678791, 2746089473, 127.528, 96.4831, 43.9985, -0.954883, 0, 0, 0.296983) /* Scrawed Grievver */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050678787';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050678787'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678789';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678791';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678790';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678789'; /* linkmonstergen5minutes <- Scrawed Grievver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678791'; /* linkmonstergen5minutes <- Scrawed Grievver */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050678790'; /* linkmonstergen5minutes <- Scrawed Grievver */
 

@@ -24,13 +24,13 @@ VALUES (1148, 2049310720, 2724200704, 179.975, 35.9985, 17.205, 0.728072, 0, 0, 
      , (4770, 2049310729, 2724200449, 185.333, 42.331, 25.205, -0.516656, 0, 0, -0.856193) /* collectorgharundimgen */
      , (1908, 2049310731, 2724200449, 179.38, 84.1221, 20.005, 0.92388, 0, 0, -0.382683) /* Uziz */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049310730';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2049310734';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049310730'; /* linkitemscattergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2049310734'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310721';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310722';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310723';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310724';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310725';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049310733';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310721'; /* linkitemscattergen <- Brimstone-cap Mushroom */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310722'; /* linkitemscattergen <- Brimstone-cap Mushroom */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310723'; /* linkitemscattergen <- Brimstone-cap Mushroom */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310724'; /* linkitemscattergen <- Brimstone-cap Mushroom */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049310725'; /* linkitemscattergen <- Brimstone-cap Mushroom */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049310733'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

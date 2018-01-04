@@ -17,22 +17,22 @@ VALUES (7923, 2113159168, 3745775617, 27.0909, 63.8744, 20.6821, -0.794386, 0, 0
      , (1608, 2113159200, 3745775617, 14.631, 104.512, 20.0055, -0.136721, 0, 0, -0.99061) /* Drudge Lurker */
      , (24288, 2113159201, 3745775617, 35.6772, 60.5321, 20.9797, 0.898768, 0, 0, 0.438425) /* Cruel Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2113159168';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2113159168'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159190';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159186';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159187';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159196';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159200';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159199';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159198';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159197';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159193';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159192';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159191';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159194';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159195';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159188';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159189';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159201';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159190'; /* linkmonstergen3minutes <- Ferocious Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159186'; /* linkmonstergen3minutes <- Ferocious Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159187'; /* linkmonstergen3minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159196'; /* linkmonstergen3minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159200'; /* linkmonstergen3minutes <- Drudge Lurker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159199'; /* linkmonstergen3minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159198'; /* linkmonstergen3minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159197'; /* linkmonstergen3minutes <- Drudge Stalker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159193'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159192'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159191'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159194'; /* linkmonstergen3minutes <- Oak Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159195'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159188'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159189'; /* linkmonstergen3minutes <- Cruel Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2113159201'; /* linkmonstergen3minutes <- Cruel Monouga */
 

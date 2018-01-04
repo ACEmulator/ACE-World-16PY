@@ -50,11 +50,11 @@ VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0
      , (19457, 1956339762, 1236664321, 40.333, 131.039, 247.006, -0.683339, 0, 0, 0.730101) /* fireworksgen */
      , (12304, 1956339745, 1236664321, 79.2538, 140.423, 240.005, 0.717058, 0, 0, -0.697014) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1956339737';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1956339744';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1956339737'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1956339744'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339736';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339772';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339774';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1956339743';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339736'; /* linkmonstergen3minutes <- Mairisa bint Fuda */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339772'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339774'; /* linkmonstergen3minutes <- Journeyman Fletcher */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1956339743'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

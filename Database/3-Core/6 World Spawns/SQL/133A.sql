@@ -7,10 +7,10 @@ VALUES (1154, 1899208710, 322568193, 40.4489, 156.701, -0.095, 0.673285, 0, 0, -
      , (11536, 1899208713, 322568193, 61.2514, 148.596, 0.4, -0.789228, 0, 0, 0.6141) /* Entropy Wisp */
      , (11535, 1899208714, 322568193, 39.9075, 157.531, 0.4, 0.964343, 0, 0, 0.264656) /* Chaos Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1899208710';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1899208710'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208713';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208712';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208714';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208711';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208713'; /* linkmonstergen <- Entropy Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208712'; /* linkmonstergen <- Nightmare Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208714'; /* linkmonstergen <- Chaos Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1899208711'; /* linkmonstergen <- Affliction Wisp */
 

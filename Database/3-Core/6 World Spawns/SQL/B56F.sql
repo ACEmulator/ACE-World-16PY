@@ -10,12 +10,12 @@ VALUES (14341, 2069295112, 3043950593, 36, 108, 22.45, 1, 0, 0, 0) /* Chess Boar
      , (6076, 2069295110, 3043950593, 67, 123, 22.005, -0.707107, 0, 0, -0.707107) /* Wood Target Drudge */
      , (7923, 2069295111, 3043950593, 34.9712, 71.0167, 22.005, 0.999874, 0, 0, -0.0158543) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2069295111';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2069295111'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295105';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295106';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295107';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295108';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295109';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295110';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295105'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295106'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295107'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295108'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295109'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069295110'; /* linkmonstergen3minutes <- Wood Target Drudge */
 

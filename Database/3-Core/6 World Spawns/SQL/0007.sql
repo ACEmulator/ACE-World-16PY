@@ -44,9 +44,9 @@ VALUES (278, 1879076864, 459025, 24.75, -40, 0, 0.707107, 0, 0, -0.707107) /* Do
      , (165, 1879076907, 459463, 178.17, -77.9414, 24.05, -4.37114E-08, 0, 0, -1) /* Pool */
      , (278, 1879076908, 459465, 180, -84.75, 24, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879076883';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879076883'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076881';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076880';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076893';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076881'; /* linkmonstergen5minutes <- Black Rabbit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076880'; /* linkmonstergen5minutes <- Black Rabbit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879076893'; /* linkmonstergen5minutes <- Russet Rat */
 

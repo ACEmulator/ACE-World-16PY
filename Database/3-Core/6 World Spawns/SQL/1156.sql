@@ -6,10 +6,10 @@ VALUES (25396, 1897226240, 290849024, 37.3063, 58.33, 0.005, -4.37114E-08, 0, 0,
      , (25346, 1897226242, 290848769, 36.0229, 73.454, -0.89025, 0.99995, 0, 0, 0.0100023) /* Falatacot Consort */
      , (25348, 1897226243, 290848769, 30.2992, 71.9265, -0.89025, 0.99597, 0, 0, 0.0896894) /* Falatacot Patrician */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1897226241';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1897226241'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226242';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226243';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226244';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226245';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226242'; /* linkmonstergen5minutes <- Falatacot Consort */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226243'; /* linkmonstergen5minutes <- Falatacot Patrician */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226244'; /* linkmonstergen5minutes <- Falatacot Patrician */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1897226245'; /* linkmonstergen5minutes <- Falatacot Matriarch */
 

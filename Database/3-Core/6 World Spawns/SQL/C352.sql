@@ -18,23 +18,23 @@ VALUES (5086, 2083856384, 3276931073, 50.594, 82.1929, 26.005, -0.720995, 0, 0, 
      , (210, 2083856400, 3276931073, 52.5791, 84.684, 26.0066, 0.634636, 0, 0, -0.772811) /* Mosswart Chief */
      , (8258, 2083856401, 3276931073, 54.9025, 84.8939, 26.0093, -0.510738, 0, 0, -0.859737) /* Banderling Captain */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083856384';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2083856397';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083856384'; /* linkmonstergen30seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2083856397'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856385';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856386';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856387';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856388';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856389';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856390';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856391';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856392';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856393';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856394';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856395';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856396';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856398';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856399';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856400';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856401';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856385'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856386'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856387'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856388'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856389'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856390'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856391'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856392'; /* linkmonstergen30seconds <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856393'; /* linkmonstergen30seconds <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856394'; /* linkmonstergen30seconds <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856395'; /* linkmonstergen30seconds <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083856396'; /* linkmonstergen30seconds <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856398'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856399'; /* linkmonstergen3minutes <- Mosswart Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856400'; /* linkmonstergen3minutes <- Mosswart Chief */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2083856401'; /* linkmonstergen3minutes <- Banderling Captain */
 

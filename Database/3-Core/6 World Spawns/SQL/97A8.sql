@@ -5,9 +5,9 @@ VALUES (6, 2038071296, 2544369665, 68.7373, 86.6185, 22.1253, -0.644209, 0, 0, -
      , (3955, 2038071299, 2544369665, 70.3777, 94.5784, 22.005, -0.795967, 0, 0, 0.60534) /* linkmonstergen15minutes */
      , (420, 2038071300, 2544369665, 74.2978, 96.5758, 22.285, -0.910959, 0, 0, 0.412496) /* itemfood-generator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2038071299';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2038071299'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071296';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071297';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071298';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071296'; /* linkmonstergen15minutes <- Banderling Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071297'; /* linkmonstergen15minutes <- Banderling Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2038071298'; /* linkmonstergen15minutes <- Banderling Scout */
 

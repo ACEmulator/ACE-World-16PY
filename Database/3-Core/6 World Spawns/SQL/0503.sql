@@ -9,10 +9,10 @@ VALUES (30794, 1884303363, 84082947, 84.129, 40.076, 225.005, 0.707107, 0, 0, -0
      , (25860, 1884303366, 84082689, 86.6217, 35.2151, 233.805, 0.790965, 0, 0, 0.611861) /* Creeping Margul */
      , (25860, 1884303367, 84082689, 86.4762, 38.83, 233.805, 0.377768, 0, 0, 0.9259) /* Creeping Margul */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1884303368';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1884303368'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303364';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303365';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303366';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303367';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303364'; /* linkmonstergen5minutes <- Stalking Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303365'; /* linkmonstergen5minutes <- Stalking Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303366'; /* linkmonstergen5minutes <- Creeping Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1884303367'; /* linkmonstergen5minutes <- Creeping Margul */
 

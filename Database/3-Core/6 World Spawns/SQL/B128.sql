@@ -13,13 +13,13 @@ VALUES (8127, 2064809984, 2972188673, 110.272, 56.5567, 170.713, 0.914443, 0, 0,
      , (4219, 2064809995, 2972188673, 110.805, 50.3341, 170.199, 0.198945, 0, 0, 0.980011) /* linkmonstergen7minutes */
      , (23602, 2064809996, 2972188673, 113.386, 46.7951, 170.199, 0.396918, 0, 0, -0.917854) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2064809995';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2064809995'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809988';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809989';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809990';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809991';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809992';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809993';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809994';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809988'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809989'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809990'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809991'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809992'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809993'; /* linkmonstergen7minutes <- Dual Fragment */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064809994'; /* linkmonstergen7minutes <- Dual Fragment */
 

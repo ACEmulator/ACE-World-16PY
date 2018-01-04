@@ -31,16 +31,16 @@ VALUES (412, 2076250112, 3155230998, 56.64, 68.7758, 240.002, 0, 0, 0, -1) /* Do
      , (9027, 2076250125, 3155230721, 94.528, 87, 240.082, -0.707107, 0, 0, -0.707107) /* Lyceum Gates */
      , (4219, 2076250130, 3155230721, 75.6475, 75.4834, 240.005, 0.719576, 0, 0, -0.694414) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076250125';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076250124';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2076250130';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2076250138';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076250125'; /* Lyceum Gates */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076250124'; /* Lyceum Gates */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2076250130'; /* linkmonstergen7minutes */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2076250138'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076250126';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076250127';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250128';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250129';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250140';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250139';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250141';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076250126'; /* Lyceum Gates <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076250127'; /* Lyceum Gates <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250128'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250129'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250140'; /* linkmonstergen7minutes <- Eaushi the Trainer */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250139'; /* linkitemgen25seconds <- Slip of Paper */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250141'; /* linkitemgen25seconds <- Lightweight Tome */
 

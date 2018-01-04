@@ -7,12 +7,12 @@ VALUES (4110, 2095374336, 3461218305, 158.503, 86.8032, 255.993, 0.406775, 0, 0,
      , (4110, 2095374341, 3461218305, 157.069, 69.6564, 257.104, -0.752444, 0, 0, 0.658656) /* Blood Shreth */
      , (1154, 2095374342, 3461218305, 157.066, 71.5049, 257.096, -0.999982, 0, 0, -0.00596833) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095374342';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095374342'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374336';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374337';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374338';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374339';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374340';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374341';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374336'; /* linkmonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374337'; /* linkmonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374338'; /* linkmonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374339'; /* linkmonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374340'; /* linkmonstergen <- Blood Shreth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095374341'; /* linkmonstergen <- Blood Shreth */
 

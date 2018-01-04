@@ -8,11 +8,11 @@ VALUES (7319, 2043834368, 2636578817, 138.092, 135.141, 246.778, -0.715855, 0, 0
      , (24955, 2043834374, 2636578817, 143.719, 146.682, 246.869, 0.999987, 0, 0, 0.00516231) /* Gotrok Montok */
      , (24955, 2043834375, 2636578817, 154.411, 138.952, 250.192, -0.567876, 0, 0, -0.823114) /* Gotrok Montok */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2043834369';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2043834369'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834375';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834371';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834372';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834373';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834374';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834375'; /* linkmonstergen5minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834371'; /* linkmonstergen5minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834372'; /* linkmonstergen5minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834373'; /* linkmonstergen5minutes <- Gotrok Montok */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2043834374'; /* linkmonstergen5minutes <- Gotrok Montok */
 

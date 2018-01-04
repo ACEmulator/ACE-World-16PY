@@ -5,7 +5,7 @@ VALUES (794, 2051141633, 2753495298, 158.33, 36.0951, 431.205, 0.677398, 0, 0, -
      , (23610, 2051141637, 2753495299, 158.43, 34.1858, 431.205, 0.023102, 0, 0, -0.999733) /* Runed Chest */
      , (412, 2051141632, 2753495041, 156, 33.48, 432, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2051141638';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2051141638'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051141636';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051141636'; /* linkmonstergen5minutes <- Hoary Armoredillo */
 

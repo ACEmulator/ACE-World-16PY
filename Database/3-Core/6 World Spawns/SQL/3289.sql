@@ -11,15 +11,15 @@ VALUES (230, 1932038158, 847839492, 152.693, 84.467, 27.6065, 0.590847, 0, 0, -0
      , (230, 1932038162, 847839233, 165.955, 61.8673, 30.005, -0.128794, 0, 0, 0.991671) /* Tumerok Taskmaster */
      , (230, 1932038163, 847839233, 183.804, 79.0896, 26.0065, 0.95287, 0, 0, -0.303378) /* Tumerok Taskmaster */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1932038156';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1932038156'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038160';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038161';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038162';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038163';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038164';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038165';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038157';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038158';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038159';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038160'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038161'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038162'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038163'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038164'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038165'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038157'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038158'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1932038159'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
 

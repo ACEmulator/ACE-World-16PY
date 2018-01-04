@@ -13,11 +13,11 @@ VALUES (8377, 1894490124, 247070976, 131.722, 64.308, 2.65237, 0.782777, 0, 0, -
      , (11379, 1894490119, 247070721, 77.5784, 85.7573, 2.005, 0.892994, 0, 0, -0.450069) /* Hea Nyrenauri the Healer */
      , (11381, 1894490120, 247070721, 86.276, 102.357, 1.51733, -0.27145, 0, 0, -0.962453) /* Hea Kiriona the Shopkeep */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1894490113';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1894490113'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490112';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490123';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490122';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490120';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490129';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490112'; /* linkmonstergen7minutes <- Hea Arantah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490123'; /* linkmonstergen7minutes <- Hea Ihipura the Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490122'; /* linkmonstergen7minutes <- Hea Riketura the Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490120'; /* linkmonstergen7minutes <- Hea Kiriona the Shopkeep */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1894490129'; /* linkmonstergen7minutes <- Hea Mutuona */
 

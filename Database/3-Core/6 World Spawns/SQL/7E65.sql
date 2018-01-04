@@ -7,9 +7,9 @@ VALUES (14415, 2011582465, 2120548608, 81.5639, 39.0332, 14.005, -0.369053, 0, 0
      , (14459, 2011582468, 2120548353, 78.919, 18.0706, 14.005, 0.145603, 0, 0, 0.989343) /* Sentry */
      , (14457, 2011582467, 2120548353, 67.0613, 52.118, 14.005, 0.857997, 0, 0, 0.513654) /* Sentry */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011582466';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011582466'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582465';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582467';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582468';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582465'; /* linkmonstergen30seconds <- Dame Tsaya */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582467'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011582468'; /* linkmonstergen30seconds <- Sentry */
 

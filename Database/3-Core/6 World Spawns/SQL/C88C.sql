@@ -83,15 +83,15 @@ VALUES (663, 2089336869, 3364618501, 108.131, 42.7898, 22.01, -0.120462, 0, 0, -
      , (6441, 2089336889, 3364618241, 52.08, 139.56, 22, 1, 0, 0, 0) /* Well */
      , (23340, 2089336927, 3364618241, 166.345, 161.433, 22.005, 0.72134, 0, 0, -0.692581) /* Fishing Sign */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089336925';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2089336930';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2089336932';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089336925'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2089336930'; /* linkmonstergen30seconds */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2089336932'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336924';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336926';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336883';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336928';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336929';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2089336931';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2089336933';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336924'; /* linkmonstergen3minutes <- Astara Duskshield */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336926'; /* linkmonstergen3minutes <- Tackle Master */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336883'; /* linkmonstergen3minutes <- Celcynd the Dour */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336928'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336929'; /* linkmonstergen3minutes <- Royal Guard Gabrielle */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2089336931'; /* linkmonstergen30seconds <- Carlo di Cenza */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2089336933'; /* linkitemgen10seconds <- Empty Book Binding */
 

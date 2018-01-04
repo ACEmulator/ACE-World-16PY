@@ -6,11 +6,11 @@ VALUES (8431, 1941180424, 994115585, 151.884, 137.398, 88.0065, -0.908695, 0, 0,
      , (8431, 1941180428, 994115585, 151.781, 139.59, 88.0065, -0.774152, 0, 0, 0.633) /* Nomad Mu-miyah */
      , (8431, 1941180429, 994115585, 156.836, 140.121, 88.0065, 0.735047, 0, 0, 0.678016) /* Nomad Mu-miyah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1941180427';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1941180427'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180426';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180425';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180428';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180424';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180429';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180426'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180425'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180428'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180424'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941180429'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
 

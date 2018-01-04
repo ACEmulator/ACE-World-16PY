@@ -6,7 +6,7 @@ VALUES (21720, 1969569805, 1448345897, 20, -20, 24.005, 1, 0, 0, -4.37114E-08) /
      , (6122, 1969569792, 1448345910, 0, -10, 30, 1, 0, 0, 0) /* Acid */
      , (5489, 1969569793, 1448345943, 40, -10, 30, 1, 0, 0, 0) /* "Mag-Ma!" */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969569807';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969569807'; /* linkmonstergen20minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969569805';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969569805'; /* linkmonstergen20minutes <- Gaerlan's Phylacteric Prison */
 

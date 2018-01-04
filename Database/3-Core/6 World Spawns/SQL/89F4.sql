@@ -7,7 +7,7 @@ VALUES (1386, 2023702529, 2314469632, 25.8642, 129.475, -0.34, 0.988562, 0, 0, -
      , (509, 2023702528, 2314469377, 15.0139, 111.919, 6.005, -0.431441, 0, 0, -0.902141) /* Life Stone */
      , (4376, 2023702532, 2314469377, 4.8255, 137.9, 7.09453, -0.794164, 0, 0, -0.607704) /* portalrandomshogen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2023702534';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2023702534'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023702533';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023702533'; /* linkmonstergen30minutes <- Lesser Mu-miyah */
 

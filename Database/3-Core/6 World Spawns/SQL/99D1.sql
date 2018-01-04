@@ -17,7 +17,7 @@ VALUES (390, 2040336384, 2580611073, 2.41624, 44.0367, 94.9958, 0.156962, 0, 0, 
      , (1131, 2040336399, 2580611073, 88.0927, 112.32, 104.135, -0.461679, 0, 0, 0.887047) /* itemherbgenerator */
      , (1131, 2040336400, 2580611073, 84.851, 112.311, 103.216, -0.865324, 0, 0, 0.501213) /* itemherbgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040336397';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040336397'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040336396';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040336396'; /* linkmonstergen <- Tusker Crimsonback */
 

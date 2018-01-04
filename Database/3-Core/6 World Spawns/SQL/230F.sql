@@ -10,14 +10,14 @@ VALUES (24278, 1915809811, 588185601, 61.0955, 51.1667, 70.012, -0.939617, 0, 0,
      , (24278, 1915809818, 588185601, 66.5349, 52.9377, 70.012, 0.850002, 0, 0, 0.526779) /* Drudge Cabalist */
      , (7932, 1915809819, 588185601, 62.5348, 50.8267, 70.005, -0.932484, 0, 0, 0.361211) /* linkmonstergen4minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1915809819';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1915809819'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809814';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809815';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809817';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809811';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809816';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809818';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809812';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809813';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809814'; /* linkmonstergen4minutes <- Peerless Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809815'; /* linkmonstergen4minutes <- Peerless Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809817'; /* linkmonstergen4minutes <- Drudge Cabalist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809811'; /* linkmonstergen4minutes <- Drudge Cabalist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809816'; /* linkmonstergen4minutes <- Drudge Cabalist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809818'; /* linkmonstergen4minutes <- Drudge Cabalist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809812'; /* linkmonstergen4minutes <- Peerless Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915809813'; /* linkmonstergen4minutes <- Peerless Drudge */
 

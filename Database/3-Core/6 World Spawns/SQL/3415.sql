@@ -11,13 +11,13 @@ VALUES (24952, 1933660160, 873791489, 156.571, 84, 84.005, -4.37114E-08, 0, 0, -
      , (8138, 1933660169, 873791489, 139.436, 116.46, 84.01, -0.7532, 0, 0, -0.657791) /* Extas Raider */
      , (8138, 1933660170, 873791489, 156.412, 102.244, 84.01, -0.99999, 0, 0, 0.00439584) /* Extas Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1933660168';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1933660168'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660161';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660162';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660163';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660169';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660164';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660165';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660170';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660161'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660162'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660163'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660169'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660164'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660165'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1933660170'; /* linkmonstergen5minutes <- Extas Raider */
 

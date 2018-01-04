@@ -10,8 +10,8 @@ VALUES (2041, 2074734594, 3130982656, 33.9438, 180.139, 56.005, 0.968912, 0, 0, 
      , (412, 2074734593, 3130982401, 40.6892, 174.198, 56, 0.707107, 0, 0, -0.707107) /* Door */
      , (1154, 2074734599, 3130982401, 34.6064, 187.303, 56.005, -0.0285891, 0, 0, 0.999591) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074734599';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074734599'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734602';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734598';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734602'; /* linkmonstergen <- Arcanum Researcher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734598'; /* linkmonstergen <- Bretself the Translator */
 

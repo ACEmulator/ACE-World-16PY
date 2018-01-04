@@ -17,7 +17,7 @@ VALUES (389, 1880649728, 25624841, 50, -40, -6, 0.707107, 0, 0, -0.707107) /* mi
      , (1760, 1880649743, 25624905, 32.4123, -6.83615, 6.0025, -4.37114E-08, 0, 0, -1) /* Skeleton Warrior */
      , (1154, 1880649744, 25624905, 29.0486, -8.53969, 6, -4.37114E-08, 0, 0, -1) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880649744';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880649744'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880649743';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880649743'; /* linkmonstergen <- Skeleton Warrior */
 

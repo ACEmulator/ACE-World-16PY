@@ -14,7 +14,7 @@ VALUES (4794, 2089320459, 3364356354, 41.499, 180.1, 34.005, -0.855457, 0, 0, -0
      , (4431, 2089320458, 3364356097, 74.9077, 169.985, 28.005, 0.538281, 0, 0, -0.842766) /* Rithwic Outpost */
      , (5108, 2089320461, 3364356097, 99.4053, 169.569, 28.005, 0.932314, 0, 0, -0.361649) /* LIFESTONES SIGN */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089320460';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089320460'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089320459';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089320459'; /* linkmonstergen <- Brentsella */
 

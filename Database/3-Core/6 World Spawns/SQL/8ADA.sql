@@ -9,12 +9,12 @@ VALUES (196, 2024644608, 2329542657, 26.851, 184.854, 222.144, -0.924101, 0, 0, 
      , (1130, 2024644615, 2329542657, 33.4421, 161.359, 224.005, 0.0501534, 0, 0, -0.998742) /* itemtalismangenerator */
      , (1129, 2024644616, 2329542657, 32.7086, 160.494, 224.005, 0.973808, 0, 0, 0.227372) /* itemscarabgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2024644614';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2024644614'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644608';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644609';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644610';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644611';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644612';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644613';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644608'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644609'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644610'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644611'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644612'; /* linkmonstergen <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2024644613'; /* linkmonstergen <- Ice Golem */
 

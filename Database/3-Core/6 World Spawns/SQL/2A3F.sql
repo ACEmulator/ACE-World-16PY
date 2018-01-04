@@ -16,20 +16,20 @@ VALUES (27963, 1923346432, 708772106, 108, 27, -11.995, -4.37114E-08, 0, 0, -1) 
      , (7925, 1923346441, 708771841, 118.561, 17.3293, -0.095, 0.0812632, 0, 0, 0.996693) /* linkmonstergen10minutes */
      , (27926, 1923346442, 708771841, 114.8, 27.8458, 12.633, 0.994333, 0, 0, -0.106312) /* A Carved Plate */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1923346441';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1923346446';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1923346441'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1923346446'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346436';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346437';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346438';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346439';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346440';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346432';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346433';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346434';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346435';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346442';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346443';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346444';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346445';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346436'; /* linkmonstergen10minutes <- Tormented Attendant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346437'; /* linkmonstergen10minutes <- Tormented Attendant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346438'; /* linkmonstergen10minutes <- Tormented Attendant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346439'; /* linkmonstergen10minutes <- Tormented Attendant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346440'; /* linkmonstergen10minutes <- Tormented Attendant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346432'; /* linkmonstergen10minutes <- Pillar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346433'; /* linkmonstergen10minutes <- Pillar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346434'; /* linkmonstergen10minutes <- Pillar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1923346435'; /* linkmonstergen10minutes <- Pillar */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346442'; /* linkitemgen10seconds <- A Carved Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346443'; /* linkitemgen10seconds <- A Carved Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346444'; /* linkitemgen10seconds <- A Carved Plate */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1923346445'; /* linkitemgen10seconds <- A Carved Plate */
 

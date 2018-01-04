@@ -12,13 +12,13 @@ VALUES (2179, 1882071040, 48365846, 74.682, -40, 6.005, 0.710744, 0, 0, -0.70345
      , (7893, 1882071050, 48365990, 129.836, -64.8859, 12.005, -0.023372, 0, 0, -0.999727) /* Judging Station */
      , (7939, 1882071051, 48365990, 131.461, -62.472, 12.005, 0.0265849, 0, 0, -0.999647) /* Warning for General Arena! */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882071040';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882071041';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882071043';
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882071042';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882071040'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882071041'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882071043'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882071042'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882071045';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882071044';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882071046';
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882071047';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882071045'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882071044'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882071046'; /* Door <- Lever */
+UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882071047'; /* Door <- Lever */
 

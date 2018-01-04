@@ -28,25 +28,25 @@ VALUES (7, 1880510464, 23396612, 47.873, -61.395, -23.996, -0.954793, 0, 0, -0.2
      , (8738, 1880510490, 23396699, 39.9346, -22.7452, 0.0055, -0.026958, 0, 0, -0.999637) /* Rithwic Town Stamp */
      , (4934, 1880510491, 23396709, 52.4491, -30.1362, 0, -0.707107, 0, 0, -0.707107) /* Surface Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880510488';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880510489';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880510488'; /* linknewbiemonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880510489'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510480';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510485';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510484';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510487';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510482';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510478';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510471';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510472';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510476';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510473';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510477';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510486';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510475';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510469';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510466';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510464';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510465';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880510490';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510480'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510485'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510484'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510487'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510482'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510478'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510471'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510472'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510476'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510473'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510477'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510486'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510475'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510469'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510466'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510464'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880510465'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880510490'; /* linkitemgen25seconds <- Rithwic Town Stamp */
 

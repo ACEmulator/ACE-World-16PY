@@ -15,10 +15,10 @@ VALUES (1148, 1903894528, 397541632, 130.885, 60.5018, 41.205, 0.999557, 0, 0, -
      , (5772, 1903894543, 397541377, 135.376, 33.1646, 44.005, -0.197293, 0, 0, -0.980345) /* Town Crier */
      , (509, 1903894542, 397541377, 101.375, 53.2718, 44.005, 0.977793, 0, 0, 0.209573) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1903894532';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1903894532'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894543';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894535';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894531';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894544';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894543'; /* linkmonstergen30seconds <- Town Crier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894535'; /* linkmonstergen30seconds <- Behdo Yii */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894531'; /* linkmonstergen30seconds <- Ling Xiao the Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894544'; /* linkmonstergen30seconds <- Bachus Flufens */
 

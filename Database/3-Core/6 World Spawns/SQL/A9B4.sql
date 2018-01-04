@@ -84,19 +84,19 @@ VALUES (412, 2056994816, 2847146240, 84.1029, 131.542, 66, -0.707107, 0, 0, -0.7
      , (7923, 2056994876, 2847145985, 60.9059, 153.535, 66.005, -0.981916, 0, 0, 0.189318) /* linkmonstergen3minutes */
      , (12304, 2056994875, 2847145985, 150.459, 17.8832, 94.005, 0.330031, 0, 0, -0.94397) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056994898';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2056994873';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2056994924';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2056994898'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2056994873'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2056994924'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994866';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994899';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994872';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994908';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994910';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994913';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994914';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994915';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994916';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994917';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2056994923';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994866'; /* linkmonstergen3minutes <- Flinrala Ryndmad */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994899'; /* linkmonstergen3minutes <- Apprentice Alchemist */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994872'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994908'; /* linkmonstergen3minutes <- Worcer */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2056994910'; /* linkmonstergen3minutes <- Alfrin */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994913'; /* linkmonstergen3minutes <- Alchemy Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994914'; /* linkmonstergen3minutes <- Fletching Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994915'; /* linkmonstergen3minutes <- Cooking Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994916'; /* linkmonstergen3minutes <- Lockpick Forge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2056994917'; /* linkmonstergen3minutes <- Salvaging Forge */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2056994923'; /* linkmonstergen5minutes <- Tirenia */
 

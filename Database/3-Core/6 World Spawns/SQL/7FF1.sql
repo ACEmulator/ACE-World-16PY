@@ -7,10 +7,10 @@ VALUES (3965, 2013204481, 2146500866, 176.72, 84.1781, 197.205, 0.664556, 0, 0, 
      , (2581, 2013204483, 2146500609, 186.587, 82.5671, 198.005, -0.26542, 0, 0, -0.964133) /* Snowy Mattekar */
      , (3953, 2013204484, 2146500609, 176.541, 80.0171, 198.005, -0.942869, 0, 0, -0.333163) /* linkmonstergen30minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013204484';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013204484'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204482';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204483';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204485';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204486';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204482'; /* linkmonstergen30minutes <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204483'; /* linkmonstergen30minutes <- Snowy Mattekar */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204485'; /* linkmonstergen30minutes <- Ice Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013204486'; /* linkmonstergen30minutes <- Ethereal Wisp */
 

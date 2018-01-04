@@ -21,8 +21,8 @@ VALUES (5698, 2119491602, 3847094532, 90.0539, 88.3105, 20.405, -0.707107, 0, 0,
      , (509, 2119491593, 3847094273, 83.9762, 108.323, 12.005, 0.0339994, 0, 0, -0.999422) /* Life Stone */
      , (1154, 2119491601, 3847094273, 83.2435, 72.8769, 12.005, 0.998866, 0, 0, -0.0476042) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119491601';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119491601'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119491604';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119491596';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119491604'; /* linkmonstergen <- Arcanum Researcher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119491596'; /* linkmonstergen <- Fanzen San the Translator */
 

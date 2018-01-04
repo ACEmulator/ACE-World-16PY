@@ -9,9 +9,9 @@ VALUES (12050, 2074730499, 3130917128, 53.6904, 33.3188, 54.005, 0.900779, 0, 0,
      , (412, 2074730498, 3130916865, 57.3292, 42.8662, 54, 0.37572, 0, 0, -0.926733) /* Door */
      , (12304, 2074730506, 3130916865, 52.2586, 41.961, 54.005, -0.37948, 0, 0, -0.9252) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074730500';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2074730505';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074730500'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2074730505'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074730499';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2074730501';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074730499'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2074730501'; /* linkmonstergen3minutes <- Bartholomew Steiner */
 

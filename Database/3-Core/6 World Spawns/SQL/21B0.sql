@@ -29,10 +29,10 @@ VALUES (29858, 1914372125, 565182722, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0
      , (5774, 1914372124, 565182465, 39.9044, 139.445, 0.005, 0.978377, 0, 0, -0.20683) /* Town Crier */
      , (509, 1914372123, 565182465, 50.6199, 116.939, 0.00499997, -9.71743E-05, 0, 0, 1) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1914372122';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1914372122'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372116';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372121';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372124';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372125';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372116'; /* linkitemgen25seconds <- Merlonna Farel the Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372121'; /* linkitemgen25seconds <- Aurten Rhell */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372124'; /* linkitemgen25seconds <- Town Crier */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372125'; /* linkitemgen25seconds <- Aun Arenura the Crafter */
 

@@ -8,12 +8,12 @@ VALUES (3630, 2013822976, 2156396800, 43.7667, 133.324, 342.805, 0.149114, 0, 0,
      , (2576, 2013822978, 2156396545, 34.0868, 141.543, 348.005, -0.45949, 0, 0, -0.888183) /* Wild Monouga */
      , (2576, 2013822979, 2156396545, 30.5701, 152.396, 348.005, -0.886737, 0, 0, -0.462274) /* Wild Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013822983';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013822983'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822977';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822978';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822979';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822980';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822981';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822982';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822977'; /* linkmonstergen5minutes <- Wild Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822978'; /* linkmonstergen5minutes <- Wild Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822979'; /* linkmonstergen5minutes <- Wild Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822980'; /* linkmonstergen5minutes <- Wild Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822981'; /* linkmonstergen5minutes <- Wild Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013822982'; /* linkmonstergen5minutes <- Wild Monouga */
 

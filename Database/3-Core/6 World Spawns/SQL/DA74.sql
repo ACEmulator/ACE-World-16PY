@@ -22,23 +22,23 @@ VALUES (231, 2108112932, 3665035522, 176.563, 64.3449, 18.0055, 0.999975, 0, 0, 
      , (231, 2108112938, 3665035265, 175.366, 93.0106, 18.0055, 0.961287, 0, 0, -0.27555) /* Tumerok Priest */
      , (227, 2108112936, 3665035265, 119.749, 36.1807, 18.006, 0.999978, 0, 0, -0.00661128) /* Tumerok Gladiator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108112939';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108112939'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112923';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112926';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112927';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112928';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112931';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112933';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112934';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112935';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112936';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112937';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112924';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112925';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112929';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112938';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112932';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112941';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112923'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112926'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112927'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112928'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112930'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112931'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112933'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112934'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112935'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112936'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112937'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112924'; /* linkmonstergen5minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112925'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112929'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112938'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112932'; /* linkmonstergen5minutes <- Tumerok Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108112941'; /* linkmonstergen5minutes <- Tumerok Taskmaster */
 

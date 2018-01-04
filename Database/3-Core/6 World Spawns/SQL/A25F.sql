@@ -37,7 +37,7 @@ VALUES (1828, 2049306640, 2724135168, 158.096, 157.207, 19.705, 0.619255, 0, 0, 
      , (1810, 2049306645, 2724134913, 130.145, 132.921, 23.7908, -0.903941, 0, 0, -0.427657) /* The Thirsty Blade */
      , (1804, 2049306644, 2724134913, 151.074, 151.381, 22.9984, -4.37114E-08, 0, 0, -1) /* Bows and Arrows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049306667';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049306667'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049306666';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049306666'; /* linkmonstergen1hour <- Apprentice Cook */
 

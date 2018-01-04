@@ -86,7 +86,7 @@ VALUES (965, 1880932352, 30146820, 56.2753, -21.604, -30, 0.707107, 0, 0, -0.707
      , (1513, 1880932436, 30147157, 82, -90, 30, -0.707107, 0, 0, -0.707107) /* Surface */
      , (568, 1880932437, 30147159, 75.25, -90, 30, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880932388';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880932388'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880932389';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880932389'; /* Door <- Lever */
 

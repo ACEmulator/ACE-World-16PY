@@ -31,36 +31,36 @@ VALUES (3955, 1908482048, 470941697, 9.01891, 110.37, 0.005, 0.905563, 0, 0, -0.
      , (30680, 1908482077, 470941697, 136.056, 131.433, 4.57284, 0.533748, 0, 0, -0.845644) /* Withered Drudge Seraph */
      , (30680, 1908482079, 470941697, 136.527, 135.359, 5.18785, 0.764253, 0, 0, -0.644917) /* Withered Drudge Seraph */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908482048';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908482048'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482058';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482059';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482062';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482063';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482064';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482065';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482066';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482067';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482068';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482069';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482070';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482071';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482072';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482073';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482074';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482077';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482079';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482080';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482081';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482082';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482083';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482084';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482049';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482050';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482051';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482052';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482053';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482054';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482055';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482056';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482058'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482059'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482062'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482063'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482064'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482065'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482066'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482067'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482068'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482069'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482070'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482071'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482072'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482073'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482074'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482077'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482079'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482080'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482081'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482082'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482083'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482084'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482049'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482050'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482051'; /* linkmonstergen15minutes <- Withered Drudge Seraph Mystic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482052'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482053'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482054'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482055'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908482056'; /* linkmonstergen15minutes <- Withered Drudge Seraph */
 

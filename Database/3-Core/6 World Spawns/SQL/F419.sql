@@ -43,26 +43,26 @@ VALUES (4261, 2135003136, 4095279105, 124.345, 7.64768, 99.555, 0.196458, 0, 0, 
      , (8580, 2135003177, 4095279105, 124.73, 56.9538, -0.095, -0.0122585, 0, 0, 0.999925) /* Waterfall */
      , (8580, 2135003178, 4095279105, 116.128, 56.9045, -0.095, -0.0122585, 0, 0, 0.999925) /* Waterfall */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2135003137';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2135003156';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2135003138';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2135003137'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2135003156'; /* linkitemgen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2135003138'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003136';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003139';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003140';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003141';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003142';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003143';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003153';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003154';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003155';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003146';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003147';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003148';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003149';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003144';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003145';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003150';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003151';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003152';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003136'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003139'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003140'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003141'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003142'; /* linkmonstergen10minutes <- Island Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003143'; /* linkmonstergen10minutes <- Island Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003153'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003154'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2135003155'; /* linkmonstergen10minutes <- Sephal Niffis */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003146'; /* linkitemgen15minutes <- Pile of Long Sticks */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003147'; /* linkitemgen15minutes <- Pile of Long Sticks */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003148'; /* linkitemgen15minutes <- Pile of Short Sticks */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2135003149'; /* linkitemgen15minutes <- Pile of Short Sticks */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003144'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003145'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003150'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003151'; /* linkmonstergen7minutes <- Shallows Devourer */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2135003152'; /* linkmonstergen7minutes <- Shallows Destroyer */
 

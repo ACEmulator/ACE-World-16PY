@@ -9,9 +9,9 @@ VALUES (1625, 2048610314, 2712994050, 30.6282, 129.262, 74.017, -0.629581, 0, 0,
      , (7925, 2048610315, 2712993793, 47.5245, 142.249, 74.005, 0.782371, 0, 0, 0.622812) /* linkmonstergen10minutes */
      , (1625, 2048610313, 2712993793, 55.9039, 144.583, 73.3533, 0.982052, 0, 0, 0.188609) /* Mountain Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048610315';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048610315'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610314';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610313';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610312';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610314'; /* linkmonstergen10minutes <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610313'; /* linkmonstergen10minutes <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610312'; /* linkmonstergen10minutes <- Mountain Rat */
 

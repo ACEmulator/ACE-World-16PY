@@ -21,12 +21,12 @@ VALUES (24939, 2035511296, 2503409665, 143.476, 59.1419, 27.009, 0.795625, 0, 0,
      , (387, 2035511315, 2503409665, 184.796, 54.3375, 22.005, 0.258881, 0, 0, 0.965909) /* lugian-generator */
      , (4011, 2035511316, 2503409665, 158.431, 44.8732, 22.005, 0.8971, 0, 0, -0.441827) /* itemlowghawarriorgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035511311';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035511311'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511296';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511297';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511298';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511299';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511300';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511301';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511296'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511297'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511298'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511299'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511300'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035511301'; /* linkmonstergen <- Gotrok Amploth */
 

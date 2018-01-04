@@ -14,11 +14,11 @@ VALUES (9678, 1975107584, 1536950273, 112.571, 116.807, 14.005, -0.662645, 0, 0,
      , (27555, 1975107596, 1536950273, 109.207, 146.662, 14.005, 0.0195611, 0, 0, -0.999809) /* Pricilla the Healer */
      , (28924, 1975107597, 1536950273, 86.925, 124.774, 14.005, -0.725597, 0, 0, 0.68812) /* Journeyman Fletcher */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1975107588';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1975107593';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1975107588'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1975107593'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107587';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107589';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107597';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107592';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107587'; /* linkmonstergen <- Gunther Danby */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107589'; /* linkmonstergen <- Leather Crafter */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107597'; /* linkmonstergen3minutes <- Journeyman Fletcher */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107592'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

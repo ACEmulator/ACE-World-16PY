@@ -80,14 +80,14 @@ VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.70
      , (7923, 2048540724, 2711879681, 76.5484, 44.2252, 66.005, 0.648727, 0, 0, -0.761021) /* linkmonstergen3minutes */
      , (7923, 2048540725, 2711879681, 41.1208, 125.941, 50.005, -0.020619, 0, 0, 0.999787) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048540752';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2048540757';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2048540724';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048540752'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2048540757'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2048540724'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540750';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540749';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540751';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2048540756';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540759';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540773';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540750'; /* linkmonstergen10minutes <- Wils Morrem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540749'; /* linkmonstergen10minutes <- Tiffany Comfore */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540751'; /* linkmonstergen10minutes <- Copper Vanurp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2048540756'; /* linkmonstergen3minutes <- Student */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540759'; /* linkmonstergen3minutes <- Sword of Frozen Fury */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540773'; /* linkmonstergen3minutes <- Apprentice Cook */
 

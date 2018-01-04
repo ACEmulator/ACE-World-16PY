@@ -14,7 +14,7 @@ VALUES (4447, 2075656196, 3145728265, 175.598, 128.992, 44.005, -0.542918, 0, 0,
      , (5071, 2075656210, 3145728001, 171.605, 134.631, 44.005, 0.707107, 0, 0, -0.707107) /* West Lytelthorpe Outpost */
      , (3955, 2075656203, 3145728001, 191.677, 104.1, 44.005, 0.991288, 0, 0, -0.131712) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075656203';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075656203'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075656206';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075656206'; /* linkmonstergen15minutes <- Beltslora */
 

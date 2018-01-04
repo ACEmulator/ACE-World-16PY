@@ -6,9 +6,9 @@ VALUES (12050, 2132946949, 4062380290, 155.427, 40.8154, 18.005, -0.145149, 0, 0
      , (3955, 2132946945, 4062380033, 151.367, 8.24201, 18.005, 0.998711, 0, 0, -0.0507633) /* linkmonstergen15minutes */
      , (12304, 2132946951, 4062380033, 150.002, 33.0799, 18.005, 0.999822, 0, 0, -0.0188507) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2132946945';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2132946950';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2132946945'; /* linkmonstergen15minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2132946950'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132946944';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2132946949';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132946944'; /* linkmonstergen15minutes <- Onda Nakoza */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2132946949'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

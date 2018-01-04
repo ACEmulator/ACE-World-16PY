@@ -12,11 +12,11 @@ VALUES (770, 2011836416, 2124611585, 12.0608, 162.691, 43.1201, -0.974905, 0, 0,
      , (1479, 2011836426, 2124611585, 8.73306, 162.005, 43.0059, 0.873764, 0, 0, -0.486351) /* banderlingfoodgen */
      , (953, 2011836427, 2124611585, 7.92804, 164.235, 43.3774, 0.5955, 0, 0, -0.803356) /* banderlingyounggen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011836421';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011836421'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836416';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836417';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836418';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836419';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836420';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836416'; /* linkitemgen <- Eyebright */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836417'; /* linkitemgen <- Ginseng */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836418'; /* linkitemgen <- Bistort */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836419'; /* linkitemgen <- Hawthorn */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836420'; /* linkitemgen <- Amaranth */
 

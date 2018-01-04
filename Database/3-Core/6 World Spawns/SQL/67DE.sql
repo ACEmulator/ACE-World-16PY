@@ -16,9 +16,9 @@ VALUES (7924, 1987960845, 1742602499, 117.388, 64.336, 64.405, -0.818654, 0, 0, 
      , (19435, 1987960843, 1742602241, 13.0947, 12.1339, 52.1945, 0.792842, 0, 0, 0.609428) /* Red Phyntos Wasp */
      , (8059, 1987960844, 1742602241, 80.5871, 48.9337, 75.3711, -0.668421, 0, 0, -0.743783) /* grievverscrawedcampgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1987960842';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1987960845';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1987960842'; /* linkmonstergen10minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1987960845'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1987960843';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1987960846';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1987960843'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1987960846'; /* linkmonstergen5minutes <- Scrawed Grievver */
 

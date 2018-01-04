@@ -7,7 +7,7 @@ VALUES (12050, 2107990017, 3663069452, 11.2948, 137.561, 20.005, 0.190456, 0, 0,
      , (412, 2107990016, 3663069185, 11.7451, 126.459, 20, 0.892979, 0, 0, -0.450098) /* Door */
      , (12304, 2107990019, 3663069185, 12.8515, 122.037, 20.005, 0.967215, 0, 0, -0.25396) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107990018';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107990018'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107990017';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107990017'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

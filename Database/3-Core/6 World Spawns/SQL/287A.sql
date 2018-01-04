@@ -4,7 +4,7 @@ VALUES (412, 1921490944, 679084293, 178.24, 156.95, 500.01, 0.707107, 0, 0, -0.7
      , (3953, 1921490946, 679084033, 55.2294, 167.839, 399.938, -0.849838, 0, 0, -0.527044) /* linkmonstergen30minutes */
      , (5767, 1921490947, 679084033, 55.2294, 167.839, 399.938, 0.618576, 0, 0, -0.785725) /* Giant Snowman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1921490946';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1921490946'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1921490947';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1921490947'; /* linkmonstergen30minutes <- Giant Snowman */
 

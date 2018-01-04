@@ -9,7 +9,7 @@ VALUES (14411, 2111111185, 3713007872, 151.275, 128.013, 22.005, 0.588842, 0, 0,
      , (722, 2111111175, 3713007617, 155, 122.95, 22, 1, 0, 0, 0) /* Door */
      , (721, 2111111176, 3713007617, 157, 122.95, 22, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111111184';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111111184'; /* Trap Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111111183';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111111183'; /* Trap Door <- Trap Door */
 

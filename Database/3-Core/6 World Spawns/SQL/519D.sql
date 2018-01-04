@@ -14,14 +14,14 @@ VALUES (2337, 1964625921, 1369243904, 138.975, 11.776, 22.805, -0.707107, 0, 0, 
      , (232, 1964625928, 1369243649, 172.037, 16.6102, 28.005, 0.289663, 0, 0, 0.957129) /* Tumerok Scout */
      , (232, 1964625929, 1369243649, 183.113, 59.7717, 25.024, -0.222232, 0, 0, -0.974994) /* Tumerok Scout */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1964625933';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1964625933'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625920';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625922';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625927';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625928';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625929';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625931';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625932';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625920'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625922'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625927'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625928'; /* linkmonstergen <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625929'; /* linkmonstergen <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625930'; /* linkmonstergen <- Tumerok Scout */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625931'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1964625932'; /* linkmonstergen <- Tumerok Warrior */
 

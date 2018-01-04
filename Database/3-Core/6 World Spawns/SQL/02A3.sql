@@ -16,19 +16,19 @@ VALUES (7924, 1881812992, 44237056, -3.63826, -1.331, 0.005, 0.683673, 0, 0, -0.
      , (9135, 1881812998, 44237066, 23.1918, -23.5756, 0.029, -0.71854, 0, 0, -0.695485) /* Tamed Virindi */
      , (9131, 1881812999, 44237067, 22.9768, -30.1671, 0.029, -0.71854, 0, 0, -0.695485) /* Beaten Virindi */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881812992';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881812992'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813003';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813004';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813000';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813001';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813002';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813005';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813006';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813007';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812994';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812999';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812998';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812997';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812996';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813003'; /* linkmonstergen5minutes <- Unarmed Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813004'; /* linkmonstergen5minutes <- Dagger Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813000'; /* linkmonstergen5minutes <- Staff Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813001'; /* linkmonstergen5minutes <- Bow Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813002'; /* linkmonstergen5minutes <- Crossbow Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813005'; /* linkmonstergen5minutes <- Atlatl Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813006'; /* linkmonstergen5minutes <- Life Magic Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881813007'; /* linkmonstergen5minutes <- War Magic Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812994'; /* linkmonstergen5minutes <- Broken Virindi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812999'; /* linkmonstergen5minutes <- Beaten Virindi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812998'; /* linkmonstergen5minutes <- Tamed Virindi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812997'; /* linkmonstergen5minutes <- Leashed Virindi */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881812996'; /* linkmonstergen5minutes <- Conquered Virindi */
 

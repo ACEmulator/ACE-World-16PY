@@ -14,18 +14,18 @@ VALUES (23608, 2101493770, 3559129344, 88.4944, 72.4867, 59.805, 0.707107, 0, 0,
      , (11533, 2101493780, 3559129089, 84.921, 53.827, 65.0917, -0.376702, 0, 0, 0.926334) /* Azael Zefir */
      , (11533, 2101493779, 3559129089, 81.0008, 53.5917, 64.7651, 0.290282, 0, 0, 0.956941) /* Azael Zefir */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101493783';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2101493783'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493775';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493774';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493773';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493772';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493771';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493776';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493777';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493778';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493779';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493780';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493781';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493782';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493775'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493774'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493773'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493772'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493771'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493776'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493777'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493778'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493779'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493780'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493781'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2101493782'; /* linkmonstergen7minutes <- Azael Zefir */
 

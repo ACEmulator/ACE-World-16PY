@@ -11,15 +11,15 @@ VALUES (7923, 2008920066, 2077949953, 94.8629, 65.7869, 432.005, -0.980445, 0, 0
      , (7092, 2008920092, 2077949953, 89.0482, 49.4076, 431.084, 0.0540477, 0, 0, -0.998538) /* Firestorm */
      , (21416, 2008920096, 2077949953, 96.2313, 62.7448, 431.966, -0.999958, 0, 0, 0.00915469) /* Fire Guardian Lair */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008920066';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008920066'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920088';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920089';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920090';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920091';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920092';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920093';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920086';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920084';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920072';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920088'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920089'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920090'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920091'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920092'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920093'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920086'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920084'; /* linkmonstergen3minutes <- Inferno */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920072'; /* linkmonstergen3minutes <- Inferno */
 

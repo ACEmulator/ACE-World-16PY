@@ -32,7 +32,7 @@ VALUES (4702, 2045001734, 2655256849, 35.9925, 6.01204, 46.005, 0.99996, 0, 0, -
      , (4667, 2045001741, 2655256577, 47.2004, 9.87274, 49.2, -0.999931, 0, 0, -0.0117074) /* General Supplies */
      , (4663, 2045001742, 2655256577, 132.925, 26.8992, 39.2, 0.9997, 0, 0, -0.0245077) /* Blade of the Desert */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045001759';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045001759'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045001758';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045001758'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

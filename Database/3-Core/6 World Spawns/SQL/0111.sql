@@ -16,15 +16,15 @@ VALUES (143, 1880166400, 17891586, -4.075, -29.38, 0, -0.707107, 0, 0, -0.707107
      , (4378, 1880166414, 17891594, 20, -10, 0, 1, 0, 0, 0) /* portalrandomgen */
      , (7238, 1880166415, 17891594, 24.06, -5.86512, 0.06954, 0.705619, 0, 0, -0.708592) /* Sentinel Notebook */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880166405';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880166405'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166404';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166406';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166407';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166408';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166409';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166410';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166411';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166415';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166412';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166404'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166406'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166407'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166408'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166409'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166410'; /* linkitemgen25seconds <- The Wedding Guide */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166411'; /* linkitemgen25seconds <- Book */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166415'; /* linkitemgen25seconds <- Sentinel Notebook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166412'; /* linkitemgen25seconds <- Parchment */
 

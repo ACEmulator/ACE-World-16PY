@@ -9,8 +9,8 @@ VALUES (7365, 2071908352, 3085762561, 182.346, 84.0173, 20.0079, 0.572027, 0, 0,
      , (7216, 2071908359, 3085762561, 110.389, 10.921, -0.445, -0.693549, 0, 0, 0.720409) /* lavalandashwestmixgen */
      , (7216, 2071908360, 3085762561, 158.778, 12.8887, -0.095, -0.693549, 0, 0, 0.720409) /* lavalandashwestmixgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2071908355';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2071908355'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2071908356';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2071908357';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2071908356'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2071908357'; /* linkmonstergen3minutes <- Nubilous Golem */
 

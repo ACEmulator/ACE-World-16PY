@@ -12,16 +12,16 @@ VALUES (15816, 2088181771, 3346137344, 84.035, 111.527, 40.005, 1, 0, 0, 0) /* G
      , (7923, 2088181769, 3346137089, 80.7895, 106.809, 55.205, -0.0234928, 0, 0, -0.999724) /* linkmonstergen3minutes */
      , (15809, 2088181770, 3346137089, 81.1637, 109.752, 55.205, -0.542571, 0, 0, -0.84001) /* Brontynn Marshad */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088181768';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2088181769';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088181768'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2088181769'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181760';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181761';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181762';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181763';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181764';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181765';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181766';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181767';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2088181770';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181760'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181761'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181762'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181763'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181764'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181765'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181766'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088181767'; /* linkmonstergen3minutes <- Tumerok Gladiator */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2088181770'; /* linkmonstergen3minutes <- Brontynn Marshad */
 

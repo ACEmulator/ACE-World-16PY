@@ -8,10 +8,10 @@ VALUES (25862, 1886449667, 118423808, 130.99, 80.2056, 179.005, -0.791667, 0, 0,
      , (412, 1886449665, 118423822, 130.24, 132.95, 190.01, 0.707107, 0, 0, -0.707107) /* Door */
      , (25861, 1886449670, 118423553, 132.618, 83.0841, 187.805, 0.999993, 0, 0, -0.00367635) /* Graal Margul */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1886449671';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1886449671'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449667';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449668';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449669';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449670';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449667'; /* linkmonstergen5minutes <- Helcan Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449668'; /* linkmonstergen5minutes <- Helcan Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449669'; /* linkmonstergen5minutes <- Graal Margul */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1886449670'; /* linkmonstergen5minutes <- Graal Margul */
 

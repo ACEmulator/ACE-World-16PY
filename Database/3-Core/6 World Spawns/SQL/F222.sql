@@ -23,10 +23,10 @@ VALUES (720, 2132942848, 4062314752, 129, 132.025, 18, -1, 0, 0, 0) /* Sliding D
      , (8490, 2132942860, 4062314497, 143.743, 175.368, 18.005, -0.999999, 0, 0, 0.00164489) /* MacNiall the Unruled */
      , (3955, 2132942861, 4062314497, 142.634, 175.015, 18.005, -0.991134, 0, 0, -0.132863) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2132942861';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2132942861'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942860';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942877';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942880';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942878';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942860'; /* linkmonstergen15minutes <- MacNiall the Unruled */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942877'; /* linkmonstergen15minutes <- Open Journal */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942880'; /* linkmonstergen15minutes <- Journeyman Fletcher */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942878'; /* linkmonstergen15minutes <- Gentleman Jake Hawkins */
 

@@ -7,7 +7,7 @@ VALUES (5712, 2028802048, 2396061697, 188.866, 159.872, 279.343, -0.78329, 0, 0,
      , (7356, 2028802053, 2396061697, 180.314, 156.735, 278, 0.0439854, 0, 0, -0.999032) /* eruptesperplumefxgen */
      , (7355, 2028802054, 2396061697, 121.509, 76.0078, 277.105, 0.309463, 0, 0, 0.950911) /* eruptespergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2028802050';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2028802050'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028802048';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2028802048'; /* linkmonstergen30minutes <- Inferno */
 

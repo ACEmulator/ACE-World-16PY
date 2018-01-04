@@ -5,10 +5,10 @@ VALUES (182, 2054815744, 2812280833, 88.8629, 43.835, 101.075, 0.988457, 0, 0, -
      , (181, 2054815747, 2812280833, 90.3372, 44.1902, 101.227, 0.988457, 0, 0, -0.151504) /* Auroch Cow */
      , (3953, 2054815748, 2812280833, 98.237, 80.9091, 107.876, 0.73604, 0, 0, 0.676938) /* linkmonstergen30minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2054815748';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2054815748'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815744';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815745';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815746';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815747';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815744'; /* linkmonstergen30minutes <- Auroch Yearling */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815745'; /* linkmonstergen30minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815746'; /* linkmonstergen30minutes <- Cow */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2054815747'; /* linkmonstergen30minutes <- Auroch Cow */
 

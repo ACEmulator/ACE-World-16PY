@@ -28,16 +28,16 @@ VALUES (22614, 1981034497, 1631781120, 14.0053, 3.70736, -5.995, 0.814771, 0, 0,
      , (23927, 1981034572, 1631781155, 20.032, -17.3157, 0.005, 0, 0, 0, -1) /* rattinyswarmgen */
      , (24065, 1981034577, 1631781160, 16.9115, -26.9686, 1.63675, 0.914443, 0, 0, 0.404714) /* Globe of Auberean */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1981034503';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1981034503'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034504';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034498';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034497';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034499';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034500';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034564';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034562';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034565';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034575';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034576';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034504'; /* linkitemgen25seconds <- Ulgrim's Home Brew */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034498'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034497'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034499'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034500'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034564'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034562'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034565'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034575'; /* linkitemgen25seconds <- Treasure */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1981034576'; /* linkitemgen25seconds <- Treasure */
 

@@ -11,8 +11,8 @@ VALUES (1387, 2007801858, 2060058896, 34.0357, 36.0242, 200.005, 0.728293, 0, 0,
      , (153, 2007801865, 2060058625, 75.388, 29.914, 200.005, 1, 0, 0, 0) /* Fountain */
      , (1902, 2007801864, 2060058625, 75.1481, 16.3678, 200.005, -4.37114E-08, 0, 0, -1) /* Hilltop */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007801867';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007801867'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007801866';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007801869';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007801866'; /* linkmonstergen <- Collector */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007801869'; /* linkmonstergen <- Ulgrim the Unpleasant */
 

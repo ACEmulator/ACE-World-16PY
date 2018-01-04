@@ -5,9 +5,9 @@ VALUES (509, 2035068928, 2496331777, 26.4285, 100.783, 166.207, -0.699872, 0, 0,
      , (198, 2035068931, 2496331777, 42.1426, 1.97573, 161.384, -0.745861, 0, 0, 0.666102) /* Limestone Golem */
      , (1154, 2035068932, 2496331777, 46.6238, 2.3637, 162.17, -0.967923, 0, 0, 0.251248) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035068932';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2035068932'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068929';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068930';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068931';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068929'; /* linkmonstergen <- Limestone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068930'; /* linkmonstergen <- Limestone Golem */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2035068931'; /* linkmonstergen <- Limestone Golem */
 

@@ -8,8 +8,8 @@ VALUES (29043, 1880571904, 24379692, 60, 3.566, 1.5, 0, 0, 0, -1) /* Portal Beac
      , (7924, 1880571909, 24379717, 60, -150, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (29034, 1880571910, 24379721, 60, -155.875, 0.25, 1, 0, 0, 0) /* Eye of Darkness */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880571909';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880571909'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880571908';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880571904';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880571908'; /* linkmonstergen5minutes <- Sealed Door */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880571904'; /* linkmonstergen5minutes <- Portal Beacon */
 

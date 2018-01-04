@@ -229,48 +229,48 @@ VALUES (228, 1926607075, 760938497, 103.817, 36.3617, 32.006, -0.608728, 0, 0, -
      , (27460, 1926607109, 760938497, 166.894, 130.455, 38.2675, -0.998473, 0, 0, 0.0552366) /* Gotrok Fortress Guard */
      , (7924, 1926607110, 760938497, 130.938, 131.401, 38.1048, -0.99627, 0, 0, 0.0862859) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1926607055';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1926607056';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1926607110';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1926607055'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1926607056'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1926607110'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607024';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607026';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607025';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607028';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607027';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607030';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607029';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607032';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607031';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607035';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607037';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607038';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607040';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607043';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607042';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607049';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607048';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607053';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607065';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607066';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607069';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607070';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607072';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607075';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607077';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607076';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607078';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607097';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607099';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607098';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607101';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607100';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607103';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607102';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607105';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607104';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607107';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607106';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607109';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607108';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607024'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607026'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607025'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607028'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607027'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607030'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607029'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607032'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607031'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607035'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607037'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607038'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607040'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607043'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607042'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607049'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607048'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926607053'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607065'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607066'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607069'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607070'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607072'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607075'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607077'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607076'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607078'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926607097'; /* linkmonstergen5minutes <- Door */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607099'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607098'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607101'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607100'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607103'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607102'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607105'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607104'; /* linkmonstergen5minutes <- Gotrok Tiatus */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607107'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607106'; /* linkmonstergen5minutes <- Tumerok High Priest */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607109'; /* linkmonstergen5minutes <- Gotrok Fortress Guard */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926607108'; /* linkmonstergen5minutes <- Gotrok Tiatus */
 

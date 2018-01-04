@@ -18,11 +18,11 @@ VALUES (22723, 2137530378, 4135715074, 175.901, 77.09, 63.605, 0.718093, 0, 0, -
      , (22717, 2137530386, 4135714817, 159.34, 91.7266, 58.005, 0.818677, 0, 0, -0.574254) /* Not too far to the Tusker Emporium! */
      , (22640, 2137530380, 4135714817, 153.616, 59.6561, 58.0099, -0.553984, 0, 0, -0.832527) /* Mayor Ko Ko */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137530382';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2137530383';
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2137530388';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137530382'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2137530383'; /* linkmonstergen3minutes */
+UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2137530388'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137530381';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2137530380';
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2137530387';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137530381'; /* linkmonstergen3minutes <- Brighteyes, the Tailor */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2137530380'; /* linkmonstergen3minutes <- Mayor Ko Ko */
+UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2137530387'; /* linkitemgen10seconds <- Note */
 

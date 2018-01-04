@@ -6,10 +6,10 @@ VALUES (23598, 1951502342, 1159266305, 157.258, 104.254, 70.4196, -0.766545, 0, 
      , (1154, 1951502340, 1159266305, 160.09, 104.896, 69.8406, -0.46638, 0, 0, -0.884584) /* linkmonstergen */
      , (23566, 1951502346, 1159266305, 162.729, 104.535, 69.462, -0.812072, 0, 0, -0.583557) /* Tumerok Trooper */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951502340';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951502340'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502343';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502345';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502344';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502346';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502343'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502345'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502344'; /* linkmonstergen <- Tumerok Champion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951502346'; /* linkmonstergen <- Tumerok Trooper */
 

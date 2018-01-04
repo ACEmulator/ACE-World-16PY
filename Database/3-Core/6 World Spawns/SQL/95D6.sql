@@ -19,15 +19,15 @@ VALUES (6889, 2036162575, 2513830151, 84, 65, 100.005, -4.37114E-08, 0, 0, -1) /
      , (1987, 2036162570, 2513829889, 31.5263, 9.17918, 96.634, 0.768322, 0, 0, 0.640063) /* Ghost Wisp */
      , (3951, 2036162571, 2513829889, 78.6467, 73.0057, 100.005, 0.0445283, 0, 0, -0.999008) /* linkmonstergen1hour */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2036162566';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2036162571';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2036162566'; /* linkmonstergen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2036162571'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036162562';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162578';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162570';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162572';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162573';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162575';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162577';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162565';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036162562'; /* linkmonstergen <- Black Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162578'; /* linkmonstergen1hour <- Journeyman Cook */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162570'; /* linkmonstergen1hour <- Ghost Wisp */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162572'; /* linkmonstergen1hour <- Lady Tallial */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162573'; /* linkmonstergen1hour <- Yi Yo-Jin */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162575'; /* linkmonstergen1hour <- Gormling the Sneaky Seneschal */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162577'; /* linkmonstergen1hour <- Loom */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162565'; /* linkmonstergen1hour <- Ghost Wisp */
 

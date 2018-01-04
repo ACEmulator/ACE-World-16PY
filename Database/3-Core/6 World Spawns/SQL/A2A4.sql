@@ -5,7 +5,7 @@ VALUES (12050, 2049589250, 2728657155, 30.9222, 105.51, 50.005, -0.799642, 0, 0,
      , (913, 2049589248, 2728656897, 145.275, 110.178, 50.005, 0.699288, 0, 0, 0.71484) /* Glenden Wood */
      , (12304, 2049589252, 2728656897, 43.525, 111.889, 50.005, -0.00808735, 0, 0, -0.999967) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049589251';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049589251'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049589250';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049589250'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

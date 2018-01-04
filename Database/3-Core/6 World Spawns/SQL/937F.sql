@@ -8,7 +8,7 @@ VALUES (5137, 2033709064, 2474574081, 156.734, 86.894, 33.705, -0.998841, 0, 0, 
      , (4673, 2033709063, 2474573825, 182.079, 102.096, 32.3271, -0.318408, 0, 0, -0.947954) /* Samsur Outpost */
      , (4673, 2033709062, 2474573825, 165.977, 128.263, 32.1752, -0.438581, 0, 0, -0.898692) /* Samsur Outpost */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2033709061';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2033709061'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2033709064';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2033709064'; /* linkmonstergen3minutes <- Rubid al-Jurma */
 

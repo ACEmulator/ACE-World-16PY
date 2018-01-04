@@ -9,13 +9,13 @@ VALUES (1757, 2121400327, 3877634306, 69.7514, 147.415, -4.795, 0.956454, 0, 0, 
      , (8430, 2121400322, 3877634308, 65.7984, 135.124, -4.7934, -0.64395, 0, 0, -0.765067) /* Mosswart Soul Trapper */
      , (8430, 2121400321, 3877634308, 64.642, 136.86, -4.7934, -0.342043, 0, 0, -0.939684) /* Mosswart Soul Trapper */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121400328';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121400328'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400321';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400322';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400323';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400324';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400325';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400326';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400327';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400321'; /* linkmonstergen5minutes <- Mosswart Soul Trapper */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400322'; /* linkmonstergen5minutes <- Mosswart Soul Trapper */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400323'; /* linkmonstergen5minutes <- Mosswart Soul Trapper */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400324'; /* linkmonstergen5minutes <- Mosswart Soul Trapper */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400325'; /* linkmonstergen5minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400326'; /* linkmonstergen5minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121400327'; /* linkmonstergen5minutes <- Shadow Lieutenant */
 

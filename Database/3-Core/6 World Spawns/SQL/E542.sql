@@ -17,9 +17,9 @@ VALUES (171, 2119442442, 3846308102, 116.412, 4.54109, 56.805, -0.374823, 0, 0, 
      , (3955, 2119442444, 3846307841, 103.277, 21.2613, 58.005, -0.353608, 0, 0, 0.935394) /* linkmonstergen15minutes */
      , (4524, 2119442445, 3846307841, 93.031, 81.2447, 58.005, -0.581997, 0, 0, -0.813191) /* Nanto Outpost */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119442444';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119442444'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442443';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442448';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442465';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442443'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442448'; /* linkmonstergen15minutes <- Ji Ra Ping  */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442465'; /* linkmonstergen15minutes <- Ikomi Ra, Jojii Adherent */
 

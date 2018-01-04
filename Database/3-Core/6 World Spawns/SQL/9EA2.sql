@@ -4,7 +4,7 @@ VALUES (24068, 2045386754, 2661417216, 61.5054, 31.1707, 136.005, -0.9981, 0, 0,
      , (412, 2045386752, 2661416961, 64.6792, 31.7698, 136, -0.876674, 0, 0, -0.481084) /* Door */
      , (412, 2045386753, 2661416961, 63.4959, 37.5914, 136, -0.279725, 0, 0, -0.96008) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045386755';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045386755'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045386754';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045386754'; /* linkmonstergen3minutes <- Mage Syltyn Rillon */
 

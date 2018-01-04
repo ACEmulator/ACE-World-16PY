@@ -15,13 +15,13 @@ VALUES (905, 1984782339, 1691746560, 132.219, 129.319, 158.005, -0.922534, 0, 0,
      , (1625, 1984782345, 1691746305, 129.319, 134.096, 173.212, 0.95686, 0, 0, -0.290549) /* Mountain Rat */
      , (1625, 1984782346, 1691746305, 127.056, 138.042, 166.805, 0.776124, 0, 0, -0.630581) /* Mountain Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984782349';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984782350';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984782349'; /* linkitemgen */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984782350'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984782348';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782343';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782344';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782345';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782346';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782347';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984782348'; /* linkitemgen <- Hazel Talisman */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782343'; /* linkmonstergen <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782344'; /* linkmonstergen <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782345'; /* linkmonstergen <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782346'; /* linkmonstergen <- Mountain Rat */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984782347'; /* linkmonstergen <- Mountain Rat */
 

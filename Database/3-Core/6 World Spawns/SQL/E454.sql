@@ -23,26 +23,26 @@ VALUES (8427, 2118467623, 3830710530, 32.5616, 133.428, 7.605, -0.590855, 0, 0, 
      , (1918, 2118467601, 3830710273, 39.4535, 130.793, 21.205, 0.725281, 0, 0, -0.688453) /* Chest */
      , (8427, 2118467632, 3830710273, 68.8906, 130.073, 10.005, -0.998156, 0, 0, 0.0606951) /* Mosswart Fanatic */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2118467624';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2118467624'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467615';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467617';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467618';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467621';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467623';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467626';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467627';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467628';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467629';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467630';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467631';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467632';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467634';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467637';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467638';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467639';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467640';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467641';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467643';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467644';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467615'; /* linkmonstergen7minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467617'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467618'; /* linkmonstergen7minutes <- Idol */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467621'; /* linkmonstergen7minutes <- Ash Gromnie */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467623'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467626'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467627'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467628'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467629'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467630'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467631'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467632'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467634'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467637'; /* linkmonstergen7minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467638'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467639'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467640'; /* linkmonstergen7minutes <- Mosswart Fanatic */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467641'; /* linkmonstergen7minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467643'; /* linkmonstergen7minutes <- Mosswart Idolator */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118467644'; /* linkmonstergen7minutes <- Ash Gromnie */
 

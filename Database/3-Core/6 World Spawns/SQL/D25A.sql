@@ -14,18 +14,18 @@ VALUES (1154, 2099617795, 3529113601, 158.333, 157.551, 24.005, 0.0178129, 0, 0,
      , (947, 2099617807, 3529113601, 150.67, 157.09, 22.0055, 0.566575, 0, 0, 0.82401) /* Barker Mosswart */
      , (26625, 2099617809, 3529113601, 155.548, 156.694, 24.005, 0.698003, 0, 0, -0.716095) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2099617795';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2099617795'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617796';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617797';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617798';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617799';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617800';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617801';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617802';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617803';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617804';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617805';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617806';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617807';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617796'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617797'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617798'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617799'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617800'; /* linkmonstergen <- Mosswart Chief */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617801'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617802'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617803'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617804'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617805'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617806'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2099617807'; /* linkmonstergen <- Barker Mosswart */
 

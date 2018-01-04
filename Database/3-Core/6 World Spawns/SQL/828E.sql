@@ -12,9 +12,9 @@ VALUES (2181, 2015944705, 2190344448, 80.9392, 128.015, 124.082, -4.37114E-08, 0
      , (269, 2015944713, 2190344193, 80.6009, 135.865, 140.409, -0.707107, 0, 0, -0.707107) /* Button */
      , (5636, 2015944712, 2190344193, 78.8453, 125.981, 124.005, 0.105943, 0, 0, 0.994372) /* Dizah ibn Nadqab */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2015944705';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2015944715';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2015944705'; /* Door */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2015944715'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2015944713';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2015944712';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2015944713'; /* Door <- Button */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2015944712'; /* linkmonstergen <- Dizah ibn Nadqab */
 

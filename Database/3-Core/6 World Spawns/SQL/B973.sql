@@ -9,7 +9,7 @@ VALUES (1154, 2073505794, 3111321856, 131.137, 8.92834, 44.405, 0.725515, 0, 0, 
      , (4537, 2073505799, 3111321601, 145.517, 16.105, 40.005, -0.679515, 0, 0, -0.733662) /* Yanshi Outpost */
      , (4537, 2073505798, 3111321601, 142.321, 2.83197, 40.005, -0.698995, 0, 0, -0.715126) /* Yanshi Outpost */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073505794';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073505794'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073505801';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073505801'; /* linkmonstergen <- Lou Ei  */
 

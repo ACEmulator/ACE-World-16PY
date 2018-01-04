@@ -14,19 +14,19 @@ VALUES (7923, 1936822272, 924385281, 57.4394, 109.421, 13.91, 0.765899, 0, 0, -0
      , (10787, 1936822296, 924385281, 63.4259, 116.599, 13.0269, -0.836355, 0, 0, 0.548188) /* Terebrous Hollow Minion */
      , (10810, 1936822297, 924385281, 51.0953, 107.908, 13.2635, -0.999235, 0, 0, -0.0391143) /* Rampager */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1936822273';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1936822272';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1936822273'; /* linkmonstergen5minutes */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1936822272'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822292';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822294';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822296';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822287';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822295';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822293';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822286';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822288';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822289';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822290';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822291';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822297';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822292'; /* linkmonstergen5minutes <- Terebrous Hollow Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822294'; /* linkmonstergen5minutes <- Terebrous Hollow Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822296'; /* linkmonstergen5minutes <- Terebrous Hollow Minion */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1936822287'; /* linkmonstergen5minutes <- Virindi Observer */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822295'; /* linkmonstergen3minutes <- Gloom Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822293'; /* linkmonstergen3minutes <- Gloom Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822286'; /* linkmonstergen3minutes <- Gloom Drudge */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822288'; /* linkmonstergen3minutes <- Rampager */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822289'; /* linkmonstergen3minutes <- Rampager */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822290'; /* linkmonstergen3minutes <- Rampager */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822291'; /* linkmonstergen3minutes <- Rampager */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1936822297'; /* linkmonstergen3minutes <- Rampager */
 

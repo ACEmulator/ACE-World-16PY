@@ -10,13 +10,13 @@ VALUES (24320, 1919000591, 639238400, 178.929, 158.56, 58.3588, -0.471148, 0, 0,
      , (24285, 1919000594, 639238145, 65.3098, 117.487, 10.3601, -0.758619, 0, 0, 0.651534) /* Raider Juggernaut */
      , (24326, 1919000592, 639238145, 178.281, 156.591, 71.18, -0.740105, 0, 0, -0.672492) /* Risen Lord */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1919000579';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1919000579'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000589';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000590';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000591';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000592';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000593';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000588';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000594';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000589'; /* linkmonstergen <- Dark Master */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000590'; /* linkmonstergen <- Great Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000591'; /* linkmonstergen <- Great Revenant */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000592'; /* linkmonstergen <- Risen Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000593'; /* linkmonstergen <- Risen Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000588'; /* linkmonstergen <- Raider Juggernaut */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1919000594'; /* linkmonstergen <- Raider Juggernaut */
 

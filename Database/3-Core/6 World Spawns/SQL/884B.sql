@@ -4,9 +4,9 @@ VALUES (180, 2021961728, 2286616577, 0.00388845, 27.962, -0.8895, 0.794002, 0, 0
      , (180, 2021961730, 2286616577, 0.930342, 23.2389, -0.8895, -0.862194, 0, 0, 0.506579) /* Sandy Armoredillo */
      , (3955, 2021961731, 2286616577, 0.87706, 24.6562, -0.895, -0.994365, 0, 0, 0.106012) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2021961731';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2021961731'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961728';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961729';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961730';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961728'; /* linkmonstergen15minutes <- Sandy Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961729'; /* linkmonstergen15minutes <- Sandy Armoredillo */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021961730'; /* linkmonstergen15minutes <- Sandy Armoredillo */
 

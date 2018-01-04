@@ -7,7 +7,7 @@ VALUES (195, 2127769605, 3979542787, 108.306, 182.212, 60.455, -0.16832, 0, 0, -
      , (720, 2127769603, 3979542529, 115.55, 180, 63, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2127769604, 3979542529, 100.45, 180, 63, 0.707107, 0, 0, 0.707107) /* Sliding Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2127769606';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2127769606'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2127769605';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2127769605'; /* linkmonstergen15minutes <- Granite Golem */
 

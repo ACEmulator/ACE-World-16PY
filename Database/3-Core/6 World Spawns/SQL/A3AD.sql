@@ -10,12 +10,12 @@ VALUES (1017, 2050674688, 2746023937, 147.423, 55.4707, 44.005, 1, 0, 0, 0) /* G
      , (2585, 2050674696, 2746023937, 145.953, 63.0493, 44.005, 0.0515234, 0, 0, -0.998672) /* Essa Sclavus */
      , (2586, 2050674697, 2746023937, 147.005, 60.9485, 44.005, 0.0515234, 0, 0, -0.998672) /* Sata Sclavus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050674690';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050674690'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674692';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674693';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674694';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674695';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674696';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674697';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674692'; /* linkmonstergen5minutes <- Essa Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674693'; /* linkmonstergen5minutes <- Essa Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674694'; /* linkmonstergen5minutes <- Essa Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674695'; /* linkmonstergen5minutes <- Essa Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674696'; /* linkmonstergen5minutes <- Essa Sclavus */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050674697'; /* linkmonstergen5minutes <- Sata Sclavus */
 

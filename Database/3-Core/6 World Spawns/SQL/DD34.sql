@@ -13,18 +13,18 @@ VALUES (6409, 2110996480, 3711172864, 153.964, 102.008, 134.879, -0.999868, 0, 0
      , (7128, 2110996490, 3711172609, 151.015, 80.5601, 140.015, -0.127469, 0, 0, -0.991843) /* Sufut Zefir */
      , (7128, 2110996489, 3711172609, 160.017, 79.8489, 140.015, -0.255772, 0, 0, -0.966737) /* Sufut Zefir */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2110996492';
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2110996491';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2110996492'; /* linkitemgen25seconds */
+UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2110996491'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996481';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996480';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996482';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996483';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996484';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996485';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996486';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996487';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996488';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996489';
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996490';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996481'; /* linkitemgen25seconds <- Textbook */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996480'; /* linkitemgen25seconds <- Hastily Scrawled Note */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996482'; /* linkitemgen25seconds <- Minor Sparking Stone */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996483'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996484'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996485'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996486'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996487'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996488'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996489'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996490'; /* linkmonstergen4minutes <- Sufut Zefir */
 

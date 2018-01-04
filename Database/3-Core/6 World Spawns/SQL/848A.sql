@@ -11,15 +11,15 @@ VALUES (153, 2018025474, 2223636761, 155.732, 131.277, 300.005, 0.997252, 0, 0, 
      , (9251, 2018025485, 2223636481, 161.413, 121.686, 300.005, 0.433081, 0, 0, 0.901355) /* Brutish Monouga */
      , (8673, 2018025488, 2223636481, 160.808, 139.639, 300.008, 0.99106, 0, 0, -0.133414) /* Risen Knight */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2018025479';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2018025479'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025480';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025481';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025482';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025483';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025485';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025486';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025487';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025488';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025489';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025480'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025481'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025482'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025483'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025485'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025486'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025487'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025488'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018025489'; /* linkmonstergen7minutes <- Wily Monouga */
 

@@ -7,9 +7,9 @@ VALUES (937, 2072637441, 3097428224, 177.679, 10.0606, 84.0055, 0.021481, 0, 0, 
      , (5623, 2072637443, 3097427969, 180.785, 6.58029, 84.082, 0.973838, 0, 0, 0.227244) /* Door */
      , (939, 2072637442, 3097427969, 185.636, 18.745, 84.0055, -0.987177, 0, 0, -0.159627) /* Young Banderling */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2072637446';
+UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2072637446'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637441';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637444';
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637442';
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637441'; /* linkmonstergen15minutes <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637444'; /* linkmonstergen15minutes <- Banderling Guard */
+UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072637442'; /* linkmonstergen15minutes <- Young Banderling */
 
