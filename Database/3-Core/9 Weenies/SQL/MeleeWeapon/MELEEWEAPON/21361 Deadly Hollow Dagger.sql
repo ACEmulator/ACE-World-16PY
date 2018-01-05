@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21361, 'daggerhollownew');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21361, 18, 21361);
+VALUES (21361, 0, 21361);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21361, 16, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LONG_DESC_STRING */

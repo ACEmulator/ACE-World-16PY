@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5080, 'yanshinorthoutpostsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5080, 20, 5080);
+VALUES (5080, 0, 5080);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5080, 16, 'North Yanshi Outpost') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21721, 'gaerlanceremonyinvisiblenpc-extreme');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21721, 4, 21721);
+VALUES (21721, 0, 21721);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21721, 1, 'An angry spirit') /* NAME_STRING */

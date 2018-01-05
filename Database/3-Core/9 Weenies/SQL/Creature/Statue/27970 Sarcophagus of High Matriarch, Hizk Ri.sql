@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27970, 'sarcophagushizkrinpc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27970, 4, 27970);
+VALUES (27970, 0, 27970);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27970, 16, 'A collection of hands, perhaps signifying a fellowship, clasp a pair of boots and gauntlets on the top of this sarcophagus. You need to have completed this quest within a fellowship to draw the two rewards from this sarcophagus.') /* LONG_DESC_STRING */

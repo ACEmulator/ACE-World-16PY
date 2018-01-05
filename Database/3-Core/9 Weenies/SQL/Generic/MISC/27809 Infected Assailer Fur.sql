@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27809, 'furinfectedassailer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27809, 18, 27809);
+VALUES (27809, 0, 27809);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27809, 16, 'A rather large clump of sticky, smelly, infected Assailer fur.  Handling this directly causes you to gag violently.') /* LONG_DESC_STRING */

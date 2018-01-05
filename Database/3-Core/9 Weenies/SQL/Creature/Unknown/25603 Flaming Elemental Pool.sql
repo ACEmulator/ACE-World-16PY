@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25603, 'poolelementalflamingnpc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25603, 4, 25603);
+VALUES (25603, 0, 25603);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25603, 16, 'An elemental pool, emblazoned by fire.') /* LONG_DESC_STRING */

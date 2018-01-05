@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8905, 'keydespairfinal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8905, 18, 8905);
+VALUES (8905, 0, 8905);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8905, 16, 'The final key to the Mines of Despair. It is radiating a strange yellow glow.') /* LONG_DESC_STRING */

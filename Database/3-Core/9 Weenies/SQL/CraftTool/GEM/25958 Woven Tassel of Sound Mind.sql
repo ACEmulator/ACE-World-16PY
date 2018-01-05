@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25958, 'tasselmagic');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25958, 18, 25958);
+VALUES (25958, 0, 25958);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25958, 16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rheth Al'' Thok. Arcane powers cause the fringes of the tassel to glow with an unknown power.') /* LONG_DESC_STRING */

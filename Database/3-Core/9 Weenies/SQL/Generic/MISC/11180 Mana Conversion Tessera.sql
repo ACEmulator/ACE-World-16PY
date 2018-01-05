@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11180, 'skilltokenmanaconversion-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11180, 18, 11180);
+VALUES (11180, 0, 11180);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11180, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Mana Conversion skill. There are tesserae available for each skill in the game. If you don''t want a point of Mana Conversion, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */

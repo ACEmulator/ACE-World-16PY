@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5672, 'teaherbal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5672, 18, 5672);
+VALUES (5672, 0, 5672);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5672, 16, 'A strong tea made from mugwort and willow leaves, popular in the Aluvian highlands.') /* LONG_DESC_STRING */

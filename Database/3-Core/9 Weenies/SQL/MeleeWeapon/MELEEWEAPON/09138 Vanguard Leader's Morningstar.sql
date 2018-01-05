@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9138, 'morningstarvanguardleader');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9138, 18, 9138);
+VALUES (9138, 0, 9138);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9138, 16, 'A Tumerok leader''s morningstar, studded with unidentifiable gems.') /* LONG_DESC_STRING */

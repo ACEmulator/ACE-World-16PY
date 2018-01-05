@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1858, 'scrollmanadepletion');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1858, 18, 1858);
+VALUES (1858, 0, 1858);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1858, 16, 'When learned, this spell decreases target''s natural mana rate by 20%.') /* LONG_DESC_STRING */

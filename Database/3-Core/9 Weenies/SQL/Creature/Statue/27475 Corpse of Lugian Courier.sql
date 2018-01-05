@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27475, 'corpselugiancontact');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27475, 4, 27475);
+VALUES (27475, 0, 27475);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27475, 16, 'The lugian courier dispatched from the Renegade fort in the direlands seems to have met with an unfortunate end. Apparently the Burun didn''t welcome what he had to say. Maybe there is something of use on him.') /* LONG_DESC_STRING */

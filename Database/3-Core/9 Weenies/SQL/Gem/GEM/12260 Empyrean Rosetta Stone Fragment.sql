@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12260, 'trophydeedlow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12260, 18, 12260);
+VALUES (12260, 0, 12260);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12260, 16, 'A small stone with strange etchings on it.  These etchings seem to be written both in a strange, foreign language, and in the common language of Ispar.  Perhaps this is of interest to an agent of the Arcanum.') /* LONG_DESC_STRING */

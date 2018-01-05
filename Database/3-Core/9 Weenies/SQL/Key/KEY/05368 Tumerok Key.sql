@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5368, 'keycovecrypt');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5368, 18, 5368);
+VALUES (5368, 0, 5368);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5368, 16, 'A stone key from the Under-Cove Crypt, half-covered by mold.') /* LONG_DESC_STRING */

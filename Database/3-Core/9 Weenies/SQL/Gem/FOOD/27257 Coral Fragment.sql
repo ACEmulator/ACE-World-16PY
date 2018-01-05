@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27257, 'gemcoralfragment');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27257, 16, 27257);
+VALUES (27257, 0, 27257);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27257, 16, 'A piece of magically imbued coral. It seems to shiver with a life of its own.') /* LONG_DESC_STRING */

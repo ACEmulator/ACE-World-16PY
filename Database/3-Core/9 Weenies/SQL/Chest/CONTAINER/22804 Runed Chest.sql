@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22804, 'chestquestlockedmidholtburgruin');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22804, 21, 22804);
+VALUES (22804, 0, 22804);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22804, 16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LONG_DESC_STRING */

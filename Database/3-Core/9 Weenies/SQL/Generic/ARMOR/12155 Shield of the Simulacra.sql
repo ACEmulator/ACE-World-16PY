@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12155, 'shieldsimulacra');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12155, 18, 12155);
+VALUES (12155, 0, 12155);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12155, 16, 'A shield enchanted with powerful magic, taken from the Northern Infiltrator Keep dungeon.') /* LONG_DESC_STRING */

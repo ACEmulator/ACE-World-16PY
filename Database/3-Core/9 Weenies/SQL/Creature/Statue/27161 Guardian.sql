@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27161, 'statueliazkitziguardianspirit40');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27161, 4, 27161);
+VALUES (27161, 0, 27161);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27161, 16, 'A Guardian watching over the weakest grave spirits that guard the beloved, Liazk Itzi.') /* LONG_DESC_STRING */

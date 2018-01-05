@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3382, 'scrolllockpickineptitude6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3382, 18, 3382);
+VALUES (3382, 0, 3382);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3382, 16, 'When learned, this spell decreases the target''s Lockpick skill by 60%.') /* LONG_DESC_STRING */

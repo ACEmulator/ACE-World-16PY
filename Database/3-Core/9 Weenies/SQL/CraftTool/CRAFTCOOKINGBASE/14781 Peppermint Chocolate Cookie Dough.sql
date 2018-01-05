@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14781, 'cookiedoughchocolatepeppermint');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14781, 16, 14781);
+VALUES (14781, 0, 14781);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14781, 1, 'Peppermint Chocolate Cookie Dough') /* NAME_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29566, 'hidekukuur2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29566, 18, 29566);
+VALUES (29566, 0, 29566);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29566, 16, 'Three Kukuur hides have been placed together Reeshan''s, Kiree''s and Broodu''s.') /* LONG_DESC_STRING */

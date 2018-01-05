@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9466, 'bookmindheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9466, 272, 9466);
+VALUES (9466, 0, 9466);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9466, 16, 'Strength.  Focus.  Purity.  These words are the lodestones for our people.  They guide us from the womb to the soil.  ') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27776, 'necklaceadjanitecameoimbued');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27776, 18, 27776);
+VALUES (27776, 0, 27776);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27776, 16, 'A finely detailed emerald cameo engraved with the face of Lady Adja. A fine amethyst powder has been sprinkled over this cameo, imbuing it with greater power.') /* LONG_DESC_STRING */

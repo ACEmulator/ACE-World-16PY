@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29620, 'memorygamesword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29620, 18, 29620);
+VALUES (29620, 0, 29620);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29620, 16, 'A Sword that does not look like it could be used in battle or even wielded.') /* LONG_DESC_STRING */

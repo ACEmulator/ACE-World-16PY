@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9295, 'toolpyramidquest');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9295, 18, 9295);
+VALUES (9295, 0, 9295);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9295, 16, 'A multipurpose tool used to sculpt golem hearts and virindi artifacts. ') /* LONG_DESC_STRING */

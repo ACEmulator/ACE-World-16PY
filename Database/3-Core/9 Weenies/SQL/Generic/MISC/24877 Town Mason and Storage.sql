@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24877, 'candethkeepstonecollectorsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24877, 20, 24877);
+VALUES (24877, 0, 24877);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24877, 16, 'Town materials stored below. Stonework and masonry sold in the blacksmith''s basement.') /* LONG_DESC_STRING */

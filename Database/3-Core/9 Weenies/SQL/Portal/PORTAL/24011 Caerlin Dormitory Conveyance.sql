@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24011, 'trapportal-knorrdormcaerlin');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24011, 262164, 24011);
+VALUES (24011, 0, 24011);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24011, 1, 'Caerlin Dormitory Conveyance') /* NAME_STRING */;

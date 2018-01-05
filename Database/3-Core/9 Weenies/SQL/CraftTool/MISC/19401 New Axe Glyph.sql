@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19401, 'glyphnewaxe');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19401, 18, 19401);
+VALUES (19401, 0, 19401);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19401, 16, 'A glyph with the image of an axe emblazoned upon it.') /* LONG_DESC_STRING */

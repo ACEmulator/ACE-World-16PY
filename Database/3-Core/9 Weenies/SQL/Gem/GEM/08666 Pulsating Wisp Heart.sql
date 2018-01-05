@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8666, 'wispheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8666, 18, 8666);
+VALUES (8666, 0, 8666);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8666, 16, 'A pulsating wisp heart that seems to contain a large amount of stolen energy.') /* LONG_DESC_STRING */

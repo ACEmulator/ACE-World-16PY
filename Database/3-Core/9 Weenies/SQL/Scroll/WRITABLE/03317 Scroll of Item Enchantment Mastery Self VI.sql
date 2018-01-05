@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3317, 'scrollitemenchantmentmasteryself6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3317, 18, 3317);
+VALUES (3317, 0, 3317);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3317, 16, 'When learned, this spell increases the caster''s Item Enchantment skill by 150%.') /* LONG_DESC_STRING */

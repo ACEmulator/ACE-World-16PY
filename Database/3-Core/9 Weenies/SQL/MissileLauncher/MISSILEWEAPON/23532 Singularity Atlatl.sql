@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23532, 'atlatlsingularitymarae-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23532, 18, 23532);
+VALUES (23532, 0, 23532);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23532, 16, 'An atlatl imbued with Singularity energy.') /* LONG_DESC_STRING */

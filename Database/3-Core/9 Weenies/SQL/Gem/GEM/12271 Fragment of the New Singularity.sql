@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12271, 'fragmentnewsingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12271, 18, 12271);
+VALUES (12271, 0, 12271);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12271, 16, 'An item throbbing with unstable magic, the product of the combination of three Virindi artifacts.') /* LONG_DESC_STRING */

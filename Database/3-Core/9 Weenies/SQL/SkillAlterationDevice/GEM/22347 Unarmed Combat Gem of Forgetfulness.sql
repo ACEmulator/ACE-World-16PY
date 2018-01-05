@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22347, 'skillgemdownunarmedcombat');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22347, 18, 22347);
+VALUES (22347, 0, 22347);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22347, 1, 'Unarmed Combat Gem of Forgetfulness') /* NAME_STRING */

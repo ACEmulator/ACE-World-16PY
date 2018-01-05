@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30829, 'furbalorinfiltration');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30829, 18, 30829);
+VALUES (30829, 0, 30829);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30829, 16, 'A bloody patch of Mattekar fur. This bit of hide once belonged to Balor, companion to Lord Kresovus of Linvak Tukal.') /* LONG_DESC_STRING */

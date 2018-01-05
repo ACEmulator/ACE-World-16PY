@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29494, 'breastplatekarlun');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29494, 18, 29494);
+VALUES (29494, 0, 29494);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29494, 16, 'A magnificent Celdon breastplate, infused with the essence of the Nexus Crystal.') /* LONG_DESC_STRING */

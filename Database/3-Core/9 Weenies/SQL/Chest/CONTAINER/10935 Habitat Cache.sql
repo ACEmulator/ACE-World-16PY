@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10935, 'chestvirindihabitat-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10935, 21, 10935);
+VALUES (10935, 0, 10935);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10935, 16, 'A Virindi trove creature. It appears to have an outer shell laced with flecks of chorizite ore.') /* LONG_DESC_STRING */

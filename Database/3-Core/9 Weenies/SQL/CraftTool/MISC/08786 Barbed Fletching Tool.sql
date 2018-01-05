@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8786, 'toolfletchingbarbed');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8786, 18, 8786);
+VALUES (8786, 0, 8786);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8786, 16, 'A fletching tool that can be used to make barbed arrowheads.') /* LONG_DESC_STRING */

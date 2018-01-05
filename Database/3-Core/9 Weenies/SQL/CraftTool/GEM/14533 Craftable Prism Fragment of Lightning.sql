@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14533, 'prismfragmentlightningcraftable');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14533, 18, 14533);
+VALUES (14533, 0, 14533);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14533, 16, 'A fragment taken from a lightning prism.') /* LONG_DESC_STRING */

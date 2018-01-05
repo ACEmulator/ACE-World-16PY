@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5873, 'sealdericost');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5873, 18, 5873);
+VALUES (5873, 0, 5873);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5873, 16, 'A small amulet on a chain, which bears the Royal Seal of Dericost.') /* LONG_DESC_STRING */

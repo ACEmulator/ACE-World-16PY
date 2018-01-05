@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3250, 'scrolldefenselessnessother4');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3250, 18, 3250);
+VALUES (3250, 0, 3250);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3250, 16, 'When learned, this spell decreases the target''s Missile Defense skill by 43%.') /* LONG_DESC_STRING */

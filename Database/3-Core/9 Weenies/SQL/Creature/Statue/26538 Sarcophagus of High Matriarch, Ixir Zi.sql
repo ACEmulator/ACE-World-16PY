@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26538, 'sarcophagustempleendgame');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26538, 4, 26538);
+VALUES (26538, 0, 26538);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26538, 1, 'Sarcophagus of High Matriarch, Ixir Zi') /* NAME_STRING */;

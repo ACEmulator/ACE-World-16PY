@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2936, 'scrollforcevolley5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2936, 18, 2936);
+VALUES (2936, 0, 2936);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2936, 16, 'When learned, this spell shoots three bolts of force toward the target. Each bolt does 13-25 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30842, 'keyinfiltration');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30842, 18, 30842);
+VALUES (30842, 0, 30842);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30842, 16, 'A key found deep within the Shadow Lugian Stronghold.') /* LONG_DESC_STRING */

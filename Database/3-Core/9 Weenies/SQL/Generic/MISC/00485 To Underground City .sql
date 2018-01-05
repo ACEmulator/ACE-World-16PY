@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (485, 'sign-undergroundcityisland');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (485, 20, 485);
+VALUES (485, 0, 485);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (485, 16, 'The portal to the Underground City rests atop the southernmost hill. What lies beyond? None have returned to tell the tale ...') /* LONG_DESC_STRING */

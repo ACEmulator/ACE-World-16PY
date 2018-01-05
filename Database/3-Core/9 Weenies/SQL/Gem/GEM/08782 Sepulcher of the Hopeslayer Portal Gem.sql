@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8782, 'gemportalhopeslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8782, 18, 8782);
+VALUES (8782, 0, 8782);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8782, 16, 'A gem that will create a portal to the Sepulcher of the Hopeslayer.') /* LONG_DESC_STRING */

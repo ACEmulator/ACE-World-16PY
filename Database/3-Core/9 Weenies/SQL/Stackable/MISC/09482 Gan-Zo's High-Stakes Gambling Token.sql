@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9482, 'tokengamblinghighsho');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9482, 16, 9482);
+VALUES (9482, 0, 9482);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9482, 16, 'A red gambling token from Gan-Zo''s Den of Iniquity.') /* LONG_DESC_STRING */

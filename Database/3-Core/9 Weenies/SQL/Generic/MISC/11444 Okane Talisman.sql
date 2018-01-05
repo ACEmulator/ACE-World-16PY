@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11444, 'talismanokane-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11444, 18, 11444);
+VALUES (11444, 0, 11444);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11444, 16, 'A small talisman carved with the image of a dagger.  If given to Aun Imeitanua, he will bestow an Okane in exchange.') /* LONG_DESC_STRING */

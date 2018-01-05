@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4675, 'yaraqnorthoutpostshopkeepsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4675, 20, 4675);
+VALUES (4675, 0, 4675);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4675, 16, 'North Yaraq Outpost Supplies') /* LONG_DESC_STRING */

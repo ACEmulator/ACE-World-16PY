@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30742, 'rumorlittlestniffis');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30742, 272, 30742);
+VALUES (30742, 0, 30742);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30742, 16, 'Directions to a Banderling Camp in the Western Direlands. This quest is designed for level 80+ characters.') /* LONG_DESC_STRING */

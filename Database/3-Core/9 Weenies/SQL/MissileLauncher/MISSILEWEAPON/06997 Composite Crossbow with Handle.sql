@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6997, 'crossbowcompositedmg2def1spd2atk2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6997, 18, 6997);
+VALUES (6997, 0, 6997);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6997, 1, 'Composite Crossbow with Handle') /* NAME_STRING */;

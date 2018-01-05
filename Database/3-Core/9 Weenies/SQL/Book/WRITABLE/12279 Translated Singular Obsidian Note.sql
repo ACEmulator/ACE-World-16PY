@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12279, 'notesingularobsidiantranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12279, 272, 12279);
+VALUES (12279, 0, 12279);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12279, 16, 'A note translated by Diyas al-Yat of Zaikhal.') /* LONG_DESC_STRING */

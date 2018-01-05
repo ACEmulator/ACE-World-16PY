@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5655, 'gemportalmageacademy');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5655, 18, 5655);
+VALUES (5655, 0, 5655);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5655, 16, 'A fine black gem, found in the Burial Temple near Al-Jalima. You can detect the subtle violet fires of portalspace pulsing within its facets.') /* LONG_DESC_STRING */

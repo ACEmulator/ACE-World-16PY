@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1755, 'scrollweaponignorance');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1755, 18, 1755);
+VALUES (1755, 0, 1755);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1755, 16, 'When learned, this spell decreases the target''s Weapon Tinkering skill by 9%.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25768, 'rugaluwall');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25768, 18, 25768);
+VALUES (25768, 0, 25768);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25768, 16, 'An Aluvian rug set with rungs so that it can be hung on a wall hook.') /* LONG_DESC_STRING */

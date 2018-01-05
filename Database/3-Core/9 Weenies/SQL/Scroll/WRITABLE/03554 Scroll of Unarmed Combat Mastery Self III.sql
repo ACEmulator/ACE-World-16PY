@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3554, 'scrollunarmedmasteryself3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3554, 18, 3554);
+VALUES (3554, 0, 3554);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3554, 16, 'When learned, this spell increases the caster''s Unarmed Combat skill by 50%.') /* LONG_DESC_STRING */

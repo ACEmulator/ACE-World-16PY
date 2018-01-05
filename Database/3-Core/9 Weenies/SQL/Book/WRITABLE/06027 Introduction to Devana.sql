@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6027, 'noteintroductiondevana');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6027, 272, 6027);
+VALUES (6027, 0, 6027);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6027, 16, 'A letter of introduction to Devana bint Hamudi, who lives near Zaikhal.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19755, 'nutboltgrievver-event');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19755, 18, 19755);
+VALUES (19755, 0, 19755);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19755, 1, 'Unique Bronze Nuts and Bolts from a Native Cast') /* NAME_STRING */

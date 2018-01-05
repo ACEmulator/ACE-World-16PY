@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29446, 'gemportalcorcimacastlewardplatinum');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29446, 16, 29446);
+VALUES (29446, 0, 29446);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29446, 1, 'Corcima Castle Platinum Ward Portal Sending Gem') /* NAME_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20318, 'scrolldispelcreatureneutralother');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20318, 18, 20318);
+VALUES (20318, 0, 20318);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20318, 1, 'Scroll of Evaporate Creature Magic Other') /* NAME_STRING */

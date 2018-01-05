@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11915, 'tumerokswordfalcon-creatureonly');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11915, 18, 11915);
+VALUES (11915, 0, 11915);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11915, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */

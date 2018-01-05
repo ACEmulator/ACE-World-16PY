@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14881, 'keymartinatesingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14881, 18, 14881);
+VALUES (14881, 0, 14881);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14881, 16, 'A key that shines with virindi energy. The energy is slightly skewed.') /* LONG_DESC_STRING */

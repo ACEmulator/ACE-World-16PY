@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9469, 'clothlugianarm');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9469, 18, 9469);
+VALUES (9469, 0, 9469);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9469, 16, 'The Cloth of the Arm has long been the totem essence for the Lugians of the Arm.  Superstitions still persist amongst children about the legendary renewal powers of the cloth, but the Lugian elders know the truth.') /* LONG_DESC_STRING */

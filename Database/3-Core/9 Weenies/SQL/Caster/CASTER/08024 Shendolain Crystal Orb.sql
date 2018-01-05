@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8024, 'orbcrystalshen');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8024, 18, 8024);
+VALUES (8024, 0, 8024);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8024, 16, 'An orb imbued with the power of the Shendolain Crystal.') /* LONG_DESC_STRING */

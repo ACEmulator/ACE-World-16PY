@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15755, 'levernosacrifice');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15755, 20, 15755);
+VALUES (15755, 0, 15755);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15755, 16, 'A lever, mounted on the floor. Pulling this lever will abandon Nuhmudira to her fate.') /* LONG_DESC_STRING */

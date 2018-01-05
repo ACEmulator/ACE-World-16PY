@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14604, 'hotspot-portallilithainvoking');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14604, 262292, 14604);
+VALUES (14604, 0, 14604);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14604, 1, 'Portal Hotspot Lilitha Invoking') /* NAME_STRING */;

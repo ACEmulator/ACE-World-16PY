@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9129, 'spearsingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9129, 18, 9129);
+VALUES (9129, 0, 9129);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9129, 16, 'A gift from Martine: Pierce away as well as you like, but you shall be lost when Death strikes.') /* LONG_DESC_STRING */

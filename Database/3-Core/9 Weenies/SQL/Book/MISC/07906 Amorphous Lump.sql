@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7906, 'septshadownoteb');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7906, 272, 7906);
+VALUES (7906, 0, 7906);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7906, 16, 'A thin, membranous, unidentifiable life form, with characters of Yalaini script burned into its flesh.') /* LONG_DESC_STRING */

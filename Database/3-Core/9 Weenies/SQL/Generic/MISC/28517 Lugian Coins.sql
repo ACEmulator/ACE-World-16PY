@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28517, 'coinslugian');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28517, 18, 28517);
+VALUES (28517, 0, 28517);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28517, 16, 'These stone slabs are apparently the coins that are typically used by Lugians. They were given to you by Gorak, in payment of an axe that you delivered to him from Captain K''rank in Linvak Tukal.') /* LONG_DESC_STRING */

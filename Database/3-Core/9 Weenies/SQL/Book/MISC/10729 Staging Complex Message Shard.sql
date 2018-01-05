@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10729, 'notevirindistaginggrounduntranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10729, 272, 10729);
+VALUES (10729, 0, 10729);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10729, 16, 'A message shard taken from a Virindi Director in the Landbridge Staging Complex dungeon.') /* LONG_DESC_STRING */

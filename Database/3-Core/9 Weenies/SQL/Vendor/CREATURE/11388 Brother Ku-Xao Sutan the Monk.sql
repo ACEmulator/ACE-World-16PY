@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11388, 'bluespirescribeprovisionerhealer-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11388, 516, 11388);
+VALUES (11388, 0, 11388);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11388, 1, 'Brother Ku-Xao Sutan the Monk') /* NAME_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10968, 'keykarenua-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10968, 18, 10968);
+VALUES (10968, 0, 10968);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10968, 16, 'A key of Virindi origin, taken from the Tumerok raider Hea Karenua.') /* LONG_DESC_STRING */

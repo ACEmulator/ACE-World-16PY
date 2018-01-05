@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27797, 'vialblackblood');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27797, 18, 27797);
+VALUES (27797, 0, 27797);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27797, 16, 'A vial of thick, blackish blood.  It was removed from a warding ring by Kleeoh.') /* LONG_DESC_STRING */

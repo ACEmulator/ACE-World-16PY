@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23905, 'reedsharktokennew');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23905, 18, 23905);
+VALUES (23905, 0, 23905);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23905, 16, 'A token with a Reedshark head on it.  This was given to you in recognition of your patience. ') /* LONG_DESC_STRING */

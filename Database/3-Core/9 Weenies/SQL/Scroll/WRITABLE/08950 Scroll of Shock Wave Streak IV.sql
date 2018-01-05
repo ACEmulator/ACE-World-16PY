@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8950, 'scrollshockwavestreak4');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8950, 18, 8950);
+VALUES (8950, 0, 8950);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8950, 16, 'When learned, this spell sends a shock wave streaking towards the target. The wave does 16-30 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */

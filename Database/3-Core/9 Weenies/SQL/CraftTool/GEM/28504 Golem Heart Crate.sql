@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28504, 'crategolemcatalogue5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28504, 18, 28504);
+VALUES (28504, 0, 28504);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28504, 16, 'Only two empty chambers remain in this crate. The other chambers are filled with a granite heart, an iron heart, a copper heart and an obsidian heart. The next chamber has been fitted to hold a Gold Golem heart.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10701, 'helmetniffis');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10701, 18, 10701);
+VALUES (10701, 0, 10701);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10701, 16, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.') /* LONG_DESC_STRING */

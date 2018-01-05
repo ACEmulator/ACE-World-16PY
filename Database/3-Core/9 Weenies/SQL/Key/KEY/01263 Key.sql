@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1263, 'keygreenmirechest');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1263, 18, 1263);
+VALUES (1263, 0, 1263);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1263, 16, 'This key unlocks a chest in the Green Mire Grave.') /* LONG_DESC_STRING */

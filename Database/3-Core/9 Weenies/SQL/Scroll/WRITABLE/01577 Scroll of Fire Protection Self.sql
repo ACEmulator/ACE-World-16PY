@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1577, 'scrollfireprotectionself');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1577, 18, 1577);
+VALUES (1577, 0, 1577);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1577, 16, 'When learned, this spell reduces damage the caster takes from fire by 10%.') /* LONG_DESC_STRING */

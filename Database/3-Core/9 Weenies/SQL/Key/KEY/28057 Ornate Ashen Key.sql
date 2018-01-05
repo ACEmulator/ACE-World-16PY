@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28057, 'keyaerfalleuber');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28057, 18, 28057);
+VALUES (28057, 0, 28057);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28057, 16, 'An ornate key found in Aerfalle''s Keep, smudged with ash.') /* LONG_DESC_STRING */

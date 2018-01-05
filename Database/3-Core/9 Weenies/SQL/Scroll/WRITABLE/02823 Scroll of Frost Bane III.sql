@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2823, 'scrollfrostbane3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2823, 18, 2823);
+VALUES (2823, 0, 2823);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2823, 16, 'When learned, this spell increases a shield or piece of armor''s resistance to cold damage by 50%.') /* LONG_DESC_STRING */

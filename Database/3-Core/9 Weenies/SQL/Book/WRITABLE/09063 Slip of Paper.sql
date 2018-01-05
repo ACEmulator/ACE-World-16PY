@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9063, 'notepermissionuntranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9063, 272, 9063);
+VALUES (9063, 0, 9063);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9063, 16, 'A note, handwritten in stiff, crabbed Yalaini script. You cannot read it.') /* LONG_DESC_STRING */

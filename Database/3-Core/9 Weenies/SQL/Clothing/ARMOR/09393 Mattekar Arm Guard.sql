@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9393, 'mattekararmguard');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9393, 18, 9393);
+VALUES (9393, 0, 9393);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9393, 16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LONG_DESC_STRING */

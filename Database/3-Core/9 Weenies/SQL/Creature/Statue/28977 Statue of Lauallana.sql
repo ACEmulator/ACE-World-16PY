@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28977, 'statuelauallanalnpc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28977, 4, 28977);
+VALUES (28977, 0, 28977);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28977, 16, 'A well carved statue of Lauallana. It is masterfully crafted and looks very well made. Kir Loz may know more about this.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12157, 'gemasteliary');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12157, 18, 12157);
+VALUES (12157, 0, 12157);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12157, 16, 'A magical gem pulsing with the power of the Asteliary Crafter.') /* LONG_DESC_STRING */

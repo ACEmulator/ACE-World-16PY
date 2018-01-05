@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23330, 'backpackolthoi');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23330, 19, 23330);
+VALUES (23330, 0, 23330);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23330, 16, 'A large chitinous olthoi carapace crafted into a strong, but very light backpack.') /* LONG_DESC_STRING */

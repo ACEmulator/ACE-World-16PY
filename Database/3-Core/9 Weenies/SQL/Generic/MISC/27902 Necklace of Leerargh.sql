@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27902, 'necklaceleerarghnull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27902, 18, 27902);
+VALUES (27902, 0, 27902);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27902, 16, 'This is a relic of the Mosswarts. The necklace is made of a simple rope, or perhaps some kind of woven leather, and many small bones.') /* LONG_DESC_STRING */

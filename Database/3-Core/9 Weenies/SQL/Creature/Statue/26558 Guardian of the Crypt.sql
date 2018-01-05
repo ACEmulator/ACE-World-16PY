@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26558, 'statuetempleguardorange');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26558, 4, 26558);
+VALUES (26558, 0, 26558);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26558, 16, 'A fellowship meant for the area around and on the outer Obsidian Plains should use this statue.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5375, 'scoreboardtoplevel');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5375, 20, 5375);
+VALUES (5375, 0, 5375);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5375, 32, 'no man or woman on Dereth has been deemed worthy of these pages.') /* SCORE_NO_ENTRY_STRING */

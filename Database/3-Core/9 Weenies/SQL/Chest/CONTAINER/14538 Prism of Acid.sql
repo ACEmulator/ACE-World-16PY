@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14538, 'chestprismfracturedacid');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14538, 21, 14538);
+VALUES (14538, 0, 14538);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14538, 16, 'A shattered prism containing dark green  highlights. Noxious fumes well up from the prism, and the air about it feels damp.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19513, 'ingotpyrealinfused');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19513, 18, 19513);
+VALUES (19513, 0, 19513);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19513, 16, 'A pyreal ingot infused with diamond oil. You can turn this ingot into a weapon for levels 20+.') /* LONG_DESC_STRING */

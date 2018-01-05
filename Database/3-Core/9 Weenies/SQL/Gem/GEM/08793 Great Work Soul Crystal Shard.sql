@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8793, 'shardsoulcrystalgreatwork');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8793, 18, 8793);
+VALUES (8793, 0, 8793);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8793, 16, 'A remnant of the Great Work Soul Crystal. (Bring it to one of the Chosen of Asheron)') /* LONG_DESC_STRING */

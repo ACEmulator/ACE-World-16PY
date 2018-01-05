@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24762, 'crucibleacidpro6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24762, 18, 24762);
+VALUES (24762, 0, 24762);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24762, 16, 'A treated frankincense and brimstone concoction in a crucible.') /* LONG_DESC_STRING */

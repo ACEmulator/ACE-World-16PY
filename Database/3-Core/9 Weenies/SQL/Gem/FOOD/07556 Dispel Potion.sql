@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7556, 'potiondispel1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7556, 16, 7556);
+VALUES (7556, 0, 7556);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7556, 16, 'A potion capable of dispelling negative enchantments of level 4 or lower.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7439, 'swordlostlightblue');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7439, 18, 7439);
+VALUES (7439, 0, 7439);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7439, 16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe.') /* LONG_DESC_STRING */

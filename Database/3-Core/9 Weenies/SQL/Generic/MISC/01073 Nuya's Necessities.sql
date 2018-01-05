@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1073, 'yaraqgrocersign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1073, 20, 1073);
+VALUES (1073, 0, 1073);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1073, 16, 'Nuya''s Necessities                                                -Groceries                                                                    Arlad''s Fineries                                                          -Tailored Goods                                                Mulad''s Soothing Salves                                      -Healing                                                               -Potions                                                                     -Enhancement Services') /* LONG_DESC_STRING */

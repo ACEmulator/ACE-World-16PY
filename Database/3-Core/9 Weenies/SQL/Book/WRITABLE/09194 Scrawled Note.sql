@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9194, 'noteundeadaerbaxuntranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9194, 272, 9194);
+VALUES (9194, 0, 9194);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9194, 16, 'You see a piece of paper, with illegible writing.  The author used a strange russet ink, and wrote in what seems to be the swirling patterns of the Falatacot.') /* LONG_DESC_STRING */

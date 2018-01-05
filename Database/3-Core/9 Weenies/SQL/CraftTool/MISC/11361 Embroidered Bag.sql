@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11361, 'bagsiraluun-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11361, 18, 11361);
+VALUES (11361, 0, 11361);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11361, 16, 'A beautifully embroidered bag sewn to protect Kithless Siraluun feathers from damage. It is empty.') /* LONG_DESC_STRING */

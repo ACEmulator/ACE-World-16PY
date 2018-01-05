@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14863, 'bowcrystalslayer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14863, 18, 14863);
+VALUES (14863, 0, 14863);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14863, 16, 'A bow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped arrows.') /* LONG_DESC_STRING */

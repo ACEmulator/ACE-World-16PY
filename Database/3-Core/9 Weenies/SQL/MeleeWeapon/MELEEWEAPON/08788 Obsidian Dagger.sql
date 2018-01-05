@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8788, 'daggerobsidian');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8788, 18, 8788);
+VALUES (8788, 0, 8788);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8788, 16, 'A light, well-balanced obsidian dagger, capable of striking quickly.') /* LONG_DESC_STRING */

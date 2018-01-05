@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11674, 'skillpuzzlearcaneadvanced');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11674, 18, 11674);
+VALUES (11674, 0, 11674);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11674, 16, 'An Arcane Lore skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Arcane Lore skill to assemble.') /* LONG_DESC_STRING */

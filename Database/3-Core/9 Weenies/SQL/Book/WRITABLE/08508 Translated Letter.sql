@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8508, 'notemaila');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8508, 272, 8508);
+VALUES (8508, 0, 8508);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8508, 16, 'The translation of a note found in Lady Adja''s chest in the Ithaenc Cathedral.') /* LONG_DESC_STRING */

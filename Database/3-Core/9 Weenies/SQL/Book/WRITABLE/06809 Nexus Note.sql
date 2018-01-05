@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6809, 'untranslatednexusorders');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6809, 272, 6809);
+VALUES (6809, 0, 6809);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6809, 16, 'A note written in the ancient language of Dericost on what seems to be human skin.') /* LONG_DESC_STRING */

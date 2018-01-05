@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11868, 'staffbuff');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11868, 18, 11868);
+VALUES (11868, 0, 11868);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11868, 16, 'An oil that hardens staves to the point where they can inflict damage on the enemies stamina.') /* LONG_DESC_STRING */

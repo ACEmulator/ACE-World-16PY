@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29765, 'colorpuzzleanswernpc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29765, 4, 29765);
+VALUES (29765, 0, 29765);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29765, 16, 'A statue with a spherical indentation and a slot which a clue card could drop into.') /* LONG_DESC_STRING */

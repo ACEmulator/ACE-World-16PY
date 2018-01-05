@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27150, 'sarcophagusliazkitzi');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27150, 4, 27150);
+VALUES (27150, 0, 27150);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27150, 16, 'A sarcophagus sealed by powerful magics. There appear to be a set of bracers beneath a heavy clear stone. Perhaps if you had moved through the halls of this temple in a fellowship you could have obtained the bracers.') /* LONG_DESC_STRING */

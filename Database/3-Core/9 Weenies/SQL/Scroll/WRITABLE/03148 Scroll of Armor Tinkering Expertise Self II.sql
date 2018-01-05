@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3148, 'scrollarmorexpertiseself2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3148, 18, 3148);
+VALUES (3148, 0, 3148);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3148, 16, 'When learned, this spell increases the caster''s Armor Tinkering skill by 25%.') /* LONG_DESC_STRING */

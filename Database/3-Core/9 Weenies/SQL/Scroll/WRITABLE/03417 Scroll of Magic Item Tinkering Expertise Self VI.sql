@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3417, 'scrollmagicitemexpertiseself6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3417, 18, 3417);
+VALUES (3417, 0, 3417);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3417, 16, 'When learned, this spell increases the caster''s Magic Item Tinkering skill by 150%.') /* LONG_DESC_STRING */

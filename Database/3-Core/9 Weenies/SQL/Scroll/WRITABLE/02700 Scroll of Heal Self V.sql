@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2700, 'scrollhealself5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2700, 18, 2700);
+VALUES (2700, 0, 2700);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2700, 16, 'When learned, this spell restores 38-75 points of the caster''s Health.') /* LONG_DESC_STRING */

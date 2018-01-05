@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12252, 'maskvirindiobsidiandirector');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12252, 18, 12252);
+VALUES (12252, 0, 12252);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12252, 16, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.') /* LONG_DESC_STRING */

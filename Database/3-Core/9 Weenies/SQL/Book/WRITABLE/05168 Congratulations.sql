@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5168, 'letterahyara');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5168, 272, 5168);
+VALUES (5168, 0, 5168);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5168, 16, 'A note from Ahyara in the East Yaraq Outpost, for delivery to Nasun ibn Tifar in the North Yaraq Outpost.') /* LONG_DESC_STRING */

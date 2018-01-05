@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5167, 'keylubziklanpie');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5167, 18, 5167);
+VALUES (5167, 0, 5167);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5167, 16, 'A dull gray key from the Sea Temple Catacombs near Yaraq.') /* LONG_DESC_STRING */

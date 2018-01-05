@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10846, 'pincerlegionary-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10846, 18, 10846);
+VALUES (10846, 0, 10846);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10846, 16, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii, in Redspire.') /* LONG_DESC_STRING */

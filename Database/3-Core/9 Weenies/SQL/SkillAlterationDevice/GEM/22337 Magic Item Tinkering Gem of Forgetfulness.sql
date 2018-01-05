@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22337, 'skillgemdownmagicitemappraisal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22337, 18, 22337);
+VALUES (22337, 0, 22337);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22337, 1, 'Magic Item Tinkering Gem of Forgetfulness') /* NAME_STRING */

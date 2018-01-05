@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22253, 'scrollulgrim');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22253, 274, 22253);
+VALUES (22253, 0, 22253);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22253, 16, 'A partially digested sheet of paper, apparently the remains of a spell scroll.') /* LONG_DESC_STRING */

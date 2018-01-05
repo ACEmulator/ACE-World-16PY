@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29652, 'shellgameshell3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29652, 18, 29652);
+VALUES (29652, 0, 29652);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29652, 16, 'Give this object to the Shell Czar to indicate that you think the ball is under the right shell.') /* LONG_DESC_STRING */

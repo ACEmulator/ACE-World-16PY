@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6812, 'notenexuswarning');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6812, 272, 6812);
+VALUES (6812, 0, 6812);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6812, 16, 'A partially burned piece of paper left by an adventurer in the Nexus dungeon.') /* LONG_DESC_STRING */

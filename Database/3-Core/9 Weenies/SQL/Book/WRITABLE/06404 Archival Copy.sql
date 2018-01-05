@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6404, 'morphnote1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6404, 272, 6404);
+VALUES (6404, 0, 6404);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6404, 16, 'A translation of a carefully scribed note found in the Jahannan Vault.') /* LONG_DESC_STRING */

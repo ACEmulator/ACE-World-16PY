@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22061, 'maskvirindiprofanebroken');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22061, 18, 22061);
+VALUES (22061, 0, 22061);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22061, 16, 'A mask taken from the defeated form of a Virindi Profatrix. The cowl of the mask is a lightless black that seems to swallow all light that draws near it. The metal of the mask shows none of the false emotion indicative of the Virindi. Perhaps a friendly Virindi, or a human who studies Virindi, could repair it for you?') /* LONG_DESC_STRING */

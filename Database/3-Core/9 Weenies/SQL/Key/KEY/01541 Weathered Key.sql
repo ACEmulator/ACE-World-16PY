@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1541, 'keysysfear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1541, 18, 1541);
+VALUES (1541, 0, 1541);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1541, 16, 'This weathered-looking key unlocks a door in the Sylsfear Dungeon.') /* LONG_DESC_STRING */

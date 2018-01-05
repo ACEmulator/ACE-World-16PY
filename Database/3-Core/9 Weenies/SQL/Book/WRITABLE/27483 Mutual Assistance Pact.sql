@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27483, 'offercontact');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27483, 272, 27483);
+VALUES (27483, 0, 27483);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27483, 16, 'A letter sent to the Burun from the Renegade Lugians and Tumeroks.') /* LONG_DESC_STRING */

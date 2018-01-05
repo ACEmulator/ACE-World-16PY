@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22555, 'tattoodagger');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22555, 18, 22555);
+VALUES (22555, 0, 22555);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22555, 16, 'A vial of tattoo ink infused with the power of whistling winds. When painted on the upper arms the ink will act as armor and will grant the wearer the power of whistling winds.') /* LONG_DESC_STRING */

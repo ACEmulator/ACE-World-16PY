@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12250, 'macelugianwarlord');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12250, 18, 12250);
+VALUES (12250, 0, 12250);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12250, 16, 'The ceremonial scepter of a Lugian warlord in league with the Virindi.') /* LONG_DESC_STRING */

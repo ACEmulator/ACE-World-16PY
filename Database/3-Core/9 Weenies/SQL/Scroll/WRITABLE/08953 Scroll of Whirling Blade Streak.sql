@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8953, 'scrollwhirlingbladestreak');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8953, 18, 8953);
+VALUES (8953, 0, 8953);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8953, 16, 'When learned, this spell sends a magical blade streaking towards the target. The bolt does 4-8 points of slashing damage to the first thing it hits.') /* LONG_DESC_STRING */

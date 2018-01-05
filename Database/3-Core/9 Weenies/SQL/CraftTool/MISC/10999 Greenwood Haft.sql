@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10999, 'exquisiteelaribowhaft-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10999, 18, 10999);
+VALUES (10999, 0, 10999);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10999, 16, 'A carefully sculpted length of living greenwood. It must be restrung to be used. This appears to be a weapon of exquisite quality, and those who merely dabble in archery will probably not have the specialist skill required to usefully wield it.') /* LONG_DESC_STRING */

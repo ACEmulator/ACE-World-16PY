@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15746, 'elixirfocus');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15746, 16, 15746);
+VALUES (15746, 0, 15746);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15746, 16, 'A phial filled with a thick, oily orange substance. The smell is too awful to possibly think of imbibing.') /* LONG_DESC_STRING */

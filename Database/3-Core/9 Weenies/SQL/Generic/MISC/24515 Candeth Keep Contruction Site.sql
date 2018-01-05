@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24515, 'strongholdconstructionsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24515, 20, 24515);
+VALUES (24515, 0, 24515);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24515, 16, 'CONTRUCTION SITE: Please wear a helmet at all times. The Alliance has chosen this spot as the location for the new town of Candeth Keep. We ask that you please stay out of the way of our construction and planning crew. Thank you.') /* LONG_DESC_STRING */

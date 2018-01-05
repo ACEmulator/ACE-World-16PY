@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3469, 'scrollresistmagicself3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3469, 18, 3469);
+VALUES (3469, 0, 3469);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3469, 16, 'When learned, this spell increases the caster''s Magic Defense skill by 50%.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15818, 'waxthorstenarmor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15818, 18, 15818);
+VALUES (15818, 0, 15818);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15818, 16, 'A finely detailed wax mould of Thorsten Cragstone''s Armor.') /* LONG_DESC_STRING */

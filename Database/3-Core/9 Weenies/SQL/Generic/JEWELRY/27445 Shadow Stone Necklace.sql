@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27445, 'necklaceshadowstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27445, 18, 27445);
+VALUES (27445, 0, 27445);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27445, 16, 'The focus of the Consumed Wraith''s power, the Shadow Stone crackles with abyssal energy.') /* LONG_DESC_STRING */

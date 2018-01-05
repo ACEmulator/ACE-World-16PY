@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23959, 'forgeknorr');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23959, 20, 23959);
+VALUES (23959, 0, 23959);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23959, 16, 'It appears as though this forge is fired by flame originating in the heat of the mana of the world.') /* LONG_DESC_STRING */

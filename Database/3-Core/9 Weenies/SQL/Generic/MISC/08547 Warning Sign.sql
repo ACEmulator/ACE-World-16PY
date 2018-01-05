@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8547, 'xaratimmysign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8547, 20, 8547);
+VALUES (8547, 0, 8547);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8547, 16, 'WARNING! All of the portals leading into the Xarabydun complex are limited to those of the 25th level and below. If you are close to this point, be mindful of your experience gain within our tunnels! -- Fazyad ibn Raymar') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30858, 'tokentitleboss0205');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30858, 18, 30858);
+VALUES (30858, 0, 30858);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30858, 16, 'Give this token to an Agent of the Arcanum so that you may be known to all as Sezzherei Slayer!') /* LONG_DESC_STRING */

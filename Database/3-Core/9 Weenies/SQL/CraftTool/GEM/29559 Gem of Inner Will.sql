@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29559, 'gemnobleself');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29559, 18, 29559);
+VALUES (29559, 0, 29559);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29559, 16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Self Spell that will affect the wearer. ') /* LONG_DESC_STRING */

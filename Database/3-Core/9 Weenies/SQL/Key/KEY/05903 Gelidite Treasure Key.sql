@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5903, 'keyultimatefrore');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5903, 18, 5903);
+VALUES (5903, 0, 5903);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5903, 16, 'A magical key of crystal and iron, which unlocks the coffers of the Lost City of Frore.') /* LONG_DESC_STRING */

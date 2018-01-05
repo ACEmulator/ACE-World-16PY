@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5642, 'letterharlune');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5642, 272, 5642);
+VALUES (5642, 0, 5642);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5642, 16, 'A note for Celcynd in Rithwic from Harlune the Misanthrope in the Mite Maze.') /* LONG_DESC_STRING */

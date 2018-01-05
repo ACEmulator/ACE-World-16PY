@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14901, 'symbolhonor');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14901, 18, 14901);
+VALUES (14901, 0, 14901);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14901, 16, 'Honor is the silent vow.  Honor in a strong marriage is something that is never spoken of, just known to be there.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7381, 'letteraerfalletranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7381, 272, 7381);
+VALUES (7381, 0, 7381);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7381, 16, 'A letter written by the undead named Aerfalle, on Aerlinthe Island, intended for Rytheran in the Mage Academy.') /* LONG_DESC_STRING */

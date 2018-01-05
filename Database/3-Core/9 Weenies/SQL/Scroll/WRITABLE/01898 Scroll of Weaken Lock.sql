@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1898, 'scrollweakenlock');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1898, 18, 1898);
+VALUES (1898, 0, 1898);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1898, 16, 'When learned, this spell decreases a lock''s resistance to picking by 10 points.') /* LONG_DESC_STRING */

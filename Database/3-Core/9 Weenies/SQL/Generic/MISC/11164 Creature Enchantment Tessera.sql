@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11164, 'skilltokencreatureenchantment-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11164, 18, 11164);
+VALUES (11164, 0, 11164);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11164, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Creature Enchantment skill. There are tesserae available for each skill in the game. If you don''t want a point of Creature Enchantment, trade this tessera for another. You may only turn in five per characte - so choose carefully!') /* LONG_DESC_STRING */

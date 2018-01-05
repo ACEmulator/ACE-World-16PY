@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29000, 'bookroads2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29000, 272, 29000);
+VALUES (29000, 0, 29000);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29000, 16, 'A translation of an Empyrean text found on Aerlinthe Island.') /* LONG_DESC_STRING */

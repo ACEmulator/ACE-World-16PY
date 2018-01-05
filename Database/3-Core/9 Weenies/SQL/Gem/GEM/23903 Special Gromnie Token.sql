@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23903, 'gromnietokennew');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23903, 18, 23903);
+VALUES (23903, 0, 23903);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23903, 16, 'A token with a Gromnie head on it.  This was given to you in recognition of your patience. ') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22711, 'signbobostory2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22711, 20, 22711);
+VALUES (22711, 0, 22711);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22711, 16, 'A crude painting that shows a tusker eating one human, and speaking to other human.') /* LONG_DESC_STRING */

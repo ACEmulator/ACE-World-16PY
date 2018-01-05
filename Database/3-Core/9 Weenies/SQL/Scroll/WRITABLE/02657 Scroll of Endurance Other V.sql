@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2657, 'scrollenduranceother5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2657, 18, 2657);
+VALUES (2657, 0, 2657);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2657, 16, 'When learned, this spell increases the target''s Endurance by 50 points.') /* LONG_DESC_STRING */

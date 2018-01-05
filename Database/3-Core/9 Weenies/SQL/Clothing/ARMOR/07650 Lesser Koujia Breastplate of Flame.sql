@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7650, 'breastplatekoujiashadowlessernewfire');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7650, 18, 7650);
+VALUES (7650, 0, 7650);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7650, 1, 'Lesser Koujia Breastplate of Flame') /* NAME_STRING */;

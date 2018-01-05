@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6622, 'gemsparkling');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6622, 18, 6622);
+VALUES (6622, 0, 6622);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6622, 16, 'A medium-sized, sparkling gem with swirls of orange and black.') /* LONG_DESC_STRING */

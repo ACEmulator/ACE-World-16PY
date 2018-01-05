@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1713, 'scrollleadershipineptitude');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1713, 18, 1713);
+VALUES (1713, 0, 1713);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1713, 16, 'When learned, this spell decreases the target''s Leadership skill by 9%.') /* LONG_DESC_STRING */

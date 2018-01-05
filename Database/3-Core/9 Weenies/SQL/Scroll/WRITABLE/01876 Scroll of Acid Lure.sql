@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1876, 'scrollacidlure');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1876, 18, 1876);
+VALUES (1876, 0, 1876);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1876, 16, 'When learned, this spell decreases a shield or piece of armor''s resistance to acid damage by 10%.') /* LONG_DESC_STRING */

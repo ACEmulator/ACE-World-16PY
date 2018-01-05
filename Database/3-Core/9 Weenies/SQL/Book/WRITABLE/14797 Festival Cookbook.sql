@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14797, 'cookbookfestival');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14797, 274, 14797);
+VALUES (14797, 0, 14797);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14797, 16, 'A collection of recipes created during the Festival Season, PY 13.') /* LONG_DESC_STRING */

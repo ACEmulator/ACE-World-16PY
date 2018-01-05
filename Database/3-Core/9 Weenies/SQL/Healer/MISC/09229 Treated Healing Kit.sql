@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9229, 'healingkittreated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9229, 65554, 9229);
+VALUES (9229, 0, 9229);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9229, 16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LONG_DESC_STRING */

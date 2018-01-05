@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12028, 'spearserpent');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12028, 18, 12028);
+VALUES (12028, 0, 12028);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12028, 16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and the fangs are quite sharp.') /* LONG_DESC_STRING */

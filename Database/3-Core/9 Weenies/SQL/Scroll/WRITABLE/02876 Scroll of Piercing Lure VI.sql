@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2876, 'scrollpiercinglure6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2876, 18, 2876);
+VALUES (2876, 0, 2876);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2876, 16, 'When learned, this spell decreases a shield or piece of armor''s resistance to piercing damage by 150%.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6385, 'emotetestsword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6385, 18, 6385);
+VALUES (6385, 0, 6385);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6385, 16, 'EmoteTest Sword - pick me up! I am also representative of a very nice Tier 5 Rare weapon. ') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8904, 'focusingstoneimbued');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8904, 18, 8904);
+VALUES (8904, 0, 8904);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8904, 16, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* LONG_DESC_STRING */

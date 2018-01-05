@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5492, 'scrollflameblast3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5492, 18, 5492);
+VALUES (5492, 0, 5492);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5492, 16, 'When learned, this spell shoots three bolts of flame outward from the caster. Each bolt does 6-10 points of fire damage to the first thing it hits.') /* LONG_DESC_STRING */

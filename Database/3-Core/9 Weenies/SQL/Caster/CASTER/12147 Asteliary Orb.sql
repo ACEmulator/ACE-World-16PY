@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12147, 'orbasteliary');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12147, 18, 12147);
+VALUES (12147, 0, 12147);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12147, 16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon.') /* LONG_DESC_STRING */

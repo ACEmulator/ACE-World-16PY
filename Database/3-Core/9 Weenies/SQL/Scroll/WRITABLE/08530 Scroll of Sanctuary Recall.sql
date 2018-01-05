@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8530, 'scrollsanctuaryrecall');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8530, 18, 8530);
+VALUES (8530, 0, 8530);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8530, 16, 'When learned, this spell transports the caster to the Ithaenc Cathedral.') /* LONG_DESC_STRING */

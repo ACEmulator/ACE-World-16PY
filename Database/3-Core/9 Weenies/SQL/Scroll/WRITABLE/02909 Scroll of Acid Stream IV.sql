@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2909, 'scrollacidstream4');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2909, 18, 2909);
+VALUES (2909, 0, 2909);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2909, 16, 'When learned, this spell shoots a stream of acid at the target. The stream does 26-50 points of acid damage to the first thing it hits.') /* LONG_DESC_STRING */

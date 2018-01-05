@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5037, 'keyalabree');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5037, 18, 5037);
+VALUES (5037, 0, 5037);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5037, 16, 'A key to the old Tumerok armory within the Cave of Alabree.') /* LONG_DESC_STRING */

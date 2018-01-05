@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30830, 'noteinfiltrationorders');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30830, 272, 30830);
+VALUES (30830, 0, 30830);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30830, 16, 'Orders from the Shadow Lugian Kerrak to his lieutenants.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23468, 'tokenfishlarge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23468, 18, 23468);
+VALUES (23468, 0, 23468);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23468, 16, 'Hand this token to a Tackle Master to get the Title of Pro Fisherman.') /* LONG_DESC_STRING */

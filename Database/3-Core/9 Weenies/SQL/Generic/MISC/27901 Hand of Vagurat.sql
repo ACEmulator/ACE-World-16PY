@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27901, 'macevaguratnull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27901, 18, 27901);
+VALUES (27901, 0, 27901);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27901, 16, 'This is a relic of the Mosswarts. The hand of a cruel Banderling warrior names, Vagurat. The hand has been well preserved by some strange magics.') /* LONG_DESC_STRING */

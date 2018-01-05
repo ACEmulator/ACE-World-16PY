@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5139, 'waterbanewell');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5139, 32786, 5139);
+VALUES (5139, 0, 5139);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5139, 16, 'A flask of muddy water from deep within the Dry Well near Samsur.') /* LONG_DESC_STRING */

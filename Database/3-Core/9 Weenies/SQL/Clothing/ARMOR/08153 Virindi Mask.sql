@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8153, 'maskvirindi');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8153, 18, 8153);
+VALUES (8153, 0, 8153);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8153, 16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner.') /* LONG_DESC_STRING */

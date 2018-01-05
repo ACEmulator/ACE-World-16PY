@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28523, 'sackarmoredillocataloguefull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28523, 18, 28523);
+VALUES (28523, 0, 28523);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28523, 16, 'A large lugian sack for collecting armoredillo hides. The sack is currently full. You should return this to Captain K''rank. He offered you a reward for your work.') /* LONG_DESC_STRING */

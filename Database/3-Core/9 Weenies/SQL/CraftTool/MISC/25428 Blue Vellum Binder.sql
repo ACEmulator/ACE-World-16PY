@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25428, 'pageundeadmechanism1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25428, 16, 25428);
+VALUES (25428, 0, 25428);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25428, 16, 'A blue vellum binder containing one thin sheet of parchment. The parchment is inscribed in an unknown alphabet.') /* LONG_DESC_STRING */

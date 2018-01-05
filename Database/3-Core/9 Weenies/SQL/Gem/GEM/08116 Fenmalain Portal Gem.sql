@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8116, 'gemportalfenmalain');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8116, 18, 8116);
+VALUES (8116, 0, 8116);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8116, 16, 'This is a portal gem attuned to the energies of the Fenmalain Chamber.') /* LONG_DESC_STRING */

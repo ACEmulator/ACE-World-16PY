@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28949, 'scrollnuhmudiraswisdom3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28949, 18, 28949);
+VALUES (28949, 0, 28949);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28949, 16, 'When learned, this spell increases the caster''s Alchemy skill by 50%.') /* LONG_DESC_STRING */

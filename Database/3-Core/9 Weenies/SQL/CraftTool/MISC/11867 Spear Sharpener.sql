@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11867, 'spearbuff');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11867, 18, 11867);
+VALUES (11867, 0, 11867);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11867, 16, 'An spear sharpening stone.  If used on a spear, will sharpen it to the point where it can puncture shields.') /* LONG_DESC_STRING */

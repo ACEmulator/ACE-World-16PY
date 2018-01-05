@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9594, 'skillpuzzlebase');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9594, 18, 9594);
+VALUES (9594, 0, 9594);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9594, 16, 'The base piece for the Bestowers'' Guild skill puzzle.') /* LONG_DESC_STRING */

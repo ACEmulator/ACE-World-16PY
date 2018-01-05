@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2840, 'scrollhidevalue5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2840, 18, 2840);
+VALUES (2840, 0, 2840);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2840, 16, 'When learned, this spell decreases a magic casting implement''s mana conversion bonus by 50%.') /* LONG_DESC_STRING */

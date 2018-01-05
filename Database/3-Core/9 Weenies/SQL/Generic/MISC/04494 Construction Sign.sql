@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4494, 'rithwicconstructionsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4494, 20, 4494);
+VALUES (4494, 0, 4494);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4494, 16, 'Under Construction! Bridge rennovations sponsored by the Rithwic Span Beautification Committee.') /* LONG_DESC_STRING */

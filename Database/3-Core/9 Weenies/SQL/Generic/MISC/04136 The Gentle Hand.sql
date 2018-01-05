@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4136, 'shoushihealersign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4136, 20, 4136);
+VALUES (4136, 0, 4136);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4136, 16, 'The Gentle Hand                                                     -Healing                                                                    -Potions                                                                     -Enhancement Services') /* LONG_DESC_STRING */

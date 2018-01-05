@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6893, 'moonstonemiyako');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6893, 18, 6893);
+VALUES (6893, 0, 6893);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6893, 16, 'A lovely gem that captures the light and concentrates it into a gleaming stripe in the gem''s center.') /* LONG_DESC_STRING */

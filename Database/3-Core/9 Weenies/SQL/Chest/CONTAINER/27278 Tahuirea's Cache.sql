@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27278, 'chesttiulerea');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27278, 21, 27278);
+VALUES (27278, 0, 27278);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27278, 16, 'A decorated wooden cache. Within, the spoils of Tahuirea''s victories can be found.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8945, 'scrolllightningstreak5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8945, 18, 8945);
+VALUES (8945, 0, 8945);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8945, 16, 'When learned, this spell sends a bolt of lighting streaking towards the target. The bolt does 23-45 points of electrical damage to the first thing it hits.') /* LONG_DESC_STRING */

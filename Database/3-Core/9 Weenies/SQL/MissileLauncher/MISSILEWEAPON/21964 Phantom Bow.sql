@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21964, 'bowphantom');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21964, 18, 21964);
+VALUES (21964, 0, 21964);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21964, 16, 'A bow with a ghostly hue crafted from pure chorizite, resitant to any enchantment. ') /* LONG_DESC_STRING */

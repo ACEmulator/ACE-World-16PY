@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28519, 'cratesclavuscataloguefull');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28519, 18, 28519);
+VALUES (28519, 0, 28519);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28519, 16, 'This crate is now full of the Sclavus parts that Captain K''rank asked you to recover. You should return it to him for a reward. The Sclavus parts smell as though the heat is starting to make them sour.') /* LONG_DESC_STRING */

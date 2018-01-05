@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28044, 'idoldarkhermit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28044, 18, 28044);
+VALUES (28044, 0, 28044);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28044, 16, 'An unfinished magical fetish.  Although both idols have been attached to the braided cord, you can tell something is still not right.') /* LONG_DESC_STRING */

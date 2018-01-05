@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28511, 'sackarmoredillocatalogue2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28511, 18, 28511);
+VALUES (28511, 0, 28511);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28511, 16, 'A large Lugian sack meant to collect the hides of several armoredillo. Currently the sack holds a small armoredillo, you were told to collect a normal armoredillo hide after the small hide.') /* LONG_DESC_STRING */

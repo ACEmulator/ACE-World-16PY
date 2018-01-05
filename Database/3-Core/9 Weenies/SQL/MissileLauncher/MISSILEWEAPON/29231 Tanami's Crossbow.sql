@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29231, 'crossbowishaqslostkey');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29231, 18, 29231);
+VALUES (29231, 0, 29231);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29231, 16, 'This crossbow was a gift from Tanami Kei of Ayan Baqur.') /* LONG_DESC_STRING */

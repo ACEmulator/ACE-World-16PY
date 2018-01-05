@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12265, 'pillarchorizite');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12265, 20, 12265);
+VALUES (12265, 0, 12265);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12265, 16, 'A pillar of Singular Chorizite stockpiled by the Virindi and their allies.') /* LONG_DESC_STRING */

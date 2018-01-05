@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10919, 'boygrubbowpiece3-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10919, 18, 10919);
+VALUES (10919, 0, 10919);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10919, 16, 'A handgrip-shaped piece of hardwood, with two rough ends. Could this be the "Onga" the odd Tumerok in the hut wants?') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (706, 'holtburghealersign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (706, 20, 706);
+VALUES (706, 0, 706);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (706, 16, 'Thelnoth''s Remedies                                                -Healing                                                                    -Potions                                                                     -Enhancement Services') /* LONG_DESC_STRING */

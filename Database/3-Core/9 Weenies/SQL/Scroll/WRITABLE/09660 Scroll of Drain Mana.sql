@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9660, 'scrolldrainmana');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9660, 18, 9660);
+VALUES (9660, 0, 9660);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9660, 16, 'When learned, this spell drains one-quarter of the target''s Mana and gives 20% of that to the caster.') /* LONG_DESC_STRING */

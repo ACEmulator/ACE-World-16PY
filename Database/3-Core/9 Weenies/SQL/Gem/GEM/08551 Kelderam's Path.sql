@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8551, 'gemportalcoipk');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8551, 18, 8551);
+VALUES (8551, 0, 8551);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8551, 16, 'The violet fires of portalspace flicker within this gem''s facets. They seem to flicker, however, and there are red highlights. The artifact feels as if it has been... tainted somehow. The gem works best if used outside in a realatively flat area.') /* LONG_DESC_STRING */

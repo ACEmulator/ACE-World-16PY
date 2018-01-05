@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30761, 'rumorwitheredatoll');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30761, 272, 30761);
+VALUES (30761, 0, 30761);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30761, 16, 'This rumor provides directions to the Withered Atoll, a quest area designed for level 100+ characters.') /* LONG_DESC_STRING */

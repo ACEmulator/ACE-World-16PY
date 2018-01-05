@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20184, 'imagingcrystalarcanepedestal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20184, 18, 20184);
+VALUES (20184, 0, 20184);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20184, 16, 'An Imaging Crystal imprinted with the image and complete diagram of the Arcane Pedestal.') /* LONG_DESC_STRING */
