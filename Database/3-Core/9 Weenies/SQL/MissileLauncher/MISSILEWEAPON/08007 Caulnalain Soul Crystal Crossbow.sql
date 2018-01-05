@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8007, 'crossbowsoulcrystalcaul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8007, 18, 8007);
+VALUES (8007, 0, 8007);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8007, 16, 'A crossbow imbued with the essence of the Caulnalain Soul Crystal. Uses crystal-tipped quarrels.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28056, 'ringwatchmannew');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28056, 18, 28056);
+VALUES (28056, 0, 28056);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28056, 16, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.') /* LONG_DESC_STRING */

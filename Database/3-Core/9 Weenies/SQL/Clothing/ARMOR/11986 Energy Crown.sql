@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11986, 'crownenergy');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11986, 18, 11986);
+VALUES (11986, 0, 11986);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11986, 16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized.') /* LONG_DESC_STRING */

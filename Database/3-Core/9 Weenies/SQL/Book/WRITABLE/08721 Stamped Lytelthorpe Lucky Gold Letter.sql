@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8721, 'letterstampedlytelthorpegold');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8721, 272, 8721);
+VALUES (8721, 0, 8721);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8721, 1, 'Stamped Lytelthorpe Lucky Gold Letter') /* NAME_STRING */

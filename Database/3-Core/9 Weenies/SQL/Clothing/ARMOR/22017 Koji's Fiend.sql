@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22017, 'regaliashouber');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22017, 18, 22017);
+VALUES (22017, 0, 22017);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22017, 16, 'A finely detailed and crafted mask of an Ogre Magi. This work represents the demon-fiend faced by Koji as she traveled the world. ') /* LONG_DESC_STRING */

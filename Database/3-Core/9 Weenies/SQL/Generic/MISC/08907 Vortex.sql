@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8907, 'vortexdespair');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8907, 20, 8907);
+VALUES (8907, 0, 8907);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8907, 16, 'A vortex of intense magical energy surrounded by small stones with strange markings.') /* LONG_DESC_STRING */

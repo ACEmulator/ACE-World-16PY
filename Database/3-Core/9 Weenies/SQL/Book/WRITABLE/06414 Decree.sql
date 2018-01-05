@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6414, 'morphnote6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6414, 272, 6414);
+VALUES (6414, 0, 6414);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6414, 16, 'A translation of a ragged parchment found with the Minor Stinging Stone.') /* LONG_DESC_STRING */

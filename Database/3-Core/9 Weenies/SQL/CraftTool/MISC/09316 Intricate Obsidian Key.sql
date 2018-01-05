@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9316, 'keypyramidgreenlarge');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9316, 16, 9316);
+VALUES (9316, 0, 9316);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9316, 16, 'A key that can be used to unlock Large Mnemosynes.') /* LONG_DESC_STRING */

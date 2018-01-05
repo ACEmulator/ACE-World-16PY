@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28452, 'alelugian');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28452, 18, 28452);
+VALUES (28452, 0, 28452);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28452, 16, 'A strong scented cask of Lugian Ale. The froth is hearty and strong and the brew is pungent.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23195, 'keyringdirective');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23195, 18, 23195);
+VALUES (23195, 0, 23195);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23195, 16, 'A crude keyring roughly carved out of a glacial golem heart. ') /* LONG_DESC_STRING */

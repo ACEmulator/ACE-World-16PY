@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8086, 'notefenmalainundeadtranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8086, 272, 8086);
+VALUES (8086, 0, 8086);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8086, 16, 'A translated missive, taken from the hands of an undead at the Fenmalain Facility.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1658, 'scrollregenerateself');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1658, 18, 1658);
+VALUES (1658, 0, 1658);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1658, 16, 'When learned, this spell increases the caster''s natural healing rate by 25%.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27433, 'decorationaubereanmap');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27433, 18, 27433);
+VALUES (27433, 0, 27433);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27433, 16, 'An ancient map of Auberean. It is quite well preserved and looks like it could still be hung on a wall.') /* LONG_DESC_STRING */

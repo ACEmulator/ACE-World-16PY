@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12256, 'sliverchorizite');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12256, 18, 12256);
+VALUES (12256, 0, 12256);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12256, 16, 'A sliver of incredibly dense Singular Chorizite, imbued with Virindi magical energies.') /* LONG_DESC_STRING */

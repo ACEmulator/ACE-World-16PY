@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9476, 'infusionarmheart');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9476, 18, 9476);
+VALUES (9476, 0, 9476);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9476, 16, 'Knowing your enemy only goes so far: One must have the passion to strike. Be a shining spear in the night.') /* LONG_DESC_STRING */

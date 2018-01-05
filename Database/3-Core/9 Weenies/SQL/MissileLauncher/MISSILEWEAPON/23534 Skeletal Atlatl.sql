@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23534, 'atlatlskeletonlowboss');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23534, 18, 23534);
+VALUES (23534, 0, 23534);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23534, 16, 'The radius and ulna of a Lord of Decay, twisted together into an atlatl.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3217, 'scrollcrossbowmasteryself6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3217, 18, 3217);
+VALUES (3217, 0, 3217);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3217, 16, 'When learned, this spell increases the caster''s Crossbow skill by 150%.') /* LONG_DESC_STRING */

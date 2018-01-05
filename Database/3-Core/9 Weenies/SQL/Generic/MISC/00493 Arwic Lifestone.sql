@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (493, 'sign-arwiclifestone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (493, 20, 493);
+VALUES (493, 0, 493);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (493, 16, 'Use this lifestone to set your Sanctuary.                                                                                         Fallen heroes are reborn at their sanctuary.') /* LONG_DESC_STRING */

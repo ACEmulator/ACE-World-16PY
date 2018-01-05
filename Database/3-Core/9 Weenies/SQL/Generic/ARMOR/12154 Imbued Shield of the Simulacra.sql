@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12154, 'shieldsimulacraimbued');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12154, 18, 12154);
+VALUES (12154, 0, 12154);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12154, 16, 'A shield imbued with the power of the Asteliary Gem.') /* LONG_DESC_STRING */

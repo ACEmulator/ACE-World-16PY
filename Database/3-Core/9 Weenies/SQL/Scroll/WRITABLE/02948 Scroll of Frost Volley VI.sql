@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2948, 'scrollfrostvolley6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2948, 18, 2948);
+VALUES (2948, 0, 2948);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2948, 16, 'When learned, this spell shoots three bolts of frost toward the target. Each bolt does 16-30 points of cold damage to the first thing it hits.') /* LONG_DESC_STRING */

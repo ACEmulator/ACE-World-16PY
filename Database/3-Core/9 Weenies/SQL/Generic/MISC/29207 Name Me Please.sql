@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29207, 'trophybrewmasterbiblepiece4');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29207, 18, 29207);
+VALUES (29207, 0, 29207);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29207, 16, 'Long description shows up when players ID an item.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8504, 'noteadja');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8504, 272, 8504);
+VALUES (8504, 0, 8504);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8504, 16, 'The translation of a note carried by Asmolum the Worm near the Ithaenc Cathedral.') /* LONG_DESC_STRING */

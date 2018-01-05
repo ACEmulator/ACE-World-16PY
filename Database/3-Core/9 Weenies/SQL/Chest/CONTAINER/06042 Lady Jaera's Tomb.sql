@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6042, 'mageacademycoffinwarriorhighlocked');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6042, 21, 6042);
+VALUES (6042, 0, 6042);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6042, 16, 'A coffin of sand-colored stone. You notice a suspicious glow near the lock.') /* LONG_DESC_STRING */

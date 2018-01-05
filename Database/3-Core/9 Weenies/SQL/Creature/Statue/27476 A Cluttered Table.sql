@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27476, 'tablecontactnpc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27476, 4, 27476);
+VALUES (27476, 0, 27476);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27476, 16, 'Orders and other papers are scattered about this table, including a thick folder with what appear to be blueprints.') /* LONG_DESC_STRING */

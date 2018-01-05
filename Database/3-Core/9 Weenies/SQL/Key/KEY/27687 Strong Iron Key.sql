@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27687, 'keyrenegadehealingkits');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27687, 18, 27687);
+VALUES (27687, 0, 27687);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27687, 16, 'This key looks to have been well-cast on a lugian forge.') /* LONG_DESC_STRING */

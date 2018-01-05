@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2647, 'scrollcoordinationother5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2647, 18, 2647);
+VALUES (2647, 0, 2647);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2647, 16, 'When learned, this spell increases the target''s Coordination by 50 points.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27898, 'orbeyedrageerg');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27898, 18, 27898);
+VALUES (27898, 0, 27898);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27898, 16, 'An overly large replica of the Mosswart hero Drageerg''s eye.') /* LONG_DESC_STRING */

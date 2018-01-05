@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24462, 'gauntletsmacers');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24462, 18, 24462);
+VALUES (24462, 0, 24462);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24462, 16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the macer.') /* LONG_DESC_STRING */

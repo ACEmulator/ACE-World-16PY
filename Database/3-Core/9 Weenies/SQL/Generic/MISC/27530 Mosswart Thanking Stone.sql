@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27530, 'mosswartstonethankslo');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27530, 18, 27530);
+VALUES (27530, 0, 27530);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27530, 16, 'A small stone carved with the stylized face of a smiling Mosswart. Aun Laokhe in Arwic may know its meaning.') /* LONG_DESC_STRING */

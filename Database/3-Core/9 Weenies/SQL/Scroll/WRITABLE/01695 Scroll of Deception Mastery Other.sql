@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1695, 'scrolldeceptionmasteryother');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1695, 18, 1695);
+VALUES (1695, 0, 1695);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1695, 16, 'When learned, this spell increases the target''s Deception skill by 10%.') /* LONG_DESC_STRING */

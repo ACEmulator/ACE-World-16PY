@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2208, 'keytumerokh');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2208, 18, 2208);
+VALUES (2208, 0, 2208);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2208, 16, 'A gilded key. This key unlocks a door in the Tumerok Overlord''s Fortress.') /* LONG_DESC_STRING */

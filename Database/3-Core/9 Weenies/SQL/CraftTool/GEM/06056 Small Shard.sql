@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6056, 'shardcrystalsmall');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6056, 18, 6056);
+VALUES (6056, 0, 6056);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6056, 16, 'A small, smooth piece of crystalline shard, with a strange faint glow.') /* LONG_DESC_STRING */

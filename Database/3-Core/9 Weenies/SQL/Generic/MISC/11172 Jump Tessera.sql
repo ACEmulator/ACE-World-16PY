@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11172, 'skilltokenjump-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11172, 18, 11172);
+VALUES (11172, 0, 11172);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11172, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Jump skill. There are tesserae available for each skill in the game. If you don''t want a point of Jump, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */

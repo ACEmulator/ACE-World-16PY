@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11008, 'instructionsstaffmagic-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11008, 272, 11008);
+VALUES (11008, 0, 11008);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11008, 16, 'Instructions for building the magical Stave of Palenqual.') /* LONG_DESC_STRING */

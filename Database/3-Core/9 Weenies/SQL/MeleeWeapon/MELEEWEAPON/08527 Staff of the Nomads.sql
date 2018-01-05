@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8527, 'staffanadilfake');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8527, 18, 8527);
+VALUES (8527, 0, 8527);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8527, 16, 'A sturdy wooden staff, worn smooth. Anadil has cast Blood Drinker VI on this weapon.') /* LONG_DESC_STRING */

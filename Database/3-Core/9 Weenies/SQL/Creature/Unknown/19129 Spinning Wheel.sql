@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19129, 'spinningwheel');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19129, 4, 19129);
+VALUES (19129, 0, 19129);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19129, 16, 'A very old spinning wheel intricately carved with mythical creatures.') /* LONG_DESC_STRING */

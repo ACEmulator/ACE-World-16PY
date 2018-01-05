@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25556, 'maskscareminion');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25556, 18, 25556);
+VALUES (25556, 0, 25556);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25556, 16, 'A cross between a Scarecrow Mask and a Hollow Minion''s visage.') /* LONG_DESC_STRING */

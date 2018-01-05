@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6820, 'keyspirepiecetufa');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6820, 18, 6820);
+VALUES (6820, 0, 6820);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6820, 16, 'The rear third of a skeletal key, found in the Tufa shadow spire.') /* LONG_DESC_STRING */

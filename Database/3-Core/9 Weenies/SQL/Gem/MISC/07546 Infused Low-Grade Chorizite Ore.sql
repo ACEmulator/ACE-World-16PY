@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7546, 'chorizitelowstampedspear');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7546, 18, 7546);
+VALUES (7546, 0, 7546);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7546, 16, 'A low-grade chunk of refined chorizite ore infused with the essence of a spear.') /* LONG_DESC_STRING */

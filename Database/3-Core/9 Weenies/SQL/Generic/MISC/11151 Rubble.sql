@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11151, 'menhirrubblea-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11151, 18, 11151);
+VALUES (11151, 0, 11151);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11151, 16, 'A large, heavy piece of rubble, broken off from the menhir in the northwest of Marae Lassel.') /* LONG_DESC_STRING */

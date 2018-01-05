@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10921, 'boygrubnote-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10921, 272, 10921);
+VALUES (10921, 0, 10921);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10921, 16, 'A note from Tekapuapuh, the odd, masked Tumerok in the hut near Ahurenga.') /* LONG_DESC_STRING */

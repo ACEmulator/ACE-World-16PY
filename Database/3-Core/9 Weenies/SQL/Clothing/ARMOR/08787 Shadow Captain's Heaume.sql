@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8787, 'heaumenewshadowleader');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8787, 18, 8787);
+VALUES (8787, 0, 8787);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8787, 16, 'A magical heaume taken from a Shadow in the Heart of Darkness dungeon.') /* LONG_DESC_STRING */

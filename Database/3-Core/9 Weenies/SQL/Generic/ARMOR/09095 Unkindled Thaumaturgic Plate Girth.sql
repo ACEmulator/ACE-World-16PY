@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9095, 'girthunkindledthau');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9095, 18, 9095);
+VALUES (9095, 0, 9095);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9095, 16, 'A thaumaturgic plate girth. A Kindling Stone must be applied to it before it may be worn.') /* LONG_DESC_STRING */

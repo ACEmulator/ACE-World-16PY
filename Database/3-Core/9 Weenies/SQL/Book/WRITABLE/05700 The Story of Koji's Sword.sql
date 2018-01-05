@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5700, 'bookkoji1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5700, 272, 5700);
+VALUES (5700, 0, 5700);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5700, 16, 'A copy of The Story of Koji''s Sword, bought from the Hebian-To Library.') /* LONG_DESC_STRING */

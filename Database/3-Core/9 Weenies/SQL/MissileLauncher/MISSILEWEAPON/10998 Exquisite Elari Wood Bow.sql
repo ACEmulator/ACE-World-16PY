@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10998, 'exquisiteelaribowfake-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10998, 18, 10998);
+VALUES (10998, 0, 10998);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10998, 16, 'This is the monster only version of this weapon. You shouldn''t be able to read this, naughty spawn.') /* LONG_DESC_STRING */

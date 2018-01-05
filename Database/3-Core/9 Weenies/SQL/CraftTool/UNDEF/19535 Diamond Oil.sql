@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19535, 'oildiamondmid');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19535, 18, 19535);
+VALUES (19535, 0, 19535);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19535, 16, 'A decanter of diamond oil. Created by adding diamond powder to a vial of essence taken from a font beneath Dereth.') /* LONG_DESC_STRING */

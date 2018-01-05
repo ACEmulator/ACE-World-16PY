@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12270, 'calyxsingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12270, 18, 12270);
+VALUES (12270, 0, 12270);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12270, 16, 'A strange shape resulting from the fusion of the Singular Pyreal and Chorizite Slivers.') /* LONG_DESC_STRING */

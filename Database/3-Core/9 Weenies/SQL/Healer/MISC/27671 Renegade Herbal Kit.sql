@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27671, 'healingkitrenegade');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27671, 65554, 27671);
+VALUES (27671, 0, 27671);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27671, 16, 'A hard roll of foul smelling salts and ores that serve as healing agents for the renegades.') /* LONG_DESC_STRING */

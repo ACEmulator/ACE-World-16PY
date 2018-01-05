@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2326, 'forttethanasign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2326, 20, 2326);
+VALUES (2326, 0, 2326);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2326, 16, 'Welcome to Fort Tethana, the fort located in a forsaken land.') /* LONG_DESC_STRING */

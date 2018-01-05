@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24700, 'cruciblefrost3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24700, 18, 24700);
+VALUES (24700, 0, 24700);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24700, 16, 'A Colcothar Potion and Eyebright have been added to this crucible.') /* LONG_DESC_STRING */

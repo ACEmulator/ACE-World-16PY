@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30833, 'shieldinfiltration');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30833, 18, 30833);
+VALUES (30833, 0, 30833);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30833, 16, 'A shield looted from the corpse of the Shadow Lugian Shoktok.') /* LONG_DESC_STRING */

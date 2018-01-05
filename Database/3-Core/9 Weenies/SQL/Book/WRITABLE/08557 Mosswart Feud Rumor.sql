@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8557, 'rumormosswartfactions');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8557, 272, 8557);
+VALUES (8557, 0, 8557);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8557, 16, 'Speculations about Mosswart factions on the Vesayen Isles.') /* LONG_DESC_STRING */

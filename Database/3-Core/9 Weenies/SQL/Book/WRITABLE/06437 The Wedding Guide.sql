@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6437, 'guidewedding');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6437, 274, 6437);
+VALUES (6437, 0, 6437);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6437, 16, 'This is a guidebook that describes the traditional wedding ceremony and vows for getting married here in Dereth.') /* LONG_DESC_STRING */

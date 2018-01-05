@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12281, 'notesingularpyrealtranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12281, 272, 12281);
+VALUES (12281, 0, 12281);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12281, 16, 'A note translated by Diyas al-Yat of Zaikhal.') /* LONG_DESC_STRING */

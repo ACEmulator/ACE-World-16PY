@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24558, 'bowrenegaderaids');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24558, 18, 24558);
+VALUES (24558, 0, 24558);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24558, 16, 'A bow from a defeated Tumerok Renegade Commander') /* LONG_DESC_STRING */

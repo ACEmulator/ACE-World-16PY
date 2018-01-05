@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30743, 'rumorsuzuharabaijin');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30743, 272, 30743);
+VALUES (30743, 0, 30743);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30743, 16, 'A plea for help from Suzuhara Baijin of Stonehold. This quest is designed for level 60+ characters.') /* LONG_DESC_STRING */

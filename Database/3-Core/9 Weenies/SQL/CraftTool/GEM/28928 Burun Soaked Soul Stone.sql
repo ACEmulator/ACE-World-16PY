@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28928, 'soulstoneburun');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28928, 18, 28928);
+VALUES (28928, 0, 28928);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28928, 16, 'This stone has been coated in the blood of a Burun. The gem appears to have absorbed the blood into itself.') /* LONG_DESC_STRING */

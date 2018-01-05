@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8716, 'stampalarqasnewbiequest');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8716, 18, 8716);
+VALUES (8716, 0, 8716);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8716, 16, 'A town stamp of Al Arqas to be used on any Red or Gold Letters you come across.') /* LONG_DESC_STRING */

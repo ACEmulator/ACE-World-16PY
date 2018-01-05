@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1014, 'portalcragstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1014, 262164, 1014);
+VALUES (1014, 0, 1014);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1014, 16, 'This portal goes to the Aluvian capital, Cragstone. This is a good town for characters over level 10.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5688, 'bookcodepwyll');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5688, 272, 5688);
+VALUES (5688, 0, 5688);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5688, 16, 'A copy of the Code of Pwyll, bought from the Cragstone Library.') /* LONG_DESC_STRING */

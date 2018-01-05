@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29639, 'lever-numberfibonacci-toa');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29639, 20, 29639);
+VALUES (29639, 0, 29639);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29639, 16, 'A lever marked with the numbers 0, 1, 1, 2, 3, and 5.') /* LONG_DESC_STRING */

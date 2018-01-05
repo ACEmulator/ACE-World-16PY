@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2818, 'scrollflamelure3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2818, 18, 2818);
+VALUES (2818, 0, 2818);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2818, 16, 'When learned, this spell decreases a shield or piece of armor''s resistance to fire damage by 50%.') /* LONG_DESC_STRING */

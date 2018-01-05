@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27279, 'keytahuirea');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27279, 18, 27279);
+VALUES (27279, 0, 27279);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27279, 16, 'A key made from what seems to be Siraluun Bones. Small, bright feathers adorn the holding end of it.') /* LONG_DESC_STRING */

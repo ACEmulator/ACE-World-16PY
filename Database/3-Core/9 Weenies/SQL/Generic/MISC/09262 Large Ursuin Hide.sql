@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9262, 'ursuinhidelargespring');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9262, 18, 9262);
+VALUES (9262, 0, 9262);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9262, 16, 'A Large Ursuin hide, it seems to be a bit more colorful, as if favoring the pleasant spring weather.') /* LONG_DESC_STRING */

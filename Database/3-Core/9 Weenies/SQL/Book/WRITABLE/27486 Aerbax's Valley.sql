@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27486, 'ordersvalley');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27486, 272, 27486);
+VALUES (27486, 0, 27486);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27486, 16, 'Orders to Commander Kamenua. These might have some worth if given to Aun Laokhe.') /* LONG_DESC_STRING */

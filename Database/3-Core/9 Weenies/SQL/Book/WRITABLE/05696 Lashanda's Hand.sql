@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5696, 'booklashanda');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5696, 272, 5696);
+VALUES (5696, 0, 5696);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5696, 16, 'A copy of the Tale of Lashanda''s Hand, bought from the Zaikhal Library.') /* LONG_DESC_STRING */

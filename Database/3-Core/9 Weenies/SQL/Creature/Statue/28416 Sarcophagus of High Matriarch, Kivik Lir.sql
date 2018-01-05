@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28416, 'sarcophaguskiviklir');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28416, 4, 28416);
+VALUES (28416, 0, 28416);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28416, 16, 'The Burun have desecrated the sarcophagus. The fine details of the sarcophagus have been ruined by the filth caked claws of the creatures. It exudes a palpable sense of rage, making you reconsider searching it''s ruins for a reward.') /* LONG_DESC_STRING */

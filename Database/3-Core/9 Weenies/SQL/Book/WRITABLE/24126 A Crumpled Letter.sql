@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24126, 'letterelysatoalatar');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24126, 272, 24126);
+VALUES (24126, 0, 24126);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24126, 16, 'A gnawed and crumpled letter. It has been torn, folded, mutilated, and bears the marks of mite teeth, but the elegant handwriting is still legible.') /* LONG_DESC_STRING */

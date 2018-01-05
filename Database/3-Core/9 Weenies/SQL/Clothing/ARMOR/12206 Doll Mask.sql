@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12206, 'maskdoll');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12206, 18, 12206);
+VALUES (12206, 0, 12206);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12206, 16, 'A strange looking doll mask.  From the inside, the mask is completely transparent...') /* LONG_DESC_STRING */

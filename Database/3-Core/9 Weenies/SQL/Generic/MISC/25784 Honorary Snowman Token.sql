@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25784, 'tokendfd');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25784, 18, 25784);
+VALUES (25784, 0, 25784);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25784, 16, 'Turn this token into the Mayor of Frost Haven for the Title "Honorary Snowman".') /* LONG_DESC_STRING */

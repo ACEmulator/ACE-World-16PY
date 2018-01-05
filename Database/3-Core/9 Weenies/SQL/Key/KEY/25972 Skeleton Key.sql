@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25972, 'keydecrepittower');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25972, 18, 25972);
+VALUES (25972, 0, 25972);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25972, 16, 'A skeleton key used to open the gate at the top of the bulwark north west of Zaikhal.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11462, 'totemtriplevolkamapure-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11462, 18, 11462);
+VALUES (11462, 0, 11462);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11462, 16, 'A triple totem representing Volkama, the anima of Palenqual''s rivers. ') /* LONG_DESC_STRING */

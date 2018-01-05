@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7398, 'keysylsfearchestmagichigh');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7398, 18, 7398);
+VALUES (7398, 0, 7398);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7398, 16, 'An iron key found in Sylsfear, coated with bone dust and veined with dark rust.') /* LONG_DESC_STRING */

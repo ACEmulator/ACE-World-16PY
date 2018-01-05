@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13196, 'portalobjecttieable');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13196, 262164, 13196);
+VALUES (13196, 0, 13196);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13196, 16, 'This portal has a relative -- instead of an absolute -- destination. It will portal you about 5 m away from wherever you drop it. ') /* LONG_DESC_STRING */

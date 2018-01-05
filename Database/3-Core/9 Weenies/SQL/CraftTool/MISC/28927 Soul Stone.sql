@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28927, 'soulstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28927, 18, 28927);
+VALUES (28927, 0, 28927);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28927, 16, 'This gem is unassuming and fairly plain. There is nothing overtly mystical about the gem at all.') /* LONG_DESC_STRING */

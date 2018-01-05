@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12022, 'scrolldarkinferno');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12022, 18, 12022);
+VALUES (12022, 0, 12022);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12022, 16, 'This scroll seems to be written in a very strange language.  It looks as if it is in Falatacot.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5654, 'keymageacademycellar');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5654, 18, 5654);
+VALUES (5654, 0, 5654);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5654, 16, 'A heavy, blackened key from the Mage Academy.  It seems to weigh down upon your soul.  ') /* LONG_DESC_STRING */

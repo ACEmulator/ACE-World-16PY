@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30504, 'applecoveperfect');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30504, 18, 30504);
+VALUES (30504, 0, 30504);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30504, 16, 'A perfectly mouth-watering Cove Apple, grown only in Yaraq. ') /* LONG_DESC_STRING */

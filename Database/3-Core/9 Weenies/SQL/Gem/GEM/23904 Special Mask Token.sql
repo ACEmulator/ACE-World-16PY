@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23904, 'masktokennew');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23904, 18, 23904);
+VALUES (23904, 0, 23904);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23904, 16, 'A token with a Mask head on it.  This was given to you in recognition of your patience. ') /* LONG_DESC_STRING */

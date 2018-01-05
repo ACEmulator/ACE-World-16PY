@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5129, 'book100paths7');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5129, 272, 5129);
+VALUES (5129, 0, 5129);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5129, 16, 'A faded copy of Volume 7 of The Hundred Trackless Paths by Khaymahlai.') /* LONG_DESC_STRING */

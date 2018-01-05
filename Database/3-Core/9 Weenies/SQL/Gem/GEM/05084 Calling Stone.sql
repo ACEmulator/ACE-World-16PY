@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5084, 'callingstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5084, 18, 5084);
+VALUES (5084, 0, 5084);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5084, 16, 'This is a Calling Stone that all newcomers arrive with.  It is a plain, lightweight gem.  Training Masters collect these stones.') /* LONG_DESC_STRING */

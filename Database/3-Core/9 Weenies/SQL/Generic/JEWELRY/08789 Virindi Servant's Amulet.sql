@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8789, 'amuletvirindimaster');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8789, 18, 8789);
+VALUES (8789, 0, 8789);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8789, 16, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.') /* LONG_DESC_STRING */

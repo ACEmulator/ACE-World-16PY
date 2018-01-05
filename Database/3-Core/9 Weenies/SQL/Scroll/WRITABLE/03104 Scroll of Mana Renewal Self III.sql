@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3104, 'scrollmanarenewalself3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3104, 18, 3104);
+VALUES (3104, 0, 3104);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3104, 16, 'When learned, this spell increases the caster''s natural mana rate by 75%.') /* LONG_DESC_STRING */

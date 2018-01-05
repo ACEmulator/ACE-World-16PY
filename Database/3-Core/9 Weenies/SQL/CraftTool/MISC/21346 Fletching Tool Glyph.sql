@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21346, 'glyphtoolfletching');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21346, 18, 21346);
+VALUES (21346, 0, 21346);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21346, 16, 'A glyph with the image of a fletching tool emblazoned upon it.') /* LONG_DESC_STRING */

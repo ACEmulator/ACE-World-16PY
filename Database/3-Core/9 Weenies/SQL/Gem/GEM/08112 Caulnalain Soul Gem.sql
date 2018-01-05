@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8112, 'gemcaulnalainsoul');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8112, 18, 8112);
+VALUES (8112, 0, 8112);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8112, 16, 'The heart of the Caulnalain Soul Crystal.') /* LONG_DESC_STRING */

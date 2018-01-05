@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27297, 'keyyaruldi');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27297, 18, 27297);
+VALUES (27297, 0, 27297);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27297, 16, 'This key was taken from the corpse of the Margul guardian, Yaruldi.') /* LONG_DESC_STRING */

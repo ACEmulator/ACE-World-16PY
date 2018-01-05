@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9637, 'scrollhealthtostaminaself4');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9637, 18, 9637);
+VALUES (9637, 0, 9637);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9637, 16, 'When learned, this spell drains one-half of the caster''s Health and gives 120% of that to his/her Stamina.') /* LONG_DESC_STRING */

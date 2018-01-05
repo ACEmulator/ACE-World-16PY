@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26056, 'tokendtrecompense');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26056, 18, 26056);
+VALUES (26056, 0, 26056);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26056, 16, 'Make certain that you have room for two items in your main pack, then hand this token to a town crier to receive our apology.') /* LONG_DESC_STRING */

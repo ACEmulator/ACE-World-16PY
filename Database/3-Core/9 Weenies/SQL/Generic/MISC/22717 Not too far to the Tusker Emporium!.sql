@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22717, 'totuskeremporiumsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22717, 20, 22717);
+VALUES (22717, 0, 22717);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22717, 16, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)') /* LONG_DESC_STRING */

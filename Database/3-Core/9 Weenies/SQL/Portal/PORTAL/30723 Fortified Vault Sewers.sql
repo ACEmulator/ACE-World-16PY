@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30723, 'portalassaultsewersfortified');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30723, 262164, 30723);
+VALUES (30723, 0, 30723);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30723, 16, 'You must best the spirits of the temple before you may pass through this portal.') /* LONG_DESC_STRING */

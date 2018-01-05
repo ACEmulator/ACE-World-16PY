@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5022, 'keyfolthidexit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5022, 18, 5022);
+VALUES (5022, 0, 5022);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5022, 16, 'A rusted key with strange scratch marks reminiscent of carved snakes.') /* LONG_DESC_STRING */

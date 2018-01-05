@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3719, 'macegolem');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3719, 18, 3719);
+VALUES (3719, 0, 3719);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3719, 16, 'A mace hewn from the heart of an Iron Golem. Some of the animating principle of the golem remains - electricity coruscates along the haft of the weapon.') /* LONG_DESC_STRING */

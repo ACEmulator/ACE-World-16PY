@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1776, 'scrollfocusself');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1776, 18, 1776);
+VALUES (1776, 0, 1776);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1776, 16, 'When learned, this spell increases the caster''s Focus by 10 points.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5671, 'milkcold');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5671, 18, 5671);
+VALUES (5671, 0, 5671);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5671, 16, 'A frosty cup of milk, sure to cool the drinker. It would probably spoil if used in baking.') /* LONG_DESC_STRING */

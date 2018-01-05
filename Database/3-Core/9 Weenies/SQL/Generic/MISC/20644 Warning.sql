@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20644, 'precarioussojournwarningsign');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20644, 20, 20644);
+VALUES (20644, 0, 20644);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20644, 16, 'Precarious Sojourn Portal. You must visit Slithe Tradittor near Lytelthorpe before using this portal!') /* LONG_DESC_STRING */

@@ -19,7 +19,7 @@ VALUES (7106, 2074476563, 3126853888, 129.361, 170.194, -0.333, 0.19035, 0, 0, -
      , (8430, 2074476580, 3126853891, 129.584, 154.954, 6.05812, 0.700092, 0, 0, -0.714052) /* Mosswart Soul Trapper */
      , (8430, 2074476578, 3126853891, 134.767, 156.347, 6.07451, 0.509143, 0, 0, 0.860682) /* Mosswart Soul Trapper */
      , (8429, 2074476576, 3126853891, 129.605, 153.59, 6.0573, -0.692717, 0, 0, 0.721209) /* Mosswart Zealot */
-     , (8430, 2074476577, 3126853633, 131.69, 151.374, 6.0066, -0.0218993, 0, 0, 0.99976) /* Mosswart Soul Trapper */;
+     , (8430, 2074476577, 3126853632, 131.69, 151.374, 6.0066, -0.0218993, 0, 0, 0.99976) /* Mosswart Soul Trapper */;
 
 UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074476579'; /* linkitemgen25seconds */
 UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2074476575'; /* linkmonstergen10minutes */

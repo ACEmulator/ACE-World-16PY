@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12236, 'crystaldeedultra');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12236, 18, 12236);
+VALUES (12236, 0, 12236);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12236, 16, 'A strange, purple crystal.  It has an odd aura around it, and you can see strange flickering shapes within.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11003, 'hollowpointarrowb-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11003, 16, 11003);
+VALUES (11003, 0, 11003);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11003, 16, 'An arrow with an explosive chorizite charge at the tip.') /* LONG_DESC_STRING */

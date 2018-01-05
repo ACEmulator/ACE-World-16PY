@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15798, 'tometornelementaltranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15798, 272, 15798);
+VALUES (15798, 0, 15798);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15798, 16, 'A tome torn and charred. Several pages are still salvageable. The text has been translated from Empyrean.') /* LONG_DESC_STRING */

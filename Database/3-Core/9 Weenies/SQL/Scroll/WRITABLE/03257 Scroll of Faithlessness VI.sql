@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3257, 'scrollfaithlessness6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3257, 18, 3257);
+VALUES (3257, 0, 3257);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3257, 16, 'When learned, this spell decreases the target''s Loyalty skill by 60%.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25539, 'necklacedrudgebloodlettercharm');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25539, 18, 25539);
+VALUES (25539, 0, 25539);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25539, 16, 'A powerful charm crafted by Drudge Bloodletters. The magic within the necklace is now freed.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27393, 'gemquestrelic');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27393, 18, 27393);
+VALUES (27393, 0, 27393);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27393, 16, 'The Baron has called us to protect The Chalice. We few who remember shall preserve this relic with undying devotion. - Brotherhood of the Chalice') /* LONG_DESC_STRING */

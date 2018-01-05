@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12266, 'pillarobsidian');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12266, 20, 12266);
+VALUES (12266, 0, 12266);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12266, 16, 'A pillar of Singular Obsidian stockpiled by the Virindi and their allies.') /* LONG_DESC_STRING */

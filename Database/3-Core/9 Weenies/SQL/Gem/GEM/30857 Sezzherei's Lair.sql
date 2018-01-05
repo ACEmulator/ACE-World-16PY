@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30857, 'gemportalboss0205');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30857, 18, 30857);
+VALUES (30857, 0, 30857);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30857, 16, 'This gem casts a portal to lair of Sezzherei, demon-child of the darkness beneath the world') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11836, 'haftbannerlow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11836, 18, 11836);
+VALUES (11836, 0, 11836);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11836, 16, 'A banner haft with a worn handle.  If joined with either a Serpent or Falcon banner, it will raise it''s value.') /* LONG_DESC_STRING */

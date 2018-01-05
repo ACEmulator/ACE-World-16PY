@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26545, 'statuetempleantechamber');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26545, 4, 26545);
+VALUES (26545, 0, 26545);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26545, 16, 'A note on the statue reads: We have found that you will need to organize into groups fit for hunting the forests of Osteth, the area around and on the outer Obsidian Plains and the most extreme west areas of the Direlands; respectively') /* LONG_DESC_STRING */

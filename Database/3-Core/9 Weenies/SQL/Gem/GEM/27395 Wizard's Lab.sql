@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27395, 'gemquestwizardsblade');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27395, 18, 27395);
+VALUES (27395, 0, 27395);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27395, 16, 'The human who has altered our servants has been found. He fumbles about with our creations attempting an understanding beyond his physical limitations. The odds of his continued existence are low. We currently deem the loss of servants less troublesome than attempting to eliminate this nuisance, but continued observance of his activities is instructed.') /* LONG_DESC_STRING */

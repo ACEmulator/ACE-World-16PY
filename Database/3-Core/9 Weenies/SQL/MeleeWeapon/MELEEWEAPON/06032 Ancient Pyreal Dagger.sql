@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6032, 'daggerancientpyreal');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6032, 18, 6032);
+VALUES (6032, 0, 6032);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6032, 16, 'A dagger of Empyrean manufacture, incredibly ancient but well-preserved.') /* LONG_DESC_STRING */

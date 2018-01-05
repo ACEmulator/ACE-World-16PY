@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28115, 'notetorgluukingress');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28115, 272, 28115);
+VALUES (28115, 0, 28115);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28115, 16, 'A letter translated by Aun Laokhe. This was a missive between Morgluuk and Torgluuk.') /* LONG_DESC_STRING */

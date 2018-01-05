@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27464, 'blueprintscandeth');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27464, 18, 27464);
+VALUES (27464, 0, 27464);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27464, 16, 'This is an exact copy of the original blueprints for Candeth Keep. Put it on your wall for posterity.') /* LONG_DESC_STRING */

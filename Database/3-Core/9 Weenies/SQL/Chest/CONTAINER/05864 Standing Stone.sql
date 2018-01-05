@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5864, 'monolithfrore1');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5864, 21, 5864);
+VALUES (5864, 0, 5864);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5864, 16, 'A standing stone. There is a circular indentation in the center, which would seem to form the outline of an amulet or seal.') /* LONG_DESC_STRING */

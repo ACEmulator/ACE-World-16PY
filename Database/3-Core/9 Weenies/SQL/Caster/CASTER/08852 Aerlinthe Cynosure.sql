@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8852, 'aerlinthecynosure');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8852, 18, 8852);
+VALUES (8852, 0, 8852);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8852, 16, 'An irregularly carved obsidian sphere, enchanted with a permanent tie to the island of Aerlinthe. This item will cast its teleport spell on the caster when it is WIELDED. It will not be lost on death, cannot be given, and may only be taken once.') /* LONG_DESC_STRING */

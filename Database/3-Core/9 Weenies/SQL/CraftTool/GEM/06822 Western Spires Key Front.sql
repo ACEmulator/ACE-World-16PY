@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6822, 'keyspirewestfront');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6822, 18, 6822);
+VALUES (6822, 0, 6822);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6822, 16, 'The front section of an incomplete skeletal key, assembled from two fragments found in shadow spires. ') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11454, 'totemaudetaunga-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11454, 18, 11454);
+VALUES (11454, 0, 11454);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11454, 16, 'A beautifully carved obsidian totem of Audetaunga. ') /* LONG_DESC_STRING */

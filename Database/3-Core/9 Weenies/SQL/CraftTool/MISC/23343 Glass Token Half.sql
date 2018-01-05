@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23343, 'spearkeyhalf2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23343, 18, 23343);
+VALUES (23343, 0, 23343);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23343, 16, 'This appears to be half of a token made of glass. Attach to the other half to complete the token.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2962, 'scrollshockblast6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2962, 18, 2962);
+VALUES (2962, 0, 2962);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2962, 16, 'When learned, this spell shoots three shock waves outward from the caster. Each wave does 21-40 points of damage to the first thing it hits.') /* LONG_DESC_STRING */

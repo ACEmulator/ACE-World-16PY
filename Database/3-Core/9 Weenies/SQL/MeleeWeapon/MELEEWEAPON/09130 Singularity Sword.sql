@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9130, 'swordsingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9130, 18, 9130);
+VALUES (9130, 0, 9130);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9130, 16, 'A gift from Martine: Your sword is sharp, your arm is strong, but soon you will find Death''s reach is long.') /* LONG_DESC_STRING */

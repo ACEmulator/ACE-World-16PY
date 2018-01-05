@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27670, 'manafluterenegade');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27670, 32784, 27670);
+VALUES (27670, 0, 27670);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27670, 16, 'A flute of cool liquid. The contents of this flute teem with energy and feel as though they are swirling within the container.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5147, 'storyfrore');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5147, 272, 5147);
+VALUES (5147, 0, 5147);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5147, 16, 'A book written by Abrim of Morningthaw, one of the adventurers who rediscovered the Lost City of Frore, and destroyed the powerful magical artifact at its heart.') /* LONG_DESC_STRING */

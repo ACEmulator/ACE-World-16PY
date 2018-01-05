@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9064, 'orbhieromancer');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9064, 18, 9064);
+VALUES (9064, 0, 9064);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9064, 16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LONG_DESC_STRING */

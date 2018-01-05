@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29279, 'gemaugmentationnaturalresistancepierc');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29279, 18, 29279);
+VALUES (29279, 0, 29279);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29279, 16, 'Long description shows up when players ID an item.') /* LONG_DESC_STRING */

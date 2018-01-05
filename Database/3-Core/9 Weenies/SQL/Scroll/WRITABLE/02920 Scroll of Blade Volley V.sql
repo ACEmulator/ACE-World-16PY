@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2920, 'scrollbladevolley5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2920, 18, 2920);
+VALUES (2920, 0, 2920);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2920, 16, 'When learned, this spell shoots three whirling blades toward the target. Each blade does 13-25 points of Slashing damage to the first thing it hits.') /* LONG_DESC_STRING */

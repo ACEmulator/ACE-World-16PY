@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5411, 'scorebooksword');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5411, 16, 5411);
+VALUES (5411, 0, 5411);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5411, 32, 'no man or woman on Dereth has attained a level of swordsmanship worthy of this honor.') /* SCORE_NO_ENTRY_STRING */

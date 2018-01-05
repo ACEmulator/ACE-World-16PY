@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11158, 'skilltokenarcanelore-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11158, 18, 11158);
+VALUES (11158, 0, 11158);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11158, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Arcane Lore skill. There are tesserae available for each skill in the game. If you don''t want a point of Arcane Lore, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */

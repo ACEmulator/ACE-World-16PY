@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28470, 'keymorgluukreward');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28470, 18, 28470);
+VALUES (28470, 0, 28470);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28470, 16, 'This key was crafted to fit the locks of several special chests within a treasure hold created by High Queen Elysa.') /* LONG_DESC_STRING */

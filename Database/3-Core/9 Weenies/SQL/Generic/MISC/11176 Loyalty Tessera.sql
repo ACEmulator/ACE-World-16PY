@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11176, 'skilltokenloyalty-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11176, 18, 11176);
+VALUES (11176, 0, 11176);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11176, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Loyalty skill. There are tesserae available for each skill in the game. If you don''t want a point of Loyalty, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */

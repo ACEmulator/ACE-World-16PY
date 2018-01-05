@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8777, 'skullpalacost');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8777, 18, 8777);
+VALUES (8777, 0, 8777);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8777, 16, 'The skull of Avoren Palacost, preserved with powerful magic.') /* LONG_DESC_STRING */

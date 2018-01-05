@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3646, 'arrowfireenchanted');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3646, 16, 3646);
+VALUES (3646, 0, 3646);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3646, 16, 'Enchanted fire arrow that does fire damage, of course.') /* LONG_DESC_STRING */

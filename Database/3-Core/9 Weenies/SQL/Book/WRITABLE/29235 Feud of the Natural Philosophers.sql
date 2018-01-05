@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29235, 'rumorishaqslostkey');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29235, 272, 29235);
+VALUES (29235, 0, 29235);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29235, 16, 'This rumor describes a task suitable for a single character of level 110 or so. The rewards include either a mace or a crossbow.') /* LONG_DESC_STRING */

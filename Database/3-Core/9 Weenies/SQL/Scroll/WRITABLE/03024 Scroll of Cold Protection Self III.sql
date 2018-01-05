@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3024, 'scrollcoldprotectionself3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3024, 18, 3024);
+VALUES (3024, 0, 3024);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3024, 16, 'When learned, this spell reduces damage the caster takes from Cold by 33%.') /* LONG_DESC_STRING */

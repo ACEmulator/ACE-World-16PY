@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5966, 'scrollfletchingineptitude5');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5966, 18, 5966);
+VALUES (5966, 0, 5966);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5966, 16, 'When learned, this spell decreases the target''s Fletching skill by 50%.') /* LONG_DESC_STRING */

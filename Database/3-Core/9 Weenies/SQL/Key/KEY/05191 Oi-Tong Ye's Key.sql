@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5191, 'keyoitongye');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5191, 18, 5191);
+VALUES (5191, 0, 5191);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5191, 16, 'A strangely shaped jade key, glowing slightly. It opens a chest in the Shreth Hive dungeon.') /* LONG_DESC_STRING */

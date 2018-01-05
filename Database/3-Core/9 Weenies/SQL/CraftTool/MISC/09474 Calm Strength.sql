@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9474, 'infusionmindarm');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9474, 18, 9474);
+VALUES (9474, 0, 9474);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9474, 16, 'To be pure and righteous one must have the strength to carry out their convictions.') /* LONG_DESC_STRING */

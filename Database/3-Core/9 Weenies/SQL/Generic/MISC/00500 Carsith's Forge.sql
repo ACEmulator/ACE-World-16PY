@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (500, 'sign-arwicshopblacksmith');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (500, 20, 500);
+VALUES (500, 0, 500);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (500, 16, 'Carsith''s Forge                                                                                                                                      Use side door.') /* LONG_DESC_STRING */

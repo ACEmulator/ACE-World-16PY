@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10727, 'notevirindiinculcatortranslated');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10727, 272, 10727);
+VALUES (10727, 0, 10727);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10727, 16, 'A translation written by Diyas al-Yat, of a message shard taken from a Virindi Director in the Inculcation Cells dungeon.') /* LONG_DESC_STRING */

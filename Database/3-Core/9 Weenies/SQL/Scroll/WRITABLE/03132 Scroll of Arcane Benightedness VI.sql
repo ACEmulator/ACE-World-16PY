@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3132, 'scrollarcanebenightedness6');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3132, 18, 3132);
+VALUES (3132, 0, 3132);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3132, 16, 'When learned, this spell decreases the caster''s Arcane Lore skill by 60%.') /* LONG_DESC_STRING */

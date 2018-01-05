@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14444, 'letterregiciderylanan2');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14444, 272, 14444);
+VALUES (14444, 0, 14444);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14444, 1, 'Dame Tsaya''s Letter to Sir Rylanan') /* NAME_STRING */

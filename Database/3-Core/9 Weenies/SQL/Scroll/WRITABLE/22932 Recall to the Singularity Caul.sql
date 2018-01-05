@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22932, 'scrollvirindiislandrecall');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22932, 18, 22932);
+VALUES (22932, 0, 22932);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22932, 16, 'When learned, this spell transports the caster to the Singularity Caul.') /* LONG_DESC_STRING */

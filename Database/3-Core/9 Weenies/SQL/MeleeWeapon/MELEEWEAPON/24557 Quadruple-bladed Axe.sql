@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24557, 'axerenegaderaids');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24557, 18, 24557);
+VALUES (24557, 0, 24557);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24557, 16, 'Picked up from General Garsh, a defeated Renegade Lugian') /* LONG_DESC_STRING */

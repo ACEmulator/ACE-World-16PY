@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (470, 'sign-crossroadscragstonerithwic');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (470, 20, 470);
+VALUES (470, 0, 470);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (470, 16, 'North: Cragstone, 1/2 mile. West: Rithwic, 3 1/2 miles.') /* LONG_DESC_STRING */

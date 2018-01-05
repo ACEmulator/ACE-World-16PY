@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7916, 'septundeadnote');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7916, 272, 7916);
+VALUES (7916, 0, 7916);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7916, 16, 'Three matched sheaves of paper, covered with Dericostian runes, recovered from powerful undead. The message appears to be complete, but you cannot read it.') /* LONG_DESC_STRING */

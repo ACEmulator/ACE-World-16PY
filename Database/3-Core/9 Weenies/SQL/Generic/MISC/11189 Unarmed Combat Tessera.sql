@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11189, 'skilltokenunarmedcombat-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11189, 18, 11189);
+VALUES (11189, 0, 11189);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11189, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Unarmed Combat skill. There are tesserae available for each skill in the game. If you don''t want a point of Unarmed Combat, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */

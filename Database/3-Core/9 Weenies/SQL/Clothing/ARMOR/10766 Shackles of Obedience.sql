@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10766, 'bracersmanacles');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10766, 18, 10766);
+VALUES (10766, 0, 10766);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10766, 16, 'Shackles used to bind the wrists.  They have a long chain between them, allowing for freedom of movement.') /* LONG_DESC_STRING */

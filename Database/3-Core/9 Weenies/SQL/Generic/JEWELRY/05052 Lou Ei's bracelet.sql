@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5052, 'braceletlouei');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5052, 18, 5052);
+VALUES (5052, 0, 5052);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5052, 16, 'A plain bracelet, owned by Lou Ei of Yanshi North Outpost.') /* LONG_DESC_STRING */

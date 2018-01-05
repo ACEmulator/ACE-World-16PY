@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8556, 'bookvesayenbandit');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8556, 272, 8556);
+VALUES (8556, 0, 8556);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8556, 16, 'Onda Nakoza''s history of the Vesayen Isles.') /* LONG_DESC_STRING */

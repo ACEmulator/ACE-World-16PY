@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27260, 'gempudding');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27260, 16, 27260);
+VALUES (27260, 0, 27260);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27260, 16, 'A hearty pudding made from carenzi meat and spices found on the Marescent Plateau.') /* LONG_DESC_STRING */

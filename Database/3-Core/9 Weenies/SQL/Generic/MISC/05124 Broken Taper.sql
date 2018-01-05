@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5124, 'brokentaper');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5124, 18, 5124);
+VALUES (5124, 0, 5124);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5124, 16, 'A hopelessly broken and battered taper.  It could never be used for magic.') /* LONG_DESC_STRING */

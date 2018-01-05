@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15765, 'amuletruineddagger');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15765, 18, 15765);
+VALUES (15765, 0, 15765);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15765, 16, 'An Amulet crafted in pyreal that bears the symbol of a dagger. The amulet is damaged, seemingly beyond repair.') /* LONG_DESC_STRING */

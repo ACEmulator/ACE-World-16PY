@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27389, 'gemquestdeepcaverns');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27389, 18, 27389);
+VALUES (27389, 0, 27389);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27389, 16, 'Strange words float across the surface of the gem. You recognize words you never knew and a dark veil falls before your eyes. "We hold the knowledge of our father. We must prepare for his return."') /* LONG_DESC_STRING */

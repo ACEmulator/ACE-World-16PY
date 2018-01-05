@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (468, 'sign-cragstone');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (468, 20, 468);
+VALUES (468, 0, 468);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (468, 16, 'Founded in memory of Thorsten Cragstone: warrior, liberator, martyr.') /* LONG_DESC_STRING */

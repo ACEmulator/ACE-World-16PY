@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28521, 'herbskrank');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28521, 18, 28521);
+VALUES (28521, 0, 28521);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28521, 16, 'This pungent sack of herbs was given to you by Captain K''rank of Linvak Tukal. He wishes it delivered to MacNiall the Unruled in MacNiall''s Freehold.') /* LONG_DESC_STRING */

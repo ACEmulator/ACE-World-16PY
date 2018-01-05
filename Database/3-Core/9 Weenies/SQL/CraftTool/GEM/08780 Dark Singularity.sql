@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8780, 'singularitydark');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8780, 18, 8780);
+VALUES (8780, 0, 8780);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8780, 16, 'A magical artifact resulting from the combination of the Heart of Shadow and a Fragment of the Singularity.') /* LONG_DESC_STRING */

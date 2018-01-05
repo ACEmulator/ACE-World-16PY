@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8779, 'fragmentsingularity');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8779, 18, 8779);
+VALUES (8779, 0, 8779);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8779, 16, 'A magical shard obtained from the Virindi, containing the essence of the unknowable.') /* LONG_DESC_STRING */

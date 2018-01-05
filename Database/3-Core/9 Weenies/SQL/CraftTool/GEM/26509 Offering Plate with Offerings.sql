@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26509, 'platetemple3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26509, 18, 26509);
+VALUES (26509, 0, 26509);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26509, 16, 'A simple plate used to present offerings to the High Matriarch. There are three gem in the plate.') /* LONG_DESC_STRING */

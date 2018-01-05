@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23471, 'tokenminnow');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23471, 18, 23471);
+VALUES (23471, 0, 23471);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23471, 16, 'Hand this token to a Tackle Master to get the Title of Pond Scum.') /* LONG_DESC_STRING */

@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28508, 'cratesclavuscatalogue3');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28508, 18, 28508);
+VALUES (28508, 0, 28508);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28508, 16, 'A functional crate for storing messy materials. Two of the four bags inside the crate are currently full. In the first two bags you can see a small Sclavus hide and a normal sized Sclavus hide. The next bag has a label for a Large Sclavus Hide.') /* LONG_DESC_STRING */

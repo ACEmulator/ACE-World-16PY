@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29475, 'bookoswaldskillmanual');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29475, 272, 29475);
+VALUES (29475, 0, 29475);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29475, 16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LONG_DESC_STRING */

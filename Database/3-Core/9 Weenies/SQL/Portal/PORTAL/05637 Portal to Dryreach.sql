@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5637, 'portaldryreachshortcut');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5637, 262164, 5637);
+VALUES (5637, 0, 5637);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5637, 16, 'This portal goes to the Aluvian town of Dryreach, besieged by renegade Tumeroks. Due to its besieged status, Dryreach is only accessible with the appropriate key. This is a good town for characters over level 40.') /* LONG_DESC_STRING */

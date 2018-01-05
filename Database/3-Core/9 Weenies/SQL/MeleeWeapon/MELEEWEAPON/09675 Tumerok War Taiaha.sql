@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9675, 'taiahatumerokwar');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9675, 18, 9675);
+VALUES (9675, 0, 9675);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9675, 16, 'Aun Tanua''s War Taiaha, carried fiercely during the siege of Dryreach. Sleep, my brother, and dream of the waves of Te Timaru.') /* LONG_DESC_STRING */

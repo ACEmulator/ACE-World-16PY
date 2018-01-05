@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5940, 'smeltingpot');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5940, 18, 5940);
+VALUES (5940, 0, 5940);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5940, 16, 'A crude pot used to heat ore to super high temperature. The smelting pot has seen better days.') /* LONG_DESC_STRING */

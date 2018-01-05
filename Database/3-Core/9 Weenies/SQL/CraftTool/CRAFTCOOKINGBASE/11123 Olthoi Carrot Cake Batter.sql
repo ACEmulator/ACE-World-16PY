@@ -5,7 +5,7 @@ INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11123, 'battercakecarrotolthoi-xp');
 
 INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11123, 16, 11123);
+VALUES (11123, 0, 11123);
 
 INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11123, 16, 'Thick batter made with Olthoi Eggs, containing finely minced carrot.') /* LONG_DESC_STRING */
