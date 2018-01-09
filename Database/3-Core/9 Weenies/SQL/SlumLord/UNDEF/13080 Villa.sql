@@ -28,10 +28,10 @@ VALUES (13080, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (13080, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (13080, 16, 273, 2000000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (13080, 16, 11710, 5, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (13080, 16, 511, 1, 0) /* Create Crude Lockpick for HouseBuy_DestinationType */
-     , (13080, 32, 273, 100000, 0) /* Create Pyreal for HouseRent_DestinationType */
-     , (13080, 32, 11710, 2, 0) /* Create Writ of Refuge for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (13080, 16, 273, 2000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (13080, 16, 11710, 5, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (13080, 16, 511, 1, 0, 0, False) /* Create Crude Lockpick for HouseBuy_DestinationType */
+     , (13080, 32, 273, 100000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */
+     , (13080, 32, 11710, 2, 0, 0, False) /* Create Writ of Refuge for HouseRent_DestinationType */;
 

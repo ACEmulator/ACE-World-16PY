@@ -96,8 +96,8 @@ VALUES (11500, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11500, 128, 25) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11500, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11500, 2, 25557, 0, 0) /* Create Eye Patch for Wield_DestinationType */
-     , (11500, 9, 25557, 0, 0) /* Create Eye Patch for ContainTreasure_DestinationType */
-     , (11500, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11500, 2, 25557, 0, 0, 0, False) /* Create Eye Patch for Wield_DestinationType */
+     , (11500, 9, 25557, 0, 0, 0.05, False) /* Create Eye Patch for ContainTreasure_DestinationType */
+     , (11500, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -87,7 +87,7 @@ VALUES (11498, 64, 117) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11498, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11498, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11498, 9, 28861, 0, 0) /* Create Pirate Hook for ContainTreasure_DestinationType */
-     , (11498, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11498, 9, 28861, 0, 0, 0.05, False) /* Create Pirate Hook for ContainTreasure_DestinationType */
+     , (11498, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

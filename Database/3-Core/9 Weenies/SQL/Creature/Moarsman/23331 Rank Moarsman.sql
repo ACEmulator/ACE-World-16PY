@@ -93,7 +93,7 @@ VALUES (23331, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23331, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23331, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23331, 9, 20858, 0, 0) /* Create Fish Stamp for ContainTreasure_DestinationType */
-     , (23331, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23331, 9, 20858, 0, 0, 0.03, False) /* Create Fish Stamp for ContainTreasure_DestinationType */
+     , (23331, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

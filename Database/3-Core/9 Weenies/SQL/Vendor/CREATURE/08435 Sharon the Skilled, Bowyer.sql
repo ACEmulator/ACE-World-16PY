@@ -94,47 +94,47 @@ VALUES (8435, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8435, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8435, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8435, 2, 306, 0, 0) /* Create Longbow for Wield_DestinationType */
-     , (8435, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (8435, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (8435, 2, 115, 0, 14) /* Create Leather Boots for Wield_DestinationType */
-     , (8435, 2, 119, 0, 14) /* Create Cowl for Wield_DestinationType */
-     , (8435, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (8435, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (8435, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (8435, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (8435, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (8435, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (8435, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (8435, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (8435, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (8435, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (8435, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */
-     , (8435, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (8435, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (8435, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (8435, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (8435, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (8435, 4, 3599, -1, 0) /* Create Blunt Arrow for Shop_DestinationType */
-     , (8435, 4, 3603, -1, 0) /* Create Blunt Quarrel for Shop_DestinationType */
-     , (8435, 4, 3601, -1, 0) /* Create Frog Crotch Arrow for Shop_DestinationType */
-     , (8435, 4, 3605, -1, 0) /* Create Frog Crotch Quarrel for Shop_DestinationType */
-     , (8435, 4, 3598, -1, 0) /* Create Armor Piercing Arrow for Shop_DestinationType */
-     , (8435, 4, 3602, -1, 0) /* Create Armor Piercing Quarrel for Shop_DestinationType */
-     , (8435, 4, 9359, -1, 0) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
-     , (8435, 4, 9363, -1, 0) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
-     , (8435, 4, 9362, -1, 0) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
-     , (8435, 4, 9361, -1, 0) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
-     , (8435, 4, 9366, -1, 0) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
-     , (8435, 4, 9377, -1, 0) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
-     , (8435, 4, 9378, -1, 0) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
-     , (8435, 4, 23858, -1, 0) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
-     , (8435, 4, 23857, -1, 0) /* Create Bundle of Spiketails for Shop_DestinationType */
-     , (8435, 4, 12463, -1, 0) /* Create Atlatl for Shop_DestinationType */
-     , (8435, 4, 12464, -1, 0) /* Create Atlatl Dart for Shop_DestinationType */
-     , (8435, 4, 15296, -1, 0) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
-     , (8435, 4, 15298, -1, 0) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
-     , (8435, 4, 306, -1, 0) /* Create Longbow for Shop_DestinationType */
-     , (8435, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8435, 2, 306, 0, 0, 0, False) /* Create Longbow for Wield_DestinationType */
+     , (8435, 2, 130, 0, 8, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (8435, 2, 127, 0, 4, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (8435, 2, 115, 0, 14, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (8435, 2, 119, 0, 14, 0, False) /* Create Cowl for Wield_DestinationType */
+     , (8435, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (8435, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (8435, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (8435, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (8435, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (8435, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (8435, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (8435, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (8435, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (8435, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (8435, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */
+     , (8435, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (8435, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (8435, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (8435, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (8435, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (8435, 4, 3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop_DestinationType */
+     , (8435, 4, 3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop_DestinationType */
+     , (8435, 4, 3601, -1, 0, 0, False) /* Create Frog Crotch Arrow for Shop_DestinationType */
+     , (8435, 4, 3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel for Shop_DestinationType */
+     , (8435, 4, 3598, -1, 0, 0, False) /* Create Armor Piercing Arrow for Shop_DestinationType */
+     , (8435, 4, 3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel for Shop_DestinationType */
+     , (8435, 4, 9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
+     , (8435, 4, 9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
+     , (8435, 4, 9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
+     , (8435, 4, 9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
+     , (8435, 4, 9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
+     , (8435, 4, 9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
+     , (8435, 4, 9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
+     , (8435, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
+     , (8435, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop_DestinationType */
+     , (8435, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop_DestinationType */
+     , (8435, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop_DestinationType */
+     , (8435, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
+     , (8435, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
+     , (8435, 4, 306, -1, 0, 0, False) /* Create Longbow for Shop_DestinationType */
+     , (8435, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */;
 

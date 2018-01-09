@@ -122,11 +122,11 @@ VALUES (27286, 64, 4800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27286, 128, 4600) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27286, 256, 4440) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27286, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (27286, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27286, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27286, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27286, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (27286, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27286, 9, 6058, 0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (27286, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27286, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27286, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27286, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (27286, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

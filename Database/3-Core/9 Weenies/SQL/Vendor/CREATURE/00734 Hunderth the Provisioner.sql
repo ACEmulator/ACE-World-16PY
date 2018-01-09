@@ -94,19 +94,19 @@ VALUES (734, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (734, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (734, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (734, 2, 124, 0, 6) /* Create Jerkin for Wield_DestinationType */
-     , (734, 2, 127, 0, 18) /* Create Pants for Wield_DestinationType */
-     , (734, 2, 132, 0, 7) /* Create Shoes for Wield_DestinationType */
-     , (734, 2, 118, 0, 18) /* Create Cap for Wield_DestinationType */
-     , (734, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (734, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (734, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (734, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (734, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (734, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (734, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (734, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (734, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (734, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (734, 2, 124, 0, 6, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (734, 2, 127, 0, 18, 1, False) /* Create Pants for Wield_DestinationType */
+     , (734, 2, 132, 0, 7, 0.33, False) /* Create Shoes for Wield_DestinationType */
+     , (734, 2, 118, 0, 18, 1, False) /* Create Cap for Wield_DestinationType */
+     , (734, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (734, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (734, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (734, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (734, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (734, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (734, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (734, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (734, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (734, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */;
 

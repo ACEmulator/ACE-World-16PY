@@ -92,6 +92,6 @@ VALUES (26875, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26875, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26875, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26875, 4, 26240, -1, 0) /* Create Liang Chi Settlement Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26875, 4, 26240, -1, 0, 0, False) /* Create Liang Chi Settlement Portal Gem for Shop_DestinationType */;
 

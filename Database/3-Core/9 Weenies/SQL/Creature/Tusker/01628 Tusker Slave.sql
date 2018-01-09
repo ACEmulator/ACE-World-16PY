@@ -89,11 +89,11 @@ VALUES (1628, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1628, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1628, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1628, 9, 46, 0, 0) /* Create Metal Cap for ContainTreasure_DestinationType */
-     , (1628, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1628, 9, 19478, 0, 0) /* Create Sharp Tusker Slave Tusk for ContainTreasure_DestinationType */
-     , (1628, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1628, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (1628, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1628, 9, 46, 0, 0, 0.1, False) /* Create Metal Cap for ContainTreasure_DestinationType */
+     , (1628, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (1628, 9, 19478, 0, 0, 0.1, False) /* Create Sharp Tusker Slave Tusk for ContainTreasure_DestinationType */
+     , (1628, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (1628, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (1628, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -113,9 +113,9 @@ VALUES (14558, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14558, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14558, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14558, 9, 3696, 0, 0) /* Create Blue Gem for ContainTreasure_DestinationType */
-     , (14558, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (14558, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (14558, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14558, 9, 3696, 0, 0, 0.01, False) /* Create Blue Gem for ContainTreasure_DestinationType */
+     , (14558, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (14558, 9, 9292, 0, 0, 0.01, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (14558, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

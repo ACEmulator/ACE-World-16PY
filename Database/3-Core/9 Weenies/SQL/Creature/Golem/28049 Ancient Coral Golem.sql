@@ -106,11 +106,11 @@ VALUES (28049, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28049, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28049, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28049, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (28049, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28049, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (28049, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28049, 9, 7605, 0, 0) /* Create Coral Heart for ContainTreasure_DestinationType */
-     , (28049, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28049, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (28049, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (28049, 9, 6353, 0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (28049, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (28049, 9, 7605, 0, 0, 0.07, False) /* Create Coral Heart for ContainTreasure_DestinationType */
+     , (28049, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */;
 

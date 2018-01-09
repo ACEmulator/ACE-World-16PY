@@ -95,9 +95,9 @@ VALUES (5429, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5429, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5429, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5429, 9, 5633, 0, 0) /* Create Rabbit Carcass for ContainTreasure_DestinationType */
-     , (5429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5429, 9, 5803, 0, 0) /* Create Oregano for ContainTreasure_DestinationType */
-     , (5429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5429, 9, 5633, 0, 0, 0.05, False) /* Create Rabbit Carcass for ContainTreasure_DestinationType */
+     , (5429, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (5429, 9, 5803, 0, 0, 0.05, False) /* Create Oregano for ContainTreasure_DestinationType */
+     , (5429, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

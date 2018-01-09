@@ -109,7 +109,7 @@ VALUES (27558, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27558, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27558, 256, 160) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27558, 9, 27526, 0, 0) /* Create Burun Idol for ContainTreasure_DestinationType */
-     , (27558, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27558, 9, 27526, 0, 0, 1, False) /* Create Burun Idol for ContainTreasure_DestinationType */
+     , (27558, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

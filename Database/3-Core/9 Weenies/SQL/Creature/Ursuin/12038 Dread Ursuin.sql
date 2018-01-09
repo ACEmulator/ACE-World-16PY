@@ -96,11 +96,11 @@ VALUES (12038, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12038, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12038, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12038, 9, 8665, 0, 0) /* Create Ursuin Scalp for ContainTreasure_DestinationType */
-     , (12038, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12038, 9, 23590, 0, 0) /* Create Heavy Ursuin Coat for ContainTreasure_DestinationType */
-     , (12038, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12038, 9, 8665, 0, 0, 0.5, False) /* Create Ursuin Scalp for ContainTreasure_DestinationType */
+     , (12038, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (12038, 9, 23590, 0, 0, 0.3, False) /* Create Heavy Ursuin Coat for ContainTreasure_DestinationType */
+     , (12038, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12038, 0.33, 7994, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dire Ursuin (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

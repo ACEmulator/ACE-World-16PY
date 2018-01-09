@@ -94,45 +94,45 @@ VALUES (4439, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4439, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4439, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4439, 2, 307, 0, 0) /* Create Shortbow for Wield_DestinationType */
-     , (4439, 2, 130, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (4439, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (4439, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */
-     , (4439, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4439, 4, 307, -1, 0) /* Create Shortbow for Shop_DestinationType */
-     , (4439, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (4439, 4, 312, -1, 0) /* Create Light Crossbow for Shop_DestinationType */
-     , (4439, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (4439, 4, 12463, -1, 0) /* Create Atlatl for Shop_DestinationType */
-     , (4439, 4, 12464, -1, 0) /* Create Atlatl Dart for Shop_DestinationType */
-     , (4439, 4, 15296, -1, 0) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
-     , (4439, 4, 15298, -1, 0) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
-     , (4439, 4, 23858, -1, 0) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
-     , (4439, 4, 23857, -1, 0) /* Create Bundle of Spiketails for Shop_DestinationType */
-     , (4439, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (4439, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (4439, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (4439, 4, 5344, -1, 0) /* Create Bundle of Blunt Arrowheads for Shop_DestinationType */
-     , (4439, 4, 5345, -1, 0) /* Create Bundle of Broad Arrowheads for Shop_DestinationType */
-     , (4439, 4, 9378, -1, 0) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
-     , (4439, 4, 9377, -1, 0) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
-     , (4439, 4, 9359, -1, 0) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
-     , (4439, 4, 9362, -1, 0) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
-     , (4439, 4, 9363, -1, 0) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
-     , (4439, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4439, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4439, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (4439, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (4439, 4, 3758, -1, 0) /* Create Acid Throwing Axe for Shop_DestinationType */
-     , (4439, 4, 3759, -1, 0) /* Create Lightning Throwing Axe for Shop_DestinationType */
-     , (4439, 4, 3760, -1, 0) /* Create Flaming Throwing Axe for Shop_DestinationType */
-     , (4439, 4, 3761, -1, 0) /* Create Frost Throwing Axe for Shop_DestinationType */
-     , (4439, 4, 310, -1, 0) /* Create Throwing Club for Shop_DestinationType */
-     , (4439, 4, 320, -1, 0) /* Create Javelin for Shop_DestinationType */
-     , (4439, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (4439, 4, 3786, -1, 0) /* Create Throwing Acid Dart for Shop_DestinationType */
-     , (4439, 4, 3787, -1, 0) /* Create Throwing Lightning Dart for Shop_DestinationType */
-     , (4439, 4, 3788, -1, 0) /* Create Throwing Fire Dart for Shop_DestinationType */
-     , (4439, 4, 3789, -1, 0) /* Create Throwing Frost Dart for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4439, 2, 307, 0, 0, 0, False) /* Create Shortbow for Wield_DestinationType */
+     , (4439, 2, 130, 0, 4, 0.6, False) /* Create Shirt for Wield_DestinationType */
+     , (4439, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (4439, 2, 2606, 0, 9, 0.5, False) /* Create Boots for Wield_DestinationType */
+     , (4439, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4439, 4, 307, -1, 0, 0, False) /* Create Shortbow for Shop_DestinationType */
+     , (4439, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (4439, 4, 312, -1, 0, 0, False) /* Create Light Crossbow for Shop_DestinationType */
+     , (4439, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (4439, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop_DestinationType */
+     , (4439, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop_DestinationType */
+     , (4439, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
+     , (4439, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
+     , (4439, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
+     , (4439, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop_DestinationType */
+     , (4439, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (4439, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (4439, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (4439, 4, 5344, -1, 0, 0, False) /* Create Bundle of Blunt Arrowheads for Shop_DestinationType */
+     , (4439, 4, 5345, -1, 0, 0, False) /* Create Bundle of Broad Arrowheads for Shop_DestinationType */
+     , (4439, 4, 9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
+     , (4439, 4, 9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
+     , (4439, 4, 9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
+     , (4439, 4, 9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
+     , (4439, 4, 9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
+     , (4439, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4439, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4439, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (4439, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (4439, 4, 3758, -1, 0, 0, False) /* Create Acid Throwing Axe for Shop_DestinationType */
+     , (4439, 4, 3759, -1, 0, 0, False) /* Create Lightning Throwing Axe for Shop_DestinationType */
+     , (4439, 4, 3760, -1, 0, 0, False) /* Create Flaming Throwing Axe for Shop_DestinationType */
+     , (4439, 4, 3761, -1, 0, 0, False) /* Create Frost Throwing Axe for Shop_DestinationType */
+     , (4439, 4, 310, -1, 0, 0, False) /* Create Throwing Club for Shop_DestinationType */
+     , (4439, 4, 320, -1, 0, 0, False) /* Create Javelin for Shop_DestinationType */
+     , (4439, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (4439, 4, 3786, -1, 0, 0, False) /* Create Throwing Acid Dart for Shop_DestinationType */
+     , (4439, 4, 3787, -1, 0, 0, False) /* Create Throwing Lightning Dart for Shop_DestinationType */
+     , (4439, 4, 3788, -1, 0, 0, False) /* Create Throwing Fire Dart for Shop_DestinationType */
+     , (4439, 4, 3789, -1, 0, 0, False) /* Create Throwing Frost Dart for Shop_DestinationType */;
 

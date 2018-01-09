@@ -106,11 +106,11 @@ VALUES (7392, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7392, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7392, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7392, 9, 7399, 0, 0) /* Create Black Boulder for ContainTreasure_DestinationType */
-     , (7392, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7392, 9, 6354, 0, 0) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
-     , (7392, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7392, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (7392, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7392, 9, 7399, 0, 0, 1, False) /* Create Black Boulder for ContainTreasure_DestinationType */
+     , (7392, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7392, 9, 6354, 0, 0, 0.5, False) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
+     , (7392, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (7392, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (7392, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

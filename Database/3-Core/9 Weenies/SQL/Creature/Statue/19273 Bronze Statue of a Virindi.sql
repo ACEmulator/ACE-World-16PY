@@ -116,7 +116,7 @@ VALUES (19273, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19273, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19273, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19273, 9, 19251, 0, 0) /* Create Bronze Nuts and Bolts from a Statue for ContainTreasure_DestinationType */
-     , (19273, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19273, 9, 19251, 0, 0, 0.05, False) /* Create Bronze Nuts and Bolts from a Statue for ContainTreasure_DestinationType */
+     , (19273, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

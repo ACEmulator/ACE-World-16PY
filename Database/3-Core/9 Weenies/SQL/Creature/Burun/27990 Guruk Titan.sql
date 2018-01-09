@@ -90,7 +90,7 @@ VALUES (27990, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27990, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27990, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27990, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (27990, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27990, 9, 28984, 0, 0, 0.05, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (27990, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

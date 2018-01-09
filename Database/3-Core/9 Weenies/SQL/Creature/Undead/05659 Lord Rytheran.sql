@@ -128,11 +128,11 @@ VALUES (5659, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5659, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5659, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5659, 8, 5666, 0, 0) /* Create Letter for Treasure_DestinationType */
-     , (5659, 9, 7410, 0, 0) /* Create Rytheran's Key for ContainTreasure_DestinationType */
-     , (5659, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (5659, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5659, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (5659, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5659, 8, 5666, 0, 0, 1, False) /* Create Letter for Treasure_DestinationType */
+     , (5659, 9, 7410, 0, 0, 1, False) /* Create Rytheran's Key for ContainTreasure_DestinationType */
+     , (5659, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (5659, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (5659, 9, 7045, 0, 0, 0.02, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (5659, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

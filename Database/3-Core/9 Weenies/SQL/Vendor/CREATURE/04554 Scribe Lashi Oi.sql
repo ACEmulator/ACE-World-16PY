@@ -94,31 +94,31 @@ VALUES (4554, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4554, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4554, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4554, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (4554, 2, 2601, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (4554, 2, 132, 0, 18) /* Create Shoes for Wield_DestinationType */
-     , (4554, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4554, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (4554, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (4554, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (4554, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (4554, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (4554, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (4554, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (4554, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (4554, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (4554, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */
-     , (4554, 4, 9118, -1, 0) /* Create Puppet Show for Shop_DestinationType */
-     , (4554, 4, 9124, -1, 0) /* Create The Beginning for Shop_DestinationType */
-     , (4554, 4, 27851, -1, 0) /* Create The Weapons of the Singularity for Shop_DestinationType */
-     , (4554, 4, 9319, -1, 0) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
-     , (4554, 4, 5585, -1, 0) /* Create Sho Cookbook for Shop_DestinationType */
-     , (4554, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (4554, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (4554, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (4554, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (4554, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (4554, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (4554, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4554, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (4554, 2, 2601, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (4554, 2, 132, 0, 18, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (4554, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4554, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (4554, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (4554, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (4554, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (4554, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (4554, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (4554, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (4554, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (4554, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (4554, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */
+     , (4554, 4, 9118, -1, 0, 0, False) /* Create Puppet Show for Shop_DestinationType */
+     , (4554, 4, 9124, -1, 0, 0, False) /* Create The Beginning for Shop_DestinationType */
+     , (4554, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity for Shop_DestinationType */
+     , (4554, 4, 9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
+     , (4554, 4, 5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop_DestinationType */
+     , (4554, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (4554, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (4554, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (4554, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (4554, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (4554, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (4554, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */;
 

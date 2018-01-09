@@ -105,9 +105,9 @@ VALUES (2583, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2583, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2583, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2583, 9, 9260, 0, 0) /* Create Small Sclavus Hide for ContainTreasure_DestinationType */
-     , (2583, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2583, 9, 20861, 0, 0) /* Create Moons Stamp for ContainTreasure_DestinationType */
-     , (2583, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2583, 9, 9260, 0, 0, 0.03, False) /* Create Small Sclavus Hide for ContainTreasure_DestinationType */
+     , (2583, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (2583, 9, 20861, 0, 0, 0.01, False) /* Create Moons Stamp for ContainTreasure_DestinationType */
+     , (2583, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -101,6 +101,6 @@ VALUES (1356, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1356, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1356, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1356, 8, 1358, 0, 0) /* Create Worn Key for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1356, 8, 1358, 0, 0, 1, False) /* Create Worn Key for Treasure_DestinationType */;
 

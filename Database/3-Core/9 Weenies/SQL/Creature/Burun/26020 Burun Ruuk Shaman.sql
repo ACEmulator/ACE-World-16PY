@@ -109,11 +109,11 @@ VALUES (26020, 64, 295) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26020, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26020, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26020, 9, 28318, 0, 0) /* Create Untranslated Writing for ContainTreasure_DestinationType */
-     , (26020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (26020, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (26020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (26020, 9, 28887, 0, 0) /* Create Burun Ruuk Head for ContainTreasure_DestinationType */
-     , (26020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26020, 9, 28318, 0, 0, 0.07, False) /* Create Untranslated Writing for ContainTreasure_DestinationType */
+     , (26020, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (26020, 9, 28984, 0, 0, 0.05, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (26020, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (26020, 9, 28887, 0, 0, 0.05, False) /* Create Burun Ruuk Head for ContainTreasure_DestinationType */
+     , (26020, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

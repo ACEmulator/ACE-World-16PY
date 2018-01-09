@@ -114,15 +114,15 @@ VALUES (7102, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7102, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7102, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7102, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (7102, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7102, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (7102, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7102, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7102, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7102, 9, 20854, 0, 0) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (7102, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7102, 9, 8146, 0, 0) /* Create Mosswart Head for ContainTreasure_DestinationType */
-     , (7102, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7102, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (7102, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (7102, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (7102, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7102, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7102, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7102, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
+     , (7102, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7102, 9, 8146, 0, 0, 0.05, False) /* Create Mosswart Head for ContainTreasure_DestinationType */
+     , (7102, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

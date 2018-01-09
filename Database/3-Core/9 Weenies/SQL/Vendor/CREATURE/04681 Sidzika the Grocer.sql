@@ -94,18 +94,18 @@ VALUES (4681, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4681, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4681, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4681, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (4681, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (4681, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (4681, 2, 128, 0, 10) /* Create Qafiya for Wield_DestinationType */
-     , (4681, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4681, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (4681, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (4681, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (4681, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (4681, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (4681, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (4681, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4681, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4681, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4681, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4681, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4681, 2, 128, 0, 10, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (4681, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4681, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (4681, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (4681, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (4681, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (4681, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (4681, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (4681, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4681, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */;
 

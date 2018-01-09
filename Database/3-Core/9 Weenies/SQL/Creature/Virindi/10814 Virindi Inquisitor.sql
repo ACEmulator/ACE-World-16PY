@@ -117,15 +117,15 @@ VALUES (10814, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10814, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10814, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10814, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (10814, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10814, 9, 11999, 0, 0) /* Create Broken Virindi Inquisitor Mask for ContainTreasure_DestinationType */
-     , (10814, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10814, 9, 10804, 0, 0) /* Create Obsidian Shard for ContainTreasure_DestinationType */
-     , (10814, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10814, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (10814, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10814, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (10814, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */
+     , (10814, 9, 11999, 0, 0, 0.03, False) /* Create Broken Virindi Inquisitor Mask for ContainTreasure_DestinationType */
+     , (10814, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (10814, 9, 10804, 0, 0, 0.8, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */
+     , (10814, 9, 0, 0, 0, 0.2, False) /* Create  for ContainTreasure_DestinationType */
+     , (10814, 9, 9292, 0, 0, 0.03, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (10814, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (10814, 0.5, 9264, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Virindi Executor (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

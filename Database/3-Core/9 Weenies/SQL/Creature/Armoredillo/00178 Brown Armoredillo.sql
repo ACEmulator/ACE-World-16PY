@@ -89,7 +89,7 @@ VALUES (178, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (178, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (178, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (178, 9, 4232, 0, 0) /* Create Small Armoredillo Hide for ContainTreasure_DestinationType */
-     , (178, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (178, 9, 4232, 0, 0, 0.05, False) /* Create Small Armoredillo Hide for ContainTreasure_DestinationType */
+     , (178, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

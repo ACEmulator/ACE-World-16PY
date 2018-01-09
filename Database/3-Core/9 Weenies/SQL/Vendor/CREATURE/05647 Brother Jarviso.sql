@@ -98,26 +98,26 @@ VALUES (5647, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5647, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5647, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5647, 2, 5851, 0, 4) /* Create Faran Robe with Hood for Wield_DestinationType */
-     , (5647, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (5647, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (5647, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (5647, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (5647, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (5647, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (5647, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (5647, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (5647, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (5647, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (5647, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (5647, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (5647, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (5647, 4, 4607, -1, 0) /* Create Quickness Other II for Shop_DestinationType */
-     , (5647, 4, 4601, -1, 0) /* Create Strength Other II for Shop_DestinationType */
-     , (5647, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (5647, 4, 4605, -1, 0) /* Create Coordination Other II for Shop_DestinationType */
-     , (5647, 4, 5645, -1, 0) /* Create History of Neydisa Castle. for Shop_DestinationType */
-     , (5647, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5647, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5647, 2, 5851, 0, 4, 0.5, False) /* Create Faran Robe with Hood for Wield_DestinationType */
+     , (5647, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (5647, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (5647, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (5647, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (5647, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (5647, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (5647, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (5647, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (5647, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (5647, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (5647, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (5647, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (5647, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (5647, 4, 4607, -1, 0, 0, False) /* Create Quickness Other II for Shop_DestinationType */
+     , (5647, 4, 4601, -1, 0, 0, False) /* Create Strength Other II for Shop_DestinationType */
+     , (5647, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (5647, 4, 4605, -1, 0, 0, False) /* Create Coordination Other II for Shop_DestinationType */
+     , (5647, 4, 5645, -1, 0, 0, False) /* Create History of Neydisa Castle. for Shop_DestinationType */
+     , (5647, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5647, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

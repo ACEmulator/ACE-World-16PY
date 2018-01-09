@@ -92,6 +92,6 @@ VALUES (26945, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26945, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26945, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26945, 4, 26310, -1, 0) /* Create Patron's Honor Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26945, 4, 26310, -1, 0, 0, False) /* Create Patron's Honor Cottages Portal Gem for Shop_DestinationType */;
 

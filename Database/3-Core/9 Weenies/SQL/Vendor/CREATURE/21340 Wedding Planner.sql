@@ -94,41 +94,41 @@ VALUES (21340, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (21340, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (21340, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (21340, 2, 15714, 0, 13) /* Create Wedding Raiment for Wield_DestinationType */
-     , (21340, 4, 14931, -1, 0) /* Create Wedding Handbook for Shop_DestinationType */
-     , (21340, 4, 14913, -1, 0) /* Create Invitation Wedding Hall for Shop_DestinationType */
-     , (21340, 4, 14914, -1, 0) /* Create Invitation Plateau for Shop_DestinationType */
-     , (21340, 4, 14915, -1, 0) /* Create Invitation Ithanc Cathedral for Shop_DestinationType */
-     , (21340, 4, 14917, -1, 0) /* Create Elegant Flower Bouquet for Shop_DestinationType */
-     , (21340, 4, 14916, -1, 0) /* Create Simple Flower Bouquet for Shop_DestinationType */
-     , (21340, 4, 14897, -1, 0) /* Create Wedding Cake Figures for Shop_DestinationType */
-     , (21340, 4, 14898, -1, 0) /* Create Wedding Cake Knife for Shop_DestinationType */
-     , (21340, 4, 14912, -1, 0) /* Create Bottle of Champagne for Shop_DestinationType */
-     , (21340, 4, 14905, -1, 0) /* Create Wedding Gown for Shop_DestinationType */
-     , (21340, 4, 14904, -1, 0) /* Create Wedding Cyclas for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 1) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 2) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 3) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 7) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 5) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 9) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 13) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 14) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 15) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 16) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 17) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 14906, -1, 18) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 1) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 2) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 7) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 3) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 5) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 9) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 13) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 14) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 15) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 16) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 17) /* Create Wedding Raiment for Shop_DestinationType */
-     , (21340, 4, 15714, -1, 18) /* Create Wedding Raiment for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (21340, 2, 15714, 0, 13, 0.5, False) /* Create Wedding Raiment for Wield_DestinationType */
+     , (21340, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook for Shop_DestinationType */
+     , (21340, 4, 14913, -1, 0, 0, False) /* Create Invitation Wedding Hall for Shop_DestinationType */
+     , (21340, 4, 14914, -1, 0, 0, False) /* Create Invitation Plateau for Shop_DestinationType */
+     , (21340, 4, 14915, -1, 0, 0, False) /* Create Invitation Ithanc Cathedral for Shop_DestinationType */
+     , (21340, 4, 14917, -1, 0, 0, False) /* Create Elegant Flower Bouquet for Shop_DestinationType */
+     , (21340, 4, 14916, -1, 0, 0, False) /* Create Simple Flower Bouquet for Shop_DestinationType */
+     , (21340, 4, 14897, -1, 0, 0, False) /* Create Wedding Cake Figures for Shop_DestinationType */
+     , (21340, 4, 14898, -1, 0, 0, False) /* Create Wedding Cake Knife for Shop_DestinationType */
+     , (21340, 4, 14912, -1, 0, 0, False) /* Create Bottle of Champagne for Shop_DestinationType */
+     , (21340, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown for Shop_DestinationType */
+     , (21340, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 1, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 2, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 3, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 7, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 5, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 9, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 13, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 14, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 15, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 16, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 17, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 14906, -1, 18, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 1, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 2, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 7, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 3, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 5, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 9, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 13, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 14, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 15, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 16, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 17, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */
+     , (21340, 4, 15714, -1, 18, 0.5, False) /* Create Wedding Raiment for Shop_DestinationType */;
 

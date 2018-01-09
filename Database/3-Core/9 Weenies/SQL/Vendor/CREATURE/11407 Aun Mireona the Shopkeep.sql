@@ -97,23 +97,23 @@ VALUES (11407, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11407, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11407, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11407, 4, 138, -1, 91) /* Create Belt Pouch for Shop_DestinationType */
-     , (11407, 4, 139, -1, 91) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (11407, 4, 136, -1, 77) /* Create Pack for Shop_DestinationType */
-     , (11407, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (11407, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (11407, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (11407, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (11407, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (11407, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (11407, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (11407, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (11407, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (11407, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (11407, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (11407, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (11407, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (11407, 4, 22858, -1, 0) /* Create Tumerok Torch for Shop_DestinationType */
-     , (11407, 4, 22857, -1, 0) /* Create Tiki Torch for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11407, 4, 138, -1, 91, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (11407, 4, 139, -1, 91, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (11407, 4, 136, -1, 77, 1, False) /* Create Pack for Shop_DestinationType */
+     , (11407, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (11407, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (11407, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (11407, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (11407, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (11407, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (11407, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (11407, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (11407, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (11407, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (11407, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (11407, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (11407, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (11407, 4, 22858, -1, 0, 0, False) /* Create Tumerok Torch for Shop_DestinationType */
+     , (11407, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch for Shop_DestinationType */;
 

@@ -94,45 +94,45 @@ VALUES (9616, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9616, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9616, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9616, 2, 2590, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (9616, 2, 2598, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (9616, 2, 129, 0, 4) /* Create Sandals for Wield_DestinationType */
-     , (9616, 2, 5894, 0, 9) /* Create Fez for Wield_DestinationType */
-     , (9616, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (9616, 4, 9564, -1, 0) /* Create Bow Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9593, -1, 0) /* Create Crossbow Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9590, -1, 0) /* Create Thrown Weapons Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9563, -1, 0) /* Create Axe Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9619, -1, 0) /* Create Dagger Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9586, -1, 0) /* Create Mace Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9587, -1, 0) /* Create Spear Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9588, -1, 0) /* Create Staff Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9589, -1, 0) /* Create Sword Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9591, -1, 0) /* Create Unarmed Combat Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9562, -1, 0) /* Create Alchemy Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9581, -1, 0) /* Create Cooking Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9583, -1, 0) /* Create Fletching Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9592, -1, 0) /* Create War Magic Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9585, -1, 0) /* Create Life Magic Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9584, -1, 0) /* Create Item Enchantment Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9582, -1, 0) /* Create Creature Enchantment Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11648, -1, 0) /* Create Advanced Bow Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11650, -1, 0) /* Create Advanced Crossbow Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11653, -1, 0) /* Create Advanced Thrown Weapons Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11649, -1, 0) /* Create Advanced Axe Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11645, -1, 0) /* Create Advanced Dagger Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11641, -1, 0) /* Create Advanced Mace Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11640, -1, 0) /* Create Advanced Spear Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11655, -1, 0) /* Create Advanced Staff Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11654, -1, 0) /* Create Advanced Sword Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11652, -1, 0) /* Create Advanced Unarmed Combat Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11675, -1, 0) /* Create Advanced Alchemy Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11647, -1, 0) /* Create Advanced Cooking Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11644, -1, 0) /* Create Advanced Fletching Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11651, -1, 0) /* Create Advanced War Magic Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11642, -1, 0) /* Create Advanced Life Magic Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11643, -1, 0) /* Create Advanced Item Enchantment Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 11646, -1, 0) /* Create Advanced Creature Enchantment Skill Puzzle Piece for Shop_DestinationType */
-     , (9616, 4, 9595, -1, 0) /* Create Handbook of the Bestowers' Guild for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9616, 2, 2590, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (9616, 2, 2598, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (9616, 2, 129, 0, 4, 0.6, False) /* Create Sandals for Wield_DestinationType */
+     , (9616, 2, 5894, 0, 9, 0, False) /* Create Fez for Wield_DestinationType */
+     , (9616, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (9616, 4, 9564, -1, 0, 0, False) /* Create Bow Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9593, -1, 0, 0, False) /* Create Crossbow Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9590, -1, 0, 0, False) /* Create Thrown Weapons Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9563, -1, 0, 0, False) /* Create Axe Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9619, -1, 0, 0, False) /* Create Dagger Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9586, -1, 0, 0, False) /* Create Mace Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9587, -1, 0, 0, False) /* Create Spear Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9588, -1, 0, 0, False) /* Create Staff Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9589, -1, 0, 0, False) /* Create Sword Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9591, -1, 0, 0, False) /* Create Unarmed Combat Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9562, -1, 0, 0, False) /* Create Alchemy Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9581, -1, 0, 0, False) /* Create Cooking Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9583, -1, 0, 0, False) /* Create Fletching Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9592, -1, 0, 0, False) /* Create War Magic Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9585, -1, 0, 0, False) /* Create Life Magic Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9584, -1, 0, 0, False) /* Create Item Enchantment Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9582, -1, 0, 0, False) /* Create Creature Enchantment Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11648, -1, 0, 0, False) /* Create Advanced Bow Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11650, -1, 0, 0, False) /* Create Advanced Crossbow Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11653, -1, 0, 0, False) /* Create Advanced Thrown Weapons Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11649, -1, 0, 0, False) /* Create Advanced Axe Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11645, -1, 0, 0, False) /* Create Advanced Dagger Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11641, -1, 0, 0, False) /* Create Advanced Mace Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11640, -1, 0, 0, False) /* Create Advanced Spear Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11655, -1, 0, 0, False) /* Create Advanced Staff Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11654, -1, 0, 0, False) /* Create Advanced Sword Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11652, -1, 0, 0, False) /* Create Advanced Unarmed Combat Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11675, -1, 0, 0, False) /* Create Advanced Alchemy Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11647, -1, 0, 0, False) /* Create Advanced Cooking Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11644, -1, 0, 0, False) /* Create Advanced Fletching Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11651, -1, 0, 0, False) /* Create Advanced War Magic Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11642, -1, 0, 0, False) /* Create Advanced Life Magic Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11643, -1, 0, 0, False) /* Create Advanced Item Enchantment Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 11646, -1, 0, 0, False) /* Create Advanced Creature Enchantment Skill Puzzle Piece for Shop_DestinationType */
+     , (9616, 4, 9595, -1, 0, 0, False) /* Create Handbook of the Bestowers' Guild for Shop_DestinationType */;
 

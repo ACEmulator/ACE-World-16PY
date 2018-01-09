@@ -93,34 +93,34 @@ VALUES (401, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (401, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (401, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (401, 2, 313, 0, 0) /* Create Dabus for Wield_DestinationType */
-     , (401, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (401, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (401, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (401, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (401, 4, 93, -1, 0) /* Create Round Shield for Shop_DestinationType */
-     , (401, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (401, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (401, 4, 37, -1, 0) /* Create Scalemail Bracers for Shop_DestinationType */
-     , (401, 4, 41, -1, 0) /* Create Scalemail Breastplate for Shop_DestinationType */
-     , (401, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (401, 4, 83, -1, 0) /* Create Scalemail Leggings for Shop_DestinationType */
-     , (401, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (401, 4, 313, -1, 0) /* Create Dabus for Shop_DestinationType */
-     , (401, 4, 317, -1, 0) /* Create Djarid for Shop_DestinationType */
-     , (401, 4, 319, -1, 0) /* Create Jambiya for Shop_DestinationType */
-     , (401, 4, 324, -1, 0) /* Create Kaskara for Shop_DestinationType */
-     , (401, 4, 325, -1, 0) /* Create Kasrullah for Shop_DestinationType */
-     , (401, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (401, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (401, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (401, 4, 334, -1, 0) /* Create Nayin for Shop_DestinationType */
-     , (401, 4, 339, -1, 0) /* Create Scimitar for Shop_DestinationType */
-     , (401, 4, 340, -1, 0) /* Create Shamshir for Shop_DestinationType */
-     , (401, 4, 344, -1, 0) /* Create Silifi for Shop_DestinationType */
-     , (401, 4, 345, -1, 0) /* Create Simi for Shop_DestinationType */
-     , (401, 4, 354, -1, 0) /* Create Takuba for Shop_DestinationType */
-     , (401, 4, 357, -1, 0) /* Create Tungi for Shop_DestinationType */
-     , (401, 4, 360, 5, 0) /* Create Yag for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (401, 2, 313, 0, 0, 0, False) /* Create Dabus for Wield_DestinationType */
+     , (401, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (401, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (401, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (401, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (401, 4, 93, -1, 0, 0, False) /* Create Round Shield for Shop_DestinationType */
+     , (401, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (401, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (401, 4, 37, -1, 0, 0, False) /* Create Scalemail Bracers for Shop_DestinationType */
+     , (401, 4, 41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop_DestinationType */
+     , (401, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (401, 4, 83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop_DestinationType */
+     , (401, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (401, 4, 313, -1, 0, 0, False) /* Create Dabus for Shop_DestinationType */
+     , (401, 4, 317, -1, 0, 0, False) /* Create Djarid for Shop_DestinationType */
+     , (401, 4, 319, -1, 0, 0, False) /* Create Jambiya for Shop_DestinationType */
+     , (401, 4, 324, -1, 0, 0, False) /* Create Kaskara for Shop_DestinationType */
+     , (401, 4, 325, -1, 0, 0, False) /* Create Kasrullah for Shop_DestinationType */
+     , (401, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (401, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (401, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (401, 4, 334, -1, 0, 0, False) /* Create Nayin for Shop_DestinationType */
+     , (401, 4, 339, -1, 0, 0, False) /* Create Scimitar for Shop_DestinationType */
+     , (401, 4, 340, -1, 0, 0, False) /* Create Shamshir for Shop_DestinationType */
+     , (401, 4, 344, -1, 0, 0, False) /* Create Silifi for Shop_DestinationType */
+     , (401, 4, 345, -1, 0, 0, False) /* Create Simi for Shop_DestinationType */
+     , (401, 4, 354, -1, 0, 0, False) /* Create Takuba for Shop_DestinationType */
+     , (401, 4, 357, -1, 0, 0, False) /* Create Tungi for Shop_DestinationType */
+     , (401, 4, 360, 5, 0, 0, False) /* Create Yag for Shop_DestinationType */;
 

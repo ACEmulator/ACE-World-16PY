@@ -94,24 +94,24 @@ VALUES (701, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (701, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (701, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (701, 2, 130, 0, 16) /* Create Shirt for Wield_DestinationType */
-     , (701, 2, 127, 0, 10) /* Create Pants for Wield_DestinationType */
-     , (701, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (701, 2, 135, 0, 10) /* Create Turban for Wield_DestinationType */
-     , (701, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (701, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (701, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (701, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (701, 4, 4170, -1, 0) /* Create Bloodshed Rumor for Shop_DestinationType */
-     , (701, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (701, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (701, 4, 5677, -1, 0) /* Create The Reclusive Mage for Shop_DestinationType */
-     , (701, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (701, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (701, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (701, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (701, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (701, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (701, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (701, 2, 130, 0, 16, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (701, 2, 127, 0, 10, 1, False) /* Create Pants for Wield_DestinationType */
+     , (701, 2, 132, 0, 14, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (701, 2, 135, 0, 10, 1, False) /* Create Turban for Wield_DestinationType */
+     , (701, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (701, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (701, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (701, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (701, 4, 4170, -1, 0, 0, False) /* Create Bloodshed Rumor for Shop_DestinationType */
+     , (701, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (701, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (701, 4, 5677, -1, 0, 0, False) /* Create The Reclusive Mage for Shop_DestinationType */
+     , (701, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (701, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (701, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (701, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (701, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (701, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (701, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

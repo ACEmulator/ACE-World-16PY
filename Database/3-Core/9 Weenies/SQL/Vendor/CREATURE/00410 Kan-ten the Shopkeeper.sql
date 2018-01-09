@@ -93,27 +93,27 @@ VALUES (410, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (410, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (410, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (410, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (410, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (410, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (410, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (410, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (410, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (410, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (410, 4, 117, -1, 14) /* Create Breeches for Shop_DestinationType */
-     , (410, 4, 130, -1, 14) /* Create Shirt for Shop_DestinationType */
-     , (410, 4, 132, -1, 14) /* Create Shoes for Shop_DestinationType */
-     , (410, 4, 44, -1, 14) /* Create Buckler for Shop_DestinationType */
-     , (410, 4, 93, -1, 14) /* Create Round Shield for Shop_DestinationType */
-     , (410, 4, 46, -1, 14) /* Create Metal Cap for Shop_DestinationType */
-     , (410, 4, 342, -1, 14) /* Create Shou-ono for Shop_DestinationType */
-     , (410, 4, 329, -1, 14) /* Create Knife for Shop_DestinationType */
-     , (410, 4, 314, -1, 14) /* Create Dagger for Shop_DestinationType */
-     , (410, 4, 352, -1, 14) /* Create Short Sword for Shop_DestinationType */
-     , (410, 4, 307, -1, 14) /* Create Shortbow for Shop_DestinationType */
-     , (410, 4, 300, -1, 14) /* Create Arrow for Shop_DestinationType */
-     , (410, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (410, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (410, 4, 320, -1, 0) /* Create Javelin for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (410, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (410, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (410, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (410, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (410, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (410, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (410, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (410, 4, 117, -1, 14, 0.1, False) /* Create Breeches for Shop_DestinationType */
+     , (410, 4, 130, -1, 14, 0.1, False) /* Create Shirt for Shop_DestinationType */
+     , (410, 4, 132, -1, 14, 0.1, False) /* Create Shoes for Shop_DestinationType */
+     , (410, 4, 44, -1, 14, 0.1, False) /* Create Buckler for Shop_DestinationType */
+     , (410, 4, 93, -1, 14, 0.1, False) /* Create Round Shield for Shop_DestinationType */
+     , (410, 4, 46, -1, 14, 0.1, False) /* Create Metal Cap for Shop_DestinationType */
+     , (410, 4, 342, -1, 14, 0.1, False) /* Create Shou-ono for Shop_DestinationType */
+     , (410, 4, 329, -1, 14, 0.1, False) /* Create Knife for Shop_DestinationType */
+     , (410, 4, 314, -1, 14, 0.1, False) /* Create Dagger for Shop_DestinationType */
+     , (410, 4, 352, -1, 14, 0.1, False) /* Create Short Sword for Shop_DestinationType */
+     , (410, 4, 307, -1, 14, 0.1, False) /* Create Shortbow for Shop_DestinationType */
+     , (410, 4, 300, -1, 14, 0.1, False) /* Create Arrow for Shop_DestinationType */
+     , (410, 4, 316, -1, 0, 0.1, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (410, 4, 343, -1, 0, 0.1, False) /* Create Shouken for Shop_DestinationType */
+     , (410, 4, 320, -1, 0, 0.1, False) /* Create Javelin for Shop_DestinationType */;
 

@@ -94,18 +94,18 @@ VALUES (989, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (989, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (989, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (989, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (989, 2, 117, 0, 10) /* Create Breeches for Wield_DestinationType */
-     , (989, 2, 133, 0, 10) /* Create Slippers for Wield_DestinationType */
-     , (989, 2, 128, 0, 10) /* Create Qafiya for Wield_DestinationType */
-     , (989, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (989, 4, 166, -1, 61) /* Create Sack for Shop_DestinationType */
-     , (989, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (989, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (989, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (989, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (989, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (989, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (989, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (989, 2, 124, 0, 14, 0.8, False) /* Create Jerkin for Wield_DestinationType */
+     , (989, 2, 117, 0, 10, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (989, 2, 133, 0, 10, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (989, 2, 128, 0, 10, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (989, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (989, 4, 166, -1, 61, 1, False) /* Create Sack for Shop_DestinationType */
+     , (989, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (989, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (989, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (989, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (989, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (989, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (989, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */;
 

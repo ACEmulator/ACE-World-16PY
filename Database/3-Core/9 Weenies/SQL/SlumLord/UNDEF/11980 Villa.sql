@@ -28,10 +28,10 @@ VALUES (11980, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (11980, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11980, 16, 273, 2000000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (11980, 16, 11710, 5, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (11980, 16, 12235, 1, 0) /* Create Carenzi Stalker Pelt for HouseBuy_DestinationType */
-     , (11980, 32, 273, 100000, 0) /* Create Pyreal for HouseRent_DestinationType */
-     , (11980, 32, 11710, 2, 0) /* Create Writ of Refuge for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11980, 16, 273, 2000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (11980, 16, 11710, 5, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (11980, 16, 12235, 1, 0, 0, False) /* Create Carenzi Stalker Pelt for HouseBuy_DestinationType */
+     , (11980, 32, 273, 100000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */
+     , (11980, 32, 11710, 2, 0, 0, False) /* Create Writ of Refuge for HouseRent_DestinationType */;
 

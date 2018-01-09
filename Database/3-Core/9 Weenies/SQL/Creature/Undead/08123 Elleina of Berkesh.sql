@@ -123,8 +123,8 @@ VALUES (8123, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8123, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8123, 256, 230) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8123, 10, 23708, 0, 0) /* Create Fire Tachi for WieldTreasure_DestinationType */
-     , (8123, 9, 8089, 0, 0) /* Create Petulantly Written Note for ContainTreasure_DestinationType */
-     , (8123, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8123, 10, 23708, 0, 0, 1, False) /* Create Fire Tachi for WieldTreasure_DestinationType */
+     , (8123, 9, 8089, 0, 0, 1, False) /* Create Petulantly Written Note for ContainTreasure_DestinationType */
+     , (8123, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

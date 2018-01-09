@@ -111,17 +111,17 @@ VALUES (23489, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23489, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23489, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23489, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23489, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23489, 9, 20863, 0, 0) /* Create Virindi Stamp for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23489, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23489, 9, 25339, 0, 0) /* Create Broken Virindi Consul Mask for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23489, 9, 27392, 0, 0) /* Create Oubliette for ContainTreasure_DestinationType */
-     , (23489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23489, 9, 7604, 0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (23489, 9, 9292, 0, 0, 0.05, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (23489, 9, 20863, 0, 0, 0.04, False) /* Create Virindi Stamp for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (23489, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23489, 9, 25339, 0, 0, 0.03, False) /* Create Broken Virindi Consul Mask for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23489, 9, 27392, 0, 0, 0.005, False) /* Create Oubliette for ContainTreasure_DestinationType */
+     , (23489, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

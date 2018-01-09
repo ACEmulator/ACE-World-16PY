@@ -89,7 +89,7 @@ VALUES (11729, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11729, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11729, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11729, 9, 10847, 0, 0) /* Create Soldier Pincer for ContainTreasure_DestinationType */
-     , (11729, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11729, 9, 10847, 0, 0, 1, False) /* Create Soldier Pincer for ContainTreasure_DestinationType */
+     , (11729, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

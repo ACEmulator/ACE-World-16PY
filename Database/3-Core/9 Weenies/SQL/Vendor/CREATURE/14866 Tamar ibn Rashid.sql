@@ -93,13 +93,13 @@ VALUES (14866, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14866, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14866, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14866, 2, 47, 0, 6) /* Create Leather Coat for Wield_DestinationType */
-     , (14866, 2, 122, 0, 84) /* Create Soft Leather Gloves for Wield_DestinationType */
-     , (14866, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (14866, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (14866, 2, 10696, 0, 11) /* Create Apron for Wield_DestinationType */
-     , (14866, 4, 14868, -1, 0) /* Create Red Shadow Dye for Shop_DestinationType */
-     , (14866, 4, 14869, -1, 0) /* Create Green Shadow Dye for Shop_DestinationType */
-     , (14866, 4, 14870, -1, 0) /* Create Blue Shadow Dye for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14866, 2, 47, 0, 6, 0.67, False) /* Create Leather Coat for Wield_DestinationType */
+     , (14866, 2, 122, 0, 84, 0.5, False) /* Create Soft Leather Gloves for Wield_DestinationType */
+     , (14866, 2, 127, 0, 7, 0.1, False) /* Create Pants for Wield_DestinationType */
+     , (14866, 2, 115, 0, 4, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (14866, 2, 10696, 0, 11, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (14866, 4, 14868, -1, 0, 0, False) /* Create Red Shadow Dye for Shop_DestinationType */
+     , (14866, 4, 14869, -1, 0, 0, False) /* Create Green Shadow Dye for Shop_DestinationType */
+     , (14866, 4, 14870, -1, 0, 0, False) /* Create Blue Shadow Dye for Shop_DestinationType */;
 

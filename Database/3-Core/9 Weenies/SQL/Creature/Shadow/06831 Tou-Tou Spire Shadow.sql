@@ -121,8 +121,8 @@ VALUES (6831, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6831, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6831, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6831, 9, 6059, 0, 0) /* Create Dark Sliver for ContainTreasure_DestinationType */
-     , (6831, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6831, 8, 6819, 0, 0) /* Create Spire Key Chunk - Tou Tou for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6831, 9, 6059, 0, 0, 0.03, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
+     , (6831, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (6831, 8, 6819, 0, 0, 1, False) /* Create Spire Key Chunk - Tou Tou for Treasure_DestinationType */;
 

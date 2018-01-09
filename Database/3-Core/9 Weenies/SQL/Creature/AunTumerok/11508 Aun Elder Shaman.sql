@@ -134,10 +134,10 @@ VALUES (11508, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11508, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11508, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11508, 9, 11355, 0, 0) /* Create Aun Pendant for ContainTreasure_DestinationType */
-     , (11508, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11508, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11508, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11508, 2, 11971, 0, 0) /* Create Buadren for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11508, 9, 11355, 0, 0, 0.03, False) /* Create Aun Pendant for ContainTreasure_DestinationType */
+     , (11508, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11508, 9, 6876, 0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11508, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11508, 2, 11971, 0, 0, 1, False) /* Create Buadren for Wield_DestinationType */;
 

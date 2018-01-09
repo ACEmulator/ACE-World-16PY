@@ -96,7 +96,7 @@ VALUES (9053, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9053, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9053, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9053, 9, 9046, 0, 0) /* Create Sunstone Geode for ContainTreasure_DestinationType */
-     , (9053, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9053, 9, 9046, 0, 0, 0.02, False) /* Create Sunstone Geode for ContainTreasure_DestinationType */
+     , (9053, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

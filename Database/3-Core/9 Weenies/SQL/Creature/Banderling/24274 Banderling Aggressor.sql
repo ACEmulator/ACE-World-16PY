@@ -109,11 +109,11 @@ VALUES (24274, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24274, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24274, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24274, 9, 24831, 0, 0) /* Create Banderling Aggressor Scalp for ContainTreasure_DestinationType */
-     , (24274, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24274, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24274, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24274, 9, 8144, 0, 0) /* Create Banderling Head for ContainTreasure_DestinationType */
-     , (24274, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24274, 9, 24831, 0, 0, 0.03, False) /* Create Banderling Aggressor Scalp for ContainTreasure_DestinationType */
+     , (24274, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24274, 9, 24477, 0, 0, 0.04, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24274, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (24274, 9, 8144, 0, 0, 0.05, False) /* Create Banderling Head for ContainTreasure_DestinationType */
+     , (24274, 9, 0, 0, 0, 0.05, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -106,9 +106,9 @@ VALUES (14879, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14879, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14879, 256, 220) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14879, 2, 7799, 3, 0) /* Create Ball of plasma for Wield_DestinationType */
-     , (14879, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (14879, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (14879, 9, 14882, 0, 0) /* Create Ring of a Singularity Key for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14879, 2, 7799, 3, 0, 0, False) /* Create Ball of plasma for Wield_DestinationType */
+     , (14879, 9, 6876, 0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (14879, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (14879, 9, 14882, 0, 0, 1, False) /* Create Ring of a Singularity Key for ContainTreasure_DestinationType */;
 

@@ -90,9 +90,9 @@ VALUES (25584, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25584, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25584, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25584, 2, 24363, 0, 85) /* Create Asheron's Supreme Raiment for Wield_DestinationType */
-     , (25584, 2, 23591, 0, 0) /* Create Energy Crown for Wield_DestinationType */
-     , (25584, 2, 8904, 0, 0) /* Create Focusing Stone for Wield_DestinationType */
-     , (25584, 2, 21150, 0, 21) /* Create Covenant Sollerets for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25584, 2, 24363, 0, 85, 0.33, False) /* Create Asheron's Supreme Raiment for Wield_DestinationType */
+     , (25584, 2, 23591, 0, 0, 0, False) /* Create Energy Crown for Wield_DestinationType */
+     , (25584, 2, 8904, 0, 0, 0, False) /* Create Focusing Stone for Wield_DestinationType */
+     , (25584, 2, 21150, 0, 21, 0.5, False) /* Create Covenant Sollerets for Wield_DestinationType */;
 

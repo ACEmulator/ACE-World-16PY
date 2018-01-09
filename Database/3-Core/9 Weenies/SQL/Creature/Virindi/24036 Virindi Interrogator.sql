@@ -114,9 +114,9 @@ VALUES (24036, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24036, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24036, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24036, 9, 9290, 0, 0) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
-     , (24036, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24036, 9, 24128, 1, 0) /* Create A Virindi Signet for ContainTreasure_DestinationType */
-     , (24036, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24036, 9, 9290, 0, 0, 0.03, False) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
+     , (24036, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24036, 9, 24128, 1, 0, 0.4, False) /* Create A Virindi Signet for ContainTreasure_DestinationType */
+     , (24036, 9, 0, 0, 0, 0.6, False) /* Create  for ContainTreasure_DestinationType */;
 

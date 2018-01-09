@@ -91,9 +91,9 @@ VALUES (24315, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24315, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24315, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24315, 9, 24852, 0, 0) /* Create Skull of a Skeletal Hero for ContainTreasure_DestinationType */
-     , (24315, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24315, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (24315, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24315, 9, 24852, 0, 0, 0.03, False) /* Create Skull of a Skeletal Hero for ContainTreasure_DestinationType */
+     , (24315, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24315, 9, 9310, 0, 0, 0.04, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (24315, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

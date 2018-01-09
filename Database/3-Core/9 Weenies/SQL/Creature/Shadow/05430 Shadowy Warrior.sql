@@ -118,15 +118,15 @@ VALUES (5430, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5430, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5430, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5430, 10, 3891, 0, 0) /* Create Flaming Tachi for WieldTreasure_DestinationType */
-     , (5430, 10, 3795, 0, 0) /* Create Lightning Jambiya for WieldTreasure_DestinationType */
-     , (5430, 10, 3876, 0, 0) /* Create Frost Spear for WieldTreasure_DestinationType */
-     , (5430, 10, 3881, 0, 0) /* Create Acid Long Sword for WieldTreasure_DestinationType */
-     , (5430, 10, 301, 0, 0) /* Create Battle Axe for WieldTreasure_DestinationType */
-     , (5430, 10, 4190, 0, 0) /* Create Cestus for WieldTreasure_DestinationType */
-     , (5430, 10, 322, 0, 0) /* Create Jo for WieldTreasure_DestinationType */
-     , (5430, 10, 331, 0, 0) /* Create Mace for WieldTreasure_DestinationType */
-     , (5430, 10, 351, 0, 0) /* Create Long Sword for WieldTreasure_DestinationType */
-     , (5430, 10, 352, 0, 0) /* Create Short Sword for WieldTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5430, 10, 3891, 0, 0, 0.05, False) /* Create Flaming Tachi for WieldTreasure_DestinationType */
+     , (5430, 10, 3795, 0, 0, 0.05, False) /* Create Lightning Jambiya for WieldTreasure_DestinationType */
+     , (5430, 10, 3876, 0, 0, 0.1, False) /* Create Frost Spear for WieldTreasure_DestinationType */
+     , (5430, 10, 3881, 0, 0, 0.1, False) /* Create Acid Long Sword for WieldTreasure_DestinationType */
+     , (5430, 10, 301, 0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure_DestinationType */
+     , (5430, 10, 4190, 0, 0, 0.1, False) /* Create Cestus for WieldTreasure_DestinationType */
+     , (5430, 10, 322, 0, 0, 0.1, False) /* Create Jo for WieldTreasure_DestinationType */
+     , (5430, 10, 331, 0, 0, 0.1, False) /* Create Mace for WieldTreasure_DestinationType */
+     , (5430, 10, 351, 0, 0, 0.1, False) /* Create Long Sword for WieldTreasure_DestinationType */
+     , (5430, 10, 352, 0, 0, 0.1, False) /* Create Short Sword for WieldTreasure_DestinationType */;
 

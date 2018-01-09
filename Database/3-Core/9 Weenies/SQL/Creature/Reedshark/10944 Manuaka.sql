@@ -89,6 +89,6 @@ VALUES (10944, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10944, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10944, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10944, 9, 10970, 0, 0) /* Create Manuaka's Collar for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10944, 9, 10970, 0, 0, 1, False) /* Create Manuaka's Collar for ContainTreasure_DestinationType */;
 

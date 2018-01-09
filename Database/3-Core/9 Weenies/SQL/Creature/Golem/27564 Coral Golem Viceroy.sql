@@ -111,11 +111,11 @@ VALUES (27564, 64, 9800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27564, 128, 9600) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27564, 256, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27564, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (27564, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27564, 9, 7605, 0, 0) /* Create Coral Heart for ContainTreasure_DestinationType */
-     , (27564, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27564, 9, 6353, 0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (27564, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (27564, 9, 7605, 0, 0, 0.15, False) /* Create Coral Heart for ContainTreasure_DestinationType */
+     , (27564, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (27564, -1, 14516, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Caustic (x8 up to max of 8) - Destruction_RegenerationType - Scatter_RegenLocationType */;

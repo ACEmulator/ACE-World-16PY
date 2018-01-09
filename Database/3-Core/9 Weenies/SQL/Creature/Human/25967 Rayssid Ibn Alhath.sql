@@ -94,19 +94,19 @@ VALUES (25967, 64, 305) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25967, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25967, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25967, 2, 12192, 0, 0) /* Create Shadow's Garb for Wield_DestinationType */
-     , (25967, 2, 12193, 0, 39) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 25960, 0, 0) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
-     , (25967, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25967, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25967, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_DestinationType */
+     , (25967, 2, 12193, 0, 39, 1, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 25960, 0, 0, 1, False) /* Create Woven Tassel of Far Sight for ContainTreasure_DestinationType */
+     , (25967, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25967, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

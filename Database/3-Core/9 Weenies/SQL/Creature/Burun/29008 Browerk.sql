@@ -146,6 +146,6 @@ VALUES (29008, 64, 198000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29008, 128, 196000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (29008, 256, 199000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (29008, 2, 29047, 0, 0) /* Create Repugnant Staff for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (29008, 2, 29047, 0, 0, 0, False) /* Create Repugnant Staff for Wield_DestinationType */;
 

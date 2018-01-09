@@ -88,9 +88,9 @@ VALUES (7084, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7084, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7084, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7084, 9, 22950, 0, 0) /* Create Hoary Armoredillo Spine for ContainTreasure_DestinationType */
-     , (7084, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7084, 9, 4234, 0, 0) /* Create Large Armoredillo Hide for ContainTreasure_DestinationType */
-     , (7084, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7084, 9, 22950, 0, 0, 0.07, False) /* Create Hoary Armoredillo Spine for ContainTreasure_DestinationType */
+     , (7084, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (7084, 9, 4234, 0, 0, 0.05, False) /* Create Large Armoredillo Hide for ContainTreasure_DestinationType */
+     , (7084, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

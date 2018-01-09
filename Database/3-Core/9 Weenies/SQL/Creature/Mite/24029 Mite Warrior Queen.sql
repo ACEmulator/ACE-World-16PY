@@ -89,8 +89,8 @@ VALUES (24029, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24029, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24029, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24029, 1, 8211, 250, 0) /* Create Discus for Contain_DestinationType */
-     , (24029, 1, 24033, 250, 0) /* Create Mite Queen's Staff for Contain_DestinationType */
-     , (24029, 1, 24126, 250, 0) /* Create A Crumpled Letter for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24029, 1, 8211, 250, 0, 0, False) /* Create Discus for Contain_DestinationType */
+     , (24029, 1, 24033, 250, 0, 0, False) /* Create Mite Queen's Staff for Contain_DestinationType */
+     , (24029, 1, 24126, 250, 0, 0, False) /* Create A Crumpled Letter for Contain_DestinationType */;
 

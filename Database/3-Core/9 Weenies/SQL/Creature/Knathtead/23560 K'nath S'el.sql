@@ -94,13 +94,13 @@ VALUES (23560, 64, 2870) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23560, 128, 2440) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23560, 256, 1630) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23560, 9, 5789, 0, 0) /* Create Brown Lump for ContainTreasure_DestinationType */
-     , (23560, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23560, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (23560, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23560, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (23560, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23560, 9, 25741, 0, 0) /* Create Knath Husk for ContainTreasure_DestinationType */
-     , (23560, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23560, 9, 5789, 0, 0, 0.5, False) /* Create Brown Lump for ContainTreasure_DestinationType */
+     , (23560, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (23560, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (23560, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (23560, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (23560, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (23560, 9, 25741, 0, 0, 0.05, False) /* Create Knath Husk for ContainTreasure_DestinationType */
+     , (23560, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

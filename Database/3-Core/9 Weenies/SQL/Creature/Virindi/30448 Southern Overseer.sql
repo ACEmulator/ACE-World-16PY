@@ -114,19 +114,19 @@ VALUES (30448, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30448, 128, 8000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30448, 256, 5000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30448, 9, 30474, 0, 0) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30474, 0, 0) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30474, 0, 0) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30477, 0, 0) /* Create Inner Sea Directive for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30457, 0, 0) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30457, 0, 0) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30448, 9, 30457, 0, 0) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
-     , (30448, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30448, 9, 30474, 0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30474, 0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30474, 0, 0, 1, False) /* Create Southern Forge Essence for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30477, 0, 0, 1, False) /* Create Inner Sea Directive for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30457, 0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30457, 0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (30448, 9, 30457, 0, 0, 1, False) /* Create Circlet of Shielding for ContainTreasure_DestinationType */
+     , (30448, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

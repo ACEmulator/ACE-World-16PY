@@ -94,26 +94,26 @@ VALUES (810, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (810, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (810, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (810, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (810, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (810, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (810, 2, 118, 0, 13) /* Create Cap for Wield_DestinationType */
-     , (810, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (810, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (810, 4, 4738, -1, 0) /* Create Mushroom Rice for Shop_DestinationType */
-     , (810, 4, 5208, -1, 0) /* Create Mushroom Stew for Shop_DestinationType */
-     , (810, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (810, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (810, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (810, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (810, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (810, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (810, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (810, 4, 1227, -1, 0) /* Create Yanshi Portal Directions for Shop_DestinationType */
-     , (810, 4, 1401, -1, 0) /* Create Yanshi Tunnel Directions for Shop_DestinationType */
-     , (810, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (810, 4, 23614, -1, 0) /* Create Felscuda the Scholar for Shop_DestinationType */
-     , (810, 4, 6418, -1, 0) /* Create A Fiery Stone for Shop_DestinationType */
-     , (810, 4, 6417, -1, 0) /* Create A Stinging Stone for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (810, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (810, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (810, 2, 132, 0, 14, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (810, 2, 118, 0, 13, 0.5, False) /* Create Cap for Wield_DestinationType */
+     , (810, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (810, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (810, 4, 4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop_DestinationType */
+     , (810, 4, 5208, -1, 0, 0, False) /* Create Mushroom Stew for Shop_DestinationType */
+     , (810, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (810, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (810, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (810, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (810, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (810, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (810, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (810, 4, 1227, -1, 0, 0, False) /* Create Yanshi Portal Directions for Shop_DestinationType */
+     , (810, 4, 1401, -1, 0, 0, False) /* Create Yanshi Tunnel Directions for Shop_DestinationType */
+     , (810, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (810, 4, 23614, -1, 0, 0, False) /* Create Felscuda the Scholar for Shop_DestinationType */
+     , (810, 4, 6418, -1, 0, 0, False) /* Create A Fiery Stone for Shop_DestinationType */
+     , (810, 4, 6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop_DestinationType */;
 

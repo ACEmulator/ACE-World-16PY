@@ -91,6 +91,6 @@ VALUES (24574, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24574, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24574, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24574, 2, 7580, 0, 0) /* Create Pickaxe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24574, 2, 7580, 0, 0, 0, False) /* Create Pickaxe for Wield_DestinationType */;
 

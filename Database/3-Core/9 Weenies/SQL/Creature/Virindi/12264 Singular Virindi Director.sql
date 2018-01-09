@@ -130,11 +130,11 @@ VALUES (12264, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12264, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12264, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12264, 9, 3698, 0, 0) /* Create White Jewel for ContainTreasure_DestinationType */
-     , (12264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12264, 9, 8154, 0, 0) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
-     , (12264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12264, 8, 12252, 1, 0) /* Create Obsidian Director's Mask for Treasure_DestinationType */
-     , (12264, 8, 12280, 1, 0) /* Create Singular Obsidian Message Shard for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12264, 9, 3698, 0, 0, 0.05, False) /* Create White Jewel for ContainTreasure_DestinationType */
+     , (12264, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (12264, 9, 8154, 0, 0, 0.1, False) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
+     , (12264, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (12264, 8, 12252, 1, 0, 0, False) /* Create Obsidian Director's Mask for Treasure_DestinationType */
+     , (12264, 8, 12280, 1, 0, 0, False) /* Create Singular Obsidian Message Shard for Treasure_DestinationType */;
 

@@ -94,73 +94,73 @@ VALUES (24219, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24219, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24219, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24219, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (24219, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (24219, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (24219, 2, 10696, 0, 17) /* Create Apron for Wield_DestinationType */
-     , (24219, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (24219, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (24219, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (24219, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (24219, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (24219, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (24219, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (24219, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (24219, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (24219, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (24219, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (24219, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (24219, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (24219, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (24219, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (24219, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (24219, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (24219, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (24219, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (24219, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (24219, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (24219, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (24219, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (24219, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (24219, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (24219, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (24219, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (24219, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (24219, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (24219, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (24219, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (24219, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (24219, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (24219, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (24219, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (24219, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (24219, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (24219, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (24219, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (24219, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (24219, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (24219, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */
-     , (24219, 4, 166, -1, 61) /* Create Sack for Shop_DestinationType */
-     , (24219, 4, 136, -1, 61) /* Create Pack for Shop_DestinationType */
-     , (24219, 4, 139, -1, 90) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (24219, 4, 138, -1, 90) /* Create Belt Pouch for Shop_DestinationType */
-     , (24219, 4, 137, -1, 90) /* Create Basket for Shop_DestinationType */
-     , (24219, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (24219, 4, 136, -1, 17) /* Create Pack for Shop_DestinationType */
-     , (24219, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (24219, 4, 138, -1, 86) /* Create Belt Pouch for Shop_DestinationType */
-     , (24219, 4, 137, -1, 86) /* Create Basket for Shop_DestinationType */
-     , (24219, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (24219, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (24219, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (24219, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (24219, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (24219, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (24219, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (24219, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (24219, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (24219, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24219, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (24219, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (24219, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (24219, 2, 10696, 0, 17, 1, False) /* Create Apron for Wield_DestinationType */
+     , (24219, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (24219, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (24219, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (24219, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (24219, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (24219, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (24219, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (24219, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (24219, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (24219, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (24219, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (24219, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (24219, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (24219, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (24219, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (24219, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (24219, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (24219, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (24219, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (24219, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (24219, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (24219, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (24219, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (24219, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (24219, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (24219, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (24219, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (24219, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (24219, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (24219, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (24219, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (24219, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (24219, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (24219, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (24219, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (24219, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (24219, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (24219, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (24219, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (24219, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (24219, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (24219, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */
+     , (24219, 4, 166, -1, 61, 1, False) /* Create Sack for Shop_DestinationType */
+     , (24219, 4, 136, -1, 61, 1, False) /* Create Pack for Shop_DestinationType */
+     , (24219, 4, 139, -1, 90, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (24219, 4, 138, -1, 90, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (24219, 4, 137, -1, 90, 1, False) /* Create Basket for Shop_DestinationType */
+     , (24219, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (24219, 4, 136, -1, 17, 1, False) /* Create Pack for Shop_DestinationType */
+     , (24219, 4, 139, -1, 86, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (24219, 4, 138, -1, 86, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (24219, 4, 137, -1, 86, 1, False) /* Create Basket for Shop_DestinationType */
+     , (24219, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (24219, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (24219, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (24219, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (24219, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (24219, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (24219, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (24219, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (24219, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (24219, -1, 2463, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Milk (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */

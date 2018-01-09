@@ -90,8 +90,8 @@ VALUES (11939, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11939, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11939, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11939, 2, 2596, 0, 9) /* Create Doublet for Wield_DestinationType */
-     , (11939, 2, 2604, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (11939, 2, 5854, 0, 92) /* Create Suikan Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11939, 2, 2596, 0, 9, 1, False) /* Create Doublet for Wield_DestinationType */
+     , (11939, 2, 2604, 0, 9, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (11939, 2, 5854, 0, 92, 0.5, False) /* Create Suikan Robe for Wield_DestinationType */;
 

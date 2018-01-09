@@ -111,11 +111,11 @@ VALUES (8014, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8014, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8014, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8014, 9, 6057, 0, 0) /* Create Tiny Shard for ContainTreasure_DestinationType */
-     , (8014, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8014, 9, 6055, 0, 0) /* Create Cracked Shard for ContainTreasure_DestinationType */
-     , (8014, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8014, 9, 20860, 0, 0) /* Create Herald Stamp for ContainTreasure_DestinationType */
-     , (8014, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8014, 9, 6057, 0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure_DestinationType */
+     , (8014, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8014, 9, 6055, 0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure_DestinationType */
+     , (8014, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8014, 9, 20860, 0, 0, 0.03, False) /* Create Herald Stamp for ContainTreasure_DestinationType */
+     , (8014, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -117,6 +117,6 @@ VALUES (6772, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6772, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6772, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6772, 8, 6662, 0, 0) /* Create The Ruby Mahwan for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6772, 8, 6662, 0, 0, 1, False) /* Create The Ruby Mahwan for Treasure_DestinationType */;
 

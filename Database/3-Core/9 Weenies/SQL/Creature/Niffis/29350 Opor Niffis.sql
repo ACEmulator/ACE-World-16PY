@@ -110,7 +110,7 @@ VALUES (29350, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29350, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (29350, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (29350, 9, 10705, 0, 0) /* Create Niffis Pearl for ContainTreasure_DestinationType */
-     , (29350, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (29350, 9, 10705, 0, 0, 0.03, False) /* Create Niffis Pearl for ContainTreasure_DestinationType */
+     , (29350, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

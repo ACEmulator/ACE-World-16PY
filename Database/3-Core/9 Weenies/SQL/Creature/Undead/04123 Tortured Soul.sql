@@ -118,6 +118,6 @@ VALUES (4123, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4123, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4123, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4123, 8, 4121, 0, 0) /* Create Lich Skull for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4123, 8, 4121, 0, 0, 1, False) /* Create Lich Skull for Treasure_DestinationType */;
 

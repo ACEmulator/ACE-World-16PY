@@ -90,10 +90,10 @@ VALUES (9215, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9215, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9215, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9215, 2, 306, 0, 0) /* Create Longbow for Wield_DestinationType */
-     , (9215, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (9215, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (9215, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (9215, 2, 119, 0, 9) /* Create Cowl for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9215, 2, 306, 0, 0, 0, False) /* Create Longbow for Wield_DestinationType */
+     , (9215, 2, 130, 0, 8, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (9215, 2, 127, 0, 4, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (9215, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (9215, 2, 119, 0, 9, 0, False) /* Create Cowl for Wield_DestinationType */;
 

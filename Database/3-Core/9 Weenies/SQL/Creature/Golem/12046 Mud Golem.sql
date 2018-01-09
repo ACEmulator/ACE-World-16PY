@@ -89,11 +89,11 @@ VALUES (12046, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12046, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12046, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12046, 9, 12049, 0, 0) /* Create Rotted Golem Tooth for ContainTreasure_DestinationType */
-     , (12046, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12046, 9, 6353, 1, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (12046, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12046, 9, 13222, 5, 0) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (12046, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12046, 9, 12049, 0, 0, 1, False) /* Create Rotted Golem Tooth for ContainTreasure_DestinationType */
+     , (12046, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (12046, 9, 6353, 1, 0, 1, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (12046, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (12046, 9, 13222, 5, 0, 1, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
+     , (12046, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

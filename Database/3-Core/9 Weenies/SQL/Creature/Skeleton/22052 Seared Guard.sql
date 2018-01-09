@@ -92,9 +92,9 @@ VALUES (22052, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22052, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22052, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22052, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (22052, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22052, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22052, 2, 7973, 0, 0) /* Create Flaming Tachi for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22052, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (22052, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (22052, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (22052, 2, 7973, 0, 0, 0, False) /* Create Flaming Tachi for Wield_DestinationType */;
 

@@ -94,22 +94,22 @@ VALUES (866, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (866, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (866, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (866, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (866, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (866, 2, 115, 0, 17) /* Create Leather Boots for Wield_DestinationType */
-     , (866, 2, 118, 0, 17) /* Create Cap for Wield_DestinationType */
-     , (866, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (866, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (866, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (866, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (866, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (866, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (866, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (866, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (866, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */
-     , (866, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (866, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (866, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (866, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (866, 2, 124, 0, 14, 0.8, False) /* Create Jerkin for Wield_DestinationType */
+     , (866, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (866, 2, 115, 0, 17, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (866, 2, 118, 0, 17, 1, False) /* Create Cap for Wield_DestinationType */
+     , (866, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (866, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (866, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (866, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (866, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (866, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (866, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (866, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (866, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */
+     , (866, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (866, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (866, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (866, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

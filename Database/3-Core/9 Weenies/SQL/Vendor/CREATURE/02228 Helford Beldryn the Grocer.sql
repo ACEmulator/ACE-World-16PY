@@ -94,19 +94,19 @@ VALUES (2228, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2228, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2228, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2228, 2, 134, 0, 4) /* Create Tunic for Wield_DestinationType */
-     , (2228, 2, 127, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (2228, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (2228, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2228, 4, 138, -1, 86) /* Create Belt Pouch for Shop_DestinationType */
-     , (2228, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (2228, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (2228, 4, 5090, -1, 0) /* Create Bruised Apple for Shop_DestinationType */
-     , (2228, 4, 5759, -1, 0) /* Create Fruitcake for Shop_DestinationType */
-     , (2228, 4, 5089, -1, 0) /* Create Old Cheese for Shop_DestinationType */
-     , (2228, 4, 5088, -1, 0) /* Create Stale Bread for Shop_DestinationType */
-     , (2228, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (2228, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (2228, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2228, 2, 134, 0, 4, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (2228, 2, 127, 0, 2, 0.9, False) /* Create Pants for Wield_DestinationType */
+     , (2228, 2, 132, 0, 4, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (2228, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2228, 4, 138, -1, 86, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (2228, 4, 139, -1, 86, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (2228, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (2228, 4, 5090, -1, 0, 0, False) /* Create Bruised Apple for Shop_DestinationType */
+     , (2228, 4, 5759, -1, 0, 0, False) /* Create Fruitcake for Shop_DestinationType */
+     , (2228, 4, 5089, -1, 0, 0, False) /* Create Old Cheese for Shop_DestinationType */
+     , (2228, 4, 5088, -1, 0, 0, False) /* Create Stale Bread for Shop_DestinationType */
+     , (2228, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (2228, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (2228, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */;
 

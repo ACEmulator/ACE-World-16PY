@@ -89,12 +89,12 @@ VALUES (9542, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9542, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9542, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9542, 2, 2596, 0, 2) /* Create Doublet for Wield_DestinationType */
-     , (9542, 2, 2604, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (9542, 2, 2606, 0, 4) /* Create Boots for Wield_DestinationType */
-     , (9542, 2, 84, 0, 16) /* Create Studded Leather Leggings for Wield_DestinationType */
-     , (9542, 2, 99, 0, 11) /* Create Studded Leather Shirt for Wield_DestinationType */
-     , (9542, 2, 5753, 0, 0) /* Create Pickaxe for Wield_DestinationType */
-     , (9542, 2, 46, 0, 19) /* Create Metal Cap for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9542, 2, 2596, 0, 2, 0.8, False) /* Create Doublet for Wield_DestinationType */
+     , (9542, 2, 2604, 0, 9, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (9542, 2, 2606, 0, 4, 0.8, False) /* Create Boots for Wield_DestinationType */
+     , (9542, 2, 84, 0, 16, 1, False) /* Create Studded Leather Leggings for Wield_DestinationType */
+     , (9542, 2, 99, 0, 11, 0.4, False) /* Create Studded Leather Shirt for Wield_DestinationType */
+     , (9542, 2, 5753, 0, 0, 0, False) /* Create Pickaxe for Wield_DestinationType */
+     , (9542, 2, 46, 0, 19, 0, False) /* Create Metal Cap for Wield_DestinationType */;
 

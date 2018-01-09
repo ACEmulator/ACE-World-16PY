@@ -101,6 +101,6 @@ VALUES (4257, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4257, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4257, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4257, 2, 8619, 10, 0) /* Create Slithis Splinter for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4257, 2, 8619, 10, 0, 0, False) /* Create Slithis Splinter for Wield_DestinationType */;
 

@@ -88,9 +88,9 @@ VALUES (1614, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1614, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1614, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1614, 9, 3676, 0, 0) /* Create Jade Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1614, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1614, 9, 28202, 0, 0) /* Create Durable Gromnie Hide for ContainTreasure_DestinationType */
-     , (1614, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1614, 9, 3676, 0, 0, 0.05, False) /* Create Jade Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1614, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1614, 9, 28202, 0, 0, 0.05, False) /* Create Durable Gromnie Hide for ContainTreasure_DestinationType */
+     , (1614, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

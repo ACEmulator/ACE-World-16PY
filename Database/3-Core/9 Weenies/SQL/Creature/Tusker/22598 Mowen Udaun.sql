@@ -96,7 +96,7 @@ VALUES (22598, 64, 7700) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22598, 12, 1581449475, 19.9864, -9.242, 0.005, -4.371139E-08, 0, 0, -1) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22598, 9, 22578, 10, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (22598, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (22598, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

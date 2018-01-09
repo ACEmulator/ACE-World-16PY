@@ -113,13 +113,13 @@ VALUES (23, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23, 9, 3696, 0, 0) /* Create Blue Gem for ContainTreasure_DestinationType */
-     , (23, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (23, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23, 9, 9291, 0, 0) /* Create Virindi Master Key for ContainTreasure_DestinationType */
-     , (23, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23, 9, 9290, 0, 0) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
-     , (23, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23, 9, 3696, 0, 0, 0.05, False) /* Create Blue Gem for ContainTreasure_DestinationType */
+     , (23, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (23, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (23, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (23, 9, 9291, 0, 0, 0.03, False) /* Create Virindi Master Key for ContainTreasure_DestinationType */
+     , (23, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23, 9, 9290, 0, 0, 0.01, False) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
+     , (23, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -94,16 +94,16 @@ VALUES (1818, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1818, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1818, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1818, 2, 134, 0, 4) /* Create Tunic for Wield_DestinationType */
-     , (1818, 2, 127, 0, 18) /* Create Pants for Wield_DestinationType */
-     , (1818, 2, 115, 0, 6) /* Create Leather Boots for Wield_DestinationType */
-     , (1818, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (1818, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1818, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (1818, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (1818, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (1818, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (1818, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (1818, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1818, 2, 134, 0, 4, 0.6, False) /* Create Tunic for Wield_DestinationType */
+     , (1818, 2, 127, 0, 18, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1818, 2, 115, 0, 6, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1818, 2, 135, 0, 9, 0.5, False) /* Create Turban for Wield_DestinationType */
+     , (1818, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1818, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1818, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (1818, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (1818, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (1818, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (1818, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */;
 

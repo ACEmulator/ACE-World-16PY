@@ -94,23 +94,23 @@ VALUES (2291, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2291, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2291, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2291, 2, 134, 0, 4) /* Create Tunic for Wield_DestinationType */
-     , (2291, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (2291, 2, 132, 0, 17) /* Create Shoes for Wield_DestinationType */
-     , (2291, 2, 118, 0, 5) /* Create Cap for Wield_DestinationType */
-     , (2291, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2291, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2291, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (2291, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (2291, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (2291, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (2291, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (2291, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (2291, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2291, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (2291, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (2291, 4, 6417, -1, 0) /* Create A Stinging Stone for Shop_DestinationType */
-     , (2291, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */
-     , (2291, 4, 26667, -1, 0) /* Create The Blackmire Temple for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2291, 2, 134, 0, 4, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (2291, 2, 127, 0, 4, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (2291, 2, 132, 0, 17, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2291, 2, 118, 0, 5, 0, False) /* Create Cap for Wield_DestinationType */
+     , (2291, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2291, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2291, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (2291, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (2291, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (2291, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (2291, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (2291, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (2291, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2291, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (2291, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (2291, 4, 6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop_DestinationType */
+     , (2291, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */
+     , (2291, 4, 26667, -1, 0, 0, False) /* Create The Blackmire Temple for Shop_DestinationType */;
 

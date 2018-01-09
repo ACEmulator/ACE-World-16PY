@@ -91,9 +91,9 @@ VALUES (27417, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27417, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27417, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27417, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (27417, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27417, 9, 24842, 0, 0) /* Create Telumiat Hollow Minion Essence for ContainTreasure_DestinationType */
-     , (27417, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27417, 9, 9292, 0, 0, 0.08, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (27417, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (27417, 9, 24842, 0, 0, 0.03, False) /* Create Telumiat Hollow Minion Essence for ContainTreasure_DestinationType */
+     , (27417, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

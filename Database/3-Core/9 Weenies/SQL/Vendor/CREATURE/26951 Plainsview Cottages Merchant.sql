@@ -92,6 +92,6 @@ VALUES (26951, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26951, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26951, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26951, 4, 26316, -1, 0) /* Create Plainsview Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26951, 4, 26316, -1, 0, 0, False) /* Create Plainsview Cottages Portal Gem for Shop_DestinationType */;
 

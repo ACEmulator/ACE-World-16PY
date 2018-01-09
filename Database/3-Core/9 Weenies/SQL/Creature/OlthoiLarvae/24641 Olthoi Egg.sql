@@ -92,7 +92,7 @@ VALUES (24641, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24641, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24641, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24641, 9, 24269, 0, 0) /* Create Small Olthoi Grub for ContainTreasure_DestinationType */
-     , (24641, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24641, 9, 24269, 0, 0, 0.2, False) /* Create Small Olthoi Grub for ContainTreasure_DestinationType */
+     , (24641, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

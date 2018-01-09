@@ -130,7 +130,7 @@ VALUES (22114, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22114, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22114, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22114, 9, 22216, 0, 0) /* Create Staff of Nullification for ContainTreasure_DestinationType */
-     , (22114, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22114, 9, 22216, 0, 0, 1, False) /* Create Staff of Nullification for ContainTreasure_DestinationType */
+     , (22114, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

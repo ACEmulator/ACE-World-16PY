@@ -89,7 +89,7 @@ VALUES (24242, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24242, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24242, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24242, 2, 24240, 0, 0) /* Create Olthoi Acid Katar for Wield_DestinationType */
-     , (24242, 2, 24267, 0, 0) /* Create Olthoi Fighter Shorts (Male) for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24242, 2, 24240, 0, 0, 0, False) /* Create Olthoi Acid Katar for Wield_DestinationType */
+     , (24242, 2, 24267, 0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) for Wield_DestinationType */;
 

@@ -92,11 +92,11 @@ VALUES (6080, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6080, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6080, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6080, 9, 27249, 0, 0) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
-     , (6080, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6080, 9, 12128, 0, 0) /* Create White Rabbit Carcass for ContainTreasure_DestinationType */
-     , (6080, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6080, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (6080, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6080, 9, 27249, 0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
+     , (6080, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (6080, 9, 12128, 0, 0, 0.25, False) /* Create White Rabbit Carcass for ContainTreasure_DestinationType */
+     , (6080, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (6080, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (6080, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

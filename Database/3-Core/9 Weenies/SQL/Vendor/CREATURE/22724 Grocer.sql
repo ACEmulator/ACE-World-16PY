@@ -94,20 +94,20 @@ VALUES (22724, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22724, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22724, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22724, 2, 10757, 0, 8) /* Create Towel for Wield_DestinationType */
-     , (22724, 4, 166, -1, 77) /* Create Sack for Shop_DestinationType */
-     , (22724, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (22724, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (22724, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (22724, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (22724, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (22724, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (22724, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (22724, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (22724, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (22724, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (22724, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (22724, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (22724, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22724, 2, 10757, 0, 8, 0.5, False) /* Create Towel for Wield_DestinationType */
+     , (22724, 4, 166, -1, 77, 1, False) /* Create Sack for Shop_DestinationType */
+     , (22724, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (22724, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (22724, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (22724, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (22724, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (22724, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (22724, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (22724, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (22724, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (22724, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (22724, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (22724, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (22724, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
 

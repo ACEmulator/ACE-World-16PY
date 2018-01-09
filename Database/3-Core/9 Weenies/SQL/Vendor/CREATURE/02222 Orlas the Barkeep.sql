@@ -94,28 +94,28 @@ VALUES (2222, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2222, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2222, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2222, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (2222, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (2222, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (2222, 2, 118, 0, 4) /* Create Cap for Wield_DestinationType */
-     , (2222, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2222, 4, 548, -1, 0) /* Create Bowl of Rice for Shop_DestinationType */
-     , (2222, 4, 549, -1, 0) /* Create Bowl of Stew for Shop_DestinationType */
-     , (2222, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2222, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (2222, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (2222, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (2222, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2222, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (2222, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (2222, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (2222, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (2222, 4, 265, -1, 0) /* Create Meat for Shop_DestinationType */
-     , (2222, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2222, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (2222, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (2222, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (2222, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (2222, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2222, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (2222, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (2222, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2222, 2, 118, 0, 4, 0.8, False) /* Create Cap for Wield_DestinationType */
+     , (2222, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2222, 4, 548, -1, 0, 0, False) /* Create Bowl of Rice for Shop_DestinationType */
+     , (2222, 4, 549, -1, 0, 0, False) /* Create Bowl of Stew for Shop_DestinationType */
+     , (2222, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2222, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (2222, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (2222, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (2222, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2222, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (2222, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (2222, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (2222, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (2222, 4, 265, -1, 0, 0, False) /* Create Meat for Shop_DestinationType */
+     , (2222, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2222, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (2222, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (2222, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (2222, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (2222, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */;
 

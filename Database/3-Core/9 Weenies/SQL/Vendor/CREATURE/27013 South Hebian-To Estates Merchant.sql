@@ -92,6 +92,6 @@ VALUES (27013, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27013, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27013, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27013, 4, 26378, -1, 0) /* Create South Hebian-To Estates Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27013, 4, 26378, -1, 0, 0, False) /* Create South Hebian-To Estates Portal Gem for Shop_DestinationType */;
 

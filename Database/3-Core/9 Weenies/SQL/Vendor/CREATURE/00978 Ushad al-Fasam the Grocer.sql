@@ -94,18 +94,18 @@ VALUES (978, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (978, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (978, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (978, 2, 124, 0, 1) /* Create Jerkin for Wield_DestinationType */
-     , (978, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (978, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (978, 2, 128, 0, 10) /* Create Qafiya for Wield_DestinationType */
-     , (978, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (978, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (978, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (978, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (978, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (978, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (978, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (978, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (978, 4, 139, -1, 93) /* Create Small Belt Pouch for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (978, 2, 124, 0, 1, 0.67, False) /* Create Jerkin for Wield_DestinationType */
+     , (978, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (978, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (978, 2, 128, 0, 10, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (978, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (978, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (978, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (978, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (978, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (978, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (978, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (978, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (978, 4, 139, -1, 93, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */;
 

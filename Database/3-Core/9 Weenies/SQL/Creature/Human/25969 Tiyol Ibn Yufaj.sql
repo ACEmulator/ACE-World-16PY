@@ -93,23 +93,23 @@ VALUES (25969, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25969, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25969, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25969, 2, 12192, 0, 0) /* Create Shadow's Garb for Wield_DestinationType */
-     , (25969, 2, 12193, 0, 39) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (25969, 10, 23710, 0, 0) /* Create Yaoji for WieldTreasure_DestinationType */
-     , (25969, 10, 23707, 0, 0) /* Create Fire Tachi for WieldTreasure_DestinationType */
-     , (25969, 10, 23700, 0, 0) /* Create Tachi for WieldTreasure_DestinationType */
-     , (25969, 10, 4912, 0, 0) /* Create Overlord's Sword for WieldTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 25959, 0, 0) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
-     , (25969, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25969, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25969, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_DestinationType */
+     , (25969, 2, 12193, 0, 39, 1, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (25969, 10, 23710, 0, 0, 0.2, False) /* Create Yaoji for WieldTreasure_DestinationType */
+     , (25969, 10, 23707, 0, 0, 0.2, False) /* Create Fire Tachi for WieldTreasure_DestinationType */
+     , (25969, 10, 23700, 0, 0, 0.2, False) /* Create Tachi for WieldTreasure_DestinationType */
+     , (25969, 10, 4912, 0, 0, 0.2, False) /* Create Overlord's Sword for WieldTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 25959, 0, 0, 1, False) /* Create Woven Tassel of Discord for ContainTreasure_DestinationType */
+     , (25969, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25969, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

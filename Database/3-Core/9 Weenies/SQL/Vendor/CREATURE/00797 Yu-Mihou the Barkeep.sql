@@ -94,18 +94,18 @@ VALUES (797, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (797, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (797, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (797, 2, 124, 0, 16) /* Create Jerkin for Wield_DestinationType */
-     , (797, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (797, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (797, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (797, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (797, 4, 4726, -1, 0) /* Create Fish Stew for Shop_DestinationType */
-     , (797, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (797, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (797, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (797, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (797, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (797, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (797, 4, 1506, -1, 0) /* Create Legend of the Undead Defender for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (797, 2, 124, 0, 16, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (797, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (797, 2, 132, 0, 9, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (797, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (797, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (797, 4, 4726, -1, 0, 0, False) /* Create Fish Stew for Shop_DestinationType */
+     , (797, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (797, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (797, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (797, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (797, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (797, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (797, 4, 1506, -1, 0, 0, False) /* Create Legend of the Undead Defender for Shop_DestinationType */;
 

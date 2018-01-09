@@ -94,23 +94,23 @@ VALUES (8439, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8439, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8439, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8439, 2, 124, 0, 13) /* Create Jerkin for Wield_DestinationType */
-     , (8439, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (8439, 2, 133, 0, 4) /* Create Slippers for Wield_DestinationType */
-     , (8439, 2, 5894, 0, 15) /* Create Fez for Wield_DestinationType */
-     , (8439, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (8439, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (8439, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (8439, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (8439, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (8439, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (8439, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (8439, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (8439, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (8439, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (8439, 4, 8638, -1, 0) /* Create The History of Kryst for Shop_DestinationType */
-     , (8439, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (8439, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (8439, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8439, 2, 124, 0, 13, 0.6, False) /* Create Jerkin for Wield_DestinationType */
+     , (8439, 2, 117, 0, 14, 0.3, False) /* Create Breeches for Wield_DestinationType */
+     , (8439, 2, 133, 0, 4, 0.67, False) /* Create Slippers for Wield_DestinationType */
+     , (8439, 2, 5894, 0, 15, 0.8, False) /* Create Fez for Wield_DestinationType */
+     , (8439, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (8439, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (8439, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (8439, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (8439, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (8439, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (8439, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (8439, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (8439, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (8439, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (8439, 4, 8638, -1, 0, 0, False) /* Create The History of Kryst for Shop_DestinationType */
+     , (8439, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (8439, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (8439, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

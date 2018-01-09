@@ -97,19 +97,19 @@ VALUES (1384, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1384, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1384, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1384, 2, 130, 0, 1) /* Create Shirt for Wield_DestinationType */
-     , (1384, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (1384, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (1384, 2, 10696, 0, 16) /* Create Apron for Wield_DestinationType */
-     , (1384, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (1384, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (1384, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (1384, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (1384, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (1384, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (1384, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (1384, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (1384, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1384, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1384, 2, 130, 0, 1, 0.67, False) /* Create Shirt for Wield_DestinationType */
+     , (1384, 2, 117, 0, 8, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (1384, 2, 132, 0, 4, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (1384, 2, 10696, 0, 16, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1384, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (1384, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (1384, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (1384, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (1384, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (1384, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (1384, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (1384, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (1384, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1384, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

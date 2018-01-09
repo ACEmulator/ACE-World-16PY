@@ -115,8 +115,8 @@ VALUES (6882, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6882, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6882, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6882, 9, 3695, 0, 0) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (6882, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6882, 1, 6880, 0, 0) /* Create Bone Engraved Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6882, 9, 3695, 0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
+     , (6882, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */
+     , (6882, 1, 6880, 0, 0, 1, False) /* Create Bone Engraved Key for Contain_DestinationType */;
 

@@ -108,6 +108,6 @@ VALUES (8035, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8035, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8035, 256, 1000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8035, 8, 8114, 0, 0) /* Create Fenmalain Soul Gem for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8035, 8, 8114, 0, 0, 1, False) /* Create Fenmalain Soul Gem for Treasure_DestinationType */;
 

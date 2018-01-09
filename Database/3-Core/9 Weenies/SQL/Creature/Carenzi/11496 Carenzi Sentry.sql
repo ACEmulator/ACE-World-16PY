@@ -90,7 +90,7 @@ VALUES (11496, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11496, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11496, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11496, 9, 11342, 0, 0) /* Create Carenzi Sentry Pelt for ContainTreasure_DestinationType */
-     , (11496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11496, 9, 11342, 0, 0, 0.05, False) /* Create Carenzi Sentry Pelt for ContainTreasure_DestinationType */
+     , (11496, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

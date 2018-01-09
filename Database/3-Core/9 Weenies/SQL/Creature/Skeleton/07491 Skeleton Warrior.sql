@@ -92,7 +92,7 @@ VALUES (7491, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7491, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7491, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7491, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (7491, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7491, 9, 3687, 0, 0, 0.05, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (7491, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

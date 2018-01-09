@@ -92,6 +92,6 @@ VALUES (26757, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26757, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26757, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26757, 4, 26122, -1, 0) /* Create Crescent Ridge Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26757, 4, 26122, -1, 0, 0, False) /* Create Crescent Ridge Cottages Portal Gem for Shop_DestinationType */;
 

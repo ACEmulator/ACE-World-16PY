@@ -94,29 +94,29 @@ VALUES (4437, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4437, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4437, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4437, 2, 326, 0, 0) /* Create Katar for Wield_DestinationType */
-     , (4437, 2, 124, 0, 5) /* Create Jerkin for Wield_DestinationType */
-     , (4437, 2, 2601, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (4437, 2, 115, 0, 2) /* Create Leather Boots for Wield_DestinationType */
-     , (4437, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4437, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (4437, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (4437, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (4437, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (4437, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (4437, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (4437, 4, 352, -1, 0) /* Create Short Sword for Shop_DestinationType */
-     , (4437, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (4437, 4, 315, -1, 0) /* Create Throwing Dagger for Shop_DestinationType */
-     , (4437, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (4437, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (4437, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (4437, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (4437, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (4437, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (4437, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */
-     , (4437, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4437, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4437, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4437, 2, 326, 0, 0, 0, False) /* Create Katar for Wield_DestinationType */
+     , (4437, 2, 124, 0, 5, 0.67, False) /* Create Jerkin for Wield_DestinationType */
+     , (4437, 2, 2601, 0, 4, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (4437, 2, 115, 0, 2, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4437, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (4437, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (4437, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (4437, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (4437, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (4437, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (4437, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (4437, 4, 352, -1, 0, 0, False) /* Create Short Sword for Shop_DestinationType */
+     , (4437, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (4437, 4, 315, -1, 0, 0, False) /* Create Throwing Dagger for Shop_DestinationType */
+     , (4437, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (4437, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (4437, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (4437, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (4437, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (4437, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (4437, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */
+     , (4437, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4437, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4437, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

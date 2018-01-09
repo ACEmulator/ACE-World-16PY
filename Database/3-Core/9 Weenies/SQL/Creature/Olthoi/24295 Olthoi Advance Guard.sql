@@ -89,7 +89,7 @@ VALUES (24295, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24295, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24295, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24295, 9, 24234, 0, 0) /* Create Olthoi Crest for ContainTreasure_DestinationType */
-     , (24295, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24295, 9, 24234, 0, 0, 0.15, False) /* Create Olthoi Crest for ContainTreasure_DestinationType */
+     , (24295, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -122,6 +122,6 @@ VALUES (27714, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27714, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27714, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27714, 10, 91, 0, 0) /* Create Kite Shield for WieldTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27714, 10, 91, 0, 0, 1, False) /* Create Kite Shield for WieldTreasure_DestinationType */;
 

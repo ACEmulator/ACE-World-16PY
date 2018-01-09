@@ -123,10 +123,10 @@ VALUES (6811, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6811, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6811, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6811, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (6811, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6811, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (6811, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6811, 8, 6809, 0, 0) /* Create Nexus Note for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6811, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (6811, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (6811, 9, 6058, 0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (6811, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (6811, 8, 6809, 0, 0, 1, False) /* Create Nexus Note for Treasure_DestinationType */;
 

@@ -89,6 +89,6 @@ VALUES (26463, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26463, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26463, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26463, 2, 161, 0, 0) /* Create Mug for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26463, 2, 161, 0, 0, 0, False) /* Create Mug for Wield_DestinationType */;
 

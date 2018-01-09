@@ -94,24 +94,24 @@ VALUES (1817, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1817, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1817, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1817, 2, 334, 0, 0) /* Create Nayin for Wield_DestinationType */
-     , (1817, 2, 124, 0, 4) /* Create Jerkin for Wield_DestinationType */
-     , (1817, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (1817, 2, 129, 0, 6) /* Create Sandals for Wield_DestinationType */
-     , (1817, 2, 135, 0, 4) /* Create Turban for Wield_DestinationType */
-     , (1817, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (1817, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1817, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1817, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (1817, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (1817, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (1817, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (1817, 4, 23857, -1, 0) /* Create Bundle of Spiketails for Shop_DestinationType */
-     , (1817, 4, 3602, -1, 0) /* Create Armor Piercing Quarrel for Shop_DestinationType */
-     , (1817, 4, 3598, -1, 0) /* Create Armor Piercing Arrow for Shop_DestinationType */
-     , (1817, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (1817, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (1817, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */
-     , (1817, 4, 334, -1, 0) /* Create Nayin for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1817, 2, 334, 0, 0, 0, False) /* Create Nayin for Wield_DestinationType */
+     , (1817, 2, 124, 0, 4, 0.6, False) /* Create Jerkin for Wield_DestinationType */
+     , (1817, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (1817, 2, 129, 0, 6, 0, False) /* Create Sandals for Wield_DestinationType */
+     , (1817, 2, 135, 0, 4, 0.6, False) /* Create Turban for Wield_DestinationType */
+     , (1817, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (1817, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1817, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1817, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (1817, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (1817, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (1817, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (1817, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop_DestinationType */
+     , (1817, 4, 3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel for Shop_DestinationType */
+     , (1817, 4, 3598, -1, 0, 0, False) /* Create Armor Piercing Arrow for Shop_DestinationType */
+     , (1817, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (1817, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (1817, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */
+     , (1817, 4, 334, -1, 0, 0, False) /* Create Nayin for Shop_DestinationType */;
 

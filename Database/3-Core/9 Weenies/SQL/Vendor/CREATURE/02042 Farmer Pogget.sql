@@ -93,28 +93,28 @@ VALUES (2042, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2042, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2042, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2042, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (2042, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (2042, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (2042, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2042, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 14) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 2) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 13) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 9) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 61) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 166, -1, 77) /* Create Sack for Shop_DestinationType */
-     , (2042, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (2042, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2042, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (2042, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (2042, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2042, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (2042, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (2042, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (2042, 4, 265, -1, 0) /* Create Meat for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2042, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (2042, 2, 127, 0, 7, 0.33, False) /* Create Pants for Wield_DestinationType */
+     , (2042, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2042, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (2042, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 14, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 2, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 13, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 9, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 61, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 166, -1, 77, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2042, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (2042, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2042, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (2042, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (2042, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2042, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (2042, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (2042, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (2042, 4, 265, -1, 0, 0, False) /* Create Meat for Shop_DestinationType */;
 

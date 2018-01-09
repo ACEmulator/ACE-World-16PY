@@ -108,7 +108,7 @@ VALUES (19279, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19279, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19279, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19279, 9, 19253, 0, 0) /* Create Bronze Spring from a Statue for ContainTreasure_DestinationType */
-     , (19279, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19279, 9, 19253, 0, 0, 0.05, False) /* Create Bronze Spring from a Statue for ContainTreasure_DestinationType */
+     , (19279, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

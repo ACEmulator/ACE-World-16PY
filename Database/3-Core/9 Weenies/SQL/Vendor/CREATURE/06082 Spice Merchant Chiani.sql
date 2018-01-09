@@ -94,12 +94,12 @@ VALUES (6082, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6082, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6082, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6082, 2, 2590, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (6082, 2, 2604, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (6082, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (6082, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (6082, 4, 5795, -1, 0) /* Create Hot Sauce for Shop_DestinationType */
-     , (6082, 4, 5780, -1, 0) /* Create Cinnamon Bark for Shop_DestinationType */
-     , (6082, 4, 5803, -1, 0) /* Create Oregano for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6082, 2, 2590, 0, 18, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (6082, 2, 2604, 0, 9, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (6082, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (6082, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (6082, 4, 5795, -1, 0, 0, False) /* Create Hot Sauce for Shop_DestinationType */
+     , (6082, 4, 5780, -1, 0, 0, False) /* Create Cinnamon Bark for Shop_DestinationType */
+     , (6082, 4, 5803, -1, 0, 0, False) /* Create Oregano for Shop_DestinationType */;
 

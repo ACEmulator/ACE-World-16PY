@@ -90,11 +90,11 @@ VALUES (27800, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27800, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27800, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27800, 9, 11692, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (27800, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27800, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (27800, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27800, 9, 27809, 0, 0) /* Create Infected Assailer Fur for ContainTreasure_DestinationType */
-     , (27800, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27800, 9, 11692, 0, 0, 0.02, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (27800, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27800, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (27800, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27800, 9, 27809, 0, 0, 0.07, False) /* Create Infected Assailer Fur for ContainTreasure_DestinationType */
+     , (27800, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */;
 

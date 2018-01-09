@@ -94,13 +94,13 @@ VALUES (6113, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6113, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6113, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6113, 2, 2595, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (6113, 2, 2600, 0, 4) /* Create Pantaloons for Wield_DestinationType */
-     , (6113, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (6113, 2, 5894, 0, 13) /* Create Fez for Wield_DestinationType */
-     , (6113, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (6113, 4, 5794, -1, 0) /* Create Hot Pepper for Shop_DestinationType */
-     , (6113, 4, 5781, -1, 0) /* Create Cinnamon for Shop_DestinationType */
-     , (6113, 4, 5803, -1, 0) /* Create Oregano for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6113, 2, 2595, 0, 9, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (6113, 2, 2600, 0, 4, 0.6, False) /* Create Pantaloons for Wield_DestinationType */
+     , (6113, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (6113, 2, 5894, 0, 13, 0.4, False) /* Create Fez for Wield_DestinationType */
+     , (6113, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (6113, 4, 5794, -1, 0, 0, False) /* Create Hot Pepper for Shop_DestinationType */
+     , (6113, 4, 5781, -1, 0, 0, False) /* Create Cinnamon for Shop_DestinationType */
+     , (6113, 4, 5803, -1, 0, 0, False) /* Create Oregano for Shop_DestinationType */;
 

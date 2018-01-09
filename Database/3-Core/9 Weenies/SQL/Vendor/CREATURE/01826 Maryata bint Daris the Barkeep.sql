@@ -94,24 +94,24 @@ VALUES (1826, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1826, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1826, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1826, 2, 130, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (1826, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (1826, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (1826, 2, 135, 0, 17) /* Create Turban for Wield_DestinationType */
-     , (1826, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1826, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (1826, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (1826, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (1826, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (1826, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (1826, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (1826, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (1826, 4, 4727, -1, 0) /* Create Flat Bread for Shop_DestinationType */
-     , (1826, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (1826, 4, 4732, -1, 0) /* Create Fried Steak for Shop_DestinationType */
-     , (1826, 4, 8209, -1, 0) /* Create Call for Adventurers! for Shop_DestinationType */
-     , (1826, 4, 12146, -1, 0) /* Create Simulacra Rumor for Shop_DestinationType */
-     , (1826, 4, 23031, -1, 0) /* Create The Silifi of Crimson Stars for Shop_DestinationType */
-     , (1826, 4, 6418, -1, 0) /* Create A Fiery Stone for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1826, 2, 130, 0, 14, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (1826, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (1826, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (1826, 2, 135, 0, 17, 1, False) /* Create Turban for Wield_DestinationType */
+     , (1826, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1826, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (1826, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (1826, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (1826, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (1826, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (1826, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (1826, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (1826, 4, 4727, -1, 0, 0, False) /* Create Flat Bread for Shop_DestinationType */
+     , (1826, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (1826, 4, 4732, -1, 0, 0, False) /* Create Fried Steak for Shop_DestinationType */
+     , (1826, 4, 8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop_DestinationType */
+     , (1826, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop_DestinationType */
+     , (1826, 4, 23031, -1, 0, 0, False) /* Create The Silifi of Crimson Stars for Shop_DestinationType */
+     , (1826, 4, 6418, -1, 0, 0, False) /* Create A Fiery Stone for Shop_DestinationType */;
 

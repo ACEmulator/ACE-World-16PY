@@ -98,60 +98,60 @@ VALUES (20215, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20215, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20215, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20215, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (20215, 2, 127, 0, 3) /* Create Pants for Wield_DestinationType */
-     , (20215, 2, 115, 0, 14) /* Create Leather Boots for Wield_DestinationType */
-     , (20215, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (20215, 4, 15269, -1, 0) /* Create Foci of Artifice for Shop_DestinationType */
-     , (20215, 4, 15271, -1, 0) /* Create Foci of Strife for Shop_DestinationType */
-     , (20215, 4, 1875, -1, 0) /* Create Scroll of Acid Bane for Shop_DestinationType */
-     , (20215, 4, 1876, -1, 0) /* Create Scroll of Acid Lure for Shop_DestinationType */
-     , (20215, 4, 1552, -1, 0) /* Create Scroll of Blade Bane for Shop_DestinationType */
-     , (20215, 4, 1553, -1, 0) /* Create Scroll of Blade Lure for Shop_DestinationType */
-     , (20215, 4, 1588, -1, 0) /* Create Blood Drinker Scroll for Shop_DestinationType */
-     , (20215, 4, 1589, -1, 0) /* Create Scroll of Blood Loather for Shop_DestinationType */
-     , (20215, 4, 1877, -1, 0) /* Create Scroll of Bludgeon Bane for Shop_DestinationType */
-     , (20215, 4, 1878, -1, 0) /* Create Scroll of Bludgeon Lure for Shop_DestinationType */
-     , (20215, 4, 1879, -1, 0) /* Create Scroll of Brittlemail for Shop_DestinationType */
-     , (20215, 4, 1880, -1, 0) /* Create Scroll of Defender for Shop_DestinationType */
-     , (20215, 4, 1881, -1, 0) /* Create Scroll of Flame Bane for Shop_DestinationType */
-     , (20215, 4, 1882, -1, 0) /* Create Scroll of Flame Lure for Shop_DestinationType */
-     , (20215, 4, 1883, -1, 0) /* Create Scroll of Frost Bane for Shop_DestinationType */
-     , (20215, 4, 1884, -1, 0) /* Create Scroll of Frost Lure for Shop_DestinationType */
-     , (20215, 4, 1885, -1, 0) /* Create Scroll of Heartseeker for Shop_DestinationType */
-     , (20215, 4, 1886, -1, 0) /* Create Scroll of Hermetic Void for Shop_DestinationType */
-     , (20215, 4, 1887, -1, 0) /* Create Scroll of Impenetrability for Shop_DestinationType */
-     , (20215, 4, 1888, -1, 0) /* Create Scroll of Leaden Weapon for Shop_DestinationType */
-     , (20215, 4, 1889, -1, 0) /* Create Scroll of Lightning Bane for Shop_DestinationType */
-     , (20215, 4, 1890, -1, 0) /* Create Scroll of Lightning Lure for Shop_DestinationType */
-     , (20215, 4, 1891, -1, 0) /* Create Scroll of Lure Blade for Shop_DestinationType */
-     , (20215, 4, 1892, -1, 0) /* Create Scroll of Piercing Bane for Shop_DestinationType */
-     , (20215, 4, 1893, -1, 0) /* Create Scroll of Piercing Lure for Shop_DestinationType */
-     , (20215, 4, 1894, -1, 0) /* Create Scroll of Strengthen Lock for Shop_DestinationType */
-     , (20215, 4, 1895, -1, 0) /* Create Scroll of Swift Killer for Shop_DestinationType */
-     , (20215, 4, 1896, -1, 0) /* Create Scroll of Hermetic Link for Shop_DestinationType */
-     , (20215, 4, 1897, -1, 0) /* Create Scroll of Turn Blade for Shop_DestinationType */
-     , (20215, 4, 1898, -1, 0) /* Create Scroll of Weaken Lock for Shop_DestinationType */
-     , (20215, 4, 8914, -1, 0) /* Create Scroll of Acid Streak for Shop_DestinationType */
-     , (20215, 4, 1638, -1, 0) /* Create Scroll of Acid Stream for Shop_DestinationType */
-     , (20215, 4, 21288, -1, 0) /* Create Scroll of Acid Arc I for Shop_DestinationType */
-     , (20215, 4, 1569, -1, 0) /* Create Scroll of Flame Bolt for Shop_DestinationType */
-     , (20215, 4, 8920, -1, 0) /* Create Scroll of Flame Streak for Shop_DestinationType */
-     , (20215, 4, 21302, -1, 0) /* Create Scroll of Flame Arc I for Shop_DestinationType */
-     , (20215, 4, 1639, -1, 0) /* Create Scroll of Force Bolt for Shop_DestinationType */
-     , (20215, 4, 8929, -1, 0) /* Create Scroll of Force Streak for Shop_DestinationType */
-     , (20215, 4, 21309, -1, 0) /* Create Scroll of Force Arc I for Shop_DestinationType */
-     , (20215, 4, 1573, -1, 0) /* Create Scroll of Frost Bolt for Shop_DestinationType */
-     , (20215, 4, 8935, -1, 0) /* Create Scroll of Frost Streak for Shop_DestinationType */
-     , (20215, 4, 21316, -1, 0) /* Create Scroll of Frost Arc I for Shop_DestinationType */
-     , (20215, 4, 1640, -1, 0) /* Create Scroll of Lightning Bolt for Shop_DestinationType */
-     , (20215, 4, 8941, -1, 0) /* Create Scroll of Lightning Streak for Shop_DestinationType */
-     , (20215, 4, 21323, -1, 0) /* Create Scroll of Lightning Arc I for Shop_DestinationType */
-     , (20215, 4, 1641, -1, 0) /* Create Scroll of Shock Wave for Shop_DestinationType */
-     , (20215, 4, 8947, -1, 0) /* Create Scroll of Shock Wave Streak for Shop_DestinationType */
-     , (20215, 4, 21330, -1, 0) /* Create Scroll of Shock Arc I for Shop_DestinationType */
-     , (20215, 4, 1642, -1, 0) /* Create Scroll of Whirling Blade for Shop_DestinationType */
-     , (20215, 4, 8953, -1, 0) /* Create Scroll of Whirling Blade Streak for Shop_DestinationType */
-     , (20215, 4, 21295, -1, 0) /* Create Scroll of Blade Arc I for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20215, 2, 124, 0, 14, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (20215, 2, 127, 0, 3, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (20215, 2, 115, 0, 14, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (20215, 2, 10696, 0, 13, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (20215, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop_DestinationType */
+     , (20215, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife for Shop_DestinationType */
+     , (20215, 4, 1875, -1, 0, 0, False) /* Create Scroll of Acid Bane for Shop_DestinationType */
+     , (20215, 4, 1876, -1, 0, 0, False) /* Create Scroll of Acid Lure for Shop_DestinationType */
+     , (20215, 4, 1552, -1, 0, 0, False) /* Create Scroll of Blade Bane for Shop_DestinationType */
+     , (20215, 4, 1553, -1, 0, 0, False) /* Create Scroll of Blade Lure for Shop_DestinationType */
+     , (20215, 4, 1588, -1, 0, 0, False) /* Create Blood Drinker Scroll for Shop_DestinationType */
+     , (20215, 4, 1589, -1, 0, 0, False) /* Create Scroll of Blood Loather for Shop_DestinationType */
+     , (20215, 4, 1877, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane for Shop_DestinationType */
+     , (20215, 4, 1878, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure for Shop_DestinationType */
+     , (20215, 4, 1879, -1, 0, 0, False) /* Create Scroll of Brittlemail for Shop_DestinationType */
+     , (20215, 4, 1880, -1, 0, 0, False) /* Create Scroll of Defender for Shop_DestinationType */
+     , (20215, 4, 1881, -1, 0, 0, False) /* Create Scroll of Flame Bane for Shop_DestinationType */
+     , (20215, 4, 1882, -1, 0, 0, False) /* Create Scroll of Flame Lure for Shop_DestinationType */
+     , (20215, 4, 1883, -1, 0, 0, False) /* Create Scroll of Frost Bane for Shop_DestinationType */
+     , (20215, 4, 1884, -1, 0, 0, False) /* Create Scroll of Frost Lure for Shop_DestinationType */
+     , (20215, 4, 1885, -1, 0, 0, False) /* Create Scroll of Heartseeker for Shop_DestinationType */
+     , (20215, 4, 1886, -1, 0, 0, False) /* Create Scroll of Hermetic Void for Shop_DestinationType */
+     , (20215, 4, 1887, -1, 0, 0, False) /* Create Scroll of Impenetrability for Shop_DestinationType */
+     , (20215, 4, 1888, -1, 0, 0, False) /* Create Scroll of Leaden Weapon for Shop_DestinationType */
+     , (20215, 4, 1889, -1, 0, 0, False) /* Create Scroll of Lightning Bane for Shop_DestinationType */
+     , (20215, 4, 1890, -1, 0, 0, False) /* Create Scroll of Lightning Lure for Shop_DestinationType */
+     , (20215, 4, 1891, -1, 0, 0, False) /* Create Scroll of Lure Blade for Shop_DestinationType */
+     , (20215, 4, 1892, -1, 0, 0, False) /* Create Scroll of Piercing Bane for Shop_DestinationType */
+     , (20215, 4, 1893, -1, 0, 0, False) /* Create Scroll of Piercing Lure for Shop_DestinationType */
+     , (20215, 4, 1894, -1, 0, 0, False) /* Create Scroll of Strengthen Lock for Shop_DestinationType */
+     , (20215, 4, 1895, -1, 0, 0, False) /* Create Scroll of Swift Killer for Shop_DestinationType */
+     , (20215, 4, 1896, -1, 0, 0, False) /* Create Scroll of Hermetic Link for Shop_DestinationType */
+     , (20215, 4, 1897, -1, 0, 0, False) /* Create Scroll of Turn Blade for Shop_DestinationType */
+     , (20215, 4, 1898, -1, 0, 0, False) /* Create Scroll of Weaken Lock for Shop_DestinationType */
+     , (20215, 4, 8914, -1, 0, 0, False) /* Create Scroll of Acid Streak for Shop_DestinationType */
+     , (20215, 4, 1638, -1, 0, 0, False) /* Create Scroll of Acid Stream for Shop_DestinationType */
+     , (20215, 4, 21288, -1, 0, 0, False) /* Create Scroll of Acid Arc I for Shop_DestinationType */
+     , (20215, 4, 1569, -1, 0, 0, False) /* Create Scroll of Flame Bolt for Shop_DestinationType */
+     , (20215, 4, 8920, -1, 0, 0, False) /* Create Scroll of Flame Streak for Shop_DestinationType */
+     , (20215, 4, 21302, -1, 0, 0, False) /* Create Scroll of Flame Arc I for Shop_DestinationType */
+     , (20215, 4, 1639, -1, 0, 0, False) /* Create Scroll of Force Bolt for Shop_DestinationType */
+     , (20215, 4, 8929, -1, 0, 0, False) /* Create Scroll of Force Streak for Shop_DestinationType */
+     , (20215, 4, 21309, -1, 0, 0, False) /* Create Scroll of Force Arc I for Shop_DestinationType */
+     , (20215, 4, 1573, -1, 0, 0, False) /* Create Scroll of Frost Bolt for Shop_DestinationType */
+     , (20215, 4, 8935, -1, 0, 0, False) /* Create Scroll of Frost Streak for Shop_DestinationType */
+     , (20215, 4, 21316, -1, 0, 0, False) /* Create Scroll of Frost Arc I for Shop_DestinationType */
+     , (20215, 4, 1640, -1, 0, 0, False) /* Create Scroll of Lightning Bolt for Shop_DestinationType */
+     , (20215, 4, 8941, -1, 0, 0, False) /* Create Scroll of Lightning Streak for Shop_DestinationType */
+     , (20215, 4, 21323, -1, 0, 0, False) /* Create Scroll of Lightning Arc I for Shop_DestinationType */
+     , (20215, 4, 1641, -1, 0, 0, False) /* Create Scroll of Shock Wave for Shop_DestinationType */
+     , (20215, 4, 8947, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak for Shop_DestinationType */
+     , (20215, 4, 21330, -1, 0, 0, False) /* Create Scroll of Shock Arc I for Shop_DestinationType */
+     , (20215, 4, 1642, -1, 0, 0, False) /* Create Scroll of Whirling Blade for Shop_DestinationType */
+     , (20215, 4, 8953, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak for Shop_DestinationType */
+     , (20215, 4, 21295, -1, 0, 0, False) /* Create Scroll of Blade Arc I for Shop_DestinationType */;
 

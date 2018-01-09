@@ -88,7 +88,7 @@ VALUES (22110, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22110, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22110, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22110, 2, 10870, 0, 17) /* Create Canescent Mattekar Robe for Wield_DestinationType */
-     , (22110, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22110, 2, 10870, 0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield_DestinationType */
+     , (22110, 2, 118, 0, 14, 0.7, False) /* Create Cap for Wield_DestinationType */;
 

@@ -88,6 +88,6 @@ VALUES (22112, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22112, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22112, 256, 255) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22112, 2, 5909, 0, 17) /* Create Faran War Master Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22112, 2, 5909, 0, 17, 0.4, False) /* Create Faran War Master Robe for Wield_DestinationType */;
 

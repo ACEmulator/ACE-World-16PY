@@ -93,7 +93,7 @@ VALUES (10946, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10946, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10946, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10946, 9, 10972, 0, 0) /* Create Utelari's Collar for ContainTreasure_DestinationType */
-     , (10946, 9, 10976, 0, 0) /* Create Virindi Implant for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10946, 9, 10972, 0, 0, 1, False) /* Create Utelari's Collar for ContainTreasure_DestinationType */
+     , (10946, 9, 10976, 0, 0, 1, False) /* Create Virindi Implant for ContainTreasure_DestinationType */;
 

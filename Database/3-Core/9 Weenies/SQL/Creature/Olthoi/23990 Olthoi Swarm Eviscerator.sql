@@ -89,7 +89,7 @@ VALUES (23990, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23990, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23990, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23990, 9, 22168, 0, 0) /* Create Quarter Staff for ContainTreasure_DestinationType */
-     , (23990, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23990, 9, 22168, 0, 0, 0.06, False) /* Create Quarter Staff for ContainTreasure_DestinationType */
+     , (23990, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */;
 

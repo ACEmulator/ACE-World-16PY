@@ -121,13 +121,13 @@ VALUES (5767, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5767, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5767, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5767, 4, 5769, -1, 0) /* Create Iceball for Shop_DestinationType */
-     , (5767, 4, 5770, -1, 0) /* Create "Enchanted" Iceball for Shop_DestinationType */
-     , (5767, 4, 13224, -1, 0) /* Create A Frozen Note for Shop_DestinationType */
-     , (5767, 2, 5770, 10, 0) /* Create "Enchanted" Iceball for Wield_DestinationType */
-     , (5767, 1, 5770, 14, 0) /* Create "Enchanted" Iceball for Contain_DestinationType */
-     , (5767, 1, 5758, 1, 0) /* Create Carrot for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5767, 4, 5769, -1, 0, 0, False) /* Create Iceball for Shop_DestinationType */
+     , (5767, 4, 5770, -1, 0, 0, False) /* Create "Enchanted" Iceball for Shop_DestinationType */
+     , (5767, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop_DestinationType */
+     , (5767, 2, 5770, 10, 0, 1, False) /* Create "Enchanted" Iceball for Wield_DestinationType */
+     , (5767, 1, 5770, 14, 0, 1, False) /* Create "Enchanted" Iceball for Contain_DestinationType */
+     , (5767, 1, 5758, 1, 0, 1, False) /* Create Carrot for Contain_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (5767, 1, 5766, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Snowman (x1 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;

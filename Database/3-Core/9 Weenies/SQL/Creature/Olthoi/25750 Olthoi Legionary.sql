@@ -93,9 +93,9 @@ VALUES (25750, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25750, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25750, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25750, 9, 10864, 0, 0) /* Create Olthoi Ichor for ContainTreasure_DestinationType */
-     , (25750, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25750, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25750, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25750, 9, 10864, 0, 0, 0.01, False) /* Create Olthoi Ichor for ContainTreasure_DestinationType */
+     , (25750, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (25750, 9, 6876, 0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25750, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

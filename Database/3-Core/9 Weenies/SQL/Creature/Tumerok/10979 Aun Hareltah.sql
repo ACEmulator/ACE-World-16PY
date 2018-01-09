@@ -90,6 +90,6 @@ VALUES (10979, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10979, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10979, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10979, 2, 312, 0, 0) /* Create Light Crossbow for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10979, 2, 312, 0, 0, 0, False) /* Create Light Crossbow for Wield_DestinationType */;
 

@@ -102,28 +102,28 @@ VALUES (6858, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6858, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6858, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6858, 2, 130, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (6858, 2, 117, 0, 4) /* Create Breeches for Wield_DestinationType */
-     , (6858, 2, 133, 0, 16) /* Create Slippers for Wield_DestinationType */
-     , (6858, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (6858, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (6858, 4, 139, -1, 93) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (6858, 4, 138, -1, 93) /* Create Belt Pouch for Shop_DestinationType */
-     , (6858, 4, 137, -1, 93) /* Create Basket for Shop_DestinationType */
-     , (6858, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (6858, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (6858, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (6858, 4, 138, -1, 86) /* Create Belt Pouch for Shop_DestinationType */
-     , (6858, 4, 137, -1, 86) /* Create Basket for Shop_DestinationType */
-     , (6858, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (6858, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (6858, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (6858, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (6858, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (6858, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (6858, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (6858, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6858, 2, 130, 0, 18, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (6858, 2, 117, 0, 4, 0.6, False) /* Create Breeches for Wield_DestinationType */
+     , (6858, 2, 133, 0, 16, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (6858, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (6858, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (6858, 4, 139, -1, 93, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (6858, 4, 138, -1, 93, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (6858, 4, 137, -1, 93, 1, False) /* Create Basket for Shop_DestinationType */
+     , (6858, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (6858, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (6858, 4, 139, -1, 86, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (6858, 4, 138, -1, 86, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (6858, 4, 137, -1, 86, 1, False) /* Create Basket for Shop_DestinationType */
+     , (6858, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (6858, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (6858, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (6858, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (6858, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (6858, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (6858, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (6858, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6858, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Water (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */

@@ -88,9 +88,9 @@ VALUES (8125, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8125, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8125, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8125, 2, 124, 0, 1) /* Create Jerkin for Wield_DestinationType */
-     , (8125, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (8125, 2, 133, 0, 14) /* Create Slippers for Wield_DestinationType */
-     , (8125, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8125, 2, 124, 0, 1, 0.68, False) /* Create Jerkin for Wield_DestinationType */
+     , (8125, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (8125, 2, 133, 0, 14, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (8125, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */;
 

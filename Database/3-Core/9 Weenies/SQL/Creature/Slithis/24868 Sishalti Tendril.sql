@@ -98,6 +98,6 @@ VALUES (24868, 64, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24868, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24868, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24868, 2, 4804, 10, 0) /* Create Slithis Spine for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24868, 2, 4804, 10, 0, 0, False) /* Create Slithis Spine for Wield_DestinationType */;
 

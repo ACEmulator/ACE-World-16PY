@@ -94,28 +94,28 @@ VALUES (703, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (703, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (703, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (703, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (703, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (703, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (703, 2, 119, 0, 10) /* Create Cowl for Wield_DestinationType */
-     , (703, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (703, 4, 127, -1, 9) /* Create Pants for Shop_DestinationType */
-     , (703, 4, 127, -1, 5) /* Create Pants for Shop_DestinationType */
-     , (703, 4, 127, -1, 4) /* Create Pants for Shop_DestinationType */
-     , (703, 4, 130, -1, 9) /* Create Shirt for Shop_DestinationType */
-     , (703, 4, 130, -1, 5) /* Create Shirt for Shop_DestinationType */
-     , (703, 4, 130, -1, 4) /* Create Shirt for Shop_DestinationType */
-     , (703, 4, 118, -1, 9) /* Create Cap for Shop_DestinationType */
-     , (703, 4, 118, -1, 5) /* Create Cap for Shop_DestinationType */
-     , (703, 4, 118, -1, 4) /* Create Cap for Shop_DestinationType */
-     , (703, 4, 2606, -1, 9) /* Create Boots for Shop_DestinationType */
-     , (703, 4, 2606, -1, 5) /* Create Boots for Shop_DestinationType */
-     , (703, 4, 2606, -1, 4) /* Create Boots for Shop_DestinationType */
-     , (703, 4, 5851, -1, 4) /* Create Faran Robe with Hood for Shop_DestinationType */
-     , (703, 4, 5850, -1, 4) /* Create Faran Robe for Shop_DestinationType */
-     , (703, 4, 8371, -1, 18) /* Create Kireth Gown with Band for Shop_DestinationType */
-     , (703, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (703, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (703, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (703, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (703, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (703, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (703, 2, 119, 0, 10, 1, False) /* Create Cowl for Wield_DestinationType */
+     , (703, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (703, 4, 127, -1, 9, 0.5, False) /* Create Pants for Shop_DestinationType */
+     , (703, 4, 127, -1, 5, 0.67, False) /* Create Pants for Shop_DestinationType */
+     , (703, 4, 127, -1, 4, 0.6, False) /* Create Pants for Shop_DestinationType */
+     , (703, 4, 130, -1, 9, 0.5, False) /* Create Shirt for Shop_DestinationType */
+     , (703, 4, 130, -1, 5, 0.67, False) /* Create Shirt for Shop_DestinationType */
+     , (703, 4, 130, -1, 4, 0.6, False) /* Create Shirt for Shop_DestinationType */
+     , (703, 4, 118, -1, 9, 0.5, False) /* Create Cap for Shop_DestinationType */
+     , (703, 4, 118, -1, 5, 0.67, False) /* Create Cap for Shop_DestinationType */
+     , (703, 4, 118, -1, 4, 0.6, False) /* Create Cap for Shop_DestinationType */
+     , (703, 4, 2606, -1, 9, 0.5, False) /* Create Boots for Shop_DestinationType */
+     , (703, 4, 2606, -1, 5, 0.67, False) /* Create Boots for Shop_DestinationType */
+     , (703, 4, 2606, -1, 4, 0.6, False) /* Create Boots for Shop_DestinationType */
+     , (703, 4, 5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood for Shop_DestinationType */
+     , (703, 4, 5850, -1, 4, 0.5, False) /* Create Faran Robe for Shop_DestinationType */
+     , (703, 4, 8371, -1, 18, 1, False) /* Create Kireth Gown with Band for Shop_DestinationType */
+     , (703, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (703, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (703, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

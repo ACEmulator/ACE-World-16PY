@@ -88,8 +88,8 @@ VALUES (235, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (235, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (235, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (235, 8, 46, 0, 20) /* Create Metal Cap for Treasure_DestinationType */
-     , (235, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (235, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (235, 8, 46, 0, 20, 0.2, False) /* Create Metal Cap for Treasure_DestinationType */
+     , (235, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (235, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -111,13 +111,13 @@ VALUES (23035, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23035, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23035, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23035, 9, 3692, 0, 0) /* Create Black Stone for ContainTreasure_DestinationType */
-     , (23035, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23035, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (23035, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23035, 9, 9324, 0, 0) /* Create Obsidian Heart for ContainTreasure_DestinationType */
-     , (23035, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23035, 9, 23038, 0, 0) /* Create Valara Crystal for ContainTreasure_DestinationType */
-     , (23035, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23035, 9, 3692, 0, 0, 0.03, False) /* Create Black Stone for ContainTreasure_DestinationType */
+     , (23035, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23035, 9, 6353, 0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (23035, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23035, 9, 9324, 0, 0, 0.1, False) /* Create Obsidian Heart for ContainTreasure_DestinationType */
+     , (23035, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (23035, 9, 23038, 0, 0, 0.4, False) /* Create Valara Crystal for ContainTreasure_DestinationType */
+     , (23035, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

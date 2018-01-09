@@ -90,9 +90,9 @@ VALUES (9222, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9222, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9222, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9222, 2, 124, 0, 13) /* Create Jerkin for Wield_DestinationType */
-     , (9222, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (9222, 2, 133, 0, 4) /* Create Slippers for Wield_DestinationType */
-     , (9222, 2, 5894, 0, 4) /* Create Fez for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9222, 2, 124, 0, 13, 0.6, False) /* Create Jerkin for Wield_DestinationType */
+     , (9222, 2, 117, 0, 14, 0.3, False) /* Create Breeches for Wield_DestinationType */
+     , (9222, 2, 133, 0, 4, 0.67, False) /* Create Slippers for Wield_DestinationType */
+     , (9222, 2, 5894, 0, 4, 0.8, False) /* Create Fez for Wield_DestinationType */;
 

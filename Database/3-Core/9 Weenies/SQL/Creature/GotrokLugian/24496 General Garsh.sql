@@ -94,10 +94,10 @@ VALUES (24496, 64, 7830) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24496, 128, 4660) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24496, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24496, 2, 24567, 0, 0) /* Create Quadruple-bladed Axe for Wield_DestinationType */
-     , (24496, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24496, 9, 24557, 0, 0) /* Create Quadruple-bladed Axe for ContainTreasure_DestinationType */
-     , (24496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24496, 2, 24567, 0, 0, 0, False) /* Create Quadruple-bladed Axe for Wield_DestinationType */
+     , (24496, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24496, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (24496, 9, 24557, 0, 0, 1, False) /* Create Quadruple-bladed Axe for ContainTreasure_DestinationType */
+     , (24496, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

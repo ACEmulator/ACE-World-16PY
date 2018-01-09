@@ -88,14 +88,14 @@ VALUES (30906, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30906, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30906, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30906, 2, 130, 0, 2) /* Create Shirt for Wield_DestinationType */
-     , (30906, 2, 127, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (30906, 2, 24945, 0, 0) /* Create Antius' Celdon Breastplate for Wield_DestinationType */
-     , (30906, 2, 24946, 0, 0) /* Create Antius' Celdon Gauntlets for Wield_DestinationType */
-     , (30906, 2, 24947, 0, 0) /* Create Antius' Celdon Girth for Wield_DestinationType */
-     , (30906, 2, 24948, 0, 0) /* Create Antius' Celdon Helm for Wield_DestinationType */
-     , (30906, 2, 24949, 0, 0) /* Create Antius' Celdon Leggings for Wield_DestinationType */
-     , (30906, 2, 24956, 0, 0) /* Create Antius' Celdon Sleeves for Wield_DestinationType */
-     , (30906, 2, 24950, 0, 0) /* Create Antius' Celdon Sollerets for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30906, 2, 130, 0, 2, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (30906, 2, 127, 0, 2, 0, False) /* Create Pants for Wield_DestinationType */
+     , (30906, 2, 24945, 0, 0, 0, False) /* Create Antius' Celdon Breastplate for Wield_DestinationType */
+     , (30906, 2, 24946, 0, 0, 0, False) /* Create Antius' Celdon Gauntlets for Wield_DestinationType */
+     , (30906, 2, 24947, 0, 0, 0, False) /* Create Antius' Celdon Girth for Wield_DestinationType */
+     , (30906, 2, 24948, 0, 0, 0, False) /* Create Antius' Celdon Helm for Wield_DestinationType */
+     , (30906, 2, 24949, 0, 0, 0, False) /* Create Antius' Celdon Leggings for Wield_DestinationType */
+     , (30906, 2, 24956, 0, 0, 0, False) /* Create Antius' Celdon Sleeves for Wield_DestinationType */
+     , (30906, 2, 24950, 0, 0, 0, False) /* Create Antius' Celdon Sollerets for Wield_DestinationType */;
 

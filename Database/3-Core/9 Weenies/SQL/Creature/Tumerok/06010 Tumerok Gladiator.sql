@@ -92,17 +92,17 @@ VALUES (6010, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6010, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6010, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6010, 8, 301, 0, 0) /* Create Battle Axe for Treasure_DestinationType */
-     , (6010, 8, 350, 0, 0) /* Create Broad Sword for Treasure_DestinationType */
-     , (6010, 8, 324, 0, 0) /* Create Kaskara for Treasure_DestinationType */
-     , (6010, 8, 327, 0, 0) /* Create Ken for Treasure_DestinationType */
-     , (6010, 8, 351, 0, 0) /* Create Long Sword for Treasure_DestinationType */
-     , (6010, 8, 332, 0, 0) /* Create Morning Star for Treasure_DestinationType */
-     , (6010, 8, 336, 0, 0) /* Create Ono for Treasure_DestinationType */
-     , (6010, 8, 339, 0, 0) /* Create Scimitar for Treasure_DestinationType */
-     , (6010, 8, 340, 0, 0) /* Create Shamshir for Treasure_DestinationType */
-     , (6010, 8, 344, 0, 0) /* Create Silifi for Treasure_DestinationType */
-     , (6010, 8, 353, 0, 0) /* Create Tachi for Treasure_DestinationType */
-     , (6010, 8, 354, 0, 0) /* Create Takuba for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6010, 8, 301, 0, 0, 0.14, False) /* Create Battle Axe for Treasure_DestinationType */
+     , (6010, 8, 350, 0, 0, 0.07, False) /* Create Broad Sword for Treasure_DestinationType */
+     , (6010, 8, 324, 0, 0, 0.06, False) /* Create Kaskara for Treasure_DestinationType */
+     , (6010, 8, 327, 0, 0, 0.06, False) /* Create Ken for Treasure_DestinationType */
+     , (6010, 8, 351, 0, 0, 0.06, False) /* Create Long Sword for Treasure_DestinationType */
+     , (6010, 8, 332, 0, 0, 0.1, False) /* Create Morning Star for Treasure_DestinationType */
+     , (6010, 8, 336, 0, 0, 0.13, False) /* Create Ono for Treasure_DestinationType */
+     , (6010, 8, 339, 0, 0, 0.06, False) /* Create Scimitar for Treasure_DestinationType */
+     , (6010, 8, 340, 0, 0, 0.06, False) /* Create Shamshir for Treasure_DestinationType */
+     , (6010, 8, 344, 0, 0, 0.13, False) /* Create Silifi for Treasure_DestinationType */
+     , (6010, 8, 353, 0, 0, 0.06, False) /* Create Tachi for Treasure_DestinationType */
+     , (6010, 8, 354, 0, 0, 0.06, False) /* Create Takuba for Treasure_DestinationType */;
 

@@ -121,12 +121,12 @@ VALUES (6834, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6834, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6834, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6834, 8, 6059, 0, 0) /* Create Dark Sliver for Treasure_DestinationType */
-     , (6834, 1, 6820, 0, 0) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */
-     , (6834, 1, 6820, 0, 0) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */
-     , (6834, 9, 6059, 0, 0) /* Create Dark Sliver for ContainTreasure_DestinationType */
-     , (6834, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6834, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (6834, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6834, 8, 6059, 0, 0, 0.03, False) /* Create Dark Sliver for Treasure_DestinationType */
+     , (6834, 1, 6820, 0, 0, 1, False) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */
+     , (6834, 1, 6820, 0, 0, 1, False) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */
+     , (6834, 9, 6059, 0, 0, 0.03, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
+     , (6834, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (6834, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (6834, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

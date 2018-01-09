@@ -94,17 +94,17 @@ VALUES (980, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (980, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (980, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (980, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (980, 2, 117, 0, 1) /* Create Breeches for Wield_DestinationType */
-     , (980, 2, 133, 0, 1) /* Create Slippers for Wield_DestinationType */
-     , (980, 2, 135, 0, 7) /* Create Turban for Wield_DestinationType */
-     , (980, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (980, 4, 621, -1, 0) /* Create Heavy Bracelet for Shop_DestinationType */
-     , (980, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (980, 4, 2413, -1, 0) /* Create Agate for Shop_DestinationType */
-     , (980, 4, 2418, -1, 0) /* Create Tiger Eye for Shop_DestinationType */
-     , (980, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (980, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (980, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (980, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (980, 2, 117, 0, 1, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (980, 2, 133, 0, 1, 0.67, False) /* Create Slippers for Wield_DestinationType */
+     , (980, 2, 135, 0, 7, 0.33, False) /* Create Turban for Wield_DestinationType */
+     , (980, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (980, 4, 621, -1, 0, 0, False) /* Create Heavy Bracelet for Shop_DestinationType */
+     , (980, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (980, 4, 2413, -1, 0, 0, False) /* Create Agate for Shop_DestinationType */
+     , (980, 4, 2418, -1, 0, 0, False) /* Create Tiger Eye for Shop_DestinationType */
+     , (980, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (980, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (980, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

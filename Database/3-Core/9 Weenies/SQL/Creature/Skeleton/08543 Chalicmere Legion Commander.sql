@@ -99,6 +99,6 @@ VALUES (8543, 64, 198) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8543, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8543, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8543, 1, 8520, 0, 0) /* Create Broken Silver Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8543, 1, 8520, 0, 0, 1, False) /* Create Broken Silver Key for Contain_DestinationType */;
 

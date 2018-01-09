@@ -94,34 +94,34 @@ VALUES (11388, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11388, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11388, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11388, 2, 134, 0, 17) /* Create Tunic for Wield_DestinationType */
-     , (11388, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (11388, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (11388, 2, 10696, 0, 12) /* Create Apron for Wield_DestinationType */
-     , (11388, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (11388, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (11388, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (11388, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (11388, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (11388, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (11388, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (11388, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (11388, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (11388, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (11388, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (11388, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */
-     , (11388, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (11388, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (11388, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (11388, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (11388, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (11388, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (11388, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (11388, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (11388, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (11388, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (11388, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (11388, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (11388, 4, 136, -1, 2) /* Create Pack for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11388, 2, 134, 0, 17, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (11388, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (11388, 2, 132, 0, 9, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (11388, 2, 10696, 0, 12, 1, False) /* Create Apron for Wield_DestinationType */
+     , (11388, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (11388, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (11388, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (11388, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (11388, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (11388, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (11388, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (11388, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (11388, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (11388, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (11388, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (11388, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */
+     , (11388, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (11388, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (11388, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (11388, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (11388, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (11388, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (11388, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (11388, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (11388, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (11388, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (11388, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (11388, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (11388, 4, 136, -1, 2, 1, False) /* Create Pack for Shop_DestinationType */;
 

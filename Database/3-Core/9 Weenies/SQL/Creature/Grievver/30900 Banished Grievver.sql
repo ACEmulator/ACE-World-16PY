@@ -112,7 +112,7 @@ VALUES (30900, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30900, 128, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30900, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30900, 1, 16921, 1, 0) /* Create Silk for Contain_DestinationType */
-     , (30900, 9, 30877, 0, 0) /* Create Banished Atlatl for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30900, 1, 16921, 1, 0, 0, False) /* Create Silk for Contain_DestinationType */
+     , (30900, 9, 30877, 0, 0, 1, False) /* Create Banished Atlatl for ContainTreasure_DestinationType */;
 

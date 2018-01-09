@@ -94,21 +94,21 @@ VALUES (2296, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2296, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2296, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2296, 2, 130, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (2296, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (2296, 2, 115, 0, 17) /* Create Leather Boots for Wield_DestinationType */
-     , (2296, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (2296, 2, 10696, 0, 16) /* Create Apron for Wield_DestinationType */
-     , (2296, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (2296, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (2296, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (2296, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (2296, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (2296, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (2296, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (2296, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (2296, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (2296, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (2296, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2296, 2, 130, 0, 4, 0.8, False) /* Create Shirt for Wield_DestinationType */
+     , (2296, 2, 127, 0, 14, 1, False) /* Create Pants for Wield_DestinationType */
+     , (2296, 2, 115, 0, 17, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2296, 2, 118, 0, 14, 1, False) /* Create Cap for Wield_DestinationType */
+     , (2296, 2, 10696, 0, 16, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2296, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (2296, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (2296, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (2296, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (2296, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (2296, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (2296, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (2296, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (2296, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (2296, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (2296, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

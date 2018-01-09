@@ -120,9 +120,9 @@ VALUES (9146, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9146, 128, 125) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9146, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9146, 2, 9137, 0, 0) /* Create Vanguard Leader's Crossbow for Wield_DestinationType */
-     , (9146, 2, 305, 1, 0) /* Create Quarrel for Wield_DestinationType */
-     , (9146, 9, 9136, 0, 0) /* Create Vanguard Leader's Amulet for ContainTreasure_DestinationType */
-     , (9146, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9146, 2, 9137, 0, 0, 1, False) /* Create Vanguard Leader's Crossbow for Wield_DestinationType */
+     , (9146, 2, 305, 1, 0, 1, False) /* Create Quarrel for Wield_DestinationType */
+     , (9146, 9, 9136, 0, 0, 1, False) /* Create Vanguard Leader's Amulet for ContainTreasure_DestinationType */
+     , (9146, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -95,18 +95,18 @@ VALUES (11409, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11409, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11409, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11409, 2, 12123, 1, 0) /* Create Palenqual's Hoeroa for Wield_DestinationType */
-     , (11409, 4, 11463, -1, 0) /* Create Tewhate for Shop_DestinationType */
-     , (11409, 4, 11464, -1, 0) /* Create Okane for Shop_DestinationType */
-     , (11409, 4, 11465, -1, 0) /* Create Waaika for Shop_DestinationType */
-     , (11409, 4, 11466, -1, 0) /* Create Taiaha for Shop_DestinationType */
-     , (11409, 4, 11467, -1, 0) /* Create Hoeroa for Shop_DestinationType */
-     , (11409, 4, 11974, -1, 0) /* Create Aun Shimauri's Instructions for Shop_DestinationType */
-     , (11409, 4, 27372, -1, 0) /* Create Ukira for Shop_DestinationType */
-     , (11409, 4, 27370, -1, 0) /* Create Korua for Shop_DestinationType */
-     , (11409, 4, 27369, -1, 0) /* Create Panaq for Shop_DestinationType */
-     , (11409, 4, 27373, -1, 0) /* Create Kalindan for Shop_DestinationType */
-     , (11409, 4, 27368, -1, 0) /* Create Atlatl for Shop_DestinationType */
-     , (11409, 4, 27371, -1, 0) /* Create Buadren for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11409, 2, 12123, 1, 0, 1, False) /* Create Palenqual's Hoeroa for Wield_DestinationType */
+     , (11409, 4, 11463, -1, 0, 0, False) /* Create Tewhate for Shop_DestinationType */
+     , (11409, 4, 11464, -1, 0, 0, False) /* Create Okane for Shop_DestinationType */
+     , (11409, 4, 11465, -1, 0, 0, False) /* Create Waaika for Shop_DestinationType */
+     , (11409, 4, 11466, -1, 0, 0, False) /* Create Taiaha for Shop_DestinationType */
+     , (11409, 4, 11467, -1, 0, 0, False) /* Create Hoeroa for Shop_DestinationType */
+     , (11409, 4, 11974, -1, 0, 0, False) /* Create Aun Shimauri's Instructions for Shop_DestinationType */
+     , (11409, 4, 27372, -1, 0, 0, False) /* Create Ukira for Shop_DestinationType */
+     , (11409, 4, 27370, -1, 0, 0, False) /* Create Korua for Shop_DestinationType */
+     , (11409, 4, 27369, -1, 0, 0, False) /* Create Panaq for Shop_DestinationType */
+     , (11409, 4, 27373, -1, 0, 0, False) /* Create Kalindan for Shop_DestinationType */
+     , (11409, 4, 27368, -1, 0, 0, False) /* Create Atlatl for Shop_DestinationType */
+     , (11409, 4, 27371, -1, 0, 0, False) /* Create Buadren for Shop_DestinationType */;
 

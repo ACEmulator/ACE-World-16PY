@@ -90,9 +90,9 @@ VALUES (1615, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1615, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1615, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1615, 9, 3674, 0, 0) /* Create Ash Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1615, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1615, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (1615, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1615, 9, 3674, 0, 0, 0.05, False) /* Create Ash Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1615, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1615, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (1615, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

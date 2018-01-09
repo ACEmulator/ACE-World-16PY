@@ -91,11 +91,11 @@ VALUES (11523, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11523, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11523, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11523, 9, 11454, 0, 0) /* Create Totem of Audetaunga for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11523, 9, 11455, 0, 0) /* Create Totem of Tanae for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11523, 9, 11456, 0, 0) /* Create Totem of Volkama for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11523, 9, 11454, 0, 0, 0.03, False) /* Create Totem of Audetaunga for ContainTreasure_DestinationType */
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11523, 9, 11455, 0, 0, 0.03, False) /* Create Totem of Tanae for ContainTreasure_DestinationType */
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11523, 9, 11456, 0, 0, 0.03, False) /* Create Totem of Volkama for ContainTreasure_DestinationType */
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

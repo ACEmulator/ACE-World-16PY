@@ -98,6 +98,6 @@ VALUES (24869, 64, 320) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24869, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24869, 256, 225) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24869, 2, 22545, 10, 0) /* Create Obsidian Spines for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24869, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */;
 

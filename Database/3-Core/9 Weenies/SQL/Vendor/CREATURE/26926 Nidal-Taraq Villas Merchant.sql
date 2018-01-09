@@ -92,6 +92,6 @@ VALUES (26926, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26926, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26926, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26926, 4, 26291, -1, 0) /* Create Nidal-Taraq Villas Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26926, 4, 26291, -1, 0, 0, False) /* Create Nidal-Taraq Villas Portal Gem for Shop_DestinationType */;
 

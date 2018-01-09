@@ -119,13 +119,13 @@ VALUES (23565, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23565, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23565, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23565, 9, 3695, 0, 0) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (23565, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23565, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (23565, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23565, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (23565, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23565, 9, 20855, 0, 0) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
-     , (23565, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23565, 9, 3695, 0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
+     , (23565, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (23565, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (23565, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (23565, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (23565, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23565, 9, 20855, 0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
+     , (23565, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

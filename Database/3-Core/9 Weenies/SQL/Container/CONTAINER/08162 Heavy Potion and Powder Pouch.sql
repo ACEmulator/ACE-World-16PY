@@ -41,29 +41,29 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8162, 2, False) /* OPEN_BOOL */
      , (8162, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8162, 1, 782, 75, 0) /* Create Powdered Agate for Contain_DestinationType */
-     , (8162, 1, 783, 75, 0) /* Create Powdered Amber for Contain_DestinationType */
-     , (8162, 1, 784, 75, 0) /* Create Powdered Azurite for Contain_DestinationType */
-     , (8162, 1, 785, 75, 0) /* Create Powdered Bloodstone for Contain_DestinationType */
-     , (8162, 1, 786, 75, 0) /* Create Powdered Carnelian for Contain_DestinationType */
-     , (8162, 1, 626, 75, 0) /* Create Powdered Hematite for Contain_DestinationType */
-     , (8162, 1, 787, 75, 0) /* Create Powdered Lapis Lazuli for Contain_DestinationType */
-     , (8162, 1, 788, 75, 0) /* Create Powdered Malachite for Contain_DestinationType */
-     , (8162, 1, 789, 75, 0) /* Create Powdered Moonstone for Contain_DestinationType */
-     , (8162, 1, 790, 75, 0) /* Create Powdered Onyx for Contain_DestinationType */
-     , (8162, 1, 791, 75, 0) /* Create Powdered Quartz for Contain_DestinationType */
-     , (8162, 1, 792, 75, 0) /* Create Powdered Turquoise for Contain_DestinationType */
-     , (8162, 1, 753, 75, 0) /* Create Brimstone for Contain_DestinationType */
-     , (8162, 1, 754, 75, 0) /* Create Cadmia for Contain_DestinationType */
-     , (8162, 1, 755, 75, 0) /* Create Cinnabar for Contain_DestinationType */
-     , (8162, 1, 756, 75, 0) /* Create Cobalt for Contain_DestinationType */
-     , (8162, 1, 757, 75, 0) /* Create Colcothar for Contain_DestinationType */
-     , (8162, 1, 758, 75, 0) /* Create Gypsum for Contain_DestinationType */
-     , (8162, 1, 759, 75, 0) /* Create Quicksilver for Contain_DestinationType */
-     , (8162, 1, 760, 75, 0) /* Create Realgar for Contain_DestinationType */
-     , (8162, 1, 761, 75, 0) /* Create Stibnite for Contain_DestinationType */
-     , (8162, 1, 762, 75, 0) /* Create Turpeth for Contain_DestinationType */
-     , (8162, 1, 763, 75, 0) /* Create Verdigris for Contain_DestinationType */
-     , (8162, 1, 764, 75, 0) /* Create Vitriol for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8162, 1, 782, 75, 0, 0, False) /* Create Powdered Agate for Contain_DestinationType */
+     , (8162, 1, 783, 75, 0, 0, False) /* Create Powdered Amber for Contain_DestinationType */
+     , (8162, 1, 784, 75, 0, 0, False) /* Create Powdered Azurite for Contain_DestinationType */
+     , (8162, 1, 785, 75, 0, 0, False) /* Create Powdered Bloodstone for Contain_DestinationType */
+     , (8162, 1, 786, 75, 0, 0, False) /* Create Powdered Carnelian for Contain_DestinationType */
+     , (8162, 1, 626, 75, 0, 0, False) /* Create Powdered Hematite for Contain_DestinationType */
+     , (8162, 1, 787, 75, 0, 0, False) /* Create Powdered Lapis Lazuli for Contain_DestinationType */
+     , (8162, 1, 788, 75, 0, 0, False) /* Create Powdered Malachite for Contain_DestinationType */
+     , (8162, 1, 789, 75, 0, 0, False) /* Create Powdered Moonstone for Contain_DestinationType */
+     , (8162, 1, 790, 75, 0, 0, False) /* Create Powdered Onyx for Contain_DestinationType */
+     , (8162, 1, 791, 75, 0, 0, False) /* Create Powdered Quartz for Contain_DestinationType */
+     , (8162, 1, 792, 75, 0, 0, False) /* Create Powdered Turquoise for Contain_DestinationType */
+     , (8162, 1, 753, 75, 0, 0, False) /* Create Brimstone for Contain_DestinationType */
+     , (8162, 1, 754, 75, 0, 0, False) /* Create Cadmia for Contain_DestinationType */
+     , (8162, 1, 755, 75, 0, 0, False) /* Create Cinnabar for Contain_DestinationType */
+     , (8162, 1, 756, 75, 0, 0, False) /* Create Cobalt for Contain_DestinationType */
+     , (8162, 1, 757, 75, 0, 0, False) /* Create Colcothar for Contain_DestinationType */
+     , (8162, 1, 758, 75, 0, 0, False) /* Create Gypsum for Contain_DestinationType */
+     , (8162, 1, 759, 75, 0, 0, False) /* Create Quicksilver for Contain_DestinationType */
+     , (8162, 1, 760, 75, 0, 0, False) /* Create Realgar for Contain_DestinationType */
+     , (8162, 1, 761, 75, 0, 0, False) /* Create Stibnite for Contain_DestinationType */
+     , (8162, 1, 762, 75, 0, 0, False) /* Create Turpeth for Contain_DestinationType */
+     , (8162, 1, 763, 75, 0, 0, False) /* Create Verdigris for Contain_DestinationType */
+     , (8162, 1, 764, 75, 0, 0, False) /* Create Vitriol for Contain_DestinationType */;
 

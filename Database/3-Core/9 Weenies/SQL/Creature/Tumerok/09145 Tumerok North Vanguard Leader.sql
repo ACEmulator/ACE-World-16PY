@@ -120,8 +120,8 @@ VALUES (9145, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9145, 128, 125) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9145, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9145, 2, 9138, 0, 0) /* Create Vanguard Leader's Morningstar for Wield_DestinationType */
-     , (9145, 9, 9136, 0, 0) /* Create Vanguard Leader's Amulet for ContainTreasure_DestinationType */
-     , (9145, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9145, 2, 9138, 0, 0, 1, False) /* Create Vanguard Leader's Morningstar for Wield_DestinationType */
+     , (9145, 9, 9136, 0, 0, 1, False) /* Create Vanguard Leader's Amulet for ContainTreasure_DestinationType */
+     , (9145, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

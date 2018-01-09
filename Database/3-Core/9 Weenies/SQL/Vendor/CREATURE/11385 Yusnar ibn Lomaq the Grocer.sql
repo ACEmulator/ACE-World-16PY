@@ -94,38 +94,38 @@ VALUES (11385, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11385, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11385, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11385, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (11385, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (11385, 2, 132, 0, 12) /* Create Shoes for Wield_DestinationType */
-     , (11385, 2, 10696, 0, 1) /* Create Apron for Wield_DestinationType */
-     , (11385, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (11385, 4, 5584, -1, 0) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
-     , (11385, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (11385, 4, 5585, -1, 0) /* Create Sho Cookbook for Shop_DestinationType */
-     , (11385, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (11385, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (11385, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (11385, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (11385, 4, 136, -1, 2) /* Create Pack for Shop_DestinationType */
-     , (11385, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (11385, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (11385, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (11385, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (11385, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (11385, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (11385, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (11385, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (11385, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (11385, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (11385, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (11385, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (11385, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (11385, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (11385, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (11385, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (11385, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (11385, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11385, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (11385, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (11385, 2, 132, 0, 12, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (11385, 2, 10696, 0, 1, 1, False) /* Create Apron for Wield_DestinationType */
+     , (11385, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (11385, 4, 5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
+     , (11385, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (11385, 4, 5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop_DestinationType */
+     , (11385, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (11385, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (11385, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (11385, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (11385, 4, 136, -1, 2, 1, False) /* Create Pack for Shop_DestinationType */
+     , (11385, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (11385, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (11385, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (11385, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (11385, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (11385, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (11385, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (11385, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (11385, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (11385, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (11385, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (11385, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (11385, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (11385, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (11385, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (11385, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (11385, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (11385, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11385, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Water (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */

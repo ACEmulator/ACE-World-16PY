@@ -94,31 +94,31 @@ VALUES (1059, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1059, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1059, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1059, 2, 308, 0, 0) /* Create Budiaq for Wield_DestinationType */
-     , (1059, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (1059, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (1059, 2, 115, 0, 14) /* Create Leather Boots for Wield_DestinationType */
-     , (1059, 2, 135, 0, 16) /* Create Turban for Wield_DestinationType */
-     , (1059, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1059, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (1059, 4, 317, -1, 0) /* Create Djarid for Shop_DestinationType */
-     , (1059, 4, 324, -1, 0) /* Create Kaskara for Shop_DestinationType */
-     , (1059, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (1059, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (1059, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (1059, 4, 340, -1, 0) /* Create Shamshir for Shop_DestinationType */
-     , (1059, 4, 344, -1, 0) /* Create Silifi for Shop_DestinationType */
-     , (1059, 4, 354, -1, 0) /* Create Takuba for Shop_DestinationType */
-     , (1059, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (1059, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1059, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1059, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (1059, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (1059, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (1059, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (1059, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (1059, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (1059, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (1059, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1059, 2, 308, 0, 0, 0, False) /* Create Budiaq for Wield_DestinationType */
+     , (1059, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (1059, 2, 117, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (1059, 2, 115, 0, 14, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1059, 2, 135, 0, 16, 1, False) /* Create Turban for Wield_DestinationType */
+     , (1059, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1059, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (1059, 4, 317, -1, 0, 0, False) /* Create Djarid for Shop_DestinationType */
+     , (1059, 4, 324, -1, 0, 0, False) /* Create Kaskara for Shop_DestinationType */
+     , (1059, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (1059, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (1059, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (1059, 4, 340, -1, 0, 0, False) /* Create Shamshir for Shop_DestinationType */
+     , (1059, 4, 344, -1, 0, 0, False) /* Create Silifi for Shop_DestinationType */
+     , (1059, 4, 354, -1, 0, 0, False) /* Create Takuba for Shop_DestinationType */
+     , (1059, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (1059, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1059, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1059, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (1059, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (1059, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (1059, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (1059, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (1059, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (1059, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (1059, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

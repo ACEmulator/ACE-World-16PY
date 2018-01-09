@@ -91,6 +91,6 @@ VALUES (5370, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5370, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5370, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5370, 1, 5363, 0, 0) /* Create Scrawled Note for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5370, 1, 5363, 0, 0, 0, False) /* Create Scrawled Note for Contain_DestinationType */;
 

@@ -94,22 +94,22 @@ VALUES (2044, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2044, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2044, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2044, 2, 134, 0, 17) /* Create Tunic for Wield_DestinationType */
-     , (2044, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (2044, 2, 132, 0, 17) /* Create Shoes for Wield_DestinationType */
-     , (2044, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2044, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (2044, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2044, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (2044, 4, 5699, -1, 0) /* Create On the Four Stones and Three Elders for Shop_DestinationType */
-     , (2044, 4, 5700, -1, 0) /* Create The Story of Koji's Sword for Shop_DestinationType */
-     , (2044, 4, 8079, -1, 0) /* Create Loka Jii Learns to Hunt for Shop_DestinationType */
-     , (2044, 4, 8080, -1, 0) /* Create The Emperor's Blade for Shop_DestinationType */
-     , (2044, 4, 8081, -1, 0) /* Create The Journal of Nandesu Ka for Shop_DestinationType */
-     , (2044, 4, 9122, -1, 0) /* Create Interlude for Shop_DestinationType */
-     , (2044, 4, 10700, -1, 0) /* Create Book of Seasons for Shop_DestinationType */
-     , (2044, 4, 9006, -1, 0) /* Create Excerpts from the Zharalim for Shop_DestinationType */
-     , (2044, 4, 7775, -1, 0) /* Create Practical Applications of Chorizite for Shop_DestinationType */
-     , (2044, 4, 7774, -1, 0) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2044, 2, 134, 0, 17, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (2044, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (2044, 2, 132, 0, 17, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2044, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2044, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (2044, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2044, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (2044, 4, 5699, -1, 0, 0, False) /* Create On the Four Stones and Three Elders for Shop_DestinationType */
+     , (2044, 4, 5700, -1, 0, 0, False) /* Create The Story of Koji's Sword for Shop_DestinationType */
+     , (2044, 4, 8079, -1, 0, 0, False) /* Create Loka Jii Learns to Hunt for Shop_DestinationType */
+     , (2044, 4, 8080, -1, 0, 0, False) /* Create The Emperor's Blade for Shop_DestinationType */
+     , (2044, 4, 8081, -1, 0, 0, False) /* Create The Journal of Nandesu Ka for Shop_DestinationType */
+     , (2044, 4, 9122, -1, 0, 0, False) /* Create Interlude for Shop_DestinationType */
+     , (2044, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop_DestinationType */
+     , (2044, 4, 9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop_DestinationType */
+     , (2044, 4, 7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop_DestinationType */
+     , (2044, 4, 7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */;
 

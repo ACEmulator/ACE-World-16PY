@@ -89,7 +89,7 @@ VALUES (11054, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11054, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11054, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11054, 9, 24235, 0, 0) /* Create Olthoi Femur for ContainTreasure_DestinationType */
-     , (11054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11054, 9, 24235, 0, 0, 0.1, False) /* Create Olthoi Femur for ContainTreasure_DestinationType */
+     , (11054, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

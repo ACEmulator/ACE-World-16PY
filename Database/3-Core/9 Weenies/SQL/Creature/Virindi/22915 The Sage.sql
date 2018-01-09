@@ -115,33 +115,33 @@ VALUES (22915, 64, 550) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22915, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22915, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22915, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 22925, 0, 0) /* Create Athenaeum Key for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22915, 9, 25948, 0, 0) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
-     , (22915, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22915, 9, 7604, 0, 0, 0.015, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0.985, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 9292, 0, 0, 0.01, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 22925, 0, 0, 1, False) /* Create Athenaeum Key for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22915, 9, 25948, 0, 0, 1, False) /* Create Dark Amber Ring for ContainTreasure_DestinationType */
+     , (22915, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

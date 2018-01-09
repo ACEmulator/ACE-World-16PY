@@ -110,13 +110,13 @@ VALUES (27496, 64, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27496, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27496, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27496, 9, 6355, 0, 0) /* Create Pyreal Sliver for ContainTreasure_DestinationType */
-     , (27496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27496, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (27496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27496, 9, 23202, 0, 0) /* Create Platinum Golem Heart for ContainTreasure_DestinationType */
-     , (27496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27496, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27496, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27496, 9, 6355, 0, 0, 0.05, False) /* Create Pyreal Sliver for ContainTreasure_DestinationType */
+     , (27496, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27496, 9, 6876, 0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (27496, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27496, 9, 23202, 0, 0, 0.05, False) /* Create Platinum Golem Heart for ContainTreasure_DestinationType */
+     , (27496, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27496, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27496, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

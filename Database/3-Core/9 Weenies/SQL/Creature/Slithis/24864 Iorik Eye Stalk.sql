@@ -104,10 +104,10 @@ VALUES (24864, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24864, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24864, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24864, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24864, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24864, 2, 22545, 10, 0) /* Create Obsidian Spines for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24864, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24864, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (24864, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (24864, -1, 24866, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Iorik Tentacle (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */

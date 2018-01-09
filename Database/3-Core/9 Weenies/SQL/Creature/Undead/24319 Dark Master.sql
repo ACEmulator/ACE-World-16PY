@@ -119,15 +119,15 @@ VALUES (24319, 64, 295) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24319, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24319, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24319, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24319, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24319, 9, 24854, 0, 0) /* Create Skull of a Dark Master for ContainTreasure_DestinationType */
-     , (24319, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24319, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (24319, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24319, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (24319, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24319, 9, 12225, 0, 0) /* Create Zombie Head for ContainTreasure_DestinationType */
-     , (24319, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24319, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24319, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (24319, 9, 24854, 0, 0, 0.03, False) /* Create Skull of a Dark Master for ContainTreasure_DestinationType */
+     , (24319, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24319, 9, 9310, 0, 0, 0.07, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (24319, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (24319, 9, 5873, 0, 0, 0.03, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (24319, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24319, 9, 12225, 0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure_DestinationType */
+     , (24319, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

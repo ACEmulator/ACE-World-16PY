@@ -100,14 +100,14 @@ VALUES (8537, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8537, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8537, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8537, 2, 8525, 1, 0) /* Create Asmolum's Throwing Dagger for Wield_DestinationType */
-     , (8537, 9, 8525, 10, 0) /* Create Asmolum's Throwing Dagger for ContainTreasure_DestinationType */
-     , (8537, 9, 8524, 1, 0) /* Create Asmolum's Dagger for ContainTreasure_DestinationType */
-     , (8537, 1, 8505, 1, 0) /* Create Damp Scroll for Contain_DestinationType */
-     , (8537, 1, 8511, 1, 0) /* Create Ancient Key for Contain_DestinationType */
-     , (8537, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8537, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8537, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (8537, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8537, 2, 8525, 1, 0, 1, False) /* Create Asmolum's Throwing Dagger for Wield_DestinationType */
+     , (8537, 9, 8525, 10, 0, 1, False) /* Create Asmolum's Throwing Dagger for ContainTreasure_DestinationType */
+     , (8537, 9, 8524, 1, 0, 1, False) /* Create Asmolum's Dagger for ContainTreasure_DestinationType */
+     , (8537, 1, 8505, 1, 0, 1, False) /* Create Damp Scroll for Contain_DestinationType */
+     , (8537, 1, 8511, 1, 0, 1, False) /* Create Ancient Key for Contain_DestinationType */
+     , (8537, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (8537, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8537, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (8537, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

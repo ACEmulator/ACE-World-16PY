@@ -87,7 +87,7 @@ VALUES (13220, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (13220, 128, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (13220, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (13220, 9, 13225, 0, 0) /* Create A Crumpled Note for ContainTreasure_DestinationType */
-     , (13220, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (13220, 9, 13225, 0, 0, 1, False) /* Create A Crumpled Note for ContainTreasure_DestinationType */
+     , (13220, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

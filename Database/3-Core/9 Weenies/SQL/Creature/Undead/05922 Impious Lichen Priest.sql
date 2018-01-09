@@ -107,13 +107,13 @@ VALUES (5922, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5922, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5922, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5922, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (5922, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5922, 9, 3751, 0, 0) /* Create Lightning Battle Axe for ContainTreasure_DestinationType */
-     , (5922, 9, 3850, 0, 0) /* Create Lightning Scimitar for ContainTreasure_DestinationType */
-     , (5922, 9, 3791, 0, 0) /* Create Lightning Djarid for ContainTreasure_DestinationType */
-     , (5922, 9, 3914, 0, 0) /* Create Lightning Yari for ContainTreasure_DestinationType */
-     , (5922, 9, 3839, 0, 0) /* Create Lightning Nabut for ContainTreasure_DestinationType */
-     , (5922, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5922, 9, 5873, 0, 0, 0.01, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (5922, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (5922, 9, 3751, 0, 0, 0.2, False) /* Create Lightning Battle Axe for ContainTreasure_DestinationType */
+     , (5922, 9, 3850, 0, 0, 0.2, False) /* Create Lightning Scimitar for ContainTreasure_DestinationType */
+     , (5922, 9, 3791, 0, 0, 0.2, False) /* Create Lightning Djarid for ContainTreasure_DestinationType */
+     , (5922, 9, 3914, 0, 0, 0.2, False) /* Create Lightning Yari for ContainTreasure_DestinationType */
+     , (5922, 9, 3839, 0, 0, 0.2, False) /* Create Lightning Nabut for ContainTreasure_DestinationType */
+     , (5922, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -93,6 +93,6 @@ VALUES (9149, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9149, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9149, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9149, 2, 8636, 0, 0) /* Create Hoory Mattekar Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9149, 2, 8636, 0, 0, 1, False) /* Create Hoory Mattekar Robe for Wield_DestinationType */;
 

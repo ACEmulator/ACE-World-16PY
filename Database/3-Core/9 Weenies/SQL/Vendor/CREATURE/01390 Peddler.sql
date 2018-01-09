@@ -93,41 +93,41 @@ VALUES (1390, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1390, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1390, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1390, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (1390, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (1390, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (1390, 2, 118, 0, 2) /* Create Cap for Wield_DestinationType */
-     , (1390, 2, 10696, 0, 11) /* Create Apron for Wield_DestinationType */
-     , (1390, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (1390, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (1390, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (1390, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (1390, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (1390, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (1390, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (1390, 4, 119, -1, 0) /* Create Cowl for Shop_DestinationType */
-     , (1390, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (1390, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (1390, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (1390, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (1390, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (1390, 4, 127, -1, 0) /* Create Pants for Shop_DestinationType */
-     , (1390, 4, 130, -1, 0) /* Create Shirt for Shop_DestinationType */
-     , (1390, 4, 132, -1, 0) /* Create Shoes for Shop_DestinationType */
-     , (1390, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (1390, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (1390, 4, 511, -1, 0) /* Create Crude Lockpick for Shop_DestinationType */
-     , (1390, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (1390, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (1390, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (1390, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (1390, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (1390, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (1390, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1390, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1390, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (1390, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (1390, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1390, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1390, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (1390, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (1390, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1390, 2, 118, 0, 2, 0.9, False) /* Create Cap for Wield_DestinationType */
+     , (1390, 2, 10696, 0, 11, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1390, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (1390, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (1390, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (1390, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (1390, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (1390, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (1390, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (1390, 4, 119, -1, 0, 0, False) /* Create Cowl for Shop_DestinationType */
+     , (1390, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (1390, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (1390, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (1390, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (1390, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (1390, 4, 127, -1, 0, 0, False) /* Create Pants for Shop_DestinationType */
+     , (1390, 4, 130, -1, 0, 0, False) /* Create Shirt for Shop_DestinationType */
+     , (1390, 4, 132, -1, 0, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (1390, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (1390, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (1390, 4, 511, -1, 0, 0, False) /* Create Crude Lockpick for Shop_DestinationType */
+     , (1390, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (1390, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (1390, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1390, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1390, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (1390, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (1390, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1390, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1390, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (1390, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (1390, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1390, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

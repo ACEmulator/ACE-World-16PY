@@ -98,40 +98,40 @@ VALUES (30027, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30027, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30027, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30027, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (30027, 2, 127, 0, 3) /* Create Pants for Wield_DestinationType */
-     , (30027, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (30027, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (30027, 4, 15269, -1, 0) /* Create Foci of Artifice for Shop_DestinationType */
-     , (30027, 4, 2765, -1, 0) /* Create Scroll of Acid Bane V for Shop_DestinationType */
-     , (30027, 4, 2770, -1, 0) /* Create Scroll of Acid Lure V for Shop_DestinationType */
-     , (30027, 4, 2775, -1, 0) /* Create Scroll of Blade Bane V for Shop_DestinationType */
-     , (30027, 4, 2780, -1, 0) /* Create Scroll of Blade Lure V for Shop_DestinationType */
-     , (30027, 4, 2785, -1, 0) /* Create Blood Drinker Scroll V for Shop_DestinationType */
-     , (30027, 4, 2790, -1, 0) /* Create Scroll of Blood Loather V for Shop_DestinationType */
-     , (30027, 4, 2795, -1, 0) /* Create Scroll of Bludgeon Bane V for Shop_DestinationType */
-     , (30027, 4, 2800, -1, 0) /* Create Scroll of Bludgeon Lure V for Shop_DestinationType */
-     , (30027, 4, 2805, -1, 0) /* Create Scroll of Brittlemail V for Shop_DestinationType */
-     , (30027, 4, 2810, -1, 0) /* Create Scroll of Defender V for Shop_DestinationType */
-     , (30027, 4, 2815, -1, 0) /* Create Scroll of Flame Bane V for Shop_DestinationType */
-     , (30027, 4, 2820, -1, 0) /* Create Scroll of Flame Lure V for Shop_DestinationType */
-     , (30027, 4, 2825, -1, 0) /* Create Scroll of Frost Bane V for Shop_DestinationType */
-     , (30027, 4, 2830, -1, 0) /* Create Scroll of Frost Lure V for Shop_DestinationType */
-     , (30027, 4, 2835, -1, 0) /* Create Scroll of Heartseeker V for Shop_DestinationType */
-     , (30027, 4, 2840, -1, 0) /* Create Scroll of Hermetic Void V for Shop_DestinationType */
-     , (30027, 4, 2845, -1, 0) /* Create Scroll of Impenetrability V for Shop_DestinationType */
-     , (30027, 4, 2850, -1, 0) /* Create Scroll of Leaden Weapon V for Shop_DestinationType */
-     , (30027, 4, 2855, -1, 0) /* Create Scroll of Lightning Bane V for Shop_DestinationType */
-     , (30027, 4, 2860, -1, 0) /* Create Scroll of Lightning Lure V for Shop_DestinationType */
-     , (30027, 4, 2865, -1, 0) /* Create Scroll of Lure Blade V for Shop_DestinationType */
-     , (30027, 4, 2870, -1, 0) /* Create Scroll of Piercing Bane V for Shop_DestinationType */
-     , (30027, 4, 2875, -1, 0) /* Create Scroll of Piercing Lure V for Shop_DestinationType */
-     , (30027, 4, 2880, -1, 0) /* Create Scroll of Strengthen Lock V for Shop_DestinationType */
-     , (30027, 4, 2885, -1, 0) /* Create Scroll of Swift Killer V for Shop_DestinationType */
-     , (30027, 4, 2891, -1, 0) /* Create Scroll of Hermetic Link V for Shop_DestinationType */
-     , (30027, 4, 2896, -1, 0) /* Create Scroll of Turn Blade V for Shop_DestinationType */
-     , (30027, 4, 2901, -1, 0) /* Create Scroll of Weaken Lock V for Shop_DestinationType */
-     , (30027, 4, 2905, -1, 0) /* Create Scroll of Summon Primary Portal II for Shop_DestinationType */
-     , (30027, 4, 20623, -1, 0) /* Create Scroll of Summon Secondary Portal II for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30027, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (30027, 2, 127, 0, 3, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (30027, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (30027, 2, 10696, 0, 13, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (30027, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop_DestinationType */
+     , (30027, 4, 2765, -1, 0, 0, False) /* Create Scroll of Acid Bane V for Shop_DestinationType */
+     , (30027, 4, 2770, -1, 0, 0, False) /* Create Scroll of Acid Lure V for Shop_DestinationType */
+     , (30027, 4, 2775, -1, 0, 0, False) /* Create Scroll of Blade Bane V for Shop_DestinationType */
+     , (30027, 4, 2780, -1, 0, 0, False) /* Create Scroll of Blade Lure V for Shop_DestinationType */
+     , (30027, 4, 2785, -1, 0, 0, False) /* Create Blood Drinker Scroll V for Shop_DestinationType */
+     , (30027, 4, 2790, -1, 0, 0, False) /* Create Scroll of Blood Loather V for Shop_DestinationType */
+     , (30027, 4, 2795, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane V for Shop_DestinationType */
+     , (30027, 4, 2800, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure V for Shop_DestinationType */
+     , (30027, 4, 2805, -1, 0, 0, False) /* Create Scroll of Brittlemail V for Shop_DestinationType */
+     , (30027, 4, 2810, -1, 0, 0, False) /* Create Scroll of Defender V for Shop_DestinationType */
+     , (30027, 4, 2815, -1, 0, 0, False) /* Create Scroll of Flame Bane V for Shop_DestinationType */
+     , (30027, 4, 2820, -1, 0, 0, False) /* Create Scroll of Flame Lure V for Shop_DestinationType */
+     , (30027, 4, 2825, -1, 0, 0, False) /* Create Scroll of Frost Bane V for Shop_DestinationType */
+     , (30027, 4, 2830, -1, 0, 0, False) /* Create Scroll of Frost Lure V for Shop_DestinationType */
+     , (30027, 4, 2835, -1, 0, 0, False) /* Create Scroll of Heartseeker V for Shop_DestinationType */
+     , (30027, 4, 2840, -1, 0, 0, False) /* Create Scroll of Hermetic Void V for Shop_DestinationType */
+     , (30027, 4, 2845, -1, 0, 0, False) /* Create Scroll of Impenetrability V for Shop_DestinationType */
+     , (30027, 4, 2850, -1, 0, 0, False) /* Create Scroll of Leaden Weapon V for Shop_DestinationType */
+     , (30027, 4, 2855, -1, 0, 0, False) /* Create Scroll of Lightning Bane V for Shop_DestinationType */
+     , (30027, 4, 2860, -1, 0, 0, False) /* Create Scroll of Lightning Lure V for Shop_DestinationType */
+     , (30027, 4, 2865, -1, 0, 0, False) /* Create Scroll of Lure Blade V for Shop_DestinationType */
+     , (30027, 4, 2870, -1, 0, 0, False) /* Create Scroll of Piercing Bane V for Shop_DestinationType */
+     , (30027, 4, 2875, -1, 0, 0, False) /* Create Scroll of Piercing Lure V for Shop_DestinationType */
+     , (30027, 4, 2880, -1, 0, 0, False) /* Create Scroll of Strengthen Lock V for Shop_DestinationType */
+     , (30027, 4, 2885, -1, 0, 0, False) /* Create Scroll of Swift Killer V for Shop_DestinationType */
+     , (30027, 4, 2891, -1, 0, 0, False) /* Create Scroll of Hermetic Link V for Shop_DestinationType */
+     , (30027, 4, 2896, -1, 0, 0, False) /* Create Scroll of Turn Blade V for Shop_DestinationType */
+     , (30027, 4, 2901, -1, 0, 0, False) /* Create Scroll of Weaken Lock V for Shop_DestinationType */
+     , (30027, 4, 2905, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal II for Shop_DestinationType */
+     , (30027, 4, 20623, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal II for Shop_DestinationType */;
 

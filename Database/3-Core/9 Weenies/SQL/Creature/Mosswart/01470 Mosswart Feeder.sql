@@ -91,11 +91,11 @@ VALUES (1470, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1470, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1470, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1470, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1470, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1470, 9, 20854, 0, 0) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (1470, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1470, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (1470, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1470, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
+     , (1470, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate  (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;

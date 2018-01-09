@@ -92,7 +92,7 @@ VALUES (7332, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7332, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7332, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7332, 9, 3693, 0, 0) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (7332, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7332, 9, 3693, 0, 0, 0.05, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
+     , (7332, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

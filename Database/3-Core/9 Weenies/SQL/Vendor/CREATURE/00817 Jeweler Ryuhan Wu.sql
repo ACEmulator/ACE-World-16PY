@@ -94,16 +94,16 @@ VALUES (817, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (817, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (817, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (817, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (817, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (817, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (817, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (817, 4, 294, -1, 0) /* Create Amulet for Shop_DestinationType */
-     , (817, 4, 622, -1, 0) /* Create Necklace for Shop_DestinationType */
-     , (817, 4, 2418, -1, 0) /* Create Tiger Eye for Shop_DestinationType */
-     , (817, 4, 2417, -1, 0) /* Create Smoky Quartz for Shop_DestinationType */
-     , (817, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (817, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (817, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (817, 2, 124, 0, 9, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (817, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (817, 2, 132, 0, 14, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (817, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (817, 4, 294, -1, 0, 0, False) /* Create Amulet for Shop_DestinationType */
+     , (817, 4, 622, -1, 0, 0, False) /* Create Necklace for Shop_DestinationType */
+     , (817, 4, 2418, -1, 0, 0, False) /* Create Tiger Eye for Shop_DestinationType */
+     , (817, 4, 2417, -1, 0, 0, False) /* Create Smoky Quartz for Shop_DestinationType */
+     , (817, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (817, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (817, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

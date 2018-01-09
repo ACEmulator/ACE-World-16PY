@@ -94,74 +94,74 @@ VALUES (2534, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2534, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2534, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2534, 2, 124, 0, 13) /* Create Jerkin for Wield_DestinationType */
-     , (2534, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (2534, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (2534, 2, 75, 0, 0) /* Create Helmet for Wield_DestinationType */
-     , (2534, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (2534, 4, 301, -1, 0) /* Create Battle Axe for Shop_DestinationType */
-     , (2534, 4, 350, -1, 0) /* Create Broad Sword for Shop_DestinationType */
-     , (2534, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (2534, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (2534, 4, 351, -1, 0) /* Create Long Sword for Shop_DestinationType */
-     , (2534, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (2534, 4, 332, -1, 0) /* Create Morning Star for Shop_DestinationType */
-     , (2534, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (2534, 4, 339, -1, 0) /* Create Scimitar for Shop_DestinationType */
-     , (2534, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (2534, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (2534, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (2534, 4, 3599, -1, 0) /* Create Blunt Arrow for Shop_DestinationType */
-     , (2534, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (2534, 4, 3603, -1, 0) /* Create Blunt Quarrel for Shop_DestinationType */
-     , (2534, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (2534, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (2534, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */
-     , (2534, 4, 306, -1, 0) /* Create Longbow for Shop_DestinationType */
-     , (2534, 4, 8489, -1, 0) /* Create Heaume for Shop_DestinationType */
-     , (2534, 4, 8488, -1, 0) /* Create Armet for Shop_DestinationType */
-     , (2534, 4, 75, -1, 0) /* Create Helmet for Shop_DestinationType */
-     , (2534, 4, 76, -1, 0) /* Create Horned Helm for Shop_DestinationType */
-     , (2534, 4, 40, -1, 0) /* Create Platemail Breastplate for Shop_DestinationType */
-     , (2534, 4, 57, -1, 0) /* Create Platemail Gauntlets for Shop_DestinationType */
-     , (2534, 4, 61, -1, 0) /* Create Platemail Girth for Shop_DestinationType */
-     , (2534, 4, 66, -1, 0) /* Create Platemail Greaves for Shop_DestinationType */
-     , (2534, 4, 110, -1, 0) /* Create Platemail Tassets for Shop_DestinationType */
-     , (2534, 4, 82, -1, 0) /* Create Platemail Leggings for Shop_DestinationType */
-     , (2534, 4, 87, -1, 0) /* Create Platemail Pauldrons for Shop_DestinationType */
-     , (2534, 4, 107, -1, 0) /* Create Sollerets for Shop_DestinationType */
-     , (2534, 4, 92, -1, 0) /* Create Large Kite Shield for Shop_DestinationType */
-     , (2534, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (2534, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2534, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (2534, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (2534, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (2534, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (2534, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (2534, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (2534, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2534, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (2534, 4, 166, -1, 9) /* Create Sack for Shop_DestinationType */
-     , (2534, 4, 136, -1, 9) /* Create Pack for Shop_DestinationType */
-     , (2534, 4, 138, -1, 90) /* Create Belt Pouch for Shop_DestinationType */
-     , (2534, 4, 139, -1, 90) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (2534, 4, 137, -1, 90) /* Create Basket for Shop_DestinationType */
-     , (2534, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (2534, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (2534, 4, 138, -1, 89) /* Create Belt Pouch for Shop_DestinationType */
-     , (2534, 4, 139, -1, 89) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (2534, 4, 137, -1, 89) /* Create Basket for Shop_DestinationType */
-     , (2534, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (2534, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (2534, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (2534, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (2534, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (2534, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */
-     , (2534, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (2534, 4, 2477, -1, 0) /* Create Tumerok Fortress Rumor for Shop_DestinationType */
-     , (2534, 4, 5884, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */
-     , (2534, 4, 5885, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */
-     , (2534, 4, 5886, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */
-     , (2534, 4, 30743, -1, 0) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2534, 2, 124, 0, 13, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (2534, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (2534, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2534, 2, 75, 0, 0, 0, False) /* Create Helmet for Wield_DestinationType */
+     , (2534, 2, 10696, 0, 13, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2534, 4, 301, -1, 0, 0, False) /* Create Battle Axe for Shop_DestinationType */
+     , (2534, 4, 350, -1, 0, 0, False) /* Create Broad Sword for Shop_DestinationType */
+     , (2534, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (2534, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (2534, 4, 351, -1, 0, 0, False) /* Create Long Sword for Shop_DestinationType */
+     , (2534, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (2534, 4, 332, -1, 0, 0, False) /* Create Morning Star for Shop_DestinationType */
+     , (2534, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (2534, 4, 339, -1, 0, 0, False) /* Create Scimitar for Shop_DestinationType */
+     , (2534, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (2534, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (2534, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (2534, 4, 3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop_DestinationType */
+     , (2534, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (2534, 4, 3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop_DestinationType */
+     , (2534, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (2534, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (2534, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */
+     , (2534, 4, 306, -1, 0, 0, False) /* Create Longbow for Shop_DestinationType */
+     , (2534, 4, 8489, -1, 0, 0, False) /* Create Heaume for Shop_DestinationType */
+     , (2534, 4, 8488, -1, 0, 0, False) /* Create Armet for Shop_DestinationType */
+     , (2534, 4, 75, -1, 0, 0, False) /* Create Helmet for Shop_DestinationType */
+     , (2534, 4, 76, -1, 0, 0, False) /* Create Horned Helm for Shop_DestinationType */
+     , (2534, 4, 40, -1, 0, 0, False) /* Create Platemail Breastplate for Shop_DestinationType */
+     , (2534, 4, 57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop_DestinationType */
+     , (2534, 4, 61, -1, 0, 0, False) /* Create Platemail Girth for Shop_DestinationType */
+     , (2534, 4, 66, -1, 0, 0, False) /* Create Platemail Greaves for Shop_DestinationType */
+     , (2534, 4, 110, -1, 0, 0, False) /* Create Platemail Tassets for Shop_DestinationType */
+     , (2534, 4, 82, -1, 0, 0, False) /* Create Platemail Leggings for Shop_DestinationType */
+     , (2534, 4, 87, -1, 0, 0, False) /* Create Platemail Pauldrons for Shop_DestinationType */
+     , (2534, 4, 107, -1, 0, 0, False) /* Create Sollerets for Shop_DestinationType */
+     , (2534, 4, 92, -1, 0, 0, False) /* Create Large Kite Shield for Shop_DestinationType */
+     , (2534, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (2534, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2534, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (2534, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (2534, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (2534, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (2534, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (2534, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (2534, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2534, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (2534, 4, 166, -1, 9, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2534, 4, 136, -1, 9, 1, False) /* Create Pack for Shop_DestinationType */
+     , (2534, 4, 138, -1, 90, 0, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (2534, 4, 139, -1, 90, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (2534, 4, 137, -1, 90, 0, False) /* Create Basket for Shop_DestinationType */
+     , (2534, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (2534, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (2534, 4, 138, -1, 89, 0, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (2534, 4, 139, -1, 89, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (2534, 4, 137, -1, 89, 0, False) /* Create Basket for Shop_DestinationType */
+     , (2534, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (2534, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (2534, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (2534, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (2534, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (2534, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */
+     , (2534, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (2534, 4, 2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor for Shop_DestinationType */
+     , (2534, 4, 5884, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */
+     , (2534, 4, 5885, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */
+     , (2534, 4, 5886, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */
+     , (2534, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */;
 

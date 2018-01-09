@@ -144,17 +144,17 @@ VALUES (24661, 64, 99850) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24661, 128, 59700) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24661, 256, 4650) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24661, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24661, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24661, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24661, 9, 24559, 0, 0) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24661, 9, 24559, 0, 0) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24661, 9, 24556, 0, 0) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */
-     , (24661, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24661, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (24661, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (24661, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (24661, 9, 24559, 0, 0, 0.9, False) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0.1, False) /* Create  for ContainTreasure_DestinationType */
+     , (24661, 9, 24559, 0, 0, 1, False) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24661, 9, 24556, 0, 0, 1, False) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */
+     , (24661, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

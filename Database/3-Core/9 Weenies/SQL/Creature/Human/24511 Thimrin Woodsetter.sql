@@ -88,11 +88,11 @@ VALUES (24511, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24511, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24511, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24511, 2, 24261, 0, 0) /* Create Timberman's Hat for Wield_DestinationType */
-     , (24511, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (24511, 2, 127, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (24511, 2, 7897, 0, 9) /* Create Steel Toed Boots for Wield_DestinationType */
-     , (24511, 2, 359, 0, 14) /* Create War Hammer for Wield_DestinationType */
-     , (24511, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24511, 2, 24261, 0, 0, 1, False) /* Create Timberman's Hat for Wield_DestinationType */
+     , (24511, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (24511, 2, 127, 0, 2, 0.7, False) /* Create Pants for Wield_DestinationType */
+     , (24511, 2, 7897, 0, 9, 0, False) /* Create Steel Toed Boots for Wield_DestinationType */
+     , (24511, 2, 359, 0, 14, 1, False) /* Create War Hammer for Wield_DestinationType */
+     , (24511, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */;
 

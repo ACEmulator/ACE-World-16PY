@@ -98,12 +98,12 @@ VALUES (22082, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22082, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22082, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22082, 2, 130, 0, 16) /* Create Shirt for Wield_DestinationType */
-     , (22082, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (22082, 2, 115, 0, 6) /* Create Leather Boots for Wield_DestinationType */
-     , (22082, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (22082, 4, 5671, -1, 0) /* Create Cold Milk for Shop_DestinationType */
-     , (22082, 4, 5670, -1, 0) /* Create Tempting Apple for Shop_DestinationType */
-     , (22082, 4, 5672, -1, 0) /* Create Herbal Tea for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22082, 2, 130, 0, 16, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (22082, 2, 127, 0, 7, 0, False) /* Create Pants for Wield_DestinationType */
+     , (22082, 2, 115, 0, 6, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (22082, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (22082, 4, 5671, -1, 0, 0, False) /* Create Cold Milk for Shop_DestinationType */
+     , (22082, 4, 5670, -1, 0, 0, False) /* Create Tempting Apple for Shop_DestinationType */
+     , (22082, 4, 5672, -1, 0, 0, False) /* Create Herbal Tea for Shop_DestinationType */;
 

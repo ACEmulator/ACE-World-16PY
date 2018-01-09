@@ -92,19 +92,19 @@ VALUES (27892, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27892, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27892, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 27896, 1, 0) /* Create A Smelly Key for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27892, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (27892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 27896, 1, 0, 1, False) /* Create A Smelly Key for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27892, 9, 28984, 0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (27892, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

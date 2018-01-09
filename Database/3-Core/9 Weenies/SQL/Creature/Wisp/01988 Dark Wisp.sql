@@ -103,7 +103,7 @@ VALUES (1988, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1988, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1988, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1988, 9, 8668, 0, 0) /* Create Sickly Wisp Heart for ContainTreasure_DestinationType */
-     , (1988, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1988, 9, 8668, 0, 0, 0.03, False) /* Create Sickly Wisp Heart for ContainTreasure_DestinationType */
+     , (1988, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

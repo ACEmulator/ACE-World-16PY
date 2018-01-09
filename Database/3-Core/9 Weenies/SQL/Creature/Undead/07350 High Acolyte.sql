@@ -141,13 +141,13 @@ VALUES (7350, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7350, 12, 49218197, 51.7, -69.7, 0, -0.7071068, 0, 0, -0.7071068) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7350, 9, 7041, 0, 0) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7350, 9, 7810, 0, 0) /* Create Yucky Key for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7350, 9, 7817, 0, 0) /* Create Skull of High Acolyte for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7350, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
+     , (7350, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7350, 9, 7810, 0, 0, 1, False) /* Create Yucky Key for ContainTreasure_DestinationType */
+     , (7350, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7350, 9, 7817, 0, 0, 1, False) /* Create Skull of High Acolyte for ContainTreasure_DestinationType */
+     , (7350, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (7350, 1, 7818, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate an evil presence (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

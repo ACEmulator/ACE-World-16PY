@@ -88,6 +88,6 @@ VALUES (12050, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12050, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12050, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12050, 2, 5913, 0, 5) /* Create Dho Item Master Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12050, 2, 5913, 0, 5, 0, False) /* Create Dho Item Master Robe for Wield_DestinationType */;
 

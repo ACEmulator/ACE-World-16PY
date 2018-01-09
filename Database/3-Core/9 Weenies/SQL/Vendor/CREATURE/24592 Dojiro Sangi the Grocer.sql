@@ -94,41 +94,41 @@ VALUES (24592, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24592, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24592, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24592, 2, 124, 0, 93) /* Create Jerkin for Wield_DestinationType */
-     , (24592, 2, 127, 0, 6) /* Create Pants for Wield_DestinationType */
-     , (24592, 2, 132, 0, 7) /* Create Shoes for Wield_DestinationType */
-     , (24592, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (24592, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (24592, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (24592, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (24592, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (24592, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (24592, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (24592, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (24592, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (24592, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (24592, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (24592, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (24592, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (24592, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (24592, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (24592, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (24592, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (24592, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (24592, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (24592, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (24592, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (24592, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (24592, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (24592, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (24592, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (24592, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (24592, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */
-     , (24592, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (24592, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (24592, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (24592, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (24592, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (24592, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24592, 2, 124, 0, 93, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (24592, 2, 127, 0, 6, 1, False) /* Create Pants for Wield_DestinationType */
+     , (24592, 2, 132, 0, 7, 0.33, False) /* Create Shoes for Wield_DestinationType */
+     , (24592, 2, 118, 0, 14, 1, False) /* Create Cap for Wield_DestinationType */
+     , (24592, 2, 10696, 0, 14, 1, False) /* Create Apron for Wield_DestinationType */
+     , (24592, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (24592, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (24592, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (24592, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (24592, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (24592, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (24592, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (24592, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (24592, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (24592, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (24592, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (24592, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (24592, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (24592, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (24592, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (24592, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (24592, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (24592, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (24592, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (24592, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (24592, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (24592, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (24592, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (24592, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (24592, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */
+     , (24592, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (24592, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (24592, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (24592, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (24592, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (24592, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */;
 

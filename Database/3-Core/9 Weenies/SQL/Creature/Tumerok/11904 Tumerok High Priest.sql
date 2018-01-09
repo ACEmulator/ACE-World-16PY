@@ -125,9 +125,9 @@ VALUES (11904, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11904, 128, 125) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11904, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11904, 9, 3695, 0, 0) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (11904, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11904, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (11904, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11904, 9, 3695, 0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
+     , (11904, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (11904, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (11904, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

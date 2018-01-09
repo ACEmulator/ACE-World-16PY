@@ -112,11 +112,11 @@ VALUES (2568, 64, 2266) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2568, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2568, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2568, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (2568, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2568, 1, 8400, 0, 0) /* Create Orb of the Bunny Booty for Contain_DestinationType */
-     , (2568, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2568, 9, 12128, 0, 0) /* Create White Rabbit Carcass for ContainTreasure_DestinationType */
-     , (2568, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2568, 9, 6876, 0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (2568, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (2568, 1, 8400, 0, 0, 0.5, False) /* Create Orb of the Bunny Booty for Contain_DestinationType */
+     , (2568, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (2568, 9, 12128, 0, 0, 0.5, False) /* Create White Rabbit Carcass for ContainTreasure_DestinationType */
+     , (2568, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 

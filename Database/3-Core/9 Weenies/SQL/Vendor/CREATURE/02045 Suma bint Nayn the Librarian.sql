@@ -94,21 +94,21 @@ VALUES (2045, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2045, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2045, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2045, 2, 130, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (2045, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (2045, 2, 133, 0, 10) /* Create Slippers for Wield_DestinationType */
-     , (2045, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2045, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (2045, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2045, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (2045, 4, 5696, -1, 0) /* Create Lashanda's Hand for Shop_DestinationType */
-     , (2045, 4, 8076, -1, 0) /* Create Midnight Revelation for Shop_DestinationType */
-     , (2045, 4, 8077, -1, 0) /* Create Recalling the Calling for Shop_DestinationType */
-     , (2045, 4, 8078, -1, 0) /* Create Derethian Skies for Shop_DestinationType */
-     , (2045, 4, 9122, -1, 0) /* Create Interlude for Shop_DestinationType */
-     , (2045, 4, 10700, -1, 0) /* Create Book of Seasons for Shop_DestinationType */
-     , (2045, 4, 9006, -1, 0) /* Create Excerpts from the Zharalim for Shop_DestinationType */
-     , (2045, 4, 7775, -1, 0) /* Create Practical Applications of Chorizite for Shop_DestinationType */
-     , (2045, 4, 7774, -1, 0) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2045, 2, 130, 0, 14, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (2045, 2, 127, 0, 14, 0, False) /* Create Pants for Wield_DestinationType */
+     , (2045, 2, 133, 0, 10, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (2045, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2045, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (2045, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2045, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (2045, 4, 5696, -1, 0, 0, False) /* Create Lashanda's Hand for Shop_DestinationType */
+     , (2045, 4, 8076, -1, 0, 0, False) /* Create Midnight Revelation for Shop_DestinationType */
+     , (2045, 4, 8077, -1, 0, 0, False) /* Create Recalling the Calling for Shop_DestinationType */
+     , (2045, 4, 8078, -1, 0, 0, False) /* Create Derethian Skies for Shop_DestinationType */
+     , (2045, 4, 9122, -1, 0, 0, False) /* Create Interlude for Shop_DestinationType */
+     , (2045, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop_DestinationType */
+     , (2045, 4, 9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop_DestinationType */
+     , (2045, 4, 7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop_DestinationType */
+     , (2045, 4, 7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */;
 

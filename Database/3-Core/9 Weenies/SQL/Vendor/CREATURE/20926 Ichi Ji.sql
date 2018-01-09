@@ -94,51 +94,51 @@ VALUES (20926, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20926, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20926, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20926, 2, 124, 0, 16) /* Create Jerkin for Wield_DestinationType */
-     , (20926, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (20926, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (20926, 2, 10696, 0, 2) /* Create Apron for Wield_DestinationType */
-     , (20926, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (20926, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (20926, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (20926, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (20926, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (20926, 4, 352, -1, 0) /* Create Short Sword for Shop_DestinationType */
-     , (20926, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (20926, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (20926, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (20926, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (20926, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (20926, 4, 312, -1, 0) /* Create Light Crossbow for Shop_DestinationType */
-     , (20926, 4, 307, -1, 0) /* Create Shortbow for Shop_DestinationType */
-     , (20926, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (20926, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (20926, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (20926, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (20926, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (20926, 4, 119, -1, 0) /* Create Cowl for Shop_DestinationType */
-     , (20926, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (20926, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (20926, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (20926, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (20926, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (20926, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (20926, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (20926, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (20926, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (20926, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (20926, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (20926, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (20926, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (20926, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (20926, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (20926, 4, 136, -1, 61) /* Create Pack for Shop_DestinationType */
-     , (20926, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (20926, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (20926, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (20926, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (20926, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (20926, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (20926, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20926, 2, 124, 0, 16, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (20926, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (20926, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (20926, 2, 10696, 0, 2, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (20926, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (20926, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (20926, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (20926, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (20926, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (20926, 4, 352, -1, 0, 0, False) /* Create Short Sword for Shop_DestinationType */
+     , (20926, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (20926, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (20926, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (20926, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (20926, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (20926, 4, 312, -1, 0, 0, False) /* Create Light Crossbow for Shop_DestinationType */
+     , (20926, 4, 307, -1, 0, 0, False) /* Create Shortbow for Shop_DestinationType */
+     , (20926, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (20926, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (20926, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (20926, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (20926, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (20926, 4, 119, -1, 0, 0, False) /* Create Cowl for Shop_DestinationType */
+     , (20926, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (20926, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (20926, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (20926, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (20926, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (20926, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (20926, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (20926, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (20926, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (20926, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (20926, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (20926, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (20926, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (20926, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (20926, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (20926, 4, 136, -1, 61, 1, False) /* Create Pack for Shop_DestinationType */
+     , (20926, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (20926, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (20926, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (20926, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (20926, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (20926, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (20926, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */;
 

@@ -109,14 +109,14 @@ VALUES (28881, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28881, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28881, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28881, 9, 8232, 0, 0) /* Create Pumpkin for ContainTreasure_DestinationType */
-     , (28881, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28881, 9, 8232, 0, 0) /* Create Pumpkin for ContainTreasure_DestinationType */
-     , (28881, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28881, 9, 28898, 0, 0) /* Create Scarecrow Torso for ContainTreasure_DestinationType */
-     , (28881, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28881, 2, 8395, 12, 0) /* Create Jack o' Lantern for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28881, 9, 8232, 0, 0, 0.1, False) /* Create Pumpkin for ContainTreasure_DestinationType */
+     , (28881, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (28881, 9, 8232, 0, 0, 0.2, False) /* Create Pumpkin for ContainTreasure_DestinationType */
+     , (28881, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (28881, 9, 28898, 0, 0, 0.05, False) /* Create Scarecrow Torso for ContainTreasure_DestinationType */
+     , (28881, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (28881, 2, 8395, 12, 0, 0, False) /* Create Jack o' Lantern for Wield_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (28881, 0.06, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */

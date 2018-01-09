@@ -90,6 +90,6 @@ VALUES (1406, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1406, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1406, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1406, 1, 1422, 0, 0) /* Create Worn Odd Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1406, 1, 1422, 0, 0, 0, False) /* Create Worn Odd Key for Contain_DestinationType */;
 

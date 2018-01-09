@@ -89,10 +89,10 @@ VALUES (23336, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23336, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23336, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23336, 2, 128, 0, 17) /* Create Qafiya for Wield_DestinationType */
-     , (23336, 2, 2590, 0, 17) /* Create Shirt for Wield_DestinationType */
-     , (23336, 2, 2597, 0, 17) /* Create Pants for Wield_DestinationType */
-     , (23336, 2, 10696, 0, 17) /* Create Apron for Wield_DestinationType */
-     , (23336, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23336, 2, 128, 0, 17, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (23336, 2, 2590, 0, 17, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (23336, 2, 2597, 0, 17, 1, False) /* Create Pants for Wield_DestinationType */
+     , (23336, 2, 10696, 0, 17, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (23336, 2, 115, 0, 9, 0.01, False) /* Create Leather Boots for Wield_DestinationType */;
 

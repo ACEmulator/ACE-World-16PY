@@ -94,16 +94,16 @@ VALUES (822, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (822, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (822, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (822, 2, 134, 0, 18) /* Create Tunic for Wield_DestinationType */
-     , (822, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (822, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (822, 2, 128, 0, 14) /* Create Qafiya for Wield_DestinationType */
-     , (822, 2, 10696, 0, 7) /* Create Apron for Wield_DestinationType */
-     , (822, 4, 2587, -1, 4) /* Create Shirt for Shop_DestinationType */
-     , (822, 4, 2602, -1, 9) /* Create Breeches for Shop_DestinationType */
-     , (822, 4, 118, -1, 9) /* Create Cap for Shop_DestinationType */
-     , (822, 4, 132, -1, 6) /* Create Shoes for Shop_DestinationType */
-     , (822, 4, 5850, -1, 17) /* Create Faran Robe for Shop_DestinationType */
-     , (822, 4, 8372, -1, 2) /* Create Yifan Dress for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (822, 2, 134, 0, 18, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (822, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (822, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (822, 2, 128, 0, 14, 0.8, False) /* Create Qafiya for Wield_DestinationType */
+     , (822, 2, 10696, 0, 7, 0, False) /* Create Apron for Wield_DestinationType */
+     , (822, 4, 2587, -1, 4, 0.5, False) /* Create Shirt for Shop_DestinationType */
+     , (822, 4, 2602, -1, 9, 0.3, False) /* Create Breeches for Shop_DestinationType */
+     , (822, 4, 118, -1, 9, 0.8, False) /* Create Cap for Shop_DestinationType */
+     , (822, 4, 132, -1, 6, 0.1, False) /* Create Shoes for Shop_DestinationType */
+     , (822, 4, 5850, -1, 17, 0.5, False) /* Create Faran Robe for Shop_DestinationType */
+     , (822, 4, 8372, -1, 2, 0.8, False) /* Create Yifan Dress for Shop_DestinationType */;
 

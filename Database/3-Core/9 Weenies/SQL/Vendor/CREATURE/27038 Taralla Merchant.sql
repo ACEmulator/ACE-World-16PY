@@ -92,6 +92,6 @@ VALUES (27038, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27038, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27038, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27038, 4, 26403, -1, 0) /* Create Taralla Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27038, 4, 26403, -1, 0, 0, False) /* Create Taralla Portal Gem for Shop_DestinationType */;
 

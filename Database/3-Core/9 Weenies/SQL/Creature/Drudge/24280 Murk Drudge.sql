@@ -106,9 +106,9 @@ VALUES (24280, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24280, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24280, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24280, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24280, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24280, 9, 24838, 0, 0) /* Create Murk Drudge Charm for ContainTreasure_DestinationType */
-     , (24280, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24280, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24280, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (24280, 9, 24838, 0, 0, 0.03, False) /* Create Murk Drudge Charm for ContainTreasure_DestinationType */
+     , (24280, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

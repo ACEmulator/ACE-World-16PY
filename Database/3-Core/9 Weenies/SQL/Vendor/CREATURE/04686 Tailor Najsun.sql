@@ -94,17 +94,17 @@ VALUES (4686, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4686, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4686, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4686, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (4686, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (4686, 2, 2606, 0, 18) /* Create Boots for Wield_DestinationType */
-     , (4686, 2, 128, 0, 1) /* Create Qafiya for Wield_DestinationType */
-     , (4686, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4686, 4, 124, -1, 9) /* Create Jerkin for Shop_DestinationType */
-     , (4686, 4, 2598, -1, 9) /* Create Pants for Shop_DestinationType */
-     , (4686, 4, 128, -1, 1) /* Create Qafiya for Shop_DestinationType */
-     , (4686, 4, 2606, -1, 18) /* Create Boots for Shop_DestinationType */
-     , (4686, 4, 5852, -1, 0) /* Create Dho Vest and Robe for Shop_DestinationType */
-     , (4686, 4, 5894, -1, 0) /* Create Fez for Shop_DestinationType */
-     , (4686, 4, 8373, -1, 61) /* Create Kiyafa Robe for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4686, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4686, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (4686, 2, 2606, 0, 18, 1, False) /* Create Boots for Wield_DestinationType */
+     , (4686, 2, 128, 0, 1, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (4686, 2, 10696, 0, 4, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (4686, 4, 124, -1, 9, 1, False) /* Create Jerkin for Shop_DestinationType */
+     , (4686, 4, 2598, -1, 9, 1, False) /* Create Pants for Shop_DestinationType */
+     , (4686, 4, 128, -1, 1, 1, False) /* Create Qafiya for Shop_DestinationType */
+     , (4686, 4, 2606, -1, 18, 1, False) /* Create Boots for Shop_DestinationType */
+     , (4686, 4, 5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop_DestinationType */
+     , (4686, 4, 5894, -1, 0, 0, False) /* Create Fez for Shop_DestinationType */
+     , (4686, 4, 8373, -1, 61, 0.1, False) /* Create Kiyafa Robe for Shop_DestinationType */;
 

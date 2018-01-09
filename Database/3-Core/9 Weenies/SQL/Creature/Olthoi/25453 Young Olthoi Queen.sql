@@ -97,20 +97,20 @@ VALUES (25453, 64, 4775) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25453, 128, 1550) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25453, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */
-     , (25453, 1, 25498, 1, 0) /* Create Olthoi Chitin for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
+     , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */;
 

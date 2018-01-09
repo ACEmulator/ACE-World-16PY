@@ -114,17 +114,17 @@ VALUES (27282, 64, 7250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27282, 128, 7000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27282, 256, 7100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 27297, 0, 0) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
-     , (27282, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (27282, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 27297, 0, 0, 1, False) /* Create Key to Yaruldi's Hoard for ContainTreasure_DestinationType */
+     , (27282, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (27282, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -94,25 +94,25 @@ VALUES (654, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (654, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (654, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (654, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (654, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (654, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (654, 2, 119, 0, 2) /* Create Cowl for Wield_DestinationType */
-     , (654, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (654, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (654, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (654, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (654, 4, 4169, -1, 0) /* Create Path of Strife Rumor for Shop_DestinationType */
-     , (654, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (654, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (654, 4, 5603, -1, 0) /* Create Directions to Eastham Sewer for Shop_DestinationType */
-     , (654, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (654, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (654, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (654, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (654, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (654, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (654, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (654, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (654, 2, 130, 0, 8, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (654, 2, 127, 0, 8, 0, False) /* Create Pants for Wield_DestinationType */
+     , (654, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (654, 2, 119, 0, 2, 0.67, False) /* Create Cowl for Wield_DestinationType */
+     , (654, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (654, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (654, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (654, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (654, 4, 4169, -1, 0, 0, False) /* Create Path of Strife Rumor for Shop_DestinationType */
+     , (654, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (654, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (654, 4, 5603, -1, 0, 0, False) /* Create Directions to Eastham Sewer for Shop_DestinationType */
+     , (654, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (654, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (654, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (654, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (654, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (654, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (654, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (654, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */;
 

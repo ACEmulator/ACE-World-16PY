@@ -122,11 +122,11 @@ VALUES (27668, 64, 355) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27668, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27668, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */
-     , (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */
-     , (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */
-     , (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */
-     , (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */
-     , (27668, 1, 27687, 1, 0) /* Create Strong Iron Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */
+     , (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */
+     , (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */
+     , (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */
+     , (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */
+     , (27668, 1, 27687, 1, 0, 1, False) /* Create Strong Iron Key for Contain_DestinationType */;
 

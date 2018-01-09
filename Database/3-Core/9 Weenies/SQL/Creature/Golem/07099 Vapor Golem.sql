@@ -101,11 +101,11 @@ VALUES (7099, 64, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7099, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7099, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7099, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7099, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7099, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (7099, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7099, 9, 11353, 0, 0) /* Create Vapor Golem Heart for ContainTreasure_DestinationType */
-     , (7099, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7099, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7099, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7099, 9, 6353, 0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (7099, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (7099, 9, 11353, 0, 0, 0.05, False) /* Create Vapor Golem Heart for ContainTreasure_DestinationType */
+     , (7099, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -120,15 +120,15 @@ VALUES (24325, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24325, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24325, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24325, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24325, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24325, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (24325, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24325, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (24325, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24325, 9, 24853, 0, 0) /* Create Essence of a Phantasm for ContainTreasure_DestinationType */
-     , (24325, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24325, 9, 27394, 0, 0) /* Create Resting Place for ContainTreasure_DestinationType */
-     , (24325, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24325, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24325, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (24325, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (24325, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24325, 9, 9310, 0, 0, 0.07, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (24325, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (24325, 9, 24853, 0, 0, 0.03, False) /* Create Essence of a Phantasm for ContainTreasure_DestinationType */
+     , (24325, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24325, 9, 27394, 0, 0, 0.005, False) /* Create Resting Place for ContainTreasure_DestinationType */
+     , (24325, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

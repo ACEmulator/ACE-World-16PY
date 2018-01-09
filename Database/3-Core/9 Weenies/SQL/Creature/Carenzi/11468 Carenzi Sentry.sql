@@ -90,10 +90,10 @@ VALUES (11468, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11468, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11468, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11468, 9, 11332, 0, 0) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
-     , (11468, 9, 11332, 0, 0) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
-     , (11468, 9, 11332, 0, 0) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
-     , (11468, 9, 11342, 0, 0) /* Create Carenzi Sentry Pelt for ContainTreasure_DestinationType */
-     , (11468, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11468, 9, 11332, 0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
+     , (11468, 9, 11332, 0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
+     , (11468, 9, 11332, 0, 0, 1, False) /* Create Aun Papileona's Key for ContainTreasure_DestinationType */
+     , (11468, 9, 11342, 0, 0, 0.05, False) /* Create Carenzi Sentry Pelt for ContainTreasure_DestinationType */
+     , (11468, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

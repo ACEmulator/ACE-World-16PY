@@ -92,9 +92,9 @@ VALUES (1484, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1484, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1484, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1484, 9, 1481, 0, 0) /* Create Quarter Staff of Fire for ContainTreasure_DestinationType */
-     , (1484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1484, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1484, 9, 1481, 0, 0, 1, False) /* Create Quarter Staff of Fire for ContainTreasure_DestinationType */
+     , (1484, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (1484, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (1484, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

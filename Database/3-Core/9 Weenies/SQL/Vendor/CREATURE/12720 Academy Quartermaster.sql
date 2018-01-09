@@ -93,22 +93,22 @@ VALUES (12720, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12720, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12720, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12720, 2, 12758, 0, 0) /* Create Academy Short Sword for Wield_DestinationType */
-     , (12720, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (12720, 2, 2603, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (12720, 2, 115, 0, 14) /* Create Leather Boots for Wield_DestinationType */
-     , (12720, 2, 135, 0, 17) /* Create Turban for Wield_DestinationType */
-     , (12720, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (12720, 4, 12746, -1, 0) /* Create Training Atlatl for Shop_DestinationType */
-     , (12720, 4, 12740, -1, 0) /* Create Training Hand Axe for Shop_DestinationType */
-     , (12720, 4, 12741, -1, 0) /* Create Training Shortbow for Shop_DestinationType */
-     , (12720, 4, 12742, -1, 0) /* Create Training Cestus for Shop_DestinationType */
-     , (12720, 4, 12739, -1, 0) /* Create Training Dagger for Shop_DestinationType */
-     , (12720, 4, 12744, -1, 0) /* Create Training Mace for Shop_DestinationType */
-     , (12720, 4, 12745, -1, 0) /* Create Training Spear for Shop_DestinationType */
-     , (12720, 4, 12743, -1, 0) /* Create Training Staff for Shop_DestinationType */
-     , (12720, 4, 12747, -1, 0) /* Create Training Short Sword for Shop_DestinationType */
-     , (12720, 4, 12748, -1, 0) /* Create Training Wand for Shop_DestinationType */
-     , (12720, 4, 12749, -1, 0) /* Create Light Training Crossbow for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12720, 2, 12758, 0, 0, 0, False) /* Create Academy Short Sword for Wield_DestinationType */
+     , (12720, 2, 124, 0, 14, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (12720, 2, 2603, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (12720, 2, 115, 0, 14, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (12720, 2, 135, 0, 17, 1, False) /* Create Turban for Wield_DestinationType */
+     , (12720, 2, 10696, 0, 14, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (12720, 4, 12746, -1, 0, 0, False) /* Create Training Atlatl for Shop_DestinationType */
+     , (12720, 4, 12740, -1, 0, 0, False) /* Create Training Hand Axe for Shop_DestinationType */
+     , (12720, 4, 12741, -1, 0, 0, False) /* Create Training Shortbow for Shop_DestinationType */
+     , (12720, 4, 12742, -1, 0, 0, False) /* Create Training Cestus for Shop_DestinationType */
+     , (12720, 4, 12739, -1, 0, 0, False) /* Create Training Dagger for Shop_DestinationType */
+     , (12720, 4, 12744, -1, 0, 0, False) /* Create Training Mace for Shop_DestinationType */
+     , (12720, 4, 12745, -1, 0, 0, False) /* Create Training Spear for Shop_DestinationType */
+     , (12720, 4, 12743, -1, 0, 0, False) /* Create Training Staff for Shop_DestinationType */
+     , (12720, 4, 12747, -1, 0, 0, False) /* Create Training Short Sword for Shop_DestinationType */
+     , (12720, 4, 12748, -1, 0, 0, False) /* Create Training Wand for Shop_DestinationType */
+     , (12720, 4, 12749, -1, 0, 0, False) /* Create Light Training Crossbow for Shop_DestinationType */;
 

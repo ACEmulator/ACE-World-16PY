@@ -110,11 +110,11 @@ VALUES (26453, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26453, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26453, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26453, 2, 2588, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (26453, 2, 2597, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (26453, 2, 5850, 0, 4) /* Create Faran Robe for Wield_DestinationType */
-     , (26453, 2, 161, 0, 0) /* Create Mug for Wield_DestinationType */
-     , (26453, 9, 26467, 0, 0) /* Create Splinter of Wood for ContainTreasure_DestinationType */
-     , (26453, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26453, 2, 2588, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (26453, 2, 2597, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (26453, 2, 5850, 0, 4, 0.5, False) /* Create Faran Robe for Wield_DestinationType */
+     , (26453, 2, 161, 0, 0, 0, False) /* Create Mug for Wield_DestinationType */
+     , (26453, 9, 26467, 0, 0, 0.1, False) /* Create Splinter of Wood for ContainTreasure_DestinationType */
+     , (26453, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

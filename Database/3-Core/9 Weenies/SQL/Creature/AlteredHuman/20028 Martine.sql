@@ -133,6 +133,6 @@ VALUES (20028, 64, 8210) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20028, 128, 1500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20028, 256, 3500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20028, 1, 8640, 1, 0) /* Create Orb for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20028, 1, 8640, 1, 0, 1, False) /* Create Orb for Contain_DestinationType */;
 

@@ -105,13 +105,13 @@ VALUES (15267, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (15267, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (15267, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (15267, 9, 7338, 0, 0) /* Create Diamond Heart for ContainTreasure_DestinationType */
-     , (15267, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (15267, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (15267, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (15267, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (15267, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (15267, 9, 12689, 0, 0) /* Create Diamond Powder for ContainTreasure_DestinationType */
-     , (15267, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (15267, 9, 7338, 0, 0, 0.05, False) /* Create Diamond Heart for ContainTreasure_DestinationType */
+     , (15267, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (15267, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (15267, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (15267, 9, 6353, 0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (15267, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (15267, 9, 12689, 0, 0, 0.04, False) /* Create Diamond Powder for ContainTreasure_DestinationType */
+     , (15267, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

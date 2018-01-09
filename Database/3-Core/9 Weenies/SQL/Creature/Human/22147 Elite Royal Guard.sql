@@ -88,9 +88,9 @@ VALUES (22147, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22147, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22147, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22147, 2, 10870, 0, 17) /* Create Canescent Mattekar Robe for Wield_DestinationType */
-     , (22147, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (22147, 2, 20954, 0, 0) /* Create Superb Shimmering Isparian Sword for Wield_DestinationType */
-     , (22147, 2, 21158, 0, 14) /* Create Covenant Shield for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22147, 2, 10870, 0, 17, 0.7, False) /* Create Canescent Mattekar Robe for Wield_DestinationType */
+     , (22147, 2, 118, 0, 14, 0.7, False) /* Create Cap for Wield_DestinationType */
+     , (22147, 2, 20954, 0, 0, 0, False) /* Create Superb Shimmering Isparian Sword for Wield_DestinationType */
+     , (22147, 2, 21158, 0, 14, 1, False) /* Create Covenant Shield for Wield_DestinationType */;
 

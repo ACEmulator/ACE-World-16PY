@@ -90,7 +90,7 @@ VALUES (8222, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8222, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8222, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8222, 9, 8223, 0, 0) /* Create Xarabydun Swamp Rat Tail for ContainTreasure_DestinationType */
-     , (8222, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8222, 9, 8223, 0, 0, 0.2, False) /* Create Xarabydun Swamp Rat Tail for ContainTreasure_DestinationType */
+     , (8222, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

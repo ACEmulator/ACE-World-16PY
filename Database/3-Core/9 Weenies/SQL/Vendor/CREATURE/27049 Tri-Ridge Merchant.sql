@@ -92,6 +92,6 @@ VALUES (27049, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27049, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27049, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27049, 4, 26414, -1, 0) /* Create Tri-Ridge Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27049, 4, 26414, -1, 0, 0, False) /* Create Tri-Ridge Portal Gem for Shop_DestinationType */;
 

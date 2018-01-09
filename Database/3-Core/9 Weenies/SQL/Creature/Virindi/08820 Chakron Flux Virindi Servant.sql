@@ -112,12 +112,12 @@ VALUES (8820, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8820, 128, 450) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8820, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8820, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (8820, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8820, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (8820, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8820, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (8820, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8820, 1, 8789, 0, 0) /* Create Virindi Servant's Amulet for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8820, 9, 7604, 0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (8820, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (8820, 9, 9292, 0, 0, 0.05, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (8820, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (8820, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (8820, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8820, 1, 8789, 0, 0, 1, False) /* Create Virindi Servant's Amulet for Contain_DestinationType */;
 

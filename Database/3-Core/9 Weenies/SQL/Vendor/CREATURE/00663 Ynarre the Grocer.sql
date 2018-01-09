@@ -94,24 +94,24 @@ VALUES (663, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (663, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (663, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (663, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (663, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (663, 2, 132, 0, 5) /* Create Shoes for Wield_DestinationType */
-     , (663, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (663, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (663, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (663, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (663, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (663, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (663, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (663, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (663, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (663, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (663, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (663, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (663, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (663, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (663, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (663, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (663, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (663, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (663, 2, 132, 0, 5, 0.67, False) /* Create Shoes for Wield_DestinationType */
+     , (663, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (663, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (663, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (663, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (663, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (663, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (663, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (663, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (663, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (663, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (663, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (663, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (663, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (663, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (663, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (663, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
 

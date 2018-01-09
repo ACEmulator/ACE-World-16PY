@@ -94,24 +94,24 @@ VALUES (4683, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4683, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4683, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4683, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (4683, 2, 2603, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (4683, 2, 133, 0, 9) /* Create Slippers for Wield_DestinationType */
-     , (4683, 2, 135, 0, 7) /* Create Turban for Wield_DestinationType */
-     , (4683, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4683, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (4683, 4, 294, -1, 0) /* Create Amulet for Shop_DestinationType */
-     , (4683, 4, 2414, -1, 0) /* Create Azurite for Shop_DestinationType */
-     , (4683, 4, 2420, -1, 0) /* Create White Quartz for Shop_DestinationType */
-     , (4683, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (4683, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (4683, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (4683, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (4683, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (4683, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (4683, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */
-     , (4683, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4683, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4683, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4683, 2, 134, 0, 9, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (4683, 2, 2603, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4683, 2, 133, 0, 9, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (4683, 2, 135, 0, 7, 0.33, False) /* Create Turban for Wield_DestinationType */
+     , (4683, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4683, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (4683, 4, 294, -1, 0, 0, False) /* Create Amulet for Shop_DestinationType */
+     , (4683, 4, 2414, -1, 0, 0, False) /* Create Azurite for Shop_DestinationType */
+     , (4683, 4, 2420, -1, 0, 0, False) /* Create White Quartz for Shop_DestinationType */
+     , (4683, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (4683, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (4683, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (4683, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (4683, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (4683, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (4683, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */
+     , (4683, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4683, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4683, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

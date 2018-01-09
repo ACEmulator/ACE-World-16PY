@@ -112,6 +112,6 @@ VALUES (16913, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (16913, 128, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (16913, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (16913, 1, 16921, 1, 0) /* Create Silk for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (16913, 1, 16921, 1, 0, 0, False) /* Create Silk for Contain_DestinationType */;
 

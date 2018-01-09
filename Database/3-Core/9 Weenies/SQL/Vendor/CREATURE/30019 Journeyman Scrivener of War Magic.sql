@@ -98,45 +98,45 @@ VALUES (30019, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30019, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30019, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30019, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (30019, 2, 127, 0, 11) /* Create Pants for Wield_DestinationType */
-     , (30019, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (30019, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (30019, 4, 15271, -1, 0) /* Create Foci of Strife for Shop_DestinationType */
-     , (30019, 4, 5493, -1, 0) /* Create Scroll of Acid Blast III for Shop_DestinationType */
-     , (30019, 4, 8916, -1, 0) /* Create Scroll of Acid Streak III for Shop_DestinationType */
-     , (30019, 4, 2908, -1, 0) /* Create Scroll of Acid Stream III for Shop_DestinationType */
-     , (30019, 4, 2912, -1, 0) /* Create Scroll of Acid Volley III for Shop_DestinationType */
-     , (30019, 4, 21290, -1, 0) /* Create Scroll of Acid Arc III for Shop_DestinationType */
-     , (30019, 4, 2132, -1, 0) /* Create Scroll of Blade Blast III for Shop_DestinationType */
-     , (30019, 4, 2133, -1, 0) /* Create Scroll of Blade Volley III for Shop_DestinationType */
-     , (30019, 4, 21297, -1, 0) /* Create Scroll of Blade Arc III for Shop_DestinationType */
-     , (30019, 4, 2134, -1, 0) /* Create Scroll of Bludgeoning Volley III for Shop_DestinationType */
-     , (30019, 4, 5492, -1, 0) /* Create Scroll of Flame Blast III for Shop_DestinationType */
-     , (30019, 4, 5999, -1, 0) /* Create Scroll of Flame Bolt III for Shop_DestinationType */
-     , (30019, 4, 8922, -1, 0) /* Create Scroll of Flame Streak III for Shop_DestinationType */
-     , (30019, 4, 2135, -1, 0) /* Create Scroll of Flame Volley III for Shop_DestinationType */
-     , (30019, 4, 21304, -1, 0) /* Create Scroll of Flame Arc III for Shop_DestinationType */
-     , (30019, 4, 2136, -1, 0) /* Create Scroll of Force Blast III for Shop_DestinationType */
-     , (30019, 4, 2931, -1, 0) /* Create Scroll of Force Bolt III for Shop_DestinationType */
-     , (30019, 4, 8931, -1, 0) /* Create Scroll of Force Streak III for Shop_DestinationType */
-     , (30019, 4, 2137, -1, 0) /* Create Scroll of Force Volley III for Shop_DestinationType */
-     , (30019, 4, 21311, -1, 0) /* Create Scroll of Force Arc III for Shop_DestinationType */
-     , (30019, 4, 1572, -1, 0) /* Create Scroll of Frost Blast III for Shop_DestinationType */
-     , (30019, 4, 2942, -1, 0) /* Create Scroll of Frost Bolt III for Shop_DestinationType */
-     , (30019, 4, 8937, -1, 0) /* Create Scroll of Frost Streak III for Shop_DestinationType */
-     , (30019, 4, 2138, -1, 0) /* Create Scroll of Frost Volley III for Shop_DestinationType */
-     , (30019, 4, 21318, -1, 0) /* Create Scroll of Frost Arc III for Shop_DestinationType */
-     , (30019, 4, 2140, -1, 0) /* Create Scroll of Lightning Blast III for Shop_DestinationType */
-     , (30019, 4, 2956, -1, 0) /* Create Scroll of Lightning Bolt III for Shop_DestinationType */
-     , (30019, 4, 8943, -1, 0) /* Create Scroll of Lightning Streak III for Shop_DestinationType */
-     , (30019, 4, 9011, -1, 0) /* Create Scroll of Lightning Volley III for Shop_DestinationType */
-     , (30019, 4, 21325, -1, 0) /* Create Scroll of Lightning Arc III for Shop_DestinationType */
-     , (30019, 4, 2141, -1, 0) /* Create Scroll of Shock Blast III for Shop_DestinationType */
-     , (30019, 4, 2964, -1, 0) /* Create Scroll of Shock Wave III for Shop_DestinationType */
-     , (30019, 4, 8949, -1, 0) /* Create Scroll of Shock Wave Streak III for Shop_DestinationType */
-     , (30019, 4, 21332, -1, 0) /* Create Scroll of Shock Arc III for Shop_DestinationType */
-     , (30019, 4, 2969, -1, 0) /* Create Scroll of Whirling Blade III for Shop_DestinationType */
-     , (30019, 4, 8955, -1, 0) /* Create Scroll of Whirling Blade Streak III for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30019, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (30019, 2, 127, 0, 11, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (30019, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (30019, 2, 10696, 0, 14, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (30019, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife for Shop_DestinationType */
+     , (30019, 4, 5493, -1, 0, 0, False) /* Create Scroll of Acid Blast III for Shop_DestinationType */
+     , (30019, 4, 8916, -1, 0, 0, False) /* Create Scroll of Acid Streak III for Shop_DestinationType */
+     , (30019, 4, 2908, -1, 0, 0, False) /* Create Scroll of Acid Stream III for Shop_DestinationType */
+     , (30019, 4, 2912, -1, 0, 0, False) /* Create Scroll of Acid Volley III for Shop_DestinationType */
+     , (30019, 4, 21290, -1, 0, 0, False) /* Create Scroll of Acid Arc III for Shop_DestinationType */
+     , (30019, 4, 2132, -1, 0, 0, False) /* Create Scroll of Blade Blast III for Shop_DestinationType */
+     , (30019, 4, 2133, -1, 0, 0, False) /* Create Scroll of Blade Volley III for Shop_DestinationType */
+     , (30019, 4, 21297, -1, 0, 0, False) /* Create Scroll of Blade Arc III for Shop_DestinationType */
+     , (30019, 4, 2134, -1, 0, 0, False) /* Create Scroll of Bludgeoning Volley III for Shop_DestinationType */
+     , (30019, 4, 5492, -1, 0, 0, False) /* Create Scroll of Flame Blast III for Shop_DestinationType */
+     , (30019, 4, 5999, -1, 0, 0, False) /* Create Scroll of Flame Bolt III for Shop_DestinationType */
+     , (30019, 4, 8922, -1, 0, 0, False) /* Create Scroll of Flame Streak III for Shop_DestinationType */
+     , (30019, 4, 2135, -1, 0, 0, False) /* Create Scroll of Flame Volley III for Shop_DestinationType */
+     , (30019, 4, 21304, -1, 0, 0, False) /* Create Scroll of Flame Arc III for Shop_DestinationType */
+     , (30019, 4, 2136, -1, 0, 0, False) /* Create Scroll of Force Blast III for Shop_DestinationType */
+     , (30019, 4, 2931, -1, 0, 0, False) /* Create Scroll of Force Bolt III for Shop_DestinationType */
+     , (30019, 4, 8931, -1, 0, 0, False) /* Create Scroll of Force Streak III for Shop_DestinationType */
+     , (30019, 4, 2137, -1, 0, 0, False) /* Create Scroll of Force Volley III for Shop_DestinationType */
+     , (30019, 4, 21311, -1, 0, 0, False) /* Create Scroll of Force Arc III for Shop_DestinationType */
+     , (30019, 4, 1572, -1, 0, 0, False) /* Create Scroll of Frost Blast III for Shop_DestinationType */
+     , (30019, 4, 2942, -1, 0, 0, False) /* Create Scroll of Frost Bolt III for Shop_DestinationType */
+     , (30019, 4, 8937, -1, 0, 0, False) /* Create Scroll of Frost Streak III for Shop_DestinationType */
+     , (30019, 4, 2138, -1, 0, 0, False) /* Create Scroll of Frost Volley III for Shop_DestinationType */
+     , (30019, 4, 21318, -1, 0, 0, False) /* Create Scroll of Frost Arc III for Shop_DestinationType */
+     , (30019, 4, 2140, -1, 0, 0, False) /* Create Scroll of Lightning Blast III for Shop_DestinationType */
+     , (30019, 4, 2956, -1, 0, 0, False) /* Create Scroll of Lightning Bolt III for Shop_DestinationType */
+     , (30019, 4, 8943, -1, 0, 0, False) /* Create Scroll of Lightning Streak III for Shop_DestinationType */
+     , (30019, 4, 9011, -1, 0, 0, False) /* Create Scroll of Lightning Volley III for Shop_DestinationType */
+     , (30019, 4, 21325, -1, 0, 0, False) /* Create Scroll of Lightning Arc III for Shop_DestinationType */
+     , (30019, 4, 2141, -1, 0, 0, False) /* Create Scroll of Shock Blast III for Shop_DestinationType */
+     , (30019, 4, 2964, -1, 0, 0, False) /* Create Scroll of Shock Wave III for Shop_DestinationType */
+     , (30019, 4, 8949, -1, 0, 0, False) /* Create Scroll of Shock Wave Streak III for Shop_DestinationType */
+     , (30019, 4, 21332, -1, 0, 0, False) /* Create Scroll of Shock Arc III for Shop_DestinationType */
+     , (30019, 4, 2969, -1, 0, 0, False) /* Create Scroll of Whirling Blade III for Shop_DestinationType */
+     , (30019, 4, 8955, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak III for Shop_DestinationType */;
 

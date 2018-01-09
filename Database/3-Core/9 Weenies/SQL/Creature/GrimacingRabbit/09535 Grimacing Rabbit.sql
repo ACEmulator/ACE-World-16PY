@@ -90,7 +90,7 @@ VALUES (9535, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9535, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9535, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9535, 9, 9540, 0, 0) /* Create Purple Marshmallow Eep for ContainTreasure_DestinationType */
-     , (9535, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9535, 9, 9540, 0, 0, 0.05, False) /* Create Purple Marshmallow Eep for ContainTreasure_DestinationType */
+     , (9535, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -97,63 +97,63 @@ VALUES (966, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (966, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (966, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (966, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (966, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (966, 2, 115, 0, 18) /* Create Leather Boots for Wield_DestinationType */
-     , (966, 2, 118, 0, 9) /* Create Cap for Wield_DestinationType */
-     , (966, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (966, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (966, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (966, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (966, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (966, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (966, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (966, 4, 166, -1, 13) /* Create Sack for Shop_DestinationType */
-     , (966, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (966, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (966, 4, 136, -1, 13) /* Create Pack for Shop_DestinationType */
-     , (966, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (966, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (966, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (966, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (966, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (966, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (966, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (966, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (966, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (966, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (966, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (966, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (966, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (966, 4, 4612, -1, 0) /* Create Tiny Mana Charge for Shop_DestinationType */
-     , (966, 4, 4613, -1, 0) /* Create Small Mana Charge for Shop_DestinationType */
-     , (966, 4, 4614, -1, 0) /* Create Moderate Mana Charge for Shop_DestinationType */
-     , (966, 4, 4615, -1, 0) /* Create High Mana Charge for Shop_DestinationType */
-     , (966, 4, 27331, -1, 0) /* Create Minor Mana Stone for Shop_DestinationType */
-     , (966, 4, 2434, -1, 0) /* Create Lesser Mana Stone for Shop_DestinationType */
-     , (966, 4, 4611, -1, 0) /* Create Willpower Other II for Shop_DestinationType */
-     , (966, 4, 4610, -1, 0) /* Create Willpower Other I for Shop_DestinationType */
-     , (966, 4, 4609, -1, 0) /* Create Focus Other II for Shop_DestinationType */
-     , (966, 4, 4608, -1, 0) /* Create Focus Other I for Shop_DestinationType */
-     , (966, 4, 4607, -1, 0) /* Create Quickness Other II for Shop_DestinationType */
-     , (966, 4, 4606, -1, 0) /* Create Quickness Other I for Shop_DestinationType */
-     , (966, 4, 4605, -1, 0) /* Create Coordination Other II for Shop_DestinationType */
-     , (966, 4, 4604, -1, 0) /* Create Coordination Other I for Shop_DestinationType */
-     , (966, 4, 4603, -1, 0) /* Create Endurance Other II for Shop_DestinationType */
-     , (966, 4, 4602, -1, 0) /* Create Endurance Other I for Shop_DestinationType */
-     , (966, 4, 4601, -1, 0) /* Create Strength Other II for Shop_DestinationType */
-     , (966, 4, 4384, -1, 0) /* Create Strength Other I for Shop_DestinationType */
-     , (966, 4, 4600, -1, 0) /* Create Mana Renewal Other II for Shop_DestinationType */
-     , (966, 4, 4599, -1, 0) /* Create Mana Renewal Other I for Shop_DestinationType */
-     , (966, 4, 4598, -1, 0) /* Create Rejuvenation Other II for Shop_DestinationType */
-     , (966, 4, 4597, -1, 0) /* Create Rejuvenation Other I for Shop_DestinationType */
-     , (966, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (966, 4, 4595, -1, 0) /* Create Regeneration Other I for Shop_DestinationType */
-     , (966, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (966, 4, 4592, -1, 0) /* Create Mana Boost Other I for Shop_DestinationType */
-     , (966, 4, 4590, -1, 0) /* Create Revitalize Other II for Shop_DestinationType */
-     , (966, 4, 4589, -1, 0) /* Create Revitalize Other I for Shop_DestinationType */
-     , (966, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (966, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (966, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (966, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (966, 2, 115, 0, 18, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (966, 2, 118, 0, 9, 0.5, False) /* Create Cap for Wield_DestinationType */
+     , (966, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (966, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (966, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (966, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (966, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (966, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (966, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (966, 4, 166, -1, 13, 1, False) /* Create Sack for Shop_DestinationType */
+     , (966, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (966, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (966, 4, 136, -1, 13, 1, False) /* Create Pack for Shop_DestinationType */
+     , (966, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (966, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (966, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (966, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (966, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (966, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (966, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (966, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (966, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (966, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (966, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (966, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (966, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (966, 4, 4612, -1, 0, 0, False) /* Create Tiny Mana Charge for Shop_DestinationType */
+     , (966, 4, 4613, -1, 0, 0, False) /* Create Small Mana Charge for Shop_DestinationType */
+     , (966, 4, 4614, -1, 0, 0, False) /* Create Moderate Mana Charge for Shop_DestinationType */
+     , (966, 4, 4615, -1, 0, 0, False) /* Create High Mana Charge for Shop_DestinationType */
+     , (966, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone for Shop_DestinationType */
+     , (966, 4, 2434, -1, 0, 0, False) /* Create Lesser Mana Stone for Shop_DestinationType */
+     , (966, 4, 4611, -1, 0, 0, False) /* Create Willpower Other II for Shop_DestinationType */
+     , (966, 4, 4610, -1, 0, 0, False) /* Create Willpower Other I for Shop_DestinationType */
+     , (966, 4, 4609, -1, 0, 0, False) /* Create Focus Other II for Shop_DestinationType */
+     , (966, 4, 4608, -1, 0, 0, False) /* Create Focus Other I for Shop_DestinationType */
+     , (966, 4, 4607, -1, 0, 0, False) /* Create Quickness Other II for Shop_DestinationType */
+     , (966, 4, 4606, -1, 0, 0, False) /* Create Quickness Other I for Shop_DestinationType */
+     , (966, 4, 4605, -1, 0, 0, False) /* Create Coordination Other II for Shop_DestinationType */
+     , (966, 4, 4604, -1, 0, 0, False) /* Create Coordination Other I for Shop_DestinationType */
+     , (966, 4, 4603, -1, 0, 0, False) /* Create Endurance Other II for Shop_DestinationType */
+     , (966, 4, 4602, -1, 0, 0, False) /* Create Endurance Other I for Shop_DestinationType */
+     , (966, 4, 4601, -1, 0, 0, False) /* Create Strength Other II for Shop_DestinationType */
+     , (966, 4, 4384, -1, 0, 0, False) /* Create Strength Other I for Shop_DestinationType */
+     , (966, 4, 4600, -1, 0, 0, False) /* Create Mana Renewal Other II for Shop_DestinationType */
+     , (966, 4, 4599, -1, 0, 0, False) /* Create Mana Renewal Other I for Shop_DestinationType */
+     , (966, 4, 4598, -1, 0, 0, False) /* Create Rejuvenation Other II for Shop_DestinationType */
+     , (966, 4, 4597, -1, 0, 0, False) /* Create Rejuvenation Other I for Shop_DestinationType */
+     , (966, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (966, 4, 4595, -1, 0, 0, False) /* Create Regeneration Other I for Shop_DestinationType */
+     , (966, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (966, 4, 4592, -1, 0, 0, False) /* Create Mana Boost Other I for Shop_DestinationType */
+     , (966, 4, 4590, -1, 0, 0, False) /* Create Revitalize Other II for Shop_DestinationType */
+     , (966, 4, 4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop_DestinationType */
+     , (966, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (966, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */;
 

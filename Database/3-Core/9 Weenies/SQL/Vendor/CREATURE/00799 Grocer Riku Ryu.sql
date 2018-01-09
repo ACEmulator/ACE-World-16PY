@@ -94,17 +94,17 @@ VALUES (799, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (799, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (799, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (799, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (799, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (799, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (799, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (799, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (799, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (799, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (799, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (799, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (799, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (799, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (799, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (799, 2, 124, 0, 9, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (799, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (799, 2, 132, 0, 14, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (799, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (799, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (799, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (799, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (799, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (799, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (799, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (799, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (799, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */;
 

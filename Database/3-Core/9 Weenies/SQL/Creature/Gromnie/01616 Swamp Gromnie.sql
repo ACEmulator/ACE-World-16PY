@@ -88,11 +88,11 @@ VALUES (1616, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1616, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1616, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1616, 9, 3677, 0, 0) /* Create Swamp Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1616, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1616, 9, 4237, 0, 0) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
-     , (1616, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1616, 9, 23307, 0, 0) /* Create Ball of Gunk for ContainTreasure_DestinationType */
-     , (1616, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1616, 9, 3677, 0, 0, 0.05, False) /* Create Swamp Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1616, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1616, 9, 4237, 0, 0, 0.05, False) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
+     , (1616, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1616, 9, 23307, 0, 0, 0.001, False) /* Create Ball of Gunk for ContainTreasure_DestinationType */
+     , (1616, 9, 0, 0, 0, 0.999, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -105,11 +105,11 @@ VALUES (27423, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27423, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27423, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27423, 10, 23688, 0, 0) /* Create Acid Spear for WieldTreasure_DestinationType */
-     , (27423, 10, 23692, 0, 0) /* Create Frost Spear for WieldTreasure_DestinationType */
-     , (27423, 9, 27391, 0, 0) /* Create Lair of The Homunculus for ContainTreasure_DestinationType */
-     , (27423, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27423, 9, 8146, 0, 0) /* Create Mosswart Head for ContainTreasure_DestinationType */
-     , (27423, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27423, 10, 23688, 0, 0, 0.4, False) /* Create Acid Spear for WieldTreasure_DestinationType */
+     , (27423, 10, 23692, 0, 0, 0.4, False) /* Create Frost Spear for WieldTreasure_DestinationType */
+     , (27423, 9, 27391, 0, 0, 0.005, False) /* Create Lair of The Homunculus for ContainTreasure_DestinationType */
+     , (27423, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */
+     , (27423, 9, 8146, 0, 0, 0.05, False) /* Create Mosswart Head for ContainTreasure_DestinationType */
+     , (27423, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

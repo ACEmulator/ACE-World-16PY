@@ -92,6 +92,6 @@ VALUES (26824, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26824, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26824, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26824, 4, 26189, -1, 0) /* Create Glystaene Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26824, 4, 26189, -1, 0, 0, False) /* Create Glystaene Cottages Portal Gem for Shop_DestinationType */;
 

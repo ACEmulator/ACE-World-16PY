@@ -98,11 +98,11 @@ VALUES (20194, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20194, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20194, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20194, 2, 3706, 1, 13) /* Create Olthoi Cuirass for Wield_DestinationType */
-     , (20194, 2, 3715, 1, 13) /* Create Olthoi Helm for Wield_DestinationType */
-     , (20194, 2, 101, 1, 13) /* Create Chainmail Sleeves for Wield_DestinationType */
-     , (20194, 2, 80, 1, 13) /* Create Chainmail Leggings for Wield_DestinationType */
-     , (20194, 2, 57, 1, 13) /* Create Platemail Gauntlets for Wield_DestinationType */
-     , (20194, 2, 7897, 1, 13) /* Create Steel Toed Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20194, 2, 3706, 1, 13, 1, False) /* Create Olthoi Cuirass for Wield_DestinationType */
+     , (20194, 2, 3715, 1, 13, 1, False) /* Create Olthoi Helm for Wield_DestinationType */
+     , (20194, 2, 101, 1, 13, 1, False) /* Create Chainmail Sleeves for Wield_DestinationType */
+     , (20194, 2, 80, 1, 13, 1, False) /* Create Chainmail Leggings for Wield_DestinationType */
+     , (20194, 2, 57, 1, 13, 1, False) /* Create Platemail Gauntlets for Wield_DestinationType */
+     , (20194, 2, 7897, 1, 13, 1, False) /* Create Steel Toed Boots for Wield_DestinationType */;
 

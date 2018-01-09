@@ -121,7 +121,7 @@ VALUES (8120, 64, 290) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8120, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8120, 256, 275) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8120, 9, 8083, 0, 0) /* Create Throbbing Lump for ContainTreasure_DestinationType */
-     , (8120, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8120, 9, 8083, 0, 0, 1, False) /* Create Throbbing Lump for ContainTreasure_DestinationType */
+     , (8120, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

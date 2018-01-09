@@ -90,7 +90,7 @@ VALUES (4131, 64, 7) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4131, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4131, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4131, 9, 4133, 0, 0) /* Create Tan Rat Tail for ContainTreasure_DestinationType */
-     , (4131, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4131, 9, 4133, 0, 0, 0.15, False) /* Create Tan Rat Tail for ContainTreasure_DestinationType */
+     , (4131, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 

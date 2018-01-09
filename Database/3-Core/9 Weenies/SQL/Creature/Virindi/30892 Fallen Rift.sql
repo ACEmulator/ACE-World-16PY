@@ -106,10 +106,10 @@ VALUES (30892, 64, 1510) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30892, 128, 920) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30892, 256, 780) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30892, 9, 30857, 0, 0) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30892, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30892, 9, 30868, 0, 0) /* Create Crossbow of the Fallen for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30892, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
+     , (30892, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (30892, 9, 30868, 0, 0, 1, False) /* Create Crossbow of the Fallen for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (30892, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)/* Generate Ravager (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

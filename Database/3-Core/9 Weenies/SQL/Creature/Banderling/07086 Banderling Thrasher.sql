@@ -92,15 +92,15 @@ VALUES (7086, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7086, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7086, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7086, 9, 3693, 0, 0) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (7086, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7086, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7086, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7086, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (7086, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7086, 9, 30914, 0, 0) /* Create Halaetan Magic Page 9 for ContainTreasure_DestinationType */
-     , (7086, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7086, 9, 8144, 0, 0) /* Create Banderling Head for ContainTreasure_DestinationType */
-     , (7086, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7086, 9, 3693, 0, 0, 0.05, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
+     , (7086, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7086, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7086, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (7086, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (7086, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7086, 9, 30914, 0, 0, 0.05, False) /* Create Halaetan Magic Page 9 for ContainTreasure_DestinationType */
+     , (7086, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7086, 9, 8144, 0, 0, 0.05, False) /* Create Banderling Head for ContainTreasure_DestinationType */
+     , (7086, 9, 0, 0, 0, 0.05, False) /* Create  for ContainTreasure_DestinationType */;
 

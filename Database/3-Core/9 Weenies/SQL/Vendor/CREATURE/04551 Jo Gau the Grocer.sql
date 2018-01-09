@@ -94,19 +94,19 @@ VALUES (4551, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4551, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4551, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4551, 2, 134, 0, 18) /* Create Tunic for Wield_DestinationType */
-     , (4551, 2, 127, 0, 16) /* Create Pants for Wield_DestinationType */
-     , (4551, 2, 2606, 0, 18) /* Create Boots for Wield_DestinationType */
-     , (4551, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (4551, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (4551, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (4551, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4551, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (4551, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (4551, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (4551, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (4551, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (4551, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (4551, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4551, 2, 134, 0, 18, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (4551, 2, 127, 0, 16, 1, False) /* Create Pants for Wield_DestinationType */
+     , (4551, 2, 2606, 0, 18, 1, False) /* Create Boots for Wield_DestinationType */
+     , (4551, 2, 10696, 0, 14, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (4551, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (4551, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (4551, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4551, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (4551, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (4551, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (4551, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (4551, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (4551, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (4551, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */;
 

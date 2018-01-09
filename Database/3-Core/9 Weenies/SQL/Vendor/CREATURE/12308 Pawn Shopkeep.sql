@@ -94,79 +94,79 @@ VALUES (12308, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12308, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12308, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12308, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (12308, 2, 117, 0, 7) /* Create Breeches for Wield_DestinationType */
-     , (12308, 2, 2606, 0, 7) /* Create Boots for Wield_DestinationType */
-     , (12308, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (12308, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (12308, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (12308, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (12308, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (12308, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (12308, 4, 352, -1, 0) /* Create Short Sword for Shop_DestinationType */
-     , (12308, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (12308, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (12308, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (12308, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (12308, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (12308, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (12308, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (12308, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (12308, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (12308, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (12308, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (12308, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (12308, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (12308, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (12308, 4, 307, -1, 0) /* Create Shortbow for Shop_DestinationType */
-     , (12308, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (12308, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (12308, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (12308, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (12308, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (12308, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (12308, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (12308, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (12308, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (12308, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (12308, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (12308, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (12308, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (12308, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (12308, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (12308, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (12308, 4, 136, -1, 17) /* Create Pack for Shop_DestinationType */
-     , (12308, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (12308, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (12308, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (12308, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (12308, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (12308, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (12308, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (12308, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (12308, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (12308, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (12308, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (12308, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (12308, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (12308, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (12308, 4, 2431, -1, 0) /* Create Moonstone for Shop_DestinationType */
-     , (12308, 4, 2428, -1, 0) /* Create Carnelian for Shop_DestinationType */
-     , (12308, 4, 4612, -1, 0) /* Create Tiny Mana Charge for Shop_DestinationType */
-     , (12308, 4, 4613, -1, 0) /* Create Small Mana Charge for Shop_DestinationType */
-     , (12308, 4, 4614, -1, 0) /* Create Moderate Mana Charge for Shop_DestinationType */
-     , (12308, 4, 4615, -1, 0) /* Create High Mana Charge for Shop_DestinationType */
-     , (12308, 4, 27331, -1, 0) /* Create Minor Mana Stone for Shop_DestinationType */
-     , (12308, 4, 2434, -1, 0) /* Create Lesser Mana Stone for Shop_DestinationType */
-     , (12308, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (12308, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (12308, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (12308, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (12308, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (12308, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (12308, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (12308, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (12308, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (12308, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12308, 2, 130, 0, 8, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (12308, 2, 117, 0, 7, 0.33, False) /* Create Breeches for Wield_DestinationType */
+     , (12308, 2, 2606, 0, 7, 0.33, False) /* Create Boots for Wield_DestinationType */
+     , (12308, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (12308, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (12308, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (12308, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (12308, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (12308, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (12308, 4, 352, -1, 0, 0, False) /* Create Short Sword for Shop_DestinationType */
+     , (12308, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (12308, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (12308, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (12308, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (12308, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (12308, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (12308, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (12308, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (12308, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (12308, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (12308, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (12308, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (12308, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (12308, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (12308, 4, 307, -1, 0, 0, False) /* Create Shortbow for Shop_DestinationType */
+     , (12308, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (12308, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (12308, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (12308, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (12308, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (12308, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (12308, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (12308, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (12308, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (12308, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (12308, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (12308, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (12308, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (12308, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (12308, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (12308, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (12308, 4, 136, -1, 17, 1, False) /* Create Pack for Shop_DestinationType */
+     , (12308, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (12308, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (12308, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (12308, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (12308, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (12308, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (12308, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (12308, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (12308, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (12308, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (12308, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (12308, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (12308, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (12308, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (12308, 4, 2431, -1, 0, 0, False) /* Create Moonstone for Shop_DestinationType */
+     , (12308, 4, 2428, -1, 0, 0, False) /* Create Carnelian for Shop_DestinationType */
+     , (12308, 4, 4612, -1, 0, 0, False) /* Create Tiny Mana Charge for Shop_DestinationType */
+     , (12308, 4, 4613, -1, 0, 0, False) /* Create Small Mana Charge for Shop_DestinationType */
+     , (12308, 4, 4614, -1, 0, 0, False) /* Create Moderate Mana Charge for Shop_DestinationType */
+     , (12308, 4, 4615, -1, 0, 0, False) /* Create High Mana Charge for Shop_DestinationType */
+     , (12308, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone for Shop_DestinationType */
+     , (12308, 4, 2434, -1, 0, 0, False) /* Create Lesser Mana Stone for Shop_DestinationType */
+     , (12308, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (12308, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (12308, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (12308, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (12308, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (12308, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (12308, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (12308, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (12308, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (12308, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

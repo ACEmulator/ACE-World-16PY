@@ -92,6 +92,6 @@ VALUES (26820, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26820, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26820, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26820, 4, 26185, -1, 0) /* Create Genem Causland Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26820, 4, 26185, -1, 0, 0, False) /* Create Genem Causland Portal Gem for Shop_DestinationType */;
 

@@ -90,9 +90,9 @@ VALUES (11495, 64, 210) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11495, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11495, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11495, 9, 11341, 0, 0) /* Create Rabid Carenzi Pelt for ContainTreasure_DestinationType */
-     , (11495, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11495, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11495, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11495, 9, 11341, 0, 0, 0.05, False) /* Create Rabid Carenzi Pelt for ContainTreasure_DestinationType */
+     , (11495, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11495, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11495, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

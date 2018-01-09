@@ -119,11 +119,11 @@ VALUES (24501, 64, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24501, 128, 4700) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24501, 256, 4650) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24501, 2, 24569, 0, 0) /* Create Renegade Crossbow for Wield_DestinationType */
-     , (24501, 2, 15440, 250, 0) /* Create Deadly Armor Piercing Quarrel for Wield_DestinationType */
-     , (24501, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24501, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24501, 9, 24559, 0, 0) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
-     , (24501, 9, 24556, 0, 0) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24501, 2, 24569, 0, 0, 0, False) /* Create Renegade Crossbow for Wield_DestinationType */
+     , (24501, 2, 15440, 250, 0, 0, False) /* Create Deadly Armor Piercing Quarrel for Wield_DestinationType */
+     , (24501, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24501, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (24501, 9, 24559, 0, 0, 0.665, False) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
+     , (24501, 9, 24556, 0, 0, 0.335, False) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */;
 

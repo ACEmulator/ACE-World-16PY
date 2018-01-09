@@ -92,6 +92,6 @@ VALUES (27073, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27073, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27073, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27073, 4, 26438, -1, 0) /* Create Woodsbane Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27073, 4, 26438, -1, 0, 0, False) /* Create Woodsbane Cottages Portal Gem for Shop_DestinationType */;
 

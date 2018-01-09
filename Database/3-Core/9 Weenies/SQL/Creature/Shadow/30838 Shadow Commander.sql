@@ -94,11 +94,11 @@ VALUES (30838, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30838, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30838, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30838, 9, 7043, 0, 0) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (30838, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30838, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (30838, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30838, 9, 30831, 0, 0) /* Create Shadow Lugian Stronghold Portal Gem for ContainTreasure_DestinationType */
-     , (30838, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30838, 9, 7043, 0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
+     , (30838, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (30838, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (30838, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (30838, 9, 30831, 0, 0, 0.05, False) /* Create Shadow Lugian Stronghold Portal Gem for ContainTreasure_DestinationType */
+     , (30838, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

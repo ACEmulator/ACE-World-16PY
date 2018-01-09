@@ -88,8 +88,8 @@ VALUES (1362, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1362, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1362, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1362, 9, 46, 0, 0) /* Create Metal Cap for ContainTreasure_DestinationType */
-     , (1362, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1362, 1, 1361, 0, 0) /* Create Worn Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1362, 9, 46, 0, 0, 0.2, False) /* Create Metal Cap for ContainTreasure_DestinationType */
+     , (1362, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (1362, 1, 1361, 0, 0, 1, False) /* Create Worn Key for Contain_DestinationType */;
 

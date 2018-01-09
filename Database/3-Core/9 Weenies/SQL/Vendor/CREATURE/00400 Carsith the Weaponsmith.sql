@@ -94,34 +94,34 @@ VALUES (400, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (400, 128, 45) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (400, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (400, 2, 359, 0, 0) /* Create War Hammer for Wield_DestinationType */
-     , (400, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (400, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (400, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (400, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (400, 4, 301, -1, 0) /* Create Battle Axe for Shop_DestinationType */
-     , (400, 4, 350, -1, 0) /* Create Broad Sword for Shop_DestinationType */
-     , (400, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (400, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (400, 4, 351, -1, 0) /* Create Long Sword for Shop_DestinationType */
-     , (400, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (400, 4, 332, -1, 0) /* Create Morning Star for Shop_DestinationType */
-     , (400, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (400, 4, 339, -1, 0) /* Create Scimitar for Shop_DestinationType */
-     , (400, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (400, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (400, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (400, 4, 93, -1, 0) /* Create Round Shield for Shop_DestinationType */
-     , (400, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (400, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (400, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (400, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (400, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (400, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (400, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (400, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (400, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (400, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (400, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (400, 2, 359, 0, 0, 0, False) /* Create War Hammer for Wield_DestinationType */
+     , (400, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (400, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (400, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (400, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (400, 4, 301, -1, 0, 0, False) /* Create Battle Axe for Shop_DestinationType */
+     , (400, 4, 350, -1, 0, 0, False) /* Create Broad Sword for Shop_DestinationType */
+     , (400, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (400, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (400, 4, 351, -1, 0, 0, False) /* Create Long Sword for Shop_DestinationType */
+     , (400, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (400, 4, 332, -1, 0, 0, False) /* Create Morning Star for Shop_DestinationType */
+     , (400, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (400, 4, 339, -1, 0, 0, False) /* Create Scimitar for Shop_DestinationType */
+     , (400, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (400, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (400, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (400, 4, 93, -1, 0, 0, False) /* Create Round Shield for Shop_DestinationType */
+     , (400, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (400, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (400, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (400, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (400, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (400, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (400, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (400, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (400, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (400, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (400, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

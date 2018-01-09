@@ -125,13 +125,13 @@ VALUES (10822, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10822, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10822, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10822, 9, 3696, 0, 0) /* Create Blue Gem for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10822, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10822, 9, 9291, 0, 0) /* Create Virindi Master Key for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10822, 9, 10766, 0, 0) /* Create Shackles of Obedience for ContainTreasure_DestinationType */
-     , (10822, 9, 10805, 0, 0) /* Create Obsidian Shard for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10822, 9, 3696, 0, 0, 0.05, False) /* Create Blue Gem for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (10822, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (10822, 9, 9291, 0, 0, 0.03, False) /* Create Virindi Master Key for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (10822, 9, 10766, 0, 0, 1, False) /* Create Shackles of Obedience for ContainTreasure_DestinationType */
+     , (10822, 9, 10805, 0, 0, 1, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */;
 

@@ -92,6 +92,6 @@ VALUES (26854, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26854, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26854, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26854, 4, 26219, -1, 0) /* Create Janaa Ridge Settlement Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26854, 4, 26219, -1, 0, 0, False) /* Create Janaa Ridge Settlement Portal Gem for Shop_DestinationType */;
 

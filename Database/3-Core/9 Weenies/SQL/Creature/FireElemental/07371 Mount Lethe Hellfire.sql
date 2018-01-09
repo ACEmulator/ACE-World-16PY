@@ -101,24 +101,24 @@ VALUES (7371, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7371, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7371, 256, 385) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7371, 2, 7799, 3, 0) /* Create Ball of plasma for Wield_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7371, 9, 7420, 0, 0) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
-     , (7371, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7371, 2, 7799, 3, 0, 0, False) /* Create Ball of plasma for Wield_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (7371, 9, 7420, 0, 0, 1, False) /* Create Blue Fire Infusion for ContainTreasure_DestinationType */
+     , (7371, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

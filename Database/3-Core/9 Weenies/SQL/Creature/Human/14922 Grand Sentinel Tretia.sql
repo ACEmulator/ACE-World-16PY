@@ -92,6 +92,6 @@ VALUES (14922, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14922, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14922, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14922, 2, 5532, 0, 10) /* Create Sentinel Jumpsuit for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14922, 2, 5532, 0, 10, 0.5, False) /* Create Sentinel Jumpsuit for Wield_DestinationType */;
 

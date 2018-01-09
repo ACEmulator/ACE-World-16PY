@@ -141,8 +141,8 @@ VALUES (10948, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10948, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10948, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10948, 2, 11004, 1, 0) /* Create Kotiae for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10948, 2, 11004, 1, 0, 1, False) /* Create Kotiae for Wield_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (10948, 1, 10937, 90, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Hea Nualuan (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */;

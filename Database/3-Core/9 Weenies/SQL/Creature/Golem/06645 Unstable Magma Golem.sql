@@ -106,9 +106,9 @@ VALUES (6645, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6645, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6645, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6645, 9, 3686, 0, 0) /* Create Black Rock for ContainTreasure_DestinationType */
-     , (6645, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6645, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (6645, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6645, 9, 3686, 0, 0, 0.05, False) /* Create Black Rock for ContainTreasure_DestinationType */
+     , (6645, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (6645, 9, 6353, 0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (6645, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

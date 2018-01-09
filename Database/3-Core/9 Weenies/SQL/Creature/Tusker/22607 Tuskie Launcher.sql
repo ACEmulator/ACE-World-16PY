@@ -89,10 +89,10 @@ VALUES (22607, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22607, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22607, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22607, 2, 22547, 0, 0) /* Create Coconut for Wield_DestinationType */
-     , (22607, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (22607, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22607, 9, 22728, 0, 0) /* Create Coconut for ContainTreasure_DestinationType */
-     , (22607, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22607, 2, 22547, 0, 0, 0, False) /* Create Coconut for Wield_DestinationType */
+     , (22607, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (22607, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (22607, 9, 22728, 0, 0, 0.001, False) /* Create Coconut for ContainTreasure_DestinationType */
+     , (22607, 9, 0, 0, 0, 0.999, False) /* Create  for ContainTreasure_DestinationType */;
 

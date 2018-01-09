@@ -94,88 +94,88 @@ VALUES (24595, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24595, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24595, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24595, 2, 24261, 0, 0) /* Create Timberman's Hat for Wield_DestinationType */
-     , (24595, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (24595, 2, 127, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (24595, 2, 7897, 0, 9) /* Create Steel Toed Boots for Wield_DestinationType */
-     , (24595, 2, 359, 0, 14) /* Create War Hammer for Wield_DestinationType */
-     , (24595, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (24595, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (24595, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (24595, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (24595, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (24595, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (24595, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (24595, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (24595, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (24595, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (24595, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (24595, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (24595, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (24595, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (24595, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (24595, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (24595, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (24595, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (24595, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (24595, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (24595, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (24595, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (24595, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (24595, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (24595, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (24595, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (24595, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (24595, 4, 622, -1, 0) /* Create Necklace for Shop_DestinationType */
-     , (24595, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (24595, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (24595, 4, 2427, -1, 0) /* Create Bloodstone for Shop_DestinationType */
-     , (24595, 4, 2426, -1, 0) /* Create Amber  for Shop_DestinationType */
-     , (24595, 4, 2415, -1, 0) /* Create Lapis Lazuli for Shop_DestinationType */
-     , (24595, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (24595, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (24595, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (24595, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (24595, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (24595, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (24595, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (24595, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (24595, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (24595, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (24595, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (24595, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (24595, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (24595, 4, 632, -1, 0) /* Create Peerless Healing Kit for Shop_DestinationType */
-     , (24595, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (24595, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (24595, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (24595, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (24595, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (24595, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */
-     , (24595, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (24595, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (24595, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (24595, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (24595, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */
-     , (24595, 4, 166, -1, 2) /* Create Sack for Shop_DestinationType */
-     , (24595, 4, 136, -1, 2) /* Create Pack for Shop_DestinationType */
-     , (24595, 4, 138, -1, 91) /* Create Belt Pouch for Shop_DestinationType */
-     , (24595, 4, 139, -1, 91) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (24595, 4, 137, -1, 91) /* Create Basket for Shop_DestinationType */
-     , (24595, 4, 166, -1, 13) /* Create Sack for Shop_DestinationType */
-     , (24595, 4, 136, -1, 13) /* Create Pack for Shop_DestinationType */
-     , (24595, 4, 138, -1, 92) /* Create Belt Pouch for Shop_DestinationType */
-     , (24595, 4, 139, -1, 92) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (24595, 4, 137, -1, 92) /* Create Basket for Shop_DestinationType */
-     , (24595, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (24595, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (24595, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (24595, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (24595, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (24595, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (24595, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (24595, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (24595, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (24595, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24595, 2, 24261, 0, 0, 1, False) /* Create Timberman's Hat for Wield_DestinationType */
+     , (24595, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (24595, 2, 127, 0, 2, 0.7, False) /* Create Pants for Wield_DestinationType */
+     , (24595, 2, 7897, 0, 9, 0, False) /* Create Steel Toed Boots for Wield_DestinationType */
+     , (24595, 2, 359, 0, 14, 1, False) /* Create War Hammer for Wield_DestinationType */
+     , (24595, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (24595, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (24595, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (24595, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (24595, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (24595, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (24595, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (24595, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (24595, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (24595, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (24595, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (24595, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (24595, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (24595, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (24595, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (24595, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (24595, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (24595, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (24595, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (24595, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (24595, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (24595, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (24595, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (24595, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (24595, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (24595, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (24595, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (24595, 4, 622, -1, 0, 0, False) /* Create Necklace for Shop_DestinationType */
+     , (24595, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (24595, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (24595, 4, 2427, -1, 0, 0, False) /* Create Bloodstone for Shop_DestinationType */
+     , (24595, 4, 2426, -1, 0, 0, False) /* Create Amber  for Shop_DestinationType */
+     , (24595, 4, 2415, -1, 0, 0, False) /* Create Lapis Lazuli for Shop_DestinationType */
+     , (24595, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (24595, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (24595, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (24595, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (24595, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (24595, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (24595, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (24595, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (24595, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (24595, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (24595, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (24595, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (24595, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (24595, 4, 632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop_DestinationType */
+     , (24595, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (24595, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (24595, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (24595, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (24595, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (24595, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */
+     , (24595, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (24595, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (24595, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (24595, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (24595, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */
+     , (24595, 4, 166, -1, 2, 1, False) /* Create Sack for Shop_DestinationType */
+     , (24595, 4, 136, -1, 2, 1, False) /* Create Pack for Shop_DestinationType */
+     , (24595, 4, 138, -1, 91, 0, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (24595, 4, 139, -1, 91, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (24595, 4, 137, -1, 91, 0, False) /* Create Basket for Shop_DestinationType */
+     , (24595, 4, 166, -1, 13, 1, False) /* Create Sack for Shop_DestinationType */
+     , (24595, 4, 136, -1, 13, 1, False) /* Create Pack for Shop_DestinationType */
+     , (24595, 4, 138, -1, 92, 0, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (24595, 4, 139, -1, 92, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (24595, 4, 137, -1, 92, 0, False) /* Create Basket for Shop_DestinationType */
+     , (24595, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (24595, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (24595, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (24595, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (24595, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (24595, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (24595, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

@@ -92,9 +92,9 @@ VALUES (11880, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11880, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11880, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11880, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (11880, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11880, 9, 11790, 0, 0) /* Create Shreth Banner for ContainTreasure_DestinationType */
-     , (11880, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11880, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (11880, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11880, 9, 11790, 0, 0, 0.05, False) /* Create Shreth Banner for ContainTreasure_DestinationType */
+     , (11880, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

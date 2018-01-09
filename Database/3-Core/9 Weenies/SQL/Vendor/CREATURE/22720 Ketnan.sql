@@ -92,19 +92,19 @@ VALUES (22720, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22720, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22720, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22720, 2, 2590, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (22720, 2, 2598, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (22720, 2, 132, 0, 2) /* Create Shoes for Wield_DestinationType */
-     , (22720, 2, 5905, 0, 2) /* Create Hood for Wield_DestinationType */
-     , (22720, 4, 22637, -1, 0) /* Create Refreshing Umbrella Drink for Shop_DestinationType */
-     , (22720, 4, 22635, -1, 0) /* Create I survived the Tusker Emporium for Shop_DestinationType */
-     , (22720, 4, 22565, -1, 0) /* Create Tusker Island Shirt for Shop_DestinationType */
-     , (22720, 4, 22620, -1, 0) /* Create Carved Tusker Statue for Shop_DestinationType */
-     , (22720, 4, 22857, -1, 0) /* Create Tiki Torch for Shop_DestinationType */
-     , (22720, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (22720, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (22720, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (22720, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (22720, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22720, 2, 2590, 0, 8, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (22720, 2, 2598, 0, 4, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (22720, 2, 132, 0, 2, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (22720, 2, 5905, 0, 2, 0.8, False) /* Create Hood for Wield_DestinationType */
+     , (22720, 4, 22637, -1, 0, 0, False) /* Create Refreshing Umbrella Drink for Shop_DestinationType */
+     , (22720, 4, 22635, -1, 0, 0, False) /* Create I survived the Tusker Emporium for Shop_DestinationType */
+     , (22720, 4, 22565, -1, 0, 0, False) /* Create Tusker Island Shirt for Shop_DestinationType */
+     , (22720, 4, 22620, -1, 0, 0, False) /* Create Carved Tusker Statue for Shop_DestinationType */
+     , (22720, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch for Shop_DestinationType */
+     , (22720, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (22720, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (22720, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (22720, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (22720, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */;
 

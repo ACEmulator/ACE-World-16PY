@@ -88,12 +88,12 @@ VALUES (1210, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1210, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1210, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1210, 2, 25557, 0, 0) /* Create Eye Patch for Wield_DestinationType */
-     , (1210, 9, 28866, 0, 0) /* Create Left Peg Leg for ContainTreasure_DestinationType */
-     , (1210, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1210, 9, 28868, 0, 0) /* Create Right Peg Leg for ContainTreasure_DestinationType */
-     , (1210, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1210, 9, 25557, 0, 0) /* Create Eye Patch for ContainTreasure_DestinationType */
-     , (1210, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1210, 2, 25557, 0, 0, 0, False) /* Create Eye Patch for Wield_DestinationType */
+     , (1210, 9, 28866, 0, 0, 0.05, False) /* Create Left Peg Leg for ContainTreasure_DestinationType */
+     , (1210, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1210, 9, 28868, 0, 0, 0.05, False) /* Create Right Peg Leg for ContainTreasure_DestinationType */
+     , (1210, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1210, 9, 25557, 0, 0, 0.05, False) /* Create Eye Patch for ContainTreasure_DestinationType */
+     , (1210, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

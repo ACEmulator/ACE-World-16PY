@@ -94,53 +94,53 @@ VALUES (2502, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2502, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2502, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2502, 2, 130, 0, 13) /* Create Shirt for Wield_DestinationType */
-     , (2502, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (2502, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2502, 2, 118, 0, 2) /* Create Cap for Wield_DestinationType */
-     , (2502, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2502, 4, 2599, -1, 13) /* Create Trousers for Shop_DestinationType */
-     , (2502, 4, 2599, -1, 9) /* Create Trousers for Shop_DestinationType */
-     , (2502, 4, 2599, -1, 9) /* Create Trousers for Shop_DestinationType */
-     , (2502, 4, 2589, -1, 13) /* Create Smock for Shop_DestinationType */
-     , (2502, 4, 2589, -1, 9) /* Create Smock for Shop_DestinationType */
-     , (2502, 4, 2589, -1, 9) /* Create Smock for Shop_DestinationType */
-     , (2502, 4, 119, -1, 13) /* Create Cowl for Shop_DestinationType */
-     , (2502, 4, 119, -1, 9) /* Create Cowl for Shop_DestinationType */
-     , (2502, 4, 119, -1, 9) /* Create Cowl for Shop_DestinationType */
-     , (2502, 4, 115, -1, 13) /* Create Leather Boots for Shop_DestinationType */
-     , (2502, 4, 115, -1, 9) /* Create Leather Boots for Shop_DestinationType */
-     , (2502, 4, 115, -1, 9) /* Create Leather Boots for Shop_DestinationType */
-     , (2502, 4, 5854, -1, 4) /* Create Suikan Robe for Shop_DestinationType */
-     , (2502, 4, 5901, -1, 0) /* Create Kasa for Shop_DestinationType */
-     , (2502, 4, 8372, -1, 5) /* Create Yifan Dress for Shop_DestinationType */
-     , (2502, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (2502, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */
-     , (2502, 4, 8489, -1, 0) /* Create Heaume for Shop_DestinationType */
-     , (2502, 4, 8488, -1, 0) /* Create Armet for Shop_DestinationType */
-     , (2502, 4, 75, -1, 0) /* Create Helmet for Shop_DestinationType */
-     , (2502, 4, 76, -1, 0) /* Create Horned Helm for Shop_DestinationType */
-     , (2502, 4, 40, -1, 0) /* Create Platemail Breastplate for Shop_DestinationType */
-     , (2502, 4, 61, -1, 0) /* Create Platemail Girth for Shop_DestinationType */
-     , (2502, 4, 82, -1, 0) /* Create Platemail Leggings for Shop_DestinationType */
-     , (2502, 4, 87, -1, 0) /* Create Platemail Pauldrons for Shop_DestinationType */
-     , (2502, 4, 114, -1, 0) /* Create Platemail Vambraces for Shop_DestinationType */
-     , (2502, 4, 107, -1, 0) /* Create Sollerets for Shop_DestinationType */
-     , (2502, 4, 57, -1, 0) /* Create Platemail Gauntlets for Shop_DestinationType */
-     , (2502, 4, 66, -1, 0) /* Create Platemail Greaves for Shop_DestinationType */
-     , (2502, 4, 110, -1, 0) /* Create Platemail Tassets for Shop_DestinationType */
-     , (2502, 4, 92, -1, 0) /* Create Large Kite Shield for Shop_DestinationType */
-     , (2502, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (2502, 4, 2505, -1, 0) /* Create Inner Dungeon Key for Shop_DestinationType */
-     , (2502, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (2502, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (2502, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (2502, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (2502, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (2502, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (2502, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (2502, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (2502, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (2502, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2502, 2, 130, 0, 13, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (2502, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (2502, 2, 132, 0, 9, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2502, 2, 118, 0, 2, 0.9, False) /* Create Cap for Wield_DestinationType */
+     , (2502, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (2502, 4, 2599, -1, 13, 0.5, False) /* Create Trousers for Shop_DestinationType */
+     , (2502, 4, 2599, -1, 9, 0, False) /* Create Trousers for Shop_DestinationType */
+     , (2502, 4, 2599, -1, 9, 1, False) /* Create Trousers for Shop_DestinationType */
+     , (2502, 4, 2589, -1, 13, 0.5, False) /* Create Smock for Shop_DestinationType */
+     , (2502, 4, 2589, -1, 9, 0, False) /* Create Smock for Shop_DestinationType */
+     , (2502, 4, 2589, -1, 9, 1, False) /* Create Smock for Shop_DestinationType */
+     , (2502, 4, 119, -1, 13, 0.5, False) /* Create Cowl for Shop_DestinationType */
+     , (2502, 4, 119, -1, 9, 0, False) /* Create Cowl for Shop_DestinationType */
+     , (2502, 4, 119, -1, 9, 1, False) /* Create Cowl for Shop_DestinationType */
+     , (2502, 4, 115, -1, 13, 0.5, False) /* Create Leather Boots for Shop_DestinationType */
+     , (2502, 4, 115, -1, 9, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (2502, 4, 115, -1, 9, 1, False) /* Create Leather Boots for Shop_DestinationType */
+     , (2502, 4, 5854, -1, 4, 0.5, False) /* Create Suikan Robe for Shop_DestinationType */
+     , (2502, 4, 5901, -1, 0, 0, False) /* Create Kasa for Shop_DestinationType */
+     , (2502, 4, 8372, -1, 5, 0.2, False) /* Create Yifan Dress for Shop_DestinationType */
+     , (2502, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (2502, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */
+     , (2502, 4, 8489, -1, 0, 0, False) /* Create Heaume for Shop_DestinationType */
+     , (2502, 4, 8488, -1, 0, 0, False) /* Create Armet for Shop_DestinationType */
+     , (2502, 4, 75, -1, 0, 0, False) /* Create Helmet for Shop_DestinationType */
+     , (2502, 4, 76, -1, 0, 0, False) /* Create Horned Helm for Shop_DestinationType */
+     , (2502, 4, 40, -1, 0, 0, False) /* Create Platemail Breastplate for Shop_DestinationType */
+     , (2502, 4, 61, -1, 0, 0, False) /* Create Platemail Girth for Shop_DestinationType */
+     , (2502, 4, 82, -1, 0, 0, False) /* Create Platemail Leggings for Shop_DestinationType */
+     , (2502, 4, 87, -1, 0, 0, False) /* Create Platemail Pauldrons for Shop_DestinationType */
+     , (2502, 4, 114, -1, 0, 0, False) /* Create Platemail Vambraces for Shop_DestinationType */
+     , (2502, 4, 107, -1, 0, 0, False) /* Create Sollerets for Shop_DestinationType */
+     , (2502, 4, 57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop_DestinationType */
+     , (2502, 4, 66, -1, 0, 0, False) /* Create Platemail Greaves for Shop_DestinationType */
+     , (2502, 4, 110, -1, 0, 0, False) /* Create Platemail Tassets for Shop_DestinationType */
+     , (2502, 4, 92, -1, 0, 0, False) /* Create Large Kite Shield for Shop_DestinationType */
+     , (2502, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (2502, 4, 2505, -1, 0, 0, False) /* Create Inner Dungeon Key for Shop_DestinationType */
+     , (2502, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (2502, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (2502, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (2502, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (2502, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (2502, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (2502, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (2502, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (2502, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (2502, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

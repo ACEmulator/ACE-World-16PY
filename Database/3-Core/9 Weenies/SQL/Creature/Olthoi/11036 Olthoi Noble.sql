@@ -94,42 +94,42 @@ VALUES (11036, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11036, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11036, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11036, 9, 11157, 0, 0) /* Create Alchemy Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11158, 0, 0) /* Create Arcane Lore Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11159, 0, 0) /* Create Armor Tinkering Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11160, 0, 0) /* Create Axe Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11161, 0, 0) /* Create Bow Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11162, 0, 0) /* Create Cooking Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11163, 0, 0) /* Create Creature Assessment Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11164, 0, 0) /* Create Creature Enchantment Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11165, 0, 0) /* Create Crossbow Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11166, 0, 0) /* Create Dagger Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11167, 0, 0) /* Create Deception Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11168, 0, 0) /* Create Fletching Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11169, 0, 0) /* Create Healing Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11170, 0, 0) /* Create Item Tinkering Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11171, 0, 0) /* Create Item Enchantment Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11172, 0, 0) /* Create Jump Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11173, 0, 0) /* Create Leadership Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11174, 0, 0) /* Create Life Magic Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11175, 0, 0) /* Create Lockpick Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11176, 0, 0) /* Create Loyalty Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11177, 0, 0) /* Create Mace Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11178, 0, 0) /* Create Magic Item Tinkering Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11179, 0, 0) /* Create Magic Resistance Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11180, 0, 0) /* Create Mana Conversion Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11181, 0, 0) /* Create Melee Defense Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11182, 0, 0) /* Create Missile Defense Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11183, 0, 0) /* Create Person Assessment Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11184, 0, 0) /* Create Run Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11185, 0, 0) /* Create Spear Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11186, 0, 0) /* Create Staff Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11187, 0, 0) /* Create Sword Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11188, 0, 0) /* Create Thrown Weapons Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11189, 0, 0) /* Create Unarmed Combat Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11190, 0, 0) /* Create War Magic Tessera for ContainTreasure_DestinationType */
-     , (11036, 9, 11191, 0, 0) /* Create Weapon Tinkering Tessera for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11036, 9, 11157, 0, 0, 0.03, False) /* Create Alchemy Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11158, 0, 0, 0.03, False) /* Create Arcane Lore Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11159, 0, 0, 0.02, False) /* Create Armor Tinkering Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11160, 0, 0, 0.03, False) /* Create Axe Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11161, 0, 0, 0.03, False) /* Create Bow Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11162, 0, 0, 0.03, False) /* Create Cooking Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11163, 0, 0, 0.02, False) /* Create Creature Assessment Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11164, 0, 0, 0.03, False) /* Create Creature Enchantment Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11165, 0, 0, 0.03, False) /* Create Crossbow Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11166, 0, 0, 0.03, False) /* Create Dagger Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11167, 0, 0, 0.03, False) /* Create Deception Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11168, 0, 0, 0.03, False) /* Create Fletching Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11169, 0, 0, 0.03, False) /* Create Healing Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11170, 0, 0, 0.03, False) /* Create Item Tinkering Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11171, 0, 0, 0.03, False) /* Create Item Enchantment Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11172, 0, 0, 0.03, False) /* Create Jump Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11173, 0, 0, 0.03, False) /* Create Leadership Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11174, 0, 0, 0.03, False) /* Create Life Magic Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11175, 0, 0, 0.03, False) /* Create Lockpick Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11176, 0, 0, 0.03, False) /* Create Loyalty Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11177, 0, 0, 0.03, False) /* Create Mace Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11178, 0, 0, 0.02, False) /* Create Magic Item Tinkering Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11179, 0, 0, 0.03, False) /* Create Magic Resistance Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11180, 0, 0, 0.03, False) /* Create Mana Conversion Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11181, 0, 0, 0.03, False) /* Create Melee Defense Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11182, 0, 0, 0.03, False) /* Create Missile Defense Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11183, 0, 0, 0.02, False) /* Create Person Assessment Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11184, 0, 0, 0.03, False) /* Create Run Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11185, 0, 0, 0.03, False) /* Create Spear Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11186, 0, 0, 0.03, False) /* Create Staff Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11187, 0, 0, 0.03, False) /* Create Sword Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11188, 0, 0, 0.03, False) /* Create Thrown Weapons Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11189, 0, 0, 0.03, False) /* Create Unarmed Combat Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11190, 0, 0, 0.03, False) /* Create War Magic Tessera for ContainTreasure_DestinationType */
+     , (11036, 9, 11191, 0, 0, 0.02, False) /* Create Weapon Tinkering Tessera for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11036, -1, 11042, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Olthoi Noble (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

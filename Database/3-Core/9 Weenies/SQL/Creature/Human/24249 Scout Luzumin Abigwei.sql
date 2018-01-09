@@ -88,14 +88,14 @@ VALUES (24249, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24249, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24249, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24249, 2, 351, 0, 0) /* Create Long Sword for Wield_DestinationType */
-     , (24249, 2, 46, 0, 8) /* Create Metal Cap for Wield_DestinationType */
-     , (24249, 2, 2587, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (24249, 2, 2601, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (24249, 2, 414, 0, 39) /* Create Chainmail Breastplate for Wield_DestinationType */
-     , (24249, 2, 415, 0, 19) /* Create Chainmail Girth for Wield_DestinationType */
-     , (24249, 2, 84, 0, 11) /* Create Studded Leather Leggings for Wield_DestinationType */
-     , (24249, 2, 122, 0, 11) /* Create Soft Leather Gloves for Wield_DestinationType */
-     , (24249, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24249, 2, 351, 0, 0, 0, False) /* Create Long Sword for Wield_DestinationType */
+     , (24249, 2, 46, 0, 8, 1, False) /* Create Metal Cap for Wield_DestinationType */
+     , (24249, 2, 2587, 0, 4, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (24249, 2, 2601, 0, 4, 1, False) /* Create Pants for Wield_DestinationType */
+     , (24249, 2, 414, 0, 39, 1, False) /* Create Chainmail Breastplate for Wield_DestinationType */
+     , (24249, 2, 415, 0, 19, 1, False) /* Create Chainmail Girth for Wield_DestinationType */
+     , (24249, 2, 84, 0, 11, 1, False) /* Create Studded Leather Leggings for Wield_DestinationType */
+     , (24249, 2, 122, 0, 11, 1, False) /* Create Soft Leather Gloves for Wield_DestinationType */
+     , (24249, 2, 2606, 0, 9, 0.8, False) /* Create Boots for Wield_DestinationType */;
 

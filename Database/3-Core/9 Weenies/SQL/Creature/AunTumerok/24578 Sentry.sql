@@ -92,6 +92,6 @@ VALUES (24578, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24578, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24578, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24578, 2, 311, 0, 0) /* Create Heavy Crossbow for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24578, 2, 311, 0, 0, 0, False) /* Create Heavy Crossbow for Wield_DestinationType */;
 

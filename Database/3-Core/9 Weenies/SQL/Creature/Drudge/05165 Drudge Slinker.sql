@@ -92,6 +92,6 @@ VALUES (5165, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5165, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5165, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5165, 1, 5161, 0, 0) /* Create Cove Apple for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5165, 1, 5161, 0, 0, 0, False) /* Create Cove Apple for Contain_DestinationType */;
 

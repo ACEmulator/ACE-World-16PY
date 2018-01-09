@@ -89,6 +89,6 @@ VALUES (11041, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11041, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11041, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11041, 9, 11155, 0, 0) /* Create Rubble for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11041, 9, 11155, 0, 0, 1, False) /* Create Rubble for ContainTreasure_DestinationType */;
 

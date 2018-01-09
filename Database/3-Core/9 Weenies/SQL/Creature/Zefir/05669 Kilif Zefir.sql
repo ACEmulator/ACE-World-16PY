@@ -108,6 +108,6 @@ VALUES (5669, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5669, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5669, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5669, 1, 5664, 0, 0) /* Create Stone Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5669, 1, 5664, 0, 0, 0, False) /* Create Stone Key for Contain_DestinationType */;
 

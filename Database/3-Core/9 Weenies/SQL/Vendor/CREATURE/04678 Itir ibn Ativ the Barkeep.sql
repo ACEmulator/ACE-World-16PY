@@ -94,23 +94,23 @@ VALUES (4678, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4678, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4678, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4678, 2, 2587, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (4678, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (4678, 2, 133, 0, 9) /* Create Slippers for Wield_DestinationType */
-     , (4678, 2, 135, 0, 10) /* Create Turban for Wield_DestinationType */
-     , (4678, 2, 10696, 0, 2) /* Create Apron for Wield_DestinationType */
-     , (4678, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4678, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (4678, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (4678, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (4678, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (4678, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (4678, 4, 4710, -1, 0) /* Create Beef Kebab for Shop_DestinationType */
-     , (4678, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (4678, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (4678, 4, 4727, -1, 0) /* Create Flat Bread for Shop_DestinationType */
-     , (4678, 4, 5003, -1, 0) /* Create Al-Arqas Portal Directions for Shop_DestinationType */
-     , (4678, 4, 5006, -1, 0) /* Create Desert Ruin Directions for Shop_DestinationType */
-     , (4678, 4, 8209, -1, 0) /* Create Call for Adventurers! for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4678, 2, 2587, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4678, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (4678, 2, 133, 0, 9, 0, False) /* Create Slippers for Wield_DestinationType */
+     , (4678, 2, 135, 0, 10, 0.67, False) /* Create Turban for Wield_DestinationType */
+     , (4678, 2, 10696, 0, 2, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4678, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4678, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (4678, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (4678, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (4678, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (4678, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (4678, 4, 4710, -1, 0, 0, False) /* Create Beef Kebab for Shop_DestinationType */
+     , (4678, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (4678, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (4678, 4, 4727, -1, 0, 0, False) /* Create Flat Bread for Shop_DestinationType */
+     , (4678, 4, 5003, -1, 0, 0, False) /* Create Al-Arqas Portal Directions for Shop_DestinationType */
+     , (4678, 4, 5006, -1, 0, 0, False) /* Create Desert Ruin Directions for Shop_DestinationType */
+     , (4678, 4, 8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop_DestinationType */;
 

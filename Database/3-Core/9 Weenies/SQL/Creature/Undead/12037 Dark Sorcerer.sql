@@ -134,15 +134,15 @@ VALUES (12037, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12037, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12037, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12037, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12037, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12037, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (12037, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12037, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (12037, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12037, 9, 23611, 0, 0) /* Create Dark Sorcerer's Phylactery for ContainTreasure_DestinationType */
-     , (12037, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12037, 9, 6876, 0, 0, 0.5, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (12037, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (12037, 9, 7045, 0, 0, 0.8, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (12037, 9, 0, 0, 0, 0.2, False) /* Create  for ContainTreasure_DestinationType */
+     , (12037, 9, 9310, 0, 0, 0.3, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (12037, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */
+     , (12037, 9, 23611, 0, 0, 0.3, False) /* Create Dark Sorcerer's Phylactery for ContainTreasure_DestinationType */
+     , (12037, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12037, 0.5, 7124, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dark Magus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

@@ -120,7 +120,7 @@ VALUES (30885, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30885, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30885, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30885, 1, 3695, 0, 0) /* Create Gold Tumerok Insignia for Contain_DestinationType */
-     , (30885, 9, 30863, 0, 0) /* Create Banished Spear for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30885, 1, 3695, 0, 0, 1, False) /* Create Gold Tumerok Insignia for Contain_DestinationType */
+     , (30885, 9, 30863, 0, 0, 1, False) /* Create Banished Spear for ContainTreasure_DestinationType */;
 

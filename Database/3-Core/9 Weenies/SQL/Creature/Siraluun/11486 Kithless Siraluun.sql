@@ -90,11 +90,11 @@ VALUES (11486, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11486, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11486, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11486, 9, 11363, 0, 0) /* Create Small Bundle of Kithless Siraluun Feathers for ContainTreasure_DestinationType */
-     , (11486, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11486, 9, 29906, 0, 0) /* Create Kithless Siraluun Claw for ContainTreasure_DestinationType */
-     , (11486, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11486, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11486, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11486, 9, 11363, 0, 0, 0.05, False) /* Create Small Bundle of Kithless Siraluun Feathers for ContainTreasure_DestinationType */
+     , (11486, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11486, 9, 29906, 0, 0, 0.05, False) /* Create Kithless Siraluun Claw for ContainTreasure_DestinationType */
+     , (11486, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11486, 9, 6876, 0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11486, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

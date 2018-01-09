@@ -92,7 +92,7 @@ VALUES (1520, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1520, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1520, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1520, 9, 1533, 0, 0) /* Create Small Rusted Key for ContainTreasure_DestinationType */
-     , (1520, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1520, 9, 1533, 0, 0, 1, False) /* Create Small Rusted Key for ContainTreasure_DestinationType */
+     , (1520, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

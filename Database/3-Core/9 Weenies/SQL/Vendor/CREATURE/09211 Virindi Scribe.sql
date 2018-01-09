@@ -93,14 +93,14 @@ VALUES (9211, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9211, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9211, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9211, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (9211, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (9211, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (9211, 4, 5584, -1, 0) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
-     , (9211, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (9211, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (9211, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (9211, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (9211, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9211, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (9211, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (9211, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (9211, 4, 5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
+     , (9211, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (9211, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (9211, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (9211, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (9211, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

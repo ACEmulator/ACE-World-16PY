@@ -93,6 +93,6 @@ VALUES (8866, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8866, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8866, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8866, 9, 8511, 0, 0) /* Create Ancient Key for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8866, 9, 8511, 0, 0, 1, False) /* Create Ancient Key for ContainTreasure_DestinationType */;
 

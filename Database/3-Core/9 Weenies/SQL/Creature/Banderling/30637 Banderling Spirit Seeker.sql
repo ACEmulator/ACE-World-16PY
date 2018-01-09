@@ -107,6 +107,6 @@ VALUES (30637, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30637, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30637, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30637, 9, 30630, 0, 0) /* Create Murky Gem for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30637, 9, 30630, 0, 0, 1, False) /* Create Murky Gem for ContainTreasure_DestinationType */;
 

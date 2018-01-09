@@ -116,8 +116,8 @@ VALUES (11872, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11872, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11872, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11872, 9, 11861, 0, 0) /* Create Reedshark Spear-Head for ContainTreasure_DestinationType */
-     , (11872, 9, 11862, 0, 0) /* Create Reedshark Symbol for ContainTreasure_DestinationType */
-     , (11872, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11872, 9, 11861, 0, 0, 0.05, False) /* Create Reedshark Spear-Head for ContainTreasure_DestinationType */
+     , (11872, 9, 11862, 0, 0, 0.05, False) /* Create Reedshark Symbol for ContainTreasure_DestinationType */
+     , (11872, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

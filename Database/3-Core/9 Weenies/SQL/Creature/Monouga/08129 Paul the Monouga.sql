@@ -93,6 +93,6 @@ VALUES (8129, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8129, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8129, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8129, 2, 8130, 0, 0) /* Create Giant Monouga Axe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8129, 2, 8130, 0, 0, 0, False) /* Create Giant Monouga Axe for Wield_DestinationType */;
 

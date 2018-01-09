@@ -97,29 +97,29 @@ VALUES (5876, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5876, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5876, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5876, 2, 2587, 0, 1) /* Create Shirt for Wield_DestinationType */
-     , (5876, 2, 2604, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (5876, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (5876, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (5876, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (5876, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (5876, 4, 632, -1, 0) /* Create Peerless Healing Kit for Shop_DestinationType */
-     , (5876, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (5876, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (5876, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (5876, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (5876, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (5876, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (5876, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5876, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5876, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (5876, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (5876, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (5876, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (5876, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (5876, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (5876, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (5876, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */
-     , (5876, 4, 23958, -1, 0) /* Create Mite Stamp for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5876, 2, 2587, 0, 1, 0.6, False) /* Create Shirt for Wield_DestinationType */
+     , (5876, 2, 2604, 0, 8, 0.4, False) /* Create Breeches for Wield_DestinationType */
+     , (5876, 2, 132, 0, 4, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (5876, 2, 10696, 0, 14, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (5876, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (5876, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (5876, 4, 632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop_DestinationType */
+     , (5876, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (5876, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (5876, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (5876, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (5876, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (5876, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (5876, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5876, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5876, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (5876, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (5876, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (5876, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (5876, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (5876, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (5876, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (5876, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */
+     , (5876, 4, 23958, -1, 0, 0, False) /* Create Mite Stamp for Shop_DestinationType */;
 

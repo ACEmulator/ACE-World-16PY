@@ -88,13 +88,13 @@ VALUES (11811, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11811, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11811, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11811, 2, 2591, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (11811, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (11811, 2, 6003, 0, 21) /* Create Koujia Breastplate for Wield_DestinationType */
-     , (11811, 2, 6005, 0, 17) /* Create Koujia Sleeves for Wield_DestinationType */
-     , (11811, 2, 77, 0, 21) /* Create Kabuton for Wield_DestinationType */
-     , (11811, 2, 58, 0, 21) /* Create Scalemail Gauntlets for Wield_DestinationType */
-     , (11811, 2, 6004, 0, 21) /* Create Koujia Leggings for Wield_DestinationType */
-     , (11811, 2, 107, 0, 21) /* Create Sollerets for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11811, 2, 2591, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (11811, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (11811, 2, 6003, 0, 21, 0.8, False) /* Create Koujia Breastplate for Wield_DestinationType */
+     , (11811, 2, 6005, 0, 17, 0.8, False) /* Create Koujia Sleeves for Wield_DestinationType */
+     , (11811, 2, 77, 0, 21, 0.8, False) /* Create Kabuton for Wield_DestinationType */
+     , (11811, 2, 58, 0, 21, 1, False) /* Create Scalemail Gauntlets for Wield_DestinationType */
+     , (11811, 2, 6004, 0, 21, 0.5, False) /* Create Koujia Leggings for Wield_DestinationType */
+     , (11811, 2, 107, 0, 21, 1, False) /* Create Sollerets for Wield_DestinationType */;
 

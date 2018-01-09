@@ -91,7 +91,7 @@ VALUES (5869, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5869, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5869, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5869, 2, 5943, 0, 61) /* Create Tremblant's Ivory Staff for Wield_DestinationType */
-     , (5869, 8, 5880, 0, 0) /* Create An Old Book for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5869, 2, 5943, 0, 61, 1, False) /* Create Tremblant's Ivory Staff for Wield_DestinationType */
+     , (5869, 8, 5880, 0, 0, 1, False) /* Create An Old Book for Treasure_DestinationType */;
 

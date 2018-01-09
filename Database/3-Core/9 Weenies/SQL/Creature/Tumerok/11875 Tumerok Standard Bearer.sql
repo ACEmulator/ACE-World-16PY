@@ -91,7 +91,7 @@ VALUES (11875, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11875, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11875, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11875, 9, 11737, 0, 0) /* Create Falcon Banner for ContainTreasure_DestinationType */
-     , (11875, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11875, 9, 11737, 0, 0, 0.05, False) /* Create Falcon Banner for ContainTreasure_DestinationType */
+     , (11875, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

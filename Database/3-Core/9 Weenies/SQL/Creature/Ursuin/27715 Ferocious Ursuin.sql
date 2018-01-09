@@ -92,7 +92,7 @@ VALUES (27715, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27715, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27715, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27715, 9, 12219, 0, 0) /* Create Ursuin Head for ContainTreasure_DestinationType */
-     , (27715, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27715, 9, 12219, 0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure_DestinationType */
+     , (27715, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

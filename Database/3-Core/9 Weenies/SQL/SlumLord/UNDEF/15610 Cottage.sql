@@ -28,9 +28,9 @@ VALUES (15610, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (15610, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (15610, 16, 273, 300000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (15610, 16, 11710, 1, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (15610, 16, 4228, 1, 0) /* Create Reedshark Hide Greaves for HouseBuy_DestinationType */
-     , (15610, 32, 273, 30000, 0) /* Create Pyreal for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (15610, 16, 273, 300000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (15610, 16, 11710, 1, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (15610, 16, 4228, 1, 0, 0, False) /* Create Reedshark Hide Greaves for HouseBuy_DestinationType */
+     , (15610, 32, 273, 30000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */;
 

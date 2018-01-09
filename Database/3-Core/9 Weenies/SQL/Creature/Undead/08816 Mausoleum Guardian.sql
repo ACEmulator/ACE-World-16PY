@@ -129,10 +129,10 @@ VALUES (8816, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8816, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8816, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8816, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8816, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8816, 1, 8785, 0, 0) /* Create Empyrean Scalemail Shirt for Contain_DestinationType */
-     , (8816, 1, 8788, 0, 0) /* Create Obsidian Dagger for Contain_DestinationType */
-     , (8816, 1, 8786, 0, 0) /* Create Barbed Fletching Tool for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8816, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (8816, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8816, 1, 8785, 0, 0, 0, False) /* Create Empyrean Scalemail Shirt for Contain_DestinationType */
+     , (8816, 1, 8788, 0, 0, 0, False) /* Create Obsidian Dagger for Contain_DestinationType */
+     , (8816, 1, 8786, 0, 0, 0, False) /* Create Barbed Fletching Tool for Contain_DestinationType */;
 

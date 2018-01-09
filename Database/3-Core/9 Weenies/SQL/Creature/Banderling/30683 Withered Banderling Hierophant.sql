@@ -112,13 +112,13 @@ VALUES (30683, 64, 5850) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30683, 128, 5700) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30683, 256, 2640) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30683, 9, 3693, 0, 0) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (30683, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30683, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (30683, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30683, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (30683, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30683, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (30683, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30683, 9, 3693, 0, 0, 0.3, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
+     , (30683, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */
+     , (30683, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (30683, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (30683, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (30683, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (30683, 9, 7825, 0, 0, 0.1, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (30683, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -92,6 +92,6 @@ VALUES (27069, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27069, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27069, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27069, 4, 26434, -1, 0) /* Create Wilomine Villas Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27069, 4, 26434, -1, 0, 0, False) /* Create Wilomine Villas Portal Gem for Shop_DestinationType */;
 

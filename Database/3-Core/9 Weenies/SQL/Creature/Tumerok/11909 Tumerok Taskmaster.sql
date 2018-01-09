@@ -133,7 +133,7 @@ VALUES (11909, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11909, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11909, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11909, 1, 3695, 0, 0) /* Create Gold Tumerok Insignia for Contain_DestinationType */
-     , (11909, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11909, 1, 3695, 0, 0, 0.6, False) /* Create Gold Tumerok Insignia for Contain_DestinationType */
+     , (11909, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */;
 

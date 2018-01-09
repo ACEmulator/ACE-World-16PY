@@ -127,25 +127,25 @@ VALUES (24857, 64, 99960) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (24857, 12, 1682374918, 112.454, -62.6237, -197.995, 1, 0, 0, 0) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24857, 9, 22132, 0, 0) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
-     , (24857, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
+     , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

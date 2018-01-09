@@ -90,8 +90,8 @@ VALUES (30386, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30386, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30386, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30386, 2, 5901, 0, 8) /* Create Kasa for Wield_DestinationType */
-     , (30386, 2, 5854, 0, 4) /* Create Suikan Robe for Wield_DestinationType */
-     , (30386, 2, 129, 0, 9) /* Create Sandals for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30386, 2, 5901, 0, 8, 0, False) /* Create Kasa for Wield_DestinationType */
+     , (30386, 2, 5854, 0, 4, 0.6, False) /* Create Suikan Robe for Wield_DestinationType */
+     , (30386, 2, 129, 0, 9, 0, False) /* Create Sandals for Wield_DestinationType */;
 

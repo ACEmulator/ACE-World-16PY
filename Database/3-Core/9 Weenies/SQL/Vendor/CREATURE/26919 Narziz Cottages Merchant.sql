@@ -92,6 +92,6 @@ VALUES (26919, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26919, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26919, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26919, 4, 26284, -1, 0) /* Create Narziz Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26919, 4, 26284, -1, 0, 0, False) /* Create Narziz Cottages Portal Gem for Shop_DestinationType */;
 

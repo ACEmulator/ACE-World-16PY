@@ -93,23 +93,23 @@ VALUES (1395, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1395, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1395, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1395, 2, 336, 0, 0) /* Create Ono for Wield_DestinationType */
-     , (1395, 2, 124, 0, 18) /* Create Jerkin for Wield_DestinationType */
-     , (1395, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (1395, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (1395, 2, 10696, 0, 16) /* Create Apron for Wield_DestinationType */
-     , (1395, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (1395, 4, 310, -1, 0) /* Create Throwing Club for Shop_DestinationType */
-     , (1395, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (1395, 4, 327, -1, 0) /* Create Ken for Shop_DestinationType */
-     , (1395, 4, 4195, -1, 0) /* Create Nekode for Shop_DestinationType */
-     , (1395, 4, 336, -1, 0) /* Create Ono for Shop_DestinationType */
-     , (1395, 4, 353, -1, 0) /* Create Tachi for Shop_DestinationType */
-     , (1395, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (1395, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (1395, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (1395, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1395, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1395, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1395, 2, 336, 0, 0, 0, False) /* Create Ono for Wield_DestinationType */
+     , (1395, 2, 124, 0, 18, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (1395, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1395, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1395, 2, 10696, 0, 16, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1395, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (1395, 4, 310, -1, 0, 0, False) /* Create Throwing Club for Shop_DestinationType */
+     , (1395, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (1395, 4, 327, -1, 0, 0, False) /* Create Ken for Shop_DestinationType */
+     , (1395, 4, 4195, -1, 0, 0, False) /* Create Nekode for Shop_DestinationType */
+     , (1395, 4, 336, -1, 0, 0, False) /* Create Ono for Shop_DestinationType */
+     , (1395, 4, 353, -1, 0, 0, False) /* Create Tachi for Shop_DestinationType */
+     , (1395, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (1395, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (1395, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (1395, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1395, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1395, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

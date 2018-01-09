@@ -93,10 +93,10 @@ VALUES (22818, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22818, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22818, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22818, 2, 339, 0, 0) /* Create Scimitar for Wield_DestinationType */
-     , (22818, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (22818, 2, 126, 0, 4) /* Create Leggings for Wield_DestinationType */
-     , (22818, 2, 133, 0, 16) /* Create Slippers for Wield_DestinationType */
-     , (22818, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22818, 2, 339, 0, 0, 0, False) /* Create Scimitar for Wield_DestinationType */
+     , (22818, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (22818, 2, 126, 0, 4, 0.6, False) /* Create Leggings for Wield_DestinationType */
+     , (22818, 2, 133, 0, 16, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (22818, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */;
 

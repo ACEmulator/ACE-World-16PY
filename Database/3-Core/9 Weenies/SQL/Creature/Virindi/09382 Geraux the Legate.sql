@@ -129,6 +129,6 @@ VALUES (9382, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9382, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9382, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9382, 1, 8810, 0, 0) /* Create Geraux's Life Magic Scroll for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9382, 1, 8810, 0, 0, 1, False) /* Create Geraux's Life Magic Scroll for Contain_DestinationType */;
 

@@ -87,7 +87,7 @@ VALUES (8270, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8270, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8270, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8270, 9, 25559, 0, 0) /* Create Hollow Minion's Face for ContainTreasure_DestinationType */
-     , (8270, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8270, 9, 25559, 0, 0, 0.05, False) /* Create Hollow Minion's Face for ContainTreasure_DestinationType */
+     , (8270, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

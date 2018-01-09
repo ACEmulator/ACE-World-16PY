@@ -93,92 +93,92 @@ VALUES (1078, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1078, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1078, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1078, 2, 313, 0, 0) /* Create Dabus for Wield_DestinationType */
-     , (1078, 2, 124, 0, 17) /* Create Jerkin for Wield_DestinationType */
-     , (1078, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (1078, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (1078, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (1078, 4, 550, -1, 0) /* Create Baigha for Shop_DestinationType */
-     , (1078, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (1078, 4, 313, -1, 0) /* Create Dabus for Shop_DestinationType */
-     , (1078, 4, 317, -1, 0) /* Create Djarid for Shop_DestinationType */
-     , (1078, 4, 319, -1, 0) /* Create Jambiya for Shop_DestinationType */
-     , (1078, 4, 325, -1, 0) /* Create Kasrullah for Shop_DestinationType */
-     , (1078, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (1078, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (1078, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (1078, 4, 345, -1, 0) /* Create Simi for Shop_DestinationType */
-     , (1078, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (1078, 4, 344, -1, 0) /* Create Silifi for Shop_DestinationType */
-     , (1078, 4, 354, -1, 0) /* Create Takuba for Shop_DestinationType */
-     , (1078, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (1078, 4, 324, -1, 0) /* Create Kaskara for Shop_DestinationType */
-     , (1078, 4, 340, -1, 0) /* Create Shamshir for Shop_DestinationType */
-     , (1078, 4, 345, -1, 0) /* Create Simi for Shop_DestinationType */
-     , (1078, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (1078, 4, 357, -1, 0) /* Create Tungi for Shop_DestinationType */
-     , (1078, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (1078, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (1078, 4, 96, -1, 0) /* Create Chainmail Shirt for Shop_DestinationType */
-     , (1078, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (1078, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (1078, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (1078, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (1078, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (1078, 4, 47, -1, 0) /* Create Leather Coat for Shop_DestinationType */
-     , (1078, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (1078, 4, 50, -1, 0) /* Create Leather Cuirass for Shop_DestinationType */
-     , (1078, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (1078, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (1078, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (1078, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (1078, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (1078, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (1078, 4, 97, -1, 0) /* Create Leather Shirt for Shop_DestinationType */
-     , (1078, 4, 102, -1, 0) /* Create Leather Sleeves for Shop_DestinationType */
-     , (1078, 4, 46, -1, 0) /* Create Metal Cap for Shop_DestinationType */
-     , (1078, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (1078, 4, 38, -1, 0) /* Create Studded Leather Bracers for Shop_DestinationType */
-     , (1078, 4, 42, -1, 0) /* Create Studded Leather Breastplate for Shop_DestinationType */
-     , (1078, 4, 48, -1, 0) /* Create Studded Leather Coat for Shop_DestinationType */
-     , (1078, 4, 723, -1, 0) /* Create Studded Leather Cowl for Shop_DestinationType */
-     , (1078, 4, 53, -1, 0) /* Create Studded Leather Cuirass for Shop_DestinationType */
-     , (1078, 4, 59, -1, 0) /* Create Studded Leather Gauntlets for Shop_DestinationType */
-     , (1078, 4, 63, -1, 0) /* Create Studded Leather Girth for Shop_DestinationType */
-     , (1078, 4, 68, -1, 0) /* Create Studded Leather Greaves for Shop_DestinationType */
-     , (1078, 4, 112, -1, 0) /* Create Studded Leather Tassets for Shop_DestinationType */
-     , (1078, 4, 84, -1, 0) /* Create Studded Leather Leggings for Shop_DestinationType */
-     , (1078, 4, 89, -1, 0) /* Create Studded Leather Pauldrons for Shop_DestinationType */
-     , (1078, 4, 99, -1, 0) /* Create Studded Leather Shirt for Shop_DestinationType */
-     , (1078, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (1078, 4, 93, -1, 0) /* Create Round Shield for Shop_DestinationType */
-     , (1078, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (1078, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (1078, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (1078, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (1078, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (1078, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (1078, 4, 71, -1, 0) /* Create Chainmail Hauberk for Shop_DestinationType */
-     , (1078, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (1078, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (1078, 4, 96, -1, 0) /* Create Chainmail Shirt for Shop_DestinationType */
-     , (1078, 4, 101, -1, 0) /* Create Chainmail Sleeves for Shop_DestinationType */
-     , (1078, 4, 41, -1, 0) /* Create Scalemail Breastplate for Shop_DestinationType */
-     , (1078, 4, 52, -1, 0) /* Create Scalemail Cuirass for Shop_DestinationType */
-     , (1078, 4, 58, -1, 0) /* Create Scalemail Gauntlets for Shop_DestinationType */
-     , (1078, 4, 62, -1, 0) /* Create Scalemail Girth for Shop_DestinationType */
-     , (1078, 4, 67, -1, 0) /* Create Scalemail Greaves for Shop_DestinationType */
-     , (1078, 4, 111, -1, 0) /* Create Scalemail Tassets for Shop_DestinationType */
-     , (1078, 4, 73, -1, 0) /* Create Scalemail Hauberk for Shop_DestinationType */
-     , (1078, 4, 83, -1, 0) /* Create Scalemail Leggings for Shop_DestinationType */
-     , (1078, 4, 88, -1, 0) /* Create Scalemail Pauldrons for Shop_DestinationType */
-     , (1078, 4, 98, -1, 0) /* Create Scalemail Shirt for Shop_DestinationType */
-     , (1078, 4, 104, -1, 0) /* Create Scalemail Sleeves for Shop_DestinationType */
-     , (1078, 4, 105, -1, 0) /* Create Studded Leather Sleeves for Shop_DestinationType */
-     , (1078, 4, 149, -1, 0) /* Create Ewer for Shop_DestinationType */
-     , (1078, 4, 168, -1, 0) /* Create Tankard for Shop_DestinationType */
-     , (1078, 4, 243, -1, 0) /* Create Dinner Plate for Shop_DestinationType */
-     , (1078, 4, 251, -1, 0) /* Create Platter for Shop_DestinationType */
-     , (1078, 4, 142, -1, 0) /* Create Chalice for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1078, 2, 313, 0, 0, 0, False) /* Create Dabus for Wield_DestinationType */
+     , (1078, 2, 124, 0, 17, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (1078, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1078, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1078, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (1078, 4, 550, -1, 0, 0, False) /* Create Baigha for Shop_DestinationType */
+     , (1078, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (1078, 4, 313, -1, 0, 0, False) /* Create Dabus for Shop_DestinationType */
+     , (1078, 4, 317, -1, 0, 0, False) /* Create Djarid for Shop_DestinationType */
+     , (1078, 4, 319, -1, 0, 0, False) /* Create Jambiya for Shop_DestinationType */
+     , (1078, 4, 325, -1, 0, 0, False) /* Create Kasrullah for Shop_DestinationType */
+     , (1078, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (1078, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (1078, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (1078, 4, 345, -1, 0, 0, False) /* Create Simi for Shop_DestinationType */
+     , (1078, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (1078, 4, 344, -1, 0, 0, False) /* Create Silifi for Shop_DestinationType */
+     , (1078, 4, 354, -1, 0, 0, False) /* Create Takuba for Shop_DestinationType */
+     , (1078, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (1078, 4, 324, -1, 0, 0, False) /* Create Kaskara for Shop_DestinationType */
+     , (1078, 4, 340, -1, 0, 0, False) /* Create Shamshir for Shop_DestinationType */
+     , (1078, 4, 345, -1, 0, 0, False) /* Create Simi for Shop_DestinationType */
+     , (1078, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (1078, 4, 357, -1, 0, 0, False) /* Create Tungi for Shop_DestinationType */
+     , (1078, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (1078, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (1078, 4, 96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop_DestinationType */
+     , (1078, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (1078, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (1078, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (1078, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (1078, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (1078, 4, 47, -1, 0, 0, False) /* Create Leather Coat for Shop_DestinationType */
+     , (1078, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (1078, 4, 50, -1, 0, 0, False) /* Create Leather Cuirass for Shop_DestinationType */
+     , (1078, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (1078, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (1078, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (1078, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (1078, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (1078, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (1078, 4, 97, -1, 0, 0, False) /* Create Leather Shirt for Shop_DestinationType */
+     , (1078, 4, 102, -1, 0, 0, False) /* Create Leather Sleeves for Shop_DestinationType */
+     , (1078, 4, 46, -1, 0, 0, False) /* Create Metal Cap for Shop_DestinationType */
+     , (1078, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (1078, 4, 38, -1, 0, 0, False) /* Create Studded Leather Bracers for Shop_DestinationType */
+     , (1078, 4, 42, -1, 0, 0, False) /* Create Studded Leather Breastplate for Shop_DestinationType */
+     , (1078, 4, 48, -1, 0, 0, False) /* Create Studded Leather Coat for Shop_DestinationType */
+     , (1078, 4, 723, -1, 0, 0, False) /* Create Studded Leather Cowl for Shop_DestinationType */
+     , (1078, 4, 53, -1, 0, 0, False) /* Create Studded Leather Cuirass for Shop_DestinationType */
+     , (1078, 4, 59, -1, 0, 0, False) /* Create Studded Leather Gauntlets for Shop_DestinationType */
+     , (1078, 4, 63, -1, 0, 0, False) /* Create Studded Leather Girth for Shop_DestinationType */
+     , (1078, 4, 68, -1, 0, 0, False) /* Create Studded Leather Greaves for Shop_DestinationType */
+     , (1078, 4, 112, -1, 0, 0, False) /* Create Studded Leather Tassets for Shop_DestinationType */
+     , (1078, 4, 84, -1, 0, 0, False) /* Create Studded Leather Leggings for Shop_DestinationType */
+     , (1078, 4, 89, -1, 0, 0, False) /* Create Studded Leather Pauldrons for Shop_DestinationType */
+     , (1078, 4, 99, -1, 0, 0, False) /* Create Studded Leather Shirt for Shop_DestinationType */
+     , (1078, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (1078, 4, 93, -1, 0, 0, False) /* Create Round Shield for Shop_DestinationType */
+     , (1078, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (1078, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (1078, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (1078, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (1078, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (1078, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (1078, 4, 71, -1, 0, 0, False) /* Create Chainmail Hauberk for Shop_DestinationType */
+     , (1078, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (1078, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (1078, 4, 96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop_DestinationType */
+     , (1078, 4, 101, -1, 0, 0, False) /* Create Chainmail Sleeves for Shop_DestinationType */
+     , (1078, 4, 41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop_DestinationType */
+     , (1078, 4, 52, -1, 0, 0, False) /* Create Scalemail Cuirass for Shop_DestinationType */
+     , (1078, 4, 58, -1, 0, 0, False) /* Create Scalemail Gauntlets for Shop_DestinationType */
+     , (1078, 4, 62, -1, 0, 0, False) /* Create Scalemail Girth for Shop_DestinationType */
+     , (1078, 4, 67, -1, 0, 0, False) /* Create Scalemail Greaves for Shop_DestinationType */
+     , (1078, 4, 111, -1, 0, 0, False) /* Create Scalemail Tassets for Shop_DestinationType */
+     , (1078, 4, 73, -1, 0, 0, False) /* Create Scalemail Hauberk for Shop_DestinationType */
+     , (1078, 4, 83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop_DestinationType */
+     , (1078, 4, 88, -1, 0, 0, False) /* Create Scalemail Pauldrons for Shop_DestinationType */
+     , (1078, 4, 98, -1, 0, 0, False) /* Create Scalemail Shirt for Shop_DestinationType */
+     , (1078, 4, 104, -1, 0, 0, False) /* Create Scalemail Sleeves for Shop_DestinationType */
+     , (1078, 4, 105, -1, 0, 0, False) /* Create Studded Leather Sleeves for Shop_DestinationType */
+     , (1078, 4, 149, -1, 0, 0, False) /* Create Ewer for Shop_DestinationType */
+     , (1078, 4, 168, -1, 0, 0, False) /* Create Tankard for Shop_DestinationType */
+     , (1078, 4, 243, -1, 0, 0, False) /* Create Dinner Plate for Shop_DestinationType */
+     , (1078, 4, 251, -1, 0, 0, False) /* Create Platter for Shop_DestinationType */
+     , (1078, 4, 142, -1, 0, 0, False) /* Create Chalice for Shop_DestinationType */;
 

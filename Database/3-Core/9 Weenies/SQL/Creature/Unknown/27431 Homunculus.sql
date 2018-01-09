@@ -103,9 +103,9 @@ VALUES (27431, 64, 3330) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27431, 128, 660) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27431, 256, 680) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27431, 9, 27438, 0, 0) /* Create Head of the Homunculus for ContainTreasure_DestinationType */
-     , (27431, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27431, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27431, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27431, 9, 27438, 0, 0, 1, False) /* Create Head of the Homunculus for ContainTreasure_DestinationType */
+     , (27431, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27431, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27431, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -109,15 +109,15 @@ VALUES (23484, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23484, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23484, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23484, 9, 7046, 0, 0) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
-     , (23484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23484, 9, 9259, 0, 0) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
-     , (23484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23484, 9, 20861, 0, 0) /* Create Moons Stamp for ContainTreasure_DestinationType */
-     , (23484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23484, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (23484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23484, 9, 12216, 0, 0) /* Create Sclavus Head for ContainTreasure_DestinationType */
-     , (23484, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23484, 9, 7046, 0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
+     , (23484, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23484, 9, 9259, 0, 0, 0.03, False) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
+     , (23484, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23484, 9, 20861, 0, 0, 0.05, False) /* Create Moons Stamp for ContainTreasure_DestinationType */
+     , (23484, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (23484, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (23484, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (23484, 9, 12216, 0, 0, 0.05, False) /* Create Sclavus Head for ContainTreasure_DestinationType */
+     , (23484, 9, 0, 0, 0, 0.05, False) /* Create  for ContainTreasure_DestinationType */;
 

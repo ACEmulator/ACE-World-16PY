@@ -113,7 +113,7 @@ VALUES (28018, 64, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28018, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28018, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28018, 9, 28024, 0, 0) /* Create A Worn Prison Master's Key for ContainTreasure_DestinationType */
-     , (28018, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28018, 9, 28024, 0, 0, 1, False) /* Create A Worn Prison Master's Key for ContainTreasure_DestinationType */
+     , (28018, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

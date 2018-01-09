@@ -93,22 +93,22 @@ VALUES (11506, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11506, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11506, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11506, 2, 12192, 0, 0) /* Create Shadow's Garb for Wield_DestinationType */
-     , (11506, 2, 12193, 0, 0) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (11506, 10, 12188, 0, 0) /* Create Assassin's Jambiya for WieldTreasure_DestinationType */
-     , (11506, 10, 12187, 0, 0) /* Create Assassin's Acid Jambiya for WieldTreasure_DestinationType */
-     , (11506, 10, 12189, 0, 0) /* Create Assassin's Lightning Jambiya for WieldTreasure_DestinationType */
-     , (11506, 10, 12190, 0, 0) /* Create Assassin's Flaming Jambiya for WieldTreasure_DestinationType */
-     , (11506, 10, 12191, 0, 0) /* Create Assassin's Frost Jambiya for WieldTreasure_DestinationType */
-     , (11506, 10, 12195, 0, 0) /* Create Assassin's Simi for WieldTreasure_DestinationType */
-     , (11506, 10, 12194, 0, 0) /* Create Assassin's Acid Simi for WieldTreasure_DestinationType */
-     , (11506, 10, 12196, 0, 0) /* Create Assassin's Lightning Simi for WieldTreasure_DestinationType */
-     , (11506, 10, 12197, 0, 0) /* Create Assassin's Flaming Simi for WieldTreasure_DestinationType */
-     , (11506, 10, 12198, 0, 0) /* Create Assassin's Frost Simi for WieldTreasure_DestinationType */
-     , (11506, 10, 0, 0, 0) /* Create  for WieldTreasure_DestinationType */
-     , (11506, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11506, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11506, 9, 25557, 0, 0) /* Create Eye Patch for ContainTreasure_DestinationType */
-     , (11506, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11506, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_DestinationType */
+     , (11506, 2, 12193, 0, 0, 1, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (11506, 10, 12188, 0, 0, 0.1, False) /* Create Assassin's Jambiya for WieldTreasure_DestinationType */
+     , (11506, 10, 12187, 0, 0, 0.1, False) /* Create Assassin's Acid Jambiya for WieldTreasure_DestinationType */
+     , (11506, 10, 12189, 0, 0, 0.1, False) /* Create Assassin's Lightning Jambiya for WieldTreasure_DestinationType */
+     , (11506, 10, 12190, 0, 0, 0.1, False) /* Create Assassin's Flaming Jambiya for WieldTreasure_DestinationType */
+     , (11506, 10, 12191, 0, 0, 0.1, False) /* Create Assassin's Frost Jambiya for WieldTreasure_DestinationType */
+     , (11506, 10, 12195, 0, 0, 0.1, False) /* Create Assassin's Simi for WieldTreasure_DestinationType */
+     , (11506, 10, 12194, 0, 0, 0.1, False) /* Create Assassin's Acid Simi for WieldTreasure_DestinationType */
+     , (11506, 10, 12196, 0, 0, 0.1, False) /* Create Assassin's Lightning Simi for WieldTreasure_DestinationType */
+     , (11506, 10, 12197, 0, 0, 0.1, False) /* Create Assassin's Flaming Simi for WieldTreasure_DestinationType */
+     , (11506, 10, 12198, 0, 0, 0.1, False) /* Create Assassin's Frost Simi for WieldTreasure_DestinationType */
+     , (11506, 10, 0, 0, 0, 0, False) /* Create  for WieldTreasure_DestinationType */
+     , (11506, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11506, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (11506, 9, 25557, 0, 0, 0.05, False) /* Create Eye Patch for ContainTreasure_DestinationType */
+     , (11506, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

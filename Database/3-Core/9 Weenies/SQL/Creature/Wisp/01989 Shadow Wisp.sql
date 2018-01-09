@@ -103,7 +103,7 @@ VALUES (1989, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1989, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1989, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1989, 9, 8666, 0, 0) /* Create Pulsating Wisp Heart for ContainTreasure_DestinationType */
-     , (1989, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1989, 9, 8666, 0, 0, 0.03, False) /* Create Pulsating Wisp Heart for ContainTreasure_DestinationType */
+     , (1989, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

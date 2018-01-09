@@ -94,23 +94,23 @@ VALUES (2252, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2252, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2252, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2252, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (2252, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (2252, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (2252, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2252, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2252, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (2252, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (2252, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (2252, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (2252, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2252, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (2252, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (2252, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (2252, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (2252, 4, 2219, -1, 0) /* Create Directions to Web Maze for Shop_DestinationType */
-     , (2252, 4, 4210, -1, 0) /* Create Dungeon Mei Directions for Shop_DestinationType */
-     , (2252, 4, 28242, -1, 0) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
-     , (2252, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2252, 2, 134, 0, 9, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (2252, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (2252, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2252, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2252, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2252, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (2252, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (2252, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (2252, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (2252, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2252, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (2252, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (2252, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (2252, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (2252, 4, 2219, -1, 0, 0, False) /* Create Directions to Web Maze for Shop_DestinationType */
+     , (2252, 4, 4210, -1, 0, 0, False) /* Create Dungeon Mei Directions for Shop_DestinationType */
+     , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
+     , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */;
 

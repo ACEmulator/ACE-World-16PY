@@ -98,35 +98,35 @@ VALUES (867, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (867, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (867, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (867, 2, 124, 0, 17) /* Create Jerkin for Wield_DestinationType */
-     , (867, 2, 127, 0, 17) /* Create Pants for Wield_DestinationType */
-     , (867, 2, 132, 0, 18) /* Create Shoes for Wield_DestinationType */
-     , (867, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (867, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (867, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (867, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (867, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (867, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (867, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (867, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (867, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (867, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (867, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (867, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (867, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (867, 4, 4611, -1, 0) /* Create Willpower Other II for Shop_DestinationType */
-     , (867, 4, 4609, -1, 0) /* Create Focus Other II for Shop_DestinationType */
-     , (867, 4, 4607, -1, 0) /* Create Quickness Other II for Shop_DestinationType */
-     , (867, 4, 4605, -1, 0) /* Create Coordination Other II for Shop_DestinationType */
-     , (867, 4, 4603, -1, 0) /* Create Endurance Other II for Shop_DestinationType */
-     , (867, 4, 4601, -1, 0) /* Create Strength Other II for Shop_DestinationType */
-     , (867, 4, 4600, -1, 0) /* Create Mana Renewal Other II for Shop_DestinationType */
-     , (867, 4, 4598, -1, 0) /* Create Rejuvenation Other II for Shop_DestinationType */
-     , (867, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (867, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (867, 4, 4590, -1, 0) /* Create Revitalize Other II for Shop_DestinationType */
-     , (867, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (867, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (867, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (867, 2, 124, 0, 17, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (867, 2, 127, 0, 17, 1, False) /* Create Pants for Wield_DestinationType */
+     , (867, 2, 132, 0, 18, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (867, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (867, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (867, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (867, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (867, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (867, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (867, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (867, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (867, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (867, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (867, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (867, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (867, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (867, 4, 4611, -1, 0, 0, False) /* Create Willpower Other II for Shop_DestinationType */
+     , (867, 4, 4609, -1, 0, 0, False) /* Create Focus Other II for Shop_DestinationType */
+     , (867, 4, 4607, -1, 0, 0, False) /* Create Quickness Other II for Shop_DestinationType */
+     , (867, 4, 4605, -1, 0, 0, False) /* Create Coordination Other II for Shop_DestinationType */
+     , (867, 4, 4603, -1, 0, 0, False) /* Create Endurance Other II for Shop_DestinationType */
+     , (867, 4, 4601, -1, 0, 0, False) /* Create Strength Other II for Shop_DestinationType */
+     , (867, 4, 4600, -1, 0, 0, False) /* Create Mana Renewal Other II for Shop_DestinationType */
+     , (867, 4, 4598, -1, 0, 0, False) /* Create Rejuvenation Other II for Shop_DestinationType */
+     , (867, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (867, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (867, 4, 4590, -1, 0, 0, False) /* Create Revitalize Other II for Shop_DestinationType */
+     , (867, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (867, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (867, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

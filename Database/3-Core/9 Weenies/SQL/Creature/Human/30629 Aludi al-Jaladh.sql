@@ -90,10 +90,10 @@ VALUES (30629, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30629, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30629, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30629, 2, 23780, 0, 0) /* Create Hardened Amuli Coat for Wield_DestinationType */
-     , (30629, 2, 23788, 0, 0) /* Create Hardened Amuli Leggings for Wield_DestinationType */
-     , (30629, 2, 8660, 0, 0) /* Create Shreth Hide Shoes for Wield_DestinationType */
-     , (30629, 2, 362, 0, 0) /* Create Yari for Wield_DestinationType */
-     , (30629, 2, 8663, 0, 0) /* Create Ursuin Hide Helmet for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30629, 2, 23780, 0, 0, 0, False) /* Create Hardened Amuli Coat for Wield_DestinationType */
+     , (30629, 2, 23788, 0, 0, 0, False) /* Create Hardened Amuli Leggings for Wield_DestinationType */
+     , (30629, 2, 8660, 0, 0, 0, False) /* Create Shreth Hide Shoes for Wield_DestinationType */
+     , (30629, 2, 362, 0, 0, 0, False) /* Create Yari for Wield_DestinationType */
+     , (30629, 2, 8663, 0, 0, 0, False) /* Create Ursuin Hide Helmet for Wield_DestinationType */;
 

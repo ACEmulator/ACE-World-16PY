@@ -111,6 +111,6 @@ VALUES (2186, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2186, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2186, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2186, 8, 2189, 0, 0) /* Create Skull-shaped key for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2186, 8, 2189, 0, 0, 1, False) /* Create Skull-shaped key for Treasure_DestinationType */;
 

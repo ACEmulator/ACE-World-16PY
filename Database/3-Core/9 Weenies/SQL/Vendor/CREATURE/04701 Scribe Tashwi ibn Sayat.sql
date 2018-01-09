@@ -94,24 +94,24 @@ VALUES (4701, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4701, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4701, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4701, 2, 124, 0, 18) /* Create Jerkin for Wield_DestinationType */
-     , (4701, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (4701, 2, 133, 0, 16) /* Create Slippers for Wield_DestinationType */
-     , (4701, 2, 128, 0, 16) /* Create Qafiya for Wield_DestinationType */
-     , (4701, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4701, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (4701, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (4701, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (4701, 4, 5534, -1, 0) /* Create Enkindled Souls Directions for Shop_DestinationType */
-     , (4701, 4, 5538, -1, 0) /* Create Story of Winthura's Gardens for Shop_DestinationType */
-     , (4701, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (4701, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (4701, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (4701, 4, 5584, -1, 0) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
-     , (4701, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (4701, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (4701, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (4701, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (4701, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4701, 2, 124, 0, 18, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (4701, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4701, 2, 133, 0, 16, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (4701, 2, 128, 0, 16, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (4701, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4701, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (4701, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (4701, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (4701, 4, 5534, -1, 0, 0, False) /* Create Enkindled Souls Directions for Shop_DestinationType */
+     , (4701, 4, 5538, -1, 0, 0, False) /* Create Story of Winthura's Gardens for Shop_DestinationType */
+     , (4701, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (4701, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (4701, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (4701, 4, 5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
+     , (4701, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (4701, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (4701, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (4701, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (4701, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

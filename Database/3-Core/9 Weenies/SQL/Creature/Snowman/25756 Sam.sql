@@ -104,8 +104,8 @@ VALUES (25756, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25756, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25756, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25756, 1, 5768, 24, 0) /* Create Poofy Snowball for Contain_DestinationType */
-     , (25756, 1, 5769, 12, 0) /* Create Iceball for Contain_DestinationType */
-     , (25756, 1, 5758, 1, 0) /* Create Carrot for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25756, 1, 5768, 24, 0, 0, False) /* Create Poofy Snowball for Contain_DestinationType */
+     , (25756, 1, 5769, 12, 0, 0, False) /* Create Iceball for Contain_DestinationType */
+     , (25756, 1, 5758, 1, 0, 0, False) /* Create Carrot for Contain_DestinationType */;
 

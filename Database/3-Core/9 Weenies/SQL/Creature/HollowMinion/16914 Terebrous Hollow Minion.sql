@@ -92,7 +92,7 @@ VALUES (16914, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (16914, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (16914, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (16914, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (16914, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (16914, 9, 9292, 0, 0, 0.06, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (16914, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */;
 

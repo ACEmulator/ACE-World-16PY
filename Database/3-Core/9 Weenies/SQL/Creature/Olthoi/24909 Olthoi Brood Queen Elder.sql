@@ -94,17 +94,17 @@ VALUES (24909, 64, 5782) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24909, 128, 5565) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24909, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24909, 9, 24935, 0, 0) /* Create Brood Queen Elder Metathorax for ContainTreasure_DestinationType */
-     , (24909, 9, 24925, 0, 0) /* Create Brood Queen Elder Carapace for ContainTreasure_DestinationType */
-     , (24909, 9, 24933, 0, 0) /* Create Brood Queen Elder Head for ContainTreasure_DestinationType */
-     , (24909, 9, 24929, 0, 0) /* Create Brood Queen Elder Crest for ContainTreasure_DestinationType */
-     , (24909, 9, 24931, 0, 0) /* Create Brood Queen Elder Femur for ContainTreasure_DestinationType */
-     , (24909, 9, 24927, 0, 0) /* Create Brood Queen Elder Claw for ContainTreasure_DestinationType */
-     , (24909, 9, 24935, 0, 0) /* Create Brood Queen Elder Metathorax for ContainTreasure_DestinationType */
-     , (24909, 9, 24925, 0, 0) /* Create Brood Queen Elder Carapace for ContainTreasure_DestinationType */
-     , (24909, 9, 24933, 0, 0) /* Create Brood Queen Elder Head for ContainTreasure_DestinationType */
-     , (24909, 9, 24929, 0, 0) /* Create Brood Queen Elder Crest for ContainTreasure_DestinationType */
-     , (24909, 9, 24931, 0, 0) /* Create Brood Queen Elder Femur for ContainTreasure_DestinationType */
-     , (24909, 9, 24927, 0, 0) /* Create Brood Queen Elder Claw for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24909, 9, 24935, 0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax for ContainTreasure_DestinationType */
+     , (24909, 9, 24925, 0, 0, 0.166, False) /* Create Brood Queen Elder Carapace for ContainTreasure_DestinationType */
+     , (24909, 9, 24933, 0, 0, 0.166, False) /* Create Brood Queen Elder Head for ContainTreasure_DestinationType */
+     , (24909, 9, 24929, 0, 0, 0.166, False) /* Create Brood Queen Elder Crest for ContainTreasure_DestinationType */
+     , (24909, 9, 24931, 0, 0, 0.166, False) /* Create Brood Queen Elder Femur for ContainTreasure_DestinationType */
+     , (24909, 9, 24927, 0, 0, 0.166, False) /* Create Brood Queen Elder Claw for ContainTreasure_DestinationType */
+     , (24909, 9, 24935, 0, 0, 0.17, False) /* Create Brood Queen Elder Metathorax for ContainTreasure_DestinationType */
+     , (24909, 9, 24925, 0, 0, 0.166, False) /* Create Brood Queen Elder Carapace for ContainTreasure_DestinationType */
+     , (24909, 9, 24933, 0, 0, 0.166, False) /* Create Brood Queen Elder Head for ContainTreasure_DestinationType */
+     , (24909, 9, 24929, 0, 0, 0.166, False) /* Create Brood Queen Elder Crest for ContainTreasure_DestinationType */
+     , (24909, 9, 24931, 0, 0, 0.166, False) /* Create Brood Queen Elder Femur for ContainTreasure_DestinationType */
+     , (24909, 9, 24927, 0, 0, 0.166, False) /* Create Brood Queen Elder Claw for ContainTreasure_DestinationType */;
 

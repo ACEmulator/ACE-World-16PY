@@ -94,27 +94,27 @@ VALUES (2503, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2503, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2503, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2503, 2, 134, 0, 10) /* Create Tunic for Wield_DestinationType */
-     , (2503, 2, 127, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (2503, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2503, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2503, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (2503, 4, 621, -1, 0) /* Create Heavy Bracelet for Shop_DestinationType */
-     , (2503, 4, 2414, -1, 0) /* Create Azurite for Shop_DestinationType */
-     , (2503, 4, 2427, -1, 0) /* Create Bloodstone for Shop_DestinationType */
-     , (2503, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (2503, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (2503, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (2503, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (2503, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (2503, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (2503, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (2503, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (2503, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (2503, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */
-     , (2503, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (2503, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (2503, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (2503, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2503, 2, 134, 0, 10, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (2503, 2, 127, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (2503, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (2503, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2503, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (2503, 4, 621, -1, 0, 0, False) /* Create Heavy Bracelet for Shop_DestinationType */
+     , (2503, 4, 2414, -1, 0, 0, False) /* Create Azurite for Shop_DestinationType */
+     , (2503, 4, 2427, -1, 0, 0, False) /* Create Bloodstone for Shop_DestinationType */
+     , (2503, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (2503, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (2503, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (2503, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (2503, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (2503, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (2503, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (2503, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (2503, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (2503, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */
+     , (2503, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (2503, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (2503, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (2503, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */;
 

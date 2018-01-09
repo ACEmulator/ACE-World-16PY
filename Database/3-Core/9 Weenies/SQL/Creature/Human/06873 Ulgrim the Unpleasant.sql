@@ -98,9 +98,9 @@ VALUES (6873, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (6873, 12, 2060058641, 60.244, 17.602, 210.005, 0.7071068, 0, 0, -0.7071068) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6873, 2, 2588, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (6873, 2, 2597, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (6873, 2, 5850, 0, 4) /* Create Faran Robe for Wield_DestinationType */
-     , (6873, 2, 161, 0, 0) /* Create Mug for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6873, 2, 2588, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (6873, 2, 2597, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (6873, 2, 5850, 0, 4, 0.5, False) /* Create Faran Robe for Wield_DestinationType */
+     , (6873, 2, 161, 0, 0, 0, False) /* Create Mug for Wield_DestinationType */;
 

@@ -94,30 +94,30 @@ VALUES (2261, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2261, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2261, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2261, 2, 314, 0, 0) /* Create Dagger for Wield_DestinationType */
-     , (2261, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (2261, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (2261, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2261, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2261, 4, 4195, -1, 0) /* Create Nekode for Shop_DestinationType */
-     , (2261, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (2261, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (2261, 4, 327, -1, 0) /* Create Ken for Shop_DestinationType */
-     , (2261, 4, 336, -1, 0) /* Create Ono for Shop_DestinationType */
-     , (2261, 4, 353, -1, 0) /* Create Tachi for Shop_DestinationType */
-     , (2261, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (2261, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (2261, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (2261, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (2261, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (2261, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (2261, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (2261, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (2261, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (2261, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (2261, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (2261, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (2261, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (2261, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2261, 2, 314, 0, 0, 0, False) /* Create Dagger for Wield_DestinationType */
+     , (2261, 2, 124, 0, 9, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (2261, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (2261, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (2261, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2261, 4, 4195, -1, 0, 0, False) /* Create Nekode for Shop_DestinationType */
+     , (2261, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (2261, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (2261, 4, 327, -1, 0, 0, False) /* Create Ken for Shop_DestinationType */
+     , (2261, 4, 336, -1, 0, 0, False) /* Create Ono for Shop_DestinationType */
+     , (2261, 4, 353, -1, 0, 0, False) /* Create Tachi for Shop_DestinationType */
+     , (2261, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (2261, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (2261, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (2261, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (2261, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (2261, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (2261, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (2261, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (2261, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (2261, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (2261, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (2261, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (2261, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (2261, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

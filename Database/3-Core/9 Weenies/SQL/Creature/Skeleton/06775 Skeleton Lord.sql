@@ -97,12 +97,12 @@ VALUES (6775, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6775, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6775, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6775, 8, 6663, 0, 0) /* Create The Ruby Yujazik for Treasure_DestinationType */
-     , (6775, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (6775, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6775, 9, 9312, 0, 0) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
-     , (6775, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6775, 9, 22100, 0, 0) /* Create Skull Stamp for ContainTreasure_DestinationType */
-     , (6775, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6775, 8, 6663, 0, 0, 1, False) /* Create The Ruby Yujazik for Treasure_DestinationType */
+     , (6775, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (6775, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (6775, 9, 9312, 0, 0, 0.05, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
+     , (6775, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (6775, 9, 22100, 0, 0, 0.01, False) /* Create Skull Stamp for ContainTreasure_DestinationType */
+     , (6775, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

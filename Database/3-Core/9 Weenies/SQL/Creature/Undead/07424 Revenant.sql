@@ -120,11 +120,11 @@ VALUES (7424, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7424, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7424, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7424, 9, 7041, 0, 0) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (7424, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7424, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (7424, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7424, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7424, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7424, 9, 7041, 0, 0, 0.03, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
+     , (7424, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7424, 9, 5873, 0, 0, 0.01, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (7424, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (7424, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7424, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

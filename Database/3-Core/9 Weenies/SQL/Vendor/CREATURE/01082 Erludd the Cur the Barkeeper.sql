@@ -94,24 +94,24 @@ VALUES (1082, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1082, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1082, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1082, 2, 134, 0, 8) /* Create Tunic for Wield_DestinationType */
-     , (1082, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (1082, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (1082, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1082, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (1082, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (1082, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (1082, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (1082, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (1082, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (1082, 4, 4709, -1, 0) /* Create Apple Pie for Shop_DestinationType */
-     , (1082, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1082, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (1082, 4, 4719, -1, 0) /* Create Chicken Stew for Shop_DestinationType */
-     , (1082, 4, 1223, -1, 0) /* Create Rithwic Portal Directions for Shop_DestinationType */
-     , (1082, 4, 1511, -1, 0) /* Create Drudge Camp Rumor for Shop_DestinationType */
-     , (1082, 4, 1402, -1, 0) /* Create Rithwic Crypt Directions for Shop_DestinationType */
-     , (1082, 4, 2053, -1, 0) /* Create Directions to Fort Witshire for Shop_DestinationType */
-     , (1082, 4, 5004, -1, 0) /* Create Warehouse Directions for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1082, 2, 134, 0, 8, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (1082, 2, 117, 0, 8, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (1082, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (1082, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1082, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (1082, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (1082, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (1082, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (1082, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (1082, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (1082, 4, 4709, -1, 0, 0, False) /* Create Apple Pie for Shop_DestinationType */
+     , (1082, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1082, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (1082, 4, 4719, -1, 0, 0, False) /* Create Chicken Stew for Shop_DestinationType */
+     , (1082, 4, 1223, -1, 0, 0, False) /* Create Rithwic Portal Directions for Shop_DestinationType */
+     , (1082, 4, 1511, -1, 0, 0, False) /* Create Drudge Camp Rumor for Shop_DestinationType */
+     , (1082, 4, 1402, -1, 0, 0, False) /* Create Rithwic Crypt Directions for Shop_DestinationType */
+     , (1082, 4, 2053, -1, 0, 0, False) /* Create Directions to Fort Witshire for Shop_DestinationType */
+     , (1082, 4, 5004, -1, 0, 0, False) /* Create Warehouse Directions for Shop_DestinationType */;
 

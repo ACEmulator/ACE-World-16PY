@@ -94,29 +94,29 @@ VALUES (973, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (973, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (973, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (973, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (973, 2, 127, 0, 1) /* Create Pants for Wield_DestinationType */
-     , (973, 2, 133, 0, 1) /* Create Slippers for Wield_DestinationType */
-     , (973, 2, 135, 0, 10) /* Create Turban for Wield_DestinationType */
-     , (973, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (973, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (973, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (973, 4, 5136, -1, 0) /* Create Cove Apple Cider for Shop_DestinationType */
-     , (973, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (973, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (973, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (973, 4, 4743, -1, 0) /* Create Stuffed Grape Leaf for Shop_DestinationType */
-     , (973, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (973, 4, 4735, -1, 0) /* Create Mushroom Kebab for Shop_DestinationType */
-     , (973, 4, 4727, -1, 0) /* Create Flat Bread for Shop_DestinationType */
-     , (973, 4, 1224, -1, 0) /* Create Samsur Portal Directions for Shop_DestinationType */
-     , (973, 4, 1220, -1, 0) /* Create Dungeon Manor Directions for Shop_DestinationType */
-     , (973, 4, 5130, -1, 0) /* Create Dry Well Directions for Shop_DestinationType */
-     , (973, 4, 5131, -1, 0) /* Create Musansayn's House Directions for Shop_DestinationType */
-     , (973, 4, 1508, -1, 0) /* Create Alphus Range Directions for Shop_DestinationType */
-     , (973, 4, 8209, -1, 0) /* Create Call for Adventurers! for Shop_DestinationType */
-     , (973, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (973, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (973, 4, 6418, -1, 0) /* Create A Fiery Stone for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (973, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (973, 2, 127, 0, 1, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (973, 2, 133, 0, 1, 0.67, False) /* Create Slippers for Wield_DestinationType */
+     , (973, 2, 135, 0, 10, 0.67, False) /* Create Turban for Wield_DestinationType */
+     , (973, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (973, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (973, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (973, 4, 5136, -1, 0, 0, False) /* Create Cove Apple Cider for Shop_DestinationType */
+     , (973, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (973, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (973, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (973, 4, 4743, -1, 0, 0, False) /* Create Stuffed Grape Leaf for Shop_DestinationType */
+     , (973, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (973, 4, 4735, -1, 0, 0, False) /* Create Mushroom Kebab for Shop_DestinationType */
+     , (973, 4, 4727, -1, 0, 0, False) /* Create Flat Bread for Shop_DestinationType */
+     , (973, 4, 1224, -1, 0, 0, False) /* Create Samsur Portal Directions for Shop_DestinationType */
+     , (973, 4, 1220, -1, 0, 0, False) /* Create Dungeon Manor Directions for Shop_DestinationType */
+     , (973, 4, 5130, -1, 0, 0, False) /* Create Dry Well Directions for Shop_DestinationType */
+     , (973, 4, 5131, -1, 0, 0, False) /* Create Musansayn's House Directions for Shop_DestinationType */
+     , (973, 4, 1508, -1, 0, 0, False) /* Create Alphus Range Directions for Shop_DestinationType */
+     , (973, 4, 8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop_DestinationType */
+     , (973, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (973, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (973, 4, 6418, -1, 0, 0, False) /* Create A Fiery Stone for Shop_DestinationType */;
 

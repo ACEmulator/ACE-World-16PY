@@ -94,21 +94,21 @@ VALUES (2258, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2258, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2258, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2258, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (2258, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (2258, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (2258, 2, 118, 0, 9) /* Create Cap for Wield_DestinationType */
-     , (2258, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2258, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (2258, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2258, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (2258, 4, 5585, -1, 0) /* Create Sho Cookbook for Shop_DestinationType */
-     , (2258, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (2258, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (2258, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (2258, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (2258, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (2258, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (2258, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2258, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (2258, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (2258, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2258, 2, 118, 0, 9, 1, False) /* Create Cap for Wield_DestinationType */
+     , (2258, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2258, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (2258, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2258, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (2258, 4, 5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop_DestinationType */
+     , (2258, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (2258, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (2258, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (2258, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (2258, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (2258, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (2258, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */;
 

@@ -88,12 +88,12 @@ VALUES (11809, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11809, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11809, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11809, 2, 2591, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (11809, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (11809, 2, 72, 0, 20) /* Create Platemail Hauberk for Wield_DestinationType */
-     , (11809, 2, 85, 0, 20) /* Create Chainmail Coif for Wield_DestinationType */
-     , (11809, 2, 57, 0, 20) /* Create Platemail Gauntlets for Wield_DestinationType */
-     , (11809, 2, 82, 0, 20) /* Create Platemail Leggings for Wield_DestinationType */
-     , (11809, 2, 107, 0, 20) /* Create Sollerets for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11809, 2, 2591, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (11809, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (11809, 2, 72, 0, 20, 1, False) /* Create Platemail Hauberk for Wield_DestinationType */
+     , (11809, 2, 85, 0, 20, 1, False) /* Create Chainmail Coif for Wield_DestinationType */
+     , (11809, 2, 57, 0, 20, 1, False) /* Create Platemail Gauntlets for Wield_DestinationType */
+     , (11809, 2, 82, 0, 20, 1, False) /* Create Platemail Leggings for Wield_DestinationType */
+     , (11809, 2, 107, 0, 20, 1, False) /* Create Sollerets for Wield_DestinationType */;
 

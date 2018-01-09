@@ -94,26 +94,26 @@ VALUES (666, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (666, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (666, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (666, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (666, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (666, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (666, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (666, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (666, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (666, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (666, 4, 9118, -1, 0) /* Create Puppet Show for Shop_DestinationType */
-     , (666, 4, 9124, -1, 0) /* Create The Beginning for Shop_DestinationType */
-     , (666, 4, 9319, -1, 0) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
-     , (666, 4, 27851, -1, 0) /* Create The Weapons of the Singularity for Shop_DestinationType */
-     , (666, 4, 1491, -1, 0) /* Create Arwic Mines Rumor for Shop_DestinationType */
-     , (666, 4, 5676, -1, 0) /* Create Of Celcynd the Dour for Shop_DestinationType */
-     , (666, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (666, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (666, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (666, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (666, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (666, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (666, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (666, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (666, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (666, 2, 117, 0, 8, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (666, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (666, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (666, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (666, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (666, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (666, 4, 9118, -1, 0, 0, False) /* Create Puppet Show for Shop_DestinationType */
+     , (666, 4, 9124, -1, 0, 0, False) /* Create The Beginning for Shop_DestinationType */
+     , (666, 4, 9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
+     , (666, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity for Shop_DestinationType */
+     , (666, 4, 1491, -1, 0, 0, False) /* Create Arwic Mines Rumor for Shop_DestinationType */
+     , (666, 4, 5676, -1, 0, 0, False) /* Create Of Celcynd the Dour for Shop_DestinationType */
+     , (666, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (666, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (666, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (666, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (666, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (666, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (666, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (666, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

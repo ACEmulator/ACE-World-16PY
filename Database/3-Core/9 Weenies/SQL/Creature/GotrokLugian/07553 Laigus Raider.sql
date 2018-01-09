@@ -93,7 +93,7 @@ VALUES (7553, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7553, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7553, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7553, 9, 7549, 0, 0) /* Create Lugian Pick Axe for ContainTreasure_DestinationType */
-     , (7553, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7553, 9, 7549, 0, 0, 0.2, False) /* Create Lugian Pick Axe for ContainTreasure_DestinationType */
+     , (7553, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

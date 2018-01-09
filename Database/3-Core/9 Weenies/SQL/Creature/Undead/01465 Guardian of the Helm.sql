@@ -128,7 +128,7 @@ VALUES (1465, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1465, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1465, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1465, 9, 1517, 0, 0) /* Create Fiery Shield for ContainTreasure_DestinationType */
-     , (1465, 9, 1518, 0, 0) /* Create Superior Helmet for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1465, 9, 1517, 0, 0, 1, False) /* Create Fiery Shield for ContainTreasure_DestinationType */
+     , (1465, 9, 1518, 0, 0, 1, False) /* Create Superior Helmet for ContainTreasure_DestinationType */;
 

@@ -104,9 +104,9 @@ VALUES (7127, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7127, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7127, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7127, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7127, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7127, 9, 8667, 0, 0) /* Create Glowing Wisp Heart for ContainTreasure_DestinationType */
-     , (7127, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7127, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7127, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (7127, 9, 8667, 0, 0, 0.03, False) /* Create Glowing Wisp Heart for ContainTreasure_DestinationType */
+     , (7127, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

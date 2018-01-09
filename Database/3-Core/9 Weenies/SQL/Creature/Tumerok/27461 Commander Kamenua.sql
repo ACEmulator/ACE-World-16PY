@@ -127,19 +127,19 @@ VALUES (27461, 64, 1835) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27461, 128, 1670) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27461, 256, 1750) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27461, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27461, 9, 27456, 1, 0) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
-     , (27461, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27461, 9, 6876, 0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (27461, 9, 27456, 1, 0, 1, False) /* Create A Broken Insignia Ring for ContainTreasure_DestinationType */
+     , (27461, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

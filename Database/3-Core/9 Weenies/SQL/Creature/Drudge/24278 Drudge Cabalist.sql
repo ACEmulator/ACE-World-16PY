@@ -112,11 +112,11 @@ VALUES (24278, 64, 330) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24278, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24278, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24278, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24278, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24278, 9, 24836, 0, 0) /* Create Cabalist Drudge Charm for ContainTreasure_DestinationType */
-     , (24278, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24278, 9, 8145, 0, 0) /* Create Drudge Head for ContainTreasure_DestinationType */
-     , (24278, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24278, 9, 24477, 0, 0, 0.04, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24278, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (24278, 9, 24836, 0, 0, 0.03, False) /* Create Cabalist Drudge Charm for ContainTreasure_DestinationType */
+     , (24278, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24278, 9, 8145, 0, 0, 0.05, False) /* Create Drudge Head for ContainTreasure_DestinationType */
+     , (24278, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

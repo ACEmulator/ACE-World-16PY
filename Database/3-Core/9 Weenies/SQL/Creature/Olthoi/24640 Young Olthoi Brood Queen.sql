@@ -94,11 +94,11 @@ VALUES (24640, 64, 3787) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24640, 128, 1575) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24640, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24640, 9, 24659, 0, 0) /* Create Young Brood Queen Metathorax for ContainTreasure_DestinationType */
-     , (24640, 9, 24649, 0, 0) /* Create Young Brood Queen Carapace for ContainTreasure_DestinationType */
-     , (24640, 9, 24657, 0, 0) /* Create Young Brood Queen Head for ContainTreasure_DestinationType */
-     , (24640, 9, 24653, 0, 0) /* Create Young Brood Queen Crest for ContainTreasure_DestinationType */
-     , (24640, 9, 24655, 0, 0) /* Create Young Brood Queen Femur for ContainTreasure_DestinationType */
-     , (24640, 9, 24651, 0, 0) /* Create Young Brood Queen Claw for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24640, 9, 24659, 0, 0, 0.33, False) /* Create Young Brood Queen Metathorax for ContainTreasure_DestinationType */
+     , (24640, 9, 24649, 0, 0, 0.33, False) /* Create Young Brood Queen Carapace for ContainTreasure_DestinationType */
+     , (24640, 9, 24657, 0, 0, 0.34, False) /* Create Young Brood Queen Head for ContainTreasure_DestinationType */
+     , (24640, 9, 24653, 0, 0, 0.33, False) /* Create Young Brood Queen Crest for ContainTreasure_DestinationType */
+     , (24640, 9, 24655, 0, 0, 0.33, False) /* Create Young Brood Queen Femur for ContainTreasure_DestinationType */
+     , (24640, 9, 24651, 0, 0, 0.34, False) /* Create Young Brood Queen Claw for ContainTreasure_DestinationType */;
 

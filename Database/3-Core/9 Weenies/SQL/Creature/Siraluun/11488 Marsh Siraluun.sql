@@ -90,9 +90,9 @@ VALUES (11488, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11488, 128, 30) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11488, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11488, 9, 11367, 0, 0) /* Create Marsh Siraluun Claw for ContainTreasure_DestinationType */
-     , (11488, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11488, 9, 29900, 0, 0) /* Create Small Bundle of Marsh Siraluun Feathers for ContainTreasure_DestinationType */
-     , (11488, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11488, 9, 11367, 0, 0, 0.05, False) /* Create Marsh Siraluun Claw for ContainTreasure_DestinationType */
+     , (11488, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11488, 9, 29900, 0, 0, 0.05, False) /* Create Small Bundle of Marsh Siraluun Feathers for ContainTreasure_DestinationType */
+     , (11488, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

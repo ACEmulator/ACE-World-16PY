@@ -96,11 +96,11 @@ VALUES (24279, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24279, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24279, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24279, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24279, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24279, 9, 24837, 0, 0) /* Create Gloom Drudge Charm for ContainTreasure_DestinationType */
-     , (24279, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24279, 9, 30915, 0, 0) /* Create Halaetan Magic Page 10 for ContainTreasure_DestinationType */
-     , (24279, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24279, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24279, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (24279, 9, 24837, 0, 0, 0.03, False) /* Create Gloom Drudge Charm for ContainTreasure_DestinationType */
+     , (24279, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24279, 9, 30915, 0, 0, 0.05, False) /* Create Halaetan Magic Page 10 for ContainTreasure_DestinationType */
+     , (24279, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

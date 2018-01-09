@@ -94,30 +94,30 @@ VALUES (732, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (732, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (732, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (732, 2, 124, 0, 18) /* Create Jerkin for Wield_DestinationType */
-     , (732, 2, 117, 0, 6) /* Create Breeches for Wield_DestinationType */
-     , (732, 2, 132, 0, 6) /* Create Shoes for Wield_DestinationType */
-     , (732, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (732, 4, 548, -1, 0) /* Create Bowl of Rice for Shop_DestinationType */
-     , (732, 4, 549, -1, 0) /* Create Bowl of Stew for Shop_DestinationType */
-     , (732, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (732, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (732, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (732, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (732, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (732, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (732, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (732, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (732, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (732, 4, 265, -1, 0) /* Create Meat for Shop_DestinationType */
-     , (732, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (732, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (732, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (732, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (732, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (732, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (732, 4, 2459, -1, 0) /* Create Kumiss for Shop_DestinationType */
-     , (732, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (732, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (732, 2, 124, 0, 18, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (732, 2, 117, 0, 6, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (732, 2, 132, 0, 6, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (732, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (732, 4, 548, -1, 0, 0, False) /* Create Bowl of Rice for Shop_DestinationType */
+     , (732, 4, 549, -1, 0, 0, False) /* Create Bowl of Stew for Shop_DestinationType */
+     , (732, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (732, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (732, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (732, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (732, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (732, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (732, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (732, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (732, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (732, 4, 265, -1, 0, 0, False) /* Create Meat for Shop_DestinationType */
+     , (732, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (732, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (732, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (732, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (732, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (732, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (732, 4, 2459, -1, 0, 0, False) /* Create Kumiss for Shop_DestinationType */
+     , (732, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (732, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */;
 

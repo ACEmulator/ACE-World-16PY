@@ -91,19 +91,19 @@ VALUES (4101, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4101, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4101, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4101, 8, 301, 0, 0) /* Create Battle Axe for Treasure_DestinationType */
-     , (4101, 8, 350, 0, 0) /* Create Broad Sword for Treasure_DestinationType */
-     , (4101, 8, 324, 0, 0) /* Create Kaskara for Treasure_DestinationType */
-     , (4101, 8, 327, 0, 0) /* Create Ken for Treasure_DestinationType */
-     , (4101, 8, 351, 0, 0) /* Create Long Sword for Treasure_DestinationType */
-     , (4101, 8, 332, 0, 0) /* Create Morning Star for Treasure_DestinationType */
-     , (4101, 8, 336, 0, 0) /* Create Ono for Treasure_DestinationType */
-     , (4101, 8, 339, 0, 0) /* Create Scimitar for Treasure_DestinationType */
-     , (4101, 8, 340, 0, 0) /* Create Shamshir for Treasure_DestinationType */
-     , (4101, 8, 344, 0, 0) /* Create Silifi for Treasure_DestinationType */
-     , (4101, 8, 353, 0, 0) /* Create Tachi for Treasure_DestinationType */
-     , (4101, 8, 354, 0, 0) /* Create Takuba for Treasure_DestinationType */
-     , (4101, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (4101, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4101, 8, 301, 0, 0, 0.14, False) /* Create Battle Axe for Treasure_DestinationType */
+     , (4101, 8, 350, 0, 0, 0.07, False) /* Create Broad Sword for Treasure_DestinationType */
+     , (4101, 8, 324, 0, 0, 0.06, False) /* Create Kaskara for Treasure_DestinationType */
+     , (4101, 8, 327, 0, 0, 0.06, False) /* Create Ken for Treasure_DestinationType */
+     , (4101, 8, 351, 0, 0, 0.06, False) /* Create Long Sword for Treasure_DestinationType */
+     , (4101, 8, 332, 0, 0, 0.1, False) /* Create Morning Star for Treasure_DestinationType */
+     , (4101, 8, 336, 0, 0, 0.13, False) /* Create Ono for Treasure_DestinationType */
+     , (4101, 8, 339, 0, 0, 0.06, False) /* Create Scimitar for Treasure_DestinationType */
+     , (4101, 8, 340, 0, 0, 0.06, False) /* Create Shamshir for Treasure_DestinationType */
+     , (4101, 8, 344, 0, 0, 0.13, False) /* Create Silifi for Treasure_DestinationType */
+     , (4101, 8, 353, 0, 0, 0.06, False) /* Create Tachi for Treasure_DestinationType */
+     , (4101, 8, 354, 0, 0, 0.06, False) /* Create Takuba for Treasure_DestinationType */
+     , (4101, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (4101, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

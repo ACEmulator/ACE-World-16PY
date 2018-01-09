@@ -94,33 +94,33 @@ VALUES (731, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (731, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (731, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (731, 2, 134, 0, 6) /* Create Tunic for Wield_DestinationType */
-     , (731, 2, 127, 0, 18) /* Create Pants for Wield_DestinationType */
-     , (731, 2, 132, 0, 7) /* Create Shoes for Wield_DestinationType */
-     , (731, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (731, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (731, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (731, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (731, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (731, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (731, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (731, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (731, 4, 4737, -1, 0) /* Create Mushroom Pie for Shop_DestinationType */
-     , (731, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (731, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (731, 4, 1490, -1, 0) /* Create Glenden Dungeon Directions for Shop_DestinationType */
-     , (731, 4, 1508, -1, 0) /* Create Alphus Range Directions for Shop_DestinationType */
-     , (731, 4, 2053, -1, 0) /* Create Directions to Fort Witshire for Shop_DestinationType */
-     , (731, 4, 4211, -1, 0) /* Create Daiklos Legend for Shop_DestinationType */
-     , (731, 4, 2059, -1, 0) /* Create History of Fort Witshire for Shop_DestinationType */
-     , (731, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (731, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (731, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */
-     , (731, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (731, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (731, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (731, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (731, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (731, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (731, 2, 134, 0, 6, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (731, 2, 127, 0, 18, 1, False) /* Create Pants for Wield_DestinationType */
+     , (731, 2, 132, 0, 7, 0.33, False) /* Create Shoes for Wield_DestinationType */
+     , (731, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (731, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (731, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (731, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (731, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (731, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (731, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (731, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (731, 4, 4737, -1, 0, 0, False) /* Create Mushroom Pie for Shop_DestinationType */
+     , (731, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (731, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (731, 4, 1490, -1, 0, 0, False) /* Create Glenden Dungeon Directions for Shop_DestinationType */
+     , (731, 4, 1508, -1, 0, 0, False) /* Create Alphus Range Directions for Shop_DestinationType */
+     , (731, 4, 2053, -1, 0, 0, False) /* Create Directions to Fort Witshire for Shop_DestinationType */
+     , (731, 4, 4211, -1, 0, 0, False) /* Create Daiklos Legend for Shop_DestinationType */
+     , (731, 4, 2059, -1, 0, 0, False) /* Create History of Fort Witshire for Shop_DestinationType */
+     , (731, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (731, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (731, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */
+     , (731, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (731, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (731, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (731, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (731, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (731, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

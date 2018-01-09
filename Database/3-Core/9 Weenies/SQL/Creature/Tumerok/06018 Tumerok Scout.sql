@@ -92,27 +92,27 @@ VALUES (6018, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6018, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6018, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6018, 8, 308, 0, 0) /* Create Budiaq for Treasure_DestinationType */
-     , (6018, 8, 309, 0, 0) /* Create Club for Treasure_DestinationType */
-     , (6018, 8, 313, 0, 0) /* Create Dabus for Treasure_DestinationType */
-     , (6018, 8, 314, 0, 0) /* Create Dagger for Treasure_DestinationType */
-     , (6018, 8, 303, 0, 0) /* Create Hand Axe for Treasure_DestinationType */
-     , (6018, 8, 319, 0, 0) /* Create Jambiya for Treasure_DestinationType */
-     , (6018, 8, 321, 0, 0) /* Create Jitte for Treasure_DestinationType */
-     , (6018, 8, 325, 0, 0) /* Create Kasrullah for Treasure_DestinationType */
-     , (6018, 8, 326, 0, 0) /* Create Katar for Treasure_DestinationType */
-     , (6018, 8, 328, 0, 0) /* Create Khanjar for Treasure_DestinationType */
-     , (6018, 8, 329, 0, 0) /* Create Knife for Treasure_DestinationType */
-     , (6018, 8, 331, 0, 0) /* Create Mace for Treasure_DestinationType */
-     , (6018, 8, 352, 0, 0) /* Create Short Sword for Treasure_DestinationType */
-     , (6018, 8, 342, 0, 0) /* Create Shou-ono for Treasure_DestinationType */
-     , (6018, 8, 345, 0, 0) /* Create Simi for Treasure_DestinationType */
-     , (6018, 8, 348, 0, 0) /* Create Spear for Treasure_DestinationType */
-     , (6018, 8, 356, 0, 0) /* Create Tofun for Treasure_DestinationType */
-     , (6018, 8, 357, 0, 0) /* Create Tungi for Treasure_DestinationType */
-     , (6018, 8, 361, 0, 0) /* Create Yaoji for Treasure_DestinationType */
-     , (6018, 8, 362, 0, 0) /* Create Yari for Treasure_DestinationType */
-     , (6018, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (6018, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6018, 8, 308, 0, 0, 0.05, False) /* Create Budiaq for Treasure_DestinationType */
+     , (6018, 8, 309, 0, 0, 0.05, False) /* Create Club for Treasure_DestinationType */
+     , (6018, 8, 313, 0, 0, 0.05, False) /* Create Dabus for Treasure_DestinationType */
+     , (6018, 8, 314, 0, 0, 0.05, False) /* Create Dagger for Treasure_DestinationType */
+     , (6018, 8, 303, 0, 0, 0.05, False) /* Create Hand Axe for Treasure_DestinationType */
+     , (6018, 8, 319, 0, 0, 0.02, False) /* Create Jambiya for Treasure_DestinationType */
+     , (6018, 8, 321, 0, 0, 0.05, False) /* Create Jitte for Treasure_DestinationType */
+     , (6018, 8, 325, 0, 0, 0.05, False) /* Create Kasrullah for Treasure_DestinationType */
+     , (6018, 8, 326, 0, 0, 0.05, False) /* Create Katar for Treasure_DestinationType */
+     , (6018, 8, 328, 0, 0, 0.05, False) /* Create Khanjar for Treasure_DestinationType */
+     , (6018, 8, 329, 0, 0, 0.03, False) /* Create Knife for Treasure_DestinationType */
+     , (6018, 8, 331, 0, 0, 0.05, False) /* Create Mace for Treasure_DestinationType */
+     , (6018, 8, 352, 0, 0, 0.05, False) /* Create Short Sword for Treasure_DestinationType */
+     , (6018, 8, 342, 0, 0, 0.05, False) /* Create Shou-ono for Treasure_DestinationType */
+     , (6018, 8, 345, 0, 0, 0.05, False) /* Create Simi for Treasure_DestinationType */
+     , (6018, 8, 348, 0, 0, 0.05, False) /* Create Spear for Treasure_DestinationType */
+     , (6018, 8, 356, 0, 0, 0.05, False) /* Create Tofun for Treasure_DestinationType */
+     , (6018, 8, 357, 0, 0, 0.05, False) /* Create Tungi for Treasure_DestinationType */
+     , (6018, 8, 361, 0, 0, 0.05, False) /* Create Yaoji for Treasure_DestinationType */
+     , (6018, 8, 362, 0, 0, 0.05, False) /* Create Yari for Treasure_DestinationType */
+     , (6018, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (6018, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

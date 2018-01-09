@@ -109,23 +109,23 @@ VALUES (7111, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7111, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7111, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7111, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 7046, 0, 0) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 9259, 0, 0) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 20861, 0, 0) /* Create Moons Stamp for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 27386, 0, 0) /* Create Gold Hill Ruins for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 12216, 0, 0) /* Create Sclavus Head for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 22026, 0, 0) /* Create Sclavus Arm for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 22030, 0, 0) /* Create Sclavus Leg for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7111, 9, 22046, 0, 0) /* Create Sclavus Torso for ContainTreasure_DestinationType */
-     , (7111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7111, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 7046, 0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 9259, 0, 0, 0.03, False) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 20861, 0, 0, 0.04, False) /* Create Moons Stamp for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 27386, 0, 0, 0.005, False) /* Create Gold Hill Ruins for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 12216, 0, 0, 0.05, False) /* Create Sclavus Head for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.05, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 22026, 0, 0, 0.05, False) /* Create Sclavus Arm for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 22030, 0, 0, 0.05, False) /* Create Sclavus Leg for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7111, 9, 22046, 0, 0, 0.05, False) /* Create Sclavus Torso for ContainTreasure_DestinationType */
+     , (7111, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -90,9 +90,9 @@ VALUES (25869, 64, 2800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25869, 128, 2600) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25869, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25869, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25869, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25869, 9, 28889, 0, 0) /* Create Mite Head for ContainTreasure_DestinationType */
-     , (25869, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25869, 9, 30823, 0, 0, 0.01, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25869, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (25869, 9, 28889, 0, 0, 0.05, False) /* Create Mite Head for ContainTreasure_DestinationType */
+     , (25869, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

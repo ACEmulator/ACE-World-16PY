@@ -95,7 +95,7 @@ VALUES (27665, 64, 8835) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27665, 128, 5670) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27665, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27665, 9, 27652, 0, 0) /* Create Horned Lugian Helm for ContainTreasure_DestinationType */
-     , (27665, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27665, 9, 27652, 0, 0, 1, False) /* Create Horned Lugian Helm for ContainTreasure_DestinationType */
+     , (27665, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

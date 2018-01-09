@@ -108,8 +108,8 @@ VALUES (30899, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30899, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30899, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30899, 9, 8145, 0, 0) /* Create Drudge Head for ContainTreasure_DestinationType */
-     , (30899, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30899, 9, 30880, 0, 0) /* Create Banished Staff for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30899, 9, 8145, 0, 0, 0.05, False) /* Create Drudge Head for ContainTreasure_DestinationType */
+     , (30899, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (30899, 9, 30880, 0, 0, 1, False) /* Create Banished Staff for ContainTreasure_DestinationType */;
 

@@ -98,13 +98,13 @@ VALUES (11996, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11996, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11996, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11996, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11996, 9, 7043, 0, 0) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11996, 9, 23540, 0, 0) /* Create Soul Staff for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11996, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11996, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (11996, 9, 7043, 0, 0, 0.33, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
+     , (11996, 9, 0, 0, 0, 0.67, False) /* Create  for ContainTreasure_DestinationType */
+     , (11996, 9, 23540, 0, 0, 0.3, False) /* Create Soul Staff for ContainTreasure_DestinationType */
+     , (11996, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11996, 0.25, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Gotrok Gigas (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

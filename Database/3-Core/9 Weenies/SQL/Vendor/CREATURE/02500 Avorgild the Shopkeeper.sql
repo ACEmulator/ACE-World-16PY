@@ -94,56 +94,56 @@ VALUES (2500, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2500, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2500, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2500, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (2500, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (2500, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (2500, 2, 118, 0, 2) /* Create Cap for Wield_DestinationType */
-     , (2500, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2500, 4, 301, -1, 0) /* Create Battle Axe for Shop_DestinationType */
-     , (2500, 4, 350, -1, 0) /* Create Broad Sword for Shop_DestinationType */
-     , (2500, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (2500, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (2500, 4, 351, -1, 0) /* Create Long Sword for Shop_DestinationType */
-     , (2500, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (2500, 4, 332, -1, 0) /* Create Morning Star for Shop_DestinationType */
-     , (2500, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (2500, 4, 339, -1, 0) /* Create Scimitar for Shop_DestinationType */
-     , (2500, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (2500, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (2500, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (2500, 4, 3599, -1, 0) /* Create Blunt Arrow for Shop_DestinationType */
-     , (2500, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (2500, 4, 3603, -1, 0) /* Create Blunt Quarrel for Shop_DestinationType */
-     , (2500, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (2500, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */
-     , (2500, 4, 306, -1, 0) /* Create Longbow for Shop_DestinationType */
-     , (2500, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2500, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (2500, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (2500, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (2500, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (2500, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (2500, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (2500, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (2500, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (2500, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (2500, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (2500, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (2500, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (2500, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (2500, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (2500, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (2500, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (2500, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (2500, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (2500, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (2500, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (2500, 4, 138, -1, 86) /* Create Belt Pouch for Shop_DestinationType */
-     , (2500, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (2500, 4, 136, -1, 17) /* Create Pack for Shop_DestinationType */
-     , (2500, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (2500, 4, 5884, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */
-     , (2500, 4, 5885, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */
-     , (2500, 4, 5886, -1, 0) /* Create The Tremblant Party for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2500, 2, 124, 0, 9, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (2500, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (2500, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2500, 2, 118, 0, 2, 0.9, False) /* Create Cap for Wield_DestinationType */
+     , (2500, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2500, 4, 301, -1, 0, 0, False) /* Create Battle Axe for Shop_DestinationType */
+     , (2500, 4, 350, -1, 0, 0, False) /* Create Broad Sword for Shop_DestinationType */
+     , (2500, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (2500, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (2500, 4, 351, -1, 0, 0, False) /* Create Long Sword for Shop_DestinationType */
+     , (2500, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (2500, 4, 332, -1, 0, 0, False) /* Create Morning Star for Shop_DestinationType */
+     , (2500, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (2500, 4, 339, -1, 0, 0, False) /* Create Scimitar for Shop_DestinationType */
+     , (2500, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (2500, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (2500, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (2500, 4, 3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop_DestinationType */
+     , (2500, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (2500, 4, 3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop_DestinationType */
+     , (2500, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (2500, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */
+     , (2500, 4, 306, -1, 0, 0, False) /* Create Longbow for Shop_DestinationType */
+     , (2500, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2500, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (2500, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (2500, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (2500, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (2500, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (2500, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (2500, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (2500, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (2500, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (2500, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (2500, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (2500, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (2500, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (2500, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (2500, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (2500, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (2500, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (2500, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (2500, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (2500, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (2500, 4, 138, -1, 86, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (2500, 4, 139, -1, 86, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (2500, 4, 136, -1, 17, 1, False) /* Create Pack for Shop_DestinationType */
+     , (2500, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (2500, 4, 5884, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */
+     , (2500, 4, 5885, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */
+     , (2500, 4, 5886, -1, 0, 0, False) /* Create The Tremblant Party for Shop_DestinationType */;
 

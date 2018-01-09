@@ -94,22 +94,22 @@ VALUES (672, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (672, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (672, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (672, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (672, 2, 127, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (672, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (672, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (672, 4, 136, -1, 2) /* Create Pack for Shop_DestinationType */
-     , (672, 4, 136, -1, 13) /* Create Pack for Shop_DestinationType */
-     , (672, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (672, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (672, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (672, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (672, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (672, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (672, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (672, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (672, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (672, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (672, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (672, 2, 134, 0, 5, 0.67, False) /* Create Tunic for Wield_DestinationType */
+     , (672, 2, 127, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (672, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (672, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (672, 4, 136, -1, 2, 1, False) /* Create Pack for Shop_DestinationType */
+     , (672, 4, 136, -1, 13, 1, False) /* Create Pack for Shop_DestinationType */
+     , (672, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (672, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (672, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (672, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (672, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (672, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (672, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (672, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (672, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (672, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (672, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */;
 

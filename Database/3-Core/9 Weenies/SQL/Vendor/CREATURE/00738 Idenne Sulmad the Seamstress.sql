@@ -94,21 +94,21 @@ VALUES (738, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (738, 128, 45) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (738, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (738, 2, 130, 0, 7) /* Create Shirt for Wield_DestinationType */
-     , (738, 2, 127, 0, 10) /* Create Pants for Wield_DestinationType */
-     , (738, 2, 115, 0, 6) /* Create Leather Boots for Wield_DestinationType */
-     , (738, 2, 118, 0, 18) /* Create Cap for Wield_DestinationType */
-     , (738, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (738, 4, 130, -1, 6) /* Create Shirt for Shop_DestinationType */
-     , (738, 4, 130, -1, 7) /* Create Shirt for Shop_DestinationType */
-     , (738, 4, 127, -1, 6) /* Create Pants for Shop_DestinationType */
-     , (738, 4, 127, -1, 7) /* Create Pants for Shop_DestinationType */
-     , (738, 4, 119, -1, 6) /* Create Cowl for Shop_DestinationType */
-     , (738, 4, 119, -1, 7) /* Create Cowl for Shop_DestinationType */
-     , (738, 4, 2606, -1, 6) /* Create Boots for Shop_DestinationType */
-     , (738, 4, 2606, -1, 7) /* Create Boots for Shop_DestinationType */
-     , (738, 4, 5851, -1, 4) /* Create Faran Robe with Hood for Shop_DestinationType */
-     , (738, 4, 5850, -1, 4) /* Create Faran Robe for Shop_DestinationType */
-     , (738, 4, 8371, -1, 61) /* Create Kireth Gown with Band for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (738, 2, 130, 0, 7, 0.33, False) /* Create Shirt for Wield_DestinationType */
+     , (738, 2, 127, 0, 10, 1, False) /* Create Pants for Wield_DestinationType */
+     , (738, 2, 115, 0, 6, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (738, 2, 118, 0, 18, 1, False) /* Create Cap for Wield_DestinationType */
+     , (738, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (738, 4, 130, -1, 6, 0.1, False) /* Create Shirt for Shop_DestinationType */
+     , (738, 4, 130, -1, 7, 0.2, False) /* Create Shirt for Shop_DestinationType */
+     , (738, 4, 127, -1, 6, 0.1, False) /* Create Pants for Shop_DestinationType */
+     , (738, 4, 127, -1, 7, 0.2, False) /* Create Pants for Shop_DestinationType */
+     , (738, 4, 119, -1, 6, 0.1, False) /* Create Cowl for Shop_DestinationType */
+     , (738, 4, 119, -1, 7, 0.2, False) /* Create Cowl for Shop_DestinationType */
+     , (738, 4, 2606, -1, 6, 0.1, False) /* Create Boots for Shop_DestinationType */
+     , (738, 4, 2606, -1, 7, 0.2, False) /* Create Boots for Shop_DestinationType */
+     , (738, 4, 5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood for Shop_DestinationType */
+     , (738, 4, 5850, -1, 4, 0.5, False) /* Create Faran Robe for Shop_DestinationType */
+     , (738, 4, 8371, -1, 61, 0.9, False) /* Create Kireth Gown with Band for Shop_DestinationType */;
 

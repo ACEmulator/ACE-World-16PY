@@ -101,7 +101,7 @@ VALUES (202, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (202, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (202, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (202, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (202, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (202, 9, 6353, 0, 0, 0.02, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (202, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

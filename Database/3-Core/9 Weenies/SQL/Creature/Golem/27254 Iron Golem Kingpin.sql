@@ -104,13 +104,13 @@ VALUES (27254, 64, 1400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27254, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27254, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27254, 9, 3672, 0, 0) /* Create Iron Heart for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27254, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27254, 9, 10759, 0, 0) /* Create Muddy Towel for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27254, 9, 3672, 0, 0, 0.05, False) /* Create Iron Heart for ContainTreasure_DestinationType */
+     , (27254, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27254, 9, 6353, 0, 0, 0.005, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (27254, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */
+     , (27254, 9, 10759, 0, 0, 0.03, False) /* Create Muddy Towel for ContainTreasure_DestinationType */
+     , (27254, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (27254, -1, 197, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Iron Golem (x8 up to max of 8) - Destruction_RegenerationType - Scatter_RegenLocationType */;

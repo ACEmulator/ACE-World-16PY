@@ -88,11 +88,11 @@ VALUES (1613, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1613, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1613, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1613, 9, 3675, 0, 0) /* Create Ivory Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1613, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1613, 9, 4236, 0, 0) /* Create Ivory Gromnie Hide for ContainTreasure_DestinationType */
-     , (1613, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1613, 9, 5794, 0, 0) /* Create Hot Pepper for ContainTreasure_DestinationType */
-     , (1613, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1613, 9, 3675, 0, 0, 0.05, False) /* Create Ivory Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1613, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1613, 9, 4236, 0, 0, 0.05, False) /* Create Ivory Gromnie Hide for ContainTreasure_DestinationType */
+     , (1613, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1613, 9, 5794, 0, 0, 0.1, False) /* Create Hot Pepper for ContainTreasure_DestinationType */
+     , (1613, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

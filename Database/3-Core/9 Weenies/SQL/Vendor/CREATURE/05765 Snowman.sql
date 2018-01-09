@@ -116,12 +116,12 @@ VALUES (5765, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5765, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5765, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5765, 4, 5762, -1, 0) /* Create Snowball for Shop_DestinationType */
-     , (5765, 4, 5768, -1, 0) /* Create Poofy Snowball for Shop_DestinationType */
-     , (5765, 4, 13224, -1, 0) /* Create A Frozen Note for Shop_DestinationType */
-     , (5765, 1, 5768, 24, 0) /* Create Poofy Snowball for Contain_DestinationType */
-     , (5765, 1, 5769, 12, 0) /* Create Iceball for Contain_DestinationType */
-     , (5765, 1, 5758, 1, 0) /* Create Carrot for Contain_DestinationType */
-     , (5765, 2, 5770, 3, 0) /* Create "Enchanted" Iceball for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5765, 4, 5762, -1, 0, 0, False) /* Create Snowball for Shop_DestinationType */
+     , (5765, 4, 5768, -1, 0, 0, False) /* Create Poofy Snowball for Shop_DestinationType */
+     , (5765, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop_DestinationType */
+     , (5765, 1, 5768, 24, 0, 0, False) /* Create Poofy Snowball for Contain_DestinationType */
+     , (5765, 1, 5769, 12, 0, 0, False) /* Create Iceball for Contain_DestinationType */
+     , (5765, 1, 5758, 1, 0, 0, False) /* Create Carrot for Contain_DestinationType */
+     , (5765, 2, 5770, 3, 0, 0, False) /* Create "Enchanted" Iceball for Wield_DestinationType */;
 

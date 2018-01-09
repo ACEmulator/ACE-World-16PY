@@ -93,7 +93,7 @@ VALUES (10947, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10947, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10947, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10947, 9, 10973, 0, 0) /* Create Sahkurea's Collar for ContainTreasure_DestinationType */
-     , (10947, 9, 10977, 0, 0) /* Create Virindi Implant for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10947, 9, 10973, 0, 0, 1, False) /* Create Sahkurea's Collar for ContainTreasure_DestinationType */
+     , (10947, 9, 10977, 0, 0, 1, False) /* Create Virindi Implant for ContainTreasure_DestinationType */;
 

@@ -90,6 +90,6 @@ VALUES (10980, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10980, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10980, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10980, 2, 338, 0, 0) /* Create Quarter Staff for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10980, 2, 338, 0, 0, 0, False) /* Create Quarter Staff for Wield_DestinationType */;
 

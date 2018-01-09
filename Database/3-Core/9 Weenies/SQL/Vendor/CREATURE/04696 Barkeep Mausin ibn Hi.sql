@@ -94,31 +94,31 @@ VALUES (4696, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4696, 128, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4696, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4696, 2, 130, 0, 16) /* Create Shirt for Wield_DestinationType */
-     , (4696, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (4696, 2, 132, 0, 18) /* Create Shoes for Wield_DestinationType */
-     , (4696, 2, 135, 0, 17) /* Create Turban for Wield_DestinationType */
-     , (4696, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4696, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (4696, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (4696, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (4696, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4696, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (4696, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (4696, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (4696, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (4696, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (4696, 4, 4743, -1, 0) /* Create Stuffed Grape Leaf for Shop_DestinationType */
-     , (4696, 4, 5536, -1, 0) /* Create Nevius Passage Directions for Shop_DestinationType */
-     , (4696, 4, 8209, -1, 0) /* Create Call for Adventurers! for Shop_DestinationType */
-     , (4696, 4, 12146, -1, 0) /* Create Simulacra Rumor for Shop_DestinationType */
-     , (4696, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (4696, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (4696, 4, 5534, -1, 0) /* Create Enkindled Souls Directions for Shop_DestinationType */
-     , (4696, 4, 5538, -1, 0) /* Create Story of Winthura's Gardens for Shop_DestinationType */
-     , (4696, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (4696, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (4696, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (4696, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4696, 2, 130, 0, 16, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4696, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4696, 2, 132, 0, 18, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (4696, 2, 135, 0, 17, 1, False) /* Create Turban for Wield_DestinationType */
+     , (4696, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4696, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (4696, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (4696, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (4696, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4696, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (4696, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (4696, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (4696, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (4696, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (4696, 4, 4743, -1, 0, 0, False) /* Create Stuffed Grape Leaf for Shop_DestinationType */
+     , (4696, 4, 5536, -1, 0, 0, False) /* Create Nevius Passage Directions for Shop_DestinationType */
+     , (4696, 4, 8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop_DestinationType */
+     , (4696, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop_DestinationType */
+     , (4696, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (4696, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (4696, 4, 5534, -1, 0, 0, False) /* Create Enkindled Souls Directions for Shop_DestinationType */
+     , (4696, 4, 5538, -1, 0, 0, False) /* Create Story of Winthura's Gardens for Shop_DestinationType */
+     , (4696, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (4696, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (4696, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (4696, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */;
 

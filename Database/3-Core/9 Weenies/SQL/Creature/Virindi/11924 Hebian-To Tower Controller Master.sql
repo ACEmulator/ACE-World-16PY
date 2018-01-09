@@ -130,15 +130,15 @@ VALUES (11924, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11924, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11924, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11924, 9, 3698, 0, 0) /* Create White Jewel for ContainTreasure_DestinationType */
-     , (11924, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11924, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11924, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11924, 9, 8154, 0, 0) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
-     , (11924, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11924, 9, 9290, 0, 0) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
-     , (11924, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11924, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (11924, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11924, 9, 3698, 0, 0, 0.05, False) /* Create White Jewel for ContainTreasure_DestinationType */
+     , (11924, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11924, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11924, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (11924, 9, 8154, 0, 0, 0.05, False) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
+     , (11924, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11924, 9, 9290, 0, 0, 0.03, False) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
+     , (11924, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (11924, 9, 9292, 0, 0, 0.01, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (11924, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

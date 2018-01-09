@@ -104,6 +104,6 @@ VALUES (30639, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30639, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30639, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30639, 9, 30747, 0, 0) /* Create Oily Stone for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30639, 9, 30747, 0, 0, 1, False) /* Create Oily Stone for ContainTreasure_DestinationType */;
 

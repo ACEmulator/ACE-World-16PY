@@ -94,23 +94,23 @@ VALUES (2497, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2497, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2497, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2497, 2, 134, 0, 10) /* Create Tunic for Wield_DestinationType */
-     , (2497, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (2497, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2497, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2497, 4, 622, -1, 0) /* Create Necklace for Shop_DestinationType */
-     , (2497, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (2497, 4, 2414, -1, 0) /* Create Azurite for Shop_DestinationType */
-     , (2497, 4, 2400, -1, 0) /* Create Yellow Garnet for Shop_DestinationType */
-     , (2497, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (2497, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (2497, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (2497, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (2497, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (2497, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (2497, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (2497, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (2497, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (2497, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2497, 2, 134, 0, 10, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (2497, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (2497, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (2497, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2497, 4, 622, -1, 0, 0, False) /* Create Necklace for Shop_DestinationType */
+     , (2497, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (2497, 4, 2414, -1, 0, 0, False) /* Create Azurite for Shop_DestinationType */
+     , (2497, 4, 2400, -1, 0, 0, False) /* Create Yellow Garnet for Shop_DestinationType */
+     , (2497, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (2497, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (2497, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (2497, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (2497, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (2497, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (2497, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (2497, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (2497, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (2497, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

@@ -93,13 +93,13 @@ VALUES (942, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (942, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (942, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (942, 9, 3673, 0, 0) /* Create Wood Heart for ContainTreasure_DestinationType */
-     , (942, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (942, 9, 5779, 0, 0) /* Create Strange Stick for ContainTreasure_DestinationType */
-     , (942, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (942, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (942, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (942, 9, 20859, 0, 0) /* Create Fletching Stamp for ContainTreasure_DestinationType */
-     , (942, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (942, 9, 3673, 0, 0, 0.1, False) /* Create Wood Heart for ContainTreasure_DestinationType */
+     , (942, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (942, 9, 5779, 0, 0, 0.05, False) /* Create Strange Stick for ContainTreasure_DestinationType */
+     , (942, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (942, 9, 6353, 0, 0, 0.005, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (942, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */
+     , (942, 9, 20859, 0, 0, 0.03, False) /* Create Fletching Stamp for ContainTreasure_DestinationType */
+     , (942, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

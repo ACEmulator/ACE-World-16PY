@@ -111,7 +111,7 @@ VALUES (22004, 64, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (22004, 12, 1480786196, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22004, 9, 6354, 0, 0) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
-     , (22004, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22004, 9, 6354, 0, 0, 0.2, False) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
+     , (22004, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

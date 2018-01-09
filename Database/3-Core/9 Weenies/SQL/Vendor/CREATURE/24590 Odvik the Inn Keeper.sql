@@ -97,27 +97,27 @@ VALUES (24590, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24590, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24590, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24590, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (24590, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (24590, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (24590, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (24590, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (24590, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (24590, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (24590, 4, 4737, -1, 0) /* Create Mushroom Pie for Shop_DestinationType */
-     , (24590, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (24590, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (24590, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (24590, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (24590, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (24590, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (24590, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (24590, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (24590, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (24590, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */
-     , (24590, 4, 28242, -1, 0) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
-     , (24590, 4, 30742, -1, 0) /* Create The Littlest Niffis for Shop_DestinationType */
-     , (24590, 4, 30743, -1, 0) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */
-     , (24590, 4, 30761, -1, 0) /* Create The Withered Atoll for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24590, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (24590, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (24590, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (24590, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (24590, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (24590, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (24590, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (24590, 4, 4737, -1, 0, 0, False) /* Create Mushroom Pie for Shop_DestinationType */
+     , (24590, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (24590, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (24590, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (24590, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (24590, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (24590, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (24590, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (24590, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (24590, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (24590, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */
+     , (24590, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
+     , (24590, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis for Shop_DestinationType */
+     , (24590, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */
+     , (24590, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll for Shop_DestinationType */;
 

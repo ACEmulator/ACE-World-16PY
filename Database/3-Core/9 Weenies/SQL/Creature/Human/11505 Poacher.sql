@@ -87,10 +87,10 @@ VALUES (11505, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11505, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11505, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11505, 2, 25557, 0, 0) /* Create Eye Patch for Wield_DestinationType */
-     , (11505, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11505, 9, 25557, 0, 0) /* Create Eye Patch for ContainTreasure_DestinationType */
-     , (11505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11505, 2, 25557, 0, 0, 0, False) /* Create Eye Patch for Wield_DestinationType */
+     , (11505, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11505, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (11505, 9, 25557, 0, 0, 0.05, False) /* Create Eye Patch for ContainTreasure_DestinationType */
+     , (11505, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

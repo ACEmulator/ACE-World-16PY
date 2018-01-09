@@ -103,13 +103,13 @@ VALUES (27489, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27489, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27489, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27489, 9, 24829, 0, 0) /* Create Banderling Savage Arm for ContainTreasure_DestinationType */
-     , (27489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27489, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27489, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27489, 9, 30400, 0, 0) /* Create Niffis Fighting Pits for ContainTreasure_DestinationType */
-     , (27489, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27489, 9, 24829, 0, 0, 0.03, False) /* Create Banderling Savage Arm for ContainTreasure_DestinationType */
+     , (27489, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27489, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27489, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27489, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27489, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27489, 9, 30400, 0, 0, 0.005, False) /* Create Niffis Fighting Pits for ContainTreasure_DestinationType */
+     , (27489, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

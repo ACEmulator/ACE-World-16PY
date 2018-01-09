@@ -94,21 +94,21 @@ VALUES (8438, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8438, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8438, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8438, 2, 130, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (8438, 2, 117, 0, 4) /* Create Breeches for Wield_DestinationType */
-     , (8438, 2, 133, 0, 16) /* Create Slippers for Wield_DestinationType */
-     , (8438, 2, 10696, 0, 14) /* Create Apron for Wield_DestinationType */
-     , (8438, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (8438, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (8438, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (8438, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (8438, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (8438, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (8438, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (8438, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (8438, 4, 14779, -1, 0) /* Create Cookie Cutter for Shop_DestinationType */
-     , (8438, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (8438, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (8438, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8438, 2, 130, 0, 4, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (8438, 2, 117, 0, 4, 0.6, False) /* Create Breeches for Wield_DestinationType */
+     , (8438, 2, 133, 0, 16, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (8438, 2, 10696, 0, 14, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (8438, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (8438, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (8438, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (8438, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (8438, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (8438, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (8438, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (8438, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (8438, 4, 14779, -1, 0, 0, False) /* Create Cookie Cutter for Shop_DestinationType */
+     , (8438, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (8438, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (8438, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 

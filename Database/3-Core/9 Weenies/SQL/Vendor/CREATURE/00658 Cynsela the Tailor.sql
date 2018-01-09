@@ -94,24 +94,24 @@ VALUES (658, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (658, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (658, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (658, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (658, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (658, 2, 132, 0, 8) /* Create Shoes for Wield_DestinationType */
-     , (658, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (658, 4, 2604, -1, 8) /* Create Breeches for Shop_DestinationType */
-     , (658, 4, 2604, -1, 4) /* Create Breeches for Shop_DestinationType */
-     , (658, 4, 2604, -1, 9) /* Create Breeches for Shop_DestinationType */
-     , (658, 4, 134, -1, 8) /* Create Tunic for Shop_DestinationType */
-     , (658, 4, 134, -1, 4) /* Create Tunic for Shop_DestinationType */
-     , (658, 4, 134, -1, 9) /* Create Tunic for Shop_DestinationType */
-     , (658, 4, 118, -1, 8) /* Create Cap for Shop_DestinationType */
-     , (658, 4, 118, -1, 4) /* Create Cap for Shop_DestinationType */
-     , (658, 4, 118, -1, 9) /* Create Cap for Shop_DestinationType */
-     , (658, 4, 132, -1, 8) /* Create Shoes for Shop_DestinationType */
-     , (658, 4, 132, -1, 4) /* Create Shoes for Shop_DestinationType */
-     , (658, 4, 132, -1, 9) /* Create Shoes for Shop_DestinationType */
-     , (658, 4, 5851, -1, 4) /* Create Faran Robe with Hood for Shop_DestinationType */
-     , (658, 4, 5850, -1, 4) /* Create Faran Robe for Shop_DestinationType */
-     , (658, 4, 8371, -1, 2) /* Create Kireth Gown with Band for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (658, 2, 134, 0, 5, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (658, 2, 117, 0, 8, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (658, 2, 132, 0, 8, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (658, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (658, 4, 2604, -1, 8, 0, False) /* Create Breeches for Shop_DestinationType */
+     , (658, 4, 2604, -1, 4, 0.6, False) /* Create Breeches for Shop_DestinationType */
+     , (658, 4, 2604, -1, 9, 0, False) /* Create Breeches for Shop_DestinationType */
+     , (658, 4, 134, -1, 8, 0, False) /* Create Tunic for Shop_DestinationType */
+     , (658, 4, 134, -1, 4, 0.6, False) /* Create Tunic for Shop_DestinationType */
+     , (658, 4, 134, -1, 9, 0, False) /* Create Tunic for Shop_DestinationType */
+     , (658, 4, 118, -1, 8, 0, False) /* Create Cap for Shop_DestinationType */
+     , (658, 4, 118, -1, 4, 0.6, False) /* Create Cap for Shop_DestinationType */
+     , (658, 4, 118, -1, 9, 0, False) /* Create Cap for Shop_DestinationType */
+     , (658, 4, 132, -1, 8, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (658, 4, 132, -1, 4, 0.6, False) /* Create Shoes for Shop_DestinationType */
+     , (658, 4, 132, -1, 9, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (658, 4, 5851, -1, 4, 0.5, False) /* Create Faran Robe with Hood for Shop_DestinationType */
+     , (658, 4, 5850, -1, 4, 0.5, False) /* Create Faran Robe for Shop_DestinationType */
+     , (658, 4, 8371, -1, 2, 0.2, False) /* Create Kireth Gown with Band for Shop_DestinationType */;
 

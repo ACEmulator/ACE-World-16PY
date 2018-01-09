@@ -94,19 +94,19 @@ VALUES (2292, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2292, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2292, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2292, 2, 124, 0, 18) /* Create Jerkin for Wield_DestinationType */
-     , (2292, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (2292, 2, 132, 0, 18) /* Create Shoes for Wield_DestinationType */
-     , (2292, 2, 118, 0, 18) /* Create Cap for Wield_DestinationType */
-     , (2292, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (2292, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2292, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (2292, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (2292, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (2292, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (2292, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (2292, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (2292, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2292, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2292, 2, 124, 0, 18, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (2292, 2, 127, 0, 4, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (2292, 2, 132, 0, 18, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2292, 2, 118, 0, 18, 1, False) /* Create Cap for Wield_DestinationType */
+     , (2292, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (2292, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2292, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (2292, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (2292, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (2292, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (2292, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (2292, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (2292, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2292, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */;
 

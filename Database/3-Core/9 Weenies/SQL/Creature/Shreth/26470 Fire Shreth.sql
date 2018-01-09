@@ -89,9 +89,9 @@ VALUES (26470, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26470, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26470, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26470, 9, 14587, 0, 0) /* Create Fire Shreth Hide for ContainTreasure_DestinationType */
-     , (26470, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (26470, 9, 27093, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (26470, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26470, 9, 14587, 0, 0, 0.05, False) /* Create Fire Shreth Hide for ContainTreasure_DestinationType */
+     , (26470, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (26470, 9, 27093, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (26470, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

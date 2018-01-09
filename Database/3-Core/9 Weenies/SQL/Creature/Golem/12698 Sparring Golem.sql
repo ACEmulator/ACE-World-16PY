@@ -89,7 +89,7 @@ VALUES (12698, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12698, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12698, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12698, 9, 12709, 0, 0) /* Create Academy Token for ContainTreasure_DestinationType */
-     , (12698, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12698, 9, 12709, 0, 0, 1, False) /* Create Academy Token for ContainTreasure_DestinationType */
+     , (12698, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

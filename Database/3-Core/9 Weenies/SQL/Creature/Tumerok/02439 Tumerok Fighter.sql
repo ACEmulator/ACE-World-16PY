@@ -91,7 +91,7 @@ VALUES (2439, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2439, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2439, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2439, 9, 20855, 0, 0) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
-     , (2439, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2439, 9, 20855, 0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
+     , (2439, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

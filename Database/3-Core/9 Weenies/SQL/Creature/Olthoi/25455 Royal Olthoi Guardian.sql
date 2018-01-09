@@ -93,6 +93,6 @@ VALUES (25455, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25455, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25455, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25455, 1, 25482, 0, 0) /* Create Smelly Olthoi Gland for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25455, 1, 25482, 0, 0, 0, False) /* Create Smelly Olthoi Gland for Contain_DestinationType */;
 

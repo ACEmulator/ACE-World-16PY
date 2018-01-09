@@ -104,7 +104,7 @@ VALUES (23549, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23549, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23549, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23549, 9, 6056, 0, 0) /* Create Small Shard for ContainTreasure_DestinationType */
-     , (23549, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23549, 9, 6056, 0, 0, 0.005, False) /* Create Small Shard for ContainTreasure_DestinationType */
+     , (23549, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

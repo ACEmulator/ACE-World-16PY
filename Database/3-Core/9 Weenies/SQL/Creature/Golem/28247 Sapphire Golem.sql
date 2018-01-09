@@ -109,9 +109,9 @@ VALUES (28247, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28247, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28247, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28247, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (28247, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28247, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (28247, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28247, 9, 6353, 0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (28247, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (28247, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (28247, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

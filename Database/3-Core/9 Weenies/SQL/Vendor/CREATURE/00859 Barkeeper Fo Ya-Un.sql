@@ -94,35 +94,35 @@ VALUES (859, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (859, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (859, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (859, 2, 134, 0, 17) /* Create Tunic for Wield_DestinationType */
-     , (859, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (859, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (859, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (859, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (859, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (859, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (859, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (859, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (859, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (859, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (859, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (859, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (859, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (859, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (859, 4, 8135, -1, 0) /* Create Zarea's Notes on Geomancy for Shop_DestinationType */
-     , (859, 4, 6630, -1, 0) /* Create A Treatise on the Properties of Fused Gems for Shop_DestinationType */
-     , (859, 4, 7936, -1, 0) /* Create Aliester's Corollary for Shop_DestinationType */
-     , (859, 4, 6417, -1, 0) /* Create A Stinging Stone for Shop_DestinationType */
-     , (859, 4, 5881, -1, 0) /* Create The Book of Minesh for Shop_DestinationType */
-     , (859, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (859, 4, 5675, -1, 0) /* Create Mount Lethe Rumor for Shop_DestinationType */
-     , (859, 4, 5147, -1, 0) /* Create Return to Frore for Shop_DestinationType */
-     , (859, 4, 6421, -1, 0) /* Create The Lost City of Frore for Shop_DestinationType */
-     , (859, 4, 8397, -1, 0) /* Create The Breaking of the Crystal Core for Shop_DestinationType */
-     , (859, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (859, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (859, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (859, 4, 13202, -1, 0) /* Create Sho Festival Light for Shop_DestinationType */
-     , (859, 4, 22730, -1, 0) /* Create Holiday Pole for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (859, 2, 134, 0, 17, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (859, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (859, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (859, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (859, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (859, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (859, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (859, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (859, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (859, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (859, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (859, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (859, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (859, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (859, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (859, 4, 8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy for Shop_DestinationType */
+     , (859, 4, 6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems for Shop_DestinationType */
+     , (859, 4, 7936, -1, 0, 0, False) /* Create Aliester's Corollary for Shop_DestinationType */
+     , (859, 4, 6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop_DestinationType */
+     , (859, 4, 5881, -1, 0, 0, False) /* Create The Book of Minesh for Shop_DestinationType */
+     , (859, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (859, 4, 5675, -1, 0, 0, False) /* Create Mount Lethe Rumor for Shop_DestinationType */
+     , (859, 4, 5147, -1, 0, 0, False) /* Create Return to Frore for Shop_DestinationType */
+     , (859, 4, 6421, -1, 0, 0, False) /* Create The Lost City of Frore for Shop_DestinationType */
+     , (859, 4, 8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core for Shop_DestinationType */
+     , (859, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (859, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (859, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (859, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light for Shop_DestinationType */
+     , (859, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole for Shop_DestinationType */;
 

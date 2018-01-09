@@ -106,12 +106,12 @@ VALUES (6788, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6788, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6788, 256, 2000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6788, 1, 6807, 1, 0) /* Create Nexus Core Gem for Contain_DestinationType */
-     , (6788, 1, 6621, 1, 0) /* Create Scintillating Gem for Contain_DestinationType */
-     , (6788, 1, 6621, 1, 0) /* Create Scintillating Gem for Contain_DestinationType */
-     , (6788, 1, 6621, 1, 0) /* Create Scintillating Gem for Contain_DestinationType */
-     , (6788, 1, 6621, 1, 0) /* Create Scintillating Gem for Contain_DestinationType */
-     , (6788, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (6788, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6788, 1, 6807, 1, 0, 0, False) /* Create Nexus Core Gem for Contain_DestinationType */
+     , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
+     , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
+     , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
+     , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
+     , (6788, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (6788, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

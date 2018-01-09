@@ -88,9 +88,9 @@ VALUES (25880, 64, 5750) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25880, 128, 5500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25880, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25880, 9, 25901, 0, 0) /* Create Doomshark Hide for ContainTreasure_DestinationType */
-     , (25880, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25880, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25880, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25880, 9, 25901, 0, 0, 0.01, False) /* Create Doomshark Hide for ContainTreasure_DestinationType */
+     , (25880, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (25880, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25880, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

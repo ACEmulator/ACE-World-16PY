@@ -101,7 +101,7 @@ VALUES (25858, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25858, 128, 800) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25858, 256, 700) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25858, 9, 12206, 0, 0) /* Create Doll Mask for ContainTreasure_DestinationType */
-     , (25858, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25858, 9, 12206, 0, 0, 0.05, False) /* Create Doll Mask for ContainTreasure_DestinationType */
+     , (25858, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

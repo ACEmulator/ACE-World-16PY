@@ -98,24 +98,24 @@ VALUES (1819, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1819, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1819, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1819, 2, 134, 0, 6) /* Create Tunic for Wield_DestinationType */
-     , (1819, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (1819, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (1819, 2, 128, 0, 9) /* Create Qafiya for Wield_DestinationType */
-     , (1819, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1819, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (1819, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (1819, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (1819, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (1819, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (1819, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (1819, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (1819, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (1819, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (1819, 4, 4384, -1, 0) /* Create Strength Other I for Shop_DestinationType */
-     , (1819, 4, 4608, -1, 0) /* Create Focus Other I for Shop_DestinationType */
-     , (1819, 4, 4599, -1, 0) /* Create Mana Renewal Other I for Shop_DestinationType */
-     , (1819, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1819, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1819, 2, 134, 0, 6, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (1819, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (1819, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1819, 2, 128, 0, 9, 0.5, False) /* Create Qafiya for Wield_DestinationType */
+     , (1819, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1819, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (1819, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (1819, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (1819, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (1819, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (1819, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (1819, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (1819, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (1819, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (1819, 4, 4384, -1, 0, 0, False) /* Create Strength Other I for Shop_DestinationType */
+     , (1819, 4, 4608, -1, 0, 0, False) /* Create Focus Other I for Shop_DestinationType */
+     , (1819, 4, 4599, -1, 0, 0, False) /* Create Mana Renewal Other I for Shop_DestinationType */
+     , (1819, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1819, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

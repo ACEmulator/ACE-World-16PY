@@ -106,9 +106,9 @@ VALUES (24478, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24478, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24478, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24478, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (24478, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24478, 9, 7605, 0, 0) /* Create Coral Heart for ContainTreasure_DestinationType */
-     , (24478, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24478, 9, 6353, 0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (24478, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (24478, 9, 7605, 0, 0, 0.05, False) /* Create Coral Heart for ContainTreasure_DestinationType */
+     , (24478, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

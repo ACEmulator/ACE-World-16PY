@@ -130,6 +130,6 @@ VALUES (10717, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10717, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10717, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10717, 8, 10728, 1, 0) /* Create Inculcation Cells Message Shard for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10717, 8, 10728, 1, 0, 0, False) /* Create Inculcation Cells Message Shard for Treasure_DestinationType */;
 

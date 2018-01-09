@@ -90,7 +90,7 @@ VALUES (11532, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11532, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11532, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11532, 9, 4237, 0, 0) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
-     , (11532, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11532, 9, 4237, 0, 0, 0.05, False) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
+     , (11532, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

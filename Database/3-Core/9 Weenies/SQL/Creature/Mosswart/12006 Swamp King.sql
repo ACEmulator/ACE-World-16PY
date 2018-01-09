@@ -118,15 +118,15 @@ VALUES (12006, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12006, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12006, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12006, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (12006, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12006, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (12006, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12006, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12006, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12006, 9, 23592, 0, 0) /* Create Gauntlets of Marksmanship for ContainTreasure_DestinationType */
-     , (12006, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12006, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (12006, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (12006, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (12006, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (12006, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (12006, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */
+     , (12006, 9, 23592, 0, 0, 0.3, False) /* Create Gauntlets of Marksmanship for ContainTreasure_DestinationType */
+     , (12006, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12006, 0.33, 7102, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Mire-Witch (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

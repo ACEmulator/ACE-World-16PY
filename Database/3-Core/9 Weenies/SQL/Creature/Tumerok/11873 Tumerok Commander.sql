@@ -116,8 +116,8 @@ VALUES (11873, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11873, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11873, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11873, 9, 11863, 0, 0) /* Create Serpent Spear-Head for ContainTreasure_DestinationType */
-     , (11873, 9, 11864, 0, 0) /* Create Serpent Symbol for ContainTreasure_DestinationType */
-     , (11873, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11873, 9, 11863, 0, 0, 0.05, False) /* Create Serpent Spear-Head for ContainTreasure_DestinationType */
+     , (11873, 9, 11864, 0, 0, 0.05, False) /* Create Serpent Symbol for ContainTreasure_DestinationType */
+     , (11873, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

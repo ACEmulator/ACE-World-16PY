@@ -94,29 +94,29 @@ VALUES (985, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (985, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (985, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (985, 2, 134, 0, 10) /* Create Tunic for Wield_DestinationType */
-     , (985, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (985, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (985, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (985, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (985, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (985, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (985, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (985, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (985, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (985, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (985, 4, 4712, -1, 0) /* Create Beef Rice for Shop_DestinationType */
-     , (985, 4, 4723, -1, 0) /* Create Fish Kebab for Shop_DestinationType */
-     , (985, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (985, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (985, 4, 1506, -1, 0) /* Create Legend of the Undead Defender for Shop_DestinationType */
-     , (985, 4, 1508, -1, 0) /* Create Alphus Range Directions for Shop_DestinationType */
-     , (985, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (985, 4, 12146, -1, 0) /* Create Simulacra Rumor for Shop_DestinationType */
-     , (985, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (985, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (985, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */
-     , (985, 4, 13201, -1, 0) /* Create Gharu'ndim Festival Light for Shop_DestinationType */
-     , (985, 4, 22730, -1, 0) /* Create Holiday Pole for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (985, 2, 134, 0, 10, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (985, 2, 117, 0, 14, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (985, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (985, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */
+     , (985, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (985, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (985, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (985, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (985, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (985, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (985, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (985, 4, 4712, -1, 0, 0, False) /* Create Beef Rice for Shop_DestinationType */
+     , (985, 4, 4723, -1, 0, 0, False) /* Create Fish Kebab for Shop_DestinationType */
+     , (985, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (985, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (985, 4, 1506, -1, 0, 0, False) /* Create Legend of the Undead Defender for Shop_DestinationType */
+     , (985, 4, 1508, -1, 0, 0, False) /* Create Alphus Range Directions for Shop_DestinationType */
+     , (985, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (985, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop_DestinationType */
+     , (985, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (985, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (985, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */
+     , (985, 4, 13201, -1, 0, 0, False) /* Create Gharu'ndim Festival Light for Shop_DestinationType */
+     , (985, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole for Shop_DestinationType */;
 

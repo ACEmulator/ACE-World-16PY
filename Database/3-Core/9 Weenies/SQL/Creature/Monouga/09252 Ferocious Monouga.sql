@@ -93,9 +93,9 @@ VALUES (9252, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9252, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9252, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9252, 9, 12253, 0, 0) /* Create Monougat for ContainTreasure_DestinationType */
-     , (9252, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9252, 9, 15769, 0, 0) /* Create Ruined Amulet of the Spear for ContainTreasure_DestinationType */
-     , (9252, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9252, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
+     , (9252, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
+     , (9252, 9, 15769, 0, 0, 0.02, False) /* Create Ruined Amulet of the Spear for ContainTreasure_DestinationType */
+     , (9252, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

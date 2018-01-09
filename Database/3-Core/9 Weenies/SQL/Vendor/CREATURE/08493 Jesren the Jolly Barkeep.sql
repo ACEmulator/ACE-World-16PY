@@ -94,35 +94,35 @@ VALUES (8493, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8493, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8493, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8493, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (8493, 2, 2597, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (8493, 2, 7897, 0, 9) /* Create Steel Toed Boots for Wield_DestinationType */
-     , (8493, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (8493, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (8493, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (8493, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (8493, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (8493, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (8493, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (8493, 4, 4713, -1, 0) /* Create Beef Stew for Shop_DestinationType */
-     , (8493, 4, 4741, -1, 0) /* Create Pizza for Shop_DestinationType */
-     , (8493, 4, 4725, -1, 0) /* Create Fish Pie for Shop_DestinationType */
-     , (8493, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (8493, 4, 7878, -1, 0) /* Create Sausage for Shop_DestinationType */
-     , (8493, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (8493, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (8493, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (8493, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (8493, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (8493, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (8493, 4, 8557, -1, 0) /* Create Mosswart Feud Rumor for Shop_DestinationType */
-     , (8493, 4, 8558, -1, 0) /* Create Rumuba Rumor for Shop_DestinationType */
-     , (8493, 4, 8556, -1, 0) /* Create The History of the Vesayen Isles for Shop_DestinationType */
-     , (8493, 4, 27792, -1, 0) /* Create The Moars for Shop_DestinationType */
-     , (8493, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (8493, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (8493, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (8493, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (8493, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8493, 2, 130, 0, 8, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (8493, 2, 2597, 0, 9, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (8493, 2, 7897, 0, 9, 0, False) /* Create Steel Toed Boots for Wield_DestinationType */
+     , (8493, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (8493, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (8493, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (8493, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (8493, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (8493, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (8493, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (8493, 4, 4713, -1, 0, 0, False) /* Create Beef Stew for Shop_DestinationType */
+     , (8493, 4, 4741, -1, 0, 0, False) /* Create Pizza for Shop_DestinationType */
+     , (8493, 4, 4725, -1, 0, 0, False) /* Create Fish Pie for Shop_DestinationType */
+     , (8493, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (8493, 4, 7878, -1, 0, 0, False) /* Create Sausage for Shop_DestinationType */
+     , (8493, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (8493, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (8493, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (8493, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (8493, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (8493, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (8493, 4, 8557, -1, 0, 0, False) /* Create Mosswart Feud Rumor for Shop_DestinationType */
+     , (8493, 4, 8558, -1, 0, 0, False) /* Create Rumuba Rumor for Shop_DestinationType */
+     , (8493, 4, 8556, -1, 0, 0, False) /* Create The History of the Vesayen Isles for Shop_DestinationType */
+     , (8493, 4, 27792, -1, 0, 0, False) /* Create The Moars for Shop_DestinationType */
+     , (8493, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (8493, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (8493, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (8493, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (8493, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */;
 

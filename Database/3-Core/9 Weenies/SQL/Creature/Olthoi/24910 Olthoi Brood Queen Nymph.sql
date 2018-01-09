@@ -94,17 +94,17 @@ VALUES (24910, 64, 1787) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24910, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24910, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24910, 9, 24936, 0, 0) /* Create Brood Queen Nymph Metathorax for ContainTreasure_DestinationType */
-     , (24910, 9, 24926, 0, 0) /* Create Brood Queen Nymph Carapace for ContainTreasure_DestinationType */
-     , (24910, 9, 24934, 0, 0) /* Create Brood Queen Nymph Head for ContainTreasure_DestinationType */
-     , (24910, 9, 24930, 0, 0) /* Create Brood Queen Nymph Crest for ContainTreasure_DestinationType */
-     , (24910, 9, 24932, 0, 0) /* Create Brood Queen Nymph Femur for ContainTreasure_DestinationType */
-     , (24910, 9, 24928, 0, 0) /* Create Brood Queen Nymph Claw for ContainTreasure_DestinationType */
-     , (24910, 9, 24936, 0, 0) /* Create Brood Queen Nymph Metathorax for ContainTreasure_DestinationType */
-     , (24910, 9, 24926, 0, 0) /* Create Brood Queen Nymph Carapace for ContainTreasure_DestinationType */
-     , (24910, 9, 24934, 0, 0) /* Create Brood Queen Nymph Head for ContainTreasure_DestinationType */
-     , (24910, 9, 24930, 0, 0) /* Create Brood Queen Nymph Crest for ContainTreasure_DestinationType */
-     , (24910, 9, 24932, 0, 0) /* Create Brood Queen Nymph Femur for ContainTreasure_DestinationType */
-     , (24910, 9, 24928, 0, 0) /* Create Brood Queen Nymph Claw for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24910, 9, 24936, 0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax for ContainTreasure_DestinationType */
+     , (24910, 9, 24926, 0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace for ContainTreasure_DestinationType */
+     , (24910, 9, 24934, 0, 0, 0.166, False) /* Create Brood Queen Nymph Head for ContainTreasure_DestinationType */
+     , (24910, 9, 24930, 0, 0, 0.166, False) /* Create Brood Queen Nymph Crest for ContainTreasure_DestinationType */
+     , (24910, 9, 24932, 0, 0, 0.166, False) /* Create Brood Queen Nymph Femur for ContainTreasure_DestinationType */
+     , (24910, 9, 24928, 0, 0, 0.166, False) /* Create Brood Queen Nymph Claw for ContainTreasure_DestinationType */
+     , (24910, 9, 24936, 0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax for ContainTreasure_DestinationType */
+     , (24910, 9, 24926, 0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace for ContainTreasure_DestinationType */
+     , (24910, 9, 24934, 0, 0, 0.166, False) /* Create Brood Queen Nymph Head for ContainTreasure_DestinationType */
+     , (24910, 9, 24930, 0, 0, 0.166, False) /* Create Brood Queen Nymph Crest for ContainTreasure_DestinationType */
+     , (24910, 9, 24932, 0, 0, 0.166, False) /* Create Brood Queen Nymph Femur for ContainTreasure_DestinationType */
+     , (24910, 9, 24928, 0, 0, 0.166, False) /* Create Brood Queen Nymph Claw for ContainTreasure_DestinationType */;
 

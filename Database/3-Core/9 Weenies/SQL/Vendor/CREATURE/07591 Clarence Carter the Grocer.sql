@@ -94,29 +94,29 @@ VALUES (7591, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7591, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7591, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7591, 2, 2593, 0, 4) /* Create Tunic for Wield_DestinationType */
-     , (7591, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (7591, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (7591, 2, 118, 0, 4) /* Create Cap for Wield_DestinationType */
-     , (7591, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (7591, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (7591, 4, 4732, -1, 0) /* Create Fried Steak for Shop_DestinationType */
-     , (7591, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (7591, 4, 4709, -1, 0) /* Create Apple Pie for Shop_DestinationType */
-     , (7591, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (7591, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (7591, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (7591, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (7591, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (7591, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (7591, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (7591, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (7591, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (7591, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (7591, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (7591, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (7591, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (7591, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (7591, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7591, 2, 2593, 0, 4, 0.6, False) /* Create Tunic for Wield_DestinationType */
+     , (7591, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (7591, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (7591, 2, 118, 0, 4, 0.6, False) /* Create Cap for Wield_DestinationType */
+     , (7591, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (7591, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (7591, 4, 4732, -1, 0, 0, False) /* Create Fried Steak for Shop_DestinationType */
+     , (7591, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (7591, 4, 4709, -1, 0, 0, False) /* Create Apple Pie for Shop_DestinationType */
+     , (7591, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (7591, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (7591, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (7591, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (7591, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (7591, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (7591, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (7591, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (7591, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (7591, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (7591, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (7591, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (7591, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (7591, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (7591, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

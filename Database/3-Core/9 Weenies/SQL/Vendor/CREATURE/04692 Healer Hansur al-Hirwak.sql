@@ -98,28 +98,28 @@ VALUES (4692, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4692, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4692, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4692, 2, 124, 0, 1) /* Create Jerkin for Wield_DestinationType */
-     , (4692, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (4692, 2, 133, 0, 14) /* Create Slippers for Wield_DestinationType */
-     , (4692, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (4692, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4692, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (4692, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (4692, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (4692, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (4692, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (4692, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (4692, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (4692, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (4692, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (4692, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (4692, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (4692, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (4692, 4, 4611, -1, 0) /* Create Willpower Other II for Shop_DestinationType */
-     , (4692, 4, 4597, -1, 0) /* Create Rejuvenation Other I for Shop_DestinationType */
-     , (4692, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */
-     , (4692, 4, 4604, -1, 0) /* Create Coordination Other I for Shop_DestinationType */
-     , (4692, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4692, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4692, 2, 124, 0, 1, 0.67, False) /* Create Jerkin for Wield_DestinationType */
+     , (4692, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (4692, 2, 133, 0, 14, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (4692, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */
+     , (4692, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4692, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (4692, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (4692, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (4692, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (4692, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (4692, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (4692, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (4692, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (4692, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (4692, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (4692, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (4692, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (4692, 4, 4611, -1, 0, 0, False) /* Create Willpower Other II for Shop_DestinationType */
+     , (4692, 4, 4597, -1, 0, 0, False) /* Create Rejuvenation Other I for Shop_DestinationType */
+     , (4692, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */
+     , (4692, 4, 4604, -1, 0, 0, False) /* Create Coordination Other I for Shop_DestinationType */
+     , (4692, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4692, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

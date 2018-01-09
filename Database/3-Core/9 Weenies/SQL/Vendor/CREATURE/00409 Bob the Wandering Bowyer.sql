@@ -93,32 +93,32 @@ VALUES (409, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (409, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (409, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (409, 1, 351, 0, 0) /* Create Long Sword for Contain_DestinationType */
-     , (409, 2, 360, 0, 0) /* Create Yag for Wield_DestinationType */
-     , (409, 2, 300, 30, 0) /* Create Arrow for Wield_DestinationType */
-     , (409, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (409, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (409, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (409, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (409, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (409, 4, 3599, -1, 0) /* Create Blunt Arrow for Shop_DestinationType */
-     , (409, 4, 3603, -1, 0) /* Create Blunt Quarrel for Shop_DestinationType */
-     , (409, 4, 3601, -1, 0) /* Create Frog Crotch Arrow for Shop_DestinationType */
-     , (409, 4, 3605, -1, 0) /* Create Frog Crotch Quarrel for Shop_DestinationType */
-     , (409, 4, 3598, -1, 0) /* Create Armor Piercing Arrow for Shop_DestinationType */
-     , (409, 4, 3602, -1, 0) /* Create Armor Piercing Quarrel for Shop_DestinationType */
-     , (409, 4, 9359, -1, 0) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
-     , (409, 4, 9363, -1, 0) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
-     , (409, 4, 9362, -1, 0) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
-     , (409, 4, 9361, -1, 0) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
-     , (409, 4, 9366, -1, 0) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
-     , (409, 4, 9377, -1, 0) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
-     , (409, 4, 9378, -1, 0) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
-     , (409, 4, 3604, -1, 0) /* Create Broadhead Quarrel for Shop_DestinationType */
-     , (409, 4, 3600, -1, 0) /* Create Broadhead Arrow for Shop_DestinationType */
-     , (409, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (409, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (409, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */
-     , (409, 4, 334, -1, 0) /* Create Nayin for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (409, 1, 351, 0, 0, 0, False) /* Create Long Sword for Contain_DestinationType */
+     , (409, 2, 360, 0, 0, 0, False) /* Create Yag for Wield_DestinationType */
+     , (409, 2, 300, 30, 0, 0, False) /* Create Arrow for Wield_DestinationType */
+     , (409, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (409, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (409, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (409, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (409, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (409, 4, 3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop_DestinationType */
+     , (409, 4, 3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop_DestinationType */
+     , (409, 4, 3601, -1, 0, 0, False) /* Create Frog Crotch Arrow for Shop_DestinationType */
+     , (409, 4, 3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel for Shop_DestinationType */
+     , (409, 4, 3598, -1, 0, 0, False) /* Create Armor Piercing Arrow for Shop_DestinationType */
+     , (409, 4, 3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel for Shop_DestinationType */
+     , (409, 4, 9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
+     , (409, 4, 9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
+     , (409, 4, 9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
+     , (409, 4, 9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
+     , (409, 4, 9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
+     , (409, 4, 9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
+     , (409, 4, 9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
+     , (409, 4, 3604, -1, 0, 0, False) /* Create Broadhead Quarrel for Shop_DestinationType */
+     , (409, 4, 3600, -1, 0, 0, False) /* Create Broadhead Arrow for Shop_DestinationType */
+     , (409, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (409, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (409, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */
+     , (409, 4, 334, -1, 0, 0, False) /* Create Nayin for Shop_DestinationType */;
 

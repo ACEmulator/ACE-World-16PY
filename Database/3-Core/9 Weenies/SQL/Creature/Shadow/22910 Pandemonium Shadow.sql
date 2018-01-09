@@ -123,11 +123,11 @@ VALUES (22910, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22910, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22910, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22910, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (22910, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22910, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (22910, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22910, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (22910, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22910, 9, 6058, 0, 0, 0.015, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (22910, 9, 0, 0, 0, 0.985, False) /* Create  for ContainTreasure_DestinationType */
+     , (22910, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (22910, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (22910, 9, 9292, 0, 0, 0.005, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (22910, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

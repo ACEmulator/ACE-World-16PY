@@ -93,27 +93,27 @@ VALUES (28445, 64, 7200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28445, 128, 4400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28445, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28445, 9, 28487, 1, 0) /* Create Morgluuk's Head for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28445, 9, 28488, 1, 0) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
-     , (28445, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28445, 9, 28487, 1, 0, 1, False) /* Create Morgluuk's Head for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28445, 9, 28488, 1, 0, 1, False) /* Create Morgluuk's Flesh for ContainTreasure_DestinationType */
+     , (28445, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

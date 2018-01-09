@@ -94,46 +94,46 @@ VALUES (4549, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4549, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4549, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4549, 2, 22158, 0, 0) /* Create Jo for Wield_DestinationType */
-     , (4549, 2, 134, 0, 16) /* Create Tunic for Wield_DestinationType */
-     , (4549, 2, 2604, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (4549, 2, 2606, 0, 16) /* Create Boots for Wield_DestinationType */
-     , (4549, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4549, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (4549, 4, 723, -1, 0) /* Create Studded Leather Cowl for Shop_DestinationType */
-     , (4549, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (4549, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (4549, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (4549, 4, 46, -1, 0) /* Create Metal Cap for Shop_DestinationType */
-     , (4549, 4, 89, -1, 0) /* Create Studded Leather Pauldrons for Shop_DestinationType */
-     , (4549, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (4549, 4, 38, -1, 0) /* Create Studded Leather Bracers for Shop_DestinationType */
-     , (4549, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (4549, 4, 42, -1, 0) /* Create Studded Leather Breastplate for Shop_DestinationType */
-     , (4549, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (4549, 4, 59, -1, 0) /* Create Studded Leather Gauntlets for Shop_DestinationType */
-     , (4549, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (4549, 4, 63, -1, 0) /* Create Studded Leather Girth for Shop_DestinationType */
-     , (4549, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (4549, 4, 68, -1, 0) /* Create Studded Leather Greaves for Shop_DestinationType */
-     , (4549, 4, 112, -1, 0) /* Create Studded Leather Tassets for Shop_DestinationType */
-     , (4549, 4, 2605, -1, 0) /* Create Chainmail Greaves for Shop_DestinationType */
-     , (4549, 4, 108, -1, 0) /* Create Chainmail Tassets for Shop_DestinationType */
-     , (4549, 4, 84, -1, 0) /* Create Studded Leather Leggings for Shop_DestinationType */
-     , (4549, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (4549, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (4549, 4, 93, -1, 0) /* Create Round Shield for Shop_DestinationType */
-     , (4549, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (4549, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (4549, 4, 4195, -1, 0) /* Create Nekode for Shop_DestinationType */
-     , (4549, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (4549, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (4549, 4, 315, -1, 0) /* Create Throwing Dagger for Shop_DestinationType */
-     , (4549, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (4549, 4, 361, -1, 0) /* Create Yaoji for Shop_DestinationType */
-     , (4549, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (4549, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4549, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4549, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4549, 2, 22158, 0, 0, 0, False) /* Create Jo for Wield_DestinationType */
+     , (4549, 2, 134, 0, 16, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (4549, 2, 2604, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4549, 2, 2606, 0, 16, 1, False) /* Create Boots for Wield_DestinationType */
+     , (4549, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4549, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (4549, 4, 723, -1, 0, 0, False) /* Create Studded Leather Cowl for Shop_DestinationType */
+     , (4549, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (4549, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (4549, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (4549, 4, 46, -1, 0, 0, False) /* Create Metal Cap for Shop_DestinationType */
+     , (4549, 4, 89, -1, 0, 0, False) /* Create Studded Leather Pauldrons for Shop_DestinationType */
+     , (4549, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (4549, 4, 38, -1, 0, 0, False) /* Create Studded Leather Bracers for Shop_DestinationType */
+     , (4549, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (4549, 4, 42, -1, 0, 0, False) /* Create Studded Leather Breastplate for Shop_DestinationType */
+     , (4549, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (4549, 4, 59, -1, 0, 0, False) /* Create Studded Leather Gauntlets for Shop_DestinationType */
+     , (4549, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (4549, 4, 63, -1, 0, 0, False) /* Create Studded Leather Girth for Shop_DestinationType */
+     , (4549, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (4549, 4, 68, -1, 0, 0, False) /* Create Studded Leather Greaves for Shop_DestinationType */
+     , (4549, 4, 112, -1, 0, 0, False) /* Create Studded Leather Tassets for Shop_DestinationType */
+     , (4549, 4, 2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop_DestinationType */
+     , (4549, 4, 108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop_DestinationType */
+     , (4549, 4, 84, -1, 0, 0, False) /* Create Studded Leather Leggings for Shop_DestinationType */
+     , (4549, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (4549, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (4549, 4, 93, -1, 0, 0, False) /* Create Round Shield for Shop_DestinationType */
+     , (4549, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (4549, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (4549, 4, 4195, -1, 0, 0, False) /* Create Nekode for Shop_DestinationType */
+     , (4549, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (4549, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (4549, 4, 315, -1, 0, 0, False) /* Create Throwing Dagger for Shop_DestinationType */
+     , (4549, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (4549, 4, 361, -1, 0, 0, False) /* Create Yaoji for Shop_DestinationType */
+     , (4549, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (4549, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4549, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4549, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 
