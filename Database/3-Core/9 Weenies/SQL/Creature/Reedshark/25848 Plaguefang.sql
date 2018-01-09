@@ -92,9 +92,9 @@ VALUES (25848, 64, 8700) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25848, 128, 8400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25848, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25848, 9, 25902, 0, 0) /* Create Plaguefang's Hide for ContainTreasure_DestinationType */
-     , (25848, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25848, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25848, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25848, 9, 25902, 0, 0, 1, False) /* Create Plaguefang's Hide for ContainTreasure_DestinationType */
+     , (25848, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (25848, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25848, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

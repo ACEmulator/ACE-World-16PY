@@ -88,7 +88,7 @@ VALUES (5063, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5063, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5063, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5063, 2, 12309, 0, 0) /* Create Society Explorer Hat for Wield_DestinationType */
-     , (5063, 2, 12310, 0, 0) /* Create Explorer Society Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5063, 2, 12309, 0, 0, 0, False) /* Create Society Explorer Hat for Wield_DestinationType */
+     , (5063, 2, 12310, 0, 0, 0, False) /* Create Explorer Society Robe for Wield_DestinationType */;
 

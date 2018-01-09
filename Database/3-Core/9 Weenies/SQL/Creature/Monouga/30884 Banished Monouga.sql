@@ -93,8 +93,8 @@ VALUES (30884, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30884, 128, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30884, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30884, 9, 12253, 0, 0) /* Create Monougat for ContainTreasure_DestinationType */
-     , (30884, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30884, 9, 30862, 0, 0) /* Create Banished Nekode for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30884, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
+     , (30884, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
+     , (30884, 9, 30862, 0, 0, 1, False) /* Create Banished Nekode for ContainTreasure_DestinationType */;
 

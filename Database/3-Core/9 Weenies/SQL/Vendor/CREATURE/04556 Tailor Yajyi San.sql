@@ -94,19 +94,19 @@ VALUES (4556, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4556, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4556, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4556, 2, 2591, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (4556, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (4556, 2, 115, 0, 18) /* Create Leather Boots for Wield_DestinationType */
-     , (4556, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (4556, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4556, 4, 2596, -1, 17) /* Create Doublet for Shop_DestinationType */
-     , (4556, 4, 2601, -1, 6) /* Create Pants for Shop_DestinationType */
-     , (4556, 4, 118, -1, 14) /* Create Cap for Shop_DestinationType */
-     , (4556, 4, 129, -1, 14) /* Create Sandals for Shop_DestinationType */
-     , (4556, 4, 5854, -1, 0) /* Create Suikan Robe for Shop_DestinationType */
-     , (4556, 4, 5901, -1, 0) /* Create Kasa for Shop_DestinationType */
-     , (4556, 4, 8372, -1, 18) /* Create Yifan Dress for Shop_DestinationType */
-     , (4556, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (4556, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4556, 2, 2591, 0, 14, 0.8, False) /* Create Shirt for Wield_DestinationType */
+     , (4556, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (4556, 2, 115, 0, 18, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4556, 2, 118, 0, 14, 1, False) /* Create Cap for Wield_DestinationType */
+     , (4556, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4556, 4, 2596, -1, 17, 0.3, False) /* Create Doublet for Shop_DestinationType */
+     , (4556, 4, 2601, -1, 6, 0.4, False) /* Create Pants for Shop_DestinationType */
+     , (4556, 4, 118, -1, 14, 0.2, False) /* Create Cap for Shop_DestinationType */
+     , (4556, 4, 129, -1, 14, 1, False) /* Create Sandals for Shop_DestinationType */
+     , (4556, 4, 5854, -1, 0, 0, False) /* Create Suikan Robe for Shop_DestinationType */
+     , (4556, 4, 5901, -1, 0, 0, False) /* Create Kasa for Shop_DestinationType */
+     , (4556, 4, 8372, -1, 18, 0.8, False) /* Create Yifan Dress for Shop_DestinationType */
+     , (4556, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (4556, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */;
 

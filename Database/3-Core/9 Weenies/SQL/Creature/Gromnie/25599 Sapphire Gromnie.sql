@@ -90,9 +90,9 @@ VALUES (25599, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25599, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25599, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25599, 9, 28198, 0, 0) /* Create Sapphire Gromnie Eye for ContainTreasure_DestinationType */
-     , (25599, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25599, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (25599, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25599, 9, 28198, 0, 0, 0.03, False) /* Create Sapphire Gromnie Eye for ContainTreasure_DestinationType */
+     , (25599, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (25599, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (25599, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

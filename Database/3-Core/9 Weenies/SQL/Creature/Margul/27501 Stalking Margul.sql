@@ -110,7 +110,7 @@ VALUES (27501, 64, 630) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27501, 128, 460) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27501, 256, 460) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27501, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27501, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27501, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27501, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

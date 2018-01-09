@@ -92,6 +92,6 @@ VALUES (26812, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26812, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26812, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26812, 4, 26177, -1, 0) /* Create Filos' Font Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26812, 4, 26177, -1, 0, 0, False) /* Create Filos' Font Cottages Portal Gem for Shop_DestinationType */;
 

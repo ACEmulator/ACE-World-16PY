@@ -109,14 +109,14 @@ VALUES (8272, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8272, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8272, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8272, 9, 8232, 0, 0) /* Create Pumpkin for ContainTreasure_DestinationType */
-     , (8272, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8272, 9, 8232, 0, 0) /* Create Pumpkin for ContainTreasure_DestinationType */
-     , (8272, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8272, 9, 28876, 0, 0) /* Create Scarecrow Legs for ContainTreasure_DestinationType */
-     , (8272, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8272, 2, 8395, 12, 0) /* Create Jack o' Lantern for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8272, 9, 8232, 0, 0, 0.1, False) /* Create Pumpkin for ContainTreasure_DestinationType */
+     , (8272, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (8272, 9, 8232, 0, 0, 0.2, False) /* Create Pumpkin for ContainTreasure_DestinationType */
+     , (8272, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (8272, 9, 28876, 0, 0, 0.05, False) /* Create Scarecrow Legs for ContainTreasure_DestinationType */
+     , (8272, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (8272, 2, 8395, 12, 0, 0, False) /* Create Jack o' Lantern for Wield_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (8272, 0.06, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */

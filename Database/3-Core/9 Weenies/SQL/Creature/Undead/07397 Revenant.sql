@@ -129,8 +129,8 @@ VALUES (7397, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7397, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7397, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7397, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (7397, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7397, 8, 7398, 0, 0) /* Create Laboratory Key for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7397, 9, 5873, 0, 0, 0.03, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (7397, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7397, 8, 7398, 0, 0, 1, False) /* Create Laboratory Key for Treasure_DestinationType */;
 

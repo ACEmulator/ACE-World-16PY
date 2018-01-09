@@ -98,13 +98,13 @@ VALUES (7427, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7427, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7427, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7427, 2, 6754, 0, 0) /* Create Silifi of Crimson Stars for Wield_DestinationType */
-     , (7427, 2, 7429, 0, 0) /* Create Aerlinthe Monarch Shirt for Wield_DestinationType */
-     , (7427, 2, 6612, 0, 21) /* Create Greater Koujia Shadow Leggings for Wield_DestinationType */
-     , (7427, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (7427, 2, 5901, 0, 8) /* Create Kasa for Wield_DestinationType */
-     , (7427, 4, 7429, -1, 0) /* Create Aerlinthe Monarch Shirt for Shop_DestinationType */
-     , (7427, 4, 7428, -1, 0) /* Create Aerlinthe Patron Shirt for Shop_DestinationType */
-     , (7427, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7427, 2, 6754, 0, 0, 0, False) /* Create Silifi of Crimson Stars for Wield_DestinationType */
+     , (7427, 2, 7429, 0, 0, 0, False) /* Create Aerlinthe Monarch Shirt for Wield_DestinationType */
+     , (7427, 2, 6612, 0, 21, 1, False) /* Create Greater Koujia Shadow Leggings for Wield_DestinationType */
+     , (7427, 2, 115, 0, 4, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (7427, 2, 5901, 0, 8, 0.8, False) /* Create Kasa for Wield_DestinationType */
+     , (7427, 4, 7429, -1, 0, 0, False) /* Create Aerlinthe Monarch Shirt for Shop_DestinationType */
+     , (7427, 4, 7428, -1, 0, 0, False) /* Create Aerlinthe Patron Shirt for Shop_DestinationType */
+     , (7427, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */;
 

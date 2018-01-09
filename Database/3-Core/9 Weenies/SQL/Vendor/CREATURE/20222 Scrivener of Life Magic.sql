@@ -98,65 +98,65 @@ VALUES (20222, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20222, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20222, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20222, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (20222, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (20222, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (20222, 2, 10696, 0, 8) /* Create Apron for Wield_DestinationType */
-     , (20222, 4, 15270, -1, 0) /* Create Foci of Verdancy for Shop_DestinationType */
-     , (20222, 4, 4387, -1, 0) /* Create Scroll of Armor Other IV for Shop_DestinationType */
-     , (20222, 4, 4392, -1, 0) /* Create Scroll of Armor Self IV for Shop_DestinationType */
-     , (20222, 4, 2666, -1, 0) /* Create Scroll of Enfeeble Other IV for Shop_DestinationType */
-     , (20222, 4, 2689, -1, 0) /* Create Scroll of Harm Other IV for Shop_DestinationType */
-     , (20222, 4, 2694, -1, 0) /* Create Scroll of Heal Other IV for Shop_DestinationType */
-     , (20222, 4, 2699, -1, 0) /* Create Scroll of Heal Self IV for Shop_DestinationType */
-     , (20222, 4, 2704, -1, 0) /* Create Scroll of Imperil Other IV for Shop_DestinationType */
-     , (20222, 4, 2709, -1, 0) /* Create Scroll of Mana Drain Other IV for Shop_DestinationType */
-     , (20222, 4, 2724, -1, 0) /* Create Scroll of Revitalize Other IV for Shop_DestinationType */
-     , (20222, 4, 2729, -1, 0) /* Create Scroll of Revitalize Self IV for Shop_DestinationType */
-     , (20222, 4, 2975, -1, 0) /* Create Scroll of Acid Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 2980, -1, 0) /* Create Scroll of Acid Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 2985, -1, 0) /* Create Scroll of Acid Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 2990, -1, 0) /* Create Scroll of Blade Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 2995, -1, 0) /* Create Scroll of Blade Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3000, -1, 0) /* Create Scroll of Blade Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3005, -1, 0) /* Create Scroll of Bludgeon Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 3010, -1, 0) /* Create Scroll of Bludgeon Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3015, -1, 0) /* Create Scroll of Bludgeoning Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3020, -1, 0) /* Create Scroll of Cold Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 3025, -1, 0) /* Create Scroll of Cold Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3030, -1, 0) /* Create Scroll of Cold Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3035, -1, 0) /* Create Scroll of Fire Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 3040, -1, 0) /* Create Scroll of Fire Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3045, -1, 0) /* Create Scroll of Fire Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3050, -1, 0) /* Create Scroll of Lightning Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 3055, -1, 0) /* Create Scroll of Lightning Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3060, -1, 0) /* Create Scroll of Lightning Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3065, -1, 0) /* Create Scroll of Piercing Protection Other IV for Shop_DestinationType */
-     , (20222, 4, 3070, -1, 0) /* Create Scroll of Piercing Protection Self IV for Shop_DestinationType */
-     , (20222, 4, 3075, -1, 0) /* Create Scroll of Piercing Vulnerability Other IV for Shop_DestinationType */
-     , (20222, 4, 3080, -1, 0) /* Create Scroll of Exhaustion Other IV for Shop_DestinationType */
-     , (20222, 4, 3085, -1, 0) /* Create Scroll of Fester Other IV for Shop_DestinationType */
-     , (20222, 4, 3095, -1, 0) /* Create Scroll of Mana Depletion Other IV for Shop_DestinationType */
-     , (20222, 4, 3100, -1, 0) /* Create Scroll of Mana Renewal Other IV for Shop_DestinationType */
-     , (20222, 4, 3105, -1, 0) /* Create Scroll of Mana Renewal Self IV for Shop_DestinationType */
-     , (20222, 4, 3110, -1, 0) /* Create Scroll of Regenerate Other IV for Shop_DestinationType */
-     , (20222, 4, 3115, -1, 0) /* Create Scroll of Regenerate Self IV for Shop_DestinationType */
-     , (20222, 4, 3120, -1, 0) /* Create Scroll of Rejuvenate Other IV for Shop_DestinationType */
-     , (20222, 4, 3125, -1, 0) /* Create Scroll of Rejuvenate Self IV for Shop_DestinationType */
-     , (20222, 4, 4220, -1, 0) /* Create Scroll of Drain Health Other IV for Shop_DestinationType */
-     , (20222, 4, 9663, -1, 0) /* Create Scroll of Drain Mana Other IV for Shop_DestinationType */
-     , (20222, 4, 3728, -1, 0) /* Create Scroll of Drain Stamina Other IV for Shop_DestinationType */
-     , (20222, 4, 9632, -1, 0) /* Create Scroll of Health to Mana Self IV for Shop_DestinationType */
-     , (20222, 4, 9637, -1, 0) /* Create Scroll of Health to Stamina Self IV for Shop_DestinationType */
-     , (20222, 4, 3733, -1, 0) /* Create Scroll of Infuse Health IV for Shop_DestinationType */
-     , (20222, 4, 3738, -1, 0) /* Create Scroll of Infuse Mana IV for Shop_DestinationType */
-     , (20222, 4, 3743, -1, 0) /* Create Scroll of Infuse Stamina IV for Shop_DestinationType */
-     , (20222, 4, 9642, -1, 0) /* Create Scroll of Mana to Health Self IV for Shop_DestinationType */
-     , (20222, 4, 9647, -1, 0) /* Create Scroll of Mana to Stamina Self IV for Shop_DestinationType */
-     , (20222, 4, 9652, -1, 0) /* Create Scroll of Stamina to Health Self IV for Shop_DestinationType */
-     , (20222, 4, 9657, -1, 0) /* Create Scroll of Stamina to Mana Self IV for Shop_DestinationType */
-     , (20222, 4, 21105, -1, 0) /* Create Scroll of Martyr's Blight IV for Shop_DestinationType */
-     , (20222, 4, 21112, -1, 0) /* Create Scroll of Martyr's Tenacity IV for Shop_DestinationType */
-     , (20222, 4, 21098, -1, 0) /* Create Scroll of Martyr's Hecatomb IV for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20222, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (20222, 2, 127, 0, 7, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (20222, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (20222, 2, 10696, 0, 8, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (20222, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy for Shop_DestinationType */
+     , (20222, 4, 4387, -1, 0, 0, False) /* Create Scroll of Armor Other IV for Shop_DestinationType */
+     , (20222, 4, 4392, -1, 0, 0, False) /* Create Scroll of Armor Self IV for Shop_DestinationType */
+     , (20222, 4, 2666, -1, 0, 0, False) /* Create Scroll of Enfeeble Other IV for Shop_DestinationType */
+     , (20222, 4, 2689, -1, 0, 0, False) /* Create Scroll of Harm Other IV for Shop_DestinationType */
+     , (20222, 4, 2694, -1, 0, 0, False) /* Create Scroll of Heal Other IV for Shop_DestinationType */
+     , (20222, 4, 2699, -1, 0, 0, False) /* Create Scroll of Heal Self IV for Shop_DestinationType */
+     , (20222, 4, 2704, -1, 0, 0, False) /* Create Scroll of Imperil Other IV for Shop_DestinationType */
+     , (20222, 4, 2709, -1, 0, 0, False) /* Create Scroll of Mana Drain Other IV for Shop_DestinationType */
+     , (20222, 4, 2724, -1, 0, 0, False) /* Create Scroll of Revitalize Other IV for Shop_DestinationType */
+     , (20222, 4, 2729, -1, 0, 0, False) /* Create Scroll of Revitalize Self IV for Shop_DestinationType */
+     , (20222, 4, 2975, -1, 0, 0, False) /* Create Scroll of Acid Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 2980, -1, 0, 0, False) /* Create Scroll of Acid Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 2985, -1, 0, 0, False) /* Create Scroll of Acid Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 2990, -1, 0, 0, False) /* Create Scroll of Blade Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 2995, -1, 0, 0, False) /* Create Scroll of Blade Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3000, -1, 0, 0, False) /* Create Scroll of Blade Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3005, -1, 0, 0, False) /* Create Scroll of Bludgeon Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 3010, -1, 0, 0, False) /* Create Scroll of Bludgeon Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3015, -1, 0, 0, False) /* Create Scroll of Bludgeoning Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3020, -1, 0, 0, False) /* Create Scroll of Cold Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 3025, -1, 0, 0, False) /* Create Scroll of Cold Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3030, -1, 0, 0, False) /* Create Scroll of Cold Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3035, -1, 0, 0, False) /* Create Scroll of Fire Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 3040, -1, 0, 0, False) /* Create Scroll of Fire Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3045, -1, 0, 0, False) /* Create Scroll of Fire Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3050, -1, 0, 0, False) /* Create Scroll of Lightning Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 3055, -1, 0, 0, False) /* Create Scroll of Lightning Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3060, -1, 0, 0, False) /* Create Scroll of Lightning Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3065, -1, 0, 0, False) /* Create Scroll of Piercing Protection Other IV for Shop_DestinationType */
+     , (20222, 4, 3070, -1, 0, 0, False) /* Create Scroll of Piercing Protection Self IV for Shop_DestinationType */
+     , (20222, 4, 3075, -1, 0, 0, False) /* Create Scroll of Piercing Vulnerability Other IV for Shop_DestinationType */
+     , (20222, 4, 3080, -1, 0, 0, False) /* Create Scroll of Exhaustion Other IV for Shop_DestinationType */
+     , (20222, 4, 3085, -1, 0, 0, False) /* Create Scroll of Fester Other IV for Shop_DestinationType */
+     , (20222, 4, 3095, -1, 0, 0, False) /* Create Scroll of Mana Depletion Other IV for Shop_DestinationType */
+     , (20222, 4, 3100, -1, 0, 0, False) /* Create Scroll of Mana Renewal Other IV for Shop_DestinationType */
+     , (20222, 4, 3105, -1, 0, 0, False) /* Create Scroll of Mana Renewal Self IV for Shop_DestinationType */
+     , (20222, 4, 3110, -1, 0, 0, False) /* Create Scroll of Regenerate Other IV for Shop_DestinationType */
+     , (20222, 4, 3115, -1, 0, 0, False) /* Create Scroll of Regenerate Self IV for Shop_DestinationType */
+     , (20222, 4, 3120, -1, 0, 0, False) /* Create Scroll of Rejuvenate Other IV for Shop_DestinationType */
+     , (20222, 4, 3125, -1, 0, 0, False) /* Create Scroll of Rejuvenate Self IV for Shop_DestinationType */
+     , (20222, 4, 4220, -1, 0, 0, False) /* Create Scroll of Drain Health Other IV for Shop_DestinationType */
+     , (20222, 4, 9663, -1, 0, 0, False) /* Create Scroll of Drain Mana Other IV for Shop_DestinationType */
+     , (20222, 4, 3728, -1, 0, 0, False) /* Create Scroll of Drain Stamina Other IV for Shop_DestinationType */
+     , (20222, 4, 9632, -1, 0, 0, False) /* Create Scroll of Health to Mana Self IV for Shop_DestinationType */
+     , (20222, 4, 9637, -1, 0, 0, False) /* Create Scroll of Health to Stamina Self IV for Shop_DestinationType */
+     , (20222, 4, 3733, -1, 0, 0, False) /* Create Scroll of Infuse Health IV for Shop_DestinationType */
+     , (20222, 4, 3738, -1, 0, 0, False) /* Create Scroll of Infuse Mana IV for Shop_DestinationType */
+     , (20222, 4, 3743, -1, 0, 0, False) /* Create Scroll of Infuse Stamina IV for Shop_DestinationType */
+     , (20222, 4, 9642, -1, 0, 0, False) /* Create Scroll of Mana to Health Self IV for Shop_DestinationType */
+     , (20222, 4, 9647, -1, 0, 0, False) /* Create Scroll of Mana to Stamina Self IV for Shop_DestinationType */
+     , (20222, 4, 9652, -1, 0, 0, False) /* Create Scroll of Stamina to Health Self IV for Shop_DestinationType */
+     , (20222, 4, 9657, -1, 0, 0, False) /* Create Scroll of Stamina to Mana Self IV for Shop_DestinationType */
+     , (20222, 4, 21105, -1, 0, 0, False) /* Create Scroll of Martyr's Blight IV for Shop_DestinationType */
+     , (20222, 4, 21112, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity IV for Shop_DestinationType */
+     , (20222, 4, 21098, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb IV for Shop_DestinationType */;
 

@@ -109,8 +109,8 @@ VALUES (28386, 64, 295) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28386, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28386, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28386, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (28386, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28386, 9, 28342, 0, 0) /* Create Small Bloodstone Shard for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28386, 9, 28984, 0, 0, 0.05, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (28386, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (28386, 9, 28342, 0, 0, 1, False) /* Create Small Bloodstone Shard for ContainTreasure_DestinationType */;
 

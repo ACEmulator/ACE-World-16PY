@@ -106,6 +106,6 @@ VALUES (30638, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30638, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30638, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30638, 9, 30748, 0, 0) /* Create Crude Carving for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30638, 9, 30748, 0, 0, 1, False) /* Create Crude Carving for ContainTreasure_DestinationType */;
 

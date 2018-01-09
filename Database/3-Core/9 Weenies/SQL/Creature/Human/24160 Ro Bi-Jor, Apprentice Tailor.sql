@@ -88,8 +88,8 @@ VALUES (24160, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24160, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24160, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24160, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (24160, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (24160, 2, 2606, 0, 4) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24160, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (24160, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (24160, 2, 2606, 0, 4, 0.8, False) /* Create Boots for Wield_DestinationType */;
 

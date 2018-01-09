@@ -91,11 +91,11 @@ VALUES (27508, 64, 4700) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27508, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27508, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27508, 9, 11692, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (27508, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27508, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (27508, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27508, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27508, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27508, 9, 11692, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (27508, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27508, 9, 22578, 0, 0, 0.1, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (27508, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (27508, 9, 27305, 0, 0, 0.015, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27508, 9, 0, 0, 0, 0.985, False) /* Create  for ContainTreasure_DestinationType */;
 

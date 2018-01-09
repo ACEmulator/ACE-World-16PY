@@ -105,11 +105,11 @@ VALUES (2585, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2585, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2585, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2585, 9, 7046, 0, 0) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
-     , (2585, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2585, 9, 9258, 0, 0) /* Create Sclavus Hide for ContainTreasure_DestinationType */
-     , (2585, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2585, 9, 20861, 0, 0) /* Create Moons Stamp for ContainTreasure_DestinationType */
-     , (2585, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2585, 9, 7046, 0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
+     , (2585, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (2585, 9, 9258, 0, 0, 0.03, False) /* Create Sclavus Hide for ContainTreasure_DestinationType */
+     , (2585, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (2585, 9, 20861, 0, 0, 0.01, False) /* Create Moons Stamp for ContainTreasure_DestinationType */
+     , (2585, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

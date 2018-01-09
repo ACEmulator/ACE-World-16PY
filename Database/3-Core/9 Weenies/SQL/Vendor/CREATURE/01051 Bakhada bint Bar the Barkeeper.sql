@@ -94,29 +94,29 @@ VALUES (1051, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1051, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1051, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1051, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (1051, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (1051, 2, 133, 0, 14) /* Create Slippers for Wield_DestinationType */
-     , (1051, 2, 128, 0, 16) /* Create Qafiya for Wield_DestinationType */
-     , (1051, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1051, 4, 548, -1, 0) /* Create Bowl of Rice for Shop_DestinationType */
-     , (1051, 4, 549, -1, 0) /* Create Bowl of Stew for Shop_DestinationType */
-     , (1051, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (1051, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1051, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (1051, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (1051, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1051, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (1051, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (1051, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (1051, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (1051, 4, 265, -1, 0) /* Create Meat for Shop_DestinationType */
-     , (1051, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (1051, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (1051, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (1051, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (1051, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (1051, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (1051, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1051, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (1051, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (1051, 2, 133, 0, 14, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (1051, 2, 128, 0, 16, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (1051, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1051, 4, 548, -1, 0, 0, False) /* Create Bowl of Rice for Shop_DestinationType */
+     , (1051, 4, 549, -1, 0, 0, False) /* Create Bowl of Stew for Shop_DestinationType */
+     , (1051, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (1051, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1051, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (1051, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (1051, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1051, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (1051, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (1051, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (1051, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (1051, 4, 265, -1, 0, 0, False) /* Create Meat for Shop_DestinationType */
+     , (1051, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (1051, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (1051, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (1051, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (1051, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (1051, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (1051, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */;
 

@@ -128,13 +128,13 @@ VALUES (12228, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12228, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12228, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12228, 9, 12255, 0, 0) /* Create Mummified Piece of Skin for ContainTreasure_DestinationType */
-     , (12228, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12228, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (12228, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12228, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12228, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12228, 9, 12255, 0, 0, 0.08, False) /* Create Mummified Piece of Skin for ContainTreasure_DestinationType */
+     , (12228, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (12228, 9, 6058, 0, 0, 0.02, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (12228, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (12228, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (12228, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12228, 0.33, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Umbris Shadow (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

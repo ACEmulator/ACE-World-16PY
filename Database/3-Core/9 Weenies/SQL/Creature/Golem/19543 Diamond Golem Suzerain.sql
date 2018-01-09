@@ -109,15 +109,15 @@ VALUES (19543, 64, 17700) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19543, 128, 17400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19543, 256, 910) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19543, 9, 7338, 0, 0) /* Create Diamond Heart for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (19543, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (19543, 9, 6354, 0, 0) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (19543, 9, 12689, 0, 0) /* Create Diamond Powder for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19543, 9, 7338, 0, 0, 0.15, False) /* Create Diamond Heart for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */
+     , (19543, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (19543, 9, 6354, 0, 0, 0.04, False) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (19543, 9, 12689, 0, 0, 0.04, False) /* Create Diamond Powder for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (19543, -1, 7094, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Synnast (x6 up to max of 6) - Destruction_RegenerationType - Scatter_RegenLocationType */;

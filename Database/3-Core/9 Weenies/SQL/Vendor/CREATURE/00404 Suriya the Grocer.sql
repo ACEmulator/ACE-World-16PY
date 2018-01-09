@@ -93,22 +93,22 @@ VALUES (404, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (404, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (404, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (404, 2, 130, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (404, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (404, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (404, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (404, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 14) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 2) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 13) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 9) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 61) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 166, -1, 77) /* Create Sack for Shop_DestinationType */
-     , (404, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (404, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (404, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (404, 2, 130, 0, 4, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (404, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (404, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (404, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (404, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 14, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 2, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 13, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 9, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 61, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 166, -1, 77, 1, False) /* Create Sack for Shop_DestinationType */
+     , (404, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (404, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (404, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */;
 

@@ -138,20 +138,20 @@ VALUES (10950, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10950, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10950, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10950, 2, 10995, 0, 0) /* Create Ebon Spine Harpoon for Wield_DestinationType */
-     , (10950, 9, 10997, 10, 0) /* Create Ebon Spine Harpoon for ContainTreasure_DestinationType */
-     , (10950, 1, 10996, 1, 0) /* Create Ebon Spine Harpoon for Contain_DestinationType */
-     , (10950, 1, 10960, 1, 0) /* Create Clay Figurine for Contain_DestinationType */
-     , (10950, 9, 4237, 0, 0) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 4236, 0, 0) /* Create Ivory Gromnie Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 4235, 0, 0) /* Create Thin Gromnie Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10950, 9, 4241, 0, 0) /* Create Mattekar Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 4240, 0, 0) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 9412, 0, 0) /* Create Dire Mattekar Paw for ContainTreasure_DestinationType */
-     , (10950, 9, 9413, 0, 0) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
-     , (10950, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10950, 2, 10995, 0, 0, 1, False) /* Create Ebon Spine Harpoon for Wield_DestinationType */
+     , (10950, 9, 10997, 10, 0, 1, False) /* Create Ebon Spine Harpoon for ContainTreasure_DestinationType */
+     , (10950, 1, 10996, 1, 0, 1, False) /* Create Ebon Spine Harpoon for Contain_DestinationType */
+     , (10950, 1, 10960, 1, 0, 1, False) /* Create Clay Figurine for Contain_DestinationType */
+     , (10950, 9, 4237, 0, 0, 0.7, False) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
+     , (10950, 9, 4236, 0, 0, 0.2, False) /* Create Ivory Gromnie Hide for ContainTreasure_DestinationType */
+     , (10950, 9, 4235, 0, 0, 0.1, False) /* Create Thin Gromnie Hide for ContainTreasure_DestinationType */
+     , (10950, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (10950, 9, 4241, 0, 0, 0.7, False) /* Create Mattekar Hide for ContainTreasure_DestinationType */
+     , (10950, 9, 4240, 0, 0, 0.2, False) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
+     , (10950, 9, 9412, 0, 0, 0.05, False) /* Create Dire Mattekar Paw for ContainTreasure_DestinationType */
+     , (10950, 9, 9413, 0, 0, 0.05, False) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
+     , (10950, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (10950, -1, 11508, 90, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Aun Elder Shaman (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */

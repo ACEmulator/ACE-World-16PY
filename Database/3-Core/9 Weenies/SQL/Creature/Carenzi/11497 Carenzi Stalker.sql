@@ -86,7 +86,7 @@ VALUES (11497, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11497, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11497, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11497, 9, 12235, 0, 0) /* Create Carenzi Stalker Pelt for ContainTreasure_DestinationType */
-     , (11497, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11497, 9, 12235, 0, 0, 0.05, False) /* Create Carenzi Stalker Pelt for ContainTreasure_DestinationType */
+     , (11497, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

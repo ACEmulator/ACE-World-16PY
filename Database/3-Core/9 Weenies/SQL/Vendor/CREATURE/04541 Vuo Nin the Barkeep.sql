@@ -94,37 +94,37 @@ VALUES (4541, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4541, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4541, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4541, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (4541, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (4541, 2, 2606, 0, 14) /* Create Boots for Wield_DestinationType */
-     , (4541, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4541, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (4541, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (4541, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (4541, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (4541, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4541, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (4541, 4, 4738, -1, 0) /* Create Mushroom Rice for Shop_DestinationType */
-     , (4541, 4, 4711, -1, 0) /* Create Beef Noodle for Shop_DestinationType */
-     , (4541, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (4541, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (4541, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (4541, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (4541, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (4541, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (4541, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (4541, 4, 5657, -1, 0) /* Create Directions to the Thieves' Galleries for Shop_DestinationType */
-     , (4541, 4, 28242, -1, 0) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
-     , (4541, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (4541, 4, 24223, -1, 0) /* Create A Sparking Stone for Shop_DestinationType */
-     , (4541, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */
-     , (4541, 4, 27991, -1, 0) /* Create Golem Burial Grounds for Shop_DestinationType */
-     , (4541, 4, 27992, -1, 0) /* Create Rocky Crypt Directions for Shop_DestinationType */
-     , (4541, 4, 27993, -1, 0) /* Create Small Ruin Directions for Shop_DestinationType */
-     , (4541, 4, 27994, -1, 0) /* Create Empyrean Shrine for Shop_DestinationType */
-     , (4541, 4, 27995, -1, 0) /* Create The Golem Spire for Shop_DestinationType */
-     , (4541, 4, 27996, -1, 0) /* Create The Old Keep for Shop_DestinationType */
-     , (4541, 4, 27997, -1, 0) /* Create The Abandoned Training Camp for Shop_DestinationType */
-     , (4541, 4, 27998, -1, 0) /* Create The Dead Cave for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4541, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (4541, 2, 117, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (4541, 2, 2606, 0, 14, 0.8, False) /* Create Boots for Wield_DestinationType */
+     , (4541, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4541, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (4541, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (4541, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (4541, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (4541, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4541, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (4541, 4, 4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop_DestinationType */
+     , (4541, 4, 4711, -1, 0, 0, False) /* Create Beef Noodle for Shop_DestinationType */
+     , (4541, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (4541, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (4541, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (4541, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (4541, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (4541, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (4541, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (4541, 4, 5657, -1, 0, 0, False) /* Create Directions to the Thieves' Galleries for Shop_DestinationType */
+     , (4541, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
+     , (4541, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (4541, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone for Shop_DestinationType */
+     , (4541, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */
+     , (4541, 4, 27991, -1, 0, 0, False) /* Create Golem Burial Grounds for Shop_DestinationType */
+     , (4541, 4, 27992, -1, 0, 0, False) /* Create Rocky Crypt Directions for Shop_DestinationType */
+     , (4541, 4, 27993, -1, 0, 0, False) /* Create Small Ruin Directions for Shop_DestinationType */
+     , (4541, 4, 27994, -1, 0, 0, False) /* Create Empyrean Shrine for Shop_DestinationType */
+     , (4541, 4, 27995, -1, 0, 0, False) /* Create The Golem Spire for Shop_DestinationType */
+     , (4541, 4, 27996, -1, 0, 0, False) /* Create The Old Keep for Shop_DestinationType */
+     , (4541, 4, 27997, -1, 0, 0, False) /* Create The Abandoned Training Camp for Shop_DestinationType */
+     , (4541, 4, 27998, -1, 0, 0, False) /* Create The Dead Cave for Shop_DestinationType */;
 

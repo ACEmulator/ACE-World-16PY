@@ -93,13 +93,13 @@ VALUES (5636, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5636, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5636, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5636, 2, 46, 0, 8) /* Create Metal Cap for Wield_DestinationType */
-     , (5636, 2, 2587, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (5636, 2, 2601, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (5636, 2, 414, 0, 14) /* Create Chainmail Breastplate for Wield_DestinationType */
-     , (5636, 2, 415, 0, 19) /* Create Chainmail Girth for Wield_DestinationType */
-     , (5636, 2, 84, 0, 11) /* Create Studded Leather Leggings for Wield_DestinationType */
-     , (5636, 2, 122, 0, 11) /* Create Soft Leather Gloves for Wield_DestinationType */
-     , (5636, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5636, 2, 46, 0, 8, 1, False) /* Create Metal Cap for Wield_DestinationType */
+     , (5636, 2, 2587, 0, 4, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (5636, 2, 2601, 0, 4, 1, False) /* Create Pants for Wield_DestinationType */
+     , (5636, 2, 414, 0, 14, 1, False) /* Create Chainmail Breastplate for Wield_DestinationType */
+     , (5636, 2, 415, 0, 19, 1, False) /* Create Chainmail Girth for Wield_DestinationType */
+     , (5636, 2, 84, 0, 11, 1, False) /* Create Studded Leather Leggings for Wield_DestinationType */
+     , (5636, 2, 122, 0, 11, 1, False) /* Create Soft Leather Gloves for Wield_DestinationType */
+     , (5636, 2, 2606, 0, 9, 0.8, False) /* Create Boots for Wield_DestinationType */;
 

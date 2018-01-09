@@ -94,24 +94,24 @@ VALUES (2221, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2221, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2221, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2221, 2, 124, 0, 18) /* Create Jerkin for Wield_DestinationType */
-     , (2221, 2, 127, 0, 18) /* Create Pants for Wield_DestinationType */
-     , (2221, 2, 115, 0, 18) /* Create Leather Boots for Wield_DestinationType */
-     , (2221, 2, 118, 0, 4) /* Create Cap for Wield_DestinationType */
-     , (2221, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (2221, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (2221, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2221, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (2221, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (2221, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (2221, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (2221, 4, 5090, -1, 0) /* Create Bruised Apple for Shop_DestinationType */
-     , (2221, 4, 5759, -1, 0) /* Create Fruitcake for Shop_DestinationType */
-     , (2221, 4, 5089, -1, 0) /* Create Old Cheese for Shop_DestinationType */
-     , (2221, 4, 5088, -1, 0) /* Create Stale Bread for Shop_DestinationType */
-     , (2221, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (2221, 4, 2477, -1, 0) /* Create Tumerok Fortress Rumor for Shop_DestinationType */
-     , (2221, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (2221, 4, 26642, -1, 0) /* Create Skeleton Raids for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2221, 2, 124, 0, 18, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (2221, 2, 127, 0, 18, 1, False) /* Create Pants for Wield_DestinationType */
+     , (2221, 2, 115, 0, 18, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2221, 2, 118, 0, 4, 0.8, False) /* Create Cap for Wield_DestinationType */
+     , (2221, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2221, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (2221, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2221, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (2221, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (2221, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (2221, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (2221, 4, 5090, -1, 0, 0, False) /* Create Bruised Apple for Shop_DestinationType */
+     , (2221, 4, 5759, -1, 0, 0, False) /* Create Fruitcake for Shop_DestinationType */
+     , (2221, 4, 5089, -1, 0, 0, False) /* Create Old Cheese for Shop_DestinationType */
+     , (2221, 4, 5088, -1, 0, 0, False) /* Create Stale Bread for Shop_DestinationType */
+     , (2221, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (2221, 4, 2477, -1, 0, 0, False) /* Create Tumerok Fortress Rumor for Shop_DestinationType */
+     , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (2221, 4, 26642, -1, 0, 0, False) /* Create Skeleton Raids for Shop_DestinationType */;
 

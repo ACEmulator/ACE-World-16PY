@@ -129,6 +129,6 @@ VALUES (9381, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9381, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9381, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9381, 1, 8812, 0, 0) /* Create Esard's Life Magic Scroll for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9381, 1, 8812, 0, 0, 1, False) /* Create Esard's Life Magic Scroll for Contain_DestinationType */;
 

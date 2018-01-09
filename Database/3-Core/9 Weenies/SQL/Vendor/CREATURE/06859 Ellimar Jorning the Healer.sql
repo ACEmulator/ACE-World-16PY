@@ -106,41 +106,41 @@ VALUES (6859, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6859, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6859, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6859, 2, 124, 0, 16) /* Create Jerkin for Wield_DestinationType */
-     , (6859, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (6859, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (6859, 2, 119, 0, 4) /* Create Cowl for Wield_DestinationType */
-     , (6859, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (6859, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (6859, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (6859, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (6859, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (6859, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (6859, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (6859, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (6859, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (6859, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (6859, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (6859, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (6859, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (6859, 4, 632, -1, 0) /* Create Peerless Healing Kit for Shop_DestinationType */
-     , (6859, 4, 9229, -1, 0) /* Create Treated Healing Kit for Shop_DestinationType */
-     , (6859, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (6859, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (6859, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (6859, 4, 753, -1, 0) /* Create Brimstone for Shop_DestinationType */
-     , (6859, 4, 754, -1, 0) /* Create Cadmia for Shop_DestinationType */
-     , (6859, 4, 755, -1, 0) /* Create Cinnabar for Shop_DestinationType */
-     , (6859, 4, 756, -1, 0) /* Create Cobalt for Shop_DestinationType */
-     , (6859, 4, 757, -1, 0) /* Create Colcothar for Shop_DestinationType */
-     , (6859, 4, 758, -1, 0) /* Create Gypsum for Shop_DestinationType */
-     , (6859, 4, 759, -1, 0) /* Create Quicksilver for Shop_DestinationType */
-     , (6859, 4, 760, -1, 0) /* Create Realgar for Shop_DestinationType */
-     , (6859, 4, 761, -1, 0) /* Create Stibnite for Shop_DestinationType */
-     , (6859, 4, 762, -1, 0) /* Create Turpeth for Shop_DestinationType */
-     , (6859, 4, 763, -1, 0) /* Create Verdigris for Shop_DestinationType */
-     , (6859, 4, 764, -1, 0) /* Create Vitriol for Shop_DestinationType */
-     , (6859, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (6859, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6859, 2, 124, 0, 16, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (6859, 2, 117, 0, 9, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (6859, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (6859, 2, 119, 0, 4, 0.6, False) /* Create Cowl for Wield_DestinationType */
+     , (6859, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (6859, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (6859, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (6859, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (6859, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (6859, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (6859, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (6859, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (6859, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (6859, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (6859, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (6859, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (6859, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (6859, 4, 632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop_DestinationType */
+     , (6859, 4, 9229, -1, 0, 0, False) /* Create Treated Healing Kit for Shop_DestinationType */
+     , (6859, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (6859, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (6859, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (6859, 4, 753, -1, 0, 0, False) /* Create Brimstone for Shop_DestinationType */
+     , (6859, 4, 754, -1, 0, 0, False) /* Create Cadmia for Shop_DestinationType */
+     , (6859, 4, 755, -1, 0, 0, False) /* Create Cinnabar for Shop_DestinationType */
+     , (6859, 4, 756, -1, 0, 0, False) /* Create Cobalt for Shop_DestinationType */
+     , (6859, 4, 757, -1, 0, 0, False) /* Create Colcothar for Shop_DestinationType */
+     , (6859, 4, 758, -1, 0, 0, False) /* Create Gypsum for Shop_DestinationType */
+     , (6859, 4, 759, -1, 0, 0, False) /* Create Quicksilver for Shop_DestinationType */
+     , (6859, 4, 760, -1, 0, 0, False) /* Create Realgar for Shop_DestinationType */
+     , (6859, 4, 761, -1, 0, 0, False) /* Create Stibnite for Shop_DestinationType */
+     , (6859, 4, 762, -1, 0, 0, False) /* Create Turpeth for Shop_DestinationType */
+     , (6859, 4, 763, -1, 0, 0, False) /* Create Verdigris for Shop_DestinationType */
+     , (6859, 4, 764, -1, 0, 0, False) /* Create Vitriol for Shop_DestinationType */
+     , (6859, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (6859, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

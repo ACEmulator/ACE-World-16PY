@@ -88,6 +88,6 @@ VALUES (14465, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14465, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14465, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14465, 1, 14445, 1, 0) /* Create A Cryptic Note for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14465, 1, 14445, 1, 0, 0, False) /* Create A Cryptic Note for Contain_DestinationType */;
 

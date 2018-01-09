@@ -89,11 +89,11 @@ VALUES (25585, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25585, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25585, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25585, 2, 23797, 0, 0) /* Create Plated Celdon Breastplate for Wield_DestinationType */
-     , (25585, 2, 23845, 0, 0) /* Create Plated Koujia Sleeves for Wield_DestinationType */
-     , (25585, 2, 23789, 0, 0) /* Create Plated Amuli Leggings for Wield_DestinationType */
-     , (25585, 2, 21150, 0, 20) /* Create Covenant Sollerets for Wield_DestinationType */
-     , (25585, 2, 21153, 0, 20) /* Create Covenant Gauntlets for Wield_DestinationType */
-     , (25585, 2, 25557, 0, 0) /* Create Eye Patch for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25585, 2, 23797, 0, 0, 0, False) /* Create Plated Celdon Breastplate for Wield_DestinationType */
+     , (25585, 2, 23845, 0, 0, 0, False) /* Create Plated Koujia Sleeves for Wield_DestinationType */
+     , (25585, 2, 23789, 0, 0, 0, False) /* Create Plated Amuli Leggings for Wield_DestinationType */
+     , (25585, 2, 21150, 0, 20, 0.1, False) /* Create Covenant Sollerets for Wield_DestinationType */
+     , (25585, 2, 21153, 0, 20, 0.1, False) /* Create Covenant Gauntlets for Wield_DestinationType */
+     , (25585, 2, 25557, 0, 0, 0, False) /* Create Eye Patch for Wield_DestinationType */;
 

@@ -94,9 +94,9 @@ VALUES (24955, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24955, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24955, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24955, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24955, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24955, 9, 7043, 0, 0) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (24955, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24955, 9, 6876, 0, 0, 0.018, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24955, 9, 0, 0, 0, 0.985, False) /* Create  for ContainTreasure_DestinationType */
+     , (24955, 9, 7043, 0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
+     , (24955, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -94,51 +94,51 @@ VALUES (2536, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2536, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2536, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2536, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (2536, 2, 117, 0, 4) /* Create Breeches for Wield_DestinationType */
-     , (2536, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (2536, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2536, 4, 321, -1, 0) /* Create Jitte for Shop_DestinationType */
-     , (2536, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (2536, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (2536, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (2536, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (2536, 4, 361, -1, 0) /* Create Yaoji for Shop_DestinationType */
-     , (2536, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (2536, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (2536, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (2536, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (2536, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (2536, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (2536, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (2536, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (2536, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (2536, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (2536, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (2536, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (2536, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (2536, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (2536, 4, 363, -1, 0) /* Create Yumi for Shop_DestinationType */
-     , (2536, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (2536, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (2536, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (2536, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (2536, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2536, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (2536, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (2536, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (2536, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (2536, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2536, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (2536, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (2536, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (2536, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (2536, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (2536, 4, 138, -1, 93) /* Create Belt Pouch for Shop_DestinationType */
-     , (2536, 4, 139, -1, 93) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (2536, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (2536, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (2536, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (2536, 4, 28242, -1, 0) /* Create Directions to the Lugian Citadels for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2536, 2, 124, 0, 9, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (2536, 2, 117, 0, 4, 0.6, False) /* Create Breeches for Wield_DestinationType */
+     , (2536, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2536, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2536, 4, 321, -1, 0, 0, False) /* Create Jitte for Shop_DestinationType */
+     , (2536, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (2536, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (2536, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (2536, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (2536, 4, 361, -1, 0, 0, False) /* Create Yaoji for Shop_DestinationType */
+     , (2536, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (2536, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (2536, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (2536, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (2536, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (2536, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (2536, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (2536, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (2536, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (2536, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (2536, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (2536, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (2536, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (2536, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (2536, 4, 363, -1, 0, 0, False) /* Create Yumi for Shop_DestinationType */
+     , (2536, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (2536, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (2536, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (2536, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (2536, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2536, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (2536, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (2536, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (2536, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (2536, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2536, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (2536, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (2536, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (2536, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (2536, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (2536, 4, 138, -1, 93, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (2536, 4, 139, -1, 93, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (2536, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (2536, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (2536, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (2536, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop_DestinationType */;
 

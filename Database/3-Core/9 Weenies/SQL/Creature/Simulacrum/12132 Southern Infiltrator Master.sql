@@ -130,10 +130,10 @@ VALUES (12132, 64, 104) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12132, 128, 104) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12132, 256, 112) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12132, 2, 6046, 0, 2) /* Create Amuli Coat for Wield_DestinationType */
-     , (12132, 2, 6047, 0, 2) /* Create Amuli Leggings for Wield_DestinationType */
-     , (12132, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (12132, 1, 12138, 0, 0) /* Create Helm of the Simulacra for Contain_DestinationType */
-     , (12132, 1, 12145, 0, 0) /* Create Southern Infiltrator Message Shard for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12132, 2, 6046, 0, 2, 0.6, False) /* Create Amuli Coat for Wield_DestinationType */
+     , (12132, 2, 6047, 0, 2, 0.6, False) /* Create Amuli Leggings for Wield_DestinationType */
+     , (12132, 2, 132, 0, 9, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (12132, 1, 12138, 0, 0, 0, False) /* Create Helm of the Simulacra for Contain_DestinationType */
+     , (12132, 1, 12145, 0, 0, 0, False) /* Create Southern Infiltrator Message Shard for Contain_DestinationType */;
 

@@ -97,7 +97,7 @@ VALUES (26005, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26005, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26005, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26005, 2, 7973, 0, 0) /* Create Flaming Tachi for Wield_DestinationType */
-     , (26005, 9, 26004, 0, 0) /* Create Crown of Bone for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26005, 2, 7973, 0, 0, 0, False) /* Create Flaming Tachi for Wield_DestinationType */
+     , (26005, 9, 26004, 0, 0, 1, False) /* Create Crown of Bone for ContainTreasure_DestinationType */;
 

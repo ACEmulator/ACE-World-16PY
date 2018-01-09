@@ -119,23 +119,23 @@ VALUES (4104, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4104, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4104, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4104, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (4104, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4104, 9, 3695, 0, 0) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (4104, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4104, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (4104, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4104, 8, 301, 0, 0) /* Create Battle Axe for Treasure_DestinationType */
-     , (4104, 8, 350, 0, 0) /* Create Broad Sword for Treasure_DestinationType */
-     , (4104, 8, 324, 0, 0) /* Create Kaskara for Treasure_DestinationType */
-     , (4104, 8, 327, 0, 0) /* Create Ken for Treasure_DestinationType */
-     , (4104, 8, 351, 0, 0) /* Create Long Sword for Treasure_DestinationType */
-     , (4104, 8, 332, 0, 0) /* Create Morning Star for Treasure_DestinationType */
-     , (4104, 8, 336, 0, 0) /* Create Ono for Treasure_DestinationType */
-     , (4104, 8, 339, 0, 0) /* Create Scimitar for Treasure_DestinationType */
-     , (4104, 8, 340, 0, 0) /* Create Shamshir for Treasure_DestinationType */
-     , (4104, 8, 344, 0, 0) /* Create Silifi for Treasure_DestinationType */
-     , (4104, 8, 353, 0, 0) /* Create Tachi for Treasure_DestinationType */
-     , (4104, 8, 354, 0, 0) /* Create Takuba for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4104, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (4104, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (4104, 9, 3695, 0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
+     , (4104, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (4104, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (4104, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (4104, 8, 301, 0, 0, 0.14, False) /* Create Battle Axe for Treasure_DestinationType */
+     , (4104, 8, 350, 0, 0, 0.07, False) /* Create Broad Sword for Treasure_DestinationType */
+     , (4104, 8, 324, 0, 0, 0.06, False) /* Create Kaskara for Treasure_DestinationType */
+     , (4104, 8, 327, 0, 0, 0.06, False) /* Create Ken for Treasure_DestinationType */
+     , (4104, 8, 351, 0, 0, 0.06, False) /* Create Long Sword for Treasure_DestinationType */
+     , (4104, 8, 332, 0, 0, 0.08, False) /* Create Morning Star for Treasure_DestinationType */
+     , (4104, 8, 336, 0, 0, 0.13, False) /* Create Ono for Treasure_DestinationType */
+     , (4104, 8, 339, 0, 0, 0.06, False) /* Create Scimitar for Treasure_DestinationType */
+     , (4104, 8, 340, 0, 0, 0.06, False) /* Create Shamshir for Treasure_DestinationType */
+     , (4104, 8, 344, 0, 0, 0.13, False) /* Create Silifi for Treasure_DestinationType */
+     , (4104, 8, 353, 0, 0, 0.06, False) /* Create Tachi for Treasure_DestinationType */
+     , (4104, 8, 354, 0, 0, 0.06, False) /* Create Takuba for Treasure_DestinationType */;
 

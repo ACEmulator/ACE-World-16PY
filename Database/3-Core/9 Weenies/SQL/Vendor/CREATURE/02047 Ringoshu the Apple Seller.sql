@@ -93,14 +93,14 @@ VALUES (2047, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2047, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2047, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2047, 2, 130, 0, 5) /* Create Shirt for Wield_DestinationType */
-     , (2047, 2, 117, 0, 13) /* Create Breeches for Wield_DestinationType */
-     , (2047, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2047, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (2047, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (2047, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2047, 4, 1447, -1, 0) /* Create Tart Apple for Shop_DestinationType */
-     , (2047, 4, 2193, -1, 0) /* Create Trothyr's Rest Key for Shop_DestinationType */
-     , (2047, 4, 2327, -1, 0) /* Create Trothyr's Rest Rumor for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2047, 2, 130, 0, 5, 0.67, False) /* Create Shirt for Wield_DestinationType */
+     , (2047, 2, 117, 0, 13, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (2047, 2, 132, 0, 9, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2047, 2, 10696, 0, 13, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2047, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (2047, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2047, 4, 1447, -1, 0, 0, False) /* Create Tart Apple for Shop_DestinationType */
+     , (2047, 4, 2193, -1, 0, 0, False) /* Create Trothyr's Rest Key for Shop_DestinationType */
+     , (2047, 4, 2327, -1, 0, 0, False) /* Create Trothyr's Rest Rumor for Shop_DestinationType */;
 

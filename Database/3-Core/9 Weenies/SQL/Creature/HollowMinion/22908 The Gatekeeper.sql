@@ -91,47 +91,47 @@ VALUES (22908, 64, 425) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22908, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22908, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22908, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 22922, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22908, 9, 25947, 0, 0) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
-     , (22908, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22908, 9, 9292, 0, 0, 0.05, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 22922, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22908, 9, 25947, 0, 0, 1, False) /* Create Dark Ruby Ring for ContainTreasure_DestinationType */
+     , (22908, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

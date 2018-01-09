@@ -94,16 +94,16 @@ VALUES (5640, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5640, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5640, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5640, 2, 2590, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (5640, 2, 2604, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (5640, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (5640, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (5640, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (5640, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (5640, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (5640, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (5640, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (5640, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (5640, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5640, 2, 2590, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (5640, 2, 2604, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (5640, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5640, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (5640, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (5640, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (5640, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (5640, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (5640, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (5640, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (5640, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */;
 

@@ -94,21 +94,21 @@ VALUES (1813, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1813, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1813, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1813, 2, 134, 0, 6) /* Create Tunic for Wield_DestinationType */
-     , (1813, 2, 127, 0, 18) /* Create Pants for Wield_DestinationType */
-     , (1813, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (1813, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (1813, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1813, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (1813, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (1813, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (1813, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (1813, 4, 2459, -1, 0) /* Create Kumiss for Shop_DestinationType */
-     , (1813, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (1813, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1813, 4, 4714, -1, 0) /* Create Chicken Kebab for Shop_DestinationType */
-     , (1813, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (1813, 4, 4209, -1, 0) /* Create Dungeon Binar Directions for Shop_DestinationType */
-     , (1813, 4, 12146, -1, 0) /* Create Simulacra Rumor for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1813, 2, 134, 0, 6, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (1813, 2, 127, 0, 18, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1813, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (1813, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */
+     , (1813, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1813, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (1813, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (1813, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (1813, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (1813, 4, 2459, -1, 0, 0, False) /* Create Kumiss for Shop_DestinationType */
+     , (1813, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (1813, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1813, 4, 4714, -1, 0, 0, False) /* Create Chicken Kebab for Shop_DestinationType */
+     , (1813, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (1813, 4, 4209, -1, 0, 0, False) /* Create Dungeon Binar Directions for Shop_DestinationType */
+     , (1813, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop_DestinationType */;
 

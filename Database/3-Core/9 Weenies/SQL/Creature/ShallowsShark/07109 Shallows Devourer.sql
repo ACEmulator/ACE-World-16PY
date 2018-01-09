@@ -88,8 +88,8 @@ VALUES (7109, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7109, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7109, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7109, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7109, 9, 22253, 0, 0) /* Create Ulgrim's Scroll for ContainTreasure_DestinationType */
-     , (7109, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7109, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7109, 9, 22253, 0, 0, 0.0005, False) /* Create Ulgrim's Scroll for ContainTreasure_DestinationType */
+     , (7109, 9, 0, 0, 0, 0.9895, False) /* Create  for ContainTreasure_DestinationType */;
 

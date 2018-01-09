@@ -93,7 +93,7 @@ VALUES (9206, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9206, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9206, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9206, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (9206, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9206, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (9206, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */;
 

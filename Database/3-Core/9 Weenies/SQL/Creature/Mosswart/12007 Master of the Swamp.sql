@@ -118,11 +118,11 @@ VALUES (12007, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12007, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12007, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12007, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (12007, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12007, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (12007, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12007, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (12007, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (12007, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (12007, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12007, 0.25, 1619, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Shaman (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

@@ -84,9 +84,9 @@ VALUES (1612, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1612, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1612, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1612, 9, 28205, 0, 0) /* Create Azure Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1612, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1612, 9, 4235, 0, 0) /* Create Thin Gromnie Hide for ContainTreasure_DestinationType */
-     , (1612, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1612, 9, 28205, 0, 0, 0.05, False) /* Create Azure Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1612, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1612, 9, 4235, 0, 0, 0.05, False) /* Create Thin Gromnie Hide for ContainTreasure_DestinationType */
+     , (1612, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

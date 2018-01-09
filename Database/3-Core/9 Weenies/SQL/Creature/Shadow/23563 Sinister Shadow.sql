@@ -123,11 +123,11 @@ VALUES (23563, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23563, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23563, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23563, 9, 6059, 0, 0) /* Create Dark Sliver for ContainTreasure_DestinationType */
-     , (23563, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23563, 9, 8019, 0, 0) /* Create Caulnalain Key for ContainTreasure_DestinationType */
-     , (23563, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23563, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (23563, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23563, 9, 6059, 0, 0, 0.03, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
+     , (23563, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23563, 9, 8019, 0, 0, 0.05, False) /* Create Caulnalain Key for ContainTreasure_DestinationType */
+     , (23563, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (23563, 9, 6876, 0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (23563, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

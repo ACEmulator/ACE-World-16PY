@@ -94,16 +94,16 @@ VALUES (815, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (815, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (815, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (815, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (815, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (815, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (815, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (815, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (815, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (815, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (815, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (815, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (815, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (815, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (815, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (815, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (815, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (815, 2, 10696, 0, 13, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (815, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (815, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (815, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (815, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (815, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (815, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (815, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */;
 

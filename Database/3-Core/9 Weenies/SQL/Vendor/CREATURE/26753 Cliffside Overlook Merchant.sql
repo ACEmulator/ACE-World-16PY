@@ -92,6 +92,6 @@ VALUES (26753, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26753, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26753, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26753, 4, 26118, -1, 0) /* Create Cliffside Overlook Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26753, 4, 26118, -1, 0, 0, False) /* Create Cliffside Overlook Portal Gem for Shop_DestinationType */;
 

@@ -119,13 +119,13 @@ VALUES (23090, 64, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23090, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23090, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23090, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (23090, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23090, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (23090, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23090, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (23090, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23090, 9, 27388, 0, 0) /* Create Dark Towers for ContainTreasure_DestinationType */
-     , (23090, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23090, 9, 6058, 0, 0, 0.04, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (23090, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (23090, 9, 6876, 0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (23090, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (23090, 9, 23108, 0, 0, 0.01, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (23090, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (23090, 9, 27388, 0, 0, 0.005, False) /* Create Dark Towers for ContainTreasure_DestinationType */
+     , (23090, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

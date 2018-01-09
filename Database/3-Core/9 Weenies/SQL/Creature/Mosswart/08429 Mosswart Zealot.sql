@@ -95,13 +95,13 @@ VALUES (8429, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8429, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8429, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8429, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (8429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8429, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (8429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8429, 9, 15766, 0, 0) /* Create Ruined Amulet of the Right Hand for ContainTreasure_DestinationType */
-     , (8429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8429, 9, 8146, 0, 0) /* Create Mosswart Head for ContainTreasure_DestinationType */
-     , (8429, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8429, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (8429, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (8429, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (8429, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (8429, 9, 15766, 0, 0, 0.02, False) /* Create Ruined Amulet of the Right Hand for ContainTreasure_DestinationType */
+     , (8429, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (8429, 9, 8146, 0, 0, 0.05, False) /* Create Mosswart Head for ContainTreasure_DestinationType */
+     , (8429, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

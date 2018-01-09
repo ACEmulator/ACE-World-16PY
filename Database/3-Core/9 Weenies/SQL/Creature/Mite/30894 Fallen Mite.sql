@@ -90,8 +90,8 @@ VALUES (30894, 64, 5300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30894, 128, 4600) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30894, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30894, 9, 30857, 0, 0) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30894, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30894, 9, 30869, 0, 0) /* Create Dirk of the Fallen for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30894, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
+     , (30894, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
+     , (30894, 9, 30869, 0, 0, 1, False) /* Create Dirk of the Fallen for ContainTreasure_DestinationType */;
 

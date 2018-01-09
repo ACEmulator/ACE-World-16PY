@@ -92,6 +92,6 @@ VALUES (26699, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26699, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26699, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26699, 4, 26064, -1, 0) /* Create Al-Arqis Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26699, 4, 26064, -1, 0, 0, False) /* Create Al-Arqis Cottages Portal Gem for Shop_DestinationType */;
 

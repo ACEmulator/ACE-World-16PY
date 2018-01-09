@@ -90,9 +90,9 @@ VALUES (11490, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11490, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11490, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11490, 9, 11369, 0, 0) /* Create Tidal Siraluun Claw for ContainTreasure_DestinationType */
-     , (11490, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11490, 9, 29902, 0, 0) /* Create Small Bundle of Tidal Siraluun Feathers for ContainTreasure_DestinationType */
-     , (11490, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11490, 9, 11369, 0, 0, 0.05, False) /* Create Tidal Siraluun Claw for ContainTreasure_DestinationType */
+     , (11490, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11490, 9, 29902, 0, 0, 0.05, False) /* Create Small Bundle of Tidal Siraluun Feathers for ContainTreasure_DestinationType */
+     , (11490, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

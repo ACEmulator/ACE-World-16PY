@@ -93,28 +93,28 @@ VALUES (1382, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1382, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1382, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1382, 2, 134, 0, 18) /* Create Tunic for Wield_DestinationType */
-     , (1382, 2, 126, 0, 6) /* Create Leggings for Wield_DestinationType */
-     , (1382, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (1382, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (1382, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (1382, 4, 166, -1, 61) /* Create Sack for Shop_DestinationType */
-     , (1382, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (1382, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (1382, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (1382, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (1382, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (1382, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (1382, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (1382, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (1382, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (1382, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (1382, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (1382, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (1382, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (1382, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (1382, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (1382, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (1382, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1382, 2, 134, 0, 18, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (1382, 2, 126, 0, 6, 0, False) /* Create Leggings for Wield_DestinationType */
+     , (1382, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1382, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (1382, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1382, 4, 166, -1, 61, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1382, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1382, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (1382, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (1382, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (1382, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (1382, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (1382, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (1382, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (1382, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (1382, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (1382, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (1382, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (1382, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (1382, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (1382, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (1382, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (1382, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */;
 

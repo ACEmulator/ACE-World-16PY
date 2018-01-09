@@ -110,23 +110,23 @@ VALUES (30889, 64, 15390) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30889, 128, 4780) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30889, 256, 14440) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30889, 9, 23853, 0, 0) /* Create Seared Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23854, 0, 0) /* Create Chilled Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23849, 0, 0) /* Create Scored Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23855, 0, 0) /* Create Charged Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23851, 0, 0) /* Create Solid Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23856, 0, 0) /* Create Hardened Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23852, 0, 0) /* Create Plated Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 23850, 0, 0) /* Create Brilliant Shard for ContainTreasure_DestinationType */
-     , (30889, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30889, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (30889, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30889, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (30889, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30889, 9, 30866, 0, 0) /* Create Hammer of the Fallen for ContainTreasure_DestinationType */
-     , (30889, 9, 30857, 0, 0) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30889, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30889, 9, 23853, 0, 0, 0.0125, False) /* Create Seared Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23854, 0, 0, 0.0125, False) /* Create Chilled Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23849, 0, 0, 0.0125, False) /* Create Scored Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23855, 0, 0, 0.0125, False) /* Create Charged Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23851, 0, 0, 0.0125, False) /* Create Solid Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23856, 0, 0, 0.0125, False) /* Create Hardened Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23852, 0, 0, 0.0125, False) /* Create Plated Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 23850, 0, 0, 0.0125, False) /* Create Brilliant Shard for ContainTreasure_DestinationType */
+     , (30889, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (30889, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (30889, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (30889, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (30889, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (30889, 9, 30866, 0, 0, 1, False) /* Create Hammer of the Fallen for ContainTreasure_DestinationType */
+     , (30889, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
+     , (30889, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (30889, -1, 23549, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Crystal Shard Sentinel (x10 up to max of 10) - Destruction_RegenerationType - Scatter_RegenLocationType */;

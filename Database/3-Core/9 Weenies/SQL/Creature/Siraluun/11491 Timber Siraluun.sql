@@ -90,11 +90,11 @@ VALUES (11491, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11491, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11491, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11491, 9, 11370, 0, 0) /* Create Timber Siraluun Claw for ContainTreasure_DestinationType */
-     , (11491, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11491, 9, 29903, 0, 0) /* Create Small Bundle of Timber Siraluun Feathers for ContainTreasure_DestinationType */
-     , (11491, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11491, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11491, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11491, 9, 11370, 0, 0, 0.05, False) /* Create Timber Siraluun Claw for ContainTreasure_DestinationType */
+     , (11491, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11491, 9, 29903, 0, 0, 0.05, False) /* Create Small Bundle of Timber Siraluun Feathers for ContainTreasure_DestinationType */
+     , (11491, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11491, 9, 6876, 0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11491, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

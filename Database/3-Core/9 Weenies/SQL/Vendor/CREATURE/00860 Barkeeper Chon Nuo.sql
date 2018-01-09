@@ -94,23 +94,23 @@ VALUES (860, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (860, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (860, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (860, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (860, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (860, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (860, 2, 118, 0, 5) /* Create Cap for Wield_DestinationType */
-     , (860, 2, 10696, 0, 10) /* Create Apron for Wield_DestinationType */
-     , (860, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (860, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (860, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (860, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (860, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (860, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (860, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (860, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (860, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (860, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (860, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (860, 4, 13202, -1, 0) /* Create Sho Festival Light for Shop_DestinationType */
-     , (860, 4, 22730, -1, 0) /* Create Holiday Pole for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (860, 2, 124, 0, 14, 0.8, False) /* Create Jerkin for Wield_DestinationType */
+     , (860, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (860, 2, 132, 0, 14, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (860, 2, 118, 0, 5, 0, False) /* Create Cap for Wield_DestinationType */
+     , (860, 2, 10696, 0, 10, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (860, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (860, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (860, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (860, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (860, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (860, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (860, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (860, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (860, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (860, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (860, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (860, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light for Shop_DestinationType */
+     , (860, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole for Shop_DestinationType */;
 

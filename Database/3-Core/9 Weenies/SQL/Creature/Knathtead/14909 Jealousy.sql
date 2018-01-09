@@ -94,6 +94,6 @@ VALUES (14909, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14909, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14909, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14909, 1, 14900, 1, 0) /* Create Symbol of Friendship for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14909, 1, 14900, 1, 0, 0, False) /* Create Symbol of Friendship for Contain_DestinationType */;
 

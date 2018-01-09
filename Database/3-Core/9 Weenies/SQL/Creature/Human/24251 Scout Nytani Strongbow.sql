@@ -88,13 +88,13 @@ VALUES (24251, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24251, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24251, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24251, 2, 306, 0, 0) /* Create Longbow for Wield_DestinationType */
-     , (24251, 2, 2591, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (24251, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (24251, 2, 6046, 0, 39) /* Create Amuli Coat for Wield_DestinationType */
-     , (24251, 2, 85, 0, 14) /* Create Chainmail Coif for Wield_DestinationType */
-     , (24251, 2, 55, 0, 19) /* Create Chainmail Gauntlets for Wield_DestinationType */
-     , (24251, 2, 6045, 0, 39) /* Create Celdon Leggings for Wield_DestinationType */
-     , (24251, 2, 107, 0, 39) /* Create Sollerets for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24251, 2, 306, 0, 0, 0, False) /* Create Longbow for Wield_DestinationType */
+     , (24251, 2, 2591, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (24251, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (24251, 2, 6046, 0, 39, 1, False) /* Create Amuli Coat for Wield_DestinationType */
+     , (24251, 2, 85, 0, 14, 0.2, False) /* Create Chainmail Coif for Wield_DestinationType */
+     , (24251, 2, 55, 0, 19, 1, False) /* Create Chainmail Gauntlets for Wield_DestinationType */
+     , (24251, 2, 6045, 0, 39, 0.5, False) /* Create Celdon Leggings for Wield_DestinationType */
+     , (24251, 2, 107, 0, 39, 1, False) /* Create Sollerets for Wield_DestinationType */;
 

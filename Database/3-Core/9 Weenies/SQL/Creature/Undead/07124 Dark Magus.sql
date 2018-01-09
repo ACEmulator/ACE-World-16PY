@@ -119,13 +119,13 @@ VALUES (7124, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7124, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7124, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7124, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7124, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7124, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (7124, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7124, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (7124, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7124, 9, 12225, 0, 0) /* Create Zombie Head for ContainTreasure_DestinationType */
-     , (7124, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7124, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7124, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7124, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (7124, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7124, 9, 9310, 0, 0, 0.07, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (7124, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (7124, 9, 12225, 0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure_DestinationType */
+     , (7124, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

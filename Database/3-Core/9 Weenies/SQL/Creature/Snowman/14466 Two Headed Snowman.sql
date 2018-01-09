@@ -107,10 +107,10 @@ VALUES (14466, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14466, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14466, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14466, 2, 5769, 12, 0) /* Create Iceball for Wield_DestinationType */
-     , (14466, 1, 5758, 2, 0) /* Create Carrot for Contain_DestinationType */
-     , (14466, 1, 7835, 2, 0) /* Create Magic Iceball for Contain_DestinationType */
-     , (14466, 1, 5768, 2, 0) /* Create Poofy Snowball for Contain_DestinationType */
-     , (14466, 1, 22825, 1, 0) /* Create A Lump of Coal for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14466, 2, 5769, 12, 0, 0, False) /* Create Iceball for Wield_DestinationType */
+     , (14466, 1, 5758, 2, 0, 0, False) /* Create Carrot for Contain_DestinationType */
+     , (14466, 1, 7835, 2, 0, 0, False) /* Create Magic Iceball for Contain_DestinationType */
+     , (14466, 1, 5768, 2, 0, 0, False) /* Create Poofy Snowball for Contain_DestinationType */
+     , (14466, 1, 22825, 1, 0, 0, False) /* Create A Lump of Coal for Contain_DestinationType */;
 

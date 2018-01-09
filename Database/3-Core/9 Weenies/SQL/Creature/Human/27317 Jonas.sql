@@ -89,7 +89,7 @@ VALUES (27317, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27317, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27317, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27317, 2, 10757, 0, 0) /* Create Towel for Wield_DestinationType */
-     , (27317, 2, 22546, 0, 0) /* Create Coconut for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27317, 2, 10757, 0, 0, 0, False) /* Create Towel for Wield_DestinationType */
+     , (27317, 2, 22546, 0, 0, 0, False) /* Create Coconut for Wield_DestinationType */;
 

@@ -92,6 +92,6 @@ VALUES (26697, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26697, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26697, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26697, 4, 26062, -1, 0) /* Create Ahr-Zona Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26697, 4, 26062, -1, 0, 0, False) /* Create Ahr-Zona Portal Gem for Shop_DestinationType */;
 

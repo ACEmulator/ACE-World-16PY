@@ -90,7 +90,7 @@ VALUES (9401, 64, 98) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9401, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9401, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9401, 9, 9413, 0, 0) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
-     , (9401, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9401, 9, 9413, 0, 0, 0.02, False) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
+     , (9401, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

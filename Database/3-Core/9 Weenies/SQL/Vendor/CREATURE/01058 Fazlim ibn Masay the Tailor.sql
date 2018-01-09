@@ -94,27 +94,27 @@ VALUES (1058, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1058, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1058, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1058, 2, 130, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (1058, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (1058, 2, 133, 0, 9) /* Create Slippers for Wield_DestinationType */
-     , (1058, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (1058, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1058, 4, 2600, -1, 14) /* Create Pantaloons for Shop_DestinationType */
-     , (1058, 4, 2600, -1, 9) /* Create Pantaloons for Shop_DestinationType */
-     , (1058, 4, 2600, -1, 9) /* Create Pantaloons for Shop_DestinationType */
-     , (1058, 4, 124, -1, 14) /* Create Jerkin for Shop_DestinationType */
-     , (1058, 4, 124, -1, 9) /* Create Jerkin for Shop_DestinationType */
-     , (1058, 4, 124, -1, 9) /* Create Jerkin for Shop_DestinationType */
-     , (1058, 4, 128, -1, 14) /* Create Qafiya for Shop_DestinationType */
-     , (1058, 4, 128, -1, 9) /* Create Qafiya for Shop_DestinationType */
-     , (1058, 4, 128, -1, 9) /* Create Qafiya for Shop_DestinationType */
-     , (1058, 4, 115, -1, 14) /* Create Leather Boots for Shop_DestinationType */
-     , (1058, 4, 115, -1, 9) /* Create Leather Boots for Shop_DestinationType */
-     , (1058, 4, 115, -1, 9) /* Create Leather Boots for Shop_DestinationType */
-     , (1058, 4, 5852, -1, 0) /* Create Dho Vest and Robe for Shop_DestinationType */
-     , (1058, 4, 5894, -1, 0) /* Create Fez for Shop_DestinationType */
-     , (1058, 4, 8373, -1, 2) /* Create Kiyafa Robe for Shop_DestinationType */
-     , (1058, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (1058, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1058, 2, 130, 0, 14, 0.8, False) /* Create Shirt for Wield_DestinationType */
+     , (1058, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (1058, 2, 133, 0, 9, 0.5, False) /* Create Slippers for Wield_DestinationType */
+     , (1058, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */
+     , (1058, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1058, 4, 2600, -1, 14, 0.8, False) /* Create Pantaloons for Shop_DestinationType */
+     , (1058, 4, 2600, -1, 9, 0.5, False) /* Create Pantaloons for Shop_DestinationType */
+     , (1058, 4, 2600, -1, 9, 1, False) /* Create Pantaloons for Shop_DestinationType */
+     , (1058, 4, 124, -1, 14, 0.8, False) /* Create Jerkin for Shop_DestinationType */
+     , (1058, 4, 124, -1, 9, 0.5, False) /* Create Jerkin for Shop_DestinationType */
+     , (1058, 4, 124, -1, 9, 1, False) /* Create Jerkin for Shop_DestinationType */
+     , (1058, 4, 128, -1, 14, 0.8, False) /* Create Qafiya for Shop_DestinationType */
+     , (1058, 4, 128, -1, 9, 0.5, False) /* Create Qafiya for Shop_DestinationType */
+     , (1058, 4, 128, -1, 9, 1, False) /* Create Qafiya for Shop_DestinationType */
+     , (1058, 4, 115, -1, 14, 0.8, False) /* Create Leather Boots for Shop_DestinationType */
+     , (1058, 4, 115, -1, 9, 0.5, False) /* Create Leather Boots for Shop_DestinationType */
+     , (1058, 4, 115, -1, 9, 1, False) /* Create Leather Boots for Shop_DestinationType */
+     , (1058, 4, 5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop_DestinationType */
+     , (1058, 4, 5894, -1, 0, 0, False) /* Create Fez for Shop_DestinationType */
+     , (1058, 4, 8373, -1, 2, 1, False) /* Create Kiyafa Robe for Shop_DestinationType */
+     , (1058, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (1058, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */;
 

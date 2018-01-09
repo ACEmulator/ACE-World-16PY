@@ -101,9 +101,9 @@ VALUES (14521, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14521, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14521, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14521, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (14521, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (14521, 9, 23201, 0, 0) /* Create Glacial Golem Heart for ContainTreasure_DestinationType */
-     , (14521, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14521, 9, 6353, 0, 0, 0.02, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (14521, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (14521, 9, 23201, 0, 0, 0.05, False) /* Create Glacial Golem Heart for ContainTreasure_DestinationType */
+     , (14521, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -88,9 +88,9 @@ VALUES (5542, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5542, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5542, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5542, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (5542, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (5542, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (5542, 2, 43, 0, 21) /* Create Yoroi Breastplate for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5542, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (5542, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (5542, 2, 132, 0, 4, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (5542, 2, 43, 0, 21, 1, False) /* Create Yoroi Breastplate for Wield_DestinationType */;
 

@@ -90,7 +90,7 @@ VALUES (26688, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26688, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26688, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26688, 9, 27249, 0, 0) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
-     , (26688, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26688, 9, 27249, 0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
+     , (26688, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

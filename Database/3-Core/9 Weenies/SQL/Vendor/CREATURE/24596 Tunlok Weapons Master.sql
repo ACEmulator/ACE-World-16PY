@@ -97,69 +97,69 @@ VALUES (24596, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24596, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24596, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24596, 2, 23757, 0, 0) /* Create Lugian Mace for Wield_DestinationType */
-     , (24596, 4, 75, -1, 0) /* Create Helmet for Shop_DestinationType */
-     , (24596, 4, 8489, -1, 0) /* Create Heaume for Shop_DestinationType */
-     , (24596, 4, 8488, -1, 0) /* Create Armet for Shop_DestinationType */
-     , (24596, 4, 76, -1, 0) /* Create Horned Helm for Shop_DestinationType */
-     , (24596, 4, 40, -1, 0) /* Create Platemail Breastplate for Shop_DestinationType */
-     , (24596, 4, 57, -1, 0) /* Create Platemail Gauntlets for Shop_DestinationType */
-     , (24596, 4, 61, -1, 0) /* Create Platemail Girth for Shop_DestinationType */
-     , (24596, 4, 66, -1, 0) /* Create Platemail Greaves for Shop_DestinationType */
-     , (24596, 4, 110, -1, 0) /* Create Platemail Tassets for Shop_DestinationType */
-     , (24596, 4, 82, -1, 0) /* Create Platemail Leggings for Shop_DestinationType */
-     , (24596, 4, 87, -1, 0) /* Create Platemail Pauldrons for Shop_DestinationType */
-     , (24596, 4, 114, -1, 0) /* Create Platemail Vambraces for Shop_DestinationType */
-     , (24596, 4, 107, -1, 0) /* Create Sollerets for Shop_DestinationType */
-     , (24596, 4, 92, -1, 0) /* Create Large Kite Shield for Shop_DestinationType */
-     , (24596, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (24596, 4, 350, -1, 0) /* Create Broad Sword for Shop_DestinationType */
-     , (24596, 4, 351, -1, 0) /* Create Long Sword for Shop_DestinationType */
-     , (24596, 4, 353, -1, 0) /* Create Tachi for Shop_DestinationType */
-     , (24596, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (24596, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (24596, 4, 332, -1, 0) /* Create Morning Star for Shop_DestinationType */
-     , (24596, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (24596, 4, 301, -1, 0) /* Create Battle Axe for Shop_DestinationType */
-     , (24596, 4, 540, -1, 0) /* Create Lugian Axe for Shop_DestinationType */
-     , (24596, 4, 543, -1, 0) /* Create Lugian Mace for Shop_DestinationType */
-     , (24596, 4, 541, -1, 0) /* Create Lugian Club for Shop_DestinationType */
-     , (24596, 4, 544, -1, 0) /* Create Lugian Morning Star for Shop_DestinationType */
-     , (24596, 4, 306, -1, 0) /* Create Longbow for Shop_DestinationType */
-     , (24596, 4, 311, -1, 0) /* Create Heavy Crossbow for Shop_DestinationType */
-     , (24596, 4, 12463, -1, 0) /* Create Atlatl for Shop_DestinationType */
-     , (24596, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (24596, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (24596, 4, 12464, -1, 0) /* Create Atlatl Dart for Shop_DestinationType */
-     , (24596, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (24596, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (24596, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (24596, 4, 15296, -1, 0) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
-     , (24596, 4, 23857, -1, 0) /* Create Bundle of Spiketails for Shop_DestinationType */
-     , (24596, 4, 3599, -1, 0) /* Create Blunt Arrow for Shop_DestinationType */
-     , (24596, 4, 3603, -1, 0) /* Create Blunt Quarrel for Shop_DestinationType */
-     , (24596, 4, 3601, -1, 0) /* Create Frog Crotch Arrow for Shop_DestinationType */
-     , (24596, 4, 3605, -1, 0) /* Create Frog Crotch Quarrel for Shop_DestinationType */
-     , (24596, 4, 3598, -1, 0) /* Create Armor Piercing Arrow for Shop_DestinationType */
-     , (24596, 4, 3602, -1, 0) /* Create Armor Piercing Quarrel for Shop_DestinationType */
-     , (24596, 4, 9359, -1, 0) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
-     , (24596, 4, 9363, -1, 0) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
-     , (24596, 4, 9362, -1, 0) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
-     , (24596, 4, 9361, -1, 0) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
-     , (24596, 4, 9366, -1, 0) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
-     , (24596, 4, 9377, -1, 0) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
-     , (24596, 4, 9378, -1, 0) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
-     , (24596, 4, 23858, -1, 0) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
-     , (24596, 4, 15298, -1, 0) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
-     , (24596, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (24596, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (24596, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (24596, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (24596, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (24596, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (24596, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (24596, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (24596, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (24596, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24596, 2, 23757, 0, 0, 0, False) /* Create Lugian Mace for Wield_DestinationType */
+     , (24596, 4, 75, -1, 0, 0, False) /* Create Helmet for Shop_DestinationType */
+     , (24596, 4, 8489, -1, 0, 0, False) /* Create Heaume for Shop_DestinationType */
+     , (24596, 4, 8488, -1, 0, 0, False) /* Create Armet for Shop_DestinationType */
+     , (24596, 4, 76, -1, 0, 0, False) /* Create Horned Helm for Shop_DestinationType */
+     , (24596, 4, 40, -1, 0, 0, False) /* Create Platemail Breastplate for Shop_DestinationType */
+     , (24596, 4, 57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop_DestinationType */
+     , (24596, 4, 61, -1, 0, 0, False) /* Create Platemail Girth for Shop_DestinationType */
+     , (24596, 4, 66, -1, 0, 0, False) /* Create Platemail Greaves for Shop_DestinationType */
+     , (24596, 4, 110, -1, 0, 0, False) /* Create Platemail Tassets for Shop_DestinationType */
+     , (24596, 4, 82, -1, 0, 0, False) /* Create Platemail Leggings for Shop_DestinationType */
+     , (24596, 4, 87, -1, 0, 0, False) /* Create Platemail Pauldrons for Shop_DestinationType */
+     , (24596, 4, 114, -1, 0, 0, False) /* Create Platemail Vambraces for Shop_DestinationType */
+     , (24596, 4, 107, -1, 0, 0, False) /* Create Sollerets for Shop_DestinationType */
+     , (24596, 4, 92, -1, 0, 0, False) /* Create Large Kite Shield for Shop_DestinationType */
+     , (24596, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (24596, 4, 350, -1, 0, 0, False) /* Create Broad Sword for Shop_DestinationType */
+     , (24596, 4, 351, -1, 0, 0, False) /* Create Long Sword for Shop_DestinationType */
+     , (24596, 4, 353, -1, 0, 0, False) /* Create Tachi for Shop_DestinationType */
+     , (24596, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (24596, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (24596, 4, 332, -1, 0, 0, False) /* Create Morning Star for Shop_DestinationType */
+     , (24596, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (24596, 4, 301, -1, 0, 0, False) /* Create Battle Axe for Shop_DestinationType */
+     , (24596, 4, 540, -1, 0, 0, False) /* Create Lugian Axe for Shop_DestinationType */
+     , (24596, 4, 543, -1, 0, 0, False) /* Create Lugian Mace for Shop_DestinationType */
+     , (24596, 4, 541, -1, 0, 0, False) /* Create Lugian Club for Shop_DestinationType */
+     , (24596, 4, 544, -1, 0, 0, False) /* Create Lugian Morning Star for Shop_DestinationType */
+     , (24596, 4, 306, -1, 0, 0, False) /* Create Longbow for Shop_DestinationType */
+     , (24596, 4, 311, -1, 0, 0, False) /* Create Heavy Crossbow for Shop_DestinationType */
+     , (24596, 4, 12463, -1, 0, 0, False) /* Create Atlatl for Shop_DestinationType */
+     , (24596, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (24596, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (24596, 4, 12464, -1, 0, 0, False) /* Create Atlatl Dart for Shop_DestinationType */
+     , (24596, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (24596, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (24596, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (24596, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts for Shop_DestinationType */
+     , (24596, 4, 23857, -1, 0, 0, False) /* Create Bundle of Spiketails for Shop_DestinationType */
+     , (24596, 4, 3599, -1, 0, 0, False) /* Create Blunt Arrow for Shop_DestinationType */
+     , (24596, 4, 3603, -1, 0, 0, False) /* Create Blunt Quarrel for Shop_DestinationType */
+     , (24596, 4, 3601, -1, 0, 0, False) /* Create Frog Crotch Arrow for Shop_DestinationType */
+     , (24596, 4, 3605, -1, 0, 0, False) /* Create Frog Crotch Quarrel for Shop_DestinationType */
+     , (24596, 4, 3598, -1, 0, 0, False) /* Create Armor Piercing Arrow for Shop_DestinationType */
+     , (24596, 4, 3602, -1, 0, 0, False) /* Create Armor Piercing Quarrel for Shop_DestinationType */
+     , (24596, 4, 9359, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowheads for Shop_DestinationType */
+     , (24596, 4, 9363, -1, 0, 0, False) /* Create Wrapped Bundle of Broad Arrowheads for Shop_DestinationType */
+     , (24596, 4, 9362, -1, 0, 0, False) /* Create Wrapped Bundle of Blunt Arrowheads for Shop_DestinationType */
+     , (24596, 4, 9361, -1, 0, 0, False) /* Create Wrapped Bundle of Armor Piercing Arrowheads for Shop_DestinationType */
+     , (24596, 4, 9366, -1, 0, 0, False) /* Create Wrapped Bundle of Frog Crotch Arrowheads for Shop_DestinationType */
+     , (24596, 4, 9377, -1, 0, 0, False) /* Create Wrapped Bundle of Arrowshafts for Shop_DestinationType */
+     , (24596, 4, 9378, -1, 0, 0, False) /* Create Wrapped Bundle of Quarrelshafts for Shop_DestinationType */
+     , (24596, 4, 23858, -1, 0, 0, False) /* Create Bundle of Wrapped Spiketails for Shop_DestinationType */
+     , (24596, 4, 15298, -1, 0, 0, False) /* Create Wrapped Bundle of Atlatl Dartshafts for Shop_DestinationType */
+     , (24596, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (24596, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (24596, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (24596, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (24596, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (24596, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (24596, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (24596, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (24596, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (24596, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

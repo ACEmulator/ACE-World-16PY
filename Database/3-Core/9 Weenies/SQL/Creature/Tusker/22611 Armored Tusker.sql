@@ -89,8 +89,8 @@ VALUES (22611, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22611, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22611, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22611, 1, 22419, 1, 0) /* Create Armored Tusker Tusk for Contain_DestinationType */
-     , (22611, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (22611, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22611, 1, 22419, 1, 0, 0, False) /* Create Armored Tusker Tusk for Contain_DestinationType */
+     , (22611, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (22611, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

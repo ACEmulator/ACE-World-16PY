@@ -88,9 +88,9 @@ VALUES (9227, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9227, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9227, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9227, 2, 5851, 0, 84) /* Create Faran Robe with Hood for Wield_DestinationType */
-     , (9227, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (9227, 2, 2601, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (9227, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9227, 2, 5851, 0, 84, 0.8, False) /* Create Faran Robe with Hood for Wield_DestinationType */
+     , (9227, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (9227, 2, 2601, 0, 8, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (9227, 2, 2606, 0, 9, 1, False) /* Create Boots for Wield_DestinationType */;
 

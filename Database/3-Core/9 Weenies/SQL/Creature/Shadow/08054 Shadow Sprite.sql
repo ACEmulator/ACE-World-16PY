@@ -99,7 +99,7 @@ VALUES (8054, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8054, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8054, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8054, 9, 6060, 0, 0) /* Create Dark Speck for ContainTreasure_DestinationType */
-     , (8054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8054, 9, 6060, 0, 0, 0.002, False) /* Create Dark Speck for ContainTreasure_DestinationType */
+     , (8054, 9, 0, 0, 0, 0.998, False) /* Create  for ContainTreasure_DestinationType */;
 

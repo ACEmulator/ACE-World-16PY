@@ -94,27 +94,27 @@ VALUES (9506, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9506, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9506, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9506, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (9506, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (9506, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (9506, 2, 5901, 0, 9) /* Create Kasa for Wield_DestinationType */
-     , (9506, 2, 10696, 0, 8) /* Create Apron for Wield_DestinationType */
-     , (9506, 4, 9485, -1, 0) /* Create Gan-Zo's Low-Stakes Gambling Token for Shop_DestinationType */
-     , (9506, 4, 9488, -1, 0) /* Create Gan-Zo's Mid-Stakes Gambling Token for Shop_DestinationType */
-     , (9506, 4, 9482, -1, 0) /* Create Gan-Zo's High-Stakes Gambling Token for Shop_DestinationType */
-     , (9506, 4, 9517, -1, 0) /* Create A Guide to Gan-Zo's Den of Iniquity for Shop_DestinationType */
-     , (9506, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (9506, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (9506, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (9506, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (9506, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (9506, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (9506, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (9506, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (9506, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (9506, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */
-     , (9506, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (9506, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (9506, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9506, 2, 134, 0, 9, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (9506, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (9506, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (9506, 2, 5901, 0, 9, 0, False) /* Create Kasa for Wield_DestinationType */
+     , (9506, 2, 10696, 0, 8, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (9506, 4, 9485, -1, 0, 0, False) /* Create Gan-Zo's Low-Stakes Gambling Token for Shop_DestinationType */
+     , (9506, 4, 9488, -1, 0, 0, False) /* Create Gan-Zo's Mid-Stakes Gambling Token for Shop_DestinationType */
+     , (9506, 4, 9482, -1, 0, 0, False) /* Create Gan-Zo's High-Stakes Gambling Token for Shop_DestinationType */
+     , (9506, 4, 9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of Iniquity for Shop_DestinationType */
+     , (9506, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (9506, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (9506, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (9506, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (9506, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (9506, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (9506, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (9506, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (9506, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (9506, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */
+     , (9506, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (9506, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (9506, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */;
 

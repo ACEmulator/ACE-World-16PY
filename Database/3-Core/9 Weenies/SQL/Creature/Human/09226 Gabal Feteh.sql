@@ -88,9 +88,9 @@ VALUES (9226, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9226, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9226, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9226, 2, 8000, 0, 0) /* Create Shendolain Crystal Bow for Wield_DestinationType */
-     , (9226, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (9226, 2, 2601, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (9226, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9226, 2, 8000, 0, 0, 0, False) /* Create Shendolain Crystal Bow for Wield_DestinationType */
+     , (9226, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (9226, 2, 2601, 0, 14, 0.6, False) /* Create Pants for Wield_DestinationType */
+     , (9226, 2, 2606, 0, 9, 1, False) /* Create Boots for Wield_DestinationType */;
 

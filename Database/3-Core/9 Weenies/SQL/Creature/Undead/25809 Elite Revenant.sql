@@ -93,19 +93,19 @@ VALUES (25809, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25809, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25809, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25809, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 28875, 0, 0) /* Create Armored Undead Legs for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 28872, 0, 0) /* Create Armored Undead Arm  for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25809, 9, 28893, 0, 0) /* Create Armored Undead Torso for ContainTreasure_DestinationType */
-     , (25809, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25809, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 9310, 0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 7045, 0, 0, 0.04, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 28875, 0, 0, 0.05, False) /* Create Armored Undead Legs for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 28872, 0, 0, 0.05, False) /* Create Armored Undead Arm  for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25809, 9, 28893, 0, 0, 0.05, False) /* Create Armored Undead Torso for ContainTreasure_DestinationType */
+     , (25809, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

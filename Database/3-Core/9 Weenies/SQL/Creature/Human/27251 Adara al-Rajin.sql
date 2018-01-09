@@ -93,6 +93,6 @@ VALUES (27251, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27251, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27251, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27251, 2, 27250, 0, 61) /* Create Realaidain Raiment for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27251, 2, 27250, 0, 61, 0.5, False) /* Create Realaidain Raiment for Wield_DestinationType */;
 

@@ -119,21 +119,21 @@ VALUES (1630, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1630, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1630, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1630, 9, 7041, 0, 0) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 9312, 0, 0) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 15770, 0, 0) /* Create Ruined Amulet of the Staff for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 19477, 0, 0) /* Create Undead Femur bone for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 12225, 0, 0) /* Create Zombie Head for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 22028, 0, 0) /* Create Undead Arm for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 22032, 0, 0) /* Create Undead Leg for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1630, 9, 22048, 0, 0) /* Create Undead Torso for ContainTreasure_DestinationType */
-     , (1630, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1630, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 9312, 0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 15770, 0, 0, 0.02, False) /* Create Ruined Amulet of the Staff for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 19477, 0, 0, 0.05, False) /* Create Undead Femur bone for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 12225, 0, 0, 0.05, False) /* Create Zombie Head for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 22028, 0, 0, 0.05, False) /* Create Undead Arm for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 22032, 0, 0, 0.05, False) /* Create Undead Leg for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1630, 9, 22048, 0, 0, 0.05, False) /* Create Undead Torso for ContainTreasure_DestinationType */
+     , (1630, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

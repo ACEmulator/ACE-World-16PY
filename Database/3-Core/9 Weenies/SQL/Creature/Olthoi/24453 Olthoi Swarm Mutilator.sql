@@ -94,9 +94,9 @@ VALUES (24453, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24453, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24453, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24453, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24453, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24453, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24453, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24453, 9, 6876, 0, 0, 0.06, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24453, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */
+     , (24453, 9, 24477, 0, 0, 0.04, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (24453, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

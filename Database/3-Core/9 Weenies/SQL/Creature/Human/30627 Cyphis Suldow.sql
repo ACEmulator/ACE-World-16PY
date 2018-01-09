@@ -90,13 +90,13 @@ VALUES (30627, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30627, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30627, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30627, 2, 39, 0, 7) /* Create Leather Breastplate for Wield_DestinationType */
-     , (30627, 2, 65, 0, 6) /* Create Leather Greaves for Wield_DestinationType */
-     , (30627, 2, 109, 0, 6) /* Create Leather Tassets for Wield_DestinationType */
-     , (30627, 2, 60, 0, 6) /* Create Leather Girth for Wield_DestinationType */
-     , (30627, 2, 36, 0, 7) /* Create Leather Bracers for Wield_DestinationType */
-     , (30627, 2, 56, 0, 93) /* Create Leather Gauntlets for Wield_DestinationType */
-     , (30627, 2, 86, 0, 7) /* Create Leather Pauldrons for Wield_DestinationType */
-     , (30627, 2, 115, 0, 93) /* Create Leather Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30627, 2, 39, 0, 7, 0.6, False) /* Create Leather Breastplate for Wield_DestinationType */
+     , (30627, 2, 65, 0, 6, 0.3, False) /* Create Leather Greaves for Wield_DestinationType */
+     , (30627, 2, 109, 0, 6, 0.3, False) /* Create Leather Tassets for Wield_DestinationType */
+     , (30627, 2, 60, 0, 6, 0.3, False) /* Create Leather Girth for Wield_DestinationType */
+     , (30627, 2, 36, 0, 7, 0.5, False) /* Create Leather Bracers for Wield_DestinationType */
+     , (30627, 2, 56, 0, 93, 0.5, False) /* Create Leather Gauntlets for Wield_DestinationType */
+     , (30627, 2, 86, 0, 7, 0.5, False) /* Create Leather Pauldrons for Wield_DestinationType */
+     , (30627, 2, 115, 0, 93, 0.3, False) /* Create Leather Boots for Wield_DestinationType */;
 

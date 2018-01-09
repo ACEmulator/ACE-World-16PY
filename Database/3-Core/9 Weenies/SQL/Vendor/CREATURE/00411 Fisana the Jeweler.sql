@@ -93,19 +93,19 @@ VALUES (411, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (411, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (411, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (411, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (411, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (411, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (411, 2, 135, 0, 8) /* Create Turban for Wield_DestinationType */
-     , (411, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (411, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (411, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (411, 4, 280, -1, 0) /* Create Gem for Shop_DestinationType */
-     , (411, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (411, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (411, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (411, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (411, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (411, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (411, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (411, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (411, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (411, 2, 135, 0, 8, 0.75, False) /* Create Turban for Wield_DestinationType */
+     , (411, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (411, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (411, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (411, 4, 280, -1, 0, 0, False) /* Create Gem for Shop_DestinationType */
+     , (411, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (411, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (411, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (411, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (411, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (411, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */;
 

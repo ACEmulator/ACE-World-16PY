@@ -108,11 +108,11 @@ VALUES (8539, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8539, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8539, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8539, 2, 8527, 0, 0) /* Create Staff of the Nomads for Wield_DestinationType */
-     , (8539, 9, 8528, 0, 0) /* Create Splintered Staff for ContainTreasure_DestinationType */
-     , (8539, 9, 8529, 0, 0) /* Create Splintered Staff for ContainTreasure_DestinationType */
-     , (8539, 9, 8507, 0, 0) /* Create Heavy Book of Notes for ContainTreasure_DestinationType */
-     , (8539, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8539, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8539, 2, 8527, 0, 0, 0, False) /* Create Staff of the Nomads for Wield_DestinationType */
+     , (8539, 9, 8528, 0, 0, 1, False) /* Create Splintered Staff for ContainTreasure_DestinationType */
+     , (8539, 9, 8529, 0, 0, 1, False) /* Create Splintered Staff for ContainTreasure_DestinationType */
+     , (8539, 9, 8507, 0, 0, 1, False) /* Create Heavy Book of Notes for ContainTreasure_DestinationType */
+     , (8539, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (8539, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

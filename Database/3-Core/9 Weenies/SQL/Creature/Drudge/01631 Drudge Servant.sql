@@ -93,17 +93,17 @@ VALUES (1631, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1631, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1631, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1631, 9, 3669, 0, 0) /* Create Drudge Charm for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1631, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1631, 9, 8701, 0, 0) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1631, 9, 8702, 0, 0) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1631, 9, 13222, 0, 0) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1631, 9, 20854, 0, 0) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (1631, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1631, 9, 3669, 0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (1631, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1631, 9, 8701, 0, 0, 0.05, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1631, 9, 8702, 0, 0, 0.06, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */
+     , (1631, 9, 13222, 0, 0, 0.05, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1631, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
+     , (1631, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

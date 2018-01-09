@@ -91,15 +91,15 @@ VALUES (1464, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1464, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1464, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1464, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1464, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1464, 9, 3669, 0, 0) /* Create Drudge Charm for ContainTreasure_DestinationType */
-     , (1464, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1464, 9, 13222, 0, 0) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (1464, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1464, 9, 8701, 0, 0) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (1464, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1464, 9, 8702, 0, 0) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
-     , (1464, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1464, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (1464, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1464, 9, 3669, 0, 0, 0.01, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
+     , (1464, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (1464, 9, 13222, 0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
+     , (1464, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (1464, 9, 8701, 0, 0, 0.03, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
+     , (1464, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1464, 9, 8702, 0, 0, 0.06, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
+     , (1464, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */;
 

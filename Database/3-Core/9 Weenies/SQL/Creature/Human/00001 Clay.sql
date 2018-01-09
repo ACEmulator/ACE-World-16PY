@@ -89,10 +89,10 @@ VALUES (1, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1, 1, 273, 5, 0) /* Create Pyreal for Contain_DestinationType */
-     , (1, 2, 320, 10, 0) /* Create Javelin for Wield_DestinationType */
-     , (1, 1, 329, 0, 0) /* Create Knife for Contain_DestinationType */
-     , (1, 1, 44, 0, 0) /* Create Buckler for Contain_DestinationType */
-     , (1, 1, 300, 30, 0) /* Create Arrow for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1, 1, 273, 5, 0, 0, False) /* Create Pyreal for Contain_DestinationType */
+     , (1, 2, 320, 10, 0, 0, False) /* Create Javelin for Wield_DestinationType */
+     , (1, 1, 329, 0, 0, 0, False) /* Create Knife for Contain_DestinationType */
+     , (1, 1, 44, 0, 0, 0, False) /* Create Buckler for Contain_DestinationType */
+     , (1, 1, 300, 30, 0, 0, False) /* Create Arrow for Contain_DestinationType */;
 

@@ -109,6 +109,6 @@ VALUES (13221, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (13221, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (13221, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (13221, 1, 13222, 10, 0) /* Create Peppermint Stick for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (13221, 1, 13222, 10, 0, 0, False) /* Create Peppermint Stick for Contain_DestinationType */;
 

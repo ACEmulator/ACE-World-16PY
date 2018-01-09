@@ -90,7 +90,7 @@ VALUES (19297, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19297, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19297, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19297, 9, 19218, 0, 0) /* Create Bronze Gear from a Statue for ContainTreasure_DestinationType */
-     , (19297, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19297, 9, 19218, 0, 0, 0.05, False) /* Create Bronze Gear from a Statue for ContainTreasure_DestinationType */
+     , (19297, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

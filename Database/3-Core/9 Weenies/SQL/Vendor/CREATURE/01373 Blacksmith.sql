@@ -93,36 +93,36 @@ VALUES (1373, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1373, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1373, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1373, 2, 352, 0, 0) /* Create Short Sword for Wield_DestinationType */
-     , (1373, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (1373, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (1373, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (1373, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1373, 4, 550, -1, 0) /* Create Baigha for Shop_DestinationType */
-     , (1373, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (1373, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (1373, 4, 552, -1, 0) /* Create Scalemail Basinet for Shop_DestinationType */
-     , (1373, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (1373, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (1373, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (1373, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (1373, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (1373, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (1373, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (1373, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (1373, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (1373, 4, 37, -1, 0) /* Create Scalemail Bracers for Shop_DestinationType */
-     , (1373, 4, 41, -1, 0) /* Create Scalemail Breastplate for Shop_DestinationType */
-     , (1373, 4, 58, -1, 0) /* Create Scalemail Gauntlets for Shop_DestinationType */
-     , (1373, 4, 62, -1, 0) /* Create Scalemail Girth for Shop_DestinationType */
-     , (1373, 4, 67, -1, 0) /* Create Scalemail Greaves for Shop_DestinationType */
-     , (1373, 4, 111, -1, 0) /* Create Scalemail Tassets for Shop_DestinationType */
-     , (1373, 4, 83, -1, 0) /* Create Scalemail Leggings for Shop_DestinationType */
-     , (1373, 4, 88, -1, 0) /* Create Scalemail Pauldrons for Shop_DestinationType */
-     , (1373, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (1373, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (1373, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1373, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1373, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1373, 2, 352, 0, 0, 0, False) /* Create Short Sword for Wield_DestinationType */
+     , (1373, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (1373, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (1373, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1373, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1373, 4, 550, -1, 0, 0, False) /* Create Baigha for Shop_DestinationType */
+     , (1373, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (1373, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (1373, 4, 552, -1, 0, 0, False) /* Create Scalemail Basinet for Shop_DestinationType */
+     , (1373, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (1373, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (1373, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (1373, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (1373, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (1373, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (1373, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (1373, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (1373, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (1373, 4, 37, -1, 0, 0, False) /* Create Scalemail Bracers for Shop_DestinationType */
+     , (1373, 4, 41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop_DestinationType */
+     , (1373, 4, 58, -1, 0, 0, False) /* Create Scalemail Gauntlets for Shop_DestinationType */
+     , (1373, 4, 62, -1, 0, 0, False) /* Create Scalemail Girth for Shop_DestinationType */
+     , (1373, 4, 67, -1, 0, 0, False) /* Create Scalemail Greaves for Shop_DestinationType */
+     , (1373, 4, 111, -1, 0, 0, False) /* Create Scalemail Tassets for Shop_DestinationType */
+     , (1373, 4, 83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop_DestinationType */
+     , (1373, 4, 88, -1, 0, 0, False) /* Create Scalemail Pauldrons for Shop_DestinationType */
+     , (1373, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (1373, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (1373, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1373, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1373, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

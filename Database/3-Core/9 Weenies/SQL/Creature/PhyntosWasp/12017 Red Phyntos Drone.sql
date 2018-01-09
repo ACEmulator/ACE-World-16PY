@@ -100,11 +100,11 @@ VALUES (12017, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12017, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12017, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12017, 9, 3703, 0, 0) /* Create Red Phyntos Wasp Wing for ContainTreasure_DestinationType */
-     , (12017, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12017, 9, 8701, 0, 0) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (12017, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12017, 9, 3703, 0, 0, 0.65, False) /* Create Red Phyntos Wasp Wing for ContainTreasure_DestinationType */
+     , (12017, 9, 0, 0, 0, 0.35, False) /* Create  for ContainTreasure_DestinationType */
+     , (12017, 9, 8701, 0, 0, 0.5, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
+     , (12017, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12017, 0.34, 12, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Red Phyntos Wasp (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

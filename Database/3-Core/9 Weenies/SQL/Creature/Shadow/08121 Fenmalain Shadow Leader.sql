@@ -120,7 +120,7 @@ VALUES (8121, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8121, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8121, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8121, 9, 8085, 0, 0) /* Create Oozing Lump for ContainTreasure_DestinationType */
-     , (8121, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8121, 9, 8085, 0, 0, 1, False) /* Create Oozing Lump for ContainTreasure_DestinationType */
+     , (8121, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -96,13 +96,13 @@ VALUES (12027, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12027, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12027, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12027, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12027, 9, 9314, 0, 0) /* Create A Tiny Mnemosyne for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12027, 9, 23534, 0, 0) /* Create Skeletal Atlatl for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12027, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (12027, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (12027, 9, 9314, 0, 0, 0.45, False) /* Create A Tiny Mnemosyne for ContainTreasure_DestinationType */
+     , (12027, 9, 0, 0, 0, 0.55, False) /* Create  for ContainTreasure_DestinationType */
+     , (12027, 9, 23534, 0, 0, 0.3, False) /* Create Skeletal Atlatl for ContainTreasure_DestinationType */
+     , (12027, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12027, 0.25, 1760, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Skeleton Warrior (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

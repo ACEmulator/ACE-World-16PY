@@ -111,10 +111,10 @@ VALUES (1524, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1524, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1524, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1524, 10, 331, 0, 0) /* Create Mace for WieldTreasure_DestinationType */
-     , (1524, 10, 5753, 0, 0) /* Create Pickaxe for WieldTreasure_DestinationType */
-     , (1524, 10, 352, 0, 0) /* Create Short Sword for WieldTreasure_DestinationType */
-     , (1524, 10, 301, 0, 0) /* Create Battle Axe for WieldTreasure_DestinationType */
-     , (1524, 10, 4190, 0, 0) /* Create Cestus for WieldTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1524, 10, 331, 0, 0, 0.1, False) /* Create Mace for WieldTreasure_DestinationType */
+     , (1524, 10, 5753, 0, 0, 0.1, False) /* Create Pickaxe for WieldTreasure_DestinationType */
+     , (1524, 10, 352, 0, 0, 0.1, False) /* Create Short Sword for WieldTreasure_DestinationType */
+     , (1524, 10, 301, 0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure_DestinationType */
+     , (1524, 10, 4190, 0, 0, 0.1, False) /* Create Cestus for WieldTreasure_DestinationType */;
 

@@ -90,11 +90,11 @@ VALUES (27712, 64, 332) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27712, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27712, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27712, 9, 29905, 0, 0) /* Create Badlands Siraluun Claw for ContainTreasure_DestinationType */
-     , (27712, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27712, 9, 29898, 0, 0) /* Create Small Bundle of Badlands Siraluun Feathers for ContainTreasure_DestinationType */
-     , (27712, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27712, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27712, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27712, 9, 29905, 0, 0, 0.05, False) /* Create Badlands Siraluun Claw for ContainTreasure_DestinationType */
+     , (27712, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27712, 9, 29898, 0, 0, 0.05, False) /* Create Small Bundle of Badlands Siraluun Feathers for ContainTreasure_DestinationType */
+     , (27712, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27712, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27712, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -107,6 +107,6 @@ VALUES (8036, 64, 675) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8036, 128, 600) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8036, 256, 2500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8036, 8, 8119, 0, 0) /* Create Shendolain Soul Gem for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8036, 8, 8119, 0, 0, 1, False) /* Create Shendolain Soul Gem for Treasure_DestinationType */;
 

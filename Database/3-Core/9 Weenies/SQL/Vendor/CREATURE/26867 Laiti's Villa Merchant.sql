@@ -92,6 +92,6 @@ VALUES (26867, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26867, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26867, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26867, 4, 26232, -1, 0) /* Create Laiti's Villa Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26867, 4, 26232, -1, 0, 0, False) /* Create Laiti's Villa Portal Gem for Shop_DestinationType */;
 

@@ -99,7 +99,7 @@ VALUES (24475, 64, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24475, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24475, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24475, 1, 24470, 0, 0) /* Create Harker's Head for Contain_DestinationType */
-     , (24475, 1, 24473, 0, 0) /* Create Virindi Shard for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24475, 1, 24470, 0, 0, 0, False) /* Create Harker's Head for Contain_DestinationType */
+     , (24475, 1, 24473, 0, 0, 0, False) /* Create Virindi Shard for Contain_DestinationType */;
 

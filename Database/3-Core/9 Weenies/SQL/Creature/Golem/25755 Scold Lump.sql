@@ -98,7 +98,7 @@ VALUES (25755, 64, 525) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25755, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25755, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25755, 9, 25798, 1, 0) /* Create Scold's Heart for ContainTreasure_DestinationType */
-     , (25755, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25755, 9, 25798, 1, 0, 1, False) /* Create Scold's Heart for ContainTreasure_DestinationType */
+     , (25755, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -98,28 +98,28 @@ VALUES (653, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (653, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (653, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (653, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (653, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (653, 2, 132, 0, 8) /* Create Shoes for Wield_DestinationType */
-     , (653, 2, 119, 0, 8) /* Create Cowl for Wield_DestinationType */
-     , (653, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (653, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (653, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (653, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (653, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (653, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (653, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (653, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (653, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (653, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (653, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (653, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (653, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (653, 4, 4606, -1, 0) /* Create Quickness Other I for Shop_DestinationType */
-     , (653, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */
-     , (653, 4, 4592, -1, 0) /* Create Mana Boost Other I for Shop_DestinationType */
-     , (653, 4, 4602, -1, 0) /* Create Endurance Other I for Shop_DestinationType */
-     , (653, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (653, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (653, 2, 134, 0, 5, 0.67, False) /* Create Tunic for Wield_DestinationType */
+     , (653, 2, 127, 0, 8, 0, False) /* Create Pants for Wield_DestinationType */
+     , (653, 2, 132, 0, 8, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (653, 2, 119, 0, 8, 0, False) /* Create Cowl for Wield_DestinationType */
+     , (653, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (653, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (653, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (653, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (653, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (653, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (653, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (653, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (653, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (653, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (653, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (653, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (653, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (653, 4, 4606, -1, 0, 0, False) /* Create Quickness Other I for Shop_DestinationType */
+     , (653, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */
+     , (653, 4, 4592, -1, 0, 0, False) /* Create Mana Boost Other I for Shop_DestinationType */
+     , (653, 4, 4602, -1, 0, 0, False) /* Create Endurance Other I for Shop_DestinationType */
+     , (653, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (653, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

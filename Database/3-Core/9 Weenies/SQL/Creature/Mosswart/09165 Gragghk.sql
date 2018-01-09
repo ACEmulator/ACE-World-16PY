@@ -113,15 +113,15 @@ VALUES (9165, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9165, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9165, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9165, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (9165, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9165, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (9165, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9165, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (9165, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9165, 9, 9128, 0, 0) /* Create Torn Mosswart Shroud for ContainTreasure_DestinationType */
-     , (9165, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9165, 9, 9121, 0, 0) /* Create Storytelling for ContainTreasure_DestinationType */
-     , (9165, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9165, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (9165, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (9165, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (9165, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (9165, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (9165, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (9165, 9, 9128, 0, 0, 1, False) /* Create Torn Mosswart Shroud for ContainTreasure_DestinationType */
+     , (9165, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (9165, 9, 9121, 0, 0, 1, False) /* Create Storytelling for ContainTreasure_DestinationType */
+     , (9165, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -41,17 +41,17 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8167, 2, False) /* OPEN_BOOL */
      , (8167, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8167, 1, 1650, 100, 0) /* Create Red Taper for Contain_DestinationType */
-     , (8167, 1, 1649, 100, 0) /* Create Pink Taper for Contain_DestinationType */
-     , (8167, 1, 1648, 100, 0) /* Create Orange Taper for Contain_DestinationType */
-     , (8167, 1, 1653, 100, 0) /* Create Yellow Taper for Contain_DestinationType */
-     , (8167, 1, 1645, 100, 0) /* Create Green Taper for Contain_DestinationType */
-     , (8167, 1, 1654, 100, 0) /* Create Turquoise Taper for Contain_DestinationType */
-     , (8167, 1, 1643, 100, 0) /* Create Blue Taper for Contain_DestinationType */
-     , (8167, 1, 1647, 100, 0) /* Create Indigo Taper for Contain_DestinationType */
-     , (8167, 1, 1651, 100, 0) /* Create Violet Taper for Contain_DestinationType */
-     , (8167, 1, 1644, 100, 0) /* Create Brown Taper for Contain_DestinationType */
-     , (8167, 1, 1652, 100, 0) /* Create White Taper for Contain_DestinationType */
-     , (8167, 1, 1646, 100, 0) /* Create Grey Taper for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8167, 1, 1650, 100, 0, 0, False) /* Create Red Taper for Contain_DestinationType */
+     , (8167, 1, 1649, 100, 0, 0, False) /* Create Pink Taper for Contain_DestinationType */
+     , (8167, 1, 1648, 100, 0, 0, False) /* Create Orange Taper for Contain_DestinationType */
+     , (8167, 1, 1653, 100, 0, 0, False) /* Create Yellow Taper for Contain_DestinationType */
+     , (8167, 1, 1645, 100, 0, 0, False) /* Create Green Taper for Contain_DestinationType */
+     , (8167, 1, 1654, 100, 0, 0, False) /* Create Turquoise Taper for Contain_DestinationType */
+     , (8167, 1, 1643, 100, 0, 0, False) /* Create Blue Taper for Contain_DestinationType */
+     , (8167, 1, 1647, 100, 0, 0, False) /* Create Indigo Taper for Contain_DestinationType */
+     , (8167, 1, 1651, 100, 0, 0, False) /* Create Violet Taper for Contain_DestinationType */
+     , (8167, 1, 1644, 100, 0, 0, False) /* Create Brown Taper for Contain_DestinationType */
+     , (8167, 1, 1652, 100, 0, 0, False) /* Create White Taper for Contain_DestinationType */
+     , (8167, 1, 1646, 100, 0, 0, False) /* Create Grey Taper for Contain_DestinationType */;
 

@@ -87,7 +87,7 @@ VALUES (14429, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14429, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14429, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14429, 9, 14437, 0, 0) /* Create Storage Key for ContainTreasure_DestinationType */
-     , (14429, 9, 14447, 0, 0) /* Create An Unsigned Message for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14429, 9, 14437, 0, 0, 1, False) /* Create Storage Key for ContainTreasure_DestinationType */
+     , (14429, 9, 14447, 0, 0, 1, False) /* Create An Unsigned Message for ContainTreasure_DestinationType */;
 

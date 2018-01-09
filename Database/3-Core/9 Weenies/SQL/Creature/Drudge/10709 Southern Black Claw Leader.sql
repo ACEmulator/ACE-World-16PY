@@ -107,10 +107,10 @@ VALUES (10709, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10709, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10709, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10709, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (10709, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10709, 9, 7040, 0, 0) /* Create Ravener Guts for ContainTreasure_DestinationType */
-     , (10709, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10709, 9, 10713, 0, 0) /* Create Southern Quiddity Fragment for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10709, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (10709, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (10709, 9, 7040, 0, 0, 0.03, False) /* Create Ravener Guts for ContainTreasure_DestinationType */
+     , (10709, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (10709, 9, 10713, 0, 0, 1, False) /* Create Southern Quiddity Fragment for ContainTreasure_DestinationType */;
 

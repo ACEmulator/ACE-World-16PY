@@ -112,11 +112,11 @@ VALUES (11988, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11988, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11988, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11988, 9, 9225, 0, 0) /* Create Obsidian Shard for ContainTreasure_DestinationType */
-     , (11988, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11988, 9, 23591, 0, 0) /* Create Energy Crown for ContainTreasure_DestinationType */
-     , (11988, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11988, 9, 9225, 0, 0, 0.55, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */
+     , (11988, 9, 0, 0, 0, 0.45, False) /* Create  for ContainTreasure_DestinationType */
+     , (11988, 9, 23591, 0, 0, 0.3, False) /* Create Energy Crown for ContainTreasure_DestinationType */
+     , (11988, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11988, 0.34, 9242, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Innocent Doll (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

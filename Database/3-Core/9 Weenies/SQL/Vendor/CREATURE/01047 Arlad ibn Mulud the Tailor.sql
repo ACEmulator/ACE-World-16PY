@@ -94,19 +94,19 @@ VALUES (1047, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1047, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1047, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1047, 2, 124, 0, 17) /* Create Jerkin for Wield_DestinationType */
-     , (1047, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (1047, 2, 115, 0, 17) /* Create Leather Boots for Wield_DestinationType */
-     , (1047, 2, 128, 0, 7) /* Create Qafiya for Wield_DestinationType */
-     , (1047, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1047, 4, 2591, -1, 17) /* Create Shirt for Shop_DestinationType */
-     , (1047, 4, 2600, -1, 17) /* Create Pantaloons for Shop_DestinationType */
-     , (1047, 4, 128, -1, 7) /* Create Qafiya for Shop_DestinationType */
-     , (1047, 4, 133, -1, 17) /* Create Slippers for Shop_DestinationType */
-     , (1047, 4, 5852, -1, 0) /* Create Dho Vest and Robe for Shop_DestinationType */
-     , (1047, 4, 5894, -1, 0) /* Create Fez for Shop_DestinationType */
-     , (1047, 4, 8373, -1, 5) /* Create Kiyafa Robe for Shop_DestinationType */
-     , (1047, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (1047, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1047, 2, 124, 0, 17, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (1047, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (1047, 2, 115, 0, 17, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1047, 2, 128, 0, 7, 0.33, False) /* Create Qafiya for Wield_DestinationType */
+     , (1047, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1047, 4, 2591, -1, 17, 1, False) /* Create Shirt for Shop_DestinationType */
+     , (1047, 4, 2600, -1, 17, 1, False) /* Create Pantaloons for Shop_DestinationType */
+     , (1047, 4, 128, -1, 7, 0.33, False) /* Create Qafiya for Shop_DestinationType */
+     , (1047, 4, 133, -1, 17, 1, False) /* Create Slippers for Shop_DestinationType */
+     , (1047, 4, 5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop_DestinationType */
+     , (1047, 4, 5894, -1, 0, 0, False) /* Create Fez for Shop_DestinationType */
+     , (1047, 4, 8373, -1, 5, 0.1, False) /* Create Kiyafa Robe for Shop_DestinationType */
+     , (1047, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (1047, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */;
 

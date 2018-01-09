@@ -92,18 +92,18 @@ VALUES (27864, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27864, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27864, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27864, 10, 23676, 0, 0) /* Create Katar for WieldTreasure_DestinationType */
-     , (27864, 10, 23702, 0, 0) /* Create Tachi for WieldTreasure_DestinationType */
-     , (27864, 10, 23708, 0, 0) /* Create Fire Tachi for WieldTreasure_DestinationType */
-     , (27864, 10, 23690, 0, 0) /* Create Acid Spear for WieldTreasure_DestinationType */
-     , (27864, 10, 23694, 0, 0) /* Create Frost Spear for WieldTreasure_DestinationType */
-     , (27864, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (27864, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27864, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (27864, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27864, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (27864, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27864, 9, 20854, 0, 0) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (27864, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27864, 10, 23676, 0, 0, 0.2, False) /* Create Katar for WieldTreasure_DestinationType */
+     , (27864, 10, 23702, 0, 0, 0.2, False) /* Create Tachi for WieldTreasure_DestinationType */
+     , (27864, 10, 23708, 0, 0, 0.2, False) /* Create Fire Tachi for WieldTreasure_DestinationType */
+     , (27864, 10, 23690, 0, 0, 0.2, False) /* Create Acid Spear for WieldTreasure_DestinationType */
+     , (27864, 10, 23694, 0, 0, 0.2, False) /* Create Frost Spear for WieldTreasure_DestinationType */
+     , (27864, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (27864, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (27864, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (27864, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27864, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (27864, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27864, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
+     , (27864, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

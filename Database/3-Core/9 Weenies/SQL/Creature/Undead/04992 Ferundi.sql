@@ -117,7 +117,7 @@ VALUES (4992, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4992, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4992, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4992, 2, 338, 0, 0) /* Create Quarter Staff for Wield_DestinationType */
-     , (4992, 1, 4990, 0, 0) /* Create Key of Frore for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4992, 2, 338, 0, 0, 0, False) /* Create Quarter Staff for Wield_DestinationType */
+     , (4992, 1, 4990, 0, 0, 0, False) /* Create Key of Frore for Contain_DestinationType */;
 

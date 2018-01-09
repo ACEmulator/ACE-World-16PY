@@ -92,6 +92,6 @@ VALUES (26849, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26849, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26849, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26849, 4, 26214, -1, 0) /* Create Ishilai Inlet Villas Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26849, 4, 26214, -1, 0, 0, False) /* Create Ishilai Inlet Villas Portal Gem for Shop_DestinationType */;
 

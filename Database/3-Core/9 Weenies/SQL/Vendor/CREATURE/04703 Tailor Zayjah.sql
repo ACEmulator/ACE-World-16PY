@@ -94,25 +94,25 @@ VALUES (4703, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4703, 128, 20) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4703, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4703, 2, 2587, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (4703, 2, 2601, 0, 16) /* Create Pants for Wield_DestinationType */
-     , (4703, 2, 2606, 0, 16) /* Create Boots for Wield_DestinationType */
-     , (4703, 2, 128, 0, 14) /* Create Qafiya for Wield_DestinationType */
-     , (4703, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4703, 4, 2598, -1, 18) /* Create Pants for Shop_DestinationType */
-     , (4703, 4, 2598, -1, 14) /* Create Pants for Shop_DestinationType */
-     , (4703, 4, 2598, -1, 16) /* Create Pants for Shop_DestinationType */
-     , (4703, 4, 2587, -1, 18) /* Create Shirt for Shop_DestinationType */
-     , (4703, 4, 2587, -1, 14) /* Create Shirt for Shop_DestinationType */
-     , (4703, 4, 2587, -1, 16) /* Create Shirt for Shop_DestinationType */
-     , (4703, 4, 135, -1, 18) /* Create Turban for Shop_DestinationType */
-     , (4703, 4, 135, -1, 14) /* Create Turban for Shop_DestinationType */
-     , (4703, 4, 135, -1, 16) /* Create Turban for Shop_DestinationType */
-     , (4703, 4, 133, -1, 18) /* Create Slippers for Shop_DestinationType */
-     , (4703, 4, 133, -1, 14) /* Create Slippers for Shop_DestinationType */
-     , (4703, 4, 133, -1, 16) /* Create Slippers for Shop_DestinationType */
-     , (4703, 4, 5852, -1, 0) /* Create Dho Vest and Robe for Shop_DestinationType */
-     , (4703, 4, 5894, -1, 0) /* Create Fez for Shop_DestinationType */
-     , (4703, 4, 8373, -1, 16) /* Create Kiyafa Robe for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4703, 2, 2587, 0, 18, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4703, 2, 2601, 0, 16, 1, False) /* Create Pants for Wield_DestinationType */
+     , (4703, 2, 2606, 0, 16, 1, False) /* Create Boots for Wield_DestinationType */
+     , (4703, 2, 128, 0, 14, 0.8, False) /* Create Qafiya for Wield_DestinationType */
+     , (4703, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4703, 4, 2598, -1, 18, 1, False) /* Create Pants for Shop_DestinationType */
+     , (4703, 4, 2598, -1, 14, 0.8, False) /* Create Pants for Shop_DestinationType */
+     , (4703, 4, 2598, -1, 16, 1, False) /* Create Pants for Shop_DestinationType */
+     , (4703, 4, 2587, -1, 18, 1, False) /* Create Shirt for Shop_DestinationType */
+     , (4703, 4, 2587, -1, 14, 0.8, False) /* Create Shirt for Shop_DestinationType */
+     , (4703, 4, 2587, -1, 16, 1, False) /* Create Shirt for Shop_DestinationType */
+     , (4703, 4, 135, -1, 18, 1, False) /* Create Turban for Shop_DestinationType */
+     , (4703, 4, 135, -1, 14, 0.8, False) /* Create Turban for Shop_DestinationType */
+     , (4703, 4, 135, -1, 16, 1, False) /* Create Turban for Shop_DestinationType */
+     , (4703, 4, 133, -1, 18, 1, False) /* Create Slippers for Shop_DestinationType */
+     , (4703, 4, 133, -1, 14, 0.8, False) /* Create Slippers for Shop_DestinationType */
+     , (4703, 4, 133, -1, 16, 1, False) /* Create Slippers for Shop_DestinationType */
+     , (4703, 4, 5852, -1, 0, 0, False) /* Create Dho Vest and Robe for Shop_DestinationType */
+     , (4703, 4, 5894, -1, 0, 0, False) /* Create Fez for Shop_DestinationType */
+     , (4703, 4, 8373, -1, 16, 0.5, False) /* Create Kiyafa Robe for Shop_DestinationType */;
 

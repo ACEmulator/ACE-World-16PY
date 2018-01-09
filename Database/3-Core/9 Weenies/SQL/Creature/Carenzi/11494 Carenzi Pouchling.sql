@@ -90,7 +90,7 @@ VALUES (11494, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11494, 128, 30) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11494, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11494, 9, 11340, 0, 0) /* Create Carenzi Pouchling Pelt for ContainTreasure_DestinationType */
-     , (11494, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11494, 9, 11340, 0, 0, 0.05, False) /* Create Carenzi Pouchling Pelt for ContainTreasure_DestinationType */
+     , (11494, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -111,8 +111,8 @@ VALUES (4991, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4991, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4991, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4991, 2, 4982, 0, 0) /* Create Hammer of Frore for Wield_DestinationType */
-     , (4991, 2, 4981, 0, 0) /* Create Ice Heaume of Frore for Wield_DestinationType */
-     , (4991, 2, 95, 0, 0) /* Create Tower Shield for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4991, 2, 4982, 0, 0, 0, False) /* Create Hammer of Frore for Wield_DestinationType */
+     , (4991, 2, 4981, 0, 0, 0, False) /* Create Ice Heaume of Frore for Wield_DestinationType */
+     , (4991, 2, 95, 0, 0, 0, False) /* Create Tower Shield for Wield_DestinationType */;
 

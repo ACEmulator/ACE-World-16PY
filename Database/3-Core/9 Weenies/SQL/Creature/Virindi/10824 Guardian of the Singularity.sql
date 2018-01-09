@@ -118,16 +118,16 @@ VALUES (10824, 64, 1300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10824, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10824, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10824, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (10824, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10824, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (10824, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10824, 9, 20863, 0, 0) /* Create Virindi Stamp for ContainTreasure_DestinationType */
-     , (10824, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10824, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (10824, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10824, 9, 25339, 0, 0) /* Create Broken Virindi Consul Mask for ContainTreasure_DestinationType */
-     , (10824, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10824, 9, 25949, 0, 0) /* Create Quintessence Sickle for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10824, 9, 7604, 0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (10824, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (10824, 9, 9292, 0, 0, 0.05, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (10824, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (10824, 9, 20863, 0, 0, 0.04, False) /* Create Virindi Stamp for ContainTreasure_DestinationType */
+     , (10824, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (10824, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (10824, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (10824, 9, 25339, 0, 0, 0.03, False) /* Create Broken Virindi Consul Mask for ContainTreasure_DestinationType */
+     , (10824, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (10824, 9, 25949, 0, 0, 1, False) /* Create Quintessence Sickle for ContainTreasure_DestinationType */;
 

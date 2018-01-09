@@ -98,19 +98,19 @@ VALUES (5638, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5638, 128, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5638, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5638, 2, 2588, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (5638, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (5638, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (5638, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (5638, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (5638, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (5638, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (5638, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (5638, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */
-     , (5638, 4, 4589, -1, 0) /* Create Revitalize Other I for Shop_DestinationType */
-     , (5638, 4, 4592, -1, 0) /* Create Mana Boost Other I for Shop_DestinationType */
-     , (5638, 4, 4606, -1, 0) /* Create Quickness Other I for Shop_DestinationType */
-     , (5638, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5638, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5638, 2, 2588, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (5638, 2, 117, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (5638, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5638, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (5638, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (5638, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (5638, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (5638, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (5638, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */
+     , (5638, 4, 4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop_DestinationType */
+     , (5638, 4, 4592, -1, 0, 0, False) /* Create Mana Boost Other I for Shop_DestinationType */
+     , (5638, 4, 4606, -1, 0, 0, False) /* Create Quickness Other I for Shop_DestinationType */
+     , (5638, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5638, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

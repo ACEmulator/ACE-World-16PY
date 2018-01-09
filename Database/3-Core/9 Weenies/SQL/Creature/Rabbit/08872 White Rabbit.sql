@@ -108,8 +108,8 @@ VALUES (8872, 64, 2266) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8872, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8872, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8872, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8872, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8872, 1, 8400, 0, 0) /* Create Orb of the Bunny Booty for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8872, 9, 6876, 0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (8872, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8872, 1, 8400, 0, 0, 1, False) /* Create Orb of the Bunny Booty for Contain_DestinationType */;
 

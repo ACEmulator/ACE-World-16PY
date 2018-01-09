@@ -93,9 +93,9 @@ VALUES (24291, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24291, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24291, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24291, 9, 12253, 0, 0) /* Create Monougat for ContainTreasure_DestinationType */
-     , (24291, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24291, 9, 24845, 0, 0) /* Create Merciless Monouga Idol for ContainTreasure_DestinationType */
-     , (24291, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24291, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
+     , (24291, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
+     , (24291, 9, 24845, 0, 0, 0.03, False) /* Create Merciless Monouga Idol for ContainTreasure_DestinationType */
+     , (24291, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

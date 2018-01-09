@@ -113,9 +113,9 @@ VALUES (25964, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25964, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25964, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25964, 2, 12192, 0, 0) /* Create Shadow's Garb for Wield_DestinationType */
-     , (25964, 2, 12193, 0, 14) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (25964, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25964, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25964, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_DestinationType */
+     , (25964, 2, 12193, 0, 14, 0, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (25964, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25964, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

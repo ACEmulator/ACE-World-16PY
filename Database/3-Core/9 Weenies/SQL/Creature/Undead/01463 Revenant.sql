@@ -130,14 +130,14 @@ VALUES (1463, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1463, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1463, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1463, 9, 7041, 0, 0) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (1463, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1463, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (1463, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1463, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (1463, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1463, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (1463, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1463, 8, 1436, 0, 0) /* Create Hammer of Lightning  for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1463, 9, 7041, 0, 0, 0.03, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
+     , (1463, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1463, 9, 5873, 0, 0, 0.03, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (1463, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1463, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (1463, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (1463, 9, 9310, 0, 0, 0.03, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (1463, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1463, 8, 1436, 0, 0, 1, False) /* Create Hammer of Lightning  for Treasure_DestinationType */;
 

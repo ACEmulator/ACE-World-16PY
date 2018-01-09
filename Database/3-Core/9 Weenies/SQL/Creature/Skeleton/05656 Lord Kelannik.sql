@@ -96,12 +96,12 @@ VALUES (5656, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5656, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5656, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5656, 10, 23708, 0, 0) /* Create Fire Tachi for WieldTreasure_DestinationType */
-     , (5656, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (5656, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5656, 9, 5654, 0, 0) /* Create Cursed Key for ContainTreasure_DestinationType */
-     , (5656, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5656, 9, 5655, 0, 0) /* Create Black Gem for ContainTreasure_DestinationType */
-     , (5656, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5656, 10, 23708, 0, 0, 0.9, False) /* Create Fire Tachi for WieldTreasure_DestinationType */
+     , (5656, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (5656, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (5656, 9, 5654, 0, 0, 1, False) /* Create Cursed Key for ContainTreasure_DestinationType */
+     , (5656, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (5656, 9, 5655, 0, 0, 1, False) /* Create Black Gem for ContainTreasure_DestinationType */
+     , (5656, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

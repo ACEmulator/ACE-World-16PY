@@ -92,6 +92,6 @@ VALUES (26808, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26808, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26808, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26808, 4, 26173, -1, 0) /* Create Faranar Foothills Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26808, 4, 26173, -1, 0, 0, False) /* Create Faranar Foothills Portal Gem for Shop_DestinationType */;
 

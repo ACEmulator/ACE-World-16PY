@@ -94,27 +94,27 @@ VALUES (1827, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1827, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1827, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1827, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (1827, 2, 117, 0, 4) /* Create Breeches for Wield_DestinationType */
-     , (1827, 2, 133, 0, 17) /* Create Slippers for Wield_DestinationType */
-     , (1827, 2, 135, 0, 18) /* Create Turban for Wield_DestinationType */
-     , (1827, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1827, 4, 548, -1, 0) /* Create Bowl of Rice for Shop_DestinationType */
-     , (1827, 4, 549, -1, 0) /* Create Bowl of Stew for Shop_DestinationType */
-     , (1827, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (1827, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1827, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (1827, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (1827, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1827, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (1827, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (1827, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (1827, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (1827, 4, 265, -1, 0) /* Create Meat for Shop_DestinationType */
-     , (1827, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (1827, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (1827, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (1827, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (1827, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1827, 2, 124, 0, 14, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (1827, 2, 117, 0, 4, 0.6, False) /* Create Breeches for Wield_DestinationType */
+     , (1827, 2, 133, 0, 17, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (1827, 2, 135, 0, 18, 1, False) /* Create Turban for Wield_DestinationType */
+     , (1827, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1827, 4, 548, -1, 0, 0, False) /* Create Bowl of Rice for Shop_DestinationType */
+     , (1827, 4, 549, -1, 0, 0, False) /* Create Bowl of Stew for Shop_DestinationType */
+     , (1827, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (1827, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1827, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (1827, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (1827, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1827, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (1827, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (1827, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (1827, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (1827, 4, 265, -1, 0, 0, False) /* Create Meat for Shop_DestinationType */
+     , (1827, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (1827, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (1827, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (1827, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (1827, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */;
 

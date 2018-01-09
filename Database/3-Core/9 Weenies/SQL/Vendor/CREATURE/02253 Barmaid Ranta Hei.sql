@@ -94,21 +94,21 @@ VALUES (2253, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2253, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2253, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2253, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (2253, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (2253, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2253, 2, 118, 0, 17) /* Create Cap for Wield_DestinationType */
-     , (2253, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2253, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (2253, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (2253, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (2253, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (2253, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (2253, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (2253, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (2253, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (2253, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (2253, 4, 2219, -1, 0) /* Create Directions to Web Maze for Shop_DestinationType */
-     , (2253, 4, 4210, -1, 0) /* Create Dungeon Mei Directions for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2253, 2, 124, 0, 9, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (2253, 2, 117, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (2253, 2, 132, 0, 9, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (2253, 2, 118, 0, 17, 1, False) /* Create Cap for Wield_DestinationType */
+     , (2253, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2253, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (2253, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (2253, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (2253, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (2253, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (2253, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (2253, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (2253, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (2253, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (2253, 4, 2219, -1, 0, 0, False) /* Create Directions to Web Maze for Shop_DestinationType */
+     , (2253, 4, 4210, -1, 0, 0, False) /* Create Dungeon Mei Directions for Shop_DestinationType */;
 

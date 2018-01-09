@@ -130,12 +130,12 @@ VALUES (5686, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5686, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5686, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5686, 9, 3698, 0, 0) /* Create White Jewel for ContainTreasure_DestinationType */
-     , (5686, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5686, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (5686, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5686, 1, 5680, 0, 0) /* Create Torn Journal for Contain_DestinationType */
-     , (5686, 9, 8154, 0, 0) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
-     , (5686, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5686, 9, 3698, 0, 0, 0.05, False) /* Create White Jewel for ContainTreasure_DestinationType */
+     , (5686, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (5686, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (5686, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (5686, 1, 5680, 0, 0, 1, False) /* Create Torn Journal for Contain_DestinationType */
+     , (5686, 9, 8154, 0, 0, 0.05, False) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
+     , (5686, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

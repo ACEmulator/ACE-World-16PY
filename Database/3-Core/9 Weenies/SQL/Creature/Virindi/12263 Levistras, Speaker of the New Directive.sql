@@ -130,6 +130,6 @@ VALUES (12263, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12263, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12263, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12263, 8, 12269, 1, 0) /* Create Shroud of Levistras for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12263, 8, 12269, 1, 0, 0, False) /* Create Shroud of Levistras for Treasure_DestinationType */;
 

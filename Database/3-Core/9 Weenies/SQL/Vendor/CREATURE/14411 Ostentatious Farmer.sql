@@ -94,17 +94,17 @@ VALUES (14411, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14411, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14411, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14411, 2, 2596, 0, 14) /* Create Doublet for Wield_DestinationType */
-     , (14411, 2, 2602, 0, 13) /* Create Breeches for Wield_DestinationType */
-     , (14411, 2, 115, 0, 13) /* Create Leather Boots for Wield_DestinationType */
-     , (14411, 2, 10696, 0, 1) /* Create Apron for Wield_DestinationType */
-     , (14411, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (14411, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (14411, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (14411, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (14411, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (14411, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (14411, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */
-     , (14411, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14411, 2, 2596, 0, 14, 1, False) /* Create Doublet for Wield_DestinationType */
+     , (14411, 2, 2602, 0, 13, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (14411, 2, 115, 0, 13, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (14411, 2, 10696, 0, 1, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (14411, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (14411, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (14411, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (14411, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (14411, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (14411, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (14411, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */
+     , (14411, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 

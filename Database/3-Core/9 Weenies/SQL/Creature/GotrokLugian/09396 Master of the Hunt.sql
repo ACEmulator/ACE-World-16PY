@@ -93,11 +93,11 @@ VALUES (9396, 64, 535) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9396, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9396, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9396, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (9396, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9396, 9, 7043, 0, 0) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (9396, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9396, 9, 9421, 0, 0) /* Create Lugian Scepter for ContainTreasure_DestinationType */
-     , (9396, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9396, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (9396, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (9396, 9, 7043, 0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
+     , (9396, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (9396, 9, 9421, 0, 0, 1, False) /* Create Lugian Scepter for ContainTreasure_DestinationType */
+     , (9396, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

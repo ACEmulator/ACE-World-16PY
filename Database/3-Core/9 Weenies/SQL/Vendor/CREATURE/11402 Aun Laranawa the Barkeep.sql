@@ -96,33 +96,33 @@ VALUES (11402, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11402, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11402, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11402, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (11402, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (11402, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (11402, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (11402, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (11402, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (11402, 4, 4712, -1, 0) /* Create Beef Rice for Shop_DestinationType */
-     , (11402, 4, 4723, -1, 0) /* Create Fish Kebab for Shop_DestinationType */
-     , (11402, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (11402, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (11402, 4, 27629, -1, 0) /* Create Aun Mareura for Shop_DestinationType */
-     , (11402, 4, 27630, -1, 0) /* Create The Puh Toneawa for Shop_DestinationType */
-     , (11402, 4, 27631, -1, 0) /* Create Aun Shimauri for Shop_DestinationType */
-     , (11402, 4, 27632, -1, 0) /* Create Aun Papileona's Shrine for Shop_DestinationType */
-     , (11402, 4, 27633, -1, 0) /* Create Isparian Arrival for Shop_DestinationType */
-     , (11402, 4, 27634, -1, 0) /* Create "Tumerok?" for Shop_DestinationType */
-     , (11402, 4, 27635, -1, 0) /* Create The Keh of the World for Shop_DestinationType */
-     , (11402, 4, 27636, -1, 0) /* Create She Who Lost Her Name for Shop_DestinationType */
-     , (11402, 4, 27637, -1, 0) /* Create The Hunter Ralirea for Shop_DestinationType */
-     , (11402, 4, 27638, -1, 0) /* Create Aun Holdings for Shop_DestinationType */
-     , (11402, 4, 27639, -1, 0) /* Create Aun Nualuan and Itealuan for Shop_DestinationType */
-     , (11402, 4, 27640, -1, 0) /* Create Hea Raiders for Shop_DestinationType */
-     , (11402, 4, 27641, -1, 0) /* Create Empyrean Towers for Shop_DestinationType */
-     , (11402, 4, 27642, -1, 0) /* Create The Bride of Wharu for Shop_DestinationType */
-     , (11402, 4, 27643, -1, 0) /* Create The Broken Stones for Shop_DestinationType */
-     , (11402, 4, 27644, -1, 0) /* Create Wharu's Children for Shop_DestinationType */
-     , (11402, 4, 27645, -1, 0) /* Create Within the Flesh of Palenqual for Shop_DestinationType */
-     , (11402, 4, 27646, -1, 0) /* Create The Drumming of our Shamans for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11402, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (11402, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (11402, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (11402, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (11402, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (11402, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (11402, 4, 4712, -1, 0, 0, False) /* Create Beef Rice for Shop_DestinationType */
+     , (11402, 4, 4723, -1, 0, 0, False) /* Create Fish Kebab for Shop_DestinationType */
+     , (11402, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (11402, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (11402, 4, 27629, -1, 0, 0, False) /* Create Aun Mareura for Shop_DestinationType */
+     , (11402, 4, 27630, -1, 0, 0, False) /* Create The Puh Toneawa for Shop_DestinationType */
+     , (11402, 4, 27631, -1, 0, 0, False) /* Create Aun Shimauri for Shop_DestinationType */
+     , (11402, 4, 27632, -1, 0, 0, False) /* Create Aun Papileona's Shrine for Shop_DestinationType */
+     , (11402, 4, 27633, -1, 0, 0, False) /* Create Isparian Arrival for Shop_DestinationType */
+     , (11402, 4, 27634, -1, 0, 0, False) /* Create "Tumerok?" for Shop_DestinationType */
+     , (11402, 4, 27635, -1, 0, 0, False) /* Create The Keh of the World for Shop_DestinationType */
+     , (11402, 4, 27636, -1, 0, 0, False) /* Create She Who Lost Her Name for Shop_DestinationType */
+     , (11402, 4, 27637, -1, 0, 0, False) /* Create The Hunter Ralirea for Shop_DestinationType */
+     , (11402, 4, 27638, -1, 0, 0, False) /* Create Aun Holdings for Shop_DestinationType */
+     , (11402, 4, 27639, -1, 0, 0, False) /* Create Aun Nualuan and Itealuan for Shop_DestinationType */
+     , (11402, 4, 27640, -1, 0, 0, False) /* Create Hea Raiders for Shop_DestinationType */
+     , (11402, 4, 27641, -1, 0, 0, False) /* Create Empyrean Towers for Shop_DestinationType */
+     , (11402, 4, 27642, -1, 0, 0, False) /* Create The Bride of Wharu for Shop_DestinationType */
+     , (11402, 4, 27643, -1, 0, 0, False) /* Create The Broken Stones for Shop_DestinationType */
+     , (11402, 4, 27644, -1, 0, 0, False) /* Create Wharu's Children for Shop_DestinationType */
+     , (11402, 4, 27645, -1, 0, 0, False) /* Create Within the Flesh of Palenqual for Shop_DestinationType */
+     , (11402, 4, 27646, -1, 0, 0, False) /* Create The Drumming of our Shamans for Shop_DestinationType */;
 

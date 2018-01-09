@@ -92,7 +92,7 @@ VALUES (1521, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1521, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1521, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1521, 9, 1531, 0, 0) /* Create Cell Key for ContainTreasure_DestinationType */
-     , (1521, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1521, 9, 1531, 0, 0, 1, False) /* Create Cell Key for ContainTreasure_DestinationType */
+     , (1521, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

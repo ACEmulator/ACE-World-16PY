@@ -100,25 +100,25 @@ VALUES (9209, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9209, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9209, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9209, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (9209, 4, 4587, -1, 0) /* Create Heal Other II for Shop_DestinationType */
-     , (9209, 4, 4596, -1, 0) /* Create Regeneration Other II for Shop_DestinationType */
-     , (9209, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (9209, 4, 753, -1, 0) /* Create Brimstone for Shop_DestinationType */
-     , (9209, 4, 754, -1, 0) /* Create Cadmia for Shop_DestinationType */
-     , (9209, 4, 755, -1, 0) /* Create Cinnabar for Shop_DestinationType */
-     , (9209, 4, 756, -1, 0) /* Create Cobalt for Shop_DestinationType */
-     , (9209, 4, 757, -1, 0) /* Create Colcothar for Shop_DestinationType */
-     , (9209, 4, 758, -1, 0) /* Create Gypsum for Shop_DestinationType */
-     , (9209, 4, 759, -1, 0) /* Create Quicksilver for Shop_DestinationType */
-     , (9209, 4, 760, -1, 0) /* Create Realgar for Shop_DestinationType */
-     , (9209, 4, 761, -1, 0) /* Create Stibnite for Shop_DestinationType */
-     , (9209, 4, 762, -1, 0) /* Create Turpeth for Shop_DestinationType */
-     , (9209, 4, 763, -1, 0) /* Create Verdigris for Shop_DestinationType */
-     , (9209, 4, 764, -1, 0) /* Create Vitriol for Shop_DestinationType */
-     , (9209, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (9209, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9209, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (9209, 4, 4587, -1, 0, 0, False) /* Create Heal Other II for Shop_DestinationType */
+     , (9209, 4, 4596, -1, 0, 0, False) /* Create Regeneration Other II for Shop_DestinationType */
+     , (9209, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (9209, 4, 753, -1, 0, 0, False) /* Create Brimstone for Shop_DestinationType */
+     , (9209, 4, 754, -1, 0, 0, False) /* Create Cadmia for Shop_DestinationType */
+     , (9209, 4, 755, -1, 0, 0, False) /* Create Cinnabar for Shop_DestinationType */
+     , (9209, 4, 756, -1, 0, 0, False) /* Create Cobalt for Shop_DestinationType */
+     , (9209, 4, 757, -1, 0, 0, False) /* Create Colcothar for Shop_DestinationType */
+     , (9209, 4, 758, -1, 0, 0, False) /* Create Gypsum for Shop_DestinationType */
+     , (9209, 4, 759, -1, 0, 0, False) /* Create Quicksilver for Shop_DestinationType */
+     , (9209, 4, 760, -1, 0, 0, False) /* Create Realgar for Shop_DestinationType */
+     , (9209, 4, 761, -1, 0, 0, False) /* Create Stibnite for Shop_DestinationType */
+     , (9209, 4, 762, -1, 0, 0, False) /* Create Turpeth for Shop_DestinationType */
+     , (9209, 4, 763, -1, 0, 0, False) /* Create Verdigris for Shop_DestinationType */
+     , (9209, 4, 764, -1, 0, 0, False) /* Create Vitriol for Shop_DestinationType */
+     , (9209, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (9209, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (9209, -1, 2470, 120, 10, 25, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Stamina Elixir (x10 up to max of 25) - PickUp_RegenerationType - Shop_RegenLocationType */

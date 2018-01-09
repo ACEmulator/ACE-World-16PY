@@ -92,6 +92,6 @@ VALUES (26846, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26846, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26846, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26846, 4, 26211, -1, 0) /* Create Imuth Maer Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26846, 4, 26211, -1, 0, 0, False) /* Create Imuth Maer Cottages Portal Gem for Shop_DestinationType */;
 

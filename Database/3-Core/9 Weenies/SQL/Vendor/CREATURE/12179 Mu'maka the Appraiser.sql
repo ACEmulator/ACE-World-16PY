@@ -98,22 +98,22 @@ VALUES (12179, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12179, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12179, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12179, 2, 5850, 0, 14) /* Create Faran Robe for Wield_DestinationType */
-     , (12179, 4, 9550, -1, 0) /* Create Armor Expertise III for Shop_DestinationType */
-     , (12179, 4, 9551, -1, 0) /* Create Armor Expertise IV for Shop_DestinationType */
-     , (12179, 4, 9552, -1, 0) /* Create Armor Expertise V for Shop_DestinationType */
-     , (12179, 4, 9553, -1, 0) /* Create Armor Expertise VI for Shop_DestinationType */
-     , (12179, 4, 12181, -1, 0) /* Create Item Expertise III for Shop_DestinationType */
-     , (12179, 4, 12182, -1, 0) /* Create Item Expertise IV for Shop_DestinationType */
-     , (12179, 4, 12183, -1, 0) /* Create Item Expertise V for Shop_DestinationType */
-     , (12179, 4, 12184, -1, 0) /* Create Item Expertise VI for Shop_DestinationType */
-     , (12179, 4, 9554, -1, 0) /* Create Magic Item Expertise III for Shop_DestinationType */
-     , (12179, 4, 9555, -1, 0) /* Create Magic Item Expertise IV for Shop_DestinationType */
-     , (12179, 4, 9556, -1, 0) /* Create Magic Item Expertise V for Shop_DestinationType */
-     , (12179, 4, 9557, -1, 0) /* Create Magic Item Expertise VI for Shop_DestinationType */
-     , (12179, 4, 9558, -1, 0) /* Create Weapon Expertise III for Shop_DestinationType */
-     , (12179, 4, 9559, -1, 0) /* Create Weapon Expertise IV for Shop_DestinationType */
-     , (12179, 4, 9560, -1, 0) /* Create Weapon Expertise V for Shop_DestinationType */
-     , (12179, 4, 9561, -1, 0) /* Create Weapon Expertise VI for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12179, 2, 5850, 0, 14, 0.67, False) /* Create Faran Robe for Wield_DestinationType */
+     , (12179, 4, 9550, -1, 0, 0, False) /* Create Armor Expertise III for Shop_DestinationType */
+     , (12179, 4, 9551, -1, 0, 0, False) /* Create Armor Expertise IV for Shop_DestinationType */
+     , (12179, 4, 9552, -1, 0, 0, False) /* Create Armor Expertise V for Shop_DestinationType */
+     , (12179, 4, 9553, -1, 0, 0, False) /* Create Armor Expertise VI for Shop_DestinationType */
+     , (12179, 4, 12181, -1, 0, 0, False) /* Create Item Expertise III for Shop_DestinationType */
+     , (12179, 4, 12182, -1, 0, 0, False) /* Create Item Expertise IV for Shop_DestinationType */
+     , (12179, 4, 12183, -1, 0, 0, False) /* Create Item Expertise V for Shop_DestinationType */
+     , (12179, 4, 12184, -1, 0, 0, False) /* Create Item Expertise VI for Shop_DestinationType */
+     , (12179, 4, 9554, -1, 0, 0, False) /* Create Magic Item Expertise III for Shop_DestinationType */
+     , (12179, 4, 9555, -1, 0, 0, False) /* Create Magic Item Expertise IV for Shop_DestinationType */
+     , (12179, 4, 9556, -1, 0, 0, False) /* Create Magic Item Expertise V for Shop_DestinationType */
+     , (12179, 4, 9557, -1, 0, 0, False) /* Create Magic Item Expertise VI for Shop_DestinationType */
+     , (12179, 4, 9558, -1, 0, 0, False) /* Create Weapon Expertise III for Shop_DestinationType */
+     , (12179, 4, 9559, -1, 0, 0, False) /* Create Weapon Expertise IV for Shop_DestinationType */
+     , (12179, 4, 9560, -1, 0, 0, False) /* Create Weapon Expertise V for Shop_DestinationType */
+     , (12179, 4, 9561, -1, 0, 0, False) /* Create Weapon Expertise VI for Shop_DestinationType */;
 

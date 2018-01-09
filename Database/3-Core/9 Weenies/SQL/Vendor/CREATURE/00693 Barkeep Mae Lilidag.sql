@@ -94,22 +94,22 @@ VALUES (693, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (693, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (693, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (693, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (693, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (693, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (693, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (693, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (693, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (693, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (693, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (693, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (693, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (693, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (693, 4, 4732, -1, 0) /* Create Fried Steak for Shop_DestinationType */
-     , (693, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (693, 4, 6420, -1, 0) /* Create The Obsidian Span for Shop_DestinationType */
-     , (693, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (693, 4, 24034, -1, 0) /* Create The Lost Wish Lovers for Shop_DestinationType */
-     , (693, 4, 6416, -1, 0) /* Create A Shivering Stone for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (693, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (693, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (693, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (693, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (693, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (693, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (693, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (693, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (693, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (693, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (693, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (693, 4, 4732, -1, 0, 0, False) /* Create Fried Steak for Shop_DestinationType */
+     , (693, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (693, 4, 6420, -1, 0, 0, False) /* Create The Obsidian Span for Shop_DestinationType */
+     , (693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (693, 4, 24034, -1, 0, 0, False) /* Create The Lost Wish Lovers for Shop_DestinationType */
+     , (693, 4, 6416, -1, 0, 0, False) /* Create A Shivering Stone for Shop_DestinationType */;
 

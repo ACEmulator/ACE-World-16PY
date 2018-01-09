@@ -99,23 +99,23 @@ VALUES (11379, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11379, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11379, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11379, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (11379, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (11379, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (11379, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (11379, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (11379, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (11379, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (11379, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (11379, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (11379, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (11379, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (11379, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (11379, 4, 4593, -1, 0) /* Create Mana Boost Other II for Shop_DestinationType */
-     , (11379, 4, 4602, -1, 0) /* Create Endurance Other I for Shop_DestinationType */
-     , (11379, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */
-     , (11379, 4, 4589, -1, 0) /* Create Revitalize Other I for Shop_DestinationType */
-     , (11379, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (11379, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11379, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (11379, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (11379, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (11379, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (11379, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (11379, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (11379, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (11379, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (11379, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (11379, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (11379, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (11379, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (11379, 4, 4593, -1, 0, 0, False) /* Create Mana Boost Other II for Shop_DestinationType */
+     , (11379, 4, 4602, -1, 0, 0, False) /* Create Endurance Other I for Shop_DestinationType */
+     , (11379, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */
+     , (11379, 4, 4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop_DestinationType */
+     , (11379, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (11379, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

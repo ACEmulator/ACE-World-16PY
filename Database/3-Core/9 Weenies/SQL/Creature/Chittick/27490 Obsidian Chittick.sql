@@ -88,10 +88,10 @@ VALUES (27490, 64, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27490, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27490, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27490, 2, 22545, 0, 0) /* Create Obsidian Spines for Wield_DestinationType */
-     , (27490, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27490, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27490, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27490, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27490, 2, 22545, 0, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */
+     , (27490, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27490, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27490, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27490, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -108,7 +108,7 @@ VALUES (8467, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8467, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8467, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8467, 9, 8425, 0, 0) /* Create Idol Gem for ContainTreasure_DestinationType */
-     , (8467, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8467, 9, 8425, 0, 0, 0.1, False) /* Create Idol Gem for ContainTreasure_DestinationType */
+     , (8467, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

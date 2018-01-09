@@ -98,22 +98,22 @@ VALUES (2041, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2041, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2041, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2041, 2, 130, 0, 13) /* Create Shirt for Wield_DestinationType */
-     , (2041, 2, 127, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (2041, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2041, 2, 10696, 0, 15) /* Create Apron for Wield_DestinationType */
-     , (2041, 4, 5689, -1, 0) /* Create The Legend of Lilitha for Shop_DestinationType */
-     , (2041, 4, 5688, -1, 0) /* Create The Code of Pwyll for Shop_DestinationType */
-     , (2041, 4, 8073, -1, 0) /* Create Shadows of My Doubts for Shop_DestinationType */
-     , (2041, 4, 8074, -1, 0) /* Create The Journals of Change for Shop_DestinationType */
-     , (2041, 4, 8075, -1, 0) /* Create The D00dz for Shop_DestinationType */
-     , (2041, 4, 9122, -1, 0) /* Create Interlude for Shop_DestinationType */
-     , (2041, 4, 10700, -1, 0) /* Create Book of Seasons for Shop_DestinationType */
-     , (2041, 4, 9006, -1, 0) /* Create Excerpts from the Zharalim for Shop_DestinationType */
-     , (2041, 4, 7774, -1, 0) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */
-     , (2041, 4, 7775, -1, 0) /* Create Practical Applications of Chorizite for Shop_DestinationType */
-     , (2041, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (2041, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (2041, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2041, 2, 130, 0, 13, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (2041, 2, 127, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (2041, 2, 132, 0, 9, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (2041, 2, 10696, 0, 15, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2041, 4, 5689, -1, 0, 0, False) /* Create The Legend of Lilitha for Shop_DestinationType */
+     , (2041, 4, 5688, -1, 0, 0, False) /* Create The Code of Pwyll for Shop_DestinationType */
+     , (2041, 4, 8073, -1, 0, 0, False) /* Create Shadows of My Doubts for Shop_DestinationType */
+     , (2041, 4, 8074, -1, 0, 0, False) /* Create The Journals of Change for Shop_DestinationType */
+     , (2041, 4, 8075, -1, 0, 0, False) /* Create The D00dz for Shop_DestinationType */
+     , (2041, 4, 9122, -1, 0, 0, False) /* Create Interlude for Shop_DestinationType */
+     , (2041, 4, 10700, -1, 0, 0, False) /* Create Book of Seasons for Shop_DestinationType */
+     , (2041, 4, 9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim for Shop_DestinationType */
+     , (2041, 4, 7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic for Shop_DestinationType */
+     , (2041, 4, 7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite for Shop_DestinationType */
+     , (2041, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (2041, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (2041, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */;
 

@@ -91,8 +91,8 @@ VALUES (9534, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9534, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9534, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9534, 9, 9541, 0, 0) /* Create Pink Marshmallow Eep for ContainTreasure_DestinationType */
-     , (9534, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9534, 9, 25995, 0, 14) /* Create Lucky Rabbit's Foot for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9534, 9, 9541, 0, 0, 0.05, False) /* Create Pink Marshmallow Eep for ContainTreasure_DestinationType */
+     , (9534, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (9534, 9, 25995, 0, 14, 1, False) /* Create Lucky Rabbit's Foot for ContainTreasure_DestinationType */;
 

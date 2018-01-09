@@ -92,6 +92,6 @@ VALUES (27028, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27028, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27028, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27028, 4, 26393, -1, 0) /* Create Stone Scar Settlement Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27028, 4, 26393, -1, 0, 0, False) /* Create Stone Scar Settlement Portal Gem for Shop_DestinationType */;
 

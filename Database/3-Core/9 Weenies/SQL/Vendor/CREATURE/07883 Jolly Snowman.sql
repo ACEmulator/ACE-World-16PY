@@ -93,7 +93,7 @@ VALUES (7883, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7883, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7883, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7883, 4, 7835, -1, 0) /* Create Magic Iceball for Shop_DestinationType */
-     , (7883, 4, 13224, -1, 0) /* Create A Frozen Note for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7883, 4, 7835, -1, 0, 0, False) /* Create Magic Iceball for Shop_DestinationType */
+     , (7883, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop_DestinationType */;
 

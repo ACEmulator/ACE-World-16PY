@@ -90,9 +90,9 @@ VALUES (25852, 64, 7700) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25852, 128, 7400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25852, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25852, 9, 25897, 0, 0) /* Create Carenzi Fangs for ContainTreasure_DestinationType */
-     , (25852, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25852, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25852, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25852, 9, 25897, 0, 0, 0.01, False) /* Create Carenzi Fangs for ContainTreasure_DestinationType */
+     , (25852, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (25852, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25852, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

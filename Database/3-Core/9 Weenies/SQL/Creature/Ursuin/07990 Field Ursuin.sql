@@ -92,7 +92,7 @@ VALUES (7990, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7990, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7990, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7990, 9, 8674, 0, 0) /* Create Small Ursuin Hide for ContainTreasure_DestinationType */
-     , (7990, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7990, 9, 8674, 0, 0, 0.03, False) /* Create Small Ursuin Hide for ContainTreasure_DestinationType */
+     , (7990, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -99,7 +99,7 @@ VALUES (5025, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5025, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5025, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5025, 1, 5017, 0, 0) /* Create Dagger of Tikola for Contain_DestinationType */
-     , (5025, 1, 5022, 0, 0) /* Create Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5025, 1, 5017, 0, 0, 0, False) /* Create Dagger of Tikola for Contain_DestinationType */
+     , (5025, 1, 5022, 0, 0, 0, False) /* Create Key for Contain_DestinationType */;
 

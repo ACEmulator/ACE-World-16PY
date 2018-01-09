@@ -92,6 +92,6 @@ VALUES (26778, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26778, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26778, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26778, 4, 26143, -1, 0) /* Create Dry Bone Manors Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26778, 4, 26143, -1, 0, 0, False) /* Create Dry Bone Manors Portal Gem for Shop_DestinationType */;
 

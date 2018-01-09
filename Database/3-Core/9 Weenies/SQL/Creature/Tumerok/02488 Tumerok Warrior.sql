@@ -112,6 +112,6 @@ VALUES (2488, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2488, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2488, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2488, 1, 2474, 0, 0) /* Create Clumsy Tumerok Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2488, 1, 2474, 0, 0, 0, False) /* Create Clumsy Tumerok Key for Contain_DestinationType */;
 

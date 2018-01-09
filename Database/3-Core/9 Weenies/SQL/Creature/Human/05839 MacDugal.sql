@@ -88,11 +88,11 @@ VALUES (5839, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5839, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5839, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5839, 2, 80, 0, 20) /* Create Chainmail Leggings for Wield_DestinationType */
-     , (5839, 2, 85, 0, 20) /* Create Chainmail Coif for Wield_DestinationType */
-     , (5839, 2, 40, 0, 21) /* Create Platemail Breastplate for Wield_DestinationType */
-     , (5839, 2, 61, 0, 21) /* Create Platemail Girth for Wield_DestinationType */
-     , (5839, 2, 104, 0, 20) /* Create Scalemail Sleeves for Wield_DestinationType */
-     , (5839, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5839, 2, 80, 0, 20, 0.4, False) /* Create Chainmail Leggings for Wield_DestinationType */
+     , (5839, 2, 85, 0, 20, 0.2, False) /* Create Chainmail Coif for Wield_DestinationType */
+     , (5839, 2, 40, 0, 21, 0.3, False) /* Create Platemail Breastplate for Wield_DestinationType */
+     , (5839, 2, 61, 0, 21, 0.4, False) /* Create Platemail Girth for Wield_DestinationType */
+     , (5839, 2, 104, 0, 20, 0.5, False) /* Create Scalemail Sleeves for Wield_DestinationType */
+     , (5839, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */;
 

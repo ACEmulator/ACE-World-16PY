@@ -110,15 +110,15 @@ VALUES (8015, 64, 1125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8015, 128, 650) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8015, 256, 610) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8015, 9, 8118, 0, 0) /* Create Shendolain Gem for ContainTreasure_DestinationType */
-     , (8015, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8015, 9, 8118, 0, 0) /* Create Shendolain Gem for ContainTreasure_DestinationType */
-     , (8015, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8015, 9, 8118, 0, 0) /* Create Shendolain Gem for ContainTreasure_DestinationType */
-     , (8015, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8015, 9, 8118, 0, 0) /* Create Shendolain Gem for ContainTreasure_DestinationType */
-     , (8015, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8015, 9, 8118, 0, 0) /* Create Shendolain Gem for ContainTreasure_DestinationType */
-     , (8015, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8015, 9, 8118, 0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure_DestinationType */
+     , (8015, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8015, 9, 8118, 0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure_DestinationType */
+     , (8015, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8015, 9, 8118, 0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure_DestinationType */
+     , (8015, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8015, 9, 8118, 0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure_DestinationType */
+     , (8015, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8015, 9, 8118, 0, 0, 1, False) /* Create Shendolain Gem for ContainTreasure_DestinationType */
+     , (8015, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

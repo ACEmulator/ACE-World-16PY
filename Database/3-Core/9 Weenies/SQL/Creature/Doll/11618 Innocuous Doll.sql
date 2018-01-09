@@ -105,6 +105,6 @@ VALUES (11618, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11618, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11618, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11618, 9, 11626, 0, 0) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11618, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;
 

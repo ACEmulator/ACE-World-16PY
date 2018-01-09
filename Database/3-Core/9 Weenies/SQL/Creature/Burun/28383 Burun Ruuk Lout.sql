@@ -92,8 +92,8 @@ VALUES (28383, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28383, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28383, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28383, 9, 28343, 0, 0) /* Create Sharp Bloodstone Fragment for ContainTreasure_DestinationType */
-     , (28383, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (28383, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28383, 9, 28343, 0, 0, 1, False) /* Create Sharp Bloodstone Fragment for ContainTreasure_DestinationType */
+     , (28383, 9, 28984, 0, 0, 0.04, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (28383, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

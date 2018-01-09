@@ -121,9 +121,9 @@ VALUES (11926, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11926, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11926, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11926, 9, 3697, 0, 0) /* Create Red Jewel for ContainTreasure_DestinationType */
-     , (11926, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11926, 9, 9291, 0, 0) /* Create Virindi Master Key for ContainTreasure_DestinationType */
-     , (11926, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11926, 9, 3697, 0, 0, 0.05, False) /* Create Red Jewel for ContainTreasure_DestinationType */
+     , (11926, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11926, 9, 9291, 0, 0, 0.02, False) /* Create Virindi Master Key for ContainTreasure_DestinationType */
+     , (11926, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

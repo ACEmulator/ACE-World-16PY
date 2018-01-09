@@ -88,7 +88,7 @@ VALUES (11539, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11539, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11539, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11539, 9, 10868, 0, 0) /* Create Canescent Mattekar Pelt for ContainTreasure_DestinationType */
-     , (11539, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11539, 9, 10868, 0, 0, 0.03, False) /* Create Canescent Mattekar Pelt for ContainTreasure_DestinationType */
+     , (11539, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

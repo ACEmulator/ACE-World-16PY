@@ -93,31 +93,31 @@ VALUES (402, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (402, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (402, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (402, 2, 351, 0, 0) /* Create Long Sword for Wield_DestinationType */
-     , (402, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (402, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (402, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (402, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (402, 4, 93, -1, 0) /* Create Round Shield for Shop_DestinationType */
-     , (402, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (402, 4, 321, -1, 0) /* Create Jitte for Shop_DestinationType */
-     , (402, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (402, 4, 327, -1, 0) /* Create Ken for Shop_DestinationType */
-     , (402, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (402, 4, 336, -1, 0) /* Create Ono for Shop_DestinationType */
-     , (402, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (402, 4, 353, -1, 0) /* Create Tachi for Shop_DestinationType */
-     , (402, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (402, 4, 361, -1, 0) /* Create Yaoji for Shop_DestinationType */
-     , (402, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (402, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (402, 4, 38, -1, 0) /* Create Studded Leather Bracers for Shop_DestinationType */
-     , (402, 4, 43, -1, 0) /* Create Yoroi Breastplate for Shop_DestinationType */
-     , (402, 4, 59, -1, 0) /* Create Studded Leather Gauntlets for Shop_DestinationType */
-     , (402, 4, 57, -1, 0) /* Create Platemail Gauntlets for Shop_DestinationType */
-     , (402, 4, 77, -1, 0) /* Create Kabuton for Shop_DestinationType */
-     , (402, 4, 84, -1, 0) /* Create Studded Leather Leggings for Shop_DestinationType */
-     , (402, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (402, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (402, 2, 351, 0, 0, 0, False) /* Create Long Sword for Wield_DestinationType */
+     , (402, 2, 130, 0, 8, 0.2, False) /* Create Shirt for Wield_DestinationType */
+     , (402, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (402, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (402, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (402, 4, 93, -1, 0, 0, False) /* Create Round Shield for Shop_DestinationType */
+     , (402, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (402, 4, 321, -1, 0, 0, False) /* Create Jitte for Shop_DestinationType */
+     , (402, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (402, 4, 327, -1, 0, 0, False) /* Create Ken for Shop_DestinationType */
+     , (402, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (402, 4, 336, -1, 0, 0, False) /* Create Ono for Shop_DestinationType */
+     , (402, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (402, 4, 353, -1, 0, 0, False) /* Create Tachi for Shop_DestinationType */
+     , (402, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (402, 4, 361, -1, 0, 0, False) /* Create Yaoji for Shop_DestinationType */
+     , (402, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (402, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (402, 4, 38, -1, 0, 0, False) /* Create Studded Leather Bracers for Shop_DestinationType */
+     , (402, 4, 43, -1, 0, 0, False) /* Create Yoroi Breastplate for Shop_DestinationType */
+     , (402, 4, 59, -1, 0, 0, False) /* Create Studded Leather Gauntlets for Shop_DestinationType */
+     , (402, 4, 57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop_DestinationType */
+     , (402, 4, 77, -1, 0, 0, False) /* Create Kabuton for Shop_DestinationType */
+     , (402, 4, 84, -1, 0, 0, False) /* Create Studded Leather Leggings for Shop_DestinationType */
+     , (402, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (402, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */;
 

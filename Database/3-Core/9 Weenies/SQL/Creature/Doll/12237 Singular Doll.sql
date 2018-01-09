@@ -107,7 +107,7 @@ VALUES (12237, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12237, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12237, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12237, 8, 12232, 1, 0) /* Create Doll Leader's Charm for Treasure_DestinationType */
-     , (12237, 8, 12282, 1, 0) /* Create Singular Pyreal Message Shard for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12237, 8, 12232, 1, 0, 0, False) /* Create Doll Leader's Charm for Treasure_DestinationType */
+     , (12237, 8, 12282, 1, 0, 0, False) /* Create Singular Pyreal Message Shard for Treasure_DestinationType */;
 

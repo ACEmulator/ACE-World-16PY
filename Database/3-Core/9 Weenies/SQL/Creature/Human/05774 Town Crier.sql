@@ -90,10 +90,10 @@ VALUES (5774, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5774, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5774, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5774, 2, 2594, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (5774, 2, 2600, 0, 9) /* Create Pantaloons for Wield_DestinationType */
-     , (5774, 2, 5852, 0, 2) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (5774, 2, 5894, 0, 12) /* Create Fez for Wield_DestinationType */
-     , (5774, 2, 121, 0, 92) /* Create Gloves for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5774, 2, 2594, 0, 9, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (5774, 2, 2600, 0, 9, 0.5, False) /* Create Pantaloons for Wield_DestinationType */
+     , (5774, 2, 5852, 0, 2, 0.5, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (5774, 2, 5894, 0, 12, 0.5, False) /* Create Fez for Wield_DestinationType */
+     , (5774, 2, 121, 0, 92, 0.8, False) /* Create Gloves for Wield_DestinationType */;
 

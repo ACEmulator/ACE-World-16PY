@@ -93,6 +93,6 @@ VALUES (1407, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1407, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1407, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1407, 1, 1423, 0, 0) /* Create Worn Rusty Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1407, 1, 1423, 0, 0, 0, False) /* Create Worn Rusty Key for Contain_DestinationType */;
 

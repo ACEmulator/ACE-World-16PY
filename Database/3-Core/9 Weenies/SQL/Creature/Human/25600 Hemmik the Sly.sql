@@ -88,10 +88,10 @@ VALUES (25600, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25600, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25600, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25600, 2, 133, 0, 8) /* Create Slippers for Wield_DestinationType */
-     , (25600, 2, 47, 0, 8) /* Create Leather Coat for Wield_DestinationType */
-     , (25600, 2, 81, 0, 8) /* Create Leather Leggings for Wield_DestinationType */
-     , (25600, 2, 56, 0, 8) /* Create Leather Gauntlets for Wield_DestinationType */
-     , (25600, 2, 25615, 0, 0) /* Create Acidic Weeping Dagger for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25600, 2, 133, 0, 8, 0.5, False) /* Create Slippers for Wield_DestinationType */
+     , (25600, 2, 47, 0, 8, 0.5, False) /* Create Leather Coat for Wield_DestinationType */
+     , (25600, 2, 81, 0, 8, 0.5, False) /* Create Leather Leggings for Wield_DestinationType */
+     , (25600, 2, 56, 0, 8, 0.5, False) /* Create Leather Gauntlets for Wield_DestinationType */
+     , (25600, 2, 25615, 0, 0, 0, False) /* Create Acidic Weeping Dagger for Wield_DestinationType */;
 

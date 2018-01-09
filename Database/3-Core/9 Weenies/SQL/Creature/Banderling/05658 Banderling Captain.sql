@@ -102,10 +102,10 @@ VALUES (5658, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5658, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5658, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5658, 9, 3693, 0, 0) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (5658, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5658, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (5658, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (5658, 9, 5663, 0, 0) /* Create Old Key for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5658, 9, 3693, 0, 0, 0.04, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
+     , (5658, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (5658, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (5658, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (5658, 9, 5663, 0, 0, 1, False) /* Create Old Key for ContainTreasure_DestinationType */;
 

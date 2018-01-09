@@ -133,11 +133,11 @@ VALUES (10951, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10951, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10951, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10951, 2, 10998, 1, 0) /* Create Exquisite Elari Wood Bow for Wield_DestinationType */
-     , (10951, 2, 11002, 1, 0) /* Create Hollow Point Armor Piercing Arrow for Wield_DestinationType */
-     , (10951, 2, 11003, 1, 0) /* Create Hollow Point Explosive Tipped Arrow for Wield_DestinationType */
-     , (10951, 1, 10999, 1, 0) /* Create Greenwood Haft for Contain_DestinationType */
-     , (10951, 1, 11000, 1, 0) /* Create Gromnie Sinew Bowstring for Contain_DestinationType */
-     , (10951, 1, 10962, 1, 0) /* Create Hea Totem for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10951, 2, 10998, 1, 0, 1, False) /* Create Exquisite Elari Wood Bow for Wield_DestinationType */
+     , (10951, 2, 11002, 1, 0, 0.5, False) /* Create Hollow Point Armor Piercing Arrow for Wield_DestinationType */
+     , (10951, 2, 11003, 1, 0, 0.5, False) /* Create Hollow Point Explosive Tipped Arrow for Wield_DestinationType */
+     , (10951, 1, 10999, 1, 0, 1, False) /* Create Greenwood Haft for Contain_DestinationType */
+     , (10951, 1, 11000, 1, 0, 1, False) /* Create Gromnie Sinew Bowstring for Contain_DestinationType */
+     , (10951, 1, 10962, 1, 0, 1, False) /* Create Hea Totem for Contain_DestinationType */;
 

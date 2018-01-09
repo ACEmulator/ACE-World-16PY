@@ -88,9 +88,9 @@ VALUES (1606, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1606, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1606, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1606, 9, 266, 0, 0) /* Create Auroch Horn for ContainTreasure_DestinationType */
-     , (1606, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1606, 9, 20857, 0, 0) /* Create Cooking Stamp for ContainTreasure_DestinationType */
-     , (1606, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1606, 9, 266, 0, 0, 0.2, False) /* Create Auroch Horn for ContainTreasure_DestinationType */
+     , (1606, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (1606, 9, 20857, 0, 0, 0.04, False) /* Create Cooking Stamp for ContainTreasure_DestinationType */
+     , (1606, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

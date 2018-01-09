@@ -92,6 +92,6 @@ VALUES (26920, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26920, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26920, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26920, 4, 26285, -1, 0) /* Create Neu Gerz Villas Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26920, 4, 26285, -1, 0, 0, False) /* Create Neu Gerz Villas Portal Gem for Shop_DestinationType */;
 

@@ -115,13 +115,13 @@ VALUES (11621, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11621, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11621, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11621, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (11621, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11621, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11621, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11621, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (11621, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11621, 9, 11626, 0, 0) /* Create Quiddity Ingot for ContainTreasure_DestinationType */
-     , (11621, 9, 11626, 0, 0) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11621, 9, 7604, 0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (11621, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (11621, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (11621, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (11621, 9, 9292, 0, 0, 0.06, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (11621, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */
+     , (11621, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */
+     , (11621, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;
 

@@ -94,7 +94,7 @@ VALUES (27459, 64, 1840) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27459, 128, 1680) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27459, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27459, 9, 27454, 0, 0) /* Create Renegade Leggings for ContainTreasure_DestinationType */
-     , (27459, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27459, 9, 27454, 0, 0, 1, False) /* Create Renegade Leggings for ContainTreasure_DestinationType */
+     , (27459, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

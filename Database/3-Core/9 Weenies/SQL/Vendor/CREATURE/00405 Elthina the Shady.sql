@@ -93,19 +93,19 @@ VALUES (405, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (405, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (405, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (405, 1, 352, 0, 0) /* Create Short Sword for Contain_DestinationType */
-     , (405, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (405, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (405, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (405, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (405, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (405, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (405, 4, 492, -1, 0) /* Create Directions to Bandit Castle for Shop_DestinationType */
-     , (405, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (405, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (405, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (405, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (405, 4, 320, -1, 0) /* Create Javelin for Shop_DestinationType */
-     , (405, 4, 352, -1, 0) /* Create Short Sword for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (405, 1, 352, 0, 0, 0, False) /* Create Short Sword for Contain_DestinationType */
+     , (405, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (405, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (405, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (405, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (405, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (405, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (405, 4, 492, -1, 0, 0, False) /* Create Directions to Bandit Castle for Shop_DestinationType */
+     , (405, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (405, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (405, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (405, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (405, 4, 320, -1, 0, 0, False) /* Create Javelin for Shop_DestinationType */
+     , (405, 4, 352, -1, 0, 0, False) /* Create Short Sword for Shop_DestinationType */;
 

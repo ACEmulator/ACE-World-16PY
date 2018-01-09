@@ -94,24 +94,24 @@ VALUES (655, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (655, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (655, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (655, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (655, 2, 132, 0, 8) /* Create Shoes for Wield_DestinationType */
-     , (655, 2, 118, 0, 2) /* Create Cap for Wield_DestinationType */
-     , (655, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (655, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (655, 4, 294, -1, 0) /* Create Amulet for Shop_DestinationType */
-     , (655, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (655, 4, 2394, -1, 0) /* Create Black Garnet for Shop_DestinationType */
-     , (655, 4, 2397, -1, 0) /* Create Red Garnet for Shop_DestinationType */
-     , (655, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (655, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (655, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (655, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (655, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (655, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (655, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (655, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (655, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (655, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (655, 2, 127, 0, 8, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (655, 2, 132, 0, 8, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (655, 2, 118, 0, 2, 0.9, False) /* Create Cap for Wield_DestinationType */
+     , (655, 2, 134, 0, 5, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (655, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (655, 4, 294, -1, 0, 0, False) /* Create Amulet for Shop_DestinationType */
+     , (655, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (655, 4, 2394, -1, 0, 0, False) /* Create Black Garnet for Shop_DestinationType */
+     , (655, 4, 2397, -1, 0, 0, False) /* Create Red Garnet for Shop_DestinationType */
+     , (655, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (655, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (655, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (655, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (655, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (655, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (655, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (655, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (655, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (655, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

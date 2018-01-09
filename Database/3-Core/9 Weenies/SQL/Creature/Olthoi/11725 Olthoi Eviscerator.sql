@@ -89,9 +89,9 @@ VALUES (11725, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11725, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11725, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11725, 9, 10843, 0, 0) /* Create Eviscerator Pincer for ContainTreasure_DestinationType */
-     , (11725, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11725, 9, 22059, 0, 0) /* Create Eviscerator Head for ContainTreasure_DestinationType */
-     , (11725, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11725, 9, 10843, 0, 0, 1, False) /* Create Eviscerator Pincer for ContainTreasure_DestinationType */
+     , (11725, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11725, 9, 22059, 0, 0, 0.02, False) /* Create Eviscerator Head for ContainTreasure_DestinationType */
+     , (11725, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -93,67 +93,67 @@ VALUES (5877, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5877, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5877, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5877, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (5877, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (5877, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (5877, 2, 118, 0, 2) /* Create Cap for Wield_DestinationType */
-     , (5877, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (5877, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (5877, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (5877, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (5877, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (5877, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (5877, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (5877, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (5877, 4, 119, -1, 0) /* Create Cowl for Shop_DestinationType */
-     , (5877, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (5877, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (5877, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (5877, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (5877, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (5877, 4, 127, -1, 0) /* Create Pants for Shop_DestinationType */
-     , (5877, 4, 130, -1, 0) /* Create Shirt for Shop_DestinationType */
-     , (5877, 4, 132, -1, 0) /* Create Shoes for Shop_DestinationType */
-     , (5877, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (5877, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (5877, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (5877, 4, 77, -1, 0) /* Create Kabuton for Shop_DestinationType */
-     , (5877, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (5877, 4, 96, -1, 0) /* Create Chainmail Shirt for Shop_DestinationType */
-     , (5877, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (5877, 4, 43, -1, 0) /* Create Yoroi Breastplate for Shop_DestinationType */
-     , (5877, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (5877, 4, 2605, -1, 0) /* Create Chainmail Greaves for Shop_DestinationType */
-     , (5877, 4, 108, -1, 0) /* Create Chainmail Tassets for Shop_DestinationType */
-     , (5877, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (5877, 4, 90, -1, 0) /* Create Yoroi Pauldrons for Shop_DestinationType */
-     , (5877, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (5877, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (5877, 4, 78, -1, 0) /* Create Kote for Shop_DestinationType */
-     , (5877, 4, 64, -1, 0) /* Create Yoroi Girth for Shop_DestinationType */
-     , (5877, 4, 2437, -1, 0) /* Create Yoroi Leggings for Shop_DestinationType */
-     , (5877, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (5877, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (5877, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (5877, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (5877, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (5877, 4, 24035, -1, 0) /* Create The Blazing Staff of Branith for Shop_DestinationType */
-     , (5877, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (5877, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (5877, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (5877, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (5877, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (5877, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (5877, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */
-     , (5877, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (5877, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (5877, 4, 166, -1, 39) /* Create Sack for Shop_DestinationType */
-     , (5877, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (5877, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (5877, 4, 136, -1, 39) /* Create Pack for Shop_DestinationType */
-     , (5877, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (5877, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (5877, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (5877, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5877, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (5877, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (5877, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5877, 2, 118, 0, 2, 0.9, False) /* Create Cap for Wield_DestinationType */
+     , (5877, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (5877, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (5877, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (5877, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (5877, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (5877, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (5877, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (5877, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (5877, 4, 119, -1, 0, 0, False) /* Create Cowl for Shop_DestinationType */
+     , (5877, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (5877, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (5877, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (5877, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (5877, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (5877, 4, 127, -1, 0, 0, False) /* Create Pants for Shop_DestinationType */
+     , (5877, 4, 130, -1, 0, 0, False) /* Create Shirt for Shop_DestinationType */
+     , (5877, 4, 132, -1, 0, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (5877, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (5877, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (5877, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (5877, 4, 77, -1, 0, 0, False) /* Create Kabuton for Shop_DestinationType */
+     , (5877, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (5877, 4, 96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop_DestinationType */
+     , (5877, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (5877, 4, 43, -1, 0, 0, False) /* Create Yoroi Breastplate for Shop_DestinationType */
+     , (5877, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (5877, 4, 2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop_DestinationType */
+     , (5877, 4, 108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop_DestinationType */
+     , (5877, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (5877, 4, 90, -1, 0, 0, False) /* Create Yoroi Pauldrons for Shop_DestinationType */
+     , (5877, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (5877, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (5877, 4, 78, -1, 0, 0, False) /* Create Kote for Shop_DestinationType */
+     , (5877, 4, 64, -1, 0, 0, False) /* Create Yoroi Girth for Shop_DestinationType */
+     , (5877, 4, 2437, -1, 0, 0, False) /* Create Yoroi Leggings for Shop_DestinationType */
+     , (5877, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (5877, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (5877, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (5877, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (5877, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (5877, 4, 24035, -1, 0, 0, False) /* Create The Blazing Staff of Branith for Shop_DestinationType */
+     , (5877, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (5877, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (5877, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (5877, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (5877, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (5877, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (5877, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */
+     , (5877, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (5877, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (5877, 4, 166, -1, 39, 1, False) /* Create Sack for Shop_DestinationType */
+     , (5877, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (5877, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (5877, 4, 136, -1, 39, 1, False) /* Create Pack for Shop_DestinationType */
+     , (5877, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (5877, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (5877, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (5877, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */;
 

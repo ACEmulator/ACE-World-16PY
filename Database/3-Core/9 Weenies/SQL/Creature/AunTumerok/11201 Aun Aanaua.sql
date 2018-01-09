@@ -90,6 +90,6 @@ VALUES (11201, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11201, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11201, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11201, 2, 11971, 0, 0) /* Create Buadren for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11201, 2, 11971, 0, 0, 1, False) /* Create Buadren for Wield_DestinationType */;
 

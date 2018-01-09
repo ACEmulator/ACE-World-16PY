@@ -109,19 +109,19 @@ VALUES (27098, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27098, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27098, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27098, 9, 27121, 0, 0) /* Create Smelly Hide for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 27118, 0, 0) /* Create Foul-Smelling Hide for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 26660, 0, 0) /* Create Scarred Fleshy Journal for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 26664, 0, 0) /* Create Marked Fleshy Journal for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 26666, 0, 0) /* Create Etched Fleshy Journal for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 26662, 0, 0) /* Create Fleshy Tome for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27098, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (27098, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27098, 9, 27121, 0, 0, 0.02, False) /* Create Smelly Hide for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 27118, 0, 0, 0.02, False) /* Create Foul-Smelling Hide for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 26660, 0, 0, 0.01, False) /* Create Scarred Fleshy Journal for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 26664, 0, 0, 0.01, False) /* Create Marked Fleshy Journal for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 26666, 0, 0, 0.01, False) /* Create Etched Fleshy Journal for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 26662, 0, 0, 0.01, False) /* Create Fleshy Tome for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27098, 9, 28984, 0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (27098, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -112,15 +112,15 @@ VALUES (8013, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8013, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8013, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8013, 9, 8113, 0, 0) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
-     , (8013, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8013, 9, 8113, 0, 0) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
-     , (8013, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8013, 9, 8113, 0, 0) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
-     , (8013, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8013, 9, 8113, 0, 0) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
-     , (8013, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8013, 9, 8113, 0, 0) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
-     , (8013, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
+     , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
+     , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
+     , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
+     , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
+     , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -88,8 +88,8 @@ VALUES (5197, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5197, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5197, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5197, 2, 124, 0, 4) /* Create Jerkin for Wield_DestinationType */
-     , (5197, 2, 2603, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (5197, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5197, 2, 124, 0, 4, 0.8, False) /* Create Jerkin for Wield_DestinationType */
+     , (5197, 2, 2603, 0, 9, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (5197, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */;
 

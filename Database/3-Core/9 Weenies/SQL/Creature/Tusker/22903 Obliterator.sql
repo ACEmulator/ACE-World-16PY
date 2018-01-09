@@ -91,13 +91,13 @@ VALUES (22903, 64, 49700) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22903, 128, 5400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22903, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22903, 9, 11692, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (22903, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22903, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (22903, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22903, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (22903, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22903, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (22903, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22903, 9, 11692, 0, 0, 0.05, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (22903, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22903, 9, 23108, 0, 0, 0.05, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (22903, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22903, 9, 23107, 0, 0, 0.1, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (22903, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (22903, 9, 22578, 0, 0, 0.05, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (22903, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

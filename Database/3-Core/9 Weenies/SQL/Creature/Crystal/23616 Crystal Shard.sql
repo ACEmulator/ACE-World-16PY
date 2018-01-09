@@ -105,14 +105,14 @@ VALUES (23616, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23616, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23616, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23616, 9, 23853, 0, 0) /* Create Seared Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23854, 0, 0) /* Create Chilled Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23849, 0, 0) /* Create Scored Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23855, 0, 0) /* Create Charged Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23851, 0, 0) /* Create Solid Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23856, 0, 0) /* Create Hardened Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23852, 0, 0) /* Create Plated Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 23850, 0, 0) /* Create Brilliant Shard for ContainTreasure_DestinationType */
-     , (23616, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23616, 9, 23853, 0, 0, 0.00625, False) /* Create Seared Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23854, 0, 0, 0.00625, False) /* Create Chilled Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23849, 0, 0, 0.00625, False) /* Create Scored Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23855, 0, 0, 0.00625, False) /* Create Charged Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23851, 0, 0, 0.00625, False) /* Create Solid Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23856, 0, 0, 0.00625, False) /* Create Hardened Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23852, 0, 0, 0.00625, False) /* Create Plated Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 23850, 0, 0, 0.00625, False) /* Create Brilliant Shard for ContainTreasure_DestinationType */
+     , (23616, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

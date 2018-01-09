@@ -113,8 +113,8 @@ VALUES (30896, 64, 7750) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30896, 128, 7000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30896, 256, 7100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30896, 9, 30873, 0, 0) /* Create Spear of the Fallen for ContainTreasure_DestinationType */
-     , (30896, 9, 30857, 0, 0) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30896, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30896, 9, 30873, 0, 0, 1, False) /* Create Spear of the Fallen for ContainTreasure_DestinationType */
+     , (30896, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
+     , (30896, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 

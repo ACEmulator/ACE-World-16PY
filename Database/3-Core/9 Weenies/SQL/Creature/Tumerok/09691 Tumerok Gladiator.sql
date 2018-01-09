@@ -91,9 +91,9 @@ VALUES (9691, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9691, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9691, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9691, 9, 9690, 0, 0) /* Create Tumerok Altar Key for ContainTreasure_DestinationType */
-     , (9691, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9691, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (9691, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9691, 9, 9690, 0, 0, 1, False) /* Create Tumerok Altar Key for ContainTreasure_DestinationType */
+     , (9691, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (9691, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (9691, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

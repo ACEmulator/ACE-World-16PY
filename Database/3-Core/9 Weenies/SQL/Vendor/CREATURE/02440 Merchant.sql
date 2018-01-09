@@ -93,16 +93,16 @@ VALUES (2440, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2440, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2440, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2440, 2, 130, 0, 5) /* Create Shirt for Wield_DestinationType */
-     , (2440, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (2440, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (2440, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2440, 4, 2447, -1, 0) /* Create Training Hall Key for Shop_DestinationType */
-     , (2440, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (2440, 4, 511, -1, 0) /* Create Crude Lockpick for Shop_DestinationType */
-     , (2440, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (2440, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (2440, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (2440, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2440, 2, 130, 0, 5, 0.67, False) /* Create Shirt for Wield_DestinationType */
+     , (2440, 2, 117, 0, 14, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (2440, 2, 132, 0, 9, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (2440, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (2440, 4, 2447, -1, 0, 0, False) /* Create Training Hall Key for Shop_DestinationType */
+     , (2440, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (2440, 4, 511, -1, 0, 0, False) /* Create Crude Lockpick for Shop_DestinationType */
+     , (2440, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (2440, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (2440, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (2440, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */;
 

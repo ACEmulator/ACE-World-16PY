@@ -94,8 +94,8 @@ VALUES (24637, 64, 790) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24637, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24637, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24637, 9, 24642, 0, 0) /* Create Adolescent Brood Matron Tail for ContainTreasure_DestinationType */
-     , (24637, 9, 24644, 0, 0) /* Create Adolescent Brood Matron Tarsus for ContainTreasure_DestinationType */
-     , (24637, 9, 24646, 0, 0) /* Create Adolescent Brood Matron Tibia for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24637, 9, 24642, 0, 0, 0.333, False) /* Create Adolescent Brood Matron Tail for ContainTreasure_DestinationType */
+     , (24637, 9, 24644, 0, 0, 0.333, False) /* Create Adolescent Brood Matron Tarsus for ContainTreasure_DestinationType */
+     , (24637, 9, 24646, 0, 0, 0.334, False) /* Create Adolescent Brood Matron Tibia for ContainTreasure_DestinationType */;
 

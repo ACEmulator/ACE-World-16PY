@@ -88,8 +88,8 @@ VALUES (22506, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22506, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22506, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22506, 2, 22544, 0, 0) /* Create Lightning Spines for Wield_DestinationType */
-     , (22506, 9, 28888, 0, 0) /* Create Chittick Head for ContainTreasure_DestinationType */
-     , (22506, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22506, 2, 22544, 0, 0, 0, False) /* Create Lightning Spines for Wield_DestinationType */
+     , (22506, 9, 28888, 0, 0, 0.05, False) /* Create Chittick Head for ContainTreasure_DestinationType */
+     , (22506, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

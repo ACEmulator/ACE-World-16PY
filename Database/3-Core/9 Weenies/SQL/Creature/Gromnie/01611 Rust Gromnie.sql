@@ -88,9 +88,9 @@ VALUES (1611, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1611, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1611, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1611, 9, 28203, 0, 0) /* Create Ruddy Gromnie Hide for ContainTreasure_DestinationType */
-     , (1611, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1611, 9, 28209, 0, 0) /* Create Rust Gromnie Tooth for ContainTreasure_DestinationType */
-     , (1611, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1611, 9, 28203, 0, 0, 0.05, False) /* Create Ruddy Gromnie Hide for ContainTreasure_DestinationType */
+     , (1611, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (1611, 9, 28209, 0, 0, 0.05, False) /* Create Rust Gromnie Tooth for ContainTreasure_DestinationType */
+     , (1611, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

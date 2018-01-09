@@ -88,10 +88,10 @@ VALUES (24069, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24069, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24069, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24069, 2, 314, 0, 0) /* Create Dagger for Wield_DestinationType */
-     , (24069, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (24069, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (24069, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (24069, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24069, 2, 314, 0, 0, 0, False) /* Create Dagger for Wield_DestinationType */
+     , (24069, 2, 124, 0, 9, 1, False) /* Create Jerkin for Wield_DestinationType */
+     , (24069, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (24069, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (24069, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */;
 

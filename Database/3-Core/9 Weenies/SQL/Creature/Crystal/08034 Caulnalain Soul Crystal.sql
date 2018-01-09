@@ -108,6 +108,6 @@ VALUES (8034, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8034, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8034, 256, 2000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8034, 8, 8112, 0, 0) /* Create Caulnalain Soul Gem for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8034, 8, 8112, 0, 0, 1, False) /* Create Caulnalain Soul Gem for Treasure_DestinationType */;
 

@@ -93,53 +93,53 @@ VALUES (1376, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1376, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1376, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1376, 2, 354, 0, 0) /* Create Takuba for Wield_DestinationType */
-     , (1376, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (1376, 2, 127, 0, 17) /* Create Pants for Wield_DestinationType */
-     , (1376, 2, 115, 0, 5) /* Create Leather Boots for Wield_DestinationType */
-     , (1376, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (1376, 4, 550, -1, 0) /* Create Baigha for Shop_DestinationType */
-     , (1376, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (1376, 4, 552, -1, 0) /* Create Scalemail Basinet for Shop_DestinationType */
-     , (1376, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (1376, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (1376, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (1376, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (1376, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (1376, 4, 2605, -1, 0) /* Create Chainmail Greaves for Shop_DestinationType */
-     , (1376, 4, 108, -1, 0) /* Create Chainmail Tassets for Shop_DestinationType */
-     , (1376, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (1376, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (1376, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (1376, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (1376, 4, 37, -1, 0) /* Create Scalemail Bracers for Shop_DestinationType */
-     , (1376, 4, 41, -1, 0) /* Create Scalemail Breastplate for Shop_DestinationType */
-     , (1376, 4, 58, -1, 0) /* Create Scalemail Gauntlets for Shop_DestinationType */
-     , (1376, 4, 62, -1, 0) /* Create Scalemail Girth for Shop_DestinationType */
-     , (1376, 4, 67, -1, 0) /* Create Scalemail Greaves for Shop_DestinationType */
-     , (1376, 4, 111, -1, 0) /* Create Scalemail Tassets for Shop_DestinationType */
-     , (1376, 4, 83, -1, 0) /* Create Scalemail Leggings for Shop_DestinationType */
-     , (1376, 4, 88, -1, 0) /* Create Scalemail Pauldrons for Shop_DestinationType */
-     , (1376, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (1376, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (1376, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (1376, 4, 313, -1, 0) /* Create Dabus for Shop_DestinationType */
-     , (1376, 4, 304, -1, 0) /* Create Throwing Axe for Shop_DestinationType */
-     , (1376, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (1376, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (1376, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (1376, 4, 340, -1, 0) /* Create Shamshir for Shop_DestinationType */
-     , (1376, 4, 354, -1, 0) /* Create Takuba for Shop_DestinationType */
-     , (1376, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (1376, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1376, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1376, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (1376, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (1376, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (1376, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (1376, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (1376, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (1376, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (1376, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1376, 2, 354, 0, 0, 0, False) /* Create Takuba for Wield_DestinationType */
+     , (1376, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (1376, 2, 127, 0, 17, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1376, 2, 115, 0, 5, 0.67, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1376, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (1376, 4, 550, -1, 0, 0, False) /* Create Baigha for Shop_DestinationType */
+     , (1376, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (1376, 4, 552, -1, 0, 0, False) /* Create Scalemail Basinet for Shop_DestinationType */
+     , (1376, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (1376, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (1376, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (1376, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (1376, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (1376, 4, 2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop_DestinationType */
+     , (1376, 4, 108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop_DestinationType */
+     , (1376, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (1376, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (1376, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (1376, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (1376, 4, 37, -1, 0, 0, False) /* Create Scalemail Bracers for Shop_DestinationType */
+     , (1376, 4, 41, -1, 0, 0, False) /* Create Scalemail Breastplate for Shop_DestinationType */
+     , (1376, 4, 58, -1, 0, 0, False) /* Create Scalemail Gauntlets for Shop_DestinationType */
+     , (1376, 4, 62, -1, 0, 0, False) /* Create Scalemail Girth for Shop_DestinationType */
+     , (1376, 4, 67, -1, 0, 0, False) /* Create Scalemail Greaves for Shop_DestinationType */
+     , (1376, 4, 111, -1, 0, 0, False) /* Create Scalemail Tassets for Shop_DestinationType */
+     , (1376, 4, 83, -1, 0, 0, False) /* Create Scalemail Leggings for Shop_DestinationType */
+     , (1376, 4, 88, -1, 0, 0, False) /* Create Scalemail Pauldrons for Shop_DestinationType */
+     , (1376, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (1376, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (1376, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (1376, 4, 313, -1, 0, 0, False) /* Create Dabus for Shop_DestinationType */
+     , (1376, 4, 304, -1, 0, 0, False) /* Create Throwing Axe for Shop_DestinationType */
+     , (1376, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (1376, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (1376, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (1376, 4, 340, -1, 0, 0, False) /* Create Shamshir for Shop_DestinationType */
+     , (1376, 4, 354, -1, 0, 0, False) /* Create Takuba for Shop_DestinationType */
+     , (1376, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (1376, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1376, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1376, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (1376, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (1376, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (1376, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (1376, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (1376, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (1376, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (1376, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

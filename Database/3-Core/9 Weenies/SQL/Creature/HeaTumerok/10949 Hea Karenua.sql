@@ -146,11 +146,11 @@ VALUES (10949, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10949, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10949, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10949, 9, 10969, 0, 0) /* Create Awakener for ContainTreasure_DestinationType */
-     , (10949, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10949, 1, 10968, 1, 0) /* Create Karenua's Key for Contain_DestinationType */
-     , (10949, 1, 10968, 1, 0) /* Create Karenua's Key for Contain_DestinationType */
-     , (10949, 1, 10968, 1, 0) /* Create Karenua's Key for Contain_DestinationType */
-     , (10949, 1, 10968, 1, 0) /* Create Karenua's Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10949, 9, 10969, 0, 0, 1, False) /* Create Awakener for ContainTreasure_DestinationType */
+     , (10949, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */
+     , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */
+     , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */
+     , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */;
 

@@ -93,7 +93,7 @@ VALUES (24294, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24294, 128, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24294, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24294, 9, 12253, 0, 0) /* Create Monougat for ContainTreasure_DestinationType */
-     , (24294, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24294, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
+     , (24294, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */;
 

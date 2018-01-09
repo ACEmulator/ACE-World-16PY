@@ -93,53 +93,53 @@ VALUES (1079, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1079, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1079, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1079, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (1079, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (1079, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (1079, 2, 118, 0, 4) /* Create Cap for Wield_DestinationType */
-     , (1079, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (1079, 4, 321, -1, 0) /* Create Jitte for Shop_DestinationType */
-     , (1079, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (1079, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (1079, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (1079, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (1079, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (1079, 4, 118, -1, 0) /* Create Cap for Shop_DestinationType */
-     , (1079, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (1079, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (1079, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (1079, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (1079, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (1079, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (1079, 4, 120, -1, 0) /* Create Quilted Drawers for Shop_DestinationType */
-     , (1079, 4, 134, -1, 0) /* Create Tunic for Shop_DestinationType */
-     , (1079, 4, 132, -1, 0) /* Create Shoes for Shop_DestinationType */
-     , (1079, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (1079, 4, 166, -1, 21) /* Create Sack for Shop_DestinationType */
-     , (1079, 4, 166, -1, 14) /* Create Sack for Shop_DestinationType */
-     , (1079, 4, 166, -1, 77) /* Create Sack for Shop_DestinationType */
-     , (1079, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (1079, 4, 136, -1, 14) /* Create Pack for Shop_DestinationType */
-     , (1079, 4, 136, -1, 77) /* Create Pack for Shop_DestinationType */
-     , (1079, 4, 137, -1, 0) /* Create Basket for Shop_DestinationType */
-     , (1079, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1079, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1079, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (1079, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (1079, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (1079, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (1079, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (1079, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (1079, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (1079, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (1079, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (1079, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (1079, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (1079, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (1079, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (1079, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (1079, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (1079, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (1079, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1079, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (1079, 2, 127, 0, 4, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (1079, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1079, 2, 118, 0, 4, 0.5, False) /* Create Cap for Wield_DestinationType */
+     , (1079, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (1079, 4, 321, -1, 0, 0, False) /* Create Jitte for Shop_DestinationType */
+     , (1079, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (1079, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (1079, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (1079, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (1079, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (1079, 4, 118, -1, 0, 0, False) /* Create Cap for Shop_DestinationType */
+     , (1079, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (1079, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (1079, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (1079, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (1079, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (1079, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (1079, 4, 120, -1, 0, 0, False) /* Create Quilted Drawers for Shop_DestinationType */
+     , (1079, 4, 134, -1, 0, 0, False) /* Create Tunic for Shop_DestinationType */
+     , (1079, 4, 132, -1, 0, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (1079, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (1079, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1079, 4, 166, -1, 14, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1079, 4, 166, -1, 77, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1079, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1079, 4, 136, -1, 14, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1079, 4, 136, -1, 77, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1079, 4, 137, -1, 0, 0, False) /* Create Basket for Shop_DestinationType */
+     , (1079, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1079, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1079, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (1079, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (1079, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (1079, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (1079, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (1079, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (1079, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (1079, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (1079, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (1079, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (1079, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (1079, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (1079, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (1079, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (1079, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (1079, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (1079, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */;
 

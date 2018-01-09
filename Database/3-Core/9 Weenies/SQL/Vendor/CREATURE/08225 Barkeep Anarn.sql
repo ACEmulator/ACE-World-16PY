@@ -94,28 +94,28 @@ VALUES (8225, 64, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8225, 128, 289) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8225, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8225, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (8225, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (8225, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (8225, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (8225, 4, 5136, -1, 0) /* Create Cove Apple Cider for Shop_DestinationType */
-     , (8225, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (8225, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (8225, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (8225, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (8225, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (8225, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (8225, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (8225, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (8225, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (8225, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (8225, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (8225, 4, 4732, -1, 0) /* Create Fried Steak for Shop_DestinationType */
-     , (8225, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (8225, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (8225, 4, 4743, -1, 0) /* Create Stuffed Grape Leaf for Shop_DestinationType */
-     , (8225, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */
-     , (8225, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (8225, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8225, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (8225, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (8225, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (8225, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (8225, 4, 5136, -1, 0, 0, False) /* Create Cove Apple Cider for Shop_DestinationType */
+     , (8225, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (8225, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (8225, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (8225, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (8225, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (8225, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (8225, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (8225, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (8225, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (8225, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (8225, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (8225, 4, 4732, -1, 0, 0, False) /* Create Fried Steak for Shop_DestinationType */
+     , (8225, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (8225, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (8225, 4, 4743, -1, 0, 0, False) /* Create Stuffed Grape Leaf for Shop_DestinationType */
+     , (8225, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */
+     , (8225, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (8225, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */;
 

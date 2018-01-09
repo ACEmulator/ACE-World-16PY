@@ -94,15 +94,15 @@ VALUES (1081, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1081, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1081, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1081, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (1081, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (1081, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (1081, 2, 119, 0, 9) /* Create Cowl for Wield_DestinationType */
-     , (1081, 2, 10696, 0, 8) /* Create Apron for Wield_DestinationType */
-     , (1081, 4, 294, -1, 0) /* Create Amulet for Shop_DestinationType */
-     , (1081, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (1081, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1081, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1081, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1081, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (1081, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (1081, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1081, 2, 119, 0, 9, 0, False) /* Create Cowl for Wield_DestinationType */
+     , (1081, 2, 10696, 0, 8, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1081, 4, 294, -1, 0, 0, False) /* Create Amulet for Shop_DestinationType */
+     , (1081, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (1081, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1081, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1081, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

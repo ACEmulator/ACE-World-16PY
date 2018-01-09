@@ -116,10 +116,10 @@ VALUES (11870, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11870, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11870, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11870, 1, 3695, 0, 0) /* Create Gold Tumerok Insignia for Contain_DestinationType */
-     , (11870, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11870, 9, 11832, 0, 0) /* Create Gromnie Spear-Head for ContainTreasure_DestinationType */
-     , (11870, 9, 11833, 0, 0) /* Create Gromnie Symbol for ContainTreasure_DestinationType */
-     , (11870, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11870, 1, 3695, 0, 0, 0.8, False) /* Create Gold Tumerok Insignia for Contain_DestinationType */
+     , (11870, 9, 0, 0, 0, 0.2, False) /* Create  for ContainTreasure_DestinationType */
+     , (11870, 9, 11832, 0, 0, 0.05, False) /* Create Gromnie Spear-Head for ContainTreasure_DestinationType */
+     , (11870, 9, 11833, 0, 0, 0.05, False) /* Create Gromnie Symbol for ContainTreasure_DestinationType */
+     , (11870, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

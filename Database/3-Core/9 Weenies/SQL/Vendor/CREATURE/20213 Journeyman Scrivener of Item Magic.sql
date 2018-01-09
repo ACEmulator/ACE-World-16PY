@@ -98,45 +98,45 @@ VALUES (20213, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20213, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20213, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20213, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (20213, 2, 127, 0, 3) /* Create Pants for Wield_DestinationType */
-     , (20213, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (20213, 2, 10696, 0, 13) /* Create Apron for Wield_DestinationType */
-     , (20213, 4, 15269, -1, 0) /* Create Foci of Artifice for Shop_DestinationType */
-     , (20213, 4, 2763, -1, 0) /* Create Scroll of Acid Bane III for Shop_DestinationType */
-     , (20213, 4, 2768, -1, 0) /* Create Scroll of Acid Lure III for Shop_DestinationType */
-     , (20213, 4, 2773, -1, 0) /* Create Scroll of Blade Bane III for Shop_DestinationType */
-     , (20213, 4, 2778, -1, 0) /* Create Scroll of Blade Lure III for Shop_DestinationType */
-     , (20213, 4, 2783, -1, 0) /* Create Blood Drinker Scroll III for Shop_DestinationType */
-     , (20213, 4, 2788, -1, 0) /* Create Scroll of Blood Loather III for Shop_DestinationType */
-     , (20213, 4, 2793, -1, 0) /* Create Scroll of Bludgeon Bane III for Shop_DestinationType */
-     , (20213, 4, 2798, -1, 0) /* Create Scroll of Bludgeon Lure III for Shop_DestinationType */
-     , (20213, 4, 2803, -1, 0) /* Create Scroll of Brittlemail III for Shop_DestinationType */
-     , (20213, 4, 2808, -1, 0) /* Create Scroll of Defender III for Shop_DestinationType */
-     , (20213, 4, 2813, -1, 0) /* Create Scroll of Flame Bane III for Shop_DestinationType */
-     , (20213, 4, 2818, -1, 0) /* Create Scroll of Flame Lure III for Shop_DestinationType */
-     , (20213, 4, 2823, -1, 0) /* Create Scroll of Frost Bane III for Shop_DestinationType */
-     , (20213, 4, 2828, -1, 0) /* Create Scroll of Frost Lure III for Shop_DestinationType */
-     , (20213, 4, 2833, -1, 0) /* Create Scroll of Heartseeker III for Shop_DestinationType */
-     , (20213, 4, 2838, -1, 0) /* Create Scroll of Hermetic Void III for Shop_DestinationType */
-     , (20213, 4, 2843, -1, 0) /* Create Scroll of Impenetrability III for Shop_DestinationType */
-     , (20213, 4, 2848, -1, 0) /* Create Scroll of Leaden Weapon III for Shop_DestinationType */
-     , (20213, 4, 2853, -1, 0) /* Create Scroll of Lightning Bane III for Shop_DestinationType */
-     , (20213, 4, 2858, -1, 0) /* Create Scroll of Lightning Lure III for Shop_DestinationType */
-     , (20213, 4, 2863, -1, 0) /* Create Scroll of Lure Blade III for Shop_DestinationType */
-     , (20213, 4, 2868, -1, 0) /* Create Scroll of Piercing Bane III for Shop_DestinationType */
-     , (20213, 4, 2873, -1, 0) /* Create Scroll of Piercing Lure III for Shop_DestinationType */
-     , (20213, 4, 2878, -1, 0) /* Create Scroll of Strengthen Lock III for Shop_DestinationType */
-     , (20213, 4, 2883, -1, 0) /* Create Scroll of Swift Killer III for Shop_DestinationType */
-     , (20213, 4, 2888, -1, 0) /* Create Scroll of Hermetic Link III for Shop_DestinationType */
-     , (20213, 4, 2894, -1, 0) /* Create Scroll of Turn Blade III for Shop_DestinationType */
-     , (20213, 4, 2899, -1, 0) /* Create Scroll of Weaken Lock III for Shop_DestinationType */
-     , (20213, 4, 2903, -1, 0) /* Create Scroll of Lifestone Recall for Shop_DestinationType */
-     , (20213, 4, 20618, -1, 0) /* Create Scroll of Lifestone Tie for Shop_DestinationType */
-     , (20213, 4, 1564, -1, 0) /* Create Scroll of Portal Recall for Shop_DestinationType */
-     , (20213, 4, 1565, -1, 0) /* Create Scroll of Primary Portal Tie for Shop_DestinationType */
-     , (20213, 4, 20619, -1, 0) /* Create Scroll of Secondary Portal Tie for Shop_DestinationType */
-     , (20213, 4, 20620, -1, 0) /* Create Scroll of Primary Portal Recall for Shop_DestinationType */
-     , (20213, 4, 20621, -1, 0) /* Create Scroll of Secondary Portal Recall for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20213, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (20213, 2, 127, 0, 3, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (20213, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (20213, 2, 10696, 0, 13, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (20213, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice for Shop_DestinationType */
+     , (20213, 4, 2763, -1, 0, 0, False) /* Create Scroll of Acid Bane III for Shop_DestinationType */
+     , (20213, 4, 2768, -1, 0, 0, False) /* Create Scroll of Acid Lure III for Shop_DestinationType */
+     , (20213, 4, 2773, -1, 0, 0, False) /* Create Scroll of Blade Bane III for Shop_DestinationType */
+     , (20213, 4, 2778, -1, 0, 0, False) /* Create Scroll of Blade Lure III for Shop_DestinationType */
+     , (20213, 4, 2783, -1, 0, 0, False) /* Create Blood Drinker Scroll III for Shop_DestinationType */
+     , (20213, 4, 2788, -1, 0, 0, False) /* Create Scroll of Blood Loather III for Shop_DestinationType */
+     , (20213, 4, 2793, -1, 0, 0, False) /* Create Scroll of Bludgeon Bane III for Shop_DestinationType */
+     , (20213, 4, 2798, -1, 0, 0, False) /* Create Scroll of Bludgeon Lure III for Shop_DestinationType */
+     , (20213, 4, 2803, -1, 0, 0, False) /* Create Scroll of Brittlemail III for Shop_DestinationType */
+     , (20213, 4, 2808, -1, 0, 0, False) /* Create Scroll of Defender III for Shop_DestinationType */
+     , (20213, 4, 2813, -1, 0, 0, False) /* Create Scroll of Flame Bane III for Shop_DestinationType */
+     , (20213, 4, 2818, -1, 0, 0, False) /* Create Scroll of Flame Lure III for Shop_DestinationType */
+     , (20213, 4, 2823, -1, 0, 0, False) /* Create Scroll of Frost Bane III for Shop_DestinationType */
+     , (20213, 4, 2828, -1, 0, 0, False) /* Create Scroll of Frost Lure III for Shop_DestinationType */
+     , (20213, 4, 2833, -1, 0, 0, False) /* Create Scroll of Heartseeker III for Shop_DestinationType */
+     , (20213, 4, 2838, -1, 0, 0, False) /* Create Scroll of Hermetic Void III for Shop_DestinationType */
+     , (20213, 4, 2843, -1, 0, 0, False) /* Create Scroll of Impenetrability III for Shop_DestinationType */
+     , (20213, 4, 2848, -1, 0, 0, False) /* Create Scroll of Leaden Weapon III for Shop_DestinationType */
+     , (20213, 4, 2853, -1, 0, 0, False) /* Create Scroll of Lightning Bane III for Shop_DestinationType */
+     , (20213, 4, 2858, -1, 0, 0, False) /* Create Scroll of Lightning Lure III for Shop_DestinationType */
+     , (20213, 4, 2863, -1, 0, 0, False) /* Create Scroll of Lure Blade III for Shop_DestinationType */
+     , (20213, 4, 2868, -1, 0, 0, False) /* Create Scroll of Piercing Bane III for Shop_DestinationType */
+     , (20213, 4, 2873, -1, 0, 0, False) /* Create Scroll of Piercing Lure III for Shop_DestinationType */
+     , (20213, 4, 2878, -1, 0, 0, False) /* Create Scroll of Strengthen Lock III for Shop_DestinationType */
+     , (20213, 4, 2883, -1, 0, 0, False) /* Create Scroll of Swift Killer III for Shop_DestinationType */
+     , (20213, 4, 2888, -1, 0, 0, False) /* Create Scroll of Hermetic Link III for Shop_DestinationType */
+     , (20213, 4, 2894, -1, 0, 0, False) /* Create Scroll of Turn Blade III for Shop_DestinationType */
+     , (20213, 4, 2899, -1, 0, 0, False) /* Create Scroll of Weaken Lock III for Shop_DestinationType */
+     , (20213, 4, 2903, -1, 0, 0, False) /* Create Scroll of Lifestone Recall for Shop_DestinationType */
+     , (20213, 4, 20618, -1, 0, 0, False) /* Create Scroll of Lifestone Tie for Shop_DestinationType */
+     , (20213, 4, 1564, -1, 0, 0, False) /* Create Scroll of Portal Recall for Shop_DestinationType */
+     , (20213, 4, 1565, -1, 0, 0, False) /* Create Scroll of Primary Portal Tie for Shop_DestinationType */
+     , (20213, 4, 20619, -1, 0, 0, False) /* Create Scroll of Secondary Portal Tie for Shop_DestinationType */
+     , (20213, 4, 20620, -1, 0, 0, False) /* Create Scroll of Primary Portal Recall for Shop_DestinationType */
+     , (20213, 4, 20621, -1, 0, 0, False) /* Create Scroll of Secondary Portal Recall for Shop_DestinationType */;
 

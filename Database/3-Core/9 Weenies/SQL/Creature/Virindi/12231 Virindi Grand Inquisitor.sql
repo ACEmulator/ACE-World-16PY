@@ -118,15 +118,15 @@ VALUES (12231, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12231, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12231, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12231, 9, 12236, 0, 0) /* Create Energy Crystal for ContainTreasure_DestinationType */
-     , (12231, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12231, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12231, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12231, 9, 11999, 0, 0) /* Create Broken Virindi Inquisitor Mask for ContainTreasure_DestinationType */
-     , (12231, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12231, 9, 10804, 0, 0) /* Create Obsidian Shard for ContainTreasure_DestinationType */
-     , (12231, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12231, 9, 12236, 0, 0, 0.2, False) /* Create Energy Crystal for ContainTreasure_DestinationType */
+     , (12231, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
+     , (12231, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (12231, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */
+     , (12231, 9, 11999, 0, 0, 0.03, False) /* Create Broken Virindi Inquisitor Mask for ContainTreasure_DestinationType */
+     , (12231, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (12231, 9, 10804, 0, 0, 0.8, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */
+     , (12231, 9, 0, 0, 0, 0.2, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12231, 1, 10814, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Virindi Inquisitor (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

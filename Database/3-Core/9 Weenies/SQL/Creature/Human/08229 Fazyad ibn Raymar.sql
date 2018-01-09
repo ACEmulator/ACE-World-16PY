@@ -88,8 +88,8 @@ VALUES (8229, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8229, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8229, 256, 255) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8229, 2, 161, 0, 0) /* Create Mug for Wield_DestinationType */
-     , (8229, 2, 5852, 0, 86) /* Create Dho Vest and Robe for Wield_DestinationType */
-     , (8229, 2, 5894, 0, 0) /* Create Fez for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8229, 2, 161, 0, 0, 0, False) /* Create Mug for Wield_DestinationType */
+     , (8229, 2, 5852, 0, 86, 0.5, False) /* Create Dho Vest and Robe for Wield_DestinationType */
+     , (8229, 2, 5894, 0, 0, 0, False) /* Create Fez for Wield_DestinationType */;
 

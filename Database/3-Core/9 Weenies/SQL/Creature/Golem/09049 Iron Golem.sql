@@ -102,9 +102,9 @@ VALUES (9049, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9049, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9049, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9049, 9, 3672, 0, 0) /* Create Iron Heart for ContainTreasure_DestinationType */
-     , (9049, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9049, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (9049, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9049, 9, 3672, 0, 0, 0.08, False) /* Create Iron Heart for ContainTreasure_DestinationType */
+     , (9049, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (9049, 9, 6353, 0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (9049, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

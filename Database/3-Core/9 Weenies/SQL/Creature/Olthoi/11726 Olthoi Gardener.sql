@@ -93,7 +93,7 @@ VALUES (11726, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11726, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11726, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11726, 9, 10844, 0, 0) /* Create Gardener Pincer for ContainTreasure_DestinationType */
-     , (11726, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11726, 9, 10844, 0, 0, 1, False) /* Create Gardener Pincer for ContainTreasure_DestinationType */
+     , (11726, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

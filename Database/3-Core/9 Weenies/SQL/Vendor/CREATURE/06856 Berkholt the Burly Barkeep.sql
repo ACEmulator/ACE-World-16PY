@@ -99,24 +99,24 @@ VALUES (6856, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6856, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6856, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6856, 2, 134, 0, 4) /* Create Tunic for Wield_DestinationType */
-     , (6856, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (6856, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (6856, 2, 301, 0, 0) /* Create Battle Axe for Wield_DestinationType */
-     , (6856, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (6856, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (6856, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (6856, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (6856, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (6856, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (6856, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (6856, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (6856, 4, 4732, -1, 0) /* Create Fried Steak for Shop_DestinationType */
-     , (6856, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (6856, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (6856, 4, 26641, -1, 0) /* Create Singularity Bore for Shop_DestinationType */
-     , (6856, 4, 29235, -1, 0) /* Create Feud of the Natural Philosophers for Shop_DestinationType */
-     , (6856, 4, 30742, -1, 0) /* Create The Littlest Niffis for Shop_DestinationType */
-     , (6856, 4, 30761, -1, 0) /* Create The Withered Atoll for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6856, 2, 134, 0, 4, 0.6, False) /* Create Tunic for Wield_DestinationType */
+     , (6856, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (6856, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (6856, 2, 301, 0, 0, 0, False) /* Create Battle Axe for Wield_DestinationType */
+     , (6856, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (6856, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (6856, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (6856, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (6856, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (6856, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (6856, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (6856, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (6856, 4, 4732, -1, 0, 0, False) /* Create Fried Steak for Shop_DestinationType */
+     , (6856, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (6856, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (6856, 4, 26641, -1, 0, 0, False) /* Create Singularity Bore for Shop_DestinationType */
+     , (6856, 4, 29235, -1, 0, 0, False) /* Create Feud of the Natural Philosophers for Shop_DestinationType */
+     , (6856, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis for Shop_DestinationType */
+     , (6856, 4, 30761, -1, 0, 0, False) /* Create The Withered Atoll for Shop_DestinationType */;
 

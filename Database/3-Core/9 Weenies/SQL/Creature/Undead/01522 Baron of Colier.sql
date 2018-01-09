@@ -119,6 +119,6 @@ VALUES (1522, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1522, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1522, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1522, 10, 6846, 0, 0) /* Create Lightning Long Sword for WieldTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1522, 10, 6846, 0, 0, 1, False) /* Create Lightning Long Sword for WieldTreasure_DestinationType */;
 

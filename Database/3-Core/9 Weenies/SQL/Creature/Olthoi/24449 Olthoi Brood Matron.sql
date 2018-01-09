@@ -94,7 +94,7 @@ VALUES (24449, 64, 790) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24449, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24449, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24449, 9, 24354, 0, 0) /* Create Brood Matron Carapace for ContainTreasure_DestinationType */
-     , (24449, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24449, 9, 24354, 0, 0, 1, False) /* Create Brood Matron Carapace for ContainTreasure_DestinationType */
+     , (24449, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

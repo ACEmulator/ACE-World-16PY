@@ -98,135 +98,135 @@ VALUES (20209, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (20209, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (20209, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20209, 2, 124, 0, 9) /* Create Jerkin for Wield_DestinationType */
-     , (20209, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (20209, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (20209, 2, 10696, 0, 1) /* Create Apron for Wield_DestinationType */
-     , (20209, 4, 15268, -1, 0) /* Create Foci of Enchantment for Shop_DestinationType */
-     , (20209, 4, 28942, -1, 0) /* Create Scroll of Arcanum Enlightenment III for Shop_DestinationType */
-     , (20209, 4, 28935, -1, 0) /* Create Scroll of Arcanum Salvaging III for Shop_DestinationType */
-     , (20209, 4, 2635, -1, 0) /* Create Scroll of Bafflement Other III for Shop_DestinationType */
-     , (20209, 4, 2640, -1, 0) /* Create Scroll of Clumsiness Other III for Shop_DestinationType */
-     , (20209, 4, 2645, -1, 0) /* Create Scroll of Coordination Other III for Shop_DestinationType */
-     , (20209, 4, 2650, -1, 0) /* Create Scroll of Coordination Self III for Shop_DestinationType */
-     , (20209, 4, 2655, -1, 0) /* Create Scroll of Endurance Other III for Shop_DestinationType */
-     , (20209, 4, 2660, -1, 0) /* Create Scroll of Endurance Self III for Shop_DestinationType */
-     , (20209, 4, 2670, -1, 0) /* Create Scroll of Feeblemind Other III for Shop_DestinationType */
-     , (20209, 4, 2675, -1, 0) /* Create Scroll of Focus Other III for Shop_DestinationType */
-     , (20209, 4, 1783, -1, 0) /* Create Scroll of Focus Self III for Shop_DestinationType */
-     , (20209, 4, 2683, -1, 0) /* Create Scroll of Frailty Other III for Shop_DestinationType */
-     , (20209, 4, 2713, -1, 0) /* Create Scroll of Quickness Other III for Shop_DestinationType */
-     , (20209, 4, 2718, -1, 0) /* Create Scroll of Quickness Self III for Shop_DestinationType */
-     , (20209, 4, 2733, -1, 0) /* Create Scroll of Slowness Other III for Shop_DestinationType */
-     , (20209, 4, 2738, -1, 0) /* Create Scroll of Strength Other III for Shop_DestinationType */
-     , (20209, 4, 2743, -1, 0) /* Create Scroll of Self Strength III for Shop_DestinationType */
-     , (20209, 4, 2748, -1, 0) /* Create Scroll of Weakness Other III for Shop_DestinationType */
-     , (20209, 4, 2753, -1, 0) /* Create Scroll of WillPower Other III for Shop_DestinationType */
-     , (20209, 4, 2758, -1, 0) /* Create Scroll of WillPower Self III for Shop_DestinationType */
-     , (20209, 4, 5982, -1, 0) /* Create Scroll of Alchemy Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 5988, -1, 0) /* Create Scroll of Alchemy Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 5994, -1, 0) /* Create Scroll of Alchemy Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3129, -1, 0) /* Create Scroll of Arcane Benightedness III for Shop_DestinationType */
-     , (20209, 4, 3134, -1, 0) /* Create Scroll of Arcane Enlightenment III for Shop_DestinationType */
-     , (20209, 4, 3139, -1, 0) /* Create Scroll of Arcane Enlightenment Self III for Shop_DestinationType */
-     , (20209, 4, 3144, -1, 0) /* Create Scroll of Armor Tinkering Expertise Other III for Shop_DestinationType */
-     , (20209, 4, 3149, -1, 0) /* Create Scroll of Armor Tinkering Expertise Self III for Shop_DestinationType */
-     , (20209, 4, 3154, -1, 0) /* Create Scroll of Armor Tinkering Ignorance III for Shop_DestinationType */
-     , (20209, 4, 3159, -1, 0) /* Create Scroll of Axe Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3164, -1, 0) /* Create Scroll of Axe Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3169, -1, 0) /* Create Scroll of Axe Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3174, -1, 0) /* Create Scroll of Bow Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3179, -1, 0) /* Create Scroll of Bow Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3184, -1, 0) /* Create Scroll of Bow Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 5946, -1, 0) /* Create Scroll of Cooking Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 5952, -1, 0) /* Create Scroll of Cooking Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 5958, -1, 0) /* Create Scroll of Cooking Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3189, -1, 0) /* Create Scroll of Creature Enchantment Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3194, -1, 0) /* Create Scroll of Creature Enchantment Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3199, -1, 0) /* Create Scroll of Creature Enchantment Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3204, -1, 0) /* Create Scroll of Crossbow Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3209, -1, 0) /* Create Scroll of Crossbow Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3214, -1, 0) /* Create Scroll of Crossbow Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3219, -1, 0) /* Create Scroll of Dagger Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3224, -1, 0) /* Create Scroll of Dagger Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3229, -1, 0) /* Create Scroll of Dagger Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3234, -1, 0) /* Create Scroll of Deception Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3239, -1, 0) /* Create Scroll of Deception Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3244, -1, 0) /* Create Scroll of Deception Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3249, -1, 0) /* Create Scroll of Defenselessness III for Shop_DestinationType */
-     , (20209, 4, 3254, -1, 0) /* Create Scroll of Faithlessness III for Shop_DestinationType */
-     , (20209, 4, 3259, -1, 0) /* Create Scroll of Fealty Other III for Shop_DestinationType */
-     , (20209, 4, 3264, -1, 0) /* Create Scroll of Fealty Self III for Shop_DestinationType */
-     , (20209, 4, 5964, -1, 0) /* Create Scroll of Fletching Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 5970, -1, 0) /* Create Scroll of Fletching Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 5976, -1, 0) /* Create Scroll of Fletching Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3269, -1, 0) /* Create Scroll of Healing Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3274, -1, 0) /* Create Scroll of Healing Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3279, -1, 0) /* Create Scroll of Healing Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3284, -1, 0) /* Create Scroll of Impregnability Other III for Shop_DestinationType */
-     , (20209, 4, 3289, -1, 0) /* Create Scroll of Impregnability Self III for Shop_DestinationType */
-     , (20209, 4, 3294, -1, 0) /* Create Scroll of Invulnerability Other III for Shop_DestinationType */
-     , (20209, 4, 3299, -1, 0) /* Create Scroll of Invulnerability Self III for Shop_DestinationType */
-     , (20209, 4, 3304, -1, 0) /* Create Scroll of Item Enchantment Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3309, -1, 0) /* Create Scroll of Item Enchantment Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3314, -1, 0) /* Create Scroll of Item Enchantment Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3319, -1, 0) /* Create Scroll of Item Tinkering Expertise Other III for Shop_DestinationType */
-     , (20209, 4, 3324, -1, 0) /* Create Scroll of Item Tinkering Expertise Self III for Shop_DestinationType */
-     , (20209, 4, 3329, -1, 0) /* Create Scroll of Item Tinkering Ignorance III for Shop_DestinationType */
-     , (20209, 4, 9626, -1, 0) /* Create Scroll of Jumping Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3334, -1, 0) /* Create Scroll of Jumping Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3339, -1, 0) /* Create Scroll of Jumping Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3344, -1, 0) /* Create Scroll of Leaden Feet III for Shop_DestinationType */
-     , (20209, 4, 3349, -1, 0) /* Create Scroll of Leadership Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3354, -1, 0) /* Create Scroll of Leadership Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3359, -1, 0) /* Create Scroll of Leadership Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3364, -1, 0) /* Create Scroll of Life Magic Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3369, -1, 0) /* Create Scroll of Life Magic Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3374, -1, 0) /* Create Scroll of Life Magic Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3379, -1, 0) /* Create Scroll of Lockpick Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3384, -1, 0) /* Create Scroll of Lockpick Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3389, -1, 0) /* Create Scroll of Lockpick Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3394, -1, 0) /* Create Scroll of Mace Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3399, -1, 0) /* Create Scroll of Mace Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3404, -1, 0) /* Create Scroll of Mace Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3409, -1, 0) /* Create Scroll of Magic Item Tinkering Expertise Other III for Shop_DestinationType */
-     , (20209, 4, 3414, -1, 0) /* Create Scroll of Magic Item Tinkering Expertise Self III for Shop_DestinationType */
-     , (20209, 4, 3419, -1, 0) /* Create Scroll of Magic Item Tinkering Ignorance III for Shop_DestinationType */
-     , (20209, 4, 3424, -1, 0) /* Create Scroll of Magic Yield Other III for Shop_DestinationType */
-     , (20209, 4, 3429, -1, 0) /* Create Scroll of Mana Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3434, -1, 0) /* Create Scroll of Mana Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 9610, -1, 0) /* Create Scroll of Mana Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3439, -1, 0) /* Create Scroll of Monster Attunement Other III for Shop_DestinationType */
-     , (20209, 4, 5544, -1, 0) /* Create Scroll of Monster Attunement Self III for Shop_DestinationType */
-     , (20209, 4, 3444, -1, 0) /* Create Scroll of Monster Unfamiliarity III for Shop_DestinationType */
-     , (20209, 4, 3449, -1, 0) /* Create Scroll of Person Attunement Other III for Shop_DestinationType */
-     , (20209, 4, 3454, -1, 0) /* Create Scroll of Person Attunement Self III for Shop_DestinationType */
-     , (20209, 4, 3459, -1, 0) /* Create Scroll of Person Unfamiliarity III for Shop_DestinationType */
-     , (20209, 4, 3464, -1, 0) /* Create Scroll of Resist Magic Other III for Shop_DestinationType */
-     , (20209, 4, 3469, -1, 0) /* Create Scroll of Resist Magic Self III for Shop_DestinationType */
-     , (20209, 4, 3474, -1, 0) /* Create Scroll of Spear Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3479, -1, 0) /* Create Scroll of Spear Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3484, -1, 0) /* Create Scroll of Spear Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3489, -1, 0) /* Create Scroll of Sprint Other III for Shop_DestinationType */
-     , (20209, 4, 3494, -1, 0) /* Create Scroll of Sprint Self III for Shop_DestinationType */
-     , (20209, 4, 3499, -1, 0) /* Create Scroll of Staff Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3504, -1, 0) /* Create Scroll of Staff Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3509, -1, 0) /* Create Scroll of Staff Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3514, -1, 0) /* Create Scroll of Sword Ineptitude Other III for Shop_DestinationType */
-     , (20209, 4, 3519, -1, 0) /* Create Scroll of Sword Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3524, -1, 0) /* Create Scroll of Sword Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3529, -1, 0) /* Create Scroll of Thrown Weapons Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3534, -1, 0) /* Create Scroll of Thrown Weapon Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3539, -1, 0) /* Create Scroll of Thrown Weapon Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3544, -1, 0) /* Create Scroll of Unarmed Combat Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3549, -1, 0) /* Create Scroll of Unarmed Combat Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3554, -1, 0) /* Create Scroll of Unarmed Combat Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3559, -1, 0) /* Create Scroll of Vulnerability III for Shop_DestinationType */
-     , (20209, 4, 3564, -1, 0) /* Create Scroll of War Magic Ineptitude III for Shop_DestinationType */
-     , (20209, 4, 3569, -1, 0) /* Create Scroll of War Magic Mastery Other III for Shop_DestinationType */
-     , (20209, 4, 3574, -1, 0) /* Create Scroll of War Magic Mastery Self III for Shop_DestinationType */
-     , (20209, 4, 3579, -1, 0) /* Create Scroll of Weapon Tinkering Expertise Other III for Shop_DestinationType */
-     , (20209, 4, 3584, -1, 0) /* Create Scroll of Weapon Tinkering Expertise Self III for Shop_DestinationType */
-     , (20209, 4, 3589, -1, 0) /* Create Scroll of Weapon Tinkering Ignorance III for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20209, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (20209, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (20209, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (20209, 2, 10696, 0, 1, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (20209, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment for Shop_DestinationType */
+     , (20209, 4, 28942, -1, 0, 0, False) /* Create Scroll of Arcanum Enlightenment III for Shop_DestinationType */
+     , (20209, 4, 28935, -1, 0, 0, False) /* Create Scroll of Arcanum Salvaging III for Shop_DestinationType */
+     , (20209, 4, 2635, -1, 0, 0, False) /* Create Scroll of Bafflement Other III for Shop_DestinationType */
+     , (20209, 4, 2640, -1, 0, 0, False) /* Create Scroll of Clumsiness Other III for Shop_DestinationType */
+     , (20209, 4, 2645, -1, 0, 0, False) /* Create Scroll of Coordination Other III for Shop_DestinationType */
+     , (20209, 4, 2650, -1, 0, 0, False) /* Create Scroll of Coordination Self III for Shop_DestinationType */
+     , (20209, 4, 2655, -1, 0, 0, False) /* Create Scroll of Endurance Other III for Shop_DestinationType */
+     , (20209, 4, 2660, -1, 0, 0, False) /* Create Scroll of Endurance Self III for Shop_DestinationType */
+     , (20209, 4, 2670, -1, 0, 0, False) /* Create Scroll of Feeblemind Other III for Shop_DestinationType */
+     , (20209, 4, 2675, -1, 0, 0, False) /* Create Scroll of Focus Other III for Shop_DestinationType */
+     , (20209, 4, 1783, -1, 0, 0, False) /* Create Scroll of Focus Self III for Shop_DestinationType */
+     , (20209, 4, 2683, -1, 0, 0, False) /* Create Scroll of Frailty Other III for Shop_DestinationType */
+     , (20209, 4, 2713, -1, 0, 0, False) /* Create Scroll of Quickness Other III for Shop_DestinationType */
+     , (20209, 4, 2718, -1, 0, 0, False) /* Create Scroll of Quickness Self III for Shop_DestinationType */
+     , (20209, 4, 2733, -1, 0, 0, False) /* Create Scroll of Slowness Other III for Shop_DestinationType */
+     , (20209, 4, 2738, -1, 0, 0, False) /* Create Scroll of Strength Other III for Shop_DestinationType */
+     , (20209, 4, 2743, -1, 0, 0, False) /* Create Scroll of Self Strength III for Shop_DestinationType */
+     , (20209, 4, 2748, -1, 0, 0, False) /* Create Scroll of Weakness Other III for Shop_DestinationType */
+     , (20209, 4, 2753, -1, 0, 0, False) /* Create Scroll of WillPower Other III for Shop_DestinationType */
+     , (20209, 4, 2758, -1, 0, 0, False) /* Create Scroll of WillPower Self III for Shop_DestinationType */
+     , (20209, 4, 5982, -1, 0, 0, False) /* Create Scroll of Alchemy Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 5988, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 5994, -1, 0, 0, False) /* Create Scroll of Alchemy Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3129, -1, 0, 0, False) /* Create Scroll of Arcane Benightedness III for Shop_DestinationType */
+     , (20209, 4, 3134, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment III for Shop_DestinationType */
+     , (20209, 4, 3139, -1, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self III for Shop_DestinationType */
+     , (20209, 4, 3144, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Other III for Shop_DestinationType */
+     , (20209, 4, 3149, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Expertise Self III for Shop_DestinationType */
+     , (20209, 4, 3154, -1, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance III for Shop_DestinationType */
+     , (20209, 4, 3159, -1, 0, 0, False) /* Create Scroll of Axe Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3164, -1, 0, 0, False) /* Create Scroll of Axe Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3169, -1, 0, 0, False) /* Create Scroll of Axe Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3174, -1, 0, 0, False) /* Create Scroll of Bow Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3179, -1, 0, 0, False) /* Create Scroll of Bow Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3184, -1, 0, 0, False) /* Create Scroll of Bow Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 5946, -1, 0, 0, False) /* Create Scroll of Cooking Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 5952, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 5958, -1, 0, 0, False) /* Create Scroll of Cooking Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3189, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3194, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3199, -1, 0, 0, False) /* Create Scroll of Creature Enchantment Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3204, -1, 0, 0, False) /* Create Scroll of Crossbow Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3209, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3214, -1, 0, 0, False) /* Create Scroll of Crossbow Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3219, -1, 0, 0, False) /* Create Scroll of Dagger Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3224, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3229, -1, 0, 0, False) /* Create Scroll of Dagger Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3234, -1, 0, 0, False) /* Create Scroll of Deception Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3239, -1, 0, 0, False) /* Create Scroll of Deception Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3244, -1, 0, 0, False) /* Create Scroll of Deception Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3249, -1, 0, 0, False) /* Create Scroll of Defenselessness III for Shop_DestinationType */
+     , (20209, 4, 3254, -1, 0, 0, False) /* Create Scroll of Faithlessness III for Shop_DestinationType */
+     , (20209, 4, 3259, -1, 0, 0, False) /* Create Scroll of Fealty Other III for Shop_DestinationType */
+     , (20209, 4, 3264, -1, 0, 0, False) /* Create Scroll of Fealty Self III for Shop_DestinationType */
+     , (20209, 4, 5964, -1, 0, 0, False) /* Create Scroll of Fletching Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 5970, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 5976, -1, 0, 0, False) /* Create Scroll of Fletching Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3269, -1, 0, 0, False) /* Create Scroll of Healing Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3274, -1, 0, 0, False) /* Create Scroll of Healing Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3279, -1, 0, 0, False) /* Create Scroll of Healing Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3284, -1, 0, 0, False) /* Create Scroll of Impregnability Other III for Shop_DestinationType */
+     , (20209, 4, 3289, -1, 0, 0, False) /* Create Scroll of Impregnability Self III for Shop_DestinationType */
+     , (20209, 4, 3294, -1, 0, 0, False) /* Create Scroll of Invulnerability Other III for Shop_DestinationType */
+     , (20209, 4, 3299, -1, 0, 0, False) /* Create Scroll of Invulnerability Self III for Shop_DestinationType */
+     , (20209, 4, 3304, -1, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3309, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3314, -1, 0, 0, False) /* Create Scroll of Item Enchantment Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3319, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Other III for Shop_DestinationType */
+     , (20209, 4, 3324, -1, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self III for Shop_DestinationType */
+     , (20209, 4, 3329, -1, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance III for Shop_DestinationType */
+     , (20209, 4, 9626, -1, 0, 0, False) /* Create Scroll of Jumping Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3334, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3339, -1, 0, 0, False) /* Create Scroll of Jumping Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3344, -1, 0, 0, False) /* Create Scroll of Leaden Feet III for Shop_DestinationType */
+     , (20209, 4, 3349, -1, 0, 0, False) /* Create Scroll of Leadership Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3354, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3359, -1, 0, 0, False) /* Create Scroll of Leadership Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3364, -1, 0, 0, False) /* Create Scroll of Life Magic Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3369, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3374, -1, 0, 0, False) /* Create Scroll of Life Magic Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3379, -1, 0, 0, False) /* Create Scroll of Lockpick Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3384, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3389, -1, 0, 0, False) /* Create Scroll of Lockpick Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3394, -1, 0, 0, False) /* Create Scroll of Mace Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3399, -1, 0, 0, False) /* Create Scroll of Mace Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3404, -1, 0, 0, False) /* Create Scroll of Mace Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3409, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Other III for Shop_DestinationType */
+     , (20209, 4, 3414, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self III for Shop_DestinationType */
+     , (20209, 4, 3419, -1, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance III for Shop_DestinationType */
+     , (20209, 4, 3424, -1, 0, 0, False) /* Create Scroll of Magic Yield Other III for Shop_DestinationType */
+     , (20209, 4, 3429, -1, 0, 0, False) /* Create Scroll of Mana Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3434, -1, 0, 0, False) /* Create Scroll of Mana Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 9610, -1, 0, 0, False) /* Create Scroll of Mana Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3439, -1, 0, 0, False) /* Create Scroll of Monster Attunement Other III for Shop_DestinationType */
+     , (20209, 4, 5544, -1, 0, 0, False) /* Create Scroll of Monster Attunement Self III for Shop_DestinationType */
+     , (20209, 4, 3444, -1, 0, 0, False) /* Create Scroll of Monster Unfamiliarity III for Shop_DestinationType */
+     , (20209, 4, 3449, -1, 0, 0, False) /* Create Scroll of Person Attunement Other III for Shop_DestinationType */
+     , (20209, 4, 3454, -1, 0, 0, False) /* Create Scroll of Person Attunement Self III for Shop_DestinationType */
+     , (20209, 4, 3459, -1, 0, 0, False) /* Create Scroll of Person Unfamiliarity III for Shop_DestinationType */
+     , (20209, 4, 3464, -1, 0, 0, False) /* Create Scroll of Resist Magic Other III for Shop_DestinationType */
+     , (20209, 4, 3469, -1, 0, 0, False) /* Create Scroll of Resist Magic Self III for Shop_DestinationType */
+     , (20209, 4, 3474, -1, 0, 0, False) /* Create Scroll of Spear Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3479, -1, 0, 0, False) /* Create Scroll of Spear Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3484, -1, 0, 0, False) /* Create Scroll of Spear Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3489, -1, 0, 0, False) /* Create Scroll of Sprint Other III for Shop_DestinationType */
+     , (20209, 4, 3494, -1, 0, 0, False) /* Create Scroll of Sprint Self III for Shop_DestinationType */
+     , (20209, 4, 3499, -1, 0, 0, False) /* Create Scroll of Staff Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3504, -1, 0, 0, False) /* Create Scroll of Staff Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3509, -1, 0, 0, False) /* Create Scroll of Staff Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3514, -1, 0, 0, False) /* Create Scroll of Sword Ineptitude Other III for Shop_DestinationType */
+     , (20209, 4, 3519, -1, 0, 0, False) /* Create Scroll of Sword Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3524, -1, 0, 0, False) /* Create Scroll of Sword Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3529, -1, 0, 0, False) /* Create Scroll of Thrown Weapons Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3534, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3539, -1, 0, 0, False) /* Create Scroll of Thrown Weapon Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3544, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3549, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3554, -1, 0, 0, False) /* Create Scroll of Unarmed Combat Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3559, -1, 0, 0, False) /* Create Scroll of Vulnerability III for Shop_DestinationType */
+     , (20209, 4, 3564, -1, 0, 0, False) /* Create Scroll of War Magic Ineptitude III for Shop_DestinationType */
+     , (20209, 4, 3569, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Other III for Shop_DestinationType */
+     , (20209, 4, 3574, -1, 0, 0, False) /* Create Scroll of War Magic Mastery Self III for Shop_DestinationType */
+     , (20209, 4, 3579, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Other III for Shop_DestinationType */
+     , (20209, 4, 3584, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Self III for Shop_DestinationType */
+     , (20209, 4, 3589, -1, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance III for Shop_DestinationType */;
 

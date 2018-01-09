@@ -94,16 +94,16 @@ VALUES (4440, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4440, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4440, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4440, 2, 124, 0, 4) /* Create Jerkin for Wield_DestinationType */
-     , (4440, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (4440, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (4440, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4440, 4, 166, -1, 9) /* Create Sack for Shop_DestinationType */
-     , (4440, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (4440, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (4440, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (4440, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (4440, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (4440, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4440, 2, 124, 0, 4, 0.5, False) /* Create Jerkin for Wield_DestinationType */
+     , (4440, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4440, 2, 115, 0, 4, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4440, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4440, 4, 166, -1, 9, 1, False) /* Create Sack for Shop_DestinationType */
+     , (4440, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (4440, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (4440, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (4440, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (4440, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (4440, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */;
 

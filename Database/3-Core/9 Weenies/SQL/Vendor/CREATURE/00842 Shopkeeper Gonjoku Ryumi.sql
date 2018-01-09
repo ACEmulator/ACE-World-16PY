@@ -94,46 +94,46 @@ VALUES (842, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (842, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (842, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (842, 2, 2596, 0, 9) /* Create Doublet for Wield_DestinationType */
-     , (842, 2, 2602, 0, 13) /* Create Breeches for Wield_DestinationType */
-     , (842, 2, 115, 0, 13) /* Create Leather Boots for Wield_DestinationType */
-     , (842, 2, 10696, 0, 1) /* Create Apron for Wield_DestinationType */
-     , (842, 4, 321, -1, 0) /* Create Jitte for Shop_DestinationType */
-     , (842, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (842, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (842, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (842, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (842, 4, 361, -1, 0) /* Create Yaoji for Shop_DestinationType */
-     , (842, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (842, 4, 312, -1, 0) /* Create Light Crossbow for Shop_DestinationType */
-     , (842, 4, 341, -1, 0) /* Create Shouyumi for Shop_DestinationType */
-     , (842, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (842, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (842, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (842, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (842, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (842, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (842, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (842, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (842, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (842, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (842, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (842, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (842, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (842, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (842, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (842, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (842, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (842, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (842, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (842, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (842, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (842, 4, 136, -1, 13) /* Create Pack for Shop_DestinationType */
-     , (842, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (842, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (842, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (842, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (842, 4, 7824, -1, 0) /* Create Metal Press for Shop_DestinationType */
-     , (842, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (842, 2, 2596, 0, 9, 1, False) /* Create Doublet for Wield_DestinationType */
+     , (842, 2, 2602, 0, 13, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (842, 2, 115, 0, 13, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (842, 2, 10696, 0, 1, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (842, 4, 321, -1, 0, 0, False) /* Create Jitte for Shop_DestinationType */
+     , (842, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (842, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (842, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (842, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (842, 4, 361, -1, 0, 0, False) /* Create Yaoji for Shop_DestinationType */
+     , (842, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (842, 4, 312, -1, 0, 0, False) /* Create Light Crossbow for Shop_DestinationType */
+     , (842, 4, 341, -1, 0, 0, False) /* Create Shouyumi for Shop_DestinationType */
+     , (842, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (842, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (842, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (842, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (842, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (842, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (842, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (842, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (842, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (842, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (842, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (842, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (842, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (842, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (842, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (842, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (842, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (842, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (842, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (842, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (842, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (842, 4, 136, -1, 13, 1, False) /* Create Pack for Shop_DestinationType */
+     , (842, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (842, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (842, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (842, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (842, 4, 7824, -1, 0, 0, False) /* Create Metal Press for Shop_DestinationType */
+     , (842, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */;
 

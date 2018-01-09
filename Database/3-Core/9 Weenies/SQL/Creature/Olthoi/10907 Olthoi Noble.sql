@@ -90,6 +90,6 @@ VALUES (10907, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10907, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10907, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10907, 2, 11731, 3, 0) /* Create Spitball for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10907, 2, 11731, 3, 0, 0, False) /* Create Spitball for Wield_DestinationType */;
 

@@ -94,40 +94,40 @@ VALUES (11384, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11384, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11384, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11384, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (11384, 2, 127, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (11384, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (11384, 2, 10696, 0, 16) /* Create Apron for Wield_DestinationType */
-     , (11384, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (11384, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (11384, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (11384, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (11384, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (11384, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (11384, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (11384, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (11384, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (11384, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (11384, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (11384, 4, 27610, -1, 0) /* Create Traveler's Alert for Shop_DestinationType */
-     , (11384, 4, 27611, -1, 0) /* Create Burning Terror for Shop_DestinationType */
-     , (11384, 4, 27612, -1, 0) /* Create Tumeroks on the Island for Shop_DestinationType */
-     , (11384, 4, 27613, -1, 0) /* Create Warring Factions for Shop_DestinationType */
-     , (11384, 4, 27614, -1, 0) /* Create Virindi on the Plateau for Shop_DestinationType */
-     , (11384, 4, 27615, -1, 0) /* Create Empyrean Ruins for Shop_DestinationType */
-     , (11384, 4, 27616, -1, 0) /* Create Canescent Mattekar for Shop_DestinationType */
-     , (11384, 4, 27617, -1, 0) /* Create Virindi Weapons for Shop_DestinationType */
-     , (11384, 4, 27618, -1, 0) /* Create Marae Lassel for Shop_DestinationType */
-     , (11384, 4, 27619, -1, 0) /* Create Menhir Rings for Shop_DestinationType */
-     , (11384, 4, 27620, -1, 0) /* Create Olthoi Queen for Shop_DestinationType */
-     , (11384, 4, 27621, -1, 0) /* Create Bachus Flufens for Shop_DestinationType */
-     , (11384, 4, 27622, -1, 0) /* Create Aun Tumeroks for Shop_DestinationType */
-     , (11384, 4, 27623, -1, 0) /* Create Hea Tuperea for Shop_DestinationType */
-     , (11384, 4, 27623, -1, 0) /* Create Hea Tuperea for Shop_DestinationType */
-     , (11384, 4, 27624, -1, 0) /* Create Brigands for Shop_DestinationType */
-     , (11384, 4, 27625, -1, 0) /* Create Olthoi Fungus for Shop_DestinationType */
-     , (11384, 4, 27626, -1, 0) /* Create Olthoi Eviscerators for Shop_DestinationType */
-     , (11384, 4, 27627, -1, 0) /* Create Britana for Shop_DestinationType */
-     , (11384, 4, 27628, -1, 0) /* Create Behdo Yii for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11384, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (11384, 2, 127, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (11384, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (11384, 2, 10696, 0, 16, 1, False) /* Create Apron for Wield_DestinationType */
+     , (11384, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (11384, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (11384, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (11384, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (11384, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (11384, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (11384, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (11384, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (11384, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (11384, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (11384, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (11384, 4, 27610, -1, 0, 0, False) /* Create Traveler's Alert for Shop_DestinationType */
+     , (11384, 4, 27611, -1, 0, 0, False) /* Create Burning Terror for Shop_DestinationType */
+     , (11384, 4, 27612, -1, 0, 0, False) /* Create Tumeroks on the Island for Shop_DestinationType */
+     , (11384, 4, 27613, -1, 0, 0, False) /* Create Warring Factions for Shop_DestinationType */
+     , (11384, 4, 27614, -1, 0, 0, False) /* Create Virindi on the Plateau for Shop_DestinationType */
+     , (11384, 4, 27615, -1, 0, 0, False) /* Create Empyrean Ruins for Shop_DestinationType */
+     , (11384, 4, 27616, -1, 0, 0, False) /* Create Canescent Mattekar for Shop_DestinationType */
+     , (11384, 4, 27617, -1, 0, 0, False) /* Create Virindi Weapons for Shop_DestinationType */
+     , (11384, 4, 27618, -1, 0, 0, False) /* Create Marae Lassel for Shop_DestinationType */
+     , (11384, 4, 27619, -1, 0, 0, False) /* Create Menhir Rings for Shop_DestinationType */
+     , (11384, 4, 27620, -1, 0, 0, False) /* Create Olthoi Queen for Shop_DestinationType */
+     , (11384, 4, 27621, -1, 0, 0, False) /* Create Bachus Flufens for Shop_DestinationType */
+     , (11384, 4, 27622, -1, 0, 0, False) /* Create Aun Tumeroks for Shop_DestinationType */
+     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea for Shop_DestinationType */
+     , (11384, 4, 27623, -1, 0, 0, False) /* Create Hea Tuperea for Shop_DestinationType */
+     , (11384, 4, 27624, -1, 0, 0, False) /* Create Brigands for Shop_DestinationType */
+     , (11384, 4, 27625, -1, 0, 0, False) /* Create Olthoi Fungus for Shop_DestinationType */
+     , (11384, 4, 27626, -1, 0, 0, False) /* Create Olthoi Eviscerators for Shop_DestinationType */
+     , (11384, 4, 27627, -1, 0, 0, False) /* Create Britana for Shop_DestinationType */
+     , (11384, 4, 27628, -1, 0, 0, False) /* Create Behdo Yii for Shop_DestinationType */;
 

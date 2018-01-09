@@ -93,12 +93,12 @@ VALUES (2043, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2043, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2043, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2043, 2, 339, 0, 0) /* Create Scimitar for Wield_DestinationType */
-     , (2043, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (2043, 2, 126, 0, 4) /* Create Leggings for Wield_DestinationType */
-     , (2043, 2, 133, 0, 16) /* Create Slippers for Wield_DestinationType */
-     , (2043, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2043, 4, 2023, -1, 0) /* Create Lilitha's Arrow for Shop_DestinationType */
-     , (2043, 4, 2055, -1, 0) /* Create Directions to Hunter's Leap for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2043, 2, 339, 0, 0, 0, False) /* Create Scimitar for Wield_DestinationType */
+     , (2043, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (2043, 2, 126, 0, 4, 0.6, False) /* Create Leggings for Wield_DestinationType */
+     , (2043, 2, 133, 0, 16, 1, False) /* Create Slippers for Wield_DestinationType */
+     , (2043, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2043, 4, 2023, -1, 0, 0, False) /* Create Lilitha's Arrow for Shop_DestinationType */
+     , (2043, 4, 2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap for Shop_DestinationType */;
 

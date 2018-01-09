@@ -89,6 +89,6 @@ VALUES (11371, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11371, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11371, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11371, 2, 11912, 1, 0) /* Create Lance of the Quiddity for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11371, 2, 11912, 1, 0, 1, False) /* Create Lance of the Quiddity for Wield_DestinationType */;
 

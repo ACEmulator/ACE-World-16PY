@@ -94,22 +94,22 @@ VALUES (5428, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5428, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5428, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5428, 2, 348, 0, 0) /* Create Spear for Wield_DestinationType */
-     , (5428, 2, 124, 0, 7) /* Create Jerkin for Wield_DestinationType */
-     , (5428, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (5428, 2, 116, 0, 7) /* Create Studded Leather Boots for Wield_DestinationType */
-     , (5428, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (5428, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (5428, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (5428, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (5428, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (5428, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (5428, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (5428, 4, 352, -1, 0) /* Create Short Sword for Shop_DestinationType */
-     , (5428, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (5428, 4, 315, -1, 0) /* Create Throwing Dagger for Shop_DestinationType */
-     , (5428, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5428, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5428, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5428, 2, 348, 0, 0, 0, False) /* Create Spear for Wield_DestinationType */
+     , (5428, 2, 124, 0, 7, 0.33, False) /* Create Jerkin for Wield_DestinationType */
+     , (5428, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (5428, 2, 116, 0, 7, 0.33, False) /* Create Studded Leather Boots for Wield_DestinationType */
+     , (5428, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (5428, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (5428, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (5428, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (5428, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (5428, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (5428, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (5428, 4, 352, -1, 0, 0, False) /* Create Short Sword for Shop_DestinationType */
+     , (5428, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (5428, 4, 315, -1, 0, 0, False) /* Create Throwing Dagger for Shop_DestinationType */
+     , (5428, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5428, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5428, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

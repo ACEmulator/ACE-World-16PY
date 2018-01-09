@@ -118,6 +118,6 @@ VALUES (8675, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8675, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8675, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8675, 1, 2548, 1, 0) /* Create Sceptre for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8675, 1, 2548, 1, 0, 1, False) /* Create Sceptre for Contain_DestinationType */;
 

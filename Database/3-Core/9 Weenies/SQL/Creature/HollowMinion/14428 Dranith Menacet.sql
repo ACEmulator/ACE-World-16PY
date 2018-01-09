@@ -87,6 +87,6 @@ VALUES (14428, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (14428, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (14428, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14428, 1, 14438, 1, 0) /* Create Menacet's Orders for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14428, 1, 14438, 1, 0, 0, False) /* Create Menacet's Orders for Contain_DestinationType */;
 

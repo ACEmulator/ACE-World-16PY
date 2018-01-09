@@ -94,17 +94,17 @@ VALUES (4544, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4544, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4544, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4544, 2, 2587, 0, 2) /* Create Shirt for Wield_DestinationType */
-     , (4544, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (4544, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (4544, 2, 118, 0, 16) /* Create Cap for Wield_DestinationType */
-     , (4544, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (4544, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (4544, 4, 622, -1, 0) /* Create Necklace for Shop_DestinationType */
-     , (4544, 4, 2415, -1, 0) /* Create Lapis Lazuli for Shop_DestinationType */
-     , (4544, 4, 2400, -1, 0) /* Create Yellow Garnet for Shop_DestinationType */
-     , (4544, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4544, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4544, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4544, 2, 2587, 0, 2, 0.67, False) /* Create Shirt for Wield_DestinationType */
+     , (4544, 2, 127, 0, 5, 0, False) /* Create Pants for Wield_DestinationType */
+     , (4544, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (4544, 2, 118, 0, 16, 1, False) /* Create Cap for Wield_DestinationType */
+     , (4544, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (4544, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (4544, 4, 622, -1, 0, 0, False) /* Create Necklace for Shop_DestinationType */
+     , (4544, 4, 2415, -1, 0, 0, False) /* Create Lapis Lazuli for Shop_DestinationType */
+     , (4544, 4, 2400, -1, 0, 0, False) /* Create Yellow Garnet for Shop_DestinationType */
+     , (4544, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4544, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4544, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

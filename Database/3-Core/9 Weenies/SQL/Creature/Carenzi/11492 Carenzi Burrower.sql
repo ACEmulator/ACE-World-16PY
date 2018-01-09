@@ -90,7 +90,7 @@ VALUES (11492, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11492, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11492, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11492, 9, 11339, 0, 0) /* Create Carenzi Burrower Pelt for ContainTreasure_DestinationType */
-     , (11492, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11492, 9, 11339, 0, 0, 0.05, False) /* Create Carenzi Burrower Pelt for ContainTreasure_DestinationType */
+     , (11492, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

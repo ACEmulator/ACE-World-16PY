@@ -88,9 +88,9 @@ VALUES (24244, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24244, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24244, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24244, 2, 24238, 0, 0) /* Create Olthoi Atlatl for Wield_DestinationType */
-     , (24244, 2, 24264, 0, 0) /* Create Olthoi Fighter Shirt (Female) for Wield_DestinationType */
-     , (24244, 2, 24266, 0, 0) /* Create Olthoi Fighter Shorts (Female) for Wield_DestinationType */
-     , (24244, 2, 116, 0, 13) /* Create Studded Leather Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24244, 2, 24238, 0, 0, 0, False) /* Create Olthoi Atlatl for Wield_DestinationType */
+     , (24244, 2, 24264, 0, 0, 0, False) /* Create Olthoi Fighter Shirt (Female) for Wield_DestinationType */
+     , (24244, 2, 24266, 0, 0, 0, False) /* Create Olthoi Fighter Shorts (Female) for Wield_DestinationType */
+     , (24244, 2, 116, 0, 13, 0, False) /* Create Studded Leather Boots for Wield_DestinationType */;
 

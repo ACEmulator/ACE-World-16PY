@@ -111,15 +111,15 @@ VALUES (9264, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9264, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9264, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9264, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (9264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9264, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (9264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9264, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (9264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9264, 9, 20863, 0, 0) /* Create Virindi Stamp for ContainTreasure_DestinationType */
-     , (9264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9264, 9, 9290, 0, 0) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
-     , (9264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9264, 9, 7604, 0, 0, 0.05, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (9264, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (9264, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (9264, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (9264, 9, 9292, 0, 0, 0.02, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (9264, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (9264, 9, 20863, 0, 0, 0.04, False) /* Create Virindi Stamp for ContainTreasure_DestinationType */
+     , (9264, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (9264, 9, 9290, 0, 0, 0.02, False) /* Create Virindi Directive Key for ContainTreasure_DestinationType */
+     , (9264, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

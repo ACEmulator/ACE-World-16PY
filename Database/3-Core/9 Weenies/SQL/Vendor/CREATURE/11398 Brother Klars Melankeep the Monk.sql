@@ -94,38 +94,38 @@ VALUES (11398, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11398, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11398, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11398, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (11398, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (11398, 2, 132, 0, 2) /* Create Shoes for Wield_DestinationType */
-     , (11398, 2, 10696, 0, 17) /* Create Apron for Wield_DestinationType */
-     , (11398, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (11398, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (11398, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (11398, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (11398, 4, 5583, -1, 0) /* Create Aluvian Cookbook for Shop_DestinationType */
-     , (11398, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (11398, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (11398, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (11398, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (11398, 4, 136, -1, 14) /* Create Pack for Shop_DestinationType */
-     , (11398, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (11398, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (11398, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (11398, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (11398, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (11398, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (11398, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (11398, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (11398, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (11398, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (11398, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */
-     , (11398, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (11398, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (11398, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (11398, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (11398, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (11398, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (11398, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (11398, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11398, 2, 134, 0, 9, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (11398, 2, 117, 0, 8, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (11398, 2, 132, 0, 2, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (11398, 2, 10696, 0, 17, 1, False) /* Create Apron for Wield_DestinationType */
+     , (11398, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (11398, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (11398, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (11398, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (11398, 4, 5583, -1, 0, 0, False) /* Create Aluvian Cookbook for Shop_DestinationType */
+     , (11398, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (11398, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (11398, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (11398, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (11398, 4, 136, -1, 14, 1, False) /* Create Pack for Shop_DestinationType */
+     , (11398, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (11398, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (11398, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (11398, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (11398, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (11398, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (11398, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (11398, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (11398, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (11398, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (11398, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */
+     , (11398, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (11398, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (11398, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (11398, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (11398, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (11398, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (11398, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (11398, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */;
 

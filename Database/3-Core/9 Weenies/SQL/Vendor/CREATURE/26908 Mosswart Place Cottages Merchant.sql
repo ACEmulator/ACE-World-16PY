@@ -92,6 +92,6 @@ VALUES (26908, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26908, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26908, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26908, 4, 26273, -1, 0) /* Create Mosswart Place Cottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26908, 4, 26273, -1, 0, 0, False) /* Create Mosswart Place Cottages Portal Gem for Shop_DestinationType */;
 

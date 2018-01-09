@@ -86,9 +86,9 @@ VALUES (6823, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6823, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6823, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6823, 9, 3673, 0, 0) /* Create Wood Heart for ContainTreasure_DestinationType */
-     , (6823, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (6823, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (6823, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6823, 9, 3673, 0, 0, 0.05, False) /* Create Wood Heart for ContainTreasure_DestinationType */
+     , (6823, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (6823, 9, 6353, 0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (6823, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

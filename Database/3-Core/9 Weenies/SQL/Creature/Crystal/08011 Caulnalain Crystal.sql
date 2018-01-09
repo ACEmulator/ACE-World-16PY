@@ -109,15 +109,15 @@ VALUES (8011, 64, 510) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8011, 128, 420) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8011, 256, 420) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8011, 9, 8111, 0, 0) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8011, 9, 8111, 0, 0) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8011, 9, 8111, 0, 0) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8011, 9, 8111, 0, 0) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8011, 9, 8111, 0, 0) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

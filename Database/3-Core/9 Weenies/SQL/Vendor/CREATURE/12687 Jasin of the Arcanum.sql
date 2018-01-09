@@ -94,11 +94,11 @@ VALUES (12687, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12687, 128, 65) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12687, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12687, 2, 5913, 0, 5) /* Create Dho Item Master Robe for Wield_DestinationType */
-     , (12687, 4, 11933, -1, 0) /* Create Garden Drudge for Shop_DestinationType */
-     , (12687, 4, 11932, -1, 0) /* Create Ornate Fountain for Shop_DestinationType */
-     , (12687, 4, 11970, -1, 0) /* Create Plaque for Shop_DestinationType */
-     , (12687, 4, 25284, -1, 0) /* Create Chalk Board for Shop_DestinationType */
-     , (12687, 4, 25761, -1, 0) /* Create Doorbell for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12687, 2, 5913, 0, 5, 0, False) /* Create Dho Item Master Robe for Wield_DestinationType */
+     , (12687, 4, 11933, -1, 0, 0, False) /* Create Garden Drudge for Shop_DestinationType */
+     , (12687, 4, 11932, -1, 0, 0, False) /* Create Ornate Fountain for Shop_DestinationType */
+     , (12687, 4, 11970, -1, 0, 0, False) /* Create Plaque for Shop_DestinationType */
+     , (12687, 4, 25284, -1, 0, 0, False) /* Create Chalk Board for Shop_DestinationType */
+     , (12687, 4, 25761, -1, 0, 0, False) /* Create Doorbell for Shop_DestinationType */;
 

@@ -121,9 +121,9 @@ VALUES (1758, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1758, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1758, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1758, 9, 6059, 0, 0) /* Create Dark Sliver for ContainTreasure_DestinationType */
-     , (1758, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1758, 9, 8020, 0, 0) /* Create Fenmalain Key for ContainTreasure_DestinationType */
-     , (1758, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1758, 9, 6059, 0, 0, 0.02, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
+     , (1758, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (1758, 9, 8020, 0, 0, 0.05, False) /* Create Fenmalain Key for ContainTreasure_DestinationType */
+     , (1758, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

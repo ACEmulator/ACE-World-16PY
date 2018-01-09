@@ -94,20 +94,20 @@ VALUES (652, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (652, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (652, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (652, 2, 130, 0, 5) /* Create Shirt for Wield_DestinationType */
-     , (652, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (652, 2, 132, 0, 5) /* Create Shoes for Wield_DestinationType */
-     , (652, 2, 119, 0, 2) /* Create Cowl for Wield_DestinationType */
-     , (652, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (652, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (652, 4, 139, -1, 84) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (652, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (652, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (652, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (652, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (652, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (652, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (652, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (652, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (652, 2, 130, 0, 5, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (652, 2, 127, 0, 4, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (652, 2, 132, 0, 5, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (652, 2, 119, 0, 2, 0.9, False) /* Create Cowl for Wield_DestinationType */
+     , (652, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (652, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (652, 4, 139, -1, 84, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (652, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (652, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (652, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (652, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (652, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (652, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (652, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (652, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */;
 

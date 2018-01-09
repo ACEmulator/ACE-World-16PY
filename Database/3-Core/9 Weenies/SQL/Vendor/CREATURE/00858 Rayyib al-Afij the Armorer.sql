@@ -94,42 +94,42 @@ VALUES (858, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (858, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (858, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (858, 2, 352, 0, 0) /* Create Short Sword for Wield_DestinationType */
-     , (858, 2, 134, 0, 1) /* Create Tunic for Wield_DestinationType */
-     , (858, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (858, 2, 132, 0, 1) /* Create Shoes for Wield_DestinationType */
-     , (858, 2, 135, 0, 14) /* Create Turban for Wield_DestinationType */
-     , (858, 2, 10696, 0, 12) /* Create Apron for Wield_DestinationType */
-     , (858, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (858, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (858, 4, 77, -1, 0) /* Create Kabuton for Shop_DestinationType */
-     , (858, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (858, 4, 96, -1, 0) /* Create Chainmail Shirt for Shop_DestinationType */
-     , (858, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (858, 4, 43, -1, 0) /* Create Yoroi Breastplate for Shop_DestinationType */
-     , (858, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (858, 4, 2605, -1, 0) /* Create Chainmail Greaves for Shop_DestinationType */
-     , (858, 4, 108, -1, 0) /* Create Chainmail Tassets for Shop_DestinationType */
-     , (858, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (858, 4, 90, -1, 0) /* Create Yoroi Pauldrons for Shop_DestinationType */
-     , (858, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (858, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (858, 4, 78, -1, 0) /* Create Kote for Shop_DestinationType */
-     , (858, 4, 64, -1, 0) /* Create Yoroi Girth for Shop_DestinationType */
-     , (858, 4, 2437, -1, 0) /* Create Yoroi Leggings for Shop_DestinationType */
-     , (858, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (858, 4, 116, -1, 0) /* Create Studded Leather Boots for Shop_DestinationType */
-     , (858, 4, 94, -1, 0) /* Create Large Round Shield for Shop_DestinationType */
-     , (858, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (858, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (858, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (858, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (858, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (858, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (858, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (858, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (858, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (858, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (858, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (858, 2, 352, 0, 0, 0, False) /* Create Short Sword for Wield_DestinationType */
+     , (858, 2, 134, 0, 1, 0.67, False) /* Create Tunic for Wield_DestinationType */
+     , (858, 2, 127, 0, 14, 0, False) /* Create Pants for Wield_DestinationType */
+     , (858, 2, 132, 0, 1, 0.67, False) /* Create Shoes for Wield_DestinationType */
+     , (858, 2, 135, 0, 14, 0.8, False) /* Create Turban for Wield_DestinationType */
+     , (858, 2, 10696, 0, 12, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (858, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (858, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (858, 4, 77, -1, 0, 0, False) /* Create Kabuton for Shop_DestinationType */
+     , (858, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (858, 4, 96, -1, 0, 0, False) /* Create Chainmail Shirt for Shop_DestinationType */
+     , (858, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (858, 4, 43, -1, 0, 0, False) /* Create Yoroi Breastplate for Shop_DestinationType */
+     , (858, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (858, 4, 2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop_DestinationType */
+     , (858, 4, 108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop_DestinationType */
+     , (858, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (858, 4, 90, -1, 0, 0, False) /* Create Yoroi Pauldrons for Shop_DestinationType */
+     , (858, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (858, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (858, 4, 78, -1, 0, 0, False) /* Create Kote for Shop_DestinationType */
+     , (858, 4, 64, -1, 0, 0, False) /* Create Yoroi Girth for Shop_DestinationType */
+     , (858, 4, 2437, -1, 0, 0, False) /* Create Yoroi Leggings for Shop_DestinationType */
+     , (858, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (858, 4, 116, -1, 0, 0, False) /* Create Studded Leather Boots for Shop_DestinationType */
+     , (858, 4, 94, -1, 0, 0, False) /* Create Large Round Shield for Shop_DestinationType */
+     , (858, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (858, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (858, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (858, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (858, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (858, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (858, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (858, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (858, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (858, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (858, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

@@ -116,8 +116,8 @@ VALUES (11869, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11869, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11869, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11869, 9, 11821, 0, 0) /* Create Falcon Spear-Head for ContainTreasure_DestinationType */
-     , (11869, 9, 11822, 0, 0) /* Create Falcon Symbol for ContainTreasure_DestinationType */
-     , (11869, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11869, 9, 11821, 0, 0, 0.05, False) /* Create Falcon Spear-Head for ContainTreasure_DestinationType */
+     , (11869, 9, 11822, 0, 0, 0.05, False) /* Create Falcon Symbol for ContainTreasure_DestinationType */
+     , (11869, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

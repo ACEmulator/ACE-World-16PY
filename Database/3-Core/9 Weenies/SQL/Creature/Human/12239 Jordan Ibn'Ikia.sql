@@ -88,8 +88,8 @@ VALUES (12239, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12239, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12239, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12239, 2, 2596, 0, 2) /* Create Doublet for Wield_DestinationType */
-     , (12239, 2, 117, 0, 2) /* Create Breeches for Wield_DestinationType */
-     , (12239, 2, 7897, 0, 2) /* Create Steel Toed Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12239, 2, 2596, 0, 2, 0.8, False) /* Create Doublet for Wield_DestinationType */
+     , (12239, 2, 117, 0, 2, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (12239, 2, 7897, 0, 2, 0.8, False) /* Create Steel Toed Boots for Wield_DestinationType */;
 

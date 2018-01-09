@@ -117,7 +117,7 @@ VALUES (28556, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28556, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28556, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28556, 9, 8020, 0, 0) /* Create Fenmalain Key for ContainTreasure_DestinationType */
-     , (28556, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28556, 9, 8020, 0, 0, 0.03, False) /* Create Fenmalain Key for ContainTreasure_DestinationType */
+     , (28556, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

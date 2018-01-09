@@ -95,11 +95,11 @@ VALUES (2048, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2048, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2048, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2048, 2, 2589, 0, 9) /* Create Smock for Wield_DestinationType */
-     , (2048, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (2048, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (2048, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (2048, 4, 2244, -1, 0) /* Create Dryreach Key for Shop_DestinationType */
-     , (2048, 4, 2245, -1, 0) /* Create Dryreach Rumor for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2048, 2, 2589, 0, 9, 0, False) /* Create Smock for Wield_DestinationType */
+     , (2048, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (2048, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2048, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (2048, 4, 2244, -1, 0, 0, False) /* Create Dryreach Key for Shop_DestinationType */
+     , (2048, 4, 2245, -1, 0, 0, False) /* Create Dryreach Rumor for Shop_DestinationType */;
 

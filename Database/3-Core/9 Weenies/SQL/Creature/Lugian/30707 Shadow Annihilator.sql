@@ -93,15 +93,15 @@ VALUES (30707, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30707, 128, 6000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30707, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
-     , (30707, 9, 30697, 0, 0) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
+     , (30707, 9, 30697, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */;
 

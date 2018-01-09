@@ -94,23 +94,23 @@ VALUES (796, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (796, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (796, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (796, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (796, 2, 127, 0, 16) /* Create Pants for Wield_DestinationType */
-     , (796, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (796, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (796, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (796, 4, 4726, -1, 0) /* Create Fish Stew for Shop_DestinationType */
-     , (796, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (796, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (796, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (796, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (796, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (796, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (796, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (796, 4, 1506, -1, 0) /* Create Legend of the Undead Defender for Shop_DestinationType */
-     , (796, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (796, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (796, 4, 24223, -1, 0) /* Create A Sparking Stone for Shop_DestinationType */
-     , (796, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (796, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (796, 2, 127, 0, 16, 1, False) /* Create Pants for Wield_DestinationType */
+     , (796, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (796, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (796, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (796, 4, 4726, -1, 0, 0, False) /* Create Fish Stew for Shop_DestinationType */
+     , (796, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (796, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (796, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (796, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (796, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (796, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (796, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (796, 4, 1506, -1, 0, 0, False) /* Create Legend of the Undead Defender for Shop_DestinationType */
+     , (796, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (796, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (796, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone for Shop_DestinationType */
+     , (796, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */;
 

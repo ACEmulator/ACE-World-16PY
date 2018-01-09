@@ -120,7 +120,7 @@ VALUES (27667, 64, 5840) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27667, 128, 4680) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27667, 256, 4700) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27667, 9, 27651, 0, 0) /* Create Ornate Tumerok Breastplate for ContainTreasure_DestinationType */
-     , (27667, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27667, 9, 27651, 0, 0, 1, False) /* Create Ornate Tumerok Breastplate for ContainTreasure_DestinationType */
+     , (27667, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

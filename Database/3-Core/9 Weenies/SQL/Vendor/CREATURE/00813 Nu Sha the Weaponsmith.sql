@@ -94,23 +94,23 @@ VALUES (813, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (813, 128, 65) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (813, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (813, 2, 303, 0, 0) /* Create Hand Axe for Wield_DestinationType */
-     , (813, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (813, 2, 117, 0, 13) /* Create Breeches for Wield_DestinationType */
-     , (813, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (813, 2, 118, 0, 9) /* Create Cap for Wield_DestinationType */
-     , (813, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (813, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (813, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (813, 4, 4195, -1, 0) /* Create Nekode for Shop_DestinationType */
-     , (813, 4, 343, -1, 0) /* Create Shouken for Shop_DestinationType */
-     , (813, 4, 342, -1, 0) /* Create Shou-ono for Shop_DestinationType */
-     , (813, 4, 315, -1, 0) /* Create Throwing Dagger for Shop_DestinationType */
-     , (813, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (813, 4, 361, -1, 0) /* Create Yaoji for Shop_DestinationType */
-     , (813, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (813, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (813, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (813, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (813, 2, 303, 0, 0, 0, False) /* Create Hand Axe for Wield_DestinationType */
+     , (813, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (813, 2, 117, 0, 13, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (813, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (813, 2, 118, 0, 9, 0, False) /* Create Cap for Wield_DestinationType */
+     , (813, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (813, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (813, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (813, 4, 4195, -1, 0, 0, False) /* Create Nekode for Shop_DestinationType */
+     , (813, 4, 343, -1, 0, 0, False) /* Create Shouken for Shop_DestinationType */
+     , (813, 4, 342, -1, 0, 0, False) /* Create Shou-ono for Shop_DestinationType */
+     , (813, 4, 315, -1, 0, 0, False) /* Create Throwing Dagger for Shop_DestinationType */
+     , (813, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (813, 4, 361, -1, 0, 0, False) /* Create Yaoji for Shop_DestinationType */
+     , (813, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (813, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (813, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (813, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

@@ -94,17 +94,17 @@ VALUES (818, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (818, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (818, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (818, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (818, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (818, 2, 132, 0, 6) /* Create Shoes for Wield_DestinationType */
-     , (818, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (818, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (818, 4, 294, -1, 0) /* Create Amulet for Shop_DestinationType */
-     , (818, 4, 622, -1, 0) /* Create Necklace for Shop_DestinationType */
-     , (818, 4, 2418, -1, 0) /* Create Tiger Eye for Shop_DestinationType */
-     , (818, 4, 2417, -1, 0) /* Create Smoky Quartz for Shop_DestinationType */
-     , (818, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (818, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (818, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (818, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (818, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (818, 2, 132, 0, 6, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (818, 2, 118, 0, 14, 0.8, False) /* Create Cap for Wield_DestinationType */
+     , (818, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (818, 4, 294, -1, 0, 0, False) /* Create Amulet for Shop_DestinationType */
+     , (818, 4, 622, -1, 0, 0, False) /* Create Necklace for Shop_DestinationType */
+     , (818, 4, 2418, -1, 0, 0, False) /* Create Tiger Eye for Shop_DestinationType */
+     , (818, 4, 2417, -1, 0, 0, False) /* Create Smoky Quartz for Shop_DestinationType */
+     , (818, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (818, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (818, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

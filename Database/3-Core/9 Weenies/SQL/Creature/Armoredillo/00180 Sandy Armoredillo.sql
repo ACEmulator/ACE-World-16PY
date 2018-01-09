@@ -93,9 +93,9 @@ VALUES (180, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (180, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (180, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (180, 9, 3690, 0, 0) /* Create Sandy Armoredillo Spine for ContainTreasure_DestinationType */
-     , (180, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (180, 9, 4234, 0, 0) /* Create Large Armoredillo Hide for ContainTreasure_DestinationType */
-     , (180, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (180, 9, 3690, 0, 0, 0.07, False) /* Create Sandy Armoredillo Spine for ContainTreasure_DestinationType */
+     , (180, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
+     , (180, 9, 4234, 0, 0, 0.05, False) /* Create Large Armoredillo Hide for ContainTreasure_DestinationType */
+     , (180, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

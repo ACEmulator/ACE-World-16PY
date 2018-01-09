@@ -91,9 +91,9 @@ VALUES (10787, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10787, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10787, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10787, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (10787, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10787, 9, 25559, 0, 0) /* Create Hollow Minion's Face for ContainTreasure_DestinationType */
-     , (10787, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10787, 9, 9292, 0, 0, 0.06, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (10787, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */
+     , (10787, 9, 25559, 0, 0, 0.05, False) /* Create Hollow Minion's Face for ContainTreasure_DestinationType */
+     , (10787, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

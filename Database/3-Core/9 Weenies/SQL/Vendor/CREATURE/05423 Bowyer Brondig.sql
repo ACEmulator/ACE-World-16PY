@@ -94,20 +94,20 @@ VALUES (5423, 64, 3) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5423, 128, 5) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5423, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5423, 2, 307, 0, 0) /* Create Shortbow for Wield_DestinationType */
-     , (5423, 2, 134, 0, 18) /* Create Tunic for Wield_DestinationType */
-     , (5423, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (5423, 2, 2606, 0, 18) /* Create Boots for Wield_DestinationType */
-     , (5423, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (5423, 4, 307, -1, 0) /* Create Shortbow for Shop_DestinationType */
-     , (5423, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (5423, 4, 312, -1, 0) /* Create Light Crossbow for Shop_DestinationType */
-     , (5423, 4, 305, -1, 0) /* Create Quarrel for Shop_DestinationType */
-     , (5423, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (5423, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (5423, 4, 5339, -1, 0) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
-     , (5423, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5423, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5423, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5423, 2, 307, 0, 0, 0, False) /* Create Shortbow for Wield_DestinationType */
+     , (5423, 2, 134, 0, 18, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (5423, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (5423, 2, 2606, 0, 18, 1, False) /* Create Boots for Wield_DestinationType */
+     , (5423, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (5423, 4, 307, -1, 0, 0, False) /* Create Shortbow for Shop_DestinationType */
+     , (5423, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (5423, 4, 312, -1, 0, 0, False) /* Create Light Crossbow for Shop_DestinationType */
+     , (5423, 4, 305, -1, 0, 0, False) /* Create Quarrel for Shop_DestinationType */
+     , (5423, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (5423, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (5423, 4, 5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts for Shop_DestinationType */
+     , (5423, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5423, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5423, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

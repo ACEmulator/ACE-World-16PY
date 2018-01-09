@@ -93,14 +93,14 @@ VALUES (19127, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19127, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19127, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19127, 2, 2592, 0, 2) /* Create Tunic for Wield_DestinationType */
-     , (19127, 2, 2597, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (19127, 2, 8394, 0, 14) /* Create Olthoi Helm for Wield_DestinationType */
-     , (19127, 2, 6598, 0, 14) /* Create Lesser Koujia Shadow Breastplate for Wield_DestinationType */
-     , (19127, 2, 106, 0, 14) /* Create Yoroi Sleeves for Wield_DestinationType */
-     , (19127, 2, 57, 0, 14) /* Create Platemail Gauntlets for Wield_DestinationType */
-     , (19127, 2, 64, 0, 2) /* Create Yoroi Girth for Wield_DestinationType */
-     , (19127, 2, 2437, 0, 2) /* Create Yoroi Leggings for Wield_DestinationType */
-     , (19127, 2, 7897, 0, 14) /* Create Steel Toed Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19127, 2, 2592, 0, 2, 0.580248, False) /* Create Tunic for Wield_DestinationType */
+     , (19127, 2, 2597, 0, 2, 0.484848, False) /* Create Pants for Wield_DestinationType */
+     , (19127, 2, 8394, 0, 14, 0.3321, False) /* Create Olthoi Helm for Wield_DestinationType */
+     , (19127, 2, 6598, 0, 14, 0.8, False) /* Create Lesser Koujia Shadow Breastplate for Wield_DestinationType */
+     , (19127, 2, 106, 0, 14, 0.66, False) /* Create Yoroi Sleeves for Wield_DestinationType */
+     , (19127, 2, 57, 0, 14, 0.46, False) /* Create Platemail Gauntlets for Wield_DestinationType */
+     , (19127, 2, 64, 0, 2, 0.47, False) /* Create Yoroi Girth for Wield_DestinationType */
+     , (19127, 2, 2437, 0, 2, 0.66, False) /* Create Yoroi Leggings for Wield_DestinationType */
+     , (19127, 2, 7897, 0, 14, 0.8, False) /* Create Steel Toed Boots for Wield_DestinationType */;
 

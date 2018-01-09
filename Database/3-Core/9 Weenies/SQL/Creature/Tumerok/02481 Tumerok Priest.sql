@@ -127,10 +127,10 @@ VALUES (2481, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2481, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2481, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2481, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (2481, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2481, 9, 20855, 0, 0) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
-     , (2481, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (2481, 1, 2201, 0, 0) /* Create Tumerok Priest's Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2481, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (2481, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (2481, 9, 20855, 0, 0, 0.03, False) /* Create Alchemy Stamp for ContainTreasure_DestinationType */
+     , (2481, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (2481, 1, 2201, 0, 0, 1, False) /* Create Tumerok Priest's Key for Contain_DestinationType */;
 

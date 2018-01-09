@@ -94,30 +94,30 @@ VALUES (869, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (869, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (869, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (869, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (869, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (869, 2, 132, 0, 17) /* Create Shoes for Wield_DestinationType */
-     , (869, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (869, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (869, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (869, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (869, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (869, 4, 5585, -1, 0) /* Create Sho Cookbook for Shop_DestinationType */
-     , (869, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (869, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (869, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (869, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (869, 4, 8135, -1, 0) /* Create Zarea's Notes on Geomancy for Shop_DestinationType */
-     , (869, 4, 6630, -1, 0) /* Create A Treatise on the Properties of Fused Gems for Shop_DestinationType */
-     , (869, 4, 7936, -1, 0) /* Create Aliester's Corollary for Shop_DestinationType */
-     , (869, 4, 6417, -1, 0) /* Create A Stinging Stone for Shop_DestinationType */
-     , (869, 4, 5881, -1, 0) /* Create The Book of Minesh for Shop_DestinationType */
-     , (869, 4, 5601, -1, 0) /* Create Altar of Asheron Rumor for Shop_DestinationType */
-     , (869, 4, 5675, -1, 0) /* Create Mount Lethe Rumor for Shop_DestinationType */
-     , (869, 4, 5147, -1, 0) /* Create Return to Frore for Shop_DestinationType */
-     , (869, 4, 6421, -1, 0) /* Create The Lost City of Frore for Shop_DestinationType */
-     , (869, 4, 8397, -1, 0) /* Create The Breaking of the Crystal Core for Shop_DestinationType */
-     , (869, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (869, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (869, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (869, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (869, 2, 132, 0, 17, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (869, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (869, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (869, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (869, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (869, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (869, 4, 5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop_DestinationType */
+     , (869, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (869, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (869, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (869, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (869, 4, 8135, -1, 0, 0, False) /* Create Zarea's Notes on Geomancy for Shop_DestinationType */
+     , (869, 4, 6630, -1, 0, 0, False) /* Create A Treatise on the Properties of Fused Gems for Shop_DestinationType */
+     , (869, 4, 7936, -1, 0, 0, False) /* Create Aliester's Corollary for Shop_DestinationType */
+     , (869, 4, 6417, -1, 0, 0, False) /* Create A Stinging Stone for Shop_DestinationType */
+     , (869, 4, 5881, -1, 0, 0, False) /* Create The Book of Minesh for Shop_DestinationType */
+     , (869, 4, 5601, -1, 0, 0, False) /* Create Altar of Asheron Rumor for Shop_DestinationType */
+     , (869, 4, 5675, -1, 0, 0, False) /* Create Mount Lethe Rumor for Shop_DestinationType */
+     , (869, 4, 5147, -1, 0, 0, False) /* Create Return to Frore for Shop_DestinationType */
+     , (869, 4, 6421, -1, 0, 0, False) /* Create The Lost City of Frore for Shop_DestinationType */
+     , (869, 4, 8397, -1, 0, 0, False) /* Create The Breaking of the Crystal Core for Shop_DestinationType */
+     , (869, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (869, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */;
 

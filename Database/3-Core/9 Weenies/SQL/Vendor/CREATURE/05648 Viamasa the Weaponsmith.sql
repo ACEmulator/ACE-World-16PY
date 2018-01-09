@@ -94,42 +94,42 @@ VALUES (5648, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5648, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5648, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5648, 2, 359, 0, 0) /* Create War Hammer for Wield_DestinationType */
-     , (5648, 2, 2590, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (5648, 2, 127, 0, 4) /* Create Pants for Wield_DestinationType */
-     , (5648, 2, 2606, 0, 4) /* Create Boots for Wield_DestinationType */
-     , (5648, 2, 119, 0, 4) /* Create Cowl for Wield_DestinationType */
-     , (5648, 2, 10696, 0, 2) /* Create Apron for Wield_DestinationType */
-     , (5648, 4, 4190, -1, 0) /* Create Cestus for Shop_DestinationType */
-     , (5648, 4, 301, -1, 0) /* Create Battle Axe for Shop_DestinationType */
-     , (5648, 4, 350, -1, 0) /* Create Broad Sword for Shop_DestinationType */
-     , (5648, 4, 351, -1, 0) /* Create Long Sword for Shop_DestinationType */
-     , (5648, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (5648, 4, 332, -1, 0) /* Create Morning Star for Shop_DestinationType */
-     , (5648, 4, 339, -1, 0) /* Create Scimitar for Shop_DestinationType */
-     , (5648, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (5648, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (5648, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (5648, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (5648, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (5648, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (5648, 4, 331, -1, 0) /* Create Mace for Shop_DestinationType */
-     , (5648, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (5648, 4, 348, -1, 0) /* Create Spear for Shop_DestinationType */
-     , (5648, 4, 320, -1, 0) /* Create Javelin for Shop_DestinationType */
-     , (5648, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5648, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5648, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (5648, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (5648, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (5648, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (5648, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (5648, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (5648, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (5648, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */
-     , (5648, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (5648, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (5648, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (5648, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5648, 2, 359, 0, 0, 0, False) /* Create War Hammer for Wield_DestinationType */
+     , (5648, 2, 2590, 0, 4, 0.8, False) /* Create Shirt for Wield_DestinationType */
+     , (5648, 2, 127, 0, 4, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (5648, 2, 2606, 0, 4, 0.8, False) /* Create Boots for Wield_DestinationType */
+     , (5648, 2, 119, 0, 4, 0.8, False) /* Create Cowl for Wield_DestinationType */
+     , (5648, 2, 10696, 0, 2, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (5648, 4, 4190, -1, 0, 0, False) /* Create Cestus for Shop_DestinationType */
+     , (5648, 4, 301, -1, 0, 0, False) /* Create Battle Axe for Shop_DestinationType */
+     , (5648, 4, 350, -1, 0, 0, False) /* Create Broad Sword for Shop_DestinationType */
+     , (5648, 4, 351, -1, 0, 0, False) /* Create Long Sword for Shop_DestinationType */
+     , (5648, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (5648, 4, 332, -1, 0, 0, False) /* Create Morning Star for Shop_DestinationType */
+     , (5648, 4, 339, -1, 0, 0, False) /* Create Scimitar for Shop_DestinationType */
+     , (5648, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (5648, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (5648, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (5648, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (5648, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (5648, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (5648, 4, 331, -1, 0, 0, False) /* Create Mace for Shop_DestinationType */
+     , (5648, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (5648, 4, 348, -1, 0, 0, False) /* Create Spear for Shop_DestinationType */
+     , (5648, 4, 320, -1, 0, 0, False) /* Create Javelin for Shop_DestinationType */
+     , (5648, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5648, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5648, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (5648, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (5648, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (5648, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (5648, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (5648, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (5648, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (5648, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */
+     , (5648, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (5648, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (5648, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (5648, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */;
 

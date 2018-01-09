@@ -112,9 +112,9 @@ VALUES (24283, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24283, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24283, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24283, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24283, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24283, 9, 24841, 0, 0) /* Create Sage Drudge Charm for ContainTreasure_DestinationType */
-     , (24283, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24283, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24283, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (24283, 9, 24841, 0, 0, 0.03, False) /* Create Sage Drudge Charm for ContainTreasure_DestinationType */
+     , (24283, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

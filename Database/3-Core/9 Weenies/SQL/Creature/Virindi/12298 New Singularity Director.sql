@@ -130,6 +130,6 @@ VALUES (12298, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12298, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12298, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12298, 8, 12268, 1, 0) /* Create Virindi Shroud for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12298, 8, 12268, 1, 0, 0, False) /* Create Virindi Shroud for Treasure_DestinationType */;
 

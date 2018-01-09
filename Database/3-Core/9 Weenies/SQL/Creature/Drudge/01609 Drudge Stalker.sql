@@ -107,13 +107,13 @@ VALUES (1609, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1609, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1609, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1609, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1609, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1609, 9, 15771, 0, 0) /* Create Ruined Amulet of the Sword for ContainTreasure_DestinationType */
-     , (1609, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1609, 9, 27390, 0, 0) /* Create Drudge Fight for ContainTreasure_DestinationType */
-     , (1609, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1609, 9, 8145, 0, 0) /* Create Drudge Head for ContainTreasure_DestinationType */
-     , (1609, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1609, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (1609, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (1609, 9, 15771, 0, 0, 0.02, False) /* Create Ruined Amulet of the Sword for ContainTreasure_DestinationType */
+     , (1609, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (1609, 9, 27390, 0, 0, 0.005, False) /* Create Drudge Fight for ContainTreasure_DestinationType */
+     , (1609, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */
+     , (1609, 9, 8145, 0, 0, 0.05, False) /* Create Drudge Head for ContainTreasure_DestinationType */
+     , (1609, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -93,9 +93,9 @@ VALUES (7550, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7550, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7550, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7550, 9, 7042, 0, 0) /* Create Small Lugian Sinew for ContainTreasure_DestinationType */
-     , (7550, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7550, 9, 7549, 0, 0) /* Create Lugian Pick Axe for ContainTreasure_DestinationType */
-     , (7550, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7550, 9, 7042, 0, 0, 0.02, False) /* Create Small Lugian Sinew for ContainTreasure_DestinationType */
+     , (7550, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7550, 9, 7549, 0, 0, 0.2, False) /* Create Lugian Pick Axe for ContainTreasure_DestinationType */
+     , (7550, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

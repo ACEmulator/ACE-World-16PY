@@ -93,20 +93,20 @@ VALUES (5832, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5832, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5832, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5832, 2, 130, 0, 17) /* Create Shirt for Wield_DestinationType */
-     , (5832, 2, 2597, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (5832, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (5832, 2, 10696, 0, 11) /* Create Apron for Wield_DestinationType */
-     , (5832, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (5832, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (5832, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (5832, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (5832, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (5832, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (5832, 4, 4713, -1, 0) /* Create Beef Stew for Shop_DestinationType */
-     , (5832, 4, 4741, -1, 0) /* Create Pizza for Shop_DestinationType */
-     , (5832, 4, 4725, -1, 0) /* Create Fish Pie for Shop_DestinationType */
-     , (5832, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (5832, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5832, 2, 130, 0, 17, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (5832, 2, 2597, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (5832, 2, 132, 0, 4, 0.8, False) /* Create Shoes for Wield_DestinationType */
+     , (5832, 2, 10696, 0, 11, 1, False) /* Create Apron for Wield_DestinationType */
+     , (5832, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (5832, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (5832, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (5832, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (5832, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (5832, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (5832, 4, 4713, -1, 0, 0, False) /* Create Beef Stew for Shop_DestinationType */
+     , (5832, 4, 4741, -1, 0, 0, False) /* Create Pizza for Shop_DestinationType */
+     , (5832, 4, 4725, -1, 0, 0, False) /* Create Fish Pie for Shop_DestinationType */
+     , (5832, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (5832, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */;
 

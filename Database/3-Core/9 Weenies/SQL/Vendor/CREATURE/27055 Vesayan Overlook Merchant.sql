@@ -92,6 +92,6 @@ VALUES (27055, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27055, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27055, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27055, 4, 26420, -1, 0) /* Create Vesayan Overlook Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27055, 4, 26420, -1, 0, 0, False) /* Create Vesayan Overlook Portal Gem for Shop_DestinationType */;
 

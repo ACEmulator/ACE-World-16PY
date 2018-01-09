@@ -92,13 +92,13 @@ VALUES (7085, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7085, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7085, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7085, 9, 3693, 0, 0) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (7085, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7085, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7085, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7085, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (7085, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7085, 9, 15761, 0, 0) /* Create Ruined Amulet of the Axe for ContainTreasure_DestinationType */
-     , (7085, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7085, 9, 3693, 0, 0, 0.05, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
+     , (7085, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7085, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7085, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (7085, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (7085, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7085, 9, 15761, 0, 0, 0.02, False) /* Create Ruined Amulet of the Axe for ContainTreasure_DestinationType */
+     , (7085, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

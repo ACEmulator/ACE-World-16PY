@@ -93,8 +93,8 @@ VALUES (7882, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7882, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7882, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7882, 2, 5914, 0, 0) /* Create Suikan Item Master Robe for Wield_DestinationType */
-     , (7882, 4, 1449, -1, 0) /* Create Royal Cabbage for Shop_DestinationType */
-     , (7882, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7882, 2, 5914, 0, 0, 0.5, False) /* Create Suikan Item Master Robe for Wield_DestinationType */
+     , (7882, 4, 1449, -1, 0, 0, False) /* Create Royal Cabbage for Shop_DestinationType */
+     , (7882, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */;
 

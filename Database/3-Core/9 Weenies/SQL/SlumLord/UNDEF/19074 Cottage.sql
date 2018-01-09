@@ -28,9 +28,9 @@ VALUES (19074, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (19074, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19074, 16, 273, 300000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (19074, 16, 11710, 1, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (19074, 16, 3718, 1, 0) /* Create Golem Jo for HouseBuy_DestinationType */
-     , (19074, 32, 273, 30000, 0) /* Create Pyreal for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19074, 16, 273, 300000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (19074, 16, 11710, 1, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (19074, 16, 3718, 1, 0, 0, False) /* Create Golem Jo for HouseBuy_DestinationType */
+     , (19074, 32, 273, 30000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */;
 

@@ -94,22 +94,22 @@ VALUES (840, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (840, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (840, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (840, 2, 2588, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (840, 2, 2601, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (840, 2, 132, 0, 16) /* Create Shoes for Wield_DestinationType */
-     , (840, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (840, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (840, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (840, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (840, 4, 5585, -1, 0) /* Create Sho Cookbook for Shop_DestinationType */
-     , (840, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (840, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (840, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (840, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (840, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */
-     , (840, 4, 9319, -1, 0) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
-     , (840, 4, 9118, -1, 0) /* Create Puppet Show for Shop_DestinationType */
-     , (840, 4, 9124, -1, 0) /* Create The Beginning for Shop_DestinationType */
-     , (840, 4, 27851, -1, 0) /* Create The Weapons of the Singularity for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (840, 2, 2588, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (840, 2, 2601, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (840, 2, 132, 0, 16, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (840, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (840, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (840, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (840, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (840, 4, 5585, -1, 0, 0, False) /* Create Sho Cookbook for Shop_DestinationType */
+     , (840, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (840, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (840, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (840, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (840, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */
+     , (840, 4, 9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
+     , (840, 4, 9118, -1, 0, 0, False) /* Create Puppet Show for Shop_DestinationType */
+     , (840, 4, 9124, -1, 0, 0, False) /* Create The Beginning for Shop_DestinationType */
+     , (840, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity for Shop_DestinationType */;
 

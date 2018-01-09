@@ -94,83 +94,83 @@ VALUES (5422, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5422, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5422, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5422, 2, 2587, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (5422, 2, 2604, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (5422, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (5422, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (5422, 4, 691, -1, 0) /* Create Lead Scarab for Shop_DestinationType */
-     , (5422, 4, 20631, -1, 0) /* Create Prismatic Taper for Shop_DestinationType */
-     , (5422, 4, 765, -1, 0) /* Create Amaranth for Shop_DestinationType */
-     , (5422, 4, 766, -1, 0) /* Create Bistort for Shop_DestinationType */
-     , (5422, 4, 767, -1, 0) /* Create Comfrey for Shop_DestinationType */
-     , (5422, 4, 768, -1, 0) /* Create Damiana for Shop_DestinationType */
-     , (5422, 4, 769, -1, 0) /* Create Dragonsblood for Shop_DestinationType */
-     , (5422, 4, 770, -1, 0) /* Create Eyebright for Shop_DestinationType */
-     , (5422, 4, 771, -1, 0) /* Create Frankincense for Shop_DestinationType */
-     , (5422, 4, 625, -1, 0) /* Create Ginseng for Shop_DestinationType */
-     , (5422, 4, 772, -1, 0) /* Create Hawthorn for Shop_DestinationType */
-     , (5422, 4, 773, -1, 0) /* Create Henbane for Shop_DestinationType */
-     , (5422, 4, 774, -1, 0) /* Create Hyssop for Shop_DestinationType */
-     , (5422, 4, 775, -1, 0) /* Create Mandrake for Shop_DestinationType */
-     , (5422, 4, 776, -1, 0) /* Create Mugwort for Shop_DestinationType */
-     , (5422, 4, 778, -1, 0) /* Create Saffron for Shop_DestinationType */
-     , (5422, 4, 780, -1, 0) /* Create Wormwood for Shop_DestinationType */
-     , (5422, 4, 781, -1, 0) /* Create Yarrow for Shop_DestinationType */
-     , (5422, 4, 782, -1, 0) /* Create Powdered Agate for Shop_DestinationType */
-     , (5422, 4, 783, -1, 0) /* Create Powdered Amber for Shop_DestinationType */
-     , (5422, 4, 784, -1, 0) /* Create Powdered Azurite for Shop_DestinationType */
-     , (5422, 4, 785, -1, 0) /* Create Powdered Bloodstone for Shop_DestinationType */
-     , (5422, 4, 786, -1, 0) /* Create Powdered Carnelian for Shop_DestinationType */
-     , (5422, 4, 626, -1, 0) /* Create Powdered Hematite for Shop_DestinationType */
-     , (5422, 4, 787, -1, 0) /* Create Powdered Lapis Lazuli for Shop_DestinationType */
-     , (5422, 4, 788, -1, 0) /* Create Powdered Malachite for Shop_DestinationType */
-     , (5422, 4, 789, -1, 0) /* Create Powdered Moonstone for Shop_DestinationType */
-     , (5422, 4, 790, -1, 0) /* Create Powdered Onyx for Shop_DestinationType */
-     , (5422, 4, 791, -1, 0) /* Create Powdered Quartz for Shop_DestinationType */
-     , (5422, 4, 792, -1, 0) /* Create Powdered Turquoise for Shop_DestinationType */
-     , (5422, 4, 753, -1, 0) /* Create Brimstone for Shop_DestinationType */
-     , (5422, 4, 754, -1, 0) /* Create Cadmia for Shop_DestinationType */
-     , (5422, 4, 755, -1, 0) /* Create Cinnabar for Shop_DestinationType */
-     , (5422, 4, 756, -1, 0) /* Create Cobalt for Shop_DestinationType */
-     , (5422, 4, 757, -1, 0) /* Create Colcothar for Shop_DestinationType */
-     , (5422, 4, 758, -1, 0) /* Create Gypsum for Shop_DestinationType */
-     , (5422, 4, 759, -1, 0) /* Create Quicksilver for Shop_DestinationType */
-     , (5422, 4, 760, -1, 0) /* Create Realgar for Shop_DestinationType */
-     , (5422, 4, 761, -1, 0) /* Create Stibnite for Shop_DestinationType */
-     , (5422, 4, 762, -1, 0) /* Create Turpeth for Shop_DestinationType */
-     , (5422, 4, 763, -1, 0) /* Create Verdigris for Shop_DestinationType */
-     , (5422, 4, 764, -1, 0) /* Create Vitriol for Shop_DestinationType */
-     , (5422, 4, 749, -1, 0) /* Create Poplar Talisman for Shop_DestinationType */
-     , (5422, 4, 742, -1, 0) /* Create Blackthorn Talisman for Shop_DestinationType */
-     , (5422, 4, 752, -1, 0) /* Create Yew Talisman for Shop_DestinationType */
-     , (5422, 4, 747, -1, 0) /* Create Hemlock Talisman for Shop_DestinationType */
-     , (5422, 4, 627, -1, 0) /* Create Alder Talisman for Shop_DestinationType */
-     , (5422, 4, 744, -1, 0) /* Create Ebony Talisman for Shop_DestinationType */
-     , (5422, 4, 741, -1, 0) /* Create Birch Talisman for Shop_DestinationType */
-     , (5422, 4, 740, -1, 0) /* Create Ashwood Talisman for Shop_DestinationType */
-     , (5422, 4, 745, -1, 0) /* Create Elder Talisman for Shop_DestinationType */
-     , (5422, 4, 750, -1, 0) /* Create Rowan Talisman for Shop_DestinationType */
-     , (5422, 4, 751, -1, 0) /* Create Willow Talisman for Shop_DestinationType */
-     , (5422, 4, 743, -1, 0) /* Create Cedar Talisman for Shop_DestinationType */
-     , (5422, 4, 27331, -1, 0) /* Create Minor Mana Stone for Shop_DestinationType */
-     , (5422, 4, 2434, -1, 0) /* Create Lesser Mana Stone for Shop_DestinationType */
-     , (5422, 4, 2435, -1, 0) /* Create Mana Stone for Shop_DestinationType */
-     , (5422, 4, 4612, -1, 0) /* Create Tiny Mana Charge for Shop_DestinationType */
-     , (5422, 4, 4613, -1, 0) /* Create Small Mana Charge for Shop_DestinationType */
-     , (5422, 4, 4614, -1, 0) /* Create Moderate Mana Charge for Shop_DestinationType */
-     , (5422, 4, 4615, -1, 0) /* Create High Mana Charge for Shop_DestinationType */
-     , (5422, 4, 4616, -1, 0) /* Create Great Mana Charge for Shop_DestinationType */
-     , (5422, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (5422, 4, 139, -1, 89) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (5422, 4, 4751, -1, 0) /* Create Mortar and Pestle for Shop_DestinationType */
-     , (5422, 4, 4748, -1, 0) /* Create Aqua Incanta for Shop_DestinationType */
-     , (5422, 4, 5338, -1, 0) /* Create Neutral Balm for Shop_DestinationType */
-     , (5422, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5422, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5422, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (5422, 4, 5539, -1, 0) /* Create Wand for Shop_DestinationType */
-     , (5422, 4, 2472, -1, 0) /* Create Wand for Shop_DestinationType */
-     , (5422, 4, 2366, -1, 0) /* Create Orb for Shop_DestinationType */
-     , (5422, 4, 2547, -1, 0) /* Create Staff for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5422, 2, 2587, 0, 8, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (5422, 2, 2604, 0, 8, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (5422, 2, 115, 0, 9, 0, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5422, 2, 10696, 0, 18, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (5422, 4, 691, -1, 0, 0, False) /* Create Lead Scarab for Shop_DestinationType */
+     , (5422, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper for Shop_DestinationType */
+     , (5422, 4, 765, -1, 0, 0, False) /* Create Amaranth for Shop_DestinationType */
+     , (5422, 4, 766, -1, 0, 0, False) /* Create Bistort for Shop_DestinationType */
+     , (5422, 4, 767, -1, 0, 0, False) /* Create Comfrey for Shop_DestinationType */
+     , (5422, 4, 768, -1, 0, 0, False) /* Create Damiana for Shop_DestinationType */
+     , (5422, 4, 769, -1, 0, 0, False) /* Create Dragonsblood for Shop_DestinationType */
+     , (5422, 4, 770, -1, 0, 0, False) /* Create Eyebright for Shop_DestinationType */
+     , (5422, 4, 771, -1, 0, 0, False) /* Create Frankincense for Shop_DestinationType */
+     , (5422, 4, 625, -1, 0, 0, False) /* Create Ginseng for Shop_DestinationType */
+     , (5422, 4, 772, -1, 0, 0, False) /* Create Hawthorn for Shop_DestinationType */
+     , (5422, 4, 773, -1, 0, 0, False) /* Create Henbane for Shop_DestinationType */
+     , (5422, 4, 774, -1, 0, 0, False) /* Create Hyssop for Shop_DestinationType */
+     , (5422, 4, 775, -1, 0, 0, False) /* Create Mandrake for Shop_DestinationType */
+     , (5422, 4, 776, -1, 0, 0, False) /* Create Mugwort for Shop_DestinationType */
+     , (5422, 4, 778, -1, 0, 0, False) /* Create Saffron for Shop_DestinationType */
+     , (5422, 4, 780, -1, 0, 0, False) /* Create Wormwood for Shop_DestinationType */
+     , (5422, 4, 781, -1, 0, 0, False) /* Create Yarrow for Shop_DestinationType */
+     , (5422, 4, 782, -1, 0, 0, False) /* Create Powdered Agate for Shop_DestinationType */
+     , (5422, 4, 783, -1, 0, 0, False) /* Create Powdered Amber for Shop_DestinationType */
+     , (5422, 4, 784, -1, 0, 0, False) /* Create Powdered Azurite for Shop_DestinationType */
+     , (5422, 4, 785, -1, 0, 0, False) /* Create Powdered Bloodstone for Shop_DestinationType */
+     , (5422, 4, 786, -1, 0, 0, False) /* Create Powdered Carnelian for Shop_DestinationType */
+     , (5422, 4, 626, -1, 0, 0, False) /* Create Powdered Hematite for Shop_DestinationType */
+     , (5422, 4, 787, -1, 0, 0, False) /* Create Powdered Lapis Lazuli for Shop_DestinationType */
+     , (5422, 4, 788, -1, 0, 0, False) /* Create Powdered Malachite for Shop_DestinationType */
+     , (5422, 4, 789, -1, 0, 0, False) /* Create Powdered Moonstone for Shop_DestinationType */
+     , (5422, 4, 790, -1, 0, 0, False) /* Create Powdered Onyx for Shop_DestinationType */
+     , (5422, 4, 791, -1, 0, 0, False) /* Create Powdered Quartz for Shop_DestinationType */
+     , (5422, 4, 792, -1, 0, 0, False) /* Create Powdered Turquoise for Shop_DestinationType */
+     , (5422, 4, 753, -1, 0, 0, False) /* Create Brimstone for Shop_DestinationType */
+     , (5422, 4, 754, -1, 0, 0, False) /* Create Cadmia for Shop_DestinationType */
+     , (5422, 4, 755, -1, 0, 0, False) /* Create Cinnabar for Shop_DestinationType */
+     , (5422, 4, 756, -1, 0, 0, False) /* Create Cobalt for Shop_DestinationType */
+     , (5422, 4, 757, -1, 0, 0, False) /* Create Colcothar for Shop_DestinationType */
+     , (5422, 4, 758, -1, 0, 0, False) /* Create Gypsum for Shop_DestinationType */
+     , (5422, 4, 759, -1, 0, 0, False) /* Create Quicksilver for Shop_DestinationType */
+     , (5422, 4, 760, -1, 0, 0, False) /* Create Realgar for Shop_DestinationType */
+     , (5422, 4, 761, -1, 0, 0, False) /* Create Stibnite for Shop_DestinationType */
+     , (5422, 4, 762, -1, 0, 0, False) /* Create Turpeth for Shop_DestinationType */
+     , (5422, 4, 763, -1, 0, 0, False) /* Create Verdigris for Shop_DestinationType */
+     , (5422, 4, 764, -1, 0, 0, False) /* Create Vitriol for Shop_DestinationType */
+     , (5422, 4, 749, -1, 0, 0, False) /* Create Poplar Talisman for Shop_DestinationType */
+     , (5422, 4, 742, -1, 0, 0, False) /* Create Blackthorn Talisman for Shop_DestinationType */
+     , (5422, 4, 752, -1, 0, 0, False) /* Create Yew Talisman for Shop_DestinationType */
+     , (5422, 4, 747, -1, 0, 0, False) /* Create Hemlock Talisman for Shop_DestinationType */
+     , (5422, 4, 627, -1, 0, 0, False) /* Create Alder Talisman for Shop_DestinationType */
+     , (5422, 4, 744, -1, 0, 0, False) /* Create Ebony Talisman for Shop_DestinationType */
+     , (5422, 4, 741, -1, 0, 0, False) /* Create Birch Talisman for Shop_DestinationType */
+     , (5422, 4, 740, -1, 0, 0, False) /* Create Ashwood Talisman for Shop_DestinationType */
+     , (5422, 4, 745, -1, 0, 0, False) /* Create Elder Talisman for Shop_DestinationType */
+     , (5422, 4, 750, -1, 0, 0, False) /* Create Rowan Talisman for Shop_DestinationType */
+     , (5422, 4, 751, -1, 0, 0, False) /* Create Willow Talisman for Shop_DestinationType */
+     , (5422, 4, 743, -1, 0, 0, False) /* Create Cedar Talisman for Shop_DestinationType */
+     , (5422, 4, 27331, -1, 0, 0, False) /* Create Minor Mana Stone for Shop_DestinationType */
+     , (5422, 4, 2434, -1, 0, 0, False) /* Create Lesser Mana Stone for Shop_DestinationType */
+     , (5422, 4, 2435, -1, 0, 0, False) /* Create Mana Stone for Shop_DestinationType */
+     , (5422, 4, 4612, -1, 0, 0, False) /* Create Tiny Mana Charge for Shop_DestinationType */
+     , (5422, 4, 4613, -1, 0, 0, False) /* Create Small Mana Charge for Shop_DestinationType */
+     , (5422, 4, 4614, -1, 0, 0, False) /* Create Moderate Mana Charge for Shop_DestinationType */
+     , (5422, 4, 4615, -1, 0, 0, False) /* Create High Mana Charge for Shop_DestinationType */
+     , (5422, 4, 4616, -1, 0, 0, False) /* Create Great Mana Charge for Shop_DestinationType */
+     , (5422, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (5422, 4, 139, -1, 89, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (5422, 4, 4751, -1, 0, 0, False) /* Create Mortar and Pestle for Shop_DestinationType */
+     , (5422, 4, 4748, -1, 0, 0, False) /* Create Aqua Incanta for Shop_DestinationType */
+     , (5422, 4, 5338, -1, 0, 0, False) /* Create Neutral Balm for Shop_DestinationType */
+     , (5422, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5422, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5422, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (5422, 4, 5539, -1, 0, 0, False) /* Create Wand for Shop_DestinationType */
+     , (5422, 4, 2472, -1, 0, 0, False) /* Create Wand for Shop_DestinationType */
+     , (5422, 4, 2366, -1, 0, 0, False) /* Create Orb for Shop_DestinationType */
+     , (5422, 4, 2547, -1, 0, 0, False) /* Create Staff for Shop_DestinationType */;
 

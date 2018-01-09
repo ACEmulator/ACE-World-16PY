@@ -89,7 +89,7 @@ VALUES (2580, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2580, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2580, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2580, 9, 4240, 0, 0) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
-     , (2580, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2580, 9, 4240, 0, 0, 0.03, False) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
+     , (2580, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

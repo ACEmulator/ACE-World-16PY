@@ -118,15 +118,15 @@ VALUES (7119, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7119, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7119, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7119, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7119, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7119, 9, 22025, 0, 0) /* Create Mu-miyah Arm for ContainTreasure_DestinationType */
-     , (7119, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7119, 9, 22029, 0, 0) /* Create Mu-miyah Leg for ContainTreasure_DestinationType */
-     , (7119, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7119, 9, 22045, 0, 0) /* Create Mu-miyah Torso for ContainTreasure_DestinationType */
-     , (7119, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7119, 9, 22060, 0, 0) /* Create Mu-miyah Torso with a Head for ContainTreasure_DestinationType */
-     , (7119, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7119, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7119, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7119, 9, 22025, 0, 0, 0.05, False) /* Create Mu-miyah Arm for ContainTreasure_DestinationType */
+     , (7119, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7119, 9, 22029, 0, 0, 0.05, False) /* Create Mu-miyah Leg for ContainTreasure_DestinationType */
+     , (7119, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7119, 9, 22045, 0, 0, 0.05, False) /* Create Mu-miyah Torso for ContainTreasure_DestinationType */
+     , (7119, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (7119, 9, 22060, 0, 0, 0.05, False) /* Create Mu-miyah Torso with a Head for ContainTreasure_DestinationType */
+     , (7119, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

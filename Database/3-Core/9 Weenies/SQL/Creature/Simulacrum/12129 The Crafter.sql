@@ -127,11 +127,11 @@ VALUES (12129, 64, 104) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12129, 128, 104) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12129, 256, 112) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12129, 2, 6046, 0, 2) /* Create Amuli Coat for Wield_DestinationType */
-     , (12129, 2, 6047, 0, 2) /* Create Amuli Leggings for Wield_DestinationType */
-     , (12129, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (12129, 1, 12147, 0, 0) /* Create Asteliary Orb for Contain_DestinationType */
-     , (12129, 1, 12157, 0, 0) /* Create Asteliary Gem for Contain_DestinationType */
-     , (12129, 1, 12141, 0, 0) /* Create Asteliary Crafter's Message Shard for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12129, 2, 6046, 0, 2, 0.5, False) /* Create Amuli Coat for Wield_DestinationType */
+     , (12129, 2, 6047, 0, 2, 0.5, False) /* Create Amuli Leggings for Wield_DestinationType */
+     , (12129, 2, 132, 0, 9, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (12129, 1, 12147, 0, 0, 0, False) /* Create Asteliary Orb for Contain_DestinationType */
+     , (12129, 1, 12157, 0, 0, 0, False) /* Create Asteliary Gem for Contain_DestinationType */
+     , (12129, 1, 12141, 0, 0, 0, False) /* Create Asteliary Crafter's Message Shard for Contain_DestinationType */;
 

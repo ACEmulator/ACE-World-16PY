@@ -94,27 +94,27 @@ VALUES (5438, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5438, 128, 5) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5438, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5438, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (5438, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (5438, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (5438, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (5438, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (5438, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (5438, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (5438, 4, 4709, -1, 0) /* Create Apple Pie for Shop_DestinationType */
-     , (5438, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (5438, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (5438, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (5438, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (5438, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (5438, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (5438, 4, 5533, -1, 0) /* Create Damp Cave Rumor for Shop_DestinationType */
-     , (5438, 4, 5535, -1, 0) /* Create Mountain Sewer Directions for Shop_DestinationType */
-     , (5438, 4, 5537, -1, 0) /* Create Smugglers' Fort Directions for Shop_DestinationType */
-     , (5438, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (5438, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (5438, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (5438, 4, 25984, -1, 0) /* Create Sparring Shirt for Shop_DestinationType */
-     , (5438, 4, 25983, -1, 0) /* Create Sparring Pants for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5438, 2, 134, 0, 5, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (5438, 2, 117, 0, 5, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (5438, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5438, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (5438, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (5438, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (5438, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (5438, 4, 4709, -1, 0, 0, False) /* Create Apple Pie for Shop_DestinationType */
+     , (5438, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (5438, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (5438, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (5438, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (5438, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (5438, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (5438, 4, 5533, -1, 0, 0, False) /* Create Damp Cave Rumor for Shop_DestinationType */
+     , (5438, 4, 5535, -1, 0, 0, False) /* Create Mountain Sewer Directions for Shop_DestinationType */
+     , (5438, 4, 5537, -1, 0, 0, False) /* Create Smugglers' Fort Directions for Shop_DestinationType */
+     , (5438, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (5438, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (5438, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (5438, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt for Shop_DestinationType */
+     , (5438, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants for Shop_DestinationType */;
 

@@ -135,15 +135,15 @@ VALUES (12230, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12230, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12230, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12230, 9, 12226, 0, 0) /* Create Crest of the Falatacot Lords for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12230, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12230, 9, 7041, 0, 0) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12230, 9, 9312, 0, 0) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12230, 9, 12226, 0, 0, 0.08, False) /* Create Crest of the Falatacot Lords for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (12230, 9, 5873, 0, 0, 0.01, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (12230, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (12230, 9, 9312, 0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12230, 0.33, 1630, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Lich Lord (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

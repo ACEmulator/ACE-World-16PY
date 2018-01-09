@@ -114,9 +114,9 @@ VALUES (2491, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2491, 128, 420) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2491, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2491, 10, 4912, 0, 0) /* Create Overlord's Sword for WieldTreasure_DestinationType */
-     , (2491, 10, 91, 0, 0) /* Create Kite Shield for WieldTreasure_DestinationType */
-     , (2491, 8, 23522, 0, 0) /* Create Overlord's Sword for Treasure_DestinationType */
-     , (2491, 1, 8985, 0, 0) /* Create Overlord's Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2491, 10, 4912, 0, 0, 1, False) /* Create Overlord's Sword for WieldTreasure_DestinationType */
+     , (2491, 10, 91, 0, 0, 1, False) /* Create Kite Shield for WieldTreasure_DestinationType */
+     , (2491, 8, 23522, 0, 0, 1, False) /* Create Overlord's Sword for Treasure_DestinationType */
+     , (2491, 1, 8985, 0, 0, 1, False) /* Create Overlord's Key for Contain_DestinationType */;
 

@@ -94,17 +94,17 @@ VALUES (5437, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5437, 128, 5) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5437, 256, 5) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5437, 2, 2587, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (5437, 2, 2598, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (5437, 2, 132, 0, 16) /* Create Shoes for Wield_DestinationType */
-     , (5437, 2, 118, 0, 16) /* Create Cap for Wield_DestinationType */
-     , (5437, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (5437, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (5437, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (5437, 4, 2413, -1, 0) /* Create Agate for Shop_DestinationType */
-     , (5437, 4, 2393, -1, 0) /* Create Amethyst for Shop_DestinationType */
-     , (5437, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (5437, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (5437, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5437, 2, 2587, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (5437, 2, 2598, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (5437, 2, 132, 0, 16, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (5437, 2, 118, 0, 16, 1, False) /* Create Cap for Wield_DestinationType */
+     , (5437, 2, 10696, 0, 9, 0, False) /* Create Apron for Wield_DestinationType */
+     , (5437, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (5437, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (5437, 4, 2413, -1, 0, 0, False) /* Create Agate for Shop_DestinationType */
+     , (5437, 4, 2393, -1, 0, 0, False) /* Create Amethyst for Shop_DestinationType */
+     , (5437, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (5437, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (5437, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

@@ -92,15 +92,15 @@ VALUES (193, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (193, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (193, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (193, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (193, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (193, 9, 8702, 0, 0) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
-     , (193, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (193, 9, 3669, 0, 0) /* Create Drudge Charm for ContainTreasure_DestinationType */
-     , (193, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (193, 9, 13222, 0, 0) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (193, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (193, 9, 20854, 0, 0) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (193, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (193, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (193, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (193, 9, 8702, 0, 0, 0.02, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
+     , (193, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (193, 9, 3669, 0, 0, 0.02, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
+     , (193, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (193, 9, 13222, 0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
+     , (193, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (193, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
+     , (193, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

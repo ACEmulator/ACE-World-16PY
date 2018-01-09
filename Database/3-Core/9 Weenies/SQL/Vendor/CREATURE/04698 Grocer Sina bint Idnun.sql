@@ -94,21 +94,21 @@ VALUES (4698, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4698, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4698, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4698, 2, 130, 0, 16) /* Create Shirt for Wield_DestinationType */
-     , (4698, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (4698, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (4698, 2, 128, 0, 14) /* Create Qafiya for Wield_DestinationType */
-     , (4698, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4698, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (4698, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (4698, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (4698, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (4698, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (4698, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (4698, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (4698, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (4698, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4698, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (4698, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4698, 2, 130, 0, 16, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4698, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (4698, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4698, 2, 128, 0, 14, 0.8, False) /* Create Qafiya for Wield_DestinationType */
+     , (4698, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4698, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (4698, 4, 139, -1, 86, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (4698, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (4698, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (4698, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (4698, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (4698, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (4698, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (4698, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4698, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (4698, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 

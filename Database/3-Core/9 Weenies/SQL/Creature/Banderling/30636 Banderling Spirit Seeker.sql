@@ -107,6 +107,6 @@ VALUES (30636, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30636, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30636, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30636, 9, 30632, 0, 0) /* Create Ring of Vines for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30636, 9, 30632, 0, 0, 1, False) /* Create Ring of Vines for ContainTreasure_DestinationType */;
 

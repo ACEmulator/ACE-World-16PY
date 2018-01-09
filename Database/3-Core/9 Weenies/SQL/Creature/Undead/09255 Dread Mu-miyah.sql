@@ -96,7 +96,7 @@ VALUES (9255, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9255, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9255, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9255, 9, 9312, 0, 0) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
-     , (9255, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9255, 9, 9312, 0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
+     , (9255, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

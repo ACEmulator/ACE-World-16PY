@@ -105,13 +105,13 @@ VALUES (7121, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7121, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7121, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7121, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (7121, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7121, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7121, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7121, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (7121, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7121, 9, 22100, 0, 0) /* Create Skull Stamp for ContainTreasure_DestinationType */
-     , (7121, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7121, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (7121, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (7121, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7121, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7121, 9, 9310, 0, 0, 0.04, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (7121, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
+     , (7121, 9, 22100, 0, 0, 0.02, False) /* Create Skull Stamp for ContainTreasure_DestinationType */
+     , (7121, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -94,23 +94,23 @@ VALUES (976, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (976, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (976, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (976, 2, 313, 0, 0) /* Create Dabus for Wield_DestinationType */
-     , (976, 2, 124, 0, 1) /* Create Jerkin for Wield_DestinationType */
-     , (976, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (976, 2, 133, 0, 9) /* Create Slippers for Wield_DestinationType */
-     , (976, 2, 128, 0, 1) /* Create Qafiya for Wield_DestinationType */
-     , (976, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (976, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (976, 4, 313, -1, 0) /* Create Dabus for Shop_DestinationType */
-     , (976, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (976, 4, 326, -1, 0) /* Create Katar for Shop_DestinationType */
-     , (976, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (976, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (976, 4, 345, -1, 0) /* Create Simi for Shop_DestinationType */
-     , (976, 4, 315, -1, 0) /* Create Throwing Dagger for Shop_DestinationType */
-     , (976, 4, 357, -1, 0) /* Create Tungi for Shop_DestinationType */
-     , (976, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (976, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (976, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (976, 2, 313, 0, 0, 0, False) /* Create Dabus for Wield_DestinationType */
+     , (976, 2, 124, 0, 1, 0.67, False) /* Create Jerkin for Wield_DestinationType */
+     , (976, 2, 117, 0, 9, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (976, 2, 133, 0, 9, 0, False) /* Create Slippers for Wield_DestinationType */
+     , (976, 2, 128, 0, 1, 0.67, False) /* Create Qafiya for Wield_DestinationType */
+     , (976, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (976, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (976, 4, 313, -1, 0, 0, False) /* Create Dabus for Shop_DestinationType */
+     , (976, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (976, 4, 326, -1, 0, 0, False) /* Create Katar for Shop_DestinationType */
+     , (976, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (976, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (976, 4, 345, -1, 0, 0, False) /* Create Simi for Shop_DestinationType */
+     , (976, 4, 315, -1, 0, 0, False) /* Create Throwing Dagger for Shop_DestinationType */
+     , (976, 4, 357, -1, 0, 0, False) /* Create Tungi for Shop_DestinationType */
+     , (976, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (976, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (976, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

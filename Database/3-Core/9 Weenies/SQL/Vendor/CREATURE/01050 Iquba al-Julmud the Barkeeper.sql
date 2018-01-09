@@ -94,26 +94,26 @@ VALUES (1050, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1050, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1050, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1050, 2, 130, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (1050, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (1050, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (1050, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (1050, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (1050, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (1050, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (1050, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (1050, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (1050, 4, 4712, -1, 0) /* Create Beef Rice for Shop_DestinationType */
-     , (1050, 4, 4709, -1, 0) /* Create Apple Pie for Shop_DestinationType */
-     , (1050, 4, 4729, -1, 0) /* Create Fried Egg for Shop_DestinationType */
-     , (1050, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (1050, 4, 1434, -1, 0) /* Create A note from Iquba for Shop_DestinationType */
-     , (1050, 4, 28242, -1, 0) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
-     , (1050, 4, 12146, -1, 0) /* Create Simulacra Rumor for Shop_DestinationType */
-     , (1050, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1050, 4, 15808, -1, 0) /* Create Plea for Help for Shop_DestinationType */
-     , (1050, 4, 20229, -1, 0) /* Create Rumor of an Artifact for Shop_DestinationType */
-     , (1050, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (1050, 4, 24222, -1, 0) /* Create Duplicated Portals for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1050, 2, 130, 0, 14, 0.8, False) /* Create Shirt for Wield_DestinationType */
+     , (1050, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (1050, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1050, 2, 135, 0, 9, 0, False) /* Create Turban for Wield_DestinationType */
+     , (1050, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1050, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (1050, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (1050, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (1050, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (1050, 4, 4712, -1, 0, 0, False) /* Create Beef Rice for Shop_DestinationType */
+     , (1050, 4, 4709, -1, 0, 0, False) /* Create Apple Pie for Shop_DestinationType */
+     , (1050, 4, 4729, -1, 0, 0, False) /* Create Fried Egg for Shop_DestinationType */
+     , (1050, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (1050, 4, 1434, -1, 0, 0, False) /* Create A note from Iquba for Shop_DestinationType */
+     , (1050, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels for Shop_DestinationType */
+     , (1050, 4, 12146, -1, 0, 0, False) /* Create Simulacra Rumor for Shop_DestinationType */
+     , (1050, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1050, 4, 15808, -1, 0, 0, False) /* Create Plea for Help for Shop_DestinationType */
+     , (1050, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact for Shop_DestinationType */
+     , (1050, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (1050, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals for Shop_DestinationType */;
 

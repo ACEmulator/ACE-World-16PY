@@ -92,6 +92,6 @@ VALUES (26788, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26788, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26788, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26788, 4, 26153, -1, 0) /* Create East Esper Valley  Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26788, 4, 26153, -1, 0, 0, False) /* Create East Esper Valley  Portal Gem for Shop_DestinationType */;
 

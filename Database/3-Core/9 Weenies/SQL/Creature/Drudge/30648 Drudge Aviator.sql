@@ -109,7 +109,7 @@ VALUES (30648, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30648, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30648, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30648, 9, 30658, 0, 0) /* Create Flying Machine Instructions for ContainTreasure_DestinationType */
-     , (30648, 9, 30659, 0, 0) /* Create Flying Machine Plans for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30648, 9, 30658, 0, 0, 1, False) /* Create Flying Machine Instructions for ContainTreasure_DestinationType */
+     , (30648, 9, 30659, 0, 0, 1, False) /* Create Flying Machine Plans for ContainTreasure_DestinationType */;
 

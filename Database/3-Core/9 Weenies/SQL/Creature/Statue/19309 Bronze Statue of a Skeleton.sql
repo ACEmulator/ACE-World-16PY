@@ -102,7 +102,7 @@ VALUES (19309, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19309, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19309, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (19309, 9, 19212, 0, 0) /* Create Bronze Coil from a Statue for ContainTreasure_DestinationType */
-     , (19309, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (19309, 9, 19212, 0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure_DestinationType */
+     , (19309, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

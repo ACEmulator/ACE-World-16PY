@@ -88,12 +88,12 @@ VALUES (24327, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24327, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24327, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24327, 2, 22013, 0, 0) /* Create Olthoi Helm for Wield_DestinationType */
-     , (24327, 2, 24238, 0, 0) /* Create Olthoi Atlatl for Wield_DestinationType */
-     , (24327, 2, 24268, 0, 0) /* Create Olthoi Fighter Sleeves for Wield_DestinationType */
-     , (24327, 2, 55, 0, 39) /* Create Chainmail Gauntlets for Wield_DestinationType */
-     , (24327, 2, 24265, 0, 0) /* Create Olthoi Fighter Shirt (Male) for Wield_DestinationType */
-     , (24327, 2, 24267, 0, 0) /* Create Olthoi Fighter Shorts (Male) for Wield_DestinationType */
-     , (24327, 2, 2606, 0, 9) /* Create Boots for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24327, 2, 22013, 0, 0, 0, False) /* Create Olthoi Helm for Wield_DestinationType */
+     , (24327, 2, 24238, 0, 0, 0, False) /* Create Olthoi Atlatl for Wield_DestinationType */
+     , (24327, 2, 24268, 0, 0, 0, False) /* Create Olthoi Fighter Sleeves for Wield_DestinationType */
+     , (24327, 2, 55, 0, 39, 1, False) /* Create Chainmail Gauntlets for Wield_DestinationType */
+     , (24327, 2, 24265, 0, 0, 0, False) /* Create Olthoi Fighter Shirt (Male) for Wield_DestinationType */
+     , (24327, 2, 24267, 0, 0, 0, False) /* Create Olthoi Fighter Shorts (Male) for Wield_DestinationType */
+     , (24327, 2, 2606, 0, 9, 0.8, False) /* Create Boots for Wield_DestinationType */;
 

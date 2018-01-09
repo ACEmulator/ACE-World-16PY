@@ -92,6 +92,6 @@ VALUES (22138, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22138, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22138, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22138, 2, 8891, 0, 0) /* Create Elysa's Longbow for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22138, 2, 8891, 0, 0, 0, False) /* Create Elysa's Longbow for Wield_DestinationType */;
 

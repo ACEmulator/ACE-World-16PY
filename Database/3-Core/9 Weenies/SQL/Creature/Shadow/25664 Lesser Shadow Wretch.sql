@@ -123,11 +123,11 @@ VALUES (25664, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25664, 128, 560) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25664, 256, 560) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25664, 9, 6058, 0, 0) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (25664, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25664, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25664, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25664, 9, 25678, 0, 0) /* Create Repugnant Bracelet for ContainTreasure_DestinationType */
-     , (25664, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25664, 9, 6058, 0, 0, 0.015, False) /* Create Dark Shard for ContainTreasure_DestinationType */
+     , (25664, 9, 0, 0, 0, 0.985, False) /* Create  for ContainTreasure_DestinationType */
+     , (25664, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (25664, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (25664, 9, 25678, 0, 0, 1, False) /* Create Repugnant Bracelet for ContainTreasure_DestinationType */
+     , (25664, 9, 0, 0, 0, 0.995, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -94,20 +94,20 @@ VALUES (24217, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24217, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24217, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24217, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (24217, 2, 117, 0, 9) /* Create Breeches for Wield_DestinationType */
-     , (24217, 2, 2606, 0, 14) /* Create Boots for Wield_DestinationType */
-     , (24217, 2, 10696, 0, 16) /* Create Apron for Wield_DestinationType */
-     , (24217, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (24217, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (24217, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (24217, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (24217, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (24217, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (24217, 4, 4738, -1, 0) /* Create Mushroom Rice for Shop_DestinationType */
-     , (24217, 4, 4711, -1, 0) /* Create Beef Noodle for Shop_DestinationType */
-     , (24217, 4, 4733, -1, 0) /* Create Kimchi for Shop_DestinationType */
-     , (24217, 4, 30742, -1, 0) /* Create The Littlest Niffis for Shop_DestinationType */
-     , (24217, 4, 30743, -1, 0) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24217, 2, 134, 0, 9, 0.5, False) /* Create Tunic for Wield_DestinationType */
+     , (24217, 2, 117, 0, 9, 0.5, False) /* Create Breeches for Wield_DestinationType */
+     , (24217, 2, 2606, 0, 14, 0.8, False) /* Create Boots for Wield_DestinationType */
+     , (24217, 2, 10696, 0, 16, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (24217, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (24217, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (24217, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (24217, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (24217, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (24217, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (24217, 4, 4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop_DestinationType */
+     , (24217, 4, 4711, -1, 0, 0, False) /* Create Beef Noodle for Shop_DestinationType */
+     , (24217, 4, 4733, -1, 0, 0, False) /* Create Kimchi for Shop_DestinationType */
+     , (24217, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis for Shop_DestinationType */
+     , (24217, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery for Shop_DestinationType */;
 

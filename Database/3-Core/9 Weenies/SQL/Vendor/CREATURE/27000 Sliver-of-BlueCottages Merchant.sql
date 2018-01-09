@@ -92,6 +92,6 @@ VALUES (27000, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27000, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27000, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27000, 4, 26365, -1, 0) /* Create Sliver-of-BlueCottages Portal Gem for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27000, 4, 26365, -1, 0, 0, False) /* Create Sliver-of-BlueCottages Portal Gem for Shop_DestinationType */;
 

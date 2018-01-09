@@ -94,17 +94,17 @@ VALUES (2260, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2260, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2260, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (2260, 2, 130, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (2260, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (2260, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (2260, 2, 118, 0, 16) /* Create Cap for Wield_DestinationType */
-     , (2260, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (2260, 4, 118, -1, 18) /* Create Cap for Shop_DestinationType */
-     , (2260, 4, 2590, -1, 16) /* Create Shirt for Shop_DestinationType */
-     , (2260, 4, 2597, -1, 4) /* Create Pants for Shop_DestinationType */
-     , (2260, 4, 132, -1, 9) /* Create Shoes for Shop_DestinationType */
-     , (2260, 4, 5854, -1, 0) /* Create Suikan Robe for Shop_DestinationType */
-     , (2260, 4, 5901, -1, 0) /* Create Kasa for Shop_DestinationType */
-     , (2260, 4, 8372, -1, 61) /* Create Yifan Dress for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (2260, 2, 130, 0, 18, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (2260, 2, 127, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (2260, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (2260, 2, 118, 0, 16, 1, False) /* Create Cap for Wield_DestinationType */
+     , (2260, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (2260, 4, 118, -1, 18, 0, False) /* Create Cap for Shop_DestinationType */
+     , (2260, 4, 2590, -1, 16, 0, False) /* Create Shirt for Shop_DestinationType */
+     , (2260, 4, 2597, -1, 4, 0, False) /* Create Pants for Shop_DestinationType */
+     , (2260, 4, 132, -1, 9, 0.1, False) /* Create Shoes for Shop_DestinationType */
+     , (2260, 4, 5854, -1, 0, 0, False) /* Create Suikan Robe for Shop_DestinationType */
+     , (2260, 4, 5901, -1, 0, 0, False) /* Create Kasa for Shop_DestinationType */
+     , (2260, 4, 8372, -1, 61, 1, False) /* Create Yifan Dress for Shop_DestinationType */;
 

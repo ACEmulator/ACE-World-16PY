@@ -94,42 +94,42 @@ VALUES (657, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (657, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (657, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (657, 2, 127, 0, 2) /* Create Pants for Wield_DestinationType */
-     , (657, 2, 132, 0, 5) /* Create Shoes for Wield_DestinationType */
-     , (657, 2, 124, 0, 5) /* Create Jerkin for Wield_DestinationType */
-     , (657, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (657, 4, 309, -1, 0) /* Create Club for Shop_DestinationType */
-     , (657, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (657, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (657, 4, 303, -1, 0) /* Create Hand Axe for Shop_DestinationType */
-     , (657, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (657, 4, 22168, -1, 0) /* Create Quarter Staff for Shop_DestinationType */
-     , (657, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (657, 4, 119, -1, 0) /* Create Cowl for Shop_DestinationType */
-     , (657, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (657, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (657, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (657, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (657, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (657, 4, 127, -1, 0) /* Create Pants for Shop_DestinationType */
-     , (657, 4, 130, -1, 0) /* Create Shirt for Shop_DestinationType */
-     , (657, 4, 132, -1, 0) /* Create Shoes for Shop_DestinationType */
-     , (657, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (657, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (657, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (657, 4, 139, -1, 84) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (657, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (657, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (657, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (657, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (657, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (657, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (657, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (657, 4, 2455, -1, 0) /* Create Grape Juice for Shop_DestinationType */
-     , (657, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (657, 4, 2459, -1, 0) /* Create Kumiss for Shop_DestinationType */
-     , (657, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (657, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (657, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (657, 2, 127, 0, 2, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (657, 2, 132, 0, 5, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (657, 2, 124, 0, 5, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (657, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (657, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
+     , (657, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (657, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (657, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */
+     , (657, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (657, 4, 22168, -1, 0, 0, False) /* Create Quarter Staff for Shop_DestinationType */
+     , (657, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (657, 4, 119, -1, 0, 0, False) /* Create Cowl for Shop_DestinationType */
+     , (657, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (657, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (657, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (657, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (657, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (657, 4, 127, -1, 0, 0, False) /* Create Pants for Shop_DestinationType */
+     , (657, 4, 130, -1, 0, 0, False) /* Create Shirt for Shop_DestinationType */
+     , (657, 4, 132, -1, 0, 0, False) /* Create Shoes for Shop_DestinationType */
+     , (657, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (657, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (657, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (657, 4, 139, -1, 84, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (657, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (657, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (657, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (657, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (657, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (657, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (657, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (657, 4, 2455, -1, 0, 0, False) /* Create Grape Juice for Shop_DestinationType */
+     , (657, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (657, 4, 2459, -1, 0, 0, False) /* Create Kumiss for Shop_DestinationType */
+     , (657, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (657, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (657, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */;
 

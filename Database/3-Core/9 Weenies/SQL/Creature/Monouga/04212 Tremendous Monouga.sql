@@ -91,11 +91,11 @@ VALUES (4212, 64, 99550) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4212, 128, 99100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4212, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4212, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (4212, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4212, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (4212, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4212, 9, 12253, 10, 0) /* Create Monougat for ContainTreasure_DestinationType */
-     , (4212, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4212, 9, 23108, 0, 0, 0.1, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (4212, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (4212, 9, 23107, 0, 0, 0.05, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (4212, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (4212, 9, 12253, 10, 0, 0.25, False) /* Create Monougat for ContainTreasure_DestinationType */
+     , (4212, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */;
 

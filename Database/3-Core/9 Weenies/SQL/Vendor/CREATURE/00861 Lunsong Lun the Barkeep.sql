@@ -94,20 +94,20 @@ VALUES (861, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (861, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (861, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (861, 2, 134, 0, 17) /* Create Tunic for Wield_DestinationType */
-     , (861, 2, 127, 0, 16) /* Create Pants for Wield_DestinationType */
-     , (861, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (861, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (861, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (861, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (861, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (861, 4, 4728, -1, 0) /* Create Fried Chicken for Shop_DestinationType */
-     , (861, 4, 4744, -1, 0) /* Create Sushi for Shop_DestinationType */
-     , (861, 4, 2466, -1, 0) /* Create Red Tea for Shop_DestinationType */
-     , (861, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (861, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (861, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (861, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (861, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (861, 2, 134, 0, 17, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (861, 2, 127, 0, 16, 1, False) /* Create Pants for Wield_DestinationType */
+     , (861, 2, 132, 0, 14, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (861, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (861, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (861, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (861, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (861, 4, 4728, -1, 0, 0, False) /* Create Fried Chicken for Shop_DestinationType */
+     , (861, 4, 4744, -1, 0, 0, False) /* Create Sushi for Shop_DestinationType */
+     , (861, 4, 2466, -1, 0, 0, False) /* Create Red Tea for Shop_DestinationType */
+     , (861, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (861, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (861, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (861, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (861, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */;
 

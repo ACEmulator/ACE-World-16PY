@@ -94,12 +94,12 @@ VALUES (841, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (841, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (841, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (841, 2, 2588, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (841, 2, 2597, 0, 13) /* Create Pants for Wield_DestinationType */
-     , (841, 2, 132, 0, 16) /* Create Shoes for Wield_DestinationType */
-     , (841, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (841, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (841, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (841, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (841, 2, 2588, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (841, 2, 2597, 0, 13, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (841, 2, 132, 0, 16, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (841, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (841, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (841, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (841, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */;
 

@@ -89,13 +89,13 @@ VALUES (27505, 64, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27505, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27505, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27505, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27505, 9, 24850, 0, 0) /* Create Rendeath Shreth Hide for ContainTreasure_DestinationType */
-     , (27505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27505, 9, 27093, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (27505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27505, 9, 27305, 0, 0) /* Create Forbidden Key for ContainTreasure_DestinationType */
-     , (27505, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27505, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27505, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27505, 9, 24850, 0, 0, 0.03, False) /* Create Rendeath Shreth Hide for ContainTreasure_DestinationType */
+     , (27505, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27505, 9, 27093, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (27505, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27505, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
+     , (27505, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

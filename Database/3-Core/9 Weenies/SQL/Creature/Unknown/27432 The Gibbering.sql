@@ -96,6 +96,6 @@ VALUES (27432, 64, 3820) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27432, 128, 3640) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27432, 256, 4600) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27432, 9, 27451, 0, 0) /* Create Gibbering Claw for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27432, 9, 27451, 0, 0, 1, False) /* Create Gibbering Claw for ContainTreasure_DestinationType */;
 

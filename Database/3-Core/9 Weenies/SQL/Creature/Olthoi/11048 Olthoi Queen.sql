@@ -96,13 +96,13 @@ VALUES (11048, 64, 14500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11048, 128, 3000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11048, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11048, 1, 11150, 1, 0) /* Create The Queen's Head for Contain_DestinationType */
-     , (11048, 1, 3678, 1, 0) /* Create Olthoi Carapace for Contain_DestinationType */
-     , (11048, 1, 3678, 1, 0) /* Create Olthoi Carapace for Contain_DestinationType */
-     , (11048, 1, 3678, 1, 0) /* Create Olthoi Carapace for Contain_DestinationType */
-     , (11048, 1, 3678, 1, 0) /* Create Olthoi Carapace for Contain_DestinationType */
-     , (11048, 8, 11140, 8, 0) /* Create Olthoi Egg for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11048, 1, 11150, 1, 0, 0, False) /* Create The Queen's Head for Contain_DestinationType */
+     , (11048, 1, 3678, 1, 0, 0, False) /* Create Olthoi Carapace for Contain_DestinationType */
+     , (11048, 1, 3678, 1, 0, 0, False) /* Create Olthoi Carapace for Contain_DestinationType */
+     , (11048, 1, 3678, 1, 0, 0, False) /* Create Olthoi Carapace for Contain_DestinationType */
+     , (11048, 1, 3678, 1, 0, 0, False) /* Create Olthoi Carapace for Contain_DestinationType */
+     , (11048, 8, 11140, 8, 0, 0.87, False) /* Create Olthoi Egg for Treasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (11048, -1, 11156, 450, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, -0.7071068, 0, 0, -0.7071068)/* Generate Olthoi Queen's Egg Sac (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */;

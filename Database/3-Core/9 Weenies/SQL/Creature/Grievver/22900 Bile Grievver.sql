@@ -110,11 +110,11 @@ VALUES (22900, 64, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22900, 128, 4700) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22900, 256, 2680) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22900, 9, 9098, 0, 0) /* Create Vial of Organic Acid for ContainTreasure_DestinationType */
-     , (22900, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22900, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (22900, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22900, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (22900, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22900, 9, 9098, 0, 0, 0.05, False) /* Create Vial of Organic Acid for ContainTreasure_DestinationType */
+     , (22900, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22900, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (22900, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (22900, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (22900, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

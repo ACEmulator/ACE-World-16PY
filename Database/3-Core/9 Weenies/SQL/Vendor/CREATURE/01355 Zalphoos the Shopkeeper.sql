@@ -93,59 +93,59 @@ VALUES (1355, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1355, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1355, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1355, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (1355, 2, 127, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (1355, 2, 133, 0, 9) /* Create Slippers for Wield_DestinationType */
-     , (1355, 2, 128, 0, 9) /* Create Qafiya for Wield_DestinationType */
-     , (1355, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1355, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (1355, 4, 319, -1, 0) /* Create Jambiya for Shop_DestinationType */
-     , (1355, 4, 325, -1, 0) /* Create Kasrullah for Shop_DestinationType */
-     , (1355, 4, 328, -1, 0) /* Create Khanjar for Shop_DestinationType */
-     , (1355, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (1355, 4, 357, -1, 0) /* Create Tungi for Shop_DestinationType */
-     , (1355, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (1355, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (1355, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (1355, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (1355, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (1355, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (1355, 4, 117, -1, 0) /* Create Breeches for Shop_DestinationType */
-     , (1355, 4, 124, -1, 0) /* Create Jerkin for Shop_DestinationType */
-     , (1355, 4, 129, -1, 0) /* Create Sandals for Shop_DestinationType */
-     , (1355, 4, 135, -1, 0) /* Create Turban for Shop_DestinationType */
-     , (1355, 4, 128, -1, 0) /* Create Qafiya for Shop_DestinationType */
-     , (1355, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (1355, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (1355, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (1355, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (1355, 4, 514, -1, 0) /* Create Excellent Lockpick for Shop_DestinationType */
-     , (1355, 4, 515, -1, 0) /* Create Superb Lockpick for Shop_DestinationType */
-     , (1355, 4, 516, -1, 0) /* Create Peerless Lockpick for Shop_DestinationType */
-     , (1355, 4, 166, -1, 17) /* Create Sack for Shop_DestinationType */
-     , (1355, 4, 166, -1, 8) /* Create Sack for Shop_DestinationType */
-     , (1355, 4, 166, -1, 2) /* Create Sack for Shop_DestinationType */
-     , (1355, 4, 136, -1, 17) /* Create Pack for Shop_DestinationType */
-     , (1355, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (1355, 4, 136, -1, 2) /* Create Pack for Shop_DestinationType */
-     , (1355, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (1355, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (1355, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (1355, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (1355, 4, 27319, -1, 0) /* Create Health Tincture for Shop_DestinationType */
-     , (1355, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (1355, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (1355, 4, 27322, -1, 0) /* Create Mana Tincture for Shop_DestinationType */
-     , (1355, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (1355, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (1355, 4, 2470, -1, 0) /* Create Stamina Elixir for Shop_DestinationType */
-     , (1355, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (1355, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (1355, 4, 630, -1, 0) /* Create Gifted Healing Kit for Shop_DestinationType */
-     , (1355, 4, 631, -1, 0) /* Create Excellent Healing Kit for Shop_DestinationType */
-     , (1355, 4, 632, -1, 0) /* Create Peerless Healing Kit for Shop_DestinationType */
-     , (1355, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (1355, 4, 1352, -1, 0) /* Create Zalphoos' Key for Shop_DestinationType */
-     , (1355, 4, 1353, -1, 0) /* Create Zalphoos Guidebook for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1355, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (1355, 2, 127, 0, 14, 0.8, False) /* Create Pants for Wield_DestinationType */
+     , (1355, 2, 133, 0, 9, 0, False) /* Create Slippers for Wield_DestinationType */
+     , (1355, 2, 128, 0, 9, 0, False) /* Create Qafiya for Wield_DestinationType */
+     , (1355, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (1355, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (1355, 4, 319, -1, 0, 0, False) /* Create Jambiya for Shop_DestinationType */
+     , (1355, 4, 325, -1, 0, 0, False) /* Create Kasrullah for Shop_DestinationType */
+     , (1355, 4, 328, -1, 0, 0, False) /* Create Khanjar for Shop_DestinationType */
+     , (1355, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (1355, 4, 357, -1, 0, 0, False) /* Create Tungi for Shop_DestinationType */
+     , (1355, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (1355, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (1355, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (1355, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (1355, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (1355, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (1355, 4, 117, -1, 0, 0, False) /* Create Breeches for Shop_DestinationType */
+     , (1355, 4, 124, -1, 0, 0, False) /* Create Jerkin for Shop_DestinationType */
+     , (1355, 4, 129, -1, 0, 0, False) /* Create Sandals for Shop_DestinationType */
+     , (1355, 4, 135, -1, 0, 0, False) /* Create Turban for Shop_DestinationType */
+     , (1355, 4, 128, -1, 0, 0, False) /* Create Qafiya for Shop_DestinationType */
+     , (1355, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (1355, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (1355, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (1355, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (1355, 4, 514, -1, 0, 0, False) /* Create Excellent Lockpick for Shop_DestinationType */
+     , (1355, 4, 515, -1, 0, 0, False) /* Create Superb Lockpick for Shop_DestinationType */
+     , (1355, 4, 516, -1, 0, 0, False) /* Create Peerless Lockpick for Shop_DestinationType */
+     , (1355, 4, 166, -1, 17, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1355, 4, 166, -1, 8, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1355, 4, 166, -1, 2, 1, False) /* Create Sack for Shop_DestinationType */
+     , (1355, 4, 136, -1, 17, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1355, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1355, 4, 136, -1, 2, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1355, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (1355, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (1355, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (1355, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (1355, 4, 27319, -1, 0, 0, False) /* Create Health Tincture for Shop_DestinationType */
+     , (1355, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (1355, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (1355, 4, 27322, -1, 0, 0, False) /* Create Mana Tincture for Shop_DestinationType */
+     , (1355, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (1355, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (1355, 4, 2470, -1, 0, 0, False) /* Create Stamina Elixir for Shop_DestinationType */
+     , (1355, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (1355, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (1355, 4, 630, -1, 0, 0, False) /* Create Gifted Healing Kit for Shop_DestinationType */
+     , (1355, 4, 631, -1, 0, 0, False) /* Create Excellent Healing Kit for Shop_DestinationType */
+     , (1355, 4, 632, -1, 0, 0, False) /* Create Peerless Healing Kit for Shop_DestinationType */
+     , (1355, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (1355, 4, 1352, -1, 0, 0, False) /* Create Zalphoos' Key for Shop_DestinationType */
+     , (1355, 4, 1353, -1, 0, 0, False) /* Create Zalphoos Guidebook for Shop_DestinationType */;
 

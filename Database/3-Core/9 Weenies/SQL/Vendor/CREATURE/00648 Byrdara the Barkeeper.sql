@@ -94,22 +94,22 @@ VALUES (648, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (648, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (648, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (648, 2, 134, 0, 5) /* Create Tunic for Wield_DestinationType */
-     , (648, 2, 117, 0, 8) /* Create Breeches for Wield_DestinationType */
-     , (648, 2, 132, 0, 4) /* Create Shoes for Wield_DestinationType */
-     , (648, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (648, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (648, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (648, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (648, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (648, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (648, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (648, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (648, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (648, 4, 4725, -1, 0) /* Create Fish Pie for Shop_DestinationType */
-     , (648, 4, 4734, -1, 0) /* Create Meat Pie for Shop_DestinationType */
-     , (648, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (648, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (648, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (648, 2, 134, 0, 5, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (648, 2, 117, 0, 8, 0, False) /* Create Breeches for Wield_DestinationType */
+     , (648, 2, 132, 0, 4, 0.6, False) /* Create Shoes for Wield_DestinationType */
+     , (648, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (648, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (648, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (648, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (648, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (648, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (648, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (648, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (648, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (648, 4, 4725, -1, 0, 0, False) /* Create Fish Pie for Shop_DestinationType */
+     , (648, 4, 4734, -1, 0, 0, False) /* Create Meat Pie for Shop_DestinationType */
+     , (648, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (648, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (648, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

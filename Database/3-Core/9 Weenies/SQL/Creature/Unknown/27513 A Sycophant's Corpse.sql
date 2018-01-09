@@ -92,6 +92,6 @@ VALUES (27513, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27513, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27513, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27513, 2, 10757, 0, 0) /* Create Towel for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27513, 2, 10757, 0, 0, 0, False) /* Create Towel for Wield_DestinationType */;
 

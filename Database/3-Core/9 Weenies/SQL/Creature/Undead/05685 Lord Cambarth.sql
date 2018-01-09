@@ -130,7 +130,7 @@ VALUES (5685, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5685, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5685, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5685, 2, 3752, 0, 0) /* Create Flaming Battle Axe for Wield_DestinationType */
-     , (5685, 1, 5679, 0, 0) /* Create Torn Journal for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5685, 2, 3752, 0, 0, 0, False) /* Create Flaming Battle Axe for Wield_DestinationType */
+     , (5685, 1, 5679, 0, 0, 0, False) /* Create Torn Journal for Contain_DestinationType */;
 

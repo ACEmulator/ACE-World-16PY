@@ -100,13 +100,13 @@ VALUES (30647, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30647, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30647, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30647, 9, 30657, 0, 0) /* Create Drudge Key for ContainTreasure_DestinationType */
-     , (30647, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30647, 9, 30654, 0, 0) /* Create Drudge Key for ContainTreasure_DestinationType */
-     , (30647, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30647, 9, 30655, 0, 0) /* Create Drudge Key for ContainTreasure_DestinationType */
-     , (30647, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30647, 9, 30656, 0, 0) /* Create Drudge Key for ContainTreasure_DestinationType */
-     , (30647, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30647, 9, 30657, 0, 0, 0.01, False) /* Create Drudge Key for ContainTreasure_DestinationType */
+     , (30647, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (30647, 9, 30654, 0, 0, 0.02, False) /* Create Drudge Key for ContainTreasure_DestinationType */
+     , (30647, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (30647, 9, 30655, 0, 0, 0.03, False) /* Create Drudge Key for ContainTreasure_DestinationType */
+     , (30647, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (30647, 9, 30656, 0, 0, 0.04, False) /* Create Drudge Key for ContainTreasure_DestinationType */
+     , (30647, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

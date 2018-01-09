@@ -93,7 +93,7 @@ VALUES (1536, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1536, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1536, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1536, 9, 5789, 0, 0) /* Create Brown Lump for ContainTreasure_DestinationType */
-     , (1536, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1536, 9, 5789, 0, 0, 0.2, False) /* Create Brown Lump for ContainTreasure_DestinationType */
+     , (1536, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

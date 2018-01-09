@@ -90,6 +90,6 @@ VALUES (24052, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24052, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24052, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24052, 2, 11306, 0, 0) /* Create Kalindan of Palenqual for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24052, 2, 11306, 0, 0, 0, False) /* Create Kalindan of Palenqual for Wield_DestinationType */;
 

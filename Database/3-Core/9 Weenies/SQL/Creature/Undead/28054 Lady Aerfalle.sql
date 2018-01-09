@@ -132,25 +132,25 @@ VALUES (28054, 64, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28054, 128, 1700) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28054, 256, 1700) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 28057, 1, 0) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28054, 9, 7380, 0, 0) /* Create Sheets of Paper for ContainTreasure_DestinationType */
-     , (28054, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 28057, 1, 0, 1, False) /* Create Ornate Ashen Key for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (28054, 9, 7380, 0, 0, 1, False) /* Create Sheets of Paper for ContainTreasure_DestinationType */
+     , (28054, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

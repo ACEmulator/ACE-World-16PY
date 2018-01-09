@@ -94,9 +94,9 @@ VALUES (4111, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4111, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4111, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4111, 9, 11688, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (4111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4111, 9, 11689, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (4111, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4111, 9, 11688, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (4111, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (4111, 9, 11689, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (4111, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

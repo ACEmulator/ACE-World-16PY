@@ -94,18 +94,18 @@ VALUES (1829, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1829, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1829, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1829, 2, 130, 0, 14) /* Create Shirt for Wield_DestinationType */
-     , (1829, 2, 117, 0, 17) /* Create Breeches for Wield_DestinationType */
-     , (1829, 2, 115, 0, 16) /* Create Leather Boots for Wield_DestinationType */
-     , (1829, 2, 128, 0, 14) /* Create Qafiya for Wield_DestinationType */
-     , (1829, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1829, 4, 136, -1, 17) /* Create Pack for Shop_DestinationType */
-     , (1829, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (1829, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (1829, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (1829, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (1829, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (1829, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (1829, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1829, 2, 130, 0, 14, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (1829, 2, 117, 0, 17, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (1829, 2, 115, 0, 16, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1829, 2, 128, 0, 14, 0.8, False) /* Create Qafiya for Wield_DestinationType */
+     , (1829, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1829, 4, 136, -1, 17, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1829, 4, 139, -1, 86, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (1829, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (1829, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (1829, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (1829, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (1829, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (1829, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */;
 

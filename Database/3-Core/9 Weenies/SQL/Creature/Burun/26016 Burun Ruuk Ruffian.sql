@@ -92,9 +92,9 @@ VALUES (26016, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26016, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26016, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26016, 9, 28318, 0, 0) /* Create Untranslated Writing for ContainTreasure_DestinationType */
-     , (26016, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (26016, 9, 28984, 0, 0) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (26016, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26016, 9, 28318, 0, 0, 0.02, False) /* Create Untranslated Writing for ContainTreasure_DestinationType */
+     , (26016, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (26016, 9, 28984, 0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
+     , (26016, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

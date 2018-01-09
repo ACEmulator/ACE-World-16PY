@@ -94,32 +94,32 @@ VALUES (1034, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1034, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1034, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1034, 2, 124, 0, 7) /* Create Jerkin for Wield_DestinationType */
-     , (1034, 2, 2598, 0, 17) /* Create Pants for Wield_DestinationType */
-     , (1034, 2, 115, 0, 17) /* Create Leather Boots for Wield_DestinationType */
-     , (1034, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (1034, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (1034, 4, 5136, -1, 0) /* Create Cove Apple Cider for Shop_DestinationType */
-     , (1034, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (1034, 4, 2459, -1, 0) /* Create Kumiss for Shop_DestinationType */
-     , (1034, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (1034, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (1034, 4, 4723, -1, 0) /* Create Fish Kebab for Shop_DestinationType */
-     , (1034, 4, 4730, -1, 0) /* Create Fried Fish Filet for Shop_DestinationType */
-     , (1034, 4, 4726, -1, 0) /* Create Fish Stew for Shop_DestinationType */
-     , (1034, 4, 4740, -1, 0) /* Create Pickled Fish for Shop_DestinationType */
-     , (1034, 4, 26491, -1, 0) /* Create Directions to the al-Luq House for Shop_DestinationType */
-     , (1034, 4, 5163, -1, 0) /* Create Directions to the Sea Temple Catacombs for Shop_DestinationType */
-     , (1034, 4, 26495, -1, 0) /* Create Directions to the Red Rat Lair for Shop_DestinationType */
-     , (1034, 4, 5371, -1, 0) /* Create Directions to the Pillars of the Inner Sea for Shop_DestinationType */
-     , (1034, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (1034, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (1034, 4, 1495, -1, 0) /* Create Armoredillo Lair Directions for Shop_DestinationType */
-     , (1034, 4, 1229, -1, 0) /* Create Yaraq Tunnels Directions for Shop_DestinationType */
-     , (1034, 4, 1510, -1, 0) /* Create Traveler's Rumor for Shop_DestinationType */
-     , (1034, 4, 8209, -1, 0) /* Create Call for Adventurers! for Shop_DestinationType */
-     , (1034, 4, 26493, -1, 0) /* Create Tumerok Camp for Shop_DestinationType */
-     , (1034, 4, 26494, -1, 0) /* Create Undead Encampment for Shop_DestinationType */
-     , (1034, 4, 26496, -1, 0) /* Create North and East Yaraq Outposts for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1034, 2, 124, 0, 7, 0.33, False) /* Create Jerkin for Wield_DestinationType */
+     , (1034, 2, 2598, 0, 17, 1, False) /* Create Pants for Wield_DestinationType */
+     , (1034, 2, 115, 0, 17, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (1034, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1034, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (1034, 4, 5136, -1, 0, 0, False) /* Create Cove Apple Cider for Shop_DestinationType */
+     , (1034, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (1034, 4, 2459, -1, 0, 0, False) /* Create Kumiss for Shop_DestinationType */
+     , (1034, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (1034, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (1034, 4, 4723, -1, 0, 0, False) /* Create Fish Kebab for Shop_DestinationType */
+     , (1034, 4, 4730, -1, 0, 0, False) /* Create Fried Fish Filet for Shop_DestinationType */
+     , (1034, 4, 4726, -1, 0, 0, False) /* Create Fish Stew for Shop_DestinationType */
+     , (1034, 4, 4740, -1, 0, 0, False) /* Create Pickled Fish for Shop_DestinationType */
+     , (1034, 4, 26491, -1, 0, 0, False) /* Create Directions to the al-Luq House for Shop_DestinationType */
+     , (1034, 4, 5163, -1, 0, 0, False) /* Create Directions to the Sea Temple Catacombs for Shop_DestinationType */
+     , (1034, 4, 26495, -1, 0, 0, False) /* Create Directions to the Red Rat Lair for Shop_DestinationType */
+     , (1034, 4, 5371, -1, 0, 0, False) /* Create Directions to the Pillars of the Inner Sea for Shop_DestinationType */
+     , (1034, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (1034, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (1034, 4, 1495, -1, 0, 0, False) /* Create Armoredillo Lair Directions for Shop_DestinationType */
+     , (1034, 4, 1229, -1, 0, 0, False) /* Create Yaraq Tunnels Directions for Shop_DestinationType */
+     , (1034, 4, 1510, -1, 0, 0, False) /* Create Traveler's Rumor for Shop_DestinationType */
+     , (1034, 4, 8209, -1, 0, 0, False) /* Create Call for Adventurers! for Shop_DestinationType */
+     , (1034, 4, 26493, -1, 0, 0, False) /* Create Tumerok Camp for Shop_DestinationType */
+     , (1034, 4, 26494, -1, 0, 0, False) /* Create Undead Encampment for Shop_DestinationType */
+     , (1034, 4, 26496, -1, 0, 0, False) /* Create North and East Yaraq Outposts for Shop_DestinationType */;
 

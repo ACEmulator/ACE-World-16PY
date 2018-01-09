@@ -86,10 +86,10 @@ VALUES (185, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (185, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (185, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (185, 8, 273, 20, 0) /* Create Pyreal for Treasure_DestinationType */
-     , (185, 2, 306, 0, 0) /* Create Longbow for Wield_DestinationType */
-     , (185, 2, 300, 30, 0) /* Create Arrow for Wield_DestinationType */
-     , (185, 8, 329, 0, 0) /* Create Knife for Treasure_DestinationType */
-     , (185, 8, 44, 0, 0) /* Create Buckler for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (185, 8, 273, 20, 0, 0.5, False) /* Create Pyreal for Treasure_DestinationType */
+     , (185, 2, 306, 0, 0, 1, False) /* Create Longbow for Wield_DestinationType */
+     , (185, 2, 300, 30, 0, 1, False) /* Create Arrow for Wield_DestinationType */
+     , (185, 8, 329, 0, 0, 0, False) /* Create Knife for Treasure_DestinationType */
+     , (185, 8, 44, 0, 0, 0, False) /* Create Buckler for Treasure_DestinationType */;
 

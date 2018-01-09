@@ -129,6 +129,6 @@ VALUES (9380, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9380, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9380, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9380, 9, 9385, 0, 0) /* Create Virindi Envoy's Obsidian Shard for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9380, 9, 9385, 0, 0, 1, False) /* Create Virindi Envoy's Obsidian Shard for ContainTreasure_DestinationType */;
 

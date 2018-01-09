@@ -88,6 +88,6 @@ VALUES (6781, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6781, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6781, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (6781, 2, 5914, 0, 0) /* Create Suikan Item Master Robe for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (6781, 2, 5914, 0, 0, 0.5, False) /* Create Suikan Item Master Robe for Wield_DestinationType */;
 

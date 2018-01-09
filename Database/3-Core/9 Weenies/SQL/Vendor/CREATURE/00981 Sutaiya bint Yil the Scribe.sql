@@ -94,28 +94,28 @@ VALUES (981, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (981, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (981, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (981, 2, 134, 0, 9) /* Create Tunic for Wield_DestinationType */
-     , (981, 2, 127, 0, 1) /* Create Pants for Wield_DestinationType */
-     , (981, 2, 133, 0, 1) /* Create Slippers for Wield_DestinationType */
-     , (981, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (981, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (981, 4, 364, -1, 0) /* Create Book for Shop_DestinationType */
-     , (981, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (981, 4, 367, -1, 0) /* Create Tome for Shop_DestinationType */
-     , (981, 4, 9118, -1, 0) /* Create Puppet Show for Shop_DestinationType */
-     , (981, 4, 9124, -1, 0) /* Create The Beginning for Shop_DestinationType */
-     , (981, 4, 27851, -1, 0) /* Create The Weapons of the Singularity for Shop_DestinationType */
-     , (981, 4, 9319, -1, 0) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
-     , (981, 4, 1507, -1, 0) /* Create Legend of the Halls of Helm for Shop_DestinationType */
-     , (981, 4, 1495, -1, 0) /* Create Armoredillo Lair Directions for Shop_DestinationType */
-     , (981, 4, 4209, -1, 0) /* Create Dungeon Binar Directions for Shop_DestinationType */
-     , (981, 4, 5602, -1, 0) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
-     , (981, 4, 6419, -1, 0) /* Create The Meeting Halls for Shop_DestinationType */
-     , (981, 4, 5584, -1, 0) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
-     , (981, 4, 5856, -1, 0) /* Create Specialty Cookbook for Shop_DestinationType */
-     , (981, 4, 7884, -1, 0) /* Create Chocolate Cookbook for Shop_DestinationType */
-     , (981, 4, 14797, -1, 0) /* Create Festival Cookbook for Shop_DestinationType */
-     , (981, 4, 5586, -1, 0) /* Create Alchemy Guide for Shop_DestinationType */
-     , (981, 4, 5587, -1, 0) /* Create Fletching Guide for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (981, 2, 134, 0, 9, 0, False) /* Create Tunic for Wield_DestinationType */
+     , (981, 2, 127, 0, 1, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (981, 2, 133, 0, 1, 0.67, False) /* Create Slippers for Wield_DestinationType */
+     , (981, 2, 135, 0, 9, 0.5, False) /* Create Turban for Wield_DestinationType */
+     , (981, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (981, 4, 364, -1, 0, 0, False) /* Create Book for Shop_DestinationType */
+     , (981, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (981, 4, 367, -1, 0, 0, False) /* Create Tome for Shop_DestinationType */
+     , (981, 4, 9118, -1, 0, 0, False) /* Create Puppet Show for Shop_DestinationType */
+     , (981, 4, 9124, -1, 0, 0, False) /* Create The Beginning for Shop_DestinationType */
+     , (981, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity for Shop_DestinationType */
+     , (981, 4, 9319, -1, 0, 0, False) /* Create Mnemosynes and the Art of Lockpicking for Shop_DestinationType */
+     , (981, 4, 1507, -1, 0, 0, False) /* Create Legend of the Halls of Helm for Shop_DestinationType */
+     , (981, 4, 1495, -1, 0, 0, False) /* Create Armoredillo Lair Directions for Shop_DestinationType */
+     , (981, 4, 4209, -1, 0, 0, False) /* Create Dungeon Binar Directions for Shop_DestinationType */
+     , (981, 4, 5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean for Shop_DestinationType */
+     , (981, 4, 6419, -1, 0, 0, False) /* Create The Meeting Halls for Shop_DestinationType */
+     , (981, 4, 5584, -1, 0, 0, False) /* Create Gharu'ndim Cookbook for Shop_DestinationType */
+     , (981, 4, 5856, -1, 0, 0, False) /* Create Specialty Cookbook for Shop_DestinationType */
+     , (981, 4, 7884, -1, 0, 0, False) /* Create Chocolate Cookbook for Shop_DestinationType */
+     , (981, 4, 14797, -1, 0, 0, False) /* Create Festival Cookbook for Shop_DestinationType */
+     , (981, 4, 5586, -1, 0, 0, False) /* Create Alchemy Guide for Shop_DestinationType */
+     , (981, 4, 5587, -1, 0, 0, False) /* Create Fletching Guide for Shop_DestinationType */;
 

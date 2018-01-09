@@ -112,17 +112,17 @@ VALUES (11316, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11316, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11316, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11316, 9, 11320, 0, 0) /* Create Vault Key for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11316, 9, 11320, 0, 0) /* Create Vault Key for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11316, 9, 11320, 0, 0) /* Create Vault Key for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11316, 9, 11320, 0, 0) /* Create Vault Key for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11316, 9, 11320, 0, 0) /* Create Vault Key for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11316, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (11316, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11316, 9, 11320, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11316, 9, 11320, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11316, 9, 11320, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11316, 9, 11320, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11316, 9, 11320, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (11316, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (11316, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

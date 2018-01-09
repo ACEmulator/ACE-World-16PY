@@ -94,17 +94,17 @@ VALUES (1042, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1042, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1042, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1042, 2, 130, 0, 7) /* Create Shirt for Wield_DestinationType */
-     , (1042, 2, 2600, 0, 7) /* Create Pantaloons for Wield_DestinationType */
-     , (1042, 2, 133, 0, 7) /* Create Slippers for Wield_DestinationType */
-     , (1042, 2, 128, 0, 17) /* Create Qafiya for Wield_DestinationType */
-     , (1042, 2, 10696, 0, 17) /* Create Apron for Wield_DestinationType */
-     , (1042, 4, 295, -1, 0) /* Create Bracelet for Shop_DestinationType */
-     , (1042, 4, 297, -1, 0) /* Create Ring for Shop_DestinationType */
-     , (1042, 4, 2416, -1, 0) /* Create Malachite for Shop_DestinationType */
-     , (1042, 4, 2413, -1, 0) /* Create Agate for Shop_DestinationType */
-     , (1042, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (1042, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (1042, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1042, 2, 130, 0, 7, 0.33, False) /* Create Shirt for Wield_DestinationType */
+     , (1042, 2, 2600, 0, 7, 0.33, False) /* Create Pantaloons for Wield_DestinationType */
+     , (1042, 2, 133, 0, 7, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (1042, 2, 128, 0, 17, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (1042, 2, 10696, 0, 17, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1042, 4, 295, -1, 0, 0, False) /* Create Bracelet for Shop_DestinationType */
+     , (1042, 4, 297, -1, 0, 0, False) /* Create Ring for Shop_DestinationType */
+     , (1042, 4, 2416, -1, 0, 0, False) /* Create Malachite for Shop_DestinationType */
+     , (1042, 4, 2413, -1, 0, 0, False) /* Create Agate for Shop_DestinationType */
+     , (1042, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (1042, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (1042, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

@@ -94,26 +94,26 @@ VALUES (11967, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11967, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11967, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11967, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (11967, 2, 117, 0, 18) /* Create Breeches for Wield_DestinationType */
-     , (11967, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (11967, 2, 128, 0, 10) /* Create Qafiya for Wield_DestinationType */
-     , (11967, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (11967, 4, 11930, -1, 0) /* Create Arcane Pedestal for Shop_DestinationType */
-     , (11967, 4, 11931, -1, 0) /* Create Dereth Map for Shop_DestinationType */
-     , (11967, 4, 11932, -1, 0) /* Create Ornate Fountain for Shop_DestinationType */
-     , (11967, 4, 11933, -1, 0) /* Create Garden Drudge for Shop_DestinationType */
-     , (11967, 4, 11149, -1, 0) /* Create Head of the Olthoi Queen for Shop_DestinationType */
-     , (11967, 4, 11935, -1, 0) /* Create A Horn of Vigilance for Shop_DestinationType */
-     , (11967, 4, 11937, -1, 0) /* Create Ursuin Rug for Shop_DestinationType */
-     , (11967, 4, 272, -1, 0) /* Create Chair for Shop_DestinationType */
-     , (11967, 4, 268, -1, 0) /* Create Bench for Shop_DestinationType */
-     , (11967, 4, 253, -1, 0) /* Create Stool for Shop_DestinationType */
-     , (11967, 4, 276, -1, 0) /* Create Desk for Shop_DestinationType */
-     , (11967, 4, 274, -1, 0) /* Create Couch for Shop_DestinationType */
-     , (11967, 4, 247, -1, 0) /* Create Outcast for Shop_DestinationType */
-     , (11967, 4, 248, -1, 0) /* Create Olthoi Enslavement for Shop_DestinationType */
-     , (11967, 4, 249, -1, 0) /* Create Into the Unknown for Shop_DestinationType */
-     , (11967, 4, 250, -1, 0) /* Create The Studious Mind for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11967, 2, 130, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (11967, 2, 117, 0, 18, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (11967, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (11967, 2, 128, 0, 10, 1, False) /* Create Qafiya for Wield_DestinationType */
+     , (11967, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (11967, 4, 11930, -1, 0, 0, False) /* Create Arcane Pedestal for Shop_DestinationType */
+     , (11967, 4, 11931, -1, 0, 0, False) /* Create Dereth Map for Shop_DestinationType */
+     , (11967, 4, 11932, -1, 0, 0, False) /* Create Ornate Fountain for Shop_DestinationType */
+     , (11967, 4, 11933, -1, 0, 0, False) /* Create Garden Drudge for Shop_DestinationType */
+     , (11967, 4, 11149, -1, 0, 0, False) /* Create Head of the Olthoi Queen for Shop_DestinationType */
+     , (11967, 4, 11935, -1, 0, 0, False) /* Create A Horn of Vigilance for Shop_DestinationType */
+     , (11967, 4, 11937, -1, 0, 0, False) /* Create Ursuin Rug for Shop_DestinationType */
+     , (11967, 4, 272, -1, 0, 0, False) /* Create Chair for Shop_DestinationType */
+     , (11967, 4, 268, -1, 0, 0, False) /* Create Bench for Shop_DestinationType */
+     , (11967, 4, 253, -1, 0, 0, False) /* Create Stool for Shop_DestinationType */
+     , (11967, 4, 276, -1, 0, 0, False) /* Create Desk for Shop_DestinationType */
+     , (11967, 4, 274, -1, 0, 0, False) /* Create Couch for Shop_DestinationType */
+     , (11967, 4, 247, -1, 0, 0, False) /* Create Outcast for Shop_DestinationType */
+     , (11967, 4, 248, -1, 0, 0, False) /* Create Olthoi Enslavement for Shop_DestinationType */
+     , (11967, 4, 249, -1, 0, 0, False) /* Create Into the Unknown for Shop_DestinationType */
+     , (11967, 4, 250, -1, 0, 0, False) /* Create The Studious Mind for Shop_DestinationType */;
 

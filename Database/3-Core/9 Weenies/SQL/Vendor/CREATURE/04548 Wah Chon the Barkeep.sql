@@ -94,24 +94,24 @@ VALUES (4548, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4548, 128, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4548, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4548, 2, 130, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (4548, 2, 127, 0, 16) /* Create Pants for Wield_DestinationType */
-     , (4548, 2, 132, 0, 16) /* Create Shoes for Wield_DestinationType */
-     , (4548, 2, 118, 0, 13) /* Create Cap for Wield_DestinationType */
-     , (4548, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4548, 4, 4731, -1, 0) /* Create Fried Mushroom for Shop_DestinationType */
-     , (4548, 4, 4729, -1, 0) /* Create Fried Egg for Shop_DestinationType */
-     , (4548, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (4548, 4, 4738, -1, 0) /* Create Mushroom Rice for Shop_DestinationType */
-     , (4548, 4, 23126, -1, 0) /* Create Wah Chon's Winter Lager for Shop_DestinationType */
-     , (4548, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (4548, 4, 2468, -1, 0) /* Create Sake for Shop_DestinationType */
-     , (4548, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (4548, 4, 2456, -1, 0) /* Create Green Tea for Shop_DestinationType */
-     , (4548, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4548, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (4548, 4, 5002, -1, 0) /* Create Nanto Portal Directions for Shop_DestinationType */
-     , (4548, 4, 5005, -1, 0) /* Create Empyrean Garrison Directions for Shop_DestinationType */
-     , (4548, 4, 24223, -1, 0) /* Create A Sparking Stone for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4548, 2, 130, 0, 18, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4548, 2, 127, 0, 16, 1, False) /* Create Pants for Wield_DestinationType */
+     , (4548, 2, 132, 0, 16, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (4548, 2, 118, 0, 13, 0.67, False) /* Create Cap for Wield_DestinationType */
+     , (4548, 2, 10696, 0, 4, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (4548, 4, 4731, -1, 0, 0, False) /* Create Fried Mushroom for Shop_DestinationType */
+     , (4548, 4, 4729, -1, 0, 0, False) /* Create Fried Egg for Shop_DestinationType */
+     , (4548, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (4548, 4, 4738, -1, 0, 0, False) /* Create Mushroom Rice for Shop_DestinationType */
+     , (4548, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager for Shop_DestinationType */
+     , (4548, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (4548, 4, 2468, -1, 0, 0, False) /* Create Sake for Shop_DestinationType */
+     , (4548, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (4548, 4, 2456, -1, 0, 0, False) /* Create Green Tea for Shop_DestinationType */
+     , (4548, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4548, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (4548, 4, 5002, -1, 0, 0, False) /* Create Nanto Portal Directions for Shop_DestinationType */
+     , (4548, 4, 5005, -1, 0, 0, False) /* Create Empyrean Garrison Directions for Shop_DestinationType */
+     , (4548, 4, 24223, -1, 0, 0, False) /* Create A Sparking Stone for Shop_DestinationType */;
 

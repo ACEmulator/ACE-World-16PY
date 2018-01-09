@@ -94,24 +94,24 @@ VALUES (821, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (821, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (821, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (821, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (821, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (821, 2, 132, 0, 9) /* Create Shoes for Wield_DestinationType */
-     , (821, 2, 118, 0, 14) /* Create Cap for Wield_DestinationType */
-     , (821, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (821, 4, 2587, -1, 4) /* Create Shirt for Shop_DestinationType */
-     , (821, 4, 2602, -1, 9) /* Create Breeches for Shop_DestinationType */
-     , (821, 4, 118, -1, 9) /* Create Cap for Shop_DestinationType */
-     , (821, 4, 132, -1, 6) /* Create Shoes for Shop_DestinationType */
-     , (821, 4, 5854, -1, 0) /* Create Suikan Robe for Shop_DestinationType */
-     , (821, 4, 5901, -1, 0) /* Create Kasa for Shop_DestinationType */
-     , (821, 4, 8372, -1, 9) /* Create Yifan Dress for Shop_DestinationType */
-     , (821, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (821, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (821, 4, 9295, -1, 0) /* Create Intricate Carving Tool for Shop_DestinationType */
-     , (821, 4, 20646, -1, 0) /* Create Ust for Shop_DestinationType */
-     , (821, 4, 21093, -1, 0) /* Create Tinkering for Shop_DestinationType */
-     , (821, 4, 23044, -1, 0) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
-     , (821, 4, 23204, -1, 0) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (821, 2, 130, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
+     , (821, 2, 127, 0, 9, 0, False) /* Create Pants for Wield_DestinationType */
+     , (821, 2, 132, 0, 9, 0.5, False) /* Create Shoes for Wield_DestinationType */
+     , (821, 2, 118, 0, 14, 0.8, False) /* Create Cap for Wield_DestinationType */
+     , (821, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (821, 4, 2587, -1, 4, 0.5, False) /* Create Shirt for Shop_DestinationType */
+     , (821, 4, 2602, -1, 9, 0.3, False) /* Create Breeches for Shop_DestinationType */
+     , (821, 4, 118, -1, 9, 0.8, False) /* Create Cap for Shop_DestinationType */
+     , (821, 4, 132, -1, 6, 0.1, False) /* Create Shoes for Shop_DestinationType */
+     , (821, 4, 5854, -1, 0, 0, False) /* Create Suikan Robe for Shop_DestinationType */
+     , (821, 4, 5901, -1, 0, 0, False) /* Create Kasa for Shop_DestinationType */
+     , (821, 4, 8372, -1, 9, 1, False) /* Create Yifan Dress for Shop_DestinationType */
+     , (821, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (821, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (821, 4, 9295, -1, 0, 0, False) /* Create Intricate Carving Tool for Shop_DestinationType */
+     , (821, 4, 20646, -1, 0, 0, False) /* Create Ust for Shop_DestinationType */
+     , (821, 4, 21093, -1, 0, 0, False) /* Create Tinkering for Shop_DestinationType */
+     , (821, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory for Shop_DestinationType */
+     , (821, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings for Shop_DestinationType */;
 

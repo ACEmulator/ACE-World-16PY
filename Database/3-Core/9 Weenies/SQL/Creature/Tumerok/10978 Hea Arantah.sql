@@ -90,6 +90,6 @@ VALUES (10978, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10978, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10978, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10978, 2, 254, 0, 0) /* Create Stoup for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10978, 2, 254, 0, 0, 0, False) /* Create Stoup for Wield_DestinationType */;
 

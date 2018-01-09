@@ -94,22 +94,22 @@ VALUES (1053, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1053, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1053, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1053, 2, 134, 0, 14) /* Create Tunic for Wield_DestinationType */
-     , (1053, 2, 127, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (1053, 2, 133, 0, 14) /* Create Slippers for Wield_DestinationType */
-     , (1053, 2, 128, 0, 9) /* Create Qafiya for Wield_DestinationType */
-     , (1053, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (1053, 4, 138, -1, 85) /* Create Belt Pouch for Shop_DestinationType */
-     , (1053, 4, 139, -1, 85) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (1053, 4, 136, -1, 14) /* Create Pack for Shop_DestinationType */
-     , (1053, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (1053, 4, 260, -1, 0) /* Create Cabbage for Shop_DestinationType */
-     , (1053, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */
-     , (1053, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (1053, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (1053, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (1053, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (1053, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (1053, 4, 4767, -1, 0) /* Create Skewer for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1053, 2, 134, 0, 14, 0.8, False) /* Create Tunic for Wield_DestinationType */
+     , (1053, 2, 127, 0, 9, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (1053, 2, 133, 0, 14, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (1053, 2, 128, 0, 9, 0, False) /* Create Qafiya for Wield_DestinationType */
+     , (1053, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (1053, 4, 138, -1, 85, 1, False) /* Create Belt Pouch for Shop_DestinationType */
+     , (1053, 4, 139, -1, 85, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (1053, 4, 136, -1, 14, 1, False) /* Create Pack for Shop_DestinationType */
+     , (1053, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (1053, 4, 260, -1, 0, 0, False) /* Create Cabbage for Shop_DestinationType */
+     , (1053, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */
+     , (1053, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (1053, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (1053, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (1053, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (1053, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (1053, 4, 4767, -1, 0, 0, False) /* Create Skewer for Shop_DestinationType */;
 

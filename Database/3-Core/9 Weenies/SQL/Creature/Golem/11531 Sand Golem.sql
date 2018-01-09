@@ -95,9 +95,9 @@ VALUES (11531, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11531, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11531, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11531, 9, 6353, 0, 0) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (11531, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (11531, 9, 11352, 0, 0) /* Create Sand Golem Heart for ContainTreasure_DestinationType */
-     , (11531, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11531, 9, 6353, 0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
+     , (11531, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (11531, 9, 11352, 0, 0, 0.05, False) /* Create Sand Golem Heart for ContainTreasure_DestinationType */
+     , (11531, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

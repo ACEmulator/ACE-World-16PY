@@ -91,7 +91,7 @@ VALUES (11879, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11879, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11879, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11879, 9, 11789, 0, 0) /* Create Serpent Banner for ContainTreasure_DestinationType */
-     , (11879, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11879, 9, 11789, 0, 0, 0.05, False) /* Create Serpent Banner for ContainTreasure_DestinationType */
+     , (11879, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

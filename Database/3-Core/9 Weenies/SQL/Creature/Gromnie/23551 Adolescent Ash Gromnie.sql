@@ -91,17 +91,17 @@ VALUES (23551, 64, 4840) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23551, 128, 4680) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23551, 256, 1820) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23551, 9, 28192, 0, 0) /* Create Adolescent Ash Gromnie Eye for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23551, 9, 28211, 0, 0) /* Create Ash Gromnie Wings for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23551, 9, 3674, 0, 0) /* Create Ash Gromnie Tooth for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23551, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23551, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23551, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (23551, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23551, 9, 28192, 0, 0, 0.03, False) /* Create Adolescent Ash Gromnie Eye for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23551, 9, 28211, 0, 0, 0.03, False) /* Create Ash Gromnie Wings for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23551, 9, 3674, 0, 0, 0.25, False) /* Create Ash Gromnie Tooth for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
+     , (23551, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (23551, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (23551, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (23551, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

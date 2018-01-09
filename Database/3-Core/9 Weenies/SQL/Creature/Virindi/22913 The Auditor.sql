@@ -115,53 +115,53 @@ VALUES (22913, 64, 550) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22913, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22913, 256, 520) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22913, 9, 7604, 0, 0) /* Create Yellow Jewel for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 9292, 0, 0) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22926, 0, 0) /* Create Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 22923, 0, 0) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22913, 9, 25946, 0, 0) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
-     , (22913, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22913, 9, 7604, 0, 0, 0.1, False) /* Create Yellow Jewel for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 6876, 0, 0, 0.1, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 9292, 0, 0, 0.03, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22926, 0, 0, 1, False) /* Create Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 22923, 0, 0, 1, False) /* Create Asylum Chest Key for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (22913, 9, 25946, 0, 0, 1, False) /* Create Dark Sapphire Ring for ContainTreasure_DestinationType */
+     , (22913, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

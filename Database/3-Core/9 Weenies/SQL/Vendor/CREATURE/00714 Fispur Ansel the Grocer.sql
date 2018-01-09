@@ -94,17 +94,17 @@ VALUES (714, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (714, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (714, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (714, 2, 130, 0, 8) /* Create Shirt for Wield_DestinationType */
-     , (714, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (714, 2, 132, 0, 18) /* Create Shoes for Wield_DestinationType */
-     , (714, 2, 118, 0, 8) /* Create Cap for Wield_DestinationType */
-     , (714, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (714, 4, 136, -1, 8) /* Create Pack for Shop_DestinationType */
-     , (714, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (714, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (714, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (714, 4, 30734, -1, 0) /* Create Bowl of Black-Eyed Peas for Shop_DestinationType */
-     , (714, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (714, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (714, 2, 130, 0, 8, 0.67, False) /* Create Shirt for Wield_DestinationType */
+     , (714, 2, 127, 0, 7, 0.33, False) /* Create Pants for Wield_DestinationType */
+     , (714, 2, 132, 0, 18, 1, False) /* Create Shoes for Wield_DestinationType */
+     , (714, 2, 118, 0, 8, 0, False) /* Create Cap for Wield_DestinationType */
+     , (714, 2, 10696, 0, 9, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (714, 4, 136, -1, 8, 1, False) /* Create Pack for Shop_DestinationType */
+     , (714, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (714, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (714, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (714, 4, 30734, -1, 0, 0, False) /* Create Bowl of Black-Eyed Peas for Shop_DestinationType */
+     , (714, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (714, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 

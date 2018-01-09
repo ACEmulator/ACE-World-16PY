@@ -128,8 +128,8 @@ VALUES (8518, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8518, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8518, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8518, 1, 8521, 0, 0) /* Create Snapped Silver Key for Contain_DestinationType */
-     , (8518, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (8518, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8518, 1, 8521, 0, 0, 1, False) /* Create Snapped Silver Key for Contain_DestinationType */
+     , (8518, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (8518, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

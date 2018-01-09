@@ -95,31 +95,31 @@ VALUES (11377, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11377, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11377, 256, 45) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11377, 4, 2464, -1, 0) /* Create Orange Juice for Shop_DestinationType */
-     , (11377, 4, 2465, -1, 0) /* Create Palm Wine for Shop_DestinationType */
-     , (11377, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (11377, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (11377, 4, 2454, -1, 0) /* Create Coffee for Shop_DestinationType */
-     , (11377, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (11377, 4, 2462, -1, 0) /* Create Mead for Shop_DestinationType */
-     , (11377, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (11377, 4, 4712, -1, 0) /* Create Beef Rice for Shop_DestinationType */
-     , (11377, 4, 4723, -1, 0) /* Create Fish Kebab for Shop_DestinationType */
-     , (11377, 4, 4718, -1, 0) /* Create Chicken Rice for Shop_DestinationType */
-     , (11377, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (11377, 4, 27596, -1, 0) /* Create Hea Toneawa for Shop_DestinationType */
-     , (11377, 4, 27597, -1, 0) /* Create Hea Riketura for Shop_DestinationType */
-     , (11377, 4, 27598, -1, 0) /* Create Aun Enemies for Shop_DestinationType */
-     , (11377, 4, 27599, -1, 0) /* Create Palenqual's Caverns for Shop_DestinationType */
-     , (11377, 4, 27600, -1, 0) /* Create Leaving Palenqual for Shop_DestinationType */
-     , (11377, 4, 27601, -1, 0) /* Create Hea Arantah for Shop_DestinationType */
-     , (11377, 4, 27602, -1, 0) /* Create The Tah of Ahurenga for Shop_DestinationType */
-     , (11377, 4, 27603, -1, 0) /* Create Hea Tuperea's Reedsharks for Shop_DestinationType */
-     , (11377, 4, 27604, -1, 0) /* Create Aun Ralirea for Shop_DestinationType */
-     , (11377, 4, 27605, -1, 0) /* Create The One Named Lilitha for Shop_DestinationType */
-     , (11377, 4, 27606, -1, 0) /* Create Atual Arutoa for Shop_DestinationType */
-     , (11377, 4, 27607, -1, 0) /* Create The Children of Wharu for Shop_DestinationType */
-     , (11377, 4, 27608, -1, 0) /* Create The Aun Menhir Rings for Shop_DestinationType */
-     , (11377, 4, 27609, -1, 0) /* Create Wharu for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11377, 4, 2464, -1, 0, 0, False) /* Create Orange Juice for Shop_DestinationType */
+     , (11377, 4, 2465, -1, 0, 0, False) /* Create Palm Wine for Shop_DestinationType */
+     , (11377, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (11377, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (11377, 4, 2454, -1, 0, 0, False) /* Create Coffee for Shop_DestinationType */
+     , (11377, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (11377, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */
+     , (11377, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (11377, 4, 4712, -1, 0, 0, False) /* Create Beef Rice for Shop_DestinationType */
+     , (11377, 4, 4723, -1, 0, 0, False) /* Create Fish Kebab for Shop_DestinationType */
+     , (11377, 4, 4718, -1, 0, 0, False) /* Create Chicken Rice for Shop_DestinationType */
+     , (11377, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (11377, 4, 27596, -1, 0, 0, False) /* Create Hea Toneawa for Shop_DestinationType */
+     , (11377, 4, 27597, -1, 0, 0, False) /* Create Hea Riketura for Shop_DestinationType */
+     , (11377, 4, 27598, -1, 0, 0, False) /* Create Aun Enemies for Shop_DestinationType */
+     , (11377, 4, 27599, -1, 0, 0, False) /* Create Palenqual's Caverns for Shop_DestinationType */
+     , (11377, 4, 27600, -1, 0, 0, False) /* Create Leaving Palenqual for Shop_DestinationType */
+     , (11377, 4, 27601, -1, 0, 0, False) /* Create Hea Arantah for Shop_DestinationType */
+     , (11377, 4, 27602, -1, 0, 0, False) /* Create The Tah of Ahurenga for Shop_DestinationType */
+     , (11377, 4, 27603, -1, 0, 0, False) /* Create Hea Tuperea's Reedsharks for Shop_DestinationType */
+     , (11377, 4, 27604, -1, 0, 0, False) /* Create Aun Ralirea for Shop_DestinationType */
+     , (11377, 4, 27605, -1, 0, 0, False) /* Create The One Named Lilitha for Shop_DestinationType */
+     , (11377, 4, 27606, -1, 0, 0, False) /* Create Atual Arutoa for Shop_DestinationType */
+     , (11377, 4, 27607, -1, 0, 0, False) /* Create The Children of Wharu for Shop_DestinationType */
+     , (11377, 4, 27608, -1, 0, 0, False) /* Create The Aun Menhir Rings for Shop_DestinationType */
+     , (11377, 4, 27609, -1, 0, 0, False) /* Create Wharu for Shop_DestinationType */;
 

@@ -109,9 +109,9 @@ VALUES (25849, 64, 9775) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25849, 128, 9550) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25849, 256, 7700) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25849, 9, 25904, 1, 0) /* Create Atakir's Blade for ContainTreasure_DestinationType */
-     , (25849, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25849, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25849, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25849, 9, 25904, 1, 0, 1, False) /* Create Atakir's Blade for ContainTreasure_DestinationType */
+     , (25849, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (25849, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25849, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

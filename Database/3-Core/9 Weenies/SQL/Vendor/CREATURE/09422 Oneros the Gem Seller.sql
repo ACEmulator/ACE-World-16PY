@@ -100,14 +100,14 @@ VALUES (9422, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9422, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9422, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9422, 4, 9425, -1, 0) /* Create Acid Emerald for Shop_DestinationType */
-     , (9422, 4, 9426, -1, 0) /* Create Armor Diamond for Shop_DestinationType */
-     , (9422, 4, 9427, -1, 0) /* Create Force Opal for Shop_DestinationType */
-     , (9422, 4, 9428, -1, 0) /* Create Cold Moonstone for Shop_DestinationType */
-     , (9422, 4, 9429, -1, 0) /* Create Fire Ruby for Shop_DestinationType */
-     , (9422, 4, 9430, -1, 0) /* Create Lightning Sapphire for Shop_DestinationType */
-     , (9422, 4, 9431, -1, 0) /* Create Thorned Garnet for Shop_DestinationType */
-     , (9422, 4, 9432, -1, 0) /* Create Sharp Topaz for Shop_DestinationType */
-     , (9422, 4, 9474, -1, 0) /* Create Calm Strength for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9422, 4, 9425, -1, 0, 0, False) /* Create Acid Emerald for Shop_DestinationType */
+     , (9422, 4, 9426, -1, 0, 0, False) /* Create Armor Diamond for Shop_DestinationType */
+     , (9422, 4, 9427, -1, 0, 0, False) /* Create Force Opal for Shop_DestinationType */
+     , (9422, 4, 9428, -1, 0, 0, False) /* Create Cold Moonstone for Shop_DestinationType */
+     , (9422, 4, 9429, -1, 0, 0, False) /* Create Fire Ruby for Shop_DestinationType */
+     , (9422, 4, 9430, -1, 0, 0, False) /* Create Lightning Sapphire for Shop_DestinationType */
+     , (9422, 4, 9431, -1, 0, 0, False) /* Create Thorned Garnet for Shop_DestinationType */
+     , (9422, 4, 9432, -1, 0, 0, False) /* Create Sharp Topaz for Shop_DestinationType */
+     , (9422, 4, 9474, -1, 0, 0, False) /* Create Calm Strength for Shop_DestinationType */;
 

@@ -89,9 +89,9 @@ VALUES (23624, 64, 1) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23624, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23624, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23624, 9, 23888, 0, 0) /* Create Ulgrim's Golden Key for ContainTreasure_DestinationType */
-     , (23624, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (23624, 9, 261, 0, 0) /* Create Cheese for ContainTreasure_DestinationType */
-     , (23624, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23624, 9, 23888, 0, 0, 0.02, False) /* Create Ulgrim's Golden Key for ContainTreasure_DestinationType */
+     , (23624, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (23624, 9, 261, 0, 0, 0.01, False) /* Create Cheese for ContainTreasure_DestinationType */
+     , (23624, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

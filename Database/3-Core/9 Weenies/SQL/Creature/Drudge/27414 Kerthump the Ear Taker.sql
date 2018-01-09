@@ -106,14 +106,14 @@ VALUES (27414, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27414, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27414, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27414, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (27414, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27414, 9, 7040, 0, 0) /* Create Ravener Guts for ContainTreasure_DestinationType */
-     , (27414, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27414, 9, 7825, 0, 0) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (27414, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27414, 9, 15768, 0, 0) /* Create Ruined Amulet of the Mace for ContainTreasure_DestinationType */
-     , (27414, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27414, 9, 27407, 0, 0) /* Create Drudge Championship Belt for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27414, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (27414, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (27414, 9, 7040, 0, 0, 0.03, False) /* Create Ravener Guts for ContainTreasure_DestinationType */
+     , (27414, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27414, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
+     , (27414, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (27414, 9, 15768, 0, 0, 0.02, False) /* Create Ruined Amulet of the Mace for ContainTreasure_DestinationType */
+     , (27414, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (27414, 9, 27407, 0, 0, 1, False) /* Create Drudge Championship Belt for ContainTreasure_DestinationType */;
 

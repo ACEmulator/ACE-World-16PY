@@ -111,14 +111,14 @@ VALUES (1523, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1523, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1523, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1523, 9, 1532, 0, 0) /* Create The Baron's Key for ContainTreasure_DestinationType */
-     , (1523, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1523, 9, 1538, 0, 0) /* Create Scratched Key for ContainTreasure_DestinationType */
-     , (1523, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (1523, 10, 331, 0, 0) /* Create Mace for WieldTreasure_DestinationType */
-     , (1523, 10, 5753, 0, 0) /* Create Pickaxe for WieldTreasure_DestinationType */
-     , (1523, 10, 352, 0, 0) /* Create Short Sword for WieldTreasure_DestinationType */
-     , (1523, 10, 301, 0, 0) /* Create Battle Axe for WieldTreasure_DestinationType */
-     , (1523, 10, 4190, 0, 0) /* Create Cestus for WieldTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1523, 9, 1532, 0, 0, 1, False) /* Create The Baron's Key for ContainTreasure_DestinationType */
+     , (1523, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (1523, 9, 1538, 0, 0, 1, False) /* Create Scratched Key for ContainTreasure_DestinationType */
+     , (1523, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (1523, 10, 331, 0, 0, 0.1, False) /* Create Mace for WieldTreasure_DestinationType */
+     , (1523, 10, 5753, 0, 0, 0.1, False) /* Create Pickaxe for WieldTreasure_DestinationType */
+     , (1523, 10, 352, 0, 0, 0.1, False) /* Create Short Sword for WieldTreasure_DestinationType */
+     , (1523, 10, 301, 0, 0, 0.1, False) /* Create Battle Axe for WieldTreasure_DestinationType */
+     , (1523, 10, 4190, 0, 0, 0.1, False) /* Create Cestus for WieldTreasure_DestinationType */;
 

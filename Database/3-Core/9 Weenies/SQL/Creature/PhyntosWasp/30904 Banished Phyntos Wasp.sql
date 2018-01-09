@@ -97,8 +97,8 @@ VALUES (30904, 64, 375) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30904, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30904, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30904, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (30904, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30904, 9, 30879, 0, 0) /* Create Banished Crossbow for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30904, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (30904, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (30904, 9, 30879, 0, 0, 1, False) /* Create Banished Crossbow for ContainTreasure_DestinationType */;
 

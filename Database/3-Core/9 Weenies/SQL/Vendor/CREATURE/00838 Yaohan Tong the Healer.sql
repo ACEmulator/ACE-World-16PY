@@ -98,49 +98,49 @@ VALUES (838, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (838, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (838, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (838, 2, 2596, 0, 13) /* Create Doublet for Wield_DestinationType */
-     , (838, 2, 2597, 0, 9) /* Create Pants for Wield_DestinationType */
-     , (838, 2, 132, 0, 5) /* Create Shoes for Wield_DestinationType */
-     , (838, 2, 10696, 0, 15) /* Create Apron for Wield_DestinationType */
-     , (838, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (838, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (838, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (838, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (838, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (838, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (838, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (838, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (838, 4, 4450, -1, 0) /* Create Heal Other I for Shop_DestinationType */
-     , (838, 4, 4589, -1, 0) /* Create Revitalize Other I for Shop_DestinationType */
-     , (838, 4, 4592, -1, 0) /* Create Mana Boost Other I for Shop_DestinationType */
-     , (838, 4, 4595, -1, 0) /* Create Regeneration Other I for Shop_DestinationType */
-     , (838, 4, 4597, -1, 0) /* Create Rejuvenation Other I for Shop_DestinationType */
-     , (838, 4, 4599, -1, 0) /* Create Mana Renewal Other I for Shop_DestinationType */
-     , (838, 4, 4604, -1, 0) /* Create Coordination Other I for Shop_DestinationType */
-     , (838, 4, 4605, -1, 0) /* Create Coordination Other II for Shop_DestinationType */
-     , (838, 4, 30668, -1, 0) /* Create Coordination Other III for Shop_DestinationType */
-     , (838, 4, 30669, -1, 0) /* Create Coordination Other IV for Shop_DestinationType */
-     , (838, 4, 4602, -1, 0) /* Create Endurance Other I for Shop_DestinationType */
-     , (838, 4, 4603, -1, 0) /* Create Endurance Other II for Shop_DestinationType */
-     , (838, 4, 30670, -1, 0) /* Create Endurance Other III for Shop_DestinationType */
-     , (838, 4, 30671, -1, 0) /* Create Endurance Other IV for Shop_DestinationType */
-     , (838, 4, 4608, -1, 0) /* Create Focus Other I for Shop_DestinationType */
-     , (838, 4, 4609, -1, 0) /* Create Focus Other II for Shop_DestinationType */
-     , (838, 4, 30672, -1, 0) /* Create Focus Other III for Shop_DestinationType */
-     , (838, 4, 30673, -1, 0) /* Create Focus Other IV for Shop_DestinationType */
-     , (838, 4, 4606, -1, 0) /* Create Quickness Other I for Shop_DestinationType */
-     , (838, 4, 4607, -1, 0) /* Create Quickness Other II for Shop_DestinationType */
-     , (838, 4, 30674, -1, 0) /* Create Quickness Other III for Shop_DestinationType */
-     , (838, 4, 30663, -1, 0) /* Create Quickness Other IV for Shop_DestinationType */
-     , (838, 4, 4384, -1, 0) /* Create Strength Other I for Shop_DestinationType */
-     , (838, 4, 4601, -1, 0) /* Create Strength Other II for Shop_DestinationType */
-     , (838, 4, 30664, -1, 0) /* Create Strength Other III for Shop_DestinationType */
-     , (838, 4, 30665, -1, 0) /* Create Strength Other IV for Shop_DestinationType */
-     , (838, 4, 4610, -1, 0) /* Create Willpower Other I for Shop_DestinationType */
-     , (838, 4, 4611, -1, 0) /* Create Willpower Other II for Shop_DestinationType */
-     , (838, 4, 30666, -1, 0) /* Create Willpower Other III for Shop_DestinationType */
-     , (838, 4, 30667, -1, 0) /* Create Willpower Other IV for Shop_DestinationType */
-     , (838, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (838, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (838, 2, 2596, 0, 13, 0.5, False) /* Create Doublet for Wield_DestinationType */
+     , (838, 2, 2597, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
+     , (838, 2, 132, 0, 5, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (838, 2, 10696, 0, 15, 1, False) /* Create Apron for Wield_DestinationType */
+     , (838, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (838, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (838, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (838, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (838, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (838, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (838, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (838, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (838, 4, 4450, -1, 0, 0, False) /* Create Heal Other I for Shop_DestinationType */
+     , (838, 4, 4589, -1, 0, 0, False) /* Create Revitalize Other I for Shop_DestinationType */
+     , (838, 4, 4592, -1, 0, 0, False) /* Create Mana Boost Other I for Shop_DestinationType */
+     , (838, 4, 4595, -1, 0, 0, False) /* Create Regeneration Other I for Shop_DestinationType */
+     , (838, 4, 4597, -1, 0, 0, False) /* Create Rejuvenation Other I for Shop_DestinationType */
+     , (838, 4, 4599, -1, 0, 0, False) /* Create Mana Renewal Other I for Shop_DestinationType */
+     , (838, 4, 4604, -1, 0, 0, False) /* Create Coordination Other I for Shop_DestinationType */
+     , (838, 4, 4605, -1, 0, 0, False) /* Create Coordination Other II for Shop_DestinationType */
+     , (838, 4, 30668, -1, 0, 0, False) /* Create Coordination Other III for Shop_DestinationType */
+     , (838, 4, 30669, -1, 0, 0, False) /* Create Coordination Other IV for Shop_DestinationType */
+     , (838, 4, 4602, -1, 0, 0, False) /* Create Endurance Other I for Shop_DestinationType */
+     , (838, 4, 4603, -1, 0, 0, False) /* Create Endurance Other II for Shop_DestinationType */
+     , (838, 4, 30670, -1, 0, 0, False) /* Create Endurance Other III for Shop_DestinationType */
+     , (838, 4, 30671, -1, 0, 0, False) /* Create Endurance Other IV for Shop_DestinationType */
+     , (838, 4, 4608, -1, 0, 0, False) /* Create Focus Other I for Shop_DestinationType */
+     , (838, 4, 4609, -1, 0, 0, False) /* Create Focus Other II for Shop_DestinationType */
+     , (838, 4, 30672, -1, 0, 0, False) /* Create Focus Other III for Shop_DestinationType */
+     , (838, 4, 30673, -1, 0, 0, False) /* Create Focus Other IV for Shop_DestinationType */
+     , (838, 4, 4606, -1, 0, 0, False) /* Create Quickness Other I for Shop_DestinationType */
+     , (838, 4, 4607, -1, 0, 0, False) /* Create Quickness Other II for Shop_DestinationType */
+     , (838, 4, 30674, -1, 0, 0, False) /* Create Quickness Other III for Shop_DestinationType */
+     , (838, 4, 30663, -1, 0, 0, False) /* Create Quickness Other IV for Shop_DestinationType */
+     , (838, 4, 4384, -1, 0, 0, False) /* Create Strength Other I for Shop_DestinationType */
+     , (838, 4, 4601, -1, 0, 0, False) /* Create Strength Other II for Shop_DestinationType */
+     , (838, 4, 30664, -1, 0, 0, False) /* Create Strength Other III for Shop_DestinationType */
+     , (838, 4, 30665, -1, 0, 0, False) /* Create Strength Other IV for Shop_DestinationType */
+     , (838, 4, 4610, -1, 0, 0, False) /* Create Willpower Other I for Shop_DestinationType */
+     , (838, 4, 4611, -1, 0, 0, False) /* Create Willpower Other II for Shop_DestinationType */
+     , (838, 4, 30666, -1, 0, 0, False) /* Create Willpower Other III for Shop_DestinationType */
+     , (838, 4, 30667, -1, 0, 0, False) /* Create Willpower Other IV for Shop_DestinationType */
+     , (838, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (838, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */;
 

@@ -99,11 +99,11 @@ VALUES (25847, 64, 7325) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25847, 128, 7150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25847, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25847, 9, 25900, 0, 0) /* Create Scourge's Hide for ContainTreasure_DestinationType */
-     , (25847, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25847, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25847, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25847, 9, 25900, 0, 0, 1, False) /* Create Scourge's Hide for ContainTreasure_DestinationType */
+     , (25847, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
+     , (25847, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25847, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (25847, -1, 25877, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Contagion Rat (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

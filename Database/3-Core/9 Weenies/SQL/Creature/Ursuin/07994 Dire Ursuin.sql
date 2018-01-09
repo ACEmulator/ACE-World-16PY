@@ -91,11 +91,11 @@ VALUES (7994, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7994, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7994, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7994, 9, 8665, 0, 0) /* Create Ursuin Scalp for ContainTreasure_DestinationType */
-     , (7994, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7994, 9, 9261, 0, 0) /* Create Ursuin Fang for ContainTreasure_DestinationType */
-     , (7994, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7994, 9, 12219, 0, 0) /* Create Ursuin Head for ContainTreasure_DestinationType */
-     , (7994, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7994, 9, 8665, 0, 0, 0.03, False) /* Create Ursuin Scalp for ContainTreasure_DestinationType */
+     , (7994, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7994, 9, 9261, 0, 0, 0.03, False) /* Create Ursuin Fang for ContainTreasure_DestinationType */
+     , (7994, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (7994, 9, 12219, 0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure_DestinationType */
+     , (7994, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

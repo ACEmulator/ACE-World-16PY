@@ -88,9 +88,9 @@ VALUES (27806, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27806, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27806, 256, 270) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27806, 2, 5893, 1, 0) /* Create Hoary Mattekar Robe for Wield_DestinationType */
-     , (27806, 2, 3715, 1, 0) /* Create Olthoi Helm for Wield_DestinationType */
-     , (27806, 2, 57, 1, 13) /* Create Platemail Gauntlets for Wield_DestinationType */
-     , (27806, 2, 312, 1, 82) /* Create Light Crossbow for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27806, 2, 5893, 1, 0, 0, False) /* Create Hoary Mattekar Robe for Wield_DestinationType */
+     , (27806, 2, 3715, 1, 0, 0, False) /* Create Olthoi Helm for Wield_DestinationType */
+     , (27806, 2, 57, 1, 13, 0.66, False) /* Create Platemail Gauntlets for Wield_DestinationType */
+     , (27806, 2, 312, 1, 82, 0, False) /* Create Light Crossbow for Wield_DestinationType */;
 

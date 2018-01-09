@@ -90,9 +90,9 @@ VALUES (10811, 64, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10811, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10811, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (10811, 9, 11692, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (10811, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (10811, 9, 22578, 0, 0) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (10811, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (10811, 9, 11692, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (10811, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (10811, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
+     , (10811, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

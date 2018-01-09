@@ -108,8 +108,8 @@ VALUES (190, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (190, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (190, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (190, 2, 25810, 0, 86) /* Create Suikan Robe for Wield_DestinationType */
-     , (190, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (190, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (190, 2, 25810, 0, 86, 0, False) /* Create Suikan Robe for Wield_DestinationType */
+     , (190, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (190, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

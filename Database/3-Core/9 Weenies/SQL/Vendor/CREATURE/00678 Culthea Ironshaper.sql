@@ -94,46 +94,46 @@ VALUES (678, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (678, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (678, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (678, 2, 352, 0, 0) /* Create Short Sword for Wield_DestinationType */
-     , (678, 2, 130, 0, 13) /* Create Shirt for Wield_DestinationType */
-     , (678, 2, 117, 0, 5) /* Create Breeches for Wield_DestinationType */
-     , (678, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (678, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (678, 4, 35, -1, 0) /* Create Chainmail Basinet for Shop_DestinationType */
-     , (678, 4, 554, -1, 0) /* Create Studded Leather Basinet for Shop_DestinationType */
-     , (678, 4, 413, -1, 0) /* Create Chainmail Bracers for Shop_DestinationType */
-     , (678, 4, 414, -1, 0) /* Create Chainmail Breastplate for Shop_DestinationType */
-     , (678, 4, 55, -1, 0) /* Create Chainmail Gauntlets for Shop_DestinationType */
-     , (678, 4, 415, -1, 0) /* Create Chainmail Girth for Shop_DestinationType */
-     , (678, 4, 2605, -1, 0) /* Create Chainmail Greaves for Shop_DestinationType */
-     , (678, 4, 108, -1, 0) /* Create Chainmail Tassets for Shop_DestinationType */
-     , (678, 4, 80, -1, 0) /* Create Chainmail Leggings for Shop_DestinationType */
-     , (678, 4, 416, -1, 0) /* Create Chainmail Pauldrons for Shop_DestinationType */
-     , (678, 4, 85, -1, 0) /* Create Chainmail Coif for Shop_DestinationType */
-     , (678, 4, 75, -1, 0) /* Create Helmet for Shop_DestinationType */
-     , (678, 4, 8489, -1, 0) /* Create Heaume for Shop_DestinationType */
-     , (678, 4, 8488, -1, 0) /* Create Armet for Shop_DestinationType */
-     , (678, 4, 76, -1, 0) /* Create Horned Helm for Shop_DestinationType */
-     , (678, 4, 40, -1, 0) /* Create Platemail Breastplate for Shop_DestinationType */
-     , (678, 4, 57, -1, 0) /* Create Platemail Gauntlets for Shop_DestinationType */
-     , (678, 4, 61, -1, 0) /* Create Platemail Girth for Shop_DestinationType */
-     , (678, 4, 66, -1, 0) /* Create Platemail Greaves for Shop_DestinationType */
-     , (678, 4, 110, -1, 0) /* Create Platemail Tassets for Shop_DestinationType */
-     , (678, 4, 82, -1, 0) /* Create Platemail Leggings for Shop_DestinationType */
-     , (678, 4, 87, -1, 0) /* Create Platemail Pauldrons for Shop_DestinationType */
-     , (678, 4, 114, -1, 0) /* Create Platemail Vambraces for Shop_DestinationType */
-     , (678, 4, 107, -1, 0) /* Create Sollerets for Shop_DestinationType */
-     , (678, 4, 92, -1, 0) /* Create Large Kite Shield for Shop_DestinationType */
-     , (678, 4, 95, -1, 0) /* Create Tower Shield for Shop_DestinationType */
-     , (678, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (678, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (678, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */
-     , (678, 4, 2624, -1, 0) /* Create Trade Note (5,000) for Shop_DestinationType */
-     , (678, 4, 2625, -1, 0) /* Create Trade Note (10,000) for Shop_DestinationType */
-     , (678, 4, 2626, -1, 0) /* Create Trade Note (50,000) for Shop_DestinationType */
-     , (678, 4, 2627, -1, 0) /* Create Trade Note (100,000) for Shop_DestinationType */
-     , (678, 4, 20628, -1, 0) /* Create Trade Note (150,000) for Shop_DestinationType */
-     , (678, 4, 20629, -1, 0) /* Create Trade Note (200,000) for Shop_DestinationType */
-     , (678, 4, 20630, -1, 0) /* Create Trade Note (250,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (678, 2, 352, 0, 0, 0, False) /* Create Short Sword for Wield_DestinationType */
+     , (678, 2, 130, 0, 13, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (678, 2, 117, 0, 5, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (678, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (678, 2, 10696, 0, 4, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (678, 4, 35, -1, 0, 0, False) /* Create Chainmail Basinet for Shop_DestinationType */
+     , (678, 4, 554, -1, 0, 0, False) /* Create Studded Leather Basinet for Shop_DestinationType */
+     , (678, 4, 413, -1, 0, 0, False) /* Create Chainmail Bracers for Shop_DestinationType */
+     , (678, 4, 414, -1, 0, 0, False) /* Create Chainmail Breastplate for Shop_DestinationType */
+     , (678, 4, 55, -1, 0, 0, False) /* Create Chainmail Gauntlets for Shop_DestinationType */
+     , (678, 4, 415, -1, 0, 0, False) /* Create Chainmail Girth for Shop_DestinationType */
+     , (678, 4, 2605, -1, 0, 0, False) /* Create Chainmail Greaves for Shop_DestinationType */
+     , (678, 4, 108, -1, 0, 0, False) /* Create Chainmail Tassets for Shop_DestinationType */
+     , (678, 4, 80, -1, 0, 0, False) /* Create Chainmail Leggings for Shop_DestinationType */
+     , (678, 4, 416, -1, 0, 0, False) /* Create Chainmail Pauldrons for Shop_DestinationType */
+     , (678, 4, 85, -1, 0, 0, False) /* Create Chainmail Coif for Shop_DestinationType */
+     , (678, 4, 75, -1, 0, 0, False) /* Create Helmet for Shop_DestinationType */
+     , (678, 4, 8489, -1, 0, 0, False) /* Create Heaume for Shop_DestinationType */
+     , (678, 4, 8488, -1, 0, 0, False) /* Create Armet for Shop_DestinationType */
+     , (678, 4, 76, -1, 0, 0, False) /* Create Horned Helm for Shop_DestinationType */
+     , (678, 4, 40, -1, 0, 0, False) /* Create Platemail Breastplate for Shop_DestinationType */
+     , (678, 4, 57, -1, 0, 0, False) /* Create Platemail Gauntlets for Shop_DestinationType */
+     , (678, 4, 61, -1, 0, 0, False) /* Create Platemail Girth for Shop_DestinationType */
+     , (678, 4, 66, -1, 0, 0, False) /* Create Platemail Greaves for Shop_DestinationType */
+     , (678, 4, 110, -1, 0, 0, False) /* Create Platemail Tassets for Shop_DestinationType */
+     , (678, 4, 82, -1, 0, 0, False) /* Create Platemail Leggings for Shop_DestinationType */
+     , (678, 4, 87, -1, 0, 0, False) /* Create Platemail Pauldrons for Shop_DestinationType */
+     , (678, 4, 114, -1, 0, 0, False) /* Create Platemail Vambraces for Shop_DestinationType */
+     , (678, 4, 107, -1, 0, 0, False) /* Create Sollerets for Shop_DestinationType */
+     , (678, 4, 92, -1, 0, 0, False) /* Create Large Kite Shield for Shop_DestinationType */
+     , (678, 4, 95, -1, 0, 0, False) /* Create Tower Shield for Shop_DestinationType */
+     , (678, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (678, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (678, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */
+     , (678, 4, 2624, -1, 0, 0, False) /* Create Trade Note (5,000) for Shop_DestinationType */
+     , (678, 4, 2625, -1, 0, 0, False) /* Create Trade Note (10,000) for Shop_DestinationType */
+     , (678, 4, 2626, -1, 0, 0, False) /* Create Trade Note (50,000) for Shop_DestinationType */
+     , (678, 4, 2627, -1, 0, 0, False) /* Create Trade Note (100,000) for Shop_DestinationType */
+     , (678, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) for Shop_DestinationType */
+     , (678, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
+     , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 

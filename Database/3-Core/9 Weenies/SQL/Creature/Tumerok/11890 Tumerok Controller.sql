@@ -116,7 +116,7 @@ VALUES (11890, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11890, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11890, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (11890, 9, 11817, 0, 0) /* Create Shreth Crest for ContainTreasure_DestinationType */
-     , (11890, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (11890, 9, 11817, 0, 0, 0.05, False) /* Create Shreth Crest for ContainTreasure_DestinationType */
+     , (11890, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

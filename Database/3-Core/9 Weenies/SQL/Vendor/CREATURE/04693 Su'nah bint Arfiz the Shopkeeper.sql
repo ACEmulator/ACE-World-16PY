@@ -94,61 +94,61 @@ VALUES (4693, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4693, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4693, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4693, 2, 124, 0, 14) /* Create Jerkin for Wield_DestinationType */
-     , (4693, 2, 127, 0, 1) /* Create Pants for Wield_DestinationType */
-     , (4693, 2, 133, 0, 14) /* Create Slippers for Wield_DestinationType */
-     , (4693, 2, 135, 0, 9) /* Create Turban for Wield_DestinationType */
-     , (4693, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (4693, 4, 308, -1, 0) /* Create Budiaq for Shop_DestinationType */
-     , (4693, 4, 316, -1, 0) /* Create Throwing Dart for Shop_DestinationType */
-     , (4693, 4, 325, -1, 0) /* Create Kasrullah for Shop_DestinationType */
-     , (4693, 4, 329, -1, 0) /* Create Knife for Shop_DestinationType */
-     , (4693, 4, 22163, -1, 0) /* Create Nabut for Shop_DestinationType */
-     , (4693, 4, 345, -1, 0) /* Create Simi for Shop_DestinationType */
-     , (4693, 4, 357, -1, 0) /* Create Tungi for Shop_DestinationType */
-     , (4693, 4, 551, -1, 0) /* Create Leather Basinet for Shop_DestinationType */
-     , (4693, 4, 115, -1, 0) /* Create Leather Boots for Shop_DestinationType */
-     , (4693, 4, 36, -1, 0) /* Create Leather Bracers for Shop_DestinationType */
-     , (4693, 4, 39, -1, 0) /* Create Leather Breastplate for Shop_DestinationType */
-     , (4693, 4, 45, -1, 0) /* Create Leather Cap for Shop_DestinationType */
-     , (4693, 4, 458, -1, 0) /* Create Leather Cowl for Shop_DestinationType */
-     , (4693, 4, 56, -1, 0) /* Create Leather Gauntlets for Shop_DestinationType */
-     , (4693, 4, 60, -1, 0) /* Create Leather Girth for Shop_DestinationType */
-     , (4693, 4, 65, -1, 0) /* Create Leather Greaves for Shop_DestinationType */
-     , (4693, 4, 109, -1, 0) /* Create Leather Tassets for Shop_DestinationType */
-     , (4693, 4, 81, -1, 0) /* Create Leather Leggings for Shop_DestinationType */
-     , (4693, 4, 86, -1, 0) /* Create Leather Pauldrons for Shop_DestinationType */
-     , (4693, 4, 44, -1, 0) /* Create Buckler for Shop_DestinationType */
-     , (4693, 4, 360, -1, 0) /* Create Yag for Shop_DestinationType */
-     , (4693, 4, 300, -1, 0) /* Create Arrow for Shop_DestinationType */
-     , (4693, 4, 4586, -1, 0) /* Create Bundle of Arrowheads for Shop_DestinationType */
-     , (4693, 4, 4585, -1, 0) /* Create Bundle of Arrowshafts for Shop_DestinationType */
-     , (4693, 4, 258, -1, 0) /* Create Apple for Shop_DestinationType */
-     , (4693, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (4693, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4693, 4, 4762, -1, 0) /* Create Frying Pan for Shop_DestinationType */
-     , (4693, 4, 365, -1, 0) /* Create Parchment for Shop_DestinationType */
-     , (4693, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (4693, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */
-     , (4693, 4, 5778, -1, 0) /* Create Whittling Knife for Shop_DestinationType */
-     , (4693, 4, 139, -1, 85) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (4693, 4, 136, -1, 14) /* Create Pack for Shop_DestinationType */
-     , (4693, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4693, 4, 11929, -1, 0) /* Create A Call To Arms for Shop_DestinationType */
-     , (4693, 4, 28535, -1, 0) /* Create Arcanum Research Facility Directions for Shop_DestinationType */
-     , (4693, 4, 28536, -1, 0) /* Create Carved Cave Directions for Shop_DestinationType */
-     , (4693, 4, 28539, -1, 0) /* Create The Mysterious Caves for Shop_DestinationType */
-     , (4693, 4, 28538, -1, 0) /* Create The Forbidden Crypts for Shop_DestinationType */
-     , (4693, 4, 28540, -1, 0) /* Create The Lonely Vendors for Shop_DestinationType */
-     , (4693, 4, 28541, -1, 0) /* Create The Recovered Temple for Shop_DestinationType */
-     , (4693, 4, 28537, -1, 0) /* Create The Desert March for Shop_DestinationType */
-     , (4693, 4, 28543, -1, 0) /* Create Seeking Research Associates for Shop_DestinationType */
-     , (4693, 4, 28546, -1, 0) /* Create Nadqab: Archeologist or Extortionist? for Shop_DestinationType */
-     , (4693, 4, 28542, -1, 0) /* Create The Crypt of Ashen Tears for Shop_DestinationType */
-     , (4693, 4, 28549, -1, 0) /* Create The Bones House for Shop_DestinationType */
-     , (4693, 4, 28545, -1, 0) /* Create Public Request for Shop_DestinationType */
-     , (4693, 4, 28547, -1, 0) /* Create The Scout's Report I for Shop_DestinationType */
-     , (4693, 4, 28548, -1, 0) /* Create The Scout's Report II for Shop_DestinationType */
-     , (4693, 4, 28550, -1, 0) /* Create Suntik Village for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4693, 2, 124, 0, 14, 0.8, False) /* Create Jerkin for Wield_DestinationType */
+     , (4693, 2, 127, 0, 1, 0.68, False) /* Create Pants for Wield_DestinationType */
+     , (4693, 2, 133, 0, 14, 0.8, False) /* Create Slippers for Wield_DestinationType */
+     , (4693, 2, 135, 0, 9, 1, False) /* Create Turban for Wield_DestinationType */
+     , (4693, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (4693, 4, 308, -1, 0, 0, False) /* Create Budiaq for Shop_DestinationType */
+     , (4693, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
+     , (4693, 4, 325, -1, 0, 0, False) /* Create Kasrullah for Shop_DestinationType */
+     , (4693, 4, 329, -1, 0, 0, False) /* Create Knife for Shop_DestinationType */
+     , (4693, 4, 22163, -1, 0, 0, False) /* Create Nabut for Shop_DestinationType */
+     , (4693, 4, 345, -1, 0, 0, False) /* Create Simi for Shop_DestinationType */
+     , (4693, 4, 357, -1, 0, 0, False) /* Create Tungi for Shop_DestinationType */
+     , (4693, 4, 551, -1, 0, 0, False) /* Create Leather Basinet for Shop_DestinationType */
+     , (4693, 4, 115, -1, 0, 0, False) /* Create Leather Boots for Shop_DestinationType */
+     , (4693, 4, 36, -1, 0, 0, False) /* Create Leather Bracers for Shop_DestinationType */
+     , (4693, 4, 39, -1, 0, 0, False) /* Create Leather Breastplate for Shop_DestinationType */
+     , (4693, 4, 45, -1, 0, 0, False) /* Create Leather Cap for Shop_DestinationType */
+     , (4693, 4, 458, -1, 0, 0, False) /* Create Leather Cowl for Shop_DestinationType */
+     , (4693, 4, 56, -1, 0, 0, False) /* Create Leather Gauntlets for Shop_DestinationType */
+     , (4693, 4, 60, -1, 0, 0, False) /* Create Leather Girth for Shop_DestinationType */
+     , (4693, 4, 65, -1, 0, 0, False) /* Create Leather Greaves for Shop_DestinationType */
+     , (4693, 4, 109, -1, 0, 0, False) /* Create Leather Tassets for Shop_DestinationType */
+     , (4693, 4, 81, -1, 0, 0, False) /* Create Leather Leggings for Shop_DestinationType */
+     , (4693, 4, 86, -1, 0, 0, False) /* Create Leather Pauldrons for Shop_DestinationType */
+     , (4693, 4, 44, -1, 0, 0, False) /* Create Buckler for Shop_DestinationType */
+     , (4693, 4, 360, -1, 0, 0, False) /* Create Yag for Shop_DestinationType */
+     , (4693, 4, 300, -1, 0, 0, False) /* Create Arrow for Shop_DestinationType */
+     , (4693, 4, 4586, -1, 0, 0, False) /* Create Bundle of Arrowheads for Shop_DestinationType */
+     , (4693, 4, 4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts for Shop_DestinationType */
+     , (4693, 4, 258, -1, 0, 0, False) /* Create Apple for Shop_DestinationType */
+     , (4693, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (4693, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4693, 4, 4762, -1, 0, 0, False) /* Create Frying Pan for Shop_DestinationType */
+     , (4693, 4, 365, -1, 0, 0, False) /* Create Parchment for Shop_DestinationType */
+     , (4693, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (4693, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */
+     , (4693, 4, 5778, -1, 0, 0, False) /* Create Whittling Knife for Shop_DestinationType */
+     , (4693, 4, 139, -1, 85, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (4693, 4, 136, -1, 14, 1, False) /* Create Pack for Shop_DestinationType */
+     , (4693, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4693, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms for Shop_DestinationType */
+     , (4693, 4, 28535, -1, 0, 0, False) /* Create Arcanum Research Facility Directions for Shop_DestinationType */
+     , (4693, 4, 28536, -1, 0, 0, False) /* Create Carved Cave Directions for Shop_DestinationType */
+     , (4693, 4, 28539, -1, 0, 0, False) /* Create The Mysterious Caves for Shop_DestinationType */
+     , (4693, 4, 28538, -1, 0, 0, False) /* Create The Forbidden Crypts for Shop_DestinationType */
+     , (4693, 4, 28540, -1, 0, 0, False) /* Create The Lonely Vendors for Shop_DestinationType */
+     , (4693, 4, 28541, -1, 0, 0, False) /* Create The Recovered Temple for Shop_DestinationType */
+     , (4693, 4, 28537, -1, 0, 0, False) /* Create The Desert March for Shop_DestinationType */
+     , (4693, 4, 28543, -1, 0, 0, False) /* Create Seeking Research Associates for Shop_DestinationType */
+     , (4693, 4, 28546, -1, 0, 0, False) /* Create Nadqab: Archeologist or Extortionist? for Shop_DestinationType */
+     , (4693, 4, 28542, -1, 0, 0, False) /* Create The Crypt of Ashen Tears for Shop_DestinationType */
+     , (4693, 4, 28549, -1, 0, 0, False) /* Create The Bones House for Shop_DestinationType */
+     , (4693, 4, 28545, -1, 0, 0, False) /* Create Public Request for Shop_DestinationType */
+     , (4693, 4, 28547, -1, 0, 0, False) /* Create The Scout's Report I for Shop_DestinationType */
+     , (4693, 4, 28548, -1, 0, 0, False) /* Create The Scout's Report II for Shop_DestinationType */
+     , (4693, 4, 28550, -1, 0, 0, False) /* Create Suntik Village for Shop_DestinationType */;
 

@@ -90,7 +90,7 @@ VALUES (12699, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12699, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12699, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12699, 9, 12762, 0, 0) /* Create Guide to Healing for ContainTreasure_DestinationType */
-     , (12699, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12699, 9, 12762, 0, 0, 0.5, False) /* Create Guide to Healing for ContainTreasure_DestinationType */
+     , (12699, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 

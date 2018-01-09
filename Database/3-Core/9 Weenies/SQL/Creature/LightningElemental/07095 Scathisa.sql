@@ -103,8 +103,8 @@ VALUES (7095, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7095, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7095, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7095, 2, 6383, 3, 0) /* Create Ball of Electricity for Wield_DestinationType */
-     , (7095, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7095, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7095, 2, 6383, 3, 0, 0, False) /* Create Ball of Electricity for Wield_DestinationType */
+     , (7095, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7095, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

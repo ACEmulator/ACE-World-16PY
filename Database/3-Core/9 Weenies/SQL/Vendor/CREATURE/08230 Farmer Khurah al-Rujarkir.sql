@@ -94,31 +94,31 @@ VALUES (8230, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8230, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8230, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8230, 2, 130, 0, 16) /* Create Shirt for Wield_DestinationType */
-     , (8230, 2, 117, 0, 16) /* Create Breeches for Wield_DestinationType */
-     , (8230, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (8230, 2, 10696, 0, 12) /* Create Apron for Wield_DestinationType */
-     , (8230, 4, 136, -1, 21) /* Create Pack for Shop_DestinationType */
-     , (8230, 4, 139, -1, 86) /* Create Small Belt Pouch for Shop_DestinationType */
-     , (8230, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (8230, 4, 4763, -1, 0) /* Create Honey for Shop_DestinationType */
-     , (8230, 4, 264, -1, 0) /* Create Grapes for Shop_DestinationType */
-     , (8230, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (8230, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (8230, 4, 1449, -1, 0) /* Create Royal Cabbage for Shop_DestinationType */
-     , (8230, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (8230, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (8230, 4, 14777, -1, 0) /* Create Cookie Cutter for Shop_DestinationType */
-     , (8230, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (8230, 4, 4757, -1, 0) /* Create Carving Knife for Shop_DestinationType */
-     , (8230, 4, 2457, -1, 0) /* Create Health Draught for Shop_DestinationType */
-     , (8230, 4, 377, -1, 0) /* Create Potion of Healing for Shop_DestinationType */
-     , (8230, 4, 2460, -1, 0) /* Create Mana Draught for Shop_DestinationType */
-     , (8230, 4, 379, -1, 0) /* Create Mana Potion for Shop_DestinationType */
-     , (8230, 4, 378, -1, 0) /* Create Stamina Potion for Shop_DestinationType */
-     , (8230, 4, 27326, -1, 0) /* Create Stamina Tincture for Shop_DestinationType */
-     , (8230, 4, 628, -1, 0) /* Create Handy Healing Kit for Shop_DestinationType */
-     , (8230, 4, 629, -1, 0) /* Create Adept Healing Kit for Shop_DestinationType */
-     , (8230, 4, 293, -1, 0) /* Create Torch for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8230, 2, 130, 0, 16, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (8230, 2, 117, 0, 16, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (8230, 2, 115, 0, 9, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (8230, 2, 10696, 0, 12, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (8230, 4, 136, -1, 21, 1, False) /* Create Pack for Shop_DestinationType */
+     , (8230, 4, 139, -1, 86, 0, False) /* Create Small Belt Pouch for Shop_DestinationType */
+     , (8230, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (8230, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
+     , (8230, 4, 264, -1, 0, 0, False) /* Create Grapes for Shop_DestinationType */
+     , (8230, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (8230, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (8230, 4, 1449, -1, 0, 0, False) /* Create Royal Cabbage for Shop_DestinationType */
+     , (8230, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (8230, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (8230, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter for Shop_DestinationType */
+     , (8230, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (8230, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */
+     , (8230, 4, 2457, -1, 0, 0, False) /* Create Health Draught for Shop_DestinationType */
+     , (8230, 4, 377, -1, 0, 0, False) /* Create Potion of Healing for Shop_DestinationType */
+     , (8230, 4, 2460, -1, 0, 0, False) /* Create Mana Draught for Shop_DestinationType */
+     , (8230, 4, 379, -1, 0, 0, False) /* Create Mana Potion for Shop_DestinationType */
+     , (8230, 4, 378, -1, 0, 0, False) /* Create Stamina Potion for Shop_DestinationType */
+     , (8230, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture for Shop_DestinationType */
+     , (8230, 4, 628, -1, 0, 0, False) /* Create Handy Healing Kit for Shop_DestinationType */
+     , (8230, 4, 629, -1, 0, 0, False) /* Create Adept Healing Kit for Shop_DestinationType */
+     , (8230, 4, 293, -1, 0, 0, False) /* Create Torch for Shop_DestinationType */;
 

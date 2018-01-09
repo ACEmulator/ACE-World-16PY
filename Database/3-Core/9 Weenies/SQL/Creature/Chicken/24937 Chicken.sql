@@ -94,9 +94,9 @@ VALUES (24937, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24937, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24937, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24937, 9, 262, 0, 0) /* Create Chicken for ContainTreasure_DestinationType */
-     , (24937, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24937, 9, 25558, 0, 0) /* Create Whole Chicken for ContainTreasure_DestinationType */
-     , (24937, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24937, 9, 262, 0, 0, 0.75, False) /* Create Chicken for ContainTreasure_DestinationType */
+     , (24937, 9, 0, 0, 0, 0.25, False) /* Create  for ContainTreasure_DestinationType */
+     , (24937, 9, 25558, 0, 0, 0.05, False) /* Create Whole Chicken for ContainTreasure_DestinationType */
+     , (24937, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

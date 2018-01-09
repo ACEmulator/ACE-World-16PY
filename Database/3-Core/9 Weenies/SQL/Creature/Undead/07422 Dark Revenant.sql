@@ -119,11 +119,11 @@ VALUES (7422, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7422, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7422, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7422, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7422, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7422, 9, 7045, 0, 0) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (7422, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7422, 9, 5873, 0, 0) /* Create Seal for ContainTreasure_DestinationType */
-     , (7422, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7422, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7422, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7422, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
+     , (7422, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (7422, 9, 5873, 0, 0, 0.01, False) /* Create Seal for ContainTreasure_DestinationType */
+     , (7422, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -132,8 +132,8 @@ VALUES (4124, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4124, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4124, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4124, 1, 8903, 0, 0) /* Create Focusing Stone for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4124, 1, 8903, 0, 0, 0, False) /* Create Focusing Stone for Contain_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (4124, 1, 1759, 20, 1, 4, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Skeleton (x1 up to max of 4) - Destruction_RegenerationType - Scatter_RegenLocationType */;

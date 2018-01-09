@@ -91,6 +91,6 @@ VALUES (1497, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1497, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1497, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1497, 8, 273, 100, 0) /* Create Pyreal for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1497, 8, 273, 100, 0, 0.85, False) /* Create Pyreal for Treasure_DestinationType */;
 

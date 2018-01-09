@@ -114,15 +114,15 @@ VALUES (12020, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12020, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12020, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12020, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12020, 9, 7046, 0, 0) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
-     , (12020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12020, 9, 9259, 0, 0) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
-     , (12020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12020, 9, 23539, 0, 0) /* Create Serpent's Fang for ContainTreasure_DestinationType */
-     , (12020, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12020, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (12020, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */
+     , (12020, 9, 7046, 0, 0, 0.75, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
+     , (12020, 9, 0, 0, 0, 0.25, False) /* Create  for ContainTreasure_DestinationType */
+     , (12020, 9, 9259, 0, 0, 0.85, False) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
+     , (12020, 9, 0, 0, 0, 0.15, False) /* Create  for ContainTreasure_DestinationType */
+     , (12020, 9, 23539, 0, 0, 0.3, False) /* Create Serpent's Fang for ContainTreasure_DestinationType */
+     , (12020, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
 INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Chomu Sclavus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

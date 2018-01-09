@@ -92,17 +92,17 @@ VALUES (25804, 64, 335) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25804, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25804, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25804, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25804, 9, 9310, 0, 0) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25804, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25804, 9, 28874, 0, 0) /* Create Armored Skeletal Legs for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25804, 9, 28871, 0, 0) /* Create Armored Skeletal Arm  for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25804, 9, 28892, 0, 0) /* Create Armored Skeletal Torso for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25804, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (25804, 9, 9310, 0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25804, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (25804, 9, 28874, 0, 0, 0.05, False) /* Create Armored Skeletal Legs for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25804, 9, 28871, 0, 0, 0.05, False) /* Create Armored Skeletal Arm  for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (25804, 9, 28892, 0, 0, 0.05, False) /* Create Armored Skeletal Torso for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

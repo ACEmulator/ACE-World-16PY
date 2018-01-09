@@ -94,27 +94,27 @@ VALUES (4562, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4562, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4562, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4562, 2, 356, 0, 0) /* Create Tofun for Wield_DestinationType */
-     , (4562, 2, 124, 0, 5) /* Create Jerkin for Wield_DestinationType */
-     , (4562, 2, 117, 0, 2) /* Create Breeches for Wield_DestinationType */
-     , (4562, 2, 132, 0, 2) /* Create Shoes for Wield_DestinationType */
-     , (4562, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4562, 4, 314, -1, 0) /* Create Dagger for Shop_DestinationType */
-     , (4562, 4, 310, -1, 0) /* Create Throwing Club for Shop_DestinationType */
-     , (4562, 4, 22158, -1, 0) /* Create Jo for Shop_DestinationType */
-     , (4562, 4, 327, -1, 0) /* Create Ken for Shop_DestinationType */
-     , (4562, 4, 4195, -1, 0) /* Create Nekode for Shop_DestinationType */
-     , (4562, 4, 336, -1, 0) /* Create Ono for Shop_DestinationType */
-     , (4562, 4, 353, -1, 0) /* Create Tachi for Shop_DestinationType */
-     , (4562, 4, 356, -1, 0) /* Create Tofun for Shop_DestinationType */
-     , (4562, 4, 359, -1, 0) /* Create War Hammer for Shop_DestinationType */
-     , (4562, 4, 362, -1, 0) /* Create Yari for Shop_DestinationType */
-     , (4562, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (4562, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (4562, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */
-     , (4562, 4, 151, -1, 0) /* Create Empty Flask for Shop_DestinationType */
-     , (4562, 4, 2621, -1, 0) /* Create Trade Note (100) for Shop_DestinationType */
-     , (4562, 4, 2622, -1, 0) /* Create Trade Note (500) for Shop_DestinationType */
-     , (4562, 4, 2623, -1, 0) /* Create Trade Note (1,000) for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4562, 2, 356, 0, 0, 0, False) /* Create Tofun for Wield_DestinationType */
+     , (4562, 2, 124, 0, 5, 0, False) /* Create Jerkin for Wield_DestinationType */
+     , (4562, 2, 117, 0, 2, 0.67, False) /* Create Breeches for Wield_DestinationType */
+     , (4562, 2, 132, 0, 2, 0.67, False) /* Create Shoes for Wield_DestinationType */
+     , (4562, 2, 10696, 0, 4, 0.8, False) /* Create Apron for Wield_DestinationType */
+     , (4562, 4, 314, -1, 0, 0, False) /* Create Dagger for Shop_DestinationType */
+     , (4562, 4, 310, -1, 0, 0, False) /* Create Throwing Club for Shop_DestinationType */
+     , (4562, 4, 22158, -1, 0, 0, False) /* Create Jo for Shop_DestinationType */
+     , (4562, 4, 327, -1, 0, 0, False) /* Create Ken for Shop_DestinationType */
+     , (4562, 4, 4195, -1, 0, 0, False) /* Create Nekode for Shop_DestinationType */
+     , (4562, 4, 336, -1, 0, 0, False) /* Create Ono for Shop_DestinationType */
+     , (4562, 4, 353, -1, 0, 0, False) /* Create Tachi for Shop_DestinationType */
+     , (4562, 4, 356, -1, 0, 0, False) /* Create Tofun for Shop_DestinationType */
+     , (4562, 4, 359, -1, 0, 0, False) /* Create War Hammer for Shop_DestinationType */
+     , (4562, 4, 362, -1, 0, 0, False) /* Create Yari for Shop_DestinationType */
+     , (4562, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (4562, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (4562, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */
+     , (4562, 4, 151, -1, 0, 0, False) /* Create Empty Flask for Shop_DestinationType */
+     , (4562, 4, 2621, -1, 0, 0, False) /* Create Trade Note (100) for Shop_DestinationType */
+     , (4562, 4, 2622, -1, 0, 0, False) /* Create Trade Note (500) for Shop_DestinationType */
+     , (4562, 4, 2623, -1, 0, 0, False) /* Create Trade Note (1,000) for Shop_DestinationType */;
 

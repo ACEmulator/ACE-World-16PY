@@ -122,6 +122,6 @@ VALUES (8563, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8563, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8563, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8563, 2, 8560, 0, 0) /* Create Dericostian Longbow for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8563, 2, 8560, 0, 0, 0, False) /* Create Dericostian Longbow for Wield_DestinationType */;
 

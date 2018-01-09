@@ -89,11 +89,11 @@ VALUES (4255, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4255, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4255, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4255, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (4255, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4255, 9, 11690, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (4255, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (4255, 9, 11691, 0, 0) /* Create Little Green Seeds for ContainTreasure_DestinationType */
-     , (4255, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4255, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (4255, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (4255, 9, 11690, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (4255, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (4255, 9, 11691, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */
+     , (4255, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -106,7 +106,7 @@ VALUES (24277, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24277, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24277, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24277, 9, 24834, 0, 0) /* Create Banderling Slayer Scalp for ContainTreasure_DestinationType */
-     , (24277, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24277, 9, 24834, 0, 0, 0.03, False) /* Create Banderling Slayer Scalp for ContainTreasure_DestinationType */
+     , (24277, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -88,6 +88,6 @@ VALUES (23348, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23348, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23348, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (23348, 2, 8399, 0, 14) /* Create Kireth Gown with Band for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (23348, 2, 8399, 0, 14, 0.6, False) /* Create Kireth Gown with Band for Wield_DestinationType */;
 

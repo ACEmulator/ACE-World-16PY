@@ -105,7 +105,7 @@ VALUES (9242, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9242, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9242, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9242, 9, 9225, 0, 0) /* Create Obsidian Shard for ContainTreasure_DestinationType */
-     , (9242, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9242, 9, 9225, 0, 0, 0.03, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */
+     , (9242, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

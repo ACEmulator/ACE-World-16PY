@@ -27,9 +27,9 @@ VALUES (9621, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9621, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9621, 16, 260, 1, 0) /* Create Cabbage for HouseBuy_DestinationType */
-     , (9621, 16, 273, 8000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (9621, 32, 258, 5, 0) /* Create Apple for HouseRent_DestinationType */
-     , (9621, 32, 273, 1, 0) /* Create Pyreal for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9621, 16, 260, 1, 0, 0, False) /* Create Cabbage for HouseBuy_DestinationType */
+     , (9621, 16, 273, 8000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (9621, 32, 258, 5, 0, 0, False) /* Create Apple for HouseRent_DestinationType */
+     , (9621, 32, 273, 1, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */;
 

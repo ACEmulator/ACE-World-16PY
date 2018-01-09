@@ -88,7 +88,7 @@ VALUES (26469, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (26469, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (26469, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (26469, 9, 14589, 0, 0) /* Create Ebon Mattekar Hide for ContainTreasure_DestinationType */
-     , (26469, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (26469, 9, 14589, 0, 0, 0.05, False) /* Create Ebon Mattekar Hide for ContainTreasure_DestinationType */
+     , (26469, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

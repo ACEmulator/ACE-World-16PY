@@ -90,6 +90,6 @@ VALUES (24055, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24055, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24055, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24055, 2, 11256, 0, 0) /* Create Hoeroa of Palenqual for Wield_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24055, 2, 11256, 0, 0, 0, False) /* Create Hoeroa of Palenqual for Wield_DestinationType */;
 

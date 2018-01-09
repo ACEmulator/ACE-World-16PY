@@ -41,23 +41,23 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8156, 2, False) /* OPEN_BOOL */
      , (8156, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8156, 1, 774, 25, 0) /* Create Hyssop for Contain_DestinationType */
-     , (8156, 1, 775, 25, 0) /* Create Mandrake for Contain_DestinationType */
-     , (8156, 1, 778, 25, 0) /* Create Saffron for Contain_DestinationType */
-     , (8156, 1, 768, 25, 0) /* Create Damiana for Contain_DestinationType */
-     , (8156, 1, 776, 25, 0) /* Create Mugwort for Contain_DestinationType */
-     , (8156, 1, 766, 25, 0) /* Create Bistort for Contain_DestinationType */
-     , (8156, 1, 780, 25, 0) /* Create Wormwood for Contain_DestinationType */
-     , (8156, 1, 765, 25, 0) /* Create Amaranth for Contain_DestinationType */
-     , (8156, 1, 625, 25, 0) /* Create Ginseng for Contain_DestinationType */
-     , (8156, 1, 772, 25, 0) /* Create Hawthorn for Contain_DestinationType */
-     , (8156, 1, 770, 25, 0) /* Create Eyebright for Contain_DestinationType */
-     , (8156, 1, 771, 25, 0) /* Create Frankincense for Contain_DestinationType */
-     , (8156, 1, 769, 25, 0) /* Create Dragonsblood for Contain_DestinationType */
-     , (8156, 1, 773, 25, 0) /* Create Henbane for Contain_DestinationType */
-     , (8156, 1, 767, 25, 0) /* Create Comfrey for Contain_DestinationType */
-     , (8156, 1, 781, 25, 0) /* Create Yarrow for Contain_DestinationType */
-     , (8156, 1, 779, 25, 0) /* Create Vervain for Contain_DestinationType */
-     , (8156, 1, 777, 25, 0) /* Create Myrrh for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8156, 1, 774, 25, 0, 0, False) /* Create Hyssop for Contain_DestinationType */
+     , (8156, 1, 775, 25, 0, 0, False) /* Create Mandrake for Contain_DestinationType */
+     , (8156, 1, 778, 25, 0, 0, False) /* Create Saffron for Contain_DestinationType */
+     , (8156, 1, 768, 25, 0, 0, False) /* Create Damiana for Contain_DestinationType */
+     , (8156, 1, 776, 25, 0, 0, False) /* Create Mugwort for Contain_DestinationType */
+     , (8156, 1, 766, 25, 0, 0, False) /* Create Bistort for Contain_DestinationType */
+     , (8156, 1, 780, 25, 0, 0, False) /* Create Wormwood for Contain_DestinationType */
+     , (8156, 1, 765, 25, 0, 0, False) /* Create Amaranth for Contain_DestinationType */
+     , (8156, 1, 625, 25, 0, 0, False) /* Create Ginseng for Contain_DestinationType */
+     , (8156, 1, 772, 25, 0, 0, False) /* Create Hawthorn for Contain_DestinationType */
+     , (8156, 1, 770, 25, 0, 0, False) /* Create Eyebright for Contain_DestinationType */
+     , (8156, 1, 771, 25, 0, 0, False) /* Create Frankincense for Contain_DestinationType */
+     , (8156, 1, 769, 25, 0, 0, False) /* Create Dragonsblood for Contain_DestinationType */
+     , (8156, 1, 773, 25, 0, 0, False) /* Create Henbane for Contain_DestinationType */
+     , (8156, 1, 767, 25, 0, 0, False) /* Create Comfrey for Contain_DestinationType */
+     , (8156, 1, 781, 25, 0, 0, False) /* Create Yarrow for Contain_DestinationType */
+     , (8156, 1, 779, 25, 0, 0, False) /* Create Vervain for Contain_DestinationType */
+     , (8156, 1, 777, 25, 0, 0, False) /* Create Myrrh for Contain_DestinationType */;
 

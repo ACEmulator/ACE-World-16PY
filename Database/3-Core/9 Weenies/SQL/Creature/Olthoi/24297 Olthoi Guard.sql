@@ -94,13 +94,13 @@ VALUES (24297, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24297, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24297, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (24297, 9, 3680, 0, 0) /* Create Olthoi Head for ContainTreasure_DestinationType */
-     , (24297, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24297, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24297, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24297, 9, 20862, 0, 0) /* Create Olthoi Stamp for ContainTreasure_DestinationType */
-     , (24297, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (24297, 9, 24237, 0, 0) /* Create Olthoi Stab Claw for ContainTreasure_DestinationType */
-     , (24297, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (24297, 9, 3680, 0, 0, 0.1, False) /* Create Olthoi Head for ContainTreasure_DestinationType */
+     , (24297, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (24297, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (24297, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (24297, 9, 20862, 0, 0, 0.03, False) /* Create Olthoi Stamp for ContainTreasure_DestinationType */
+     , (24297, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (24297, 9, 24237, 0, 0, 0.1, False) /* Create Olthoi Stab Claw for ContainTreasure_DestinationType */
+     , (24297, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

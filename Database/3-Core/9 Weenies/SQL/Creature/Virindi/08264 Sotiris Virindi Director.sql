@@ -130,10 +130,10 @@ VALUES (8264, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8264, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8264, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8264, 9, 3698, 0, 0) /* Create White Jewel for ContainTreasure_DestinationType */
-     , (8264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8264, 9, 8154, 0, 0) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
-     , (8264, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (8264, 8, 8261, 1, 0) /* Create Sotiris Obsidian Shard for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8264, 9, 3698, 0, 0, 0.05, False) /* Create White Jewel for ContainTreasure_DestinationType */
+     , (8264, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (8264, 9, 8154, 0, 0, 0.1, False) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
+     , (8264, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (8264, 8, 8261, 1, 0, 0, False) /* Create Sotiris Obsidian Shard for Treasure_DestinationType */;
 

@@ -94,23 +94,23 @@ VALUES (4436, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4436, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4436, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4436, 2, 130, 0, 18) /* Create Shirt for Wield_DestinationType */
-     , (4436, 2, 127, 0, 5) /* Create Pants for Wield_DestinationType */
-     , (4436, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (4436, 2, 10696, 0, 4) /* Create Apron for Wield_DestinationType */
-     , (4436, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (4436, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (4436, 4, 2452, -1, 0) /* Create Apple Juice for Shop_DestinationType */
-     , (4436, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (4436, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (4436, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (4436, 4, 259, -1, 0) /* Create Bread for Shop_DestinationType */
-     , (4436, 4, 4737, -1, 0) /* Create Mushroom Pie for Shop_DestinationType */
-     , (4436, 4, 4713, -1, 0) /* Create Beef Stew for Shop_DestinationType */
-     , (4436, 4, 4709, -1, 0) /* Create Apple Pie for Shop_DestinationType */
-     , (4436, 4, 5001, -1, 0) /* Create Lytelthorpe Portal Directions for Shop_DestinationType */
-     , (4436, 4, 5007, -1, 0) /* Create Lost Distillery Directions for Shop_DestinationType */
-     , (4436, 4, 25996, -1, 0) /* Create Farmer Larry's Problem for Shop_DestinationType */
-     , (4436, 4, 25700, -1, 0) /* Create Olthoi Tunnels Rumor for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4436, 2, 130, 0, 18, 1, False) /* Create Shirt for Wield_DestinationType */
+     , (4436, 2, 127, 0, 5, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (4436, 2, 115, 0, 4, 0.6, False) /* Create Leather Boots for Wield_DestinationType */
+     , (4436, 2, 10696, 0, 4, 0.6, False) /* Create Apron for Wield_DestinationType */
+     , (4436, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (4436, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (4436, 4, 2452, -1, 0, 0, False) /* Create Apple Juice for Shop_DestinationType */
+     , (4436, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (4436, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (4436, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (4436, 4, 259, -1, 0, 0, False) /* Create Bread for Shop_DestinationType */
+     , (4436, 4, 4737, -1, 0, 0, False) /* Create Mushroom Pie for Shop_DestinationType */
+     , (4436, 4, 4713, -1, 0, 0, False) /* Create Beef Stew for Shop_DestinationType */
+     , (4436, 4, 4709, -1, 0, 0, False) /* Create Apple Pie for Shop_DestinationType */
+     , (4436, 4, 5001, -1, 0, 0, False) /* Create Lytelthorpe Portal Directions for Shop_DestinationType */
+     , (4436, 4, 5007, -1, 0, 0, False) /* Create Lost Distillery Directions for Shop_DestinationType */
+     , (4436, 4, 25996, -1, 0, 0, False) /* Create Farmer Larry's Problem for Shop_DestinationType */
+     , (4436, 4, 25700, -1, 0, 0, False) /* Create Olthoi Tunnels Rumor for Shop_DestinationType */;
 

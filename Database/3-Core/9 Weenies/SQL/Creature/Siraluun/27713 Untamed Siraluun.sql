@@ -90,13 +90,13 @@ VALUES (27713, 64, 290) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27713, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27713, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27713, 9, 29907, 0, 0) /* Create Untamed Siraluun Claw for ContainTreasure_DestinationType */
-     , (27713, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27713, 9, 29904, 0, 0) /* Create Small Bundle of Untamed Siraluun Feathers for ContainTreasure_DestinationType */
-     , (27713, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27713, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (27713, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27713, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27713, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27713, 9, 29907, 0, 0, 0.05, False) /* Create Untamed Siraluun Claw for ContainTreasure_DestinationType */
+     , (27713, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27713, 9, 29904, 0, 0, 0.05, False) /* Create Small Bundle of Untamed Siraluun Feathers for ContainTreasure_DestinationType */
+     , (27713, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27713, 9, 6876, 0, 0, 0.05, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (27713, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27713, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27713, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -98,7 +98,7 @@ VALUES (15780, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (15780, 128, 95) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (15780, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (15780, 2, 8372, 0, 17) /* Create Yifan Dress for Wield_DestinationType */
-     , (15780, 4, 15716, -1, 0) /* Create Crystal Vase for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (15780, 2, 8372, 0, 17, 1, False) /* Create Yifan Dress for Wield_DestinationType */
+     , (15780, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase for Shop_DestinationType */;
 

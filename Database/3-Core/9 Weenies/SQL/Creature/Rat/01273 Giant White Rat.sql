@@ -90,6 +90,6 @@ VALUES (1273, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1273, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1273, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (1273, 1, 1278, 0, 0) /* Create Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (1273, 1, 1278, 0, 0, 0, False) /* Create Key for Contain_DestinationType */;
 

@@ -90,11 +90,11 @@ VALUES (27711, 64, 210) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27711, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27711, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27711, 9, 28207, 0, 0) /* Create Copper Gromnie Tooth for ContainTreasure_DestinationType */
-     , (27711, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27711, 9, 28200, 0, 0) /* Create Resilient Gromnie Hide for ContainTreasure_DestinationType */
-     , (27711, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (27711, 9, 24477, 0, 0) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (27711, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27711, 9, 28207, 0, 0, 0.05, False) /* Create Copper Gromnie Tooth for ContainTreasure_DestinationType */
+     , (27711, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27711, 9, 28200, 0, 0, 0.05, False) /* Create Resilient Gromnie Hide for ContainTreasure_DestinationType */
+     , (27711, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (27711, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
+     , (27711, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

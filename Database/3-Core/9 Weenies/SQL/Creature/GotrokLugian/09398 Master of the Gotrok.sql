@@ -93,9 +93,9 @@ VALUES (9398, 64, 535) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9398, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9398, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (9398, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (9398, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (9398, 9, 9394, 0, 0) /* Create Lugian Pauldron for ContainTreasure_DestinationType */
-     , (9398, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (9398, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (9398, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (9398, 9, 9394, 0, 0, 1, False) /* Create Lugian Pauldron for ContainTreasure_DestinationType */
+     , (9398, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

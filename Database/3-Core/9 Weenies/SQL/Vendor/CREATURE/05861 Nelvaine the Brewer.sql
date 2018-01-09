@@ -94,16 +94,16 @@ VALUES (5861, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (5861, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (5861, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (5861, 2, 130, 0, 4) /* Create Shirt for Wield_DestinationType */
-     , (5861, 2, 2597, 0, 14) /* Create Pants for Wield_DestinationType */
-     , (5861, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (5861, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (5861, 4, 2451, -1, 0) /* Create Ale for Shop_DestinationType */
-     , (5861, 4, 2469, -1, 0) /* Create Small Beer for Shop_DestinationType */
-     , (5861, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (5861, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (5861, 4, 5831, -1, 0) /* Create Nelvaine's Olde Ispar Stout for Shop_DestinationType */
-     , (5861, 4, 22765, -1, 0) /* Create The Empyrean Temples for Shop_DestinationType */
-     , (5861, 4, 26479, -1, 0) /* Create Tumerok Akiekie for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (5861, 2, 130, 0, 4, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (5861, 2, 2597, 0, 14, 0, False) /* Create Pants for Wield_DestinationType */
+     , (5861, 2, 115, 0, 4, 0.8, False) /* Create Leather Boots for Wield_DestinationType */
+     , (5861, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (5861, 4, 2451, -1, 0, 0, False) /* Create Ale for Shop_DestinationType */
+     , (5861, 4, 2469, -1, 0, 0, False) /* Create Small Beer for Shop_DestinationType */
+     , (5861, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (5861, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (5861, 4, 5831, -1, 0, 0, False) /* Create Nelvaine's Olde Ispar Stout for Shop_DestinationType */
+     , (5861, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples for Shop_DestinationType */
+     , (5861, 4, 26479, -1, 0, 0, False) /* Create Tumerok Akiekie for Shop_DestinationType */;
 

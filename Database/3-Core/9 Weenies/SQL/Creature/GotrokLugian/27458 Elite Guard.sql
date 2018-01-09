@@ -94,7 +94,7 @@ VALUES (27458, 64, 1840) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27458, 128, 1680) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27458, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (27458, 9, 27453, 1, 0) /* Create Renegade Hauberk for ContainTreasure_DestinationType */
-     , (27458, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (27458, 9, 27453, 1, 0, 1, False) /* Create Renegade Hauberk for ContainTreasure_DestinationType */
+     , (27458, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

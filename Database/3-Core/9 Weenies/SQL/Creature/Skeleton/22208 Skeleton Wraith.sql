@@ -99,13 +99,13 @@ VALUES (22208, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22208, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (22208, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (22208, 9, 3687, 0, 0) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (22208, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22208, 9, 22027, 0, 0) /* Create Skeletal Arm for ContainTreasure_DestinationType */
-     , (22208, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22208, 9, 22031, 0, 0) /* Create Skeletal Leg for ContainTreasure_DestinationType */
-     , (22208, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (22208, 9, 22047, 0, 0) /* Create Skeletal Torso for ContainTreasure_DestinationType */
-     , (22208, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (22208, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
+     , (22208, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
+     , (22208, 9, 22027, 0, 0, 0.05, False) /* Create Skeletal Arm for ContainTreasure_DestinationType */
+     , (22208, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22208, 9, 22031, 0, 0, 0.05, False) /* Create Skeletal Leg for ContainTreasure_DestinationType */
+     , (22208, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
+     , (22208, 9, 22047, 0, 0, 0.05, False) /* Create Skeletal Torso for ContainTreasure_DestinationType */
+     , (22208, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

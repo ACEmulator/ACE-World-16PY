@@ -92,7 +92,7 @@ VALUES (8873, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8873, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8873, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8873, 9, 3694, 0, 0) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (8873, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8873, 9, 3694, 0, 0, 0.05, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
+     , (8873, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

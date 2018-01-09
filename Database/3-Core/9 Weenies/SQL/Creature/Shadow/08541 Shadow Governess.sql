@@ -121,6 +121,6 @@ VALUES (8541, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8541, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8541, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (8541, 1, 8522, 0, 0) /* Create Split Silver Key for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (8541, 1, 8522, 0, 0, 1, False) /* Create Split Silver Key for Contain_DestinationType */;
 

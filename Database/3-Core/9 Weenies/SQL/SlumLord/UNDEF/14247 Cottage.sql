@@ -28,9 +28,9 @@ VALUES (14247, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (14247, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14247, 16, 273, 300000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (14247, 16, 11710, 1, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (14247, 16, 7046, 1, 0) /* Create Sclavus Tongue for HouseBuy_DestinationType */
-     , (14247, 32, 273, 30000, 0) /* Create Pyreal for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14247, 16, 273, 300000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (14247, 16, 11710, 1, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (14247, 16, 7046, 1, 0, 0, False) /* Create Sclavus Tongue for HouseBuy_DestinationType */
+     , (14247, 32, 273, 30000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */;
 

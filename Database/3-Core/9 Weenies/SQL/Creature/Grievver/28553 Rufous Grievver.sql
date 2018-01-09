@@ -113,9 +113,9 @@ VALUES (28553, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28553, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28553, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (28553, 9, 8021, 0, 0) /* Create Shendolain Key for ContainTreasure_DestinationType */
-     , (28553, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (28553, 9, 30908, 0, 0) /* Create Halaetan Magic Page 3 for ContainTreasure_DestinationType */
-     , (28553, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (28553, 9, 8021, 0, 0, 0.03, False) /* Create Shendolain Key for ContainTreasure_DestinationType */
+     , (28553, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (28553, 9, 30908, 0, 0, 0.05, False) /* Create Halaetan Magic Page 3 for ContainTreasure_DestinationType */
+     , (28553, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

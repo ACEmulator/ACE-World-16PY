@@ -93,25 +93,25 @@ VALUES (13227, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (13227, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (13227, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (13227, 2, 301, 0, 8) /* Create Battle Axe for Wield_DestinationType */
-     , (13227, 2, 119, 0, 7) /* Create Cowl for Wield_DestinationType */
-     , (13227, 2, 122, 0, 84) /* Create Soft Leather Gloves for Wield_DestinationType */
-     , (13227, 2, 127, 0, 7) /* Create Pants for Wield_DestinationType */
-     , (13227, 2, 115, 0, 4) /* Create Leather Boots for Wield_DestinationType */
-     , (13227, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (13227, 4, 244, -1, 0) /* Create Wood for Shop_DestinationType */
-     , (13227, 4, 22852, -1, 0) /* Create Treated Wood for Shop_DestinationType */
-     , (13227, 4, 25757, -1, 0) /* Create Barrel for Shop_DestinationType */
-     , (13227, 4, 25760, -1, 0) /* Create Cask for Shop_DestinationType */
-     , (13227, 4, 22844, -1, 0) /* Create Log Stool for Shop_DestinationType */
-     , (13227, 4, 22874, -1, 0) /* Create Log Chair for Shop_DestinationType */
-     , (13227, 4, 25766, -1, 0) /* Create Tumerok Chair for Shop_DestinationType */
-     , (13227, 4, 22845, -1, 0) /* Create Log Table for Shop_DestinationType */
-     , (13227, 4, 15403, -1, 0) /* Create Small Pine Tree for Shop_DestinationType */
-     , (13227, 4, 15404, -1, 0) /* Create Large Pine Tree for Shop_DestinationType */
-     , (13227, 4, 25759, -1, 0) /* Create Shrubbery for Shop_DestinationType */
-     , (13227, 4, 13199, -1, 0) /* Create Small Pine Tree for Shop_DestinationType */
-     , (13227, 4, 13228, -1, 0) /* Create Large Pine Tree for Shop_DestinationType */
-     , (13227, 4, 13209, -1, 0) /* Create Wreath for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (13227, 2, 301, 0, 8, 0, False) /* Create Battle Axe for Wield_DestinationType */
+     , (13227, 2, 119, 0, 7, 0.8, False) /* Create Cowl for Wield_DestinationType */
+     , (13227, 2, 122, 0, 84, 0.5, False) /* Create Soft Leather Gloves for Wield_DestinationType */
+     , (13227, 2, 127, 0, 7, 0.5, False) /* Create Pants for Wield_DestinationType */
+     , (13227, 2, 115, 0, 4, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (13227, 2, 10696, 0, 6, 0.5, False) /* Create Apron for Wield_DestinationType */
+     , (13227, 4, 244, -1, 0, 0, False) /* Create Wood for Shop_DestinationType */
+     , (13227, 4, 22852, -1, 0, 0, False) /* Create Treated Wood for Shop_DestinationType */
+     , (13227, 4, 25757, -1, 0, 0, False) /* Create Barrel for Shop_DestinationType */
+     , (13227, 4, 25760, -1, 0, 0, False) /* Create Cask for Shop_DestinationType */
+     , (13227, 4, 22844, -1, 0, 0, False) /* Create Log Stool for Shop_DestinationType */
+     , (13227, 4, 22874, -1, 0, 0, False) /* Create Log Chair for Shop_DestinationType */
+     , (13227, 4, 25766, -1, 0, 0, False) /* Create Tumerok Chair for Shop_DestinationType */
+     , (13227, 4, 22845, -1, 0, 0, False) /* Create Log Table for Shop_DestinationType */
+     , (13227, 4, 15403, -1, 0, 0, False) /* Create Small Pine Tree for Shop_DestinationType */
+     , (13227, 4, 15404, -1, 0, 0, False) /* Create Large Pine Tree for Shop_DestinationType */
+     , (13227, 4, 25759, -1, 0, 0, False) /* Create Shrubbery for Shop_DestinationType */
+     , (13227, 4, 13199, -1, 0, 0, False) /* Create Small Pine Tree for Shop_DestinationType */
+     , (13227, 4, 13228, -1, 0, 0, False) /* Create Large Pine Tree for Shop_DestinationType */
+     , (13227, 4, 13209, -1, 0, 0, False) /* Create Wreath for Shop_DestinationType */;
 

@@ -30,13 +30,13 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (14250, 1, True) /* STUCK_BOOL */
      , (14250, 76, True) /* HOUSE_REQUIRES_MONARCH_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (14250, 16, 273, 10000000, 0) /* Create Pyreal for HouseBuy_DestinationType */
-     , (14250, 16, 11710, 20, 0) /* Create Writ of Refuge for HouseBuy_DestinationType */
-     , (14250, 16, 9511, 20, 0) /* Create Golden Gromnie for HouseBuy_DestinationType */
-     , (14250, 16, 8701, 15, 0) /* Create Lucky Gold Letter for HouseBuy_DestinationType */
-     , (14250, 16, 8425, 7, 0) /* Create Idol Gem for HouseBuy_DestinationType */
-     , (14250, 16, 9413, 2, 0) /* Create Dread Mattekar Paw for HouseBuy_DestinationType */
-     , (14250, 32, 273, 1000000, 0) /* Create Pyreal for HouseRent_DestinationType */
-     , (14250, 32, 11710, 10, 0) /* Create Writ of Refuge for HouseRent_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (14250, 16, 273, 10000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
+     , (14250, 16, 11710, 20, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
+     , (14250, 16, 9511, 20, 0, 0, False) /* Create Golden Gromnie for HouseBuy_DestinationType */
+     , (14250, 16, 8701, 15, 0, 0, False) /* Create Lucky Gold Letter for HouseBuy_DestinationType */
+     , (14250, 16, 8425, 7, 0, 0, False) /* Create Idol Gem for HouseBuy_DestinationType */
+     , (14250, 16, 9413, 2, 0, 0, False) /* Create Dread Mattekar Paw for HouseBuy_DestinationType */
+     , (14250, 32, 273, 1000000, 0, 0, False) /* Create Pyreal for HouseRent_DestinationType */
+     , (14250, 32, 11710, 10, 0, 0, False) /* Create Writ of Refuge for HouseRent_DestinationType */;
 

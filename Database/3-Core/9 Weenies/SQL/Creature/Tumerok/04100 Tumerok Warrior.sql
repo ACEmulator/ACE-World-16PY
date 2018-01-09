@@ -116,20 +116,20 @@ VALUES (4100, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4100, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4100, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (4100, 8, 301, 0, 0) /* Create Battle Axe for Treasure_DestinationType */
-     , (4100, 8, 308, 0, 0) /* Create Budiaq for Treasure_DestinationType */
-     , (4100, 8, 313, 0, 0) /* Create Dabus for Treasure_DestinationType */
-     , (4100, 8, 324, 0, 0) /* Create Kaskara for Treasure_DestinationType */
-     , (4100, 8, 351, 0, 0) /* Create Long Sword for Treasure_DestinationType */
-     , (4100, 8, 331, 0, 0) /* Create Mace for Treasure_DestinationType */
-     , (4100, 8, 336, 0, 0) /* Create Ono for Treasure_DestinationType */
-     , (4100, 8, 339, 0, 0) /* Create Scimitar for Treasure_DestinationType */
-     , (4100, 8, 340, 0, 0) /* Create Shamshir for Treasure_DestinationType */
-     , (4100, 8, 344, 0, 0) /* Create Silifi for Treasure_DestinationType */
-     , (4100, 8, 348, 0, 0) /* Create Spear for Treasure_DestinationType */
-     , (4100, 8, 353, 0, 0) /* Create Tachi for Treasure_DestinationType */
-     , (4100, 8, 356, 0, 0) /* Create Tofun for Treasure_DestinationType */
-     , (4100, 8, 359, 0, 0) /* Create War Hammer for Treasure_DestinationType */
-     , (4100, 8, 362, 0, 0) /* Create Yari for Treasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (4100, 8, 301, 0, 0, 0.06, False) /* Create Battle Axe for Treasure_DestinationType */
+     , (4100, 8, 308, 0, 0, 0.06, False) /* Create Budiaq for Treasure_DestinationType */
+     , (4100, 8, 313, 0, 0, 0.06, False) /* Create Dabus for Treasure_DestinationType */
+     , (4100, 8, 324, 0, 0, 0.05, False) /* Create Kaskara for Treasure_DestinationType */
+     , (4100, 8, 351, 0, 0, 0.05, False) /* Create Long Sword for Treasure_DestinationType */
+     , (4100, 8, 331, 0, 0, 0.07, False) /* Create Mace for Treasure_DestinationType */
+     , (4100, 8, 336, 0, 0, 0.05, False) /* Create Ono for Treasure_DestinationType */
+     , (4100, 8, 339, 0, 0, 0.1, False) /* Create Scimitar for Treasure_DestinationType */
+     , (4100, 8, 340, 0, 0, 0.05, False) /* Create Shamshir for Treasure_DestinationType */
+     , (4100, 8, 344, 0, 0, 0.05, False) /* Create Silifi for Treasure_DestinationType */
+     , (4100, 8, 348, 0, 0, 0.07, False) /* Create Spear for Treasure_DestinationType */
+     , (4100, 8, 353, 0, 0, 0.05, False) /* Create Tachi for Treasure_DestinationType */
+     , (4100, 8, 356, 0, 0, 0.06, False) /* Create Tofun for Treasure_DestinationType */
+     , (4100, 8, 359, 0, 0, 0.1, False) /* Create War Hammer for Treasure_DestinationType */
+     , (4100, 8, 362, 0, 0, 0.1, False) /* Create Yari for Treasure_DestinationType */;
 

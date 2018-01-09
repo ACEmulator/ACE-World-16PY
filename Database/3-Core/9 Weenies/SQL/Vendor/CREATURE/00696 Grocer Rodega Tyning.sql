@@ -94,17 +94,17 @@ VALUES (696, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (696, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (696, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (696, 2, 130, 0, 9) /* Create Shirt for Wield_DestinationType */
-     , (696, 2, 117, 0, 10) /* Create Breeches for Wield_DestinationType */
-     , (696, 2, 115, 0, 9) /* Create Leather Boots for Wield_DestinationType */
-     , (696, 2, 118, 0, 9) /* Create Cap for Wield_DestinationType */
-     , (696, 2, 10696, 0, 18) /* Create Apron for Wield_DestinationType */
-     , (696, 4, 262, -1, 0) /* Create Chicken for Shop_DestinationType */
-     , (696, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (696, 4, 4761, -1, 0) /* Create Flour for Shop_DestinationType */
-     , (696, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (696, 4, 4754, -1, 0) /* Create Baking Pan for Shop_DestinationType */
-     , (696, 4, 4753, -1, 0) /* Create Side of Beef for Shop_DestinationType */
-     , (696, 4, 4766, -1, 0) /* Create Rennet for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (696, 2, 130, 0, 9, 0.5, False) /* Create Shirt for Wield_DestinationType */
+     , (696, 2, 117, 0, 10, 1, False) /* Create Breeches for Wield_DestinationType */
+     , (696, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
+     , (696, 2, 118, 0, 9, 0.5, False) /* Create Cap for Wield_DestinationType */
+     , (696, 2, 10696, 0, 18, 1, False) /* Create Apron for Wield_DestinationType */
+     , (696, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
+     , (696, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (696, 4, 4761, -1, 0, 0, False) /* Create Flour for Shop_DestinationType */
+     , (696, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (696, 4, 4754, -1, 0, 0, False) /* Create Baking Pan for Shop_DestinationType */
+     , (696, 4, 4753, -1, 0, 0, False) /* Create Side of Beef for Shop_DestinationType */
+     , (696, 4, 4766, -1, 0, 0, False) /* Create Rennet for Shop_DestinationType */;
 

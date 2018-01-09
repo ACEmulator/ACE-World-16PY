@@ -94,36 +94,36 @@ VALUES (710, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (710, 128, 65) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (710, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (710, 2, 124, 0, 7) /* Create Jerkin for Wield_DestinationType */
-     , (710, 2, 127, 0, 8) /* Create Pants for Wield_DestinationType */
-     , (710, 2, 115, 0, 18) /* Create Leather Boots for Wield_DestinationType */
-     , (710, 2, 10696, 0, 6) /* Create Apron for Wield_DestinationType */
-     , (710, 4, 2471, -1, 0) /* Create Stout for Shop_DestinationType */
-     , (710, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (710, 4, 2453, -1, 0) /* Create Cider for Shop_DestinationType */
-     , (710, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (710, 4, 2467, -1, 0) /* Create Red Wine for Shop_DestinationType */
-     , (710, 4, 8378, -1, 0) /* Create Beer Stein for Shop_DestinationType */
-     , (710, 4, 261, -1, 0) /* Create Cheese for Shop_DestinationType */
-     , (710, 4, 4716, -1, 0) /* Create Chicken Pie for Shop_DestinationType */
-     , (710, 4, 4739, -1, 0) /* Create Pickled Egg for Shop_DestinationType */
-     , (710, 4, 620, -1, 0) /* Create Cake for Shop_DestinationType */
-     , (710, 4, 5028, -1, 0) /* Create Directions to the Holtburg Redoubt  for Shop_DestinationType */
-     , (710, 4, 5029, -1, 0) /* Create Directions to the Cave of Alabree  for Shop_DestinationType */
-     , (710, 4, 1496, -1, 0) /* Create Directions to the Drudge Hideout for Shop_DestinationType */
-     , (710, 4, 1221, -1, 0) /* Create Holtburg Dungeon Directions for Shop_DestinationType */
-     , (710, 4, 1492, -1, 0) /* Create Edelbar Directions for Shop_DestinationType */
-     , (710, 4, 4211, -1, 0) /* Create Daiklos Legend for Shop_DestinationType */
-     , (710, 4, 2055, -1, 0) /* Create Directions to Hunter's Leap for Shop_DestinationType */
-     , (710, 4, 6420, -1, 0) /* Create The Obsidian Span for Shop_DestinationType */
-     , (710, 4, 22812, -1, 0) /* Create Dungeon Fern for Shop_DestinationType */
-     , (710, 4, 22817, -1, 0) /* Create The Rat Nest for Shop_DestinationType */
-     , (710, 4, 22814, -1, 0) /* Create Golem Mound for Shop_DestinationType */
-     , (710, 4, 22811, -1, 0) /* Create A Banderling Ruin for Shop_DestinationType */
-     , (710, 4, 22816, -1, 0) /* Create Hilltop for Shop_DestinationType */
-     , (710, 4, 22813, -1, 0) /* Create Glenden Wood Portal for Shop_DestinationType */
-     , (710, 4, 22815, -1, 0) /* Create Directions to the Hedged Platform for Shop_DestinationType */
-     , (710, 4, 6416, -1, 0) /* Create A Shivering Stone for Shop_DestinationType */
-     , (710, 4, 30763, -1, 0) /* Create Strange Mountain Echoes for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (710, 2, 124, 0, 7, 0.33, False) /* Create Jerkin for Wield_DestinationType */
+     , (710, 2, 127, 0, 8, 0.67, False) /* Create Pants for Wield_DestinationType */
+     , (710, 2, 115, 0, 18, 1, False) /* Create Leather Boots for Wield_DestinationType */
+     , (710, 2, 10696, 0, 6, 0, False) /* Create Apron for Wield_DestinationType */
+     , (710, 4, 2471, -1, 0, 0, False) /* Create Stout for Shop_DestinationType */
+     , (710, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (710, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
+     , (710, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (710, 4, 2467, -1, 0, 0, False) /* Create Red Wine for Shop_DestinationType */
+     , (710, 4, 8378, -1, 0, 0, False) /* Create Beer Stein for Shop_DestinationType */
+     , (710, 4, 261, -1, 0, 0, False) /* Create Cheese for Shop_DestinationType */
+     , (710, 4, 4716, -1, 0, 0, False) /* Create Chicken Pie for Shop_DestinationType */
+     , (710, 4, 4739, -1, 0, 0, False) /* Create Pickled Egg for Shop_DestinationType */
+     , (710, 4, 620, -1, 0, 0, False) /* Create Cake for Shop_DestinationType */
+     , (710, 4, 5028, -1, 0, 0, False) /* Create Directions to the Holtburg Redoubt  for Shop_DestinationType */
+     , (710, 4, 5029, -1, 0, 0, False) /* Create Directions to the Cave of Alabree  for Shop_DestinationType */
+     , (710, 4, 1496, -1, 0, 0, False) /* Create Directions to the Drudge Hideout for Shop_DestinationType */
+     , (710, 4, 1221, -1, 0, 0, False) /* Create Holtburg Dungeon Directions for Shop_DestinationType */
+     , (710, 4, 1492, -1, 0, 0, False) /* Create Edelbar Directions for Shop_DestinationType */
+     , (710, 4, 4211, -1, 0, 0, False) /* Create Daiklos Legend for Shop_DestinationType */
+     , (710, 4, 2055, -1, 0, 0, False) /* Create Directions to Hunter's Leap for Shop_DestinationType */
+     , (710, 4, 6420, -1, 0, 0, False) /* Create The Obsidian Span for Shop_DestinationType */
+     , (710, 4, 22812, -1, 0, 0, False) /* Create Dungeon Fern for Shop_DestinationType */
+     , (710, 4, 22817, -1, 0, 0, False) /* Create The Rat Nest for Shop_DestinationType */
+     , (710, 4, 22814, -1, 0, 0, False) /* Create Golem Mound for Shop_DestinationType */
+     , (710, 4, 22811, -1, 0, 0, False) /* Create A Banderling Ruin for Shop_DestinationType */
+     , (710, 4, 22816, -1, 0, 0, False) /* Create Hilltop for Shop_DestinationType */
+     , (710, 4, 22813, -1, 0, 0, False) /* Create Glenden Wood Portal for Shop_DestinationType */
+     , (710, 4, 22815, -1, 0, 0, False) /* Create Directions to the Hedged Platform for Shop_DestinationType */
+     , (710, 4, 6416, -1, 0, 0, False) /* Create A Shivering Stone for Shop_DestinationType */
+     , (710, 4, 30763, -1, 0, 0, False) /* Create Strange Mountain Echoes for Shop_DestinationType */;
 

@@ -93,12 +93,12 @@ VALUES (30890, 64, 10330) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30890, 128, 5660) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30890, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (30890, 9, 23108, 0, 0) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
-     , (30890, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30890, 9, 23107, 0, 0) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
-     , (30890, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (30890, 9, 30872, 0, 0) /* Create Eye of the Fallen for ContainTreasure_DestinationType */
-     , (30890, 9, 30857, 0, 0) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30890, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (30890, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
+     , (30890, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
+     , (30890, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
+     , (30890, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
+     , (30890, 9, 30872, 0, 0, 1, False) /* Create Eye of the Fallen for ContainTreasure_DestinationType */
+     , (30890, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
+     , (30890, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 

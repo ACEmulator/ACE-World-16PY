@@ -95,9 +95,9 @@ VALUES (7183, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7183, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7183, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (7183, 9, 8426, 0, 0) /* Create Jungle Phyntos Wasp Wing for ContainTreasure_DestinationType */
-     , (7183, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (7183, 9, 6876, 0, 0) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7183, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (7183, 9, 8426, 0, 0, 0.08, False) /* Create Jungle Phyntos Wasp Wing for ContainTreasure_DestinationType */
+     , (7183, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
+     , (7183, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
+     , (7183, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

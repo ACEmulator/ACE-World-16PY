@@ -94,25 +94,25 @@ VALUES (865, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (865, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (865, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (865, 2, 134, 0, 17) /* Create Tunic for Wield_DestinationType */
-     , (865, 2, 117, 0, 14) /* Create Breeches for Wield_DestinationType */
-     , (865, 2, 132, 0, 14) /* Create Shoes for Wield_DestinationType */
-     , (865, 2, 10696, 0, 9) /* Create Apron for Wield_DestinationType */
-     , (865, 4, 263, -1, 0) /* Create Fish for Shop_DestinationType */
-     , (865, 4, 2463, -1, 0) /* Create Milk for Shop_DestinationType */
-     , (865, 4, 546, -1, 0) /* Create Egg for Shop_DestinationType */
-     , (865, 4, 547, -1, 0) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
-     , (865, 4, 4746, -1, 0) /* Create Water for Shop_DestinationType */
-     , (865, 4, 4755, -1, 0) /* Create Brine for Shop_DestinationType */
-     , (865, 4, 4768, -1, 0) /* Create Uncooked Rice for Shop_DestinationType */
-     , (865, 4, 5758, -1, 0) /* Create Carrot for Shop_DestinationType */
-     , (865, 4, 23327, -1, 0) /* Create Simple Dried Rations for Shop_DestinationType */
-     , (865, 4, 23326, -1, 0) /* Create Elaborate Dried Rations for Shop_DestinationType */
-     , (865, 4, 4759, -1, 0) /* Create Cooking Pot for Shop_DestinationType */
-     , (865, 4, 4764, -1, 0) /* Create Noodle Cutter for Shop_DestinationType */
-     , (865, 4, 7823, -1, 0) /* Create Heavy Grinder for Shop_DestinationType */
-     , (865, 4, 513, -1, 0) /* Create Plain Lockpick for Shop_DestinationType */
-     , (865, 4, 545, -1, 0) /* Create Reliable Lockpick for Shop_DestinationType */
-     , (865, 4, 512, -1, 0) /* Create Good Lockpick for Shop_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (865, 2, 134, 0, 17, 1, False) /* Create Tunic for Wield_DestinationType */
+     , (865, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
+     , (865, 2, 132, 0, 14, 0, False) /* Create Shoes for Wield_DestinationType */
+     , (865, 2, 10696, 0, 9, 1, False) /* Create Apron for Wield_DestinationType */
+     , (865, 4, 263, -1, 0, 0, False) /* Create Fish for Shop_DestinationType */
+     , (865, 4, 2463, -1, 0, 0, False) /* Create Milk for Shop_DestinationType */
+     , (865, 4, 546, -1, 0, 0, False) /* Create Egg for Shop_DestinationType */
+     , (865, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */
+     , (865, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
+     , (865, 4, 4755, -1, 0, 0, False) /* Create Brine for Shop_DestinationType */
+     , (865, 4, 4768, -1, 0, 0, False) /* Create Uncooked Rice for Shop_DestinationType */
+     , (865, 4, 5758, -1, 0, 0, False) /* Create Carrot for Shop_DestinationType */
+     , (865, 4, 23327, -1, 0, 0, False) /* Create Simple Dried Rations for Shop_DestinationType */
+     , (865, 4, 23326, -1, 0, 0, False) /* Create Elaborate Dried Rations for Shop_DestinationType */
+     , (865, 4, 4759, -1, 0, 0, False) /* Create Cooking Pot for Shop_DestinationType */
+     , (865, 4, 4764, -1, 0, 0, False) /* Create Noodle Cutter for Shop_DestinationType */
+     , (865, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
+     , (865, 4, 513, -1, 0, 0, False) /* Create Plain Lockpick for Shop_DestinationType */
+     , (865, 4, 545, -1, 0, 0, False) /* Create Reliable Lockpick for Shop_DestinationType */
+     , (865, 4, 512, -1, 0, 0, False) /* Create Good Lockpick for Shop_DestinationType */;
 

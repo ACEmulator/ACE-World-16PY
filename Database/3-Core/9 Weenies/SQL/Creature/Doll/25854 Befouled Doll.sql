@@ -99,9 +99,9 @@ VALUES (25854, 64, 875) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (25854, 128, 800) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (25854, 256, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (25854, 9, 30823, 0, 0) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25854, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (25854, 9, 25893, 0, 0) /* Create Doll's Eye for ContainTreasure_DestinationType */
-     , (25854, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (25854, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
+     , (25854, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
+     , (25854, 9, 25893, 0, 0, 0.0075, False) /* Create Doll's Eye for ContainTreasure_DestinationType */
+     , (25854, 9, 0, 0, 0, 0.9925, False) /* Create  for ContainTreasure_DestinationType */;
 

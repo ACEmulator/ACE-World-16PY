@@ -93,9 +93,9 @@ VALUES (12, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (12, 9, 3703, 0, 0) /* Create Red Phyntos Wasp Wing for ContainTreasure_DestinationType */
-     , (12, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */
-     , (12, 9, 8701, 0, 0) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (12, 9, 0, 0, 0) /* Create  for ContainTreasure_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (12, 9, 3703, 0, 0, 0.15, False) /* Create Red Phyntos Wasp Wing for ContainTreasure_DestinationType */
+     , (12, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */
+     , (12, 9, 8701, 0, 0, 0.01, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
+     , (12, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -42,29 +42,29 @@ VALUES (20183, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
 INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20183, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`)
-VALUES (20183, 1, 9177, 1, 0) /* Create Pack Scarecrow for Contain_DestinationType */
-     , (20183, 1, 9171, 1, 0) /* Create Pack Mosswart for Contain_DestinationType */
-     , (20183, 1, 9172, 1, 0) /* Create Pack Drudge for Contain_DestinationType */
-     , (20183, 1, 9179, 1, 0) /* Create Pack Golem for Contain_DestinationType */
-     , (20183, 1, 6057, 1, 0) /* Create Tiny Shard for Contain_DestinationType */
-     , (20183, 1, 3698, 1, 0) /* Create White Jewel for Contain_DestinationType */
-     , (20183, 1, 8145, 1, 0) /* Create Drudge Head for Contain_DestinationType */
-     , (20183, 1, 11626, 1, 0) /* Create Quiddity Ingot for Contain_DestinationType */
-     , (20183, 1, 8146, 1, 0) /* Create Mosswart Head for Contain_DestinationType */
-     , (20183, 1, 8146, 1, 0) /* Create Mosswart Head for Contain_DestinationType */
-     , (20183, 1, 11692, 1, 0) /* Create Little Green Seeds for Contain_DestinationType */
-     , (20183, 1, 8425, 1, 0) /* Create Idol Gem for Contain_DestinationType */
-     , (20183, 1, 9324, 1, 0) /* Create Obsidian Heart for Contain_DestinationType */
-     , (20183, 1, 2627, 1, 0) /* Create Trade Note (100,000) for Contain_DestinationType */
-     , (20183, 1, 6355, 1, 0) /* Create Pyreal Sliver for Contain_DestinationType */
-     , (20183, 1, 686, 1, 0) /* Create Copper Scarab for Contain_DestinationType */
-     , (20183, 1, 773, 1, 0) /* Create Henbane for Contain_DestinationType */
-     , (20183, 1, 9294, 1, 0) /* Create Singularity Key for Contain_DestinationType */
-     , (20183, 1, 6876, 1, 0) /* Create Sturdy Iron Key for Contain_DestinationType */
-     , (20183, 1, 9229, 1, 0) /* Create Treated Healing Kit for Contain_DestinationType */
-     , (20183, 1, 9193, 1, 0) /* Create Gem of Stillness for Contain_DestinationType */
-     , (20183, 1, 3669, 1, 0) /* Create Drudge Charm for Contain_DestinationType */
-     , (20183, 1, 8665, 1, 0) /* Create Ursuin Scalp for Contain_DestinationType */
-     , (20183, 1, 3699, 1, 0) /* Create Blue Phyntos Wasp Wing for Contain_DestinationType */;
+INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+VALUES (20183, 1, 9177, 1, 0, 1, False) /* Create Pack Scarecrow for Contain_DestinationType */
+     , (20183, 1, 9171, 1, 0, 1, False) /* Create Pack Mosswart for Contain_DestinationType */
+     , (20183, 1, 9172, 1, 0, 1, False) /* Create Pack Drudge for Contain_DestinationType */
+     , (20183, 1, 9179, 1, 0, 1, False) /* Create Pack Golem for Contain_DestinationType */
+     , (20183, 1, 6057, 1, 0, 1, False) /* Create Tiny Shard for Contain_DestinationType */
+     , (20183, 1, 3698, 1, 0, 1, False) /* Create White Jewel for Contain_DestinationType */
+     , (20183, 1, 8145, 1, 0, 1, False) /* Create Drudge Head for Contain_DestinationType */
+     , (20183, 1, 11626, 1, 0, 1, False) /* Create Quiddity Ingot for Contain_DestinationType */
+     , (20183, 1, 8146, 1, 0, 1, False) /* Create Mosswart Head for Contain_DestinationType */
+     , (20183, 1, 8146, 1, 0, 1, False) /* Create Mosswart Head for Contain_DestinationType */
+     , (20183, 1, 11692, 1, 0, 1, False) /* Create Little Green Seeds for Contain_DestinationType */
+     , (20183, 1, 8425, 1, 0, 1, False) /* Create Idol Gem for Contain_DestinationType */
+     , (20183, 1, 9324, 1, 0, 1, False) /* Create Obsidian Heart for Contain_DestinationType */
+     , (20183, 1, 2627, 1, 0, 1, False) /* Create Trade Note (100,000) for Contain_DestinationType */
+     , (20183, 1, 6355, 1, 0, 1, False) /* Create Pyreal Sliver for Contain_DestinationType */
+     , (20183, 1, 686, 1, 0, 1, False) /* Create Copper Scarab for Contain_DestinationType */
+     , (20183, 1, 773, 1, 0, 1, False) /* Create Henbane for Contain_DestinationType */
+     , (20183, 1, 9294, 1, 0, 1, False) /* Create Singularity Key for Contain_DestinationType */
+     , (20183, 1, 6876, 1, 0, 1, False) /* Create Sturdy Iron Key for Contain_DestinationType */
+     , (20183, 1, 9229, 1, 0, 1, False) /* Create Treated Healing Kit for Contain_DestinationType */
+     , (20183, 1, 9193, 1, 0, 1, False) /* Create Gem of Stillness for Contain_DestinationType */
+     , (20183, 1, 3669, 1, 0, 1, False) /* Create Drudge Charm for Contain_DestinationType */
+     , (20183, 1, 8665, 1, 0, 1, False) /* Create Ursuin Scalp for Contain_DestinationType */
+     , (20183, 1, 3699, 1, 0, 1, False) /* Create Blue Phyntos Wasp Wing for Contain_DestinationType */;
 
