@@ -11,12 +11,12 @@ echo /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */; >> ACE
 echo /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */; >> ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 
-For /R "..\3-Core\9 Weenies\SQL\" %%G IN (*.sql) do (
+For /R "..\3-Core\9 WeenieDefaults\SQL\" %%G IN (*.sql) do (
 copy /b ACE-World-CE16PY.sql + "%%G" ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 )
 
-copy /b ACE-World-CE16PY.sql + "..\3-Core\6 World Spawns\SQL\*.sql" ACE-World-CE16PY.sql
+copy /b ACE-World-CE16PY.sql + "..\3-Core\6 LandBlockExtendedData\SQL\*.sql" ACE-World-CE16PY.sql
 echo. >> ACE-World-CE16PY.sql
 
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-CE16PY.sql
