@@ -15,10 +15,17 @@ echo. >> ACE-World-CE16PY.sql
 echo Compiling Weenies... No output will be displayed except if error occurs.
 echo This will take a while...
 
-For /R "..\3-Core\9 WeenieDefaults\SQL\" %%G IN (*.sql) do (
-copy /b ACE-World-CE16PY.sql + "%%G" ACE-World-CE16PY.sql 1>NUL
-echo. >> ACE-World-CE16PY.sql
-)
+REM For /R "..\3-Core\9 WeenieDefaults\SQL\" %%G IN (*.sql) do (
+REM copy /b ACE-World-CE16PY.sql + "%%G" ACE-World-CE16PY.sql 1>NUL
+REM echo. >> ACE-World-CE16PY.sql
+REM )
+
+set compileddir=%cd%
+FOR /R "..\3-Core\9 WeenieDefaults\SQL\" %%G in (.) DO (
+ Pushd %%G
+ REM Echo now in %%G
+ copy /b "%compileddir%\ACE-World-CE16PY.sql" + *.sql "%compileddir%\ACE-World-CE16PY.sql" 1>NUL
+ Popd )
 
 echo Compiling Landblocks... No output will be displayed except if error occurs.
 echo This will not take long.
