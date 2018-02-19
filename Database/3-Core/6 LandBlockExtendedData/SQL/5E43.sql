@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22638, 1977888768, 1581449475, 19.9864, -9.242, 0.005, -0.00420373, 0, 0, 0.999991) /* eventmowenfightgen */
      , (22701, 1977888787, 1581449481, 120, -26.5647, 0.005, 1, 0, 0, 0) /* Throne of the Tusker King */
      , (22606, 1977888770, 1581449493, 3.82907, -10.5229, 12.005, 0.711135, 0, 0, -0.703055) /* Tuskie Gunner */
@@ -18,18 +18,18 @@ VALUES (22638, 1977888768, 1581449475, 19.9864, -9.242, 0.005, -0.00420373, 0, 0
      , (22606, 1977888781, 1581449515, 35.9397, -32.1734, 12.005, 0.701862, 0, 0, 0.712313) /* Tuskie Gunner */
      , (7923, 1977888782, 1581449515, 41.6783, -30.4984, 12.005, 0.712798, 0, 0, 0.701369) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1977888782'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1977888782'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888777'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888779'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888780'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888781'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888778'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888776'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888774'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888772'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888771'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888770'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888773'; /* linkmonstergen3minutes <- Tuskie Gunner */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977888775'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888777'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888779'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888780'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888781'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888778'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888776'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888774'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888772'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888771'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888770'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888773'; /* linkmonstergen3minutes <- Tuskie Gunner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977888775'; /* linkmonstergen3minutes <- Tuskie Gunner */
 

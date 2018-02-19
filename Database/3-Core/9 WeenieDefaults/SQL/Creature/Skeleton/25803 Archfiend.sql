@@ -1,16 +1,13 @@
 /* Weenie - Archfiend (25803) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25803;
+DELETE FROM weenie WHERE class_Id = 25803;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25803, 'skeletonarchfiend');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25803, 'skeletonarchfiend', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25803, 0, 25803);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25803, 1, 'Archfiend') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25803, 8, 100669124) /* ICON_DID */
      , (25803, 32, 426) /* WIELDED_TREASURE_TYPE_DID */
      , (25803, 1, 33558396) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (25803, 8, 100669124) /* ICON_DID */
      , (25803, 7, 268436644) /* CLOTHINGBASE_DID */
      , (25803, 22, 872415269) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25803, 1, 16) /* ITEM_TYPE_INT */
      , (25803, 2, 30) /* CREATURE_TYPE_INT */
      , (25803, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (25803, 1, 16) /* ITEM_TYPE_INT */
      , (25803, 27, 0) /* ARMOR_TYPE_INT */
      , (25803, 93, 1032) /* PHYSICS_STATE_INT */
      , (25803, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (25803, 40, 1) /* COMBAT_MODE_INT */
-     , (25803, 9007, 10) /* Creature_WeenieType */;
+     , (25803, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25803, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (25803, 65, 0.25) /* RESIST_PIERCE_FLOAT */
      , (25803, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (25803, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (25803, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25803, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25803, 1, True) /* STUCK_BOOL */
      , (25803, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25803, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25803, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25803, 1, 350) /* STRENGTH_ATTRIBUTE */
      , (25803, 2, 500) /* ENDURANCE_ATTRIBUTE */
      , (25803, 4, 350) /* COORDINATION_ATTRIBUTE */
-     , (25803, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (25803, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (25803, 32, 200) /* SELF_ATTRIBUTE */;
+     , (25803, 3, 350) /* QUICKNESS_ATTRIBUTE */
+     , (25803, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (25803, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25803, 64, 4750) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25803, 128, 3500) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25803, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25803, 1, 4750) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25803, 3, 3500) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25803, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25803, 9, 23108, 0, 0, 0.02, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
      , (25803, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (25803, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */

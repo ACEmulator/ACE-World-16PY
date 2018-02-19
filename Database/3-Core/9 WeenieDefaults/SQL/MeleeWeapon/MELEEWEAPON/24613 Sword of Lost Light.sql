@@ -1,24 +1,21 @@
 /* Weenie - Sword of Lost Light (24613) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24613;
+DELETE FROM weenie WHERE class_Id = 24613;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24613, 'swordlostlightwhiterednew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24613, 'swordlostlightwhiterednew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24613, 0, 24613);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24613, 16, 'The Sword of Lost Light, infused with white fire from Mount Esper and red fire from Mount Tenkarrdun.') /* LONG_DESC_STRING */
      , (24613, 1, 'Sword of Lost Light') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24613, 1, 33558416) /* SETUP_DID */
      , (24613, 3, 536870932) /* SOUND_TABLE_DID */
      , (24613, 37, 11) /* ITEM_SKILL_LIMIT_DID */
      , (24613, 8, 100674513) /* ICON_DID */
      , (24613, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24613, 9, 1048576) /* LOCATIONS_INT */
      , (24613, 1, 1) /* ITEM_TYPE_INT */
      , (24613, 5, 450) /* ENCUMB_VAL_INT */
@@ -43,10 +40,9 @@ VALUES (24613, 9, 1048576) /* LOCATIONS_INT */
      , (24613, 48, 11) /* WEAPON_SKILL_INT */
      , (24613, 49, 30) /* WEAPON_TIME_INT */
      , (24613, 51, 1) /* COMBAT_USE_INT */
-     , (24613, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (24613, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (24613, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24613, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (24613, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (24613, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -55,12 +51,12 @@ VALUES (24613, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (24613, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */
      , (24613, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24613, 69, False) /* IS_SELLABLE_BOOL */
      , (24613, 22, True) /* INSCRIBABLE_BOOL */
      , (24613, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24613, 1605, 2) /* Defender6_SpellID */
      , (24613, 1592, 2) /* HeartSeeker6_SpellID */
      , (24613, 1624, 2) /* SwiftKiller3_SpellID */

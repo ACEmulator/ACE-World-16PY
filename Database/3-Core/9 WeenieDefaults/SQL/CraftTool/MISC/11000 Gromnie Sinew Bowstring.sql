@@ -1,25 +1,22 @@
 /* Weenie - Gromnie Sinew Bowstring (11000) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11000;
+DELETE FROM weenie WHERE class_Id = 11000;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11000, 'exquisiteelaribowstring-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11000, 'exquisiteelaribowstring-xp', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11000, 0, 11000);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11000, 16, 'This bowstring is spun from the tight, powerful sinews found in a gromnie''s back. It will be quite a feat to string a bow with this.') /* LONG_DESC_STRING */
      , (11000, 1, 'Gromnie Sinew Bowstring') /* NAME_STRING */
      , (11000, 33, 'championquest06') /* QUEST_STRING */
      , (11000, 15, 'A bowstring made from the sinew of a gromnie.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11000, 1, 33557228) /* SETUP_DID */
      , (11000, 3, 536870932) /* SOUND_TABLE_DID */
      , (11000, 8, 100671863) /* ICON_DID */
      , (11000, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11000, 9, 0) /* LOCATIONS_INT */
      , (11000, 1, 128) /* ITEM_TYPE_INT */
      , (11000, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (11000, 9, 0) /* LOCATIONS_INT */
      , (11000, 93, 1044) /* PHYSICS_STATE_INT */
      , (11000, 94, 128) /* TARGET_TYPE_INT */
      , (11000, 33, 1) /* BONDED_INT */
-     , (11000, 114, 1) /* ATTUNED_INT */
-     , (11000, 9007, 44) /* CraftTool_WeenieType */;
+     , (11000, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11000, 39, 0.3) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11000, 22, True) /* INSCRIBABLE_BOOL */
      , (11000, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

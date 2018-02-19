@@ -1,16 +1,13 @@
 /* Weenie - Slithayr Tendril (4259) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4259;
+DELETE FROM weenie WHERE class_Id = 4259;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4259, 'slithayrtendril');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4259, 'slithayrtendril', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4259, 0, 4259);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4259, 1, 'Slithayr Tendril') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4259, 1, 33555670) /* SETUP_DID */
      , (4259, 2, 150995067) /* MOTION_TABLE_DID */
      , (4259, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (4259, 1, 33555670) /* SETUP_DID */
      , (4259, 7, 268436087) /* CLOTHINGBASE_DID */
      , (4259, 8, 100671186) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4259, 1, 16) /* ITEM_TYPE_INT */
      , (4259, 146, 6625) /* XP_OVERRIDE_INT */
      , (4259, 2, 36) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (4259, 1, 16) /* ITEM_TYPE_INT */
      , (4259, 25, 44) /* LEVEL_INT */
      , (4259, 27, 0) /* ARMOR_TYPE_INT */
      , (4259, 93, 1032) /* PHYSICS_STATE_INT */
-     , (4259, 40, 2) /* COMBAT_MODE_INT */
-     , (4259, 9007, 10) /* Creature_WeenieType */;
+     , (4259, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4259, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (4259, 65, 0.42) /* RESIST_PIERCE_FLOAT */
      , (4259, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (4259, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (4259, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4259, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4259, 1, True) /* STUCK_BOOL */
      , (4259, 6, True) /* AI_USES_MANA_BOOL */
      , (4259, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -81,7 +77,7 @@ VALUES (4259, 1, True) /* STUCK_BOOL */
      , (4259, 13, False) /* ETHEREAL_BOOL */
      , (4259, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4259, 1262, 2.02) /* DrainMana3_SpellID */
      , (4259, 1309, 2.02) /* ArmorSelf3_SpellID */
      , (4259, 1158, 2.02) /* HealSelf3_SpellID */
@@ -89,19 +85,19 @@ VALUES (4259, 1262, 2.02) /* DrainMana3_SpellID */
      , (4259, 173, 2.02) /* FesterOther3_SpellID */
      , (4259, 1465, 2.02) /* FeeblemindOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4259, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (4259, 2, 180) /* ENDURANCE_ATTRIBUTE */
      , (4259, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (4259, 8, 190) /* QUICKNESS_ATTRIBUTE */
-     , (4259, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (4259, 32, 140) /* SELF_ATTRIBUTE */;
+     , (4259, 3, 190) /* QUICKNESS_ATTRIBUTE */
+     , (4259, 5, 140) /* FOCUS_ATTRIBUTE */
+     , (4259, 6, 140) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4259, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4259, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4259, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4259, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4259, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4259, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4259, 2, 4804, 10, 0, 0, False) /* Create Slithis Spine for Wield_DestinationType */;
 

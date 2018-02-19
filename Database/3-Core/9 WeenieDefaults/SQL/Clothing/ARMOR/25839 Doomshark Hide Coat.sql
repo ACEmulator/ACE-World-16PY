@@ -1,17 +1,14 @@
 /* Weenie - Doomshark Hide Coat (25839) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25839;
+DELETE FROM weenie WHERE class_Id = 25839;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25839, 'coatdoomshark');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25839, 'coatdoomshark', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25839, 0, 25839);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25839, 16, 'A hooded coat crafted from the hide of a doomshark.') /* LONG_DESC_STRING */
      , (25839, 1, 'Doomshark Hide Coat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25839, 1, 33554644) /* SETUP_DID */
      , (25839, 3, 536870932) /* SOUND_TABLE_DID */
      , (25839, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (25839, 1, 33554644) /* SETUP_DID */
      , (25839, 7, 268436756) /* CLOTHINGBASE_DID */
      , (25839, 8, 100675624) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25839, 9, 6657) /* LOCATIONS_INT */
      , (25839, 1, 2) /* ITEM_TYPE_INT */
      , (25839, 19, 7500) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (25839, 9, 6657) /* LOCATIONS_INT */
      , (25839, 106, 400) /* ITEM_SPELLCRAFT_INT */
      , (25839, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (25839, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25839, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25839, 9007, 2) /* Clothing_WeenieType */;
+     , (25839, 109, 125) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25839, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25839, 5, -0.033) /* MANA_RATE_FLOAT */
      , (25839, 12, 0.66) /* SHADE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (25839, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25839, 18, 1.05) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (25839, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25839, 100, True) /* DYABLE_BOOL */
      , (25839, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25839, 1486, 2) /* Impenetrability6_SpellID */
      , (25839, 2618, 2) /* CANTRIPFLAMEWARD1_SpellID */
      , (25839, 2621, 2) /* CANTRIPSLASHINGWARD1_SpellID */;

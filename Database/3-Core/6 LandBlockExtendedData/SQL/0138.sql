@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26008, 1880326369, 20447488, 0.62683, -142.126, -11.989, 0.934049, 0, 0, -0.357146) /* Gelidite Golem */
      , (4998, 1880326145, 20447492, 10, -140, -12, 0.707107, 0, 0, -0.707107) /* Chilly Air Level 2 */
      , (4998, 1880326146, 20447496, 10, -158.667, -12, -4.37114E-08, 0, 0, -1) /* Chilly Air Level 2 */
@@ -203,76 +203,76 @@ VALUES (26008, 1880326369, 20447488, 0.62683, -142.126, -11.989, 0.934049, 0, 0,
      , (5625, 1880326367, 20448364, 95.15, -60.01, 18, -0.707107, 0, 0, -0.707107) /* Door */
      , (5625, 1880326368, 20448365, 95.15, -70.01, 18, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880326278'; /* Frost Trap */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880326330'; /* Shockwave Trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880326254'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880326253'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880326287'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880326375'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880326376'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880326278'; /* Frost Trap */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880326330'; /* Shockwave Trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880326254'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880326253'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880326287'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880326375'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880326376'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880326277'; /* Frost Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880326331'; /* Shockwave Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880326199'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880326200'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880326319'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326379'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326369'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326370'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326373'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326382'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326384'; /* linkmonstergen10minutes <- Crystal Shard */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326385'; /* linkmonstergen10minutes <- Crystal Shard */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326386'; /* linkmonstergen10minutes <- Crystal Shard */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326380'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326381'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326383'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326372'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326378'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326377'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326371'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880326374'; /* linkmonstergen10minutes <- Gelidite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326275'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326325'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326284'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326221'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326249'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326228'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326229'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326301'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326214'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326207'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326234'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326233'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326327'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326304'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326203'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326168'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326158'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326152'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326283'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326239'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326268'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326328'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326212'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326238'; /* linkmonstergen7minutes <- Gelidite Initiate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326366'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326332'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326335'; /* linkmonstergen7minutes <- Gelidite Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326177'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326260'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326271'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326257'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326172'; /* linkmonstergen7minutes <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326298'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326173'; /* linkmonstergen7minutes <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326300'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326149'; /* linkmonstergen7minutes <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326265'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326289'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326293'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326258'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326256'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326255'; /* linkmonstergen7minutes <- Gelidite Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880326266'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880326277'; /* Frost Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880326331'; /* Shockwave Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880326199'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880326200'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880326319'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326379'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326369'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326370'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326373'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326382'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326384'; /* linkmonstergen10minutes <- Crystal Shard */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326385'; /* linkmonstergen10minutes <- Crystal Shard */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326386'; /* linkmonstergen10minutes <- Crystal Shard */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326380'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326381'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326383'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326372'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326378'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326377'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326371'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880326374'; /* linkmonstergen10minutes <- Gelidite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326275'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326325'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326284'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326221'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326249'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326228'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326229'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326301'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326214'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326207'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326234'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326233'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326327'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326304'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326203'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326168'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326158'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326152'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326283'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326239'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326268'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326328'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326212'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326238'; /* linkmonstergen7minutes <- Gelidite Initiate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326366'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326332'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326335'; /* linkmonstergen7minutes <- Gelidite Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326177'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326260'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326271'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326257'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326172'; /* linkmonstergen7minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326298'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326173'; /* linkmonstergen7minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326300'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326149'; /* linkmonstergen7minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326265'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326289'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326293'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326258'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326256'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326255'; /* linkmonstergen7minutes <- Gelidite Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880326266'; /* linkmonstergen7minutes <- Gelidite Acolyte */
 

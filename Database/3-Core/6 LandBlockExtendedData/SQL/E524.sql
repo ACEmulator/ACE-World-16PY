@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8474, 2119319552, 3844342016, 23.0794, 23.9524, -5.195, 0.930442, 0, 0, -0.36644) /* Mud Cave */
      , (4219, 2119319557, 3844342016, 20.5286, 14.9529, -5.195, -0.395185, 0, 0, -0.918602) /* linkmonstergen7minutes */
      , (27860, 2119319553, 3844342016, 18.9549, 23.3063, -5.195, -0.178423, 0, 0, -0.983954) /* Sallow Moarsman */
@@ -6,10 +6,10 @@ VALUES (8474, 2119319552, 3844342016, 23.0794, 23.9524, -5.195, 0.930442, 0, 0, 
      , (27860, 2119319556, 3844341760, 6.48042, 13.3014, 0.005, -0.0622315, 0, 0, -0.998062) /* Sallow Moarsman */
      , (27859, 2119319555, 3844341760, 11.8337, 5.10654, 0.005, -0.672271, 0, 0, -0.740305) /* Pallid Moarsman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119319557'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119319557'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119319553'; /* linkmonstergen7minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119319554'; /* linkmonstergen7minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119319555'; /* linkmonstergen7minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119319556'; /* linkmonstergen7minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119319553'; /* linkmonstergen7minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119319554'; /* linkmonstergen7minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119319555'; /* linkmonstergen7minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119319556'; /* linkmonstergen7minutes <- Sallow Moarsman */
 

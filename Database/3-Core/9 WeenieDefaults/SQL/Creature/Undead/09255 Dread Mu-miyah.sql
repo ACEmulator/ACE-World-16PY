@@ -1,16 +1,13 @@
 /* Weenie - Dread Mu-miyah (9255) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9255;
+DELETE FROM weenie WHERE class_Id = 9255;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9255, 'mumiyahdread');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9255, 'mumiyahdread', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9255, 0, 9255);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9255, 1, 'Dread Mu-miyah') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9255, 1, 33554433) /* SETUP_DID */
      , (9255, 2, 150994981) /* MOTION_TABLE_DID */
      , (9255, 35, 462) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (9255, 1, 33554433) /* SETUP_DID */
      , (9255, 7, 268435645) /* CLOTHINGBASE_DID */
      , (9255, 8, 100669122) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9255, 1, 16) /* ITEM_TYPE_INT */
      , (9255, 2, 14) /* CREATURE_TYPE_INT */
      , (9255, 3, 8) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (9255, 1, 16) /* ITEM_TYPE_INT */
      , (9255, 27, 0) /* ARMOR_TYPE_INT */
      , (9255, 93, 1032) /* PHYSICS_STATE_INT */
      , (9255, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (9255, 40, 1) /* COMBAT_MODE_INT */
-     , (9255, 9007, 10) /* Creature_WeenieType */;
+     , (9255, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9255, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (9255, 65, 0.58) /* RESIST_PIERCE_FLOAT */
      , (9255, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,27 +72,27 @@ VALUES (9255, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (9255, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (9255, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9255, 1, True) /* STUCK_BOOL */
      , (9255, 6, True) /* AI_USES_MANA_BOOL */
      , (9255, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (9255, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9255, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9255, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (9255, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (9255, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (9255, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (9255, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (9255, 32, 110) /* SELF_ATTRIBUTE */;
+     , (9255, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (9255, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (9255, 6, 110) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9255, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9255, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9255, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9255, 1, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9255, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9255, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9255, 9, 9312, 0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
      , (9255, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

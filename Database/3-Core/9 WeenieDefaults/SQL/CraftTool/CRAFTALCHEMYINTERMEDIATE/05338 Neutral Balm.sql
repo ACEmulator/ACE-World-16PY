@@ -1,24 +1,21 @@
 /* Weenie - Neutral Balm (5338) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5338;
+DELETE FROM weenie WHERE class_Id = 5338;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5338, 'neutralbalm');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5338, 'neutralbalm', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5338, 0, 5338);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5338, 1, 'Neutral Balm') /* NAME_STRING */
      , (5338, 20, 'Neutral Balms') /* PLURAL_NAME_STRING */
      , (5338, 14, 'This item is used in alchemy.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5338, 1, 33555963) /* SETUP_DID */
      , (5338, 3, 536870932) /* SOUND_TABLE_DID */
      , (5338, 8, 100670004) /* ICON_DID */
      , (5338, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5338, 9, 0) /* LOCATIONS_INT */
      , (5338, 1, 67108864) /* ITEM_TYPE_INT */
      , (5338, 13, 65) /* STACK_UNIT_ENCUMB_INT */
@@ -33,6 +30,5 @@ VALUES (5338, 9, 0) /* LOCATIONS_INT */
      , (5338, 150, 103) /* HOOK_PLACEMENT_INT */
      , (5338, 151, 11) /* HOOK_TYPE_INT */
      , (5338, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5338, 94, 75497472) /* TARGET_TYPE_INT */
-     , (5338, 9007, 44) /* CraftTool_WeenieType */;
+     , (5338, 94, 75497472) /* TARGET_TYPE_INT */;
 

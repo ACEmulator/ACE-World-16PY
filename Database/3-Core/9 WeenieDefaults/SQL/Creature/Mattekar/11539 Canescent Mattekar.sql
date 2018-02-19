@@ -1,16 +1,13 @@
 /* Weenie - Canescent Mattekar (11539) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11539;
+DELETE FROM weenie WHERE class_Id = 11539;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11539, 'mattekarcanescent-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11539, 'mattekarcanescent-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11539, 0, 11539);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11539, 1, 'Canescent Mattekar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11539, 1, 33555590) /* SETUP_DID */
      , (11539, 2, 150995047) /* MOTION_TABLE_DID */
      , (11539, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11539, 1, 33555590) /* SETUP_DID */
      , (11539, 7, 268435729) /* CLOTHINGBASE_DID */
      , (11539, 8, 100669121) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11539, 1, 16) /* ITEM_TYPE_INT */
      , (11539, 146, 20719) /* XP_OVERRIDE_INT */
      , (11539, 2, 23) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (11539, 1, 16) /* ITEM_TYPE_INT */
      , (11539, 16, 1) /* ITEM_USEABLE_INT */
      , (11539, 25, 85) /* LEVEL_INT */
      , (11539, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11539, 40, 2) /* COMBAT_MODE_INT */
-     , (11539, 9007, 10) /* Creature_WeenieType */;
+     , (11539, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11539, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (11539, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (11539, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (11539, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (11539, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11539, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11539, 1, True) /* STUCK_BOOL */
      , (11539, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11539, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11539, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11539, 1, 330) /* STRENGTH_ATTRIBUTE */
      , (11539, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (11539, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (11539, 8, 270) /* QUICKNESS_ATTRIBUTE */
-     , (11539, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (11539, 32, 100) /* SELF_ATTRIBUTE */;
+     , (11539, 3, 270) /* QUICKNESS_ATTRIBUTE */
+     , (11539, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (11539, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11539, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11539, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11539, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11539, 1, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11539, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11539, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11539, 9, 10868, 0, 0, 0.03, False) /* Create Canescent Mattekar Pelt for ContainTreasure_DestinationType */
      , (11539, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

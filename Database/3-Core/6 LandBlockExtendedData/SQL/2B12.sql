@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24589, 1924210729, 722600194, 56.7047, 51.8556, 48.21, 0.0086049, 0, 0, -0.999963) /* Rkos the Armorer */
      , (24597, 1924210730, 722600194, 63.1492, 51.5558, 48.205, 0.00860519, 0, 0, -0.999963) /* Ry'zir al-Nabit */
      , (24574, 1924210710, 722600223, 56.3862, 74.628, 32.41, 0.438308, 0, 0, -0.898825) /* Pagrok the Stone Collector */
@@ -41,16 +41,16 @@ VALUES (24589, 1924210729, 722600194, 56.7047, 51.8556, 48.21, 0.0086049, 0, 0, 
      , (20220, 1924210722, 722599936, 126.745, 59.7998, 51.605, -0.378809, 0, 0, -0.925475) /* Grand Master Scrivener of Life Magic */
      , (12304, 1924210723, 722599936, 132.991, 51.912, 48.005, 0.727249, 0, 0, -0.686374) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924210702'; /* linkmonstergen30minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1924210739'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1924210742'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924210702'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1924210739'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1924210742'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210710'; /* linkmonstergen30minutes <- Pagrok the Stone Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210711'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210712'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210718'; /* linkmonstergen30minutes <- Agent Dravos */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210741'; /* linkmonstergen30minutes <- Talira Dain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924210740'; /* linkmonstergen30minutes <- Dalius Kendmar */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924210738'; /* linkitemgen25seconds <- Pyreal Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1924210743'; /* linkmonstergen3minutes <- Aun Autuorea */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210710'; /* linkmonstergen30minutes <- Pagrok the Stone Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210711'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210712'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210718'; /* linkmonstergen30minutes <- Agent Dravos */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210741'; /* linkmonstergen30minutes <- Talira Dain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924210740'; /* linkmonstergen30minutes <- Dalius Kendmar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924210738'; /* linkitemgen25seconds <- Pyreal Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1924210743'; /* linkmonstergen3minutes <- Aun Autuorea */
 

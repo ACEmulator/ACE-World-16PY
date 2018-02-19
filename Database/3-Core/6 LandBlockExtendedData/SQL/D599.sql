@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2103021568, 3583574278, 176.64, 140.776, 374.002, 0, 0, 0, -1) /* Door */
      , (1014, 2103021571, 3583574295, 154.024, 130.026, 374.005, 0.92388, 0, 0, -0.382683) /* Portal to Cragstone */
      , (5629, 2103021573, 3583574304, 174.892, 173.984, 384.005, -0.707107, 0, 0, -0.707107) /* Door */

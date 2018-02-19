@@ -1,18 +1,15 @@
 /* Weenie - Peculiar Old Dagger (9026) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9026;
+DELETE FROM weenie WHERE class_Id = 9026;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9026, 'daggerfauxkey');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9026, 'daggerfauxkey', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9026, 0, 9026);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9026, 16, 'An object covered with centuries of accumulated filth. While it is shaped vaguely like a dagger and may be used as such, it doesn''t look like that was its original use.') /* LONG_DESC_STRING */
      , (9026, 1, 'Peculiar Old Dagger') /* NAME_STRING */
      , (9026, 15, 'A dagger, covered with centuries of accumulated filth.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9026, 1, 33554740) /* SETUP_DID */
      , (9026, 3, 536870932) /* SOUND_TABLE_DID */
      , (9026, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (9026, 1, 33554740) /* SETUP_DID */
      , (9026, 7, 268436112) /* CLOTHINGBASE_DID */
      , (9026, 8, 100671362) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9026, 9, 1048576) /* LOCATIONS_INT */
      , (9026, 1, 1) /* ITEM_TYPE_INT */
      , (9026, 93, 1044) /* PHYSICS_STATE_INT */
@@ -38,16 +35,15 @@ VALUES (9026, 9, 1048576) /* LOCATIONS_INT */
      , (9026, 47, 6) /* ATTACK_TYPE_INT */
      , (9026, 48, 4) /* WEAPON_SKILL_INT */
      , (9026, 49, 20) /* WEAPON_TIME_INT */
-     , (9026, 51, 1) /* COMBAT_USE_INT */
-     , (9026, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (9026, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9026, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9026, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (9026, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (9026, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9026, 22, True) /* INSCRIBABLE_BOOL */
      , (9026, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

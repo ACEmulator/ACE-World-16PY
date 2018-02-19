@@ -1,19 +1,16 @@
 /* Weenie - Sliver of Singular Chorizite (12256) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12256;
+DELETE FROM weenie WHERE class_Id = 12256;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12256, 'sliverchorizite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12256, 'sliverchorizite', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12256, 0, 12256);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12256, 16, 'A sliver of incredibly dense Singular Chorizite, imbued with Virindi magical energies.') /* LONG_DESC_STRING */
      , (12256, 1, 'Sliver of Singular Chorizite') /* NAME_STRING */
      , (12256, 14, 'Combine with a sliver of Singular Pyreal.') /* USE_STRING */
      , (12256, 15, 'A sliver of incredibly dense Singular Chorizite, imbued with Virindi magical energies.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12256, 1, 33557380) /* SETUP_DID */
      , (12256, 3, 536870932) /* SOUND_TABLE_DID */
      , (12256, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (12256, 1, 33557380) /* SETUP_DID */
      , (12256, 7, 268436282) /* CLOTHINGBASE_DID */
      , (12256, 8, 100672200) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12256, 9, 0) /* LOCATIONS_INT */
      , (12256, 1, 128) /* ITEM_TYPE_INT */
      , (12256, 13, 1000) /* STACK_UNIT_ENCUMB_INT */
@@ -34,10 +31,9 @@ VALUES (12256, 9, 0) /* LOCATIONS_INT */
      , (12256, 16, 524296) /* ITEM_USEABLE_INT */
      , (12256, 19, 0) /* VALUE_INT */
      , (12256, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12256, 94, 128) /* TARGET_TYPE_INT */
-     , (12256, 9007, 44) /* CraftTool_WeenieType */;
+     , (12256, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12256, 69, False) /* IS_SELLABLE_BOOL */
      , (12256, 22, True) /* INSCRIBABLE_BOOL */
      , (12256, 23, True) /* DESTROY_ON_SELL_BOOL */;

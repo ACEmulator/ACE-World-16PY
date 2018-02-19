@@ -1,18 +1,15 @@
 /* Weenie - Concentrated Frost Oil (9348) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9348;
+DELETE FROM weenie WHERE class_Id = 9348;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9348, 'concentratedfrostoil');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9348, 'concentratedfrostoil', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9348, 0, 9348);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9348, 1, 'Concentrated Frost Oil') /* NAME_STRING */
      , (9348, 20, 'Vials of Concentrated Frost Oil') /* PLURAL_NAME_STRING */
      , (9348, 14, 'This item is used in fletching.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9348, 1, 33555967) /* SETUP_DID */
      , (9348, 3, 536870932) /* SOUND_TABLE_DID */
      , (9348, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9348, 1, 33555967) /* SETUP_DID */
      , (9348, 7, 268435815) /* CLOTHINGBASE_DID */
      , (9348, 8, 100671586) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9348, 9, 0) /* LOCATIONS_INT */
      , (9348, 1, 67108864) /* ITEM_TYPE_INT */
      , (9348, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -37,10 +34,9 @@ VALUES (9348, 9, 0) /* LOCATIONS_INT */
      , (9348, 151, 11) /* HOOK_TYPE_INT */
      , (9348, 93, 1044) /* PHYSICS_STATE_INT */
      , (9348, 94, 134218784) /* TARGET_TYPE_INT */
-     , (9348, 33, 1) /* BONDED_INT */
-     , (9348, 9007, 44) /* CraftTool_WeenieType */;
+     , (9348, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9348, 69, False) /* IS_SELLABLE_BOOL */
      , (9348, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,17 +1,14 @@
 /* Weenie - Wineskin (175) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 175;
+DELETE FROM weenie WHERE class_Id = 175;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (175, 'wineskin');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (175, 'wineskin', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (175, 0, 175);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (175, 1, 'Wineskin') /* NAME_STRING */
      , (175, 14, 'You can use this item on a well or fountain.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (175, 1, 33554799) /* SETUP_DID */
      , (175, 3, 536870932) /* SOUND_TABLE_DID */
      , (175, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (175, 1, 33554799) /* SETUP_DID */
      , (175, 6, 67111919) /* PALETTE_BASE_DID */
      , (175, 8, 100668541) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (175, 9, 0) /* LOCATIONS_INT */
      , (175, 1, 4194304) /* ITEM_TYPE_INT */
      , (175, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,12 +31,11 @@ VALUES (175, 9, 0) /* LOCATIONS_INT */
      , (175, 150, 103) /* HOOK_PLACEMENT_INT */
      , (175, 151, 2) /* HOOK_TYPE_INT */
      , (175, 93, 1044) /* PHYSICS_STATE_INT */
-     , (175, 94, 4194304) /* TARGET_TYPE_INT */
-     , (175, 9007, 44) /* CraftTool_WeenieType */;
+     , (175, 94, 4194304) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (175, 39, 2) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (175, 22, True) /* INSCRIBABLE_BOOL */;
 

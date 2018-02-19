@@ -1,34 +1,30 @@
 /* Weenie - Cottage (13079) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 13079;
+DELETE FROM weenie WHERE class_Id = 13079;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (13079, 'slumlordcottage1276-1400');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (13079, 'slumlordcottage1276-1400', /* SlumLord_WeenieType */ 55);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13079, 0, 13079);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13079, 1, 'Cottage') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13079, 1, 33557167) /* SETUP_DID */
      , (13079, 2, 150995128) /* MOTION_TABLE_DID */
      , (13079, 8, 100671884) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13079, 16, 32) /* ITEM_USEABLE_INT */
      , (13079, 86, 20) /* MIN_LEVEL_INT */
-     , (13079, 93, 1044) /* PHYSICS_STATE_INT */
-     , (13079, 9007, 55) /* SlumLord_WeenieType */;
+     , (13079, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13079, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (13079, 54, 3) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13079, 1, True) /* STUCK_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13079, 16, 273, 300000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
      , (13079, 16, 11710, 1, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
      , (13079, 16, 4224, 1, 0, 0, False) /* Create Armoredillo Hide Coat for HouseBuy_DestinationType */

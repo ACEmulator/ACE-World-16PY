@@ -1,23 +1,20 @@
 /* Weenie - Osseous Mace (23537) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23537;
+DELETE FROM weenie WHERE class_Id = 23537;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23537, 'maceskeletonhighbossnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23537, 'maceskeletonhighbossnew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23537, 0, 23537);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23537, 16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone shines with a ruddy flame.') /* LONG_DESC_STRING */
      , (23537, 1, 'Osseous Mace') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23537, 1, 33557329) /* SETUP_DID */
      , (23537, 3, 536870932) /* SOUND_TABLE_DID */
      , (23537, 8, 100674096) /* ICON_DID */
      , (23537, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23537, 9, 1048576) /* LOCATIONS_INT */
      , (23537, 1, 1) /* ITEM_TYPE_INT */
      , (23537, 5, 400) /* ENCUMB_VAL_INT */
@@ -40,10 +37,9 @@ VALUES (23537, 9, 1048576) /* LOCATIONS_INT */
      , (23537, 47, 4) /* ATTACK_TYPE_INT */
      , (23537, 48, 5) /* WEAPON_SKILL_INT */
      , (23537, 49, 40) /* WEAPON_TIME_INT */
-     , (23537, 51, 1) /* COMBAT_USE_INT */
-     , (23537, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23537, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23537, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
      , (23537, 21, 0.62) /* WEAPON_LENGTH_FLOAT */
      , (23537, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -52,10 +48,10 @@ VALUES (23537, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
      , (23537, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */
      , (23537, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23537, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23537, 1035, 2) /* ColdProtectionSelf6_SpellID */
      , (23537, 1605, 2) /* Defender6_SpellID */
      , (23537, 1592, 2) /* HeartSeeker6_SpellID */

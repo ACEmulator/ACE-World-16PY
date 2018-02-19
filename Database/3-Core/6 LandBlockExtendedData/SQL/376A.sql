@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4092, 1937154082, 929693953, 133.419, 35.9378, 46.8004, 0.719532, 0, 0, -0.694459) /* Magic trap */
      , (1765, 1937154073, 929693953, 126.764, 36.7315, 44.0065, 0.827289, 0, 0, 0.561777) /* Horrible Mu-miyah */
      , (298, 1937154066, 929693953, 134.08, 36.0418, 44.005, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
@@ -36,30 +36,30 @@ VALUES (4092, 1937154082, 929693953, 133.419, 35.9378, 46.8004, 0.719532, 0, 0, 
      , (7421, 1937154062, 929693696, 147.858, 109.239, 39.01, 0.235767, 0, 0, 0.97181) /* Diamond Golem */
      , (4216, 1937154064, 929693696, 116.243, 29.0483, 34.325, 0.708782, 0, 0, 0.705428) /* Diamond Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1937154063'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1937154082'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1937154081'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1937154063'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1937154082'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1937154081'; /* Lightning Trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154059'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154083'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154080'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154052'; /* linkmonstergen15minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154053'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154064'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154060'; /* linkmonstergen15minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154067'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154061'; /* linkmonstergen15minutes <- Horrible Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154058'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154078'; /* linkmonstergen15minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154073'; /* linkmonstergen15minutes <- Horrible Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154065'; /* linkmonstergen15minutes <- Faladha the Emissary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154070'; /* linkmonstergen15minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154054'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154072'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154062'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154051'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154056'; /* linkmonstergen15minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1937154077'; /* linkmonstergen15minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1937154066'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1937154075'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154059'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154083'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154080'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154052'; /* linkmonstergen15minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154053'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154064'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154060'; /* linkmonstergen15minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154067'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154061'; /* linkmonstergen15minutes <- Horrible Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154058'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154078'; /* linkmonstergen15minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154073'; /* linkmonstergen15minutes <- Horrible Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154065'; /* linkmonstergen15minutes <- Faladha the Emissary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154070'; /* linkmonstergen15minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154054'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154072'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154062'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154051'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154056'; /* linkmonstergen15minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1937154077'; /* linkmonstergen15minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1937154066'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1937154075'; /* Lightning Trap <- Pressure Plate */
 

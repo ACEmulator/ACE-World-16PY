@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5085, 2095661057, 3465806080, 106.82, 129.329, 19.705, -0.999922, 0, 0, 0.0124577) /* linkitemgen25seconds */
      , (9594, 2095661058, 3465806080, 106.879, 130.784, 19.7735, -0.990556, 0, 0, -0.137109) /* Skill Puzzle Base Piece */
      , (7925, 2095661059, 3465806080, 109.599, 133.49, 19.705, 0.618366, 0, 0, 0.78589) /* linkmonstergen10minutes */
@@ -17,11 +17,11 @@ VALUES (5085, 2095661057, 3465806080, 106.82, 129.329, 19.705, -0.999922, 0, 0, 
      , (27264, 2095661063, 3465805824, 175.724, 7.53503, 18.005, 0.998994, 0, 0, 0.0448415) /* Aun Tiulerea */
      , (7923, 2095661062, 3465805824, 175.724, 7.53503, 18.005, 0.998994, 0, 0, 0.0448415) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095661059'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2095661057'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2095661062'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095661059'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2095661057'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2095661062'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095661060'; /* linkmonstergen10minutes <- Eluard the Namer */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095661058'; /* linkitemgen25seconds <- Skill Puzzle Base Piece */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2095661063'; /* linkmonstergen3minutes <- Aun Tiulerea */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095661060'; /* linkmonstergen10minutes <- Eluard the Namer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095661058'; /* linkitemgen25seconds <- Skill Puzzle Base Piece */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2095661063'; /* linkmonstergen3minutes <- Aun Tiulerea */
 

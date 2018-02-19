@@ -1,17 +1,14 @@
 /* Weenie - Sarcophagus of High Matriarch, Kivik Lir (28416) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28416;
+DELETE FROM weenie WHERE class_Id = 28416;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28416, 'sarcophaguskiviklir');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28416, 'sarcophaguskiviklir', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28416, 0, 28416);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28416, 16, 'The Burun have desecrated the sarcophagus. The fine details of the sarcophagus have been ruined by the filth caked claws of the creatures. It exudes a palpable sense of rage, making you reconsider searching it''s ruins for a reward.') /* LONG_DESC_STRING */
      , (28416, 1, 'Sarcophagus of High Matriarch, Kivik Lir') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28416, 1, 33558609) /* SETUP_DID */
      , (28416, 2, 150995261) /* MOTION_TABLE_DID */
      , (28416, 3, 536870933) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28416, 1, 33558609) /* SETUP_DID */
      , (28416, 8, 100675787) /* ICON_DID */
      , (28416, 22, 872415328) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28416, 1, 16) /* ITEM_TYPE_INT */
      , (28416, 146, 39036) /* XP_OVERRIDE_INT */
      , (28416, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (28416, 1, 16) /* ITEM_TYPE_INT */
      , (28416, 25, 427) /* LEVEL_INT */
      , (28416, 27, 0) /* ARMOR_TYPE_INT */
      , (28416, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (28416, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (28416, 9007, 10) /* Creature_WeenieType */;
+     , (28416, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28416, 64, 1) /* RESIST_SLASH_FLOAT */
      , (28416, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (28416, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (28416, 64, 1) /* RESIST_SLASH_FLOAT */
      , (28416, 54, 3) /* USE_RADIUS_FLOAT */
      , (28416, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28416, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (28416, 1, True) /* STUCK_BOOL */
      , (28416, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -76,16 +72,16 @@ VALUES (28416, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (28416, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (28416, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28416, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (28416, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (28416, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (28416, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (28416, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (28416, 32, 285) /* SELF_ATTRIBUTE */;
+     , (28416, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (28416, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (28416, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28416, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28416, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28416, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28416, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28416, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28416, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

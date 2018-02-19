@@ -1,16 +1,13 @@
 /* Weenie - Gaerlan (21386) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21386;
+DELETE FROM weenie WHERE class_Id = 21386;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21386, 'gaerlanfirerepeat');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21386, 'gaerlanfirerepeat', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21386, 0, 21386);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21386, 1, 'Gaerlan') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21386, 1, 33557846) /* SETUP_DID */
      , (21386, 2, 150995218) /* MOTION_TABLE_DID */
      , (21386, 3, 536870913) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (21386, 1, 33557846) /* SETUP_DID */
      , (21386, 7, 268436453) /* CLOTHINGBASE_DID */
      , (21386, 8, 100673073) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21386, 1, 16) /* ITEM_TYPE_INT */
      , (21386, 2, 51) /* CREATURE_TYPE_INT */
      , (21386, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (21386, 1, 16) /* ITEM_TYPE_INT */
      , (21386, 27, 0) /* ARMOR_TYPE_INT */
      , (21386, 93, 1032) /* PHYSICS_STATE_INT */
      , (21386, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (21386, 40, 1) /* COMBAT_MODE_INT */
-     , (21386, 9007, 10) /* Creature_WeenieType */;
+     , (21386, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21386, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (21386, 65, 0.6) /* RESIST_PIERCE_FLOAT */
      , (21386, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,14 +69,14 @@ VALUES (21386, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (21386, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (21386, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21386, 1, True) /* STUCK_BOOL */
      , (21386, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (21386, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21386, 29, True) /* NO_CORPSE_BOOL */
      , (21386, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21386, 1800, 2.02) /* FlameStreak5_SpellID */
      , (21386, 1107, 2.01) /* FireVulnerabilityOther5_SpellID */
      , (21386, 84, 2.02) /* FlameBolt5_SpellID */
@@ -90,22 +86,22 @@ VALUES (21386, 1800, 2.02) /* FlameStreak5_SpellID */
      , (21386, 1326, 2.01) /* ImperilOther5_SpellID */
      , (21386, 233, 2.01) /* VulnerabilityOther5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (21386, 1, 500) /* STRENGTH_ATTRIBUTE */
      , (21386, 2, 610) /* ENDURANCE_ATTRIBUTE */
      , (21386, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (21386, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (21386, 16, 500) /* FOCUS_ATTRIBUTE */
-     , (21386, 32, 500) /* SELF_ATTRIBUTE */;
+     , (21386, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (21386, 5, 500) /* FOCUS_ATTRIBUTE */
+     , (21386, 6, 500) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (21386, 64, 19695) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (21386, 128, 1390) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (21386, 256, 1500) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (21386, 1, 19695) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (21386, 3, 1390) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (21386, 5, 1500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21386, 12, 1480917258, 28.638, -59.181, -24, -0.7071068, 0, 0, -0.7071068) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21386, 2, 22246, 0, 0, 0, False) /* Create Iasparailaun for Wield_DestinationType */;
 

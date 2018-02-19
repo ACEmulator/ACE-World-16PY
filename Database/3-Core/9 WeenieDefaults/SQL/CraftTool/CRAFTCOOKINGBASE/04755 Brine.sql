@@ -1,24 +1,21 @@
 /* Weenie - Brine (4755) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4755;
+DELETE FROM weenie WHERE class_Id = 4755;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4755, 'brine');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4755, 'brine', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4755, 0, 4755);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4755, 1, 'Brine') /* NAME_STRING */
      , (4755, 20, 'Jars of Brine') /* PLURAL_NAME_STRING */
      , (4755, 14, 'This item is used in cooking.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4755, 1, 33555970) /* SETUP_DID */
      , (4755, 3, 536870932) /* SOUND_TABLE_DID */
      , (4755, 8, 100669947) /* ICON_DID */
      , (4755, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4755, 9, 0) /* LOCATIONS_INT */
      , (4755, 1, 4194304) /* ITEM_TYPE_INT */
      , (4755, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -31,6 +28,5 @@ VALUES (4755, 9, 0) /* LOCATIONS_INT */
      , (4755, 16, 524296) /* ITEM_USEABLE_INT */
      , (4755, 19, 2) /* VALUE_INT */
      , (4755, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4755, 94, 4194336) /* TARGET_TYPE_INT */
-     , (4755, 9007, 44) /* CraftTool_WeenieType */;
+     , (4755, 94, 4194336) /* TARGET_TYPE_INT */;
 

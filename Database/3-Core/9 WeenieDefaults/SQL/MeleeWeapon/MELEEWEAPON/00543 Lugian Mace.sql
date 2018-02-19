@@ -1,22 +1,19 @@
 /* Weenie - Lugian Mace (543) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 543;
+DELETE FROM weenie WHERE class_Id = 543;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (543, 'lugianmace');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (543, 'lugianmace', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (543, 0, 543);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (543, 1, 'Lugian Mace') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (543, 1, 33554747) /* SETUP_DID */
      , (543, 3, 536870932) /* SOUND_TABLE_DID */
      , (543, 8, 100667588) /* ICON_DID */
      , (543, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (543, 9, 1048576) /* LOCATIONS_INT */
      , (543, 1, 1) /* ITEM_TYPE_INT */
      , (543, 93, 1044) /* PHYSICS_STATE_INT */
@@ -35,16 +32,15 @@ VALUES (543, 9, 1048576) /* LOCATIONS_INT */
      , (543, 47, 4) /* ATTACK_TYPE_INT */
      , (543, 48, 5) /* WEAPON_SKILL_INT */
      , (543, 49, 80) /* WEAPON_TIME_INT */
-     , (543, 51, 1) /* COMBAT_USE_INT */
-     , (543, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (543, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (543, 39, 2) /* DEFAULT_SCALE_FLOAT */
      , (543, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (543, 21, 1.24) /* WEAPON_LENGTH_FLOAT */
      , (543, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (543, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (543, 22, True) /* INSCRIBABLE_BOOL */;
 

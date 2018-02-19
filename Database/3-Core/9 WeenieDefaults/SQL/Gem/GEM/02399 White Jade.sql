@@ -1,16 +1,13 @@
 /* Weenie - White Jade (2399) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2399;
+DELETE FROM weenie WHERE class_Id = 2399;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2399, 'gemwhitejade');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2399, 'gemwhitejade', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2399, 0, 2399);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2399, 1, 'White Jade') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2399, 1, 33554809) /* SETUP_DID */
      , (2399, 3, 536870932) /* SOUND_TABLE_DID */
      , (2399, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (2399, 1, 33554809) /* SETUP_DID */
      , (2399, 7, 268435723) /* CLOTHINGBASE_DID */
      , (2399, 8, 100674721) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2399, 9, 0) /* LOCATIONS_INT */
      , (2399, 1, 2048) /* ITEM_TYPE_INT */
      , (2399, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (2399, 9, 0) /* LOCATIONS_INT */
      , (2399, 16, 1) /* ITEM_USEABLE_INT */
      , (2399, 19, 100) /* VALUE_INT */
      , (2399, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2399, 169, 16777216) /* TSYS_MUTATION_DATA_INT */
-     , (2399, 9007, 38) /* Gem_WeenieType */;
+     , (2399, 169, 16777216) /* TSYS_MUTATION_DATA_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2399, 22, True) /* INSCRIBABLE_BOOL */;
 

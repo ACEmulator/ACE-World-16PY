@@ -1,25 +1,22 @@
 /* Weenie - Virindi Grocer (9208) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9208;
+DELETE FROM weenie WHERE class_Id = 9208;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9208, 'ayanbaqurvirindigrocer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9208, 'ayanbaqurvirindigrocer', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9208, 0, 9208);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9208, 1, 'Virindi Grocer') /* NAME_STRING */
      , (9208, 5, 'Provisioner') /* TEMPLATE_STRING */
      , (9208, 24, 'Ayan Baqur') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9208, 1, 33554497) /* SETUP_DID */
      , (9208, 2, 150994984) /* MOTION_TABLE_DID */
      , (9208, 3, 536870930) /* SOUND_TABLE_DID */
      , (9208, 4, 805306381) /* COMBAT_TABLE_DID */
      , (9208, 8, 100667943) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9208, 1, 16) /* ITEM_TYPE_INT */
      , (9208, 74, 4481568) /* MERCHANDISE_ITEM_TYPES_INT */
      , (9208, 2, 19) /* CREATURE_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (9208, 1, 16) /* ITEM_TYPE_INT */
      , (9208, 27, 0) /* ARMOR_TYPE_INT */
      , (9208, 93, 2098200) /* PHYSICS_STATE_INT */
      , (9208, 126, 250) /* VENDOR_HAPPY_MEAN_INT */
-     , (9208, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (9208, 9007, 12) /* Vendor_WeenieType */;
+     , (9208, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9208, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9208, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (9208, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (9208, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9208, 54, 3) /* USE_RADIUS_FLOAT */
      , (9208, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9208, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (9208, 1, True) /* STUCK_BOOL */
      , (9208, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -83,20 +79,20 @@ VALUES (9208, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (9208, 19, False) /* ATTACKABLE_BOOL */
      , (9208, 54, True) /* IS_DYNAMIC_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9208, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (9208, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (9208, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (9208, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (9208, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (9208, 32, 250) /* SELF_ATTRIBUTE */;
+     , (9208, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (9208, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (9208, 6, 250) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9208, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9208, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9208, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9208, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9208, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9208, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9208, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType */
      , (9208, 4, 262, -1, 0, 0, False) /* Create Chicken for Shop_DestinationType */
      , (9208, 4, 4763, -1, 0, 0, False) /* Create Honey for Shop_DestinationType */
@@ -107,7 +103,7 @@ VALUES (9208, 4, 166, -1, 21, 1, False) /* Create Sack for Shop_DestinationType 
      , (9208, 4, 7823, -1, 0, 0, False) /* Create Heavy Grinder for Shop_DestinationType */
      , (9208, 4, 4757, -1, 0, 0, False) /* Create Carving Knife for Shop_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9208, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Water (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */
      , (9208, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Flour (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */;
 

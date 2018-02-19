@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (269, 1880322048, 20381952, 115.101, -70.0232, -106.604, -0.670831, 0, 0, -0.74161) /* Button */
      , (4454, 1880322049, 20381953, 125.536, -69.9707, -108, 0.698805, 0, 0, -0.715312) /* Door */
      , (227, 1880322050, 20381954, 140, -60, -107.994, -0.707107, 0, 0, -0.707107) /* Tumerok Gladiator */
@@ -133,126 +133,126 @@ VALUES (269, 1880322048, 20381952, 115.101, -70.0232, -106.604, -0.670831, 0, 0,
      , (6014, 1880322178, 20382473, 190.096, -115.933, -35.9945, 1, 0, 0, 0) /* Tumerok Officer */
      , (6014, 1880322179, 20382473, 193.637, -116.501, -35.9945, 1, 0, 0, 0) /* Tumerok Officer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880322111'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880322135'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880322122'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880322049'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880322070'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880322173'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880322097'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880322094'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880322080'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880322083'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1880322115'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1880322123'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1880322125'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1880322128'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1880322131'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1880322112'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1880322109'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1880322107'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1880322106'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1880322071'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1880322053'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880322111'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880322135'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880322122'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880322049'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880322070'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880322173'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880322097'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880322094'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880322080'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880322083'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880322115'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1880322123'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880322125'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1880322128'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1880322131'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1880322112'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880322109'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1880322107'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1880322106'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1880322071'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1880322053'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880322119'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880322121'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880322137'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880322136'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880322048'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880322054'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322166'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322164'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322162'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322158'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322154'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322153'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322157'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322161'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322163'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322165'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322159'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322155'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322151'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322148'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322149'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322152'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322156'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322160'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322147'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322076'; /* linkmonstergen15minutes <- High Tumerok */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322078'; /* linkmonstergen15minutes <- High Tumerok */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322077'; /* linkmonstergen15minutes <- High Tumerok */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322075'; /* linkmonstergen15minutes <- High Tumerok */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322100'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322138'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322140'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322142'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322144'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322146'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322145'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322143'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322141'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322139'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322101'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322104'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322103'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322102'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322132'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322134'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322133'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322150'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322168'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322169'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322167'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322170'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322171'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322177'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322174'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322175'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322176'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322178'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322179'; /* linkmonstergen15minutes <- Tumerok Officer */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322050'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322052'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322051'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322056'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322089'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322087'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322085'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322086'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322088'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322090'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322092'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322091'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322096'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322082'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322093'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322079'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322069'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322068'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322064'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880322065'; /* linkmonstergen15minutes <- Tumerok Gladiator */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880322060'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880322098'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880322061'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880322095'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880322067'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880322081'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880322063'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880322084'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880322116'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880322124'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880322127'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880322129'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880322130'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880322113'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880322110'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880322108'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880322105'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880322073'; /* linkitemgen25seconds <- Stone Tool */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880322074'; /* linkitemgen25seconds <- Textbook */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880322180'; /* linkitemgen25seconds <- Textbook */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880322062'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880322055'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880322119'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880322121'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880322137'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880322136'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880322048'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880322054'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322166'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322164'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322162'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322158'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322154'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322153'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322157'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322161'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322163'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322165'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322159'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322155'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322151'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322148'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322149'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322152'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322156'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322160'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322147'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322076'; /* linkmonstergen15minutes <- High Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322078'; /* linkmonstergen15minutes <- High Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322077'; /* linkmonstergen15minutes <- High Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322075'; /* linkmonstergen15minutes <- High Tumerok */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322100'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322138'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322140'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322142'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322144'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322146'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322145'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322143'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322141'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322139'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322101'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322104'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322103'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322102'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322132'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322134'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322133'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322150'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322168'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322169'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322167'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322170'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322171'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322177'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322174'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322175'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322176'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322178'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322179'; /* linkmonstergen15minutes <- Tumerok Officer */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322050'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322052'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322051'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322056'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322089'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322087'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322085'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322086'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322088'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322090'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322092'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322091'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322096'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322082'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322093'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322079'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322069'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322068'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322064'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880322065'; /* linkmonstergen15minutes <- Tumerok Gladiator */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880322060'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880322098'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880322061'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880322095'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880322067'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880322081'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880322063'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880322084'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880322116'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880322124'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880322127'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880322129'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880322130'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880322113'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880322110'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880322108'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880322105'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880322073'; /* linkitemgen25seconds <- Stone Tool */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880322074'; /* linkitemgen25seconds <- Textbook */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880322180'; /* linkitemgen25seconds <- Textbook */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880322062'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880322055'; /* Door <- Button */
 

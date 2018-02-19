@@ -1,21 +1,18 @@
 /* Weenie - Scuttling Grievver Pit Hotspot (20018) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20018;
+DELETE FROM weenie WHERE class_Id = 20018;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20018, 'hotspot-grievverlingspit');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20018, 'hotspot-grievverlingspit', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20018, 0, 20018);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20018, 1, 'Scuttling Grievver Pit Hotspot') /* NAME_STRING */
      , (20018, 17, 'Scuttling Grievvers bite you for %i points of piercing damage!') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20018, 1, 33556024) /* SETUP_DID */
      , (20018, 8, 100667465) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20018, 9, 0) /* LOCATIONS_INT */
      , (20018, 1, 128) /* ITEM_TYPE_INT */
      , (20018, 45, 2) /* DAMAGE_TYPE_INT */
@@ -25,16 +22,15 @@ VALUES (20018, 9, 0) /* LOCATIONS_INT */
      , (20018, 8, 1) /* MASS_INT */
      , (20018, 19, 1) /* VALUE_INT */
      , (20018, 44, 8) /* DAMAGE_INT */
-     , (20018, 119, 0) /* ACTIVE_INT */
-     , (20018, 9007, 13) /* HotSpot_WeenieType */;
+     , (20018, 119, 0) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20018, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (20018, 105, 5) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (20018, 106, 0.2) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (20018, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20018, 57, False) /* AFFECTS_AIS_BOOL */
      , (20018, 1, True) /* STUCK_BOOL */
      , (20018, 11, False) /* IGNORE_COLLISIONS_BOOL */

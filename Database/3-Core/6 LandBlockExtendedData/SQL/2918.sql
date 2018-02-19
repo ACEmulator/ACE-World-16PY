@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24484, 1922138119, 689438720, 188.185, 104.152, 56.005, -0.55977, 0, 0, -0.828648) /* Small Sandstone Golem */
      , (24484, 1922138120, 689438720, 187.995, 101.42, 56.011, 0.815597, 0, 0, 0.57862) /* Small Sandstone Golem */
      , (24484, 1922138121, 689438720, 183.285, 101.672, 56.011, -0.846161, 0, 0, 0.532927) /* Small Sandstone Golem */
@@ -22,27 +22,27 @@ VALUES (24484, 1922138119, 689438720, 188.185, 104.152, 56.005, -0.55977, 0, 0, 
      , (24484, 1922138139, 689438720, 183.647, 104.502, 56.005, 0.348427, 0, 0, -0.937336) /* Small Sandstone Golem */
      , (7924, 1922138140, 689438720, 174.689, 84.0063, 56.005, 0.984327, 0, 0, -0.176355) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1922138140'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1922138140'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138136'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138137'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138138'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138139'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138119'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138121'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138120'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138122'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138123'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138124'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138125'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138126'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138127'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138128'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138129'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138130'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138131'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138132'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138133'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138134'; /* linkmonstergen5minutes <- Small Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1922138135'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138136'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138137'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138138'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138139'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138119'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138121'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138120'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138122'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138123'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138124'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138125'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138126'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138127'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138128'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138129'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138130'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138131'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138132'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138133'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138134'; /* linkmonstergen5minutes <- Small Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1922138135'; /* linkmonstergen5minutes <- Small Sandstone Golem */
 

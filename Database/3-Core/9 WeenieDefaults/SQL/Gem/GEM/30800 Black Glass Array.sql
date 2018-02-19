@@ -1,18 +1,15 @@
 /* Weenie - Black Glass Array (30800) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30800;
+DELETE FROM weenie WHERE class_Id = 30800;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30800, 'gemportalobsidianplains');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30800, 'gemportalobsidianplains', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30800, 0, 30800);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30800, 1, 'Black Glass Array') /* NAME_STRING */
      , (30800, 14, 'Double Click on this item to summon a portal to the Obsidian Plains.') /* USE_STRING */
      , (30800, 15, 'A collection of obsidian spheres magically suspended in the air by some unknown force.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30800, 1, 33559264) /* SETUP_DID */
      , (30800, 3, 536870932) /* SOUND_TABLE_DID */
      , (30800, 8, 100677495) /* ICON_DID */
@@ -20,7 +17,7 @@ VALUES (30800, 1, 33559264) /* SETUP_DID */
      , (30800, 28, 157) /* SPELL_DID */
      , (30800, 31, 4046) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30800, 9, 0) /* LOCATIONS_INT */
      , (30800, 1, 2048) /* ITEM_TYPE_INT */
      , (30800, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -40,10 +37,9 @@ VALUES (30800, 9, 0) /* LOCATIONS_INT */
      , (30800, 108, 50) /* ITEM_MAX_MANA_INT */
      , (30800, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (30800, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (30800, 114, 0) /* ATTUNED_INT */
-     , (30800, 9007, 38) /* Gem_WeenieType */;
+     , (30800, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30800, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (30800, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30800, 22, True) /* INSCRIBABLE_BOOL */;

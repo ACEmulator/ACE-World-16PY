@@ -1,18 +1,15 @@
 /* Weenie - Shackles of Obedience (10766) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10766;
+DELETE FROM weenie WHERE class_Id = 10766;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10766, 'bracersmanacles');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10766, 'bracersmanacles', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10766, 0, 10766);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10766, 16, 'Shackles used to bind the wrists.  They have a long chain between them, allowing for freedom of movement.') /* LONG_DESC_STRING */
      , (10766, 1, 'Shackles of Obedience') /* NAME_STRING */
      , (10766, 33, 'VirindiManacles') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10766, 1, 33554641) /* SETUP_DID */
      , (10766, 3, 536870932) /* SOUND_TABLE_DID */
      , (10766, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (10766, 1, 33554641) /* SETUP_DID */
      , (10766, 7, 268436191) /* CLOTHINGBASE_DID */
      , (10766, 8, 100667331) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10766, 9, 4096) /* LOCATIONS_INT */
      , (10766, 1, 2) /* ITEM_TYPE_INT */
      , (10766, 19, 0) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (10766, 9, 4096) /* LOCATIONS_INT */
      , (10766, 107, 250) /* ITEM_CUR_MANA_INT */
      , (10766, 108, 2000) /* ITEM_MAX_MANA_INT */
      , (10766, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (10766, 114, 1) /* ATTUNED_INT */
-     , (10766, 9007, 2) /* Clothing_WeenieType */;
+     , (10766, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10766, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (10766, 5, -0.05) /* MANA_RATE_FLOAT */
      , (10766, 12, 0.33) /* SHADE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (10766, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (10766, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (10766, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10766, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10766, 1460, 2) /* FeeblemindSelf4_SpellID */
      , (10766, 1436, 2) /* BafflementSelf4_SpellID */
      , (10766, 1484, 2) /* Impenetrability4_SpellID */

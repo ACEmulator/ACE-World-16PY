@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11481, 1881653248, 41681152, 149.711, -159.818, -11.7828, -0.217512, 0, 0, 0.976058) /* Olthoi Legionary */
      , (11481, 1881653249, 41681152, 152.969, -158.64, -9.52325, -0.217512, 0, 0, 0.976058) /* Olthoi Legionary */
      , (11481, 1881653250, 41681153, 145.318, -168.093, -11.995, -0.918538, 0, 0, -0.395332) /* Olthoi Legionary */
@@ -44,47 +44,47 @@ VALUES (11481, 1881653248, 41681152, 149.711, -159.818, -11.7828, -0.217512, 0, 
      , (11481, 1881653291, 41681492, 110, -260, 0.005, 1, 0, 0, 0) /* Olthoi Legionary */
      , (11481, 1881653292, 41681500, 110, -280, 0.005, 1, 0, 0, 0) /* Olthoi Legionary */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881653274'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881653277'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881653274'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881653277'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653280'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653284'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653271'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653270'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653272'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653282'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653285'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653289'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653290'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653276'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653273'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653286'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653281'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653283'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653287'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653288'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653292'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653291'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653251'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653252'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653248'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653249'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653253'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653254'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653250'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653293'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653261'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881653263'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653255'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653257'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653256'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653258'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653259'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653269'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653265'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653268'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653264'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653267'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653262'; /* linkmonstergen5minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881653266'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653280'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653284'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653271'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653270'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653272'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653282'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653285'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653289'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653290'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653276'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653273'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653286'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653281'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653283'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653287'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653288'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653292'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653291'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653251'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653252'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653248'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653249'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653253'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653254'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653250'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653293'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653261'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881653263'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653255'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653257'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653256'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653258'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653259'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653269'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653265'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653268'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653264'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653267'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653262'; /* linkmonstergen5minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881653266'; /* linkmonstergen5minutes <- Olthoi Legionary */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24487, 1998622720, 1913192448, 2.60062, 24.9863, -0.095, 0.205266, 0, 0, -0.978706) /* ulgrimsislandbeachmixgen */
      , (23884, 1998622746, 1913192448, 73.918, 191.753, 2.005, -0.602061, 0, 0, -0.79845) /* Keg */
      , (24488, 1998622745, 1913192448, 20.3821, 162.11, 1.2881, -0.766706, 0, 0, -0.641998) /* ulgrimsislandjunglemixgen */

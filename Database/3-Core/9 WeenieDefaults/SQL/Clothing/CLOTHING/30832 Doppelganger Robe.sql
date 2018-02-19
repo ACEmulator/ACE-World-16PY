@@ -1,18 +1,15 @@
 /* Weenie - Doppelganger Robe (30832) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30832;
+DELETE FROM weenie WHERE class_Id = 30832;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30832, 'robeinfiltration');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30832, 'robeinfiltration', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30832, 0, 30832);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30832, 16, 'A robe looted from the corpse of the Shadow Lugian Urleg.') /* LONG_DESC_STRING */
      , (30832, 1, 'Doppelganger Robe') /* NAME_STRING */
      , (30832, 33, 'InfiltrationRobeAcquired0205') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30832, 1, 33554854) /* SETUP_DID */
      , (30832, 3, 536870932) /* SOUND_TABLE_DID */
      , (30832, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (30832, 1, 33554854) /* SETUP_DID */
      , (30832, 7, 268436906) /* CLOTHINGBASE_DID */
      , (30832, 8, 100670354) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30832, 9, 32512) /* LOCATIONS_INT */
      , (30832, 1, 4) /* ITEM_TYPE_INT */
      , (30832, 19, 8000) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (30832, 9, 32512) /* LOCATIONS_INT */
      , (30832, 160, 80) /* WIELD_DIFFICULTY_INT */
      , (30832, 106, 350) /* ITEM_SPELLCRAFT_INT */
      , (30832, 107, 3000) /* ITEM_CUR_MANA_INT */
-     , (30832, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (30832, 9007, 2) /* Clothing_WeenieType */;
+     , (30832, 108, 3000) /* ITEM_MAX_MANA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30832, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (30832, 5, -0.025) /* MANA_RATE_FLOAT */
      , (30832, 12, 0.5) /* SHADE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (30832, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (30832, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (30832, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30832, 100, True) /* DYABLE_BOOL */
      , (30832, 22, True) /* INSCRIBABLE_BOOL */
      , (30832, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30832, 3802, 2) /* CantripShadowReek_SpellID */
      , (30832, 1138, 2) /* PiercingProtectionSelf6_SpellID */
      , (30832, 1114, 2) /* BladeProtectionSelf6_SpellID */

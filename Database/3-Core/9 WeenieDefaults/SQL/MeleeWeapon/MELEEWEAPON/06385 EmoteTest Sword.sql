@@ -1,24 +1,21 @@
 /* Weenie - EmoteTest Sword (6385) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6385;
+DELETE FROM weenie WHERE class_Id = 6385;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6385, 'emotetestsword');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6385, 'emotetestsword', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6385, 0, 6385);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6385, 16, 'EmoteTest Sword - pick me up! I am also representative of a very nice Tier 5 Rare weapon. ') /* LONG_DESC_STRING */
      , (6385, 1, 'EmoteTest Sword') /* NAME_STRING */
      , (6385, 33, 'EmoteTestSwordQuest') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6385, 1, 33555927) /* SETUP_DID */
      , (6385, 3, 536870932) /* SOUND_TABLE_DID */
      , (6385, 8, 100669772) /* ICON_DID */
      , (6385, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6385, 9, 1048576) /* LOCATIONS_INT */
      , (6385, 1, 1) /* ITEM_TYPE_INT */
      , (6385, 93, 1044) /* PHYSICS_STATE_INT */
@@ -37,10 +34,9 @@ VALUES (6385, 9, 1048576) /* LOCATIONS_INT */
      , (6385, 48, 11) /* WEAPON_SKILL_INT */
      , (6385, 49, 30) /* WEAPON_TIME_INT */
      , (6385, 51, 1) /* COMBAT_USE_INT */
-     , (6385, 179, 28) /* IMBUED_EFFECT_INT */
-     , (6385, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (6385, 179, 28) /* IMBUED_EFFECT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6385, 29, 1.3) /* WEAPON_DEFENSE_FLOAT */
      , (6385, 149, 1.05) /* WEAPON_MISSILE_DEFENSE_FLOAT */
      , (6385, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
@@ -51,11 +47,11 @@ VALUES (6385, 29, 1.3) /* WEAPON_DEFENSE_FLOAT */
      , (6385, 150, 1.05) /* WEAPON_MAGIC_DEFENSE_FLOAT */
      , (6385, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6385, 22, True) /* INSCRIBABLE_BOOL */
      , (6385, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6385, 2116, 2) /* Swiftkiller7_SpellID */
      , (6385, 2096, 2) /* BloodDrinker7_SpellID */
      , (6385, 2101, 2) /* Defender7_SpellID */

@@ -1,17 +1,14 @@
 /* Weenie - Quicksilver (759) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 759;
+DELETE FROM weenie WHERE class_Id = 759;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (759, 'alchemquicksilver');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (759, 'alchemquicksilver', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (759, 0, 759);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (759, 1, 'Quicksilver') /* NAME_STRING */
      , (759, 20, 'Quicksilver Potions') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (759, 1, 33555209) /* SETUP_DID */
      , (759, 3, 536870932) /* SOUND_TABLE_DID */
      , (759, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (759, 1, 33555209) /* SETUP_DID */
      , (759, 8, 100668370) /* ICON_DID */
      , (759, 29, 43) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (759, 9, 0) /* LOCATIONS_INT */
      , (759, 1, 4096) /* ITEM_TYPE_INT */
      , (759, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,6 +30,5 @@ VALUES (759, 9, 0) /* LOCATIONS_INT */
      , (759, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (759, 16, 1) /* ITEM_USEABLE_INT */
      , (759, 19, 5) /* VALUE_INT */
-     , (759, 93, 1044) /* PHYSICS_STATE_INT */
-     , (759, 9007, 32) /* SpellComponent_WeenieType */;
+     , (759, 93, 1044) /* PHYSICS_STATE_INT */;
 

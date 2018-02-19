@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24453, 1976881152, 1565327616, 89.9853, -389.984, -47.995, 0.366272, 0, 0, -0.930508) /* Olthoi Swarm Mutilator */
      , (24453, 1976881153, 1565327636, 100.093, -412.64, -47.995, -0.000495, 0, 0, -1) /* Olthoi Swarm Mutilator */
      , (24453, 1976881154, 1565327639, 95.0842, -429.918, -47.995, 0.694795, 0, 0, 0.719208) /* Olthoi Swarm Mutilator */
@@ -170,158 +170,158 @@ VALUES (24453, 1976881152, 1565327616, 89.9853, -389.984, -47.995, 0.366272, 0, 
      , (25804, 1976881320, 1565328261, 82.489, -20.58, -11.995, -0.734548, 0, 0, -0.678557) /* Armored Skeleton Lord */
      , (278, 1976881321, 1565328263, 75.25, -20, -12, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1976881168'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1976881306'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1976881307'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1976881308'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1976881309'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1976881310'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1976881168'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1976881306'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1976881307'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1976881308'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1976881309'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1976881310'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1976881167'; /* linkitemgen10seconds <- Untranslated Note */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881296'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881295'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881166'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881301'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881165'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881300'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881303'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881302'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881299'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881298'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881312'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881311'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881305'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881304'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881294'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881297'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881317'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881316'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881314'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881313'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881288'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881287'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881256'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881255'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881247'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881246'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881249'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881265'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881264'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1976881251'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881173'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881257'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881175'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881252'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881250'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881266'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881259'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881174'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881253'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881172'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881258'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881268'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881254'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881260'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881267'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881272'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881271'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881274'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881282'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881281'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881273'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881284'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881283'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881286'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881285'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881262'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881261'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881276'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881275'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1976881223'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881222'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881225'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881224'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881235'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881232'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881231'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881230'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881289'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881245'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881290'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881244'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881243'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881238'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881226'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881233'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881291'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881234'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881239'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881221'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881220'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881219'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881218'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881319'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881236'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881320'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881228'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881229'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881318'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881227'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1976881240'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881242'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881241'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881237'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881217'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881216'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881215'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881214'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881279'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881213'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881180'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881277'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881179'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881278'; /* linkmonstergen5minutes <- Skeletal Fiend */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881176'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881198'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881197'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881194'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881212'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881192'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881191'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881190'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881200'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881177'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881182'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881187'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881186'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881183'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881185'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881181'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1976881178'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881203'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881196'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881189'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881184'; /* linkmonstergen5minutes <- Lacerator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881208'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881188'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881209'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881193'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881195'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881202'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881153'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881152'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881210'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881155'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881158'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881170'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881159'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881156'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881154'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881205'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881164'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881206'; /* linkmonstergen5minutes <- Demilich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881161'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881160'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881204'; /* linkmonstergen5minutes <- Elite Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1976881162'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1976881167'; /* linkitemgen10seconds <- Untranslated Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881296'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881295'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881166'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881301'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881165'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881300'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881303'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881302'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881299'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881298'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881312'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881311'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881305'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881304'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881294'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881297'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881317'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881316'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881314'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881313'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881288'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881287'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881256'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881255'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881247'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881246'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881249'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881265'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881264'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1976881251'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881173'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881257'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881175'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881252'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881250'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881266'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881259'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881174'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881253'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881172'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881258'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881268'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881254'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881260'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881267'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881272'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881271'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881274'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881282'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881281'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881273'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881284'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881283'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881286'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881285'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881262'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881261'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881276'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881275'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1976881223'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881222'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881225'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881224'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881235'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881232'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881231'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881230'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881289'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881245'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881290'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881244'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881243'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881238'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881226'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881233'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881291'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881234'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881239'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881221'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881220'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881219'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881218'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881319'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881236'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881320'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881228'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881229'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881318'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881227'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1976881240'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881242'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881241'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881237'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881217'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881216'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881215'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881214'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881279'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881213'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881180'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881277'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881179'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881278'; /* linkmonstergen5minutes <- Skeletal Fiend */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881176'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881198'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881197'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881194'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881212'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881192'; /* linkmonstergen5minutes <- Armored Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881191'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881190'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881200'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881177'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881182'; /* linkmonstergen5minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881187'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881186'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881183'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881185'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881181'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1976881178'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881203'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881196'; /* linkmonstergen5minutes <- Olthoi Brood Matron */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881189'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881184'; /* linkmonstergen5minutes <- Lacerator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881208'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881188'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881209'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881193'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881195'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881202'; /* linkmonstergen5minutes <- Olthoi Swarm Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881153'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881152'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881210'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881155'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881158'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881170'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881159'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881156'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881154'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881205'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881164'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881206'; /* linkmonstergen5minutes <- Demilich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881161'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881160'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881204'; /* linkmonstergen5minutes <- Elite Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1976881162'; /* linkmonstergen5minutes <- Olthoi Swarm Mutilator */
 

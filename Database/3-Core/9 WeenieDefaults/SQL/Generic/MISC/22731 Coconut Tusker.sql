@@ -1,18 +1,15 @@
 /* Weenie - Coconut Tusker (22731) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22731;
+DELETE FROM weenie WHERE class_Id = 22731;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22731, 'coconuttusker');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22731, 'coconuttusker', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22731, 0, 22731);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22731, 1, 'Coconut Tusker') /* NAME_STRING */
      , (22731, 14, 'This item can be used on floor, yard and wall hooks.') /* USE_STRING */
      , (22731, 15, 'A carved coconut that looks like a tusker.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22731, 1, 33558136) /* SETUP_DID */
      , (22731, 3, 536870932) /* SOUND_TABLE_DID */
      , (22731, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (22731, 1, 33558136) /* SETUP_DID */
      , (22731, 7, 268435751) /* CLOTHINGBASE_DID */
      , (22731, 8, 100673879) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22731, 9, 0) /* LOCATIONS_INT */
      , (22731, 1, 128) /* ITEM_TYPE_INT */
      , (22731, 19, 10) /* VALUE_INT */
@@ -30,10 +27,9 @@ VALUES (22731, 9, 0) /* LOCATIONS_INT */
      , (22731, 8, 50) /* MASS_INT */
      , (22731, 150, 103) /* HOOK_PLACEMENT_INT */
      , (22731, 151, 11) /* HOOK_TYPE_INT */
-     , (22731, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22731, 9007, 1) /* Generic_WeenieType */;
+     , (22731, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22731, 69, False) /* IS_SELLABLE_BOOL */
      , (22731, 22, True) /* INSCRIBABLE_BOOL */
      , (22731, 23, True) /* DESTROY_ON_SELL_BOOL */;

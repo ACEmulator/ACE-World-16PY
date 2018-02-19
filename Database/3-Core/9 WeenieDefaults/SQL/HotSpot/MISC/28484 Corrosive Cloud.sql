@@ -1,22 +1,19 @@
 /* Weenie - Corrosive Cloud (28484) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28484;
+DELETE FROM weenie WHERE class_Id = 28484;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28484, 'corrosivecloud');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28484, 'corrosivecloud', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28484, 0, 28484);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28484, 1, 'Corrosive Cloud') /* NAME_STRING */
      , (28484, 17, 'You lose %i health, as a corrosive cloud of filth devours your flesh.') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28484, 1, 33556024) /* SETUP_DID */
      , (28484, 3, 536871007) /* SOUND_TABLE_DID */
      , (28484, 8, 100667465) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28484, 9, 0) /* LOCATIONS_INT */
      , (28484, 1, 128) /* ITEM_TYPE_INT */
      , (28484, 45, 2) /* DAMAGE_TYPE_INT */
@@ -26,16 +23,15 @@ VALUES (28484, 9, 0) /* LOCATIONS_INT */
      , (28484, 8, 1) /* MASS_INT */
      , (28484, 19, 1) /* VALUE_INT */
      , (28484, 44, 40) /* DAMAGE_INT */
-     , (28484, 119, 0) /* ACTIVE_INT */
-     , (28484, 9007, 13) /* HotSpot_WeenieType */;
+     , (28484, 119, 0) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28484, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
      , (28484, 105, 2) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (28484, 106, 0) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (28484, 22, 0.15) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28484, 1, True) /* STUCK_BOOL */
      , (28484, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (28484, 18, True) /* VISIBILITY_BOOL */

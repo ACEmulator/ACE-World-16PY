@@ -1,16 +1,13 @@
 /* Weenie - Diamond Lord (11991) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11991;
+DELETE FROM weenie WHERE class_Id = 11991;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11991, 'golemhighbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11991, 'golemhighbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11991, 0, 11991);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11991, 1, 'Diamond Lord') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11991, 1, 33556439) /* SETUP_DID */
      , (11991, 2, 150995073) /* MOTION_TABLE_DID */
      , (11991, 35, 19) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11991, 1, 33556439) /* SETUP_DID */
      , (11991, 7, 268435983) /* CLOTHINGBASE_DID */
      , (11991, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11991, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (11991, 1, 16) /* ITEM_TYPE_INT */
      , (11991, 2, 13) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (11991, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (11991, 27, 0) /* ARMOR_TYPE_INT */
      , (11991, 93, 1032) /* PHYSICS_STATE_INT */
      , (11991, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (11991, 40, 2) /* COMBAT_MODE_INT */
-     , (11991, 9007, 10) /* Creature_WeenieType */;
+     , (11991, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11991, 64, 0.13) /* RESIST_SLASH_FLOAT */
      , (11991, 65, 0.37) /* RESIST_PIERCE_FLOAT */
      , (11991, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -79,14 +75,14 @@ VALUES (11991, 64, 0.13) /* RESIST_SLASH_FLOAT */
      , (11991, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11991, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11991, 1, True) /* STUCK_BOOL */
      , (11991, 6, True) /* AI_USES_MANA_BOOL */
      , (11991, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11991, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11991, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11991, 1343, 2.048) /* WeaknessOther6_SpellID */
      , (11991, 1327, 2.048) /* ImperilOther6_SpellID */
      , (11991, 1160, 2.01) /* HealSelf5_SpellID */
@@ -96,20 +92,20 @@ VALUES (11991, 1343, 2.048) /* WeaknessOther6_SpellID */
      , (11991, 1053, 2.048) /* BludgeonVulnerabilityOther6_SpellID */
      , (11991, 2144, 2.02) /* Shockwave7_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11991, 1, 400) /* STRENGTH_ATTRIBUTE */
      , (11991, 2, 390) /* ENDURANCE_ATTRIBUTE */
      , (11991, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (11991, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (11991, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (11991, 32, 290) /* SELF_ATTRIBUTE */;
+     , (11991, 3, 290) /* QUICKNESS_ATTRIBUTE */
+     , (11991, 5, 290) /* FOCUS_ATTRIBUTE */
+     , (11991, 6, 290) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11991, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11991, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11991, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11991, 1, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11991, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11991, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11991, 9, 7338, 0, 0, 0.75, False) /* Create Diamond Heart for ContainTreasure_DestinationType */
      , (11991, 9, 0, 0, 0, 0.25, False) /* Create  for ContainTreasure_DestinationType */
      , (11991, 9, 6876, 0, 0, 0.5, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
@@ -121,7 +117,7 @@ VALUES (11991, 9, 7338, 0, 0, 0.75, False) /* Create Diamond Heart for ContainTr
      , (11991, 9, 12689, 0, 0, 0.2, False) /* Create Diamond Powder for ContainTreasure_DestinationType */
      , (11991, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11991, 0.33, 4216, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Diamond Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11991, 0.66, 4216, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Diamond Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11991, 1, 4216, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Diamond Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1631, 2007384093, 2053374208, 38.9186, 159.215, 8.805, -0.261685, 0, 0, -0.965153) /* Drudge Servant */
      , (4179, 2007384072, 2053374208, 37.6915, 156.016, 0.005, -0.822627, 0, 0, -0.568582) /* Bonfire */
      , (192, 2007384089, 2053374208, 38.0879, 157.934, 0.005, -0.321745, 0, 0, 0.946826) /* Drudge Prowler */
@@ -27,27 +27,27 @@ VALUES (1631, 2007384093, 2053374208, 38.9186, 159.215, 8.805, -0.261685, 0, 0, 
      , (1986, 2007384091, 2053373952, 77.8926, 156.124, -0.895, -0.70109, 0, 0, 0.713073) /* Water Wisp */
      , (263, 2007384080, 2053373952, 77.291, 144.357, -0.226, -0.508553, 0, 0, -0.861031) /* Fish */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007384066'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2007384070'; /* linkitemscattergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2007384095'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2007384088'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2007384096'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2007384066'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2007384070'; /* linkitemscattergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2007384095'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2007384088'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2007384096'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384067'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007384071'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384080'; /* linkitemscattergen <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384081'; /* linkitemscattergen <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384082'; /* linkitemscattergen <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2007384083'; /* linkitemscattergen <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2007384086'; /* linkmonstergen5minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384091'; /* linkmonstergen10minutes <- Water Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384090'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384089'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384093'; /* linkmonstergen10minutes <- Drudge Servant */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384092'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384094'; /* linkmonstergen10minutes <- Drudge Slave */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384068'; /* linkmonstergen10minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384073'; /* linkmonstergen10minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2007384077'; /* linkmonstergen10minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2007384085'; /* linkitemgen25seconds <- A Note to Ma'yad */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007384067'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007384071'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384080'; /* linkitemscattergen <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384081'; /* linkitemscattergen <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384082'; /* linkitemscattergen <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2007384083'; /* linkitemscattergen <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2007384086'; /* linkmonstergen5minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384091'; /* linkmonstergen10minutes <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384090'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384089'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384093'; /* linkmonstergen10minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384092'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384094'; /* linkmonstergen10minutes <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384068'; /* linkmonstergen10minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384073'; /* linkmonstergen10minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2007384077'; /* linkmonstergen10minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2007384085'; /* linkitemgen25seconds <- A Note to Ma'yad */
 

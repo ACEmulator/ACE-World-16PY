@@ -1,16 +1,13 @@
 /* Weenie - Sarcophagus of High Matriarch, Ixir Zi (26538) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26538;
+DELETE FROM weenie WHERE class_Id = 26538;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26538, 'sarcophagustempleendgame');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26538, 'sarcophagustempleendgame', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26538, 0, 26538);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26538, 1, 'Sarcophagus of High Matriarch, Ixir Zi') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26538, 1, 33558609) /* SETUP_DID */
      , (26538, 2, 150995261) /* MOTION_TABLE_DID */
      , (26538, 3, 536870933) /* SOUND_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (26538, 1, 33558609) /* SETUP_DID */
      , (26538, 8, 100675787) /* ICON_DID */
      , (26538, 22, 872415328) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26538, 1, 16) /* ITEM_TYPE_INT */
      , (26538, 146, 39036) /* XP_OVERRIDE_INT */
      , (26538, 2, 63) /* CREATURE_TYPE_INT */
@@ -31,10 +28,9 @@ VALUES (26538, 1, 16) /* ITEM_TYPE_INT */
      , (26538, 25, 427) /* LEVEL_INT */
      , (26538, 27, 0) /* ARMOR_TYPE_INT */
      , (26538, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (26538, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (26538, 9007, 10) /* Creature_WeenieType */;
+     , (26538, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26538, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26538, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (26538, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -64,7 +60,7 @@ VALUES (26538, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26538, 54, 3) /* USE_RADIUS_FLOAT */
      , (26538, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26538, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26538, 1, True) /* STUCK_BOOL */
      , (26538, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -75,16 +71,16 @@ VALUES (26538, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26538, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (26538, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26538, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (26538, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (26538, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (26538, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (26538, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (26538, 32, 285) /* SELF_ATTRIBUTE */;
+     , (26538, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (26538, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (26538, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26538, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26538, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26538, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26538, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26538, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26538, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

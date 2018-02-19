@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5857, 2070863872, 3069050880, 134.631, 33.0729, 168.86, -0.997328, 0, 0, 0.0730514) /* Hot Air */
      , (7364, 2070863873, 3069050880, 131.304, 83.342, 169.063, 0.711082, 0, 0, -0.703109) /* erupttenkarrdunfxgen */
      , (5857, 2070863874, 3069050880, 136.558, 47.6596, 168.62, 0.00963852, 0, 0, 0.999954) /* Hot Air */
@@ -47,15 +47,15 @@ VALUES (5857, 2070863872, 3069050880, 134.631, 33.0729, 168.86, -0.997328, 0, 0,
      , (7220, 2070863922, 3069050880, 169.32, 26.6709, 184.885, -0.883254, 0, 0, -0.468895) /* lavalandcalderamixgen */
      , (7220, 2070863923, 3069050880, 101.059, 74.8233, 170.005, -0.665594, 0, 0, -0.746314) /* lavalandcalderamixgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070863893'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2070863893'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863894'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863895'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863896'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863897'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863898'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863899'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863900'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863901'; /* linkmonstergen5minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070863902'; /* linkmonstergen5minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863894'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863895'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863896'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863897'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863898'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863899'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863900'; /* linkmonstergen5minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863901'; /* linkmonstergen5minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070863902'; /* linkmonstergen5minutes <- Vapor Golem */
 

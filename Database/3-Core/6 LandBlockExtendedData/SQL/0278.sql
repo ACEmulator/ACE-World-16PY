@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28486, 1881636864, 41419008, 2.60085, -211.074, -53.995, 0.924943, 0, 0, 0.380105) /* Spores */
      , (26017, 1881636865, 41419008, 4.00211, -211.158, -53.9551, 0.995822, 0, 0, 0.091315) /* Burun Ruuk Savage */
      , (28485, 1881637123, 41419008, -0.367471, -213.062, -53.995, 0.945749, 0, 0, -0.324898) /* Noxious Fumes */
@@ -276,159 +276,159 @@ VALUES (28486, 1881636864, 41419008, 2.60085, -211.074, -53.995, 0.924943, 0, 0,
      , (28485, 1881637121, 41419629, 159.431, -89.9011, 0.005, -0.705659, 0, 0, 0.708552) /* Noxious Fumes */
      , (28485, 1881637122, 41419629, 162.25, -89.9127, 0.005, -0.705659, 0, 0, 0.708552) /* Noxious Fumes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881636874'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881637010'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881637000'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881637061'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1881637118'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881636874'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881637010'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881637000'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881637061'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881637118'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636887'; /* linkmonstergen3minutes <- Guruk Gorefiend */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636881'; /* linkmonstergen3minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636880'; /* linkmonstergen3minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636865'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636879'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636894'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636878'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636868'; /* linkmonstergen3minutes <- Guruk Titan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636895'; /* linkmonstergen3minutes <- Guruk Titan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881636882'; /* linkmonstergen3minutes <- Guruk Gorefiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636945'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636942'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636943'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636899'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636904'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636912'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636908'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636906'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636905'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636907'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636909'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636911'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636944'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636902'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636901'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636900'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636946'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636948'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636949'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636947'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636910'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636982'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636981'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636980'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636965'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636964'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636963'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636962'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636903'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636983'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636960'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636950'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636956'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636959'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636958'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636957'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636952'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636951'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636939'; /* linkmonstergen5minutes <- Guruk Gorefiend */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636933'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636924'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636936'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636938'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881636941'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637007'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637008'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637018'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637019'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636996'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636997'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636998'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636999'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637005'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637006'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637004'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636990'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636991'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636995'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636994'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637009'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637001'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637002'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637003'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637025'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637024'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637023'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637015'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637014'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636989'; /* linkmonstergen5minutes <- Guruk Behemoth */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636993'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881636992'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637017'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637016'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637022'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637021'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637013'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637012'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637011'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881637020'; /* linkmonstergen5minutes <- Guruk Colossus */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637059'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637060'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637062'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637063'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637064'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637047'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637034'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637035'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637036'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637026'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637027'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637028'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637029'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637065'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637066'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637048'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637049'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637050'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637044'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637045'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637046'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637075'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637083'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637084'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637081'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637082'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637076'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637067'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637079'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637032'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637033'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637041'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637030'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637031'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637042'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637043'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637074'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637080'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637077'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637078'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637068'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881637069'; /* linkmonstergen5minutes <- Guruk Hulk */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637089'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637090'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637088'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637091'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637094'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637099'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637100'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637095'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637106'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637102'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637092'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637087'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637096'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637097'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637103'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637104'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637101'; /* linkmonstergen5minutes <- Guruk Destroyer */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881637105'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636887'; /* linkmonstergen3minutes <- Guruk Gorefiend */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636881'; /* linkmonstergen3minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636880'; /* linkmonstergen3minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636865'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636879'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636894'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636878'; /* linkmonstergen3minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636868'; /* linkmonstergen3minutes <- Guruk Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636895'; /* linkmonstergen3minutes <- Guruk Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881636882'; /* linkmonstergen3minutes <- Guruk Gorefiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636945'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636942'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636943'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636899'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636904'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636912'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636908'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636906'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636905'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636907'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636909'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636911'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636944'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636902'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636901'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636900'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636946'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636948'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636949'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636947'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636910'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636982'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636981'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636980'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636965'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636964'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636963'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636962'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636903'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636983'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636960'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636950'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636956'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636959'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636958'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636957'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636952'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636951'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636939'; /* linkmonstergen5minutes <- Guruk Gorefiend */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636933'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636924'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636936'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636938'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881636941'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637007'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637008'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637018'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637019'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636996'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636997'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636998'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636999'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637005'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637006'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637004'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636990'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636991'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636995'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636994'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637009'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637001'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637002'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637003'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637025'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637024'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637023'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637015'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637014'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636989'; /* linkmonstergen5minutes <- Guruk Behemoth */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636993'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881636992'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637017'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637016'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637022'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637021'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637013'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637012'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637011'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881637020'; /* linkmonstergen5minutes <- Guruk Colossus */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637059'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637060'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637062'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637063'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637064'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637047'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637034'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637035'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637036'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637026'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637027'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637028'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637029'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637065'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637066'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637048'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637049'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637050'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637044'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637045'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637046'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637075'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637083'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637084'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637081'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637082'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637076'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637067'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637079'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637032'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637033'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637041'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637030'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637031'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637042'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637043'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637074'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637080'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637077'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637078'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637068'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881637069'; /* linkmonstergen5minutes <- Guruk Hulk */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637089'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637090'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637088'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637091'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637094'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637099'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637100'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637095'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637106'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637102'; /* linkmonstergen5minutes <- Burun Ruuk Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637092'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637087'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637096'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637097'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637103'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637104'; /* linkmonstergen5minutes <- Burun Ruuk Savage */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637101'; /* linkmonstergen5minutes <- Guruk Destroyer */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881637105'; /* linkmonstergen5minutes <- Guruk Destroyer */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27863, 2126585856, 3960602624, 127.497, 37.8518, 104.007, -0.902211, 0, 0, -0.431294) /* Mosswart Cringer */
      , (27863, 2126585857, 3960602624, 126.831, 43.6282, 104.007, -0.319185, 0, 0, -0.947692) /* Mosswart Cringer */
      , (27863, 2126585858, 3960602624, 133.586, 50.216, 103.907, 0.386892, 0, 0, -0.922125) /* Mosswart Cringer */
@@ -22,27 +22,27 @@ VALUES (27863, 2126585856, 3960602624, 127.497, 37.8518, 104.007, -0.902211, 0, 
      , (22257, 2126585876, 3960602624, 119.772, 125.675, 103.105, -0.504023, 0, 0, 0.86369) /* Fishing Hole */
      , (4219, 2126585877, 3960602624, 130.381, 46.435, 104.005, 0.999464, 0, 0, -0.0327399) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2126585877'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2126585877'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585856'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585857'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585858'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585859'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585860'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585861'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585862'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585863'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585864'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585865'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585866'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585867'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585868'; /* linkmonstergen7minutes <- Mosswart Cringer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585869'; /* linkmonstergen7minutes <- Mosswart Scavenger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585870'; /* linkmonstergen7minutes <- Mosswart Scavenger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585871'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585872'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585873'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585874'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585875'; /* linkmonstergen7minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2126585876'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585856'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585857'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585858'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585859'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585860'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585861'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585862'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585863'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585864'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585865'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585866'; /* linkmonstergen7minutes <- Mosswart Muck Stalker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585867'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585868'; /* linkmonstergen7minutes <- Mosswart Cringer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585869'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585870'; /* linkmonstergen7minutes <- Mosswart Scavenger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585871'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585872'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585873'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585874'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585875'; /* linkmonstergen7minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2126585876'; /* linkmonstergen7minutes <- Fishing Hole */
 

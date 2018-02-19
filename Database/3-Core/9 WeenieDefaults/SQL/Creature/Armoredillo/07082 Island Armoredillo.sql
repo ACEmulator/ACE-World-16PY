@@ -1,16 +1,13 @@
 /* Weenie - Island Armoredillo (7082) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7082;
+DELETE FROM weenie WHERE class_Id = 7082;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7082, 'armoredilloisland');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7082, 'armoredilloisland', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7082, 0, 7082);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7082, 1, 'Island Armoredillo') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7082, 1, 33554436) /* SETUP_DID */
      , (7082, 2, 150994972) /* MOTION_TABLE_DID */
      , (7082, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (7082, 1, 33554436) /* SETUP_DID */
      , (7082, 7, 268435547) /* CLOTHINGBASE_DID */
      , (7082, 8, 100667935) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7082, 1, 16) /* ITEM_TYPE_INT */
      , (7082, 146, 5846) /* XP_OVERRIDE_INT */
      , (7082, 2, 17) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (7082, 1, 16) /* ITEM_TYPE_INT */
      , (7082, 16, 1) /* ITEM_USEABLE_INT */
      , (7082, 25, 44) /* LEVEL_INT */
      , (7082, 93, 1032) /* PHYSICS_STATE_INT */
-     , (7082, 40, 2) /* COMBAT_MODE_INT */
-     , (7082, 9007, 10) /* Creature_WeenieType */;
+     , (7082, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7082, 64, 0.53) /* RESIST_SLASH_FLOAT */
      , (7082, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
      , (7082, 65, 1) /* RESIST_PIERCE_FLOAT */
@@ -69,26 +65,26 @@ VALUES (7082, 64, 0.53) /* RESIST_SLASH_FLOAT */
      , (7082, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7082, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7082, 1, True) /* STUCK_BOOL */
      , (7082, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (7082, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7082, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7082, 1, 170) /* STRENGTH_ATTRIBUTE */
      , (7082, 2, 190) /* ENDURANCE_ATTRIBUTE */
      , (7082, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (7082, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (7082, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (7082, 32, 130) /* SELF_ATTRIBUTE */;
+     , (7082, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (7082, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (7082, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7082, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7082, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7082, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7082, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7082, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7082, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7082, 9, 8424, 0, 0, 0.07, False) /* Create Island Armoredillo Spine for ContainTreasure_DestinationType */
      , (7082, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
      , (7082, 9, 8471, 0, 0, 0.05, False) /* Create Sturdy Armoredillo Hide for ContainTreasure_DestinationType */

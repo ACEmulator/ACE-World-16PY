@@ -1,18 +1,15 @@
 /* Weenie - Salvaged Emerald (21048) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21048;
+DELETE FROM weenie WHERE class_Id = 21048;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21048, 'materialemerald');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21048, 'materialemerald', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21048, 0, 21048);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21048, 1, 'Salvaged Emerald') /* NAME_STRING */
      , (21048, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Acid Rending. Acid Rending gives the weapon the ability to make its opponent vulnerable to acid attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Acid Vulnerability spells. ') /* USE_STRING */
      , (21048, 15, 'Chips of emerald material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21048, 1, 33554817) /* SETUP_DID */
      , (21048, 3, 536870932) /* SOUND_TABLE_DID */
      , (21048, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (21048, 1, 33554817) /* SETUP_DID */
      , (21048, 8, 100667436) /* ICON_DID */
      , (21048, 50, 100673272) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21048, 9, 0) /* LOCATIONS_INT */
      , (21048, 1, 1073741824) /* ITEM_TYPE_INT */
      , (21048, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (21048, 9, 0) /* LOCATIONS_INT */
      , (21048, 91, 100) /* MAX_STRUCTURE_INT */
      , (21048, 93, 1044) /* PHYSICS_STATE_INT */
      , (21048, 94, 33025) /* TARGET_TYPE_INT */
-     , (21048, 33, 1) /* BONDED_INT */
-     , (21048, 9007, 44) /* CraftTool_WeenieType */;
+     , (21048, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21048, 22, True) /* INSCRIBABLE_BOOL */
      , (21048, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

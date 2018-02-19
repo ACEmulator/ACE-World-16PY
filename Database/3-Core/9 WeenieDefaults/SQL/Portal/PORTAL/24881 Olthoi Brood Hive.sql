@@ -1,39 +1,35 @@
 /* Weenie - Olthoi Brood Hive (24881) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24881;
+DELETE FROM weenie WHERE class_Id = 24881;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24881, 'portalothoihive2mid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24881, 'portalothoihive2mid', /* Portal_WeenieType */ 7);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24881, 0, 24881);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24881, 1, 'Olthoi Brood Hive') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24881, 1, 33555926) /* SETUP_DID */
      , (24881, 2, 150994947) /* MOTION_TABLE_DID */
      , (24881, 8, 100667499) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24881, 1, 65536) /* ITEM_TYPE_INT */
      , (24881, 93, 3084) /* PHYSICS_STATE_INT */
      , (24881, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (24881, 16, 32) /* ITEM_USEABLE_INT */
      , (24881, 86, 40) /* MIN_LEVEL_INT */
-     , (24881, 111, 49) /* PORTAL_BITMASK_INT */
-     , (24881, 9007, 7) /* Portal_WeenieType */;
+     , (24881, 111, 49) /* PORTAL_BITMASK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24881, 54, -0.1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24881, 1, True) /* STUCK_BOOL */
      , (24881, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (24881, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24881, 13, True) /* ETHEREAL_BOOL */
      , (24881, 15, True) /* LIGHTS_STATUS_BOOL */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24881, 2, 1581843509, 18.8143, -12.6949, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;
 

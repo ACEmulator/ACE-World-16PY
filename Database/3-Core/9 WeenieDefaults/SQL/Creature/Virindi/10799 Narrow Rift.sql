@@ -1,16 +1,13 @@
 /* Weenie - Narrow Rift (10799) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10799;
+DELETE FROM weenie WHERE class_Id = 10799;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10799, 'riftnarrow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10799, 'riftnarrow', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10799, 0, 10799);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10799, 1, 'Narrow Rift') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10799, 1, 33557102) /* SETUP_DID */
      , (10799, 2, 150995087) /* MOTION_TABLE_DID */
      , (10799, 3, 536871001) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (10799, 1, 33557102) /* SETUP_DID */
      , (10799, 8, 100671702) /* ICON_DID */
      , (10799, 22, 872415375) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10799, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (10799, 1, 16) /* ITEM_TYPE_INT */
      , (10799, 2, 19) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (10799, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (10799, 27, 0) /* ARMOR_TYPE_INT */
      , (10799, 93, 3080) /* PHYSICS_STATE_INT */
      , (10799, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (10799, 40, 2) /* COMBAT_MODE_INT */
-     , (10799, 9007, 10) /* Creature_WeenieType */;
+     , (10799, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10799, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10799, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (10799, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (10799, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10799, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10799, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10799, 1, True) /* STUCK_BOOL */
      , (10799, 6, True) /* AI_USES_MANA_BOOL */
      , (10799, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (10799, 1, True) /* STUCK_BOOL */
      , (10799, 15, True) /* LIGHTS_STATUS_BOOL */
      , (10799, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10799, 77, 2.115) /* LightningBolt3_SpellID */
      , (10799, 607, 2.032) /* LifeMagicMasterySelf3_SpellID */
      , (10799, 282, 2.044) /* MagicYieldOther3_SpellID */
@@ -93,20 +89,20 @@ VALUES (10799, 77, 2.115) /* LightningBolt3_SpellID */
      , (10799, 276, 2.032) /* MagicResistanceSelf3_SpellID */
      , (10799, 1086, 2.044) /* LightningVulnerabilityOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10799, 1, 50) /* STRENGTH_ATTRIBUTE */
      , (10799, 2, 50) /* ENDURANCE_ATTRIBUTE */
      , (10799, 4, 20) /* COORDINATION_ATTRIBUTE */
-     , (10799, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (10799, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (10799, 32, 100) /* SELF_ATTRIBUTE */;
+     , (10799, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (10799, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (10799, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10799, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10799, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10799, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10799, 1, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10799, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10799, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10799, 0.25, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)/* Generate Battered Doll (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (10799, 0.5, 10769, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)/* Generate Battered Doll (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (10799, 0.75, 10772, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)/* Generate Beaten Doll (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

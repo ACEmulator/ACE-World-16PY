@@ -1,25 +1,22 @@
 /* Weenie - Oil of Mana Burn (11840) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11840;
+DELETE FROM weenie WHERE class_Id = 11840;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11840, 'macebuff');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11840, 'macebuff', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11840, 0, 11840);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11840, 16, 'An oil that can be applied to a mace.  When applied, it grants the weapon the ability to siphon off the inner strength of your enemy.') /* LONG_DESC_STRING */
      , (11840, 1, 'Oil of Mana Burn') /* NAME_STRING */
      , (11840, 14, 'Use this on a loot-generated mace to give the weapon mana damage capability. Using this on an already augmented weapon will use up the oil.') /* USE_STRING */
      , (11840, 15, 'An oil that can be applied to a mace.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11840, 1, 33557279) /* SETUP_DID */
      , (11840, 3, 536870932) /* SOUND_TABLE_DID */
      , (11840, 8, 100671970) /* ICON_DID */
      , (11840, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11840, 9, 0) /* LOCATIONS_INT */
      , (11840, 1, 128) /* ITEM_TYPE_INT */
      , (11840, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (11840, 9, 0) /* LOCATIONS_INT */
      , (11840, 93, 1044) /* PHYSICS_STATE_INT */
      , (11840, 94, 1) /* TARGET_TYPE_INT */
      , (11840, 33, 1) /* BONDED_INT */
-     , (11840, 114, 1) /* ATTUNED_INT */
-     , (11840, 9007, 44) /* CraftTool_WeenieType */;
+     , (11840, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11840, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11840, 22, True) /* INSCRIBABLE_BOOL */
      , (11840, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

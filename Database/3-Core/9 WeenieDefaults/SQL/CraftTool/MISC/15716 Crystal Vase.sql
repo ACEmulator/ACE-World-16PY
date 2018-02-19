@@ -1,24 +1,21 @@
 /* Weenie - Crystal Vase (15716) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15716;
+DELETE FROM weenie WHERE class_Id = 15716;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15716, 'vasesunflower');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15716, 'vasesunflower', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15716, 0, 15716);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15716, 1, 'Crystal Vase') /* NAME_STRING */
      , (15716, 14, 'Use this vase on a flower.') /* USE_STRING */
      , (15716, 15, 'A vase cut from the bluest crystal to be had from the Lugian quarries of Travos. You can use this item on floor hooks.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15716, 1, 33557634) /* SETUP_DID */
      , (15716, 3, 536870932) /* SOUND_TABLE_DID */
      , (15716, 8, 100672843) /* ICON_DID */
      , (15716, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15716, 9, 0) /* LOCATIONS_INT */
      , (15716, 1, 128) /* ITEM_TYPE_INT */
      , (15716, 13, 20) /* STACK_UNIT_ENCUMB_INT */
@@ -33,10 +30,9 @@ VALUES (15716, 9, 0) /* LOCATIONS_INT */
      , (15716, 150, 103) /* HOOK_PLACEMENT_INT */
      , (15716, 151, 1) /* HOOK_TYPE_INT */
      , (15716, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15716, 94, 128) /* TARGET_TYPE_INT */
-     , (15716, 9007, 44) /* CraftTool_WeenieType */;
+     , (15716, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15716, 13, True) /* ETHEREAL_BOOL */
      , (15716, 22, True) /* INSCRIBABLE_BOOL */
      , (15716, 23, True) /* DESTROY_ON_SELL_BOOL */;

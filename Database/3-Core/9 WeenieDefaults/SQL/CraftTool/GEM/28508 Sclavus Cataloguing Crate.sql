@@ -1,18 +1,15 @@
 /* Weenie - Sclavus Cataloguing Crate (28508) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28508;
+DELETE FROM weenie WHERE class_Id = 28508;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28508, 'cratesclavuscatalogue3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28508, 'cratesclavuscatalogue3', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28508, 0, 28508);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28508, 16, 'A functional crate for storing messy materials. Two of the four bags inside the crate are currently full. In the first two bags you can see a small Sclavus hide and a normal sized Sclavus hide. The next bag has a label for a Large Sclavus Hide.') /* LONG_DESC_STRING */
      , (28508, 1, 'Sclavus Cataloguing Crate') /* NAME_STRING */
      , (28508, 14, 'Place a Large Sclavus Hide into the lined bag inside this crate.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28508, 1, 33554930) /* SETUP_DID */
      , (28508, 3, 536870932) /* SOUND_TABLE_DID */
      , (28508, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (28508, 1, 33554930) /* SETUP_DID */
      , (28508, 7, 268435723) /* CLOTHINGBASE_DID */
      , (28508, 8, 100676965) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28508, 9, 0) /* LOCATIONS_INT */
      , (28508, 1, 2048) /* ITEM_TYPE_INT */
      , (28508, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,10 +35,9 @@ VALUES (28508, 9, 0) /* LOCATIONS_INT */
      , (28508, 93, 1044) /* PHYSICS_STATE_INT */
      , (28508, 94, 2176) /* TARGET_TYPE_INT */
      , (28508, 33, 1) /* BONDED_INT */
-     , (28508, 114, 1) /* ATTUNED_INT */
-     , (28508, 9007, 44) /* CraftTool_WeenieType */;
+     , (28508, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28508, 69, False) /* IS_SELLABLE_BOOL */
      , (28508, 22, True) /* INSCRIBABLE_BOOL */;
 

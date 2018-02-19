@@ -1,43 +1,39 @@
 /* Weenie - Nanto Information Guide (8758) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8758;
+DELETE FROM weenie WHERE class_Id = 8758;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8758, 'bookportallistnanto');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8758, 'bookportallistnanto', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8758, 0, 8758);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8758, 1, 'Nanto Information Guide') /* NAME_STRING */
      , (8758, 15, 'A book listing the portals around Nanto leading to other towns and where the Nanto stamp can be found.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8758, 1, 33554771) /* SETUP_DID */
      , (8758, 3, 536870932) /* SOUND_TABLE_DID */
      , (8758, 8, 100668117) /* ICON_DID */
      , (8758, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8758, 9, 0) /* LOCATIONS_INT */
      , (8758, 1, 8192) /* ITEM_TYPE_INT */
      , (8758, 93, 1044) /* PHYSICS_STATE_INT */
      , (8758, 5, 10) /* ENCUMB_VAL_INT */
      , (8758, 16, 8) /* ITEM_USEABLE_INT */
      , (8758, 8, 200) /* MASS_INT */
-     , (8758, 19, 0) /* VALUE_INT */
-     , (8758, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8758, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (8758, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (8758, 9007, 8) /* Book_WeenieType */;
+     , (8758, 19, 0) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8758, 39, 1.22) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8758, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (8758, 0, '', 'prewritten', 4294967295, False, 'Nanto 52.6 S 81.9 E
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (8758, 1, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (8758, 0, 4294967295, '', 'prewritten', False, 'Nanto 52.6 S 81.9 E
 North Nanto Outpost 49 S 81.6 E
 East Nanto Outpost 52.4 S 85.3 E
 Portal to Yanshi 52.7 S 80.3 E

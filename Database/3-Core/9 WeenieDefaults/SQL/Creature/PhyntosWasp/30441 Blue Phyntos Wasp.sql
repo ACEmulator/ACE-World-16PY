@@ -1,16 +1,13 @@
 /* Weenie - Blue Phyntos Wasp (30441) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30441;
+DELETE FROM weenie WHERE class_Id = 30441;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30441, 'phyntoswaspblue-nofall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30441, 'phyntoswaspblue-nofall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30441, 0, 30441);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30441, 1, 'Blue Phyntos Wasp') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30441, 1, 33558817) /* SETUP_DID */
      , (30441, 2, 150995303) /* MOTION_TABLE_DID */
      , (30441, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (30441, 1, 33558817) /* SETUP_DID */
      , (30441, 7, 268436836) /* CLOTHINGBASE_DID */
      , (30441, 8, 100667450) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30441, 1, 16) /* ITEM_TYPE_INT */
      , (30441, 146, 455) /* XP_OVERRIDE_INT */
      , (30441, 2, 9) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (30441, 1, 16) /* ITEM_TYPE_INT */
      , (30441, 16, 1) /* ITEM_USEABLE_INT */
      , (30441, 25, 9) /* LEVEL_INT */
      , (30441, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (30441, 40, 2) /* COMBAT_MODE_INT */
-     , (30441, 9007, 10) /* Creature_WeenieType */;
+     , (30441, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30441, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30441, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (30441, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,7 +66,7 @@ VALUES (30441, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30441, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (30441, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30441, 1, True) /* STUCK_BOOL */
      , (30441, 6, True) /* AI_USES_MANA_BOOL */
      , (30441, 50, True) /* NEVER_FAIL_CASTING_BOOL */
@@ -79,24 +75,24 @@ VALUES (30441, 1, True) /* STUCK_BOOL */
      , (30441, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30441, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30441, 27, 2.036) /* FlameBolt1_SpellID */
      , (30441, 28, 2.04) /* FrostBolt1_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30441, 1, 25) /* STRENGTH_ATTRIBUTE */
      , (30441, 2, 50) /* ENDURANCE_ATTRIBUTE */
      , (30441, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (30441, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (30441, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (30441, 32, 10) /* SELF_ATTRIBUTE */;
+     , (30441, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30441, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (30441, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30441, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30441, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30441, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30441, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30441, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30441, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30441, 9, 3699, 0, 0, 0.15, False) /* Create Blue Phyntos Wasp Wing for ContainTreasure_DestinationType */
      , (30441, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */
      , (30441, 9, 8701, 0, 0, 0.03, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */

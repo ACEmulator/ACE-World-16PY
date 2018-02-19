@@ -1,25 +1,22 @@
 /* Weenie - Yaraq Town Stamp (8742) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8742;
+DELETE FROM weenie WHERE class_Id = 8742;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8742, 'stampyaraqnewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8742, 'stampyaraqnewbiequest', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8742, 0, 8742);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8742, 16, 'A town stamp of Yaraq to be used on any Red or Gold Letters you come across.') /* LONG_DESC_STRING */
      , (8742, 1, 'Yaraq Town Stamp') /* NAME_STRING */
      , (8742, 33, 'NewbieQuestStampYaraq') /* QUEST_STRING */
      , (8742, 14, 'Combine with Red or Gold Letters to create Stamped Red or Gold Letters') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8742, 1, 33556922) /* SETUP_DID */
      , (8742, 3, 536870932) /* SOUND_TABLE_DID */
      , (8742, 8, 100671218) /* ICON_DID */
      , (8742, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8742, 9, 0) /* LOCATIONS_INT */
      , (8742, 1, 2048) /* ITEM_TYPE_INT */
      , (8742, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (8742, 9, 0) /* LOCATIONS_INT */
      , (8742, 93, 1044) /* PHYSICS_STATE_INT */
      , (8742, 94, 8192) /* TARGET_TYPE_INT */
      , (8742, 33, 1) /* BONDED_INT */
-     , (8742, 114, 1) /* ATTUNED_INT */
-     , (8742, 9007, 44) /* CraftTool_WeenieType */;
+     , (8742, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8742, 39, 3) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8742, 22, True) /* INSCRIBABLE_BOOL */
      , (8742, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

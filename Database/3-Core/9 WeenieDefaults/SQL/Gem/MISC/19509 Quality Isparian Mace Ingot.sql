@@ -1,18 +1,15 @@
 /* Weenie - Quality Isparian Mace Ingot (19509) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19509;
+DELETE FROM weenie WHERE class_Id = 19509;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19509, 'ingotmaceisparian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19509, 'ingotmaceisparian', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19509, 0, 19509);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19509, 16, 'An diamond infused ingot, enhanced and stamped with an mace glyph.') /* LONG_DESC_STRING */
      , (19509, 1, 'Quality Isparian Mace Ingot') /* NAME_STRING */
      , (19509, 15, 'An diamond infused ingot, enhanced and stamped with an mace glyph.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19509, 1, 33555677) /* SETUP_DID */
      , (19509, 3, 536870932) /* SOUND_TABLE_DID */
      , (19509, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (19509, 1, 33555677) /* SETUP_DID */
      , (19509, 7, 268435723) /* CLOTHINGBASE_DID */
      , (19509, 8, 100672973) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19509, 9, 0) /* LOCATIONS_INT */
      , (19509, 1, 128) /* ITEM_TYPE_INT */
      , (19509, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,10 +32,9 @@ VALUES (19509, 9, 0) /* LOCATIONS_INT */
      , (19509, 19, 0) /* VALUE_INT */
      , (19509, 93, 1044) /* PHYSICS_STATE_INT */
      , (19509, 33, 1) /* BONDED_INT */
-     , (19509, 114, 1) /* ATTUNED_INT */
-     , (19509, 9007, 38) /* Gem_WeenieType */;
+     , (19509, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19509, 69, False) /* IS_SELLABLE_BOOL */
      , (19509, 22, True) /* INSCRIBABLE_BOOL */
      , (19509, 23, True) /* DESTROY_ON_SELL_BOOL */;

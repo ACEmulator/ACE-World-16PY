@@ -1,16 +1,13 @@
 /* Weenie - Wood Golem (942) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 942;
+DELETE FROM weenie WHERE class_Id = 942;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (942, 'golemwood');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (942, 'golemwood', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (942, 0, 942);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (942, 1, 'Wood Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (942, 1, 33556428) /* SETUP_DID */
      , (942, 2, 150995073) /* MOTION_TABLE_DID */
      , (942, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (942, 1, 33556428) /* SETUP_DID */
      , (942, 8, 100667940) /* ICON_DID */
      , (942, 22, 872415326) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (942, 25, 11) /* LEVEL_INT */
      , (942, 1, 16) /* ITEM_TYPE_INT */
      , (942, 146, 477) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (942, 25, 11) /* LEVEL_INT */
      , (942, 16, 1) /* ITEM_USEABLE_INT */
      , (942, 27, 0) /* ARMOR_TYPE_INT */
      , (942, 93, 1032) /* PHYSICS_STATE_INT */
-     , (942, 40, 2) /* COMBAT_MODE_INT */
-     , (942, 9007, 10) /* Creature_WeenieType */;
+     , (942, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (942, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (942, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (942, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,33 +63,33 @@ VALUES (942, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (942, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (942, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (942, 1, True) /* STUCK_BOOL */
      , (942, 6, True) /* AI_USES_MANA_BOOL */
      , (942, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (942, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (942, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (942, 64, 2.08) /* ShockWave1_SpellID */
      , (942, 65, 2.02) /* ShockWave2_SpellID */
      , (942, 86, 2.08) /* ForceBolt1_SpellID */
      , (942, 6, 2.02) /* HealSelf1_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (942, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (942, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (942, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (942, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (942, 16, 95) /* FOCUS_ATTRIBUTE */
-     , (942, 32, 95) /* SELF_ATTRIBUTE */;
+     , (942, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (942, 5, 95) /* FOCUS_ATTRIBUTE */
+     , (942, 6, 95) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (942, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (942, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (942, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (942, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (942, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (942, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (942, 9, 3673, 0, 0, 0.1, False) /* Create Wood Heart for ContainTreasure_DestinationType */
      , (942, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (942, 9, 5779, 0, 0, 0.05, False) /* Create Strange Stick for ContainTreasure_DestinationType */

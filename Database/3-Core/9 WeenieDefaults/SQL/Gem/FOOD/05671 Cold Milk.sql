@@ -1,18 +1,15 @@
 /* Weenie - Cold Milk (5671) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5671;
+DELETE FROM weenie WHERE class_Id = 5671;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5671, 'milkcold');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5671, 'milkcold', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5671, 0, 5671);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5671, 16, 'A frosty cup of milk, sure to cool the drinker. It would probably spoil if used in baking.') /* LONG_DESC_STRING */
      , (5671, 1, 'Cold Milk') /* NAME_STRING */
      , (5671, 15, 'A frosty cup of milk.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5671, 1, 33554602) /* SETUP_DID */
      , (5671, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (5671, 3, 536870932) /* SOUND_TABLE_DID */
@@ -24,7 +21,7 @@ VALUES (5671, 1, 33554602) /* SETUP_DID */
      , (5671, 8, 100668493) /* ICON_DID */
      , (5671, 28, 20) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5671, 9, 0) /* LOCATIONS_INT */
      , (5671, 1, 32) /* ITEM_TYPE_INT */
      , (5671, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (5671, 9, 0) /* LOCATIONS_INT */
      , (5671, 107, 50) /* ITEM_CUR_MANA_INT */
      , (5671, 108, 50) /* ITEM_MAX_MANA_INT */
      , (5671, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (5671, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (5671, 9007, 38) /* Gem_WeenieType */;
+     , (5671, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5671, 69, False) /* IS_SELLABLE_BOOL */
      , (5671, 22, True) /* INSCRIBABLE_BOOL */;
 

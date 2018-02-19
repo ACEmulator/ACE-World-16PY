@@ -1,18 +1,15 @@
 /* Weenie - Scarecrow Legs (28876) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28876;
+DELETE FROM weenie WHERE class_Id = 28876;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28876, 'legscarecrow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28876, 'legscarecrow', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28876, 0, 28876);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28876, 1, 'Scarecrow Legs') /* NAME_STRING */
      , (28876, 14, 'Use these on a scarecrow torso fitted with either one or two arms.') /* USE_STRING */
      , (28876, 15, 'The lower trunk of a scarecrow, complete with legs.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28876, 1, 33558999) /* SETUP_DID */
      , (28876, 3, 536870932) /* SOUND_TABLE_DID */
      , (28876, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (28876, 1, 33558999) /* SETUP_DID */
      , (28876, 7, 268436866) /* CLOTHINGBASE_DID */
      , (28876, 8, 100677089) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28876, 9, 0) /* LOCATIONS_INT */
      , (28876, 1, 128) /* ITEM_TYPE_INT */
      , (28876, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,10 +35,9 @@ VALUES (28876, 9, 0) /* LOCATIONS_INT */
      , (28876, 93, 1044) /* PHYSICS_STATE_INT */
      , (28876, 94, 128) /* TARGET_TYPE_INT */
      , (28876, 33, 0) /* BONDED_INT */
-     , (28876, 114, 0) /* ATTUNED_INT */
-     , (28876, 9007, 44) /* CraftTool_WeenieType */;
+     , (28876, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28876, 22, True) /* INSCRIBABLE_BOOL */
      , (28876, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

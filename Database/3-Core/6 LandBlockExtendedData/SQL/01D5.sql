@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1351, 1880969216, 30736642, 3.94827, -16.1174, 6, -0.300706, 0, 0, -0.953717) /* Sign */
      , (430, 1880969217, 30736642, 0.942725, -18.6326, 6.1, 0.953717, 0, 0, -0.300706) /* Exit */
      , (195, 1880969233, 30736643, 0.177654, -31.0552, 6.011, 0.369348, 0, 0, -0.929291) /* Granite Golem */
@@ -44,44 +44,44 @@ VALUES (1351, 1880969216, 30736642, 3.94827, -16.1174, 6, -0.300706, 0, 0, -0.95
      , (9256, 1880969271, 30736829, 49.3636, -20.1581, 57.005, -0.993062, 0, 0, -0.117589) /* Dune Reaver */
      , (427, 1880969232, 30736831, 30.7804, -19.1971, 66.5, 0.923879, 0, 0, -0.382684) /* To Top of Mt. Syliph */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880969236'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880969237'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880969236'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880969237'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969254'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969253'; /* linkmonstergen7minutes <- Dune Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969250'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969252'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969255'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969251'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969248'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969249'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969235'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969244'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969246'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969242'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969247'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969245'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969234'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969233'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969268'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969267'; /* linkmonstergen7minutes <- Dune Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969270'; /* linkmonstergen7minutes <- Jungle Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880969269'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969264'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969271'; /* linkmonstergen7minutes <- Dune Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969266'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969265'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969262'; /* linkmonstergen7minutes <- Copper Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969261'; /* linkmonstergen7minutes <- Copper Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969260'; /* linkmonstergen7minutes <- Dune Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969263'; /* linkmonstergen7minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969257'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969258'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969256'; /* linkmonstergen7minutes <- Dune Reaver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969259'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969238'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969239'; /* linkmonstergen7minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969241'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969240'; /* linkmonstergen7minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880969243'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969254'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969253'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969250'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969252'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969255'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969251'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969248'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969249'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969235'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969244'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969246'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969242'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969247'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969245'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969234'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969233'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969268'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969267'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969270'; /* linkmonstergen7minutes <- Jungle Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880969269'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969264'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969271'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969266'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969265'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969262'; /* linkmonstergen7minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969261'; /* linkmonstergen7minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969260'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969263'; /* linkmonstergen7minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969257'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969258'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969256'; /* linkmonstergen7minutes <- Dune Reaver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969259'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969238'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969239'; /* linkmonstergen7minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969241'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969240'; /* linkmonstergen7minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880969243'; /* linkmonstergen7minutes <- Silt Lurker */
 

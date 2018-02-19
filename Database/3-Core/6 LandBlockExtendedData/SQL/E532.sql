@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (798, 2119376907, 3845259526, 186.36, 32.5201, 28.08, -0.475624, 0, 0, -0.879649) /* Shui Tentou the Bowyer */
      , (799, 2119376906, 3845259531, 139.68, 38.28, 29.76, 0.851269, 0, 0, 0.524729) /* Grocer Riku Ryu */
      , (1145, 2119376905, 3845259532, 125.969, 34.8809, 29.605, -0.977017, 0, 0, -0.213163) /* Tailor Ka Shen-Ku */
@@ -33,7 +33,7 @@ VALUES (798, 2119376907, 3845259526, 186.36, 32.5201, 28.08, -0.475624, 0, 0, -0
      , (19457, 2119376930, 3845259264, 186.582, 10.296, 35, -0.999154, 0, 0, -0.0411258) /* fireworksgen */
      , (12304, 2119376921, 3845259264, 114.437, 172.094, 28.005, -0.999995, 0, 0, 0.0032585) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119376920'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119376920'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119376919'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119376919'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

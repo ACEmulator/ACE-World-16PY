@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2584, 1951727630, 1162871050, 159.645, 81.377, -0.395, -0.712339, 0, 0, -0.701835) /* Aste Sclavus */
      , (2584, 1951727620, 1162871053, 148.459, 86.198, 4.805, -0.0284903, 0, 0, 0.999594) /* Aste Sclavus */
      , (2583, 1951727621, 1162871054, 148.716, 81.6062, 4.805, 0.997135, 0, 0, -0.0756372) /* Se Sclavus */
@@ -15,19 +15,19 @@ VALUES (2584, 1951727630, 1162871050, 159.645, 81.377, -0.395, -0.712339, 0, 0, 
      , (2583, 1951727617, 1162870784, 160.987, 85.2495, 10.005, 0.642196, 0, 0, -0.766541) /* Se Sclavus */
      , (2583, 1951727618, 1162870784, 161.248, 81.6993, 10.005, 0.781683, 0, 0, -0.623676) /* Se Sclavus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951727629'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1951727629'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727617'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727618'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727619'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727620'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727621'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727622'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727623'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727624'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727625'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727626'; /* linkmonstergen <- Se Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727627'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727628'; /* linkmonstergen <- Aste Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951727630'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727617'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727618'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727619'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727620'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727621'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727622'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727623'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727624'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727625'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727626'; /* linkmonstergen <- Se Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727627'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727628'; /* linkmonstergen <- Aste Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951727630'; /* linkmonstergen <- Aste Sclavus */
 

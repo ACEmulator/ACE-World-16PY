@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8377, 1924206655, 722534674, 37.4016, 156.663, 48.505, 0.707107, 0, 0, -0.707107) /* Beer Keg */
      , (8377, 1924206654, 722534674, 37.37, 155.581, 48.505, 0.707107, 0, 0, -0.707107) /* Beer Keg */
      , (24590, 1924206626, 722534674, 31.0567, 149.394, 48.008, -0.894067, 0, 0, 0.447934) /* Odvik the Inn Keeper */
@@ -42,25 +42,25 @@ VALUES (8377, 1924206655, 722534674, 37.4016, 156.663, 48.505, 0.707107, 0, 0, -
      , (24571, 1924206634, 722534400, 179.755, 108.735, 48.5534, 0.382683, 0, 0, -0.92388) /* Portcullis */
      , (24873, 1924206635, 722534400, 177.624, 114.107, 48.005, 0.172802, 0, 0, -0.984957) /* Gate Guard */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924206612'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1924206606'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924206612'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1924206606'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206614'; /* linkmonstergen10minutes <- Auroch Cow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206613'; /* linkmonstergen10minutes <- Auroch Bull */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206616'; /* linkmonstergen10minutes <- Auroch Cow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206615'; /* linkmonstergen10minutes <- Auroch Cow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206618'; /* linkmonstergen10minutes <- Auroch Yearling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206617'; /* linkmonstergen10minutes <- Auroch Yearling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206620'; /* linkmonstergen10minutes <- Auroch Yearling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924206619'; /* linkmonstergen10minutes <- Auroch Yearling */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206622'; /* linkmonstergen30minutes <- Aun Xathurea the Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206628'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206627'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206629'; /* linkmonstergen30minutes <- Ulna bint-Fasha the Ivory Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206631'; /* linkmonstergen30minutes <- Yukara Miko the Collector */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206635'; /* linkmonstergen30minutes <- Gate Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206636'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206637'; /* linkmonstergen30minutes <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206656'; /* linkmonstergen30minutes <- Small Creepy Statue */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1924206657'; /* linkmonstergen30minutes <- Finn Skigg */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206614'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206613'; /* linkmonstergen10minutes <- Auroch Bull */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206616'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206615'; /* linkmonstergen10minutes <- Auroch Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206618'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206617'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206620'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924206619'; /* linkmonstergen10minutes <- Auroch Yearling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206622'; /* linkmonstergen30minutes <- Aun Xathurea the Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206628'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206627'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206629'; /* linkmonstergen30minutes <- Ulna bint-Fasha the Ivory Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206631'; /* linkmonstergen30minutes <- Yukara Miko the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206635'; /* linkmonstergen30minutes <- Gate Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206636'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206637'; /* linkmonstergen30minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206656'; /* linkmonstergen30minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1924206657'; /* linkmonstergen30minutes <- Finn Skigg */
 

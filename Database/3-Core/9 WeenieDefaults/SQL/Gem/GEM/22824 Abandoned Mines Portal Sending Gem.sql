@@ -1,18 +1,15 @@
 /* Weenie - Abandoned Mines Portal Sending Gem (22824) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22824;
+DELETE FROM weenie WHERE class_Id = 22824;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22824, 'gemportalabandonedmines');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22824, 'gemportalabandonedmines', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22824, 0, 22824);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22824, 1, 'Abandoned Mines Portal Sending Gem') /* NAME_STRING */
      , (22824, 14, 'Double Click on this portal gem to transport yourself to the Abandoned Mines.') /* USE_STRING */
      , (22824, 15, 'A glowing red gem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22824, 1, 33556769) /* SETUP_DID */
      , (22824, 3, 536870932) /* SOUND_TABLE_DID */
      , (22824, 28, 2942) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (22824, 1, 33556769) /* SETUP_DID */
      , (22824, 7, 268435723) /* CLOTHINGBASE_DID */
      , (22824, 8, 100672368) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22824, 9, 0) /* LOCATIONS_INT */
      , (22824, 1, 2048) /* ITEM_TYPE_INT */
      , (22824, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -46,13 +43,12 @@ VALUES (22824, 9, 0) /* LOCATIONS_INT */
      , (22824, 108, 70) /* ITEM_MAX_MANA_INT */
      , (22824, 109, 40) /* ITEM_DIFFICULTY_INT */
      , (22824, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (22824, 114, 0) /* ATTUNED_INT */
-     , (22824, 9007, 38) /* Gem_WeenieType */;
+     , (22824, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22824, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22824, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (22824, 15, True) /* LIGHTS_STATUS_BOOL */;
 

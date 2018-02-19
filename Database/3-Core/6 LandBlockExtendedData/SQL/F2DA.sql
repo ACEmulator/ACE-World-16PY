@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2133696515, 4074373396, 104.392, 37.645, 0, -0.707107, 0, 0, 0.707107) /* Door */
      , (412, 2133696516, 4074373397, 114.583, 34.1594, 0, -4.37114E-08, 0, 0, -1) /* Door */
      , (412, 2133696517, 4074373398, 98.6748, 45.6678, 0, 0.939692, 0, 0, 0.342021) /* Door */

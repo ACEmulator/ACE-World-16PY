@@ -1,17 +1,14 @@
 /* Weenie - Special Gromnie Token (23903) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23903;
+DELETE FROM weenie WHERE class_Id = 23903;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23903, 'gromnietokennew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23903, 'gromnietokennew', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23903, 0, 23903);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23903, 16, 'A token with a Gromnie head on it.  This was given to you in recognition of your patience. ') /* LONG_DESC_STRING */
      , (23903, 1, 'Special Gromnie Token') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23903, 1, 33557280) /* SETUP_DID */
      , (23903, 3, 536870932) /* SOUND_TABLE_DID */
      , (23903, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23903, 1, 33557280) /* SETUP_DID */
      , (23903, 7, 268435723) /* CLOTHINGBASE_DID */
      , (23903, 8, 100674076) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23903, 9, 0) /* LOCATIONS_INT */
      , (23903, 1, 2048) /* ITEM_TYPE_INT */
      , (23903, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,10 +33,9 @@ VALUES (23903, 9, 0) /* LOCATIONS_INT */
      , (23903, 151, 2) /* HOOK_TYPE_INT */
      , (23903, 93, 1044) /* PHYSICS_STATE_INT */
      , (23903, 33, 1) /* BONDED_INT */
-     , (23903, 114, 1) /* ATTUNED_INT */
-     , (23903, 9007, 38) /* Gem_WeenieType */;
+     , (23903, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23903, 99, True) /* IVORYABLE_BOOL */
      , (23903, 22, True) /* INSCRIBABLE_BOOL */;
 

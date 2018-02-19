@@ -1,16 +1,13 @@
 /* Weenie - Hollow Minion Invader (13220) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 13220;
+DELETE FROM weenie WHERE class_Id = 13220;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (13220, 'hollowminionnewbieacademy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (13220, 'hollowminionnewbieacademy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13220, 0, 13220);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13220, 1, 'Hollow Minion Invader') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13220, 1, 33556792) /* SETUP_DID */
      , (13220, 2, 150995146) /* MOTION_TABLE_DID */
      , (13220, 3, 536871013) /* SOUND_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (13220, 1, 33556792) /* SETUP_DID */
      , (13220, 8, 100671140) /* ICON_DID */
      , (13220, 22, 872415367) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13220, 1, 16) /* ITEM_TYPE_INT */
      , (13220, 2, 48) /* CREATURE_TYPE_INT */
      , (13220, 67, 64) /* TOLERANCE_INT */
@@ -32,10 +29,9 @@ VALUES (13220, 1, 16) /* ITEM_TYPE_INT */
      , (13220, 146, 16) /* XP_OVERRIDE_INT */
      , (13220, 25, 2) /* LEVEL_INT */
      , (13220, 27, 0) /* ARMOR_TYPE_INT */
-     , (13220, 93, 1032) /* PHYSICS_STATE_INT */
-     , (13220, 9007, 10) /* Creature_WeenieType */;
+     , (13220, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13220, 64, 1) /* RESIST_SLASH_FLOAT */
      , (13220, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (13220, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -66,7 +62,7 @@ VALUES (13220, 64, 1) /* RESIST_SLASH_FLOAT */
      , (13220, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (13220, 31, 2) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13220, 1, True) /* STUCK_BOOL */
      , (13220, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (13220, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -74,20 +70,20 @@ VALUES (13220, 1, True) /* STUCK_BOOL */
      , (13220, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13220, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (13220, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (13220, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (13220, 4, 30) /* COORDINATION_ATTRIBUTE */
-     , (13220, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (13220, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (13220, 32, 30) /* SELF_ATTRIBUTE */;
+     , (13220, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (13220, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (13220, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (13220, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (13220, 128, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (13220, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (13220, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (13220, 3, 15) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (13220, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13220, 9, 13225, 0, 0, 1, False) /* Create A Crumpled Note for ContainTreasure_DestinationType */
      , (13220, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

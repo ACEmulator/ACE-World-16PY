@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (171, 2119442442, 3846308102, 116.412, 4.54109, 56.805, -0.374823, 0, 0, 0.927096) /* Vat */
      , (720, 2119442433, 3846308104, 106.393, 15.1781, 60.5, 0, 0, 0, -1) /* Sliding Door */
      , (25828, 2119442465, 3846308104, 111.256, 17.1963, 60.505, 0.00267277, 0, 0, 0.999996) /* Ikomi Ra, Jojii Adherent */
@@ -17,9 +17,9 @@ VALUES (171, 2119442442, 3846308102, 116.412, 4.54109, 56.805, -0.374823, 0, 0, 
      , (3955, 2119442444, 3846307840, 103.277, 21.2613, 58.005, -0.353608, 0, 0, 0.935394) /* linkmonstergen15minutes */
      , (4524, 2119442445, 3846307840, 93.031, 81.2447, 58.005, -0.581997, 0, 0, -0.813191) /* Nanto Outpost */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119442444'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119442444'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442443'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442448'; /* linkmonstergen15minutes <- Ji Ra Ping  */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119442465'; /* linkmonstergen15minutes <- Ikomi Ra, Jojii Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442443'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442448'; /* linkmonstergen15minutes <- Ji Ra Ping  */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119442465'; /* linkmonstergen15minutes <- Ikomi Ra, Jojii Adherent */
 

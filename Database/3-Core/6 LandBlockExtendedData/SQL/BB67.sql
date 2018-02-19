@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1616, 2075553792, 3144089600, 11.9509, 161.245, 6.005, 0.452024, 0, 0, 0.892006) /* Swamp Gromnie */
      , (1616, 2075553793, 3144089600, 6.25195, 153.386, 6.005, 0.968475, 0, 0, 0.249112) /* Swamp Gromnie */
      , (1616, 2075553794, 3144089600, 2.13365, 156.787, 6.48, 0.79715, 0, 0, -0.603781) /* Swamp Gromnie */
@@ -12,10 +12,10 @@ VALUES (1616, 2075553792, 3144089600, 11.9509, 161.245, 6.005, 0.452024, 0, 0, 0
      , (394, 2075553802, 3144089600, 37.1368, 82.15, 6.005, 0.720563, 0, 0, -0.69339) /* undead-generator */
      , (394, 2075553803, 3144089600, 40.0336, 76.9768, 6.005, 0.393663, 0, 0, -0.919255) /* undead-generator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075553796'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075553796'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553792'; /* linkmonstergen <- Swamp Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553793'; /* linkmonstergen <- Swamp Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553794'; /* linkmonstergen <- Swamp Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075553795'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075553792'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075553793'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075553794'; /* linkmonstergen <- Swamp Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075553795'; /* linkmonstergen <- Swamp Gromnie */
 

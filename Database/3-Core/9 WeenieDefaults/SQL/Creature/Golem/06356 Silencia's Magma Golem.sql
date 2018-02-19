@@ -1,16 +1,13 @@
 /* Weenie - Silencia's Magma Golem (6356) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6356;
+DELETE FROM weenie WHERE class_Id = 6356;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6356, 'craterlakemagma');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6356, 'craterlakemagma', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6356, 0, 6356);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6356, 1, 'Silencia''s Magma Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6356, 1, 33556427) /* SETUP_DID */
      , (6356, 2, 150995073) /* MOTION_TABLE_DID */
      , (6356, 3, 536870933) /* SOUND_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (6356, 1, 33556427) /* SETUP_DID */
      , (6356, 8, 100667940) /* ICON_DID */
      , (6356, 22, 872415325) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6356, 25, 49) /* LEVEL_INT */
      , (6356, 1, 16) /* ITEM_TYPE_INT */
      , (6356, 146, 2887) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (6356, 25, 49) /* LEVEL_INT */
      , (6356, 27, 0) /* ARMOR_TYPE_INT */
      , (6356, 93, 2098200) /* PHYSICS_STATE_INT */
      , (6356, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (6356, 40, 2) /* COMBAT_MODE_INT */
-     , (6356, 9007, 10) /* Creature_WeenieType */;
+     , (6356, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6356, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (6356, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (6356, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (6356, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (6356, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (6356, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6356, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (6356, 1, True) /* STUCK_BOOL */
      , (6356, 8, True) /* ALLOW_GIVE_BOOL */
@@ -74,16 +70,16 @@ VALUES (6356, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (6356, 13, False) /* ETHEREAL_BOOL */
      , (6356, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6356, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (6356, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (6356, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (6356, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (6356, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (6356, 32, 150) /* SELF_ATTRIBUTE */;
+     , (6356, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (6356, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (6356, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6356, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6356, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6356, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6356, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6356, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6356, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 

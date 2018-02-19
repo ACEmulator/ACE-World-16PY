@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5437, 2137374729, 4133224708, 186.509, 80.645, 20.005, 0.699619, 0, 0, 0.714516) /* Jeweler Lo Dai-Ou */
      , (720, 2137374720, 4133224713, 185.441, 87.9571, 20, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (720, 2137374721, 4133224714, 174.541, 80.0321, 20, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -22,8 +22,8 @@ VALUES (5437, 2137374729, 4133224708, 186.509, 80.645, 20.005, 0.699619, 0, 0, 0
      , (21476, 2137374736, 4133224448, 175.169, 41.1797, 20.005, -0.999933, 0, 0, -0.0115849) /* Haven Residential Halls */
      , (7923, 2137374735, 4133224448, 171.419, 66.7358, 20.005, 0.0553425, 0, 0, -0.998467) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137374739'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2137374739'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374738'; /* linkmonstergen3minutes <- Han Rin-Jo, Jojii Adherent */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137374745'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2137374738'; /* linkmonstergen3minutes <- Han Rin-Jo, Jojii Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2137374745'; /* linkmonstergen3minutes <- Apprentice Cook */
 

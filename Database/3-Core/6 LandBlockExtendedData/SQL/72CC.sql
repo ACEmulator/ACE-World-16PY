@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (196, 1999421440, 1925971968, 122.96, 68.0821, 381.687, 0.809515, 0, 0, -0.587099) /* Ice Golem */
      , (196, 1999421441, 1925971968, 127.508, 71.3983, 381.963, -0.0191735, 0, 0, -0.999816) /* Ice Golem */
      , (196, 1999421442, 1925971968, 132.384, 68.3273, 381.708, -0.713285, 0, 0, -0.700874) /* Ice Golem */
@@ -12,15 +12,15 @@ VALUES (196, 1999421440, 1925971968, 122.96, 68.0821, 381.687, 0.809515, 0, 0, -
      , (1104, 1999421450, 1925971968, 132.489, 31.7628, 374.511, 0.997852, 0, 0, 0.0655158) /* North Direlands Portal */
      , (1905, 1999421451, 1925971968, 136.157, 92.3803, 378.608, 0.14225, 0, 0, 0.989831) /* North Desert Edge */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1999421449'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1999421449'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421440'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421441'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421442'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421443'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421444'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421445'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421446'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421447'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999421448'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421440'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421441'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421442'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421443'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421444'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421445'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421446'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421447'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999421448'; /* linkmonstergen <- Ice Golem */
 

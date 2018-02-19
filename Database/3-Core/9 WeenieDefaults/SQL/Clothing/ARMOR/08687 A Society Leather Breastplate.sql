@@ -1,16 +1,13 @@
 /* Weenie - A Society Leather Breastplate (8687) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8687;
+DELETE FROM weenie WHERE class_Id = 8687;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8687, 'breastplateleathernewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8687, 'breastplateleathernewbiequest', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8687, 0, 8687);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8687, 1, 'A Society Leather Breastplate') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8687, 1, 33554642) /* SETUP_DID */
      , (8687, 3, 536870932) /* SOUND_TABLE_DID */
      , (8687, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (8687, 1, 33554642) /* SETUP_DID */
      , (8687, 7, 268435541) /* CLOTHINGBASE_DID */
      , (8687, 8, 100667350) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8687, 9, 512) /* LOCATIONS_INT */
      , (8687, 1, 2) /* ITEM_TYPE_INT */
      , (8687, 19, 1) /* VALUE_INT */
@@ -34,10 +31,9 @@ VALUES (8687, 9, 512) /* LOCATIONS_INT */
      , (8687, 106, 100) /* ITEM_SPELLCRAFT_INT */
      , (8687, 107, 400) /* ITEM_CUR_MANA_INT */
      , (8687, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (8687, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (8687, 9007, 2) /* Clothing_WeenieType */;
+     , (8687, 109, 15) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8687, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8687, 5, -0.025) /* MANA_RATE_FLOAT */
      , (8687, 12, 0.3) /* SHADE_FLOAT */
@@ -50,10 +46,10 @@ VALUES (8687, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8687, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (8687, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8687, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8687, 1482, 2) /* Impenetrability2_SpellID */
      , (8687, 1025, 2) /* BludgeonProtectionOther2_SpellID */;
 

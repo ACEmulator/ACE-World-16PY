@@ -1,17 +1,14 @@
 /* Weenie - Reward Backpack for Martine Live Ops (20183) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20183;
+DELETE FROM weenie WHERE class_Id = 20183;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20183, 'backpackmartinelo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20183, 'backpackmartinelo', /* Container_WeenieType */ 21);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20183, 0, 20183);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20183, 1, 'Reward Backpack for Martine Live Ops') /* NAME_STRING */
      , (20183, 15, 'Contains rewards for players that aid Martine.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20183, 1, 33554769) /* SETUP_DID */
      , (20183, 3, 536870932) /* SOUND_TABLE_DID */
      , (20183, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (20183, 1, 33554769) /* SETUP_DID */
      , (20183, 7, 268435867) /* CLOTHINGBASE_DID */
      , (20183, 8, 100670383) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20183, 9, 0) /* LOCATIONS_INT */
      , (20183, 1, 512) /* ITEM_TYPE_INT */
      , (20183, 19, 0) /* VALUE_INT */
@@ -32,17 +29,16 @@ VALUES (20183, 9, 0) /* LOCATIONS_INT */
      , (20183, 93, 1044) /* PHYSICS_STATE_INT */
      , (20183, 96, 200000) /* ENCUMB_CAPACITY_INT */
      , (20183, 33, 1) /* BONDED_INT */
-     , (20183, 114, 1) /* ATTUNED_INT */
-     , (20183, 9007, 21) /* Container_WeenieType */;
+     , (20183, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20183, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
      , (20183, 54, 0.5) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20183, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20183, 1, 9177, 1, 0, 1, False) /* Create Pack Scarecrow for Contain_DestinationType */
      , (20183, 1, 9171, 1, 0, 1, False) /* Create Pack Mosswart for Contain_DestinationType */
      , (20183, 1, 9172, 1, 0, 1, False) /* Create Pack Drudge for Contain_DestinationType */

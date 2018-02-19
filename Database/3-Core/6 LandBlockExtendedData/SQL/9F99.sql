@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1104, 2046398464, 2677604352, 161.945, 113.932, 94.9361, 0.410024, 0, 0, 0.912075) /* North Direlands Portal */
      , (1987, 2046398465, 2677604352, 155.581, 140.813, 91.5134, 0.947274, 0, 0, 0.320424) /* Ghost Wisp */
      , (198, 2046398466, 2677604352, 96.1482, 127.105, 74.9603, 0.708076, 0, 0, 0.706136) /* Limestone Golem */
@@ -7,11 +7,11 @@ VALUES (1104, 2046398464, 2677604352, 161.945, 113.932, 94.9361, 0.410024, 0, 0,
      , (177, 2046398469, 2677604352, 45.8647, 33.325, 51.7621, -0.269463, 0, 0, 0.963011) /* Spiny Armoredillo */
      , (3955, 2046398470, 2677604352, 96.011, 61.7143, 70.6308, -0.570613, 0, 0, 0.821219) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046398470'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2046398470'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398466'; /* linkmonstergen15minutes <- Limestone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398467'; /* linkmonstergen15minutes <- Spiny Armoredillo */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398468'; /* linkmonstergen15minutes <- Spiny Armoredillo */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398469'; /* linkmonstergen15minutes <- Spiny Armoredillo */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046398465'; /* linkmonstergen15minutes <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046398466'; /* linkmonstergen15minutes <- Limestone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046398467'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046398468'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046398469'; /* linkmonstergen15minutes <- Spiny Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046398465'; /* linkmonstergen15minutes <- Ghost Wisp */
 

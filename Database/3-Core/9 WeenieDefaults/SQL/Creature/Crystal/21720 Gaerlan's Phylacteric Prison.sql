@@ -1,17 +1,14 @@
 /* Weenie - Gaerlan's Phylacteric Prison (21720) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21720;
+DELETE FROM weenie WHERE class_Id = 21720;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21720, 'chestgaerlanprison');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21720, 'chestgaerlanprison', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21720, 0, 21720);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21720, 1, 'Gaerlan''s Phylacteric Prison') /* NAME_STRING */
      , (21720, 15, 'A crystal prison containing Gaerlan''s life essence.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21720, 1, 33557978) /* SETUP_DID */
      , (21720, 2, 150995223) /* MOTION_TABLE_DID */
      , (21720, 3, 536871001) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (21720, 1, 33557978) /* SETUP_DID */
      , (21720, 8, 100673073) /* ICON_DID */
      , (21720, 22, 872415348) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21720, 1, 16) /* ITEM_TYPE_INT */
      , (21720, 146, 5228) /* XP_OVERRIDE_INT */
      , (21720, 2, 47) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (21720, 1, 16) /* ITEM_TYPE_INT */
      , (21720, 25, 710) /* LEVEL_INT */
      , (21720, 27, 0) /* ARMOR_TYPE_INT */
      , (21720, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (21720, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (21720, 9007, 10) /* Creature_WeenieType */;
+     , (21720, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21720, 64, 1) /* RESIST_SLASH_FLOAT */
      , (21720, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (21720, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -64,7 +60,7 @@ VALUES (21720, 64, 1) /* RESIST_SLASH_FLOAT */
      , (21720, 54, 3) /* USE_RADIUS_FLOAT */
      , (21720, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21720, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (21720, 1, True) /* STUCK_BOOL */
      , (21720, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -75,16 +71,16 @@ VALUES (21720, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (21720, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (21720, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (21720, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (21720, 2, 1) /* ENDURANCE_ATTRIBUTE */
      , (21720, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (21720, 8, 1) /* QUICKNESS_ATTRIBUTE */
-     , (21720, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (21720, 32, 1) /* SELF_ATTRIBUTE */;
+     , (21720, 3, 1) /* QUICKNESS_ATTRIBUTE */
+     , (21720, 5, 1) /* FOCUS_ATTRIBUTE */
+     , (21720, 6, 1) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (21720, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (21720, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (21720, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (21720, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (21720, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (21720, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

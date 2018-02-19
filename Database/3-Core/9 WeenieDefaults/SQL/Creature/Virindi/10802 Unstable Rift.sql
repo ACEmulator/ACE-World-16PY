@@ -1,16 +1,13 @@
 /* Weenie - Unstable Rift (10802) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10802;
+DELETE FROM weenie WHERE class_Id = 10802;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10802, 'riftunstable');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10802, 'riftunstable', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10802, 0, 10802);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10802, 1, 'Unstable Rift') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10802, 1, 33557098) /* SETUP_DID */
      , (10802, 2, 150995087) /* MOTION_TABLE_DID */
      , (10802, 3, 536871001) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (10802, 1, 33557098) /* SETUP_DID */
      , (10802, 8, 100671702) /* ICON_DID */
      , (10802, 22, 872415375) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10802, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (10802, 1, 16) /* ITEM_TYPE_INT */
      , (10802, 2, 19) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (10802, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (10802, 27, 0) /* ARMOR_TYPE_INT */
      , (10802, 93, 3080) /* PHYSICS_STATE_INT */
      , (10802, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (10802, 40, 2) /* COMBAT_MODE_INT */
-     , (10802, 9007, 10) /* Creature_WeenieType */;
+     , (10802, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10802, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10802, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (10802, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (10802, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10802, 125, 0.25) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10802, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10802, 1, True) /* STUCK_BOOL */
      , (10802, 6, True) /* AI_USES_MANA_BOOL */
      , (10802, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (10802, 1, True) /* STUCK_BOOL */
      , (10802, 15, True) /* LIGHTS_STATUS_BOOL */
      , (10802, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10802, 519, 2.115) /* AcidProtectionSelf5_SpellID */
      , (10802, 1093, 2.115) /* FireProtectionSelf5_SpellID */
      , (10802, 79, 2.115) /* LightningBolt5_SpellID */
@@ -92,20 +88,20 @@ VALUES (10802, 519, 2.115) /* AcidProtectionSelf5_SpellID */
      , (10802, 1113, 2.115) /* BladeProtectionSelf5_SpellID */
      , (10802, 1022, 2.115) /* BludgeonProtectionSelf5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10802, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (10802, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (10802, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (10802, 8, 160) /* QUICKNESS_ATTRIBUTE */
-     , (10802, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (10802, 32, 220) /* SELF_ATTRIBUTE */;
+     , (10802, 3, 160) /* QUICKNESS_ATTRIBUTE */
+     , (10802, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (10802, 6, 220) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10802, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10802, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10802, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10802, 1, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10802, 3, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10802, 5, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10802, 0.5, 10808, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)/* Generate Augmented Tumerok (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (10802, 0.75, 10775, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)/* Generate Augmented Drudge (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (10802, 0.85, 10778, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)/* Generate Unconquered Drudge (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

@@ -1,17 +1,14 @@
 /* Weenie - Huge Snowball (25801) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25801;
+DELETE FROM weenie WHERE class_Id = 25801;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25801, 'snowballlarge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25801, 'snowballlarge', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25801, 0, 25801);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25801, 16, 'You could really surprise someone with this.') /* LONG_DESC_STRING */
      , (25801, 1, 'Huge Snowball') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25801, 1, 33556225) /* SETUP_DID */
      , (25801, 3, 536870932) /* SOUND_TABLE_DID */
      , (25801, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (25801, 1, 33556225) /* SETUP_DID */
      , (25801, 7, 268435857) /* CLOTHINGBASE_DID */
      , (25801, 8, 100670281) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25801, 9, 4194304) /* LOCATIONS_INT */
      , (25801, 1, 256) /* ITEM_TYPE_INT */
      , (25801, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (25801, 9, 4194304) /* LOCATIONS_INT */
      , (25801, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (25801, 48, 12) /* WEAPON_SKILL_INT */
      , (25801, 49, 20) /* WEAPON_TIME_INT */
-     , (25801, 51, 2) /* COMBAT_USE_INT */
-     , (25801, 9007, 4) /* Missile_WeenieType */;
+     , (25801, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25801, 79, 0) /* ELASTICITY_FLOAT */
      , (25801, 39, 2.4) /* DEFAULT_SCALE_FLOAT */
      , (25801, 62, 1) /* WEAPON_OFFENSE_FLOAT */
@@ -54,7 +50,7 @@ VALUES (25801, 79, 0) /* ELASTICITY_FLOAT */
      , (25801, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
      , (25801, 27, 1) /* ROTATION_SPEED_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25801, 17, True) /* INELASTIC_BOOL */
      , (25801, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

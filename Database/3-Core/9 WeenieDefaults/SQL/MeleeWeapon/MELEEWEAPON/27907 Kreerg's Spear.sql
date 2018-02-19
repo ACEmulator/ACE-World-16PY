@@ -1,24 +1,21 @@
 /* Weenie - Kreerg's Spear (27907) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27907;
+DELETE FROM weenie WHERE class_Id = 27907;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27907, 'spearkreerg');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27907, 'spearkreerg', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27907, 0, 27907);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27907, 16, 'A spear modeled after the Mosswart hero Kreerg''s. A small stamp on the shaft reads: A Ketnan Product.') /* LONG_DESC_STRING */
      , (27907, 1, 'Kreerg''s Spear') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27907, 1, 33558800) /* SETUP_DID */
      , (27907, 3, 536870932) /* SOUND_TABLE_DID */
      , (27907, 37, 9) /* ITEM_SKILL_LIMIT_DID */
      , (27907, 8, 100676619) /* ICON_DID */
      , (27907, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27907, 9, 1048576) /* LOCATIONS_INT */
      , (27907, 1, 1) /* ITEM_TYPE_INT */
      , (27907, 5, 225) /* ENCUMB_VAL_INT */
@@ -40,22 +37,21 @@ VALUES (27907, 9, 1048576) /* LOCATIONS_INT */
      , (27907, 48, 9) /* WEAPON_SKILL_INT */
      , (27907, 49, 25) /* WEAPON_TIME_INT */
      , (27907, 51, 1) /* COMBAT_USE_INT */
-     , (27907, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (27907, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27907, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27907, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
      , (27907, 21, 1.3) /* WEAPON_LENGTH_FLOAT */
      , (27907, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (27907, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */
      , (27907, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27907, 69, True) /* IS_SELLABLE_BOOL */
      , (27907, 22, True) /* INSCRIBABLE_BOOL */
      , (27907, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27907, 1612, 2) /* BloodDrinker2_SpellID */
      , (27907, 365, 2) /* SpearMasteryOther2_SpellID */;
 

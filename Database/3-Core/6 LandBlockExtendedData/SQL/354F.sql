@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15274, 1934946304, 894369792, 83.7038, 185.572, 159.58, -0.674657, 0, 0, 0.738132) /* linkmonstergen1minute */
      , (20634, 1934946305, 894369792, 90.1534, 176.738, 159.584, -0.972315, 0, 0, -0.233674) /* Warrior of the Blood */
      , (20632, 1934946306, 894369792, 78.1834, 173.503, 159.58, -0.818432, 0, 0, -0.574604) /* Champion of the Blood */

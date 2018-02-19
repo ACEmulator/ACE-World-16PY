@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 0.833886) /* Buray ibn Tamsa the Blacksmith */
      , (1039, 2010529807, 2103705856, 86.1409, 115.885, 12.005, -0.658594, 0, 0, -0.752498) /* Ladim al-Faji the Bowyer */
      , (145, 2010529792, 2103705869, 78.125, 113.075, 12, 0.707107, 0, 0, -0.707107) /* Coffer */
@@ -68,20 +68,20 @@ VALUES (1038, 2010529806, 2103705856, 87.8479, 111.782, 12.005, 0.551937, 0, 0, 
      , (19457, 2010529840, 2103705600, 60.4462, 83.5872, 18.9739, 0.71897, 0, 0, -0.695041) /* fireworksgen */
      , (19196, 2010529843, 2103705600, 59.9142, 83.5841, 18.839, 0.699647, 0, 0, -0.714488) /* Nullified Statue of a Drudge */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010529818'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2010529830'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2010529885'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2010529818'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2010529830'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2010529885'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529817'; /* linkmonstergen <- Akyafi ibn Sumwar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529826'; /* linkmonstergen <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529853'; /* linkmonstergen <- Small Creepy Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529859'; /* linkmonstergen <- Apprentice Alchemist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529869'; /* linkmonstergen <- Mara al-Luq */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010529870'; /* linkmonstergen <- Ma'yad ibn Ibsar */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529875'; /* linkmonstergen3minutes <- Lockpick Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529871'; /* linkmonstergen3minutes <- Salvaging Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529872'; /* linkmonstergen3minutes <- Alchemy Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529873'; /* linkmonstergen3minutes <- Cooking Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2010529874'; /* linkmonstergen3minutes <- Fletching Forge */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2010529884'; /* linkmonstergen30minutes <- Antius Blackmoor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529817'; /* linkmonstergen <- Akyafi ibn Sumwar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529826'; /* linkmonstergen <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529853'; /* linkmonstergen <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529859'; /* linkmonstergen <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529869'; /* linkmonstergen <- Mara al-Luq */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010529870'; /* linkmonstergen <- Ma'yad ibn Ibsar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529875'; /* linkmonstergen3minutes <- Lockpick Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529871'; /* linkmonstergen3minutes <- Salvaging Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529872'; /* linkmonstergen3minutes <- Alchemy Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529873'; /* linkmonstergen3minutes <- Cooking Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2010529874'; /* linkmonstergen3minutes <- Fletching Forge */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2010529884'; /* linkmonstergen30minutes <- Antius Blackmoor */
 

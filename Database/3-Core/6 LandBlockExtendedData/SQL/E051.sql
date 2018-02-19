@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4722, 2114260992, 3763405057, 88.8511, 127.11, 10.0065, -0.36494, 0, 0, 0.931031) /* Fish Filet */
      , (1930, 2114261008, 3763405057, 89.2954, 129.787, 10.005, 0.918166, 0, 0, -0.396197) /* Chest */
      , (4179, 2114260993, 3763405057, 87.8007, 126.784, 10.005, 0.417105, 0, 0, -0.908858) /* Bonfire */
@@ -16,18 +16,18 @@ VALUES (4722, 2114260992, 3763405057, 88.8511, 127.11, 10.0065, -0.36494, 0, 0, 
      , (3954, 2114261001, 3763404800, 74.1668, 133.594, 8.005, 0.634052, 0, 0, 0.77329) /* linkitemgen15minutes */
      , (263, 2114261002, 3763404800, 28.3701, 125.595, 5.96963, -0.985056, 0, 0, -0.172235) /* Fish */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2114261001'; /* linkitemgen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2114261005'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2114261001'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2114261005'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2114260992'; /* linkitemgen15minutes <- Fish Filet */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2114261002'; /* linkitemgen15minutes <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2114261003'; /* linkitemgen15minutes <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2114261004'; /* linkitemgen15minutes <- Fish */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260994'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260995'; /* linkmonstergen3minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260996'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260997'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260998'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114260999'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2114261006'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2114260992'; /* linkitemgen15minutes <- Fish Filet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2114261002'; /* linkitemgen15minutes <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2114261003'; /* linkitemgen15minutes <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2114261004'; /* linkitemgen15minutes <- Fish */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260994'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260995'; /* linkmonstergen3minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260996'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260997'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260998'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114260999'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2114261006'; /* linkmonstergen3minutes <- Drudge Skulker */
 

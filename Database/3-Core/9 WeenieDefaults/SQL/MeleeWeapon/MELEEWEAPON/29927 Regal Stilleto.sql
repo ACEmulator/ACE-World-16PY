@@ -1,22 +1,19 @@
 /* Weenie - Regal Stilleto (29927) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29927;
+DELETE FROM weenie WHERE class_Id = 29927;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29927, 'dirkregal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29927, 'dirkregal', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29927, 0, 29927);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29927, 1, 'Regal Stilleto') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29927, 1, 33559049) /* SETUP_DID */
      , (29927, 3, 536870932) /* SOUND_TABLE_DID */
      , (29927, 8, 100676978) /* ICON_DID */
      , (29927, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29927, 9, 1048576) /* LOCATIONS_INT */
      , (29927, 1, 1) /* ITEM_TYPE_INT */
      , (29927, 93, 1044) /* PHYSICS_STATE_INT */
@@ -40,10 +37,9 @@ VALUES (29927, 9, 1048576) /* LOCATIONS_INT */
      , (29927, 47, 166) /* ATTACK_TYPE_INT */
      , (29927, 48, 4) /* WEAPON_SKILL_INT */
      , (29927, 49, 10) /* WEAPON_TIME_INT */
-     , (29927, 51, 1) /* COMBAT_USE_INT */
-     , (29927, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (29927, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29927, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (29927, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (29927, 5, -0.0333) /* MANA_RATE_FLOAT */
@@ -53,10 +49,10 @@ VALUES (29927, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (29927, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (29927, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29927, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29927, 1604, 2) /* Defender5_SpellID */
      , (29927, 1359, 2) /* EnduranceOther5_SpellID */
      , (29927, 1616, 2) /* BloodDrinker6_SpellID */

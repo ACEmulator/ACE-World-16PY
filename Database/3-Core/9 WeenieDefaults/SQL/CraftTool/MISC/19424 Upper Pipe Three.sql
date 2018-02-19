@@ -1,25 +1,22 @@
 /* Weenie - Upper Pipe Three (19424) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19424;
+DELETE FROM weenie WHERE class_Id = 19424;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19424, 'upperpipe3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19424, 'upperpipe3', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19424, 0, 19424);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19424, 16, 'An Upper Pipe for the Horn of Vigilance.  Mount this atop the Horn Base.') /* LONG_DESC_STRING */
      , (19424, 1, 'Upper Pipe Three') /* NAME_STRING */
      , (19424, 14, 'xxxxxxxxxxxxxxxxx') /* USE_STRING */
      , (19424, 15, 'An Upper Pipe for the Horn of Vigilance.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19424, 1, 33557836) /* SETUP_DID */
      , (19424, 3, 536870932) /* SOUND_TABLE_DID */
      , (19424, 8, 100673053) /* ICON_DID */
      , (19424, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19424, 9, 0) /* LOCATIONS_INT */
      , (19424, 1, 128) /* ITEM_TYPE_INT */
      , (19424, 13, 40) /* STACK_UNIT_ENCUMB_INT */
@@ -34,10 +31,9 @@ VALUES (19424, 9, 0) /* LOCATIONS_INT */
      , (19424, 93, 1044) /* PHYSICS_STATE_INT */
      , (19424, 94, 128) /* TARGET_TYPE_INT */
      , (19424, 33, 1) /* BONDED_INT */
-     , (19424, 114, 1) /* ATTUNED_INT */
-     , (19424, 9007, 44) /* CraftTool_WeenieType */;
+     , (19424, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19424, 69, False) /* IS_SELLABLE_BOOL */
      , (19424, 22, True) /* INSCRIBABLE_BOOL */
      , (19424, 23, True) /* DESTROY_ON_SELL_BOOL */;

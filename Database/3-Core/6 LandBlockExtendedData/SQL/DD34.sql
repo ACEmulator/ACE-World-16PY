@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6409, 2110996480, 3711172864, 153.964, 102.008, 134.879, -0.999868, 0, 0, -0.0162596) /* Hastily Scrawled Note */
      , (5085, 2110996492, 3711172864, 159.131, 103.483, 134.805, 1, 0, 0, 0) /* linkitemgen25seconds */
      , (7932, 2110996491, 3711172864, 160.082, 103.593, 134.805, 1, 0, 0, 0) /* linkmonstergen4minutes */
@@ -13,18 +13,18 @@ VALUES (6409, 2110996480, 3711172864, 153.964, 102.008, 134.879, -0.999868, 0, 0
      , (7128, 2110996490, 3711172608, 151.015, 80.5601, 140.015, -0.127469, 0, 0, -0.991843) /* Sufut Zefir */
      , (7128, 2110996489, 3711172608, 160.017, 79.8489, 140.015, -0.255772, 0, 0, -0.966737) /* Sufut Zefir */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2110996492'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2110996491'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2110996492'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2110996491'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996481'; /* linkitemgen25seconds <- Textbook */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996480'; /* linkitemgen25seconds <- Hastily Scrawled Note */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110996482'; /* linkitemgen25seconds <- Minor Sparking Stone */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996483'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996484'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996485'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996486'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996487'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996488'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996489'; /* linkmonstergen4minutes <- Sufut Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2110996490'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110996481'; /* linkitemgen25seconds <- Textbook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110996480'; /* linkitemgen25seconds <- Hastily Scrawled Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110996482'; /* linkitemgen25seconds <- Minor Sparking Stone */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996483'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996484'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996485'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996486'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996487'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996488'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996489'; /* linkmonstergen4minutes <- Sufut Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2110996490'; /* linkmonstergen4minutes <- Sufut Zefir */
 

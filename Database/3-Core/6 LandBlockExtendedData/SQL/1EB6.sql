@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10933, 1911250944, 515244032, 37.7924, 138.831, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
      , (10933, 1911250945, 515244032, 37.8525, 124.9, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */
      , (10933, 1911250946, 515244032, 37.9325, 131.65, 127.753, 0.999805, 0, 0, -0.019754) /* Palisade Wall Hotspot */

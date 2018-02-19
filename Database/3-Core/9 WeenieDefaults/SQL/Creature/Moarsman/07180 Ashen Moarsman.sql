@@ -1,16 +1,13 @@
 /* Weenie - Ashen Moarsman (7180) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7180;
+DELETE FROM weenie WHERE class_Id = 7180;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7180, 'moarsmanashen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7180, 'moarsmanashen', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7180, 0, 7180);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7180, 1, 'Ashen Moarsman') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7180, 1, 33556882) /* SETUP_DID */
      , (7180, 2, 150995104) /* MOTION_TABLE_DID */
      , (7180, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (7180, 1, 33556882) /* SETUP_DID */
      , (7180, 8, 100671185) /* ICON_DID */
      , (7180, 22, 872415337) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7180, 1, 16) /* ITEM_TYPE_INT */
      , (7180, 146, 2753) /* XP_OVERRIDE_INT */
      , (7180, 2, 34) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (7180, 1, 16) /* ITEM_TYPE_INT */
      , (7180, 27, 0) /* ARMOR_TYPE_INT */
      , (7180, 93, 1032) /* PHYSICS_STATE_INT */
      , (7180, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (7180, 40, 2) /* COMBAT_MODE_INT */
-     , (7180, 9007, 10) /* Creature_WeenieType */;
+     , (7180, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7180, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7180, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (7180, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (7180, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7180, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7180, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7180, 1, True) /* STUCK_BOOL */
      , (7180, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (7180, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7180, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7180, 1, 125) /* STRENGTH_ATTRIBUTE */
      , (7180, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (7180, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (7180, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (7180, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (7180, 32, 80) /* SELF_ATTRIBUTE */;
+     , (7180, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (7180, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (7180, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7180, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7180, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7180, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7180, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7180, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7180, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7180, 9, 25561, 0, 0, 0.05, False) /* Create Moarsman Head for ContainTreasure_DestinationType */
      , (7180, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

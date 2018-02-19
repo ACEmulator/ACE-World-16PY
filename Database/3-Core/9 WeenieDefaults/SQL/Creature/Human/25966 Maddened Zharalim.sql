@@ -1,18 +1,15 @@
 /* Weenie - Maddened Zharalim (25966) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25966;
+DELETE FROM weenie WHERE class_Id = 25966;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25966, 'zharalimmaddenedfemale');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25966, 'zharalimmaddenedfemale', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25966, 0, 25966);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25966, 1, 'Maddened Zharalim') /* NAME_STRING */
      , (25966, 3, 'Female') /* SEX_STRING */
      , (25966, 4, 'Gharu''ndim') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25966, 8, 100667446) /* ICON_DID */
      , (25966, 32, 419) /* WIELDED_TREASURE_TYPE_DID */
      , (25966, 1, 33554510) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (25966, 8, 100667446) /* ICON_DID */
      , (25966, 4, 805306368) /* COMBAT_TABLE_DID */
      , (25966, 22, 872415236) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25966, 1, 16) /* ITEM_TYPE_INT */
      , (25966, 146, 18022) /* XP_OVERRIDE_INT */
      , (25966, 2, 31) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (25966, 1, 16) /* ITEM_TYPE_INT */
      , (25966, 25, 79) /* LEVEL_INT */
      , (25966, 27, 0) /* ARMOR_TYPE_INT */
      , (25966, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25966, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (25966, 9007, 10) /* Creature_WeenieType */;
+     , (25966, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25966, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25966, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25966, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,14 +66,14 @@ VALUES (25966, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25966, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25966, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25966, 1, True) /* STUCK_BOOL */
      , (25966, 6, True) /* AI_USES_MANA_BOOL */
      , (25966, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25966, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25966, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25966, 1239, 2.05) /* DrainHealth3_SpellID */
      , (25966, 1280, 2.05) /* HealthtoManaSelf3_SpellID */
      , (25966, 1666, 2.05) /* StaminatoHealthSelf3_SpellID */
@@ -87,20 +83,20 @@ VALUES (25966, 1239, 2.05) /* DrainHealth3_SpellID */
      , (25966, 1678, 2.05) /* StaminatoManaSelf3_SpellID */
      , (25966, 1262, 2.05) /* DrainMana3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25966, 1, 210) /* STRENGTH_ATTRIBUTE */
      , (25966, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (25966, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (25966, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (25966, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (25966, 32, 80) /* SELF_ATTRIBUTE */;
+     , (25966, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (25966, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (25966, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25966, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25966, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25966, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25966, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25966, 3, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25966, 5, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25966, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_DestinationType */
      , (25966, 2, 12193, 0, 14, 0, False) /* Create Dho Vest and Robe for Wield_DestinationType */
      , (25966, 10, 12188, 0, 0, 0.1, False) /* Create Assassin's Jambiya for WieldTreasure_DestinationType */

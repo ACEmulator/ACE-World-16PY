@@ -1,24 +1,21 @@
 /* Weenie - Staff of Coercion (25590) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25590;
+DELETE FROM weenie WHERE class_Id = 25590;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25590, 'quarterstaffkendmar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25590, 'quarterstaffkendmar', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25590, 0, 25590);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25590, 16, 'A staff made of exceptionally strong, yet pliant, wood. It vibrates with some inner force.') /* LONG_DESC_STRING */
      , (25590, 1, 'Staff of Coercion') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25590, 1, 33558501) /* SETUP_DID */
      , (25590, 3, 536870932) /* SOUND_TABLE_DID */
      , (25590, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (25590, 6, 67111919) /* PALETTE_BASE_DID */
      , (25590, 8, 100675047) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25590, 9, 1048576) /* LOCATIONS_INT */
      , (25590, 1, 1) /* ITEM_TYPE_INT */
      , (25590, 5, 600) /* ENCUMB_VAL_INT */
@@ -41,21 +38,20 @@ VALUES (25590, 9, 1048576) /* LOCATIONS_INT */
      , (25590, 47, 6) /* ATTACK_TYPE_INT */
      , (25590, 48, 10) /* WEAPON_SKILL_INT */
      , (25590, 49, 40) /* WEAPON_TIME_INT */
-     , (25590, 51, 1) /* COMBAT_USE_INT */
-     , (25590, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25590, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25590, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (25590, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (25590, 5, -0.033) /* MANA_RATE_FLOAT */
      , (25590, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */
      , (25590, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25590, 22, True) /* INSCRIBABLE_BOOL */
      , (25590, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25590, 2565, 2) /* CANTRIPSTAFFAPTITUDE1_SpellID */
      , (25590, 1616, 2) /* BloodDrinker6_SpellID */
      , (25590, 1627, 2) /* SwiftKiller6_SpellID */

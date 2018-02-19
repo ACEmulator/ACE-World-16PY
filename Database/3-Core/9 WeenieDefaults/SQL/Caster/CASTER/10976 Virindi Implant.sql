@@ -1,17 +1,14 @@
 /* Weenie - Virindi Implant (10976) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10976;
+DELETE FROM weenie WHERE class_Id = 10976;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10976, 'virindiimplant1-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10976, 'virindiimplant1-xp', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10976, 0, 10976);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10976, 16, 'A purplish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Utelari.') /* LONG_DESC_STRING */
      , (10976, 1, 'Virindi Implant') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10976, 1, 33557223) /* SETUP_DID */
      , (10976, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (10976, 3, 536870932) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (10976, 1, 33557223) /* SETUP_DID */
      , (10976, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (10976, 28, 2421) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10976, 9, 16777216) /* LOCATIONS_INT */
      , (10976, 1, 32768) /* ITEM_TYPE_INT */
      , (10976, 5, 50) /* ENCUMB_VAL_INT */
@@ -37,18 +34,17 @@ VALUES (10976, 9, 16777216) /* LOCATIONS_INT */
      , (10976, 108, 600) /* ITEM_MAX_MANA_INT */
      , (10976, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (10976, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (10976, 117, 300) /* ITEM_MANA_COST_INT */
-     , (10976, 9007, 35) /* Caster_WeenieType */;
+     , (10976, 117, 300) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10976, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (10976, 5, -0.05) /* MANA_RATE_FLOAT */
      , (10976, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10976, 22, True) /* INSCRIBABLE_BOOL */
      , (10976, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10976, 2475, 2) /* Torrent_SpellID */;
 

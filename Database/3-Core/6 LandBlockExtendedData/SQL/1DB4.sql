@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5408, 1910194176, 498335744, 3.992, 20, 0, 0.999958, 0, 0, -0.00919763) /* Waterfall */
      , (5408, 1910194177, 498335744, 11.5892, 20.0831, 0, 0.999958, 0, 0, -0.00919763) /* Waterfall */
      , (5408, 1910194178, 498335744, 19.1329, 19.9902, 0, 0.999958, 0, 0, -0.00919763) /* Waterfall */

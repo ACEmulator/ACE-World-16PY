@@ -1,16 +1,13 @@
 /* Weenie - Sishalti Eye Stalk (24867) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24867;
+DELETE FROM weenie WHERE class_Id = 24867;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24867, 'sishaltieyestalk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24867, 'sishaltieyestalk', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24867, 0, 24867);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24867, 1, 'Sishalti Eye Stalk') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24867, 1, 33555670) /* SETUP_DID */
      , (24867, 2, 150995067) /* MOTION_TABLE_DID */
      , (24867, 35, 464) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (24867, 1, 33555670) /* SETUP_DID */
      , (24867, 8, 100671186) /* ICON_DID */
      , (24867, 22, 872415332) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24867, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (24867, 1, 16) /* ITEM_TYPE_INT */
      , (24867, 82, 6) /* INIT_GENERATED_OBJECTS_INT */
@@ -34,10 +31,9 @@ VALUES (24867, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (24867, 27, 0) /* ARMOR_TYPE_INT */
      , (24867, 93, 1032) /* PHYSICS_STATE_INT */
      , (24867, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (24867, 40, 2) /* COMBAT_MODE_INT */
-     , (24867, 9007, 10) /* Creature_WeenieType */;
+     , (24867, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24867, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (24867, 65, 0.55) /* RESIST_PIERCE_FLOAT */
      , (24867, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (24867, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (24867, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24867, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24867, 1, True) /* STUCK_BOOL */
      , (24867, 6, True) /* AI_USES_MANA_BOOL */
      , (24867, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (24867, 1, True) /* STUCK_BOOL */
      , (24867, 13, False) /* ETHEREAL_BOOL */
      , (24867, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24867, 1265, 2.03) /* DrainMana6_SpellID */
      , (24867, 2763, 2.05) /* HealthBolt4_SpellID */
      , (24867, 1161, 2.015) /* HealSelf6_SpellID */
@@ -91,25 +87,25 @@ VALUES (24867, 1265, 2.03) /* DrainMana6_SpellID */
      , (24867, 1312, 2.03) /* ArmorSelf6_SpellID */
      , (24867, 176, 2.03) /* FesterOther6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24867, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (24867, 2, 260) /* ENDURANCE_ATTRIBUTE */
      , (24867, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (24867, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (24867, 16, 260) /* FOCUS_ATTRIBUTE */
-     , (24867, 32, 300) /* SELF_ATTRIBUTE */;
+     , (24867, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (24867, 5, 260) /* FOCUS_ATTRIBUTE */
+     , (24867, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24867, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24867, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24867, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24867, 1, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24867, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24867, 5, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24867, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
      , (24867, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (24867, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sishalti Tentacle (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sishalti Tendril (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

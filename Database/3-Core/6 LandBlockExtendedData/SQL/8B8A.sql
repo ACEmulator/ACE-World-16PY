@@ -1,8 +1,8 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (180, 2025365504, 2341076992, 74.6293, 88.8608, 42.0105, -0.532692, 0, 0, -0.846309) /* Sandy Armoredillo */
      , (3955, 2025365505, 2341076992, 71.8068, 89.2755, 42.0439, 0.880698, 0, 0, -0.473678) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2025365505'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2025365505'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2025365504'; /* linkmonstergen15minutes <- Sandy Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2025365504'; /* linkmonstergen15minutes <- Sandy Armoredillo */
 

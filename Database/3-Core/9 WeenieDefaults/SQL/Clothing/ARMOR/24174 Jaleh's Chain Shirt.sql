@@ -1,17 +1,14 @@
 /* Weenie - Jaleh's Chain Shirt (24174) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24174;
+DELETE FROM weenie WHERE class_Id = 24174;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24174, 'shirtchainjaleh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24174, 'shirtchainjaleh', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24174, 0, 24174);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24174, 1, 'Jaleh''s Chain Shirt') /* NAME_STRING */
      , (24174, 15, 'This chain mail shirt has been modified with a silken lining. It seems to breath better and offer better protection from heat and cold') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24174, 1, 33554883) /* SETUP_DID */
      , (24174, 3, 536870932) /* SOUND_TABLE_DID */
      , (24174, 36, 234881042) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (24174, 1, 33554883) /* SETUP_DID */
      , (24174, 7, 268436594) /* CLOTHINGBASE_DID */
      , (24174, 8, 100667335) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24174, 9, 2560) /* LOCATIONS_INT */
      , (24174, 1, 2) /* ITEM_TYPE_INT */
      , (24174, 27, 16) /* ARMOR_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (24174, 9, 2560) /* LOCATIONS_INT */
      , (24174, 106, 250) /* ITEM_SPELLCRAFT_INT */
      , (24174, 107, 1320) /* ITEM_CUR_MANA_INT */
      , (24174, 108, 1320) /* ITEM_MAX_MANA_INT */
-     , (24174, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (24174, 9007, 2) /* Clothing_WeenieType */;
+     , (24174, 109, 120) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24174, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24174, 5, -0.033) /* MANA_RATE_FLOAT */
      , (24174, 12, 1) /* SHADE_FLOAT */
@@ -54,10 +50,10 @@ VALUES (24174, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24174, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (24174, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24174, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24174, 1485, 2) /* Impenetrability5_SpellID */
      , (24174, 2618, 2) /* CANTRIPFLAMEWARD1_SpellID */
      , (24174, 2619, 2) /* CANTRIPFROSTWARD1_SpellID */;

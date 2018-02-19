@@ -1,18 +1,15 @@
 /* Weenie - Gem of Rejuvenation (24805) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24805;
+DELETE FROM weenie WHERE class_Id = 24805;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24805, 'gemrejuvenation4');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24805, 'gemrejuvenation4', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24805, 0, 24805);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24805, 1, 'Gem of Rejuvenation') /* NAME_STRING */
      , (24805, 20, 'Gems of Rejuvenation') /* PLURAL_NAME_STRING */
      , (24805, 15, 'A gem that will cast Rejuvenation IV on anyone who uses it. The gem will be destroyed in the process.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24805, 1, 33554809) /* SETUP_DID */
      , (24805, 3, 536870932) /* SOUND_TABLE_DID */
      , (24805, 28, 186) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (24805, 1, 33554809) /* SETUP_DID */
      , (24805, 7, 268435723) /* CLOTHINGBASE_DID */
      , (24805, 8, 100674421) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24805, 9, 0) /* LOCATIONS_INT */
      , (24805, 1, 2048) /* ITEM_TYPE_INT */
      , (24805, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (24805, 9, 0) /* LOCATIONS_INT */
      , (24805, 107, 100) /* ITEM_CUR_MANA_INT */
      , (24805, 108, 200) /* ITEM_MAX_MANA_INT */
      , (24805, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (24805, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (24805, 9007, 38) /* Gem_WeenieType */;
+     , (24805, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24805, 69, False) /* IS_SELLABLE_BOOL */
      , (24805, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

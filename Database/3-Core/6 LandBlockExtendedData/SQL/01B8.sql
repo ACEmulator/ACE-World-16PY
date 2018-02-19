@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2612, 1880850432, 28836099, 20, -40, -11.996, -0.986123, 0, 0, -0.166016) /* Outcast Monouga */
      , (2612, 1880850433, 28836099, 19.727, -37.4789, -11.996, 0.0334822, 0, 0, -0.999439) /* Outcast Monouga */
      , (1930, 1880850434, 28836100, 30.0977, 3.54114, -12, 1, 0, 0, 0) /* Chest */
@@ -33,17 +33,17 @@ VALUES (2612, 1880850432, 28836099, 20, -40, -11.996, -0.986123, 0, 0, -0.166016
      , (954, 1880850463, 28836172, 30, -30, 12, 0.76464, 0, 0, -0.644458) /* drudgesneakergen */
      , (278, 1880850464, 28836177, 30, -35.245, 12, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880850444'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880850441'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880850444'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880850441'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850443'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850432'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850433'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850439'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850454'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880850455'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880850440'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880850438'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880850436'; /* linkmonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880850437'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850443'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850432'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850433'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850439'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850454'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880850455'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880850440'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880850438'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880850436'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880850437'; /* linkmonstergen <- Gnawer Shreth */
 

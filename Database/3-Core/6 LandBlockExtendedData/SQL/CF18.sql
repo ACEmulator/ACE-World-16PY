@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (509, 2096201728, 3474456576, 3.75656, 150.849, 0.00500003, 0.970543, 0, 0, -0.240928) /* Life Stone */
      , (1371, 2096201729, 3474456576, 13.3036, 163.135, 0.005, -0.109804, 0, 0, -0.993953) /* Archmage */
      , (4043, 2096201730, 3474456576, 30.0411, 68.4665, 56.005, 0.667565, 0, 0, 0.744552) /* Sawato Portal */

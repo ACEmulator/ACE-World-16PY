@@ -1,16 +1,13 @@
 /* Weenie - Tusker Crimsonback (22584) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22584;
+DELETE FROM weenie WHERE class_Id = 22584;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22584, 'tuskercrimsonback-nofall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22584, 'tuskercrimsonback-nofall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22584, 0, 22584);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22584, 1, 'Tusker Crimsonback') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22584, 1, 33556836) /* SETUP_DID */
      , (22584, 2, 150994956) /* MOTION_TABLE_DID */
      , (22584, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (22584, 1, 33556836) /* SETUP_DID */
      , (22584, 7, 268436067) /* CLOTHINGBASE_DID */
      , (22584, 8, 100667443) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22584, 1, 16) /* ITEM_TYPE_INT */
      , (22584, 146, 1821) /* XP_OVERRIDE_INT */
      , (22584, 2, 8) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (22584, 1, 16) /* ITEM_TYPE_INT */
      , (22584, 25, 26) /* LEVEL_INT */
      , (22584, 27, 0) /* ARMOR_TYPE_INT */
      , (22584, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22584, 40, 2) /* COMBAT_MODE_INT */
-     , (22584, 9007, 10) /* Creature_WeenieType */;
+     , (22584, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22584, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22584, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (22584, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (22584, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22584, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22584, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22584, 1, True) /* STUCK_BOOL */
      , (22584, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (22584, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22584, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22584, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (22584, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (22584, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (22584, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (22584, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (22584, 32, 30) /* SELF_ATTRIBUTE */;
+     , (22584, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (22584, 5, 20) /* FOCUS_ATTRIBUTE */
+     , (22584, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22584, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22584, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22584, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22584, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22584, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22584, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22584, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
      , (22584, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

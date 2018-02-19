@@ -1,22 +1,19 @@
 /* Weenie - Jade Tooth Quarrel (3716) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3716;
+DELETE FROM weenie WHERE class_Id = 3716;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3716, 'jadetoothbolt');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3716, 'jadetoothbolt', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3716, 0, 3716);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3716, 1, 'Jade Tooth Quarrel') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3716, 1, 33554730) /* SETUP_DID */
      , (3716, 3, 536870932) /* SOUND_TABLE_DID */
      , (3716, 8, 100667584) /* ICON_DID */
      , (3716, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3716, 9, 8388608) /* LOCATIONS_INT */
      , (3716, 1, 256) /* ITEM_TYPE_INT */
      , (3716, 13, 9) /* STACK_UNIT_ENCUMB_INT */
@@ -34,10 +31,9 @@ VALUES (3716, 9, 8388608) /* LOCATIONS_INT */
      , (3716, 44, 15) /* DAMAGE_INT */
      , (3716, 45, 2) /* DAMAGE_TYPE_INT */
      , (3716, 50, 2) /* AMMO_TYPE_INT */
-     , (3716, 51, 3) /* COMBAT_USE_INT */
-     , (3716, 9007, 5) /* Ammunition_WeenieType */;
+     , (3716, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3716, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (3716, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
      , (3716, 29, 1) /* WEAPON_DEFENSE_FLOAT */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (237, 1882845211, 60752128, 130.516, -2.70256, -47.971, 0.068612, 0, 0, -0.997643) /* Virindi Master */
      , (12295, 1882845184, 60752130, 130, -20, -47.995, 1, 0, 0, -4.37114E-08) /* Surface Portal */
      , (237, 1882845212, 60752141, 150.181, -2.88155, -47.971, -0.128845, 0, 0, -0.991665) /* Virindi Master */
@@ -68,63 +68,63 @@ VALUES (237, 1882845211, 60752128, 130.516, -2.70256, -47.971, 0.068612, 0, 0, -
      , (12295, 1882845210, 60752610, 210, -360, 0.005, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (7924, 1882845251, 60752612, 220, -330, 0.005, 1, 0, 0, -4.37114E-08) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882845193'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882845194'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882845251'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882845193'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882845194'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882845251'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882845197'; /* linkmonstergen3minutes <- Singular Virindi Director */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845205'; /* linkmonstergen30seconds <- Tumideon Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845192'; /* linkmonstergen30seconds <- Tumideon Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845198'; /* linkmonstergen30seconds <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845199'; /* linkmonstergen30seconds <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845195'; /* linkmonstergen30seconds <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845196'; /* linkmonstergen30seconds <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845185'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845186'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845201'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845204'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845191'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845188'; /* linkmonstergen30seconds <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845189'; /* linkmonstergen30seconds <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882845202'; /* linkmonstergen30seconds <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845248'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845249'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845244'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845245'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845246'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845239'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845240'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845241'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845236'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845230'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845231'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845220'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845221'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845224'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845225'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845218'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845219'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845216'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845214'; /* linkmonstergen5minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845212'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845213'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845211'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845215'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845217'; /* linkmonstergen5minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845229'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845228'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845226'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845227'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845222'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845223'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845233'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845232'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845234'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845235'; /* linkmonstergen5minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845237'; /* linkmonstergen5minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845238'; /* linkmonstergen5minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845243'; /* linkmonstergen5minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845250'; /* linkmonstergen5minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845247'; /* linkmonstergen5minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882845242'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882845197'; /* linkmonstergen3minutes <- Singular Virindi Director */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845205'; /* linkmonstergen30seconds <- Tumideon Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845192'; /* linkmonstergen30seconds <- Tumideon Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845198'; /* linkmonstergen30seconds <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845199'; /* linkmonstergen30seconds <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845195'; /* linkmonstergen30seconds <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845196'; /* linkmonstergen30seconds <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845185'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845186'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845201'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845204'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845191'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845188'; /* linkmonstergen30seconds <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845189'; /* linkmonstergen30seconds <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882845202'; /* linkmonstergen30seconds <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845248'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845249'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845244'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845245'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845246'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845239'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845240'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845241'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845236'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845230'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845231'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845220'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845221'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845224'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845225'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845218'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845219'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845216'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845214'; /* linkmonstergen5minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845212'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845213'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845211'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845215'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845217'; /* linkmonstergen5minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845229'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845228'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845226'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845227'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845222'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845223'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845233'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845232'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845234'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845235'; /* linkmonstergen5minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845237'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845238'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845243'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845250'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845247'; /* linkmonstergen5minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882845242'; /* linkmonstergen5minutes <- Virindi Puppet */
 

@@ -1,17 +1,14 @@
 /* Weenie - Ice Tachi (1435) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1435;
+DELETE FROM weenie WHERE class_Id = 1435;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1435, 'tachiice');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1435, 'tachiice', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1435, 0, 1435);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1435, 1, 'Ice Tachi') /* NAME_STRING */
      , (1435, 15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1435, 1, 33555754) /* SETUP_DID */
      , (1435, 37, 11) /* ITEM_SKILL_LIMIT_DID */
      , (1435, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (1435, 1, 33555754) /* SETUP_DID */
      , (1435, 7, 268435788) /* CLOTHINGBASE_DID */
      , (1435, 8, 100667934) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1435, 9, 1048576) /* LOCATIONS_INT */
      , (1435, 1, 1) /* ITEM_TYPE_INT */
      , (1435, 19, 1300) /* VALUE_INT */
@@ -42,20 +39,19 @@ VALUES (1435, 9, 1048576) /* LOCATIONS_INT */
      , (1435, 48, 11) /* WEAPON_SKILL_INT */
      , (1435, 49, 35) /* WEAPON_TIME_INT */
      , (1435, 51, 1) /* COMBAT_USE_INT */
-     , (1435, 115, 75) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1435, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (1435, 115, 75) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1435, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (1435, 21, 1.1) /* WEAPON_LENGTH_FLOAT */
      , (1435, 5, -0.022) /* MANA_RATE_FLOAT */
      , (1435, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (1435, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1435, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1435, 1601, 2) /* Defender2_SpellID */
      , (1435, 1032, 2) /* ColdProtectionSelf3_SpellID */
      , (1435, 1588, 2) /* HeartSeeker2_SpellID */

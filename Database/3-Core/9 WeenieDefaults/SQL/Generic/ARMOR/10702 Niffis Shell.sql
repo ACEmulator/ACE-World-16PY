@@ -1,24 +1,21 @@
 /* Weenie - Niffis Shell (10702) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10702;
+DELETE FROM weenie WHERE class_Id = 10702;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10702, 'shieldniffis');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10702, 'shieldniffis', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10702, 0, 10702);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10702, 16, 'A large niffis shell, carved into a shield.') /* LONG_DESC_STRING */
      , (10702, 1, 'Niffis Shell') /* NAME_STRING */
      , (10702, 15, 'A large niffis shell, carved into a shield.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10702, 1, 33557043) /* SETUP_DID */
      , (10702, 3, 536870932) /* SOUND_TABLE_DID */
      , (10702, 8, 100671648) /* ICON_DID */
      , (10702, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10702, 9, 2097152) /* LOCATIONS_INT */
      , (10702, 1, 2) /* ITEM_TYPE_INT */
      , (10702, 5, 420) /* ENCUMB_VAL_INT */
@@ -30,10 +27,9 @@ VALUES (10702, 9, 2097152) /* LOCATIONS_INT */
      , (10702, 151, 2) /* HOOK_TYPE_INT */
      , (10702, 28, 100) /* ARMOR_LEVEL_INT */
      , (10702, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10702, 51, 4) /* COMBAT_USE_INT */
-     , (10702, 9007, 1) /* Generic_WeenieType */;
+     , (10702, 51, 4) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10702, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (10702, 111, 1) /* SIZE_MOD_FLOAT */
      , (10702, 39, 1.3) /* DEFAULT_SCALE_FLOAT */
@@ -45,6 +41,6 @@ VALUES (10702, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (10702, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (10702, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10702, 22, True) /* INSCRIBABLE_BOOL */;
 

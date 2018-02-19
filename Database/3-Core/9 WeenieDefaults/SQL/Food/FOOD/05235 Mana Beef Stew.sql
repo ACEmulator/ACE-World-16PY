@@ -1,24 +1,21 @@
 /* Weenie - Mana Beef Stew (5235) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5235;
+DELETE FROM weenie WHERE class_Id = 5235;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5235, 'manabeefstew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5235, 'manabeefstew', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5235, 0, 5235);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5235, 1, 'Mana Beef Stew') /* NAME_STRING */
      , (5235, 20, 'Bowls of Mana Beef Stew ') /* PLURAL_NAME_STRING */
      , (5235, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5235, 1, 33555968) /* SETUP_DID */
      , (5235, 3, 536870932) /* SOUND_TABLE_DID */
      , (5235, 8, 100669946) /* ICON_DID */
      , (5235, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5235, 9, 0) /* LOCATIONS_INT */
      , (5235, 1, 32) /* ITEM_TYPE_INT */
      , (5235, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,9 +30,8 @@ VALUES (5235, 9, 0) /* LOCATIONS_INT */
      , (5235, 19, 80) /* VALUE_INT */
      , (5235, 89, 6) /* BOOSTER_ENUM_INT */
      , (5235, 90, 27) /* BOOST_VALUE_INT */
-     , (5235, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5235, 9007, 18) /* Food_WeenieType */;
+     , (5235, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5235, 69, False) /* IS_SELLABLE_BOOL */;
 

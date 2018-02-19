@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2295, 2090184730, 3378184454, 128.664, 138.718, 10.805, 0.0274312, 0, 0, -0.999624) /* Bukai Fu-ya the Bowyer */
      , (720, 2090184704, 3378184457, 134.296, 128.617, 14.5, -0.999999, 0, 0, 0.00152732) /* Sliding Door */
      , (720, 2090184705, 3378184460, 134.332, 134.066, 14.5, -0.999999, 0, 0, 0.00152732) /* Sliding Door */
@@ -70,15 +70,15 @@ VALUES (2295, 2090184730, 3378184454, 128.664, 138.718, 10.805, 0.0274312, 0, 0,
      , (2282, 2090184739, 3378184192, 140.563, 131.317, 15.3086, 1, 0, 0, 0) /* The True Shot */
      , (2286, 2090184740, 3378184192, 137.613, 88.1268, 13.9037, 0.707107, 0, 0, -0.707107) /* The Emerald Unicorn */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2090184749'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2090184755'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2090184779'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2090184749'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2090184755'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2090184779'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2090184750'; /* linkmonstergen3minutes <- Tsua Kagemata */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184754'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184756'; /* linkmonstergen3minutes <- Tsua's Apprentice */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184777'; /* linkmonstergen3minutes <- Ro Bi-Jor, Apprentice Tailor */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2090184780'; /* linkmonstergen3minutes <- Jojii Shrine */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184778'; /* linkitemgen25seconds <- Dusty Sollerets */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2090184789'; /* linkitemgen25seconds <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2090184750'; /* linkmonstergen3minutes <- Tsua Kagemata */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090184754'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090184756'; /* linkmonstergen3minutes <- Tsua's Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090184777'; /* linkmonstergen3minutes <- Ro Bi-Jor, Apprentice Tailor */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2090184780'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090184778'; /* linkitemgen25seconds <- Dusty Sollerets */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2090184789'; /* linkitemgen25seconds <- Apprentice Fletcher */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12485, 2073690112, 3114270720, 59.694, 27.2464, 54.005, -0.1692, 0, 0, -0.985582) /* Cragstone Farms Portal */
      , (12553, 2073690113, 3114270720, 51.2218, 27.7619, 54.005, -0.36487, 0, 0, -0.931058) /* South Victory Harbor Portal */
      , (12498, 2073690114, 3114270720, 50.2756, 36.6571, 54.005, -0.648457, 0, 0, -0.761251) /* Forgotten Hills Portal */

@@ -1,16 +1,13 @@
 /* Weenie - Frisirth (5867) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5867;
+DELETE FROM weenie WHERE class_Id = 5867;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5867, 'darkrevenantfrisirth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5867, 'darkrevenantfrisirth', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5867, 0, 5867);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5867, 1, 'Frisirth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5867, 8, 100667942) /* ICON_DID */
      , (5867, 32, 250) /* WIELDED_TREASURE_TYPE_DID */
      , (5867, 1, 33554839) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (5867, 8, 100667942) /* ICON_DID */
      , (5867, 7, 268435558) /* CLOTHINGBASE_DID */
      , (5867, 22, 872415272) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5867, 1, 16) /* ITEM_TYPE_INT */
      , (5867, 2, 14) /* CREATURE_TYPE_INT */
      , (5867, 3, 68) /* PALETTE_TEMPLATE_INT */
@@ -40,10 +37,9 @@ VALUES (5867, 1, 16) /* ITEM_TYPE_INT */
      , (5867, 93, 1032) /* PHYSICS_STATE_INT */
      , (5867, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (5867, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (5867, 40, 1) /* COMBAT_MODE_INT */
-     , (5867, 9007, 10) /* Creature_WeenieType */;
+     , (5867, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5867, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5867, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (5867, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -79,14 +75,14 @@ VALUES (5867, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5867, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5867, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5867, 1, True) /* STUCK_BOOL */
      , (5867, 6, True) /* AI_USES_MANA_BOOL */
      , (5867, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5867, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5867, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5867, 1253, 2.03) /* DrainStamina5_SpellID */
      , (5867, 137, 2.14) /* FrostVolley5_SpellID */
      , (5867, 73, 2.14) /* FrostBolt5_SpellID */
@@ -103,24 +99,24 @@ VALUES (5867, 1253, 2.03) /* DrainStamina5_SpellID */
      , (5867, 1395, 2.013) /* ClumsinessOther5_SpellID */
      , (5867, 1467, 2.013) /* FeeblemindOther5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5867, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (5867, 2, 270) /* ENDURANCE_ATTRIBUTE */
      , (5867, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (5867, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (5867, 16, 275) /* FOCUS_ATTRIBUTE */
-     , (5867, 32, 275) /* SELF_ATTRIBUTE */;
+     , (5867, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (5867, 5, 275) /* FOCUS_ATTRIBUTE */
+     , (5867, 6, 275) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5867, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5867, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5867, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5867, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5867, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5867, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5867, 1, 5882, 0, 0, 1, False) /* Create An Ancient Book for Contain_DestinationType */
      , (5867, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (5867, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5867, 1, 5869, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sir Joffre Tremblant (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

@@ -1,25 +1,22 @@
 /* Weenie - Pressure Plate (2131) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2131;
+DELETE FROM weenie WHERE class_Id = 2131;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2131, 'pressure-plate2m');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2131, 'pressure-plate2m', /* PressurePlate_WeenieType */ 24);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2131, 0, 2131);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2131, 1, 'Pressure Plate') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2131, 1, 33555536) /* SETUP_DID */
      , (2131, 2, 150994977) /* MOTION_TABLE_DID */
      , (2131, 8, 100668114) /* ICON_DID */
      , (2131, 23, 149) /* USE_SOUND_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (2131, 16, 0) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2131, 9, 0) /* LOCATIONS_INT */
      , (2131, 1, 128) /* ITEM_TYPE_INT */
      , (2131, 93, 1036) /* PHYSICS_STATE_INT */
@@ -27,10 +24,9 @@ VALUES (2131, 9, 0) /* LOCATIONS_INT */
      , (2131, 16, 1) /* ITEM_USEABLE_INT */
      , (2131, 8, 250) /* MASS_INT */
      , (2131, 19, 1000) /* VALUE_INT */
-     , (2131, 119, 1) /* ACTIVE_INT */
-     , (2131, 9007, 24) /* PressurePlate_WeenieType */;
+     , (2131, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2131, 1, True) /* STUCK_BOOL */
      , (2131, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (2131, 12, True) /* REPORT_COLLISIONS_BOOL */

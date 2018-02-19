@@ -1,18 +1,15 @@
 /* Weenie - Superior Great Jack o' Lantern (22251) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22251;
+DELETE FROM weenie WHERE class_Id = 22251;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22251, 'jackolanterngreatsuperiorfletcher');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22251, 'jackolanterngreatsuperiorfletcher', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22251, 0, 22251);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22251, 1, 'Superior Great Jack o'' Lantern') /* NAME_STRING */
      , (22251, 20, 'Superior Great Jack o'' Lanterns') /* PLURAL_NAME_STRING */
      , (22251, 15, 'A finely crafted great jack o'' lantern, made with a whittling knife.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22251, 1, 33556812) /* SETUP_DID */
      , (22251, 3, 536870932) /* SOUND_TABLE_DID */
      , (22251, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (22251, 1, 33556812) /* SETUP_DID */
      , (22251, 7, 268436044) /* CLOTHINGBASE_DID */
      , (22251, 8, 100671020) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22251, 9, 4194304) /* LOCATIONS_INT */
      , (22251, 1, 256) /* ITEM_TYPE_INT */
      , (22251, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -41,10 +38,9 @@ VALUES (22251, 9, 4194304) /* LOCATIONS_INT */
      , (22251, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (22251, 48, 12) /* WEAPON_SKILL_INT */
      , (22251, 49, 10) /* WEAPON_TIME_INT */
-     , (22251, 51, 2) /* COMBAT_USE_INT */
-     , (22251, 9007, 4) /* Missile_WeenieType */;
+     , (22251, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22251, 79, 0) /* ELASTICITY_FLOAT */
      , (22251, 39, 3) /* DEFAULT_SCALE_FLOAT */
      , (22251, 12, 0) /* SHADE_FLOAT */
@@ -54,7 +50,7 @@ VALUES (22251, 79, 0) /* ELASTICITY_FLOAT */
      , (22251, 27, 2) /* ROTATION_SPEED_FLOAT */
      , (22251, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22251, 69, False) /* IS_SELLABLE_BOOL */
      , (22251, 15, True) /* LIGHTS_STATUS_BOOL */
      , (22251, 17, True) /* INELASTIC_BOOL */;

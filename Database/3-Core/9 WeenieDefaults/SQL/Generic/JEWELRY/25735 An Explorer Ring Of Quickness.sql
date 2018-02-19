@@ -1,16 +1,13 @@
 /* Weenie - An Explorer Ring Of Quickness (25735) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25735;
+DELETE FROM weenie WHERE class_Id = 25735;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25735, 'ringquicknessrarenewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25735, 'ringquicknessrarenewbiequest', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25735, 0, 25735);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25735, 1, 'An Explorer Ring Of Quickness') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25735, 1, 33554691) /* SETUP_DID */
      , (25735, 3, 536870932) /* SOUND_TABLE_DID */
      , (25735, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (25735, 1, 33554691) /* SETUP_DID */
      , (25735, 7, 268435753) /* CLOTHINGBASE_DID */
      , (25735, 8, 100675466) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25735, 9, 786432) /* LOCATIONS_INT */
      , (25735, 1, 8) /* ITEM_TYPE_INT */
      , (25735, 19, 1) /* VALUE_INT */
@@ -32,17 +29,16 @@ VALUES (25735, 9, 786432) /* LOCATIONS_INT */
      , (25735, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (25735, 107, 400) /* ITEM_CUR_MANA_INT */
      , (25735, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (25735, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (25735, 9007, 1) /* Generic_WeenieType */;
+     , (25735, 109, 15) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25735, 5, -0.025) /* MANA_RATE_FLOAT */
      , (25735, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25735, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (25735, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25735, 1405, 2) /* QuicknessOther3_SpellID */;
 

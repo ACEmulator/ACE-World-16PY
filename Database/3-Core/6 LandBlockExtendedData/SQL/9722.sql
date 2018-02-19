@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0, -0.394903) /* leathercraftergharundimgen */
      , (1058, 2037522454, 2535588096, 115.47, 55.985, 102.005, 0.966376, 0, 0, 0.257133) /* Fazlim ibn Masay the Tailor */
      , (1148, 2037522432, 2535588099, 103.04, 56.565, 102, 0.707107, 0, 0, 0.707107) /* Door */
@@ -57,11 +57,11 @@ VALUES (4781, 2037522446, 2535588096, 117.289, 58.1682, 102.005, -0.918723, 0, 0
      , (1065, 2037522462, 2535587840, 120.041, 82.629, 105.51, 0.0400236, 0, 0, -0.999199) /* House of Scrolls */
      , (4773, 2037522463, 2535587840, 65.5429, 104.959, 105.605, -0.771647, 0, 0, 0.636051) /* collectorstonegharundimgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037522471'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2037522501'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2037522471'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2037522501'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522470'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037522496'; /* linkmonstergen3minutes <- Small Creepy Statue */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522500'; /* linkmonstergen3minutes <- Aun Maerirea */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2037522509'; /* linkmonstergen3minutes <- Journeyman Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522470'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037522496'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522500'; /* linkmonstergen3minutes <- Aun Maerirea */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2037522509'; /* linkmonstergen3minutes <- Journeyman Alchemist */
 

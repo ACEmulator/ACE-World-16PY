@@ -1,16 +1,13 @@
 /* Weenie - Thieving Mosswart (12703) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12703;
+DELETE FROM weenie WHERE class_Id = 12703;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12703, 'mosswartthievingnewbieacademy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12703, 'mosswartthievingnewbieacademy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12703, 0, 12703);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12703, 1, 'Thieving Mosswart') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12703, 8, 100667449) /* ICON_DID */
      , (12703, 32, 128) /* WIELDED_TREASURE_TYPE_DID */
      , (12703, 1, 33557327) /* SETUP_DID */
@@ -21,7 +18,7 @@ VALUES (12703, 8, 100667449) /* ICON_DID */
      , (12703, 6, 67113400) /* PALETTE_BASE_DID */
      , (12703, 7, 268436295) /* CLOTHINGBASE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12703, 1, 16) /* ITEM_TYPE_INT */
      , (12703, 2, 4) /* CREATURE_TYPE_INT */
      , (12703, 67, 64) /* TOLERANCE_INT */
@@ -35,10 +32,9 @@ VALUES (12703, 1, 16) /* ITEM_TYPE_INT */
      , (12703, 25, 1) /* LEVEL_INT */
      , (12703, 27, 0) /* ARMOR_TYPE_INT */
      , (12703, 93, 1032) /* PHYSICS_STATE_INT */
-     , (12703, 40, 2) /* COMBAT_MODE_INT */
-     , (12703, 9007, 10) /* Creature_WeenieType */;
+     , (12703, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12703, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12703, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (12703, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (12703, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12703, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12703, 31, 2) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12703, 1, True) /* STUCK_BOOL */
      , (12703, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12703, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12703, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12703, 1, 15) /* STRENGTH_ATTRIBUTE */
      , (12703, 2, 15) /* ENDURANCE_ATTRIBUTE */
      , (12703, 4, 15) /* COORDINATION_ATTRIBUTE */
-     , (12703, 8, 15) /* QUICKNESS_ATTRIBUTE */
-     , (12703, 16, 15) /* FOCUS_ATTRIBUTE */
-     , (12703, 32, 15) /* SELF_ATTRIBUTE */;
+     , (12703, 3, 15) /* QUICKNESS_ATTRIBUTE */
+     , (12703, 5, 15) /* FOCUS_ATTRIBUTE */
+     , (12703, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12703, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12703, 128, 5) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12703, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12703, 1, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12703, 3, 5) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12703, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12703, 9, 12710, 0, 0, 1, False) /* Create Bellows for ContainTreasure_DestinationType */
      , (12703, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

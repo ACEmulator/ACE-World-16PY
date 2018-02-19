@@ -1,17 +1,14 @@
 /* Weenie - Reinforced Mask Banner with Symbol (11785) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11785;
+DELETE FROM weenie WHERE class_Id = 11785;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11785, 'bannerreinforcedsymbolmask');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11785, 'bannerreinforcedsymbolmask', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11785, 0, 11785);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11785, 16, 'A reinforced, symbol tipped banner with a mask on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the mask, it almost seems to be gazing back.') /* LONG_DESC_STRING */
      , (11785, 1, 'Reinforced Mask Banner with Symbol') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11785, 1, 33557255) /* SETUP_DID */
      , (11785, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (11785, 6, 67113338) /* PALETTE_BASE_DID */
@@ -19,7 +16,7 @@ VALUES (11785, 1, 33557255) /* SETUP_DID */
      , (11785, 8, 100671938) /* ICON_DID */
      , (11785, 27, 1073742049) /* USE_USER_ANIMATION_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11785, 9, 16777216) /* LOCATIONS_INT */
      , (11785, 1, 32768) /* ITEM_TYPE_INT */
      , (11785, 93, 1044) /* PHYSICS_STATE_INT */
@@ -35,19 +32,18 @@ VALUES (11785, 9, 16777216) /* LOCATIONS_INT */
      , (11785, 108, 800) /* ITEM_MAX_MANA_INT */
      , (11785, 109, 90) /* ITEM_DIFFICULTY_INT */
      , (11785, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (11785, 114, 1) /* ATTUNED_INT */
-     , (11785, 9007, 35) /* Caster_WeenieType */;
+     , (11785, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11785, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (11785, 5, -0.033) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11785, 69, False) /* IS_SELLABLE_BOOL */
      , (11785, 22, True) /* INSCRIBABLE_BOOL */
      , (11785, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11785, 657, 2) /* ManaMasterySelf5_SpellID */
      , (11785, 2012, 2) /* WizardsIntellect_SpellID */;
 

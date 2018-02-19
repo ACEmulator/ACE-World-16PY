@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12478, 2120527872, 3863674880, 43.3591, 116.125, 32.005, -0.929119, 0, 0, 0.36978) /* Bluewater Cottages Portal */
      , (12554, 2120527873, 3863674880, 45.6773, 107.489, 32.005, -0.71062, 0, 0, 0.703576) /* Southwest Hebian-To Settlement Portal */
      , (12550, 2120527874, 3863674880, 44.746, 99.3404, 32.005, -0.45403, 0, 0, 0.890986) /* South Hebian-To Cottages Portal */

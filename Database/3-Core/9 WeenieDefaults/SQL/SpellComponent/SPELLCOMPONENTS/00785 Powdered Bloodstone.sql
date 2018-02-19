@@ -1,17 +1,14 @@
 /* Weenie - Powdered Bloodstone (785) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 785;
+DELETE FROM weenie WHERE class_Id = 785;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (785, 'bloodstone');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (785, 'bloodstone', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (785, 0, 785);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (785, 1, 'Powdered Bloodstone') /* NAME_STRING */
      , (785, 20, 'Powdered Bloodstones') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (785, 1, 33555208) /* SETUP_DID */
      , (785, 3, 536870932) /* SOUND_TABLE_DID */
      , (785, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (785, 1, 33555208) /* SETUP_DID */
      , (785, 8, 100668379) /* ICON_DID */
      , (785, 29, 28) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (785, 9, 0) /* LOCATIONS_INT */
      , (785, 1, 4096) /* ITEM_TYPE_INT */
      , (785, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,9 +30,8 @@ VALUES (785, 9, 0) /* LOCATIONS_INT */
      , (785, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (785, 16, 1) /* ITEM_USEABLE_INT */
      , (785, 19, 5) /* VALUE_INT */
-     , (785, 93, 1044) /* PHYSICS_STATE_INT */
-     , (785, 9007, 32) /* SpellComponent_WeenieType */;
+     , (785, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (785, 69, False) /* IS_SELLABLE_BOOL */;
 

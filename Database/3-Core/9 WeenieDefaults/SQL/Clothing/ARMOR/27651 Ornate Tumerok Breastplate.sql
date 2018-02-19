@@ -1,18 +1,15 @@
 /* Weenie - Ornate Tumerok Breastplate (27651) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27651;
+DELETE FROM weenie WHERE class_Id = 27651;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27651, 'breastplaterenegadegeneral');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27651, 'breastplaterenegadegeneral', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27651, 0, 27651);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27651, 1, 'Ornate Tumerok Breastplate') /* NAME_STRING */
      , (27651, 33, 'RenegadeBreastplateGeneral') /* QUEST_STRING */
      , (27651, 15, 'This breastplate was taken from the Renegade Tumerok, General Amanua.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27651, 1, 33554642) /* SETUP_DID */
      , (27651, 3, 536870932) /* SOUND_TABLE_DID */
      , (27651, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27651, 1, 33554642) /* SETUP_DID */
      , (27651, 7, 268436826) /* CLOTHINGBASE_DID */
      , (27651, 8, 100676500) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27651, 9, 512) /* LOCATIONS_INT */
      , (27651, 1, 2) /* ITEM_TYPE_INT */
      , (27651, 19, 4500) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (27651, 9, 512) /* LOCATIONS_INT */
      , (27651, 106, 275) /* ITEM_SPELLCRAFT_INT */
      , (27651, 107, 1200) /* ITEM_CUR_MANA_INT */
      , (27651, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (27651, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (27651, 9007, 2) /* Clothing_WeenieType */;
+     , (27651, 109, 125) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27651, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27651, 5, -0.05) /* MANA_RATE_FLOAT */
      , (27651, 12, 0) /* SHADE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (27651, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27651, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (27651, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27651, 69, False) /* IS_SELLABLE_BOOL */
      , (27651, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27651, 2242, 2) /* ImpregnabilityOther7_SpellID */
      , (27651, 2244, 2) /* InvulnerabilityOther7_SpellID */
      , (27651, 2937, 2) /* ModerateImpregnability_SpellID */

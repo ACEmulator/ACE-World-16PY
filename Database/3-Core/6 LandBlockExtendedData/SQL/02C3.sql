@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8459, 1881944064, 46334210, 40, -110, -41.995, 1, 0, 0, 0) /* Surface Portal */
      , (4261, 1881944065, 46334232, 105.127, -79.5526, -41.995, 0.198774, 0, 0, -0.980045) /* Slithayr Eye Stalk */
      , (4261, 1881944066, 46334233, 110.749, -88.5739, -41.78, 0.260505, 0, 0, -0.965472) /* Slithayr Eye Stalk */
@@ -37,33 +37,33 @@ VALUES (8459, 1881944064, 46334210, 40, -110, -41.995, 1, 0, 0, 0) /* Surface Po
      , (4219, 1881944099, 46334602, 141.52, -49.5892, 0.005, 0.999687, 0, 0, 0.0249976) /* linkmonstergen7minutes */
      , (7924, 1881944100, 46334602, 139.733, -49.7589, 0.005, 0.999687, 0, 0, 0.0249976) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881944099'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881944100'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881944099'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881944100'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944078'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944077'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944090'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944089'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944083'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944080'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944079'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944087'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944088'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944096'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944097'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944081'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944075'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944074'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944072'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944076'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944070'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944073'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944071'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944065'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944066'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944068'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944069'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881944067'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881944094'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881944082'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944078'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944077'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944090'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944089'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944083'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944080'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944079'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944087'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944088'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944096'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944097'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944081'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944075'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944074'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944072'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944076'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944070'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944073'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944071'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944065'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944066'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944068'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944069'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881944067'; /* linkmonstergen7minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944094'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881944082'; /* linkmonstergen5minutes <- Slithis Eye Stalk */
 

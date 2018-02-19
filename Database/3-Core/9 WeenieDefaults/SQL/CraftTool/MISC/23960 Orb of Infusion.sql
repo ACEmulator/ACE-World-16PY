@@ -1,18 +1,15 @@
 /* Weenie - Orb of Infusion (23960) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23960;
+DELETE FROM weenie WHERE class_Id = 23960;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23960, 'orbinfusionblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23960, 'orbinfusionblue', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23960, 0, 23960);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23960, 1, 'Orb of Infusion') /* NAME_STRING */
      , (23960, 14, 'Use this orb to prepare an existing suit of Thaumaturgic or Exarch plate crafted by the Order of the Heiromancers. The armor will become useless until reforged in a flame stoked by pure mana.') /* USE_STRING */
      , (23960, 15, 'A deep blue orb with no apparent use.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23960, 1, 33554669) /* SETUP_DID */
      , (23960, 3, 536870932) /* SOUND_TABLE_DID */
      , (23960, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23960, 1, 33554669) /* SETUP_DID */
      , (23960, 7, 268435751) /* CLOTHINGBASE_DID */
      , (23960, 8, 100674146) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23960, 9, 0) /* LOCATIONS_INT */
      , (23960, 1, 128) /* ITEM_TYPE_INT */
      , (23960, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,13 +35,12 @@ VALUES (23960, 9, 0) /* LOCATIONS_INT */
      , (23960, 93, 1044) /* PHYSICS_STATE_INT */
      , (23960, 94, 130) /* TARGET_TYPE_INT */
      , (23960, 33, 1) /* BONDED_INT */
-     , (23960, 114, 1) /* ATTUNED_INT */
-     , (23960, 9007, 44) /* CraftTool_WeenieType */;
+     , (23960, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23960, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23960, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (23960, 22, True) /* INSCRIBABLE_BOOL */
      , (23960, 23, True) /* DESTROY_ON_SELL_BOOL */;

@@ -1,17 +1,14 @@
 /* Weenie - Title Token 'Broodu Killer' (29803) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29803;
+DELETE FROM weenie WHERE class_Id = 29803;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29803, 'tokenbroodukiller');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29803, 'tokenbroodukiller', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29803, 0, 29803);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29803, 1, 'Title Token ''Broodu Killer''') /* NAME_STRING */
      , (29803, 15, 'You may turn this token in to Guard Hamdyn in Cragstone to change your title to ''Broodu Killer''.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29803, 1, 33557280) /* SETUP_DID */
      , (29803, 3, 536870932) /* SOUND_TABLE_DID */
      , (29803, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (29803, 1, 33557280) /* SETUP_DID */
      , (29803, 7, 268436298) /* CLOTHINGBASE_DID */
      , (29803, 8, 100677161) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29803, 9, 0) /* LOCATIONS_INT */
      , (29803, 1, 2048) /* ITEM_TYPE_INT */
      , (29803, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,9 +31,8 @@ VALUES (29803, 9, 0) /* LOCATIONS_INT */
      , (29803, 19, 0) /* VALUE_INT */
      , (29803, 93, 1044) /* PHYSICS_STATE_INT */
      , (29803, 33, 1) /* BONDED_INT */
-     , (29803, 114, 1) /* ATTUNED_INT */
-     , (29803, 9007, 38) /* Gem_WeenieType */;
+     , (29803, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29803, 22, True) /* INSCRIBABLE_BOOL */;
 

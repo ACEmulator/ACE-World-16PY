@@ -1,18 +1,15 @@
 /* Weenie - Portal Gem (28455) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28455;
+DELETE FROM weenie WHERE class_Id = 28455;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28455, 'gemportalmorgluukreward');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28455, 'gemportalmorgluukreward', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28455, 0, 28455);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28455, 1, 'Portal Gem') /* NAME_STRING */
      , (28455, 14, 'Double Click on this portal gem to transport yourself to the Reward Vault.') /* USE_STRING */
      , (28455, 15, 'A portal gem that will whisk the user into a treasure hold within High Queen Elysa''s castle.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28455, 1, 33556769) /* SETUP_DID */
      , (28455, 3, 536870932) /* SOUND_TABLE_DID */
      , (28455, 28, 3411) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (28455, 1, 33556769) /* SETUP_DID */
      , (28455, 7, 268435723) /* CLOTHINGBASE_DID */
      , (28455, 8, 100672368) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28455, 9, 0) /* LOCATIONS_INT */
      , (28455, 1, 2048) /* ITEM_TYPE_INT */
      , (28455, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -46,13 +43,12 @@ VALUES (28455, 9, 0) /* LOCATIONS_INT */
      , (28455, 108, 500) /* ITEM_MAX_MANA_INT */
      , (28455, 109, 1) /* ITEM_DIFFICULTY_INT */
      , (28455, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (28455, 114, 1) /* ATTUNED_INT */
-     , (28455, 9007, 38) /* Gem_WeenieType */;
+     , (28455, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28455, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28455, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (28455, 15, True) /* LIGHTS_STATUS_BOOL */;
 

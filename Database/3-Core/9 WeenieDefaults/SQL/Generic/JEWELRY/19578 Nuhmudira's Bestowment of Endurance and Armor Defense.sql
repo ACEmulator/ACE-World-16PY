@@ -1,18 +1,15 @@
 /* Weenie - Nuhmudira's Bestowment of Endurance and Armor Defense (19578) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19578;
+DELETE FROM weenie WHERE class_Id = 19578;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19578, 'gorgetnuhmudiraendurancearmorhigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19578, 'gorgetnuhmudiraendurancearmorhigh', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19578, 0, 19578);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19578, 16, 'A red gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of preservation. As you hold the gorget in your hand you feel a soft vibration.') /* LONG_DESC_STRING */
      , (19578, 1, 'Nuhmudira''s Bestowment of Endurance and Armor Defense') /* NAME_STRING */
      , (19578, 15, 'A red gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of preservation.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19578, 1, 33554687) /* SETUP_DID */
      , (19578, 3, 536870932) /* SOUND_TABLE_DID */
      , (19578, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (19578, 1, 33554687) /* SETUP_DID */
      , (19578, 7, 268436388) /* CLOTHINGBASE_DID */
      , (19578, 8, 100668632) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19578, 9, 32768) /* LOCATIONS_INT */
      , (19578, 1, 8) /* ITEM_TYPE_INT */
      , (19578, 19, 5000) /* VALUE_INT */
@@ -41,20 +38,19 @@ VALUES (19578, 9, 32768) /* LOCATIONS_INT */
      , (19578, 107, 500) /* ITEM_CUR_MANA_INT */
      , (19578, 108, 500) /* ITEM_MAX_MANA_INT */
      , (19578, 109, 180) /* ITEM_DIFFICULTY_INT */
-     , (19578, 114, 1) /* ATTUNED_INT */
-     , (19578, 9007, 1) /* Generic_WeenieType */;
+     , (19578, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19578, 5, -0.033) /* MANA_RATE_FLOAT */
      , (19578, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19578, 99, True) /* IVORYABLE_BOOL */
      , (19578, 69, False) /* IS_SELLABLE_BOOL */
      , (19578, 22, True) /* INSCRIBABLE_BOOL */
      , (19578, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19578, 1359, 2) /* EnduranceOther5_SpellID */
      , (19578, 1316, 2) /* ArmorOther5_SpellID */
      , (19578, 2669, 2) /* NuhmudirasBestowment_SpellID */;

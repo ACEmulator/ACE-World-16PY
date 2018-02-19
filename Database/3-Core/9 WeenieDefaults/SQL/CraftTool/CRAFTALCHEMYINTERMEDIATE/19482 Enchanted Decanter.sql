@@ -1,19 +1,16 @@
 /* Weenie - Enchanted Decanter (19482) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19482;
+DELETE FROM weenie WHERE class_Id = 19482;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19482, 'decanterenchanted');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19482, 'decanterenchanted', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19482, 0, 19482);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19482, 16, 'An empty decanter, that shimmers in the light.') /* LONG_DESC_STRING */
      , (19482, 1, 'Enchanted Decanter') /* NAME_STRING */
      , (19482, 14, 'This item can be used in crafting. Use this item on a source of pure mana to harvest the fluid.') /* USE_STRING */
      , (19482, 15, 'An empty decanter, that shimmers in the light.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19482, 1, 33555965) /* SETUP_DID */
      , (19482, 3, 536870932) /* SOUND_TABLE_DID */
      , (19482, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (19482, 1, 33555965) /* SETUP_DID */
      , (19482, 7, 268435814) /* CLOTHINGBASE_DID */
      , (19482, 8, 100672969) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19482, 9, 0) /* LOCATIONS_INT */
      , (19482, 1, 67108864) /* ITEM_TYPE_INT */
      , (19482, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,10 +34,9 @@ VALUES (19482, 9, 0) /* LOCATIONS_INT */
      , (19482, 93, 1044) /* PHYSICS_STATE_INT */
      , (19482, 94, 128) /* TARGET_TYPE_INT */
      , (19482, 33, 1) /* BONDED_INT */
-     , (19482, 114, 1) /* ATTUNED_INT */
-     , (19482, 9007, 44) /* CraftTool_WeenieType */;
+     , (19482, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19482, 22, True) /* INSCRIBABLE_BOOL */
      , (19482, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

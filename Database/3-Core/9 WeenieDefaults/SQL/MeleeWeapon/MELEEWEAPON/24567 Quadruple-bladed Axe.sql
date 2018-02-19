@@ -1,16 +1,13 @@
 /* Weenie - Quadruple-bladed Axe (24567) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24567;
+DELETE FROM weenie WHERE class_Id = 24567;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24567, 'axerenegaderaidsmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24567, 'axerenegaderaidsmonster', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24567, 0, 24567);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24567, 1, 'Quadruple-bladed Axe') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24567, 1, 33558379) /* SETUP_DID */
      , (24567, 3, 536870932) /* SOUND_TABLE_DID */
      , (24567, 36, 234881053) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (24567, 1, 33558379) /* SETUP_DID */
      , (24567, 7, 268435779) /* CLOTHINGBASE_DID */
      , (24567, 8, 100674408) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24567, 9, 1048576) /* LOCATIONS_INT */
      , (24567, 1, 1) /* ITEM_TYPE_INT */
      , (24567, 19, 9000) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (24567, 9, 1048576) /* LOCATIONS_INT */
      , (24567, 47, 4) /* ATTACK_TYPE_INT */
      , (24567, 48, 1) /* WEAPON_SKILL_INT */
      , (24567, 49, 55) /* WEAPON_TIME_INT */
-     , (24567, 51, 1) /* COMBAT_USE_INT */
-     , (24567, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (24567, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24567, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24567, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (24567, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -57,11 +53,11 @@ VALUES (24567, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24567, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (24567, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24567, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (24567, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
      , (24567, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24567, 1616, 2) /* BloodDrinker6_SpellID */;
 

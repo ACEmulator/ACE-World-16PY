@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4786, 2086297605, 3315990796, 153.959, 12.0098, 38.0585, -0.72955, 0, 0, -0.683927) /* olthoihuntergen */
      , (19716, 2086297631, 3315990811, 179.698, 17.7833, 32.805, 0.0297023, 0, 0, -0.999559) /* Mammet Foundry Portal */
      , (701, 2086297642, 3315990814, 159.067, 80.5821, 38.005, -0.907042, 0, 0, -0.421041) /* Laqisha the Scribe */

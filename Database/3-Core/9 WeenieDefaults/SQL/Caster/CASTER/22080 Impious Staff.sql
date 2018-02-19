@@ -1,18 +1,15 @@
 /* Weenie - Impious Staff (22080) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22080;
+DELETE FROM weenie WHERE class_Id = 22080;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22080, 'staffimpiousnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22080, 'staffimpiousnew', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22080, 0, 22080);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22080, 16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LONG_DESC_STRING */
      , (22080, 1, 'Impious Staff') /* NAME_STRING */
      , (22080, 15, 'This staff is made from a metal alloy and carbonized iron.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22080, 1, 33557877) /* SETUP_DID */
      , (22080, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (22080, 3, 536870932) /* SOUND_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (22080, 1, 33557877) /* SETUP_DID */
      , (22080, 8, 100673510) /* ICON_DID */
      , (22080, 28, 2814) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22080, 9, 16777216) /* LOCATIONS_INT */
      , (22080, 1, 32768) /* ITEM_TYPE_INT */
      , (22080, 19, 12000) /* VALUE_INT */
@@ -45,14 +42,13 @@ VALUES (22080, 9, 16777216) /* LOCATIONS_INT */
      , (22080, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (22080, 114, 1) /* ATTUNED_INT */
      , (22080, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (22080, 117, 150) /* ITEM_MANA_COST_INT */
-     , (22080, 9007, 35) /* Caster_WeenieType */;
+     , (22080, 117, 150) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22080, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
      , (22080, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22080, 99, True) /* IVORYABLE_BOOL */
      , (22080, 22, True) /* INSCRIBABLE_BOOL */
      , (22080, 23, True) /* DESTROY_ON_SELL_BOOL */;

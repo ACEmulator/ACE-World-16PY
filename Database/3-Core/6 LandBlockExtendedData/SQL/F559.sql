@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (165, 2136313867, 4116250881, 181.248, 80.5406, 20.05, -0.999728, 0, 0, -0.0233416) /* Pool */
      , (165, 2136313866, 4116250881, 183.517, 83.1264, 20.05, -0.698806, 0, 0, -0.715311) /* Pool */
      , (153, 2136313865, 4116250881, 184.245, 86.2221, 20.005, -0.999932, 0, 0, -0.0116717) /* Fountain */
@@ -14,8 +14,8 @@ VALUES (165, 2136313867, 4116250881, 181.248, 80.5406, 20.05, -0.999728, 0, 0, -
      , (25990, 2136313869, 4116250624, 186.564, 105.419, 20.005, 0.45742, 0, 0, -0.889251) /* Small Creepy Statue */
      , (6441, 2136313868, 4116250624, 157.873, 113.209, 20.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136313863'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136313863'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313862'; /* linkmonstergen <- Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136313869'; /* linkmonstergen <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313862'; /* linkmonstergen <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136313869'; /* linkmonstergen <- Small Creepy Statue */
 

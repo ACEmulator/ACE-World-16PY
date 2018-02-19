@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7179, 2078216346, 3186688256, 109.358, 103.113, 42.065, -0.939271, 0, 0, 0.343176) /* Relic Bones */
      , (7179, 2078216344, 3186688256, 106.486, 104.5, 42.065, 0.824334, 0, 0, 0.566103) /* Relic Bones */
      , (1029, 2078216347, 3186688257, 107.768, 108.042, 42.065, 0.707107, 0, 0, -0.707107) /* Portal to Yanshi */
@@ -133,134 +133,134 @@ VALUES (7179, 2078216346, 3186688256, 109.358, 103.113, 42.065, -0.939271, 0, 0,
      , (28055, 2078216341, 3186688000, 107.985, 106.63, 50.8665, 0.0103787, 0, 0, 0.999946) /* Spectral Wisp */
      , (24676, 2078216342, 3186688000, 110.557, 109.559, 50.865, 0.936552, 0, 0, -0.350528) /* Runed Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2078216232'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2078216233'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2078216234'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2078216235'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2078216236'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2078216237'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2078216238'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2078216239'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='2078216240'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='2078216241'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='2078216242'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='2078216243'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='2078216244'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='2078216245'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='2078216246'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='2078216247'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='2078216248'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='2078216267'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='2078216266'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='2078216265'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='2078216264'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='2078216268'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='2078216269'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='2078216270'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='2078216271'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='2078216272'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='2078216273'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='2078216274'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='2078216275'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='2078216276'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='31', `linkSource`='1' WHERE `preassignedGuid`='2078216277'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='32', `linkSource`='1' WHERE `preassignedGuid`='2078216278'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='33', `linkSource`='1' WHERE `preassignedGuid`='2078216301'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='34', `linkSource`='1' WHERE `preassignedGuid`='2078216299'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='35', `linkSource`='1' WHERE `preassignedGuid`='2078216298'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='36', `linkSource`='1' WHERE `preassignedGuid`='2078216300'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='37', `linkSource`='1' WHERE `preassignedGuid`='2078216279'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='38', `linkSource`='1' WHERE `preassignedGuid`='2078216280'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='39', `linkSource`='1' WHERE `preassignedGuid`='2078216281'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='40', `linkSource`='1' WHERE `preassignedGuid`='2078216304'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='41', `linkSource`='1' WHERE `preassignedGuid`='2078216282'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='42', `linkSource`='1' WHERE `preassignedGuid`='2078216307'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='43', `linkSource`='1' WHERE `preassignedGuid`='2078216306'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='44', `linkSource`='1' WHERE `preassignedGuid`='2078216308'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='45', `linkSource`='1' WHERE `preassignedGuid`='2078216305'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='46', `linkSource`='1' WHERE `preassignedGuid`='2078216309'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='47', `linkSource`='1' WHERE `preassignedGuid`='2078216310'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='48', `linkSource`='1' WHERE `preassignedGuid`='2078216202'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='49', `linkSource`='1' WHERE `preassignedGuid`='2078216321'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2078216232'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2078216233'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2078216234'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2078216235'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2078216236'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2078216237'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='2078216238'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='2078216239'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='2078216240'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='2078216241'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='2078216242'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='2078216243'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='2078216244'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='2078216245'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='2078216246'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='2078216247'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='2078216248'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='2078216267'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='2078216266'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='2078216265'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='2078216264'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='2078216268'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='2078216269'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='2078216270'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='2078216271'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='2078216272'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='2078216273'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='2078216274'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='2078216275'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='2078216276'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='2078216277'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='32', `link_Controller`=True WHERE `guid`='2078216278'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='33', `link_Controller`=True WHERE `guid`='2078216301'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='34', `link_Controller`=True WHERE `guid`='2078216299'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='35', `link_Controller`=True WHERE `guid`='2078216298'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='36', `link_Controller`=True WHERE `guid`='2078216300'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='37', `link_Controller`=True WHERE `guid`='2078216279'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='38', `link_Controller`=True WHERE `guid`='2078216280'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='39', `link_Controller`=True WHERE `guid`='2078216281'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='40', `link_Controller`=True WHERE `guid`='2078216304'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='41', `link_Controller`=True WHERE `guid`='2078216282'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='42', `link_Controller`=True WHERE `guid`='2078216307'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='43', `link_Controller`=True WHERE `guid`='2078216306'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='44', `link_Controller`=True WHERE `guid`='2078216308'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='45', `link_Controller`=True WHERE `guid`='2078216305'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='46', `link_Controller`=True WHERE `guid`='2078216309'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='47', `link_Controller`=True WHERE `guid`='2078216310'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='48', `link_Controller`=True WHERE `guid`='2078216202'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='49', `link_Controller`=True WHERE `guid`='2078216321'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2078216217'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2078216221'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2078216224'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2078216216'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2078216229'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2078216220'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2078216215'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2078216225'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2078216227'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='2078216222'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='2078216218'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='2078216219'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='2078216228'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='2078216223'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='2078216230'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='2078216231'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='2078216226'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='2078216249'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='2078216250'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='2078216251'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='2078216252'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='2078216253'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='2078216254'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='2078216255'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='2078216256'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='2078216257'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='2078216258'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='2078216259'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='2078216260'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='2078216261'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='31' WHERE `preassignedGuid`='2078216262'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='32' WHERE `preassignedGuid`='2078216263'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='33' WHERE `preassignedGuid`='2078216294'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='34' WHERE `preassignedGuid`='2078216297'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='35' WHERE `preassignedGuid`='2078216296'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='36' WHERE `preassignedGuid`='2078216295'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='37' WHERE `preassignedGuid`='2078216293'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='2078216292'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='2078216291'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='40' WHERE `preassignedGuid`='2078216302'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='2078216303'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='42' WHERE `preassignedGuid`='2078216289'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='43' WHERE `preassignedGuid`='2078216288'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='2078216287'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='45' WHERE `preassignedGuid`='2078216286'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='46' WHERE `preassignedGuid`='2078216285'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='47' WHERE `preassignedGuid`='2078216284'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='48' WHERE `preassignedGuid`='2078216290'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216312'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216315'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216316'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216313'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216314'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216319'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216320'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216317'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216318'; /* linkmonstergen5minutes <- Ancient Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216323'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216324'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216322'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216327'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216328'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216325'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216326'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216330'; /* linkmonstergen5minutes <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216331'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216329'; /* linkmonstergen5minutes <- Platinum Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216334'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216335'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216332'; /* linkmonstergen5minutes <- Great Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216333'; /* linkmonstergen5minutes <- Great Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216338'; /* linkmonstergen5minutes <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216339'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216336'; /* linkmonstergen5minutes <- Dark Master */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216337'; /* linkmonstergen5minutes <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216340'; /* linkmonstergen5minutes <- Sapphire Golem */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216341'; /* linkmonstergen5minutes <- Spectral Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216345'; /* linkmonstergen5minutes <- Relic Bones */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216346'; /* linkmonstergen5minutes <- Relic Bones */
-UPDATE `ace_landblock` SET `linkSlot`='49' WHERE `preassignedGuid`='2078216344'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2078216217'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2078216221'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2078216224'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2078216216'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2078216229'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2078216220'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='2078216215'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='2078216225'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2078216227'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='2078216222'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='2078216218'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='2078216219'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='2078216228'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='2078216223'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='2078216230'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='2078216231'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='2078216226'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='2078216249'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='2078216250'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='2078216251'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='2078216252'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='2078216253'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='2078216254'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='2078216255'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='2078216256'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='2078216257'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='2078216258'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='2078216259'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='2078216260'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='2078216261'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='2078216262'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='2078216263'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='2078216294'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='34' WHERE `guid`='2078216297'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='35' WHERE `guid`='2078216296'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='36' WHERE `guid`='2078216295'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='37' WHERE `guid`='2078216293'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='2078216292'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='2078216291'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='40' WHERE `guid`='2078216302'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='2078216303'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='42' WHERE `guid`='2078216289'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='43' WHERE `guid`='2078216288'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='2078216287'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='45' WHERE `guid`='2078216286'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='46' WHERE `guid`='2078216285'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='47' WHERE `guid`='2078216284'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='48' WHERE `guid`='2078216290'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216312'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216315'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216316'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216313'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216314'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216319'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216320'; /* linkmonstergen5minutes <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216317'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216318'; /* linkmonstergen5minutes <- Ancient Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216323'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216324'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216322'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216327'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216328'; /* linkmonstergen5minutes <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216325'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216326'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216330'; /* linkmonstergen5minutes <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216331'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216329'; /* linkmonstergen5minutes <- Platinum Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216334'; /* linkmonstergen5minutes <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216335'; /* linkmonstergen5minutes <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216332'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216333'; /* linkmonstergen5minutes <- Great Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216338'; /* linkmonstergen5minutes <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216339'; /* linkmonstergen5minutes <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216336'; /* linkmonstergen5minutes <- Dark Master */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216337'; /* linkmonstergen5minutes <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216340'; /* linkmonstergen5minutes <- Sapphire Golem */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216341'; /* linkmonstergen5minutes <- Spectral Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216345'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216346'; /* linkmonstergen5minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='49' WHERE `guid`='2078216344'; /* linkmonstergen5minutes <- Relic Bones */
 

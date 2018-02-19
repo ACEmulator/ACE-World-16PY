@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (673, 2076831773, 3164537091, 16.8398, 102.414, 70.01, -0.984041, 0, 0, -0.177944) /* Avalenne Hilmad the Healer */
      , (672, 2076831774, 3164537091, 13.1693, 108.458, 70.01, 0.834187, 0, 0, -0.551482) /* Acina Hilmad the Grocer */
      , (143, 2076831744, 3164537095, 15.6273, 105.869, 73.055, 0.939094, 0, 0, 0.34366) /* Chest */
@@ -75,20 +75,20 @@ VALUES (673, 2076831773, 3164537091, 16.8398, 102.414, 70.01, -0.984041, 0, 0, -
      , (7923, 2076831796, 3164536832, 176.596, 87.138, 32.005, 0.58705, 0, 0, -0.809551) /* linkmonstergen3minutes */
      , (16898, 2076831805, 3164536832, 62.425, 57.171, 54.005, 0.422618, 0, 0, -0.906308) /* Sanctum Residential Halls */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076831819'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076831796'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2076831819'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2076831796'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831818'; /* linkmonstergen3minutes <- Royal Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831820'; /* linkmonstergen3minutes <- Sign */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831794'; /* linkmonstergen3minutes <- Lieutenant Kenneth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076831802'; /* linkmonstergen3minutes <- Glysander Cartoth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831826'; /* linkmonstergen3minutes <- Barnar the Tinker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831825'; /* linkmonstergen3minutes <- Alec */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831827'; /* linkmonstergen3minutes <- Guard Hamdyn */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831828'; /* linkmonstergen3minutes <- Guard Fassel */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831829'; /* linkmonstergen3minutes <- Guard Sorchia */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831830'; /* linkmonstergen3minutes <- Guard Ellyon */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831831'; /* linkmonstergen3minutes <- Guard Lo Pan */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831832'; /* linkmonstergen3minutes <- Guard Haigh */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076831833'; /* linkmonstergen3minutes <- Guard Devon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831818'; /* linkmonstergen3minutes <- Royal Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831820'; /* linkmonstergen3minutes <- Sign */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831794'; /* linkmonstergen3minutes <- Lieutenant Kenneth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076831802'; /* linkmonstergen3minutes <- Glysander Cartoth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831826'; /* linkmonstergen3minutes <- Barnar the Tinker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831825'; /* linkmonstergen3minutes <- Alec */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831827'; /* linkmonstergen3minutes <- Guard Hamdyn */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831828'; /* linkmonstergen3minutes <- Guard Fassel */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831829'; /* linkmonstergen3minutes <- Guard Sorchia */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831830'; /* linkmonstergen3minutes <- Guard Ellyon */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831831'; /* linkmonstergen3minutes <- Guard Lo Pan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831832'; /* linkmonstergen3minutes <- Guard Haigh */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076831833'; /* linkmonstergen3minutes <- Guard Devon */
 

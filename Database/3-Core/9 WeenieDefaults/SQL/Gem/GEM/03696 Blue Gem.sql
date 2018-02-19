@@ -1,16 +1,13 @@
 /* Weenie - Blue Gem (3696) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3696;
+DELETE FROM weenie WHERE class_Id = 3696;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3696, 'virindijewelblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3696, 'virindijewelblue', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3696, 0, 3696);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3696, 1, 'Blue Gem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3696, 1, 33554809) /* SETUP_DID */
      , (3696, 3, 536870932) /* SOUND_TABLE_DID */
      , (3696, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (3696, 1, 33554809) /* SETUP_DID */
      , (3696, 7, 268435723) /* CLOTHINGBASE_DID */
      , (3696, 8, 100670079) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3696, 9, 0) /* LOCATIONS_INT */
      , (3696, 1, 2048) /* ITEM_TYPE_INT */
      , (3696, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -32,10 +29,9 @@ VALUES (3696, 9, 0) /* LOCATIONS_INT */
      , (3696, 15, 200) /* STACK_UNIT_VALUE_INT */
      , (3696, 16, 1) /* ITEM_USEABLE_INT */
      , (3696, 19, 200) /* VALUE_INT */
-     , (3696, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3696, 9007, 38) /* Gem_WeenieType */;
+     , (3696, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3696, 22, True) /* INSCRIBABLE_BOOL */
      , (3696, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

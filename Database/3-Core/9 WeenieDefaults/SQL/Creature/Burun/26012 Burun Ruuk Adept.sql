@@ -1,16 +1,13 @@
 /* Weenie - Burun Ruuk Adept (26012) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26012;
+DELETE FROM weenie WHERE class_Id = 26012;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26012, 'burunruukadept');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26012, 'burunruukadept', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26012, 0, 26012);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26012, 1, 'Burun Ruuk Adept') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26012, 8, 100675761) /* ICON_DID */
      , (26012, 32, 470) /* WIELDED_TREASURE_TYPE_DID */
      , (26012, 1, 33558582) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (26012, 8, 100675761) /* ICON_DID */
      , (26012, 7, 268436789) /* CLOTHINGBASE_DID */
      , (26012, 22, 872415402) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26012, 1, 16) /* ITEM_TYPE_INT */
      , (26012, 2, 75) /* CREATURE_TYPE_INT */
      , (26012, 3, 58) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (26012, 1, 16) /* ITEM_TYPE_INT */
      , (26012, 27, 0) /* ARMOR_TYPE_INT */
      , (26012, 93, 1032) /* PHYSICS_STATE_INT */
      , (26012, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (26012, 40, 2) /* COMBAT_MODE_INT */
-     , (26012, 9007, 10) /* Creature_WeenieType */;
+     , (26012, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26012, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (26012, 65, 0.95) /* RESIST_PIERCE_FLOAT */
      , (26012, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (26012, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (26012, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (26012, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26012, 1, True) /* STUCK_BOOL */
      , (26012, 6, True) /* AI_USES_MANA_BOOL */
      , (26012, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (26012, 1, True) /* STUCK_BOOL */
      , (26012, 13, False) /* ETHEREAL_BOOL */
      , (26012, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26012, 1128, 2.02) /* BladeVulnerabilityOther2_SpellID */
      , (26012, 1152, 2.02) /* PiercingVulnerabilityOther2_SpellID */
      , (26012, 1158, 2.08) /* HealSelf3_SpellID */
@@ -96,20 +92,20 @@ VALUES (26012, 1128, 2.02) /* BladeVulnerabilityOther2_SpellID */
      , (26012, 60, 2.07) /* AcidStream3_SpellID */
      , (26012, 1085, 2.02) /* LightningVulnerabilityOther2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26012, 1, 160) /* STRENGTH_ATTRIBUTE */
      , (26012, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (26012, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (26012, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (26012, 16, 240) /* FOCUS_ATTRIBUTE */
-     , (26012, 32, 240) /* SELF_ATTRIBUTE */;
+     , (26012, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (26012, 5, 240) /* FOCUS_ATTRIBUTE */
+     , (26012, 6, 240) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26012, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26012, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26012, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26012, 1, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26012, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26012, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26012, 9, 28984, 0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
      , (26012, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (26012, 9, 28887, 0, 0, 0.05, False) /* Create Burun Ruuk Head for ContainTreasure_DestinationType */

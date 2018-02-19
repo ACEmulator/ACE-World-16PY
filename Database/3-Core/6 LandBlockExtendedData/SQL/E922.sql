@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 0.322903) /* Weaponsmith Illic Ibn'Abulfiq */
      , (720, 2123505664, 3911319816, 55.1262, 39.1312, 20.5, -0.0082894, 0, 0, -0.999966) /* Sliding Door */
      , (720, 2123505665, 3911319819, 55.0251, 33.0321, 20.5, -0.0082894, 0, 0, -0.999966) /* Sliding Door */
@@ -31,9 +31,9 @@ VALUES (8440, 2123505681, 3911319814, 64.9374, 30.5391, 16.805, 0.946432, 0, 0, 
      , (8451, 2123505684, 3911319552, 120.7, 59.7, 3, 1, 0, 0, 0) /* Nature's Balm */
      , (8441, 2123505688, 3911319552, 14.0457, 36.922, 18.9282, -0.138733, 0, 0, 0.99033) /* Zenzaburou Hensu */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2123505677'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2123505677'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505688'; /* linkmonstergen <- Zenzaburou Hensu */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505689'; /* linkmonstergen <- Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2123505690'; /* linkmonstergen <- Ivory Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505688'; /* linkmonstergen <- Zenzaburou Hensu */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505689'; /* linkmonstergen <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2123505690'; /* linkmonstergen <- Ivory Crafter */
 

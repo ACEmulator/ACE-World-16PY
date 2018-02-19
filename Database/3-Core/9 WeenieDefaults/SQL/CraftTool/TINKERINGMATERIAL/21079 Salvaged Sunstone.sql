@@ -1,18 +1,15 @@
 /* Weenie - Salvaged Sunstone (21079) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21079;
+DELETE FROM weenie WHERE class_Id = 21079;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21079, 'materialsunstone');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21079, 'materialsunstone', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21079, 0, 21079);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21079, 1, 'Salvaged Sunstone') /* NAME_STRING */
      , (21079, 14, 'Apply this material to a treasure-generated weapon to imbue the target with Armor Rending. Armor Rending gives the item the ability to ignore some of its opponent''s armor. The amount of armor it ignores depends on the attack skill of the wielder.') /* USE_STRING */
      , (21079, 15, 'Chips of sunstone material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21079, 1, 33554817) /* SETUP_DID */
      , (21079, 3, 536870932) /* SOUND_TABLE_DID */
      , (21079, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (21079, 1, 33554817) /* SETUP_DID */
      , (21079, 8, 100667436) /* ICON_DID */
      , (21079, 50, 100673303) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21079, 9, 0) /* LOCATIONS_INT */
      , (21079, 1, 1073741824) /* ITEM_TYPE_INT */
      , (21079, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (21079, 9, 0) /* LOCATIONS_INT */
      , (21079, 91, 100) /* MAX_STRUCTURE_INT */
      , (21079, 93, 1044) /* PHYSICS_STATE_INT */
      , (21079, 94, 257) /* TARGET_TYPE_INT */
-     , (21079, 33, 1) /* BONDED_INT */
-     , (21079, 9007, 44) /* CraftTool_WeenieType */;
+     , (21079, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21079, 22, True) /* INSCRIBABLE_BOOL */
      , (21079, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

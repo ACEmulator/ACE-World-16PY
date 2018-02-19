@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14521, 1969541120, 1447887104, 130, -30, -35.99, 0.714421, 0, 0, -0.699716) /* Glacial Golem */
      , (197, 1969541121, 1447887115, 138.139, -28.2158, -35.99, 0.997231, 0, 0, 0.074371) /* Iron Golem */
      , (14521, 1969541122, 1447887115, 140.052, -30.5662, -35.99, 0.998722, 0, 0, -0.050539) /* Glacial Golem */
@@ -52,53 +52,53 @@ VALUES (14521, 1969541120, 1447887104, 130, -30, -35.99, 0.714421, 0, 0, -0.6997
      , (22867, 1969541170, 1447887407, -0.337173, -150.954, 0.005, -0.389987, 0, 0, -0.92082) /* Exit */
      , (7923, 1969541171, 1447887411, 7.45701, -147.432, 0.005, -0.998678, 0, 0, -0.051397) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969541171'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969541171'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541163'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541164'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541165'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541166'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541167'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541169'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541168'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541160'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541162'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541161'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541159'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541158'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541156'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541157'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541140'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541137'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541139'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541138'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541142'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541148'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541144'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541155'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541150'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541152'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541154'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541153'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541145'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541146'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541143'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541141'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541147'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541149'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541151'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541121'; /* linkmonstergen3minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541122'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541120'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541123'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541125'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541134'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541129'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541135'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541132'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541133'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541128'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541126'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541124'; /* linkmonstergen3minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969541136'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541163'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541164'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541165'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541166'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541167'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541169'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541168'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541160'; /* linkmonstergen3minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541162'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541161'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541159'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541158'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541156'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541157'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541140'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541137'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541139'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541138'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541142'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541148'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541144'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541155'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541150'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541152'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541154'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541153'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541145'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541146'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541143'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541141'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541147'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541149'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541151'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541121'; /* linkmonstergen3minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541122'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541120'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541123'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541125'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541134'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541129'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541135'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541132'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541133'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541128'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541126'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541124'; /* linkmonstergen3minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969541136'; /* linkmonstergen3minutes <- Obsidian Golem */
 

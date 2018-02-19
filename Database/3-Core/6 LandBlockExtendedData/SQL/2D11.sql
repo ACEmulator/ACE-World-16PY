@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8431, 1926303744, 756089088, 83.9663, 172.682, 49.6615, -0.0194307, 0, 0, 0.999811) /* Nomad Mu-miyah */
      , (8548, 1926303770, 756089088, 82.7472, 174.095, 50.9975, 0.999993, 0, 0, -0.00381166) /* Magic trap */
      , (2131, 1926303769, 756089088, 85.1207, 174.178, 49.66, 0.999993, 0, 0, -0.00375851) /* Pressure Plate */
@@ -28,32 +28,32 @@ VALUES (8431, 1926303744, 756089088, 83.9663, 172.682, 49.6615, -0.0194307, 0, 0
      , (7107, 1926303785, 756088832, 107.651, 157.718, 60.062, -0.599365, 0, 0, -0.800476) /* Wasteland Rat */
      , (7117, 1926303782, 756088832, 105.703, 150.743, 56.0065, -0.177417, 0, 0, -0.984136) /* Guardian Mu-miyah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1926303749'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1926303770'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1926303771'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1926303749'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1926303770'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1926303771'; /* Magic trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303750'; /* linkmonstergen3minutes <- Garaena the Emissary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303762'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303744'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303786'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303772'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303788'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303787'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303784'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303789'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303780'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303785'; /* linkmonstergen3minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303781'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303774'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303773'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303783'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303782'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303777'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303779'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303776'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303775'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303778'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1926303790'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1926303768'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1926303769'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303750'; /* linkmonstergen3minutes <- Garaena the Emissary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303762'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303744'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303786'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303772'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303788'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303787'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303784'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303789'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303780'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303785'; /* linkmonstergen3minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303781'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303774'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303773'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303783'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303782'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303777'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303779'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303776'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303775'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303778'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1926303790'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1926303768'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1926303769'; /* Magic trap <- Pressure Plate */
 

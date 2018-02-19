@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (419, 2089152512, 3361669120, 32.2997, 91.5308, 5.105, -0.8792, 0, 0, 0.476453) /* itemclothing-generator */
      , (1622, 2089152513, 3361669120, 62.8767, 28.8453, 5.11, 0.158336, 0, 0, 0.987385) /* Mire Phyntos Wasp */
      , (1622, 2089152514, 3361669120, 63.8548, 26.4105, 5.11, 0.773284, 0, 0, 0.634059) /* Mire Phyntos Wasp */
@@ -11,10 +11,10 @@ VALUES (419, 2089152512, 3361669120, 32.2997, 91.5308, 5.105, -0.8792, 0, 0, 0.4
      , (903, 2089152521, 3361669120, 31.6439, 92.1821, 6.34888, -0.712049, 0, 0, -0.702129) /* phyntoswaspbluegen */
      , (4009, 2089152522, 3361669120, 62.1785, 27.4347, 5.105, -0.728408, 0, 0, 0.685144) /* itemlowaluwarriorgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089152517'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089152517'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089152513'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089152514'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089152515'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089152516'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089152513'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089152514'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089152515'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089152516'; /* linkmonstergen <- Mire Phyntos Wasp */
 

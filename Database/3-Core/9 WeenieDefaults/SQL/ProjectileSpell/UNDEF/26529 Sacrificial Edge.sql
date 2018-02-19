@@ -1,16 +1,13 @@
 /* Weenie - Sacrificial Edge (26529) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26529;
+DELETE FROM weenie WHERE class_Id = 26529;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26529, 'sacrificialedge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26529, 'sacrificialedge', /* ProjectileSpell_WeenieType */ 33);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26529, 0, 26529);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26529, 1, 'Sacrificial Edge') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26529, 1, 33558626) /* SETUP_DID */
      , (26529, 3, 536870971) /* SOUND_TABLE_DID */
      , (26529, 30, 89) /* PHYSICS_SCRIPT_DID */
@@ -20,20 +17,19 @@ VALUES (26529, 1, 33558626) /* SETUP_DID */
      , (26529, 8, 100667494) /* ICON_DID */
      , (26529, 28, 3122) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26529, 66, 0) /* CHECKPOINT_STATUS_INT */
      , (26529, 3, 39) /* PALETTE_TEMPLATE_INT */
      , (26529, 8, 25) /* MASS_INT */
      , (26529, 9, 0) /* LOCATIONS_INT */
-     , (26529, 93, 133140) /* PHYSICS_STATE_INT */
-     , (26529, 9007, 33) /* ProjectileSpell_WeenieType */;
+     , (26529, 93, 133140) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26529, 78, 1) /* FRICTION_FLOAT */
      , (26529, 79, 0) /* ELASTICITY_FLOAT */
      , (26529, 26, 3) /* MAXIMUM_VELOCITY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26529, 17, True) /* INELASTIC_BOOL */
      , (26529, 1, True) /* STUCK_BOOL */
      , (26529, 14, False) /* GRAVITY_STATUS_BOOL */

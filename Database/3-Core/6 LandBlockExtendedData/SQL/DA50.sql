@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (383, 2107965451, 3662676226, 36.3507, 30.7255, 34.505, -0.73354, 0, 0, 0.679647) /* mosswart-generator */
      , (892, 2107965446, 3662676228, 35.9777, 30.4785, 30.805, 0.121135, 0, 0, 0.992636) /* drudgeprowlergen */
      , (383, 2107965447, 3662676230, 41.7545, 35.5318, 30.805, 0.641486, 0, 0, 0.767135) /* mosswart-generator */

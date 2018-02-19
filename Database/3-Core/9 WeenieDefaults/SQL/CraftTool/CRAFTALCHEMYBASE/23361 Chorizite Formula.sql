@@ -1,18 +1,15 @@
 /* Weenie - Chorizite Formula (23361) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23361;
+DELETE FROM weenie WHERE class_Id = 23361;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23361, 'choriziteformula');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23361, 'choriziteformula', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23361, 0, 23361);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23361, 16, 'A small bottle of distilled Chorizite formula.') /* LONG_DESC_STRING */
      , (23361, 1, 'Chorizite Formula') /* NAME_STRING */
      , (23361, 14, 'Use this formula on a reinforced shield to transfer the properties of the formula to the shield.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23361, 1, 33555965) /* SETUP_DID */
      , (23361, 3, 536870932) /* SOUND_TABLE_DID */
      , (23361, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23361, 1, 33555965) /* SETUP_DID */
      , (23361, 7, 268435814) /* CLOTHINGBASE_DID */
      , (23361, 8, 100670737) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23361, 9, 0) /* LOCATIONS_INT */
      , (23361, 1, 8388608) /* ITEM_TYPE_INT */
      , (23361, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,10 +33,9 @@ VALUES (23361, 9, 0) /* LOCATIONS_INT */
      , (23361, 93, 1044) /* PHYSICS_STATE_INT */
      , (23361, 94, 128) /* TARGET_TYPE_INT */
      , (23361, 33, 1) /* BONDED_INT */
-     , (23361, 114, 1) /* ATTUNED_INT */
-     , (23361, 9007, 44) /* CraftTool_WeenieType */;
+     , (23361, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23361, 69, False) /* IS_SELLABLE_BOOL */
      , (23361, 22, True) /* INSCRIBABLE_BOOL */
      , (23361, 23, True) /* DESTROY_ON_SELL_BOOL */;

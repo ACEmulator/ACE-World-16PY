@@ -1,19 +1,16 @@
 /* Weenie - Blue Armor Paint (25815) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25815;
+DELETE FROM weenie WHERE class_Id = 25815;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25815, 'dyegsxblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25815, 'dyegsxblue', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25815, 0, 25815);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25815, 16, 'This paint has been modified from normal dye to be applied to the new sharded shadow armor.') /* LONG_DESC_STRING */
      , (25815, 1, 'Blue Armor Paint') /* NAME_STRING */
      , (25815, 20, 'Blue Armor Paints') /* PLURAL_NAME_STRING */
      , (25815, 14, 'Use this on any uncolored version of new sharded Greater Shadow Armor to change the color of the armor from gold to blue.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25815, 1, 33556751) /* SETUP_DID */
      , (25815, 3, 536870932) /* SOUND_TABLE_DID */
      , (25815, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (25815, 1, 33556751) /* SETUP_DID */
      , (25815, 7, 268436034) /* CLOTHINGBASE_DID */
      , (25815, 8, 100675654) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25815, 9, 0) /* LOCATIONS_INT */
      , (25815, 1, 67108864) /* ITEM_TYPE_INT */
      , (25815, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,10 +35,9 @@ VALUES (25815, 9, 0) /* LOCATIONS_INT */
      , (25815, 151, 9) /* HOOK_TYPE_INT */
      , (25815, 93, 1044) /* PHYSICS_STATE_INT */
      , (25815, 94, 134) /* TARGET_TYPE_INT */
-     , (25815, 33, 1) /* BONDED_INT */
-     , (25815, 9007, 44) /* CraftTool_WeenieType */;
+     , (25815, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25815, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (25815, 22, True) /* INSCRIBABLE_BOOL */;
 

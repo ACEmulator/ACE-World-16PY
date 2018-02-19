@@ -1,18 +1,15 @@
 /* Weenie - Swamp Gem (3713) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3713;
+DELETE FROM weenie WHERE class_Id = 3713;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3713, 'gemswamp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3713, 'gemswamp', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3713, 0, 3713);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3713, 16, 'Swamp Gem of Quickness.') /* LONG_DESC_STRING */
      , (3713, 1, 'Swamp Gem') /* NAME_STRING */
      , (3713, 15, 'Swamp Gem') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3713, 1, 33554809) /* SETUP_DID */
      , (3713, 3, 536870932) /* SOUND_TABLE_DID */
      , (3713, 28, 1405) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (3713, 1, 33554809) /* SETUP_DID */
      , (3713, 7, 268435723) /* CLOTHINGBASE_DID */
      , (3713, 8, 100673968) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3713, 9, 0) /* LOCATIONS_INT */
      , (3713, 1, 2048) /* ITEM_TYPE_INT */
      , (3713, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -42,9 +39,8 @@ VALUES (3713, 9, 0) /* LOCATIONS_INT */
      , (3713, 107, 30) /* ITEM_CUR_MANA_INT */
      , (3713, 108, 30) /* ITEM_MAX_MANA_INT */
      , (3713, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (3713, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (3713, 9007, 38) /* Gem_WeenieType */;
+     , (3713, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3713, 22, True) /* INSCRIBABLE_BOOL */;
 

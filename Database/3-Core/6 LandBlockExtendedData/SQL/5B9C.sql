@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9678, 1975107584, 1536950272, 112.571, 116.807, 14.005, -0.662645, 0, 0, -0.748933) /* Abia bint Huda the Archmage */
      , (9677, 1975107585, 1536950272, 114.075, 138.161, 14.005, 0.262741, 0, 0, 0.964866) /* Greta Danby the Bowyer */
      , (9679, 1975107586, 1536950272, 84.0402, 159.153, 29.205, -0.251157, 0, 0, 0.967946) /* Weaponsmith Hideo Sasaki */
@@ -14,11 +14,11 @@ VALUES (9678, 1975107584, 1536950272, 112.571, 116.807, 14.005, -0.662645, 0, 0,
      , (27555, 1975107596, 1536950272, 109.207, 146.662, 14.005, 0.0195611, 0, 0, -0.999809) /* Pricilla the Healer */
      , (28924, 1975107597, 1536950272, 86.925, 124.774, 14.005, -0.725597, 0, 0, 0.68812) /* Journeyman Fletcher */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1975107588'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1975107593'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1975107588'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1975107593'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107587'; /* linkmonstergen <- Gunther Danby */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1975107589'; /* linkmonstergen <- Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107597'; /* linkmonstergen3minutes <- Journeyman Fletcher */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1975107592'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975107587'; /* linkmonstergen <- Gunther Danby */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1975107589'; /* linkmonstergen <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975107597'; /* linkmonstergen3minutes <- Journeyman Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1975107592'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

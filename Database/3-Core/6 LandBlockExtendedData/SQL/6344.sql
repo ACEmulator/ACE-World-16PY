@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4454, 1983135744, 1665401098, 10, -5.25, 0.005, 1, 0, 0, 0) /* Door */
      , (24000, 1983135745, 1665401098, 10, -7.5, 0.012, 0, 0, 0, -1) /* Diamond Guardian */
      , (4454, 1983135746, 1665401100, 10, -34.75, 0.005, 0, 0, 0, -1) /* Door */
@@ -26,25 +26,25 @@ VALUES (4454, 1983135744, 1665401098, 10, -5.25, 0.005, 1, 0, 0, 0) /* Door */
      , (127, 1983135768, 1665401121, 27.1295, -99.5792, 0.005, 0.610099, 0, 0, 0.792325) /* Pants */
      , (365, 1983135769, 1665401121, 25.3094, -99.1053, 0.079, 0.692836, 0, 0, -0.721095) /* Parchment */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1983135752'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1983135753'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983135752'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983135753'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135764'; /* linkitemgen10seconds <- Mead */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135755'; /* linkitemgen10seconds <- Kite Shield */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135756'; /* linkitemgen10seconds <- Platemail Cuirass */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135757'; /* linkitemgen10seconds <- Long Sword */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135758'; /* linkitemgen10seconds <- Silifi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135759'; /* linkitemgen10seconds <- Sollerets */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135765'; /* linkitemgen10seconds <- Apple */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135766'; /* linkitemgen10seconds <- Book */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135767'; /* linkitemgen10seconds <- Shirt */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135768'; /* linkitemgen10seconds <- Pants */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135760'; /* linkitemgen10seconds <- Honey */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135761'; /* linkitemgen10seconds <- Apple */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135762'; /* linkitemgen10seconds <- Parchment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135763'; /* linkitemgen10seconds <- Ale */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983135769'; /* linkitemgen10seconds <- Parchment */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1983135751'; /* linkmonstergen3minutes <- Diamond Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1983135748'; /* linkmonstergen3minutes <- Diamond Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1983135745'; /* linkmonstergen3minutes <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135764'; /* linkitemgen10seconds <- Mead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135755'; /* linkitemgen10seconds <- Kite Shield */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135756'; /* linkitemgen10seconds <- Platemail Cuirass */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135757'; /* linkitemgen10seconds <- Long Sword */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135758'; /* linkitemgen10seconds <- Silifi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135759'; /* linkitemgen10seconds <- Sollerets */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135765'; /* linkitemgen10seconds <- Apple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135766'; /* linkitemgen10seconds <- Book */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135767'; /* linkitemgen10seconds <- Shirt */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135768'; /* linkitemgen10seconds <- Pants */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135760'; /* linkitemgen10seconds <- Honey */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135761'; /* linkitemgen10seconds <- Apple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135762'; /* linkitemgen10seconds <- Parchment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135763'; /* linkitemgen10seconds <- Ale */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983135769'; /* linkitemgen10seconds <- Parchment */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135751'; /* linkmonstergen3minutes <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135748'; /* linkmonstergen3minutes <- Diamond Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983135745'; /* linkmonstergen3minutes <- Diamond Guardian */
 

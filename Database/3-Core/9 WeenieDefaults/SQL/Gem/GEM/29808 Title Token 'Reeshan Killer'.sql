@@ -1,17 +1,14 @@
 /* Weenie - Title Token 'Reeshan Killer' (29808) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29808;
+DELETE FROM weenie WHERE class_Id = 29808;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29808, 'tokenreeshankiller');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29808, 'tokenreeshankiller', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29808, 0, 29808);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29808, 1, 'Title Token ''Reeshan Killer''') /* NAME_STRING */
      , (29808, 15, 'You may turn this token in to Guard Ellyon in Cragstone to change your title to ''Reeshan Killer''.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29808, 1, 33557280) /* SETUP_DID */
      , (29808, 3, 536870932) /* SOUND_TABLE_DID */
      , (29808, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (29808, 1, 33557280) /* SETUP_DID */
      , (29808, 7, 268436298) /* CLOTHINGBASE_DID */
      , (29808, 8, 100677157) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29808, 9, 0) /* LOCATIONS_INT */
      , (29808, 1, 2048) /* ITEM_TYPE_INT */
      , (29808, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,9 +31,8 @@ VALUES (29808, 9, 0) /* LOCATIONS_INT */
      , (29808, 19, 0) /* VALUE_INT */
      , (29808, 93, 1044) /* PHYSICS_STATE_INT */
      , (29808, 33, 1) /* BONDED_INT */
-     , (29808, 114, 1) /* ATTUNED_INT */
-     , (29808, 9007, 38) /* Gem_WeenieType */;
+     , (29808, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29808, 22, True) /* INSCRIBABLE_BOOL */;
 

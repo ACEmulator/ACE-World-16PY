@@ -1,18 +1,15 @@
 /* Weenie - Crossbow Tattoo (22554) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22554;
+DELETE FROM weenie WHERE class_Id = 22554;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22554, 'tattoocrossbow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22554, 'tattoocrossbow', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22554, 0, 22554);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22554, 16, 'A vial of tattoo ink infused with the power of raining death. When painted on the upper arms the ink will act as armor and will grant the wearer the power of raining death.') /* LONG_DESC_STRING */
      , (22554, 1, 'Crossbow Tattoo') /* NAME_STRING */
      , (22554, 15, 'A vial of tattoo ink used to draw crossbow tattoos.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22554, 1, 33554641) /* SETUP_DID */
      , (22554, 3, 536870932) /* SOUND_TABLE_DID */
      , (22554, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (22554, 1, 33554641) /* SETUP_DID */
      , (22554, 8, 100668172) /* ICON_DID */
      , (22554, 50, 100673762) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22554, 9, 2048) /* LOCATIONS_INT */
      , (22554, 1, 2) /* ITEM_TYPE_INT */
      , (22554, 27, 1) /* ARMOR_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (22554, 9, 2048) /* LOCATIONS_INT */
      , (22554, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (22554, 107, 1200) /* ITEM_CUR_MANA_INT */
      , (22554, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (22554, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (22554, 9007, 2) /* Clothing_WeenieType */;
+     , (22554, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22554, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22554, 5, -0.1) /* MANA_RATE_FLOAT */
      , (22554, 12, 0.33) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (22554, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22554, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22554, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22554, 22, True) /* INSCRIBABLE_BOOL */
      , (22554, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22554, 1485, 2) /* Impenetrability5_SpellID */
      , (22554, 2688, 2) /* ModerateCrossbowAptitude_SpellID */
      , (22554, 1384, 2) /* CoordinationOther6_SpellID */

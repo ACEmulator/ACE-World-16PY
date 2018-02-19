@@ -1,16 +1,13 @@
 /* Weenie - Auroch Cow (181) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 181;
+DELETE FROM weenie WHERE class_Id = 181;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (181, 'aurochcow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (181, 'aurochcow', /* Cow_WeenieType */ 15);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (181, 0, 181);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (181, 1, 'Auroch Cow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (181, 1, 33555220) /* SETUP_DID */
      , (181, 2, 150994969) /* MOTION_TABLE_DID */
      , (181, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (181, 1, 33555220) /* SETUP_DID */
      , (181, 8, 100667936) /* ICON_DID */
      , (181, 22, 872415254) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (181, 1, 16) /* ITEM_TYPE_INT */
      , (181, 2, 11) /* CREATURE_TYPE_INT */
      , (181, 67, 64) /* TOLERANCE_INT */
@@ -33,10 +30,9 @@ VALUES (181, 1, 16) /* ITEM_TYPE_INT */
      , (181, 25, 9) /* LEVEL_INT */
      , (181, 27, 0) /* ARMOR_TYPE_INT */
      , (181, 93, 1032) /* PHYSICS_STATE_INT */
-     , (181, 40, 2) /* COMBAT_MODE_INT */
-     , (181, 9007, 15) /* Cow_WeenieType */;
+     , (181, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (181, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (181, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (181, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -68,26 +64,26 @@ VALUES (181, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (181, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (181, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (181, 1, True) /* STUCK_BOOL */
      , (181, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (181, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (181, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (181, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (181, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (181, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (181, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (181, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (181, 32, 30) /* SELF_ATTRIBUTE */;
+     , (181, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (181, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (181, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (181, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (181, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (181, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (181, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (181, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (181, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (181, 9, 20857, 0, 0, 0.03, False) /* Create Cooking Stamp for ContainTreasure_DestinationType */
      , (181, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

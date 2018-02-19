@@ -1,18 +1,15 @@
 /* Weenie - Citadel Portal Gem (21391) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21391;
+DELETE FROM weenie WHERE class_Id = 21391;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21391, 'gemportalcitadel');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21391, 'gemportalcitadel', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21391, 0, 21391);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21391, 1, 'Citadel Portal Gem') /* NAME_STRING */
      , (21391, 14, 'Double Click on this portal gem to transport yourself to the Citadel Surface.') /* USE_STRING */
      , (21391, 15, 'A gem teeming with portal energy. ') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21391, 1, 33556769) /* SETUP_DID */
      , (21391, 3, 536870932) /* SOUND_TABLE_DID */
      , (21391, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (21391, 1, 33556769) /* SETUP_DID */
      , (21391, 8, 100673478) /* ICON_DID */
      , (21391, 28, 2796) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21391, 9, 0) /* LOCATIONS_INT */
      , (21391, 1, 2048) /* ITEM_TYPE_INT */
      , (21391, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -43,13 +40,12 @@ VALUES (21391, 9, 0) /* LOCATIONS_INT */
      , (21391, 108, 70) /* ITEM_MAX_MANA_INT */
      , (21391, 109, 10) /* ITEM_DIFFICULTY_INT */
      , (21391, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (21391, 114, 1) /* ATTUNED_INT */
-     , (21391, 9007, 38) /* Gem_WeenieType */;
+     , (21391, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21391, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21391, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (21391, 15, True) /* LIGHTS_STATUS_BOOL */
      , (21391, 22, True) /* INSCRIBABLE_BOOL */;

@@ -1,19 +1,16 @@
 /* Weenie - Tonk Totem (11236) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11236;
+DELETE FROM weenie WHERE class_Id = 11236;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11236, 'boonobject5-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11236, 'boonobject5-xp', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11236, 0, 11236);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11236, 16, 'A small clay totem of a Tumerok. You recognize this item as a traditional Tumerok spell fetish. It can be attached to several different items, each with their own unique use. Alternately, it can be turned into the Tah of Timaru for a reward.') /* LONG_DESC_STRING */
      , (11236, 1, 'Tonk Totem') /* NAME_STRING */
      , (11236, 14, 'This item can be used on other objects, but choose carefully...') /* USE_STRING */
      , (11236, 15, 'A small clay totem of a Tumerok.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11236, 1, 33555677) /* SETUP_DID */
      , (11236, 3, 536870932) /* SOUND_TABLE_DID */
      , (11236, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (11236, 1, 33555677) /* SETUP_DID */
      , (11236, 7, 268436111) /* CLOTHINGBASE_DID */
      , (11236, 8, 100671985) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11236, 9, 0) /* LOCATIONS_INT */
      , (11236, 1, 128) /* ITEM_TYPE_INT */
      , (11236, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,13 +34,12 @@ VALUES (11236, 9, 0) /* LOCATIONS_INT */
      , (11236, 93, 1044) /* PHYSICS_STATE_INT */
      , (11236, 94, 128) /* TARGET_TYPE_INT */
      , (11236, 33, 1) /* BONDED_INT */
-     , (11236, 114, 1) /* ATTUNED_INT */
-     , (11236, 9007, 44) /* CraftTool_WeenieType */;
+     , (11236, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11236, 39, 1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11236, 22, True) /* INSCRIBABLE_BOOL */
      , (11236, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

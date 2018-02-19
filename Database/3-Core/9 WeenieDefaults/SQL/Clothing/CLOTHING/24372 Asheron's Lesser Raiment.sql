@@ -1,17 +1,14 @@
 /* Weenie - Asheron's Lesser Raiment (24372) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24372;
+DELETE FROM weenie WHERE class_Id = 24372;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24372, 'raimentasheronlowfocus');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24372, 'raimentasheronlowfocus', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24372, 0, 24372);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24372, 16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LONG_DESC_STRING */
      , (24372, 1, 'Asheron''s Lesser Raiment') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24372, 1, 33554854) /* SETUP_DID */
      , (24372, 3, 536870932) /* SOUND_TABLE_DID */
      , (24372, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (24372, 1, 33554854) /* SETUP_DID */
      , (24372, 7, 268436640) /* CLOTHINGBASE_DID */
      , (24372, 8, 100667370) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24372, 9, 222) /* LOCATIONS_INT */
      , (24372, 1, 4) /* ITEM_TYPE_INT */
      , (24372, 27, 1) /* ARMOR_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (24372, 9, 222) /* LOCATIONS_INT */
      , (24372, 106, 250) /* ITEM_SPELLCRAFT_INT */
      , (24372, 107, 800) /* ITEM_CUR_MANA_INT */
      , (24372, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (24372, 109, 80) /* ITEM_DIFFICULTY_INT */
-     , (24372, 9007, 2) /* Clothing_WeenieType */;
+     , (24372, 109, 80) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24372, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24372, 5, -0.025) /* MANA_RATE_FLOAT */
      , (24372, 12, 0.33) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (24372, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24372, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (24372, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24372, 100, True) /* DYABLE_BOOL */
      , (24372, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24372, 1431, 2) /* FocusOther5_SpellID */
      , (24372, 1142, 2) /* PiercingProtectionOther4_SpellID */;
 

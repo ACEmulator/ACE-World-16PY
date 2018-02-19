@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7124, 1969508352, 1447362817, 76.6764, -93.9312, -53.9917, -0.941695, 0, 0, 0.336468) /* Dark Magus */
      , (5748, 1969508354, 1447362818, 84.5425, -98.1546, -53.995, 0.966415, 0, 0, -0.256988) /* Fire Wisp */
      , (7124, 1969508355, 1447362819, 85.096, -78.6674, -53.945, 0.985229, 0, 0, -0.17124) /* Dark Magus */
@@ -130,133 +130,133 @@ VALUES (7124, 1969508352, 1447362817, 76.6764, -93.9312, -53.9917, -0.941695, 0,
      , (619, 1969508478, 1447363139, 106.64, -87.2046, 0.00825, -0.446087, 0, 0, 0.89499) /* Revenant */
      , (619, 1969508479, 1447363139, 107.242, -93.9261, 0.00825, -0.991114, 0, 0, 0.133013) /* Revenant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969508477'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1969508443'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1969508454'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1969508404'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1969508433'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1969508386'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1969508374'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1969508357'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969508477'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1969508443'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1969508454'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1969508404'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1969508433'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1969508386'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1969508374'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1969508357'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508470'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508465'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508466'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508471'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508472'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508462'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508463'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508468'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508479'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508478'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508424'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508423'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508426'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508425'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508415'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508427'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508407'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508416'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508405'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508408'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508418'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508417'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508409'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508406'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508411'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508410'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508413'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508412'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508434'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508403'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508402'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508435'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508395'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508394'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508397'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508396'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508399'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508398'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508401'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508400'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508388'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508387'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508390'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508389'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508392'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508391'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508381'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508380'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508383'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508382'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508375'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508384'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508377'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508376'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508379'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508378'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508367'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508366'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508369'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508368'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508371'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508370'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508385'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508373'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508356'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508355'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508352'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508363'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508365'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508354'; /* linkmonstergen3minutes <- Fire Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508474'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508476'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508475'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508464'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508469'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508467'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508461'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508473'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508453'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508442'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508445'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508444'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508447'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508446'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508460'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508448'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508436'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508459'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508440'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508437'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508456'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508439'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508451'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508457'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508458'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508452'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508438'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508441'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508421'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508455'; /* linkmonstergen3minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508422'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508430'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508429'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508431'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508419'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508420'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969508432'; /* linkmonstergen3minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969508450'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1969508449'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1969508414'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1969508428'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1969508393'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1969508489'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1969508372'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1969508488'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1969508482'; /* linkitemgen25seconds <- Deteriorated Aegis */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1969508484'; /* linkitemgen25seconds <- Deteriorated Aegis */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1969508483'; /* linkitemgen25seconds <- Deteriorated Aegis */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1969508486'; /* linkitemgen25seconds <- Deteriorated Aegis */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1969508485'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508470'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508465'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508466'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508471'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508472'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508462'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508463'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508468'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508479'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508478'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508424'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508423'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508426'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508425'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508415'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508427'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508407'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508416'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508405'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508408'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508418'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508417'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508409'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508406'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508411'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508410'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508413'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508412'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508434'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508403'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508402'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508435'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508395'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508394'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508397'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508396'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508399'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508398'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508401'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508400'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508388'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508387'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508390'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508389'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508392'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508391'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508381'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508380'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508383'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508382'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508375'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508384'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508377'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508376'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508379'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508378'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508367'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508366'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508369'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508368'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508371'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508370'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508385'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508373'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508356'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508355'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508352'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508363'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508365'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508354'; /* linkmonstergen3minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508474'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508476'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508475'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508464'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508469'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508467'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508461'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508473'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508453'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508442'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508445'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508444'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508447'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508446'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508460'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508448'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508436'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508459'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508440'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508437'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508456'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508439'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508451'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508457'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508458'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508452'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508438'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508441'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508421'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508455'; /* linkmonstergen3minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508422'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508430'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508429'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508431'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508419'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508420'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969508432'; /* linkmonstergen3minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969508450'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1969508449'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1969508414'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1969508428'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1969508393'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1969508489'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1969508372'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1969508488'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508482'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508484'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508483'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508486'; /* linkitemgen25seconds <- Deteriorated Aegis */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1969508485'; /* linkitemgen25seconds <- Deteriorated Aegis */
 

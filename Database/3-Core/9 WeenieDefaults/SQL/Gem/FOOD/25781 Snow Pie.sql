@@ -1,18 +1,15 @@
 /* Weenie - Snow Pie (25781) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25781;
+DELETE FROM weenie WHERE class_Id = 25781;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25781, 'snowpie');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25781, 'snowpie', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25781, 0, 25781);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25781, 16, 'A frozen pie that seems to be primarily made from snow. It looks oddly delicious.') /* LONG_DESC_STRING */
      , (25781, 1, 'Snow Pie') /* NAME_STRING */
      , (25781, 14, 'this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25781, 1, 33558523) /* SETUP_DID */
      , (25781, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (25781, 3, 536870932) /* SOUND_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (25781, 1, 33558523) /* SETUP_DID */
      , (25781, 8, 100675514) /* ICON_DID */
      , (25781, 28, 2991) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25781, 1, 32) /* ITEM_TYPE_INT */
      , (25781, 11, 1) /* MAX_STACK_SIZE_INT */
      , (25781, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -43,10 +40,9 @@ VALUES (25781, 1, 32) /* ITEM_TYPE_INT */
      , (25781, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (25781, 107, 50) /* ITEM_CUR_MANA_INT */
      , (25781, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (25781, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (25781, 9007, 38) /* Gem_WeenieType */;
+     , (25781, 109, 0) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25781, 22, True) /* INSCRIBABLE_BOOL */
      , (25781, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

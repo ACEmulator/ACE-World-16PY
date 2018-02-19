@@ -1,16 +1,13 @@
 /* Weenie - Desert Rabbit (5429) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5429;
+DELETE FROM weenie WHERE class_Id = 5429;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5429, 'rabbitdesert');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5429, 'rabbitdesert', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5429, 0, 5429);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5429, 1, 'Desert Rabbit') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5429, 1, 33555579) /* SETUP_DID */
      , (5429, 2, 150995042) /* MOTION_TABLE_DID */
      , (5429, 3, 536870973) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (5429, 1, 33555579) /* SETUP_DID */
      , (5429, 7, 268435725) /* CLOTHINGBASE_DID */
      , (5429, 8, 100669116) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5429, 1, 16) /* ITEM_TYPE_INT */
      , (5429, 2, 25) /* CREATURE_TYPE_INT */
      , (5429, 67, 64) /* TOLERANCE_INT */
@@ -38,10 +35,9 @@ VALUES (5429, 1, 16) /* ITEM_TYPE_INT */
      , (5429, 27, 0) /* ARMOR_TYPE_INT */
      , (5429, 93, 1032) /* PHYSICS_STATE_INT */
      , (5429, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (5429, 40, 2) /* COMBAT_MODE_INT */
-     , (5429, 9007, 10) /* Creature_WeenieType */;
+     , (5429, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5429, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5429, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (5429, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,26 +72,26 @@ VALUES (5429, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5429, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5429, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5429, 1, True) /* STUCK_BOOL */
      , (5429, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5429, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5429, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5429, 1, 10) /* STRENGTH_ATTRIBUTE */
      , (5429, 2, 10) /* ENDURANCE_ATTRIBUTE */
      , (5429, 4, 10) /* COORDINATION_ATTRIBUTE */
-     , (5429, 8, 10) /* QUICKNESS_ATTRIBUTE */
-     , (5429, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (5429, 32, 10) /* SELF_ATTRIBUTE */;
+     , (5429, 3, 10) /* QUICKNESS_ATTRIBUTE */
+     , (5429, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (5429, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5429, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5429, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5429, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5429, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5429, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5429, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5429, 9, 5633, 0, 0, 0.05, False) /* Create Rabbit Carcass for ContainTreasure_DestinationType */
      , (5429, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (5429, 9, 5803, 0, 0, 0.05, False) /* Create Oregano for ContainTreasure_DestinationType */

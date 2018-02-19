@@ -1,24 +1,21 @@
 /* Weenie - Cinnamon Bark (5780) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5780;
+DELETE FROM weenie WHERE class_Id = 5780;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5780, 'cinnamonbark');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5780, 'cinnamonbark', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5780, 0, 5780);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5780, 1, 'Cinnamon Bark') /* NAME_STRING */
      , (5780, 20, 'Pieces of Cinnamon Bark') /* PLURAL_NAME_STRING */
      , (5780, 14, 'This item is used in cooking.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5780, 1, 33554698) /* SETUP_DID */
      , (5780, 3, 536870932) /* SOUND_TABLE_DID */
      , (5780, 8, 100670296) /* ICON_DID */
      , (5780, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5780, 9, 0) /* LOCATIONS_INT */
      , (5780, 1, 4194304) /* ITEM_TYPE_INT */
      , (5780, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -31,12 +28,11 @@ VALUES (5780, 9, 0) /* LOCATIONS_INT */
      , (5780, 16, 524296) /* ITEM_USEABLE_INT */
      , (5780, 19, 5) /* VALUE_INT */
      , (5780, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5780, 94, 4194336) /* TARGET_TYPE_INT */
-     , (5780, 9007, 44) /* CraftTool_WeenieType */;
+     , (5780, 94, 4194336) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5780, 39, 0.3) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5780, 69, False) /* IS_SELLABLE_BOOL */;
 

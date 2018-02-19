@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2577, 2077085696, 3168600064, 80.7535, 175.126, -0.895, -0.201833, 0, 0, -0.97942) /* Shallows Shark */
      , (2577, 2077085697, 3168600064, 81.3769, 171.228, -0.895, 0.519932, 0, 0, -0.854208) /* Shallows Shark */
      , (2577, 2077085698, 3168600064, 101.744, 170.074, -0.895, 0.687568, 0, 0, -0.72612) /* Shallows Shark */
@@ -13,18 +13,18 @@ VALUES (2577, 2077085696, 3168600064, 80.7535, 175.126, -0.895, -0.201833, 0, 0,
      , (2579, 2077085707, 3168600064, 69.66, 146.419, -0.895, 0.986242, 0, 0, -0.165309) /* Shallows Slayer */
      , (1154, 2077085708, 3168600064, 117.02, 100.47, -0.095, -0.0429888, 0, 0, -0.999076) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077085708'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2077085708'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085696'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085697'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085698'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085699'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085700'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085701'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085702'; /* linkmonstergen <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085703'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085704'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085705'; /* linkmonstergen <- Shallows Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085706'; /* linkmonstergen <- Shallows Slayer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077085707'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085696'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085697'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085698'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085699'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085700'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085701'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085702'; /* linkmonstergen <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085703'; /* linkmonstergen <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085704'; /* linkmonstergen <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085705'; /* linkmonstergen <- Shallows Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085706'; /* linkmonstergen <- Shallows Slayer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077085707'; /* linkmonstergen <- Shallows Slayer */
 

@@ -1,17 +1,14 @@
 /* Weenie - Orb of Tusker Leap (22743) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22743;
+DELETE FROM weenie WHERE class_Id = 22743;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22743, 'orbtuskerleap');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22743, 'orbtuskerleap', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22743, 0, 22743);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22743, 1, 'Orb of Tusker Leap') /* NAME_STRING */
      , (22743, 15, 'A light and slightly bouncy orb.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22743, 1, 33554669) /* SETUP_DID */
      , (22743, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (22743, 3, 536870932) /* SOUND_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (22743, 1, 33554669) /* SETUP_DID */
      , (22743, 8, 100668722) /* ICON_DID */
      , (22743, 28, 2932) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22743, 9, 16777216) /* LOCATIONS_INT */
      , (22743, 1, 32768) /* ITEM_TYPE_INT */
      , (22743, 19, 5400) /* VALUE_INT */
@@ -44,17 +41,16 @@ VALUES (22743, 9, 16777216) /* LOCATIONS_INT */
      , (22743, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (22743, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (22743, 114, 1) /* ATTUNED_INT */
-     , (22743, 115, 245) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (22743, 9007, 35) /* Caster_WeenieType */;
+     , (22743, 115, 245) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22743, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (22743, 5, -0.05) /* MANA_RATE_FLOAT */
      , (22743, 39, 1.3) /* DEFAULT_SCALE_FLOAT */
      , (22743, 12, 0.6) /* SHADE_FLOAT */
      , (22743, 76, 0.4) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22743, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (22743, 15, True) /* LIGHTS_STATUS_BOOL */
      , (22743, 22, True) /* INSCRIBABLE_BOOL */;

@@ -1,22 +1,19 @@
 /* Weenie - Tusker's Friend (22752) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22752;
+DELETE FROM weenie WHERE class_Id = 22752;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22752, 'hotspot-portaltuskeremporium');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22752, 'hotspot-portaltuskeremporium', /* PressurePlate_WeenieType */ 24);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22752, 0, 22752);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22752, 1, 'Tusker''s Friend') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22752, 1, 33555536) /* SETUP_DID */
      , (22752, 2, 150994977) /* MOTION_TABLE_DID */
      , (22752, 8, 100668114) /* ICON_DID */
      , (22752, 23, 149) /* USE_SOUND_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22752, 9, 0) /* LOCATIONS_INT */
      , (22752, 1, 128) /* ITEM_TYPE_INT */
      , (22752, 93, 1036) /* PHYSICS_STATE_INT */
@@ -27,13 +24,12 @@ VALUES (22752, 9, 0) /* LOCATIONS_INT */
      , (22752, 83, 2048) /* ACTIVATION_RESPONSE_INT */
      , (22752, 19, 1000) /* VALUE_INT */
      , (22752, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (22752, 119, 1) /* ACTIVE_INT */
-     , (22752, 9007, 24) /* PressurePlate_WeenieType */;
+     , (22752, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22752, 11, 2) /* RESET_INTERVAL_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22752, 1, True) /* STUCK_BOOL */
      , (22752, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (22752, 12, True) /* REPORT_COLLISIONS_BOOL */

@@ -1,26 +1,23 @@
 /* Weenie - A Rolling Ball (24154) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24154;
+DELETE FROM weenie WHERE class_Id = 24154;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24154, 'npcinvisibleoswaldballa');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24154, 'npcinvisibleoswaldballa', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24154, 0, 24154);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24154, 1, 'A Rolling Ball') /* NAME_STRING */
      , (24154, 3, 'Male') /* SEX_STRING */
      , (24154, 4, 'Sho') /* HERITAGE_GROUP_STRING */
      , (24154, 5, 'Invisible Event Controller') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24154, 1, 33554433) /* SETUP_DID */
      , (24154, 2, 150994945) /* MOTION_TABLE_DID */
      , (24154, 3, 536870913) /* SOUND_TABLE_DID */
      , (24154, 4, 805306368) /* COMBAT_TABLE_DID */
      , (24154, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24154, 1, 16) /* ITEM_TYPE_INT */
      , (24154, 146, 1894) /* XP_OVERRIDE_INT */
      , (24154, 2, 31) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (24154, 1, 16) /* ITEM_TYPE_INT */
      , (24154, 25, 28) /* LEVEL_INT */
      , (24154, 27, 0) /* ARMOR_TYPE_INT */
      , (24154, 93, 6292508) /* PHYSICS_STATE_INT */
-     , (24154, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (24154, 9007, 10) /* Creature_WeenieType */;
+     , (24154, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24154, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24154, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (24154, 1, 2) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (24154, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24154, 54, 3) /* USE_RADIUS_FLOAT */
      , (24154, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24154, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24154, 1, True) /* STUCK_BOOL */
      , (24154, 18, True) /* VISIBILITY_BOOL */
@@ -75,16 +71,16 @@ VALUES (24154, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24154, 13, True) /* ETHEREAL_BOOL */
      , (24154, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24154, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (24154, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (24154, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (24154, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (24154, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (24154, 32, 130) /* SELF_ATTRIBUTE */;
+     , (24154, 3, 75) /* QUICKNESS_ATTRIBUTE */
+     , (24154, 5, 140) /* FOCUS_ATTRIBUTE */
+     , (24154, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24154, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24154, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24154, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24154, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24154, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24154, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 

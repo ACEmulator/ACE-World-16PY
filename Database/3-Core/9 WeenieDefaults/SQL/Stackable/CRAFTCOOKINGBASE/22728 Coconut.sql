@@ -1,16 +1,13 @@
 /* Weenie - Coconut (22728) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22728;
+DELETE FROM weenie WHERE class_Id = 22728;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22728, 'coconut');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22728, 'coconut', /* Stackable_WeenieType */ 51);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22728, 0, 22728);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22728, 1, 'Coconut') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22728, 1, 33554669) /* SETUP_DID */
      , (22728, 3, 536870932) /* SOUND_TABLE_DID */
      , (22728, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (22728, 1, 33554669) /* SETUP_DID */
      , (22728, 7, 268435751) /* CLOTHINGBASE_DID */
      , (22728, 8, 100668722) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22728, 9, 0) /* LOCATIONS_INT */
      , (22728, 1, 4194304) /* ITEM_TYPE_INT */
      , (22728, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,6 +30,5 @@ VALUES (22728, 9, 0) /* LOCATIONS_INT */
      , (22728, 19, 7) /* VALUE_INT */
      , (22728, 150, 103) /* HOOK_PLACEMENT_INT */
      , (22728, 151, 2) /* HOOK_TYPE_INT */
-     , (22728, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22728, 9007, 51) /* Stackable_WeenieType */;
+     , (22728, 93, 1044) /* PHYSICS_STATE_INT */;
 

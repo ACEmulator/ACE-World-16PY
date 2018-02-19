@@ -1,16 +1,13 @@
 /* Weenie - Manuaka (10944) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10944;
+DELETE FROM weenie WHERE class_Id = 10944;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10944, 'reedsharkhunter1-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10944, 'reedsharkhunter1-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10944, 0, 10944);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10944, 1, 'Manuaka') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10944, 1, 33554489) /* SETUP_DID */
      , (10944, 2, 150994970) /* MOTION_TABLE_DID */
      , (10944, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (10944, 1, 33554489) /* SETUP_DID */
      , (10944, 7, 268435556) /* CLOTHINGBASE_DID */
      , (10944, 8, 100667939) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10944, 1, 16) /* ITEM_TYPE_INT */
      , (10944, 2, 16) /* CREATURE_TYPE_INT */
      , (10944, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (10944, 1, 16) /* ITEM_TYPE_INT */
      , (10944, 146, 20297) /* XP_OVERRIDE_INT */
      , (10944, 25, 85) /* LEVEL_INT */
      , (10944, 93, 1032) /* PHYSICS_STATE_INT */
-     , (10944, 40, 2) /* COMBAT_MODE_INT */
-     , (10944, 9007, 10) /* Creature_WeenieType */;
+     , (10944, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10944, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10944, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (10944, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,25 +66,25 @@ VALUES (10944, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10944, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10944, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10944, 1, True) /* STUCK_BOOL */
      , (10944, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (10944, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (10944, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10944, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (10944, 2, 260) /* ENDURANCE_ATTRIBUTE */
      , (10944, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (10944, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (10944, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (10944, 32, 80) /* SELF_ATTRIBUTE */;
+     , (10944, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (10944, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (10944, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10944, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10944, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10944, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10944, 1, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10944, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10944, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10944, 9, 10970, 0, 0, 1, False) /* Create Manuaka's Collar for ContainTreasure_DestinationType */;
 

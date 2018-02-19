@@ -1,17 +1,14 @@
 /* Weenie - Statue of Ualannan (28978) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28978;
+DELETE FROM weenie WHERE class_Id = 28978;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28978, 'statueualannannpc');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28978, 'statueualannannpc', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28978, 0, 28978);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28978, 1, 'Statue of Ualannan') /* NAME_STRING */
      , (28978, 15, 'A well carved statue of Ualannan. It is masterfully crafted and looks very well made. Kir Loz may know more about this.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28978, 1, 33558989) /* SETUP_DID */
      , (28978, 2, 150995147) /* MOTION_TABLE_DID */
      , (28978, 3, 536871052) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28978, 1, 33558989) /* SETUP_DID */
      , (28978, 8, 100677077) /* ICON_DID */
      , (28978, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28978, 1, 16) /* ITEM_TYPE_INT */
      , (28978, 146, 39036) /* XP_OVERRIDE_INT */
      , (28978, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (28978, 1, 16) /* ITEM_TYPE_INT */
      , (28978, 25, 427) /* LEVEL_INT */
      , (28978, 27, 0) /* ARMOR_TYPE_INT */
      , (28978, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (28978, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (28978, 9007, 10) /* Creature_WeenieType */;
+     , (28978, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28978, 64, 1) /* RESIST_SLASH_FLOAT */
      , (28978, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (28978, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (28978, 64, 1) /* RESIST_SLASH_FLOAT */
      , (28978, 54, 3) /* USE_RADIUS_FLOAT */
      , (28978, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28978, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (28978, 1, True) /* STUCK_BOOL */
      , (28978, 8, True) /* ALLOW_GIVE_BOOL */
@@ -77,16 +73,16 @@ VALUES (28978, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (28978, 19, False) /* ATTACKABLE_BOOL */
      , (28978, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28978, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (28978, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (28978, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (28978, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (28978, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (28978, 32, 285) /* SELF_ATTRIBUTE */;
+     , (28978, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (28978, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (28978, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28978, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28978, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28978, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28978, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28978, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28978, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -1,18 +1,15 @@
 /* Weenie - White Guppy (23271) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23271;
+DELETE FROM weenie WHERE class_Id = 23271;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23271, 'guppywhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23271, 'guppywhite', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23271, 0, 23271);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23271, 1, 'White Guppy') /* NAME_STRING */
      , (23271, 20, 'White Guppies') /* PLURAL_NAME_STRING */
      , (23271, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23271, 1, 33558282) /* SETUP_DID */
      , (23271, 3, 536870932) /* SOUND_TABLE_DID */
      , (23271, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23271, 1, 33558282) /* SETUP_DID */
      , (23271, 7, 268436587) /* CLOTHINGBASE_DID */
      , (23271, 8, 100674196) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23271, 9, 0) /* LOCATIONS_INT */
      , (23271, 1, 4194304) /* ITEM_TYPE_INT */
      , (23271, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -37,12 +34,11 @@ VALUES (23271, 9, 0) /* LOCATIONS_INT */
      , (23271, 151, 2) /* HOOK_TYPE_INT */
      , (23271, 89, 4) /* BOOSTER_ENUM_INT */
      , (23271, 90, 4) /* BOOST_VALUE_INT */
-     , (23271, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23271, 9007, 18) /* Food_WeenieType */;
+     , (23271, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23271, 39, 0.6) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23271, 84, True) /* IGNORE_CLO_ICONS_BOOL */;
 

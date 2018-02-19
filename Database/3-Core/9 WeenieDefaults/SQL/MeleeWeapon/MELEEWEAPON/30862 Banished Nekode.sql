@@ -1,22 +1,19 @@
 /* Weenie - Banished Nekode (30862) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30862;
+DELETE FROM weenie WHERE class_Id = 30862;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30862, 'nekodebanished');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30862, 'nekodebanished', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30862, 0, 30862);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30862, 1, 'Banished Nekode') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30862, 1, 33559254) /* SETUP_DID */
      , (30862, 3, 536870932) /* SOUND_TABLE_DID */
      , (30862, 8, 100677484) /* ICON_DID */
      , (30862, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30862, 9, 1048576) /* LOCATIONS_INT */
      , (30862, 1, 1) /* ITEM_TYPE_INT */
      , (30862, 93, 1044) /* PHYSICS_STATE_INT */
@@ -38,10 +35,9 @@ VALUES (30862, 9, 1048576) /* LOCATIONS_INT */
      , (30862, 47, 1) /* ATTACK_TYPE_INT */
      , (30862, 48, 13) /* WEAPON_SKILL_INT */
      , (30862, 49, 20) /* WEAPON_TIME_INT */
-     , (30862, 51, 1) /* COMBAT_USE_INT */
-     , (30862, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (30862, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30862, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (30862, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
      , (30862, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -50,11 +46,11 @@ VALUES (30862, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (30862, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (30862, 22, 0.7) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30862, 22, True) /* INSCRIBABLE_BOOL */
      , (30862, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30862, 2568, 2) /* CANTRIPUNARMEDAPTITUDE1_SpellID */
      , (30862, 1616, 2) /* BloodDrinker6_SpellID */;
 

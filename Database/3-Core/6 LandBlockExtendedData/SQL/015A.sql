@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1921, 1880465408, 22675718, 61.2896, -41.9028, -48, -0.942641, 0, 0, -0.333807) /* Chest */
      , (4108, 1880465409, 22675721, 62.8645, -58.6359, -47.989, -0.957728, 0, 0, -0.287674) /* Gnawer Shreth */
      , (1535, 1880465410, 22675722, 67.8428, -41.3302, -48, 0.707107, 0, 0, -0.707107) /* Ethereal Wisp */
@@ -30,29 +30,29 @@ VALUES (1921, 1880465408, 22675718, 61.2896, -41.9028, -48, -0.942641, 0, 0, -0.
      , (5085, 1880465437, 22675867, 2.05107, -38.3274, -5.995, 0.865324, 0, 0, -0.501213) /* linkitemgen25seconds */
      , (4948, 1880465438, 22675878, 2.88623, -79.1263, 0, -0.884834, 0, 0, -0.465906) /* Surface Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880465435'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880465434'; /* linknewbiemonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880465414'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880465436'; /* linkitemgen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880465437'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880465435'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880465434'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880465414'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880465436'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880465437'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880465429'; /* linkmonstergen15minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880465430'; /* linkmonstergen15minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880465426'; /* linkmonstergen15minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880465410'; /* linkmonstergen15minutes <- Ethereal Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465425'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465418'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465424'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465433'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465409'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465432'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465412'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465413'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465428'; /* linknewbiemonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465423'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465431'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880465415'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880465416'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880465420'; /* linkitemgen15minutes <- Water */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880465421'; /* linkitemgen25seconds <- Flask of Well Water */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880465429'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880465430'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880465426'; /* linkmonstergen15minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880465410'; /* linkmonstergen15minutes <- Ethereal Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465425'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465418'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465424'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465433'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465409'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465432'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465412'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465413'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465428'; /* linknewbiemonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465423'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465431'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880465415'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880465416'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880465420'; /* linkitemgen15minutes <- Water */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880465421'; /* linkitemgen25seconds <- Flask of Well Water */
 

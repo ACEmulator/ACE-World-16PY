@@ -1,18 +1,15 @@
 /* Weenie - Old Boot (23206) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23206;
+DELETE FROM weenie WHERE class_Id = 23206;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23206, 'bootleatherold');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23206, 'bootleatherold', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23206, 0, 23206);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23206, 1, 'Old Boot') /* NAME_STRING */
      , (23206, 14, 'There doesn''t seem to be any real use for this old boot.') /* USE_STRING */
      , (23206, 15, 'An old boot you caught while fishing.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23206, 1, 33558279) /* SETUP_DID */
      , (23206, 3, 536870932) /* SOUND_TABLE_DID */
      , (23206, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23206, 1, 33558279) /* SETUP_DID */
      , (23206, 7, 268436539) /* CLOTHINGBASE_DID */
      , (23206, 8, 100674230) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23206, 9, 384) /* LOCATIONS_INT */
      , (23206, 1, 2) /* ITEM_TYPE_INT */
      , (23206, 19, 15) /* VALUE_INT */
@@ -35,10 +32,9 @@ VALUES (23206, 9, 384) /* LOCATIONS_INT */
      , (23206, 28, 20) /* ARMOR_LEVEL_INT */
      , (23206, 93, 1044) /* PHYSICS_STATE_INT */
      , (23206, 44, 1) /* DAMAGE_INT */
-     , (23206, 45, 4) /* DAMAGE_TYPE_INT */
-     , (23206, 9007, 2) /* Clothing_WeenieType */;
+     , (23206, 45, 4) /* DAMAGE_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23206, 12, 0.8) /* SHADE_FLOAT */
      , (23206, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23206, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -51,7 +47,7 @@ VALUES (23206, 12, 0.8) /* SHADE_FLOAT */
      , (23206, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (23206, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23206, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (23206, 22, True) /* INSCRIBABLE_BOOL */;
 

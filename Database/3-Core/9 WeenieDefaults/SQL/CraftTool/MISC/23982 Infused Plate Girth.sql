@@ -1,18 +1,15 @@
 /* Weenie - Infused Plate Girth (23982) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23982;
+DELETE FROM weenie WHERE class_Id = 23982;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23982, 'girthknorrinfusedthaumgreen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23982, 'girthknorrinfusedthaumgreen', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23982, 0, 23982);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23982, 1, 'Infused Plate Girth') /* NAME_STRING */
      , (23982, 14, 'This girth has been infused with an unknown power, it seems unstable and cannot be worn. It must be fired in a forge of mana fires to complete.') /* USE_STRING */
      , (23982, 15, 'A once vibrant girth worn by the Order of Heiromancers teeming with an unknown power.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23982, 1, 33554669) /* SETUP_DID */
      , (23982, 3, 536870932) /* SOUND_TABLE_DID */
      , (23982, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23982, 1, 33554669) /* SETUP_DID */
      , (23982, 7, 268435968) /* CLOTHINGBASE_DID */
      , (23982, 8, 100674128) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23982, 9, 0) /* LOCATIONS_INT */
      , (23982, 1, 128) /* ITEM_TYPE_INT */
      , (23982, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,13 +33,12 @@ VALUES (23982, 9, 0) /* LOCATIONS_INT */
      , (23982, 93, 1044) /* PHYSICS_STATE_INT */
      , (23982, 94, 128) /* TARGET_TYPE_INT */
      , (23982, 33, 1) /* BONDED_INT */
-     , (23982, 114, 1) /* ATTUNED_INT */
-     , (23982, 9007, 44) /* CraftTool_WeenieType */;
+     , (23982, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23982, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23982, 69, False) /* IS_SELLABLE_BOOL */
      , (23982, 22, True) /* INSCRIBABLE_BOOL */
      , (23982, 23, True) /* DESTROY_ON_SELL_BOOL */;

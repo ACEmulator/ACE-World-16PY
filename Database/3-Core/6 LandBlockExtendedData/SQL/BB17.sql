@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12569, 2075226112, 3138846720, 100.557, 172.413, 131.488, 0.973211, 0, 0, 0.229912) /* Yukikaze  Portal */
      , (12531, 2075226113, 3138846720, 109.006, 172.432, 132.197, 0.999838, 0, 0, -0.0180118) /* North Adjamaer Cottages Portal */
      , (12506, 2075226114, 3138846720, 123.575, 164.121, 133.197, -0.873749, 0, 0, 0.486377) /* Ishilai Inlet Settlement Portal */

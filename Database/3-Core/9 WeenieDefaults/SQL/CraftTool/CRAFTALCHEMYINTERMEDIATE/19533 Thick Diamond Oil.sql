@@ -1,19 +1,16 @@
 /* Weenie - Thick Diamond Oil (19533) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19533;
+DELETE FROM weenie WHERE class_Id = 19533;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19533, 'oildiamondhigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19533, 'oildiamondhigh', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19533, 0, 19533);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19533, 16, 'A decanter of thick diamond oil.') /* LONG_DESC_STRING */
      , (19533, 1, 'Thick Diamond Oil') /* NAME_STRING */
      , (19533, 14, 'Apply this item to a high quality quality pyreal ingot.') /* USE_STRING */
      , (19533, 15, 'A decanter of thick diamond oil.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19533, 1, 33555965) /* SETUP_DID */
      , (19533, 3, 536870932) /* SOUND_TABLE_DID */
      , (19533, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (19533, 1, 33555965) /* SETUP_DID */
      , (19533, 7, 268435814) /* CLOTHINGBASE_DID */
      , (19533, 8, 100672867) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19533, 9, 0) /* LOCATIONS_INT */
      , (19533, 1, 67108864) /* ITEM_TYPE_INT */
      , (19533, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,10 +34,9 @@ VALUES (19533, 9, 0) /* LOCATIONS_INT */
      , (19533, 150, 103) /* HOOK_PLACEMENT_INT */
      , (19533, 151, 11) /* HOOK_TYPE_INT */
      , (19533, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19533, 94, 75497600) /* TARGET_TYPE_INT */
-     , (19533, 9007, 44) /* CraftTool_WeenieType */;
+     , (19533, 94, 75497600) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19533, 69, False) /* IS_SELLABLE_BOOL */
      , (19533, 22, True) /* INSCRIBABLE_BOOL */;
 

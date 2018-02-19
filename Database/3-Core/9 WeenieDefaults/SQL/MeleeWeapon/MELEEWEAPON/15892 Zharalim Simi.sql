@@ -1,17 +1,14 @@
 /* Weenie - Zharalim Simi (15892) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15892;
+DELETE FROM weenie WHERE class_Id = 15892;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15892, 'simizharalimstatuebronze');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15892, 'simizharalimstatuebronze', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15892, 0, 15892);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15892, 1, 'Zharalim Simi') /* NAME_STRING */
      , (15892, 33, 'SimiStatuePickUp') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15892, 1, 33554751) /* SETUP_DID */
      , (15892, 3, 536870932) /* SOUND_TABLE_DID */
      , (15892, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (15892, 1, 33554751) /* SETUP_DID */
      , (15892, 7, 268435766) /* CLOTHINGBASE_DID */
      , (15892, 8, 100668995) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15892, 9, 1048576) /* LOCATIONS_INT */
      , (15892, 1, 1) /* ITEM_TYPE_INT */
      , (15892, 19, 0) /* VALUE_INT */
@@ -36,17 +33,16 @@ VALUES (15892, 9, 1048576) /* LOCATIONS_INT */
      , (15892, 47, 6) /* ATTACK_TYPE_INT */
      , (15892, 48, 11) /* WEAPON_SKILL_INT */
      , (15892, 49, 300) /* WEAPON_TIME_INT */
-     , (15892, 51, 1) /* COMBAT_USE_INT */
-     , (15892, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (15892, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15892, 39, 2.1) /* DEFAULT_SCALE_FLOAT */
      , (15892, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (15892, 21, 0.68) /* WEAPON_LENGTH_FLOAT */
      , (15892, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (15892, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15892, 22, True) /* INSCRIBABLE_BOOL */
      , (15892, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

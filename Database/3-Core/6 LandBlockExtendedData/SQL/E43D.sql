@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23336, 2118373385, 3829203200, 84.7067, 138.076, 121.504, -0.869681, 0, 0, -0.493615) /* Tackle Master */
      , (5408, 2118373376, 3829202944, 74.6889, 44.0086, 70, -0.999175, 0, 0, -0.0406026) /* Waterfall */
      , (5408, 2118373377, 3829202944, 78.6572, 44.153, 70, -0.999175, 0, 0, -0.0406026) /* Waterfall */
@@ -31,26 +31,26 @@ VALUES (23336, 2118373385, 3829203200, 84.7067, 138.076, 121.504, -0.869681, 0, 
      , (22257, 2118373404, 3829202944, 100.336, 30.0654, 69.555, 0.758608, 0, 0, 0.651547) /* Fishing Hole */
      , (22257, 2118373405, 3829202944, 123.152, 26.7274, 69.555, -0.998289, 0, 0, -0.0584648) /* Fishing Hole */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2118373386'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2118373386'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373385'; /* linkmonstergen5minutes <- Tackle Master */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373387'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373388'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373389'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373390'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373391'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373394'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373384'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373395'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373396'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373397'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373398'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373399'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373400'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373401'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373402'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373403'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373404'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373405'; /* linkmonstergen5minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2118373406'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373385'; /* linkmonstergen5minutes <- Tackle Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373387'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373388'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373389'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373390'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373391'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373394'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373384'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373395'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373396'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373397'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373398'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373399'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373400'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373401'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373402'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373403'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373404'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373405'; /* linkmonstergen5minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2118373406'; /* linkmonstergen5minutes <- Fishing Hole */
 

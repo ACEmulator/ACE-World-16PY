@@ -1,16 +1,13 @@
 /* Weenie - Raging Ursuin (27716) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27716;
+DELETE FROM weenie WHERE class_Id = 27716;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27716, 'ursuinraging');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27716, 'ursuinraging', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27716, 0, 27716);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27716, 1, 'Raging Ursuin') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27716, 1, 33556773) /* SETUP_DID */
      , (27716, 2, 150995100) /* MOTION_TABLE_DID */
      , (27716, 35, 454) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (27716, 1, 33556773) /* SETUP_DID */
      , (27716, 7, 268436633) /* CLOTHINGBASE_DID */
      , (27716, 8, 100670959) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27716, 1, 16) /* ITEM_TYPE_INT */
      , (27716, 2, 46) /* CREATURE_TYPE_INT */
      , (27716, 3, 17) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (27716, 1, 16) /* ITEM_TYPE_INT */
      , (27716, 27, 0) /* ARMOR_TYPE_INT */
      , (27716, 93, 1032) /* PHYSICS_STATE_INT */
      , (27716, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27716, 40, 2) /* COMBAT_MODE_INT */
-     , (27716, 9007, 10) /* Creature_WeenieType */;
+     , (27716, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27716, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (27716, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (27716, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (27716, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (27716, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27716, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27716, 1, True) /* STUCK_BOOL */
      , (27716, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27716, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27716, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27716, 1, 350) /* STRENGTH_ATTRIBUTE */
      , (27716, 2, 210) /* ENDURANCE_ATTRIBUTE */
      , (27716, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (27716, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (27716, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (27716, 32, 120) /* SELF_ATTRIBUTE */;
+     , (27716, 3, 210) /* QUICKNESS_ATTRIBUTE */
+     , (27716, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (27716, 6, 120) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27716, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27716, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27716, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27716, 1, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27716, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27716, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27716, 9, 12219, 0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure_DestinationType */
      , (27716, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Young Olthoi Queen (25453) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25453;
+DELETE FROM weenie WHERE class_Id = 25453;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25453, 'olthoimatronrot1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25453, 'olthoimatronrot1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25453, 0, 25453);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25453, 1, 'Young Olthoi Queen') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25453, 1, 33557165) /* SETUP_DID */
      , (25453, 2, 150995135) /* MOTION_TABLE_DID */
      , (25453, 35, 452) /* DEATH_TREASURE_TYPE_DID */
@@ -21,10 +18,10 @@ VALUES (25453, 1, 33557165) /* SETUP_DID */
      , (25453, 6, 67113288) /* PALETTE_BASE_DID */
      , (25453, 8, 100667623) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25453, 16, 1980010563) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25453, 1, 16) /* ITEM_TYPE_INT */
      , (25453, 2, 1) /* CREATURE_TYPE_INT */
      , (25453, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -41,10 +38,9 @@ VALUES (25453, 1, 16) /* ITEM_TYPE_INT */
      , (25453, 27, 0) /* ARMOR_TYPE_INT */
      , (25453, 93, 1032) /* PHYSICS_STATE_INT */
      , (25453, 40, 2) /* COMBAT_MODE_INT */
-     , (25453, 119, 1) /* ACTIVE_INT */
-     , (25453, 9007, 10) /* Creature_WeenieType */;
+     , (25453, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25453, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (25453, 65, 0.6) /* RESIST_PIERCE_FLOAT */
      , (25453, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,26 +74,26 @@ VALUES (25453, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (25453, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25453, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25453, 1, True) /* STUCK_BOOL */
      , (25453, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25453, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25453, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25453, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (25453, 2, 450) /* ENDURANCE_ATTRIBUTE */
      , (25453, 4, 280) /* COORDINATION_ATTRIBUTE */
-     , (25453, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (25453, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (25453, 32, 300) /* SELF_ATTRIBUTE */;
+     , (25453, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (25453, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (25453, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25453, 64, 4775) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25453, 128, 1550) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25453, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25453, 1, 4775) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25453, 3, 1550) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25453, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
      , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */
      , (25453, 1, 25498, 1, 0, 0, False) /* Create Olthoi Chitin for Contain_DestinationType */

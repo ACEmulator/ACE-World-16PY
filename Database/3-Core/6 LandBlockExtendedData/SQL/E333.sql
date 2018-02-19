@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12519, 2117283840, 3811770368, 148.04, 91.1334, 118.005, 0.9313, 0, 0, 0.364254) /* Meditation Meadow Portal */
      , (12562, 2117283841, 3811770368, 156.285, 92.8838, 118.005, 0.99864, 0, 0, -0.0521444) /* Vesayan Overlook Portal */
      , (12515, 2117283842, 3811770368, 164.688, 92.1864, 118.005, 0.946956, 0, 0, -0.321363) /* Lugian Meadows Settlement Portal */

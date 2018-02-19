@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5641, 2070302729, 3060072704, 131.022, 127.485, 18.405, 0.023992, 0, 0, 0.999712) /* Weaponsmith Lun Dou */
      , (5640, 2070302725, 3060072710, 129.918, 137.831, 14.005, -0.748522, 0, 0, 0.66311) /* Farmer Ri Na */
      , (5638, 2070302726, 3060072719, 151.93, 158.387, 12.805, 0.429738, 0, 0, -0.902954) /* Ru Shaha the Healer */

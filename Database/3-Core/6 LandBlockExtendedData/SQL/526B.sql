@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14803, 1965469696, 1382744321, 5.05373, -130.038, -41.2193, 0.696707, 0, 0, 0.717356) /* Swirling Portal */
      , (14804, 1965469697, 1382744321, 10, -130, -41.5, 1, 0, 0, 0) /* Acid */
      , (14804, 1965469698, 1382744322, 10, -140, -41.5, 1, 0, 0, 0) /* Acid */
@@ -231,148 +231,148 @@ VALUES (14803, 1965469696, 1382744321, 5.05373, -130.038, -41.2193, 0.696707, 0,
      , (14810, 1965469927, 1382745174, 100.105, -73.1451, 0.005, 1, 0, 0, 0) /* Portal Space */
      , (7923, 1965469928, 1382745178, 100, -80, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1965469799'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1965469741'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1965469766'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1965469768'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1965469833'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1965469701'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1965469728'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1965469803'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1965469871'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1965469856'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1965469844'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1965469882'; /* Swirling Portal */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1965469771'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1965469772'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1965469770'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1965469755'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1965469754'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1965469756'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1965469811'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1965469812'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1965469810'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1965469822'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1965469824'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1965469823'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='1965469760'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='1965469762'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='1965469761'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='1965469777'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='1965469778'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='1965469779'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='31', `linkSource`='1' WHERE `preassignedGuid`='1965469723'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='32', `linkSource`='1' WHERE `preassignedGuid`='1965469724'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='33', `linkSource`='1' WHERE `preassignedGuid`='1965469725'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='34', `linkSource`='1' WHERE `preassignedGuid`='1965469713'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='35', `linkSource`='1' WHERE `preassignedGuid`='1965469712'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='36', `linkSource`='1' WHERE `preassignedGuid`='1965469711'; /* Empyrean magical defense battery */
-UPDATE `ace_landblock` SET `linkSlot`='37', `linkSource`='1' WHERE `preassignedGuid`='1965469852'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='38', `linkSource`='1' WHERE `preassignedGuid`='1965469885'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='39', `linkSource`='1' WHERE `preassignedGuid`='1965469880'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='40', `linkSource`='1' WHERE `preassignedGuid`='1965469878'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='41', `linkSource`='1' WHERE `preassignedGuid`='1965469867'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='42', `linkSource`='1' WHERE `preassignedGuid`='1965469847'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='43', `linkSource`='1' WHERE `preassignedGuid`='1965469842'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='44', `linkSource`='1' WHERE `preassignedGuid`='1965469928'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965469799'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965469741'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965469766'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1965469768'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1965469833'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1965469701'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1965469728'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1965469803'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1965469871'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1965469856'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1965469844'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1965469882'; /* Swirling Portal */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1965469771'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1965469772'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1965469770'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1965469755'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1965469754'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1965469756'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1965469811'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1965469812'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1965469810'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1965469822'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1965469824'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1965469823'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1965469760'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1965469762'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1965469761'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1965469777'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1965469778'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1965469779'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965469723'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='32', `link_Controller`=True WHERE `guid`='1965469724'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='33', `link_Controller`=True WHERE `guid`='1965469725'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='34', `link_Controller`=True WHERE `guid`='1965469713'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='35', `link_Controller`=True WHERE `guid`='1965469712'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='36', `link_Controller`=True WHERE `guid`='1965469711'; /* Empyrean magical defense battery */
+UPDATE `landblock_instances` SET `link_Slot`='37', `link_Controller`=True WHERE `guid`='1965469852'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='38', `link_Controller`=True WHERE `guid`='1965469885'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='39', `link_Controller`=True WHERE `guid`='1965469880'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='40', `link_Controller`=True WHERE `guid`='1965469878'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='41', `link_Controller`=True WHERE `guid`='1965469867'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='42', `link_Controller`=True WHERE `guid`='1965469847'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='43', `link_Controller`=True WHERE `guid`='1965469842'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='44', `link_Controller`=True WHERE `guid`='1965469928'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965469769'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965469800'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1965469742'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1965469767'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1965469804'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1965469834'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1965469702'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1965469729'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1965469883'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1965469872'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1965469857'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1965469845'; /* Swirling Portal <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1965469774'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1965469773'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1965469783'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1965469749'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1965469757'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1965469758'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1965469814'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1965469813'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1965469808'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1965469825'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1965469815'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1965469826'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='1965469763'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='1965469764'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='1965469765'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='1965469776'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1965469775'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='1965469786'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='31' WHERE `preassignedGuid`='1965469726'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='32' WHERE `preassignedGuid`='1965469732'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='33' WHERE `preassignedGuid`='1965469733'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='34' WHERE `preassignedGuid`='1965469714'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='35' WHERE `preassignedGuid`='1965469715'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='36' WHERE `preassignedGuid`='1965469710'; /* Empyrean magical defense battery <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='37' WHERE `preassignedGuid`='1965469853'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965469884'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965469879'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='40' WHERE `preassignedGuid`='1965469877'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='1965469868'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='42' WHERE `preassignedGuid`='1965469846'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='43' WHERE `preassignedGuid`='1965469841'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469925'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469916'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469907'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469891'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469864'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469906'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469912'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469913'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469914'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469895'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469865'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469918'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469917'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469894'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469892'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469861'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469862'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469781'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469801'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469798'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469780'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469753'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469740'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469743'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469748'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469817'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469787'; /* linkmonstergen3minutes <- Blinding Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469722'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469910'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469911'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469900'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469876'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469898'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469909'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469908'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469901'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469904'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469903'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469888'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469899'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469869'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469848'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469850'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469858'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469874'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469886'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469902'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469851'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469936'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469935'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469934'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469933'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469937'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469938'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469939'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='44' WHERE `preassignedGuid`='1965469940'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965469769'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965469800'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965469742'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1965469767'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1965469804'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1965469834'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1965469702'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965469729'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1965469883'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1965469872'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1965469857'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1965469845'; /* Swirling Portal <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1965469774'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1965469773'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1965469783'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1965469749'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1965469757'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1965469758'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1965469814'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1965469813'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1965469808'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1965469825'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965469815'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965469826'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1965469763'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1965469764'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1965469765'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1965469776'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1965469775'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1965469786'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965469726'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965469732'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965469733'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='34' WHERE `guid`='1965469714'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='35' WHERE `guid`='1965469715'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='36' WHERE `guid`='1965469710'; /* Empyrean magical defense battery <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='37' WHERE `guid`='1965469853'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965469884'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965469879'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='40' WHERE `guid`='1965469877'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965469868'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='42' WHERE `guid`='1965469846'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='43' WHERE `guid`='1965469841'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469925'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469916'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469907'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469891'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469864'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469906'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469912'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469913'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469914'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469895'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469865'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469918'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469917'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469894'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469892'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469861'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469862'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469781'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469801'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469798'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469780'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469753'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469740'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469743'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469748'; /* linkmonstergen3minutes <- Dim Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469817'; /* linkmonstergen3minutes <- Faint Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469787'; /* linkmonstergen3minutes <- Blinding Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469722'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469910'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469911'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469900'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469876'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469898'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469909'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469908'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469901'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469904'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469903'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469888'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469899'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469869'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469848'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469850'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469858'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469874'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469886'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469902'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469851'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469936'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469935'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469934'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469933'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469937'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469938'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469939'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='44' WHERE `guid`='1965469940'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
 

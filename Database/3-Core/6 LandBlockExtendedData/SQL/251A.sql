@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24314, 1917952012, 622461185, 154.883, 152.083, 12.005, -0.676076, 0, 0, 0.736832) /* Skeletal Champion */
      , (24314, 1917952013, 622461185, 157.965, 156.664, 12.005, -0.602864, 0, 0, -0.797844) /* Skeletal Champion */
      , (24314, 1917952014, 622461185, 154.755, 156.638, 12.005, -0.955142, 0, 0, 0.296149) /* Skeletal Champion */
@@ -16,19 +16,19 @@ VALUES (24314, 1917952012, 622461185, 154.883, 152.083, 12.005, -0.676076, 0, 0,
      , (24315, 1917952019, 622460928, 151.775, 154.862, 12, 0.907242, 0, 0, 0.420609) /* Skeletal Hero */
      , (24314, 1917952021, 622460928, 163.104, 172.628, 10.005, 0.998635, 0, 0, -0.0522235) /* Skeletal Champion */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917952010'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1917952010'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952012'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952013'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952014'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952015'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952016'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952017'; /* linkmonstergen7minutes <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952018'; /* linkmonstergen7minutes <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952019'; /* linkmonstergen7minutes <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952021'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952022'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952023'; /* linkmonstergen7minutes <- Primeval Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952024'; /* linkmonstergen7minutes <- Skeletal Champion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917952025'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952012'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952013'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952014'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952015'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952016'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952017'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952018'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952019'; /* linkmonstergen7minutes <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952021'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952022'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952023'; /* linkmonstergen7minutes <- Primeval Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952024'; /* linkmonstergen7minutes <- Skeletal Champion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917952025'; /* linkmonstergen7minutes <- Skeletal Champion */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12495, 2059079680, 2880503808, 60.2662, 121.878, 95.9644, 0.999926, 0, 0, 0.0121818) /* Evensong Settlement Portal */
      , (12513, 2059079681, 2880503808, 51.9049, 124.297, 97.3868, 0.925737, 0, 0, -0.378169) /* Lilyglen Cottages Portal */
      , (12566, 2059079682, 2880503808, 50.5386, 131.535, 98.3316, 0.797487, 0, 0, -0.603336) /* Woodsbane Cottages Portal */

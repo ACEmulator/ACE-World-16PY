@@ -1,16 +1,13 @@
 /* Weenie - Copper Golem (194) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 194;
+DELETE FROM weenie WHERE class_Id = 194;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (194, 'golemcopper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (194, 'golemcopper', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (194, 0, 194);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (194, 1, 'Copper Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (194, 1, 33556426) /* SETUP_DID */
      , (194, 2, 150995073) /* MOTION_TABLE_DID */
      , (194, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (194, 1, 33556426) /* SETUP_DID */
      , (194, 7, 268435980) /* CLOTHINGBASE_DID */
      , (194, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (194, 1, 16) /* ITEM_TYPE_INT */
      , (194, 146, 5211) /* XP_OVERRIDE_INT */
      , (194, 2, 13) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (194, 1, 16) /* ITEM_TYPE_INT */
      , (194, 25, 39) /* LEVEL_INT */
      , (194, 27, 0) /* ARMOR_TYPE_INT */
      , (194, 93, 1032) /* PHYSICS_STATE_INT */
-     , (194, 40, 2) /* COMBAT_MODE_INT */
-     , (194, 9007, 10) /* Creature_WeenieType */;
+     , (194, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (194, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (194, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (194, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (194, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (194, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (194, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (194, 1, True) /* STUCK_BOOL */
      , (194, 6, True) /* AI_USES_MANA_BOOL */
      , (194, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -80,26 +76,26 @@ VALUES (194, 1, True) /* STUCK_BOOL */
      , (194, 13, False) /* ETHEREAL_BOOL */
      , (194, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (194, 66, 2.05) /* ShockWave3_SpellID */
      , (194, 139, 2.02) /* LightningVolley3_SpellID */
      , (194, 1292, 2.02) /* ManatoHealthSelf3_SpellID */
      , (194, 77, 2.05) /* LightningBolt3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (194, 1, 110) /* STRENGTH_ATTRIBUTE */
      , (194, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (194, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (194, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (194, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (194, 32, 95) /* SELF_ATTRIBUTE */;
+     , (194, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (194, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (194, 6, 95) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (194, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (194, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (194, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (194, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (194, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (194, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (194, 9, 3670, 0, 0, 0.1, False) /* Create Copper Heart for ContainTreasure_DestinationType */
      , (194, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (194, 9, 6353, 0, 0, 0.03, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */

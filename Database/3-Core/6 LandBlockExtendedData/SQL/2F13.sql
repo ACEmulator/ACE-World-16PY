@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23563, 1928409102, 789774592, 128.816, 82.7136, 56.005, 0.970904, 0, 0, 0.239467) /* Sinister Shadow */
      , (23563, 1928409103, 789774592, 135.269, 81.6286, 56.005, 0.991144, 0, 0, -0.13279) /* Sinister Shadow */
      , (22910, 1928409104, 789774592, 131.86, 88.1949, 56.011, -0.99194, 0, 0, 0.126707) /* Pandemonium Shadow */
@@ -10,14 +10,14 @@ VALUES (23563, 1928409102, 789774592, 128.816, 82.7136, 56.005, 0.970904, 0, 0, 
      , (22910, 1928409106, 789774336, 137.963, 83.8895, 59.611, -0.513452, 0, 0, 0.858118) /* Pandemonium Shadow */
      , (7924, 1928409105, 789774336, 132.452, 97.2003, 56.005, -0.999989, 0, 0, -0.00476966) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1928409105'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1928409105'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409103'; /* linkmonstergen5minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409102'; /* linkmonstergen5minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409104'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409098'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409099'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409100'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409101'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1928409106'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409103'; /* linkmonstergen5minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409102'; /* linkmonstergen5minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409104'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409098'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409099'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409100'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409101'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1928409106'; /* linkmonstergen5minutes <- Pandemonium Shadow */
 

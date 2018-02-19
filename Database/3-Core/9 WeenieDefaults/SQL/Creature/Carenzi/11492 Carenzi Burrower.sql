@@ -1,16 +1,13 @@
 /* Weenie - Carenzi Burrower (11492) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11492;
+DELETE FROM weenie WHERE class_Id = 11492;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11492, 'carenziburrower-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11492, 'carenziburrower-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11492, 0, 11492);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11492, 1, 'Carenzi Burrower') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11492, 1, 33557141) /* SETUP_DID */
      , (11492, 2, 150995133) /* MOTION_TABLE_DID */
      , (11492, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11492, 1, 33557141) /* SETUP_DID */
      , (11492, 7, 268436195) /* CLOTHINGBASE_DID */
      , (11492, 8, 100671754) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11492, 1, 16) /* ITEM_TYPE_INT */
      , (11492, 2, 55) /* CREATURE_TYPE_INT */
      , (11492, 3, 21) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11492, 1, 16) /* ITEM_TYPE_INT */
      , (11492, 25, 39) /* LEVEL_INT */
      , (11492, 27, 0) /* ARMOR_TYPE_INT */
      , (11492, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11492, 40, 2) /* COMBAT_MODE_INT */
-     , (11492, 9007, 10) /* Creature_WeenieType */;
+     , (11492, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11492, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11492, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11492, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (11492, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11492, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11492, 31, 14) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11492, 1, True) /* STUCK_BOOL */
      , (11492, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11492, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11492, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11492, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (11492, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (11492, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (11492, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (11492, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (11492, 32, 40) /* SELF_ATTRIBUTE */;
+     , (11492, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (11492, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (11492, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11492, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11492, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11492, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11492, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11492, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11492, 5, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11492, 9, 11339, 0, 0, 0.05, False) /* Create Carenzi Burrower Pelt for ContainTreasure_DestinationType */
      , (11492, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

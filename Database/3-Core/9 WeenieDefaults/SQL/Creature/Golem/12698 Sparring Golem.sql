@@ -1,16 +1,13 @@
 /* Weenie - Sparring Golem (12698) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12698;
+DELETE FROM weenie WHERE class_Id = 12698;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12698, 'golemsparringtokennewbieacademy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12698, 'golemsparringtokennewbieacademy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12698, 0, 12698);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12698, 1, 'Sparring Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12698, 1, 33556428) /* SETUP_DID */
      , (12698, 2, 150995073) /* MOTION_TABLE_DID */
      , (12698, 3, 536870933) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (12698, 1, 33556428) /* SETUP_DID */
      , (12698, 7, 268436247) /* CLOTHINGBASE_DID */
      , (12698, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12698, 1, 16) /* ITEM_TYPE_INT */
      , (12698, 2, 13) /* CREATURE_TYPE_INT */
      , (12698, 67, 64) /* TOLERANCE_INT */
@@ -34,10 +31,9 @@ VALUES (12698, 1, 16) /* ITEM_TYPE_INT */
      , (12698, 25, 1) /* LEVEL_INT */
      , (12698, 27, 0) /* ARMOR_TYPE_INT */
      , (12698, 93, 1032) /* PHYSICS_STATE_INT */
-     , (12698, 40, 2) /* COMBAT_MODE_INT */
-     , (12698, 9007, 10) /* Creature_WeenieType */;
+     , (12698, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12698, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (12698, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (12698, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (12698, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (12698, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12698, 31, 0.1) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12698, 1, True) /* STUCK_BOOL */
      , (12698, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12698, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12698, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12698, 1, 1) /* STRENGTH_ATTRIBUTE */
      , (12698, 2, 1) /* ENDURANCE_ATTRIBUTE */
      , (12698, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (12698, 8, 1) /* QUICKNESS_ATTRIBUTE */
-     , (12698, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (12698, 32, 1) /* SELF_ATTRIBUTE */;
+     , (12698, 3, 1) /* QUICKNESS_ATTRIBUTE */
+     , (12698, 5, 1) /* FOCUS_ATTRIBUTE */
+     , (12698, 6, 1) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12698, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12698, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12698, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12698, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12698, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12698, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12698, 9, 12709, 0, 0, 1, False) /* Create Academy Token for ContainTreasure_DestinationType */
      , (12698, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

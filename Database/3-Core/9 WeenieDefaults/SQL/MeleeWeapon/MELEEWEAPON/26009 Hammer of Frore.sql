@@ -1,16 +1,13 @@
 /* Weenie - Hammer of Frore (26009) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26009;
+DELETE FROM weenie WHERE class_Id = 26009;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26009, 'axefrorenew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26009, 'axefrorenew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26009, 0, 26009);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26009, 1, 'Hammer of Frore') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26009, 1, 33558574) /* SETUP_DID */
      , (26009, 3, 536870932) /* SOUND_TABLE_DID */
      , (26009, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (26009, 1, 33558574) /* SETUP_DID */
      , (26009, 6, 67111092) /* PALETTE_BASE_DID */
      , (26009, 8, 100675713) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26009, 9, 1048576) /* LOCATIONS_INT */
      , (26009, 1, 1) /* ITEM_TYPE_INT */
      , (26009, 5, 800) /* ENCUMB_VAL_INT */
@@ -44,10 +41,9 @@ VALUES (26009, 9, 1048576) /* LOCATIONS_INT */
      , (26009, 48, 1) /* WEAPON_SKILL_INT */
      , (26009, 49, 65) /* WEAPON_TIME_INT */
      , (26009, 51, 1) /* COMBAT_USE_INT */
-     , (26009, 115, 375) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (26009, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (26009, 115, 375) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26009, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26009, 21, 0.7) /* WEAPON_LENGTH_FLOAT */
      , (26009, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (26009, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26009, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */
      , (26009, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26009, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26009, 1035, 2) /* ColdProtectionSelf6_SpellID */
      , (26009, 2675, 2) /* FeebleAxeAptitude_SpellID */
      , (26009, 1615, 2) /* BloodDrinker5_SpellID */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8906, 1967525888, 1415643451, 117.065, -33, -3, 0.999841, 0, 0, -0.01781) /* Strange Tunnel */
      , (8906, 1967525889, 1415643451, 120, -33, -3, 0.999841, 0, 0, -0.01781) /* Strange Tunnel */
      , (8906, 1967525890, 1415643451, 123, -33, -3, 0.999841, 0, 0, -0.01781) /* Strange Tunnel */

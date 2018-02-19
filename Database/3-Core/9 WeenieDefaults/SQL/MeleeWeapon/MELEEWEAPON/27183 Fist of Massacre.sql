@@ -1,17 +1,14 @@
 /* Weenie - Fist of Massacre (27183) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27183;
+DELETE FROM weenie WHERE class_Id = 27183;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27183, 'katarliazk1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27183, 'katarliazk1', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27183, 0, 27183);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27183, 16, 'Crafted by the Faltacot, this stunning and sharp blade looks as though it could easily pierce flesh.') /* LONG_DESC_STRING */
      , (27183, 1, 'Fist of Massacre') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27183, 1, 33558635) /* SETUP_DID */
      , (27183, 3, 536870932) /* SOUND_TABLE_DID */
      , (27183, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (27183, 1, 33558635) /* SETUP_DID */
      , (27183, 7, 268436792) /* CLOTHINGBASE_DID */
      , (27183, 8, 100675920) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27183, 9, 1048576) /* LOCATIONS_INT */
      , (27183, 1, 1) /* ITEM_TYPE_INT */
      , (27183, 19, 1000) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (27183, 9, 1048576) /* LOCATIONS_INT */
      , (27183, 47, 1) /* ATTACK_TYPE_INT */
      , (27183, 48, 13) /* WEAPON_SKILL_INT */
      , (27183, 49, 10) /* WEAPON_TIME_INT */
-     , (27183, 51, 1) /* COMBAT_USE_INT */
-     , (27183, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27183, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27183, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27183, 21, 0.35) /* WEAPON_LENGTH_FLOAT */
      , (27183, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -58,11 +54,11 @@ VALUES (27183, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27183, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (27183, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27183, 22, True) /* INSCRIBABLE_BOOL */
      , (27183, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27183, 1141, 2) /* PiercingProtectionOther3_SpellID */
      , (27183, 1603, 2) /* Defender4_SpellID */
      , (27183, 1614, 2) /* BloodDrinker4_SpellID */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 2019999746, 2255225089, 151.24, 176.823, 9.705, 0.708955, 0, 0, 0.705254) /* Chest */
      , (1823, 2019999748, 2255225089, 154.869, 176.93, 9.705, 0.955373, 0, 0, -0.295401) /* Tailor Fadnuj ibn Samil */
      , (1818, 2019999745, 2255225091, 157.21, 157.801, 9.705, -0.120522, 0, 0, -0.992711) /* Grocer Tashhir ibn Najrak */
@@ -19,7 +19,7 @@ VALUES (143, 2019999746, 2255225089, 151.24, 176.823, 9.705, 0.708955, 0, 0, 0.7
      , (6441, 2019999754, 2255224832, 156.129, 169.143, 10, 0.217715, 0, 0, -0.976012) /* Well */
      , (1910, 2019999753, 2255224832, 27.4715, 14.4277, 9.71065, 1, 0, 0, 0) /* Tufa */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019999757'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2019999757'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019999756'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2019999756'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

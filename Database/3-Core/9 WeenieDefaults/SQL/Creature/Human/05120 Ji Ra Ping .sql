@@ -1,26 +1,23 @@
 /* Weenie - Ji Ra Ping  (5120) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5120;
+DELETE FROM weenie WHERE class_Id = 5120;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5120, 'nantojiraping');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5120, 'nantojiraping', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5120, 0, 5120);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5120, 1, 'Ji Ra Ping ') /* NAME_STRING */
      , (5120, 3, 'Male') /* SEX_STRING */
      , (5120, 4, 'Sho') /* HERITAGE_GROUP_STRING */
      , (5120, 5, 'Enchanter') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5120, 1, 33554433) /* SETUP_DID */
      , (5120, 2, 150994945) /* MOTION_TABLE_DID */
      , (5120, 3, 536870913) /* SOUND_TABLE_DID */
      , (5120, 4, 805306368) /* COMBAT_TABLE_DID */
      , (5120, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5120, 1, 16) /* ITEM_TYPE_INT */
      , (5120, 146, 147) /* XP_OVERRIDE_INT */
      , (5120, 2, 31) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (5120, 1, 16) /* ITEM_TYPE_INT */
      , (5120, 25, 9) /* LEVEL_INT */
      , (5120, 27, 0) /* ARMOR_TYPE_INT */
      , (5120, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (5120, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (5120, 9007, 10) /* Creature_WeenieType */;
+     , (5120, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5120, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5120, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (5120, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (5120, 64, 1) /* RESIST_SLASH_FLOAT */
      , (5120, 54, 3) /* USE_RADIUS_FLOAT */
      , (5120, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5120, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (5120, 1, True) /* STUCK_BOOL */
      , (5120, 8, True) /* ALLOW_GIVE_BOOL */
@@ -75,20 +71,20 @@ VALUES (5120, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (5120, 13, False) /* ETHEREAL_BOOL */
      , (5120, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5120, 1, 65) /* STRENGTH_ATTRIBUTE */
      , (5120, 2, 50) /* ENDURANCE_ATTRIBUTE */
      , (5120, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (5120, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (5120, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (5120, 32, 90) /* SELF_ATTRIBUTE */;
+     , (5120, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (5120, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (5120, 6, 90) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5120, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5120, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5120, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5120, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5120, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5120, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5120, 2, 2594, 0, 18, 1, False) /* Create Tunic for Wield_DestinationType */
      , (5120, 2, 117, 0, 8, 0.67, False) /* Create Breeches for Wield_DestinationType */
      , (5120, 2, 2606, 0, 13, 0.5, False) /* Create Boots for Wield_DestinationType */;

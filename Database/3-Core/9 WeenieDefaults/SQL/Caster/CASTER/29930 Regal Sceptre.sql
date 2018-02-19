@@ -1,23 +1,20 @@
 /* Weenie - Regal Sceptre (29930) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29930;
+DELETE FROM weenie WHERE class_Id = 29930;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29930, 'sceptreregal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29930, 'sceptreregal', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29930, 0, 29930);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29930, 1, 'Regal Sceptre') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29930, 1, 33559055) /* SETUP_DID */
      , (29930, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (29930, 3, 536870932) /* SOUND_TABLE_DID */
      , (29930, 8, 100676981) /* ICON_DID */
      , (29930, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29930, 9, 16777216) /* LOCATIONS_INT */
      , (29930, 1, 32768) /* ITEM_TYPE_INT */
      , (29930, 5, 50) /* ENCUMB_VAL_INT */
@@ -38,21 +35,20 @@ VALUES (29930, 9, 16777216) /* LOCATIONS_INT */
      , (29930, 108, 800) /* ITEM_MAX_MANA_INT */
      , (29930, 109, 125) /* ITEM_DIFFICULTY_INT */
      , (29930, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (29930, 117, 60) /* ITEM_MANA_COST_INT */
-     , (29930, 9007, 35) /* Caster_WeenieType */;
+     , (29930, 117, 60) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29930, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (29930, 5, -0.0334) /* MANA_RATE_FLOAT */
      , (29930, 138, 1.75) /* SLAYER_DAMAGE_BONUS_FLOAT */
      , (29930, 144, 0.12) /* MANA_CONVERSION_MOD_FLOAT */
      , (29930, 147, 0.1) /* CRITICAL_FREQUENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29930, 22, True) /* INSCRIBABLE_BOOL */
      , (29930, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29930, 616, 2) /* LifeMagicMasteryOther6_SpellID */
      , (29930, 640, 2) /* WarMagicMasteryOther6_SpellID */
      , (29930, 1354, 2) /* EnduranceSelf6_SpellID */

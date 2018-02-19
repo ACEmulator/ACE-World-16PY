@@ -1,26 +1,23 @@
 /* Weenie - Noble Quarterstaff Chest (28441) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28441;
+DELETE FROM weenie WHERE class_Id = 28441;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28441, 'chestmorgluukstaff');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28441, 'chestmorgluukstaff', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28441, 0, 28441);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28441, 16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LONG_DESC_STRING */
      , (28441, 1, 'Noble Quarterstaff Chest') /* NAME_STRING */
      , (28441, 12, 'KeyMorgluukReward') /* LOCK_CODE_STRING */
      , (28441, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28441, 1, 33558857) /* SETUP_DID */
      , (28441, 2, 150994948) /* MOTION_TABLE_DID */
      , (28441, 3, 536870945) /* SOUND_TABLE_DID */
      , (28441, 8, 100676961) /* ICON_DID */
      , (28441, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28441, 81, 2) /* MAX_GENERATED_OBJECTS_INT */
      , (28441, 1, 512) /* ITEM_TYPE_INT */
      , (28441, 5, 9000) /* ENCUMB_VAL_INT */
@@ -35,16 +32,15 @@ VALUES (28441, 81, 2) /* MAX_GENERATED_OBJECTS_INT */
      , (28441, 96, 500) /* ENCUMB_CAPACITY_INT */
      , (28441, 100, 1) /* GENERATOR_TYPE_INT */
      , (28441, 37, 200) /* RESIST_ITEM_APPRAISAL_INT */
-     , (28441, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (28441, 9007, 20) /* Chest_WeenieType */;
+     , (28441, 38, 9999) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28441, 41, 30) /* REGENERATION_INTERVAL_FLOAT */
      , (28441, 43, 1) /* GENERATOR_RADIUS_FLOAT */
      , (28441, 11, 30) /* RESET_INTERVAL_FLOAT */
      , (28441, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28441, 1, True) /* STUCK_BOOL */
      , (28441, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (28441, 2, False) /* OPEN_BOOL */
@@ -54,7 +50,7 @@ VALUES (28441, 1, True) /* STUCK_BOOL */
      , (28441, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28441, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28441, -1, 341, 10, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shouyumi (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */
      , (28441, -1, 28497, 10, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Noble Quarterstaff (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (192, 2094645252, 3449553154, 84.867, 149.934, 21.205, 0.853138, 0, 0, -0.521686) /* Drudge Prowler */
      , (1154, 2094645254, 3449553154, 86.426, 149.743, 21.205, 0.97414, 0, 0, -0.225945) /* linkmonstergen */
      , (192, 2094645253, 3449553154, 89.3487, 152.735, 21.205, -0.483342, 0, 0, -0.875432) /* Drudge Prowler */
@@ -16,14 +16,14 @@ VALUES (192, 2094645252, 3449553154, 84.867, 149.934, 21.205, 0.853138, 0, 0, -0
      , (412, 2094645250, 3449552896, 65.4446, 127.753, 22, -0.864274, 0, 0, -0.503021) /* Door */
      , (174, 2094645262, 3449552896, 55.9345, 150.022, 22.005, -0.549164, 0, 0, 0.835714) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094645254'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2094645254'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645252'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645253'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645256'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645257'; /* linkmonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645258'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645263'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645261'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094645260'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645252'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645253'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645256'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645257'; /* linkmonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645258'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645263'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645261'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094645260'; /* linkmonstergen <- Drudge Prowler */
 

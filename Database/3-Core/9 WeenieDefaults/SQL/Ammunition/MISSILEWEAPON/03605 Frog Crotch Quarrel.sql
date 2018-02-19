@@ -1,16 +1,13 @@
 /* Weenie - Frog Crotch Quarrel (3605) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3605;
+DELETE FROM weenie WHERE class_Id = 3605;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3605, 'boltfrogcrotch');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3605, 'boltfrogcrotch', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3605, 0, 3605);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3605, 1, 'Frog Crotch Quarrel') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3605, 1, 33554730) /* SETUP_DID */
      , (3605, 3, 536870932) /* SOUND_TABLE_DID */
      , (3605, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (3605, 1, 33554730) /* SETUP_DID */
      , (3605, 7, 268436306) /* CLOTHINGBASE_DID */
      , (3605, 8, 100670238) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3605, 9, 8388608) /* LOCATIONS_INT */
      , (3605, 1, 256) /* ITEM_TYPE_INT */
      , (3605, 11, 250) /* MAX_STACK_SIZE_INT */
@@ -37,17 +34,16 @@ VALUES (3605, 9, 8388608) /* LOCATIONS_INT */
      , (3605, 44, 14) /* DAMAGE_INT */
      , (3605, 45, 1) /* DAMAGE_TYPE_INT */
      , (3605, 50, 2) /* AMMO_TYPE_INT */
-     , (3605, 51, 3) /* COMBAT_USE_INT */
-     , (3605, 9007, 5) /* Ammunition_WeenieType */;
+     , (3605, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3605, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (3605, 22, 0.1) /* DAMAGE_VARIANCE_FLOAT */
      , (3605, 78, 1) /* FRICTION_FLOAT */
      , (3605, 79, 0) /* ELASTICITY_FLOAT */
      , (3605, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3605, 69, False) /* IS_SELLABLE_BOOL */
      , (3605, 17, True) /* INELASTIC_BOOL */;
 

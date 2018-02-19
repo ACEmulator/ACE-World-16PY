@@ -1,18 +1,15 @@
 /* Weenie - Small Amorphous Lump (7908) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7908;
+DELETE FROM weenie WHERE class_Id = 7908;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7908, 'septshadownoteb2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7908, 'septshadownoteb2', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7908, 0, 7908);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7908, 16, 'A thin, membranous, unidentifiable life form found on a powerful Shadow. Characters of what seems to be Yalaini script are burned into its flesh. The characters appear to be cut off, as if some of the message were missing.') /* LONG_DESC_STRING */
      , (7908, 1, 'Small Amorphous Lump') /* NAME_STRING */
      , (7908, 14, 'To use this item, find the other pieces.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7908, 1, 33556232) /* SETUP_DID */
      , (7908, 3, 536870932) /* SOUND_TABLE_DID */
      , (7908, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (7908, 1, 33556232) /* SETUP_DID */
      , (7908, 7, 268436029) /* CLOTHINGBASE_DID */
      , (7908, 8, 100670891) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7908, 9, 0) /* LOCATIONS_INT */
      , (7908, 1, 128) /* ITEM_TYPE_INT */
      , (7908, 13, 25) /* STACK_UNIT_ENCUMB_INT */
@@ -32,14 +29,13 @@ VALUES (7908, 9, 0) /* LOCATIONS_INT */
      , (7908, 15, 20) /* STACK_UNIT_VALUE_INT */
      , (7908, 19, 20) /* VALUE_INT */
      , (7908, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7908, 33, 1) /* BONDED_INT */
-     , (7908, 9007, 44) /* CraftTool_WeenieType */;
+     , (7908, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7908, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
      , (7908, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7908, 22, True) /* INSCRIBABLE_BOOL */
      , (7908, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

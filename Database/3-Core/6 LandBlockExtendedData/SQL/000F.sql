@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1879109633, 983297, 110, -60, -35.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1879109634, 983298, 120, -50, -35.995, 1, 0, 0, 0) /* Acid */
@@ -240,195 +240,195 @@ VALUES (6122, 1879109632, 983296, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30724, 1879109870, 983787, 100, 0, 0.005, -0.720278, 0, 0, -0.693685) /* Surface */
      , (4979, 1879109871, 983796, 130.937, 0.965726, 0.005, 0.930508, 0, 0, -0.366272) /* Sewer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879109825'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1879109773'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1879109694'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1879109695'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1879109703'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1879109769'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1879109676'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1879109821'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1879109823'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1879109832'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1879109735'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1879109751'; /* linkmonstergen2minutes */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1879109728'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879109825'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879109773'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879109694'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879109695'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879109703'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879109769'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879109676'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879109821'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879109823'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879109832'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879109735'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879109751'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879109728'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109798'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109812'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109802'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109803'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109828'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109827'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109829'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109815'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109816'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109826'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109805'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879109824'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109817'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109839'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109779'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109780'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109840'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109778'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109771'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879109772'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109693'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109699'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109707'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109706'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109712'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109711'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109705'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109704'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109698'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109696'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109697'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109692'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109791'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879109793'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109774'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109790'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109775'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109776'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109785'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109786'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109794'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109797'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109781'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109782'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109787'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109788'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109789'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109792'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109783'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879109784'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109720'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109719'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109723'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109724'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109721'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109722'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109725'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109714'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109716'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109726'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109713'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109718'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109710'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109717'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109727'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109708'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879109709'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879109701'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879109702'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879109768'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879109777'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879109767'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109688'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109689'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109691'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109690'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109649'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109650'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109770'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109678'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109643'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109642'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109648'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109645'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109640'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109641'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109638'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109639'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109674'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109675'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109644'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879109673'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109753'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109765'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109762'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109754'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109758'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109820'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879109819'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109756'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109759'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109766'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109755'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109761'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109763'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109760'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109757'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879109822'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109841'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109849'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109857'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109855'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109862'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109863'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109864'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109851'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109852'; /* linkmonstergen3minutes <- Virulence */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109866'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109867'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109865'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109868'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109861'; /* linkmonstergen3minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109858'; /* linkmonstergen3minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109869'; /* linkmonstergen3minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109860'; /* linkmonstergen3minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109835'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109843'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109859'; /* linkmonstergen3minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109837'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109846'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109844'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109845'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109833'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109830'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109848'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879109831'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109734'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109732'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109806'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109807'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109667'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109662'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109808'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109809'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109739'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109740'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109659'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879109746'; /* linkmonstergen1minute <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109810'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109660'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109668'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109663'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109811'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109672'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109671'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109670'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109664'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109661'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109666'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109669'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109665'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109750'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879109752'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109733'; /* linkmonstergen2minutes <- Ripper Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109747'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109745'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109744'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109743'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109741'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109737'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109749'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109748'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109730'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109736'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109742'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109738'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879109731'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109798'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109812'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109802'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109803'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109828'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109827'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109829'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109815'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109816'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109826'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109805'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879109824'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109817'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109839'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109779'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109780'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109840'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109778'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109771'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879109772'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109693'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109699'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109707'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109706'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109712'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109711'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109705'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109704'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109698'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109696'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109697'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109692'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109791'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879109793'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109774'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109790'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109775'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109776'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109785'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109786'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109794'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109797'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109781'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109782'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109787'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109788'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109789'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109792'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109783'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879109784'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109720'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109719'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109723'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109724'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109721'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109722'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109725'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109714'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109716'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109726'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109713'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109718'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109710'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109717'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109727'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109708'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879109709'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109701'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109702'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109768'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109777'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879109767'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109688'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109689'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109691'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109690'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109649'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109650'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109770'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109678'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109643'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109642'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109648'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109645'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109640'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109641'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109638'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109639'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109674'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109675'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109644'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879109673'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109753'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109765'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109762'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109754'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109758'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109820'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879109819'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109756'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109759'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109766'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109755'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109761'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109763'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109760'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109757'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879109822'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109841'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109849'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109857'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109855'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109862'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109863'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109864'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109851'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109852'; /* linkmonstergen3minutes <- Virulence */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109866'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109867'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109865'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109868'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109861'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109858'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109869'; /* linkmonstergen3minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109860'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109835'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109843'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109859'; /* linkmonstergen3minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109837'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109846'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109844'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109845'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109833'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109830'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109848'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879109831'; /* linkmonstergen3minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109734'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109732'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109806'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109807'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109667'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109662'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109808'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109809'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109739'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109740'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109659'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879109746'; /* linkmonstergen1minute <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109810'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109660'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109668'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109663'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109811'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109672'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109671'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109670'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109664'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109661'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109666'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109669'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109665'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109750'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879109752'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109733'; /* linkmonstergen2minutes <- Ripper Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109747'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109745'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109744'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109743'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109741'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109737'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109749'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109748'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109730'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109736'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109742'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109738'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879109731'; /* linkmonstergen2minutes <- Diseased Phyntos Wasp */
 

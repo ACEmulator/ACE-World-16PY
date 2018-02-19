@@ -1,19 +1,16 @@
 /* Weenie - Crushed Berimphur Plant (8042) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8042;
+DELETE FROM weenie WHERE class_Id = 8042;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8042, 'plantdarkyellowcrushed');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8042, 'plantdarkyellowcrushed', /* Stackable_WeenieType */ 51);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8042, 0, 8042);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8042, 16, 'The crushed pieces of a dark yellow berimphur plant. ') /* LONG_DESC_STRING */
      , (8042, 1, 'Crushed Berimphur Plant') /* NAME_STRING */
      , (8042, 20, 'Crushed Berimphur Plants') /* PLURAL_NAME_STRING */
      , (8042, 15, 'The crushed pieces of a dark yellow berimphur plant.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8042, 1, 33556752) /* SETUP_DID */
      , (8042, 3, 536870932) /* SOUND_TABLE_DID */
      , (8042, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (8042, 1, 33556752) /* SETUP_DID */
      , (8042, 7, 268436035) /* CLOTHINGBASE_DID */
      , (8042, 8, 100670767) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8042, 9, 0) /* LOCATIONS_INT */
      , (8042, 1, 8388608) /* ITEM_TYPE_INT */
      , (8042, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -34,12 +31,11 @@ VALUES (8042, 9, 0) /* LOCATIONS_INT */
      , (8042, 15, 10) /* STACK_UNIT_VALUE_INT */
      , (8042, 16, 1) /* ITEM_USEABLE_INT */
      , (8042, 19, 10) /* VALUE_INT */
-     , (8042, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8042, 9007, 51) /* Stackable_WeenieType */;
+     , (8042, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8042, 39, 2) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8042, 69, False) /* IS_SELLABLE_BOOL */;
 

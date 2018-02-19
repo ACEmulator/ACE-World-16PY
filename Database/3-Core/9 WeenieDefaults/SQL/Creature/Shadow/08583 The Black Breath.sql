@@ -1,17 +1,14 @@
 /* Weenie - The Black Breath (8583) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8583;
+DELETE FROM weenie WHERE class_Id = 8583;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8583, 'shadowcloudcreature');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8583, 'shadowcloudcreature', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8583, 0, 8583);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8583, 1, 'The Black Breath') /* NAME_STRING */
      , (8583, 3, 'Male') /* SEX_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8583, 1, 33556913) /* SETUP_DID */
      , (8583, 2, 150994968) /* MOTION_TABLE_DID */
      , (8583, 3, 536870985) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (8583, 1, 33556913) /* SETUP_DID */
      , (8583, 8, 100670397) /* ICON_DID */
      , (8583, 22, 872415331) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8583, 1, 16) /* ITEM_TYPE_INT */
      , (8583, 2, 22) /* CREATURE_TYPE_INT */
      , (8583, 140, 1) /* AI_OPTIONS_INT */
@@ -34,10 +31,9 @@ VALUES (8583, 1, 16) /* ITEM_TYPE_INT */
      , (8583, 25, 648) /* LEVEL_INT */
      , (8583, 27, 0) /* ARMOR_TYPE_INT */
      , (8583, 93, 1032) /* PHYSICS_STATE_INT */
-     , (8583, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (8583, 9007, 10) /* Creature_WeenieType */;
+     , (8583, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8583, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8583, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (8583, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (8583, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8583, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8583, 31, 30) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8583, 1, True) /* STUCK_BOOL */
      , (8583, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (8583, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -81,21 +77,21 @@ VALUES (8583, 1, True) /* STUCK_BOOL */
      , (8583, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8583, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8583, 2021, 2.028) /* ShadowCloudManaDrain_SpellID */
      , (8583, 2022, 2.028) /* ShadowCloudLifeDrain_SpellID */
      , (8583, 2026, 2.028) /* ShadowCloudStamDrain_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8583, 1, 289) /* STRENGTH_ATTRIBUTE */
      , (8583, 2, 455) /* ENDURANCE_ATTRIBUTE */
      , (8583, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (8583, 8, 270) /* QUICKNESS_ATTRIBUTE */
-     , (8583, 16, 430) /* FOCUS_ATTRIBUTE */
-     , (8583, 32, 400) /* SELF_ATTRIBUTE */;
+     , (8583, 3, 270) /* QUICKNESS_ATTRIBUTE */
+     , (8583, 5, 430) /* FOCUS_ATTRIBUTE */
+     , (8583, 6, 400) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8583, 64, 630) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8583, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8583, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8583, 1, 630) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8583, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8583, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 

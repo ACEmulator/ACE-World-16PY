@@ -1,20 +1,17 @@
 /* Weenie - Heart of Shadow (8778) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8778;
+DELETE FROM weenie WHERE class_Id = 8778;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8778, 'heartshadow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8778, 'heartshadow', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8778, 0, 8778);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8778, 16, 'A shard of immensely powerful Shadow essence, contained by dark magics.') /* LONG_DESC_STRING */
      , (8778, 1, 'Heart of Shadow') /* NAME_STRING */
      , (8778, 33, 'HopeslayerHeart') /* QUEST_STRING */
      , (8778, 14, 'This should be joined with the Fragment of the Singularity.') /* USE_STRING */
      , (8778, 15, 'A shard of powerful Shadow essence.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8778, 1, 33556927) /* SETUP_DID */
      , (8778, 3, 536870932) /* SOUND_TABLE_DID */
      , (8778, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -23,7 +20,7 @@ VALUES (8778, 1, 33556927) /* SETUP_DID */
      , (8778, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8778, 8, 100671223) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8778, 9, 0) /* LOCATIONS_INT */
      , (8778, 1, 2048) /* ITEM_TYPE_INT */
      , (8778, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -39,10 +36,9 @@ VALUES (8778, 9, 0) /* LOCATIONS_INT */
      , (8778, 150, 103) /* HOOK_PLACEMENT_INT */
      , (8778, 151, 2) /* HOOK_TYPE_INT */
      , (8778, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8778, 94, 2048) /* TARGET_TYPE_INT */
-     , (8778, 9007, 44) /* CraftTool_WeenieType */;
+     , (8778, 94, 2048) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8778, 22, True) /* INSCRIBABLE_BOOL */
      , (8778, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

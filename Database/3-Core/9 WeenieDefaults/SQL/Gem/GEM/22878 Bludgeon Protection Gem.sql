@@ -1,17 +1,14 @@
 /* Weenie - Bludgeon Protection Gem (22878) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22878;
+DELETE FROM weenie WHERE class_Id = 22878;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22878, 'gembludgeonprot6');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22878, 'gembludgeonprot6', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22878, 0, 22878);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22878, 1, 'Bludgeon Protection Gem') /* NAME_STRING */
      , (22878, 15, 'A gem of bludgeoning protection VI') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22878, 1, 33554809) /* SETUP_DID */
      , (22878, 3, 536870932) /* SOUND_TABLE_DID */
      , (22878, 28, 1029) /* SPELL_DID */
@@ -21,7 +18,7 @@ VALUES (22878, 1, 33554809) /* SETUP_DID */
      , (22878, 7, 268435723) /* CLOTHINGBASE_DID */
      , (22878, 8, 100673900) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22878, 9, 0) /* LOCATIONS_INT */
      , (22878, 1, 2048) /* ITEM_TYPE_INT */
      , (22878, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -41,10 +38,9 @@ VALUES (22878, 9, 0) /* LOCATIONS_INT */
      , (22878, 107, 100) /* ITEM_CUR_MANA_INT */
      , (22878, 108, 200) /* ITEM_MAX_MANA_INT */
      , (22878, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (22878, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (22878, 9007, 38) /* Gem_WeenieType */;
+     , (22878, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22878, 22, True) /* INSCRIBABLE_BOOL */
      , (22878, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

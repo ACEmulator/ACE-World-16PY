@@ -1,16 +1,13 @@
 /* Weenie - Rabid Carenzi (29347) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29347;
+DELETE FROM weenie WHERE class_Id = 29347;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29347, 'carenzipolar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29347, 'carenzipolar', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29347, 0, 29347);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29347, 1, 'Rabid Carenzi') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29347, 1, 33557141) /* SETUP_DID */
      , (29347, 2, 150995133) /* MOTION_TABLE_DID */
      , (29347, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (29347, 1, 33557141) /* SETUP_DID */
      , (29347, 7, 268436195) /* CLOTHINGBASE_DID */
      , (29347, 8, 100671754) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29347, 1, 16) /* ITEM_TYPE_INT */
      , (29347, 2, 55) /* CREATURE_TYPE_INT */
      , (29347, 3, 53) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (29347, 1, 16) /* ITEM_TYPE_INT */
      , (29347, 25, 74) /* LEVEL_INT */
      , (29347, 27, 0) /* ARMOR_TYPE_INT */
      , (29347, 93, 1032) /* PHYSICS_STATE_INT */
-     , (29347, 40, 2) /* COMBAT_MODE_INT */
-     , (29347, 9007, 10) /* Creature_WeenieType */;
+     , (29347, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29347, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (29347, 65, 0.6) /* RESIST_PIERCE_FLOAT */
      , (29347, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (29347, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (29347, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29347, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29347, 1, True) /* STUCK_BOOL */
      , (29347, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (29347, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29347, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29347, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (29347, 2, 180) /* ENDURANCE_ATTRIBUTE */
      , (29347, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (29347, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (29347, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (29347, 32, 120) /* SELF_ATTRIBUTE */;
+     , (29347, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (29347, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (29347, 6, 120) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29347, 64, 210) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29347, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29347, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29347, 1, 210) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29347, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29347, 5, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29347, 9, 11341, 0, 0, 0.05, False) /* Create Rabid Carenzi Pelt for ContainTreasure_DestinationType */
      , (29347, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (29347, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */

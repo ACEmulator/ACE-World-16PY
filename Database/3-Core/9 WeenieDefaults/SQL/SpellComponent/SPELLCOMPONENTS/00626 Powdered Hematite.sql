@@ -1,17 +1,14 @@
 /* Weenie - Powdered Hematite (626) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 626;
+DELETE FROM weenie WHERE class_Id = 626;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (626, 'hematite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (626, 'hematite', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (626, 0, 626);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (626, 1, 'Powdered Hematite') /* NAME_STRING */
      , (626, 20, 'Powdered Hematites') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (626, 1, 33555208) /* SETUP_DID */
      , (626, 3, 536870932) /* SOUND_TABLE_DID */
      , (626, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (626, 1, 33555208) /* SETUP_DID */
      , (626, 8, 100668381) /* ICON_DID */
      , (626, 29, 30) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (626, 9, 0) /* LOCATIONS_INT */
      , (626, 1, 4096) /* ITEM_TYPE_INT */
      , (626, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,9 +30,8 @@ VALUES (626, 9, 0) /* LOCATIONS_INT */
      , (626, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (626, 16, 1) /* ITEM_USEABLE_INT */
      , (626, 19, 5) /* VALUE_INT */
-     , (626, 93, 1044) /* PHYSICS_STATE_INT */
-     , (626, 9007, 32) /* SpellComponent_WeenieType */;
+     , (626, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (626, 69, False) /* IS_SELLABLE_BOOL */;
 

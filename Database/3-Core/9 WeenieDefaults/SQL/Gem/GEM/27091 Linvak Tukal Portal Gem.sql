@@ -1,18 +1,15 @@
 /* Weenie - Linvak Tukal Portal Gem (27091) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27091;
+DELETE FROM weenie WHERE class_Id = 27091;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27091, 'gemportallinvaktukal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27091, 'gemportallinvaktukal', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27091, 0, 27091);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27091, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (27091, 1, 'Linvak Tukal Portal Gem') /* NAME_STRING */
      , (27091, 15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27091, 1, 33556769) /* SETUP_DID */
      , (27091, 3, 536870932) /* SOUND_TABLE_DID */
      , (27091, 28, 157) /* SPELL_DID */
@@ -23,7 +20,7 @@ VALUES (27091, 1, 33556769) /* SETUP_DID */
      , (27091, 7, 268435723) /* CLOTHINGBASE_DID */
      , (27091, 8, 100674862) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27091, 9, 0) /* LOCATIONS_INT */
      , (27091, 1, 2048) /* ITEM_TYPE_INT */
      , (27091, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -45,10 +42,9 @@ VALUES (27091, 9, 0) /* LOCATIONS_INT */
      , (27091, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27091, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27091, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27091, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27091, 9007, 38) /* Gem_WeenieType */;
+     , (27091, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27091, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27091, 15, True) /* LIGHTS_STATUS_BOOL */;
 

@@ -1,21 +1,18 @@
 /* Weenie - LiveOp Hotspot (22172) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22172;
+DELETE FROM weenie WHERE class_Id = 22172;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22172, 'hotspot-lo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22172, 'hotspot-lo', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22172, 0, 22172);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22172, 1, 'LiveOp Hotspot') /* NAME_STRING */
      , (22172, 17, 'You should not be here.') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22172, 1, 33556024) /* SETUP_DID */
      , (22172, 8, 100667494) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22172, 1, 128) /* ITEM_TYPE_INT */
      , (22172, 66, 1) /* CHECKPOINT_STATUS_INT */
      , (22172, 93, 12) /* PHYSICS_STATE_INT */
@@ -26,16 +23,15 @@ VALUES (22172, 1, 128) /* ITEM_TYPE_INT */
      , (22172, 19, 5) /* VALUE_INT */
      , (22172, 44, 1) /* DAMAGE_INT */
      , (22172, 45, 4) /* DAMAGE_TYPE_INT */
-     , (22172, 119, 1) /* ACTIVE_INT */
-     , (22172, 9007, 13) /* HotSpot_WeenieType */;
+     , (22172, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22172, 39, 3) /* DEFAULT_SCALE_FLOAT */
      , (22172, 105, 1) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (22172, 106, 0.2) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (22172, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22172, 57, False) /* AFFECTS_AIS_BOOL */
      , (22172, 1, True) /* STUCK_BOOL */
      , (22172, 11, False) /* IGNORE_COLLISIONS_BOOL */

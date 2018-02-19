@@ -1,16 +1,13 @@
 /* Weenie - Swamp King (12006) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12006;
+DELETE FROM weenie WHERE class_Id = 12006;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12006, 'mosswarthighbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12006, 'mosswarthighbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12006, 0, 12006);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12006, 1, 'Swamp King') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12006, 8, 100667449) /* ICON_DID */
      , (12006, 32, 282) /* WIELDED_TREASURE_TYPE_DID */
      , (12006, 1, 33557327) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (12006, 8, 100667449) /* ICON_DID */
      , (12006, 7, 268436293) /* CLOTHINGBASE_DID */
      , (12006, 22, 872415264) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12006, 1, 16) /* ITEM_TYPE_INT */
      , (12006, 2, 4) /* CREATURE_TYPE_INT */
      , (12006, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -41,10 +38,9 @@ VALUES (12006, 1, 16) /* ITEM_TYPE_INT */
      , (12006, 93, 1032) /* PHYSICS_STATE_INT */
      , (12006, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (12006, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (12006, 40, 2) /* COMBAT_MODE_INT */
-     , (12006, 9007, 10) /* Creature_WeenieType */;
+     , (12006, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12006, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (12006, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (12006, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -80,14 +76,14 @@ VALUES (12006, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (12006, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12006, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12006, 1, True) /* STUCK_BOOL */
      , (12006, 6, True) /* AI_USES_MANA_BOOL */
      , (12006, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12006, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12006, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12006, 1311, 2.007) /* ArmorSelf5_SpellID */
      , (12006, 84, 2.023) /* FlameBolt5_SpellID */
      , (12006, 1160, 2.02) /* HealSelf5_SpellID */
@@ -105,20 +101,20 @@ VALUES (12006, 1311, 2.007) /* ArmorSelf5_SpellID */
      , (12006, 1395, 2.036) /* ClumsinessOther5_SpellID */
      , (12006, 62, 2.023) /* AcidStream5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12006, 1, 268) /* STRENGTH_ATTRIBUTE */
      , (12006, 2, 190) /* ENDURANCE_ATTRIBUTE */
      , (12006, 4, 255) /* COORDINATION_ATTRIBUTE */
-     , (12006, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (12006, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (12006, 32, 210) /* SELF_ATTRIBUTE */;
+     , (12006, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (12006, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (12006, 6, 210) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12006, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12006, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12006, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12006, 1, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12006, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12006, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12006, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
      , (12006, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
      , (12006, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
@@ -128,7 +124,7 @@ VALUES (12006, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTrea
      , (12006, 9, 23592, 0, 0, 0.3, False) /* Create Gauntlets of Marksmanship for ContainTreasure_DestinationType */
      , (12006, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12006, 0.33, 7102, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Mire-Witch (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12006, 0.67, 7103, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Clinger (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12006, 1, 7103, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Clinger (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

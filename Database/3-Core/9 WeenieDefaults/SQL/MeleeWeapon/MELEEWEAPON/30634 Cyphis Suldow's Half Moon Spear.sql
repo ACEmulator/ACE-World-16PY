@@ -1,22 +1,19 @@
 /* Weenie - Cyphis Suldow's Half Moon Spear (30634) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30634;
+DELETE FROM weenie WHERE class_Id = 30634;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30634, 'spearhalfmoon');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30634, 'spearhalfmoon', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30634, 0, 30634);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30634, 1, 'Cyphis Suldow''s Half Moon Spear') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30634, 1, 33559207) /* SETUP_DID */
      , (30634, 3, 536870932) /* SOUND_TABLE_DID */
      , (30634, 8, 100677384) /* ICON_DID */
      , (30634, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30634, 9, 1048576) /* LOCATIONS_INT */
      , (30634, 1, 1) /* ITEM_TYPE_INT */
      , (30634, 93, 1044) /* PHYSICS_STATE_INT */
@@ -40,10 +37,9 @@ VALUES (30634, 9, 1048576) /* LOCATIONS_INT */
      , (30634, 48, 9) /* WEAPON_SKILL_INT */
      , (30634, 49, 30) /* WEAPON_TIME_INT */
      , (30634, 114, 1) /* ATTUNED_INT */
-     , (30634, 51, 1) /* COMBAT_USE_INT */
-     , (30634, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (30634, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30634, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (30634, 21, 1.5) /* WEAPON_LENGTH_FLOAT */
      , (30634, 5, -0.0333) /* MANA_RATE_FLOAT */
@@ -52,13 +48,13 @@ VALUES (30634, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (30634, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (30634, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30634, 99, True) /* IVORYABLE_BOOL */
      , (30634, 69, True) /* IS_SELLABLE_BOOL */
      , (30634, 22, True) /* INSCRIBABLE_BOOL */
      , (30634, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30634, 2563, 2) /* CANTRIPSPEARAPTITUDE1_SpellID */
      , (30634, 1616, 2) /* BloodDrinker6_SpellID */
      , (30634, 1627, 2) /* SwiftKiller6_SpellID */

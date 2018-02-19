@@ -1,16 +1,13 @@
 /* Weenie - Mosswart Muck Stalker (27864) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27864;
+DELETE FROM weenie WHERE class_Id = 27864;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27864, 'mosswartmuckstalker');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27864, 'mosswartmuckstalker', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27864, 0, 27864);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27864, 1, 'Mosswart Muck Stalker') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27864, 1, 33557327) /* SETUP_DID */
      , (27864, 2, 150994953) /* MOTION_TABLE_DID */
      , (27864, 35, 450) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (27864, 1, 33557327) /* SETUP_DID */
      , (27864, 7, 268436295) /* CLOTHINGBASE_DID */
      , (27864, 8, 100667449) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27864, 1, 16) /* ITEM_TYPE_INT */
      , (27864, 2, 4) /* CREATURE_TYPE_INT */
      , (27864, 3, 7) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (27864, 1, 16) /* ITEM_TYPE_INT */
      , (27864, 27, 0) /* ARMOR_TYPE_INT */
      , (27864, 93, 1032) /* PHYSICS_STATE_INT */
      , (27864, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27864, 40, 2) /* COMBAT_MODE_INT */
-     , (27864, 9007, 10) /* Creature_WeenieType */;
+     , (27864, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27864, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (27864, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (27864, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (27864, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (27864, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27864, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27864, 1, True) /* STUCK_BOOL */
      , (27864, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27864, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27864, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27864, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (27864, 2, 170) /* ENDURANCE_ATTRIBUTE */
      , (27864, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (27864, 8, 205) /* QUICKNESS_ATTRIBUTE */
-     , (27864, 16, 190) /* FOCUS_ATTRIBUTE */
-     , (27864, 32, 180) /* SELF_ATTRIBUTE */;
+     , (27864, 3, 205) /* QUICKNESS_ATTRIBUTE */
+     , (27864, 5, 190) /* FOCUS_ATTRIBUTE */
+     , (27864, 6, 180) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27864, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27864, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27864, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27864, 1, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27864, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27864, 5, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27864, 10, 23676, 0, 0, 0.2, False) /* Create Katar for WieldTreasure_DestinationType */
      , (27864, 10, 23702, 0, 0, 0.2, False) /* Create Tachi for WieldTreasure_DestinationType */
      , (27864, 10, 23708, 0, 0, 0.2, False) /* Create Fire Tachi for WieldTreasure_DestinationType */

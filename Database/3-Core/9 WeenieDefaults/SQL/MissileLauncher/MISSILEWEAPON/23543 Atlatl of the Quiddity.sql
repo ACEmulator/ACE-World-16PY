@@ -1,24 +1,21 @@
 /* Weenie - Atlatl of the Quiddity (23543) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23543;
+DELETE FROM weenie WHERE class_Id = 23543;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23543, 'loatlatlquiddity');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23543, 'loatlatlquiddity', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23543, 0, 23543);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23543, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */
      , (23543, 1, 'Atlatl of the Quiddity') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23543, 1, 33558192) /* SETUP_DID */
      , (23543, 3, 536870932) /* SOUND_TABLE_DID */
      , (23543, 37, 12) /* ITEM_SKILL_LIMIT_DID */
      , (23543, 8, 100674027) /* ICON_DID */
      , (23543, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23543, 9, 4194304) /* LOCATIONS_INT */
      , (23543, 1, 256) /* ITEM_TYPE_INT */
      , (23543, 5, 200) /* ENCUMB_VAL_INT */
@@ -40,22 +37,21 @@ VALUES (23543, 9, 4194304) /* LOCATIONS_INT */
      , (23543, 50, 4) /* AMMO_TYPE_INT */
      , (23543, 51, 2) /* COMBAT_USE_INT */
      , (23543, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23543, 60, 140) /* WEAPON_RANGE_INT */
-     , (23543, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (23543, 60, 140) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23543, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23543, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23543, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (23543, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (23543, 63, 2.13) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23543, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (23543, 15, True) /* LIGHTS_STATUS_BOOL */
      , (23543, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23543, 1603, 2) /* Defender4_SpellID */
      , (23543, 1615, 2) /* BloodDrinker5_SpellID */
      , (23543, 1625, 2) /* SwiftKiller4_SpellID */;

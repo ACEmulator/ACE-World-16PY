@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7365, 2074005504, 3119316992, 120.732, 36.0609, 8.17331, 0.140177, 0, 0, 0.990126) /* erupttenkarrdungen */
      , (7365, 2074005505, 3119316992, 171.001, 32.6494, 5.77128, -0.996893, 0, 0, -0.0787663) /* erupttenkarrdungen */
      , (7364, 2074005506, 3119316992, 156.121, 82.5663, 36.1687, -0.999679, 0, 0, 0.0253348) /* erupttenkarrdunfxgen */
@@ -21,10 +21,10 @@ VALUES (7365, 2074005504, 3119316992, 120.732, 36.0609, 8.17331, 0.140177, 0, 0,
      , (7216, 2074005526, 3119316992, 102.975, 180.217, 100.149, -0.945071, 0, 0, 0.326864) /* lavalandashwestmixgen */
      , (7216, 2074005527, 3119316992, 123.866, 88.5251, 39.6446, -0.209628, 0, 0, 0.977781) /* lavalandashwestmixgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074005514'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074005514'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005515'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005516'; /* linkmonstergen3minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005517'; /* linkmonstergen3minutes <- Mist Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074005518'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074005515'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074005516'; /* linkmonstergen3minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074005517'; /* linkmonstergen3minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074005518'; /* linkmonstergen3minutes <- Mist Golem */
 

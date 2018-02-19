@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /* Surface */
      , (30395, 1880764572, 27459843, 40, -30, -107.995, 1, 0, 0, -4.37114E-08) /* Portal to the Beach Fort */
      , (24310, 1880764417, 27459867, 47.6296, -50.8969, -107.988, 0.707107, 0, 0, -0.707107) /* Direland Rat */
@@ -159,129 +159,129 @@ VALUES (3629, 1880764416, 27459840, 30, -40, -108, 0.707107, 0, 0, -0.707107) /*
      , (24287, 1880764570, 27460381, 100, -30, 0.004, -0.707107, 0, 0, -0.707107) /* Bloodthirsty Monouga */
      , (24287, 1880764571, 27460381, 97.2748, -28.0866, 0.004, -0.707107, 0, 0, -0.707107) /* Bloodthirsty Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880764561'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880764541'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880764529'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880764494'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880764466'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880764449'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880764432'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880764574'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880764561'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880764541'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880764529'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880764494'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880764466'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880764449'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880764432'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880764574'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764563'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764564'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764565'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764566'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764569'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764567'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764568'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764570'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764571'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764557'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764558'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764559'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880764560'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764549'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764550'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764551'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764552'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764553'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764554'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764556'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764545'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764546'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764542'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764543'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764544'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880764540'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764536'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764537'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764538'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764539'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764534'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764535'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764533'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764530'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764531'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764532'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764520'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764521'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764522'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764523'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764524'; /* linkmonstergen <- Bloodthirsty Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764525'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880764526'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764514'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764511'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764512'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764513'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764508'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764509'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764515'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764516'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764505'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764486'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764487'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764488'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764489'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764490'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764482'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764483'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764484'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764485'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764481'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764492'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764493'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764496'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764497'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764498'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880764499'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764479'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764480'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764478'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764476'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764475'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764477'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764472'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764473'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764474'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764467'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764468'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764469'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764470'; /* linkmonstergen <- Pugnacious Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764451'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764452'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764453'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764454'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764456'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764457'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764458'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764459'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764462'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764463'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764464'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880764465'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764442'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764443'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764444'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764445'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764446'; /* linkmonstergen <- Merciless Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764447'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764448'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764417'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764419'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880764418'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764438'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764439'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764433'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764434'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764435'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764436'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764429'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764430'; /* linkmonstergen <- Armored Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764421'; /* linkmonstergen <- Phantasm */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764422'; /* linkmonstergen <- Phantasm */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764425'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880764426'; /* linkmonstergen <- Skeletal Hero */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880764573'; /* linkitemgen10seconds <- Suzuhara Baijin's Care Package */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764563'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764564'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764565'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764566'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764569'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764567'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764568'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764570'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764571'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764557'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764558'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764559'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880764560'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764549'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764550'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764551'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764552'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764553'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764554'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764556'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764545'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764546'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764542'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764543'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764544'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880764540'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764536'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764537'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764538'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764539'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764534'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764535'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764533'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764530'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764531'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764532'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764520'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764521'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764522'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764523'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764524'; /* linkmonstergen <- Bloodthirsty Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764525'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880764526'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764514'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764511'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764512'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764513'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764508'; /* linkmonstergen <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764509'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764515'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764516'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764505'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764486'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764487'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764488'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764489'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764490'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764482'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764483'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764484'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764485'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764481'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764492'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764493'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764496'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764497'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764498'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880764499'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764479'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764480'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764478'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764476'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764475'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764477'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764472'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764473'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764474'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764467'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764468'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764469'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764470'; /* linkmonstergen <- Pugnacious Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764451'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764452'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764453'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764454'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764456'; /* linkmonstergen <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764457'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764458'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764459'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764462'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764463'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764464'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880764465'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764442'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764443'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764444'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764445'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764446'; /* linkmonstergen <- Merciless Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764447'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764448'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764417'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764419'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880764418'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764438'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764439'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764433'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764434'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764435'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764436'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764429'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764430'; /* linkmonstergen <- Armored Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764421'; /* linkmonstergen <- Phantasm */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764422'; /* linkmonstergen <- Phantasm */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764425'; /* linkmonstergen <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880764426'; /* linkmonstergen <- Skeletal Hero */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880764573'; /* linkitemgen10seconds <- Suzuhara Baijin's Care Package */
 

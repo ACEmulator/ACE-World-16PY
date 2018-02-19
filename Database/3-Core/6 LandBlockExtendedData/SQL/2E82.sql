@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (420, 1927815171, 780271872, 38.7369, 9.79789, 32.005, -0.427331, 0, 0, 0.904095) /* itemfood-generator */
      , (1460, 1927815177, 780271872, 32.5399, 9.17825, 37.605, -0.980324, 0, 0, 0.197397) /* itemfoodhealgen */
      , (951, 1927815176, 780271872, 39.4609, 9.04821, 40.805, -0.774652, 0, 0, -0.632388) /* banderlingguardgen */

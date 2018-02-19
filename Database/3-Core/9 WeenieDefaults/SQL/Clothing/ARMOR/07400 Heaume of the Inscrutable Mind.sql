@@ -1,18 +1,15 @@
 /* Weenie - Heaume of the Inscrutable Mind (7400) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7400;
+DELETE FROM weenie WHERE class_Id = 7400;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7400, 'heaumetransparenthead');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7400, 'heaumetransparenthead', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7400, 0, 7400);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7400, 16, 'A heaume of lightweight material, enchanted such that the head of whoever wears it will become nearly transparent. The original purpose of this Empyrean relic is obscure.') /* LONG_DESC_STRING */
      , (7400, 1, 'Heaume of the Inscrutable Mind') /* NAME_STRING */
      , (7400, 15, 'A heaume made of lightweight and nearly invisible material.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7400, 1, 33556856) /* SETUP_DID */
      , (7400, 3, 536870932) /* SOUND_TABLE_DID */
      , (7400, 37, 31) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (7400, 1, 33556856) /* SETUP_DID */
      , (7400, 7, 268436075) /* CLOTHINGBASE_DID */
      , (7400, 8, 100667349) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7400, 9, 1) /* LOCATIONS_INT */
      , (7400, 1, 2) /* ITEM_TYPE_INT */
      , (7400, 19, 6952) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (7400, 9, 1) /* LOCATIONS_INT */
      , (7400, 107, 299) /* ITEM_CUR_MANA_INT */
      , (7400, 108, 711) /* ITEM_MAX_MANA_INT */
      , (7400, 109, 114) /* ITEM_DIFFICULTY_INT */
-     , (7400, 115, 268) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7400, 9007, 2) /* Clothing_WeenieType */;
+     , (7400, 115, 268) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7400, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (7400, 5, -0.0417) /* MANA_RATE_FLOAT */
      , (7400, 12, 0.2) /* SHADE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (7400, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (7400, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (7400, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7400, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7400, 282, 2) /* MagicYieldOther3_SpellID */
      , (7400, 1430, 2) /* FocusOther4_SpellID */
      , (7400, 688, 2) /* ArcaneEnlightenmentOther5_SpellID */

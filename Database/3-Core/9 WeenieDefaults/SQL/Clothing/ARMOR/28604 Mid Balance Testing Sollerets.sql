@@ -1,16 +1,13 @@
 /* Weenie - Mid Balance Testing Sollerets (28604) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28604;
+DELETE FROM weenie WHERE class_Id = 28604;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28604, 'solleretsbalancetestmid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28604, 'solleretsbalancetestmid', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28604, 0, 28604);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28604, 1, 'Mid Balance Testing Sollerets') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28604, 1, 33554654) /* SETUP_DID */
      , (28604, 3, 536870932) /* SOUND_TABLE_DID */
      , (28604, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (28604, 1, 33554654) /* SETUP_DID */
      , (28604, 7, 268436752) /* CLOTHINGBASE_DID */
      , (28604, 8, 100675590) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28604, 9, 256) /* LOCATIONS_INT */
      , (28604, 1, 2) /* ITEM_TYPE_INT */
      , (28604, 27, 32) /* ARMOR_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (28604, 9, 256) /* LOCATIONS_INT */
      , (28604, 44, 3) /* DAMAGE_INT */
      , (28604, 108, 4000) /* ITEM_MAX_MANA_INT */
      , (28604, 45, 4) /* DAMAGE_TYPE_INT */
-     , (28604, 114, 1) /* ATTUNED_INT */
-     , (28604, 9007, 2) /* Clothing_WeenieType */;
+     , (28604, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28604, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28604, 5, 0) /* MANA_RATE_FLOAT */
      , (28604, 12, 0.66) /* SHADE_FLOAT */
@@ -53,11 +49,11 @@ VALUES (28604, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28604, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (28604, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28604, 69, False) /* IS_SELLABLE_BOOL */
      , (28604, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28604, 1538, 2) /* LightningBane4_SpellID */
      , (28604, 1484, 2) /* Impenetrability4_SpellID */
      , (28604, 1550, 2) /* FlameBane4_SpellID */

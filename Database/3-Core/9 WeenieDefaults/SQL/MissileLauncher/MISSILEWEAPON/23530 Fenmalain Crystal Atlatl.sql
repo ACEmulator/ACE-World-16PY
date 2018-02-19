@@ -1,17 +1,14 @@
 /* Weenie - Fenmalain Crystal Atlatl (23530) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23530;
+DELETE FROM weenie WHERE class_Id = 23530;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23530, 'atlatlcrystalfen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23530, 'atlatlcrystalfen', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23530, 0, 23530);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23530, 16, 'An atlatl imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped darts.') /* LONG_DESC_STRING */
      , (23530, 1, 'Fenmalain Crystal Atlatl') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23530, 1, 33557433) /* SETUP_DID */
      , (23530, 3, 536870932) /* SOUND_TABLE_DID */
      , (23530, 37, 12) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (23530, 1, 33557433) /* SETUP_DID */
      , (23530, 7, 268436042) /* CLOTHINGBASE_DID */
      , (23530, 8, 100674034) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23530, 9, 4194304) /* LOCATIONS_INT */
      , (23530, 1, 256) /* ITEM_TYPE_INT */
      , (23530, 19, 1000) /* VALUE_INT */
@@ -43,10 +40,9 @@ VALUES (23530, 9, 4194304) /* LOCATIONS_INT */
      , (23530, 114, 1) /* ATTUNED_INT */
      , (23530, 51, 2) /* COMBAT_USE_INT */
      , (23530, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23530, 60, 120) /* WEAPON_RANGE_INT */
-     , (23530, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (23530, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23530, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23530, 5, -0.05) /* MANA_RATE_FLOAT */
      , (23530, 63, 1.7) /* DAMAGE_MOD_FLOAT */
@@ -56,11 +52,11 @@ VALUES (23530, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23530, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (23530, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23530, 22, True) /* INSCRIBABLE_BOOL */
      , (23530, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23530, 1613, 2) /* BloodDrinker3_SpellID */
      , (23530, 535, 2) /* ThrownWeaponMasteryOther3_SpellID */
      , (23530, 1624, 2) /* SwiftKiller3_SpellID */;

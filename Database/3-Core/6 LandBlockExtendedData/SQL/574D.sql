@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24227, 1970589696, 1464664320, 3.98299, -39.9949, -5.995, 0.696707, 0, 0, 0.717356) /* Catacombs of Opposition */
      , (23481, 1970589699, 1464664321, 10.2848, -24.4223, -5.87399, -0.535367, 0, 0, 0.84462) /* Olthoi Mutilator */
      , (15759, 1970589700, 1464664323, 10, -40, -5.995, 0.714421, 0, 0, 0.699716) /* linkitemgen10seconds */
@@ -20,21 +20,21 @@ VALUES (24227, 1970589696, 1464664320, 3.98299, -39.9949, -5.995, 0.696707, 0, 0
      , (5627, 1970589714, 1464664421, 140.004, -25.3974, 0.005, -4.37114E-08, 0, 0, -1) /* Door */
      , (23481, 1970589715, 1464664421, 140.035, -27.0428, 0.005, 0.999928, 0, 0, 0.011971) /* Olthoi Mutilator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1970589713'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1970589700'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1970589713'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1970589700'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589709'; /* linkmonstergen3minutes <- Olthoi Swarm Eviscerator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589711'; /* linkmonstergen3minutes <- Olthoi Swarm Eviscerator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589715'; /* linkmonstergen3minutes <- Olthoi Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589712'; /* linkmonstergen3minutes <- Olthoi Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589710'; /* linkmonstergen3minutes <- Olthoi Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589708'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589707'; /* linkmonstergen3minutes <- Olthoi Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589706'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589704'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970589699'; /* linkmonstergen3minutes <- Olthoi Mutilator */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970589703'; /* linkitemgen10seconds <- Note from a Scout */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970589702'; /* linkitemgen10seconds <- Note from a Scout */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970589705'; /* linkitemgen10seconds <- Note from a Scout */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1970589701'; /* linkitemgen10seconds <- Note from a Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589709'; /* linkmonstergen3minutes <- Olthoi Swarm Eviscerator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589711'; /* linkmonstergen3minutes <- Olthoi Swarm Eviscerator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589715'; /* linkmonstergen3minutes <- Olthoi Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589712'; /* linkmonstergen3minutes <- Olthoi Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589710'; /* linkmonstergen3minutes <- Olthoi Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589708'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589707'; /* linkmonstergen3minutes <- Olthoi Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589706'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589704'; /* linkmonstergen3minutes <- Olthoi Swarm Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970589699'; /* linkmonstergen3minutes <- Olthoi Mutilator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970589703'; /* linkitemgen10seconds <- Note from a Scout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970589702'; /* linkitemgen10seconds <- Note from a Scout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970589705'; /* linkitemgen10seconds <- Note from a Scout */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1970589701'; /* linkitemgen10seconds <- Note from a Scout */
 

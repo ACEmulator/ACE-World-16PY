@@ -1,16 +1,13 @@
 /* Weenie - Deadly Chorizite Arrow (21348) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21348;
+DELETE FROM weenie WHERE class_Id = 21348;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21348, 'arrowchorizitedeadly');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21348, 'arrowchorizitedeadly', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21348, 0, 21348);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21348, 1, 'Deadly Chorizite Arrow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21348, 1, 33558045) /* SETUP_DID */
      , (21348, 3, 536870932) /* SOUND_TABLE_DID */
      , (21348, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (21348, 1, 33558045) /* SETUP_DID */
      , (21348, 7, 268436303) /* CLOTHINGBASE_DID */
      , (21348, 8, 100673585) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21348, 9, 8388608) /* LOCATIONS_INT */
      , (21348, 1, 256) /* ITEM_TYPE_INT */
      , (21348, 11, 250) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (21348, 9, 8388608) /* LOCATIONS_INT */
      , (21348, 45, 2) /* DAMAGE_TYPE_INT */
      , (21348, 50, 64) /* AMMO_TYPE_INT */
      , (21348, 179, -2147483648) /* IMBUED_EFFECT_INT */
-     , (21348, 51, 3) /* COMBAT_USE_INT */
-     , (21348, 9007, 5) /* Ammunition_WeenieType */;
+     , (21348, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21348, 79, 0) /* ELASTICITY_FLOAT */
      , (21348, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (21348, 76, 0.5) /* TRANSLUCENCY_FLOAT */
@@ -54,7 +50,7 @@ VALUES (21348, 79, 0) /* ELASTICITY_FLOAT */
      , (21348, 78, 1) /* FRICTION_FLOAT */
      , (21348, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21348, 69, False) /* IS_SELLABLE_BOOL */
      , (21348, 17, True) /* INELASTIC_BOOL */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3955, 1909530624, 487718912, 136.585, 188.922, 0.622908, 0.585234, 0, 0, 0.810865) /* linkmonstergen15minutes */
      , (30691, 1909530625, 487718912, 74.4171, 169.252, 4.01717, 0.441797, 0, 0, 0.897115) /* Withered Raider Justicar */
      , (30691, 1909530626, 487718912, 77.2512, 166.508, 3.32374, 0.059115, 0, 0, 0.998251) /* Withered Raider Justicar */
@@ -23,28 +23,28 @@ VALUES (3955, 1909530624, 487718912, 136.585, 188.922, 0.622908, 0.585234, 0, 0,
      , (30689, 1909530645, 487718912, 13.0074, 66.0077, -0.09, 0.738909, 0, 0, 0.673806) /* Withered Raider Prefect */
      , (30689, 1909530646, 487718912, 15.669, 63.2312, -0.09, 0.686343, 0, 0, 0.727278) /* Withered Raider Prefect */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1909530624'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1909530624'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530646'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530647'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530648'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530625'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530626'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530627'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530628'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530629'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530630'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530631'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530633'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530634'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530635'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530636'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530637'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530639'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530640'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530641'; /* linkmonstergen15minutes <- Withered Raider Justicar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530642'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530643'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530644'; /* linkmonstergen15minutes <- Withered Raider Prefect */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1909530645'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530646'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530647'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530648'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530625'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530626'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530627'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530628'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530629'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530630'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530631'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530633'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530634'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530635'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530636'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530637'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530639'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530640'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530641'; /* linkmonstergen15minutes <- Withered Raider Justicar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530642'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530643'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530644'; /* linkmonstergen15minutes <- Withered Raider Prefect */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1909530645'; /* linkmonstergen15minutes <- Withered Raider Prefect */
 

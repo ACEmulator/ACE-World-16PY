@@ -1,16 +1,13 @@
 /* Weenie - Asmolum the Worm (8537) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8537;
+DELETE FROM weenie WHERE class_Id = 8537;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8537, 'darkrevenantasmolum');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8537, 'darkrevenantasmolum', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8537, 0, 8537);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8537, 1, 'Asmolum the Worm') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8537, 8, 100667942) /* ICON_DID */
      , (8537, 32, 337) /* WIELDED_TREASURE_TYPE_DID */
      , (8537, 1, 33554839) /* SETUP_DID */
@@ -21,7 +18,7 @@ VALUES (8537, 8, 100667942) /* ICON_DID */
      , (8537, 6, 67110722) /* PALETTE_BASE_DID */
      , (8537, 7, 268435558) /* CLOTHINGBASE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8537, 1, 16) /* ITEM_TYPE_INT */
      , (8537, 2, 14) /* CREATURE_TYPE_INT */
      , (8537, 3, 68) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (8537, 1, 16) /* ITEM_TYPE_INT */
      , (8537, 27, 0) /* ARMOR_TYPE_INT */
      , (8537, 93, 4195336) /* PHYSICS_STATE_INT */
      , (8537, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (8537, 40, 1) /* COMBAT_MODE_INT */
-     , (8537, 9007, 10) /* Creature_WeenieType */;
+     , (8537, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8537, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8537, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (8537, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (8537, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8537, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8537, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8537, 1, True) /* STUCK_BOOL */
      , (8537, 6, True) /* AI_USES_MANA_BOOL */
      , (8537, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
@@ -82,25 +78,25 @@ VALUES (8537, 1, True) /* STUCK_BOOL */
      , (8537, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8537, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8537, 2020, 2.1) /* RecallAsmolum1_SpellID */
      , (8537, 2024, 2.1) /* RecallAsmolum2_SpellID */
      , (8537, 2025, 2.1) /* RecallAsmolum3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8537, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (8537, 2, 270) /* ENDURANCE_ATTRIBUTE */
      , (8537, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (8537, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (8537, 16, 275) /* FOCUS_ATTRIBUTE */
-     , (8537, 32, 275) /* SELF_ATTRIBUTE */;
+     , (8537, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (8537, 5, 275) /* FOCUS_ATTRIBUTE */
+     , (8537, 6, 275) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8537, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8537, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8537, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8537, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8537, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8537, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8537, 2, 8525, 1, 0, 1, False) /* Create Asmolum's Throwing Dagger for Wield_DestinationType */
      , (8537, 9, 8525, 10, 0, 1, False) /* Create Asmolum's Throwing Dagger for ContainTreasure_DestinationType */
      , (8537, 9, 8524, 1, 0, 1, False) /* Create Asmolum's Dagger for ContainTreasure_DestinationType */

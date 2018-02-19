@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (892, 2062147590, 2929590528, 157.85, 152.651, 90.005, -0.965564, 0, 0, 0.260165) /* drudgeprowlergen */
      , (892, 2062147591, 2929590528, 152.647, 152.534, 95.605, -0.974639, 0, 0, 0.223782) /* drudgeprowlergen */
      , (905, 2062147586, 2929590532, 108.823, 158.011, 90.005, 0.410342, 0, 0, -0.911932) /* ratblackgen */
@@ -18,7 +18,7 @@ VALUES (892, 2062147590, 2929590528, 157.85, 152.651, 90.005, -0.965564, 0, 0, 0
      , (892, 2062147593, 2929590272, 109.362, 128.709, 94.005, 0.0922657, 0, 0, 0.995734) /* drudgeprowlergen */
      , (892, 2062147592, 2929590272, 131.784, 154.851, 94.005, 0.117128, 0, 0, 0.993117) /* drudgeprowlergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062147612'; /* Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2062147612'; /* Trap Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062147607'; /* Trap Door <- Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2062147607'; /* Trap Door <- Trap Door */
 

@@ -1,17 +1,14 @@
 /* Weenie - Phantom Bow (21964) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21964;
+DELETE FROM weenie WHERE class_Id = 21964;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21964, 'bowphantom');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21964, 'bowphantom', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21964, 0, 21964);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21964, 16, 'A bow with a ghostly hue crafted from pure chorizite, resitant to any enchantment. ') /* LONG_DESC_STRING */
      , (21964, 1, 'Phantom Bow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21964, 1, 33554728) /* SETUP_DID */
      , (21964, 3, 536870932) /* SOUND_TABLE_DID */
      , (21964, 30, 87) /* PHYSICS_SCRIPT_DID */
@@ -20,7 +17,7 @@ VALUES (21964, 1, 33554728) /* SETUP_DID */
      , (21964, 7, 268435759) /* CLOTHINGBASE_DID */
      , (21964, 8, 100668815) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21964, 9, 4194304) /* LOCATIONS_INT */
      , (21964, 1, 256) /* ITEM_TYPE_INT */
      , (21964, 19, 4000) /* VALUE_INT */
@@ -46,17 +43,16 @@ VALUES (21964, 9, 4194304) /* LOCATIONS_INT */
      , (21964, 179, -2147483648) /* IMBUED_EFFECT_INT */
      , (21964, 52, 2) /* PARENT_LOCATION_INT */
      , (21964, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (21964, 60, 175) /* WEAPON_RANGE_INT */
-     , (21964, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (21964, 60, 175) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21964, 76, 0.7) /* TRANSLUCENCY_FLOAT */
      , (21964, 26, 50) /* MAXIMUM_VELOCITY_FLOAT */
      , (21964, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (21964, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (21964, 63, 0.35) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21964, 99, True) /* IVORYABLE_BOOL */
      , (21964, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (21964, 15, True) /* LIGHTS_STATUS_BOOL */

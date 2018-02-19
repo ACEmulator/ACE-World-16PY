@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7925, 2062254089, 2931294466, 11.3773, 81.8636, 96, -0.639249, 0, 0, 0.768999) /* linkmonstergen10minutes */
      , (7087, 2062254088, 2931294466, 12.7284, 79.7583, 96.0071, -0.752688, 0, 0, -0.658377) /* Banderling Ogre */
      , (7332, 2062254087, 2931294466, 13.8341, 84.1214, 96.0071, -0.518923, 0, 0, -0.854821) /* Banderling Blade */
@@ -8,8 +8,8 @@ VALUES (7925, 2062254089, 2931294466, 11.3773, 81.8636, 96, -0.639249, 0, 0, 0.7
      , (1429, 2062254082, 2931294208, 10.0096, 73.4443, 96.005, 0.99824, 0, 0, 0.0593073) /* itemcabbagegenerator */
      , (1429, 2062254083, 2931294208, 12.0664, 73.0563, 96.005, 0.00583338, 0, 0, -0.999983) /* itemcabbagegenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2062254089'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2062254089'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254087'; /* linkmonstergen10minutes <- Banderling Blade */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2062254088'; /* linkmonstergen10minutes <- Banderling Ogre */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2062254087'; /* linkmonstergen10minutes <- Banderling Blade */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2062254088'; /* linkmonstergen10minutes <- Banderling Ogre */
 

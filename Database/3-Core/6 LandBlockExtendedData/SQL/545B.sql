@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15299, 1967501339, 1415250176, 3.5582, -30.989, 0.005, 0.714421, 0, 0, -0.699716) /* Martinate Simulacrum */
      , (19482, 1967501340, 1415250176, 0, -30, 0.005, 1, 0, 0, 0) /* Enchanted Decanter */
      , (19482, 1967501341, 1415250176, 1.80482, -28.4403, 0.005, 0.743097, 0, 0, 0.669183) /* Enchanted Decanter */
@@ -106,83 +106,83 @@ VALUES (15299, 1967501339, 1415250176, 3.5582, -30.989, 0.005, 0.714421, 0, 0, -
      , (19482, 1967501416, 1415250261, 109.875, -43.2018, 0.005, 1, 0, 0, -4.37114E-08) /* Enchanted Decanter */
      , (19482, 1967501417, 1415250261, 109.875, -35.8724, 0.005, 1, 0, 0, -4.37114E-08) /* Enchanted Decanter */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967501376'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1967501377'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967501376'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967501377'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501365'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501399'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501401'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501408'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501367'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501371'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501361'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501348'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501339'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501349'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501400'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501366'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501375'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501390'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501379'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501380'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501411'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501412'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501413'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501343'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501344'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501356'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501357'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501391'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501392'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501383'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501384'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967501385'; /* linkmonstergen5minutes <- Martinate Simulacrum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501381'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501358'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501340'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501402'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501403'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501404'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501405'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501406'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501407'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501414'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501415'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501416'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501417'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501410'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501386'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501387'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501388'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501389'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501382'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501393'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501394'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501395'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501396'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501398'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501372'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501373'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501374'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501368'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501369'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501370'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501359'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501360'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501362'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501363'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501364'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501350'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501351'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501352'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501341'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501342'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501345'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501346'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501347'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501353'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501354'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501355'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501409'; /* linkitemgen25seconds <- Enchanted Decanter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967501397'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501365'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501399'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501401'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501408'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501367'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501371'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501361'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501348'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501339'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501349'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501400'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501366'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501375'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501390'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501379'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501380'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501411'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501412'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501413'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501343'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501344'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501356'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501357'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501391'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501392'; /* linkmonstergen5minutes <- Martinate Simulacrum Magician */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501383'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501384'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967501385'; /* linkmonstergen5minutes <- Martinate Simulacrum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501381'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501358'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501340'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501402'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501403'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501404'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501405'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501406'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501407'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501414'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501415'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501416'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501417'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501410'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501386'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501387'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501388'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501389'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501382'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501393'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501394'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501395'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501396'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501398'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501372'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501373'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501374'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501368'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501369'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501370'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501359'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501360'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501362'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501363'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501364'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501350'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501351'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501352'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501341'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501342'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501345'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501346'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501347'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501353'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501354'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501355'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501409'; /* linkitemgen25seconds <- Enchanted Decanter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967501397'; /* linkitemgen25seconds <- Enchanted Decanter */
 

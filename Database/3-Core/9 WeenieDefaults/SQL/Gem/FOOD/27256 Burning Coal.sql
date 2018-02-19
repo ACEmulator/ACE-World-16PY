@@ -1,25 +1,22 @@
 /* Weenie - Burning Coal (27256) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27256;
+DELETE FROM weenie WHERE class_Id = 27256;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27256, 'gemburningcoal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27256, 'gemburningcoal', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27256, 0, 27256);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27256, 16, 'A smoldering coal. The center of this rock seems to glow with intense heat, yet the surface is cool to the touch.') /* LONG_DESC_STRING */
      , (27256, 1, 'Burning Coal') /* NAME_STRING */
      , (27256, 14, 'Use this item to stoke the fire within.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27256, 1, 33558517) /* SETUP_DID */
      , (27256, 3, 536870932) /* SOUND_TABLE_DID */
      , (27256, 8, 100676392) /* ICON_DID */
      , (27256, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (27256, 28, 3204) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27256, 1, 32) /* ITEM_TYPE_INT */
      , (27256, 13, 75) /* STACK_UNIT_ENCUMB_INT */
      , (27256, 5, 75) /* ENCUMB_VAL_INT */
@@ -36,9 +33,8 @@ VALUES (27256, 1, 32) /* ITEM_TYPE_INT */
      , (27256, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (27256, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27256, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27256, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (27256, 9007, 38) /* Gem_WeenieType */;
+     , (27256, 109, 200) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27256, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

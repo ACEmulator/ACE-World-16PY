@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19360, 1969610752, 1449001216, 0, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Endara Gate Portal */
      , (19382, 1969610753, 1449001216, 1.60285, -30.5701, 0.005, 0.707107, 0, 0, -0.707107) /* Endara Gate */
      , (19359, 1969610754, 1449001217, 0.001, -49.987, 0.005, 0.707107, 0, 0, -0.707107) /* Autumn Moon Gardens Portal */

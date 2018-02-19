@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11442, 1917566976, 616300804, 145.798, 107.862, 49.307, -0.70001, 0, 0, -0.714133) /* Palenqual's Caverns */
      , (546, 1917566985, 616300544, 158.148, 84.2612, 46.005, 0.945671, 0, 0, -0.325124) /* Egg */
      , (1986, 1917566977, 616300544, 173.839, 107.805, 40.1662, -0.705581, 0, 0, -0.708629) /* Water Wisp */
@@ -10,12 +10,12 @@ VALUES (11442, 1917566976, 616300804, 145.798, 107.862, 49.307, -0.70001, 0, 0, 
      , (11487, 1917566983, 616300544, 158.043, 94.8603, 46.005, -0.478063, 0, 0, 0.878326) /* Littoral Siraluun */
      , (546, 1917566984, 616300544, 158.431, 84.2578, 46.005, 0.945671, 0, 0, -0.325124) /* Egg */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1917566978'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1917566978'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566977'; /* linkmonstergen7minutes <- Water Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566979'; /* linkmonstergen7minutes <- Water Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566982'; /* linkmonstergen7minutes <- Littoral Siraluun */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566984'; /* linkmonstergen7minutes <- Egg */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566985'; /* linkmonstergen7minutes <- Egg */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1917566983'; /* linkmonstergen7minutes <- Littoral Siraluun */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566977'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566979'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566982'; /* linkmonstergen7minutes <- Littoral Siraluun */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566984'; /* linkmonstergen7minutes <- Egg */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566985'; /* linkmonstergen7minutes <- Egg */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1917566983'; /* linkmonstergen7minutes <- Littoral Siraluun */
 

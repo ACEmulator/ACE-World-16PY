@@ -1,18 +1,15 @@
 /* Weenie - Palenqual's Waaika (12119) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12119;
+DELETE FROM weenie WHERE class_Id = 12119;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12119, 'tumerokmacepalenqualmid-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12119, 'tumerokmacepalenqualmid-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12119, 0, 12119);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12119, 16, 'A waaika fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (12119, 1, 'Palenqual''s Waaika') /* NAME_STRING */
      , (12119, 15, 'A waaika fused to a triple totem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12119, 1, 33557235) /* SETUP_DID */
      , (12119, 3, 536870932) /* SOUND_TABLE_DID */
      , (12119, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (12119, 1, 33557235) /* SETUP_DID */
      , (12119, 8, 100672033) /* ICON_DID */
      , (12119, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12119, 33, -2) /* BONDED_INT */
      , (12119, 9, 1048576) /* LOCATIONS_INT */
      , (12119, 1, 1) /* ITEM_TYPE_INT */
@@ -44,10 +41,9 @@ VALUES (12119, 33, -2) /* BONDED_INT */
      , (12119, 49, 1) /* WEAPON_TIME_INT */
      , (12119, 114, 1) /* ATTUNED_INT */
      , (12119, 51, 1) /* COMBAT_USE_INT */
-     , (12119, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12119, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (12119, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12119, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (12119, 21, 0.62) /* WEAPON_LENGTH_FLOAT */
      , (12119, 5, -0.03333) /* MANA_RATE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (12119, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (12119, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (12119, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12119, 22, True) /* INSCRIBABLE_BOOL */
      , (12119, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12119, 2462, 2) /* CascadeMaceLesser_SpellID */
      , (12119, 2454, 2) /* Thorns_SpellID */
      , (12119, 2438, 2) /* RockslideLesser_SpellID */

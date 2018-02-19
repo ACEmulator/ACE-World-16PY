@@ -1,16 +1,13 @@
 /* Weenie - Staff of Nullification (22216) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22216;
+DELETE FROM weenie WHERE class_Id = 22216;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22216, 'staffofnullification');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22216, 'staffofnullification', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22216, 0, 22216);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22216, 1, 'Staff of Nullification') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22216, 1, 33555407) /* SETUP_DID */
      , (22216, 3, 536870932) /* SOUND_TABLE_DID */
      , (22216, 36, 234881053) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (22216, 1, 33555407) /* SETUP_DID */
      , (22216, 7, 268435795) /* CLOTHINGBASE_DID */
      , (22216, 8, 100667602) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22216, 9, 1048576) /* LOCATIONS_INT */
      , (22216, 1, 1) /* ITEM_TYPE_INT */
      , (22216, 19, 325) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (22216, 9, 1048576) /* LOCATIONS_INT */
      , (22216, 47, 6) /* ATTACK_TYPE_INT */
      , (22216, 48, 10) /* WEAPON_SKILL_INT */
      , (22216, 49, 60) /* WEAPON_TIME_INT */
-     , (22216, 51, 1) /* COMBAT_USE_INT */
-     , (22216, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (22216, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22216, 39, 0.67) /* DEFAULT_SCALE_FLOAT */
      , (22216, 138, 5) /* SLAYER_DAMAGE_BONUS_FLOAT */
      , (22216, 29, 1) /* WEAPON_DEFENSE_FLOAT */
@@ -51,6 +47,6 @@ VALUES (22216, 39, 0.67) /* DEFAULT_SCALE_FLOAT */
      , (22216, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (22216, 22, 0) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22216, 22, True) /* INSCRIBABLE_BOOL */;
 

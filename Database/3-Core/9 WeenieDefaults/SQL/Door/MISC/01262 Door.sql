@@ -1,38 +1,34 @@
 /* Weenie - Door (1262) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1262;
+DELETE FROM weenie WHERE class_Id = 1262;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1262, 'doorgreenmireresist58');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1262, 'doorgreenmireresist58', /* Door_WeenieType */ 19);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1262, 0, 1262);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1262, 1, 'Door') /* NAME_STRING */
      , (1262, 12, 'keygreenmireresist58') /* LOCK_CODE_STRING */
      , (1262, 14, 'Use this item to open it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1262, 1, 33555023) /* SETUP_DID */
      , (1262, 2, 150994966) /* MOTION_TABLE_DID */
      , (1262, 3, 536870946) /* SOUND_TABLE_DID */
      , (1262, 8, 100668183) /* ICON_DID */
      , (1262, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1262, 1, 128) /* ITEM_TYPE_INT */
      , (1262, 16, 32) /* ITEM_USEABLE_INT */
      , (1262, 8, 500) /* MASS_INT */
      , (1262, 19, 0) /* VALUE_INT */
      , (1262, 93, 24) /* PHYSICS_STATE_INT */
-     , (1262, 38, 158) /* RESIST_LOCKPICK_INT */
-     , (1262, 9007, 19) /* Door_WeenieType */;
+     , (1262, 38, 158) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1262, 11, 300) /* RESET_INTERVAL_FLOAT */
      , (1262, 54, 2) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1262, 1, True) /* STUCK_BOOL */
      , (1262, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (1262, 2, False) /* OPEN_BOOL */

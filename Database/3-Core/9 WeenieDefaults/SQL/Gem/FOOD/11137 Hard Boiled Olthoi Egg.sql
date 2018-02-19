@@ -1,19 +1,16 @@
 /* Weenie - Hard Boiled Olthoi Egg (11137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11137;
+DELETE FROM weenie WHERE class_Id = 11137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11137, 'eggolthoihardboiled-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11137, 'eggolthoihardboiled-xp', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11137, 0, 11137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11137, 16, 'A hard-boiled Olthoi Egg.') /* LONG_DESC_STRING */
      , (11137, 1, 'Hard Boiled Olthoi Egg') /* NAME_STRING */
      , (11137, 14, 'Use this item to eat it.') /* USE_STRING */
      , (11137, 15, 'A hard-boiled Olthoi Egg.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11137, 1, 33557217) /* SETUP_DID */
      , (11137, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (11137, 3, 536870932) /* SOUND_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (11137, 1, 33557217) /* SETUP_DID */
      , (11137, 23, 64) /* USE_SOUND_DID */
      , (11137, 28, 2435) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11137, 9, 0) /* LOCATIONS_INT */
      , (11137, 1, 32) /* ITEM_TYPE_INT */
      , (11137, 13, 35) /* STACK_UNIT_ENCUMB_INT */
@@ -41,10 +38,9 @@ VALUES (11137, 9, 0) /* LOCATIONS_INT */
      , (11137, 107, 50) /* ITEM_CUR_MANA_INT */
      , (11137, 108, 50) /* ITEM_MAX_MANA_INT */
      , (11137, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (11137, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (11137, 9007, 38) /* Gem_WeenieType */;
+     , (11137, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11137, 69, False) /* IS_SELLABLE_BOOL */
      , (11137, 22, True) /* INSCRIBABLE_BOOL */
      , (11137, 23, True) /* DESTROY_ON_SELL_BOOL */;

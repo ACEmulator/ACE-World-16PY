@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7, 2007392256, 2053505024, 36.9272, 61.1136, 50.005, 0.342246, 0, 0, 0.93961) /* Drudge Skulker */
      , (1468, 2007392257, 2053505024, 35.8709, 58.603, 50.005, 0.994065, 0, 0, -0.108787) /* Drudge Slinker */
      , (193, 2007392258, 2053505024, 56.6909, 114.829, 23.2824, 0.999285, 0, 0, 0.0378116) /* Drudge Slinker */
@@ -11,16 +11,16 @@ VALUES (7, 2007392256, 2053505024, 36.9272, 61.1136, 50.005, 0.342246, 0, 0, 0.9
      , (193, 2007392265, 2053505024, 131.391, 173.812, 50.005, 0.418967, 0, 0, 0.908001) /* Drudge Slinker */
      , (3955, 2007392266, 2053505024, 62.1266, 110.847, 22.8284, -0.52442, 0, 0, 0.85146) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007392266'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2007392266'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392256'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392257'; /* linkmonstergen15minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392258'; /* linkmonstergen15minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392259'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392260'; /* linkmonstergen15minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392261'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392262'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392263'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392264'; /* linkmonstergen15minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007392265'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392256'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392257'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392258'; /* linkmonstergen15minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392259'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392260'; /* linkmonstergen15minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392261'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392262'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392263'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392264'; /* linkmonstergen15minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007392265'; /* linkmonstergen15minutes <- Drudge Slinker */
 

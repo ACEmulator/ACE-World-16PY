@@ -1,16 +1,13 @@
 /* Weenie - Scrawed Grievver (8052) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8052;
+DELETE FROM weenie WHERE class_Id = 8052;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8052, 'grievverscrawledtufa');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8052, 'grievverscrawledtufa', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8052, 0, 8052);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8052, 1, 'Scrawed Grievver') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8052, 1, 33556698) /* SETUP_DID */
      , (8052, 2, 150995098) /* MOTION_TABLE_DID */
      , (8052, 35, 314) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (8052, 1, 33556698) /* SETUP_DID */
      , (8052, 8, 100670960) /* ICON_DID */
      , (8052, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8052, 1, 16) /* ITEM_TYPE_INT */
      , (8052, 2, 44) /* CREATURE_TYPE_INT */
      , (8052, 3, 8) /* PALETTE_TEMPLATE_INT */
@@ -41,10 +38,9 @@ VALUES (8052, 1, 16) /* ITEM_TYPE_INT */
      , (8052, 93, 1032) /* PHYSICS_STATE_INT */
      , (8052, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (8052, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (8052, 40, 2) /* COMBAT_MODE_INT */
-     , (8052, 9007, 10) /* Creature_WeenieType */;
+     , (8052, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8052, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8052, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (8052, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -81,14 +77,14 @@ VALUES (8052, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8052, 127, 2) /* AI_COUNTERACT_ENCHANTMENT_FLOAT */
      , (8052, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8052, 1, True) /* STUCK_BOOL */
      , (8052, 6, True) /* AI_USES_MANA_BOOL */
      , (8052, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (8052, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8052, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8052, 1157, 2.008) /* HealSelf2_SpellID */
      , (8052, 1111, 2) /* BladeProtectionSelf3_SpellID */
      , (8052, 276, 2) /* MagicResistanceSelf3_SpellID */
@@ -104,20 +100,20 @@ VALUES (8052, 1157, 2.008) /* HealSelf2_SpellID */
      , (8052, 1340, 2.015) /* WeaknessOther3_SpellID */
      , (8052, 60, 2.023) /* AcidStream3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8052, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (8052, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (8052, 4, 170) /* COORDINATION_ATTRIBUTE */
-     , (8052, 8, 195) /* QUICKNESS_ATTRIBUTE */
-     , (8052, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (8052, 32, 80) /* SELF_ATTRIBUTE */;
+     , (8052, 3, 195) /* QUICKNESS_ATTRIBUTE */
+     , (8052, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (8052, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8052, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8052, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8052, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8052, 1, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8052, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8052, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8052, -1, 8054, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Sprite (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (8052, -1, 8055, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Child (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (8052, -1, 8053, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12547, 1986879488, 1725300736, 45.3692, 83.4411, 77.128, -0.71503, 0, 0, 0.699094) /* Sonel Portal */
      , (12486, 1986879489, 1725300736, 43.6204, 103.251, 77.0935, 0.936225, 0, 0, -0.351401) /* Desolation Beach  Portal */
      , (12567, 1986879490, 1725300736, 45.3124, 92.2383, 77.1091, -0.811472, 0, 0, 0.584391) /* Woodshore Cottages Portal */

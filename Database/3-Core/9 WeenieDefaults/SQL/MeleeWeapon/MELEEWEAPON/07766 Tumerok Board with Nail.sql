@@ -1,25 +1,22 @@
 /* Weenie - Tumerok Board with Nail (7766) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7766;
+DELETE FROM weenie WHERE class_Id = 7766;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7766, 'boardwithnailmedium');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7766, 'boardwithnailmedium', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7766, 0, 7766);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7766, 16, 'A bigger board with bigger nail.') /* LONG_DESC_STRING */
      , (7766, 1, 'Tumerok Board with Nail') /* NAME_STRING */
      , (7766, 15, 'A bigger board with bigger nail.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7766, 1, 33556638) /* SETUP_DID */
      , (7766, 3, 536870932) /* SOUND_TABLE_DID */
      , (7766, 36, 234881044) /* MUTATE_FILTER_DID */
      , (7766, 8, 100670757) /* ICON_DID */
      , (7766, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7766, 9, 1048576) /* LOCATIONS_INT */
      , (7766, 1, 1) /* ITEM_TYPE_INT */
      , (7766, 93, 1044) /* PHYSICS_STATE_INT */
@@ -35,16 +32,15 @@ VALUES (7766, 9, 1048576) /* LOCATIONS_INT */
      , (7766, 47, 4) /* ATTACK_TYPE_INT */
      , (7766, 48, 5) /* WEAPON_SKILL_INT */
      , (7766, 49, 40) /* WEAPON_TIME_INT */
-     , (7766, 51, 1) /* COMBAT_USE_INT */
-     , (7766, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (7766, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7766, 39, 1.3) /* DEFAULT_SCALE_FLOAT */
      , (7766, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (7766, 21, 0.9) /* WEAPON_LENGTH_FLOAT */
      , (7766, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (7766, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7766, 22, True) /* INSCRIBABLE_BOOL */;
 

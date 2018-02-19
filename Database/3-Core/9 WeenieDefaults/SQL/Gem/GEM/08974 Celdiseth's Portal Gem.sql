@@ -1,18 +1,15 @@
 /* Weenie - Celdiseth's Portal Gem (8974) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8974;
+DELETE FROM weenie WHERE class_Id = 8974;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8974, 'gemportalceldiseth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8974, 'gemportalceldiseth', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8974, 0, 8974);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8974, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (8974, 1, 'Celdiseth''s Portal Gem') /* NAME_STRING */
      , (8974, 15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8974, 1, 33556769) /* SETUP_DID */
      , (8974, 3, 536870932) /* SOUND_TABLE_DID */
      , (8974, 28, 157) /* SPELL_DID */
@@ -23,7 +20,7 @@ VALUES (8974, 1, 33556769) /* SETUP_DID */
      , (8974, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8974, 8, 100674865) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8974, 9, 0) /* LOCATIONS_INT */
      , (8974, 1, 2048) /* ITEM_TYPE_INT */
      , (8974, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -45,10 +42,9 @@ VALUES (8974, 9, 0) /* LOCATIONS_INT */
      , (8974, 107, 50) /* ITEM_CUR_MANA_INT */
      , (8974, 108, 50) /* ITEM_MAX_MANA_INT */
      , (8974, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8974, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8974, 9007, 38) /* Gem_WeenieType */;
+     , (8974, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8974, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8974, 15, True) /* LIGHTS_STATUS_BOOL */;
 

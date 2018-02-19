@@ -1,17 +1,14 @@
 /* Weenie - Littoral Siraluun Hoeroa (29912) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29912;
+DELETE FROM weenie WHERE class_Id = 29912;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29912, 'nabutsiraluunlittoral');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29912, 'nabutsiraluunlittoral', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29912, 0, 29912);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29912, 16, 'A beautifully detailed hoeroa crafted from the claw of a Littoral Siraluun.') /* LONG_DESC_STRING */
      , (29912, 1, 'Littoral Siraluun Hoeroa') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29912, 1, 33559106) /* SETUP_DID */
      , (29912, 3, 536870932) /* SOUND_TABLE_DID */
      , (29912, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (29912, 1, 33559106) /* SETUP_DID */
      , (29912, 8, 100677338) /* ICON_DID */
      , (29912, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29912, 9, 1048576) /* LOCATIONS_INT */
      , (29912, 1, 1) /* ITEM_TYPE_INT */
      , (29912, 5, 350) /* ENCUMB_VAL_INT */
@@ -44,10 +41,9 @@ VALUES (29912, 9, 1048576) /* LOCATIONS_INT */
      , (29912, 48, 10) /* WEAPON_SKILL_INT */
      , (29912, 49, 20) /* WEAPON_TIME_INT */
      , (29912, 51, 1) /* COMBAT_USE_INT */
-     , (29912, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29912, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (29912, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29912, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (29912, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (29912, 5, -0.03333) /* MANA_RATE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (29912, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (29912, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (29912, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29912, 22, True) /* INSCRIBABLE_BOOL */
      , (29912, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29912, 390, 2) /* StaffMasteryOther3_SpellID */
      , (29912, 1589, 2) /* HeartSeeker3_SpellID */
      , (29912, 1613, 2) /* BloodDrinker3_SpellID */;

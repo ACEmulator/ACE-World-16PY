@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (619, 1880367126, 21102849, 52.0884, -69.8269, -23.9425, 0.624053, 0, 0, -0.781382) /* Revenant */
      , (619, 1880367127, 21102852, 46.6376, -93.4371, -23.9918, 0.929817, 0, 0, -0.368023) /* Revenant */
      , (24682, 1880367160, 21102852, 47.1159, -86.968, -24, 1, 0, 0, 0) /* Runed Chest */
@@ -36,37 +36,37 @@ VALUES (619, 1880367126, 21102849, 52.0884, -69.8269, -23.9425, 0.624053, 0, 0, 
      , (4950, 1880367124, 21102968, 39.9847, -46.8601, 6, -4.37114E-08, 0, 0, -1) /* Surface Portal */
      , (7924, 1880367159, 21102975, 48.6739, -59.4604, 6, -0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880367159'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880367159'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367134'; /* linkmonstergen5minutes <- Spirit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367154'; /* linkmonstergen5minutes <- Skeleton Bone Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367155'; /* linkmonstergen5minutes <- Skeleton Bone Knight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367143'; /* linkmonstergen5minutes <- Spirit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367157'; /* linkmonstergen5minutes <- Skeleton Bone Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367158'; /* linkmonstergen5minutes <- Skeleton Bone Knight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367153'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367152'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367148'; /* linkmonstergen5minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367147'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367156'; /* linkmonstergen5minutes <- Nalif Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367146'; /* linkmonstergen5minutes <- Nalif Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367149'; /* linkmonstergen5minutes <- Fire Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367145'; /* linkmonstergen5minutes <- Spirit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367142'; /* linkmonstergen5minutes <- Spirit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367151'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367150'; /* linkmonstergen5minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367131'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367135'; /* linkmonstergen5minutes <- Mist Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367136'; /* linkmonstergen5minutes <- Mist Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367144'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367138'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367132'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367126'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367137'; /* linkmonstergen5minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367141'; /* linkmonstergen5minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367140'; /* linkmonstergen5minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367128'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367130'; /* linkmonstergen5minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367129'; /* linkmonstergen5minutes <- Mist Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880367127'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367134'; /* linkmonstergen5minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367154'; /* linkmonstergen5minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367155'; /* linkmonstergen5minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367143'; /* linkmonstergen5minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367157'; /* linkmonstergen5minutes <- Skeleton Bone Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367158'; /* linkmonstergen5minutes <- Skeleton Bone Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367153'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367152'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367148'; /* linkmonstergen5minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367147'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367156'; /* linkmonstergen5minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367146'; /* linkmonstergen5minutes <- Nalif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367149'; /* linkmonstergen5minutes <- Fire Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367145'; /* linkmonstergen5minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367142'; /* linkmonstergen5minutes <- Spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367151'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367150'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367131'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367135'; /* linkmonstergen5minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367136'; /* linkmonstergen5minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367144'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367138'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367132'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367126'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367137'; /* linkmonstergen5minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367141'; /* linkmonstergen5minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367140'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367128'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367130'; /* linkmonstergen5minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367129'; /* linkmonstergen5minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880367127'; /* linkmonstergen5minutes <- Revenant */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4692, 2019065865, 2240282880, 38.6551, 89.2179, 86.005, -0.102954, 0, 0, -0.994686) /* Healer Hansur al-Hirwak */
      , (1148, 2019065856, 2240282883, 39.5, 76.01, 86, 0, 0, 0, -1) /* Door */
      , (4689, 2019065864, 2240282886, 31.4156, 74.9919, 86.005, -0.999626, 0, 0, -0.0273528) /* Archmage Marnai ibn Ayyar */
@@ -39,12 +39,12 @@ VALUES (4692, 2019065865, 2240282880, 38.6551, 89.2179, 86.005, -0.102954, 0, 0,
      , (12304, 2019065885, 2240282624, 14.1746, 101.391, 86.005, -0.734511, 0, 0, -0.678597) /* Agent of the Arcanum  */
      , (174, 2019065876, 2240282624, 56.2507, 120.015, 86.05, 0.274904, 0, 0, -0.961472) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2019065878'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2019065883'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2019065903'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2019065878'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2019065883'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2019065903'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065877'; /* linkmonstergen3minutes <- Janda Sulifiya */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2019065884'; /* linkmonstergen3minutes <- Janda's Apprentice */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2019065882'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2019065904'; /* linkitemgen10seconds <- A note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2019065877'; /* linkmonstergen3minutes <- Janda Sulifiya */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2019065884'; /* linkmonstergen3minutes <- Janda's Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2019065882'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2019065904'; /* linkitemgen10seconds <- A note */
 

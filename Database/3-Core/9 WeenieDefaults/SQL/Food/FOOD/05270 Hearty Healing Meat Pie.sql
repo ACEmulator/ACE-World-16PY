@@ -1,24 +1,21 @@
 /* Weenie - Hearty Healing Meat Pie (5270) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5270;
+DELETE FROM weenie WHERE class_Id = 5270;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5270, 'heartyhealingmeatpie');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5270, 'heartyhealingmeatpie', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5270, 0, 5270);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5270, 1, 'Hearty Healing Meat Pie') /* NAME_STRING */
      , (5270, 20, 'Hearty Healing Meat Pies ') /* PLURAL_NAME_STRING */
      , (5270, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5270, 1, 33555978) /* SETUP_DID */
      , (5270, 3, 536870932) /* SOUND_TABLE_DID */
      , (5270, 8, 100669945) /* ICON_DID */
      , (5270, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5270, 9, 0) /* LOCATIONS_INT */
      , (5270, 1, 32) /* ITEM_TYPE_INT */
      , (5270, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,9 +30,8 @@ VALUES (5270, 9, 0) /* LOCATIONS_INT */
      , (5270, 19, 140) /* VALUE_INT */
      , (5270, 89, 2) /* BOOSTER_ENUM_INT */
      , (5270, 90, 45) /* BOOST_VALUE_INT */
-     , (5270, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5270, 9007, 18) /* Food_WeenieType */;
+     , (5270, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5270, 69, False) /* IS_SELLABLE_BOOL */;
 

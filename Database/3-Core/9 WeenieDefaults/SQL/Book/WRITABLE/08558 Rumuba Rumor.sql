@@ -1,44 +1,40 @@
 /* Weenie - Rumuba Rumor (8558) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8558;
+DELETE FROM weenie WHERE class_Id = 8558;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8558, 'rumorrumuba');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8558, 'rumorrumuba', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8558, 0, 8558);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8558, 16, 'A rumor about Rumuba the Mosswart.') /* LONG_DESC_STRING */
      , (8558, 1, 'Rumuba Rumor') /* NAME_STRING */
      , (8558, 15, 'A rumor about Rumuba the Mosswart.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8558, 1, 33554773) /* SETUP_DID */
      , (8558, 3, 536870932) /* SOUND_TABLE_DID */
      , (8558, 8, 100668176) /* ICON_DID */
      , (8558, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8558, 9, 0) /* LOCATIONS_INT */
      , (8558, 1, 8192) /* ITEM_TYPE_INT */
      , (8558, 93, 1044) /* PHYSICS_STATE_INT */
      , (8558, 5, 25) /* ENCUMB_VAL_INT */
      , (8558, 16, 8) /* ITEM_USEABLE_INT */
      , (8558, 8, 5) /* MASS_INT */
-     , (8558, 19, 5) /* VALUE_INT */
-     , (8558, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8558, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (8558, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (8558, 9007, 8) /* Book_WeenieType */;
+     , (8558, 19, 5) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8558, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8558, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (8558, 0, 'Onda Nakoza', 'prewritten', 4294967295, False, 'Out in the jungle, somewhere between MacNiall''s Freehold and the weaklings'' settlement, there is a cave guarded by idol-worshipping Mosswarts. If one can fight past them, there resides in the cave''s deep reaches a tame, intelligent Mosswart who calls himself Rumuba. It is difficult to understand what the little creature says, but he seems to be at odds with his brethren and may be seeking the aid of humans.
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (8558, 1, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (8558, 0, 4294967295, 'Onda Nakoza', 'prewritten', False, 'Out in the jungle, somewhere between MacNiall''s Freehold and the weaklings'' settlement, there is a cave guarded by idol-worshipping Mosswarts. If one can fight past them, there resides in the cave''s deep reaches a tame, intelligent Mosswart who calls himself Rumuba. It is difficult to understand what the little creature says, but he seems to be at odds with his brethren and may be seeking the aid of humans.
 
 ');
 

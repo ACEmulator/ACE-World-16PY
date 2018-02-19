@@ -1,16 +1,13 @@
 /* Weenie - Gnawer Shreth (19263) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19263;
+DELETE FROM weenie WHERE class_Id = 19263;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19263, 'shrethgnawer-noaggro');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19263, 'shrethgnawer-noaggro', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19263, 0, 19263);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19263, 1, 'Gnawer Shreth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19263, 1, 33555908) /* SETUP_DID */
      , (19263, 2, 150995072) /* MOTION_TABLE_DID */
      , (19263, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (19263, 1, 33555908) /* SETUP_DID */
      , (19263, 7, 268435840) /* CLOTHINGBASE_DID */
      , (19263, 8, 100669720) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19263, 1, 16) /* ITEM_TYPE_INT */
      , (19263, 2, 32) /* CREATURE_TYPE_INT */
      , (19263, 67, 64) /* TOLERANCE_INT */
@@ -38,10 +35,9 @@ VALUES (19263, 1, 16) /* ITEM_TYPE_INT */
      , (19263, 27, 0) /* ARMOR_TYPE_INT */
      , (19263, 93, 1032) /* PHYSICS_STATE_INT */
      , (19263, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (19263, 40, 2) /* COMBAT_MODE_INT */
-     , (19263, 9007, 10) /* Creature_WeenieType */;
+     , (19263, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19263, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (19263, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (19263, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,26 +72,26 @@ VALUES (19263, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (19263, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19263, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19263, 1, True) /* STUCK_BOOL */
      , (19263, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (19263, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19263, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19263, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (19263, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (19263, 4, 35) /* COORDINATION_ATTRIBUTE */
-     , (19263, 8, 20) /* QUICKNESS_ATTRIBUTE */
-     , (19263, 16, 15) /* FOCUS_ATTRIBUTE */
-     , (19263, 32, 15) /* SELF_ATTRIBUTE */;
+     , (19263, 3, 20) /* QUICKNESS_ATTRIBUTE */
+     , (19263, 5, 15) /* FOCUS_ATTRIBUTE */
+     , (19263, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19263, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19263, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19263, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19263, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19263, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19263, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19263, 9, 8702, 0, 0, 0.02, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
      , (19263, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (19263, 9, 11687, 0, 0, 0.02, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */

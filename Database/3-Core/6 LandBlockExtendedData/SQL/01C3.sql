@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2342, 1880895488, 29556998, 9.69263, -83.642, 0, -4.37114E-08, 0, 0, -1) /* Surface */
      , (387, 1880895489, 29557005, 30, -20, 0, -4.37114E-08, 0, 0, -1) /* lugian-generator */
      , (387, 1880895490, 29557007, 29.4321, -42.307, 0, -0.707107, 0, 0, -0.707107) /* lugian-generator */
@@ -20,9 +20,9 @@ VALUES (2342, 1880895488, 29556998, 9.69263, -83.642, 0, -4.37114E-08, 0, 0, -1)
      , (1764, 1880895506, 29557064, 140.007, -20.4698, 0.005, 1, 0, 0, 0) /* Greater Mu-miyah */
      , (1154, 1880895507, 29557064, 140, -20, 0, 1, 0, 0, 0) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880895507'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880895495'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880895507'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880895495'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880895506'; /* linkmonstergen <- Greater Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880895494'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880895506'; /* linkmonstergen <- Greater Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880895494'; /* linkmonstergen <- Gotrok Amploth */
 

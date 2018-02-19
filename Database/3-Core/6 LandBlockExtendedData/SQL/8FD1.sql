@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7353, 2029850624, 2412838912, 108.234, 133.597, 266.985, 0.732111, 0, 0, 0.681185) /* eruptesperbossgen */
      , (7355, 2029850640, 2412838912, 51.554, 191.229, 278.069, -0.278967, 0, 0, 0.960301) /* eruptespergen */
      , (7355, 2029850626, 2412838912, 15.2792, 158.023, 277.905, 0.274508, 0, 0, -0.961585) /* eruptespergen */

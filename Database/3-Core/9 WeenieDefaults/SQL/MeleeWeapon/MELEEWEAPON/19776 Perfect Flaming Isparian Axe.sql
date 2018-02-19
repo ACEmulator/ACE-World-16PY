@@ -1,16 +1,13 @@
 /* Weenie - Perfect Flaming Isparian Axe (19776) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19776;
+DELETE FROM weenie WHERE class_Id = 19776;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19776, 'axeisparianperfectsmolderingminor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19776, 'axeisparianperfectsmolderingminor', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19776, 0, 19776);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19776, 1, 'Perfect Flaming Isparian Axe') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19776, 1, 33556307) /* SETUP_DID */
      , (19776, 3, 536870932) /* SOUND_TABLE_DID */
      , (19776, 37, 1) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (19776, 1, 33556307) /* SETUP_DID */
      , (19776, 7, 268436377) /* CLOTHINGBASE_DID */
      , (19776, 8, 100672891) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19776, 9, 1048576) /* LOCATIONS_INT */
      , (19776, 1, 1) /* ITEM_TYPE_INT */
      , (19776, 19, 8000) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (19776, 9, 1048576) /* LOCATIONS_INT */
      , (19776, 48, 1) /* WEAPON_SKILL_INT */
      , (19776, 49, 55) /* WEAPON_TIME_INT */
      , (19776, 51, 1) /* COMBAT_USE_INT */
-     , (19776, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (19776, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (19776, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19776, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (19776, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (19776, 5, -0.1) /* MANA_RATE_FLOAT */
@@ -57,12 +53,12 @@ VALUES (19776, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (19776, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (19776, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19776, 69, False) /* IS_SELLABLE_BOOL */
      , (19776, 22, True) /* INSCRIBABLE_BOOL */
      , (19776, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19776, 1092, 2) /* FireProtectionSelf4_SpellID */
      , (19776, 1592, 2) /* HeartSeeker6_SpellID */
      , (19776, 1329, 2) /* StrengthSelf3_SpellID */

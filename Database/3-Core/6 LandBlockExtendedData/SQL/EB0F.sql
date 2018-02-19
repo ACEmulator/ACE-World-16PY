@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11534, 2125524994, 3943629066, 154.364, 154.432, 236.015, 0.926441, 0, 0, -0.376439) /* Enku Zefir */
      , (11534, 2125524995, 3943629066, 154.391, 157.528, 236.015, 0.787471, 0, 0, -0.616351) /* Enku Zefir */
      , (11533, 2125524996, 3943629066, 157.42, 155.774, 236.015, -0.750894, 0, 0, -0.660422) /* Azael Zefir */
@@ -9,13 +9,13 @@ VALUES (11534, 2125524994, 3943629066, 154.364, 154.432, 236.015, 0.926441, 0, 0
      , (11533, 2125524998, 3943628800, 114.564, 134.655, 150.015, -0.491572, 0, 0, -0.870837) /* Azael Zefir */
      , (11533, 2125524997, 3943628800, 115.217, 128.49, 150.015, -0.794987, 0, 0, -0.606626) /* Azael Zefir */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2125525000'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2125525000'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524993'; /* linkmonstergen7minutes <- Cursed Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524994'; /* linkmonstergen7minutes <- Enku Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524995'; /* linkmonstergen7minutes <- Enku Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524996'; /* linkmonstergen7minutes <- Azael Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524997'; /* linkmonstergen7minutes <- Azael Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524998'; /* linkmonstergen7minutes <- Azael Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2125524999'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524993'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524994'; /* linkmonstergen7minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524995'; /* linkmonstergen7minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524996'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524997'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524998'; /* linkmonstergen7minutes <- Azael Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2125524999'; /* linkmonstergen7minutes <- Azael Zefir */
 

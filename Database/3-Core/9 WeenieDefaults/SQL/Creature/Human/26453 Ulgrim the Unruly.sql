@@ -1,20 +1,17 @@
 /* Weenie - Ulgrim the Unruly (26453) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26453;
+DELETE FROM weenie WHERE class_Id = 26453;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26453, 'ulgrimcopycombat');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26453, 'ulgrimcopycombat', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26453, 0, 26453);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26453, 1, 'Ulgrim the Unruly') /* NAME_STRING */
      , (26453, 3, 'Male') /* SEX_STRING */
      , (26453, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
      , (26453, 5, 'The Fighting Ulgrims') /* TEMPLATE_STRING */
      , (26453, 10, 'The Fighting Ulgrims') /* FELLOWSHIP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26453, 1, 33554433) /* SETUP_DID */
      , (26453, 2, 150994945) /* MOTION_TABLE_DID */
      , (26453, 3, 536870913) /* SOUND_TABLE_DID */
@@ -25,7 +22,7 @@ VALUES (26453, 1, 33554433) /* SETUP_DID */
      , (26453, 7, 268435545) /* CLOTHINGBASE_DID */
      , (26453, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26453, 1, 16) /* ITEM_TYPE_INT */
      , (26453, 2, 31) /* CREATURE_TYPE_INT */
      , (26453, 3, 9) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (26453, 1, 16) /* ITEM_TYPE_INT */
      , (26453, 25, 85) /* LEVEL_INT */
      , (26453, 27, 0) /* ARMOR_TYPE_INT */
      , (26453, 93, 1032) /* PHYSICS_STATE_INT */
-     , (26453, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (26453, 9007, 10) /* Creature_WeenieType */;
+     , (26453, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26453, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26453, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (26453, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,13 +69,13 @@ VALUES (26453, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26453, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (26453, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26453, 1, True) /* STUCK_BOOL */
      , (26453, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (26453, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26453, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26453, 84, 2.09) /* FlameBolt5_SpellID */
      , (26453, 1160, 2.04) /* HealSelf5_SpellID */
      , (26453, 68, 2.08) /* ShockWave5_SpellID */
@@ -97,20 +93,20 @@ VALUES (26453, 84, 2.09) /* FlameBolt5_SpellID */
      , (26453, 1326, 2.1) /* ImperilOther5_SpellID */
      , (26453, 62, 2.09) /* AcidStream5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26453, 1, 160) /* STRENGTH_ATTRIBUTE */
      , (26453, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (26453, 4, 110) /* COORDINATION_ATTRIBUTE */
-     , (26453, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (26453, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (26453, 32, 165) /* SELF_ATTRIBUTE */;
+     , (26453, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (26453, 5, 180) /* FOCUS_ATTRIBUTE */
+     , (26453, 6, 165) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26453, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26453, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26453, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26453, 1, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26453, 3, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26453, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26453, 2, 2588, 0, 9, 1, False) /* Create Shirt for Wield_DestinationType */
      , (26453, 2, 2597, 0, 9, 1, False) /* Create Pants for Wield_DestinationType */
      , (26453, 2, 5850, 0, 4, 0.5, False) /* Create Faran Robe for Wield_DestinationType */

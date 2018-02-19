@@ -1,17 +1,14 @@
 /* Weenie - Caulnalain Crystal Shield (28321) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28321;
+DELETE FROM weenie WHERE class_Id = 28321;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28321, 'shieldcrystalcaulnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28321, 'shieldcrystalcaulnew', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28321, 0, 28321);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28321, 1, 'Caulnalain Crystal Shield') /* NAME_STRING */
      , (28321, 15, 'A shield imbued with the power of the Caulnalain Crystal.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28321, 1, 33554786) /* SETUP_DID */
      , (28321, 3, 536870932) /* SOUND_TABLE_DID */
      , (28321, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28321, 1, 33554786) /* SETUP_DID */
      , (28321, 7, 268436037) /* CLOTHINGBASE_DID */
      , (28321, 8, 100670974) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28321, 9, 2097152) /* LOCATIONS_INT */
      , (28321, 1, 2) /* ITEM_TYPE_INT */
      , (28321, 19, 2000) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (28321, 9, 2097152) /* LOCATIONS_INT */
      , (28321, 107, 350) /* ITEM_CUR_MANA_INT */
      , (28321, 108, 350) /* ITEM_MAX_MANA_INT */
      , (28321, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (28321, 51, 4) /* COMBAT_USE_INT */
-     , (28321, 9007, 1) /* Generic_WeenieType */;
+     , (28321, 51, 4) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28321, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28321, 5, -0.05) /* MANA_RATE_FLOAT */
      , (28321, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -58,11 +54,11 @@ VALUES (28321, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28321, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (28321, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28321, 22, True) /* INSCRIBABLE_BOOL */
      , (28321, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28321, 259, 2) /* ImpregnabilitySelf4_SpellID */
      , (28321, 247, 2) /* InvulnerabilitySelf4_SpellID */
      , (28321, 1484, 2) /* Impenetrability4_SpellID */

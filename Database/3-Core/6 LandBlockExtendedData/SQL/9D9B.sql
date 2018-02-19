@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (397, 2044309504, 2644180992, 43.4593, 48.67, 68.5033, 0.550778, 0, 0, -0.834652) /* armoredillo-generator */
      , (397, 2044309505, 2644180992, 46.3769, 46.8864, 67.8782, 0.803586, 0, 0, -0.595189) /* armoredillo-generator */
      , (397, 2044309506, 2644180992, 48.7644, 51.6064, 68.4918, 0.0956494, 0, 0, -0.995415) /* armoredillo-generator */

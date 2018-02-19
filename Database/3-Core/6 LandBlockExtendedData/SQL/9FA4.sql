@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2046443520, 2678325504, 132, 155.99, 86, -1, 0, 0, 8.74228E-08) /* Door */
      , (5426, 2046443533, 2678325504, 132.935, 150.834, 86.005, 0.924217, 0, 0, -0.381867) /* Pondenn the Armorer */
      , (5148, 2046443532, 2678325504, 132.045, 148.164, 87.513, -0.0113007, 0, 0, -0.999936) /* Flames */
@@ -16,7 +16,7 @@ VALUES (412, 2046443520, 2678325504, 132, 155.99, 86, -1, 0, 0, 8.74228E-08) /* 
      , (509, 2046443529, 2678325248, 164.197, 163.109, 84.4142, 0.396587, 0, 0, 0.917997) /* Life Stone */
      , (174, 2046443527, 2678325248, 152.896, 148.302, 85.6481, -0.315111, 0, 0, 0.949055) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2046443535'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2046443535'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2046443534'; /* linkmonstergen3minutes <- Weaponsmith Omaro Nagate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2046443534'; /* linkmonstergen3minutes <- Weaponsmith Omaro Nagate */
 

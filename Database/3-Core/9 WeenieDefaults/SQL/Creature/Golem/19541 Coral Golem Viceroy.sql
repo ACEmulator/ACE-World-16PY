@@ -1,16 +1,13 @@
 /* Weenie - Coral Golem Viceroy (19541) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19541;
+DELETE FROM weenie WHERE class_Id = 19541;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19541, 'golemcoralviceroy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19541, 'golemcoralviceroy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19541, 0, 19541);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19541, 1, 'Coral Golem Viceroy') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19541, 1, 33556426) /* SETUP_DID */
      , (19541, 2, 150995073) /* MOTION_TABLE_DID */
      , (19541, 35, 35) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (19541, 1, 33556426) /* SETUP_DID */
      , (19541, 7, 268436009) /* CLOTHINGBASE_DID */
      , (19541, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19541, 81, 8) /* MAX_GENERATED_OBJECTS_INT */
      , (19541, 1, 16) /* ITEM_TYPE_INT */
      , (19541, 2, 13) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (19541, 81, 8) /* MAX_GENERATED_OBJECTS_INT */
      , (19541, 27, 0) /* ARMOR_TYPE_INT */
      , (19541, 93, 1032) /* PHYSICS_STATE_INT */
      , (19541, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (19541, 40, 2) /* COMBAT_MODE_INT */
-     , (19541, 9007, 10) /* Creature_WeenieType */;
+     , (19541, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19541, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (19541, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (19541, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,7 +74,7 @@ VALUES (19541, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (19541, 125, 0.75) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19541, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19541, 1, True) /* STUCK_BOOL */
      , (19541, 6, True) /* AI_USES_MANA_BOOL */
      , (19541, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -86,7 +82,7 @@ VALUES (19541, 1, True) /* STUCK_BOOL */
      , (19541, 13, False) /* ETHEREAL_BOOL */
      , (19541, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19541, 1311, 2) /* ArmorSelf5_SpellID */
      , (19541, 1160, 2) /* HealSelf5_SpellID */
      , (19541, 525, 2) /* AcidVulnerabilityOther5_SpellID */
@@ -98,25 +94,25 @@ VALUES (19541, 1311, 2) /* ArmorSelf5_SpellID */
      , (19541, 62, 2.08) /* AcidStream5_SpellID */
      , (19541, 63, 2.08) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19541, 1, 360) /* STRENGTH_ATTRIBUTE */
      , (19541, 2, 400) /* ENDURANCE_ATTRIBUTE */
      , (19541, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (19541, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (19541, 16, 260) /* FOCUS_ATTRIBUTE */
-     , (19541, 32, 260) /* SELF_ATTRIBUTE */;
+     , (19541, 3, 260) /* QUICKNESS_ATTRIBUTE */
+     , (19541, 5, 260) /* FOCUS_ATTRIBUTE */
+     , (19541, 6, 260) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19541, 64, 9800) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19541, 128, 9600) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19541, 256, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19541, 1, 9800) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19541, 3, 9600) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19541, 5, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19541, 9, 6353, 0, 0, 0.04, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
      , (19541, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
      , (19541, 9, 7605, 0, 0, 0.15, False) /* Create Coral Heart for ContainTreasure_DestinationType */
      , (19541, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19541, -1, 14516, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Caustic (x8 up to max of 8) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

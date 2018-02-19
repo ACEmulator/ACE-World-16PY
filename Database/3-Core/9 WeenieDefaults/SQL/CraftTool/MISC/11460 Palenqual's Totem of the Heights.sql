@@ -1,25 +1,22 @@
 /* Weenie - Palenqual's Totem of the Heights (11460) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11460;
+DELETE FROM weenie WHERE class_Id = 11460;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11460, 'totemtripletva-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11460, 'totemtripletva-xp', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11460, 0, 11460);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11460, 16, 'A triple totem representing three of the animas found on Palenqual. ') /* LONG_DESC_STRING */
      , (11460, 1, 'Palenqual''s Totem of the Heights') /* NAME_STRING */
      , (11460, 14, 'Use this triple totem on one of Aun Kerehanua''s weapons to create one of Palenqual''s living weapons.') /* USE_STRING */
      , (11460, 15, 'An Aun triple totem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11460, 1, 33557274) /* SETUP_DID */
      , (11460, 3, 536870932) /* SOUND_TABLE_DID */
      , (11460, 8, 100672018) /* ICON_DID */
      , (11460, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11460, 9, 0) /* LOCATIONS_INT */
      , (11460, 1, 128) /* ITEM_TYPE_INT */
      , (11460, 13, 300) /* STACK_UNIT_ENCUMB_INT */
@@ -36,13 +33,12 @@ VALUES (11460, 9, 0) /* LOCATIONS_INT */
      , (11460, 93, 1044) /* PHYSICS_STATE_INT */
      , (11460, 94, 33025) /* TARGET_TYPE_INT */
      , (11460, 33, 0) /* BONDED_INT */
-     , (11460, 114, 0) /* ATTUNED_INT */
-     , (11460, 9007, 44) /* CraftTool_WeenieType */;
+     , (11460, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11460, 39, 1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11460, 69, False) /* IS_SELLABLE_BOOL */
      , (11460, 22, True) /* INSCRIBABLE_BOOL */
      , (11460, 23, True) /* DESTROY_ON_SELL_BOOL */;

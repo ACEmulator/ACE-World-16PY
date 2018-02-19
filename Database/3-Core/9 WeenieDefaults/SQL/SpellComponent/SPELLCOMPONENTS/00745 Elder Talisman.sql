@@ -1,16 +1,13 @@
 /* Weenie - Elder Talisman (745) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 745;
+DELETE FROM weenie WHERE class_Id = 745;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (745, 'eldertalisman');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (745, 'eldertalisman', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (745, 0, 745);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (745, 1, 'Elder Talisman') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (745, 1, 33555207) /* SETUP_DID */
      , (745, 3, 536870932) /* SOUND_TABLE_DID */
      , (745, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (745, 1, 33555207) /* SETUP_DID */
      , (745, 8, 100668397) /* ICON_DID */
      , (745, 29, 58) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (745, 9, 0) /* LOCATIONS_INT */
      , (745, 1, 4096) /* ITEM_TYPE_INT */
      , (745, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -32,6 +29,5 @@ VALUES (745, 9, 0) /* LOCATIONS_INT */
      , (745, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (745, 16, 1) /* ITEM_USEABLE_INT */
      , (745, 19, 5) /* VALUE_INT */
-     , (745, 93, 1044) /* PHYSICS_STATE_INT */
-     , (745, 9007, 32) /* SpellComponent_WeenieType */;
+     , (745, 93, 1044) /* PHYSICS_STATE_INT */;
 

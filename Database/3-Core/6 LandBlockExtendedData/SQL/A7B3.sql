@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4937, 2054893575, 2813526272, 117.574, 134.945, 24.805, -0.675448, 0, 0, 0.737408) /* Cave of Alabree */
      , (153, 2054893568, 2813526016, 175, 13.75, 32.005, -0.715699, 0, 0, -0.698409) /* Fountain */
      , (893, 2054893569, 2813526016, 158.402, 40.4764, 32.005, -0.429527, 0, 0, 0.903054) /* drudgeskulkergen */

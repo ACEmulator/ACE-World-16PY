@@ -1,24 +1,21 @@
 /* Weenie - Chest template (30989) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30989;
+DELETE FROM weenie WHERE class_Id = 30989;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30989, 'chesttutorial');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30989, 'chesttutorial', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30989, 0, 30989);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30989, 1, 'Chest template') /* NAME_STRING */
      , (30989, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30989, 1, 33554556) /* SETUP_DID */
      , (30989, 2, 150994948) /* MOTION_TABLE_DID */
      , (30989, 3, 536870945) /* SOUND_TABLE_DID */
      , (30989, 8, 100667426) /* ICON_DID */
      , (30989, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30989, 1, 512) /* ITEM_TYPE_INT */
      , (30989, 93, 1048) /* PHYSICS_STATE_INT */
      , (30989, 5, 6000) /* ENCUMB_VAL_INT */
@@ -28,13 +25,12 @@ VALUES (30989, 1, 512) /* ITEM_TYPE_INT */
      , (30989, 8, 3000) /* MASS_INT */
      , (30989, 83, 2) /* ACTIVATION_RESPONSE_INT */
      , (30989, 19, 200) /* VALUE_INT */
-     , (30989, 96, 500) /* ENCUMB_CAPACITY_INT */
-     , (30989, 9007, 20) /* Chest_WeenieType */;
+     , (30989, 96, 500) /* ENCUMB_CAPACITY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30989, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30989, 1, True) /* STUCK_BOOL */
      , (30989, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (30989, 2, False) /* OPEN_BOOL */

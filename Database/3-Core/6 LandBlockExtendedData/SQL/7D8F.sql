@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12518, 2010705920, 2106523648, 60.1156, 68.7624, 124.005, 0.999985, 0, 0, -0.0054897) /* Majestic Hill Cottages Portal */
      , (12517, 2010705921, 2106523648, 69.0377, 68.6984, 124.005, 0.928483, 0, 0, -0.371375) /* Maitland  Portal */
      , (12528, 2010705922, 2106523648, 74.3255, 60.6243, 124.005, 0.700634, 0, 0, 0.713521) /* New Suntik Portal */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1983143936, 1665532163, 10, -150, -24, -0.707107, 0, 0, -0.707107) /* Acid */
      , (24417, 1983143937, 1665532163, 10, -150, -23.995, 1, 0, 0, 0) /* generatorasheroninvasionlowgen */
      , (24417, 1983143938, 1665532164, 10, -160, -23.995, 1, 0, 0, 0) /* generatorasheroninvasionlowgen */
@@ -171,15 +171,15 @@ VALUES (6122, 1983143936, 1665532163, 10, -150, -24, -0.707107, 0, 0, -0.707107)
      , (4451, 1983144108, 1665532774, 225.25, -190, -5.995, 0.707107, 0, 0, -0.707107) /* Door */
      , (7924, 1983144109, 1665532782, 140, -180, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1983144109'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983144109'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144021'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144024'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144023'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144026'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144025'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144032'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144030'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144029'; /* linkmonstergen5minutes <- Olthoi Grub */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983144028'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144021'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144024'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144023'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144026'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144025'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144032'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144030'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144029'; /* linkmonstergen5minutes <- Olthoi Grub */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983144028'; /* linkmonstergen5minutes <- Olthoi Grub */
 

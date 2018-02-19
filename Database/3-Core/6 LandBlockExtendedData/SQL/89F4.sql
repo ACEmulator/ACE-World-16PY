@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1386, 2023702529, 2314469632, 25.8642, 129.475, -0.34, 0.988562, 0, 0, -0.150817) /* Healer */
      , (1371, 2023702530, 2314469632, 26.4141, 133.94, -0.34, -0.0929638, 0, 0, -0.995669) /* Archmage */
      , (1378, 2023702531, 2314469632, 16.01, 132.81, -0.34, 0.587691, 0, 0, -0.809085) /* Roaming Bowyer */
@@ -7,7 +7,7 @@ VALUES (1386, 2023702529, 2314469632, 25.8642, 129.475, -0.34, 0.988562, 0, 0, -
      , (509, 2023702528, 2314469376, 15.0139, 111.919, 6.005, -0.431441, 0, 0, -0.902141) /* Life Stone */
      , (4376, 2023702532, 2314469376, 4.8255, 137.9, 7.09453, -0.794164, 0, 0, -0.607704) /* portalrandomshogen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2023702534'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2023702534'; /* linkmonstergen30minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2023702533'; /* linkmonstergen30minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2023702533'; /* linkmonstergen30minutes <- Lesser Mu-miyah */
 

@@ -1,16 +1,13 @@
 /* Weenie - Knight of Karlun Guard (29491) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29491;
+DELETE FROM weenie WHERE class_Id = 29491;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29491, 'knightkarlunguard-noagrro');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29491, 'knightkarlunguard-noagrro', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29491, 0, 29491);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29491, 1, 'Knight of Karlun Guard') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29491, 8, 100667453) /* ICON_DID */
      , (29491, 32, 57) /* WIELDED_TREASURE_TYPE_DID */
      , (29491, 1, 33558024) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (29491, 8, 100667453) /* ICON_DID */
      , (29491, 7, 268436496) /* CLOTHINGBASE_DID */
      , (29491, 22, 872415255) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29491, 1, 16) /* ITEM_TYPE_INT */
      , (29491, 2, 2) /* CREATURE_TYPE_INT */
      , (29491, 67, 64) /* TOLERANCE_INT */
@@ -38,10 +35,9 @@ VALUES (29491, 1, 16) /* ITEM_TYPE_INT */
      , (29491, 27, 0) /* ARMOR_TYPE_INT */
      , (29491, 93, 1032) /* PHYSICS_STATE_INT */
      , (29491, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (29491, 40, 2) /* COMBAT_MODE_INT */
-     , (29491, 9007, 10) /* Creature_WeenieType */;
+     , (29491, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29491, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (29491, 65, 0.65) /* RESIST_PIERCE_FLOAT */
      , (29491, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (29491, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (29491, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29491, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29491, 1, True) /* STUCK_BOOL */
      , (29491, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (29491, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29491, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29491, 1, 50) /* STRENGTH_ATTRIBUTE */
      , (29491, 2, 50) /* ENDURANCE_ATTRIBUTE */
      , (29491, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (29491, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (29491, 16, 25) /* FOCUS_ATTRIBUTE */
-     , (29491, 32, 20) /* SELF_ATTRIBUTE */;
+     , (29491, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (29491, 5, 25) /* FOCUS_ATTRIBUTE */
+     , (29491, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29491, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29491, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29491, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29491, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29491, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29491, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29491, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (29491, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (29491, 9, 8701, 0, 0, 0.01, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */

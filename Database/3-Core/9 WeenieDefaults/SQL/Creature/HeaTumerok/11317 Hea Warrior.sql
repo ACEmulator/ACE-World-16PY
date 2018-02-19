@@ -1,16 +1,13 @@
 /* Weenie - Hea Warrior (11317) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11317;
+DELETE FROM weenie WHERE class_Id = 11317;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11317, 'tumerokwarriortanua-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11317, 'tumerokwarriortanua-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11317, 0, 11317);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11317, 1, 'Hea Warrior') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11317, 8, 100667452) /* ICON_DID */
      , (11317, 32, 373) /* WIELDED_TREASURE_TYPE_DID */
      , (11317, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (11317, 8, 100667452) /* ICON_DID */
      , (11317, 7, 268435647) /* CLOTHINGBASE_DID */
      , (11317, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11317, 1, 16) /* ITEM_TYPE_INT */
      , (11317, 2, 58) /* CREATURE_TYPE_INT */
      , (11317, 3, 4) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (11317, 1, 16) /* ITEM_TYPE_INT */
      , (11317, 25, 30) /* LEVEL_INT */
      , (11317, 27, 0) /* ARMOR_TYPE_INT */
      , (11317, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11317, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (11317, 9007, 10) /* Creature_WeenieType */;
+     , (11317, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11317, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11317, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11317, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (11317, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11317, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11317, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11317, 1, True) /* STUCK_BOOL */
      , (11317, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11317, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11317, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11317, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (11317, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (11317, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (11317, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (11317, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (11317, 32, 110) /* SELF_ATTRIBUTE */;
+     , (11317, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (11317, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (11317, 6, 110) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11317, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11317, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11317, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11317, 1, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11317, 3, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11317, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11317, 9, 11321, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */
      , (11317, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (11317, 9, 11321, 0, 0, 1, False) /* Create Vault Key for ContainTreasure_DestinationType */

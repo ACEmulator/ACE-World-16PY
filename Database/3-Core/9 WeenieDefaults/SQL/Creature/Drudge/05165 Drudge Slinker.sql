@@ -1,16 +1,13 @@
 /* Weenie - Drudge Slinker (5165) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5165;
+DELETE FROM weenie WHERE class_Id = 5165;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5165, 'drudgecoveapple');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5165, 'drudgecoveapple', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5165, 0, 5165);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5165, 1, 'Drudge Slinker') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5165, 8, 100667445) /* ICON_DID */
      , (5165, 32, 82) /* WIELDED_TREASURE_TYPE_DID */
      , (5165, 1, 33556445) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (5165, 8, 100667445) /* ICON_DID */
      , (5165, 7, 268435974) /* CLOTHINGBASE_DID */
      , (5165, 22, 872415258) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5165, 1, 16) /* ITEM_TYPE_INT */
      , (5165, 2, 3) /* CREATURE_TYPE_INT */
      , (5165, 3, 47) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (5165, 1, 16) /* ITEM_TYPE_INT */
      , (5165, 27, 0) /* ARMOR_TYPE_INT */
      , (5165, 93, 1032) /* PHYSICS_STATE_INT */
      , (5165, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (5165, 40, 2) /* COMBAT_MODE_INT */
-     , (5165, 9007, 10) /* Creature_WeenieType */;
+     , (5165, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5165, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (5165, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (5165, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,25 +69,25 @@ VALUES (5165, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (5165, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5165, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5165, 1, True) /* STUCK_BOOL */
      , (5165, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5165, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5165, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5165, 1, 20) /* STRENGTH_ATTRIBUTE */
      , (5165, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (5165, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (5165, 8, 55) /* QUICKNESS_ATTRIBUTE */
-     , (5165, 16, 25) /* FOCUS_ATTRIBUTE */
-     , (5165, 32, 15) /* SELF_ATTRIBUTE */;
+     , (5165, 3, 55) /* QUICKNESS_ATTRIBUTE */
+     , (5165, 5, 25) /* FOCUS_ATTRIBUTE */
+     , (5165, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5165, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5165, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5165, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5165, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5165, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5165, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5165, 1, 5161, 0, 0, 0, False) /* Create Cove Apple for Contain_DestinationType */;
 

@@ -1,20 +1,17 @@
 /* Weenie - Shard Vigil Memorial (9002) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9002;
+DELETE FROM weenie WHERE class_Id = 9002;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9002, 'monumentthistledown');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9002, 'monumentthistledown', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9002, 0, 9002);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9002, 1, 'Shard Vigil Memorial') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9002, 1, 33556953) /* SETUP_DID */
      , (9002, 8, 100671330) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9002, 1, 8192) /* ITEM_TYPE_INT */
      , (9002, 93, 1048) /* PHYSICS_STATE_INT */
      , (9002, 5, 10000) /* ENCUMB_VAL_INT */
@@ -22,27 +19,26 @@ VALUES (9002, 1, 8192) /* ITEM_TYPE_INT */
      , (9002, 16, 48) /* ITEM_USEABLE_INT */
      , (9002, 8, 10000) /* MASS_INT */
      , (9002, 19, 0) /* VALUE_INT */
-     , (9002, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (9002, 174, 9) /* APPRAISAL_PAGES_INT */
-     , (9002, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
-     , (9002, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (9002, 9007, 8) /* Book_WeenieType */;
+     , (9002, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9002, 54, 5) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9002, 1, True) /* STUCK_BOOL */
      , (9002, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9002, 13, False) /* ETHEREAL_BOOL */
      , (9002, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (9002, 0, 'The Vigilant', 'prewritten', 4294967295, False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (9002, 9, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (9002, 0, 4294967295, 'The Vigilant', 'prewritten', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
 
 There were others who assisted in this noble stand against the darkness; their names are unfortunately lost in the mist of time and memory. Bow your heads, and honor them.
 ')
-     , (9002, 1, 'The Vigilant', 'prewritten', 4294967295, False, '
+     , (9002, 1, 4294967295, 'The Vigilant', 'prewritten', False, '
                       ~ The Monarchs~
 
                                 Amid
@@ -56,7 +52,7 @@ There were others who assisted in this noble stand against the darkness; their n
                      Tim the Enchantor
                        Wren the Blurry
 ')
-     , (9002, 2, 'The Vigilant', 'prewritten', 4294967295, False, 'Acex
+     , (9002, 2, 4294967295, 'The Vigilant', 'prewritten', False, 'Acex
 Aelynn
 Alianna
 Alphalpha''s New Pal
@@ -73,7 +69,7 @@ Calissa
 Cecil the Wise
 Chaqella
 ')
-     , (9002, 3, 'The Vigilant', 'prewritten', 4294967295, False, 'Chaton Gato
+     , (9002, 3, 4294967295, 'The Vigilant', 'prewritten', False, 'Chaton Gato
 Child of the Dark
 Clan Arrem
 Corwin of Chaos
@@ -90,7 +86,7 @@ Druuna
 Eaglet the Mage
 Edlund
 ')
-     , (9002, 4, 'The Vigilant', 'prewritten', 4294967295, False, 'Fiyo
+     , (9002, 4, 4294967295, 'The Vigilant', 'prewritten', False, 'Fiyo
 Flick-Doh
 Funshine Bear
 Gazra
@@ -107,7 +103,7 @@ Kalen the Mighty
 Kaliel
 Kay''l
 ')
-     , (9002, 5, 'The Vigilant', 'prewritten', 4294967295, False, 'Keth al-Sheth
+     , (9002, 5, 4294967295, 'The Vigilant', 'prewritten', False, 'Keth al-Sheth
 Killerwolf
 Kiyomori
 Krimzon
@@ -124,7 +120,7 @@ Ney
 Orion Haspard
 Osian
 ')
-     , (9002, 6, 'The Vigilant', 'prewritten', 4294967295, False, 'Othinn
+     , (9002, 6, 4294967295, 'The Vigilant', 'prewritten', False, 'Othinn
 Portent
 Pos the Clumsy
 Rand of Rheny
@@ -141,7 +137,7 @@ Seal
 Shadow Death
 Shanra
 ')
-     , (9002, 7, 'The Vigilant', 'prewritten', 4294967295, False, 'Shisho
+     , (9002, 7, 4294967295, 'The Vigilant', 'prewritten', False, 'Shisho
 Shob Sr
 Slash the Warlock
 Solaran
@@ -158,7 +154,7 @@ Teck II
 Tripp
 Uber Caq
 ')
-     , (9002, 8, 'The Vigilant', 'prewritten', 4294967295, False, '
+     , (9002, 8, 4294967295, 'The Vigilant', 'prewritten', False, '
 Ultrazen
 Vervain
 Visioth Razorwind

@@ -1,17 +1,14 @@
 /* Weenie - Hand Grenade (23925) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23925;
+DELETE FROM weenie WHERE class_Id = 23925;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23925, 'holyhandgrenade-stuck');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23925, 'holyhandgrenade-stuck', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23925, 0, 23925);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23925, 1, 'Hand Grenade') /* NAME_STRING */
      , (23925, 15, 'A strange egg shaped object with a pin in the top.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23925, 1, 33554673) /* SETUP_DID */
      , (23925, 3, 536870932) /* SOUND_TABLE_DID */
      , (23925, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23925, 1, 33554673) /* SETUP_DID */
      , (23925, 7, 268435986) /* CLOTHINGBASE_DID */
      , (23925, 8, 100674089) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23925, 9, 4194304) /* LOCATIONS_INT */
      , (23925, 1, 256) /* ITEM_TYPE_INT */
      , (23925, 11, 10) /* MAX_STACK_SIZE_INT */
@@ -43,10 +40,9 @@ VALUES (23925, 9, 4194304) /* LOCATIONS_INT */
      , (23925, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (23925, 48, 12) /* WEAPON_SKILL_INT */
      , (23925, 49, 3) /* WEAPON_TIME_INT */
-     , (23925, 51, 2) /* COMBAT_USE_INT */
-     , (23925, 9007, 4) /* Missile_WeenieType */;
+     , (23925, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23925, 79, 0) /* ELASTICITY_FLOAT */
      , (23925, 39, 1.5) /* DEFAULT_SCALE_FLOAT */
      , (23925, 138, 40000) /* SLAYER_DAMAGE_BONUS_FLOAT */
@@ -57,7 +53,7 @@ VALUES (23925, 79, 0) /* ELASTICITY_FLOAT */
      , (23925, 27, 0) /* ROTATION_SPEED_FLOAT */
      , (23925, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23925, 17, True) /* INELASTIC_BOOL */
      , (23925, 1, True) /* STUCK_BOOL */
      , (23925, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */

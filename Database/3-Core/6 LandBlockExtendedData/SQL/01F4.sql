@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9052, 1881096192, 32768257, 3.09013, -169.97, -17.99, -0.727445, 0, 0, 0.686166) /* Tenuous Nephol Golem */
      , (9073, 1881096193, 32768270, 40.0721, -170, -17.8808, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (9053, 1881096194, 32768275, 47.5235, -170.453, -17.99, -0.713506, 0, 0, 0.700649) /* Tenuous Nephol Golem */
@@ -39,36 +39,36 @@ VALUES (9052, 1881096192, 32768257, 3.09013, -169.97, -17.99, -0.727445, 0, 0, 0
      , (7924, 1881096229, 32768733, 180, -180, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (9028, 1881096230, 32768736, 195.492, -170, 0.005, -0.707107, 0, 0, -0.707107) /* The Third Threshold */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881096217'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881096222'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881096220'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881096224'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1881096204'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1881096202'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1881096208'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1881096210'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1881096211'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1881096229'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881096217'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881096222'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881096220'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881096224'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881096204'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881096202'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881096208'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881096210'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881096211'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881096229'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881096216'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881096221'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881096219'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881096223'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881096203'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881096201'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1881096207'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1881096209'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1881096212'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096194'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096214'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096192'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096198'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096215'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096200'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096196'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096195'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096205'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096218'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096225'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881096213'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881096216'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881096221'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881096219'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881096223'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881096203'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881096201'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881096207'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881096209'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881096212'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096194'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096214'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096192'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096198'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096215'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096200'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096196'; /* linkmonstergen5minutes <- Diaphanous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096195'; /* linkmonstergen5minutes <- Tenuous Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096205'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096218'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096225'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881096213'; /* linkmonstergen5minutes <- Turbid Nephol Golem */
 

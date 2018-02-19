@@ -1,17 +1,14 @@
 /* Weenie - Well-Balanced Lugian Axe (28528) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28528;
+DELETE FROM weenie WHERE class_Id = 28528;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28528, 'axekrank');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28528, 'axekrank', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28528, 0, 28528);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28528, 16, 'Crafted for Gorak.') /* LONG_DESC_STRING */
      , (28528, 1, 'Well-Balanced Lugian Axe') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28528, 1, 33558379) /* SETUP_DID */
      , (28528, 3, 536870932) /* SOUND_TABLE_DID */
      , (28528, 37, 1) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (28528, 1, 33558379) /* SETUP_DID */
      , (28528, 6, 67111919) /* PALETTE_BASE_DID */
      , (28528, 8, 100674408) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28528, 9, 1048576) /* LOCATIONS_INT */
      , (28528, 1, 1) /* ITEM_TYPE_INT */
      , (28528, 5, 1580) /* ENCUMB_VAL_INT */
@@ -44,10 +41,9 @@ VALUES (28528, 9, 1048576) /* LOCATIONS_INT */
      , (28528, 48, 1) /* WEAPON_SKILL_INT */
      , (28528, 49, 250) /* WEAPON_TIME_INT */
      , (28528, 51, 1) /* COMBAT_USE_INT */
-     , (28528, 115, 335) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (28528, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (28528, 115, 335) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28528, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (28528, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (28528, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -56,10 +52,10 @@ VALUES (28528, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (28528, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */
      , (28528, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28528, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28528, 1604, 2) /* Defender5_SpellID */
      , (28528, 1616, 2) /* BloodDrinker6_SpellID */
      , (28528, 1591, 2) /* HeartSeeker5_SpellID */;

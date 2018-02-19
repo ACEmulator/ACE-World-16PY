@@ -1,18 +1,15 @@
 /* Weenie - Orange Minnow (23278) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23278;
+DELETE FROM weenie WHERE class_Id = 23278;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23278, 'minnoworange');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23278, 'minnoworange', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23278, 0, 23278);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23278, 16, 'Not as damaging as darts since minnows are more squishy.') /* LONG_DESC_STRING */
      , (23278, 1, 'Orange Minnow') /* NAME_STRING */
      , (23278, 20, 'Orange Minnows') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23278, 1, 33554674) /* SETUP_DID */
      , (23278, 3, 536870932) /* SOUND_TABLE_DID */
      , (23278, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23278, 1, 33554674) /* SETUP_DID */
      , (23278, 7, 268436568) /* CLOTHINGBASE_DID */
      , (23278, 8, 100674203) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23278, 9, 4194304) /* LOCATIONS_INT */
      , (23278, 1, 256) /* ITEM_TYPE_INT */
      , (23278, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -41,10 +38,9 @@ VALUES (23278, 9, 4194304) /* LOCATIONS_INT */
      , (23278, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (23278, 48, 12) /* WEAPON_SKILL_INT */
      , (23278, 49, 10) /* WEAPON_TIME_INT */
-     , (23278, 51, 2) /* COMBAT_USE_INT */
-     , (23278, 9007, 4) /* Missile_WeenieType */;
+     , (23278, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23278, 79, 0) /* ELASTICITY_FLOAT */
      , (23278, 39, 0.3) /* DEFAULT_SCALE_FLOAT */
      , (23278, 62, 1) /* WEAPON_OFFENSE_FLOAT */
@@ -53,7 +49,7 @@ VALUES (23278, 79, 0) /* ELASTICITY_FLOAT */
      , (23278, 27, 0) /* ROTATION_SPEED_FLOAT */
      , (23278, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23278, 17, True) /* INELASTIC_BOOL */
      , (23278, 84, True) /* IGNORE_CLO_ICONS_BOOL */;
 

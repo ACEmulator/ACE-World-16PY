@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4179, 2011574272, 2120417280, 178.749, 61.421, 14.005, -0.9352, 0, 0, -0.35412) /* Bonfire */
      , (1110, 2011574279, 2120417280, 44.28, 124.834, 12.005, 0.382683, 0, 0, -0.92388) /* Yaraq */
      , (794, 2011574274, 2120417280, 5.78207, 159.617, 16.4723, -0.966798, 0, 0, 0.255541) /* applegenerator */

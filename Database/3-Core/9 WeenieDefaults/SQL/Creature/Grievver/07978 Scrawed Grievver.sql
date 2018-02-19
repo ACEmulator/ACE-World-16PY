@@ -1,16 +1,13 @@
 /* Weenie - Scrawed Grievver (7978) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7978;
+DELETE FROM weenie WHERE class_Id = 7978;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7978, 'grievverscrawed');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7978, 'grievverscrawed', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7978, 0, 7978);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7978, 1, 'Scrawed Grievver') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7978, 1, 33556698) /* SETUP_DID */
      , (7978, 2, 150995098) /* MOTION_TABLE_DID */
      , (7978, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (7978, 1, 33556698) /* SETUP_DID */
      , (7978, 8, 100670960) /* ICON_DID */
      , (7978, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7978, 1, 16) /* ITEM_TYPE_INT */
      , (7978, 2, 44) /* CREATURE_TYPE_INT */
      , (7978, 3, 8) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (7978, 1, 16) /* ITEM_TYPE_INT */
      , (7978, 27, 0) /* ARMOR_TYPE_INT */
      , (7978, 93, 1032) /* PHYSICS_STATE_INT */
      , (7978, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (7978, 40, 2) /* COMBAT_MODE_INT */
-     , (7978, 9007, 10) /* Creature_WeenieType */;
+     , (7978, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7978, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7978, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (7978, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,7 +72,7 @@ VALUES (7978, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7978, 127, 2) /* AI_COUNTERACT_ENCHANTMENT_FLOAT */
      , (7978, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7978, 1, True) /* STUCK_BOOL */
      , (7978, 6, True) /* AI_USES_MANA_BOOL */
      , (7978, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (7978, 1, True) /* STUCK_BOOL */
      , (7978, 13, False) /* ETHEREAL_BOOL */
      , (7978, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7978, 1309, 2) /* ArmorSelf3_SpellID */
      , (7978, 1158, 2.008) /* HealSelf3_SpellID */
      , (7978, 1441, 2.015) /* BafflementOther3_SpellID */
@@ -100,20 +96,20 @@ VALUES (7978, 1309, 2) /* ArmorSelf3_SpellID */
      , (7978, 1340, 2.015) /* WeaknessOther3_SpellID */
      , (7978, 60, 2.023) /* AcidStream3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7978, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (7978, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (7978, 4, 170) /* COORDINATION_ATTRIBUTE */
-     , (7978, 8, 195) /* QUICKNESS_ATTRIBUTE */
-     , (7978, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (7978, 32, 80) /* SELF_ATTRIBUTE */;
+     , (7978, 3, 195) /* QUICKNESS_ATTRIBUTE */
+     , (7978, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (7978, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7978, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7978, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7978, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7978, 1, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7978, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7978, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7978, 9, 15764, 0, 0, 0.02, False) /* Create Ruined Amulet of the Crossbow for ContainTreasure_DestinationType */
      , (7978, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

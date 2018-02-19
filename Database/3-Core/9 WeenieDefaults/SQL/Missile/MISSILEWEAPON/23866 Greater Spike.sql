@@ -1,22 +1,19 @@
 /* Weenie - Greater Spike (23866) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23866;
+DELETE FROM weenie WHERE class_Id = 23866;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23866, 'spikegreater');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23866, 'spikegreater', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23866, 0, 23866);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23866, 1, 'Greater Spike') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23866, 1, 33558197) /* SETUP_DID */
      , (23866, 3, 536870932) /* SOUND_TABLE_DID */
      , (23866, 8, 100674059) /* ICON_DID */
      , (23866, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23866, 9, 4194304) /* LOCATIONS_INT */
      , (23866, 1, 256) /* ITEM_TYPE_INT */
      , (23866, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -39,10 +36,9 @@ VALUES (23866, 9, 4194304) /* LOCATIONS_INT */
      , (23866, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (23866, 48, 12) /* WEAPON_SKILL_INT */
      , (23866, 49, 10) /* WEAPON_TIME_INT */
-     , (23866, 51, 2) /* COMBAT_USE_INT */
-     , (23866, 9007, 4) /* Missile_WeenieType */;
+     , (23866, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23866, 79, 0) /* ELASTICITY_FLOAT */
      , (23866, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (23866, 62, 1) /* WEAPON_OFFENSE_FLOAT */
@@ -51,7 +47,7 @@ VALUES (23866, 79, 0) /* ELASTICITY_FLOAT */
      , (23866, 27, 0) /* ROTATION_SPEED_FLOAT */
      , (23866, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23866, 69, False) /* IS_SELLABLE_BOOL */
      , (23866, 17, True) /* INELASTIC_BOOL */;
 

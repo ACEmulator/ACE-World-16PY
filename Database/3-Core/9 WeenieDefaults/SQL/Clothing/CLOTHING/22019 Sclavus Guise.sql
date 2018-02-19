@@ -1,18 +1,15 @@
 /* Weenie - Sclavus Guise (22019) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22019;
+DELETE FROM weenie WHERE class_Id = 22019;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22019, 'costumesclavus');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22019, 'costumesclavus', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22019, 0, 22019);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22019, 16, 'A finely crafted sclavus costume that is only missing the head.  The inside is padded so that the rough skin of the sclavus does not rub up against the wearer.') /* LONG_DESC_STRING */
      , (22019, 1, 'Sclavus Guise') /* NAME_STRING */
      , (22019, 15, 'A sclavus costume.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22019, 1, 33558003) /* SETUP_DID */
      , (22019, 3, 536870932) /* SOUND_TABLE_DID */
      , (22019, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (22019, 1, 33558003) /* SETUP_DID */
      , (22019, 7, 268436472) /* CLOTHINGBASE_DID */
      , (22019, 8, 100673717) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22019, 9, 32512) /* LOCATIONS_INT */
      , (22019, 1, 4) /* ITEM_TYPE_INT */
      , (22019, 19, 1000) /* VALUE_INT */
@@ -33,10 +30,9 @@ VALUES (22019, 9, 32512) /* LOCATIONS_INT */
      , (22019, 151, 9) /* HOOK_TYPE_INT */
      , (22019, 27, 1) /* ARMOR_TYPE_INT */
      , (22019, 28, 10) /* ARMOR_LEVEL_INT */
-     , (22019, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22019, 9007, 2) /* Clothing_WeenieType */;
+     , (22019, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22019, 15, 0.45) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (22019, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (22019, 12, 0) /* SHADE_FLOAT */
@@ -47,6 +43,6 @@ VALUES (22019, 15, 0.45) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (22019, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22019, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22019, 22, True) /* INSCRIBABLE_BOOL */;
 

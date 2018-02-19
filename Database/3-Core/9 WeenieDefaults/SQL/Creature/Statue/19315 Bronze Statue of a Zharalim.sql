@@ -1,16 +1,13 @@
 /* Weenie - Bronze Statue of a Zharalim (19315) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19315;
+DELETE FROM weenie WHERE class_Id = 19315;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19315, 'statuereplicamidzharalimsmall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19315, 'statuereplicamidzharalimsmall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19315, 0, 19315);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19315, 1, 'Bronze Statue of a Zharalim') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19315, 8, 100667446) /* ICON_DID */
      , (19315, 32, 404) /* WIELDED_TREASURE_TYPE_DID */
      , (19315, 1, 33554433) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (19315, 8, 100667446) /* ICON_DID */
      , (19315, 7, 268436405) /* CLOTHINGBASE_DID */
      , (19315, 22, 872415349) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19315, 1, 16) /* ITEM_TYPE_INT */
      , (19315, 2, 63) /* CREATURE_TYPE_INT */
      , (19315, 3, 27) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (19315, 1, 16) /* ITEM_TYPE_INT */
      , (19315, 25, 53) /* LEVEL_INT */
      , (19315, 27, 0) /* ARMOR_TYPE_INT */
      , (19315, 93, 1032) /* PHYSICS_STATE_INT */
-     , (19315, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (19315, 9007, 10) /* Creature_WeenieType */;
+     , (19315, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19315, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (19315, 65, 0.1) /* RESIST_PIERCE_FLOAT */
      , (19315, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (19315, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (19315, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19315, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19315, 1, True) /* STUCK_BOOL */
      , (19315, 6, True) /* AI_USES_MANA_BOOL */
      , (19315, 7, True) /* AI_USE_HUMAN_MAGIC_ANIMATIONS_BOOL */
@@ -81,23 +77,23 @@ VALUES (19315, 1, True) /* STUCK_BOOL */
      , (19315, 13, False) /* ETHEREAL_BOOL */
      , (19315, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19315, 1159, 2) /* HealSelf4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19315, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (19315, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (19315, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (19315, 8, 175) /* QUICKNESS_ATTRIBUTE */
-     , (19315, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (19315, 32, 150) /* SELF_ATTRIBUTE */;
+     , (19315, 3, 175) /* QUICKNESS_ATTRIBUTE */
+     , (19315, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (19315, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19315, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19315, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19315, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19315, 1, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19315, 3, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19315, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19315, 9, 19214, 0, 0, 0.05, False) /* Create Bronze Coil from a Statue for ContainTreasure_DestinationType */
      , (19315, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

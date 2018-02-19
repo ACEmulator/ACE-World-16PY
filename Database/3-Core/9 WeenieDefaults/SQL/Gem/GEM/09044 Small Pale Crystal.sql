@@ -1,18 +1,15 @@
 /* Weenie - Small Pale Crystal (9044) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9044;
+DELETE FROM weenie WHERE class_Id = 9044;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9044, 'gemthaugirth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9044, 'gemthaugirth', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9044, 0, 9044);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9044, 16, 'A small pale crystal, taken from a Nephol Golem.') /* LONG_DESC_STRING */
      , (9044, 1, 'Small Pale Crystal') /* NAME_STRING */
      , (9044, 15, 'A small pale crystal.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9044, 1, 33554809) /* SETUP_DID */
      , (9044, 3, 536870932) /* SOUND_TABLE_DID */
      , (9044, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (9044, 1, 33554809) /* SETUP_DID */
      , (9044, 7, 268435723) /* CLOTHINGBASE_DID */
      , (9044, 8, 100671334) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9044, 9, 0) /* LOCATIONS_INT */
      , (9044, 1, 2048) /* ITEM_TYPE_INT */
      , (9044, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,14 +33,13 @@ VALUES (9044, 9, 0) /* LOCATIONS_INT */
      , (9044, 19, 15) /* VALUE_INT */
      , (9044, 93, 1044) /* PHYSICS_STATE_INT */
      , (9044, 33, 1) /* BONDED_INT */
-     , (9044, 114, 1) /* ATTUNED_INT */
-     , (9044, 9007, 38) /* Gem_WeenieType */;
+     , (9044, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9044, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
      , (9044, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9044, 22, True) /* INSCRIBABLE_BOOL */
      , (9044, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

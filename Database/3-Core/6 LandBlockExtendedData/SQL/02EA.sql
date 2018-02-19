@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29233, 1882103808, 48890125, 37.801, -53.0614, -11.945, 0.180306, 0, 0, 0.983611) /* Ishaq's Lost Key */
      , (1929, 1882103809, 48890125, 41.2157, -54.6526, -12, -4.37114E-08, 0, 0, -1) /* Chest */
      , (25869, 1882103860, 48890126, 40.219, -51.956, -11.99, 1, 0, 0, -4.37114E-08) /* Giant Mite */
@@ -55,53 +55,53 @@ VALUES (29233, 1882103808, 48890125, 37.801, -53.0614, -11.945, 0.180306, 0, 0, 
      , (25876, 1882103903, 48890263, 30.0004, -8.75871, 6.015, 1, 0, 0, 0) /* Sephal Nefane */
      , (25879, 1882103904, 48890269, 29.805, -60.2849, 3.012, -0.541025, 0, 0, -0.841006) /* Pestilence Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882103847'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882103846'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882103847'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882103846'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882103808'; /* linkitemgen25seconds <- Ishaq's Lost Key */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103889'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103898'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103897'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103902'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103870'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103879'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103904'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103887'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103863'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103868'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103869'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103882'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103881'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103880'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103888'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103866'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103865'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103877'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103872'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103862'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103861'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103860'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103867'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103899'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103878'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103903'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103864'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103871'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103876'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103901'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103900'; /* linkmonstergen10minutes <- Sephal Nefane */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103886'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103884'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103885'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103883'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103875'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103874'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103873'; /* linkmonstergen10minutes <- Giant Mite */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103895'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103896'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103894'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103893'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103892'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103890'; /* linkmonstergen10minutes <- Pestilence Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882103891'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882103808'; /* linkitemgen25seconds <- Ishaq's Lost Key */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103889'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103898'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103897'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103902'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103870'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103879'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103904'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103887'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103863'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103868'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103869'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103882'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103881'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103880'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103888'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103866'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103865'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103877'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103872'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103862'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103861'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103860'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103867'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103899'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103878'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103903'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103864'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103871'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103876'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103901'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103900'; /* linkmonstergen10minutes <- Sephal Nefane */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103886'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103884'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103885'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103883'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103875'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103874'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103873'; /* linkmonstergen10minutes <- Giant Mite */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103895'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103896'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103894'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103893'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103892'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103890'; /* linkmonstergen10minutes <- Pestilence Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882103891'; /* linkmonstergen10minutes <- Pestilence Rat */
 

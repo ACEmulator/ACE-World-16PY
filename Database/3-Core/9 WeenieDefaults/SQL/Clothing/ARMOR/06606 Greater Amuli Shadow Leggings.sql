@@ -1,16 +1,13 @@
 /* Weenie - Greater Amuli Shadow Leggings (6606) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6606;
+DELETE FROM weenie WHERE class_Id = 6606;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6606, 'leggingsamullianshadowgreater');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6606, 'leggingsamullianshadowgreater', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6606, 0, 6606);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6606, 1, 'Greater Amuli Shadow Leggings') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6606, 1, 33554856) /* SETUP_DID */
      , (6606, 3, 536870932) /* SOUND_TABLE_DID */
      , (6606, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (6606, 1, 33554856) /* SETUP_DID */
      , (6606, 7, 268435872) /* CLOTHINGBASE_DID */
      , (6606, 8, 100670443) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6606, 9, 25600) /* LOCATIONS_INT */
      , (6606, 1, 2) /* ITEM_TYPE_INT */
      , (6606, 27, 2) /* ARMOR_TYPE_INT */
@@ -30,10 +27,9 @@ VALUES (6606, 9, 25600) /* LOCATIONS_INT */
      , (6606, 8, 1275) /* MASS_INT */
      , (6606, 28, 190) /* ARMOR_LEVEL_INT */
      , (6606, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6606, 33, 1) /* BONDED_INT */
-     , (6606, 9007, 2) /* Clothing_WeenieType */;
+     , (6606, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6606, 12, 0.3) /* SHADE_FLOAT */
      , (6606, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (6606, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -45,7 +41,7 @@ VALUES (6606, 12, 0.3) /* SHADE_FLOAT */
      , (6606, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (6606, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6606, 22, True) /* INSCRIBABLE_BOOL */
      , (6606, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

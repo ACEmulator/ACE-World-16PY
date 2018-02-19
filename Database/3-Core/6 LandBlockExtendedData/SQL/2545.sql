@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8127, 1918128128, 625278976, 129.674, 123.416, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
      , (8127, 1918128129, 625278976, 123.652, 130.034, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
      , (8127, 1918128130, 625278976, 129.876, 136.755, 0.00500003, 0.714544, 0, 0, -0.69959) /* Menhir Mana Field */
@@ -14,15 +14,15 @@ VALUES (8127, 1918128128, 625278976, 129.674, 123.416, 0.00500003, 0.714544, 0, 
      , (11534, 1918128140, 625278976, 137.569, 122.701, 0.015, -0.910911, 0, 0, -0.412604) /* Enku Zefir */
      , (7924, 1918128141, 625278976, 125.736, 134.225, 0.005, 0.932103, 0, 0, 0.362192) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918128141'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918128141'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128132'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128133'; /* linkmonstergen5minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128134'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128135'; /* linkmonstergen5minutes <- Tempest Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128136'; /* linkmonstergen5minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128137'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128138'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128139'; /* linkmonstergen5minutes <- Enku Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918128140'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128132'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128133'; /* linkmonstergen5minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128134'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128135'; /* linkmonstergen5minutes <- Tempest Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128136'; /* linkmonstergen5minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128137'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128138'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128139'; /* linkmonstergen5minutes <- Enku Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918128140'; /* linkmonstergen5minutes <- Enku Zefir */
 

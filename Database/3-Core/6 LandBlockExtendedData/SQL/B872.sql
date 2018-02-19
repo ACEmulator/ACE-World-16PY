@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12512, 2072453120, 3094478848, 115.705, 84.5617, 18.005, 0.156826, 0, 0, -0.987626) /* Liang Chi Settlement Portal */
      , (12480, 2072453121, 3094478848, 103.418, 86.6682, 18.005, 0.135478, 0, 0, 0.99078) /* Broadacre Cottages Portal */
      , (12505, 2072453122, 3094478848, 92.0882, 91.6515, 18.331, 0.257946, 0, 0, 0.966159) /* Imuth Maer Cottages Portal */

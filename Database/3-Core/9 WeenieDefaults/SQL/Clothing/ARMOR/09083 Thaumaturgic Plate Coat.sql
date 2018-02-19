@@ -1,17 +1,14 @@
 /* Weenie - Thaumaturgic Plate Coat (9083) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9083;
+DELETE FROM weenie WHERE class_Id = 9083;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9083, 'coatthauseagrey');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9083, 'coatthauseagrey', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9083, 0, 9083);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9083, 16, 'A heavily enchanted crystalline coat, of the type once worn into battle by mages of the Yalaini Order of Hieromancers. The seal of the Yalaini Seaborne Empire is embossed on its chest.') /* LONG_DESC_STRING */
      , (9083, 1, 'Thaumaturgic Plate Coat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9083, 1, 33554644) /* SETUP_DID */
      , (9083, 3, 536870932) /* SOUND_TABLE_DID */
      , (9083, 37, 34) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (9083, 1, 33554644) /* SETUP_DID */
      , (9083, 7, 268436113) /* CLOTHINGBASE_DID */
      , (9083, 8, 100670403) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9083, 9, 6688) /* LOCATIONS_INT */
      , (9083, 1, 2) /* ITEM_TYPE_INT */
      , (9083, 19, 8000) /* VALUE_INT */
@@ -37,10 +34,9 @@ VALUES (9083, 9, 6688) /* LOCATIONS_INT */
      , (9083, 107, 0) /* ITEM_CUR_MANA_INT */
      , (9083, 108, 2000) /* ITEM_MAX_MANA_INT */
      , (9083, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (9083, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9083, 9007, 2) /* Clothing_WeenieType */;
+     , (9083, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9083, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9083, 5, -0.125) /* MANA_RATE_FLOAT */
      , (9083, 12, 0.5) /* SHADE_FLOAT */
@@ -53,11 +49,11 @@ VALUES (9083, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9083, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (9083, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9083, 69, False) /* IS_SELLABLE_BOOL */
      , (9083, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9083, 2352, 2) /* StasisDurance_SpellID */
      , (9083, 2376, 2) /* AnnihilationGlimpse_SpellID */
      , (9083, 2353, 2) /* StimulationDurance_SpellID */

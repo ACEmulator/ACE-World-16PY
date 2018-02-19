@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1030, 2080530439, 3223716097, 155.768, 136.778, 108.005, 1, 0, 0, 0) /* Portal to Yaraq */
      , (965, 2080530433, 3223716098, 157.847, 75.2081, 97.66, -0.293405, 0, 0, -0.955988) /* zombiegen */
      , (1154, 2080530438, 3223716098, 155.901, 67.4274, 97.66, 0.0279036, 0, 0, -0.999611) /* linkmonstergen */
@@ -8,7 +8,7 @@ VALUES (1030, 2080530439, 3223716097, 155.768, 136.778, 108.005, 1, 0, 0, 0) /* 
      , (965, 2080530434, 3223716098, 153.396, 74.1105, 97.66, 0.549177, 0, 0, -0.835706) /* zombiegen */
      , (509, 2080530432, 3223715840, 173.629, 124.122, 106.478, -0.962302, 0, 0, 0.271983) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2080530438'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2080530438'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2080530437'; /* linkmonstergen <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2080530437'; /* linkmonstergen <- Lich Lord */
 

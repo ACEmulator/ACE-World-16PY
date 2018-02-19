@@ -1,22 +1,19 @@
 /* Weenie - Starter Shou-ono (530) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 530;
+DELETE FROM weenie WHERE class_Id = 530;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (530, 'newbieshouono');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (530, 'newbieshouono', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (530, 0, 530);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (530, 1, 'Starter Shou-ono') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (530, 1, 33554727) /* SETUP_DID */
      , (530, 3, 536870932) /* SOUND_TABLE_DID */
      , (530, 8, 100667581) /* ICON_DID */
      , (530, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (530, 9, 1048576) /* LOCATIONS_INT */
      , (530, 1, 1) /* ITEM_TYPE_INT */
      , (530, 93, 1044) /* PHYSICS_STATE_INT */
@@ -32,17 +29,16 @@ VALUES (530, 9, 1048576) /* LOCATIONS_INT */
      , (530, 47, 4) /* ATTACK_TYPE_INT */
      , (530, 48, 1) /* WEAPON_SKILL_INT */
      , (530, 49, 40) /* WEAPON_TIME_INT */
-     , (530, 51, 1) /* COMBAT_USE_INT */
-     , (530, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (530, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (530, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (530, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (530, 21, 0.33) /* WEAPON_LENGTH_FLOAT */
      , (530, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (530, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (530, 22, True) /* INSCRIBABLE_BOOL */
      , (530, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

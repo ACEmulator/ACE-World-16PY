@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (940, 1880502272, 23265537, 23.9435, -82.7587, -23.9958, -0.987545, 0, 0, -0.157336) /* Drudge Sneaker */
      , (568, 1880502273, 23265539, 20, -75.25, -24, -1, 0, 0, 0) /* Door */
      , (7, 1880502274, 23265542, 33.4987, -76.0601, -23.9967, -0.434113, 0, 0, -0.900859) /* Drudge Skulker */
@@ -44,32 +44,32 @@ VALUES (940, 1880502272, 23265537, 23.9435, -82.7587, -23.9958, -0.987545, 0, 0,
      , (568, 1880502311, 23265707, 130, -45.25, 0, 1, 0, 0, 0) /* Door */
      , (278, 1880502312, 23265710, 135.245, -40, 0, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880502300'; /* linknewbiemonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880502313'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880502300'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880502313'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502272'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502276'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502277'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502284'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502294'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502291'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502295'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502297'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502302'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502303'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502305'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502307'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502299'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502287'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502281'; /* linknewbiemonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502282'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502292'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880502274'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502289'; /* linkitemgen10seconds <- Antique Platter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502318'; /* linkitemgen10seconds <- Antique Bowl */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502319'; /* linkitemgen10seconds <- Bronze Candlestick */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502315'; /* linkitemgen10seconds <- Antique Goblet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502314'; /* linkitemgen10seconds <- Antique Mug */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502316'; /* linkitemgen10seconds <- Bronze Handbell */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880502317'; /* linkitemgen10seconds <- Bronze Lamp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502272'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502276'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502277'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502284'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502294'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502291'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502295'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502297'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502302'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502303'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502305'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502307'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502299'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502287'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502281'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502282'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502292'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880502274'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502289'; /* linkitemgen10seconds <- Antique Platter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502318'; /* linkitemgen10seconds <- Antique Bowl */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502319'; /* linkitemgen10seconds <- Bronze Candlestick */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502315'; /* linkitemgen10seconds <- Antique Goblet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502314'; /* linkitemgen10seconds <- Antique Mug */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502316'; /* linkitemgen10seconds <- Bronze Handbell */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880502317'; /* linkitemgen10seconds <- Bronze Lamp */
 

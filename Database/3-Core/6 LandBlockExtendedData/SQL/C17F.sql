@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1037, 2081943561, 3246326018, 32.3266, 107.513, 29.41, 0.707721, 0, 0, 0.706492) /* itemswordgenerator */
      , (174, 2081943552, 3246325760, 26.0376, 97.9362, 26.005, -0.109012, 0, 0, -0.99404) /* Well */
      , (160, 2081943553, 3246325760, 34.4591, 101.681, 26.005, -0.739524, 0, 0, 0.67313) /* Mead Cask */

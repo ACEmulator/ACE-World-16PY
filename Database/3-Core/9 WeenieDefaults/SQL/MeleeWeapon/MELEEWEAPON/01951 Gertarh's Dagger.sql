@@ -1,18 +1,15 @@
 /* Weenie - Gertarh's Dagger (1951) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1951;
+DELETE FROM weenie WHERE class_Id = 1951;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1951, 'daggerassassin');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1951, 'daggerassassin', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1951, 0, 1951);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1951, 1, 'Gertarh''s Dagger') /* NAME_STRING */
      , (1951, 7, 'Sometimes, a good dagger is your only friend.') /* INSCRIPTION_STRING */
      , (1951, 8, 'Gertarh') /* SCRIBE_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1951, 1, 33554735) /* SETUP_DID */
      , (1951, 3, 536870932) /* SOUND_TABLE_DID */
      , (1951, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (1951, 1, 33554735) /* SETUP_DID */
      , (1951, 7, 268435783) /* CLOTHINGBASE_DID */
      , (1951, 8, 100667589) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1951, 9, 1048576) /* LOCATIONS_INT */
      , (1951, 1, 1) /* ITEM_TYPE_INT */
      , (1951, 19, 300) /* VALUE_INT */
@@ -37,16 +34,15 @@ VALUES (1951, 9, 1048576) /* LOCATIONS_INT */
      , (1951, 47, 6) /* ATTACK_TYPE_INT */
      , (1951, 48, 4) /* WEAPON_SKILL_INT */
      , (1951, 49, 20) /* WEAPON_TIME_INT */
-     , (1951, 51, 1) /* COMBAT_USE_INT */
-     , (1951, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (1951, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1951, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (1951, 21, 0.5) /* WEAPON_LENGTH_FLOAT */
      , (1951, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (1951, 22, 0.15) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1951, 22, True) /* INSCRIBABLE_BOOL */
      , (1951, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,17 +1,14 @@
 /* Weenie - Light Potion and Powder Pouch (8160) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8160;
+DELETE FROM weenie WHERE class_Id = 8160;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8160, 'sackpowderpotion25');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8160, 'sackpowderpotion25', /* Container_WeenieType */ 21);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8160, 0, 8160);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8160, 1, 'Light Potion and Powder Pouch') /* NAME_STRING */
      , (8160, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8160, 1, 33554817) /* SETUP_DID */
      , (8160, 3, 536870932) /* SOUND_TABLE_DID */
      , (8160, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (8160, 1, 33554817) /* SETUP_DID */
      , (8160, 7, 268435833) /* CLOTHINGBASE_DID */
      , (8160, 8, 100667436) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8160, 9, 0) /* LOCATIONS_INT */
      , (8160, 1, 512) /* ITEM_TYPE_INT */
      , (8160, 19, 5) /* VALUE_INT */
@@ -30,18 +27,17 @@ VALUES (8160, 9, 0) /* LOCATIONS_INT */
      , (8160, 16, 56) /* ITEM_USEABLE_INT */
      , (8160, 8, 140) /* MASS_INT */
      , (8160, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8160, 96, 180) /* ENCUMB_CAPACITY_INT */
-     , (8160, 9007, 21) /* Container_WeenieType */;
+     , (8160, 96, 180) /* ENCUMB_CAPACITY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8160, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (8160, 54, 0.5) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8160, 2, False) /* OPEN_BOOL */
      , (8160, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8160, 1, 782, 25, 0, 0, False) /* Create Powdered Agate for Contain_DestinationType */
      , (8160, 1, 783, 25, 0, 0, False) /* Create Powdered Amber for Contain_DestinationType */
      , (8160, 1, 784, 25, 0, 0, False) /* Create Powdered Azurite for Contain_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1879105536, 917760, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1879105537, 917761, 110, -60, -35.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1879105538, 917762, 120, -50, -35.995, 1, 0, 0, 0) /* Acid */
@@ -230,185 +230,185 @@ VALUES (6122, 1879105536, 917760, 110, -50, -35.995, 1, 0, 0, 0) /* Acid */
      , (30722, 1879105764, 918251, 100, 0, 0.005, -0.720278, 0, 0, -0.693685) /* Surface */
      , (4979, 1879105765, 918260, 130.937, 0.965726, 0.005, 0.930508, 0, 0, -0.366272) /* Sewer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879105721'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1879105671'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1879105596'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1879105597'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1879105603'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1879105667'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1879105579'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1879105717'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1879105719'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1879105726'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1879105635'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1879105650'; /* linkmonstergen2minutes */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1879105629'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879105721'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879105671'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879105596'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879105597'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879105603'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1879105667'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1879105579'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1879105717'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1879105719'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1879105726'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1879105635'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1879105650'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1879105629'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105695'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105708'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105699'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105700'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105722'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105723'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105711'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105712'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879105702'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105713'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105733'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105677'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105678'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105734'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105676'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105669'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879105670'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105599'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105605'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105610'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105609'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105604'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105598'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105595'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879105690'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105672'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105688'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105673'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105674'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105683'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105684'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105691'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105694'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105679'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105680'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105685'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105686'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105687'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105689'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105681'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879105682'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105618'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105617'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105621'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105622'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105619'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105620'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105625'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105626'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105623'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105624'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105612'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105614'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105627'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105611'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105616'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105608'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105615'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105628'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105606'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879105607'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879105601'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879105602'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879105675'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1879105666'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105591'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105592'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105594'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105593'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105553'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105554'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105668'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105581'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105547'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105546'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105552'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105549'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105544'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105545'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105542'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105543'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105577'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105578'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105548'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1879105576'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105653'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105652'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105664'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105661'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105657'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105716'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1879105715'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105655'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105658'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105665'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105654'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105660'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105662'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105659'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105656'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105718'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1879105720'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105735'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105743'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105751'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105749'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105756'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105757'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105758'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105745'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105746'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105760'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105761'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105759'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105762'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105755'; /* linkmonstergen3minutes <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105752'; /* linkmonstergen3minutes <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105763'; /* linkmonstergen3minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105754'; /* linkmonstergen3minutes <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105729'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105737'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105753'; /* linkmonstergen3minutes <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105731'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105740'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105738'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105739'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105727'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105724'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105742'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1879105725'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105634'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105703'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105570'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105704'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105705'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105639'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105640'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1879105563'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105706'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105564'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105571'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105566'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105707'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105575'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105574'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105573'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105567'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105565'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105569'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105572'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105568'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105649'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1879105651'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105633'; /* linkmonstergen2minutes <- Bane Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105646'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105645'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105644'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105643'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105641'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105637'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105648'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105647'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105631'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105636'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105642'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105638'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1879105632'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105695'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105708'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105699'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105700'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105722'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105723'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105711'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105712'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879105702'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105713'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105733'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105677'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105678'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105734'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105676'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105669'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879105670'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105599'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105605'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105610'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105609'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105604'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105598'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105595'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879105690'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105672'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105688'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105673'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105674'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105683'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105684'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105691'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105694'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105679'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105680'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105685'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105686'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105687'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105689'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105681'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879105682'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105618'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105617'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105621'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105622'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105619'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105620'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105625'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105626'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105623'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105624'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105612'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105614'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105627'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105611'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105616'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105608'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105615'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105628'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105606'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879105607'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879105601'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879105602'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879105675'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1879105666'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105591'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105592'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105594'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105593'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105553'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105554'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105668'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105581'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105547'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105546'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105552'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105549'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105544'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105545'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105542'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105543'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105577'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105578'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105548'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1879105576'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105653'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105652'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105664'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105661'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105657'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105716'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1879105715'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105655'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105658'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105665'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105654'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105660'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105662'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105659'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105656'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105718'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1879105720'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105735'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105743'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105751'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105749'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105756'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105757'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105758'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105745'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105746'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105760'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105761'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105759'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105762'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105755'; /* linkmonstergen3minutes <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105752'; /* linkmonstergen3minutes <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105763'; /* linkmonstergen3minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105754'; /* linkmonstergen3minutes <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105729'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105737'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105753'; /* linkmonstergen3minutes <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105731'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105740'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105738'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105739'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105727'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105724'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105742'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1879105725'; /* linkmonstergen3minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105634'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105703'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105570'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105704'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105705'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105639'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105640'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1879105563'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105706'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105564'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105571'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105566'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105707'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105575'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105574'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105573'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105567'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105565'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105569'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105572'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105568'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105649'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1879105651'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105633'; /* linkmonstergen2minutes <- Bane Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105646'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105645'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105644'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105643'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105641'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105637'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105648'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105647'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105631'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105636'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105642'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105638'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1879105632'; /* linkmonstergen2minutes <- Giant Phyntos Wasp */
 

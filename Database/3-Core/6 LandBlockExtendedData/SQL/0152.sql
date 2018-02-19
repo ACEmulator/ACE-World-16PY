@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (568, 1880432640, 22151437, 15.25, -170, -18, -0.707107, 0, 0, -0.707107) /* Door */
      , (1930, 1880432641, 22151439, 26.134, -86.929, -18, -0.707107, 0, 0, -0.707107) /* Chest */
      , (193, 1880432642, 22151439, 30.9329, -89.69, -17.9967, 0.707107, 0, 0, -0.707107) /* Drudge Slinker */
@@ -57,38 +57,38 @@ VALUES (568, 1880432640, 22151437, 15.25, -170, -18, -0.707107, 0, 0, -0.707107)
      , (4108, 1880432696, 22151845, 79.3612, -107.957, 0.011, 1, 0, 0, -4.37114E-08) /* Gnawer Shreth */
      , (4108, 1880432697, 22151873, 95.6631, -39.5202, 0.011, -0.521476, 0, 0, -0.853266) /* Gnawer Shreth */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880432689'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880432689'; /* linknewbiemonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432647'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432656'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432660'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432661'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432671'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432669'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432655'; /* linknewbiemonstergen <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432667'; /* linknewbiemonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432653'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432673'; /* linknewbiemonstergen <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432675'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432686'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432679'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432683'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432691'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432693'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432688'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432697'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432695'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432696'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432694'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432685'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432680'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432681'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432678'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432682'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432687'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432692'; /* linknewbiemonstergen <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432644'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432649'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432650'; /* linknewbiemonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880432642'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432647'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432656'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432660'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432661'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432671'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432669'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432655'; /* linknewbiemonstergen <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432667'; /* linknewbiemonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432653'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432673'; /* linknewbiemonstergen <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432675'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432686'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432679'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432683'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432691'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432693'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432688'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432697'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432695'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432696'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432694'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432685'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432680'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432681'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432678'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432682'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432687'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432692'; /* linknewbiemonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432644'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432649'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432650'; /* linknewbiemonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880432642'; /* linknewbiemonstergen <- Drudge Slinker */
 

@@ -1,20 +1,17 @@
 /* Weenie - Mi Krau-Li's Jitte (7770) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7770;
+DELETE FROM weenie WHERE class_Id = 7770;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7770, 'jittekraulilesser');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7770, 'jittekraulilesser', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7770, 0, 7770);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7770, 8, 'Mi Krau-Li') /* SCRIBE_NAME_STRING */
      , (7770, 16, 'An exceptionally well-balanced jitte, the weapon of Mi Krau-Li. ') /* LONG_DESC_STRING */
      , (7770, 1, 'Mi Krau-Li''s Jitte') /* NAME_STRING */
      , (7770, 33, 'JitteKrauLiLesser') /* QUEST_STRING */
      , (7770, 7, 'If you find my jitte, bring it to me and I will reward you!') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7770, 1, 33554740) /* SETUP_DID */
      , (7770, 3, 536870932) /* SOUND_TABLE_DID */
      , (7770, 37, 5) /* ITEM_SKILL_LIMIT_DID */
@@ -23,7 +20,7 @@ VALUES (7770, 1, 33554740) /* SETUP_DID */
      , (7770, 7, 268435786) /* CLOTHINGBASE_DID */
      , (7770, 8, 100668895) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7770, 9, 1048576) /* LOCATIONS_INT */
      , (7770, 1, 1) /* ITEM_TYPE_INT */
      , (7770, 19, 100) /* VALUE_INT */
@@ -45,21 +42,20 @@ VALUES (7770, 9, 1048576) /* LOCATIONS_INT */
      , (7770, 49, 30) /* WEAPON_TIME_INT */
      , (7770, 114, 1) /* ATTUNED_INT */
      , (7770, 51, 1) /* COMBAT_USE_INT */
-     , (7770, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7770, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (7770, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7770, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (7770, 21, 0.66) /* WEAPON_LENGTH_FLOAT */
      , (7770, 5, -0.025) /* MANA_RATE_FLOAT */
      , (7770, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (7770, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7770, 22, True) /* INSCRIBABLE_BOOL */
      , (7770, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7770, 343, 2) /* MaceMasteryOther4_SpellID */
      , (7770, 1614, 2) /* BloodDrinker4_SpellID */;
 

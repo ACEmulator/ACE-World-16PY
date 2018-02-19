@@ -1,17 +1,14 @@
 /* Weenie - Title Token 'Kingslayer' (29806) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29806;
+DELETE FROM weenie WHERE class_Id = 29806;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29806, 'tokenkingslayer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29806, 'tokenkingslayer', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29806, 0, 29806);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29806, 1, 'Title Token ''Kingslayer''') /* NAME_STRING */
      , (29806, 15, 'You may turn this token in to Guard Devon in Cragstone to change your title to ''Kingslayer''.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29806, 1, 33557280) /* SETUP_DID */
      , (29806, 3, 536870932) /* SOUND_TABLE_DID */
      , (29806, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (29806, 1, 33557280) /* SETUP_DID */
      , (29806, 7, 268436298) /* CLOTHINGBASE_DID */
      , (29806, 8, 100677172) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29806, 9, 0) /* LOCATIONS_INT */
      , (29806, 1, 2048) /* ITEM_TYPE_INT */
      , (29806, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,9 +31,8 @@ VALUES (29806, 9, 0) /* LOCATIONS_INT */
      , (29806, 19, 0) /* VALUE_INT */
      , (29806, 93, 1044) /* PHYSICS_STATE_INT */
      , (29806, 33, 1) /* BONDED_INT */
-     , (29806, 114, 1) /* ATTUNED_INT */
-     , (29806, 9007, 38) /* Gem_WeenieType */;
+     , (29806, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29806, 22, True) /* INSCRIBABLE_BOOL */;
 

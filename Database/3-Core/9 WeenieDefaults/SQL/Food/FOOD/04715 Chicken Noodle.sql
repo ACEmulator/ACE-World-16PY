@@ -1,24 +1,21 @@
 /* Weenie - Chicken Noodle (4715) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4715;
+DELETE FROM weenie WHERE class_Id = 4715;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4715, 'chickennoodle');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4715, 'chickennoodle', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4715, 0, 4715);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4715, 1, 'Chicken Noodle') /* NAME_STRING */
      , (4715, 20, 'Bowls of Chicken Noodle') /* PLURAL_NAME_STRING */
      , (4715, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4715, 1, 33554668) /* SETUP_DID */
      , (4715, 3, 536870932) /* SOUND_TABLE_DID */
      , (4715, 8, 100669966) /* ICON_DID */
      , (4715, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4715, 9, 0) /* LOCATIONS_INT */
      , (4715, 1, 32) /* ITEM_TYPE_INT */
      , (4715, 13, 75) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (4715, 9, 0) /* LOCATIONS_INT */
      , (4715, 19, 20) /* VALUE_INT */
      , (4715, 89, 4) /* BOOSTER_ENUM_INT */
      , (4715, 90, 15) /* BOOST_VALUE_INT */
-     , (4715, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4715, 9007, 18) /* Food_WeenieType */;
+     , (4715, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4715, 69, False) /* IS_SELLABLE_BOOL */;
 

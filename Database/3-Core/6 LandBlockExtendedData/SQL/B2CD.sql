@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (167, 2066534400, 2999779584, 68.5356, 30.3735, 109.66, -0.735155, 0, 0, -0.677899) /* Sarcophagus */
      , (1154, 2066534410, 2999779584, 76.2083, 33.5567, 109.66, -0.732346, 0, 0, 0.680933) /* linkmonstergen */
      , (1759, 2066534409, 2999779584, 76.1771, 32.3037, 109.66, -0.947188, 0, 0, -0.320678) /* Skeleton */
@@ -11,10 +11,10 @@ VALUES (167, 2066534400, 2999779584, 68.5356, 30.3735, 109.66, -0.735155, 0, 0, 
      , (167, 2066534402, 2999779584, 78.0829, 29.1787, 109.66, -0.735155, 0, 0, -0.677899) /* Sarcophagus */
      , (167, 2066534401, 2999779584, 73.4454, 29.7277, 109.66, -0.735155, 0, 0, -0.677899) /* Sarcophagus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066534410'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2066534410'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534406'; /* linkmonstergen <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534409'; /* linkmonstergen <- Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534407'; /* linkmonstergen <- Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066534408'; /* linkmonstergen <- Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066534406'; /* linkmonstergen <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066534409'; /* linkmonstergen <- Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066534407'; /* linkmonstergen <- Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066534408'; /* linkmonstergen <- Skeleton */
 

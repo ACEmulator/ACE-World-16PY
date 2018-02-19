@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (942, 2070458368, 3062562816, 88.2303, 82.3229, 80.2289, -0.770662, 0, 0, -0.637244) /* Wood Golem */
      , (942, 2070458369, 3062562816, 83.6925, 79.8464, 80.011, -0.978222, 0, 0, 0.207563) /* Wood Golem */
      , (942, 2070458370, 3062562816, 81.0126, 83.876, 80.011, -0.604212, 0, 0, 0.796824) /* Wood Golem */
@@ -9,14 +9,14 @@ VALUES (942, 2070458368, 3062562816, 88.2303, 82.3229, 80.2289, -0.770662, 0, 0,
      , (1154, 2070458375, 3062562816, 82.4416, 83.007, 80.005, 0.956191, 0, 0, -0.292743) /* linkmonstergen */
      , (1542, 2070458376, 3062562816, 84.9983, 86.802, 80.3217, 0.956191, 0, 0, -0.292743) /* linkitemgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070458375'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2070458376'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2070458375'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2070458376'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458368'; /* linkmonstergen <- Wood Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458369'; /* linkmonstergen <- Wood Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458370'; /* linkmonstergen <- Wood Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070458371'; /* linkmonstergen <- Wood Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458372'; /* linkitemgen <- Gypsum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458373'; /* linkitemgen <- Powdered Agate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070458374'; /* linkitemgen <- Comfrey */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458368'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458369'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458370'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070458371'; /* linkmonstergen <- Wood Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458372'; /* linkitemgen <- Gypsum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458373'; /* linkitemgen <- Powdered Agate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070458374'; /* linkitemgen <- Comfrey */
 

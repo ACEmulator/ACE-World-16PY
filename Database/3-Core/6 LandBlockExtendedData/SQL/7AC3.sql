@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1132, 2007773184, 2059599872, 93.4587, 70.6899, 209.59, -0.740246, 0, 0, 0.672336) /* itempowdergenerator */
      , (196, 2007773185, 2059599872, 90.8329, 69.2981, 211.383, -0.464576, 0, 0, -0.885533) /* Ice Golem */
      , (196, 2007773186, 2059599872, 64.6946, 62.2439, 225.05, -0.970543, 0, 0, -0.240928) /* Ice Golem */
@@ -8,9 +8,9 @@ VALUES (1132, 2007773184, 2059599872, 93.4587, 70.6899, 209.59, -0.740246, 0, 0,
      , (1022, 2007773190, 2059599872, 53.3458, 84.0209, 229.67, 0.0366308, 0, 0, 0.999329) /* Mayoi Portal */
      , (1154, 2007773191, 2059599872, 44.7165, 70.4087, 230.826, -0.114247, 0, 0, 0.993452) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2007773191'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2007773191'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773185'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773186'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2007773187'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007773185'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007773186'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2007773187'; /* linkmonstergen <- Ice Golem */
 

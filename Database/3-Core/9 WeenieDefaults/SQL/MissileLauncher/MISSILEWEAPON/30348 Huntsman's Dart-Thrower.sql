@@ -1,17 +1,14 @@
 /* Weenie - Huntsman's Dart-Thrower (30348) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30348;
+DELETE FROM weenie WHERE class_Id = 30348;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30348, 'atlatlrarehuntsmansdartthrower');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30348, 'atlatlrarehuntsmansdartthrower', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30348, 0, 30348);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30348, 16, 'Describe me here.') /* LONG_DESC_STRING */
      , (30348, 1, 'Huntsman''s Dart-Thrower') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30348, 1, 33557433) /* SETUP_DID */
      , (30348, 3, 536870932) /* SOUND_TABLE_DID */
      , (30348, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (30348, 1, 33557433) /* SETUP_DID */
      , (30348, 7, 268436304) /* CLOTHINGBASE_DID */
      , (30348, 8, 100672372) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30348, 9, 4194304) /* LOCATIONS_INT */
      , (30348, 1, 256) /* ITEM_TYPE_INT */
      , (30348, 19, 200) /* VALUE_INT */
@@ -36,15 +33,14 @@ VALUES (30348, 9, 4194304) /* LOCATIONS_INT */
      , (30348, 49, 15) /* WEAPON_TIME_INT */
      , (30348, 50, 4) /* AMMO_TYPE_INT */
      , (30348, 51, 2) /* COMBAT_USE_INT */
-     , (30348, 60, 120) /* WEAPON_RANGE_INT */
-     , (30348, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (30348, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30348, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (30348, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (30348, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (30348, 63, 1.7) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30348, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Black Rat (29306) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29306;
+DELETE FROM weenie WHERE class_Id = 29306;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29306, 'ratdeedee');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29306, 'ratdeedee', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29306, 0, 29306);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29306, 1, 'Black Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29306, 1, 33554493) /* SETUP_DID */
      , (29306, 2, 150994958) /* MOTION_TABLE_DID */
      , (29306, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (29306, 1, 33554493) /* SETUP_DID */
      , (29306, 8, 100667451) /* ICON_DID */
      , (29306, 22, 872415267) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29306, 25, 12) /* LEVEL_INT */
      , (29306, 1, 16) /* ITEM_TYPE_INT */
      , (29306, 146, 541) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (29306, 25, 12) /* LEVEL_INT */
      , (29306, 16, 1) /* ITEM_USEABLE_INT */
      , (29306, 27, 0) /* ARMOR_TYPE_INT */
      , (29306, 93, 1032) /* PHYSICS_STATE_INT */
-     , (29306, 40, 2) /* COMBAT_MODE_INT */
-     , (29306, 9007, 10) /* Creature_WeenieType */;
+     , (29306, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29306, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (29306, 65, 1.6) /* RESIST_PIERCE_FLOAT */
      , (29306, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -66,26 +62,26 @@ VALUES (29306, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (29306, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29306, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29306, 1, True) /* STUCK_BOOL */
      , (29306, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (29306, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29306, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29306, 1, 25) /* STRENGTH_ATTRIBUTE */
      , (29306, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (29306, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (29306, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (29306, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (29306, 32, 20) /* SELF_ATTRIBUTE */;
+     , (29306, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (29306, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (29306, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29306, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29306, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29306, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29306, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29306, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29306, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29306, 9, 3681, 0, 0, 0.15, False) /* Create Black Rat Tail for ContainTreasure_DestinationType */
      , (29306, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,23 +1,20 @@
 /* Weenie - Cabbage (260) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 260;
+DELETE FROM weenie WHERE class_Id = 260;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (260, 'cabbage');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (260, 'cabbage', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (260, 0, 260);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (260, 1, 'Cabbage') /* NAME_STRING */
      , (260, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (260, 1, 33554669) /* SETUP_DID */
      , (260, 3, 536870932) /* SOUND_TABLE_DID */
      , (260, 8, 100667456) /* ICON_DID */
      , (260, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (260, 9, 0) /* LOCATIONS_INT */
      , (260, 1, 32) /* ITEM_TYPE_INT */
      , (260, 13, 100) /* STACK_UNIT_ENCUMB_INT */
@@ -31,6 +28,5 @@ VALUES (260, 9, 0) /* LOCATIONS_INT */
      , (260, 19, 12) /* VALUE_INT */
      , (260, 89, 4) /* BOOSTER_ENUM_INT */
      , (260, 90, 6) /* BOOST_VALUE_INT */
-     , (260, 93, 1044) /* PHYSICS_STATE_INT */
-     , (260, 9007, 18) /* Food_WeenieType */;
+     , (260, 93, 1044) /* PHYSICS_STATE_INT */;
 

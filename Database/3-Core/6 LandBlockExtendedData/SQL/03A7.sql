@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5489, 1882877952, 61276416, 30, -110, -90, -0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1882877953, 61276417, 40, -110, -90, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1882877954, 61276418, 50, -110, -90, 0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
@@ -414,68 +414,68 @@ VALUES (5489, 1882877952, 61276416, 30, -110, -90, -0.707107, 0, 0, -0.707107) /
      , (4999, 1882878362, 61277125, 107.535, -159.852, 0.005, -0.697584, 0, 0, -0.716503) /* Chilly Air Level 3 */
      , (4999, 1882878363, 61277126, 107.069, -167.777, 0.005, -0.900903, 0, 0, -0.434021) /* Chilly Air Level 3 */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882878352'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882878226'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882878032'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882878352'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882878226'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882878032'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878022'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878056'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878070'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878083'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878081'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878117'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878116'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878114'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877988'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877991'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877972'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877974'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877993'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877995'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877976'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877978'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878261'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878186'; /* linkmonstergen3minutes <- Ebon Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878224'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878274'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878237'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878188'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878200'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878298'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878008'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878006'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878010'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878012'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878146'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878148'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878155'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878162'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878128'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878121'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878119'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878099'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878090'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878088'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878097'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878038'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878025'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877966'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877965'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877962'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882877960'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878251'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878031'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878034'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878036'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878027'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878029'; /* linkmonstergen3minutes <- Olthoi Legionary */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878225'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878228'; /* linkmonstergen3minutes <- Chaos Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878020'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878369'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882878368'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882878057'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882878365'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882878086'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882878364'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878022'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878056'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878070'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878083'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878081'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878117'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878116'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878114'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877988'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877991'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877972'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877974'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877993'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877995'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877976'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877978'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878261'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878186'; /* linkmonstergen3minutes <- Ebon Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878224'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878274'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878237'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878188'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878200'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878298'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878008'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878006'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878010'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878012'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878146'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878148'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878155'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878162'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878128'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878121'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878119'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878099'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878090'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878088'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878097'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878038'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878025'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877966'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877965'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877962'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882877960'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878251'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878031'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878034'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878036'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878027'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878029'; /* linkmonstergen3minutes <- Olthoi Legionary */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878225'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878228'; /* linkmonstergen3minutes <- Chaos Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878020'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878369'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882878368'; /* linkmonstergen3minutes <- Olthoi Eviscerator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882878057'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882878365'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882878086'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882878364'; /* Door <- Pressure Plate */
 

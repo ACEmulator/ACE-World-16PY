@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1989, 1880395793, 21561603, 26.5495, -49.7761, -5.9923, 0.524131, 0, 0, -0.851638) /* Shadow Wisp */
      , (4811, 1880395794, 21561603, 26.4221, -48.6941, -6, -0.999222, 0, 0, -0.039428) /* Sarcophagus */
      , (1630, 1880395795, 21561609, 36.1902, -26.3261, -5.9925, -0.360666, 0, 0, 0.932695) /* Lich Lord */
@@ -19,20 +19,20 @@ VALUES (1989, 1880395793, 21561603, 26.5495, -49.7761, -5.9923, 0.524131, 0, 0, 
      , (194, 1880395808, 21561733, 30.3276, -43.8993, 6.01, 0.988816, 0, 0, -0.149139) /* Copper Golem */
      , (22809, 1880395809, 21561741, 40.4471, -49.2895, 6.0555, 0.707107, 0, 0, -0.707107) /* Banderling Bandit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880395807'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880395807'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395802'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395806'; /* linkmonstergen7minutes <- Cutthroat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395805'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395801'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395800'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395796'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395799'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395798'; /* linkmonstergen7minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395795'; /* linkmonstergen7minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395797'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395793'; /* linkmonstergen7minutes <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395808'; /* linkmonstergen7minutes <- Copper Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395804'; /* linkmonstergen7minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880395809'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395802'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395806'; /* linkmonstergen7minutes <- Cutthroat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395805'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395801'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395800'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395796'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395799'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395798'; /* linkmonstergen7minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395795'; /* linkmonstergen7minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395797'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395793'; /* linkmonstergen7minutes <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395808'; /* linkmonstergen7minutes <- Copper Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395804'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880395809'; /* linkmonstergen7minutes <- Banderling Bandit */
 

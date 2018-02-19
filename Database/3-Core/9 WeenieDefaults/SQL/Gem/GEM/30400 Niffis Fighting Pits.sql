@@ -1,18 +1,15 @@
 /* Weenie - Niffis Fighting Pits (30400) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30400;
+DELETE FROM weenie WHERE class_Id = 30400;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30400, 'gemquestlittlestniffis');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30400, 'gemquestlittlestniffis', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30400, 0, 30400);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30400, 16, 'Banderling brothers! Come one, come all to the most excitable, tentaclicacal, fighttastical, Nifficacal, underground fight of the year! Bring your well-trained Niffis fighter to the Niffis Fighting Pits! It''s Niffis versus Niffis in the brutalest bloodsport of the Dires! Owned and operated by Grikflap the Uf-bringer!') /* LONG_DESC_STRING */
      , (30400, 1, 'Niffis Fighting Pits') /* NAME_STRING */
      , (30400, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30400, 1, 33556769) /* SETUP_DID */
      , (30400, 3, 536870932) /* SOUND_TABLE_DID */
      , (30400, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (30400, 1, 33556769) /* SETUP_DID */
      , (30400, 50, 100676404) /* ICON_OVERLAY_DID */
      , (30400, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30400, 9, 0) /* LOCATIONS_INT */
      , (30400, 1, 2048) /* ITEM_TYPE_INT */
      , (30400, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (30400, 9, 0) /* LOCATIONS_INT */
      , (30400, 107, 50) /* ITEM_CUR_MANA_INT */
      , (30400, 108, 50) /* ITEM_MAX_MANA_INT */
      , (30400, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30400, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (30400, 9007, 38) /* Gem_WeenieType */;
+     , (30400, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30400, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (30400, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30400, 22, True) /* INSCRIBABLE_BOOL */;

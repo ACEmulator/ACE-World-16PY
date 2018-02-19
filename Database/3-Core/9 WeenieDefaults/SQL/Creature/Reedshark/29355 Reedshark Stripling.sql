@@ -1,16 +1,13 @@
 /* Weenie - Reedshark Stripling (29355) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29355;
+DELETE FROM weenie WHERE class_Id = 29355;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29355, 'reedsharkfloe');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29355, 'reedsharkfloe', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29355, 0, 29355);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29355, 1, 'Reedshark Stripling') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29355, 1, 33554489) /* SETUP_DID */
      , (29355, 2, 150994970) /* MOTION_TABLE_DID */
      , (29355, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (29355, 1, 33554489) /* SETUP_DID */
      , (29355, 7, 268435556) /* CLOTHINGBASE_DID */
      , (29355, 8, 100667939) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29355, 1, 16) /* ITEM_TYPE_INT */
      , (29355, 146, 154) /* XP_OVERRIDE_INT */
      , (29355, 2, 16) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (29355, 1, 16) /* ITEM_TYPE_INT */
      , (29355, 16, 1) /* ITEM_USEABLE_INT */
      , (29355, 25, 5) /* LEVEL_INT */
      , (29355, 93, 1032) /* PHYSICS_STATE_INT */
-     , (29355, 40, 2) /* COMBAT_MODE_INT */
-     , (29355, 9007, 10) /* Creature_WeenieType */;
+     , (29355, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29355, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (29355, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (29355, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (29355, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (29355, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29355, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29355, 1, True) /* STUCK_BOOL */
      , (29355, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (29355, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29355, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29355, 1, 50) /* STRENGTH_ATTRIBUTE */
      , (29355, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (29355, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (29355, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (29355, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (29355, 32, 20) /* SELF_ATTRIBUTE */;
+     , (29355, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (29355, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (29355, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29355, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29355, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29355, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29355, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29355, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29355, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29355, 9, 4238, 0, 0, 0.08, False) /* Create Small Reedshark Hide for ContainTreasure_DestinationType */
      , (29355, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */;
 

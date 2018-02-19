@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (220, 1880449064, 22413568, 0.018163, -49.6786, -17.9908, 0.959455, 0, 0, 0.28186) /* Brown Rat */
      , (1464, 1880449065, 22413570, 0, -70, -17.9958, 1, 0, 0, 0) /* Drudge Robber */
      , (30503, 1880449090, 22413570, -2.69226, -73.2425, -17.955, 0.956172, 0, 0, -0.292804) /* Hard Cove Apple Cider */
@@ -52,47 +52,47 @@ VALUES (220, 1880449064, 22413568, 0.018163, -49.6786, -17.9908, 0.959455, 0, 0,
      , (193, 1880449088, 22413726, 70, -20, 0.003325, -0.999932, 0, 0, -0.011672) /* Drudge Slinker */
      , (193, 1880449089, 22413727, 70, -30, 0.003325, 0.777352, 0, 0, -0.629066) /* Drudge Slinker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880449072'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880449059'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880449087'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880449072'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880449059'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880449087'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449039'; /* linkitemgen10seconds <- Hot Apple Pie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449095'; /* linkitemgen10seconds <- Perfect Cove Apple */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449094'; /* linkitemgen10seconds <- Cove Apple Baking Pan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449093'; /* linkitemgen10seconds <- Aged Cove Apple Cider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449090'; /* linkitemgen10seconds <- Hard Cove Apple Cider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449092'; /* linkitemgen10seconds <- Cove Apple Wine */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880449091'; /* linkitemgen10seconds <- Cove Apple Paring Knife */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880449055'; /* linkitemgen25seconds <- Yaraq Town Stamp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449079'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449077'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449089'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449081'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449086'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449088'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449082'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449084'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449080'; /* linkmonstergen7minutes <- Drudge Robber */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449083'; /* linkmonstergen7minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449076'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449074'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449075'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449065'; /* linkmonstergen7minutes <- Drudge Robber */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449073'; /* linkmonstergen7minutes <- Drudge Robber */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449067'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449066'; /* linkmonstergen7minutes <- Drudge Robber */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449070'; /* linkmonstergen7minutes <- Brown Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449069'; /* linkmonstergen7minutes <- Brown Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449071'; /* linkmonstergen7minutes <- Brown Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449068'; /* linkmonstergen7minutes <- Brown Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449064'; /* linkmonstergen7minutes <- Brown Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449060'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449054'; /* linkmonstergen7minutes <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449037'; /* linkmonstergen7minutes <- Tan Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449031'; /* linkmonstergen7minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449032'; /* linkmonstergen7minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449030'; /* linkmonstergen7minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449033'; /* linkmonstergen7minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449078'; /* linkmonstergen7minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880449085'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449039'; /* linkitemgen10seconds <- Hot Apple Pie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449095'; /* linkitemgen10seconds <- Perfect Cove Apple */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449094'; /* linkitemgen10seconds <- Cove Apple Baking Pan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449093'; /* linkitemgen10seconds <- Aged Cove Apple Cider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449090'; /* linkitemgen10seconds <- Hard Cove Apple Cider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449092'; /* linkitemgen10seconds <- Cove Apple Wine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880449091'; /* linkitemgen10seconds <- Cove Apple Paring Knife */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880449055'; /* linkitemgen25seconds <- Yaraq Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449079'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449077'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449089'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449081'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449086'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449088'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449082'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449084'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449080'; /* linkmonstergen7minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449083'; /* linkmonstergen7minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449076'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449074'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449075'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449065'; /* linkmonstergen7minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449073'; /* linkmonstergen7minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449067'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449066'; /* linkmonstergen7minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449070'; /* linkmonstergen7minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449069'; /* linkmonstergen7minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449071'; /* linkmonstergen7minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449068'; /* linkmonstergen7minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449064'; /* linkmonstergen7minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449060'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449054'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449037'; /* linkmonstergen7minutes <- Tan Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449031'; /* linkmonstergen7minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449032'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449030'; /* linkmonstergen7minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449033'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449078'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880449085'; /* linkmonstergen7minutes <- Drudge Sneaker */
 

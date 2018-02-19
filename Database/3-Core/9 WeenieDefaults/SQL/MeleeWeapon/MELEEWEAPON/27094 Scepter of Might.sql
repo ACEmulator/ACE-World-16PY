@@ -1,18 +1,15 @@
 /* Weenie - Scepter of Might (27094) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27094;
+DELETE FROM weenie WHERE class_Id = 27094;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27094, 'macescepternew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27094, 'macescepternew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27094, 0, 27094);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27094, 16, 'A large carved scepter, it is made from both stone and gems.  It seems to refract light, magnifying the multifaceted gems into miniature suns.') /* LONG_DESC_STRING */
      , (27094, 1, 'Scepter of Might') /* NAME_STRING */
      , (27094, 15, 'A large carved scepter.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27094, 1, 33557013) /* SETUP_DID */
      , (27094, 3, 536870932) /* SOUND_TABLE_DID */
      , (27094, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27094, 1, 33557013) /* SETUP_DID */
      , (27094, 7, 268436169) /* CLOTHINGBASE_DID */
      , (27094, 8, 100671509) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27094, 9, 1048576) /* LOCATIONS_INT */
      , (27094, 1, 1) /* ITEM_TYPE_INT */
      , (27094, 19, 2500) /* VALUE_INT */
@@ -44,10 +41,9 @@ VALUES (27094, 9, 1048576) /* LOCATIONS_INT */
      , (27094, 47, 4) /* ATTACK_TYPE_INT */
      , (27094, 48, 5) /* WEAPON_SKILL_INT */
      , (27094, 49, 80) /* WEAPON_TIME_INT */
-     , (27094, 51, 1) /* COMBAT_USE_INT */
-     , (27094, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27094, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27094, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (27094, 21, 1.24) /* WEAPON_LENGTH_FLOAT */
      , (27094, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -57,11 +53,11 @@ VALUES (27094, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (27094, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (27094, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27094, 22, True) /* INSCRIBABLE_BOOL */
      , (27094, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27094, 1310, 2) /* ArmorSelf4_SpellID */
      , (27094, 1093, 2) /* FireProtectionSelf5_SpellID */
      , (27094, 1614, 2) /* BloodDrinker4_SpellID */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4446, 2084044809, 3279945985, 36.6029, 128.646, 34.005, -0.510865, 0, 0, -0.859661) /* Riflyffa the Shopkeeper */
      , (171, 2084044811, 3279945985, 36.1171, 135.626, 34.005, -0.6734, 0, 0, -0.739279) /* Vat */
      , (143, 2084044803, 3279945993, 62.3375, 132.037, 34.0125, 0.707107, 0, 0, -0.707107) /* Chest */
@@ -17,7 +17,7 @@ VALUES (4446, 2084044809, 3279945985, 36.6029, 128.646, 34.005, -0.510865, 0, 0,
      , (5070, 2084044819, 3279945728, 30.773, 125.765, 34.005, 1, 0, 0, 0) /* East Lytelthorpe Outpost */
      , (174, 2084044813, 3279945728, 17.248, 133.958, 34.005, 1, 0, 0, 0) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2084044807'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2084044807'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2084044815'; /* linkmonstergen <- Ercel */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2084044815'; /* linkmonstergen <- Ercel */
 

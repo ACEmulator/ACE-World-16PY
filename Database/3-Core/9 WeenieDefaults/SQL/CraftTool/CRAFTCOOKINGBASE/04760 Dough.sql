@@ -1,24 +1,21 @@
 /* Weenie - Dough (4760) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4760;
+DELETE FROM weenie WHERE class_Id = 4760;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4760, 'dough');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4760, 'dough', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4760, 0, 4760);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4760, 1, 'Dough') /* NAME_STRING */
      , (4760, 20, 'Batches of Dough') /* PLURAL_NAME_STRING */
      , (4760, 14, 'This item is used in cooking.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4760, 1, 33555968) /* SETUP_DID */
      , (4760, 3, 536870932) /* SOUND_TABLE_DID */
      , (4760, 8, 100669954) /* ICON_DID */
      , (4760, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4760, 9, 0) /* LOCATIONS_INT */
      , (4760, 1, 4194304) /* ITEM_TYPE_INT */
      , (4760, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -31,9 +28,8 @@ VALUES (4760, 9, 0) /* LOCATIONS_INT */
      , (4760, 16, 524296) /* ITEM_USEABLE_INT */
      , (4760, 19, 5) /* VALUE_INT */
      , (4760, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4760, 94, 4194336) /* TARGET_TYPE_INT */
-     , (4760, 9007, 44) /* CraftTool_WeenieType */;
+     , (4760, 94, 4194336) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4760, 69, False) /* IS_SELLABLE_BOOL */;
 

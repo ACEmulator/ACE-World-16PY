@@ -1,24 +1,21 @@
 /* Weenie - Embroidered Bag (29868) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29868;
+DELETE FROM weenie WHERE class_Id = 29868;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29868, 'bagsiraluunlittoral1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29868, 'bagsiraluunlittoral1', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29868, 0, 29868);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29868, 16, 'A nearly empty embroidered bag.  There is only one small bundle of Littoral Siraluun feathers in it.') /* LONG_DESC_STRING */
      , (29868, 1, 'Embroidered Bag') /* NAME_STRING */
      , (29868, 14, 'Use this on a small bundle of Littoral Siraluun feathers.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29868, 1, 33554769) /* SETUP_DID */
      , (29868, 3, 536870932) /* SOUND_TABLE_DID */
      , (29868, 8, 100671838) /* ICON_DID */
      , (29868, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29868, 9, 0) /* LOCATIONS_INT */
      , (29868, 1, 128) /* ITEM_TYPE_INT */
      , (29868, 13, 100) /* STACK_UNIT_ENCUMB_INT */
@@ -33,10 +30,9 @@ VALUES (29868, 9, 0) /* LOCATIONS_INT */
      , (29868, 93, 1044) /* PHYSICS_STATE_INT */
      , (29868, 94, 128) /* TARGET_TYPE_INT */
      , (29868, 33, 1) /* BONDED_INT */
-     , (29868, 114, 1) /* ATTUNED_INT */
-     , (29868, 9007, 44) /* CraftTool_WeenieType */;
+     , (29868, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29868, 22, True) /* INSCRIBABLE_BOOL */
      , (29868, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

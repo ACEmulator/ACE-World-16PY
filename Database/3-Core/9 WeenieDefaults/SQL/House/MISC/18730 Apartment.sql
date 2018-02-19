@@ -1,22 +1,19 @@
 /* Weenie - Apartment (18730) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 18730;
+DELETE FROM weenie WHERE class_Id = 18730;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (18730, 'houseapartment5857');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (18730, 'houseapartment5857', /* House_WeenieType */ 53);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (18730, 0, 18730);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (18730, 1, 'Apartment') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (18730, 1, 33557058) /* SETUP_DID */
      , (18730, 8, 100671873) /* ICON_DID */
      , (18730, 42, 5857) /* HOUSEID_DID */
      , (18730, 44, 151) /* RESTRICTION_EFFECT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (18730, 9, 0) /* LOCATIONS_INT */
      , (18730, 1, 128) /* ITEM_TYPE_INT */
      , (18730, 93, 52) /* PHYSICS_STATE_INT */
@@ -24,13 +21,12 @@ VALUES (18730, 9, 0) /* LOCATIONS_INT */
      , (18730, 16, 1) /* ITEM_USEABLE_INT */
      , (18730, 8, 10) /* MASS_INT */
      , (18730, 155, 4) /* HOUSE_TYPE_INT */
-     , (18730, 19, 0) /* VALUE_INT */
-     , (18730, 9007, 53) /* House_WeenieType */;
+     , (18730, 19, 0) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (18730, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (18730, 1, True) /* STUCK_BOOL */
      , (18730, 71, True) /* NODRAW_BOOL */
      , (18730, 13, True) /* ETHEREAL_BOOL */

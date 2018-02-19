@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29858, 1914372125, 565182722, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0.0335068) /* Aun Arenura the Crafter */
      , (8377, 1914372120, 565182727, 137.849, 87.2347, 4.56687, 0.400629, 0, 0, -0.91624) /* Beer Keg */
      , (8377, 1914372119, 565182727, 136.956, 86.3281, 4.56687, 0.387813, 0, 0, -0.921738) /* Beer Keg */
@@ -29,10 +29,10 @@ VALUES (29858, 1914372125, 565182722, 133.58, 83.6203, 6.805, -0.999438, 0, 0, 0
      , (5774, 1914372124, 565182464, 39.9044, 139.445, 0.005, 0.978377, 0, 0, -0.20683) /* Town Crier */
      , (509, 1914372123, 565182464, 50.6199, 116.939, 0.00499997, -9.71743E-05, 0, 0, 1) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1914372122'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1914372122'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372116'; /* linkitemgen25seconds <- Merlonna Farel the Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372121'; /* linkitemgen25seconds <- Aurten Rhell */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372124'; /* linkitemgen25seconds <- Town Crier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1914372125'; /* linkitemgen25seconds <- Aun Arenura the Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372116'; /* linkitemgen25seconds <- Merlonna Farel the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372121'; /* linkitemgen25seconds <- Aurten Rhell */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372124'; /* linkitemgen25seconds <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1914372125'; /* linkitemgen25seconds <- Aun Arenura the Crafter */
 

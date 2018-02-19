@@ -1,18 +1,15 @@
 /* Weenie - Blade of the Quiddity (11917) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11917;
+DELETE FROM weenie WHERE class_Id = 11917;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11917, 'tumerokswordshreth-creatureonly');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11917, 'tumerokswordshreth-creatureonly', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11917, 0, 11917);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11917, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */
      , (11917, 1, 'Blade of the Quiddity') /* NAME_STRING */
      , (11917, 15, 'A weapon made of a strange pulsating energy.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11917, 1, 33557106) /* SETUP_DID */
      , (11917, 3, 536870932) /* SOUND_TABLE_DID */
      , (11917, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (11917, 1, 33557106) /* SETUP_DID */
      , (11917, 8, 100671700) /* ICON_DID */
      , (11917, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11917, 9, 1048576) /* LOCATIONS_INT */
      , (11917, 1, 1) /* ITEM_TYPE_INT */
      , (11917, 93, 3092) /* PHYSICS_STATE_INT */
@@ -39,10 +36,9 @@ VALUES (11917, 9, 1048576) /* LOCATIONS_INT */
      , (11917, 48, 11) /* WEAPON_SKILL_INT */
      , (11917, 49, 25) /* WEAPON_TIME_INT */
      , (11917, 51, 1) /* COMBAT_USE_INT */
-     , (11917, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (11917, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11917, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11917, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (11917, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (11917, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -50,12 +46,12 @@ VALUES (11917, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (11917, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (11917, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11917, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (11917, 15, True) /* LIGHTS_STATUS_BOOL */
      , (11917, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11917, 1603, 2) /* Defender4_SpellID */
      , (11917, 1615, 2) /* BloodDrinker5_SpellID */
      , (11917, 1625, 2) /* SwiftKiller4_SpellID */

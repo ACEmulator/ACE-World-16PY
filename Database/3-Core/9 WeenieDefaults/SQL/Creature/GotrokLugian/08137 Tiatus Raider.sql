@@ -1,16 +1,13 @@
 /* Weenie - Tiatus Raider (8137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8137;
+DELETE FROM weenie WHERE class_Id = 8137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8137, 'lugiantiatusraider');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8137, 'lugiantiatusraider', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8137, 0, 8137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8137, 1, 'Tiatus Raider') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8137, 8, 100667447) /* ICON_DID */
      , (8137, 32, 321) /* WIELDED_TREASURE_TYPE_DID */
      , (8137, 1, 33557003) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (8137, 8, 100667447) /* ICON_DID */
      , (8137, 7, 268436154) /* CLOTHINGBASE_DID */
      , (8137, 22, 872415262) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8137, 1, 16) /* ITEM_TYPE_INT */
      , (8137, 2, 70) /* CREATURE_TYPE_INT */
      , (8137, 3, 5) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (8137, 1, 16) /* ITEM_TYPE_INT */
      , (8137, 27, 0) /* ARMOR_TYPE_INT */
      , (8137, 93, 1032) /* PHYSICS_STATE_INT */
      , (8137, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (8137, 40, 2) /* COMBAT_MODE_INT */
-     , (8137, 9007, 10) /* Creature_WeenieType */;
+     , (8137, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8137, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (8137, 65, 0.66) /* RESIST_PIERCE_FLOAT */
      , (8137, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (8137, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (8137, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8137, 31, 23) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8137, 1, True) /* STUCK_BOOL */
      , (8137, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (8137, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8137, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8137, 1, 340) /* STRENGTH_ATTRIBUTE */
      , (8137, 2, 320) /* ENDURANCE_ATTRIBUTE */
      , (8137, 4, 270) /* COORDINATION_ATTRIBUTE */
-     , (8137, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (8137, 16, 175) /* FOCUS_ATTRIBUTE */
-     , (8137, 32, 220) /* SELF_ATTRIBUTE */;
+     , (8137, 3, 210) /* QUICKNESS_ATTRIBUTE */
+     , (8137, 5, 175) /* FOCUS_ATTRIBUTE */
+     , (8137, 6, 220) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8137, 64, 290) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8137, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8137, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8137, 1, 290) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8137, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8137, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8137, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (8137, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (8137, 9, 7043, 0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */

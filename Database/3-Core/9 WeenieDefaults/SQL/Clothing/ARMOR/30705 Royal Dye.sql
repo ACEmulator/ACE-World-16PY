@@ -1,16 +1,13 @@
 /* Weenie - Royal Dye (30705) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30705;
+DELETE FROM weenie WHERE class_Id = 30705;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30705, 'tattooroyalfavormid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30705, 'tattooroyalfavormid', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30705, 0, 30705);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30705, 1, 'Royal Dye') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30705, 1, 33554641) /* SETUP_DID */
      , (30705, 3, 536870932) /* SOUND_TABLE_DID */
      , (30705, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (30705, 1, 33554641) /* SETUP_DID */
      , (30705, 7, 268436891) /* CLOTHINGBASE_DID */
      , (30705, 8, 100668412) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30705, 9, 6144) /* LOCATIONS_INT */
      , (30705, 1, 2) /* ITEM_TYPE_INT */
      , (30705, 27, 2) /* ARMOR_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (30705, 9, 6144) /* LOCATIONS_INT */
      , (30705, 106, 250) /* ITEM_SPELLCRAFT_INT */
      , (30705, 107, 900) /* ITEM_CUR_MANA_INT */
      , (30705, 108, 900) /* ITEM_MAX_MANA_INT */
-     , (30705, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (30705, 9007, 2) /* Clothing_WeenieType */;
+     , (30705, 109, 120) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30705, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (30705, 5, -0.033) /* MANA_RATE_FLOAT */
      , (30705, 12, 0.66) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (30705, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (30705, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (30705, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30705, 22, True) /* INSCRIBABLE_BOOL */
      , (30705, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30705, 209, 2) /* ManaRenewalOther4_SpellID */
      , (30705, 1425, 2) /* FocusSelf5_SpellID */
      , (30705, 1448, 2) /* WillpowerSelf4_SpellID */

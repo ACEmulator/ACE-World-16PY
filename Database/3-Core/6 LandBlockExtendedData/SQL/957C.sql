@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (893, 2035793920, 2507931904, 52.2224, 36.4166, 32.805, 0.702794, 0, 0, -0.711393) /* drudgeskulkergen */
      , (420, 2035793928, 2507931904, 43.9756, 35.954, 32.805, -0.996164, 0, 0, -0.0875022) /* itemfood-generator */
      , (954, 2035793927, 2507931904, 47.9373, 38.9243, 32.805, 0.43885, 0, 0, -0.89856) /* drudgesneakergen */

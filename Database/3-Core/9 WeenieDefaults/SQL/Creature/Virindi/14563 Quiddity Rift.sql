@@ -1,16 +1,13 @@
 /* Weenie - Quiddity Rift (14563) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14563;
+DELETE FROM weenie WHERE class_Id = 14563;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14563, 'riftquiddityinvokingpuny');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14563, 'riftquiddityinvokingpuny', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14563, 0, 14563);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14563, 1, 'Quiddity Rift') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14563, 1, 33557521) /* SETUP_DID */
      , (14563, 2, 150995087) /* MOTION_TABLE_DID */
      , (14563, 3, 536871001) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (14563, 1, 33557521) /* SETUP_DID */
      , (14563, 8, 100672522) /* ICON_DID */
      , (14563, 22, 872415375) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14563, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (14563, 1, 16) /* ITEM_TYPE_INT */
      , (14563, 2, 19) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (14563, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (14563, 27, 0) /* ARMOR_TYPE_INT */
      , (14563, 93, 3080) /* PHYSICS_STATE_INT */
      , (14563, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (14563, 40, 2) /* COMBAT_MODE_INT */
-     , (14563, 9007, 10) /* Creature_WeenieType */;
+     , (14563, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14563, 64, 1) /* RESIST_SLASH_FLOAT */
      , (14563, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (14563, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (14563, 64, 1) /* RESIST_SLASH_FLOAT */
      , (14563, 125, 0.5) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (14563, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14563, 1, True) /* STUCK_BOOL */
      , (14563, 6, True) /* AI_USES_MANA_BOOL */
      , (14563, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (14563, 1, True) /* STUCK_BOOL */
      , (14563, 15, True) /* LIGHTS_STATUS_BOOL */
      , (14563, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14563, 1088, 2.044) /* LightningVulnerabilityOther5_SpellID */
      , (14563, 63, 2.115) /* AcidStream6_SpellID */
      , (14563, 609, 2.032) /* LifeMagicMasterySelf5_SpellID */
@@ -93,20 +89,20 @@ VALUES (14563, 1088, 2.044) /* LightningVulnerabilityOther5_SpellID */
      , (14563, 284, 2.044) /* MagicYieldOther5_SpellID */
      , (14563, 1175, 2.044) /* HarmOther5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (14563, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (14563, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (14563, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (14563, 8, 160) /* QUICKNESS_ATTRIBUTE */
-     , (14563, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (14563, 32, 220) /* SELF_ATTRIBUTE */;
+     , (14563, 3, 160) /* QUICKNESS_ATTRIBUTE */
+     , (14563, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (14563, 6, 220) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14563, 64, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14563, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14563, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (14563, 1, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14563, 3, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14563, 5, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14563, -1, 14556, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dim Virindi Energy Cluster (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (14563, -1, 14556, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dim Virindi Energy Cluster (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (14563, -1, 14557, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Faint Virindi Energy Cluster (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

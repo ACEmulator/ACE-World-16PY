@@ -1,16 +1,13 @@
 /* Weenie - Black Opal (2402) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2402;
+DELETE FROM weenie WHERE class_Id = 2402;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2402, 'gemblackopal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2402, 'gemblackopal', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2402, 0, 2402);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2402, 1, 'Black Opal') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2402, 1, 33554809) /* SETUP_DID */
      , (2402, 3, 536870932) /* SOUND_TABLE_DID */
      , (2402, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (2402, 1, 33554809) /* SETUP_DID */
      , (2402, 7, 268435723) /* CLOTHINGBASE_DID */
      , (2402, 8, 100674739) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2402, 9, 0) /* LOCATIONS_INT */
      , (2402, 1, 2048) /* ITEM_TYPE_INT */
      , (2402, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (2402, 9, 0) /* LOCATIONS_INT */
      , (2402, 16, 1) /* ITEM_USEABLE_INT */
      , (2402, 19, 500) /* VALUE_INT */
      , (2402, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2402, 169, 16777216) /* TSYS_MUTATION_DATA_INT */
-     , (2402, 9007, 38) /* Gem_WeenieType */;
+     , (2402, 169, 16777216) /* TSYS_MUTATION_DATA_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2402, 22, True) /* INSCRIBABLE_BOOL */;
 

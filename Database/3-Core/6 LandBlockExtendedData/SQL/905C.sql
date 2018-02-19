@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5154, 2030419978, 2421948672, 84.8786, 61.4641, 27.705, 0.439435, 0, 0, -0.898274) /* Sarqah bint Ak */
      , (4687, 2030419972, 2421948675, 131.049, 39.427, 25.705, 0.708527, 0, 0, -0.705684) /* Shopkeeper Yasiya */
      , (171, 2030419973, 2421948675, 134.129, 32.0193, 25.705, 0.169498, 0, 0, -0.98553) /* Vat */
@@ -12,7 +12,7 @@ VALUES (5154, 2030419978, 2421948672, 84.8786, 61.4641, 27.705, 0.439435, 0, 0, 
      , (4648, 2030419976, 2421948416, 130.022, 26.9007, 26.005, 0.665705, 0, 0, 0.746215) /* Al-Arqas Outpost  */
      , (4648, 2030419977, 2421948416, 121.693, 53.4653, 25.5512, -0.604939, 0, 0, -0.796272) /* Al-Arqas Outpost  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030419979'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030419979'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030419978'; /* linkmonstergen <- Sarqah bint Ak */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030419978'; /* linkmonstergen <- Sarqah bint Ak */
 

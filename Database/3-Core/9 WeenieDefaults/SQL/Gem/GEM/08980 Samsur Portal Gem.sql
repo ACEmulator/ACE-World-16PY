@@ -1,18 +1,15 @@
 /* Weenie - Samsur Portal Gem (8980) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8980;
+DELETE FROM weenie WHERE class_Id = 8980;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8980, 'gemportalsamsur');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8980, 'gemportalsamsur', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8980, 0, 8980);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8980, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (8980, 1, 'Samsur Portal Gem') /* NAME_STRING */
      , (8980, 15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8980, 1, 33556769) /* SETUP_DID */
      , (8980, 3, 536870932) /* SOUND_TABLE_DID */
      , (8980, 28, 157) /* SPELL_DID */
@@ -23,7 +20,7 @@ VALUES (8980, 1, 33556769) /* SETUP_DID */
      , (8980, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8980, 8, 100674863) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8980, 9, 0) /* LOCATIONS_INT */
      , (8980, 1, 2048) /* ITEM_TYPE_INT */
      , (8980, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -45,10 +42,9 @@ VALUES (8980, 9, 0) /* LOCATIONS_INT */
      , (8980, 107, 50) /* ITEM_CUR_MANA_INT */
      , (8980, 108, 50) /* ITEM_MAX_MANA_INT */
      , (8980, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8980, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8980, 9007, 38) /* Gem_WeenieType */;
+     , (8980, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8980, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8980, 15, True) /* LIGHTS_STATUS_BOOL */;
 

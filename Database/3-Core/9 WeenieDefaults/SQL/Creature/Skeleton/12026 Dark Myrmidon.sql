@@ -1,16 +1,13 @@
 /* Weenie - Dark Myrmidon (12026) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12026;
+DELETE FROM weenie WHERE class_Id = 12026;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12026, 'skeletonhighbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12026, 'skeletonhighbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12026, 0, 12026);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12026, 1, 'Dark Myrmidon') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12026, 8, 100669124) /* ICON_DID */
      , (12026, 32, 289) /* WIELDED_TREASURE_TYPE_DID */
      , (12026, 1, 33555465) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (12026, 8, 100669124) /* ICON_DID */
      , (12026, 7, 268435646) /* CLOTHINGBASE_DID */
      , (12026, 22, 872415269) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12026, 1, 16) /* ITEM_TYPE_INT */
      , (12026, 2, 30) /* CREATURE_TYPE_INT */
      , (12026, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -40,10 +37,9 @@ VALUES (12026, 1, 16) /* ITEM_TYPE_INT */
      , (12026, 93, 1032) /* PHYSICS_STATE_INT */
      , (12026, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (12026, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (12026, 40, 1) /* COMBAT_MODE_INT */
-     , (12026, 9007, 10) /* Creature_WeenieType */;
+     , (12026, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12026, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (12026, 65, 0.25) /* RESIST_PIERCE_FLOAT */
      , (12026, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -79,31 +75,31 @@ VALUES (12026, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (12026, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12026, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12026, 1, True) /* STUCK_BOOL */
      , (12026, 6, True) /* AI_USES_MANA_BOOL */
      , (12026, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12026, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12026, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12026, 1160, 2) /* HealSelf5_SpellID */
      , (12026, 1241, 2) /* DrainHealth5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12026, 1, 320) /* STRENGTH_ATTRIBUTE */
      , (12026, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (12026, 4, 270) /* COORDINATION_ATTRIBUTE */
-     , (12026, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (12026, 16, 300) /* FOCUS_ATTRIBUTE */
-     , (12026, 32, 300) /* SELF_ATTRIBUTE */;
+     , (12026, 3, 350) /* QUICKNESS_ATTRIBUTE */
+     , (12026, 5, 300) /* FOCUS_ATTRIBUTE */
+     , (12026, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12026, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12026, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12026, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12026, 1, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12026, 3, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12026, 5, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12026, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
      , (12026, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (12026, 9, 9310, 0, 0, 0.6, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
@@ -111,7 +107,7 @@ VALUES (12026, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for Contain
      , (12026, 9, 23537, 0, 0, 0.3, False) /* Create Osseous Mace for ContainTreasure_DestinationType */
      , (12026, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12026, 0.25, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Relic Bones (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12026, 0.5, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Relic Bones (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12026, 0.75, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Relic Bones (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

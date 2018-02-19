@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (160, 2087223298, 3330801920, 154.194, 84.1749, 32.01, -0.00847191, 0, 0, -0.999964) /* Mead Cask */
      , (1390, 2087223303, 3330801920, 158.822, 85.4798, 32.01, 0.888482, 0, 0, 0.458912) /* Peddler */
      , (1115, 2087223299, 3330801920, 155.884, 77.3554, 32.01, -0.38344, 0, 0, -0.923566) /* Book Shelf */

@@ -1,16 +1,13 @@
 /* Weenie - Barker Mosswart (1256) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1256;
+DELETE FROM weenie WHERE class_Id = 1256;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1256, 'mosswartbarkergreenmire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1256, 'mosswartbarkergreenmire', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1256, 0, 1256);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1256, 1, 'Barker Mosswart') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1256, 8, 100667449) /* ICON_DID */
      , (1256, 32, 121) /* WIELDED_TREASURE_TYPE_DID */
      , (1256, 1, 33557327) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (1256, 8, 100667449) /* ICON_DID */
      , (1256, 7, 268436292) /* CLOTHINGBASE_DID */
      , (1256, 22, 872415264) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1256, 1, 16) /* ITEM_TYPE_INT */
      , (1256, 146, 328) /* XP_OVERRIDE_INT */
      , (1256, 2, 4) /* CREATURE_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (1256, 1, 16) /* ITEM_TYPE_INT */
      , (1256, 27, 0) /* ARMOR_TYPE_INT */
      , (1256, 93, 1032) /* PHYSICS_STATE_INT */
      , (1256, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1256, 40, 2) /* COMBAT_MODE_INT */
-     , (1256, 9007, 10) /* Creature_WeenieType */;
+     , (1256, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1256, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (1256, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (1256, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,25 +67,25 @@ VALUES (1256, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (1256, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1256, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1256, 1, True) /* STUCK_BOOL */
      , (1256, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1256, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1256, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1256, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (1256, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (1256, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (1256, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (1256, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (1256, 32, 50) /* SELF_ATTRIBUTE */;
+     , (1256, 3, 90) /* QUICKNESS_ATTRIBUTE */
+     , (1256, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (1256, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1256, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1256, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1256, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1256, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1256, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1256, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1256, 1, 1267, 0, 0, 0, False) /* Create Key for Contain_DestinationType */;
 

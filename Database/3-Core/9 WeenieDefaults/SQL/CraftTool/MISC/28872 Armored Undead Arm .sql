@@ -1,24 +1,21 @@
 /* Weenie - Armored Undead Arm  (28872) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28872;
+DELETE FROM weenie WHERE class_Id = 28872;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28872, 'armarmoredundead');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28872, 'armarmoredundead', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28872, 0, 28872);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28872, 1, 'Armored Undead Arm ') /* NAME_STRING */
      , (28872, 14, 'Use this on a armored undead torso with either one arm or an arm and two legs.') /* USE_STRING */
      , (28872, 15, 'An armored undead arm.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28872, 1, 33559007) /* SETUP_DID */
      , (28872, 3, 536870932) /* SOUND_TABLE_DID */
      , (28872, 8, 100677095) /* ICON_DID */
      , (28872, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28872, 9, 0) /* LOCATIONS_INT */
      , (28872, 1, 128) /* ITEM_TYPE_INT */
      , (28872, 13, 200) /* STACK_UNIT_ENCUMB_INT */
@@ -35,10 +32,9 @@ VALUES (28872, 9, 0) /* LOCATIONS_INT */
      , (28872, 93, 1044) /* PHYSICS_STATE_INT */
      , (28872, 94, 128) /* TARGET_TYPE_INT */
      , (28872, 33, 0) /* BONDED_INT */
-     , (28872, 114, 0) /* ATTUNED_INT */
-     , (28872, 9007, 44) /* CraftTool_WeenieType */;
+     , (28872, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28872, 22, True) /* INSCRIBABLE_BOOL */
      , (28872, 23, False) /* DESTROY_ON_SELL_BOOL */;
 

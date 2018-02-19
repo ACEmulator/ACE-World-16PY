@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (911, 1949388800, 1125449985, 132.282, 84.1008, 70.005, -0.703201, 0, 0, -0.710991) /* lichgenerator */
      , (1924, 1949388801, 1125449985, 137.774, 85.377, 70.005, 0.707107, 0, 0, -0.707107) /* Chest */
      , (911, 1949388803, 1125449985, 135.438, 82.727, 70.005, -0.810385, 0, 0, -0.585898) /* lichgenerator */

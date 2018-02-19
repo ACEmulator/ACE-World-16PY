@@ -1,24 +1,21 @@
 /* Weenie - Weeping Sword (24206) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24206;
+DELETE FROM weenie WHERE class_Id = 24206;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24206, 'swordisparianperfectweeping');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24206, 'swordisparianperfectweeping', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24206, 0, 24206);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24206, 1, 'Weeping Sword') /* NAME_STRING */
      , (24206, 15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24206, 1, 33558298) /* SETUP_DID */
      , (24206, 3, 536870932) /* SOUND_TABLE_DID */
      , (24206, 36, 234881044) /* MUTATE_FILTER_DID */
      , (24206, 8, 100674264) /* ICON_DID */
      , (24206, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24206, 9, 1048576) /* LOCATIONS_INT */
      , (24206, 1, 1) /* ITEM_TYPE_INT */
      , (24206, 5, 550) /* ENCUMB_VAL_INT */
@@ -46,10 +43,9 @@ VALUES (24206, 9, 1048576) /* LOCATIONS_INT */
      , (24206, 48, 11) /* WEAPON_SKILL_INT */
      , (24206, 49, 35) /* WEAPON_TIME_INT */
      , (24206, 114, 1) /* ATTUNED_INT */
-     , (24206, 51, 1) /* COMBAT_USE_INT */
-     , (24206, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (24206, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24206, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24206, 21, 1) /* WEAPON_LENGTH_FLOAT */
      , (24206, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -59,13 +55,13 @@ VALUES (24206, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24206, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (24206, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24206, 99, True) /* IVORYABLE_BOOL */
      , (24206, 69, False) /* IS_SELLABLE_BOOL */
      , (24206, 22, True) /* INSCRIBABLE_BOOL */
      , (24206, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24206, 2694, 2) /* ModerateSwordAptitude_SpellID */
      , (24206, 2963, 2) /* CunningHunter_SpellID */
      , (24206, 2964, 2) /* MarkHunter_SpellID */

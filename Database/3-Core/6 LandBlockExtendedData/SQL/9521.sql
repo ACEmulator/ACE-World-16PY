@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12479, 2035421184, 2501967872, 130.227, 171.225, 122.005, -0.242434, 0, 0, -0.970168) /* Brigands Bay Settlement Portal */
      , (12774, 2035421185, 2501967872, 132.788, 179.53, 122.005, -0.368664, 0, 0, -0.929563) /* Settlement Portals */
      , (14289, 2035421186, 2501967872, 139.109, 166.067, 122.488, 0.00137467, 0, 0, -0.999999) /* Villalabar Portal */

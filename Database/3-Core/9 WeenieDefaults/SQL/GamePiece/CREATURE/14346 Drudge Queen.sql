@@ -1,16 +1,13 @@
 /* Weenie - Drudge Queen (14346) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14346;
+DELETE FROM weenie WHERE class_Id = 14346;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14346, 'drudgequeen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14346, 'drudgequeen', /* GamePiece_WeenieType */ 61);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14346, 0, 14346);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14346, 1, 'Drudge Queen') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14346, 1, 33556445) /* SETUP_DID */
      , (14346, 2, 150994952) /* MOTION_TABLE_DID */
      , (14346, 3, 536870919) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (14346, 1, 33556445) /* SETUP_DID */
      , (14346, 7, 268435971) /* CLOTHINGBASE_DID */
      , (14346, 8, 100667445) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14346, 1, 16) /* ITEM_TYPE_INT */
      , (14346, 2, 3) /* CREATURE_TYPE_INT */
      , (14346, 67, 64) /* TOLERANCE_INT */
@@ -36,10 +33,9 @@ VALUES (14346, 1, 16) /* ITEM_TYPE_INT */
      , (14346, 27, 0) /* ARMOR_TYPE_INT */
      , (14346, 93, 1036) /* PHYSICS_STATE_INT */
      , (14346, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (14346, 40, 2) /* COMBAT_MODE_INT */
-     , (14346, 9007, 61) /* GamePiece_WeenieType */;
+     , (14346, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14346, 64, 0) /* RESIST_SLASH_FLOAT */
      , (14346, 65, 0) /* RESIST_PIERCE_FLOAT */
      , (14346, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (14346, 64, 0) /* RESIST_SLASH_FLOAT */
      , (14346, 125, 0) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (14346, 31, 1) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14346, 1, True) /* STUCK_BOOL */
      , (14346, 19, False) /* ATTACKABLE_BOOL */
      , (14346, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -80,19 +76,19 @@ VALUES (14346, 1, True) /* STUCK_BOOL */
      , (14346, 29, True) /* NO_CORPSE_BOOL */
      , (14346, 13, True) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14346, 83, 3) /* FlameBolt4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (14346, 1, 20) /* STRENGTH_ATTRIBUTE */
      , (14346, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (14346, 4, 25) /* COORDINATION_ATTRIBUTE */
-     , (14346, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (14346, 16, 25) /* FOCUS_ATTRIBUTE */
-     , (14346, 32, 15) /* SELF_ATTRIBUTE */;
+     , (14346, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (14346, 5, 25) /* FOCUS_ATTRIBUTE */
+     , (14346, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14346, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14346, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14346, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (14346, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14346, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14346, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

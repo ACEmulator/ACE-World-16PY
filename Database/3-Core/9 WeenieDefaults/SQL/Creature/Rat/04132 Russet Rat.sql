@@ -1,16 +1,13 @@
 /* Weenie - Russet Rat (4132) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4132;
+DELETE FROM weenie WHERE class_Id = 4132;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4132, 'ratrusset');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4132, 'ratrusset', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4132, 0, 4132);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4132, 1, 'Russet Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4132, 1, 33554493) /* SETUP_DID */
      , (4132, 2, 150994958) /* MOTION_TABLE_DID */
      , (4132, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (4132, 1, 33554493) /* SETUP_DID */
      , (4132, 7, 268435555) /* CLOTHINGBASE_DID */
      , (4132, 8, 100667451) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4132, 1, 16) /* ITEM_TYPE_INT */
      , (4132, 2, 10) /* CREATURE_TYPE_INT */
      , (4132, 67, 64) /* TOLERANCE_INT */
@@ -35,10 +32,9 @@ VALUES (4132, 1, 16) /* ITEM_TYPE_INT */
      , (4132, 25, 4) /* LEVEL_INT */
      , (4132, 27, 0) /* ARMOR_TYPE_INT */
      , (4132, 93, 1032) /* PHYSICS_STATE_INT */
-     , (4132, 40, 2) /* COMBAT_MODE_INT */
-     , (4132, 9007, 10) /* Creature_WeenieType */;
+     , (4132, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4132, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (4132, 65, 1.6) /* RESIST_PIERCE_FLOAT */
      , (4132, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (4132, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (4132, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4132, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4132, 1, True) /* STUCK_BOOL */
      , (4132, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4132, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4132, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4132, 1, 15) /* STRENGTH_ATTRIBUTE */
      , (4132, 2, 15) /* ENDURANCE_ATTRIBUTE */
      , (4132, 4, 20) /* COORDINATION_ATTRIBUTE */
-     , (4132, 8, 20) /* QUICKNESS_ATTRIBUTE */
-     , (4132, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (4132, 32, 15) /* SELF_ATTRIBUTE */;
+     , (4132, 3, 20) /* QUICKNESS_ATTRIBUTE */
+     , (4132, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (4132, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4132, 64, 7) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4132, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4132, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4132, 1, 7) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4132, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4132, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4132, 9, 4134, 0, 0, 0.15, False) /* Create Russet Rat Tail for ContainTreasure_DestinationType */
      , (4132, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 

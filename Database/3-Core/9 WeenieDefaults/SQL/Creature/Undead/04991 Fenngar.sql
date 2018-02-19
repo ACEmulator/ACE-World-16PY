@@ -1,16 +1,13 @@
 /* Weenie - Fenngar (4991) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4991;
+DELETE FROM weenie WHERE class_Id = 4991;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4991, 'lich1frore');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4991, 'lich1frore', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4991, 0, 4991);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4991, 1, 'Fenngar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4991, 1, 33554839) /* SETUP_DID */
      , (4991, 2, 150994967) /* MOTION_TABLE_DID */
      , (4991, 3, 536870934) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (4991, 1, 33554839) /* SETUP_DID */
      , (4991, 7, 268435558) /* CLOTHINGBASE_DID */
      , (4991, 8, 100667942) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4991, 1, 16) /* ITEM_TYPE_INT */
      , (4991, 146, 3492) /* XP_OVERRIDE_INT */
      , (4991, 2, 14) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (4991, 1, 16) /* ITEM_TYPE_INT */
      , (4991, 27, 0) /* ARMOR_TYPE_INT */
      , (4991, 93, 1032) /* PHYSICS_STATE_INT */
      , (4991, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (4991, 40, 1) /* COMBAT_MODE_INT */
-     , (4991, 9007, 10) /* Creature_WeenieType */;
+     , (4991, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4991, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4991, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (4991, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,14 +66,14 @@ VALUES (4991, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4991, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4991, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4991, 1, True) /* STUCK_BOOL */
      , (4991, 6, False) /* AI_USES_MANA_BOOL */
      , (4991, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4991, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4991, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4991, 136, 2.005) /* FrostVolley4_SpellID */
      , (4991, 72, 2.005) /* FrostBolt4_SpellID */
      , (4991, 1092, 2.01) /* FireProtectionSelf4_SpellID */
@@ -98,20 +94,20 @@ VALUES (4991, 136, 2.005) /* FrostVolley4_SpellID */
      , (4991, 1330, 2.01) /* StrengthSelf4_SpellID */
      , (4991, 1400, 2.01) /* QuicknessSelf4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4991, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (4991, 2, 125) /* ENDURANCE_ATTRIBUTE */
      , (4991, 4, 95) /* COORDINATION_ATTRIBUTE */
-     , (4991, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (4991, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (4991, 32, 150) /* SELF_ATTRIBUTE */;
+     , (4991, 3, 90) /* QUICKNESS_ATTRIBUTE */
+     , (4991, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (4991, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4991, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4991, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4991, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4991, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4991, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4991, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4991, 2, 4982, 0, 0, 0, False) /* Create Hammer of Frore for Wield_DestinationType */
      , (4991, 2, 4981, 0, 0, 0, False) /* Create Ice Heaume of Frore for Wield_DestinationType */
      , (4991, 2, 95, 0, 0, 0, False) /* Create Tower Shield for Wield_DestinationType */;

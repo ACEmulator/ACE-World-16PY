@@ -1,17 +1,14 @@
 /* Weenie - Palenqual's Buadren of the Chase (27350) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27350;
+DELETE FROM weenie WHERE class_Id = 27350;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27350, 'orbbuadrenchase');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27350, 'orbbuadrenchase', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27350, 0, 27350);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27350, 16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (27350, 1, 'Palenqual''s Buadren of the Chase') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27350, 1, 33558670) /* SETUP_DID */
      , (27350, 3, 536870932) /* SOUND_TABLE_DID */
      , (27350, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27350, 1, 33558670) /* SETUP_DID */
      , (27350, 7, 268436250) /* CLOTHINGBASE_DID */
      , (27350, 8, 100676363) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27350, 9, 16777216) /* LOCATIONS_INT */
      , (27350, 1, 32768) /* ITEM_TYPE_INT */
      , (27350, 5, 50) /* ENCUMB_VAL_INT */
@@ -40,23 +37,22 @@ VALUES (27350, 9, 16777216) /* LOCATIONS_INT */
      , (27350, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (27350, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (27350, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (27350, 114, 1) /* ATTUNED_INT */
-     , (27350, 9007, 35) /* Caster_WeenieType */;
+     , (27350, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27350, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27350, 5, -0.033333) /* MANA_RATE_FLOAT */
      , (27350, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (27350, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
      , (27350, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27350, 99, True) /* IVORYABLE_BOOL */
      , (27350, 69, False) /* IS_SELLABLE_BOOL */
      , (27350, 22, True) /* INSCRIBABLE_BOOL */
      , (27350, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27350, 2441, 2) /* StoneCliffsLesser_SpellID */
      , (27350, 2444, 2) /* StrengthofEarthLesser_SpellID */
      , (27350, 2448, 2) /* Growth_SpellID */

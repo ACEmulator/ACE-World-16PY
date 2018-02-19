@@ -1,18 +1,15 @@
 /* Weenie - Wedding Raiment (14906) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14906;
+DELETE FROM weenie WHERE class_Id = 14906;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14906, 'rainmentwedding');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14906, 'rainmentwedding', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14906, 0, 14906);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14906, 16, 'The perfect outfit for wedding party members. This rainment is dyeable.') /* LONG_DESC_STRING */
      , (14906, 1, 'Wedding Raiment') /* NAME_STRING */
      , (14906, 15, 'The perfect outfit for wedding party members. This rainment is dyeable.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14906, 1, 33554854) /* SETUP_DID */
      , (14906, 3, 536870932) /* SOUND_TABLE_DID */
      , (14906, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (14906, 1, 33554854) /* SETUP_DID */
      , (14906, 7, 268436357) /* CLOTHINGBASE_DID */
      , (14906, 8, 100672726) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14906, 9, 32512) /* LOCATIONS_INT */
      , (14906, 1, 4) /* ITEM_TYPE_INT */
      , (14906, 27, 1) /* ARMOR_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (14906, 9, 32512) /* LOCATIONS_INT */
      , (14906, 16, 1) /* ITEM_USEABLE_INT */
      , (14906, 8, 175) /* MASS_INT */
      , (14906, 28, 0) /* ARMOR_LEVEL_INT */
-     , (14906, 93, 1044) /* PHYSICS_STATE_INT */
-     , (14906, 9007, 2) /* Clothing_WeenieType */;
+     , (14906, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14906, 12, 0.48) /* SHADE_FLOAT */
      , (14906, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (14906, 14, 0.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -45,7 +41,7 @@ VALUES (14906, 12, 0.48) /* SHADE_FLOAT */
      , (14906, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (14906, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14906, 100, True) /* DYABLE_BOOL */
      , (14906, 22, True) /* INSCRIBABLE_BOOL */;
 

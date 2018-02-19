@@ -1,17 +1,14 @@
 /* Weenie - Mask Token (11944) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11944;
+DELETE FROM weenie WHERE class_Id = 11944;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11944, 'masktoken');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11944, 'masktoken', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11944, 0, 11944);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11944, 16, 'A token with a Mask head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LONG_DESC_STRING */
      , (11944, 1, 'Mask Token') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11944, 1, 33557280) /* SETUP_DID */
      , (11944, 3, 536870932) /* SOUND_TABLE_DID */
      , (11944, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (11944, 1, 33557280) /* SETUP_DID */
      , (11944, 7, 268435723) /* CLOTHINGBASE_DID */
      , (11944, 8, 100671973) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11944, 9, 0) /* LOCATIONS_INT */
      , (11944, 1, 2048) /* ITEM_TYPE_INT */
      , (11944, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (11944, 9, 0) /* LOCATIONS_INT */
      , (11944, 19, 500) /* VALUE_INT */
      , (11944, 93, 1044) /* PHYSICS_STATE_INT */
      , (11944, 33, 1) /* BONDED_INT */
-     , (11944, 114, 1) /* ATTUNED_INT */
-     , (11944, 9007, 38) /* Gem_WeenieType */;
+     , (11944, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11944, 22, True) /* INSCRIBABLE_BOOL */;
 

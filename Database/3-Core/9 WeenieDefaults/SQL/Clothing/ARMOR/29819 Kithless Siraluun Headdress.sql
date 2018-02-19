@@ -1,17 +1,14 @@
 /* Weenie - Kithless Siraluun Headdress (29819) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29819;
+DELETE FROM weenie WHERE class_Id = 29819;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29819, 'headdresssiraluunkithless');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29819, 'headdresssiraluunkithless', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29819, 0, 29819);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29819, 16, 'A headdress plaited from the plumes of a Kithless Siraluun.') /* LONG_DESC_STRING */
      , (29819, 1, 'Kithless Siraluun Headdress') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29819, 1, 33557288) /* SETUP_DID */
      , (29819, 3, 536870932) /* SOUND_TABLE_DID */
      , (29819, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (29819, 1, 33557288) /* SETUP_DID */
      , (29819, 7, 268436237) /* CLOTHINGBASE_DID */
      , (29819, 8, 100671999) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29819, 9, 1) /* LOCATIONS_INT */
      , (29819, 1, 2) /* ITEM_TYPE_INT */
      , (29819, 19, 2500) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (29819, 9, 1) /* LOCATIONS_INT */
      , (29819, 160, 45) /* WIELD_DIFFICULTY_INT */
      , (29819, 107, 800) /* ITEM_CUR_MANA_INT */
      , (29819, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (29819, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (29819, 9007, 2) /* Clothing_WeenieType */;
+     , (29819, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29819, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (29819, 5, -0.03) /* MANA_RATE_FLOAT */
      , (29819, 12, 0.66) /* SHADE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (29819, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (29819, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (29819, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29819, 22, True) /* INSCRIBABLE_BOOL */
      , (29819, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29819, 760, 2) /* MagicItemExpertiseOther5_SpellID */
      , (29819, 736, 2) /* ItemExpertiseOther5_SpellID */
      , (29819, 712, 2) /* ArmorExpertiseOther5_SpellID */

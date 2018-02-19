@@ -1,18 +1,15 @@
 /* Weenie - Salvaged Armoredillo Hide (20981) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20981;
+DELETE FROM weenie WHERE class_Id = 20981;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20981, 'materialarmoredillohide');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20981, 'materialarmoredillohide', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20981, 0, 20981);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20981, 1, 'Salvaged Armoredillo Hide') /* NAME_STRING */
      , (20981, 14, 'Apply this material to treasure-generated armor to increase the armor''s protection against acid by 0.4.') /* USE_STRING */
      , (20981, 15, 'A strip of armoredillo hide material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20981, 1, 33554817) /* SETUP_DID */
      , (20981, 3, 536870932) /* SOUND_TABLE_DID */
      , (20981, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (20981, 1, 33554817) /* SETUP_DID */
      , (20981, 8, 100667436) /* ICON_DID */
      , (20981, 50, 100673224) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20981, 9, 0) /* LOCATIONS_INT */
      , (20981, 1, 1073741824) /* ITEM_TYPE_INT */
      , (20981, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (20981, 9, 0) /* LOCATIONS_INT */
      , (20981, 91, 100) /* MAX_STRUCTURE_INT */
      , (20981, 93, 1044) /* PHYSICS_STATE_INT */
      , (20981, 94, 2) /* TARGET_TYPE_INT */
-     , (20981, 33, 1) /* BONDED_INT */
-     , (20981, 9007, 44) /* CraftTool_WeenieType */;
+     , (20981, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20981, 22, True) /* INSCRIBABLE_BOOL */
      , (20981, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

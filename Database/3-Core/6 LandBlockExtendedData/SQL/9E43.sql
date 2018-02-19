@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1148, 2044997632, 2655191296, 34.8974, 178.992, 43.205, 0.707107, 0, 0, 0.707107) /* Door */
      , (4696, 2044997636, 2655191314, 29.854, 174.113, 43.205, 0.679413, 0, 0, -0.733756) /* Barkeep Mausin ibn Hi */
      , (8377, 2044997649, 2655191314, 31.713, 175.372, 44.1544, 1, 0, 0, 0) /* Beer Keg */
@@ -28,7 +28,7 @@ VALUES (1148, 2044997632, 2655191296, 34.8974, 178.992, 43.205, 0.707107, 0, 0, 
      , (5486, 2044997648, 2655191040, 27.268, 52.294, 50.005, 1, 0, 0, 0) /* Al-Jalima Portal */
      , (4567, 2044997647, 2655191040, 136.755, 152.403, 20.005, 0.707107, 0, 0, -0.707107) /* Lin Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2044997652'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2044997652'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2044997651'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2044997651'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

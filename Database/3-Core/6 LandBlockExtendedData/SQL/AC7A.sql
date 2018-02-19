@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2059902976, 2893676806, 79, 81.19, 20, 1, 0, 0, 0) /* Door */
      , (412, 2059902977, 2893676809, 79, 81.19, 24.8, 1, 0, 0, 0) /* Door */
      , (412, 2059902978, 2893676809, 79, 78.4101, 24.8, 7.54979E-08, 0, 0, -1) /* Door */
@@ -34,17 +34,17 @@ VALUES (412, 2059902976, 2893676806, 79, 81.19, 20, 1, 0, 0, 0) /* Door */
      , (11506, 2059903007, 2893676544, 67.4814, 188.657, 34.5142, -0.796921, 0, 0, -0.604084) /* Zharalim */
      , (11506, 2059903008, 2893676544, 68.7103, 187.269, 34.1538, -0.796921, 0, 0, -0.604084) /* Zharalim */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2059902998'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2059902998'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059902999'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903000'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903001'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903002'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903003'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903004'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903005'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903006'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903007'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903008'; /* linkmonstergen10minutes <- Zharalim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2059903009'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059902999'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903000'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903001'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903002'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903003'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903004'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903005'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903006'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903007'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903008'; /* linkmonstergen10minutes <- Zharalim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2059903009'; /* linkmonstergen10minutes <- Zharalim */
 

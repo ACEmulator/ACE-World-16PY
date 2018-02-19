@@ -1,18 +1,15 @@
 /* Weenie - Shroud of Night (22016) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22016;
+DELETE FROM weenie WHERE class_Id = 22016;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22016, 'regaliagharundimuber');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22016, 'regaliagharundimuber', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22016, 0, 22016);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22016, 16, 'An enhanced version of Janda''s ever popular mask. This version of the mask worn by assassins of the Elite Shagar Zharala who dispatched King Laszko is a triumph of the mask making trade.') /* LONG_DESC_STRING */
      , (22016, 1, 'Shroud of Night') /* NAME_STRING */
      , (22016, 19, 'Gharu''ndim') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22016, 1, 33558082) /* SETUP_DID */
      , (22016, 3, 536870932) /* SOUND_TABLE_DID */
      , (22016, 37, 10) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (22016, 1, 33558082) /* SETUP_DID */
      , (22016, 7, 268436490) /* CLOTHINGBASE_DID */
      , (22016, 8, 100673596) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22016, 9, 1) /* LOCATIONS_INT */
      , (22016, 1, 2) /* ITEM_TYPE_INT */
      , (22016, 19, 6000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (22016, 9, 1) /* LOCATIONS_INT */
      , (22016, 107, 600) /* ITEM_CUR_MANA_INT */
      , (22016, 108, 600) /* ITEM_MAX_MANA_INT */
      , (22016, 109, 130) /* ITEM_DIFFICULTY_INT */
-     , (22016, 115, 350) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (22016, 9007, 2) /* Clothing_WeenieType */;
+     , (22016, 115, 350) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22016, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22016, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (22016, 12, 0.66) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (22016, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22016, 18, 1.35) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22016, 19, 1.35) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22016, 22, True) /* INSCRIBABLE_BOOL */
      , (22016, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22016, 1312, 2) /* ArmorSelf6_SpellID */
      , (22016, 2565, 2) /* CANTRIPSTAFFAPTITUDE1_SpellID */
      , (22016, 1484, 2) /* Impenetrability4_SpellID */

@@ -1,19 +1,16 @@
 /* Weenie - Hearty Mana Green Tea Ice Cream (7850) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7850;
+DELETE FROM weenie WHERE class_Id = 7850;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7850, 'heartymanaicecreamgreentea');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7850, 'heartymanaicecreamgreentea', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7850, 0, 7850);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7850, 1, 'Hearty Mana Green Tea Ice Cream') /* NAME_STRING */
      , (7850, 20, 'Hearty Mana Green Tea Ice Creams') /* PLURAL_NAME_STRING */
      , (7850, 14, 'Use this item to eat it.') /* USE_STRING */
      , (7850, 15, 'A tempting bowl of cool, pale, green tea ice cream.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7850, 1, 33554668) /* SETUP_DID */
      , (7850, 3, 536870932) /* SOUND_TABLE_DID */
      , (7850, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (7850, 1, 33554668) /* SETUP_DID */
      , (7850, 7, 268436021) /* CLOTHINGBASE_DID */
      , (7850, 8, 100670862) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7850, 9, 0) /* LOCATIONS_INT */
      , (7850, 1, 32) /* ITEM_TYPE_INT */
      , (7850, 13, 40) /* STACK_UNIT_ENCUMB_INT */
@@ -36,9 +33,8 @@ VALUES (7850, 9, 0) /* LOCATIONS_INT */
      , (7850, 19, 240) /* VALUE_INT */
      , (7850, 89, 6) /* BOOSTER_ENUM_INT */
      , (7850, 90, 55) /* BOOST_VALUE_INT */
-     , (7850, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7850, 9007, 18) /* Food_WeenieType */;
+     , (7850, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7850, 69, False) /* IS_SELLABLE_BOOL */;
 

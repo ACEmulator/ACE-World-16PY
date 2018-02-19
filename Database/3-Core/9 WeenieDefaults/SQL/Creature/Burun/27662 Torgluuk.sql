@@ -1,16 +1,13 @@
 /* Weenie - Torgluuk (27662) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27662;
+DELETE FROM weenie WHERE class_Id = 27662;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27662, 'burunruuktorgluuk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27662, 'burunruuktorgluuk', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27662, 0, 27662);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27662, 1, 'Torgluuk') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27662, 1, 33558747) /* SETUP_DID */
      , (27662, 2, 150995272) /* MOTION_TABLE_DID */
      , (27662, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (27662, 1, 33558747) /* SETUP_DID */
      , (27662, 7, 268436789) /* CLOTHINGBASE_DID */
      , (27662, 8, 100675761) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27662, 1, 16) /* ITEM_TYPE_INT */
      , (27662, 2, 75) /* CREATURE_TYPE_INT */
      , (27662, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (27662, 1, 16) /* ITEM_TYPE_INT */
      , (27662, 27, 0) /* ARMOR_TYPE_INT */
      , (27662, 93, 1032) /* PHYSICS_STATE_INT */
      , (27662, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27662, 40, 2) /* COMBAT_MODE_INT */
-     , (27662, 9007, 10) /* Creature_WeenieType */;
+     , (27662, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27662, 64, 0) /* RESIST_SLASH_FLOAT */
      , (27662, 65, 0) /* RESIST_PIERCE_FLOAT */
      , (27662, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (27662, 64, 0) /* RESIST_SLASH_FLOAT */
      , (27662, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27662, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27662, 1, True) /* STUCK_BOOL */
      , (27662, 6, True) /* AI_USES_MANA_BOOL */
      , (27662, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (27662, 1, True) /* STUCK_BOOL */
      , (27662, 13, False) /* ETHEREAL_BOOL */
      , (27662, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27662, 3110, 2.02) /* GreaterSearFlesh_SpellID */
      , (27662, 2122, 2.07) /* AcidStream7_SpellID */
      , (27662, 2178, 2.02) /* FesterOther7_SpellID */
@@ -105,16 +101,16 @@ VALUES (27662, 3110, 2.02) /* GreaterSearFlesh_SpellID */
      , (27662, 3058, 2.02) /* GreaterAsphyxiation_SpellID */
      , (27662, 3059, 2.02) /* GreaterEnervation_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27662, 1, 350) /* STRENGTH_ATTRIBUTE */
      , (27662, 2, 400) /* ENDURANCE_ATTRIBUTE */
      , (27662, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (27662, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (27662, 16, 420) /* FOCUS_ATTRIBUTE */
-     , (27662, 32, 420) /* SELF_ATTRIBUTE */;
+     , (27662, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (27662, 5, 420) /* FOCUS_ATTRIBUTE */
+     , (27662, 6, 420) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27662, 64, 4800) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27662, 128, 3600) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27662, 256, 7580) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27662, 1, 4800) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27662, 3, 3600) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27662, 5, 7580) /* MAX_MANA_ATTRIBUTE_2ND */;
 

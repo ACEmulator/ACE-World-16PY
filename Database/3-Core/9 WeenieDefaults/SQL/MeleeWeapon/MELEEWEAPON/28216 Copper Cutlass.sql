@@ -1,23 +1,20 @@
 /* Weenie - Copper Cutlass (28216) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28216;
+DELETE FROM weenie WHERE class_Id = 28216;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28216, 'cutlasscopper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28216, 'cutlasscopper', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28216, 0, 28216);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28216, 16, 'A sword crafted from the tooth of a copper gromnie.') /* LONG_DESC_STRING */
      , (28216, 1, 'Copper Cutlass') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28216, 1, 33558828) /* SETUP_DID */
      , (28216, 3, 536870932) /* SOUND_TABLE_DID */
      , (28216, 8, 100676799) /* ICON_DID */
      , (28216, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28216, 9, 1048576) /* LOCATIONS_INT */
      , (28216, 1, 1) /* ITEM_TYPE_INT */
      , (28216, 5, 400) /* ENCUMB_VAL_INT */
@@ -41,10 +38,9 @@ VALUES (28216, 9, 1048576) /* LOCATIONS_INT */
      , (28216, 47, 2) /* ATTACK_TYPE_INT */
      , (28216, 48, 11) /* WEAPON_SKILL_INT */
      , (28216, 49, 30) /* WEAPON_TIME_INT */
-     , (28216, 51, 1) /* COMBAT_USE_INT */
-     , (28216, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (28216, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28216, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (28216, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (28216, 5, -0.04) /* MANA_RATE_FLOAT */
@@ -54,11 +50,11 @@ VALUES (28216, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (28216, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */
      , (28216, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28216, 22, True) /* INSCRIBABLE_BOOL */
      , (28216, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28216, 1605, 2) /* Defender6_SpellID */
      , (28216, 1592, 2) /* HeartSeeker6_SpellID */
      , (28216, 1616, 2) /* BloodDrinker6_SpellID */

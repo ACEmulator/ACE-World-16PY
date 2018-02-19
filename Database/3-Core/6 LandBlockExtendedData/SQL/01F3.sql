@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1881092096, 32702720, 50, -90, -5.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1881092097, 32702721, 60, -90, -5.995, 1, 0, 0, 0) /* Acid */
      , (6122, 1881092098, 32702722, 70, -90, -5.995, 1, 0, 0, 0) /* Acid */
@@ -90,43 +90,43 @@ VALUES (6122, 1881092096, 32702720, 50, -90, -5.995, 1, 0, 0, 0) /* Acid */
      , (25319, 1881092184, 32703108, 156.849, -52.842, 18.005, -0.182239, 0, 0, -0.983254) /* Alloy Contraption */
      , (15759, 1881092185, 32703108, 156.419, -53.551, 18.005, -0.182239, 0, 0, -0.983254) /* linkitemgen10seconds */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881092123'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881092144'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881092132'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881092142'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1881092107'; /* Portal Sending */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1881092158'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1881092185'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881092123'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881092144'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881092132'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881092142'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881092107'; /* Portal Sending */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881092158'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881092185'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881092150'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881092122'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881092151'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881092145'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881092152'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881092130'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881092153'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881092134'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881092108'; /* Portal Sending <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092162'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092161'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092136'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092113'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092131'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092126'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092163'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092172'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092171'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092175'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092176'; /* linkmonstergen7minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092146'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092147'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092148'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092149'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092181'; /* linkmonstergen7minutes <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092177'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092178'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092173'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092174'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881092156'; /* linkmonstergen7minutes <- Dark Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1881092184'; /* linkitemgen10seconds <- Alloy Contraption */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881092150'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881092122'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881092151'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881092145'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881092152'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881092130'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881092153'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881092134'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881092108'; /* Portal Sending <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092162'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092161'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092136'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092113'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092131'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092126'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092163'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092172'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092171'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092175'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092176'; /* linkmonstergen7minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092146'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092147'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092148'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092149'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092181'; /* linkmonstergen7minutes <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092177'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092178'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092173'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092174'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881092156'; /* linkmonstergen7minutes <- Dark Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881092184'; /* linkitemgen10seconds <- Alloy Contraption */
 

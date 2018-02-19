@@ -1,16 +1,13 @@
 /* Weenie - Gnawer Shreth (4108) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4108;
+DELETE FROM weenie WHERE class_Id = 4108;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4108, 'shrethgnawer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4108, 'shrethgnawer', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4108, 0, 4108);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4108, 1, 'Gnawer Shreth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4108, 1, 33555908) /* SETUP_DID */
      , (4108, 2, 150995072) /* MOTION_TABLE_DID */
      , (4108, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (4108, 1, 33555908) /* SETUP_DID */
      , (4108, 7, 268435840) /* CLOTHINGBASE_DID */
      , (4108, 8, 100669720) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4108, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (4108, 1, 16) /* ITEM_TYPE_INT */
      , (4108, 2, 32) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (4108, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (4108, 27, 0) /* ARMOR_TYPE_INT */
      , (4108, 93, 1032) /* PHYSICS_STATE_INT */
      , (4108, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (4108, 40, 2) /* COMBAT_MODE_INT */
-     , (4108, 9007, 10) /* Creature_WeenieType */;
+     , (4108, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4108, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (4108, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (4108, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (4108, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (4108, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4108, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4108, 1, True) /* STUCK_BOOL */
      , (4108, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4108, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4108, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4108, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (4108, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (4108, 4, 35) /* COORDINATION_ATTRIBUTE */
-     , (4108, 8, 20) /* QUICKNESS_ATTRIBUTE */
-     , (4108, 16, 15) /* FOCUS_ATTRIBUTE */
-     , (4108, 32, 15) /* SELF_ATTRIBUTE */;
+     , (4108, 3, 20) /* QUICKNESS_ATTRIBUTE */
+     , (4108, 5, 15) /* FOCUS_ATTRIBUTE */
+     , (4108, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4108, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4108, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4108, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4108, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4108, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4108, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4108, 9, 8702, 0, 0, 0.02, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
      , (4108, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (4108, 9, 11687, 0, 0, 0.02, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */

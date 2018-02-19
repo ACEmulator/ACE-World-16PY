@@ -1,16 +1,13 @@
 /* Weenie - Dark Inferno (12023) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12023;
+DELETE FROM weenie WHERE class_Id = 12023;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12023, 'shadowbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12023, 'shadowbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12023, 0, 12023);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12023, 1, 'Dark Inferno') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12023, 1, 33554433) /* SETUP_DID */
      , (12023, 2, 150994945) /* MOTION_TABLE_DID */
      , (12023, 35, 19) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (12023, 1, 33554433) /* SETUP_DID */
      , (12023, 7, 268435632) /* CLOTHINGBASE_DID */
      , (12023, 8, 100670397) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12023, 1, 16) /* ITEM_TYPE_INT */
      , (12023, 2, 22) /* CREATURE_TYPE_INT */
      , (12023, 3, 52) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (12023, 1, 16) /* ITEM_TYPE_INT */
      , (12023, 27, 0) /* ARMOR_TYPE_INT */
      , (12023, 93, 1032) /* PHYSICS_STATE_INT */
      , (12023, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (12023, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (12023, 9007, 10) /* Creature_WeenieType */;
+     , (12023, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12023, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12023, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (12023, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -80,14 +76,14 @@ VALUES (12023, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12023, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12023, 31, 28) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12023, 1, True) /* STUCK_BOOL */
      , (12023, 6, True) /* AI_USES_MANA_BOOL */
      , (12023, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12023, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12023, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12023, 1159, 2.02) /* HealSelf4_SpellID */
      , (12023, 145, 2.003) /* FlameVolley5_SpellID */
      , (12023, 137, 2.003) /* FrostVolley5_SpellID */
@@ -112,20 +108,20 @@ VALUES (12023, 1159, 2.02) /* HealSelf4_SpellID */
      , (12023, 627, 2.023) /* LifeMagicIneptitudeOther5_SpellID */
      , (12023, 1467, 2.023) /* FeeblemindOther5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12023, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (12023, 2, 240) /* ENDURANCE_ATTRIBUTE */
      , (12023, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (12023, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (12023, 16, 245) /* FOCUS_ATTRIBUTE */
-     , (12023, 32, 295) /* SELF_ATTRIBUTE */;
+     , (12023, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (12023, 5, 245) /* FOCUS_ATTRIBUTE */
+     , (12023, 6, 295) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12023, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12023, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12023, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12023, 1, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12023, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12023, 5, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12023, 9, 6058, 0, 0, 0.8, False) /* Create Dark Shard for ContainTreasure_DestinationType */
      , (12023, 9, 0, 0, 0, 0.2, False) /* Create  for ContainTreasure_DestinationType */
      , (12023, 9, 6876, 0, 0, 0.8, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
@@ -133,7 +129,7 @@ VALUES (12023, 9, 6058, 0, 0, 0.8, False) /* Create Dark Shard for ContainTreasu
      , (12023, 9, 12022, 0, 0, 0.3, False) /* Create Scroll of Dark Rain for ContainTreasure_DestinationType */
      , (12023, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12023, 0.5, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Umbris Shadow (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12023, 1, 4254, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Umbris Shadow (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

@@ -1,25 +1,22 @@
 /* Weenie - Gromnie Crest (11813) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11813;
+DELETE FROM weenie WHERE class_Id = 11813;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11813, 'crestgromnie');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11813, 'crestgromnie', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11813, 0, 11813);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11813, 16, 'A Gromnie Crest.') /* LONG_DESC_STRING */
      , (11813, 1, 'Gromnie Crest') /* NAME_STRING */
      , (11813, 14, 'You can combine this with a hafted Gromnie Banner.') /* USE_STRING */
      , (11813, 15, 'A crest with a gromnie mark on it.  It seems quite valuable, and if mounted on a hafted banner, you imagine it would increase it''s value...') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11813, 1, 33557280) /* SETUP_DID */
      , (11813, 3, 536870932) /* SOUND_TABLE_DID */
      , (11813, 8, 100671943) /* ICON_DID */
      , (11813, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11813, 9, 0) /* LOCATIONS_INT */
      , (11813, 1, 2048) /* ITEM_TYPE_INT */
      , (11813, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (11813, 9, 0) /* LOCATIONS_INT */
      , (11813, 150, 103) /* HOOK_PLACEMENT_INT */
      , (11813, 151, 2) /* HOOK_TYPE_INT */
      , (11813, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11813, 94, 128) /* TARGET_TYPE_INT */
-     , (11813, 9007, 44) /* CraftTool_WeenieType */;
+     , (11813, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11813, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11813, 22, True) /* INSCRIBABLE_BOOL */
      , (11813, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

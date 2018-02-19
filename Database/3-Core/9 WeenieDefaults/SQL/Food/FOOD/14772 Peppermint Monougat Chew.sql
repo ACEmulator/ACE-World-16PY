@@ -1,19 +1,16 @@
 /* Weenie - Peppermint Monougat Chew (14772) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14772;
+DELETE FROM weenie WHERE class_Id = 14772;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14772, 'monougatpeppermint');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14772, 'monougatpeppermint', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14772, 0, 14772);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14772, 1, 'Peppermint Monougat Chew') /* NAME_STRING */
      , (14772, 20, 'Peppermint Monougat Chews') /* PLURAL_NAME_STRING */
      , (14772, 14, 'This item is used in cooking.') /* USE_STRING */
      , (14772, 15, 'Chewy Peppermint Candy made with Monougat.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14772, 1, 33555968) /* SETUP_DID */
      , (14772, 3, 536870932) /* SOUND_TABLE_DID */
      , (14772, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (14772, 1, 33555968) /* SETUP_DID */
      , (14772, 7, 268436333) /* CLOTHINGBASE_DID */
      , (14772, 8, 100672562) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14772, 9, 0) /* LOCATIONS_INT */
      , (14772, 1, 32) /* ITEM_TYPE_INT */
      , (14772, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -35,9 +32,8 @@ VALUES (14772, 9, 0) /* LOCATIONS_INT */
      , (14772, 19, 4) /* VALUE_INT */
      , (14772, 89, 4) /* BOOSTER_ENUM_INT */
      , (14772, 90, 20) /* BOOST_VALUE_INT */
-     , (14772, 93, 1044) /* PHYSICS_STATE_INT */
-     , (14772, 9007, 18) /* Food_WeenieType */;
+     , (14772, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14772, 69, False) /* IS_SELLABLE_BOOL */;
 

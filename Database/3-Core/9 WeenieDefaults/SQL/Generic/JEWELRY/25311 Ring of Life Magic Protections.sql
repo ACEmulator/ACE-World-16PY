@@ -1,16 +1,13 @@
 /* Weenie - Ring of Life Magic Protections (25311) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25311;
+DELETE FROM weenie WHERE class_Id = 25311;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25311, 'ringlife4lo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25311, 'ringlife4lo', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25311, 0, 25311);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25311, 1, 'Ring of Life Magic Protections') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25311, 1, 33554691) /* SETUP_DID */
      , (25311, 3, 536870932) /* SOUND_TABLE_DID */
      , (25311, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (25311, 1, 33554691) /* SETUP_DID */
      , (25311, 7, 268436318) /* CLOTHINGBASE_DID */
      , (25311, 8, 100672480) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25311, 9, 786432) /* LOCATIONS_INT */
      , (25311, 1, 8) /* ITEM_TYPE_INT */
      , (25311, 19, 0) /* VALUE_INT */
@@ -34,18 +31,17 @@ VALUES (25311, 9, 786432) /* LOCATIONS_INT */
      , (25311, 107, 500) /* ITEM_CUR_MANA_INT */
      , (25311, 108, 500) /* ITEM_MAX_MANA_INT */
      , (25311, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (25311, 114, 1) /* ATTUNED_INT */
-     , (25311, 9007, 1) /* Generic_WeenieType */;
+     , (25311, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25311, 5, 0) /* MANA_RATE_FLOAT */
      , (25311, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25311, 22, True) /* INSCRIBABLE_BOOL */
      , (25311, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25311, 1118, 2) /* BladeProtectionOther4_SpellID */
      , (25311, 512, 2) /* AcidProtectionOther4_SpellID */
      , (25311, 215, 2) /* ManaRenewalSelf4_SpellID */

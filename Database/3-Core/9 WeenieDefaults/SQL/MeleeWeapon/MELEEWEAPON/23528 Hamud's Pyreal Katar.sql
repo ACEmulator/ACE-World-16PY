@@ -1,17 +1,14 @@
 /* Weenie - Hamud's Pyreal Katar (23528) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23528;
+DELETE FROM weenie WHERE class_Id = 23528;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23528, 'katarhamudspyrealnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23528, 'katarhamudspyrealnew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23528, 0, 23528);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23528, 16, 'An exquisitely crafted katar with a damascened blade.') /* LONG_DESC_STRING */
      , (23528, 1, 'Hamud''s Pyreal Katar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23528, 1, 33556277) /* SETUP_DID */
      , (23528, 3, 536870932) /* SOUND_TABLE_DID */
      , (23528, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23528, 1, 33556277) /* SETUP_DID */
      , (23528, 7, 268435978) /* CLOTHINGBASE_DID */
      , (23528, 8, 100668925) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23528, 9, 1048576) /* LOCATIONS_INT */
      , (23528, 1, 1) /* ITEM_TYPE_INT */
      , (23528, 19, 2500) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (23528, 9, 1048576) /* LOCATIONS_INT */
      , (23528, 48, 13) /* WEAPON_SKILL_INT */
      , (23528, 49, 15) /* WEAPON_TIME_INT */
      , (23528, 114, 1) /* ATTUNED_INT */
-     , (23528, 51, 1) /* COMBAT_USE_INT */
-     , (23528, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23528, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23528, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23528, 21, 0.35) /* WEAPON_LENGTH_FLOAT */
      , (23528, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -56,12 +52,12 @@ VALUES (23528, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23528, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */
      , (23528, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23528, 99, True) /* IVORYABLE_BOOL */
      , (23528, 22, True) /* INSCRIBABLE_BOOL */
      , (23528, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23528, 1604, 2) /* Defender5_SpellID */
      , (23528, 1616, 2) /* BloodDrinker6_SpellID */
      , (23528, 1591, 2) /* HeartSeeker5_SpellID */

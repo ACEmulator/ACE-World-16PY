@@ -1,13 +1,10 @@
 /* Weenie - Hea Raiders' Cache (10934) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10934;
+DELETE FROM weenie WHERE class_Id = 10934;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10934, 'chesthearaider-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10934, 'chesthearaider-xp', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10934, 0, 10934);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10934, 8, 'Hea Karenua') /* SCRIBE_NAME_STRING */
      , (10934, 16, 'A Virindi trove creature, used by their allied raiders among the Hea. It appears to have an outer shell laced with flecks of chorizite ore.') /* LONG_DESC_STRING */
      , (10934, 1, 'Hea Raiders'' Cache') /* NAME_STRING */
@@ -15,7 +12,7 @@ VALUES (10934, 8, 'Hea Karenua') /* SCRIBE_NAME_STRING */
      , (10934, 12, 'KeyKarenua') /* LOCK_CODE_STRING */
      , (10934, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10934, 1, 33557001) /* SETUP_DID */
      , (10934, 2, 150995121) /* MOTION_TABLE_DID */
      , (10934, 3, 536871023) /* SOUND_TABLE_DID */
@@ -25,7 +22,7 @@ VALUES (10934, 1, 33557001) /* SETUP_DID */
      , (10934, 8, 100671464) /* ICON_DID */
      , (10934, 28, 2636) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10934, 81, 8) /* MAX_GENERATED_OBJECTS_INT */
      , (10934, 1, 512) /* ITEM_TYPE_INT */
      , (10934, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -44,15 +41,14 @@ VALUES (10934, 81, 8) /* MAX_GENERATED_OBJECTS_INT */
      , (10934, 37, 100) /* RESIST_ITEM_APPRAISAL_INT */
      , (10934, 38, 9999) /* RESIST_LOCKPICK_INT */
      , (10934, 106, 600) /* ITEM_SPELLCRAFT_INT */
-     , (10934, 119, 65535) /* ACTIVE_INT */
-     , (10934, 9007, 20) /* Chest_WeenieType */;
+     , (10934, 119, 65535) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10934, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
      , (10934, 43, 1) /* GENERATOR_RADIUS_FLOAT */
      , (10934, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10934, 1, True) /* STUCK_BOOL */
      , (10934, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (10934, 2, False) /* OPEN_BOOL */
@@ -63,7 +59,7 @@ VALUES (10934, 1, True) /* STUCK_BOOL */
      , (10934, 13, False) /* ETHEREAL_BOOL */
      , (10934, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Pepper Jack Cheese (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Pepper Jack Cheese (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Pepper Jack Cheese (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */

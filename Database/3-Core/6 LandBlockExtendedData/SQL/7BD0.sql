@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7924, 2008875019, 2077229056, 87.0125, 140.577, 98.9958, 0.944563, 0, 0, -0.32833) /* linkmonstergen5minutes */
      , (1462, 2008875020, 2077229056, 85.1139, 138.584, 99.6364, -0.476066, 0, 0, -0.87941) /* Banderling Rogue */
      , (7086, 2008875021, 2077229056, 86.8494, 115.413, 95.9072, 0.0641245, 0, 0, 0.997942) /* Banderling Thrasher */
@@ -12,16 +12,16 @@ VALUES (7924, 2008875019, 2077229056, 87.0125, 140.577, 98.9958, 0.944563, 0, 0,
      , (7086, 2008875029, 2077229056, 87.3227, 106.877, 95.5572, 0.201675, 0, 0, 0.979452) /* Banderling Thrasher */
      , (3960, 2008875030, 2077229056, 86.4374, 139.45, 99.2047, -0.823901, 0, 0, -0.566733) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008875019'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2008875019'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875020'; /* linkmonstergen5minutes <- Banderling Rogue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875021'; /* linkmonstergen5minutes <- Banderling Thrasher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875022'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875023'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875024'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875025'; /* linkmonstergen5minutes <- Banderling Thrasher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875026'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875027'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875028'; /* linkmonstergen5minutes <- Banderling Thrasher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008875029'; /* linkmonstergen5minutes <- Banderling Thrasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875020'; /* linkmonstergen5minutes <- Banderling Rogue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875021'; /* linkmonstergen5minutes <- Banderling Thrasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875022'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875023'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875024'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875025'; /* linkmonstergen5minutes <- Banderling Thrasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875026'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875027'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875028'; /* linkmonstergen5minutes <- Banderling Thrasher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008875029'; /* linkmonstergen5minutes <- Banderling Thrasher */
 

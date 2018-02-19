@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4448, 2093531141, 3431727363, 40.7592, 41.187, 26.005, -0.979909, 0, 0, -0.199444) /* Hydeatha the Shopkeeper */
      , (4796, 2093531143, 3431727370, 40.6375, 36.9174, 29.005, 0.615824, 0, 0, -0.787884) /* Mindorla */
      , (412, 2093531136, 3431727104, 41.1279, 46.0345, 26.01, -4.37114E-08, 0, 0, -1) /* Door */
@@ -12,8 +12,8 @@ VALUES (4448, 2093531141, 3431727363, 40.7592, 41.187, 26.005, -0.979909, 0, 0, 
      , (4431, 2093531145, 3431727104, 26.6086, 56.118, 25.3302, 0.568074, 0, 0, -0.822978) /* Rithwic Outpost */
      , (509, 2093531146, 3431727104, 34.3448, 76.644, 24.005, -0.999474, 0, 0, 0.0324358) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2093531144'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2093531144'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531147'; /* linkmonstergen15minutes <- Cow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2093531143'; /* linkmonstergen15minutes <- Mindorla */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531147'; /* linkmonstergen15minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2093531143'; /* linkmonstergen15minutes <- Mindorla */
 

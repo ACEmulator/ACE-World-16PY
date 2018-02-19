@@ -1,43 +1,39 @@
 /* Weenie - Hebian-to Bulletin Board (1136) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1136;
+DELETE FROM weenie WHERE class_Id = 1136;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1136, 'hebianbulletinboard');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1136, 'hebianbulletinboard', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1136, 0, 1136);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1136, 1, 'Hebian-to Bulletin Board') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1136, 1, 33555088) /* SETUP_DID */
      , (1136, 8, 100668115) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1136, 1, 8192) /* ITEM_TYPE_INT */
      , (1136, 93, 1048) /* PHYSICS_STATE_INT */
      , (1136, 5, 9000) /* ENCUMB_VAL_INT */
      , (1136, 16, 48) /* ITEM_USEABLE_INT */
      , (1136, 8, 1800) /* MASS_INT */
-     , (1136, 19, 125) /* VALUE_INT */
-     , (1136, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (1136, 175, 100) /* APPRAISAL_MAX_PAGES_INT */
-     , (1136, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (1136, 9007, 8) /* Book_WeenieType */;
+     , (1136, 19, 125) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1136, 39, 1.3) /* DEFAULT_SCALE_FLOAT */
      , (1136, 54, 5) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1136, 1, True) /* STUCK_BOOL */
      , (1136, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1136, 13, False) /* ETHEREAL_BOOL */
      , (1136, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (1136, 0, 'Town of Hebian-to', 'prewritten', 4294967295, False, ' 
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (1136, 100, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (1136, 0, 4294967295, 'Town of Hebian-to', 'prewritten', False, ' 
 Welcome to the Hebian-to Bulletin Board. Please leave messages for other players here.
 
 Note: Please do not use too many pages, as they are limited in Beta. Thank you.

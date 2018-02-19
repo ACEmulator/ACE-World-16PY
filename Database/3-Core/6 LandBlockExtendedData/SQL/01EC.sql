@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30714, 1881063426, 32243969, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -0.452768) /* Phantom */
      , (5086, 1881063427, 32243969, 33.963, -47.6447, -23.995, 0.794824, 0, 0, -0.606841) /* linkmonstergen30seconds */
      , (24129, 1881063428, 32243969, 30.6103, -47.6066, -23.995, 0.840963, 0, 0, -0.541093) /* linkmonstergen2minutes */
@@ -48,48 +48,48 @@ VALUES (30714, 1881063426, 32243969, 33.7924, -51.5204, -23.971, 0.891628, 0, 0,
      , (24310, 1881063480, 32244189, 32.6071, -69.8589, 6.012, 0.801726, 0, 0, 0.597692) /* Direland Rat */
      , (24310, 1881063481, 32244189, 25.7728, -70.2123, 6.012, 0.496924, 0, 0, 0.867794) /* Direland Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881063427'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881063437'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881063463'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881063477'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881063427'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881063437'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881063463'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881063477'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881063426'; /* linkmonstergen30seconds <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881063430'; /* linkmonstergen30seconds <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881063429'; /* linkmonstergen30seconds <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881063432'; /* linkmonstergen30seconds <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063436'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063435'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063434'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063433'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063439'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063438'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063446'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063447'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063451'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063441'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063440'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063448'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063450'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063449'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063478'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063479'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063481'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881063480'; /* linkmonstergen1minute <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881063459'; /* linkmonstergen3minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881063454'; /* linkmonstergen3minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881063458'; /* linkmonstergen3minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881063472'; /* linkmonstergen3minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881063469'; /* linkmonstergen3minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063462'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063457'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063452'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063442'; /* linkmonstergen2minutes <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063443'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063444'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063465'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063475'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063456'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063471'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063468'; /* linkmonstergen2minutes <- Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881063467'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881063426'; /* linkmonstergen30seconds <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881063430'; /* linkmonstergen30seconds <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881063429'; /* linkmonstergen30seconds <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881063432'; /* linkmonstergen30seconds <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063436'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063435'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063434'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063433'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063439'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063438'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063446'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063447'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063451'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063441'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063440'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063448'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063450'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063449'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063478'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063479'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063481'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881063480'; /* linkmonstergen1minute <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881063459'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881063454'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881063458'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881063472'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881063469'; /* linkmonstergen3minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063462'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063457'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063452'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063442'; /* linkmonstergen2minutes <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063443'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063444'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063465'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063475'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063456'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063471'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063468'; /* linkmonstergen2minutes <- Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881063467'; /* linkmonstergen2minutes <- Phantom */
 

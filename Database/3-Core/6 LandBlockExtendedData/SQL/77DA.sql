@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30626, 2004721664, 2010775552, 43.318, 127.189, 216.398, 0.116454, 0, 0, -0.993196) /* Crude Statue */
      , (7932, 2004721665, 2010775552, 45.5984, 116.351, 215.901, 0.851917, 0, 0, -0.523677) /* linkmonstergen4minutes */
      , (30638, 2004721666, 2010775552, 43.865, 121.266, 216.358, 0.997275, 0, 0, 0.0737721) /* Banderling Spirit Dancer */
@@ -12,16 +12,16 @@ VALUES (30626, 2004721664, 2010775552, 43.318, 127.189, 216.398, 0.116454, 0, 0,
      , (25596, 2004721674, 2010775552, 65.7212, 131.042, 214.528, -0.978672, 0, 0, 0.205429) /* Amethyst Gromnie */
      , (4179, 2004721675, 2010775552, 44.7061, 117.753, 216.101, 0.458053, 0, 0, 0.888925) /* Bonfire */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2004721665'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2004721665'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721664'; /* linkmonstergen4minutes <- Crude Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721666'; /* linkmonstergen4minutes <- Banderling Spirit Dancer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721667'; /* linkmonstergen4minutes <- Banderling Chanter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721668'; /* linkmonstergen4minutes <- Banderling Chanter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721669'; /* linkmonstergen4minutes <- Banderling Chanter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721670'; /* linkmonstergen4minutes <- Banderling Chanter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721671'; /* linkmonstergen4minutes <- Banderling Chanter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721672'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721673'; /* linkmonstergen4minutes <- Amethyst Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2004721674'; /* linkmonstergen4minutes <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721664'; /* linkmonstergen4minutes <- Crude Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721666'; /* linkmonstergen4minutes <- Banderling Spirit Dancer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721667'; /* linkmonstergen4minutes <- Banderling Chanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721668'; /* linkmonstergen4minutes <- Banderling Chanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721669'; /* linkmonstergen4minutes <- Banderling Chanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721670'; /* linkmonstergen4minutes <- Banderling Chanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721671'; /* linkmonstergen4minutes <- Banderling Chanter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721672'; /* linkmonstergen4minutes <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721673'; /* linkmonstergen4minutes <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2004721674'; /* linkmonstergen4minutes <- Amethyst Gromnie */
 

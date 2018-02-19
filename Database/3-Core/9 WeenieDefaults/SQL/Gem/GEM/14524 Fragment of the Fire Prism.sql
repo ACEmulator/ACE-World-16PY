@@ -1,19 +1,16 @@
 /* Weenie - Fragment of the Fire Prism (14524) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14524;
+DELETE FROM weenie WHERE class_Id = 14524;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14524, 'prismfragmentfire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14524, 'prismfragmentfire', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14524, 0, 14524);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14524, 16, 'A cracked piece of crystalline shard, full of tiny flaws.') /* LONG_DESC_STRING */
      , (14524, 1, 'Fragment of the Fire Prism') /* NAME_STRING */
      , (14524, 33, 'PrismFragmentFirePickup') /* QUEST_STRING */
      , (14524, 15, 'A tiny flawed crystalline shard.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14524, 1, 33557506) /* SETUP_DID */
      , (14524, 3, 536870932) /* SOUND_TABLE_DID */
      , (14524, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (14524, 1, 33557506) /* SETUP_DID */
      , (14524, 7, 268436323) /* CLOTHINGBASE_DID */
      , (14524, 8, 100672510) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14524, 9, 0) /* LOCATIONS_INT */
      , (14524, 1, 2048) /* ITEM_TYPE_INT */
      , (14524, 13, 1) /* STACK_UNIT_ENCUMB_INT */
@@ -36,9 +33,8 @@ VALUES (14524, 9, 0) /* LOCATIONS_INT */
      , (14524, 19, 0) /* VALUE_INT */
      , (14524, 93, 1044) /* PHYSICS_STATE_INT */
      , (14524, 33, 1) /* BONDED_INT */
-     , (14524, 114, 1) /* ATTUNED_INT */
-     , (14524, 9007, 38) /* Gem_WeenieType */;
+     , (14524, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14524, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12488, 2046038016, 2671837184, 181.523, 117.524, 109.731, 0.00246341, 0, 0, -0.999997) /* Dunes End Cottages Portal */
      , (12559, 2046038017, 2671837184, 188.254, 124.181, 110.005, -0.118821, 0, 0, 0.992916) /* Taklihuan Settlement Portal */
      , (12556, 2046038018, 2671837184, 173.355, 118.609, 109.821, -0.156255, 0, 0, -0.987717) /* Spire Hills Settlement Portal */

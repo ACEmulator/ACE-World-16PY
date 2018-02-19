@@ -1,17 +1,14 @@
 /* Weenie - Flaming Weeping Staff (25629) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25629;
+DELETE FROM weenie WHERE class_Id = 25629;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25629, 'staffweepingfiery');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25629, 'staffweepingfiery', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25629, 0, 25629);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25629, 1, 'Flaming Weeping Staff') /* NAME_STRING */
      , (25629, 15, 'A staff infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25629, 1, 33558468) /* SETUP_DID */
      , (25629, 3, 536870932) /* SOUND_TABLE_DID */
      , (25629, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (25629, 1, 33558468) /* SETUP_DID */
      , (25629, 7, 268436698) /* CLOTHINGBASE_DID */
      , (25629, 8, 100674905) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25629, 9, 1048576) /* LOCATIONS_INT */
      , (25629, 1, 1) /* ITEM_TYPE_INT */
      , (25629, 19, 8000) /* VALUE_INT */
@@ -49,10 +46,9 @@ VALUES (25629, 9, 1048576) /* LOCATIONS_INT */
      , (25629, 48, 10) /* WEAPON_SKILL_INT */
      , (25629, 49, 20) /* WEAPON_TIME_INT */
      , (25629, 114, 1) /* ATTUNED_INT */
-     , (25629, 51, 1) /* COMBAT_USE_INT */
-     , (25629, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25629, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25629, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25629, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (25629, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -62,12 +58,12 @@ VALUES (25629, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25629, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (25629, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25629, 99, True) /* IVORYABLE_BOOL */
      , (25629, 22, True) /* INSCRIBABLE_BOOL */
      , (25629, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25629, 2966, 2) /* MurderousThirst_SpellID */
      , (25629, 2693, 2) /* ModerateStaffAptitude_SpellID */
      , (25629, 2963, 2) /* CunningHunter_SpellID */

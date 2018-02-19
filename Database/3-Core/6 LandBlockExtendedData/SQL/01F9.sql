@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3959, 1881116672, 33095936, -1.5177, -123.203, -18, -0.358363, 0, 0, -0.933582) /* Chest */
      , (1078, 1881116673, 33095938, -0.615152, -135.964, -17.995, 0.98107, 0, 0, -0.193652) /* Rushiya bint Anruq */
      , (278, 1881116674, 33095946, 15.25, -130, -18, -0.707107, 0, 0, -0.707107) /* Door */
@@ -124,7 +124,7 @@ VALUES (3959, 1881116672, 33095936, -1.5177, -123.203, -18, -0.358363, 0, 0, -0.
      , (1392, 1881116794, 33096520, 123.219, -39.332, 60.005, -0.681918, 0, 0, -0.731428) /* Peddler */
      , (278, 1881116795, 33096522, 115.245, -40, 60, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881116770'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881116770'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881116769'; /* linkitemgen <- Gifted Healing Kit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881116769'; /* linkitemgen <- Gifted Healing Kit */
 

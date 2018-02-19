@@ -1,16 +1,13 @@
 /* Weenie - Blackthorn Talisman (742) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 742;
+DELETE FROM weenie WHERE class_Id = 742;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (742, 'blackthorntalisman');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (742, 'blackthorntalisman', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (742, 0, 742);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (742, 1, 'Blackthorn Talisman') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (742, 1, 33555207) /* SETUP_DID */
      , (742, 3, 536870932) /* SOUND_TABLE_DID */
      , (742, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (742, 1, 33555207) /* SETUP_DID */
      , (742, 8, 100668394) /* ICON_DID */
      , (742, 29, 50) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (742, 9, 0) /* LOCATIONS_INT */
      , (742, 1, 4096) /* ITEM_TYPE_INT */
      , (742, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -32,6 +29,5 @@ VALUES (742, 9, 0) /* LOCATIONS_INT */
      , (742, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (742, 16, 1) /* ITEM_USEABLE_INT */
      , (742, 19, 5) /* VALUE_INT */
-     , (742, 93, 1044) /* PHYSICS_STATE_INT */
-     , (742, 9007, 32) /* SpellComponent_WeenieType */;
+     , (742, 93, 1044) /* PHYSICS_STATE_INT */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (965, 1880932352, 30146820, 56.2753, -21.604, -30, 0.707107, 0, 0, -0.707107) /* zombiegen */
      , (965, 1880932353, 30146820, 62.5179, -22.0168, -30, -0.841687, 0, 0, -0.539965) /* zombiegen */
      , (965, 1880932354, 30146820, 60, -20, -30, 0.991572, 0, 0, -0.129553) /* zombiegen */
@@ -86,7 +86,7 @@ VALUES (965, 1880932352, 30146820, 56.2753, -21.604, -30, 0.707107, 0, 0, -0.707
      , (1513, 1880932436, 30147157, 82, -90, 30, -0.707107, 0, 0, -0.707107) /* Surface */
      , (568, 1880932437, 30147159, 75.25, -90, 30, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880932388'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880932388'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880932389'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880932389'; /* Door <- Lever */
 

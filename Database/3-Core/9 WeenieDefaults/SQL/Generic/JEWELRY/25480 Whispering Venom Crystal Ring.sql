@@ -1,24 +1,21 @@
 /* Weenie - Whispering Venom Crystal Ring (25480) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25480;
+DELETE FROM weenie WHERE class_Id = 25480;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25480, 'ringcrystal3rot2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25480, 'ringcrystal3rot2', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25480, 0, 25480);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25480, 16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LONG_DESC_STRING */
      , (25480, 1, 'Whispering Venom Crystal Ring') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25480, 1, 33554690) /* SETUP_DID */
      , (25480, 3, 536870932) /* SOUND_TABLE_DID */
      , (25480, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (25480, 6, 67111919) /* PALETTE_BASE_DID */
      , (25480, 8, 100674802) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25480, 9, 786432) /* LOCATIONS_INT */
      , (25480, 1, 8) /* ITEM_TYPE_INT */
      , (25480, 19, 50) /* VALUE_INT */
@@ -33,19 +30,18 @@ VALUES (25480, 9, 786432) /* LOCATIONS_INT */
      , (25480, 107, 500) /* ITEM_CUR_MANA_INT */
      , (25480, 108, 500) /* ITEM_MAX_MANA_INT */
      , (25480, 109, 10) /* ITEM_DIFFICULTY_INT */
-     , (25480, 114, 1) /* ATTUNED_INT */
-     , (25480, 9007, 1) /* Generic_WeenieType */;
+     , (25480, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25480, 5, -0.033333) /* MANA_RATE_FLOAT */
      , (25480, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25480, 99, True) /* IVORYABLE_BOOL */
      , (25480, 22, True) /* INSCRIBABLE_BOOL */
      , (25480, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25480, 1357, 2) /* EnduranceOther3_SpellID */
      , (25480, 1382, 2) /* CoordinationOther4_SpellID */;
 

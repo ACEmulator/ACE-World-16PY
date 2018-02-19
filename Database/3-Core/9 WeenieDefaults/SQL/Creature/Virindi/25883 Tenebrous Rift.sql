@@ -1,16 +1,13 @@
 /* Weenie - Tenebrous Rift (25883) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25883;
+DELETE FROM weenie WHERE class_Id = 25883;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25883, 'rifttenebrous');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25883, 'rifttenebrous', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25883, 0, 25883);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25883, 1, 'Tenebrous Rift') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25883, 1, 33558552) /* SETUP_DID */
      , (25883, 2, 150995087) /* MOTION_TABLE_DID */
      , (25883, 35, 461) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (25883, 1, 33558552) /* SETUP_DID */
      , (25883, 8, 100671702) /* ICON_DID */
      , (25883, 22, 872415375) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25883, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (25883, 1, 16) /* ITEM_TYPE_INT */
      , (25883, 2, 19) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (25883, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (25883, 27, 0) /* ARMOR_TYPE_INT */
      , (25883, 93, 3080) /* PHYSICS_STATE_INT */
      , (25883, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (25883, 40, 2) /* COMBAT_MODE_INT */
-     , (25883, 9007, 10) /* Creature_WeenieType */;
+     , (25883, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25883, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25883, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (25883, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (25883, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25883, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25883, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25883, 1, True) /* STUCK_BOOL */
      , (25883, 6, True) /* AI_USES_MANA_BOOL */
      , (25883, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (25883, 1, True) /* STUCK_BOOL */
      , (25883, 15, True) /* LIGHTS_STATUS_BOOL */
      , (25883, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25883, 1035, 2.115) /* ColdProtectionSelf6_SpellID */
      , (25883, 85, 2.115) /* FlameBolt6_SpellID */
      , (25883, 1138, 2.115) /* PiercingProtectionSelf6_SpellID */
@@ -93,24 +89,24 @@ VALUES (25883, 1035, 2.115) /* ColdProtectionSelf6_SpellID */
      , (25883, 1023, 2.115) /* BludgeonProtectionSelf6_SpellID */
      , (25883, 2744, 2.115) /* FlameArc6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25883, 1, 160) /* STRENGTH_ATTRIBUTE */
      , (25883, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (25883, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (25883, 8, 170) /* QUICKNESS_ATTRIBUTE */
-     , (25883, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (25883, 32, 270) /* SELF_ATTRIBUTE */;
+     , (25883, 3, 170) /* QUICKNESS_ATTRIBUTE */
+     , (25883, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (25883, 6, 270) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25883, 64, 820) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25883, 128, 740) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25883, 256, 630) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25883, 1, 820) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25883, 3, 740) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25883, 5, 630) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25883, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
      , (25883, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25883, 0.25, 25857, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)/* Generate Desecrated Doll (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (25883, 0.5, 25854, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, 3.4, 9, 0.9659258, 0, 0, -0.258819)/* Generate Befouled Doll (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (25883, 0.75, 25879, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2.4, -1.4, 9, 0.9961947, 0, 0, -0.08715574)/* Generate Pestilence Rat (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

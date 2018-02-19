@@ -1,16 +1,13 @@
 /* Weenie - Drudge Robber (1464) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1464;
+DELETE FROM weenie WHERE class_Id = 1464;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1464, 'drudgerobber');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1464, 'drudgerobber', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1464, 0, 1464);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1464, 1, 'Drudge Robber') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1464, 1, 33556445) /* SETUP_DID */
      , (1464, 2, 150994952) /* MOTION_TABLE_DID */
      , (1464, 35, 453) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (1464, 1, 33556445) /* SETUP_DID */
      , (1464, 7, 268435972) /* CLOTHINGBASE_DID */
      , (1464, 8, 100667445) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1464, 1, 16) /* ITEM_TYPE_INT */
      , (1464, 2, 3) /* CREATURE_TYPE_INT */
      , (1464, 3, 47) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (1464, 1, 16) /* ITEM_TYPE_INT */
      , (1464, 27, 0) /* ARMOR_TYPE_INT */
      , (1464, 93, 1032) /* PHYSICS_STATE_INT */
      , (1464, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1464, 40, 2) /* COMBAT_MODE_INT */
-     , (1464, 9007, 10) /* Creature_WeenieType */;
+     , (1464, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1464, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (1464, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (1464, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (1464, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (1464, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1464, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1464, 1, True) /* STUCK_BOOL */
      , (1464, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1464, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1464, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1464, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (1464, 2, 40) /* ENDURANCE_ATTRIBUTE */
      , (1464, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (1464, 8, 45) /* QUICKNESS_ATTRIBUTE */
-     , (1464, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (1464, 32, 20) /* SELF_ATTRIBUTE */;
+     , (1464, 3, 45) /* QUICKNESS_ATTRIBUTE */
+     , (1464, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (1464, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1464, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1464, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1464, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1464, 1, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1464, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1464, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1464, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (1464, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (1464, 9, 3669, 0, 0, 0.01, False) /* Create Drudge Charm for ContainTreasure_DestinationType */

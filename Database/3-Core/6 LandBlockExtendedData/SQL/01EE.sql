@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1129, 1881071616, 32375043, 100.011, -89.9922, -132, 0.707107, 0, 0, -0.707107) /* itemscarabgenerator */
      , (1129, 1881071617, 32375043, 95.3115, -90.1433, -132, 0.625507, 0, 0, -0.780218) /* itemscarabgenerator */
      , (4022, 1881071618, 32375043, 95.5067, -93.439, -132, 0.917017, 0, 0, -0.398847) /* itemmedgeneralgen */

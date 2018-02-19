@@ -1,12 +1,12 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4219, 2017017860, 2207514624, 146.781, 184.658, 238.778, 0.284006, 0, 0, 0.958822) /* linkmonstergen7minutes */
      , (2574, 2017017861, 2207514624, 149.526, 183.002, 238.908, 0.562647, 0, 0, 0.826697) /* Rough Monouga */
      , (2574, 2017017862, 2207514624, 103.029, 130.483, 224.005, -0.312326, 0, 0, -0.949975) /* Rough Monouga */
      , (2574, 2017017863, 2207514624, 146.257, 183.522, 238.908, 0.562647, 0, 0, 0.826697) /* Rough Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2017017860'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2017017860'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017861'; /* linkmonstergen7minutes <- Rough Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017862'; /* linkmonstergen7minutes <- Rough Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2017017863'; /* linkmonstergen7minutes <- Rough Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2017017861'; /* linkmonstergen7minutes <- Rough Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2017017862'; /* linkmonstergen7minutes <- Rough Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2017017863'; /* linkmonstergen7minutes <- Rough Monouga */
 

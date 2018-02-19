@@ -1,18 +1,15 @@
 /* Weenie - Elysa's Favor (14485) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14485;
+DELETE FROM weenie WHERE class_Id = 14485;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14485, 'ringregicide2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14485, 'ringregicide2', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14485, 0, 14485);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14485, 1, 'Elysa''s Favor') /* NAME_STRING */
      , (14485, 14, 'You must be over Level 20 to use this ring.') /* USE_STRING */
      , (14485, 15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14485, 1, 33554691) /* SETUP_DID */
      , (14485, 3, 536870932) /* SOUND_TABLE_DID */
      , (14485, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (14485, 1, 33554691) /* SETUP_DID */
      , (14485, 7, 268436318) /* CLOTHINGBASE_DID */
      , (14485, 8, 100672474) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14485, 9, 786432) /* LOCATIONS_INT */
      , (14485, 1, 8) /* ITEM_TYPE_INT */
      , (14485, 19, 3500) /* VALUE_INT */
@@ -38,18 +35,17 @@ VALUES (14485, 9, 786432) /* LOCATIONS_INT */
      , (14485, 106, 115) /* ITEM_SPELLCRAFT_INT */
      , (14485, 107, 500) /* ITEM_CUR_MANA_INT */
      , (14485, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (14485, 109, 115) /* ITEM_DIFFICULTY_INT */
-     , (14485, 9007, 1) /* Generic_WeenieType */;
+     , (14485, 109, 115) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14485, 5, -0.033) /* MANA_RATE_FLOAT */
      , (14485, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14485, 22, True) /* INSCRIBABLE_BOOL */
      , (14485, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14485, 1997, 2) /* LifeGiver_SpellID */
      , (14485, 2583, 2) /* CANTRIPSTRENGTH1_SpellID */;
 

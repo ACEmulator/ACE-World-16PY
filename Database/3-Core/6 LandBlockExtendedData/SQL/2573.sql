@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14520, 1918316576, 628293888, 119.842, 156.403, 138.81, -0.709016, 0, 0, 0.705192) /* Pyreal Golem */
      , (1391, 1918316557, 628293893, 114.598, 132.504, 138.805, -0.825858, 0, 0, 0.563879) /* Peddler */
      , (1899, 1918316556, 628293893, 118.054, 128.58, 138.805, -0.0419337, 0, 0, 0.99912) /* Beachside */
@@ -25,26 +25,26 @@ VALUES (14520, 1918316576, 628293888, 119.842, 156.403, 138.81, -0.709016, 0, 0,
      , (24310, 1918316585, 628293632, 109.085, 182.769, 148.971, 0.978581, 0, 0, -0.205862) /* Direland Rat */
      , (7096, 1918316579, 628293632, 108.642, 106.036, 148.625, 0.967094, 0, 0, -0.25442) /* Gold Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918316567'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918316567'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316581'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316582'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316583'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316584'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316585'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316586'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316587'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316580'; /* linkmonstergen <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316576'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316577'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316578'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316579'; /* linkmonstergen <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316569'; /* linkmonstergen <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316570'; /* linkmonstergen <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316571'; /* linkmonstergen <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316572'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316573'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316574'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316575'; /* linkmonstergen <- Pyreal Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918316588'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316581'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316582'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316583'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316584'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316585'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316586'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316587'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316580'; /* linkmonstergen <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316576'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316577'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316578'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316579'; /* linkmonstergen <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316569'; /* linkmonstergen <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316570'; /* linkmonstergen <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316571'; /* linkmonstergen <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316572'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316573'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316574'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316575'; /* linkmonstergen <- Pyreal Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918316588'; /* linkmonstergen <- Pyreal Golem */
 

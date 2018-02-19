@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (884, 2040057856, 2576154880, 154.808, 50.6586, 104.805, 0.167685, 0, 0, -0.985841) /* armoredillosandygen */
      , (884, 2040057857, 2576154880, 157.336, 46.9468, 104.805, -0.180524, 0, 0, -0.983571) /* armoredillosandygen */
      , (884, 2040057858, 2576154880, 154.813, 44.1326, 104.805, 0.0343834, 0, 0, -0.999409) /* armoredillosandygen */
@@ -17,12 +17,12 @@ VALUES (884, 2040057856, 2576154880, 154.808, 50.6586, 104.805, 0.167685, 0, 0, 
      , (25450, 2040057866, 2576154624, 155.525, 44.2053, 110.005, -0.281523, 0, 0, -0.959554) /* A small pile of rocks */
      , (25450, 2040057867, 2576154624, 141.271, 38.3649, 110.005, -0.0182977, 0, 0, -0.999833) /* A small pile of rocks */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2040057872'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2040057872'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057866'; /* linkmonstergen3minutes <- A small pile of rocks */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057867'; /* linkmonstergen3minutes <- A small pile of rocks */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057869'; /* linkmonstergen3minutes <- A small pile of rocks */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057868'; /* linkmonstergen3minutes <- A small pile of rocks */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057870'; /* linkmonstergen3minutes <- A small pile of rocks */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2040057871'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057866'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057867'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057869'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057868'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057870'; /* linkmonstergen3minutes <- A small pile of rocks */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2040057871'; /* linkmonstergen3minutes <- A small pile of rocks */
 

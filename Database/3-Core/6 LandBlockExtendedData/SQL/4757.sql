@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1615, 1953853440, 1196883968, 101.849, 114.932, -0.095, -0.583434, 0, 0, -0.81216) /* Ash Gromnie */
      , (1615, 1953853441, 1196883968, 91.1689, 108.378, 0.005, -0.998856, 0, 0, -0.0478273) /* Ash Gromnie */
      , (1615, 1953853442, 1196883968, 82.5163, 126.913, -0.095, -0.155508, 0, 0, 0.987835) /* Ash Gromnie */
@@ -9,14 +9,14 @@ VALUES (1615, 1953853440, 1196883968, 101.849, 114.932, -0.095, -0.583434, 0, 0,
      , (1615, 1953853447, 1196883968, 81.6705, 115.538, 0.005, -0.717677, 0, 0, 0.696377) /* Ash Gromnie */
      , (1154, 1953853448, 1196883968, 85.0706, 115.641, 0.005, -0.717677, 0, 0, 0.696377) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1953853448'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1953853448'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853440'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853441'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853442'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853443'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853444'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853445'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853446'; /* linkmonstergen <- Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1953853447'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853440'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853441'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853442'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853443'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853444'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853445'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853446'; /* linkmonstergen <- Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1953853447'; /* linkmonstergen <- Ash Gromnie */
 

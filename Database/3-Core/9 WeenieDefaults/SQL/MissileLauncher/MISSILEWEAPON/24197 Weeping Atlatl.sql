@@ -1,24 +1,21 @@
 /* Weenie - Weeping Atlatl (24197) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24197;
+DELETE FROM weenie WHERE class_Id = 24197;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24197, 'atlatlisparianperfectweeping');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24197, 'atlatlisparianperfectweeping', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24197, 0, 24197);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24197, 1, 'Weeping Atlatl') /* NAME_STRING */
      , (24197, 15, 'An atlatl infused with the Heart of the Innocent. The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24197, 1, 33558290) /* SETUP_DID */
      , (24197, 3, 536870932) /* SOUND_TABLE_DID */
      , (24197, 36, 234881044) /* MUTATE_FILTER_DID */
      , (24197, 8, 100674270) /* ICON_DID */
      , (24197, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24197, 9, 4194304) /* LOCATIONS_INT */
      , (24197, 1, 256) /* ITEM_TYPE_INT */
      , (24197, 5, 370) /* ENCUMB_VAL_INT */
@@ -46,10 +43,9 @@ VALUES (24197, 9, 4194304) /* LOCATIONS_INT */
      , (24197, 50, 4) /* AMMO_TYPE_INT */
      , (24197, 114, 1) /* ATTUNED_INT */
      , (24197, 51, 2) /* COMBAT_USE_INT */
-     , (24197, 60, 120) /* WEAPON_RANGE_INT */
-     , (24197, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (24197, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24197, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24197, 5, -0.025) /* MANA_RATE_FLOAT */
      , (24197, 63, 2.25) /* DAMAGE_MOD_FLOAT */
@@ -59,13 +55,13 @@ VALUES (24197, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (24197, 138, 2.9) /* SLAYER_DAMAGE_BONUS_FLOAT */
      , (24197, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24197, 99, True) /* IVORYABLE_BOOL */
      , (24197, 69, False) /* IS_SELLABLE_BOOL */
      , (24197, 22, True) /* INSCRIBABLE_BOOL */
      , (24197, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24197, 2968, 2) /* VisionHunter_SpellID */
      , (24197, 2695, 2) /* ModerateThrownAptitude_SpellID */
      , (24197, 2964, 2) /* MarkHunter_SpellID */

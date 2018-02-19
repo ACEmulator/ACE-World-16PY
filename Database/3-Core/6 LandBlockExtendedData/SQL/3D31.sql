@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1630, 1943212038, 1026621696, 156.011, 59.8305, 316.008, 0.987443, 0, 0, -0.157975) /* Lich Lord */
      , (1925, 1943212050, 1026621696, 155.925, 58.1075, 316.005, -0.0310452, 0, 0, -0.999518) /* Chest */
      , (911, 1943212039, 1026621696, 154.769, 60.7144, 316.005, 0.917662, 0, 0, -0.397362) /* lichgenerator */
@@ -19,7 +19,7 @@ VALUES (1630, 1943212038, 1026621696, 156.011, 59.8305, 316.008, 0.987443, 0, 0,
      , (912, 1943212044, 1026621440, 156.7, 61.1293, 321.014, 0.799331, 0, 0, -0.600891) /* revenantgenerator */
      , (911, 1943212045, 1026621440, 154.545, 60.9306, 321.014, -0.667872, 0, 0, -0.744276) /* lichgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1943212041'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1943212041'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1943212038'; /* linkmonstergen <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1943212038'; /* linkmonstergen <- Lich Lord */
 

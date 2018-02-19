@@ -1,20 +1,17 @@
 /* Weenie - Southern Quiddity Fragment (10713) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10713;
+DELETE FROM weenie WHERE class_Id = 10713;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10713, 'fragmentquidditysouth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10713, 'fragmentquidditysouth', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10713, 0, 10713);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10713, 16, 'A strange purple fragment, alive with otherworldly energy.') /* LONG_DESC_STRING */
      , (10713, 1, 'Southern Quiddity Fragment') /* NAME_STRING */
      , (10713, 33, 'QuiddityFragSouth') /* QUEST_STRING */
      , (10713, 14, 'This should be joined with the Northern Quiddity Fragment.') /* USE_STRING */
      , (10713, 15, 'A strange, purple fragment of pulsing energy.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10713, 1, 33557049) /* SETUP_DID */
      , (10713, 3, 536870932) /* SOUND_TABLE_DID */
      , (10713, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -23,7 +20,7 @@ VALUES (10713, 1, 33557049) /* SETUP_DID */
      , (10713, 7, 268436041) /* CLOTHINGBASE_DID */
      , (10713, 8, 100671666) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10713, 9, 0) /* LOCATIONS_INT */
      , (10713, 1, 2048) /* ITEM_TYPE_INT */
      , (10713, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -39,13 +36,12 @@ VALUES (10713, 9, 0) /* LOCATIONS_INT */
      , (10713, 150, 103) /* HOOK_PLACEMENT_INT */
      , (10713, 151, 2) /* HOOK_TYPE_INT */
      , (10713, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10713, 94, 2048) /* TARGET_TYPE_INT */
-     , (10713, 9007, 44) /* CraftTool_WeenieType */;
+     , (10713, 94, 2048) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10713, 12, 0.5) /* SHADE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10713, 22, True) /* INSCRIBABLE_BOOL */
      , (10713, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

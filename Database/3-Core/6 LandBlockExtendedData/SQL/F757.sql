@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (183, 2138402816, 4149673984, 57.6223, 147.419, 69.2383, 0.679384, 0, 0, 0.733783) /* Banderling Raver */
      , (4381, 2138402817, 4149673984, 174.199, 134.879, 0.005, -0.987063, 0, 0, -0.160333) /* Corpse */
      , (1612, 2138402818, 4149673984, 175.696, 132.678, 4.68963, 0.969575, 0, 0, 0.244793) /* Azure Gromnie */
@@ -11,13 +11,13 @@ VALUES (183, 2138402816, 4149673984, 57.6223, 147.419, 69.2383, 0.679384, 0, 0, 
      , (939, 2138402825, 4149673984, 95.6856, 142.529, 72.0333, 0.355132, 0, 0, -0.934816) /* Young Banderling */
      , (5503, 2138402826, 4149673984, 90.3098, 150.204, 72.9376, -0.77933, 0, 0, -0.626614) /* Damp Caverns Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2138402821'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2138402821'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402818'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402819'; /* linkmonstergen15minutes <- Rust Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402820'; /* linkmonstergen15minutes <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402823'; /* linkmonstergen15minutes <- Banderling Scout */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402824'; /* linkmonstergen15minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402825'; /* linkmonstergen15minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138402816'; /* linkmonstergen15minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402818'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402819'; /* linkmonstergen15minutes <- Rust Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402820'; /* linkmonstergen15minutes <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402823'; /* linkmonstergen15minutes <- Banderling Scout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402824'; /* linkmonstergen15minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402825'; /* linkmonstergen15minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138402816'; /* linkmonstergen15minutes <- Banderling Raver */
 

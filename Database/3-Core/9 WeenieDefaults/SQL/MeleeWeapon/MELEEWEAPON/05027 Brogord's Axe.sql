@@ -1,20 +1,17 @@
 /* Weenie - Brogord's Axe (5027) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5027;
+DELETE FROM weenie WHERE class_Id = 5027;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5027, 'axebrogord');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5027, 'axebrogord', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5027, 0, 5027);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5027, 8, 'Brogord the Forester') /* SCRIBE_NAME_STRING */
      , (5027, 16, 'A rough-hewn forestry axe.') /* LONG_DESC_STRING */
      , (5027, 1, 'Brogord''s Axe') /* NAME_STRING */
      , (5027, 33, 'AxeBrogordQuest') /* QUEST_STRING */
      , (5027, 7, 'Crafted by my own hand in the third year of our exile.') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5027, 1, 33554725) /* SETUP_DID */
      , (5027, 3, 536870932) /* SOUND_TABLE_DID */
      , (5027, 30, 87) /* PHYSICS_SCRIPT_DID */
@@ -23,7 +20,7 @@ VALUES (5027, 1, 33554725) /* SETUP_DID */
      , (5027, 7, 268435779) /* CLOTHINGBASE_DID */
      , (5027, 8, 100668985) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5027, 33, 1) /* BONDED_INT */
      , (5027, 9, 1048576) /* LOCATIONS_INT */
      , (5027, 1, 1) /* ITEM_TYPE_INT */
@@ -40,16 +37,15 @@ VALUES (5027, 33, 1) /* BONDED_INT */
      , (5027, 48, 1) /* WEAPON_SKILL_INT */
      , (5027, 49, 60) /* WEAPON_TIME_INT */
      , (5027, 114, 1) /* ATTUNED_INT */
-     , (5027, 51, 1) /* COMBAT_USE_INT */
-     , (5027, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (5027, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5027, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (5027, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (5027, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (5027, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5027, 22, True) /* INSCRIBABLE_BOOL */
      , (5027, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

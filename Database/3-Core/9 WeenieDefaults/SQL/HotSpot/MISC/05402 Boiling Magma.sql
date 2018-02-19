@@ -1,22 +1,19 @@
 /* Weenie - Boiling Magma (5402) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5402;
+DELETE FROM weenie WHERE class_Id = 5402;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5402, 'magmapool8');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5402, 'magmapool8', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5402, 0, 5402);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5402, 1, 'Boiling Magma') /* NAME_STRING */
      , (5402, 17, 'The magma boils %i points of flesh off your bones!') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5402, 1, 33555589) /* SETUP_DID */
      , (5402, 3, 536870994) /* SOUND_TABLE_DID */
      , (5402, 8, 100667465) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5402, 1, 128) /* ITEM_TYPE_INT */
      , (5402, 45, 32) /* DAMAGE_TYPE_INT */
      , (5402, 93, 12) /* PHYSICS_STATE_INT */
@@ -25,16 +22,15 @@ VALUES (5402, 1, 128) /* ITEM_TYPE_INT */
      , (5402, 8, 500) /* MASS_INT */
      , (5402, 19, 5) /* VALUE_INT */
      , (5402, 44, 14) /* DAMAGE_INT */
-     , (5402, 119, 0) /* ACTIVE_INT */
-     , (5402, 9007, 13) /* HotSpot_WeenieType */;
+     , (5402, 119, 0) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5402, 39, 8) /* DEFAULT_SCALE_FLOAT */
      , (5402, 105, 4) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (5402, 106, 0.25) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (5402, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5402, 57, False) /* AFFECTS_AIS_BOOL */
      , (5402, 1, True) /* STUCK_BOOL */
      , (5402, 11, False) /* IGNORE_COLLISIONS_BOOL */

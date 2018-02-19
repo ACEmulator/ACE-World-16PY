@@ -1,18 +1,15 @@
 /* Weenie - Silver Invader Lord Helm (29364) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29364;
+DELETE FROM weenie WHERE class_Id = 29364;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29364, 'helminvaderlordsilver');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29364, 'helminvaderlordsilver', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29364, 0, 29364);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29364, 16, 'A helm enchanted with powerful magic, taken from the Southern Infiltrator Keep dungeon.') /* LONG_DESC_STRING */
      , (29364, 1, 'Silver Invader Lord Helm') /* NAME_STRING */
      , (29364, 33, 'HelmSimulacra') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29364, 1, 33556883) /* SETUP_DID */
      , (29364, 3, 536870932) /* SOUND_TABLE_DID */
      , (29364, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (29364, 1, 33556883) /* SETUP_DID */
      , (29364, 7, 268436261) /* CLOTHINGBASE_DID */
      , (29364, 8, 100672134) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29364, 9, 1) /* LOCATIONS_INT */
      , (29364, 1, 2) /* ITEM_TYPE_INT */
      , (29364, 19, 3000) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (29364, 9, 1) /* LOCATIONS_INT */
      , (29364, 108, 650) /* ITEM_MAX_MANA_INT */
      , (29364, 109, 35) /* ITEM_DIFFICULTY_INT */
      , (29364, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (29364, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29364, 9007, 2) /* Clothing_WeenieType */;
+     , (29364, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29364, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (29364, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (29364, 12, 0.66) /* SHADE_FLOAT */
@@ -57,10 +53,10 @@ VALUES (29364, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (29364, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (29364, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29364, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29364, 259, 2) /* ImpregnabilitySelf4_SpellID */
      , (29364, 247, 2) /* InvulnerabilitySelf4_SpellID */
      , (29364, 1484, 2) /* Impenetrability4_SpellID */;

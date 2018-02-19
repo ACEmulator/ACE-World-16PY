@@ -1,17 +1,14 @@
 /* Weenie - Luminescent Thaumaturgic Girth (23939) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23939;
+DELETE FROM weenie WHERE class_Id = 23939;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23939, 'girthluminblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23939, 'girthluminblue', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23939, 0, 23939);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23939, 16, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. ') /* LONG_DESC_STRING */
      , (23939, 1, 'Luminescent Thaumaturgic Girth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23939, 1, 33554647) /* SETUP_DID */
      , (23939, 3, 536870932) /* SOUND_TABLE_DID */
      , (23939, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23939, 1, 33554647) /* SETUP_DID */
      , (23939, 7, 268436557) /* CLOTHINGBASE_DID */
      , (23939, 8, 100674132) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23939, 9, 1024) /* LOCATIONS_INT */
      , (23939, 1, 2) /* ITEM_TYPE_INT */
      , (23939, 19, 4400) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (23939, 9, 1024) /* LOCATIONS_INT */
      , (23939, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (23939, 107, 4000) /* ITEM_CUR_MANA_INT */
      , (23939, 108, 4000) /* ITEM_MAX_MANA_INT */
-     , (23939, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (23939, 9007, 2) /* Clothing_WeenieType */;
+     , (23939, 109, 50) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23939, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23939, 5, -0.5) /* MANA_RATE_FLOAT */
      , (23939, 12, 0.5) /* SHADE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (23939, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23939, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (23939, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23939, 69, False) /* IS_SELLABLE_BOOL */
      , (23939, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23939, 2350, 2) /* DecayDurance_SpellID */
      , (23939, 2948, 2) /* HieroWardGreat_SpellID */
      , (23939, 2381, 2) /* InstrumentalityTouch_SpellID */

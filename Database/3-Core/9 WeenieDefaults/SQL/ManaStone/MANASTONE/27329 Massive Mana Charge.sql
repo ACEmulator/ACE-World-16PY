@@ -1,20 +1,17 @@
 /* Weenie - Massive Mana Charge (27329) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27329;
+DELETE FROM weenie WHERE class_Id = 27329;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27329, 'manastonemassive');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27329, 'manastonemassive', /* ManaStone_WeenieType */ 37);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27329, 0, 27329);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27329, 1, 'Massive Mana Charge') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27329, 1, 33555641) /* SETUP_DID */
      , (27329, 8, 100676403) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27329, 9, 0) /* LOCATIONS_INT */
      , (27329, 1, 524288) /* ITEM_TYPE_INT */
      , (27329, 5, 50) /* ENCUMB_VAL_INT */
@@ -27,13 +24,12 @@ VALUES (27329, 9, 0) /* LOCATIONS_INT */
      , (27329, 93, 1044) /* PHYSICS_STATE_INT */
      , (27329, 94, 35103) /* TARGET_TYPE_INT */
      , (27329, 107, 10000) /* ITEM_CUR_MANA_INT */
-     , (27329, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (27329, 9007, 37) /* ManaStone_WeenieType */;
+     , (27329, 108, 10000) /* ITEM_MAX_MANA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27329, 137, 1) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
      , (27329, 87, 1) /* ITEM_EFFICIENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27329, 22, True) /* INSCRIBABLE_BOOL */;
 

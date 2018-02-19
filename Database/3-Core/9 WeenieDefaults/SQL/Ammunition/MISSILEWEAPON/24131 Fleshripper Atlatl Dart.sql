@@ -1,22 +1,19 @@
 /* Weenie - Fleshripper Atlatl Dart (24131) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24131;
+DELETE FROM weenie WHERE class_Id = 24131;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24131, 'atlatldartfleshripper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24131, 'atlatldartfleshripper', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24131, 0, 24131);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24131, 1, 'Fleshripper Atlatl Dart') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24131, 1, 33557597) /* SETUP_DID */
      , (24131, 3, 536870932) /* SOUND_TABLE_DID */
      , (24131, 8, 100676642) /* ICON_DID */
      , (24131, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24131, 9, 8388608) /* LOCATIONS_INT */
      , (24131, 1, 256) /* ITEM_TYPE_INT */
      , (24131, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -37,17 +34,16 @@ VALUES (24131, 9, 8388608) /* LOCATIONS_INT */
      , (24131, 44, 35) /* DAMAGE_INT */
      , (24131, 45, 2) /* DAMAGE_TYPE_INT */
      , (24131, 50, 32) /* AMMO_TYPE_INT */
-     , (24131, 51, 3) /* COMBAT_USE_INT */
-     , (24131, 9007, 5) /* Ammunition_WeenieType */;
+     , (24131, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24131, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (24131, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
      , (24131, 78, 1) /* FRICTION_FLOAT */
      , (24131, 79, 0) /* ELASTICITY_FLOAT */
      , (24131, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24131, 69, False) /* IS_SELLABLE_BOOL */
      , (24131, 17, True) /* INELASTIC_BOOL */;
 

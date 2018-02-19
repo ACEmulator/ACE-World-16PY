@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Brood Queen Nymph (24910) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24910;
+DELETE FROM weenie WHERE class_Id = 24910;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24910, 'olthoibroodqueenlow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24910, 'olthoibroodqueenlow', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24910, 0, 24910);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24910, 1, 'Olthoi Brood Queen Nymph') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24910, 1, 33557165) /* SETUP_DID */
      , (24910, 2, 150995135) /* MOTION_TABLE_DID */
      , (24910, 35, 27) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (24910, 1, 33557165) /* SETUP_DID */
      , (24910, 8, 100667623) /* ICON_DID */
      , (24910, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24910, 1, 16) /* ITEM_TYPE_INT */
      , (24910, 2, 1) /* CREATURE_TYPE_INT */
      , (24910, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (24910, 1, 16) /* ITEM_TYPE_INT */
      , (24910, 25, 70) /* LEVEL_INT */
      , (24910, 27, 0) /* ARMOR_TYPE_INT */
      , (24910, 93, 1032) /* PHYSICS_STATE_INT */
-     , (24910, 40, 2) /* COMBAT_MODE_INT */
-     , (24910, 9007, 10) /* Creature_WeenieType */;
+     , (24910, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24910, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (24910, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (24910, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (24910, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (24910, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24910, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24910, 1, True) /* STUCK_BOOL */
      , (24910, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (24910, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24910, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24910, 1, 385) /* STRENGTH_ATTRIBUTE */
      , (24910, 2, 425) /* ENDURANCE_ATTRIBUTE */
      , (24910, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (24910, 8, 225) /* QUICKNESS_ATTRIBUTE */
-     , (24910, 16, 240) /* FOCUS_ATTRIBUTE */
-     , (24910, 32, 240) /* SELF_ATTRIBUTE */;
+     , (24910, 3, 225) /* QUICKNESS_ATTRIBUTE */
+     , (24910, 5, 240) /* FOCUS_ATTRIBUTE */
+     , (24910, 6, 240) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24910, 64, 1787) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24910, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24910, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24910, 1, 1787) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24910, 3, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24910, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24910, 9, 24936, 0, 0, 0.17, False) /* Create Brood Queen Nymph Metathorax for ContainTreasure_DestinationType */
      , (24910, 9, 24926, 0, 0, 0.166, False) /* Create Brood Queen Nymph Carapace for ContainTreasure_DestinationType */
      , (24910, 9, 24934, 0, 0, 0.166, False) /* Create Brood Queen Nymph Head for ContainTreasure_DestinationType */

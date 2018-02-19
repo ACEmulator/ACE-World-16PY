@@ -1,16 +1,13 @@
 /* Weenie - Young Mosswart (4249) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4249;
+DELETE FROM weenie WHERE class_Id = 4249;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4249, 'mosswartyoung');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4249, 'mosswartyoung', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4249, 0, 4249);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4249, 1, 'Young Mosswart') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4249, 8, 100667449) /* ICON_DID */
      , (4249, 32, 128) /* WIELDED_TREASURE_TYPE_DID */
      , (4249, 1, 33557327) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (4249, 8, 100667449) /* ICON_DID */
      , (4249, 7, 268436290) /* CLOTHINGBASE_DID */
      , (4249, 22, 872415264) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4249, 1, 16) /* ITEM_TYPE_INT */
      , (4249, 2, 4) /* CREATURE_TYPE_INT */
      , (4249, 3, 8) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (4249, 1, 16) /* ITEM_TYPE_INT */
      , (4249, 27, 0) /* ARMOR_TYPE_INT */
      , (4249, 93, 1032) /* PHYSICS_STATE_INT */
      , (4249, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (4249, 40, 2) /* COMBAT_MODE_INT */
-     , (4249, 9007, 10) /* Creature_WeenieType */;
+     , (4249, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4249, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (4249, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (4249, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (4249, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (4249, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4249, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4249, 1, True) /* STUCK_BOOL */
      , (4249, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4249, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4249, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4249, 1, 35) /* STRENGTH_ATTRIBUTE */
      , (4249, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (4249, 4, 40) /* COORDINATION_ATTRIBUTE */
-     , (4249, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (4249, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (4249, 32, 40) /* SELF_ATTRIBUTE */;
+     , (4249, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (4249, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (4249, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4249, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4249, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4249, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4249, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4249, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4249, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4249, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (4249, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (4249, 9, 13222, 0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */

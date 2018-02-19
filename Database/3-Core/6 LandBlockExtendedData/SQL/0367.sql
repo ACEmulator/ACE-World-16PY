@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13220, 1882615808, 57082112, 4.64436, -263.451, -11.995, -0.947162, 0, 0, -0.320756) /* Hollow Minion Invader */
      , (13220, 1882615878, 57082115, 8.28093, -270.491, -11.995, -0.353354, 0, 0, 0.93549) /* Hollow Minion Invader */
      , (13220, 1882615879, 57082116, 9.30811, -277.484, -11.9787, -0.551542, 0, 0, 0.834147) /* Hollow Minion Invader */
@@ -69,46 +69,46 @@ VALUES (13220, 1882615808, 57082112, 4.64436, -263.451, -11.995, -0.947162, 0, 0
      , (13083, 1882615870, 57082612, 103.159, -197.372, 0.005, 0.728343, 0, 0, -0.685212) /* Chest */
      , (13082, 1882615871, 57082613, 108.321, -191.289, 0.005, 0.484504, 0, 0, -0.874789) /* Chest */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882615881'; /* linkmonstergen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882615880'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882615881'; /* linkmonstergen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882615880'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615810'; /* linkmonstergen10seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615838'; /* linkmonstergen10seconds <- Senior Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615855'; /* linkmonstergen10seconds <- Sparring Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615852'; /* linkmonstergen10seconds <- Sparring Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615841'; /* linkmonstergen10seconds <- Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615812'; /* linkmonstergen10seconds <- Greeter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615857'; /* linkmonstergen10seconds <- Academy Crier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615811'; /* linkmonstergen10seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615823'; /* linkmonstergen10seconds <- Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615808'; /* linkmonstergen10seconds <- Hollow Minion Invader */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615869'; /* linkmonstergen10seconds <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615832'; /* linkmonstergen10seconds <- Thieving Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615831'; /* linkmonstergen10seconds <- Academy Blacksmith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615834'; /* linkmonstergen10seconds <- Academy Foreman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615815'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615816'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615849'; /* linkmonstergen10seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615817'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615860'; /* linkmonstergen10seconds <- Sparring Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615842'; /* linkmonstergen10seconds <- Sparring Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615837'; /* linkmonstergen10seconds <- Training Master */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615882'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615878'; /* linkmonstergen10seconds <- Hollow Minion Invader */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615879'; /* linkmonstergen10seconds <- Hollow Minion Invader */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615888'; /* linkmonstergen10seconds <- Thieving Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615847'; /* linkmonstergen10seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615889'; /* linkmonstergen10seconds <- Thieving Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615883'; /* linkmonstergen10seconds <- Thieving Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615890'; /* linkmonstergen10seconds <- Thieving Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615884'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615885'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615886'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882615887'; /* linkmonstergen10seconds <- Carpenter Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615828'; /* linkitemgen10seconds <- Leather Cap */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615821'; /* linkitemgen10seconds <- Leather Gauntlets */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615827'; /* linkitemgen10seconds <- Orders to the Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615820'; /* linkitemgen10seconds <- Apple */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615872'; /* linkitemgen10seconds <- Leather Leggings */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882615877'; /* linkitemgen10seconds <- Application Form */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615810'; /* linkmonstergen10seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615838'; /* linkmonstergen10seconds <- Senior Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615855'; /* linkmonstergen10seconds <- Sparring Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615852'; /* linkmonstergen10seconds <- Sparring Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615841'; /* linkmonstergen10seconds <- Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615812'; /* linkmonstergen10seconds <- Greeter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615857'; /* linkmonstergen10seconds <- Academy Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615811'; /* linkmonstergen10seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615823'; /* linkmonstergen10seconds <- Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615808'; /* linkmonstergen10seconds <- Hollow Minion Invader */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615869'; /* linkmonstergen10seconds <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615832'; /* linkmonstergen10seconds <- Thieving Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615831'; /* linkmonstergen10seconds <- Academy Blacksmith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615834'; /* linkmonstergen10seconds <- Academy Foreman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615815'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615816'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615849'; /* linkmonstergen10seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615817'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615860'; /* linkmonstergen10seconds <- Sparring Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615842'; /* linkmonstergen10seconds <- Sparring Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615837'; /* linkmonstergen10seconds <- Training Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615882'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615878'; /* linkmonstergen10seconds <- Hollow Minion Invader */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615879'; /* linkmonstergen10seconds <- Hollow Minion Invader */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615888'; /* linkmonstergen10seconds <- Thieving Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615847'; /* linkmonstergen10seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615889'; /* linkmonstergen10seconds <- Thieving Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615883'; /* linkmonstergen10seconds <- Thieving Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615890'; /* linkmonstergen10seconds <- Thieving Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615884'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615885'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615886'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882615887'; /* linkmonstergen10seconds <- Carpenter Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615828'; /* linkitemgen10seconds <- Leather Cap */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615821'; /* linkitemgen10seconds <- Leather Gauntlets */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615827'; /* linkitemgen10seconds <- Orders to the Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615820'; /* linkitemgen10seconds <- Apple */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615872'; /* linkitemgen10seconds <- Leather Leggings */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882615877'; /* linkitemgen10seconds <- Application Form */
 

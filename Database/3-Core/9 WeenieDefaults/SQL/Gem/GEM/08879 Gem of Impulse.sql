@@ -1,18 +1,15 @@
 /* Weenie - Gem of Impulse (8879) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8879;
+DELETE FROM weenie WHERE class_Id = 8879;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8879, 'gemweddingsteele');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8879, 'gemweddingsteele', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8879, 0, 8879);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8879, 16, 'A spherical blue gem, made from the egg of a Knath''taed.') /* LONG_DESC_STRING */
      , (8879, 1, 'Gem of Impulse') /* NAME_STRING */
      , (8879, 15, 'A spherical blue gem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8879, 1, 33556851) /* SETUP_DID */
      , (8879, 3, 536870932) /* SOUND_TABLE_DID */
      , (8879, 28, 2016) /* SPELL_DID */
@@ -20,7 +17,7 @@ VALUES (8879, 1, 33556851) /* SETUP_DID */
      , (8879, 8, 100671182) /* ICON_DID */
      , (8879, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8879, 9, 0) /* LOCATIONS_INT */
      , (8879, 1, 2048) /* ITEM_TYPE_INT */
      , (8879, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -41,13 +38,12 @@ VALUES (8879, 9, 0) /* LOCATIONS_INT */
      , (8879, 108, 70) /* ITEM_MAX_MANA_INT */
      , (8879, 109, 40) /* ITEM_DIFFICULTY_INT */
      , (8879, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8879, 114, 1) /* ATTUNED_INT */
-     , (8879, 9007, 38) /* Gem_WeenieType */;
+     , (8879, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8879, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8879, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8879, 15, True) /* LIGHTS_STATUS_BOOL */
      , (8879, 22, True) /* INSCRIBABLE_BOOL */;

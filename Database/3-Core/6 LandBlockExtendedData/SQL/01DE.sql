@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (905, 1881006080, 31326464, 86.2208, -40.9092, -12, -0.707107, 0, 0, -0.707107) /* ratblackgen */
      , (905, 1881006081, 31326464, 86.2489, -39.1267, -12, -0.707107, 0, 0, -0.707107) /* ratblackgen */
      , (906, 1881006082, 31326486, 35.25, -70, -6, 0.707107, 0, 0, -0.707107) /* ratwhitegen */
@@ -39,22 +39,22 @@ VALUES (905, 1881006080, 31326464, 86.2208, -40.9092, -12, -0.707107, 0, 0, -0.7
      , (152, 1881006117, 31326678, 70, -52, 0, 1, 0, 0, 0) /* Font */
      , (568, 1881006118, 31326680, 70, -45.25, 0, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881006106'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881006108'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881006115'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881006106'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881006108'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881006115'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006107'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006111'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006112'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006086'; /* linkmonstergen <- Mosswart Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006083'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881006100'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006095'; /* linkmonstergen <- Mosswart Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006096'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006097'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006092'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006093'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006094'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881006089'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881006116'; /* linkmonstergen <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006107'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006111'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006112'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006086'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006083'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881006100'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006095'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006096'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006097'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006092'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006093'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006094'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881006089'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881006116'; /* linkmonstergen <- Water Wisp */
 

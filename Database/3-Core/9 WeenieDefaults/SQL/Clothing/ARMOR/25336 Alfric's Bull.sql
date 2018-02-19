@@ -1,18 +1,15 @@
 /* Weenie - Alfric's Bull (25336) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25336;
+DELETE FROM weenie WHERE class_Id = 25336;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25336, 'regaliaaluvianextreme');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25336, 'regaliaaluvianextreme', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25336, 0, 25336);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25336, 16, 'An ornate representation of the heraldic bull of Viamont Royal Governor Alfric, who rounded up and executed the bloodline of High King Pwyll II during the reign of Alfrega the Mad.') /* LONG_DESC_STRING */
      , (25336, 1, 'Alfric''s Bull') /* NAME_STRING */
      , (25336, 19, 'Aluvian') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25336, 1, 33558447) /* SETUP_DID */
      , (25336, 3, 536870932) /* SOUND_TABLE_DID */
      , (25336, 37, 4) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (25336, 1, 33558447) /* SETUP_DID */
      , (25336, 7, 268436678) /* CLOTHINGBASE_DID */
      , (25336, 8, 100674870) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25336, 9, 1) /* LOCATIONS_INT */
      , (25336, 1, 2) /* ITEM_TYPE_INT */
      , (25336, 19, 8000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (25336, 9, 1) /* LOCATIONS_INT */
      , (25336, 107, 800) /* ITEM_CUR_MANA_INT */
      , (25336, 108, 800) /* ITEM_MAX_MANA_INT */
      , (25336, 109, 180) /* ITEM_DIFFICULTY_INT */
-     , (25336, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (25336, 9007, 2) /* Clothing_WeenieType */;
+     , (25336, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25336, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25336, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (25336, 12, 0.66) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (25336, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25336, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (25336, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25336, 22, True) /* INSCRIBABLE_BOOL */
      , (25336, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25336, 2689, 2) /* ModerateDaggerAptitude_SpellID */
      , (25336, 682, 2) /* ArcaneEnlightenmentSelf5_SpellID */
      , (25336, 327, 2) /* DaggerMasterySelf6_SpellID */

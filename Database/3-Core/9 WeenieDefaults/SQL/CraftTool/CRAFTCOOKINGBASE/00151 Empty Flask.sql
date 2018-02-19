@@ -1,17 +1,14 @@
 /* Weenie - Empty Flask (151) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 151;
+DELETE FROM weenie WHERE class_Id = 151;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (151, 'flask');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (151, 'flask', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (151, 0, 151);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (151, 1, 'Empty Flask') /* NAME_STRING */
      , (151, 14, 'Use this item on a well.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (151, 1, 33554603) /* SETUP_DID */
      , (151, 3, 536870932) /* SOUND_TABLE_DID */
      , (151, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (151, 1, 33554603) /* SETUP_DID */
      , (151, 7, 268435744) /* CLOTHINGBASE_DID */
      , (151, 8, 100670631) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (151, 9, 0) /* LOCATIONS_INT */
      , (151, 1, 4194304) /* ITEM_TYPE_INT */
      , (151, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -36,6 +33,5 @@ VALUES (151, 9, 0) /* LOCATIONS_INT */
      , (151, 150, 103) /* HOOK_PLACEMENT_INT */
      , (151, 151, 1) /* HOOK_TYPE_INT */
      , (151, 93, 1044) /* PHYSICS_STATE_INT */
-     , (151, 94, 4194304) /* TARGET_TYPE_INT */
-     , (151, 9007, 44) /* CraftTool_WeenieType */;
+     , (151, 94, 4194304) /* TARGET_TYPE_INT */;
 

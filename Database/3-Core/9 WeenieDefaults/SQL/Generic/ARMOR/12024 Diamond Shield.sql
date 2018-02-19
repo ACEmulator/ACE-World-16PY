@@ -1,18 +1,15 @@
 /* Weenie - Diamond Shield (12024) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12024;
+DELETE FROM weenie WHERE class_Id = 12024;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12024, 'shielddiamond');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12024, 'shielddiamond', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12024, 0, 12024);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12024, 16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LONG_DESC_STRING */
      , (12024, 1, 'Diamond Shield') /* NAME_STRING */
      , (12024, 15, 'A shield made of diamond.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12024, 1, 33557043) /* SETUP_DID */
      , (12024, 3, 536870932) /* SOUND_TABLE_DID */
      , (12024, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (12024, 1, 33557043) /* SETUP_DID */
      , (12024, 7, 268436256) /* CLOTHINGBASE_DID */
      , (12024, 8, 100672103) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12024, 9, 2097152) /* LOCATIONS_INT */
      , (12024, 1, 2) /* ITEM_TYPE_INT */
      , (12024, 5, 690) /* ENCUMB_VAL_INT */
@@ -39,10 +36,9 @@ VALUES (12024, 9, 2097152) /* LOCATIONS_INT */
      , (12024, 108, 700) /* ITEM_MAX_MANA_INT */
      , (12024, 109, 140) /* ITEM_DIFFICULTY_INT */
      , (12024, 51, 4) /* COMBAT_USE_INT */
-     , (12024, 115, 300) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12024, 9007, 1) /* Generic_WeenieType */;
+     , (12024, 115, 300) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12024, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12024, 5, -0.05) /* MANA_RATE_FLOAT */
      , (12024, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -55,10 +51,10 @@ VALUES (12024, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12024, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (12024, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12024, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12024, 1114, 2) /* BladeProtectionSelf6_SpellID */
      , (12024, 1137, 2) /* PiercingProtectionSelf5_SpellID */
      , (12024, 248, 2) /* InvulnerabilitySelf5_SpellID */

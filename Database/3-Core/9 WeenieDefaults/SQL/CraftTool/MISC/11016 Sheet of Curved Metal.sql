@@ -1,19 +1,16 @@
 /* Weenie - Sheet of Curved Metal (11016) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11016;
+DELETE FROM weenie WHERE class_Id = 11016;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11016, 'menhirbell1-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11016, 'menhirbell1-xp', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11016, 0, 11016);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11016, 16, 'A sheet of curved, green-gold metal. The edges of it are jagged and sharp, indicating it has been broken.') /* LONG_DESC_STRING */
      , (11016, 1, 'Sheet of Curved Metal') /* NAME_STRING */
      , (11016, 14, 'This is a piece of something larger. The rest must be found.') /* USE_STRING */
      , (11016, 15, 'A sheet of curved, green-gold metal.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11016, 1, 33555677) /* SETUP_DID */
      , (11016, 3, 536870932) /* SOUND_TABLE_DID */
      , (11016, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (11016, 1, 33555677) /* SETUP_DID */
      , (11016, 7, 268436111) /* CLOTHINGBASE_DID */
      , (11016, 8, 100671822) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11016, 9, 0) /* LOCATIONS_INT */
      , (11016, 1, 128) /* ITEM_TYPE_INT */
      , (11016, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,13 +34,12 @@ VALUES (11016, 9, 0) /* LOCATIONS_INT */
      , (11016, 93, 1044) /* PHYSICS_STATE_INT */
      , (11016, 94, 128) /* TARGET_TYPE_INT */
      , (11016, 33, 1) /* BONDED_INT */
-     , (11016, 114, 1) /* ATTUNED_INT */
-     , (11016, 9007, 44) /* CraftTool_WeenieType */;
+     , (11016, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11016, 39, 1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11016, 22, True) /* INSCRIBABLE_BOOL */
      , (11016, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

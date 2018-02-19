@@ -1,23 +1,20 @@
 /* Weenie - Shendolain Key (8021) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8021;
+DELETE FROM weenie WHERE class_Id = 8021;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8021, 'keyshendolain');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8021, 'keyshendolain', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8021, 0, 8021);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8021, 1, 'Shendolain Key') /* NAME_STRING */
      , (8021, 14, 'Use this item on the Shendolain Gate.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8021, 1, 33556743) /* SETUP_DID */
      , (8021, 3, 536870932) /* SOUND_TABLE_DID */
      , (8021, 8, 100670979) /* ICON_DID */
      , (8021, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8021, 9, 0) /* LOCATIONS_INT */
      , (8021, 1, 128) /* ITEM_TYPE_INT */
      , (8021, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -32,13 +29,12 @@ VALUES (8021, 9, 0) /* LOCATIONS_INT */
      , (8021, 150, 103) /* HOOK_PLACEMENT_INT */
      , (8021, 151, 2) /* HOOK_TYPE_INT */
      , (8021, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8021, 94, 128) /* TARGET_TYPE_INT */
-     , (8021, 9007, 44) /* CraftTool_WeenieType */;
+     , (8021, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8021, 39, 1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8021, 22, True) /* INSCRIBABLE_BOOL */
      , (8021, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

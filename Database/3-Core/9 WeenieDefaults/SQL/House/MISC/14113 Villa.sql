@@ -1,22 +1,19 @@
 /* Weenie - Villa (14113) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14113;
+DELETE FROM weenie WHERE class_Id = 14113;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14113, 'housevilla1921');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14113, 'housevilla1921', /* House_WeenieType */ 53);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14113, 0, 14113);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14113, 1, 'Villa') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14113, 1, 33557058) /* SETUP_DID */
      , (14113, 8, 100671886) /* ICON_DID */
      , (14113, 42, 1921) /* HOUSEID_DID */
      , (14113, 44, 151) /* RESTRICTION_EFFECT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14113, 161, 50) /* HOUSE_MAX_HOOKS_USABLE_INT */
      , (14113, 9, 0) /* LOCATIONS_INT */
      , (14113, 1, 128) /* ITEM_TYPE_INT */
@@ -25,13 +22,12 @@ VALUES (14113, 161, 50) /* HOUSE_MAX_HOOKS_USABLE_INT */
      , (14113, 16, 1) /* ITEM_USEABLE_INT */
      , (14113, 8, 10) /* MASS_INT */
      , (14113, 155, 2) /* HOUSE_TYPE_INT */
-     , (14113, 19, 0) /* VALUE_INT */
-     , (14113, 9007, 53) /* House_WeenieType */;
+     , (14113, 19, 0) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14113, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14113, 1, True) /* STUCK_BOOL */
      , (14113, 71, True) /* NODRAW_BOOL */
      , (14113, 13, True) /* ETHEREAL_BOOL */

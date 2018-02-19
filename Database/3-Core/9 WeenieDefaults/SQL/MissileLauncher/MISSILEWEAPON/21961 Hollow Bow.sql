@@ -1,17 +1,14 @@
 /* Weenie - Hollow Bow (21961) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21961;
+DELETE FROM weenie WHERE class_Id = 21961;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21961, 'bowhollow');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21961, 'bowhollow', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21961, 0, 21961);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21961, 16, 'A bow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LONG_DESC_STRING */
      , (21961, 1, 'Hollow Bow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21961, 1, 33558059) /* SETUP_DID */
      , (21961, 3, 536870932) /* SOUND_TABLE_DID */
      , (21961, 30, 87) /* PHYSICS_SCRIPT_DID */
@@ -20,7 +17,7 @@ VALUES (21961, 1, 33558059) /* SETUP_DID */
      , (21961, 7, 268435759) /* CLOTHINGBASE_DID */
      , (21961, 8, 100668815) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21961, 9, 4194304) /* LOCATIONS_INT */
      , (21961, 1, 256) /* ITEM_TYPE_INT */
      , (21961, 19, 4000) /* VALUE_INT */
@@ -42,17 +39,16 @@ VALUES (21961, 9, 4194304) /* LOCATIONS_INT */
      , (21961, 51, 2) /* COMBAT_USE_INT */
      , (21961, 52, 2) /* PARENT_LOCATION_INT */
      , (21961, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (21961, 60, 175) /* WEAPON_RANGE_INT */
-     , (21961, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (21961, 60, 175) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21961, 76, 0.5) /* TRANSLUCENCY_FLOAT */
      , (21961, 26, 50) /* MAXIMUM_VELOCITY_FLOAT */
      , (21961, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (21961, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (21961, 63, 2.5) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21961, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (21961, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
      , (21961, 99, True) /* IVORYABLE_BOOL */

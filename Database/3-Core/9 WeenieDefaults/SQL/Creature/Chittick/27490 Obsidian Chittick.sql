@@ -1,16 +1,13 @@
 /* Weenie - Obsidian Chittick (27490) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27490;
+DELETE FROM weenie WHERE class_Id = 27490;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27490, 'chittickobsidianforbidden');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27490, 'chittickobsidianforbidden', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27490, 0, 27490);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27490, 1, 'Obsidian Chittick') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27490, 1, 33558118) /* SETUP_DID */
      , (27490, 2, 150995065) /* MOTION_TABLE_DID */
      , (27490, 35, 455) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (27490, 1, 33558118) /* SETUP_DID */
      , (27490, 7, 268436515) /* CLOTHINGBASE_DID */
      , (27490, 8, 100669115) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27490, 1, 16) /* ITEM_TYPE_INT */
      , (27490, 2, 33) /* CREATURE_TYPE_INT */
      , (27490, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (27490, 1, 16) /* ITEM_TYPE_INT */
      , (27490, 146, 72038) /* XP_OVERRIDE_INT */
      , (27490, 25, 135) /* LEVEL_INT */
      , (27490, 93, 1032) /* PHYSICS_STATE_INT */
-     , (27490, 40, 2) /* COMBAT_MODE_INT */
-     , (27490, 9007, 10) /* Creature_WeenieType */;
+     , (27490, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27490, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (27490, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
      , (27490, 65, 1) /* RESIST_PIERCE_FLOAT */
@@ -69,26 +65,26 @@ VALUES (27490, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (27490, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27490, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27490, 1, True) /* STUCK_BOOL */
      , (27490, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27490, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27490, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27490, 1, 280) /* STRENGTH_ATTRIBUTE */
      , (27490, 2, 280) /* ENDURANCE_ATTRIBUTE */
      , (27490, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (27490, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (27490, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (27490, 32, 180) /* SELF_ATTRIBUTE */;
+     , (27490, 3, 260) /* QUICKNESS_ATTRIBUTE */
+     , (27490, 5, 180) /* FOCUS_ATTRIBUTE */
+     , (27490, 6, 180) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27490, 64, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27490, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27490, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27490, 1, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27490, 3, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27490, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27490, 2, 22545, 0, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */
      , (27490, 9, 24477, 0, 0, 0.03, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
      , (27490, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */

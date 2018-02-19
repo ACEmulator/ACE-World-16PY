@@ -1,17 +1,14 @@
 /* Weenie - Razorbound Flange (27976) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27976;
+DELETE FROM weenie WHERE class_Id = 27976;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27976, 'macehizkri2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27976, 'macehizkri2', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27976, 0, 27976);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27976, 16, 'A vile looking mace. Blades have been fashioned to the flange head to allow for the weapon to flay flesh.') /* LONG_DESC_STRING */
      , (27976, 1, 'Razorbound Flange') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27976, 1, 33558753) /* SETUP_DID */
      , (27976, 3, 536870932) /* SOUND_TABLE_DID */
      , (27976, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27976, 1, 33558753) /* SETUP_DID */
      , (27976, 7, 268436792) /* CLOTHINGBASE_DID */
      , (27976, 8, 100676553) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27976, 9, 1048576) /* LOCATIONS_INT */
      , (27976, 1, 1) /* ITEM_TYPE_INT */
      , (27976, 19, 4000) /* VALUE_INT */
@@ -44,10 +41,9 @@ VALUES (27976, 9, 1048576) /* LOCATIONS_INT */
      , (27976, 47, 4) /* ATTACK_TYPE_INT */
      , (27976, 48, 5) /* WEAPON_SKILL_INT */
      , (27976, 49, 45) /* WEAPON_TIME_INT */
-     , (27976, 51, 1) /* COMBAT_USE_INT */
-     , (27976, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27976, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27976, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
      , (27976, 21, 1) /* WEAPON_LENGTH_FLOAT */
      , (27976, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (27976, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
      , (27976, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */
      , (27976, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27976, 69, False) /* IS_SELLABLE_BOOL */
      , (27976, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27976, 1604, 2) /* Defender5_SpellID */
      , (27976, 2557, 2) /* CANTRIPMACEAPTITUDE1_SpellID */
      , (27976, 1337, 2) /* StrengthOther6_SpellID */

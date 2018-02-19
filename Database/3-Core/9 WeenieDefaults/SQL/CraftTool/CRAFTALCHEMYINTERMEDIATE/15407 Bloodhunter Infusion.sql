@@ -1,18 +1,15 @@
 /* Weenie - Bloodhunter Infusion (15407) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15407;
+DELETE FROM weenie WHERE class_Id = 15407;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15407, 'bloodhunterinfusion');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15407, 'bloodhunterinfusion', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15407, 0, 15407);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15407, 1, 'Bloodhunter Infusion') /* NAME_STRING */
      , (15407, 20, 'Bloodhunter Infusions') /* PLURAL_NAME_STRING */
      , (15407, 14, 'This item is used in alchemy.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15407, 1, 33555965) /* SETUP_DID */
      , (15407, 3, 536870932) /* SOUND_TABLE_DID */
      , (15407, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (15407, 1, 33555965) /* SETUP_DID */
      , (15407, 7, 268435814) /* CLOTHINGBASE_DID */
      , (15407, 8, 100672646) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15407, 9, 0) /* LOCATIONS_INT */
      , (15407, 1, 67108864) /* ITEM_TYPE_INT */
      , (15407, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -36,9 +33,8 @@ VALUES (15407, 9, 0) /* LOCATIONS_INT */
      , (15407, 150, 103) /* HOOK_PLACEMENT_INT */
      , (15407, 151, 11) /* HOOK_TYPE_INT */
      , (15407, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15407, 94, 75497472) /* TARGET_TYPE_INT */
-     , (15407, 9007, 44) /* CraftTool_WeenieType */;
+     , (15407, 94, 75497472) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15407, 69, False) /* IS_SELLABLE_BOOL */;
 

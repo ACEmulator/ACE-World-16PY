@@ -1,18 +1,15 @@
 /* Weenie - Indigo Pea (8350) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8350;
+DELETE FROM weenie WHERE class_Id = 8350;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8350, 'peataperindigo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8350, 'peataperindigo', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8350, 0, 8350);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8350, 16, 'A concentrated indigo pea.') /* LONG_DESC_STRING */
      , (8350, 1, 'Indigo Pea') /* NAME_STRING */
      , (8350, 15, 'A concentrated indigo pea.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8350, 1, 33555445) /* SETUP_DID */
      , (8350, 3, 536870932) /* SOUND_TABLE_DID */
      , (8350, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (8350, 1, 33555445) /* SETUP_DID */
      , (8350, 8, 100671106) /* ICON_DID */
      , (8350, 29, 182) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8350, 9, 0) /* LOCATIONS_INT */
      , (8350, 1, 4096) /* ITEM_TYPE_INT */
      , (8350, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,12 +31,11 @@ VALUES (8350, 9, 0) /* LOCATIONS_INT */
      , (8350, 16, 1) /* ITEM_USEABLE_INT */
      , (8350, 19, 3125) /* VALUE_INT */
      , (8350, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8350, 33, 1) /* BONDED_INT */
-     , (8350, 9007, 32) /* SpellComponent_WeenieType */;
+     , (8350, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8350, 39, 0.33) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8350, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

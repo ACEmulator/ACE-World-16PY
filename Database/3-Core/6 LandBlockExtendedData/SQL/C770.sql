@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (961, 2088173576, 3346006277, 180.461, 168.846, 39.205, -0.160576, 0, 0, -0.987023) /* mosswartbarkergen */
      , (954, 2088173575, 3346006280, 188.165, 170.846, 39.205, 0.179416, 0, 0, -0.983773) /* drudgesneakergen */
      , (893, 2088173574, 3346006280, 191.841, 169.729, 39.205, -0.290364, 0, 0, -0.956916) /* drudgeskulkergen */
@@ -22,22 +22,22 @@ VALUES (961, 2088173576, 3346006277, 180.461, 168.846, 39.205, -0.160576, 0, 0, 
      , (947, 2088173589, 3346006016, 57.0194, 178.194, 53.2055, 0.996835, 0, 0, -0.0794941) /* Barker Mosswart */
      , (947, 2088173588, 3346006016, 61.9826, 177.104, 53.2055, 0.724504, 0, 0, 0.689271) /* Barker Mosswart */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088173578'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2088173569'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2088173578'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2088173569'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173577'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173580'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173579'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173581'; /* linkmonstergen <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173582'; /* linkmonstergen <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173583'; /* linkmonstergen <- Mosswart Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173568'; /* linkmonstergen <- Mosswart Feeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173570'; /* linkmonstergen <- Mosswart Feeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173571'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173586'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173587'; /* linkmonstergen <- Mosswart Feeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173588'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088173589'; /* linkmonstergen <- Barker Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2088173585'; /* linkitemgen <- Scroll of Axe Mastery Other */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2088173572'; /* linkitemgen <- Scroll of Endurance Other II */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173577'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173580'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173579'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173581'; /* linkmonstergen <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173582'; /* linkmonstergen <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173583'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173568'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173570'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173571'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173586'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173587'; /* linkmonstergen <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173588'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088173589'; /* linkmonstergen <- Barker Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2088173585'; /* linkitemgen <- Scroll of Axe Mastery Other */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2088173572'; /* linkitemgen <- Scroll of Endurance Other II */
 

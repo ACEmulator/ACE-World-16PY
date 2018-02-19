@@ -1,16 +1,13 @@
 /* Weenie - Fragment (8014) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8014;
+DELETE FROM weenie WHERE class_Id = 8014;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8014, 'crystalfragmentnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8014, 'crystalfragmentnew', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8014, 0, 8014);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8014, 1, 'Fragment') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8014, 1, 33556729) /* SETUP_DID */
      , (8014, 2, 150995096) /* MOTION_TABLE_DID */
      , (8014, 3, 536871001) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (8014, 1, 33556729) /* SETUP_DID */
      , (8014, 7, 268435859) /* CLOTHINGBASE_DID */
      , (8014, 8, 100670396) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8014, 1, 16) /* ITEM_TYPE_INT */
      , (8014, 2, 47) /* CREATURE_TYPE_INT */
      , (8014, 3, 13) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (8014, 1, 16) /* ITEM_TYPE_INT */
      , (8014, 25, 35) /* LEVEL_INT */
      , (8014, 27, 0) /* ARMOR_TYPE_INT */
      , (8014, 93, 3080) /* PHYSICS_STATE_INT */
-     , (8014, 40, 2) /* COMBAT_MODE_INT */
-     , (8014, 9007, 10) /* Creature_WeenieType */;
+     , (8014, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8014, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8014, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (8014, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (8014, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8014, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8014, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8014, 1, True) /* STUCK_BOOL */
      , (8014, 6, True) /* AI_USES_MANA_BOOL */
      , (8014, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (8014, 1, True) /* STUCK_BOOL */
      , (8014, 15, True) /* LIGHTS_STATUS_BOOL */
      , (8014, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8014, 624, 2.044) /* LifeMagicIneptitudeOther2_SpellID */
      , (8014, 1238, 2.044) /* DrainHealth2_SpellID */
      , (8014, 82, 2.031) /* FlameBolt3_SpellID */
@@ -98,20 +94,20 @@ VALUES (8014, 624, 2.044) /* LifeMagicIneptitudeOther2_SpellID */
      , (8014, 606, 2.032) /* LifeMagicMasterySelf2_SpellID */
      , (8014, 167, 2.032) /* RegenerationSelf3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8014, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (8014, 2, 90) /* ENDURANCE_ATTRIBUTE */
      , (8014, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (8014, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (8014, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (8014, 32, 150) /* SELF_ATTRIBUTE */;
+     , (8014, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (8014, 5, 90) /* FOCUS_ATTRIBUTE */
+     , (8014, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8014, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8014, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8014, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8014, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8014, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8014, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8014, 9, 6057, 0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure_DestinationType */
      , (8014, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (8014, 9, 6055, 0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure_DestinationType */

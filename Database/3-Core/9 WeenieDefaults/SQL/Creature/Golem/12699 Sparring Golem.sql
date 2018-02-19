@@ -1,16 +1,13 @@
 /* Weenie - Sparring Golem (12699) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12699;
+DELETE FROM weenie WHERE class_Id = 12699;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12699, 'golemsparringguidenewbieacademy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12699, 'golemsparringguidenewbieacademy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12699, 0, 12699);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12699, 1, 'Sparring Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12699, 1, 33556428) /* SETUP_DID */
      , (12699, 2, 150995073) /* MOTION_TABLE_DID */
      , (12699, 35, 156) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (12699, 1, 33556428) /* SETUP_DID */
      , (12699, 7, 268436247) /* CLOTHINGBASE_DID */
      , (12699, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12699, 1, 16) /* ITEM_TYPE_INT */
      , (12699, 2, 13) /* CREATURE_TYPE_INT */
      , (12699, 67, 64) /* TOLERANCE_INT */
@@ -35,10 +32,9 @@ VALUES (12699, 1, 16) /* ITEM_TYPE_INT */
      , (12699, 25, 1) /* LEVEL_INT */
      , (12699, 27, 0) /* ARMOR_TYPE_INT */
      , (12699, 93, 1032) /* PHYSICS_STATE_INT */
-     , (12699, 40, 2) /* COMBAT_MODE_INT */
-     , (12699, 9007, 10) /* Creature_WeenieType */;
+     , (12699, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12699, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (12699, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (12699, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (12699, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (12699, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12699, 31, 0.1) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12699, 1, True) /* STUCK_BOOL */
      , (12699, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12699, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12699, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12699, 1, 10) /* STRENGTH_ATTRIBUTE */
      , (12699, 2, 10) /* ENDURANCE_ATTRIBUTE */
      , (12699, 4, 10) /* COORDINATION_ATTRIBUTE */
-     , (12699, 8, 10) /* QUICKNESS_ATTRIBUTE */
-     , (12699, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (12699, 32, 10) /* SELF_ATTRIBUTE */;
+     , (12699, 3, 10) /* QUICKNESS_ATTRIBUTE */
+     , (12699, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (12699, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12699, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12699, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12699, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12699, 1, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12699, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12699, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12699, 9, 12762, 0, 0, 0.5, False) /* Create Guide to Healing for ContainTreasure_DestinationType */
      , (12699, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */;
 

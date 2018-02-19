@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (965, 1952546816, 1175978240, 82.0713, 115.586, 61.66, 0.411948, 0, 0, -0.911207) /* zombiegen */
      , (911, 1952546822, 1175978240, 83.8812, 125.46, 61.66, 0.140558, 0, 0, -0.990072) /* lichgenerator */
      , (911, 1952546821, 1175978240, 81.0971, 122.11, 61.66, 0.428447, 0, 0, -0.903567) /* lichgenerator */

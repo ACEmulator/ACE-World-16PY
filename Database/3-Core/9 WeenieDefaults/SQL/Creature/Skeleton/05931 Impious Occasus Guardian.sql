@@ -1,16 +1,13 @@
 /* Weenie - Impious Occasus Guardian (5931) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5931;
+DELETE FROM weenie WHERE class_Id = 5931;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5931, 'skeletonimpioussw');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5931, 'skeletonimpioussw', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5931, 0, 5931);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5931, 1, 'Impious Occasus Guardian') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5931, 8, 100669124) /* ICON_DID */
      , (5931, 32, 287) /* WIELDED_TREASURE_TYPE_DID */
      , (5931, 1, 33554521) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (5931, 8, 100669124) /* ICON_DID */
      , (5931, 7, 268435646) /* CLOTHINGBASE_DID */
      , (5931, 22, 872415269) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5931, 1, 16) /* ITEM_TYPE_INT */
      , (5931, 2, 30) /* CREATURE_TYPE_INT */
      , (5931, 3, 10) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (5931, 1, 16) /* ITEM_TYPE_INT */
      , (5931, 27, 0) /* ARMOR_TYPE_INT */
      , (5931, 93, 1032) /* PHYSICS_STATE_INT */
      , (5931, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (5931, 40, 1) /* COMBAT_MODE_INT */
-     , (5931, 9007, 10) /* Creature_WeenieType */;
+     , (5931, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5931, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (5931, 65, 0.4) /* RESIST_PIERCE_FLOAT */
      , (5931, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (5931, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (5931, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5931, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5931, 1, True) /* STUCK_BOOL */
      , (5931, 6, True) /* AI_USES_MANA_BOOL */
      , (5931, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -81,7 +77,7 @@ VALUES (5931, 1, True) /* STUCK_BOOL */
      , (5931, 13, False) /* ETHEREAL_BOOL */
      , (5931, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5931, 1340, 2.02) /* WeaknessOther3_SpellID */
      , (5931, 135, 2.15) /* FrostVolley3_SpellID */
      , (5931, 71, 2.15) /* FrostBolt3_SpellID */
@@ -92,20 +88,20 @@ VALUES (5931, 1340, 2.02) /* WeaknessOther3_SpellID */
      , (5931, 1417, 2.02) /* SlownessOther3_SpellID */
      , (5931, 107, 2.15) /* FrostBlast3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5931, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (5931, 2, 130) /* ENDURANCE_ATTRIBUTE */
      , (5931, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (5931, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (5931, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (5931, 32, 150) /* SELF_ATTRIBUTE */;
+     , (5931, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (5931, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (5931, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5931, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5931, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5931, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5931, 1, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5931, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5931, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5931, 9, 3687, 0, 0, 0.05, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
      , (5931, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (5931, 9, 5930, 0, 0, 1, False) /* Create Occasus Key for ContainTreasure_DestinationType */

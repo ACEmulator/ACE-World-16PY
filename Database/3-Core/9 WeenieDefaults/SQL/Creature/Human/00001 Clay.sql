@@ -1,17 +1,14 @@
 /* Weenie - Clay (1) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1;
+DELETE FROM weenie WHERE class_Id = 1;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1, 'human');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1, 'human', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1, 0, 1);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1, 1, 'Clay') /* NAME_STRING */
      , (1, 3, 'Male') /* SEX_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1, 1, 33554433) /* SETUP_DID */
      , (1, 2, 150994945) /* MOTION_TABLE_DID */
      , (1, 3, 536870913) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (1, 1, 33554433) /* SETUP_DID */
      , (1, 8, 100667446) /* ICON_DID */
      , (1, 22, 872415236) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1, 25, 1) /* LEVEL_INT */
      , (1, 1, 16) /* ITEM_TYPE_INT */
      , (1, 146, 30) /* XP_OVERRIDE_INT */
@@ -32,10 +29,9 @@ VALUES (1, 25, 1) /* LEVEL_INT */
      , (1, 8, 120) /* MASS_INT */
      , (1, 27, 0) /* ARMOR_TYPE_INT */
      , (1, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (1, 30, 0) /* ALLEGIANCE_RANK_INT */
-     , (1, 9007, 10) /* Creature_WeenieType */;
+     , (1, 30, 0) /* ALLEGIANCE_RANK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (1, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -68,7 +64,7 @@ VALUES (1, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1, 31, 50) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1, 1, True) /* STUCK_BOOL */
      , (1, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (1, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -76,20 +72,20 @@ VALUES (1, 1, True) /* STUCK_BOOL */
      , (1, 53, True) /* DAMAGED_BY_COLLISIONS_BOOL */
      , (1, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1, 1, 55) /* STRENGTH_ATTRIBUTE */
      , (1, 2, 55) /* ENDURANCE_ATTRIBUTE */
      , (1, 4, 55) /* COORDINATION_ATTRIBUTE */
-     , (1, 8, 55) /* QUICKNESS_ATTRIBUTE */
-     , (1, 16, 55) /* FOCUS_ATTRIBUTE */
-     , (1, 32, 55) /* SELF_ATTRIBUTE */;
+     , (1, 3, 55) /* QUICKNESS_ATTRIBUTE */
+     , (1, 5, 55) /* FOCUS_ATTRIBUTE */
+     , (1, 6, 55) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1, 1, 273, 5, 0, 0, False) /* Create Pyreal for Contain_DestinationType */
      , (1, 2, 320, 10, 0, 0, False) /* Create Javelin for Wield_DestinationType */
      , (1, 1, 329, 0, 0, 0, False) /* Create Knife for Contain_DestinationType */

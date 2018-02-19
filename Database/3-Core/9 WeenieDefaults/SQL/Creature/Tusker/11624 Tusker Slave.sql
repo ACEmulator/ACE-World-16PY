@@ -1,16 +1,13 @@
 /* Weenie - Tusker Slave (11624) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11624;
+DELETE FROM weenie WHERE class_Id = 11624;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11624, 'tuskerslavelo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11624, 'tuskerslavelo', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11624, 0, 11624);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11624, 1, 'Tusker Slave') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11624, 1, 33556836) /* SETUP_DID */
      , (11624, 2, 150994956) /* MOTION_TABLE_DID */
      , (11624, 35, 233) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11624, 1, 33556836) /* SETUP_DID */
      , (11624, 7, 268436061) /* CLOTHINGBASE_DID */
      , (11624, 8, 100667443) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11624, 1, 16) /* ITEM_TYPE_INT */
      , (11624, 2, 8) /* CREATURE_TYPE_INT */
      , (11624, 3, 76) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11624, 1, 16) /* ITEM_TYPE_INT */
      , (11624, 25, 128) /* LEVEL_INT */
      , (11624, 27, 0) /* ARMOR_TYPE_INT */
      , (11624, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11624, 40, 2) /* COMBAT_MODE_INT */
-     , (11624, 9007, 10) /* Creature_WeenieType */;
+     , (11624, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11624, 64, 0.42) /* RESIST_SLASH_FLOAT */
      , (11624, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11624, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (11624, 64, 0.42) /* RESIST_SLASH_FLOAT */
      , (11624, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11624, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11624, 1, True) /* STUCK_BOOL */
      , (11624, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11624, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11624, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11624, 1, 320) /* STRENGTH_ATTRIBUTE */
      , (11624, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (11624, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (11624, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (11624, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (11624, 32, 150) /* SELF_ATTRIBUTE */;
+     , (11624, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (11624, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (11624, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11624, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11624, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11624, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11624, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11624, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11624, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11624, 9, 46, 0, 0, 0.1, False) /* Create Metal Cap for ContainTreasure_DestinationType */
      , (11624, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (11624, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;

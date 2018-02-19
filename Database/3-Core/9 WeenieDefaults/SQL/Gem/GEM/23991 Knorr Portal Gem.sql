@@ -1,18 +1,15 @@
 /* Weenie - Knorr Portal Gem (23991) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23991;
+DELETE FROM weenie WHERE class_Id = 23991;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23991, 'gemportalknorr');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23991, 'gemportalknorr', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23991, 0, 23991);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23991, 1, 'Knorr Portal Gem') /* NAME_STRING */
      , (23991, 14, 'Use this gem to be teleported to the gates of Knorr.') /* USE_STRING */
      , (23991, 15, 'A gem pulsating with the power of portal space. ') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23991, 1, 33556769) /* SETUP_DID */
      , (23991, 3, 536870932) /* SOUND_TABLE_DID */
      , (23991, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (23991, 1, 33556769) /* SETUP_DID */
      , (23991, 8, 100668365) /* ICON_DID */
      , (23991, 28, 2951) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23991, 9, 0) /* LOCATIONS_INT */
      , (23991, 1, 2048) /* ITEM_TYPE_INT */
      , (23991, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -43,13 +40,12 @@ VALUES (23991, 9, 0) /* LOCATIONS_INT */
      , (23991, 108, 150) /* ITEM_MAX_MANA_INT */
      , (23991, 109, 10) /* ITEM_DIFFICULTY_INT */
      , (23991, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (23991, 114, 1) /* ATTUNED_INT */
-     , (23991, 9007, 38) /* Gem_WeenieType */;
+     , (23991, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23991, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23991, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (23991, 15, True) /* LIGHTS_STATUS_BOOL */
      , (23991, 22, True) /* INSCRIBABLE_BOOL */;

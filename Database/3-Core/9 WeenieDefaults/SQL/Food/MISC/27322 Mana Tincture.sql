@@ -1,17 +1,14 @@
 /* Weenie - Mana Tincture (27322) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27322;
+DELETE FROM weenie WHERE class_Id = 27322;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27322, 'manatincture');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27322, 'manatincture', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27322, 0, 27322);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27322, 1, 'Mana Tincture') /* NAME_STRING */
      , (27322, 14, 'Use this item to drink it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27322, 1, 33554603) /* SETUP_DID */
      , (27322, 3, 536870932) /* SOUND_TABLE_DID */
      , (27322, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27322, 1, 33554603) /* SETUP_DID */
      , (27322, 7, 268435816) /* CLOTHINGBASE_DID */
      , (27322, 8, 100676323) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27322, 9, 0) /* LOCATIONS_INT */
      , (27322, 1, 128) /* ITEM_TYPE_INT */
      , (27322, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -37,6 +34,5 @@ VALUES (27322, 9, 0) /* LOCATIONS_INT */
      , (27322, 151, 11) /* HOOK_TYPE_INT */
      , (27322, 89, 6) /* BOOSTER_ENUM_INT */
      , (27322, 90, 50) /* BOOST_VALUE_INT */
-     , (27322, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27322, 9007, 18) /* Food_WeenieType */;
+     , (27322, 93, 1044) /* PHYSICS_STATE_INT */;
 

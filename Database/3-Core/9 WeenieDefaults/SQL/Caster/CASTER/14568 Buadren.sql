@@ -1,17 +1,14 @@
 /* Weenie - Buadren (14568) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14568;
+DELETE FROM weenie WHERE class_Id = 14568;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14568, 'buadreninvoking');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14568, 'buadreninvoking', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14568, 0, 14568);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14568, 1, 'Buadren') /* NAME_STRING */
      , (14568, 15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14568, 1, 33557297) /* SETUP_DID */
      , (14568, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (14568, 3, 536870932) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (14568, 1, 33557297) /* SETUP_DID */
      , (14568, 7, 268436324) /* CLOTHINGBASE_DID */
      , (14568, 8, 100672519) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14568, 9, 16777216) /* LOCATIONS_INT */
      , (14568, 1, 32768) /* ITEM_TYPE_INT */
      , (14568, 19, 0) /* VALUE_INT */
@@ -43,17 +40,16 @@ VALUES (14568, 9, 16777216) /* LOCATIONS_INT */
      , (14568, 108, 2000) /* ITEM_MAX_MANA_INT */
      , (14568, 109, 200) /* ITEM_DIFFICULTY_INT */
      , (14568, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (14568, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (14568, 9007, 35) /* Caster_WeenieType */;
+     , (14568, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14568, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (14568, 5, -0.05) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14568, 22, True) /* INSCRIBABLE_BOOL */
      , (14568, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14568, 2638, 2) /* HeartofOak_SpellID */;
 

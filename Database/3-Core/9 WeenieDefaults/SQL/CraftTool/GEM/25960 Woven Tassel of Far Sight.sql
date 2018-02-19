@@ -1,24 +1,21 @@
 /* Weenie - Woven Tassel of Far Sight (25960) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25960;
+DELETE FROM weenie WHERE class_Id = 25960;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25960, 'tasselmissile');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25960, 'tasselmissile', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25960, 0, 25960);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25960, 16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rayssid Ibn Alhath. It is light and shimmering, yet unobstructive, as if it was used to focus light better around the wearer''s eyes.') /* LONG_DESC_STRING */
      , (25960, 1, 'Woven Tassel of Far Sight') /* NAME_STRING */
      , (25960, 33, 'PickedUpTasselMissile') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25960, 1, 33554784) /* SETUP_DID */
      , (25960, 3, 536870932) /* SOUND_TABLE_DID */
      , (25960, 8, 100675675) /* ICON_DID */
      , (25960, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25960, 9, 0) /* LOCATIONS_INT */
      , (25960, 1, 2048) /* ITEM_TYPE_INT */
      , (25960, 13, 500) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (25960, 9, 0) /* LOCATIONS_INT */
      , (25960, 93, 1044) /* PHYSICS_STATE_INT */
      , (25960, 94, 2) /* TARGET_TYPE_INT */
      , (25960, 33, 1) /* BONDED_INT */
-     , (25960, 114, 1) /* ATTUNED_INT */
-     , (25960, 9007, 44) /* CraftTool_WeenieType */;
+     , (25960, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25960, 39, 0.75) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25960, 22, True) /* INSCRIBABLE_BOOL */
      , (25960, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

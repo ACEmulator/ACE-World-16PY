@@ -1,20 +1,17 @@
 /* Weenie - Titan Mana Charge (9060) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9060;
+DELETE FROM weenie WHERE class_Id = 9060;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9060, 'manachargetitan');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9060, 'manachargetitan', /* ManaStone_WeenieType */ 37);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9060, 0, 9060);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9060, 1, 'Titan Mana Charge') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9060, 1, 33555641) /* SETUP_DID */
      , (9060, 8, 100676402) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9060, 9, 0) /* LOCATIONS_INT */
      , (9060, 1, 524288) /* ITEM_TYPE_INT */
      , (9060, 5, 50) /* ENCUMB_VAL_INT */
@@ -27,13 +24,12 @@ VALUES (9060, 9, 0) /* LOCATIONS_INT */
      , (9060, 93, 1044) /* PHYSICS_STATE_INT */
      , (9060, 94, 35103) /* TARGET_TYPE_INT */
      , (9060, 107, 5000) /* ITEM_CUR_MANA_INT */
-     , (9060, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (9060, 9007, 37) /* ManaStone_WeenieType */;
+     , (9060, 108, 5000) /* ITEM_MAX_MANA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9060, 137, 1) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
      , (9060, 87, 1) /* ITEM_EFFICIENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9060, 22, True) /* INSCRIBABLE_BOOL */;
 

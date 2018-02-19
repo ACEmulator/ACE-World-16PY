@@ -1,18 +1,15 @@
 /* Weenie - Singularity Sword (9130) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9130;
+DELETE FROM weenie WHERE class_Id = 9130;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9130, 'swordsingularity');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9130, 'swordsingularity', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9130, 0, 9130);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9130, 16, 'A gift from Martine: Your sword is sharp, your arm is strong, but soon you will find Death''s reach is long.') /* LONG_DESC_STRING */
      , (9130, 1, 'Singularity Sword') /* NAME_STRING */
      , (9130, 15, 'A Sword imbued with the power of the Virindi.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9130, 1, 33556969) /* SETUP_DID */
      , (9130, 3, 536870932) /* SOUND_TABLE_DID */
      , (9130, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (9130, 1, 33556969) /* SETUP_DID */
      , (9130, 7, 268436127) /* CLOTHINGBASE_DID */
      , (9130, 8, 100671372) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9130, 9, 1048576) /* LOCATIONS_INT */
      , (9130, 1, 1) /* ITEM_TYPE_INT */
      , (9130, 19, 0) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (9130, 9, 1048576) /* LOCATIONS_INT */
      , (9130, 49, 40) /* WEAPON_TIME_INT */
      , (9130, 114, 1) /* ATTUNED_INT */
      , (9130, 51, 1) /* COMBAT_USE_INT */
-     , (9130, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9130, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (9130, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9130, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9130, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (9130, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (9130, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9130, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (9130, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9130, 22, True) /* INSCRIBABLE_BOOL */
      , (9130, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9130, 1616, 2) /* BloodDrinker6_SpellID */
      , (9130, 1384, 2) /* CoordinationOther6_SpellID */;
 

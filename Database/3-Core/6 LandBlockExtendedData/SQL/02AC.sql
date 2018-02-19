@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1881849856, 44826880, 30, -290, -23.995, 1, 0, 0, 0) /* Acid */
      , (1630, 1881849857, 44826884, 9.89098, -290.158, -17.9925, 0.074531, 0, 0, 0.997219) /* Lich Lord */
      , (8673, 1881849858, 44826890, 5.72249, -320.522, -17.9918, -0.696361, 0, 0, 0.717692) /* Risen Knight */
@@ -135,112 +135,112 @@ VALUES (6122, 1881849856, 44826880, 30, -290, -23.995, 1, 0, 0, 0) /* Acid */
      , (204, 1881849989, 44827418, 780, -100.14, 0.0075, 1, 0, 0, -4.37114E-08) /* Lich */
      , (8672, 1881849990, 44827422, 789.01, -110.298, 0.00825, 0.78053, 0, 0, 0.625118) /* Risen Soldier */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881849859'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881849946'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881849896'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881849986'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1881849960'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1881849973'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1881849866'; /* linkitemgen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881849859'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881849946'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881849896'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881849986'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881849960'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881849973'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881849866'; /* linkitemgen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881849906'; /* Door <- Torch */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881849883'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881849940'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881849927'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881849981'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849972'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849971'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849968'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849967'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849966'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849961'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849930'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849928'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849923'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849924'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849919'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849889'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849890'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849898'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849899'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849892'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849885'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849886'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849882'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849879'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849861'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849858'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849860'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849865'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849870'; /* linkmonstergen3minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849864'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849863'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849868'; /* linkmonstergen3minutes <- Mausoleum Warden */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849857'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849862'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849877'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849880'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849878'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849881'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849884'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849891'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849888'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849893'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849894'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849897'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849895'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849887'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849920'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849921'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849922'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849925'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849926'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849929'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849962'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849963'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849964'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849965'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849969'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849977'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849975'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849978'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849980'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849983'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849985'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849987'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849988'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849990'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849944'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849943'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849950'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849945'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849953'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849954'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849955'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849957'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849958'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849959'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849916'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849917'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849910'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849911'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849907'; /* linkmonstergen3minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849908'; /* linkmonstergen3minutes <- Mausoleum Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849909'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849912'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849915'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849914'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849918'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849956'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849952'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849951'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849949'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849947'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849948'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849941'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849942'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849989'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849984'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881849982'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1881849869'; /* linkitemgen2minutes <- Skull of Avoren Palacost */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881849906'; /* Door <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881849883'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881849940'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881849927'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881849981'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849972'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849971'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849968'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849967'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849966'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849961'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849930'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849928'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849923'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849924'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849919'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849889'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849890'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849898'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849899'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849892'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849885'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849886'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849882'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849879'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849861'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849858'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849860'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849865'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849870'; /* linkmonstergen3minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849864'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849863'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849868'; /* linkmonstergen3minutes <- Mausoleum Warden */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849857'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849862'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849877'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849880'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849878'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849881'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849884'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849891'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849888'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849893'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849894'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849897'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849895'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849887'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849920'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849921'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849922'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849925'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849926'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849929'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849962'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849963'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849964'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849965'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849969'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849977'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849975'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849978'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849980'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849983'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849985'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849987'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849988'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849990'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849944'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849943'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849950'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849945'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849953'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849954'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849955'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849957'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849958'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849959'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849916'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849917'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849910'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849911'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849907'; /* linkmonstergen3minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849908'; /* linkmonstergen3minutes <- Mausoleum Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849909'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849912'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849915'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849914'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849918'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849956'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849952'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849951'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849949'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849947'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849948'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849941'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849942'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849989'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849984'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881849982'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881849869'; /* linkitemgen2minutes <- Skull of Avoren Palacost */
 

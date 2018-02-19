@@ -1,19 +1,16 @@
 /* Weenie - Invitation Wedding Hall (14913) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14913;
+DELETE FROM weenie WHERE class_Id = 14913;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14913, 'gemportalwedding1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14913, 'gemportalwedding1', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14913, 0, 14913);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14913, 16, 'A wedding invitation.') /* LONG_DESC_STRING */
      , (14913, 1, 'Invitation Wedding Hall') /* NAME_STRING */
      , (14913, 14, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration in the Wedding Hall.') /* USE_STRING */
      , (14913, 15, 'A wedding invitation.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14913, 1, 33557625) /* SETUP_DID */
      , (14913, 3, 536870932) /* SOUND_TABLE_DID */
      , (14913, 28, 157) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (14913, 1, 33557625) /* SETUP_DID */
      , (14913, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (14913, 31, 14924) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14913, 9, 0) /* LOCATIONS_INT */
      , (14913, 1, 2048) /* ITEM_TYPE_INT */
      , (14913, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -43,10 +40,9 @@ VALUES (14913, 9, 0) /* LOCATIONS_INT */
      , (14913, 108, 70) /* ITEM_MAX_MANA_INT */
      , (14913, 109, 10) /* ITEM_DIFFICULTY_INT */
      , (14913, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (14913, 114, 0) /* ATTUNED_INT */
-     , (14913, 9007, 38) /* Gem_WeenieType */;
+     , (14913, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14913, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (14913, 15, True) /* LIGHTS_STATUS_BOOL */
      , (14913, 22, True) /* INSCRIBABLE_BOOL */;

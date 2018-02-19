@@ -1,22 +1,19 @@
 /* Weenie - Bloodletter Arrow (9230) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9230;
+DELETE FROM weenie WHERE class_Id = 9230;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9230, 'arrowbloodletter');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9230, 'arrowbloodletter', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9230, 0, 9230);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9230, 1, 'Bloodletter Arrow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9230, 1, 33556988) /* SETUP_DID */
      , (9230, 3, 536870932) /* SOUND_TABLE_DID */
      , (9230, 8, 100671396) /* ICON_DID */
      , (9230, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9230, 9, 8388608) /* LOCATIONS_INT */
      , (9230, 1, 256) /* ITEM_TYPE_INT */
      , (9230, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -37,17 +34,16 @@ VALUES (9230, 9, 8388608) /* LOCATIONS_INT */
      , (9230, 44, 20) /* DAMAGE_INT */
      , (9230, 45, 2) /* DAMAGE_TYPE_INT */
      , (9230, 50, 8) /* AMMO_TYPE_INT */
-     , (9230, 51, 3) /* COMBAT_USE_INT */
-     , (9230, 9007, 5) /* Ammunition_WeenieType */;
+     , (9230, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9230, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (9230, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
      , (9230, 78, 1) /* FRICTION_FLOAT */
      , (9230, 79, 0) /* ELASTICITY_FLOAT */
      , (9230, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9230, 69, False) /* IS_SELLABLE_BOOL */
      , (9230, 17, True) /* INELASTIC_BOOL */;
 

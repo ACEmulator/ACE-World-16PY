@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7111, 2131849216, 4044816384, 44.9163, 71.5448, 19.905, -0.95157, 0, 0, -0.307433) /* Faisi Sclavus */
      , (7111, 2131849217, 4044816384, 7.01152, 115.234, 19.905, 0.604491, 0, 0, -0.796612) /* Faisi Sclavus */
      , (8591, 2131849218, 4044816384, 47.7128, 70.3337, 19.9082, -0.941852, 0, 0, -0.336029) /* Dark Revenant */
@@ -9,14 +9,14 @@ VALUES (7111, 2131849216, 4044816384, 44.9163, 71.5448, 19.905, -0.95157, 0, 0, 
      , (8591, 2131849223, 4044816384, 43.0937, 80.1686, 19.9082, -0.959304, 0, 0, -0.282376) /* Dark Revenant */
      , (8592, 2131849224, 4044816384, 41.4549, 67.5594, 19.9082, -0.98214, 0, 0, -0.18815) /* Revenant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131849221'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2131849221'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849220'; /* linkmonstergen7minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849222'; /* linkmonstergen7minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849223'; /* linkmonstergen7minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849219'; /* linkmonstergen7minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849216'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849217'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849218'; /* linkmonstergen7minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131849224'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849220'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849222'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849223'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849219'; /* linkmonstergen7minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849216'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849217'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849218'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131849224'; /* linkmonstergen7minutes <- Revenant */
 

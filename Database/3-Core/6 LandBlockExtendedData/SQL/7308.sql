@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23881, 1999667207, 1929904384, 60.2402, 183.265, 12.005, -0.285622, 0, 0, -0.958342) /* Fish Boots */
      , (26457, 1999667239, 1929904385, 52.86, 178.105, 12.0035, 0.962765, 0, 0, -0.27034) /* Ulgrim the Unappreciated */
      , (7924, 1999667251, 1929904385, 52.86, 178.105, 12.003, 0.962765, 0, 0, -0.27034) /* linkmonstergen5minutes */
@@ -30,15 +30,15 @@ VALUES (23881, 1999667207, 1929904384, 60.2402, 183.265, 12.005, -0.285622, 0, 0
      , (24060, 1999667232, 1929904128, 91.4406, 170.868, 12.0007, 0.239332, 0, 0, -0.970938) /* Decorative Bronze Statue  */
      , (24061, 1999667233, 1929904128, 93.5983, 169.106, 12.005, -0.636316, 0, 0, -0.771428) /* Oxidized Statue  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1999667214'; /* linkitemgen25seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1999667251'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1999667214'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1999667251'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667211'; /* linkitemgen25seconds <- Stout */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667212'; /* linkitemgen25seconds <- Stout */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667213'; /* linkitemgen25seconds <- Stout */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667216'; /* linkitemgen25seconds <- Beer Stein */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667217'; /* linkitemgen25seconds <- Beer Stein */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667218'; /* linkitemgen25seconds <- Beer Stein */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1999667219'; /* linkitemgen25seconds <- Beer Stein */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1999667239'; /* linkmonstergen5minutes <- Ulgrim the Unappreciated */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667211'; /* linkitemgen25seconds <- Stout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667212'; /* linkitemgen25seconds <- Stout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667213'; /* linkitemgen25seconds <- Stout */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667216'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667217'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667218'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1999667219'; /* linkitemgen25seconds <- Beer Stein */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1999667239'; /* linkmonstergen5minutes <- Ulgrim the Unappreciated */
 

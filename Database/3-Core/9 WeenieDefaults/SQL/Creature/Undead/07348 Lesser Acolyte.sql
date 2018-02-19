@@ -1,16 +1,13 @@
 /* Weenie - Lesser Acolyte (7348) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7348;
+DELETE FROM weenie WHERE class_Id = 7348;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7348, 'zombiesoulfearingacolytearea1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7348, 'zombiesoulfearingacolytearea1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7348, 0, 7348);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7348, 1, 'Lesser Acolyte') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7348, 8, 100667942) /* ICON_DID */
      , (7348, 32, 248) /* WIELDED_TREASURE_TYPE_DID */
      , (7348, 1, 33554839) /* SETUP_DID */
@@ -23,7 +20,7 @@ VALUES (7348, 8, 100667942) /* ICON_DID */
      , (7348, 22, 872415272) /* PHYSICS_EFFECT_TABLE_DID */
      , (7348, 31, 7343) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7348, 1, 16) /* ITEM_TYPE_INT */
      , (7348, 2, 14) /* CREATURE_TYPE_INT */
      , (7348, 3, 67) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (7348, 1, 16) /* ITEM_TYPE_INT */
      , (7348, 27, 0) /* ARMOR_TYPE_INT */
      , (7348, 93, 4195336) /* PHYSICS_STATE_INT */
      , (7348, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (7348, 40, 1) /* COMBAT_MODE_INT */
-     , (7348, 9007, 10) /* Creature_WeenieType */;
+     , (7348, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7348, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7348, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (7348, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -77,7 +73,7 @@ VALUES (7348, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7348, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7348, 31, 4) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7348, 1, True) /* STUCK_BOOL */
      , (7348, 6, True) /* AI_USES_MANA_BOOL */
      , (7348, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
@@ -85,7 +81,7 @@ VALUES (7348, 1, True) /* STUCK_BOOL */
      , (7348, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7348, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7348, 1262, 2.02) /* DrainMana3_SpellID */
      , (7348, 82, 2.029) /* FlameBolt3_SpellID */
      , (7348, 66, 2.029) /* ShockWave3_SpellID */
@@ -111,19 +107,19 @@ VALUES (7348, 1262, 2.02) /* DrainMana3_SpellID */
      , (7348, 1340, 2.009) /* WeaknessOther3_SpellID */
      , (7348, 60, 2.029) /* AcidStream3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7348, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (7348, 2, 175) /* ENDURANCE_ATTRIBUTE */
      , (7348, 4, 135) /* COORDINATION_ATTRIBUTE */
-     , (7348, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (7348, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (7348, 32, 155) /* SELF_ATTRIBUTE */;
+     , (7348, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (7348, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (7348, 6, 155) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7348, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7348, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7348, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7348, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7348, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7348, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7348, 12, 49218003, 190.4, -34.6, -12, 1, 0, 0, 0) /* PORTAL_SUMMON_LOC_POSITION */;
 

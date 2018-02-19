@@ -1,16 +1,13 @@
 /* Weenie - Peerless Shivering Atlan Axe (6146) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6146;
+DELETE FROM weenie WHERE class_Id = 6146;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6146, 'axebestshiveringminor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6146, 'axebestshiveringminor', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6146, 0, 6146);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6146, 1, 'Peerless Shivering Atlan Axe') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6146, 1, 33556303) /* SETUP_DID */
      , (6146, 3, 536870932) /* SOUND_TABLE_DID */
      , (6146, 37, 1) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (6146, 1, 33556303) /* SETUP_DID */
      , (6146, 7, 268435882) /* CLOTHINGBASE_DID */
      , (6146, 8, 100670508) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6146, 9, 1048576) /* LOCATIONS_INT */
      , (6146, 1, 1) /* ITEM_TYPE_INT */
      , (6146, 19, 5000) /* VALUE_INT */
@@ -42,10 +39,9 @@ VALUES (6146, 9, 1048576) /* LOCATIONS_INT */
      , (6146, 48, 1) /* WEAPON_SKILL_INT */
      , (6146, 49, 55) /* WEAPON_TIME_INT */
      , (6146, 51, 1) /* COMBAT_USE_INT */
-     , (6146, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (6146, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (6146, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6146, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (6146, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (6146, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (6146, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (6146, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */
      , (6146, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6146, 69, False) /* IS_SELLABLE_BOOL */
      , (6146, 22, True) /* INSCRIBABLE_BOOL */
      , (6146, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6146, 1399, 2) /* QuicknessSelf3_SpellID */
      , (6146, 1032, 2) /* ColdProtectionSelf3_SpellID */
      , (6146, 1602, 2) /* Defender3_SpellID */

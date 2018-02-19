@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1815, 2018959364, 2238578944, 129.679, 14.2732, 14.005, -0.37542, 0, 0, 0.926855) /* Maqura al-Waryah the Blacksmith */
      , (1816, 2018959365, 2238578944, 130.02, 18.8609, 13.205, 0.597316, 0, 0, 0.802006) /* Djuyat ibn Fisa the Armorer */
      , (145, 2018959360, 2238578957, 128.425, 4.625, 14, 1, 0, 0, 0) /* Coffer */
@@ -11,9 +11,9 @@ VALUES (1815, 2018959364, 2238578944, 129.679, 14.2732, 14.005, -0.37542, 0, 0, 
      , (1148, 2018959363, 2238578688, 139.51, 18.25, 14, 0.707107, 0, 0, 0.707107) /* Door */
      , (1791, 2018959366, 2238578688, 130.47, 10.5797, 17.549, 1, 0, 0, 0) /* Smith Maqura */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2018959367'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2018959367'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959368'; /* linkmonstergen <- Ya-Bint-Al-Hawa */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959369'; /* linkmonstergen <- Anid Al-Fadee */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2018959370'; /* linkmonstergen <- Gabal Feteh */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018959368'; /* linkmonstergen <- Ya-Bint-Al-Hawa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018959369'; /* linkmonstergen <- Anid Al-Fadee */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2018959370'; /* linkmonstergen <- Gabal Feteh */
 

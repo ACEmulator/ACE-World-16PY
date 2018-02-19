@@ -1,24 +1,21 @@
 /* Weenie - Crystal Vase with Snowflowers (22841) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22841;
+DELETE FROM weenie WHERE class_Id = 22841;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22841, 'vasesnowflower3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22841, 'vasesnowflower3', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22841, 0, 22841);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22841, 1, 'Crystal Vase with Snowflowers') /* NAME_STRING */
      , (22841, 14, 'There is room for two more flowers in this vase. This item is floor-hookable.') /* USE_STRING */
      , (22841, 15, 'A beautiful crystal vase holding a trio of snowflowers.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22841, 1, 33558167) /* SETUP_DID */
      , (22841, 3, 536870932) /* SOUND_TABLE_DID */
      , (22841, 8, 100673929) /* ICON_DID */
      , (22841, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22841, 9, 0) /* LOCATIONS_INT */
      , (22841, 1, 128) /* ITEM_TYPE_INT */
      , (22841, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,10 +30,9 @@ VALUES (22841, 9, 0) /* LOCATIONS_INT */
      , (22841, 150, 103) /* HOOK_PLACEMENT_INT */
      , (22841, 151, 1) /* HOOK_TYPE_INT */
      , (22841, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22841, 94, 128) /* TARGET_TYPE_INT */
-     , (22841, 9007, 44) /* CraftTool_WeenieType */;
+     , (22841, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22841, 13, True) /* ETHEREAL_BOOL */
      , (22841, 69, False) /* IS_SELLABLE_BOOL */
      , (22841, 22, True) /* INSCRIBABLE_BOOL */

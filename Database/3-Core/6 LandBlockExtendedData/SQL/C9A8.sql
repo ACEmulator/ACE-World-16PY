@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12493, 2090500096, 3383230464, 132.632, 98.3292, 49.8109, -0.998415, 0, 0, -0.0562854) /* East Span Way Settlement Portal */
      , (12549, 2090500097, 3383230464, 123.419, 100.022, 49.7201, -0.932802, 0, 0, 0.360389) /* Southeast Arwic Settlement Portal */
      , (12482, 2090500098, 3383230464, 122.501, 109.383, 49.7966, -0.667028, 0, 0, 0.745032) /* Cape Feirgard Cottages Portal */

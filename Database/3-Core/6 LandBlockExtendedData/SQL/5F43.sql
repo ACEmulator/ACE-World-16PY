@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22684, 1978937344, 1598226688, 10, -88.4261, -41.995, 1, 0, 0, -4.37114E-08) /* Throne of the Tusker King */
      , (22518, 1978937345, 1598226702, 20.1243, -86.2592, -41.945, 0.999687, 0, 0, -0.0249971) /* Devastator */
      , (22053, 1978937346, 1598226719, 40, -89.9817, -41.9835, -0.0292, 0, 0, -0.999574) /* Assailer */
@@ -30,26 +30,26 @@ VALUES (22684, 1978937344, 1598226688, 10, -88.4261, -41.995, 1, 0, 0, -4.37114E
      , (11541, 1978937372, 1598226910, 38.1066, -62.2762, 0.0132, 0.0579092, 0, 0, 0.998322) /* Plated Tusker */
      , (22710, 1978937373, 1598226911, 37.1415, -67.913, 0.005, 0.679901, 0, 0, -0.733304) /* Crude Tusker Painting */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1978937370'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978937370'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937345'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937346'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937371'; /* linkmonstergen7minutes <- Rampager */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937372'; /* linkmonstergen7minutes <- Plated Tusker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937369'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937367'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937364'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937359'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937353'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937354'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937362'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937363'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937355'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937356'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937348'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937350'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937351'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937349'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937352'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978937347'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937345'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937346'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937371'; /* linkmonstergen7minutes <- Rampager */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937372'; /* linkmonstergen7minutes <- Plated Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937369'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937367'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937364'; /* linkmonstergen7minutes <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937359'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937353'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937354'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937362'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937363'; /* linkmonstergen7minutes <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937355'; /* linkmonstergen7minutes <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937356'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937348'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937350'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937351'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937349'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937352'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978937347'; /* linkmonstergen7minutes <- Devastator */
 

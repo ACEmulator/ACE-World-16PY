@@ -1,22 +1,19 @@
 /* Weenie - Flames (5148) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5148;
+DELETE FROM weenie WHERE class_Id = 5148;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5148, 'fireplacefire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5148, 'fireplacefire', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5148, 0, 5148);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5148, 1, 'Flames') /* NAME_STRING */
      , (5148, 17, 'The flames burn you for %i damage!') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5148, 1, 33555589) /* SETUP_DID */
      , (5148, 3, 536870994) /* SOUND_TABLE_DID */
      , (5148, 8, 100667465) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5148, 1, 128) /* ITEM_TYPE_INT */
      , (5148, 45, 32) /* DAMAGE_TYPE_INT */
      , (5148, 93, 1036) /* PHYSICS_STATE_INT */
@@ -25,15 +22,14 @@ VALUES (5148, 1, 128) /* ITEM_TYPE_INT */
      , (5148, 8, 500) /* MASS_INT */
      , (5148, 19, 5) /* VALUE_INT */
      , (5148, 44, 10) /* DAMAGE_INT */
-     , (5148, 119, 0) /* ACTIVE_INT */
-     , (5148, 9007, 13) /* HotSpot_WeenieType */;
+     , (5148, 119, 0) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5148, 105, 4) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (5148, 106, 0.25) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (5148, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5148, 57, False) /* AFFECTS_AIS_BOOL */
      , (5148, 1, True) /* STUCK_BOOL */
      , (5148, 11, False) /* IGNORE_COLLISIONS_BOOL */

@@ -1,16 +1,13 @@
 /* Weenie - Fine Stinging Atlan Dagger (6224) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6224;
+DELETE FROM weenie WHERE class_Id = 6224;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6224, 'daggergoodstingingmajor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6224, 'daggergoodstingingmajor', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6224, 0, 6224);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6224, 1, 'Fine Stinging Atlan Dagger') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6224, 1, 33556355) /* SETUP_DID */
      , (6224, 3, 536870932) /* SOUND_TABLE_DID */
      , (6224, 37, 4) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (6224, 1, 33556355) /* SETUP_DID */
      , (6224, 7, 268435934) /* CLOTHINGBASE_DID */
      , (6224, 8, 100670524) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6224, 9, 1048576) /* LOCATIONS_INT */
      , (6224, 1, 1) /* ITEM_TYPE_INT */
      , (6224, 19, 3000) /* VALUE_INT */
@@ -42,10 +39,9 @@ VALUES (6224, 9, 1048576) /* LOCATIONS_INT */
      , (6224, 48, 4) /* WEAPON_SKILL_INT */
      , (6224, 49, 15) /* WEAPON_TIME_INT */
      , (6224, 51, 1) /* COMBAT_USE_INT */
-     , (6224, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (6224, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (6224, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6224, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
      , (6224, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (6224, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (6224, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
      , (6224, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */
      , (6224, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6224, 69, False) /* IS_SELLABLE_BOOL */
      , (6224, 22, True) /* INSCRIBABLE_BOOL */
      , (6224, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6224, 1603, 2) /* Defender4_SpellID */
      , (6224, 518, 2) /* AcidProtectionSelf4_SpellID */
      , (6224, 1590, 2) /* HeartSeeker4_SpellID */

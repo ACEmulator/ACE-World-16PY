@@ -1,24 +1,21 @@
 /* Weenie - Hearty Mana Apple Pie (5286) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5286;
+DELETE FROM weenie WHERE class_Id = 5286;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5286, 'heartymanaapplepie');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5286, 'heartymanaapplepie', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5286, 0, 5286);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5286, 1, 'Hearty Mana Apple Pie') /* NAME_STRING */
      , (5286, 20, 'Hearty Mana Apple Pies') /* PLURAL_NAME_STRING */
      , (5286, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5286, 1, 33555978) /* SETUP_DID */
      , (5286, 3, 536870932) /* SOUND_TABLE_DID */
      , (5286, 8, 100669942) /* ICON_DID */
      , (5286, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5286, 9, 0) /* LOCATIONS_INT */
      , (5286, 1, 32) /* ITEM_TYPE_INT */
      , (5286, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,9 +30,8 @@ VALUES (5286, 9, 0) /* LOCATIONS_INT */
      , (5286, 19, 132) /* VALUE_INT */
      , (5286, 89, 6) /* BOOSTER_ENUM_INT */
      , (5286, 90, 35) /* BOOST_VALUE_INT */
-     , (5286, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5286, 9007, 18) /* Food_WeenieType */;
+     , (5286, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5286, 69, False) /* IS_SELLABLE_BOOL */;
 

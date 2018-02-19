@@ -1,17 +1,14 @@
 /* Weenie - Superb Diamond Infused Pyreal Ingot (19516) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19516;
+DELETE FROM weenie WHERE class_Id = 19516;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19516, 'ingotpyrealinfusedsuperb');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19516, 'ingotpyrealinfusedsuperb', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19516, 0, 19516);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19516, 16, 'A pyreal ingot infused with diamond oil. You can turn this ingot into a weapon for levels 40+.') /* LONG_DESC_STRING */
      , (19516, 1, 'Superb Diamond Infused Pyreal Ingot') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19516, 1, 33555677) /* SETUP_DID */
      , (19516, 3, 536870932) /* SOUND_TABLE_DID */
      , (19516, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (19516, 1, 33555677) /* SETUP_DID */
      , (19516, 7, 268435723) /* CLOTHINGBASE_DID */
      , (19516, 8, 100672974) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19516, 9, 0) /* LOCATIONS_INT */
      , (19516, 1, 128) /* ITEM_TYPE_INT */
      , (19516, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -32,10 +29,9 @@ VALUES (19516, 9, 0) /* LOCATIONS_INT */
      , (19516, 15, 2000) /* STACK_UNIT_VALUE_INT */
      , (19516, 16, 1) /* ITEM_USEABLE_INT */
      , (19516, 19, 2000) /* VALUE_INT */
-     , (19516, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19516, 9007, 38) /* Gem_WeenieType */;
+     , (19516, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19516, 22, True) /* INSCRIBABLE_BOOL */
      , (19516, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

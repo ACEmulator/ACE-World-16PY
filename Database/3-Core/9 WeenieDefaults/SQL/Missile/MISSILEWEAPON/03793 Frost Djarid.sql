@@ -1,22 +1,19 @@
 /* Weenie - Frost Djarid (3793) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3793;
+DELETE FROM weenie WHERE class_Id = 3793;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3793, 'djaridfrost');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3793, 'djaridfrost', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3793, 0, 3793);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3793, 1, 'Frost Djarid') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3793, 1, 33555737) /* SETUP_DID */
      , (3793, 3, 536870932) /* SOUND_TABLE_DID */
      , (3793, 8, 100667593) /* ICON_DID */
      , (3793, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3793, 9, 4194304) /* LOCATIONS_INT */
      , (3793, 1, 256) /* ITEM_TYPE_INT */
      , (3793, 13, 15) /* STACK_UNIT_ENCUMB_INT */
@@ -37,10 +34,9 @@ VALUES (3793, 9, 4194304) /* LOCATIONS_INT */
      , (3793, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (3793, 48, 12) /* WEAPON_SKILL_INT */
      , (3793, 49, 20) /* WEAPON_TIME_INT */
-     , (3793, 51, 2) /* COMBAT_USE_INT */
-     , (3793, 9007, 4) /* Missile_WeenieType */;
+     , (3793, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3793, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (3793, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (3793, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */

@@ -1,25 +1,22 @@
 /* Weenie - Hearty Mana Hot Kimchi (5801) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5801;
+DELETE FROM weenie WHERE class_Id = 5801;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5801, 'heartymanahotkimchi');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5801, 'heartymanahotkimchi', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5801, 0, 5801);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5801, 1, 'Hearty Mana Hot Kimchi') /* NAME_STRING */
      , (5801, 20, 'Bowls of Hearty Mana Hot Kimchi') /* PLURAL_NAME_STRING */
      , (5801, 14, 'Use this item to eat it.') /* USE_STRING */
      , (5801, 15, 'Spicy, burning, red-hot, pungent kimchi.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5801, 1, 33554669) /* SETUP_DID */
      , (5801, 3, 536870932) /* SOUND_TABLE_DID */
      , (5801, 8, 100670313) /* ICON_DID */
      , (5801, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5801, 9, 0) /* LOCATIONS_INT */
      , (5801, 1, 32) /* ITEM_TYPE_INT */
      , (5801, 13, 25) /* STACK_UNIT_ENCUMB_INT */
@@ -34,9 +31,8 @@ VALUES (5801, 9, 0) /* LOCATIONS_INT */
      , (5801, 19, 120) /* VALUE_INT */
      , (5801, 89, 6) /* BOOSTER_ENUM_INT */
      , (5801, 90, 39) /* BOOST_VALUE_INT */
-     , (5801, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5801, 9007, 18) /* Food_WeenieType */;
+     , (5801, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5801, 69, False) /* IS_SELLABLE_BOOL */;
 

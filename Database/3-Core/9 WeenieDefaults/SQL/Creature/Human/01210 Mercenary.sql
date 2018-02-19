@@ -1,18 +1,15 @@
 /* Weenie - Mercenary (1210) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1210;
+DELETE FROM weenie WHERE class_Id = 1210;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1210, 'mercenary');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1210, 'mercenary', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1210, 0, 1210);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1210, 1, 'Mercenary') /* NAME_STRING */
      , (1210, 3, 'Male') /* SEX_STRING */
      , (1210, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1210, 8, 100667446) /* ICON_DID */
      , (1210, 32, 433) /* WIELDED_TREASURE_TYPE_DID */
      , (1210, 1, 33554433) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (1210, 8, 100667446) /* ICON_DID */
      , (1210, 4, 805306368) /* COMBAT_TABLE_DID */
      , (1210, 22, 872415236) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1210, 1, 16) /* ITEM_TYPE_INT */
      , (1210, 146, 24650) /* XP_OVERRIDE_INT */
      , (1210, 2, 31) /* CREATURE_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (1210, 1, 16) /* ITEM_TYPE_INT */
      , (1210, 27, 0) /* ARMOR_TYPE_INT */
      , (1210, 93, 1032) /* PHYSICS_STATE_INT */
      , (1210, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1210, 40, 2) /* COMBAT_MODE_INT */
-     , (1210, 9007, 10) /* Creature_WeenieType */;
+     , (1210, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1210, 64, 0.35) /* RESIST_SLASH_FLOAT */
      , (1210, 65, 0.35) /* RESIST_PIERCE_FLOAT */
      , (1210, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (1210, 64, 0.35) /* RESIST_SLASH_FLOAT */
      , (1210, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1210, 31, 30) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1210, 1, True) /* STUCK_BOOL */
      , (1210, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1210, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1210, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1210, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (1210, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (1210, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (1210, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (1210, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (1210, 32, 80) /* SELF_ATTRIBUTE */;
+     , (1210, 3, 210) /* QUICKNESS_ATTRIBUTE */
+     , (1210, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (1210, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1210, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1210, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1210, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1210, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1210, 3, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1210, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1210, 2, 25557, 0, 0, 0, False) /* Create Eye Patch for Wield_DestinationType */
      , (1210, 9, 28866, 0, 0, 0.05, False) /* Create Left Peg Leg for ContainTreasure_DestinationType */
      , (1210, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */

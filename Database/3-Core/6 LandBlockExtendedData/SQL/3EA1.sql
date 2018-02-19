@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11194, 1944719360, 1050738688, 59.9675, 179.928, 65.0077, 0.0195358, 0, 0, 0.999809) /* dires3mastergen-xp */
      , (11194, 1944719361, 1050738688, 60.0492, 83.655, 61.9475, 0.00287042, 0, 0, 0.999996) /* dires3mastergen-xp */
      , (11194, 1944719362, 1050738688, 156.188, 35.3083, 62.005, 0.999975, 0, 0, -0.00707463) /* dires3mastergen-xp */

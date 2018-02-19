@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4216, 2068766727, 3035496704, 170.44, 98.0443, 164.81, 0.165686, 0, 0, -0.986179) /* Diamond Golem */
      , (7488, 2068766723, 3035496704, 171.395, 108.224, 164.805, 0.999796, 0, 0, -0.0202071) /* Tenkarrdun Foundry Portal */
      , (4216, 2068766720, 3035496448, 169.64, 81.4177, 170.01, 0.294993, 0, 0, 0.955499) /* Diamond Golem */
@@ -11,15 +11,15 @@ VALUES (4216, 2068766727, 3035496704, 170.44, 98.0443, 164.81, 0.165686, 0, 0, -
      , (25599, 2068766733, 3035496448, 183.422, 140.176, 300.005, 0.611113, 0, 0, 0.791543) /* Sapphire Gromnie */
      , (25598, 2068766734, 3035496448, 171.431, 127.887, 300.005, -0.990349, 0, 0, 0.138593) /* Ruby Gromnie */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2068766730'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2068766732'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2068766730'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2068766732'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068766720'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068766722'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2068766727'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2068766731'; /* linkmonstergen1hour <- Adolescent Ash Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2068766733'; /* linkmonstergen1hour <- Sapphire Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2068766734'; /* linkmonstergen1hour <- Ruby Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2068766735'; /* linkmonstergen1hour <- Emerald Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2068766736'; /* linkmonstergen1hour <- Amethyst Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766720'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766722'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2068766727'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766731'; /* linkmonstergen1hour <- Adolescent Ash Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766733'; /* linkmonstergen1hour <- Sapphire Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766734'; /* linkmonstergen1hour <- Ruby Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766735'; /* linkmonstergen1hour <- Emerald Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2068766736'; /* linkmonstergen1hour <- Amethyst Gromnie */
 

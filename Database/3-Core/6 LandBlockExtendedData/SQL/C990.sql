@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (553, 2090401792, 3381657600, 65.3791, 180.39, 14.005, 0.674183, 0, 0, -0.738564) /* mushroomcirclegen */
      , (1432, 2090401793, 3381657600, 62.423, 186.288, 14.005, -0.537198, 0, 0, -0.843456) /* Rithwic Crypt */
      , (8127, 2090401794, 3381657600, 59.2385, 183.714, 14.005, 0.900447, 0, 0, -0.434966) /* Menhir Mana Field */

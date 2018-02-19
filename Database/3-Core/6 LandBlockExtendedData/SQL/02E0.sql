@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24326, 1882062989, 48234757, 31.4156, -59.3635, -119.992, 0.982809, 0, 0, 0.184623) /* Risen Lord */
      , (24326, 1882062990, 48234757, 27.7852, -60.7773, -119.992, 0.982809, 0, 0, 0.184623) /* Risen Lord */
      , (7122, 1882062991, 48234757, 29.6897, -60, -119.995, 1, 0, 0, -4.37114E-08) /* Great Skeleton */
@@ -243,241 +243,241 @@ VALUES (24326, 1882062989, 48234757, 31.4156, -59.3635, -119.992, 0.982809, 0, 0
      , (24326, 1882062987, 48235635, 57.8811, -76.3282, -29.9918, 0.501747, 0, 0, -0.865014) /* Risen Lord */
      , (24326, 1882062988, 48235637, 71.9716, -60.3176, -34.0897, 0.681242, 0, 0, -0.732058) /* Risen Lord */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882062932'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882062934'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882062938'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882062936'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1882062909'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1882062918'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1882062914'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1882062901'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1882062893'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1882062886'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1882062892'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1882062877'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1882062869'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1882062866'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1882062906'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1882063092'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882062932'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882062934'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882062938'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882062936'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1882062909'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1882062918'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1882062914'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1882062901'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1882062893'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1882062886'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1882062892'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1882062877'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1882062869'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1882062866'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1882062906'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1882063092'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882062967'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882062913'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882062968'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882062970'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882062912'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882062969'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882062910'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882062911'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1882062975'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1882062897'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1882062974'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1882062972'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1882062896'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882062973'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882062888'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1882062982'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1882062870'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1882062983'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1882062985'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1882062868'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1882062984'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1882062873'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1882062875'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1882062978'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1882062979'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1882062981'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1882062980'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1882062889'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063062'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063061'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063064'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062922'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063063'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063058'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062915'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063060'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062917'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063055'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063056'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063073'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062924'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063074'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062925'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063069'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063071'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062923'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063065'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062921'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063066'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062920'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063072'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062926'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063075'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062919'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063041'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062930'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063040'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062898'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063044'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063045'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062895'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063039'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062887'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063048'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062890'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063046'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062899'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063047'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062900'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063051'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062907'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063053'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062903'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063059'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062916'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063057'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062908'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063043'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062905'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063042'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062894'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063054'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062902'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063052'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062904'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063033'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062865'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063034'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062863'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063032'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062857'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062864'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063036'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062860'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063035'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062861'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063029'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062858'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063030'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062859'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063038'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062871'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063037'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063049'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062891'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063050'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062876'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063028'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062855'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063031'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062856'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063025'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062872'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063027'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062867'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063016'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063015'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063020'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063014'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063008'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063005'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063012'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063011'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063021'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062849'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063023'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062850'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063026'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062862'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063022'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063017'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063019'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063024'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062851'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063018'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062990'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062992'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063001'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062989'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062999'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062852'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062995'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062966'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062993'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062998'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062988'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063009'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063010'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062853'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063006'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063007'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063004'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063003'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063013'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062854'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063002'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063000'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062881'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062997'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062878'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062996'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062883'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062994'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062884'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062879'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062880'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062991'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062882'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062885'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062963'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062964'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062960'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062962'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063090'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062946'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063091'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062961'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062951'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063088'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062950'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062958'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062955'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062956'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062957'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062965'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062959'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063082'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062931'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063083'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062939'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063077'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062937'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063080'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062933'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063068'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062929'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063067'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062935'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063081'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062928'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063070'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062927'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063078'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062986'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062941'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063085'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062987'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062940'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063089'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062945'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063076'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062971'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062947'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063079'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062953'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063084'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062952'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063087'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882062942'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1882063086'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882062967'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882062913'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882062968'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882062970'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882062912'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882062969'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882062910'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882062911'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882062975'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882062897'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1882062974'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1882062972'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1882062896'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882062973'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882062888'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1882062982'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1882062870'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1882062983'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1882062985'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1882062868'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1882062984'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1882062873'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1882062875'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1882062978'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1882062979'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1882062981'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1882062980'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1882062889'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063062'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063061'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063064'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062922'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063063'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063058'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062915'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063060'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062917'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063055'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063056'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063073'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062924'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063074'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062925'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063069'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063071'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062923'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063065'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062921'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063066'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062920'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063072'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062926'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063075'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062919'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063041'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062930'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063040'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062898'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063044'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063045'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062895'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063039'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062887'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063048'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062890'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063046'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062899'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063047'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062900'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063051'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062907'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063053'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062903'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063059'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062916'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063057'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062908'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063043'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062905'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063042'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062894'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063054'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062902'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063052'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062904'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063033'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062865'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063034'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062863'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063032'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062857'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062864'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063036'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062860'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063035'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062861'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063029'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062858'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063030'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062859'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063038'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062871'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063037'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063049'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062891'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063050'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062876'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063028'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062855'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063031'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062856'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063025'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062872'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063027'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062867'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063016'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063015'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063020'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063014'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063008'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063005'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063012'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063011'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063021'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062849'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063023'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062850'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063026'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062862'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063022'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063017'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063019'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063024'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062851'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063018'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062990'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062992'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063001'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062989'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062999'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062852'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062995'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062966'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062993'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062998'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062988'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063009'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063010'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062853'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063006'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063007'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063004'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063003'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063013'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062854'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063002'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063000'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062881'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062997'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062878'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062996'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062883'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062994'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062884'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062879'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062880'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062991'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062882'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062885'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062963'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062964'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062960'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062962'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063090'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062946'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063091'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062961'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062951'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063088'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062950'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062958'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062955'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062956'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062957'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062965'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062959'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063082'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062931'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063083'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062939'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063077'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062937'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063080'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062933'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063068'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062929'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063067'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062935'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063081'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062928'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063070'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062927'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063078'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062986'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062941'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063085'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062987'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062940'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063089'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062945'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063076'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062971'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062947'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063079'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062953'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063084'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062952'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063087'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882062942'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1882063086'; /* linkmonstergen5minutes <- Gold Golem */
 

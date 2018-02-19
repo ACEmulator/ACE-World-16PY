@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (959, 2077945857, 3182362880, 177.293, 141.041, 86.805, -0.0714415, 0, 0, -0.997445) /* mitesentrygen */
      , (3626, 2077945867, 3182362880, 180, 147.574, 86.805, 1, 0, 0, 0) /* Mite Tunnels */
      , (959, 2077945858, 3182362880, 181.9, 142.176, 86.805, -0.348065, 0, 0, -0.93747) /* mitesentrygen */

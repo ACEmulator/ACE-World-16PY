@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7220, 2078203904, 3186491392, 25.6081, 122.231, 203.76, -0.763957, 0, 0, 0.645267) /* lavalandcalderamixgen */
      , (7220, 2078203905, 3186491392, 37.3884, 108.48, 213.188, -0.763957, 0, 0, 0.645267) /* lavalandcalderamixgen */
      , (7220, 2078203906, 3186491392, 23.9726, 78.8048, 230.327, -0.763957, 0, 0, 0.645267) /* lavalandcalderamixgen */

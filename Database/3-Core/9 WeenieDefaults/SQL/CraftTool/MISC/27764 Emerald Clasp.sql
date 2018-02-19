@@ -1,25 +1,22 @@
 /* Weenie - Emerald Clasp (27764) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27764;
+DELETE FROM weenie WHERE class_Id = 27764;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27764, 'toolsunkenmereclasp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27764, 'toolsunkenmereclasp', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27764, 0, 27764);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27764, 1, 'Emerald Clasp') /* NAME_STRING */
      , (27764, 33, 'PickedUpEmeraldClasp') /* QUEST_STRING */
      , (27764, 14, 'You are not sure what this artifact can be used on.') /* USE_STRING */
      , (27764, 15, 'An odd clasp that looks as if it could be fitted around a jewel of some sort.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27764, 1, 33554680) /* SETUP_DID */
      , (27764, 3, 536870932) /* SOUND_TABLE_DID */
      , (27764, 8, 100676630) /* ICON_DID */
      , (27764, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27764, 9, 0) /* LOCATIONS_INT */
      , (27764, 1, 128) /* ITEM_TYPE_INT */
      , (27764, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (27764, 9, 0) /* LOCATIONS_INT */
      , (27764, 93, 1044) /* PHYSICS_STATE_INT */
      , (27764, 94, 2048) /* TARGET_TYPE_INT */
      , (27764, 33, 1) /* BONDED_INT */
-     , (27764, 114, 1) /* ATTUNED_INT */
-     , (27764, 9007, 44) /* CraftTool_WeenieType */;
+     , (27764, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27764, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27764, 22, True) /* INSCRIBABLE_BOOL */
      , (27764, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Tumerok Major (23565) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23565;
+DELETE FROM weenie WHERE class_Id = 23565;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23565, 'tumerokmajor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23565, 'tumerokmajor', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23565, 0, 23565);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23565, 1, 'Tumerok Major') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23565, 8, 100667452) /* ICON_DID */
      , (23565, 32, 220) /* WIELDED_TREASURE_TYPE_DID */
      , (23565, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (23565, 8, 100667452) /* ICON_DID */
      , (23565, 7, 268436630) /* CLOTHINGBASE_DID */
      , (23565, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23565, 1, 16) /* ITEM_TYPE_INT */
      , (23565, 2, 6) /* CREATURE_TYPE_INT */
      , (23565, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (23565, 1, 16) /* ITEM_TYPE_INT */
      , (23565, 25, 79) /* LEVEL_INT */
      , (23565, 27, 0) /* ARMOR_TYPE_INT */
      , (23565, 93, 1032) /* PHYSICS_STATE_INT */
-     , (23565, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (23565, 9007, 10) /* Creature_WeenieType */;
+     , (23565, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23565, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23565, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (23565, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (23565, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23565, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (23565, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23565, 1, True) /* STUCK_BOOL */
      , (23565, 6, True) /* AI_USES_MANA_BOOL */
      , (23565, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -81,7 +77,7 @@ VALUES (23565, 1, True) /* STUCK_BOOL */
      , (23565, 13, False) /* ETHEREAL_BOOL */
      , (23565, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23565, 140, 2.004) /* LightningVolley4_SpellID */
      , (23565, 259, 2.004) /* ImpregnabilitySelf4_SpellID */
      , (23565, 83, 2.014) /* FlameBolt4_SpellID */
@@ -106,20 +102,20 @@ VALUES (23565, 140, 2.004) /* LightningVolley4_SpellID */
      , (23565, 1400, 2.004) /* QuicknessSelf4_SpellID */
      , (23565, 61, 2.014) /* AcidStream4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (23565, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (23565, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (23565, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (23565, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (23565, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (23565, 32, 180) /* SELF_ATTRIBUTE */;
+     , (23565, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (23565, 5, 180) /* FOCUS_ATTRIBUTE */
+     , (23565, 6, 180) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23565, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23565, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23565, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (23565, 1, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23565, 3, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23565, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23565, 9, 3695, 0, 0, 0.2, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
      , (23565, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */
      , (23565, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */

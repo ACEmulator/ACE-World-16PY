@@ -1,17 +1,14 @@
 /* Weenie - Ancient Armored Vestment (26501) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26501;
+DELETE FROM weenie WHERE class_Id = 26501;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26501, 'shirtfalatacot1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26501, 'shirtfalatacot1', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26501, 0, 26501);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26501, 1, 'Ancient Armored Vestment') /* NAME_STRING */
      , (26501, 15, 'This armored vestment appears to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26501, 1, 33554642) /* SETUP_DID */
      , (26501, 3, 536870932) /* SOUND_TABLE_DID */
      , (26501, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (26501, 1, 33554642) /* SETUP_DID */
      , (26501, 7, 268436790) /* CLOTHINGBASE_DID */
      , (26501, 8, 100675771) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26501, 9, 2560) /* LOCATIONS_INT */
      , (26501, 1, 2) /* ITEM_TYPE_INT */
      , (26501, 27, 8) /* ARMOR_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (26501, 9, 2560) /* LOCATIONS_INT */
      , (26501, 160, 40) /* WIELD_DIFFICULTY_INT */
      , (26501, 106, 275) /* ITEM_SPELLCRAFT_INT */
      , (26501, 107, 800) /* ITEM_CUR_MANA_INT */
-     , (26501, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (26501, 9007, 2) /* Clothing_WeenieType */;
+     , (26501, 108, 800) /* ITEM_MAX_MANA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26501, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (26501, 5, -0.033) /* MANA_RATE_FLOAT */
      , (26501, 12, 0.66) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (26501, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (26501, 18, 1.1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (26501, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26501, 69, False) /* IS_SELLABLE_BOOL */
      , (26501, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26501, 3092, 2) /* LesserSkinFiazhat_SpellID */
      , (26501, 3046, 2) /* LesserMistsBur_SpellID */;
 

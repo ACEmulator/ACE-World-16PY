@@ -1,16 +1,13 @@
 /* Weenie - Atakir, the Dark Prince (25849) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25849;
+DELETE FROM weenie WHERE class_Id = 25849;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25849, 'zefirbossatakir');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25849, 'zefirbossatakir', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25849, 0, 25849);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25849, 1, 'Atakir, the Dark Prince') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25849, 1, 33555610) /* SETUP_DID */
      , (25849, 2, 150995049) /* MOTION_TABLE_DID */
      , (25849, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (25849, 1, 33555610) /* SETUP_DID */
      , (25849, 7, 268436729) /* CLOTHINGBASE_DID */
      , (25849, 8, 100669123) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25849, 1, 16) /* ITEM_TYPE_INT */
      , (25849, 2, 29) /* CREATURE_TYPE_INT */
      , (25849, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (25849, 1, 16) /* ITEM_TYPE_INT */
      , (25849, 146, 1031474) /* XP_OVERRIDE_INT */
      , (25849, 25, 170) /* LEVEL_INT */
      , (25849, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25849, 40, 2) /* COMBAT_MODE_INT */
-     , (25849, 9007, 10) /* Creature_WeenieType */;
+     , (25849, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25849, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25849, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (25849, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,7 +67,7 @@ VALUES (25849, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25849, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25849, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25849, 1, True) /* STUCK_BOOL */
      , (25849, 6, True) /* AI_USES_MANA_BOOL */
      , (25849, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -79,7 +75,7 @@ VALUES (25849, 1, True) /* STUCK_BOOL */
      , (25849, 13, False) /* ETHEREAL_BOOL */
      , (25849, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25849, 2073, 2.03) /* healself7_SpellID */
      , (25849, 3000, 2.015) /* IreDarkPrince_SpellID */
      , (25849, 1611, 2.005) /* LureBlade6_SpellID */
@@ -96,20 +92,20 @@ VALUES (25849, 2073, 2.03) /* healself7_SpellID */
      , (25849, 3003, 2.015) /* DarkWave_SpellID */
      , (25849, 2174, 2.02) /* PiercingVulnerabilityOther7_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25849, 1, 440) /* STRENGTH_ATTRIBUTE */
      , (25849, 2, 450) /* ENDURANCE_ATTRIBUTE */
      , (25849, 4, 440) /* COORDINATION_ATTRIBUTE */
-     , (25849, 8, 440) /* QUICKNESS_ATTRIBUTE */
-     , (25849, 16, 300) /* FOCUS_ATTRIBUTE */
-     , (25849, 32, 300) /* SELF_ATTRIBUTE */;
+     , (25849, 3, 440) /* QUICKNESS_ATTRIBUTE */
+     , (25849, 5, 300) /* FOCUS_ATTRIBUTE */
+     , (25849, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25849, 64, 9775) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25849, 128, 9550) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25849, 256, 7700) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25849, 1, 9775) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25849, 3, 9550) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25849, 5, 7700) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25849, 9, 25904, 1, 0, 1, False) /* Create Atakir's Blade for ContainTreasure_DestinationType */
      , (25849, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (25849, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */

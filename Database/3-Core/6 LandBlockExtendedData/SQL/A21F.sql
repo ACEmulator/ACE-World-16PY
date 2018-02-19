@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7923, 2049044480, 2719940608, 82.1137, 114.245, 387.444, -0.871842, 0, 0, 0.489787) /* linkmonstergen3minutes */
      , (7924, 2049044481, 2719940608, 78.8317, 114.857, 387.291, -0.871842, 0, 0, 0.489787) /* linkmonstergen5minutes */
      , (8137, 2049044482, 2719940608, 81.4841, 115.514, 387.131, -0.871842, 0, 0, 0.489787) /* Tiatus Raider */
@@ -15,19 +15,19 @@ VALUES (7923, 2049044480, 2719940608, 82.1137, 114.245, 387.444, -0.871842, 0, 0
      , (8141, 2049044493, 2719940608, 55.3193, 18.0597, 523.332, 0.953274, 0, 0, -0.302106) /* Lithos Raider */
      , (9411, 2049044494, 2719940608, 78.4849, 111.075, 388.236, 0.941997, 0, 0, -0.335621) /* Linvak Tukal Entryway */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049044481'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2049044480'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2049044481'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2049044480'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049044484'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049044482'; /* linkmonstergen5minutes <- Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049044483'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044485'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044487'; /* linkmonstergen3minutes <- Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044486'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044488'; /* linkmonstergen3minutes <- Obeloth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044490'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044489'; /* linkmonstergen3minutes <- Obeloth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044491'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044492'; /* linkmonstergen3minutes <- Lithos Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2049044493'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049044484'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049044482'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049044483'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044485'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044487'; /* linkmonstergen3minutes <- Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044486'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044488'; /* linkmonstergen3minutes <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044490'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044489'; /* linkmonstergen3minutes <- Obeloth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044491'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044492'; /* linkmonstergen3minutes <- Lithos Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2049044493'; /* linkmonstergen3minutes <- Lithos Raider */
 

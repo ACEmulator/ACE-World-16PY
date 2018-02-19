@@ -1,16 +1,13 @@
 /* Weenie - Burun Ruuk Fiend (27515) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27515;
+DELETE FROM weenie WHERE class_Id = 27515;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27515, 'burunruukfiendvagrant');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27515, 'burunruukfiendvagrant', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27515, 0, 27515);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27515, 1, 'Burun Ruuk Fiend') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27515, 8, 100675761) /* ICON_DID */
      , (27515, 32, 467) /* WIELDED_TREASURE_TYPE_DID */
      , (27515, 1, 33558582) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (27515, 8, 100675761) /* ICON_DID */
      , (27515, 7, 268436789) /* CLOTHINGBASE_DID */
      , (27515, 22, 872415402) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27515, 1, 16) /* ITEM_TYPE_INT */
      , (27515, 2, 75) /* CREATURE_TYPE_INT */
      , (27515, 3, 67) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (27515, 1, 16) /* ITEM_TYPE_INT */
      , (27515, 27, 0) /* ARMOR_TYPE_INT */
      , (27515, 93, 1032) /* PHYSICS_STATE_INT */
      , (27515, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27515, 40, 2) /* COMBAT_MODE_INT */
-     , (27515, 9007, 10) /* Creature_WeenieType */;
+     , (27515, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27515, 64, 0.65) /* RESIST_SLASH_FLOAT */
      , (27515, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (27515, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (27515, 64, 0.65) /* RESIST_SLASH_FLOAT */
      , (27515, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27515, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27515, 1, True) /* STUCK_BOOL */
      , (27515, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27515, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27515, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27515, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (27515, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (27515, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (27515, 8, 360) /* QUICKNESS_ATTRIBUTE */
-     , (27515, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (27515, 32, 100) /* SELF_ATTRIBUTE */;
+     , (27515, 3, 360) /* QUICKNESS_ATTRIBUTE */
+     , (27515, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (27515, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27515, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27515, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27515, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27515, 1, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27515, 3, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27515, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27515, 9, 27526, 0, 0, 0.1, False) /* Create Burun Idol for ContainTreasure_DestinationType */
      , (27515, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 

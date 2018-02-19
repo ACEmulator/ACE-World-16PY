@@ -1,19 +1,16 @@
 /* Weenie - Green Tea Ice Cream (7845) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7845;
+DELETE FROM weenie WHERE class_Id = 7845;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7845, 'icecreamgreentea');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7845, 'icecreamgreentea', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7845, 0, 7845);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7845, 1, 'Green Tea Ice Cream') /* NAME_STRING */
      , (7845, 20, 'Bowls of Green Tea Ice Cream') /* PLURAL_NAME_STRING */
      , (7845, 14, 'Use this item to eat it.') /* USE_STRING */
      , (7845, 15, 'A tempting bowl of cool, pale, green tea ice cream.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7845, 1, 33554668) /* SETUP_DID */
      , (7845, 3, 536870932) /* SOUND_TABLE_DID */
      , (7845, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (7845, 1, 33554668) /* SETUP_DID */
      , (7845, 7, 268436021) /* CLOTHINGBASE_DID */
      , (7845, 8, 100670862) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7845, 9, 0) /* LOCATIONS_INT */
      , (7845, 1, 32) /* ITEM_TYPE_INT */
      , (7845, 13, 60) /* STACK_UNIT_ENCUMB_INT */
@@ -35,9 +32,8 @@ VALUES (7845, 9, 0) /* LOCATIONS_INT */
      , (7845, 19, 140) /* VALUE_INT */
      , (7845, 89, 4) /* BOOSTER_ENUM_INT */
      , (7845, 90, 25) /* BOOST_VALUE_INT */
-     , (7845, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7845, 9007, 18) /* Food_WeenieType */;
+     , (7845, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7845, 69, False) /* IS_SELLABLE_BOOL */;
 

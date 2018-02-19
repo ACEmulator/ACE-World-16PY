@@ -1,17 +1,14 @@
 /* Weenie - Tinkelo Hold Villas Portal Gem (26410) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26410;
+DELETE FROM weenie WHERE class_Id = 26410;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26410, 'gemportaltinkeloholdvillas');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26410, 'gemportaltinkeloholdvillas', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26410, 0, 26410);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26410, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (26410, 1, 'Tinkelo Hold Villas Portal Gem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26410, 1, 33556769) /* SETUP_DID */
      , (26410, 3, 536870932) /* SOUND_TABLE_DID */
      , (26410, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (26410, 1, 33556769) /* SETUP_DID */
      , (26410, 8, 100675760) /* ICON_DID */
      , (26410, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26410, 9, 0) /* LOCATIONS_INT */
      , (26410, 1, 2048) /* ITEM_TYPE_INT */
      , (26410, 11, 20) /* MAX_STACK_SIZE_INT */
@@ -43,10 +40,9 @@ VALUES (26410, 9, 0) /* LOCATIONS_INT */
      , (26410, 107, 50) /* ITEM_CUR_MANA_INT */
      , (26410, 108, 50) /* ITEM_MAX_MANA_INT */
      , (26410, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (26410, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (26410, 9007, 38) /* Gem_WeenieType */;
+     , (26410, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26410, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (26410, 15, True) /* LIGHTS_STATUS_BOOL */;
 

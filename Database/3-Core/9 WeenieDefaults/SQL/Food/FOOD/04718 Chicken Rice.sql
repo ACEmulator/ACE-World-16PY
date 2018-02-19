@@ -1,24 +1,21 @@
 /* Weenie - Chicken Rice (4718) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4718;
+DELETE FROM weenie WHERE class_Id = 4718;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4718, 'chickenrice');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4718, 'chickenrice', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4718, 0, 4718);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4718, 1, 'Chicken Rice') /* NAME_STRING */
      , (4718, 20, 'Bowls of Chicken Rice') /* PLURAL_NAME_STRING */
      , (4718, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4718, 1, 33554668) /* SETUP_DID */
      , (4718, 3, 536870932) /* SOUND_TABLE_DID */
      , (4718, 8, 100669968) /* ICON_DID */
      , (4718, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4718, 9, 0) /* LOCATIONS_INT */
      , (4718, 1, 32) /* ITEM_TYPE_INT */
      , (4718, 13, 75) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (4718, 9, 0) /* LOCATIONS_INT */
      , (4718, 19, 20) /* VALUE_INT */
      , (4718, 89, 4) /* BOOSTER_ENUM_INT */
      , (4718, 90, 12) /* BOOST_VALUE_INT */
-     , (4718, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4718, 9007, 18) /* Food_WeenieType */;
+     , (4718, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4718, 69, False) /* IS_SELLABLE_BOOL */;
 

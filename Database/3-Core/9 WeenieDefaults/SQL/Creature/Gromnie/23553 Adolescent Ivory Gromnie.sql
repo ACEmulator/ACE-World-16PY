@@ -1,16 +1,13 @@
 /* Weenie - Adolescent Ivory Gromnie (23553) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23553;
+DELETE FROM weenie WHERE class_Id = 23553;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23553, 'gromnieivoryadolescent');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23553, 'gromnieivoryadolescent', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23553, 0, 23553);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23553, 1, 'Adolescent Ivory Gromnie') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23553, 1, 33554487) /* SETUP_DID */
      , (23553, 2, 150994971) /* MOTION_TABLE_DID */
      , (23553, 35, 455) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (23553, 1, 33554487) /* SETUP_DID */
      , (23553, 8, 100667938) /* ICON_DID */
      , (23553, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23553, 1, 16) /* ITEM_TYPE_INT */
      , (23553, 2, 15) /* CREATURE_TYPE_INT */
      , (23553, 3, 72) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (23553, 1, 16) /* ITEM_TYPE_INT */
      , (23553, 25, 161) /* LEVEL_INT */
      , (23553, 27, 0) /* ARMOR_TYPE_INT */
      , (23553, 93, 1032) /* PHYSICS_STATE_INT */
-     , (23553, 40, 2) /* COMBAT_MODE_INT */
-     , (23553, 9007, 10) /* Creature_WeenieType */;
+     , (23553, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23553, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23553, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (23553, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (23553, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23553, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (23553, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23553, 1, True) /* STUCK_BOOL */
      , (23553, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (23553, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23553, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (23553, 1, 310) /* STRENGTH_ATTRIBUTE */
      , (23553, 2, 280) /* ENDURANCE_ATTRIBUTE */
      , (23553, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (23553, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (23553, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (23553, 32, 180) /* SELF_ATTRIBUTE */;
+     , (23553, 3, 260) /* QUICKNESS_ATTRIBUTE */
+     , (23553, 5, 180) /* FOCUS_ATTRIBUTE */
+     , (23553, 6, 180) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23553, 64, 4860) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23553, 128, 4720) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23553, 256, 1820) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (23553, 1, 4860) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23553, 3, 4720) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23553, 5, 1820) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23553, 9, 28195, 0, 0, 0.03, False) /* Create Adolescent Ivory Gromnie Eye for ContainTreasure_DestinationType */
      , (23553, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (23553, 9, 28213, 0, 0, 0.03, False) /* Create Ivory Gromnie Wings for ContainTreasure_DestinationType */

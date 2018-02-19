@@ -1,18 +1,15 @@
 /* Weenie - Platinum Spirits (27258) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27258;
+DELETE FROM weenie WHERE class_Id = 27258;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27258, 'gemplatinumspirits');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27258, 'gemplatinumspirits', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27258, 0, 27258);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27258, 16, 'A stein filled to the brim with an odd silver liquid.') /* LONG_DESC_STRING */
      , (27258, 1, 'Platinum Spirits') /* NAME_STRING */
      , (27258, 20, 'Platinum Spirits') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27258, 1, 33554664) /* SETUP_DID */
      , (27258, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (27258, 3, 536870932) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (27258, 1, 33554664) /* SETUP_DID */
      , (27258, 23, 64) /* USE_SOUND_DID */
      , (27258, 28, 3208) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27258, 1, 32) /* ITEM_TYPE_INT */
      , (27258, 13, 75) /* STACK_UNIT_ENCUMB_INT */
      , (27258, 5, 75) /* ENCUMB_VAL_INT */
@@ -38,9 +35,8 @@ VALUES (27258, 1, 32) /* ITEM_TYPE_INT */
      , (27258, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (27258, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27258, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27258, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (27258, 9007, 38) /* Gem_WeenieType */;
+     , (27258, 109, 200) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27258, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

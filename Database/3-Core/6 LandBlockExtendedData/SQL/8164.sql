@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2014724096, 2170814725, 13.76, 107.05, 30.01, -0.707107, 0, 0, -0.707107) /* Door */
      , (4707, 2014724100, 2170814728, 9.55362, 153.031, 23.705, -0.0661127, 0, 0, 0.997812) /* Lu'zura the Shopkeeper */
      , (4632, 2014724097, 2170814464, 20.7223, 107.854, 30.005, -0.707107, 0, 0, -0.707107) /* Yaraq East Training Academy Portal */

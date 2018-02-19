@@ -1,18 +1,15 @@
 /* Weenie - Hangover Cure (23924) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23924;
+DELETE FROM weenie WHERE class_Id = 23924;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23924, 'hangoverpotion');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23924, 'hangoverpotion', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23924, 0, 23924);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23924, 16, 'Ulgrim''s guaranteed Hangover Cure.') /* LONG_DESC_STRING */
      , (23924, 1, 'Hangover Cure') /* NAME_STRING */
      , (23924, 14, 'Use this potion at your own risk. Any claims or guarantees are completely without merit.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23924, 1, 33554603) /* SETUP_DID */
      , (23924, 3, 536870932) /* SOUND_TABLE_DID */
      , (23924, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (23924, 1, 33554603) /* SETUP_DID */
      , (23924, 7, 268435816) /* CLOTHINGBASE_DID */
      , (23924, 8, 100674085) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23924, 9, 0) /* LOCATIONS_INT */
      , (23924, 1, 128) /* ITEM_TYPE_INT */
      , (23924, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -38,6 +35,5 @@ VALUES (23924, 9, 0) /* LOCATIONS_INT */
      , (23924, 151, 11) /* HOOK_TYPE_INT */
      , (23924, 89, 2) /* BOOSTER_ENUM_INT */
      , (23924, 90, 65) /* BOOST_VALUE_INT */
-     , (23924, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23924, 9007, 18) /* Food_WeenieType */;
+     , (23924, 93, 1044) /* PHYSICS_STATE_INT */;
 

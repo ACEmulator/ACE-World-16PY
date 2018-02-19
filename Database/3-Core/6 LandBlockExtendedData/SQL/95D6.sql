@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6889, 2036162575, 2513830151, 84, 65, 100.005, -4.37114E-08, 0, 0, -1) /* Gormling the Sneaky Seneschal */
      , (19128, 2036162577, 2513830154, 92.7036, 66.9635, 110, 0.783219, 0, 0, -0.621746) /* Loom */
      , (218, 2036162562, 2513830158, 75.8179, 60.636, 100.008, -0.707227, 0, 0, -0.706986) /* Black Rat */
@@ -19,15 +19,15 @@ VALUES (6889, 2036162575, 2513830151, 84, 65, 100.005, -4.37114E-08, 0, 0, -1) /
      , (1987, 2036162570, 2513829888, 31.5263, 9.17918, 96.634, 0.768322, 0, 0, 0.640063) /* Ghost Wisp */
      , (3951, 2036162571, 2513829888, 78.6467, 73.0057, 100.005, 0.0445283, 0, 0, -0.999008) /* linkmonstergen1hour */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2036162566'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2036162571'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2036162566'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2036162571'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2036162562'; /* linkmonstergen <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162578'; /* linkmonstergen1hour <- Journeyman Cook */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162570'; /* linkmonstergen1hour <- Ghost Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162572'; /* linkmonstergen1hour <- Lady Tallial */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162573'; /* linkmonstergen1hour <- Yi Yo-Jin */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162575'; /* linkmonstergen1hour <- Gormling the Sneaky Seneschal */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162577'; /* linkmonstergen1hour <- Loom */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2036162565'; /* linkmonstergen1hour <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2036162562'; /* linkmonstergen <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162578'; /* linkmonstergen1hour <- Journeyman Cook */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162570'; /* linkmonstergen1hour <- Ghost Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162572'; /* linkmonstergen1hour <- Lady Tallial */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162573'; /* linkmonstergen1hour <- Yi Yo-Jin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162575'; /* linkmonstergen1hour <- Gormling the Sneaky Seneschal */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162577'; /* linkmonstergen1hour <- Loom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2036162565'; /* linkmonstergen1hour <- Ghost Wisp */
 

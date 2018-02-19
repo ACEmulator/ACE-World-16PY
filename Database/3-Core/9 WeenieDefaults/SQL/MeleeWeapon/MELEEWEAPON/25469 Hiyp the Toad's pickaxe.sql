@@ -1,25 +1,22 @@
 /* Weenie - Hiyp the Toad's pickaxe (25469) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25469;
+DELETE FROM weenie WHERE class_Id = 25469;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25469, 'pickaxerot2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25469, 'pickaxerot2', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25469, 0, 25469);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25469, 16, 'A pickaxe belonging to Hiyp the Toad') /* LONG_DESC_STRING */
      , (25469, 1, 'Hiyp the Toad''s pickaxe') /* NAME_STRING */
      , (25469, 33, 'PickedUpHiypPickaxe') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25469, 1, 33554813) /* SETUP_DID */
      , (25469, 3, 536870932) /* SOUND_TABLE_DID */
      , (25469, 8, 100670275) /* ICON_DID */
      , (25469, 30, 87) /* PHYSICS_SCRIPT_DID */
      , (25469, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25469, 9, 1048576) /* LOCATIONS_INT */
      , (25469, 1, 1) /* ITEM_TYPE_INT */
      , (25469, 93, 1044) /* PHYSICS_STATE_INT */
@@ -37,16 +34,15 @@ VALUES (25469, 9, 1048576) /* LOCATIONS_INT */
      , (25469, 48, 1) /* WEAPON_SKILL_INT */
      , (25469, 49, 60) /* WEAPON_TIME_INT */
      , (25469, 114, 1) /* ATTUNED_INT */
-     , (25469, 51, 1) /* COMBAT_USE_INT */
-     , (25469, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25469, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25469, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25469, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (25469, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (25469, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25469, 22, True) /* INSCRIBABLE_BOOL */
      , (25469, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

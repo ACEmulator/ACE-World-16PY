@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1625, 2048610314, 2712994050, 30.6282, 129.262, 74.017, -0.629581, 0, 0, 0.776935) /* Mountain Rat */
      , (1625, 2048610312, 2712994050, 35.5827, 132.798, 74.017, -0.156975, 0, 0, -0.987603) /* Mountain Rat */
      , (392, 2048610306, 2712994052, 35.5022, 130.429, 77.01, -0.809626, 0, 0, 0.586947) /* rat-generator */
@@ -9,9 +9,9 @@ VALUES (1625, 2048610314, 2712994050, 30.6282, 129.262, 74.017, -0.629581, 0, 0,
      , (7925, 2048610315, 2712993792, 47.5245, 142.249, 74.005, 0.782371, 0, 0, 0.622812) /* linkmonstergen10minutes */
      , (1625, 2048610313, 2712993792, 55.9039, 144.583, 73.3533, 0.982052, 0, 0, 0.188609) /* Mountain Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048610315'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2048610315'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610314'; /* linkmonstergen10minutes <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610313'; /* linkmonstergen10minutes <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048610312'; /* linkmonstergen10minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048610314'; /* linkmonstergen10minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048610313'; /* linkmonstergen10minutes <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048610312'; /* linkmonstergen10minutes <- Mountain Rat */
 

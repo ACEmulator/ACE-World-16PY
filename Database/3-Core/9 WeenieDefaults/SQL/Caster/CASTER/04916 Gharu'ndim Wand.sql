@@ -1,16 +1,13 @@
 /* Weenie - Gharu'ndim Wand (4916) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4916;
+DELETE FROM weenie WHERE class_Id = 4916;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4916, 'newbiewandgharundim');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4916, 'newbiewandgharundim', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4916, 0, 4916);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4916, 1, 'Gharu''ndim Wand') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4916, 1, 33556000) /* SETUP_DID */
      , (4916, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (4916, 3, 536870932) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (4916, 1, 33556000) /* SETUP_DID */
      , (4916, 7, 268435830) /* CLOTHINGBASE_DID */
      , (4916, 8, 100667509) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4916, 9, 16777216) /* LOCATIONS_INT */
      , (4916, 1, 32768) /* ITEM_TYPE_INT */
      , (4916, 19, 10) /* VALUE_INT */
@@ -34,12 +31,11 @@ VALUES (4916, 9, 16777216) /* LOCATIONS_INT */
      , (4916, 93, 1044) /* PHYSICS_STATE_INT */
      , (4916, 94, 16) /* TARGET_TYPE_INT */
      , (4916, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (4916, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (4916, 9007, 35) /* Caster_WeenieType */;
+     , (4916, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4916, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4916, 22, True) /* INSCRIBABLE_BOOL */;
 

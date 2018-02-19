@@ -1,27 +1,24 @@
 /* Weenie - Nakoro Eshii-Shinjo the Provisioner (24219) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24219;
+DELETE FROM weenie WHERE class_Id = 24219;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24219, 'waijhoushopkeep');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24219, 'waijhoushopkeep', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24219, 0, 24219);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24219, 1, 'Nakoro Eshii-Shinjo the Provisioner') /* NAME_STRING */
      , (24219, 3, 'Male') /* SEX_STRING */
      , (24219, 4, 'Sho') /* HERITAGE_GROUP_STRING */
      , (24219, 5, 'Provisioner') /* TEMPLATE_STRING */
      , (24219, 24, 'WaiJhou') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24219, 1, 33554433) /* SETUP_DID */
      , (24219, 2, 150994945) /* MOTION_TABLE_DID */
      , (24219, 3, 536870913) /* SOUND_TABLE_DID */
      , (24219, 4, 805306368) /* COMBAT_TABLE_DID */
      , (24219, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24219, 1, 16) /* ITEM_TYPE_INT */
      , (24219, 74, 1208250287) /* MERCHANDISE_ITEM_TYPES_INT */
      , (24219, 2, 31) /* CREATURE_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (24219, 1, 16) /* ITEM_TYPE_INT */
      , (24219, 27, 0) /* ARMOR_TYPE_INT */
      , (24219, 93, 2098200) /* PHYSICS_STATE_INT */
      , (24219, 126, 250) /* VENDOR_HAPPY_MEAN_INT */
-     , (24219, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (24219, 9007, 12) /* Vendor_WeenieType */;
+     , (24219, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24219, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24219, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (24219, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (24219, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24219, 54, 3) /* USE_RADIUS_FLOAT */
      , (24219, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24219, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24219, 1, True) /* STUCK_BOOL */
      , (24219, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -81,20 +77,20 @@ VALUES (24219, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24219, 13, False) /* ETHEREAL_BOOL */
      , (24219, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24219, 1, 75) /* STRENGTH_ATTRIBUTE */
      , (24219, 2, 65) /* ENDURANCE_ATTRIBUTE */
      , (24219, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (24219, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (24219, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (24219, 32, 50) /* SELF_ATTRIBUTE */;
+     , (24219, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (24219, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (24219, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24219, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24219, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24219, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24219, 1, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24219, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24219, 5, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24219, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationType */
      , (24219, 2, 117, 0, 14, 0.8, False) /* Create Breeches for Wield_DestinationType */
      , (24219, 2, 115, 0, 9, 0.5, False) /* Create Leather Boots for Wield_DestinationType */
@@ -162,7 +158,7 @@ VALUES (24219, 2, 124, 0, 9, 0.5, False) /* Create Jerkin for Wield_DestinationT
      , (24219, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) for Shop_DestinationType */
      , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) for Shop_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24219, -1, 2463, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Milk (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */
      , (24219, -1, 4746, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Water (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */
      , (24219, -1, 4761, 60, 25, 75, 2, 32, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Flour (x25 up to max of 75) - PickUp_RegenerationType - Shop_RegenLocationType */;

@@ -1,18 +1,15 @@
 /* Weenie - Siraluun Matihao (11365) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11365;
+DELETE FROM weenie WHERE class_Id = 11365;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11365, 'matihaosiraluun-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11365, 'matihaosiraluun-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11365, 0, 11365);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11365, 16, 'A matihao crafted with the guidance of Siraluun') /* LONG_DESC_STRING */
      , (11365, 1, 'Siraluun Matihao') /* NAME_STRING */
      , (11365, 15, 'A matihao crafted with the guidance of Siraluun') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11365, 1, 33557229) /* SETUP_DID */
      , (11365, 3, 536870932) /* SOUND_TABLE_DID */
      , (11365, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (11365, 1, 33557229) /* SETUP_DID */
      , (11365, 8, 100671864) /* ICON_DID */
      , (11365, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11365, 9, 1048576) /* LOCATIONS_INT */
      , (11365, 1, 1) /* ITEM_TYPE_INT */
      , (11365, 5, 500) /* ENCUMB_VAL_INT */
@@ -45,21 +42,20 @@ VALUES (11365, 9, 1048576) /* LOCATIONS_INT */
      , (11365, 49, 20) /* WEAPON_TIME_INT */
      , (11365, 114, 0) /* ATTUNED_INT */
      , (11365, 51, 1) /* COMBAT_USE_INT */
-     , (11365, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (11365, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11365, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11365, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (11365, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
      , (11365, 5, -0.03) /* MANA_RATE_FLOAT */
      , (11365, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (11365, 22, 0.66) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11365, 22, True) /* INSCRIBABLE_BOOL */
      , (11365, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11365, 1614, 2) /* BloodDrinker4_SpellID */
      , (11365, 440, 2) /* UnarmedCombatMasteryOther4_SpellID */
      , (11365, 1405, 2) /* QuicknessOther3_SpellID */;

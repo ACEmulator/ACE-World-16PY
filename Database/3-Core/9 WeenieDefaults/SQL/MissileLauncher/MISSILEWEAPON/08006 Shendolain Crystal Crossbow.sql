@@ -1,18 +1,15 @@
 /* Weenie - Shendolain Crystal Crossbow (8006) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8006;
+DELETE FROM weenie WHERE class_Id = 8006;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8006, 'crossbowcrystalshen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8006, 'crossbowcrystalshen', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8006, 0, 8006);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8006, 16, 'A crossbow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped quarrels.') /* LONG_DESC_STRING */
      , (8006, 1, 'Shendolain Crystal Crossbow') /* NAME_STRING */
      , (8006, 15, 'A crossbow imbued with the essence of the Shendolain Crystal. Uses crystal-tipped quarrels.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8006, 1, 33554733) /* SETUP_DID */
      , (8006, 3, 536870932) /* SOUND_TABLE_DID */
      , (8006, 37, 3) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (8006, 1, 33554733) /* SETUP_DID */
      , (8006, 7, 268436042) /* CLOTHINGBASE_DID */
      , (8006, 8, 100671008) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8006, 9, 4194304) /* LOCATIONS_INT */
      , (8006, 1, 256) /* ITEM_TYPE_INT */
      , (8006, 19, 4000) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (8006, 9, 4194304) /* LOCATIONS_INT */
      , (8006, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (8006, 52, 2) /* PARENT_LOCATION_INT */
      , (8006, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (8006, 60, 180) /* WEAPON_RANGE_INT */
-     , (8006, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (8006, 60, 180) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8006, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (8006, 5, -0.05) /* MANA_RATE_FLOAT */
      , (8006, 63, 2.4) /* DAMAGE_MOD_FLOAT */
@@ -59,11 +55,11 @@ VALUES (8006, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (8006, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (8006, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8006, 22, True) /* INSCRIBABLE_BOOL */
      , (8006, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8006, 1615, 2) /* BloodDrinker5_SpellID */
      , (8006, 1626, 2) /* SwiftKiller5_SpellID */
      , (8006, 489, 2) /* CrossBowMasteryOther5_SpellID */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (911, 1972473874, 1494810884, 82.7923, 139.346, -6.34, -0.999876, 0, 0, 0.0157244) /* lichgenerator */
      , (965, 1972473873, 1494810884, 84.6273, 140.855, -6.34, -0.999876, 0, 0, 0.0157244) /* zombiegen */
      , (965, 1972473872, 1494810884, 84.3679, 144.944, -6.34, -0.999876, 0, 0, 0.0157244) /* zombiegen */
@@ -19,17 +19,17 @@ VALUES (911, 1972473874, 1494810884, 82.7923, 139.346, -6.34, -0.999876, 0, 0, 0
      , (2439, 1972473866, 1494810624, 99.5652, 161.674, 0.005, 0.85385, 0, 0, 0.520519) /* Tumerok Fighter */
      , (233, 1972473867, 1494810624, 100.808, 159.496, 0.005, 0.85385, 0, 0, 0.520519) /* Tumerok Warrior */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1972473864'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972473864'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473856'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473857'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473858'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473859'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473860'; /* linkmonstergen <- Tumerok Priest */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473861'; /* linkmonstergen <- Tumerok Priest */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473862'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473863'; /* linkmonstergen <- Tumerok Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473865'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473866'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972473867'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473856'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473857'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473858'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473859'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473860'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473861'; /* linkmonstergen <- Tumerok Priest */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473862'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473863'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473865'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473866'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972473867'; /* linkmonstergen <- Tumerok Warrior */
 

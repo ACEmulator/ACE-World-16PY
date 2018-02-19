@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (979, 2037886994, 2541420800, 151.2, 175.2, 0.005, 0.716302, 0, 0, -0.69779) /* Healer Burah bint Fathlan */
      , (1148, 2037886976, 2541420803, 151.405, 187.606, 0, -1, 0, 0, 0) /* Door */
      , (980, 2037886993, 2541420806, 160.08, 188.64, 0.005, 0.243615, 0, 0, -0.969872) /* Jeweler Fathlan ibn Nuril */
@@ -55,8 +55,8 @@ VALUES (979, 2037886994, 2541420800, 151.2, 175.2, 0.005, 0.716302, 0, 0, -0.697
      , (4770, 2037887006, 2541420544, 169.143, 174.213, 0.00500005, 0.529507, 0, 0, 0.848306) /* collectorgharundimgen */
      , (635, 2037887007, 2541420544, 156.925, 172.749, 0.005, -0.751475, 0, 0, -0.659762) /* Healer */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2037887015'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2037887015'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887014'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2037887049'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037887014'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2037887049'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

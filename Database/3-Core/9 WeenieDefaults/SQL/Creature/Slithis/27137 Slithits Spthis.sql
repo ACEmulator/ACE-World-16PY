@@ -1,16 +1,13 @@
 /* Weenie - Slithits Spthis (27137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27137;
+DELETE FROM weenie WHERE class_Id = 27137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27137, 'slithitsspthis');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27137, 'slithitsspthis', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27137, 0, 27137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27137, 1, 'Slithits Spthis') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27137, 1, 33555670) /* SETUP_DID */
      , (27137, 2, 150995067) /* MOTION_TABLE_DID */
      , (27137, 35, 462) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (27137, 1, 33555670) /* SETUP_DID */
      , (27137, 7, 268436087) /* CLOTHINGBASE_DID */
      , (27137, 8, 100671186) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27137, 1, 16) /* ITEM_TYPE_INT */
      , (27137, 146, 14954) /* XP_OVERRIDE_INT */
      , (27137, 2, 36) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (27137, 1, 16) /* ITEM_TYPE_INT */
      , (27137, 27, 0) /* ARMOR_TYPE_INT */
      , (27137, 93, 1032) /* PHYSICS_STATE_INT */
      , (27137, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27137, 40, 2) /* COMBAT_MODE_INT */
-     , (27137, 9007, 10) /* Creature_WeenieType */;
+     , (27137, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27137, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (27137, 65, 0.1) /* RESIST_PIERCE_FLOAT */
      , (27137, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (27137, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (27137, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27137, 31, 30) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27137, 1, True) /* STUCK_BOOL */
      , (27137, 6, False) /* AI_USES_MANA_BOOL */
      , (27137, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,19 +78,19 @@ VALUES (27137, 1, True) /* STUCK_BOOL */
      , (27137, 13, False) /* ETHEREAL_BOOL */
      , (27137, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27137, 1174, 2.25) /* HarmOther4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27137, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (27137, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (27137, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (27137, 8, 190) /* QUICKNESS_ATTRIBUTE */
-     , (27137, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (27137, 32, 230) /* SELF_ATTRIBUTE */;
+     , (27137, 3, 190) /* QUICKNESS_ATTRIBUTE */
+     , (27137, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (27137, 6, 230) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27137, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27137, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27137, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27137, 1, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27137, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27137, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 

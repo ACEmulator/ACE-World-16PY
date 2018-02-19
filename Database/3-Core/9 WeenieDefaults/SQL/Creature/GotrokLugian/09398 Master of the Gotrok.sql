@@ -1,16 +1,13 @@
 /* Weenie - Master of the Gotrok (9398) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9398;
+DELETE FROM weenie WHERE class_Id = 9398;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9398, 'lugiancommanderc');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9398, 'lugiancommanderc', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9398, 0, 9398);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9398, 1, 'Master of the Gotrok') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9398, 8, 100667447) /* ICON_DID */
      , (9398, 32, 321) /* WIELDED_TREASURE_TYPE_DID */
      , (9398, 1, 33557003) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (9398, 8, 100667447) /* ICON_DID */
      , (9398, 7, 268436795) /* CLOTHINGBASE_DID */
      , (9398, 22, 872415262) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9398, 1, 16) /* ITEM_TYPE_INT */
      , (9398, 2, 70) /* CREATURE_TYPE_INT */
      , (9398, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (9398, 1, 16) /* ITEM_TYPE_INT */
      , (9398, 27, 0) /* ARMOR_TYPE_INT */
      , (9398, 93, 1032) /* PHYSICS_STATE_INT */
      , (9398, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (9398, 40, 2) /* COMBAT_MODE_INT */
-     , (9398, 9007, 10) /* Creature_WeenieType */;
+     , (9398, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9398, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (9398, 65, 0.66) /* RESIST_PIERCE_FLOAT */
      , (9398, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (9398, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (9398, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (9398, 31, 23) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9398, 1, True) /* STUCK_BOOL */
      , (9398, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (9398, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9398, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9398, 1, 280) /* STRENGTH_ATTRIBUTE */
      , (9398, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (9398, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (9398, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (9398, 16, 130) /* FOCUS_ATTRIBUTE */
-     , (9398, 32, 160) /* SELF_ATTRIBUTE */;
+     , (9398, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (9398, 5, 130) /* FOCUS_ATTRIBUTE */
+     , (9398, 6, 160) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9398, 64, 535) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9398, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9398, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9398, 1, 535) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9398, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9398, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9398, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (9398, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (9398, 9, 9394, 0, 0, 1, False) /* Create Lugian Pauldron for ContainTreasure_DestinationType */

@@ -1,17 +1,14 @@
 /* Weenie - Assault Cestus (23910) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23910;
+DELETE FROM weenie WHERE class_Id = 23910;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23910, 'cestustumerokwar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23910, 'cestustumerokwar', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23910, 0, 23910);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23910, 16, 'A reward for defeating the leaders of the Serpent Clan.') /* LONG_DESC_STRING */
      , (23910, 1, 'Assault Cestus') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23910, 1, 33558207) /* SETUP_DID */
      , (23910, 3, 536870932) /* SOUND_TABLE_DID */
      , (23910, 37, 13) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (23910, 1, 33558207) /* SETUP_DID */
      , (23910, 7, 268436199) /* CLOTHINGBASE_DID */
      , (23910, 8, 100671744) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23910, 9, 1048576) /* LOCATIONS_INT */
      , (23910, 1, 1) /* ITEM_TYPE_INT */
      , (23910, 19, 5000) /* VALUE_INT */
@@ -48,10 +45,9 @@ VALUES (23910, 9, 1048576) /* LOCATIONS_INT */
      , (23910, 48, 13) /* WEAPON_SKILL_INT */
      , (23910, 49, 25) /* WEAPON_TIME_INT */
      , (23910, 51, 1) /* COMBAT_USE_INT */
-     , (23910, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23910, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23910, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23910, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (23910, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (23910, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -60,12 +56,12 @@ VALUES (23910, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (23910, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
      , (23910, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23910, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (23910, 15, True) /* LIGHTS_STATUS_BOOL */
      , (23910, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23910, 1590, 2) /* HeartSeeker4_SpellID */
      , (23910, 1331, 2) /* StrengthSelf5_SpellID */
      , (23910, 1614, 2) /* BloodDrinker4_SpellID */

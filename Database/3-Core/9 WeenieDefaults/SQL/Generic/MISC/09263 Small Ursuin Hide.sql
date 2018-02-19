@@ -1,18 +1,15 @@
 /* Weenie - Small Ursuin Hide (9263) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9263;
+DELETE FROM weenie WHERE class_Id = 9263;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9263, 'ursuinhidesmallspring');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9263, 'ursuinhidesmallspring', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9263, 0, 9263);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9263, 16, 'A Small Ursuin hide.') /* LONG_DESC_STRING */
      , (9263, 1, 'Small Ursuin Hide') /* NAME_STRING */
      , (9263, 15, 'A Small Ursuin hide.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9263, 1, 33554817) /* SETUP_DID */
      , (9263, 3, 536870932) /* SOUND_TABLE_DID */
      , (9263, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9263, 1, 33554817) /* SETUP_DID */
      , (9263, 7, 268435832) /* CLOTHINGBASE_DID */
      , (9263, 8, 100671412) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9263, 9, 0) /* LOCATIONS_INT */
      , (9263, 1, 128) /* ITEM_TYPE_INT */
      , (9263, 19, 0) /* VALUE_INT */
@@ -30,13 +27,12 @@ VALUES (9263, 9, 0) /* LOCATIONS_INT */
      , (9263, 8, 100) /* MASS_INT */
      , (9263, 150, 103) /* HOOK_PLACEMENT_INT */
      , (9263, 151, 1) /* HOOK_TYPE_INT */
-     , (9263, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9263, 9007, 1) /* Generic_WeenieType */;
+     , (9263, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9263, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9263, 22, True) /* INSCRIBABLE_BOOL */
      , (9263, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

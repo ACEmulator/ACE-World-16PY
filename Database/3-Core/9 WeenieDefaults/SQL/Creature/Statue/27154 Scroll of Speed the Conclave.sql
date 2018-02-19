@@ -1,17 +1,14 @@
 /* Weenie - Scroll of Speed the Conclave (27154) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27154;
+DELETE FROM weenie WHERE class_Id = 27154;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27154, 'scrollquicknessnpc');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27154, 'scrollquicknessnpc', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27154, 0, 27154);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27154, 1, 'Scroll of Speed the Conclave') /* NAME_STRING */
      , (27154, 15, 'This scroll appears to have a spell to enhance the Quickness of a fellowship etched upon the flesh-like paper.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27154, 1, 33558637) /* SETUP_DID */
      , (27154, 2, 150995273) /* MOTION_TABLE_DID */
      , (27154, 3, 536871052) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27154, 1, 33558637) /* SETUP_DID */
      , (27154, 8, 100675919) /* ICON_DID */
      , (27154, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27154, 1, 16) /* ITEM_TYPE_INT */
      , (27154, 146, 13410) /* XP_OVERRIDE_INT */
      , (27154, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (27154, 1, 16) /* ITEM_TYPE_INT */
      , (27154, 25, 171) /* LEVEL_INT */
      , (27154, 27, 0) /* ARMOR_TYPE_INT */
      , (27154, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (27154, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (27154, 9007, 10) /* Creature_WeenieType */;
+     , (27154, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27154, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27154, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (27154, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -64,7 +60,7 @@ VALUES (27154, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27154, 54, 3) /* USE_RADIUS_FLOAT */
      , (27154, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27154, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (27154, 1, True) /* STUCK_BOOL */
      , (27154, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -75,16 +71,16 @@ VALUES (27154, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (27154, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (27154, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27154, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (27154, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (27154, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (27154, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (27154, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (27154, 32, 285) /* SELF_ATTRIBUTE */;
+     , (27154, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (27154, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (27154, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27154, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27154, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27154, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27154, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27154, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27154, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

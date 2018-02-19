@@ -1,16 +1,13 @@
 /* Weenie - High Tumerok (6006) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6006;
+DELETE FROM weenie WHERE class_Id = 6006;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6006, 'tumerokcaptainarchernofall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6006, 'tumerokcaptainarchernofall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6006, 0, 6006);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6006, 1, 'High Tumerok') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6006, 8, 100667452) /* ICON_DID */
      , (6006, 32, 195) /* WIELDED_TREASURE_TYPE_DID */
      , (6006, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (6006, 8, 100667452) /* ICON_DID */
      , (6006, 7, 268436630) /* CLOTHINGBASE_DID */
      , (6006, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6006, 1, 16) /* ITEM_TYPE_INT */
      , (6006, 2, 6) /* CREATURE_TYPE_INT */
      , (6006, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (6006, 1, 16) /* ITEM_TYPE_INT */
      , (6006, 25, 53) /* LEVEL_INT */
      , (6006, 27, 0) /* ARMOR_TYPE_INT */
      , (6006, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (6006, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6006, 9007, 10) /* Creature_WeenieType */;
+     , (6006, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6006, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6006, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (6006, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (6006, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6006, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6006, 31, 30) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6006, 1, True) /* STUCK_BOOL */
      , (6006, 6, True) /* AI_USES_MANA_BOOL */
      , (6006, 50, True) /* NEVER_FAIL_CASTING_BOOL */
@@ -82,7 +78,7 @@ VALUES (6006, 1, True) /* STUCK_BOOL */
      , (6006, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6006, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6006, 68, 2.014) /* ShockWave5_SpellID */
      , (6006, 259, 2.004) /* ImpregnabilitySelf4_SpellID */
      , (6006, 265, 2.007) /* DefenselessnessOther4_SpellID */
@@ -107,20 +103,20 @@ VALUES (6006, 68, 2.014) /* ShockWave5_SpellID */
      , (6006, 1400, 2.004) /* QuicknessSelf4_SpellID */
      , (6006, 62, 2.014) /* AcidStream5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6006, 1, 170) /* STRENGTH_ATTRIBUTE */
      , (6006, 2, 180) /* ENDURANCE_ATTRIBUTE */
      , (6006, 4, 165) /* COORDINATION_ATTRIBUTE */
-     , (6006, 8, 170) /* QUICKNESS_ATTRIBUTE */
-     , (6006, 16, 145) /* FOCUS_ATTRIBUTE */
-     , (6006, 32, 140) /* SELF_ATTRIBUTE */;
+     , (6006, 3, 170) /* QUICKNESS_ATTRIBUTE */
+     , (6006, 5, 145) /* FOCUS_ATTRIBUTE */
+     , (6006, 6, 140) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6006, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6006, 128, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6006, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6006, 1, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6006, 3, 129) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6006, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6006, 8, 301, 0, 0, 0.14, False) /* Create Battle Axe for Treasure_DestinationType */
      , (6006, 8, 350, 0, 0, 0.07, False) /* Create Broad Sword for Treasure_DestinationType */
      , (6006, 8, 324, 0, 0, 0.06, False) /* Create Kaskara for Treasure_DestinationType */

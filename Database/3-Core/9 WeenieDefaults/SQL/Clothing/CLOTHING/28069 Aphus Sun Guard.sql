@@ -1,19 +1,16 @@
 /* Weenie - Aphus Sun Guard (28069) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28069;
+DELETE FROM weenie WHERE class_Id = 28069;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28069, 'hatxuut');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28069, 'hatxuut', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28069, 0, 28069);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28069, 8, 'Xuut') /* SCRIBE_NAME_STRING */
      , (28069, 16, 'A wonderfully crafted hat that affords a great deal of protection from the bright sun. Thin veins of pyreal have been worked into the weave.') /* LONG_DESC_STRING */
      , (28069, 1, 'Aphus Sun Guard') /* NAME_STRING */
      , (28069, 7, 'Island Wear by Xuut') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28069, 1, 33558881) /* SETUP_DID */
      , (28069, 3, 536870932) /* SOUND_TABLE_DID */
      , (28069, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (28069, 1, 33558881) /* SETUP_DID */
      , (28069, 7, 268436844) /* CLOTHINGBASE_DID */
      , (28069, 8, 100668247) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28069, 9, 1) /* LOCATIONS_INT */
      , (28069, 1, 4) /* ITEM_TYPE_INT */
      , (28069, 19, 6000) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (28069, 9, 1) /* LOCATIONS_INT */
      , (28069, 106, 250) /* ITEM_SPELLCRAFT_INT */
      , (28069, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (28069, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (28069, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (28069, 9007, 2) /* Clothing_WeenieType */;
+     , (28069, 109, 100) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28069, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28069, 5, -0.025) /* MANA_RATE_FLOAT */
      , (28069, 12, 0.66) /* SHADE_FLOAT */
@@ -53,9 +49,9 @@ VALUES (28069, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28069, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (28069, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28069, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28069, 1317, 2) /* ArmorOther6_SpellID */;
 

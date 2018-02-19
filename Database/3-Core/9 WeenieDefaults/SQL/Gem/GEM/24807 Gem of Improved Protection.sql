@@ -1,18 +1,15 @@
 /* Weenie - Gem of Improved Protection (24807) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24807;
+DELETE FROM weenie WHERE class_Id = 24807;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24807, 'gemarmorpro5');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24807, 'gemarmorpro5', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24807, 0, 24807);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24807, 1, 'Gem of Improved Protection') /* NAME_STRING */
      , (24807, 20, 'Gems of Improved Protection') /* PLURAL_NAME_STRING */
      , (24807, 15, 'A gem that will cast Armor Other V on anyone who uses it. The gem will be destroyed in the process.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24807, 1, 33554809) /* SETUP_DID */
      , (24807, 3, 536870932) /* SOUND_TABLE_DID */
      , (24807, 28, 1316) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (24807, 1, 33554809) /* SETUP_DID */
      , (24807, 7, 268435723) /* CLOTHINGBASE_DID */
      , (24807, 8, 100674440) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24807, 9, 0) /* LOCATIONS_INT */
      , (24807, 1, 2048) /* ITEM_TYPE_INT */
      , (24807, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (24807, 9, 0) /* LOCATIONS_INT */
      , (24807, 107, 100) /* ITEM_CUR_MANA_INT */
      , (24807, 108, 200) /* ITEM_MAX_MANA_INT */
      , (24807, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (24807, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (24807, 9007, 38) /* Gem_WeenieType */;
+     , (24807, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24807, 69, False) /* IS_SELLABLE_BOOL */
      , (24807, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

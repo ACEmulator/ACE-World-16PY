@@ -1,16 +1,13 @@
 /* Weenie - Large Round Shield (94) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 94;
+DELETE FROM weenie WHERE class_Id = 94;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (94, 'shieldroundlarge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (94, 'shieldroundlarge', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (94, 0, 94);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (94, 1, 'Large Round Shield') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (94, 1, 33554786) /* SETUP_DID */
      , (94, 3, 536870932) /* SOUND_TABLE_DID */
      , (94, 36, 234881043) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (94, 1, 33554786) /* SETUP_DID */
      , (94, 7, 268435602) /* CLOTHINGBASE_DID */
      , (94, 8, 100667361) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (94, 9, 2097152) /* LOCATIONS_INT */
      , (94, 1, 2) /* ITEM_TYPE_INT */
      , (94, 19, 210) /* VALUE_INT */
@@ -34,10 +31,9 @@ VALUES (94, 9, 2097152) /* LOCATIONS_INT */
      , (94, 28, 40) /* ARMOR_LEVEL_INT */
      , (94, 93, 1044) /* PHYSICS_STATE_INT */
      , (94, 169, 134285060) /* TSYS_MUTATION_DATA_INT */
-     , (94, 51, 4) /* COMBAT_USE_INT */
-     , (94, 9007, 1) /* Generic_WeenieType */;
+     , (94, 51, 4) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (94, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (94, 111, 1.1) /* SIZE_MOD_FLOAT */
      , (94, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
@@ -49,6 +45,6 @@ VALUES (94, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (94, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (94, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (94, 22, True) /* INSCRIBABLE_BOOL */;
 

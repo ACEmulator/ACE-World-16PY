@@ -1,18 +1,15 @@
 /* Weenie - Water of Ithaenc (8997) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8997;
+DELETE FROM weenie WHERE class_Id = 8997;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8997, 'wateradja');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8997, 'wateradja', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8997, 0, 8997);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8997, 16, 'A bucket of water from the well beside the Cathedral of Ithaenc.') /* LONG_DESC_STRING */
      , (8997, 1, 'Water of Ithaenc') /* NAME_STRING */
      , (8997, 15, 'A bucket of water.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8997, 1, 33554605) /* SETUP_DID */
      , (8997, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (8997, 3, 536870932) /* SOUND_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (8997, 1, 33554605) /* SETUP_DID */
      , (8997, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (8997, 23, 65) /* USE_SOUND_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8997, 9, 0) /* LOCATIONS_INT */
      , (8997, 1, 32) /* ITEM_TYPE_INT */
      , (8997, 13, 60) /* STACK_UNIT_ENCUMB_INT */
@@ -43,13 +40,12 @@ VALUES (8997, 9, 0) /* LOCATIONS_INT */
      , (8997, 107, 30) /* ITEM_CUR_MANA_INT */
      , (8997, 108, 30) /* ITEM_MAX_MANA_INT */
      , (8997, 109, 10) /* ITEM_DIFFICULTY_INT */
-     , (8997, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8997, 9007, 38) /* Gem_WeenieType */;
+     , (8997, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8997, 39, 1.3) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8997, 69, False) /* IS_SELLABLE_BOOL */
      , (8997, 22, True) /* INSCRIBABLE_BOOL */
      , (8997, 23, True) /* DESTROY_ON_SELL_BOOL */;

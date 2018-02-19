@@ -1,35 +1,31 @@
 /* Weenie - lowcentralmountainsgen (7890) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7890;
+DELETE FROM weenie WHERE class_Id = 7890;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7890, 'lowcentralmountainsgen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7890, 'lowcentralmountainsgen', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7890, 0, 7890);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7890, 1, 'lowcentralmountainsgen') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7890, 1, 33555051) /* SETUP_DID */
      , (7890, 8, 100667494) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7890, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
      , (7890, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (7890, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7890, 9007, 1) /* Generic_WeenieType */;
+     , (7890, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7890, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
      , (7890, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7890, 1, True) /* STUCK_BOOL */
      , (7890, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (7890, 18, True) /* VISIBILITY_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7890, 0.037, 4372, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate tuskerhighcampgen (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (7890, 0.062, 1627, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Tusker Crimsonback (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (7890, 0.082, 12036, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate tuskergoldenbackcampgen (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

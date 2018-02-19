@@ -1,18 +1,15 @@
 /* Weenie - Olthoi Gland (25270) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25270;
+DELETE FROM weenie WHERE class_Id = 25270;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25270, 'glandolthoid1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25270, 'glandolthoid1', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25270, 0, 25270);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25270, 16, 'This gland was taken from a fallen Olthoi Queen. It is unclear whether it was successfully extracted from the dead creature.') /* LONG_DESC_STRING */
      , (25270, 1, 'Olthoi Gland') /* NAME_STRING */
      , (25270, 33, 'GlandCollected') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25270, 1, 33554809) /* SETUP_DID */
      , (25270, 3, 536870932) /* SOUND_TABLE_DID */
      , (25270, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (25270, 1, 33554809) /* SETUP_DID */
      , (25270, 7, 268435723) /* CLOTHINGBASE_DID */
      , (25270, 8, 100674711) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25270, 9, 0) /* LOCATIONS_INT */
      , (25270, 1, 2048) /* ITEM_TYPE_INT */
      , (25270, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -39,9 +36,8 @@ VALUES (25270, 9, 0) /* LOCATIONS_INT */
      , (25270, 93, 1044) /* PHYSICS_STATE_INT */
      , (25270, 33, 1) /* BONDED_INT */
      , (25270, 37, 10) /* RESIST_ITEM_APPRAISAL_INT */
-     , (25270, 114, 1) /* ATTUNED_INT */
-     , (25270, 9007, 38) /* Gem_WeenieType */;
+     , (25270, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25270, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Broken Staff (5936) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5936;
+DELETE FROM weenie WHERE class_Id = 5936;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5936, 'staffbrokenimpious');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5936, 'staffbrokenimpious', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5936, 0, 5936);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5936, 16, 'This staff is crafted from a strange alloy. The staff is clearly broken. There are several areas where the alloy has been exposed to corrosives.') /* LONG_DESC_STRING */
      , (5936, 1, 'Broken Staff') /* NAME_STRING */
      , (5936, 15, 'This staff is crafted from an unknown material. Something about the staff doesn''t seem right.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5936, 1, 33555022) /* SETUP_DID */
      , (5936, 3, 536870932) /* SOUND_TABLE_DID */
      , (5936, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (5936, 1, 33555022) /* SETUP_DID */
      , (5936, 7, 268435796) /* CLOTHINGBASE_DID */
      , (5936, 8, 100668702) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5936, 9, 0) /* LOCATIONS_INT */
      , (5936, 1, 32768) /* ITEM_TYPE_INT */
      , (5936, 19, 1) /* VALUE_INT */
@@ -33,13 +30,12 @@ VALUES (5936, 9, 0) /* LOCATIONS_INT */
      , (5936, 151, 2) /* HOOK_TYPE_INT */
      , (5936, 93, 1044) /* PHYSICS_STATE_INT */
      , (5936, 33, 1) /* BONDED_INT */
-     , (5936, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (5936, 9007, 1) /* Generic_WeenieType */;
+     , (5936, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5936, 12, 0.8) /* SHADE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5936, 22, True) /* INSCRIBABLE_BOOL */
      , (5936, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Shadow Governess (8541) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8541;
+DELETE FROM weenie WHERE class_Id = 8541;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8541, 'shadowlieutenantpiper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8541, 'shadowlieutenantpiper', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8541, 0, 8541);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8541, 1, 'Shadow Governess') /* NAME_STRING */
      , (8541, 3, 'Female') /* SEX_STRING */
      , (8541, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8541, 8, 100670397) /* ICON_DID */
      , (8541, 32, 175) /* WIELDED_TREASURE_TYPE_DID */
      , (8541, 1, 33556251) /* SETUP_DID */
@@ -24,7 +21,7 @@ VALUES (8541, 8, 100670397) /* ICON_DID */
      , (8541, 7, 268435871) /* CLOTHINGBASE_DID */
      , (8541, 22, 872415331) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8541, 1, 16) /* ITEM_TYPE_INT */
      , (8541, 2, 22) /* CREATURE_TYPE_INT */
      , (8541, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (8541, 1, 16) /* ITEM_TYPE_INT */
      , (8541, 25, 58) /* LEVEL_INT */
      , (8541, 27, 0) /* ARMOR_TYPE_INT */
      , (8541, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (8541, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (8541, 9007, 10) /* Creature_WeenieType */;
+     , (8541, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8541, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8541, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (8541, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,7 +74,7 @@ VALUES (8541, 64, 1) /* RESIST_SLASH_FLOAT */
      , (8541, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8541, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8541, 1, True) /* STUCK_BOOL */
      , (8541, 6, True) /* AI_USES_MANA_BOOL */
      , (8541, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
@@ -86,7 +82,7 @@ VALUES (8541, 1, True) /* STUCK_BOOL */
      , (8541, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8541, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8541, 1668, 2.009) /* StaminatoHealthSelf5_SpellID */
      , (8541, 145, 2.005) /* FlameVolley5_SpellID */
      , (8541, 153, 2.005) /* BladeVolley5_SpellID */
@@ -108,19 +104,19 @@ VALUES (8541, 1668, 2.009) /* StaminatoHealthSelf5_SpellID */
      , (8541, 233, 2.01) /* VulnerabilityOther5_SpellID */
      , (8541, 1264, 2.009) /* DrainMana5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8541, 1, 170) /* STRENGTH_ATTRIBUTE */
      , (8541, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (8541, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (8541, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (8541, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (8541, 32, 200) /* SELF_ATTRIBUTE */;
+     , (8541, 3, 210) /* QUICKNESS_ATTRIBUTE */
+     , (8541, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (8541, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8541, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8541, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8541, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8541, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8541, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8541, 5, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8541, 1, 8522, 0, 0, 1, False) /* Create Split Silver Key for Contain_DestinationType */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Directive Keyring (23195) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23195;
+DELETE FROM weenie WHERE class_Id = 23195;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23195, 'keyringdirective');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23195, 'keyringdirective', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23195, 0, 23195);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23195, 16, 'A crude keyring roughly carved out of a glacial golem heart. ') /* LONG_DESC_STRING */
      , (23195, 1, 'Directive Keyring') /* NAME_STRING */
      , (23195, 14, 'Use this ring on a directive key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23195, 1, 33554790) /* SETUP_DID */
      , (23195, 3, 536870932) /* SOUND_TABLE_DID */
      , (23195, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23195, 1, 33554790) /* SETUP_DID */
      , (23195, 7, 268435782) /* CLOTHINGBASE_DID */
      , (23195, 8, 100673996) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23195, 9, 0) /* LOCATIONS_INT */
      , (23195, 1, 128) /* ITEM_TYPE_INT */
      , (23195, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,13 +35,12 @@ VALUES (23195, 9, 0) /* LOCATIONS_INT */
      , (23195, 91, 50) /* MAX_STRUCTURE_INT */
      , (23195, 92, 50) /* STRUCTURE_INT */
      , (23195, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23195, 94, 16384) /* TARGET_TYPE_INT */
-     , (23195, 9007, 44) /* CraftTool_WeenieType */;
+     , (23195, 94, 16384) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23195, 39, 0.75) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23195, 69, False) /* IS_SELLABLE_BOOL */
      , (23195, 22, True) /* INSCRIBABLE_BOOL */;
 

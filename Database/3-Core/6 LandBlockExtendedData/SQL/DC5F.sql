@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1392, 2110124036, 3697213700, 155.227, 56.0618, 20.805, -0.164723, 0, 0, 0.98634) /* Peddler */
      , (720, 2110124032, 3697213704, 153.589, 56.8575, 24.5, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2110124033, 3697213707, 159.689, 56.8575, 24.5, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -21,19 +21,19 @@ VALUES (1392, 2110124036, 3697213700, 155.227, 56.0618, 20.805, -0.164723, 0, 0,
      , (7924, 2110124067, 3697213440, 88.1009, 149.742, 24.326, -0.999962, 0, 0, -0.0086822) /* linkmonstergen5minutes */
      , (8427, 2110124057, 3697213440, 83.4551, 150.814, 24.3622, -0.0896969, 0, 0, 0.995969) /* Mosswart Fanatic */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2110124067'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2110124067'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124053'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124055'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124056'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124057'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124058'; /* linkmonstergen5minutes <- Mosswart Chief */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124059'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124060'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124061'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124062'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124063'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124064'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124065'; /* linkmonstergen5minutes <- Mosswart Fanatic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2110124066'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124053'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124055'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124056'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124057'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124058'; /* linkmonstergen5minutes <- Mosswart Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124059'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124060'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124061'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124062'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124063'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124064'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124065'; /* linkmonstergen5minutes <- Mosswart Fanatic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2110124066'; /* linkmonstergen5minutes <- Mosswart Fanatic */
 

@@ -1,24 +1,21 @@
 /* Weenie - Monougat (12253) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12253;
+DELETE FROM weenie WHERE class_Id = 12253;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12253, 'monougat');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12253, 'monougat', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12253, 0, 12253);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12253, 1, 'Monougat') /* NAME_STRING */
      , (12253, 20, 'Chunks of Monougat') /* PLURAL_NAME_STRING */
      , (12253, 14, 'This item is used in cooking.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12253, 1, 33555968) /* SETUP_DID */
      , (12253, 3, 536870932) /* SOUND_TABLE_DID */
      , (12253, 8, 100672210) /* ICON_DID */
      , (12253, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12253, 9, 0) /* LOCATIONS_INT */
      , (12253, 1, 4194304) /* ITEM_TYPE_INT */
      , (12253, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -31,6 +28,5 @@ VALUES (12253, 9, 0) /* LOCATIONS_INT */
      , (12253, 16, 524296) /* ITEM_USEABLE_INT */
      , (12253, 19, 4) /* VALUE_INT */
      , (12253, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12253, 94, 4194336) /* TARGET_TYPE_INT */
-     , (12253, 9007, 44) /* CraftTool_WeenieType */;
+     , (12253, 94, 4194336) /* TARGET_TYPE_INT */;
 

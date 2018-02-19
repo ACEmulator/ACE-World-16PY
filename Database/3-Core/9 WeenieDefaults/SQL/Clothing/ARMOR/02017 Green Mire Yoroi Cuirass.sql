@@ -1,16 +1,13 @@
 /* Weenie - Green Mire Yoroi Cuirass (2017) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2017;
+DELETE FROM weenie WHERE class_Id = 2017;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2017, 'greenmirescalehauberk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2017, 'greenmirescalehauberk', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2017, 0, 2017);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2017, 1, 'Green Mire Yoroi Cuirass') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2017, 1, 33554854) /* SETUP_DID */
      , (2017, 3, 536870932) /* SOUND_TABLE_DID */
      , (2017, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (2017, 1, 33554854) /* SETUP_DID */
      , (2017, 7, 268435619) /* CLOTHINGBASE_DID */
      , (2017, 8, 100668147) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2017, 9, 1536) /* LOCATIONS_INT */
      , (2017, 1, 2) /* ITEM_TYPE_INT */
      , (2017, 27, 32) /* ARMOR_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (2017, 9, 1536) /* LOCATIONS_INT */
      , (2017, 106, 110) /* ITEM_SPELLCRAFT_INT */
      , (2017, 107, 320) /* ITEM_CUR_MANA_INT */
      , (2017, 108, 320) /* ITEM_MAX_MANA_INT */
-     , (2017, 109, 45) /* ITEM_DIFFICULTY_INT */
-     , (2017, 9007, 2) /* Clothing_WeenieType */;
+     , (2017, 109, 45) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2017, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (2017, 5, -0.01) /* MANA_RATE_FLOAT */
      , (2017, 12, 0.66) /* SHADE_FLOAT */
@@ -49,10 +45,10 @@ VALUES (2017, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (2017, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (2017, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2017, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2017, 1483, 2) /* Impenetrability3_SpellID */
      , (2017, 1357, 2) /* EnduranceOther3_SpellID */
      , (2017, 1495, 2) /* AcidBane3_SpellID */;

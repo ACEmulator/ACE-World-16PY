@@ -1,17 +1,14 @@
 /* Weenie - Exarch Plate Leggings (9039) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9039;
+DELETE FROM weenie WHERE class_Id = 9039;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9039, 'leggingsexarchseagrey');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9039, 'leggingsexarchseagrey', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9039, 0, 9039);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9039, 16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers') /* LONG_DESC_STRING */
      , (9039, 1, 'Exarch Plate Leggings') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9039, 41, 34) /* ITEM_SPECIALIZED_ONLY_DID */
      , (9039, 1, 33554856) /* SETUP_DID */
      , (9039, 3, 536870932) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9039, 41, 34) /* ITEM_SPECIALIZED_ONLY_DID */
      , (9039, 7, 268436118) /* CLOTHINGBASE_DID */
      , (9039, 8, 100670419) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9039, 9, 24576) /* LOCATIONS_INT */
      , (9039, 1, 2) /* ITEM_TYPE_INT */
      , (9039, 19, 4800) /* VALUE_INT */
@@ -36,10 +33,9 @@ VALUES (9039, 9, 24576) /* LOCATIONS_INT */
      , (9039, 106, 270) /* ITEM_SPELLCRAFT_INT */
      , (9039, 107, 0) /* ITEM_CUR_MANA_INT */
      , (9039, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (9039, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (9039, 9007, 2) /* Clothing_WeenieType */;
+     , (9039, 109, 50) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9039, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9039, 5, -0.125) /* MANA_RATE_FLOAT */
      , (9039, 12, 0.5) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (9039, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9039, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (9039, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9039, 69, False) /* IS_SELLABLE_BOOL */
      , (9039, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9039, 2354, 2) /* PiercingDuranceLess_SpellID */
      , (9039, 992, 2) /* SprintOther5_SpellID */
      , (9039, 2378, 2) /* BeastMurmur_SpellID */

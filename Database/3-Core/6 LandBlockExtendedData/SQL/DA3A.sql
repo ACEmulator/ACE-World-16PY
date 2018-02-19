@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6098, 2107875333, 3661234443, 184.676, 179.899, 2.005, -0.7069, 0, 0, 0.707313) /* Lin Meeting Hall Portal */
      , (720, 2107875328, 3661234176, 153.717, 185.607, 0.025, -0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2107875329, 3661234176, 148.667, 185.597, 0.025, -0.707107, 0, 0, -0.707107) /* Sliding Door */

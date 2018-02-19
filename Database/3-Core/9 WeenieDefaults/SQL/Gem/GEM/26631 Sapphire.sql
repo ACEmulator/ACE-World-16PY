@@ -1,17 +1,14 @@
 /* Weenie - Sapphire (26631) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26631;
+DELETE FROM weenie WHERE class_Id = 26631;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26631, 'gemtempleblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26631, 'gemtempleblue', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26631, 0, 26631);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26631, 1, 'Sapphire') /* NAME_STRING */
      , (26631, 33, 'TempleSacredStone') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26631, 1, 33554809) /* SETUP_DID */
      , (26631, 3, 536870932) /* SOUND_TABLE_DID */
      , (26631, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (26631, 1, 33554809) /* SETUP_DID */
      , (26631, 7, 268435723) /* CLOTHINGBASE_DID */
      , (26631, 8, 100674715) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26631, 9, 0) /* LOCATIONS_INT */
      , (26631, 1, 2048) /* ITEM_TYPE_INT */
      , (26631, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,9 +32,8 @@ VALUES (26631, 9, 0) /* LOCATIONS_INT */
      , (26631, 19, 0) /* VALUE_INT */
      , (26631, 93, 1044) /* PHYSICS_STATE_INT */
      , (26631, 33, 1) /* BONDED_INT */
-     , (26631, 114, 1) /* ATTUNED_INT */
-     , (26631, 9007, 38) /* Gem_WeenieType */;
+     , (26631, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26631, 22, True) /* INSCRIBABLE_BOOL */;
 

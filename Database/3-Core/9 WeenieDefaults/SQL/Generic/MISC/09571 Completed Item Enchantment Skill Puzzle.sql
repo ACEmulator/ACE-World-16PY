@@ -1,25 +1,22 @@
 /* Weenie - Completed Item Enchantment Skill Puzzle (9571) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9571;
+DELETE FROM weenie WHERE class_Id = 9571;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9571, 'skillpuzzlecompleteditem');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9571, 'skillpuzzlecompleteditem', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9571, 0, 9571);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9571, 16, 'A completed Item Enchantment Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LONG_DESC_STRING */
      , (9571, 1, 'Completed Item Enchantment Skill Puzzle') /* NAME_STRING */
      , (9571, 15, 'A completed Item Enchantment Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9571, 1, 33557028) /* SETUP_DID */
      , (9571, 3, 536870932) /* SOUND_TABLE_DID */
      , (9571, 36, 234881046) /* MUTATE_FILTER_DID */
      , (9571, 8, 100671561) /* ICON_DID */
      , (9571, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9571, 33, 1) /* BONDED_INT */
      , (9571, 9, 0) /* LOCATIONS_INT */
      , (9571, 1, 128) /* ITEM_TYPE_INT */
@@ -28,13 +25,12 @@ VALUES (9571, 33, 1) /* BONDED_INT */
      , (9571, 16, 1) /* ITEM_USEABLE_INT */
      , (9571, 8, 10) /* MASS_INT */
      , (9571, 19, 1000) /* VALUE_INT */
-     , (9571, 114, 1) /* ATTUNED_INT */
-     , (9571, 9007, 1) /* Generic_WeenieType */;
+     , (9571, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9571, 39, 1.67) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9571, 69, False) /* IS_SELLABLE_BOOL */
      , (9571, 22, True) /* INSCRIBABLE_BOOL */
      , (9571, 23, True) /* DESTROY_ON_SELL_BOOL */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12474, 2029342720, 2404712448, 173.37, 113.499, 13.4477, -0.630344, 0, 0, 0.776316) /* Arqasanti Portal */
      , (12469, 2029342721, 2404712448, 171.841, 102.295, 12.5296, -0.372773, 0, 0, 0.927923) /* Al-Hatar Settlement Portal */
      , (12521, 2029342722, 2404712448, 159.544, 92.0839, 14.119, -0.20552, 0, 0, 0.978653) /* Monument Sands Settlement Portal */

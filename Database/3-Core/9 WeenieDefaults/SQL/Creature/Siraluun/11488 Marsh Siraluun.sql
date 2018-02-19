@@ -1,16 +1,13 @@
 /* Weenie - Marsh Siraluun (11488) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11488;
+DELETE FROM weenie WHERE class_Id = 11488;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11488, 'siraluunmarsh-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11488, 'siraluunmarsh-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11488, 0, 11488);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11488, 1, 'Marsh Siraluun') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11488, 1, 33557059) /* SETUP_DID */
      , (11488, 2, 150995131) /* MOTION_TABLE_DID */
      , (11488, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11488, 1, 33557059) /* SETUP_DID */
      , (11488, 7, 268436194) /* CLOTHINGBASE_DID */
      , (11488, 8, 100671751) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11488, 1, 16) /* ITEM_TYPE_INT */
      , (11488, 2, 56) /* CREATURE_TYPE_INT */
      , (11488, 3, 4) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11488, 1, 16) /* ITEM_TYPE_INT */
      , (11488, 25, 5) /* LEVEL_INT */
      , (11488, 27, 0) /* ARMOR_TYPE_INT */
      , (11488, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11488, 40, 2) /* COMBAT_MODE_INT */
-     , (11488, 9007, 10) /* Creature_WeenieType */;
+     , (11488, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11488, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (11488, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (11488, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (11488, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (11488, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11488, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11488, 1, True) /* STUCK_BOOL */
      , (11488, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11488, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11488, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11488, 1, 40) /* STRENGTH_ATTRIBUTE */
      , (11488, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (11488, 4, 20) /* COORDINATION_ATTRIBUTE */
-     , (11488, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (11488, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (11488, 32, 10) /* SELF_ATTRIBUTE */;
+     , (11488, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (11488, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (11488, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11488, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11488, 128, 30) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11488, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11488, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11488, 3, 30) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11488, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11488, 9, 11367, 0, 0, 0.05, False) /* Create Marsh Siraluun Claw for ContainTreasure_DestinationType */
      , (11488, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (11488, 9, 29900, 0, 0, 0.05, False) /* Create Small Bundle of Marsh Siraluun Feathers for ContainTreasure_DestinationType */

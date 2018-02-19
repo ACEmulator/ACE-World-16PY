@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4433, 2056978436, 2846884098, 37.5406, 152.008, 58.005, -0.309567, 0, 0, -0.950878) /* Hudriffa the Shopkeeper */
      , (412, 2056978434, 2846884109, 37.76, 107.05, 64.01, -0.707107, 0, 0, -0.707107) /* Door */
      , (412, 2056978432, 2846883840, 36.34, 150.33, 58, 1, 0, 0, 0) /* Door */

@@ -1,17 +1,14 @@
 /* Weenie - Auroric Exarch Coat (23930) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23930;
+DELETE FROM weenie WHERE class_Id = 23930;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23930, 'coataurorblue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23930, 'coataurorblue', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23930, 0, 23930);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23930, 16, 'A richly enchanted and ornate coat once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness. The seal of the Lightbringer adorns the chestplate.') /* LONG_DESC_STRING */
      , (23930, 1, 'Auroric Exarch Coat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23930, 1, 33554644) /* SETUP_DID */
      , (23930, 3, 536870932) /* SOUND_TABLE_DID */
      , (23930, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23930, 1, 33554644) /* SETUP_DID */
      , (23930, 7, 268436554) /* CLOTHINGBASE_DID */
      , (23930, 8, 100674123) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23930, 9, 6688) /* LOCATIONS_INT */
      , (23930, 1, 2) /* ITEM_TYPE_INT */
      , (23930, 19, 6800) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (23930, 9, 6688) /* LOCATIONS_INT */
      , (23930, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (23930, 107, 4000) /* ITEM_CUR_MANA_INT */
      , (23930, 108, 4000) /* ITEM_MAX_MANA_INT */
-     , (23930, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (23930, 9007, 2) /* Clothing_WeenieType */;
+     , (23930, 109, 50) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23930, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23930, 5, -0.5) /* MANA_RATE_FLOAT */
      , (23930, 12, 0.5) /* SHADE_FLOAT */
@@ -55,11 +51,11 @@ VALUES (23930, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23930, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (23930, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23930, 69, False) /* IS_SELLABLE_BOOL */
      , (23930, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23930, 2350, 2) /* DecayDurance_SpellID */
      , (23930, 908, 2) /* LeadershipMasteryOther5_SpellID */
      , (23930, 2948, 2) /* HieroWardGreat_SpellID */

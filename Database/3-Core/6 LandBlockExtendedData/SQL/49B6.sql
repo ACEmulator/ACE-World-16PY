@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0, 0.911789) /* Plateau Spice Merchant */
      , (2500, 1956339730, 1236664579, 35.57, 154.033, 240.005, -0.972718, 0, 0, -0.231991) /* Avorgild the Shopkeeper */
      , (4787, 1956339735, 1236664584, 32.8788, 154.193, 243.005, 0.735937, 0, 0, -0.67705) /* trophysmithgharundimgen */
@@ -50,11 +50,11 @@ VALUES (6113, 1956339738, 1236664576, 32.3143, 159.636, 240.005, -0.410659, 0, 0
      , (19457, 1956339762, 1236664320, 40.333, 131.039, 247.006, -0.683339, 0, 0, 0.730101) /* fireworksgen */
      , (12304, 1956339745, 1236664320, 79.2538, 140.423, 240.005, 0.717058, 0, 0, -0.697014) /* Agent of the Arcanum  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1956339737'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1956339744'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1956339737'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1956339744'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339736'; /* linkmonstergen3minutes <- Mairisa bint Fuda */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339772'; /* linkmonstergen3minutes <- Small Creepy Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1956339774'; /* linkmonstergen3minutes <- Journeyman Fletcher */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1956339743'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339736'; /* linkmonstergen3minutes <- Mairisa bint Fuda */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339772'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1956339774'; /* linkmonstergen3minutes <- Journeyman Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1956339743'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

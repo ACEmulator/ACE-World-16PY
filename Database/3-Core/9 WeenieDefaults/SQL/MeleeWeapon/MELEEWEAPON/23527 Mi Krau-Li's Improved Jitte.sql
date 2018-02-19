@@ -1,17 +1,14 @@
 /* Weenie - Mi Krau-Li's Improved Jitte (23527) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23527;
+DELETE FROM weenie WHERE class_Id = 23527;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23527, 'jittekrauligreaternew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23527, 'jittekrauligreaternew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23527, 0, 23527);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23527, 16, 'A powerful jitte, made by Mi Krau-Li. ') /* LONG_DESC_STRING */
      , (23527, 1, 'Mi Krau-Li''s Improved Jitte') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23527, 1, 33554740) /* SETUP_DID */
      , (23527, 3, 536870932) /* SOUND_TABLE_DID */
      , (23527, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23527, 1, 33554740) /* SETUP_DID */
      , (23527, 7, 268435786) /* CLOTHINGBASE_DID */
      , (23527, 8, 100668895) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23527, 9, 1048576) /* LOCATIONS_INT */
      , (23527, 1, 1) /* ITEM_TYPE_INT */
      , (23527, 19, 3000) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (23527, 9, 1048576) /* LOCATIONS_INT */
      , (23527, 48, 5) /* WEAPON_SKILL_INT */
      , (23527, 49, 25) /* WEAPON_TIME_INT */
      , (23527, 114, 1) /* ATTUNED_INT */
-     , (23527, 51, 1) /* COMBAT_USE_INT */
-     , (23527, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23527, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23527, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23527, 21, 0.66) /* WEAPON_LENGTH_FLOAT */
      , (23527, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -56,12 +52,12 @@ VALUES (23527, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23527, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */
      , (23527, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23527, 99, True) /* IVORYABLE_BOOL */
      , (23527, 22, True) /* INSCRIBABLE_BOOL */
      , (23527, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23527, 345, 2) /* MaceMasteryOther6_SpellID */
      , (23527, 1604, 2) /* Defender5_SpellID */
      , (23527, 1591, 2) /* HeartSeeker5_SpellID */

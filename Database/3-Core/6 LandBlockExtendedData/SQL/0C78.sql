@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24129, 1892122624, 209190912, 135.85, 153.487, 66.7956, 0.974473, 0, 0, -0.224503) /* linkmonstergen2minutes */
      , (23479, 1892122625, 209190912, 139.567, 152.615, 66.7251, 0.998678, 0, 0, -0.0514106) /* Banderling Scalper */
      , (23479, 1892122626, 209190912, 133.537, 157.666, 67.146, 0.990509, 0, 0, -0.137448) /* Banderling Scalper */
@@ -20,25 +20,25 @@ VALUES (24129, 1892122624, 209190912, 135.85, 153.487, 66.7956, 0.974473, 0, 0, 
      , (23478, 1892122642, 209190912, 123.42, 149.775, 66.4884, -0.999876, 0, 0, -0.0157583) /* Banderling Predator */
      , (24276, 1892122643, 209190912, 125.653, 156.683, 67.064, 0.161538, 0, 0, 0.986866) /* Banderling Savage */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892122624'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1892122624'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122625'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122626'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122627'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122628'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122629'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122630'; /* linkmonstergen2minutes <- Banderling Scalper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122631'; /* linkmonstergen2minutes <- Banderling Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122632'; /* linkmonstergen2minutes <- Banderling Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122633'; /* linkmonstergen2minutes <- Banderling Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122634'; /* linkmonstergen2minutes <- Banderling Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122635'; /* linkmonstergen2minutes <- Banderling Savage */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122636'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122637'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122638'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122639'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122640'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122641'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122642'; /* linkmonstergen2minutes <- Banderling Predator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892122643'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122625'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122626'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122627'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122628'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122629'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122630'; /* linkmonstergen2minutes <- Banderling Scalper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122631'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122632'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122633'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122634'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122635'; /* linkmonstergen2minutes <- Banderling Savage */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122636'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122637'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122638'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122639'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122640'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122641'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122642'; /* linkmonstergen2minutes <- Banderling Predator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892122643'; /* linkmonstergen2minutes <- Banderling Savage */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2131, 1965477888, 1382875393, 24, -120, -42, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (7562, 1965477889, 1382875393, 24.2935, -119.977, -41.2594, -0.682445, 0, 0, 0.730937) /* Magic trap */
      , (4063, 1965477890, 1382875396, 20.1704, -154.072, -40.6652, 0.045781, 0, 0, 0.998951) /* Acid Trap */
@@ -177,150 +177,150 @@ VALUES (2131, 1965477888, 1382875393, 24, -120, -42, 0.707107, 0, 0, -0.707107) 
      , (14542, 1965478071, 1382875973, 109, -104, 42, 0, 0, 0, -1) /* Chest */
      , (278, 1965478047, 1382875975, 105.245, -100, 42, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1965477978'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1965477965'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1965478008'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1965477912'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1965477903'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1965477900'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1965478006'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1965477970'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1965477963'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1965477936'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1965477938'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1965477950'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1965477945'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1965477944'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1965477890'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1965477889'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1965477895'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1965477906'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1965477908'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1965477910'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1965477981'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1965477993'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1965477996'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1965477997'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='1965478015'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='1965478013'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='1965478012'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='1965477917'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='1965477918'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='1965477926'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='31', `linkSource`='1' WHERE `preassignedGuid`='1965477925'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='32', `linkSource`='1' WHERE `preassignedGuid`='1965477924'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='33', `linkSource`='1' WHERE `preassignedGuid`='1965477923'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='34', `linkSource`='1' WHERE `preassignedGuid`='1965477922'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='35', `linkSource`='1' WHERE `preassignedGuid`='1965477921'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='36', `linkSource`='1' WHERE `preassignedGuid`='1965477920'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='37', `linkSource`='1' WHERE `preassignedGuid`='1965477919'; /* Acid Trap */
-UPDATE `ace_landblock` SET `linkSlot`='38', `linkSource`='1' WHERE `preassignedGuid`='1965477983'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='39', `linkSource`='1' WHERE `preassignedGuid`='1965477975'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='40', `linkSource`='1' WHERE `preassignedGuid`='1965478077'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='41', `linkSource`='1' WHERE `preassignedGuid`='1965478075'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='42', `linkSource`='1' WHERE `preassignedGuid`='1965477934'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965477978'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965477965'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965478008'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1965477912'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1965477903'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1965477900'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1965478006'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1965477970'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1965477963'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1965477936'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1965477938'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1965477950'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1965477945'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1965477944'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1965477890'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1965477889'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1965477895'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1965477906'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1965477908'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1965477910'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1965477981'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1965477993'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1965477996'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1965477997'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1965478015'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1965478013'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1965478012'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1965477917'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1965477918'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1965477926'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1965477925'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='32', `link_Controller`=True WHERE `guid`='1965477924'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='33', `link_Controller`=True WHERE `guid`='1965477923'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='34', `link_Controller`=True WHERE `guid`='1965477922'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='35', `link_Controller`=True WHERE `guid`='1965477921'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='36', `link_Controller`=True WHERE `guid`='1965477920'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='37', `link_Controller`=True WHERE `guid`='1965477919'; /* Acid Trap */
+UPDATE `landblock_instances` SET `link_Slot`='38', `link_Controller`=True WHERE `guid`='1965477983'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='39', `link_Controller`=True WHERE `guid`='1965477975'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='40', `link_Controller`=True WHERE `guid`='1965478077'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='41', `link_Controller`=True WHERE `guid`='1965478075'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='42', `link_Controller`=True WHERE `guid`='1965477934'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965477974'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965477991'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1965477962'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1965478021'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1965478030'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1965478042'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1965477901'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1965477971'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1965477964'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1965477935'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1965477937'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1965477951'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1965477941'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1965477940'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1965477942'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1965477891'; /* Acid Trap <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1965477888'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1965477894'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1965477905'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1965477907'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1965477909'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1965477979'; /* Acid Trap <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1965477992'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1965477994'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1965477995'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='1965478016'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='1965478011'; /* Acid Trap <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='1965478010'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='1965477929'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1965477931'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='1965477930'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='31' WHERE `preassignedGuid`='1965477932'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='32' WHERE `preassignedGuid`='1965477933'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='33' WHERE `preassignedGuid`='1965477927'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='34' WHERE `preassignedGuid`='1965477928'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='35' WHERE `preassignedGuid`='1965477916'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='36' WHERE `preassignedGuid`='1965477915'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='37' WHERE `preassignedGuid`='1965477914'; /* Acid Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478062'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478063'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478066'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478065'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478064'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478067'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478068'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478069'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478139'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478146'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478144'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478145'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478143'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478141'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478142'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478140'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478149'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478148'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478150'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478147'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478135'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='38' WHERE `preassignedGuid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478134'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478131'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478132'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478128'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478126'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478127'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478124'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478125'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478130'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478129'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478123'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478122'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478115'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478116'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478117'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478120'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478121'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478118'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478119'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478059'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478053'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478054'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478051'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478048'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478049'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478061'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478060'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478055'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478058'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478056'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478133'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='39' WHERE `preassignedGuid`='1965478057'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='40' WHERE `preassignedGuid`='1965477969'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='1965478074'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='1965478076'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='1965478072'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='41' WHERE `preassignedGuid`='1965478073'; /* linkmonstergen3minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='42' WHERE `preassignedGuid`='1965477999'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965477974'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965477991'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965477962'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1965478021'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1965478030'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1965478042'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1965477901'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1965477971'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1965477964'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1965477935'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1965477937'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1965477951'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1965477941'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1965477940'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1965477942'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1965477891'; /* Acid Trap <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1965477888'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1965477894'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1965477905'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1965477907'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1965477909'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1965477979'; /* Acid Trap <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1965477992'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1965477994'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1965477995'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1965478016'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1965478011'; /* Acid Trap <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1965478010'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1965477929'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1965477931'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1965477930'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1965477932'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='32' WHERE `guid`='1965477933'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='33' WHERE `guid`='1965477927'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='34' WHERE `guid`='1965477928'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='35' WHERE `guid`='1965477916'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='36' WHERE `guid`='1965477915'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='37' WHERE `guid`='1965477914'; /* Acid Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478062'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478063'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478066'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478065'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478064'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478067'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478068'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478069'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478139'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478146'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478144'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478145'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478143'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478141'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478142'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478140'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478149'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478148'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478150'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478147'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478135'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478137'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478138'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='38' WHERE `guid`='1965478136'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478134'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478131'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478132'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478128'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478126'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478127'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478124'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478125'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478130'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478129'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478123'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478122'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478115'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478116'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478117'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478120'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478121'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478118'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478119'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478059'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478053'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478054'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478051'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478048'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478049'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478061'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478060'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478055'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478058'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478056'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478133'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='39' WHERE `guid`='1965478057'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='40' WHERE `guid`='1965477969'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478074'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478076'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478072'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='41' WHERE `guid`='1965478073'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='42' WHERE `guid`='1965477999'; /* Door <- Lever */
 

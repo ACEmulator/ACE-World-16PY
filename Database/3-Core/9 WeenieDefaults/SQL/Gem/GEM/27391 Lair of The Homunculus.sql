@@ -1,18 +1,15 @@
 /* Weenie - Lair of The Homunculus (27391) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27391;
+DELETE FROM weenie WHERE class_Id = 27391;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27391, 'gemquesthomunculus');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27391, 'gemquesthomunculus', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27391, 0, 27391);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27391, 16, 'Join us in worship, mosswart brethren. Our God walks amongst, blessing us. The Homunculus will lead us to our rightful place as the rulers of this world. The Homunculus will bring low all who oppose us. Praise be The Homunculus!') /* LONG_DESC_STRING */
      , (27391, 1, 'Lair of The Homunculus') /* NAME_STRING */
      , (27391, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 60-80)') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27391, 1, 33556769) /* SETUP_DID */
      , (27391, 3, 536870932) /* SOUND_TABLE_DID */
      , (27391, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (27391, 1, 33556769) /* SETUP_DID */
      , (27391, 50, 100676404) /* ICON_OVERLAY_DID */
      , (27391, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27391, 9, 0) /* LOCATIONS_INT */
      , (27391, 1, 2048) /* ITEM_TYPE_INT */
      , (27391, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (27391, 9, 0) /* LOCATIONS_INT */
      , (27391, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27391, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27391, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27391, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27391, 9007, 38) /* Gem_WeenieType */;
+     , (27391, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27391, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27391, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27391, 22, True) /* INSCRIBABLE_BOOL */;

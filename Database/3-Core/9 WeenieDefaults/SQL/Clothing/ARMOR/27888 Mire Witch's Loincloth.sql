@@ -1,17 +1,14 @@
 /* Weenie - Mire Witch's Loincloth (27888) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27888;
+DELETE FROM weenie WHERE class_Id = 27888;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27888, 'girthmirewitch');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27888, 'girthmirewitch', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27888, 0, 27888);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27888, 16, 'A reproduction of the loincloth worn by the first Mosswart Mire Witch. Complete with official mosswart smell. A small tag attached to the garment boasts: An original Ketnan product.') /* LONG_DESC_STRING */
      , (27888, 1, 'Mire Witch''s Loincloth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27888, 1, 33554647) /* SETUP_DID */
      , (27888, 3, 536870932) /* SOUND_TABLE_DID */
      , (27888, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27888, 1, 33554647) /* SETUP_DID */
      , (27888, 7, 268436831) /* CLOTHINGBASE_DID */
      , (27888, 8, 100676606) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27888, 9, 1024) /* LOCATIONS_INT */
      , (27888, 1, 2) /* ITEM_TYPE_INT */
      , (27888, 19, 1200) /* VALUE_INT */
@@ -36,10 +33,9 @@ VALUES (27888, 9, 1024) /* LOCATIONS_INT */
      , (27888, 106, 125) /* ITEM_SPELLCRAFT_INT */
      , (27888, 107, 650) /* ITEM_CUR_MANA_INT */
      , (27888, 108, 650) /* ITEM_MAX_MANA_INT */
-     , (27888, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (27888, 9007, 2) /* Clothing_WeenieType */;
+     , (27888, 109, 120) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27888, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27888, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (27888, 12, 0.66) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (27888, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27888, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (27888, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27888, 22, True) /* INSCRIBABLE_BOOL */
      , (27888, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27888, 1483, 2) /* Impenetrability3_SpellID */
      , (27888, 1429, 2) /* FocusOther3_SpellID */
      , (27888, 241, 2) /* InvulnerabilityOther3_SpellID */

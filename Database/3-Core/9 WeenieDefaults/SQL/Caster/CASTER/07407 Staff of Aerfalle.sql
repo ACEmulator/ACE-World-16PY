@@ -1,13 +1,10 @@
 /* Weenie - Staff of Aerfalle (7407) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7407;
+DELETE FROM weenie WHERE class_Id = 7407;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7407, 'staffaerfalle');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7407, 'staffaerfalle', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7407, 0, 7407);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7407, 8, 'Lady Aerfalle') /* SCRIBE_NAME_STRING */
      , (7407, 16, 'A staff made from the petrified wood of Aerlinthe, taken from the claws of the Dark Magus of that island. This artifact is several centuries old.') /* LONG_DESC_STRING */
      , (7407, 1, 'Staff of Aerfalle') /* NAME_STRING */
@@ -15,7 +12,7 @@ VALUES (7407, 8, 'Lady Aerfalle') /* SCRIBE_NAME_STRING */
      , (7407, 15, 'A staff of petrified wood.') /* SHORT_DESC_STRING */
      , (7407, 7, 'Made with the help of Rytheran and, in beneficence, His Eternal Splendor.') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7407, 1, 33556630) /* SETUP_DID */
      , (7407, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (7407, 3, 536870932) /* SOUND_TABLE_DID */
@@ -27,7 +24,7 @@ VALUES (7407, 1, 33556630) /* SETUP_DID */
      , (7407, 8, 100670752) /* ICON_DID */
      , (7407, 28, 1794) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7407, 9, 16777216) /* LOCATIONS_INT */
      , (7407, 1, 32768) /* ITEM_TYPE_INT */
      , (7407, 19, 10150) /* VALUE_INT */
@@ -49,20 +46,19 @@ VALUES (7407, 9, 16777216) /* LOCATIONS_INT */
      , (7407, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (7407, 114, 1) /* ATTUNED_INT */
      , (7407, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7407, 117, 250) /* ITEM_MANA_COST_INT */
-     , (7407, 9007, 35) /* Caster_WeenieType */;
+     , (7407, 117, 250) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7407, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (7407, 5, -0.083) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7407, 99, True) /* IVORYABLE_BOOL */
      , (7407, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (7407, 15, True) /* LIGHTS_STATUS_BOOL */
      , (7407, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7407, 908, 2) /* LeadershipMasteryOther5_SpellID */
      , (7407, 639, 2) /* WarMagicMasteryOther5_SpellID */
      , (7407, 615, 2) /* LifeMagicMasteryOther5_SpellID */;

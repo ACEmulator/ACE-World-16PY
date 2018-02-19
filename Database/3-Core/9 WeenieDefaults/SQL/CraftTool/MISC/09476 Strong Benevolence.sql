@@ -1,19 +1,16 @@
 /* Weenie - Strong Benevolence (9476) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9476;
+DELETE FROM weenie WHERE class_Id = 9476;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9476, 'infusionarmheart');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9476, 'infusionarmheart', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9476, 0, 9476);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9476, 16, 'Knowing your enemy only goes so far: One must have the passion to strike. Be a shining spear in the night.') /* LONG_DESC_STRING */
      , (9476, 1, 'Strong Benevolence') /* NAME_STRING */
      , (9476, 14, 'Use this item on the Spear of the Heart to create the Spear of Purity. You must have Spear trained to attempt this interaction.') /* USE_STRING */
      , (9476, 15, 'A concoction of magical essences.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9476, 1, 33557007) /* SETUP_DID */
      , (9476, 3, 536870932) /* SOUND_TABLE_DID */
      , (9476, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (9476, 1, 33557007) /* SETUP_DID */
      , (9476, 7, 268436164) /* CLOTHINGBASE_DID */
      , (9476, 8, 100671489) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9476, 9, 0) /* LOCATIONS_INT */
      , (9476, 1, 128) /* ITEM_TYPE_INT */
      , (9476, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,13 +34,12 @@ VALUES (9476, 9, 0) /* LOCATIONS_INT */
      , (9476, 93, 1044) /* PHYSICS_STATE_INT */
      , (9476, 94, 128) /* TARGET_TYPE_INT */
      , (9476, 33, 1) /* BONDED_INT */
-     , (9476, 114, 1) /* ATTUNED_INT */
-     , (9476, 9007, 44) /* CraftTool_WeenieType */;
+     , (9476, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9476, 39, 2) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9476, 22, True) /* INSCRIBABLE_BOOL */
      , (9476, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

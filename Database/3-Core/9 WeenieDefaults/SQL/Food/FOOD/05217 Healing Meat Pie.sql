@@ -1,24 +1,21 @@
 /* Weenie - Healing Meat Pie (5217) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5217;
+DELETE FROM weenie WHERE class_Id = 5217;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5217, 'healingmeatpie');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5217, 'healingmeatpie', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5217, 0, 5217);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5217, 1, 'Healing Meat Pie') /* NAME_STRING */
      , (5217, 20, 'Healing Meat Pies ') /* PLURAL_NAME_STRING */
      , (5217, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5217, 1, 33555978) /* SETUP_DID */
      , (5217, 3, 536870932) /* SOUND_TABLE_DID */
      , (5217, 8, 100669945) /* ICON_DID */
      , (5217, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5217, 9, 0) /* LOCATIONS_INT */
      , (5217, 1, 32) /* ITEM_TYPE_INT */
      , (5217, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,9 +30,8 @@ VALUES (5217, 9, 0) /* LOCATIONS_INT */
      , (5217, 19, 85) /* VALUE_INT */
      , (5217, 89, 2) /* BOOSTER_ENUM_INT */
      , (5217, 90, 30) /* BOOST_VALUE_INT */
-     , (5217, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5217, 9007, 18) /* Food_WeenieType */;
+     , (5217, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5217, 69, False) /* IS_SELLABLE_BOOL */;
 

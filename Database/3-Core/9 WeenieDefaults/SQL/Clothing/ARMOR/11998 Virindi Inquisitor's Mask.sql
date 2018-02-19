@@ -1,17 +1,14 @@
 /* Weenie - Virindi Inquisitor's Mask (11998) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11998;
+DELETE FROM weenie WHERE class_Id = 11998;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11998, 'maskvirindiinquisitor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11998, 'maskvirindiinquisitor', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11998, 0, 11998);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11998, 16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance.') /* LONG_DESC_STRING */
      , (11998, 1, 'Virindi Inquisitor''s Mask') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11998, 1, 33556827) /* SETUP_DID */
      , (11998, 3, 536870932) /* SOUND_TABLE_DID */
      , (11998, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (11998, 1, 33556827) /* SETUP_DID */
      , (11998, 7, 268436258) /* CLOTHINGBASE_DID */
      , (11998, 8, 100672106) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11998, 9, 1) /* LOCATIONS_INT */
      , (11998, 1, 2) /* ITEM_TYPE_INT */
      , (11998, 19, 4000) /* VALUE_INT */
@@ -37,10 +34,9 @@ VALUES (11998, 9, 1) /* LOCATIONS_INT */
      , (11998, 106, 250) /* ITEM_SPELLCRAFT_INT */
      , (11998, 107, 400) /* ITEM_CUR_MANA_INT */
      , (11998, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (11998, 109, 160) /* ITEM_DIFFICULTY_INT */
-     , (11998, 9007, 2) /* Clothing_WeenieType */;
+     , (11998, 109, 160) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11998, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (11998, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (11998, 12, 0.66) /* SHADE_FLOAT */
@@ -53,11 +49,11 @@ VALUES (11998, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (11998, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (11998, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11998, 22, True) /* INSCRIBABLE_BOOL */
      , (11998, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11998, 248, 2) /* InvulnerabilitySelf5_SpellID */
      , (11998, 1483, 2) /* Impenetrability3_SpellID */
      , (11998, 1311, 2) /* ArmorSelf5_SpellID */;

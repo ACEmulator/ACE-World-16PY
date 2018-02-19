@@ -1,39 +1,35 @@
 /* Weenie - generatorkiviklirmorgluukalive (28391) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28391;
+DELETE FROM weenie WHERE class_Id = 28391;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28391, 'generatorkiviklirmorgluukalive');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28391, 'generatorkiviklirmorgluukalive', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28391, 0, 28391);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28391, 1, 'generatorkiviklirmorgluukalive') /* NAME_STRING */
      , (28391, 34, 'EventKivikLirMorgluukAlive') /* GENERATOR_EVENT_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28391, 1, 33555051) /* SETUP_DID */
      , (28391, 8, 100667494) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28391, 142, 3) /* GENERATOR_TIME_TYPE_INT */
      , (28391, 81, 29) /* MAX_GENERATED_OBJECTS_INT */
      , (28391, 145, 2) /* GENERATOR_END_DESTRUCTION_TYPE_INT */
      , (28391, 82, 29) /* INIT_GENERATED_OBJECTS_INT */
-     , (28391, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28391, 9007, 1) /* Generic_WeenieType */;
+     , (28391, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28391, 121, 0) /* GENERATOR_INITIAL_DELAY_FLOAT */
      , (28391, 41, 300) /* REGENERATION_INTERVAL_FLOAT */
      , (28391, 43, 20) /* GENERATOR_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28391, 1, True) /* STUCK_BOOL */
      , (28391, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (28391, 18, True) /* VISIBILITY_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28391, -1, 28375, 0, 1, 1, 1, 4, -1, 0, 0, 1146028292, 35.99, 155.999, 1.9, -0.7071068, 0, 0, -0.7071068)/* Generate Falatacot Vault Seal (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (28391, -1, 23566, 0, 1, 4294967295, 1, 4, -1, 0, 0, 1146028047, 29.4, 145.4, 3.1, -0.958073, 0, 0, -0.2865244)/* Generate Tumerok Trooper (x1 up to max of -1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (28391, -1, 23566, 0, 1, 4294967295, 1, 4, -1, 0, 0, 1146028047, 44.5, 147.2, 2.4, -0.9999539, 0, 0, -0.009599213)/* Generate Tumerok Trooper (x1 up to max of -1) - Destruction_RegenerationType - Specific_RegenLocationType */

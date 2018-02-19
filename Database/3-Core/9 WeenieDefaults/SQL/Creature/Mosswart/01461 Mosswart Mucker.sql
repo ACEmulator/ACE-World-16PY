@@ -1,16 +1,13 @@
 /* Weenie - Mosswart Mucker (1461) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1461;
+DELETE FROM weenie WHERE class_Id = 1461;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1461, 'mosswartmuckerice');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1461, 'mosswartmuckerice', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1461, 0, 1461);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1461, 1, 'Mosswart Mucker') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1461, 1, 33557327) /* SETUP_DID */
      , (1461, 2, 150994953) /* MOTION_TABLE_DID */
      , (1461, 35, 134) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (1461, 1, 33557327) /* SETUP_DID */
      , (1461, 7, 268436291) /* CLOTHINGBASE_DID */
      , (1461, 8, 100667449) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1461, 1, 16) /* ITEM_TYPE_INT */
      , (1461, 2, 4) /* CREATURE_TYPE_INT */
      , (1461, 3, 58) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (1461, 1, 16) /* ITEM_TYPE_INT */
      , (1461, 27, 0) /* ARMOR_TYPE_INT */
      , (1461, 93, 1032) /* PHYSICS_STATE_INT */
      , (1461, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1461, 40, 2) /* COMBAT_MODE_INT */
-     , (1461, 9007, 10) /* Creature_WeenieType */;
+     , (1461, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1461, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (1461, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (1461, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,32 +68,32 @@ VALUES (1461, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (1461, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1461, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1461, 1, True) /* STUCK_BOOL */
      , (1461, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1461, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1461, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1461, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (1461, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (1461, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (1461, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (1461, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (1461, 32, 50) /* SELF_ATTRIBUTE */;
+     , (1461, 3, 90) /* QUICKNESS_ATTRIBUTE */
+     , (1461, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (1461, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1461, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1461, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1461, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1461, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1461, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1461, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1461, 8, 1435, 0, 0, 1, False) /* Create Ice Tachi for Treasure_DestinationType */
      , (1461, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (1461, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (1461, 9, 3694, 0, 0, 0.05, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
      , (1461, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1461, 1, 135, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Turban (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 

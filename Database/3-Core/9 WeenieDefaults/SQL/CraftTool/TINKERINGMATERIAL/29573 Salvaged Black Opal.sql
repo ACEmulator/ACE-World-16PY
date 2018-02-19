@@ -1,18 +1,15 @@
 /* Weenie - Salvaged Black Opal (29573) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29573;
+DELETE FROM weenie WHERE class_Id = 29573;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29573, 'materialblackopal100');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29573, 'materialblackopal100', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29573, 0, 29573);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29573, 1, 'Salvaged Black Opal') /* NAME_STRING */
      , (29573, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Critical Strike. Critical Strike increases the chance that the item critically hits its opponent. The increase in chance depends on the attack skill of the wielder.') /* USE_STRING */
      , (29573, 15, 'Chips of black opal material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29573, 1, 33554817) /* SETUP_DID */
      , (29573, 3, 536870932) /* SOUND_TABLE_DID */
      , (29573, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (29573, 1, 33554817) /* SETUP_DID */
      , (29573, 7, 268436874) /* CLOTHINGBASE_DID */
      , (29573, 8, 100677153) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29573, 9, 0) /* LOCATIONS_INT */
      , (29573, 1, 1073741824) /* ITEM_TYPE_INT */
      , (29573, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (29573, 9, 0) /* LOCATIONS_INT */
      , (29573, 94, 33025) /* TARGET_TYPE_INT */
      , (29573, 33, 1) /* BONDED_INT */
      , (29573, 105, 100) /* ITEM_WORKMANSHIP_INT */
-     , (29573, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */
-     , (29573, 9007, 44) /* CraftTool_WeenieType */;
+     , (29573, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29573, 22, True) /* INSCRIBABLE_BOOL */
      , (29573, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

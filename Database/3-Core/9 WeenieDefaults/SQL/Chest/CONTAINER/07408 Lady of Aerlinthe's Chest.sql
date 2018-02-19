@@ -1,26 +1,23 @@
 /* Weenie - Lady of Aerlinthe's Chest (7408) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7408;
+DELETE FROM weenie WHERE class_Id = 7408;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7408, 'chestaerfalle');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7408, 'chestaerfalle', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7408, 0, 7408);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7408, 16, 'A rusty old chest, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LONG_DESC_STRING */
      , (7408, 1, 'Lady of Aerlinthe''s Chest') /* NAME_STRING */
      , (7408, 12, 'keyaerfalle') /* LOCK_CODE_STRING */
      , (7408, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7408, 1, 33554556) /* SETUP_DID */
      , (7408, 2, 150994948) /* MOTION_TABLE_DID */
      , (7408, 3, 536870945) /* SOUND_TABLE_DID */
      , (7408, 8, 100667424) /* ICON_DID */
      , (7408, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7408, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (7408, 1, 512) /* ITEM_TYPE_INT */
      , (7408, 5, 9000) /* ENCUMB_VAL_INT */
@@ -35,16 +32,15 @@ VALUES (7408, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (7408, 96, 500) /* ENCUMB_CAPACITY_INT */
      , (7408, 100, 1) /* GENERATOR_TYPE_INT */
      , (7408, 37, 240) /* RESIST_ITEM_APPRAISAL_INT */
-     , (7408, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (7408, 9007, 20) /* Chest_WeenieType */;
+     , (7408, 38, 5000) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7408, 41, 30) /* REGENERATION_INTERVAL_FLOAT */
      , (7408, 43, 1) /* GENERATOR_RADIUS_FLOAT */
      , (7408, 11, 30) /* RESET_INTERVAL_FLOAT */
      , (7408, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7408, 1, True) /* STUCK_BOOL */
      , (7408, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (7408, 2, False) /* OPEN_BOOL */
@@ -54,7 +50,7 @@ VALUES (7408, 1, True) /* STUCK_BOOL */
      , (7408, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7408, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7408, -1, 9010, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Unreadable Scroll (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (7408, -1, 28058, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Staff of Aerfalle (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (7408, -1, 28045, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Aerfalle's Pallium (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */

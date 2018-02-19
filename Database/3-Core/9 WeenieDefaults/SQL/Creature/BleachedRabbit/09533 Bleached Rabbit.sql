@@ -1,16 +1,13 @@
 /* Weenie - Bleached Rabbit (9533) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9533;
+DELETE FROM weenie WHERE class_Id = 9533;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9533, 'rabbitgardenpink');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9533, 'rabbitgardenpink', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9533, 0, 9533);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9533, 1, 'Bleached Rabbit') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9533, 1, 33555579) /* SETUP_DID */
      , (9533, 2, 150995042) /* MOTION_TABLE_DID */
      , (9533, 3, 536870973) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9533, 1, 33555579) /* SETUP_DID */
      , (9533, 7, 268435725) /* CLOTHINGBASE_DID */
      , (9533, 8, 100669116) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9533, 1, 16) /* ITEM_TYPE_INT */
      , (9533, 2, 72) /* CREATURE_TYPE_INT */
      , (9533, 67, 2) /* TOLERANCE_INT */
@@ -34,10 +31,9 @@ VALUES (9533, 1, 16) /* ITEM_TYPE_INT */
      , (9533, 25, 47) /* LEVEL_INT */
      , (9533, 27, 0) /* ARMOR_TYPE_INT */
      , (9533, 93, 1032) /* PHYSICS_STATE_INT */
-     , (9533, 40, 2) /* COMBAT_MODE_INT */
-     , (9533, 9007, 10) /* Creature_WeenieType */;
+     , (9533, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9533, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9533, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (9533, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (9533, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9533, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (9533, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9533, 1, True) /* STUCK_BOOL */
      , (9533, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (9533, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9533, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9533, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (9533, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (9533, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (9533, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (9533, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (9533, 32, 40) /* SELF_ATTRIBUTE */;
+     , (9533, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (9533, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (9533, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9533, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9533, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9533, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9533, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9533, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9533, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9533, 9, 9541, 0, 0, 0.05, False) /* Create Pink Marshmallow Eep for ContainTreasure_DestinationType */
      , (9533, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

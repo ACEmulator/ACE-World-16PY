@@ -1,16 +1,13 @@
 /* Weenie - Tremendous Monouga (4212) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4212;
+DELETE FROM weenie WHERE class_Id = 4212;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4212, 'monougatremendous');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4212, 'monougatremendous', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4212, 0, 4212);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4212, 1, 'Tremendous Monouga') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4212, 1, 33555199) /* SETUP_DID */
      , (4212, 2, 150995080) /* MOTION_TABLE_DID */
      , (4212, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (4212, 1, 33555199) /* SETUP_DID */
      , (4212, 7, 268435726) /* CLOTHINGBASE_DID */
      , (4212, 8, 100669117) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4212, 1, 16) /* ITEM_TYPE_INT */
      , (4212, 2, 28) /* CREATURE_TYPE_INT */
      , (4212, 3, 9) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (4212, 1, 16) /* ITEM_TYPE_INT */
      , (4212, 27, 0) /* ARMOR_TYPE_INT */
      , (4212, 93, 1032) /* PHYSICS_STATE_INT */
      , (4212, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (4212, 40, 2) /* COMBAT_MODE_INT */
-     , (4212, 9007, 10) /* Creature_WeenieType */;
+     , (4212, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4212, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (4212, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (4212, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (4212, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (4212, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4212, 31, 75) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4212, 1, True) /* STUCK_BOOL */
      , (4212, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4212, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4212, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4212, 1, 900) /* STRENGTH_ATTRIBUTE */
      , (4212, 2, 900) /* ENDURANCE_ATTRIBUTE */
      , (4212, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (4212, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (4212, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (4212, 32, 60) /* SELF_ATTRIBUTE */;
+     , (4212, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (4212, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (4212, 6, 60) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4212, 64, 99550) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4212, 128, 99100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4212, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4212, 1, 99550) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4212, 3, 99100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4212, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4212, 9, 23108, 0, 0, 0.1, False) /* Create Twisted Dark Key for ContainTreasure_DestinationType */
      , (4212, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (4212, 9, 23107, 0, 0, 0.05, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */

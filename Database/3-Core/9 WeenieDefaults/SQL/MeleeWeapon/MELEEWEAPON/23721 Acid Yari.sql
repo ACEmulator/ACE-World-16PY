@@ -1,16 +1,13 @@
 /* Weenie - Acid Yari (23721) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23721;
+DELETE FROM weenie WHERE class_Id = 23721;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23721, 'yariacidmonsterextreme');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23721, 'yariacidmonsterextreme', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23721, 0, 23721);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23721, 1, 'Acid Yari') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23721, 1, 33555825) /* SETUP_DID */
      , (23721, 3, 536870932) /* SOUND_TABLE_DID */
      , (23721, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (23721, 1, 33555825) /* SETUP_DID */
      , (23721, 7, 268435777) /* CLOTHINGBASE_DID */
      , (23721, 8, 100667579) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23721, 9, 1048576) /* LOCATIONS_INT */
      , (23721, 1, 1) /* ITEM_TYPE_INT */
      , (23721, 19, 600) /* VALUE_INT */
@@ -41,20 +38,19 @@ VALUES (23721, 9, 1048576) /* LOCATIONS_INT */
      , (23721, 47, 2) /* ATTACK_TYPE_INT */
      , (23721, 48, 9) /* WEAPON_SKILL_INT */
      , (23721, 49, 30) /* WEAPON_TIME_INT */
-     , (23721, 51, 1) /* COMBAT_USE_INT */
-     , (23721, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23721, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23721, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23721, 21, 1.3) /* WEAPON_LENGTH_FLOAT */
      , (23721, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (23721, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23721, 22, True) /* INSCRIBABLE_BOOL */
      , (23721, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23721, 1616, 2) /* BloodDrinker6_SpellID */
      , (23721, 1627, 2) /* SwiftKiller6_SpellID */;
 

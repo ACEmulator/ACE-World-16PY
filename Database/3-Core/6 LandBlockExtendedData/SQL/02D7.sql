@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7952, 1882025984, 47644928, 22, -52, -84, -0.92388, 0, 0, -0.382683) /* Surface Portal */
      , (2609, 1882025985, 47644930, 21.1513, -68.9187, -83.995, -0.382684, 0, 0, -0.923879) /* Lever */
      , (8110, 1882025986, 47644932, 33.1369, -30.317, -83.995, 0.89408, 0, 0, -0.447908) /* Shendolain Satellite Fragment */
@@ -70,70 +70,70 @@ VALUES (7952, 1882025984, 47644928, 22, -52, -84, -0.92388, 0, 0, -0.382683) /* 
      , (7924, 1882026056, 47645259, 42.6574, -21.8211, -41.995, 0.042221, 0, 0, -0.999108) /* linkmonstergen5minutes */
      , (7952, 1882026027, 47645263, 42.124, -59.065, -41.995, -0.382684, 0, 0, -0.923879) /* Surface Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882025993'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882026007'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882026004'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882025996'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1882025998'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1882026006'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1882026056'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882025993'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882026007'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882026004'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882025996'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1882025998'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1882026006'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1882026056'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882026017'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882026010'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882025985'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882026003'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882025995'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1882025997'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1882026005'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026033'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026035'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026031'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026024'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026036'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026022'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026034'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026025'; /* linkmonstergen5minutes <- Elleina of Berkesh */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026030'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026029'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026023'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026026'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026032'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026015'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026014'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026018'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026000'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025999'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026009'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026002'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026020'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026001'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026013'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025994'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025991'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025986'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025989'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026019'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026028'; /* linkmonstergen5minutes <- Shendolain Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882025987'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026008'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026021'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026053'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026047'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026052'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026054'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026055'; /* linkmonstergen5minutes <- Risen Lord */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026050'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026051'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026046'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026045'; /* linkmonstergen5minutes <- Gold Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026042'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026041'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026048'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026049'; /* linkmonstergen5minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026038'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026039'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026043'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026044'; /* linkmonstergen5minutes <- Great Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026037'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882026040'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882026017'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882026010'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882025985'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882026003'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882025995'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882025997'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1882026005'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026033'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026035'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026031'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026024'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026036'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026022'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026034'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026025'; /* linkmonstergen5minutes <- Elleina of Berkesh */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026030'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026029'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026023'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026026'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026032'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026015'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026014'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026018'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026000'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025999'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026009'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026002'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026020'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026001'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026013'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025994'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025991'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025986'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025989'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026019'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026028'; /* linkmonstergen5minutes <- Shendolain Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882025987'; /* linkmonstergen5minutes <- Shendolain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026008'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026021'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026053'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026047'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026052'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026054'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026055'; /* linkmonstergen5minutes <- Risen Lord */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026050'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026051'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026046'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026045'; /* linkmonstergen5minutes <- Gold Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026042'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026041'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026048'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026049'; /* linkmonstergen5minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026038'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026039'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026043'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026044'; /* linkmonstergen5minutes <- Great Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026037'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882026040'; /* linkmonstergen5minutes <- Sparkling Dual Fragment */
 

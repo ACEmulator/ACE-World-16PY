@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1612, 1880817664, 28311824, 20, -20, 0.005, -4.37114E-08, 0, 0, -1) /* Azure Gromnie */
      , (1612, 1880817665, 28311824, 17.1153, -21.5751, 0.005, -4.37114E-08, 0, 0, -1) /* Azure Gromnie */
      , (1612, 1880817666, 28311828, 30, 0, 0.005, -0.707107, 0, 0, -0.707107) /* Azure Gromnie */
@@ -9,11 +9,11 @@ VALUES (1612, 1880817664, 28311824, 20, -20, 0.005, -4.37114E-08, 0, 0, -1) /* A
      , (4014, 1880817671, 28311844, 53.0169, -27.5352, 0, -0.707107, 0, 0, -0.707107) /* itemlowmagicgen */
      , (1612, 1880817672, 28311848, 56.693, -23.63, 0.149, 1, 0, 0, -4.37114E-08) /* Azure Gromnie */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880817667'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880817667'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880817664'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880817665'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880817666'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880817669'; /* linkmonstergen15minutes <- Azure Gromnie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880817672'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880817664'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880817665'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880817666'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880817669'; /* linkmonstergen15minutes <- Azure Gromnie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880817672'; /* linkmonstergen15minutes <- Azure Gromnie */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1104, 1881911296, 45809920, 3.29999, -10, -18, 0.707107, 0, 0, -0.707107) /* North Direlands Portal */
      , (4042, 1881911297, 45809921, 10, -3.3, -18, -4.37114E-08, 0, 0, -1) /* Plateau Portal */
      , (1032, 1881911298, 45809923, 10, -16.7, -18, 1, 0, 0, 0) /* Portal to Zaikhal */
@@ -22,14 +22,14 @@ VALUES (1104, 1881911296, 45809920, 3.29999, -10, -18, 0.707107, 0, 0, -0.707107
      , (8498, 1881911316, 45810065, 87.3101, -98.4892, 24.005, -0.637548, 0, 0, -0.770411) /* Surface */
      , (4219, 1881911317, 45810071, 108.67, -88.2302, 24.005, -0.641997, 0, 0, -0.766707) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881911317'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881911317'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911310'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911313'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911314'; /* linkmonstergen7minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911312'; /* linkmonstergen7minutes <- Shadow Child */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911309'; /* linkmonstergen7minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911308'; /* linkmonstergen7minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911307'; /* linkmonstergen7minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881911306'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911310'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911313'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911314'; /* linkmonstergen7minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911312'; /* linkmonstergen7minutes <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911309'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911308'; /* linkmonstergen7minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911307'; /* linkmonstergen7minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881911306'; /* linkmonstergen7minutes <- Shadow Lieutenant */
 

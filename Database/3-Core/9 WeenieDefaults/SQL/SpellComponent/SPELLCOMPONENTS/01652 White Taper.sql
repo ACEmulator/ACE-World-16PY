@@ -1,16 +1,13 @@
 /* Weenie - White Taper (1652) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1652;
+DELETE FROM weenie WHERE class_Id = 1652;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1652, 'taperwhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1652, 'taperwhite', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1652, 0, 1652);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1652, 1, 'White Taper') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1652, 1, 33555445) /* SETUP_DID */
      , (1652, 3, 536870932) /* SOUND_TABLE_DID */
      , (1652, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (1652, 1, 33555445) /* SETUP_DID */
      , (1652, 8, 100668328) /* ICON_DID */
      , (1652, 29, 73) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1652, 9, 0) /* LOCATIONS_INT */
      , (1652, 1, 4096) /* ITEM_TYPE_INT */
      , (1652, 13, 4) /* STACK_UNIT_ENCUMB_INT */
@@ -31,6 +28,5 @@ VALUES (1652, 9, 0) /* LOCATIONS_INT */
      , (1652, 15, 25) /* STACK_UNIT_VALUE_INT */
      , (1652, 16, 1) /* ITEM_USEABLE_INT */
      , (1652, 19, 25) /* VALUE_INT */
-     , (1652, 93, 1044) /* PHYSICS_STATE_INT */
-     , (1652, 9007, 32) /* SpellComponent_WeenieType */;
+     , (1652, 93, 1044) /* PHYSICS_STATE_INT */;
 

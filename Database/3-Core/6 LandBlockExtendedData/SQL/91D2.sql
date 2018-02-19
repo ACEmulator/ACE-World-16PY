@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12537, 2031951872, 2446458880, 61.3544, 84.6768, 342.246, 0.883669, 0, 0, -0.468112) /* Pavanne Vale Freehold Portal */
      , (12483, 2031951873, 2446458880, 67.8717, 76.9769, 344.568, 0.863158, 0, 0, -0.504934) /* Celdiseth's Beach Settlement Portal */
      , (12489, 2031951874, 2446458880, 69.7366, 67.0615, 343.862, 0.8096, 0, 0, -0.586982) /* East Esper Valley  Portal */

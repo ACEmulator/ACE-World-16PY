@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (389, 1880649728, 25624841, 50, -40, -6, 0.707107, 0, 0, -0.707107) /* mite-generator */
      , (957, 1880649729, 25624855, 80, -10, -6, 1, 0, 0, 0) /* mitesciongen */
      , (1604, 1880649730, 25624858, 0, -30, 0, 0.707107, 0, 0, -0.707107) /* Surface */
@@ -17,7 +17,7 @@ VALUES (389, 1880649728, 25624841, 50, -40, -6, 0.707107, 0, 0, -0.707107) /* mi
      , (1760, 1880649743, 25624905, 32.4123, -6.83615, 6.0025, -4.37114E-08, 0, 0, -1) /* Skeleton Warrior */
      , (1154, 1880649744, 25624905, 29.0486, -8.53969, 6, -4.37114E-08, 0, 0, -1) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880649744'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880649744'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880649743'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880649743'; /* linkmonstergen <- Skeleton Warrior */
 

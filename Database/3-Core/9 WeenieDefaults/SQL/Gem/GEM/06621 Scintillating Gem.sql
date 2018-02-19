@@ -1,18 +1,15 @@
 /* Weenie - Scintillating Gem (6621) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6621;
+DELETE FROM weenie WHERE class_Id = 6621;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6621, 'gemscintillating');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6621, 'gemscintillating', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6621, 0, 6621);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6621, 16, 'A large, scintillating gem with swirls of orange and black.') /* LONG_DESC_STRING */
      , (6621, 1, 'Scintillating Gem') /* NAME_STRING */
      , (6621, 15, 'A large, scintillating gem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6621, 1, 33554809) /* SETUP_DID */
      , (6621, 3, 536870932) /* SOUND_TABLE_DID */
      , (6621, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (6621, 1, 33554809) /* SETUP_DID */
      , (6621, 7, 268435723) /* CLOTHINGBASE_DID */
      , (6621, 8, 100671527) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6621, 9, 0) /* LOCATIONS_INT */
      , (6621, 1, 2048) /* ITEM_TYPE_INT */
      , (6621, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,13 +32,12 @@ VALUES (6621, 9, 0) /* LOCATIONS_INT */
      , (6621, 19, 0) /* VALUE_INT */
      , (6621, 150, 103) /* HOOK_PLACEMENT_INT */
      , (6621, 151, 2) /* HOOK_TYPE_INT */
-     , (6621, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6621, 9007, 38) /* Gem_WeenieType */;
+     , (6621, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6621, 39, 1.6) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6621, 69, False) /* IS_SELLABLE_BOOL */
      , (6621, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,19 +1,16 @@
 /* Weenie - Lugian Scepter (9421) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9421;
+DELETE FROM weenie WHERE class_Id = 9421;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9421, 'scepterlugian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9421, 'scepterlugian', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9421, 0, 9421);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9421, 16, 'A large scuffed scepter made from both stone and gems.') /* LONG_DESC_STRING */
      , (9421, 1, 'Lugian Scepter') /* NAME_STRING */
      , (9421, 33, 'ScepterLugian') /* QUEST_STRING */
      , (9421, 15, 'A large carved scepter.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9421, 1, 33557013) /* SETUP_DID */
      , (9421, 3, 536870932) /* SOUND_TABLE_DID */
      , (9421, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (9421, 1, 33557013) /* SETUP_DID */
      , (9421, 7, 268436169) /* CLOTHINGBASE_DID */
      , (9421, 8, 100671505) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9421, 9, 1048576) /* LOCATIONS_INT */
      , (9421, 1, 1) /* ITEM_TYPE_INT */
      , (9421, 19, 2500) /* VALUE_INT */
@@ -39,17 +36,16 @@ VALUES (9421, 9, 1048576) /* LOCATIONS_INT */
      , (9421, 47, 6) /* ATTACK_TYPE_INT */
      , (9421, 48, 5) /* WEAPON_SKILL_INT */
      , (9421, 49, 80) /* WEAPON_TIME_INT */
-     , (9421, 51, 1) /* COMBAT_USE_INT */
-     , (9421, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (9421, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9421, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (9421, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9421, 21, 1.24) /* WEAPON_LENGTH_FLOAT */
      , (9421, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (9421, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9421, 22, True) /* INSCRIBABLE_BOOL */
      , (9421, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,17 +1,14 @@
 /* Weenie - Crimson Brace of Pain (26590) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26590;
+DELETE FROM weenie WHERE class_Id = 26590;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26590, 'braceixir1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26590, 'braceixir1', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26590, 0, 26590);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26590, 1, 'Crimson Brace of Pain') /* NAME_STRING */
      , (26590, 15, 'This brace looks much like an ornamental piece for the hand. However, it is able to give greater strength to thrown darts.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26590, 1, 33558595) /* SETUP_DID */
      , (26590, 3, 536870932) /* SOUND_TABLE_DID */
      , (26590, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (26590, 1, 33558595) /* SETUP_DID */
      , (26590, 7, 268436792) /* CLOTHINGBASE_DID */
      , (26590, 8, 100675775) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26590, 9, 4194304) /* LOCATIONS_INT */
      , (26590, 1, 256) /* ITEM_TYPE_INT */
      , (26590, 19, 2000) /* VALUE_INT */
@@ -43,10 +40,9 @@ VALUES (26590, 9, 4194304) /* LOCATIONS_INT */
      , (26590, 49, 40) /* WEAPON_TIME_INT */
      , (26590, 50, 4) /* AMMO_TYPE_INT */
      , (26590, 51, 2) /* COMBAT_USE_INT */
-     , (26590, 60, 120) /* WEAPON_RANGE_INT */
-     , (26590, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (26590, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26590, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26590, 5, -0.05) /* MANA_RATE_FLOAT */
      , (26590, 136, 3) /* CRITICAL_MULTIPLIER_FLOAT */
@@ -54,10 +50,10 @@ VALUES (26590, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26590, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (26590, 63, 2.6) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26590, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26590, 1603, 2) /* Defender4_SpellID */
      , (26590, 1615, 2) /* BloodDrinker5_SpellID */
      , (26590, 1336, 2) /* StrengthOther5_SpellID */

@@ -1,16 +1,13 @@
 /* Weenie - Telumiat Hollow Minion (23555) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23555;
+DELETE FROM weenie WHERE class_Id = 23555;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23555, 'hollowminiontelumiat');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23555, 'hollowminiontelumiat', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23555, 0, 23555);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23555, 1, 'Telumiat Hollow Minion') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23555, 1, 33556792) /* SETUP_DID */
      , (23555, 2, 150995101) /* MOTION_TABLE_DID */
      , (23555, 35, 464) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (23555, 1, 33556792) /* SETUP_DID */
      , (23555, 7, 268436617) /* CLOTHINGBASE_DID */
      , (23555, 8, 100671140) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23555, 1, 16) /* ITEM_TYPE_INT */
      , (23555, 2, 48) /* CREATURE_TYPE_INT */
      , (23555, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (23555, 1, 16) /* ITEM_TYPE_INT */
      , (23555, 146, 61933) /* XP_OVERRIDE_INT */
      , (23555, 25, 120) /* LEVEL_INT */
      , (23555, 27, 0) /* ARMOR_TYPE_INT */
-     , (23555, 93, 1032) /* PHYSICS_STATE_INT */
-     , (23555, 9007, 10) /* Creature_WeenieType */;
+     , (23555, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23555, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (23555, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (23555, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,7 +66,7 @@ VALUES (23555, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (23555, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (23555, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23555, 1, True) /* STUCK_BOOL */
      , (23555, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (23555, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -78,20 +74,20 @@ VALUES (23555, 1, True) /* STUCK_BOOL */
      , (23555, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23555, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (23555, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (23555, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (23555, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (23555, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (23555, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (23555, 32, 50) /* SELF_ATTRIBUTE */;
+     , (23555, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (23555, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (23555, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23555, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23555, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23555, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (23555, 1, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23555, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23555, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23555, 9, 9292, 0, 0, 0.08, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
      , (23555, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
      , (23555, 9, 24842, 0, 0, 0.03, False) /* Create Telumiat Hollow Minion Essence for ContainTreasure_DestinationType */

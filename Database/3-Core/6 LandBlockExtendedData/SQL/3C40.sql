@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1452, 1942224912, 1010827520, 124.736, 59.039, 74.824, 0.64458, 0, 0, -0.764537) /* Super Cheese */
      , (7924, 1942224924, 1010827520, 126.322, 57.6728, 74.805, -0.951434, 0, 0, -0.307854) /* linkmonstergen5minutes */
      , (166, 1942224909, 1010827520, 125.296, 59.4213, 74.805, 0.523091, 0, 0, -0.852277) /* Sack */
@@ -15,20 +15,20 @@ VALUES (1452, 1942224912, 1010827520, 124.736, 59.039, 74.824, 0.64458, 0, 0, -0
      , (8138, 1942224914, 1010827264, 102.116, 60.8093, 80.01, -0.989371, 0, 0, -0.145412) /* Extas Raider */
      , (8137, 1942224915, 1010827264, 100.913, 56.0901, 80.01, -0.0666758, 0, 0, 0.997775) /* Tiatus Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1942224910'; /* linkitemgen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1942224924'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1942224910'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1942224924'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224909'; /* linkitemgen <- Sack */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224922'; /* linkitemgen <- Gifted Healing Kit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224921'; /* linkitemgen <- Peerless Healing Kit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1942224912'; /* linkitemgen <- Super Cheese */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224914'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224919'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224916'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224918'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224920'; /* linkmonstergen5minutes <- Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224917'; /* linkmonstergen5minutes <- Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224923'; /* linkmonstergen5minutes <- Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224915'; /* linkmonstergen5minutes <- Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1942224913'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1942224909'; /* linkitemgen <- Sack */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1942224922'; /* linkitemgen <- Gifted Healing Kit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1942224921'; /* linkitemgen <- Peerless Healing Kit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1942224912'; /* linkitemgen <- Super Cheese */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224914'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224919'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224916'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224918'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224920'; /* linkmonstergen5minutes <- Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224917'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224923'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224915'; /* linkmonstergen5minutes <- Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1942224913'; /* linkmonstergen5minutes <- Extas Raider */
 

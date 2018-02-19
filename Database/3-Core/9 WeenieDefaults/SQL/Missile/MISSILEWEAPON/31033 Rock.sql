@@ -1,22 +1,19 @@
 /* Weenie - Rock (31033) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 31033;
+DELETE FROM weenie WHERE class_Id = 31033;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (31033, 'lugianbouldershieldhollowuber');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (31033, 'lugianbouldershieldhollowuber', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (31033, 0, 31033);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31033, 1, 'Rock') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31033, 1, 33555863) /* SETUP_DID */
      , (31033, 3, 536871003) /* SOUND_TABLE_DID */
      , (31033, 8, 100667500) /* ICON_DID */
      , (31033, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31033, 9, 4194304) /* LOCATIONS_INT */
      , (31033, 1, 256) /* ITEM_TYPE_INT */
      , (31033, 13, 500) /* STACK_UNIT_ENCUMB_INT */
@@ -37,10 +34,9 @@ VALUES (31033, 9, 4194304) /* LOCATIONS_INT */
      , (31033, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (31033, 48, 12) /* WEAPON_SKILL_INT */
      , (31033, 49, 20) /* WEAPON_TIME_INT */
-     , (31033, 51, 2) /* COMBAT_USE_INT */
-     , (31033, 9007, 4) /* Missile_WeenieType */;
+     , (31033, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31033, 151, 0.6) /* IGNORE_SHIELD_FLOAT */
      , (31033, 79, 0) /* ELASTICITY_FLOAT */
      , (31033, 39, 1) /* DEFAULT_SCALE_FLOAT */
@@ -54,7 +50,7 @@ VALUES (31033, 151, 0.6) /* IGNORE_SHIELD_FLOAT */
      , (31033, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (31033, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31033, 17, True) /* INELASTIC_BOOL */
      , (31033, 1, True) /* STUCK_BOOL */
      , (31033, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */

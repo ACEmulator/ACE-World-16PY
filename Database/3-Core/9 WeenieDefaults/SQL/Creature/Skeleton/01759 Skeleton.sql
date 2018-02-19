@@ -1,16 +1,13 @@
 /* Weenie - Skeleton (1759) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1759;
+DELETE FROM weenie WHERE class_Id = 1759;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1759, 'skeleton');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1759, 'skeleton', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1759, 0, 1759);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1759, 1, 'Skeleton') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1759, 8, 100669124) /* ICON_DID */
      , (1759, 32, 186) /* WIELDED_TREASURE_TYPE_DID */
      , (1759, 1, 33554521) /* SETUP_DID */
@@ -21,7 +18,7 @@ VALUES (1759, 8, 100669124) /* ICON_DID */
      , (1759, 4, 805306368) /* COMBAT_TABLE_DID */
      , (1759, 22, 872415269) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1759, 1, 16) /* ITEM_TYPE_INT */
      , (1759, 146, 57) /* XP_OVERRIDE_INT */
      , (1759, 2, 30) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (1759, 1, 16) /* ITEM_TYPE_INT */
      , (1759, 27, 0) /* ARMOR_TYPE_INT */
      , (1759, 93, 1032) /* PHYSICS_STATE_INT */
      , (1759, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1759, 40, 1) /* COMBAT_MODE_INT */
-     , (1759, 9007, 10) /* Creature_WeenieType */;
+     , (1759, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1759, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (1759, 65, 0.6) /* RESIST_PIERCE_FLOAT */
      , (1759, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (1759, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (1759, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1759, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1759, 1, True) /* STUCK_BOOL */
      , (1759, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1759, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1759, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1759, 1, 25) /* STRENGTH_ATTRIBUTE */
      , (1759, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (1759, 4, 55) /* COORDINATION_ATTRIBUTE */
-     , (1759, 8, 65) /* QUICKNESS_ATTRIBUTE */
-     , (1759, 16, 35) /* FOCUS_ATTRIBUTE */
-     , (1759, 32, 40) /* SELF_ATTRIBUTE */;
+     , (1759, 3, 65) /* QUICKNESS_ATTRIBUTE */
+     , (1759, 5, 35) /* FOCUS_ATTRIBUTE */
+     , (1759, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1759, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1759, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1759, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1759, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1759, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1759, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1759, 9, 9314, 0, 0, 0.03, False) /* Create A Tiny Mnemosyne for ContainTreasure_DestinationType */
      , (1759, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

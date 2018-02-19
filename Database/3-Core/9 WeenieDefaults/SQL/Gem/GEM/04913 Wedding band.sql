@@ -1,16 +1,13 @@
 /* Weenie - Wedding band (4913) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4913;
+DELETE FROM weenie WHERE class_Id = 4913;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4913, 'weddingband');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4913, 'weddingband', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4913, 0, 4913);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4913, 1, 'Wedding band') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4913, 1, 33554690) /* SETUP_DID */
      , (4913, 3, 536870932) /* SOUND_TABLE_DID */
      , (4913, 28, 1708) /* SPELL_DID */
@@ -20,7 +17,7 @@ VALUES (4913, 1, 33554690) /* SETUP_DID */
      , (4913, 7, 268435754) /* CLOTHINGBASE_DID */
      , (4913, 8, 100668562) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4913, 9, 0) /* LOCATIONS_INT */
      , (4913, 1, 2048) /* ITEM_TYPE_INT */
      , (4913, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -39,12 +36,11 @@ VALUES (4913, 9, 0) /* LOCATIONS_INT */
      , (4913, 107, 50) /* ITEM_CUR_MANA_INT */
      , (4913, 108, 50) /* ITEM_MAX_MANA_INT */
      , (4913, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (4913, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (4913, 9007, 38) /* Gem_WeenieType */;
+     , (4913, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4913, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4913, 22, True) /* INSCRIBABLE_BOOL */;
 

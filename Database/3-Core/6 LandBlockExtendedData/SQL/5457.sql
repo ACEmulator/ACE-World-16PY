@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19267, 1967484928, 1414988034, 130, -40, -5.995, 0.678557, 0, 0, -0.734548) /* Bronze Statue of a Grievver */
      , (19267, 1967484929, 1414988049, 140, -50, -5.995, 0.291502, 0, 0, -0.95657) /* Bronze Statue of a Grievver */
      , (19270, 1967484930, 1414988053, 150, -20, -5.9905, 1, 0, 0, -4.37114E-08) /* Bronze Statue of a Shadow */
@@ -52,53 +52,53 @@ VALUES (19267, 1967484928, 1414988034, 130, -40, -5.995, 0.678557, 0, 0, -0.7345
      , (19270, 1967484980, 1414988535, 100.182, -71.0288, 18.0095, -0.0673109, 0, 0, 0.997732) /* Bronze Statue of a Shadow */
      , (19131, 1967484981, 1414988555, 129.893, -74.75, 18.005, 1, 0, 0, 0) /* Portal to Fort Tethana */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967484956'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1967484957'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967484956'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967484957'; /* linkmonstergen1minute */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484953'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484947'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484941'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484946'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484939'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484940'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484942'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484944'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484949'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484970'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484967'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484971'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484961'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484959'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484943'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484945'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484948'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484952'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484951'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484955'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484954'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484930'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484935'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484928'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484938'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484972'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484980'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484975'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484978'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484973'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484977'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484974'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484976'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484979'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484969'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484950'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967484932'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484965'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484960'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484968'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484962'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484966'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484937'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484929'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484931'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967484936'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484953'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484947'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484941'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484946'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484939'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484940'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484942'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484944'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484949'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484970'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484967'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484971'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484961'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484959'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484943'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484945'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484948'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484952'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484951'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484955'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484954'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484930'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484935'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484928'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484938'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484972'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484980'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484975'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484978'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484973'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484977'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484974'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484976'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484979'; /* linkmonstergen3minutes <- Bronze Statue of a Virindi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484969'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484950'; /* linkmonstergen3minutes <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967484932'; /* linkmonstergen3minutes <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484965'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484960'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484968'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484962'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484966'; /* linkmonstergen1minute <- Bronze Statue of a Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484937'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484929'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484931'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967484936'; /* linkmonstergen1minute <- Bronze Statue of a Grievver */
 
