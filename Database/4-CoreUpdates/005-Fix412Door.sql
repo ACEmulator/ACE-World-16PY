@@ -1,6 +1,24 @@
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (412, 8, 100668183) /* ICON_DID */
-     , (412, 1, 33561087) /* SETUP_DID */
-     , (412, 3, 536870947) /* SOUND_TABLE_DID */
-     , (412, 2, 150995458) /* MOTION_TABLE_DID */
-     , (412, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+UPDATE `ace_world`.`weenie_properties_d_i_d`
+SET
+`value` = 33561087
+WHERE `object_Id` = 412 AND `type` = 1;
+
+UPDATE `ace_world`.`weenie_properties_d_i_d`
+SET
+`value` = 150995458
+WHERE `object_Id` = 412 AND `type` = 2;
+
+UPDATE `ace_world`.`weenie_properties_d_i_d`
+SET
+`value` = 536870947
+WHERE `object_Id` = 412 AND `type` = 3;
+
+UPDATE `ace_world`.`weenie_properties_d_i_d`
+SET
+`value` = 100668183
+WHERE `object_Id` = 412 AND `type` = 8;
+
+UPDATE `ace_world`.`weenie_properties_d_i_d`
+SET
+`value` = 872415275
+WHERE `object_Id` = 412 AND `type` = 22;
