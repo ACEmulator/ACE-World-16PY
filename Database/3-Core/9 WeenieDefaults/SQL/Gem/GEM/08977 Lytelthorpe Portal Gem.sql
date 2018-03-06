@@ -1,18 +1,15 @@
 /* Weenie - Lytelthorpe Portal Gem (8977) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8977;
+DELETE FROM weenie WHERE class_Id = 8977;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8977, 'gemportallytelthorpe');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8977, 'gemportallytelthorpe', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8977, 0, 8977);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8977, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (8977, 1, 'Lytelthorpe Portal Gem') /* NAME_STRING */
      , (8977, 15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8977, 1, 33556769) /* SETUP_DID */
      , (8977, 3, 536870932) /* SOUND_TABLE_DID */
      , (8977, 28, 157) /* SPELL_DID */
@@ -23,7 +20,7 @@ VALUES (8977, 1, 33556769) /* SETUP_DID */
      , (8977, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8977, 8, 100674859) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8977, 9, 0) /* LOCATIONS_INT */
      , (8977, 1, 2048) /* ITEM_TYPE_INT */
      , (8977, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -45,10 +42,9 @@ VALUES (8977, 9, 0) /* LOCATIONS_INT */
      , (8977, 107, 50) /* ITEM_CUR_MANA_INT */
      , (8977, 108, 50) /* ITEM_MAX_MANA_INT */
      , (8977, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8977, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8977, 9007, 38) /* Gem_WeenieType */;
+     , (8977, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8977, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8977, 15, True) /* LIGHTS_STATUS_BOOL */;
 

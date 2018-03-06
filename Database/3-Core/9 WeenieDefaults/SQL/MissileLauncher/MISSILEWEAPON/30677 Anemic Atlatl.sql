@@ -1,24 +1,21 @@
 /* Weenie - Anemic Atlatl (30677) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30677;
+DELETE FROM weenie WHERE class_Id = 30677;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30677, 'atlatlanemic');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30677, 'atlatlanemic', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30677, 0, 30677);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30677, 16, 'This atlatl appears to be made from the withered flesh of some sort of creature.') /* LONG_DESC_STRING */
      , (30677, 1, 'Anemic Atlatl') /* NAME_STRING */
      , (30677, 33, 'WitheredAtollAtlatl0105') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30677, 1, 33559214) /* SETUP_DID */
      , (30677, 3, 536870932) /* SOUND_TABLE_DID */
      , (30677, 8, 100677398) /* ICON_DID */
      , (30677, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30677, 9, 4194304) /* LOCATIONS_INT */
      , (30677, 1, 256) /* ITEM_TYPE_INT */
      , (30677, 93, 1044) /* PHYSICS_STATE_INT */
@@ -42,10 +39,9 @@ VALUES (30677, 9, 4194304) /* LOCATIONS_INT */
      , (30677, 50, 4) /* AMMO_TYPE_INT */
      , (30677, 114, 1) /* ATTUNED_INT */
      , (30677, 51, 2) /* COMBAT_USE_INT */
-     , (30677, 60, 120) /* WEAPON_RANGE_INT */
-     , (30677, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (30677, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30677, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (30677, 5, -0.05) /* MANA_RATE_FLOAT */
      , (30677, 136, 7) /* CRITICAL_MULTIPLIER_FLOAT */
@@ -53,11 +49,11 @@ VALUES (30677, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (30677, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (30677, 63, 2.7) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30677, 99, True) /* IVORYABLE_BOOL */
      , (30677, 22, True) /* INSCRIBABLE_BOOL */
      , (30677, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30677, 1616, 2) /* BloodDrinker6_SpellID */;
 

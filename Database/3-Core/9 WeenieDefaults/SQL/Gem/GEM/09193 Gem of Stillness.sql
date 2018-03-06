@@ -1,19 +1,16 @@
 /* Weenie - Gem of Stillness (9193) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9193;
+DELETE FROM weenie WHERE class_Id = 9193;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9193, 'gemdispelhigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9193, 'gemdispelhigh', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9193, 0, 9193);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9193, 16, 'A small glowing gem, that seems to radiate light from an internal source.') /* LONG_DESC_STRING */
      , (9193, 1, 'Gem of Stillness') /* NAME_STRING */
      , (9193, 20, 'Gems of Stillness') /* PLURAL_NAME_STRING */
      , (9193, 15, 'A small glowing gem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9193, 1, 33554809) /* SETUP_DID */
      , (9193, 3, 536870932) /* SOUND_TABLE_DID */
      , (9193, 28, 3180) /* SPELL_DID */
@@ -23,7 +20,7 @@ VALUES (9193, 1, 33554809) /* SETUP_DID */
      , (9193, 7, 268435723) /* CLOTHINGBASE_DID */
      , (9193, 8, 100671405) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9193, 9, 0) /* LOCATIONS_INT */
      , (9193, 1, 2048) /* ITEM_TYPE_INT */
      , (9193, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -43,12 +40,11 @@ VALUES (9193, 9, 0) /* LOCATIONS_INT */
      , (9193, 107, 150) /* ITEM_CUR_MANA_INT */
      , (9193, 108, 250) /* ITEM_MAX_MANA_INT */
      , (9193, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (9193, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (9193, 9007, 38) /* Gem_WeenieType */;
+     , (9193, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9193, 39, 1.2) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9193, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

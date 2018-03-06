@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28063, 2072936450, 3102212355, 184.636, 132.213, -1.795, -0.668338, 0, 0, 0.743858) /* Coral Tunnels */
      , (7925, 2072936465, 3102212355, 173.839, 132.737, -1.795, 0.663538, 0, 0, -0.748142) /* linkmonstergen10minutes */
      , (7179, 2072936451, 3102212355, 180.647, 135.9, -1.795, 0.26483, 0, 0, 0.964295) /* Relic Bones */
@@ -18,22 +18,22 @@ VALUES (28063, 2072936450, 3102212355, 184.636, 132.213, -1.795, -0.668338, 0, 0
      , (7106, 2072936459, 3102212096, 171.68, 132.706, 7.512, 0.888466, 0, 0, 0.458942) /* Sewer Rat */
      , (7106, 2072936460, 3102212096, 172.715, 136.404, 7.512, 0.747302, 0, 0, 0.664485) /* Sewer Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2072936449'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2072936465'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2072936449'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2072936465'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2072936448'; /* linkmonstergen15minutes <- Nightmare Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936451'; /* linkmonstergen10minutes <- Relic Bones */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936452'; /* linkmonstergen10minutes <- Cursed Bones */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936453'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936454'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936455'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936456'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936457'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936458'; /* linkmonstergen10minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936459'; /* linkmonstergen10minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936460'; /* linkmonstergen10minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936461'; /* linkmonstergen10minutes <- Wasteland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936462'; /* linkmonstergen10minutes <- Relic Bones */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936463'; /* linkmonstergen10minutes <- Relic Bones */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2072936464'; /* linkmonstergen10minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2072936448'; /* linkmonstergen15minutes <- Nightmare Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936451'; /* linkmonstergen10minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936452'; /* linkmonstergen10minutes <- Cursed Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936453'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936454'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936455'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936456'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936457'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936458'; /* linkmonstergen10minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936459'; /* linkmonstergen10minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936460'; /* linkmonstergen10minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936461'; /* linkmonstergen10minutes <- Wasteland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936462'; /* linkmonstergen10minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936463'; /* linkmonstergen10minutes <- Relic Bones */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2072936464'; /* linkmonstergen10minutes <- Relic Bones */
 

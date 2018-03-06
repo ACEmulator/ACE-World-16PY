@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12, 1881128960, 33292544, -1.80562, -40.4949, 0.01, 0.707107, 0, 0, -0.707107) /* Red Phyntos Wasp */
      , (12, 1881128961, 33292559, 20.0204, -33.9122, 0.01, -4.37114E-08, 0, 0, -1) /* Red Phyntos Wasp */
      , (1154, 1881128962, 33292564, 20, -60, 0, 1, 0, 0, 0) /* linkmonstergen */
@@ -34,28 +34,28 @@ VALUES (12, 1881128960, 33292544, -1.80562, -40.4949, 0.01, 0.707107, 0, 0, -0.7
      , (5056, 1881128992, 33292691, 69.1925, -53.7621, 6, 0, 0, 0, -1) /* Chest */
      , (12, 1881128993, 33292697, 69.866, -78.328, 6.01, 0.241922, 0, 0, -0.970296) /* Red Phyntos Wasp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881128962'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881128962'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128991'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128983'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128984'; /* linkmonstergen <- Adult Reedshark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128980'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128978'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128964'; /* linkmonstergen <- Spiny Armoredillo */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128965'; /* linkmonstergen <- Spiny Armoredillo */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128960'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128966'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128961'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128974'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128972'; /* linkmonstergen <- Adult Reedshark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128973'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128977'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128969'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128970'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128987'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128988'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128989'; /* linkmonstergen <- Reedshark Pup */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128993'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128990'; /* linkmonstergen <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881128985'; /* linkmonstergen <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128991'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128983'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128984'; /* linkmonstergen <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128980'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128978'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128964'; /* linkmonstergen <- Spiny Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128965'; /* linkmonstergen <- Spiny Armoredillo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128960'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128966'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128961'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128974'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128972'; /* linkmonstergen <- Adult Reedshark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128973'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128977'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128969'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128970'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128987'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128988'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128989'; /* linkmonstergen <- Reedshark Pup */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128993'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128990'; /* linkmonstergen <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881128985'; /* linkmonstergen <- Adult Reedshark */
 

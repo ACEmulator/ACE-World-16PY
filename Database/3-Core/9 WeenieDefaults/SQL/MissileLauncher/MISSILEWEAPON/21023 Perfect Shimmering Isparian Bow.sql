@@ -1,16 +1,13 @@
 /* Weenie - Perfect Shimmering Isparian Bow (21023) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21023;
+DELETE FROM weenie WHERE class_Id = 21023;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21023, 'bowisparianperfectprismaticmajor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21023, 'bowisparianperfectprismaticmajor', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21023, 0, 21023);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21023, 1, 'Perfect Shimmering Isparian Bow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21023, 1, 33557729) /* SETUP_DID */
      , (21023, 3, 536870932) /* SOUND_TABLE_DID */
      , (21023, 37, 2) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (21023, 1, 33557729) /* SETUP_DID */
      , (21023, 7, 268436420) /* CLOTHINGBASE_DID */
      , (21023, 8, 100673205) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21023, 9, 4194304) /* LOCATIONS_INT */
      , (21023, 1, 256) /* ITEM_TYPE_INT */
      , (21023, 19, 8000) /* VALUE_INT */
@@ -49,10 +46,9 @@ VALUES (21023, 9, 4194304) /* LOCATIONS_INT */
      , (21023, 115, 290) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (21023, 52, 2) /* PARENT_LOCATION_INT */
      , (21023, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (21023, 60, 175) /* WEAPON_RANGE_INT */
-     , (21023, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (21023, 60, 175) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21023, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (21023, 5, -0.1) /* MANA_RATE_FLOAT */
      , (21023, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
@@ -60,12 +56,12 @@ VALUES (21023, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (21023, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (21023, 63, 2.3) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21023, 69, False) /* IS_SELLABLE_BOOL */
      , (21023, 22, True) /* INSCRIBABLE_BOOL */
      , (21023, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21023, 1605, 2) /* Defender6_SpellID */
      , (21023, 1616, 2) /* BloodDrinker6_SpellID */
      , (21023, 1312, 2) /* ArmorSelf6_SpellID */

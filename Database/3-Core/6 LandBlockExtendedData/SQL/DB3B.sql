@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4543, 2108928012, 3678077184, 182.922, 126.976, 20.005, 0.986327, 0, 0, 0.164802) /* Healer Kai Kou */
      , (4539, 2108928009, 3678077197, 62.1744, 85.0938, 28.005, 0.570074, 0, 0, 0.821593) /* Archmage Ta Ban-Yu */
      , (28184, 2108928031, 3678077197, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396) /* Apprentice Alchemist */
@@ -32,8 +32,8 @@ VALUES (4543, 2108928012, 3678077184, 182.922, 126.976, 20.005, 0.986327, 0, 0, 
      , (4568, 2108928014, 3678076928, 157.019, 181.322, 20.403, -0.062832, 0, 0, 0.998024) /* Portal to Tou-Tou */
      , (4501, 2108928013, 3678076928, 180.664, 138.736, 21.9042, -0.707107, 0, 0, -0.707107) /* The Tree of Healing */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2108928017'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2108928017'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928016'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2108928031'; /* linkmonstergen3minutes <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928016'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2108928031'; /* linkmonstergen3minutes <- Apprentice Alchemist */
 

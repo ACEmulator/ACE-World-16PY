@@ -1,17 +1,14 @@
 /* Weenie - Ancient Temple (30805) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30805;
+DELETE FROM weenie WHERE class_Id = 30805;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30805, 'gemquestlivingtome');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30805, 'gemquestlivingtome', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30805, 0, 30805);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30805, 1, 'Ancient Temple') /* NAME_STRING */
      , (30805, 14, 'Double click this gem to summon a portal to the Falatacot Temple and seek out the Living Tome.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30805, 1, 33556769) /* SETUP_DID */
      , (30805, 3, 536870932) /* SOUND_TABLE_DID */
      , (30805, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (30805, 1, 33556769) /* SETUP_DID */
      , (30805, 50, 100676404) /* ICON_OVERLAY_DID */
      , (30805, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30805, 9, 0) /* LOCATIONS_INT */
      , (30805, 1, 2048) /* ITEM_TYPE_INT */
      , (30805, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -43,10 +40,9 @@ VALUES (30805, 9, 0) /* LOCATIONS_INT */
      , (30805, 107, 50) /* ITEM_CUR_MANA_INT */
      , (30805, 108, 50) /* ITEM_MAX_MANA_INT */
      , (30805, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30805, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (30805, 9007, 38) /* Gem_WeenieType */;
+     , (30805, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30805, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (30805, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30805, 22, True) /* INSCRIBABLE_BOOL */;

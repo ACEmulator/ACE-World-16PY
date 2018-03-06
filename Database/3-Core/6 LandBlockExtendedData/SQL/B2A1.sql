@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (951, 2066354202, 2996896001, 59.4382, 38.4653, 88.005, -0.851432, 0, 0, -0.524465) /* banderlingguardgen */
      , (951, 2066354201, 2996896001, 57.9055, 33.7459, 88.005, -0.998176, 0, 0, 0.060377) /* banderlingguardgen */
      , (951, 2066354200, 2996896005, 57.5589, 36.6138, 91.005, -0.38082, 0, 0, 0.924649) /* banderlingguardgen */
@@ -29,9 +29,9 @@ VALUES (951, 2066354202, 2996896001, 59.4382, 38.4653, 88.005, -0.851432, 0, 0, 
      , (951, 2066354191, 2996895744, 103.133, 45.6591, 90.005, 0.111966, 0, 0, 0.993712) /* banderlingguardgen */
      , (951, 2066354190, 2996895744, 105.127, 42.7001, 90.005, 0.994109, 0, 0, 0.108381) /* banderlingguardgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2066354189'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2066354189'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354186'; /* linkmonstergen <- Carrion Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354187'; /* linkmonstergen <- Carrion Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2066354188'; /* linkmonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066354186'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066354187'; /* linkmonstergen <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2066354188'; /* linkmonstergen <- Blood Shreth */
 

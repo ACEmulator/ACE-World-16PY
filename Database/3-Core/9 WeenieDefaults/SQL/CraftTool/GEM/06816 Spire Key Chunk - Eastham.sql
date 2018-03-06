@@ -1,25 +1,22 @@
 /* Weenie - Spire Key Chunk - Eastham (6816) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6816;
+DELETE FROM weenie WHERE class_Id = 6816;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6816, 'keyspirepieceeastham');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6816, 'keyspirepieceeastham', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6816, 0, 6816);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6816, 16, 'The front third of a skeletal key, found in the Eastham shadow spire.') /* LONG_DESC_STRING */
      , (6816, 1, 'Spire Key Chunk - Eastham') /* NAME_STRING */
      , (6816, 14, 'Use this item with other skeletal key pieces.') /* USE_STRING */
      , (6816, 15, 'The front third of a skeletal key, found in the Eastham shadow spire.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6816, 1, 33554784) /* SETUP_DID */
      , (6816, 3, 536870932) /* SOUND_TABLE_DID */
      , (6816, 8, 100670629) /* ICON_DID */
      , (6816, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6816, 9, 0) /* LOCATIONS_INT */
      , (6816, 1, 2048) /* ITEM_TYPE_INT */
      , (6816, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -34,9 +31,8 @@ VALUES (6816, 9, 0) /* LOCATIONS_INT */
      , (6816, 150, 103) /* HOOK_PLACEMENT_INT */
      , (6816, 151, 2) /* HOOK_TYPE_INT */
      , (6816, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6816, 94, 2048) /* TARGET_TYPE_INT */
-     , (6816, 9007, 44) /* CraftTool_WeenieType */;
+     , (6816, 94, 2048) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6816, 22, True) /* INSCRIBABLE_BOOL */;
 

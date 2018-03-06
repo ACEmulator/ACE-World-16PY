@@ -1,19 +1,16 @@
 /* Weenie - Ruined Amulet of the Right Hand (15766) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15766;
+DELETE FROM weenie WHERE class_Id = 15766;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15766, 'amuletruineditem');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15766, 'amuletruineditem', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15766, 0, 15766);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15766, 16, 'An Amulet crafted in pyreal that bears the symbol of item enchantment. The amulet is damaged, seemingly beyond repair.') /* LONG_DESC_STRING */
      , (15766, 1, 'Ruined Amulet of the Right Hand') /* NAME_STRING */
      , (15766, 14, 'This might fit into a setting created for it.') /* USE_STRING */
      , (15766, 15, 'An amulet crafted in pyreal that bears the symbol of item enchantment.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15766, 1, 33554680) /* SETUP_DID */
      , (15766, 3, 536870932) /* SOUND_TABLE_DID */
      , (15766, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (15766, 1, 33554680) /* SETUP_DID */
      , (15766, 7, 268436095) /* CLOTHINGBASE_DID */
      , (15766, 8, 100672811) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15766, 9, 0) /* LOCATIONS_INT */
      , (15766, 1, 128) /* ITEM_TYPE_INT */
      , (15766, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,13 +35,12 @@ VALUES (15766, 9, 0) /* LOCATIONS_INT */
      , (15766, 93, 1044) /* PHYSICS_STATE_INT */
      , (15766, 94, 2) /* TARGET_TYPE_INT */
      , (15766, 33, 1) /* BONDED_INT */
-     , (15766, 114, 1) /* ATTUNED_INT */
-     , (15766, 9007, 44) /* CraftTool_WeenieType */;
+     , (15766, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15766, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15766, 22, True) /* INSCRIBABLE_BOOL */
      , (15766, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

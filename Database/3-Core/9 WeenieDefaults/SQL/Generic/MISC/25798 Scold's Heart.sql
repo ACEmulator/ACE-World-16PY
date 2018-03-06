@@ -1,24 +1,21 @@
 /* Weenie - Scold's Heart (25798) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25798;
+DELETE FROM weenie WHERE class_Id = 25798;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25798, 'golemheartmagmadfd');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25798, 'golemheartmagmadfd', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25798, 0, 25798);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25798, 16, 'A very, very small Magma Golem''s Heart.') /* LONG_DESC_STRING */
      , (25798, 1, 'Scold''s Heart') /* NAME_STRING */
      , (25798, 33, 'PickedUpGolemHeartMagmaDFD') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25798, 1, 33558517) /* SETUP_DID */
      , (25798, 3, 536870932) /* SOUND_TABLE_DID */
      , (25798, 8, 100675515) /* ICON_DID */
      , (25798, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25798, 33, 1) /* BONDED_INT */
      , (25798, 1, 128) /* ITEM_TYPE_INT */
      , (25798, 93, 1044) /* PHYSICS_STATE_INT */
@@ -28,13 +25,12 @@ VALUES (25798, 33, 1) /* BONDED_INT */
      , (25798, 19, 100) /* VALUE_INT */
      , (25798, 150, 103) /* HOOK_PLACEMENT_INT */
      , (25798, 151, 2) /* HOOK_TYPE_INT */
-     , (25798, 114, 1) /* ATTUNED_INT */
-     , (25798, 9007, 1) /* Generic_WeenieType */;
+     , (25798, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25798, 39, 1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25798, 22, True) /* INSCRIBABLE_BOOL */
      , (25798, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

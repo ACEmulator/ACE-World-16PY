@@ -1,16 +1,13 @@
 /* Weenie - Ghost Wisp (1987) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1987;
+DELETE FROM weenie WHERE class_Id = 1987;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1987, 'wispghost');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1987, 'wispghost', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1987, 0, 1987);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1987, 1, 'Ghost Wisp') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1987, 1, 33555868) /* SETUP_DID */
      , (1987, 2, 150994993) /* MOTION_TABLE_DID */
      , (1987, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (1987, 1, 33555868) /* SETUP_DID */
      , (1987, 8, 100668442) /* ICON_DID */
      , (1987, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1987, 25, 11) /* LEVEL_INT */
      , (1987, 1, 16) /* ITEM_TYPE_INT */
      , (1987, 146, 717) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (1987, 25, 11) /* LEVEL_INT */
      , (1987, 16, 1) /* ITEM_USEABLE_INT */
      , (1987, 27, 0) /* ARMOR_TYPE_INT */
      , (1987, 93, 1032) /* PHYSICS_STATE_INT */
-     , (1987, 40, 2) /* COMBAT_MODE_INT */
-     , (1987, 9007, 10) /* Creature_WeenieType */;
+     , (1987, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1987, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1987, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (1987, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,7 +63,7 @@ VALUES (1987, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1987, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1987, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1987, 1, True) /* STUCK_BOOL */
      , (1987, 6, True) /* AI_USES_MANA_BOOL */
      , (1987, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -76,7 +72,7 @@ VALUES (1987, 1, True) /* STUCK_BOOL */
      , (1987, 13, False) /* ETHEREAL_BOOL */
      , (1987, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1987, 219, 2.17) /* ManaDepletionOther2_SpellID */
      , (1987, 195, 2.17) /* ExhaustionOther2_SpellID */
      , (1987, 1172, 2.17) /* HarmOther2_SpellID */
@@ -90,20 +86,20 @@ VALUES (1987, 219, 2.17) /* ManaDepletionOther2_SpellID */
      , (1987, 172, 2.17) /* FesterOther2_SpellID */
      , (1987, 1261, 2.67) /* DrainMana2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1987, 1, 50) /* STRENGTH_ATTRIBUTE */
      , (1987, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (1987, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (1987, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (1987, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (1987, 32, 90) /* SELF_ATTRIBUTE */;
+     , (1987, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (1987, 5, 90) /* FOCUS_ATTRIBUTE */
+     , (1987, 6, 90) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1987, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1987, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1987, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1987, 1, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1987, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1987, 5, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1987, 9, 8668, 0, 0, 0.03, False) /* Create Sickly Wisp Heart for ContainTreasure_DestinationType */
      , (1987, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

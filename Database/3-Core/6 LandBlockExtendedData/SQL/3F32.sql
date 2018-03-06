@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2543, 1945313289, 1060241668, 65.6117, 30.8234, 8.405, -0.98389, 0, 0, -0.178776) /* Archmage Dou Ran */
      , (143, 1945313309, 1060241668, 53.6032, 40.13, 8.405, 1, 0, 0, 0) /* Chest */
      , (12050, 1945313295, 1060241668, 54.8468, 41.3855, 8.405, -0.379301, 0, 0, 0.925273) /* Agent of the Arcanum */
@@ -27,8 +27,8 @@ VALUES (2543, 1945313289, 1060241668, 65.6117, 30.8234, 8.405, -0.98389, 0, 0, -
      , (794, 1945313293, 1060241408, 75.6346, 28.1274, 3.108, 0.453658, 0, 0, 0.891176) /* applegenerator */
      , (2385, 1945313292, 1060241408, 147.354, 166.059, 34.9491, 0.669374, 0, 0, 0.742926) /* Disaster Maze */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945313303'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1945313303'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313315'; /* linkmonstergen3minutes <- Jojii Shrine */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945313295'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313315'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945313295'; /* linkmonstergen3minutes <- Agent of the Arcanum */
 

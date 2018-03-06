@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (720, 2138423296, 4150001920, 63, 83.975, 20, 0, 0, 0, -1) /* Sliding Door */
      , (720, 2138423297, 4150001920, 57, 83.975, 20, 0, 0, 0, -1) /* Sliding Door */
      , (5621, 2138423298, 4150001920, 60.08, 79.58, 21.76, 0.707107, 0, 0, -0.707107) /* Hot Air */
@@ -54,16 +54,16 @@ VALUES (720, 2138423296, 4150001920, 63, 83.975, 20, 0, 0, 0, -1) /* Sliding Doo
      , (4535, 2138423330, 4150001664, 46.096, 65.699, 20.005, 1, 0, 0, 0) /* Tou-Tou */
      , (1013, 2138423329, 4150001664, 29.94, 125.074, 20.005, -0.382683, 0, 0, -0.92388) /* Portal to Arwic */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2138423316'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2138423326'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2138423341'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2138423353'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2138423316'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2138423326'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2138423341'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2138423353'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138423315'; /* linkmonstergen <- Cow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138423332'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138423333'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2138423334'; /* linkmonstergen <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2138423324'; /* linkmonstergen <- Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2138423340'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2138423352'; /* linkmonstergen3minutes <- Tai Wo */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423315'; /* linkmonstergen <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423332'; /* linkmonstergen <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423333'; /* linkmonstergen <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2138423334'; /* linkmonstergen <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2138423324'; /* linkmonstergen <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2138423340'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2138423352'; /* linkmonstergen3minutes <- Tai Wo */
 

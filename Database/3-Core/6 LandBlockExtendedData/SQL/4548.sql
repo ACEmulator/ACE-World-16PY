@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1046, 1951694848, 1162346496, 117.841, 37.4044, -0.445, -0.775997, 0, 0, -0.630736) /* itemcomponentgenerator */
      , (1622, 1951694849, 1162346496, 116.423, 37.3743, -0.44, -0.999472, 0, 0, -0.0324958) /* Mire Phyntos Wasp */
      , (1622, 1951694850, 1162346496, 110.98, 46.4714, -0.44, -0.103114, 0, 0, 0.994669) /* Mire Phyntos Wasp */
@@ -11,15 +11,15 @@ VALUES (1046, 1951694848, 1162346496, 117.841, 37.4044, -0.445, -0.775997, 0, 0,
      , (1624, 1951694857, 1162346496, 78.2375, 42.0013, 0.005, 0.921414, 0, 0, 0.388583) /* Swamp Rat */
      , (1624, 1951694858, 1162346496, 78.5224, 39.3368, 0.005, 0.921414, 0, 0, 0.388583) /* Swamp Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1951694854'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1951694854'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694849'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694850'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694851'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694852'; /* linkmonstergen <- Mire Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694855'; /* linkmonstergen <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694856'; /* linkmonstergen <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694857'; /* linkmonstergen <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694858'; /* linkmonstergen <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1951694853'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694849'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694850'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694851'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694852'; /* linkmonstergen <- Mire Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694855'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694856'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694857'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694858'; /* linkmonstergen <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1951694853'; /* linkmonstergen <- Mire Phyntos Wasp */
 

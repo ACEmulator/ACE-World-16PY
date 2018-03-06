@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (663, 2089336869, 3364618501, 108.131, 42.7898, 22.01, -0.120462, 0, 0, -0.992718) /* Ynarre the Grocer */
      , (143, 2089336832, 3364618506, 102.13, 34.3222, 25.055, 0.710186, 0, 0, 0.704014) /* Chest */
      , (143, 2089336837, 3364618516, 77.57, 128.37, 22, -4.37114E-08, 0, 0, -1) /* Chest */
@@ -83,15 +83,15 @@ VALUES (663, 2089336869, 3364618501, 108.131, 42.7898, 22.01, -0.120462, 0, 0, -
      , (6441, 2089336889, 3364618240, 52.08, 139.56, 22, 1, 0, 0, 0) /* Well */
      , (23340, 2089336927, 3364618240, 166.345, 161.433, 22.005, 0.72134, 0, 0, -0.692581) /* Fishing Sign */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2089336925'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2089336930'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2089336932'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2089336925'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2089336930'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2089336932'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336924'; /* linkmonstergen3minutes <- Astara Duskshield */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336926'; /* linkmonstergen3minutes <- Tackle Master */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336883'; /* linkmonstergen3minutes <- Celcynd the Dour */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336928'; /* linkmonstergen3minutes <- Apprentice Fletcher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2089336929'; /* linkmonstergen3minutes <- Royal Guard Gabrielle */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2089336931'; /* linkmonstergen30seconds <- Carlo di Cenza */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2089336933'; /* linkitemgen10seconds <- Empty Book Binding */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336924'; /* linkmonstergen3minutes <- Astara Duskshield */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336926'; /* linkmonstergen3minutes <- Tackle Master */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336883'; /* linkmonstergen3minutes <- Celcynd the Dour */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336928'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2089336929'; /* linkmonstergen3minutes <- Royal Guard Gabrielle */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2089336931'; /* linkmonstergen30seconds <- Carlo di Cenza */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2089336933'; /* linkitemgen10seconds <- Empty Book Binding */
 

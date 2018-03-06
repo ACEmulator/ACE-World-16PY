@@ -1,16 +1,13 @@
 /* Weenie - Birch Talisman (741) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 741;
+DELETE FROM weenie WHERE class_Id = 741;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (741, 'birchtalisman');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (741, 'birchtalisman', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (741, 0, 741);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (741, 1, 'Birch Talisman') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (741, 1, 33555207) /* SETUP_DID */
      , (741, 3, 536870932) /* SOUND_TABLE_DID */
      , (741, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (741, 1, 33555207) /* SETUP_DID */
      , (741, 8, 100669712) /* ICON_DID */
      , (741, 29, 55) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (741, 9, 0) /* LOCATIONS_INT */
      , (741, 1, 4096) /* ITEM_TYPE_INT */
      , (741, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -32,6 +29,5 @@ VALUES (741, 9, 0) /* LOCATIONS_INT */
      , (741, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (741, 16, 1) /* ITEM_USEABLE_INT */
      , (741, 19, 5) /* VALUE_INT */
-     , (741, 93, 1044) /* PHYSICS_STATE_INT */
-     , (741, 9007, 32) /* SpellComponent_WeenieType */;
+     , (741, 93, 1044) /* PHYSICS_STATE_INT */;
 

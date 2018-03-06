@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4979, 1880182784, 18153728, -2.1713, -20.2492, 0, 0.707107, 0, 0, 0.707107) /* Sewer */
      , (278, 1880182785, 18153730, 4.74998, -20, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880182787, 18153733, 10, -14.75, 0, -4.37114E-08, 0, 0, -1) /* Door */
@@ -36,7 +36,7 @@ VALUES (4979, 1880182784, 18153728, -2.1713, -20.2492, 0, 0.707107, 0, 0, 0.7071
      , (5086, 1880182837, 18153922, 57.5073, -18.3513, 24.005, 0.983956, 0, 0, 0.178412) /* linkmonstergen30seconds */
      , (278, 1880182834, 18153935, 85.25, -40, 24, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880182837'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880182837'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880182835'; /* linkmonstergen30seconds <- Grand Sentinel Muroba */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880182835'; /* linkmonstergen30seconds <- Grand Sentinel Muroba */
 

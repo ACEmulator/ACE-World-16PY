@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9499, 2011578377, 2120483089, 107, 114, 12.005, -4.37114E-08, 0, 0, -1) /* Gharu'ndim Low-Stakes Gamesmaster */
      , (9499, 2011578376, 2120483089, 109, 114, 12.005, -4.37114E-08, 0, 0, -1) /* Gharu'ndim Low-Stakes Gamesmaster */
      , (9496, 2011578379, 2120483091, 107, 102, 12.005, 1, 0, 0, 0) /* Gharu'ndim High-Stakes Gamesmaster */
@@ -16,13 +16,13 @@ VALUES (9499, 2011578377, 2120483089, 107, 114, 12.005, -4.37114E-08, 0, 0, -1) 
      , (1110, 2011578369, 2120482816, 50.5739, 98.7056, 13.7855, 0.92388, 0, 0, -0.382683) /* Yaraq */
      , (10706, 2011578372, 2120482816, 95, 104, 12.005, -0.685501, 0, 0, -0.728072) /* Wheel of Fortune */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011578375'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2011578375'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578373'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578374'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578377'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578376'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578378'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578379'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011578380'; /* linkmonstergen15minutes <- Arshid al-Qiyid */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578373'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578374'; /* linkmonstergen15minutes <- Gharu'ndim Mid-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578377'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578376'; /* linkmonstergen15minutes <- Gharu'ndim Low-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578378'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578379'; /* linkmonstergen15minutes <- Gharu'ndim High-Stakes Gamesmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011578380'; /* linkmonstergen15minutes <- Arshid al-Qiyid */
 

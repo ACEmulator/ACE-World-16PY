@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4566, 2073473031, 3110797572, 88.7169, 178.788, 4.805, -0.75714, 0, 0, 0.653252) /* Ru Chi the Shopkeeper */
      , (153, 2073473033, 3110797572, 86.199, 179.963, 4.805, 0.707107, 0, 0, -0.707107) /* Fountain */
      , (1154, 2073473030, 3110797574, 83.2405, 185.721, 4.805, 0.115395, 0, 0, -0.99332) /* linkmonstergen */
@@ -13,7 +13,7 @@ VALUES (4566, 2073473031, 3110797572, 88.7169, 178.788, 4.805, -0.75714, 0, 0, 0
      , (4537, 2073473032, 3110797312, 99.2447, 187.175, 6.005, 0.666268, 0, 0, -0.745713) /* Yanshi Outpost */
      , (11960, 2073473039, 3110797312, 156.023, 107.709, 6.5, 0.866025, 0, 0, -0.5) /* Portal to Redspire */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073473030'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2073473030'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073473034'; /* linkmonstergen <- Te Ven */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073473034'; /* linkmonstergen <- Te Ven */
 

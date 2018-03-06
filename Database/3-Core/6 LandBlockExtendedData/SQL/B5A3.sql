@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (192, 2069508096, 3047358464, 16.4518, 108.848, 28.0042, 0.836749, 0, 0, 0.547587) /* Drudge Prowler */
      , (192, 2069508097, 3047358464, 13.6115, 113.746, 28.0042, 0.0482468, 0, 0, 0.998836) /* Drudge Prowler */
      , (192, 2069508098, 3047358464, 17.3941, 112.96, 28.0042, 0.419146, 0, 0, 0.907919) /* Drudge Prowler */
@@ -14,19 +14,19 @@ VALUES (192, 2069508096, 3047358464, 16.4518, 108.848, 28.0042, 0.836749, 0, 0, 
      , (22257, 2069508108, 3047358464, 160.524, 133.975, 27.105, -0.273405, 0, 0, -0.961899) /* Fishing Hole */
      , (22257, 2069508109, 3047358464, 177.436, 126.59, 27.555, 0.985161, 0, 0, -0.171632) /* Fishing Hole */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2069508100'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2069508103'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2069508100'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2069508103'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069508099'; /* linkmonstergen <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069508098'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069508097'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2069508096'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508101'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508102'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508104'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508105'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508106'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508107'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508108'; /* linkmonstergen3minutes <- Fishing Hole */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2069508109'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2069508099'; /* linkmonstergen <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2069508098'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2069508097'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2069508096'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508101'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508102'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508104'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508105'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508106'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508107'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508108'; /* linkmonstergen3minutes <- Fishing Hole */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2069508109'; /* linkmonstergen3minutes <- Fishing Hole */
 

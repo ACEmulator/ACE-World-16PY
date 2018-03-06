@@ -1,19 +1,16 @@
 /* Weenie - Broken Haft (6777) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6777;
+DELETE FROM weenie WHERE class_Id = 6777;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6777, 'brokenhaft');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6777, 'brokenhaft', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6777, 0, 6777);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6777, 16, 'A reddish steel silifi haft, splintered at the blade end. There are three notches on the remaining length of the haft, though there may have been more previously.') /* LONG_DESC_STRING */
      , (6777, 33, 'crimsonbrokenhaft') /* QUEST_STRING */
      , (6777, 1, 'Broken Haft') /* NAME_STRING */
      , (6777, 15, 'A reddish haft, splintered at one end.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6777, 1, 33556554) /* SETUP_DID */
      , (6777, 3, 536870932) /* SOUND_TABLE_DID */
      , (6777, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (6777, 1, 33556554) /* SETUP_DID */
      , (6777, 7, 268435985) /* CLOTHINGBASE_DID */
      , (6777, 8, 100669105) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6777, 33, 1) /* BONDED_INT */
      , (6777, 9, 1048576) /* LOCATIONS_INT */
      , (6777, 1, 1) /* ITEM_TYPE_INT */
@@ -39,17 +36,16 @@ VALUES (6777, 33, 1) /* BONDED_INT */
      , (6777, 48, 10) /* WEAPON_SKILL_INT */
      , (6777, 49, 10) /* WEAPON_TIME_INT */
      , (6777, 114, 1) /* ATTUNED_INT */
-     , (6777, 51, 1) /* COMBAT_USE_INT */
-     , (6777, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (6777, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6777, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (6777, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (6777, 21, 0.67) /* WEAPON_LENGTH_FLOAT */
      , (6777, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (6777, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6777, 22, True) /* INSCRIBABLE_BOOL */
      , (6777, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

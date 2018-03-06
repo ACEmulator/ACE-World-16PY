@@ -1,18 +1,15 @@
 /* Weenie - Caulnalain Crystal Shield (8028) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8028;
+DELETE FROM weenie WHERE class_Id = 8028;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8028, 'shieldcrystalcaul');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8028, 'shieldcrystalcaul', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8028, 0, 8028);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8028, 16, 'A shield imbued with the power of the Caulnalain Crystal.') /* LONG_DESC_STRING */
      , (8028, 1, 'Caulnalain Crystal Shield') /* NAME_STRING */
      , (8028, 15, 'A shield imbued with the power of the Caulnalain Crystal.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8028, 1, 33554786) /* SETUP_DID */
      , (8028, 3, 536870932) /* SOUND_TABLE_DID */
      , (8028, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (8028, 1, 33554786) /* SETUP_DID */
      , (8028, 7, 268436037) /* CLOTHINGBASE_DID */
      , (8028, 8, 100670974) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8028, 9, 2097152) /* LOCATIONS_INT */
      , (8028, 1, 2) /* ITEM_TYPE_INT */
      , (8028, 19, 2000) /* VALUE_INT */
@@ -42,10 +39,9 @@ VALUES (8028, 9, 2097152) /* LOCATIONS_INT */
      , (8028, 109, 1) /* ITEM_DIFFICULTY_INT */
      , (8028, 114, 1) /* ATTUNED_INT */
      , (8028, 51, 4) /* COMBAT_USE_INT */
-     , (8028, 115, 220) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8028, 9007, 1) /* Generic_WeenieType */;
+     , (8028, 115, 220) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8028, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8028, 5, -0.05) /* MANA_RATE_FLOAT */
      , (8028, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -59,12 +55,12 @@ VALUES (8028, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8028, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (8028, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8028, 99, True) /* IVORYABLE_BOOL */
      , (8028, 22, True) /* INSCRIBABLE_BOOL */
      , (8028, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8028, 2004, 2) /* WarriorsVitality_SpellID */
      , (8028, 2008, 2) /* WarriorsVigor_SpellID */
      , (8028, 247, 2) /* InvulnerabilitySelf4_SpellID */;

@@ -1,17 +1,14 @@
 /* Weenie - Stamina Draught (5634) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5634;
+DELETE FROM weenie WHERE class_Id = 5634;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5634, 'staminadraught');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5634, 'staminadraught', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5634, 0, 5634);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5634, 1, 'Stamina Draught') /* NAME_STRING */
      , (5634, 14, 'Use this item to drink it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5634, 1, 33554603) /* SETUP_DID */
      , (5634, 3, 536870932) /* SOUND_TABLE_DID */
      , (5634, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (5634, 1, 33554603) /* SETUP_DID */
      , (5634, 7, 268435816) /* CLOTHINGBASE_DID */
      , (5634, 8, 100670839) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5634, 9, 0) /* LOCATIONS_INT */
      , (5634, 1, 128) /* ITEM_TYPE_INT */
      , (5634, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -37,9 +34,8 @@ VALUES (5634, 9, 0) /* LOCATIONS_INT */
      , (5634, 151, 11) /* HOOK_TYPE_INT */
      , (5634, 89, 4) /* BOOSTER_ENUM_INT */
      , (5634, 90, 10) /* BOOST_VALUE_INT */
-     , (5634, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5634, 9007, 18) /* Food_WeenieType */;
+     , (5634, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5634, 69, False) /* IS_SELLABLE_BOOL */;
 

@@ -1,20 +1,17 @@
 /* Weenie - Unfashioned Prismatic Stone (20909) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20909;
+DELETE FROM weenie WHERE class_Id = 20909;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20909, 'stoneprismaticuncrafted');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20909, 'stoneprismaticuncrafted', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20909, 0, 20909);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20909, 16, 'A shimmering stone that houses the power of all elements within. The stone is rough shod, and covered in jutting crystal shards.') /* LONG_DESC_STRING */
      , (20909, 1, 'Unfashioned Prismatic Stone') /* NAME_STRING */
      , (20909, 33, 'PrismaticStonePickedUp') /* QUEST_STRING */
      , (20909, 14, 'This stone can be modified by scrping the extraneous shards from its surface. Perhaps an intricate carving tool can do the trick. ') /* USE_STRING */
      , (20909, 15, 'A shimmering stone that houses the power of all elements within. ') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20909, 1, 33556407) /* SETUP_DID */
      , (20909, 3, 536870932) /* SOUND_TABLE_DID */
      , (20909, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (20909, 1, 33556407) /* SETUP_DID */
      , (20909, 7, 268436429) /* CLOTHINGBASE_DID */
      , (20909, 8, 100673212) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20909, 9, 0) /* LOCATIONS_INT */
      , (20909, 1, 128) /* ITEM_TYPE_INT */
      , (20909, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -37,10 +34,9 @@ VALUES (20909, 9, 0) /* LOCATIONS_INT */
      , (20909, 93, 1044) /* PHYSICS_STATE_INT */
      , (20909, 94, 33027) /* TARGET_TYPE_INT */
      , (20909, 33, 1) /* BONDED_INT */
-     , (20909, 114, 1) /* ATTUNED_INT */
-     , (20909, 9007, 44) /* CraftTool_WeenieType */;
+     , (20909, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20909, 22, True) /* INSCRIBABLE_BOOL */
      , (20909, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

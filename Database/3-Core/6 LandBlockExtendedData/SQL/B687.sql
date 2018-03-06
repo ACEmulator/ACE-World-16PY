@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2070441984, 3062300934, 79, 129.19, 80, 1, 0, 0, 0) /* Door */
      , (412, 2070441985, 3062300937, 79, 129.19, 84.8, 1, 0, 0, 0) /* Door */
      , (412, 2070441986, 3062300937, 79, 126.41, 84.8, 7.54979E-08, 0, 0, -1) /* Door */
@@ -68,31 +68,31 @@ VALUES (412, 2070441984, 3062300934, 79, 129.19, 80, 1, 0, 0, 0) /* Door */
      , (22118, 2070441998, 3062300672, 72.882, 100.994, 80.005, 0.999919, 0, 0, -0.0127655) /* Frest Greelving's Mansion */
      , (22245, 2070442068, 3062300672, 76.3244, 109.818, 84.805, 0.43512, 0, 0, -0.900373) /* Gigantic Pumpkin */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2070442025'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2070442016'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2070442012'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2070442015'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2070442013'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2070442014'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2070442033'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2070442034'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='2070442055'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2070442025'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2070442016'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2070442012'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2070442015'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2070442013'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2070442014'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='2070442033'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='2070442034'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='2070442055'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070442020'; /* linkmonstergen4minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070442021'; /* linkmonstergen4minutes <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070442023'; /* linkmonstergen4minutes <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070442024'; /* linkmonstergen4minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2070442026'; /* linkmonstergen4minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2070442028'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2070442027'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2070442017'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2070442029'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2070442030'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2070442031'; /* linkmonstergen30seconds <- Apparition */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2070442036'; /* linkmonstergen1minute <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2070442056'; /* linkmonstergen3minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2070442057'; /* linkmonstergen3minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2070442058'; /* linkmonstergen3minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2070442059'; /* linkmonstergen3minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='2070442060'; /* linkmonstergen3minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070442020'; /* linkmonstergen4minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070442021'; /* linkmonstergen4minutes <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070442023'; /* linkmonstergen4minutes <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070442024'; /* linkmonstergen4minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2070442026'; /* linkmonstergen4minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2070442028'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2070442027'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2070442017'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2070442029'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2070442030'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='2070442031'; /* linkmonstergen30seconds <- Apparition */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='2070442036'; /* linkmonstergen1minute <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2070442056'; /* linkmonstergen3minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2070442057'; /* linkmonstergen3minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2070442058'; /* linkmonstergen3minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2070442059'; /* linkmonstergen3minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='2070442060'; /* linkmonstergen3minutes <- Undead */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 2087354368, 3332899073, 67.865, 86.3, 42.01, 0.707107, 0, 0, -0.707107) /* Chest */
      , (692, 2087354374, 3332899073, 60.7287, 84.5991, 42.005, 0.24039, 0, 0, 0.970676) /* Magus Guthima the Wise */
      , (143, 2087354369, 3332899077, 57.542, 84.8739, 45.01, -0.707107, 0, 0, -0.707107) /* Chest */

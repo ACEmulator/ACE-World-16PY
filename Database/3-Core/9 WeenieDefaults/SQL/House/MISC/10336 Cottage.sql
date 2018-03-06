@@ -1,22 +1,19 @@
 /* Weenie - Cottage (10336) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10336;
+DELETE FROM weenie WHERE class_Id = 10336;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10336, 'housecottage644');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10336, 'housecottage644', /* House_WeenieType */ 53);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10336, 0, 10336);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10336, 1, 'Cottage') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10336, 1, 33557058) /* SETUP_DID */
      , (10336, 8, 100671873) /* ICON_DID */
      , (10336, 42, 644) /* HOUSEID_DID */
      , (10336, 44, 151) /* RESTRICTION_EFFECT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10336, 9, 0) /* LOCATIONS_INT */
      , (10336, 1, 128) /* ITEM_TYPE_INT */
      , (10336, 93, 52) /* PHYSICS_STATE_INT */
@@ -24,13 +21,12 @@ VALUES (10336, 9, 0) /* LOCATIONS_INT */
      , (10336, 16, 1) /* ITEM_USEABLE_INT */
      , (10336, 8, 10) /* MASS_INT */
      , (10336, 155, 1) /* HOUSE_TYPE_INT */
-     , (10336, 19, 0) /* VALUE_INT */
-     , (10336, 9007, 53) /* House_WeenieType */;
+     , (10336, 19, 0) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10336, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10336, 1, True) /* STUCK_BOOL */
      , (10336, 71, True) /* NODRAW_BOOL */
      , (10336, 13, True) /* ETHEREAL_BOOL */

@@ -1,16 +1,13 @@
 /* Weenie - Guruk Beast (27979) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27979;
+DELETE FROM weenie WHERE class_Id = 27979;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27979, 'burungurukbeast');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27979, 'burungurukbeast', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27979, 0, 27979);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27979, 1, 'Guruk Beast') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27979, 8, 100676549) /* ICON_DID */
      , (27979, 32, 474) /* WIELDED_TREASURE_TYPE_DID */
      , (27979, 1, 33558749) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (27979, 8, 100676549) /* ICON_DID */
      , (27979, 7, 268436827) /* CLOTHINGBASE_DID */
      , (27979, 22, 872415402) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27979, 1, 16) /* ITEM_TYPE_INT */
      , (27979, 146, 57144) /* XP_OVERRIDE_INT */
      , (27979, 2, 75) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (27979, 1, 16) /* ITEM_TYPE_INT */
      , (27979, 25, 119) /* LEVEL_INT */
      , (27979, 27, 0) /* ARMOR_TYPE_INT */
      , (27979, 93, 1032) /* PHYSICS_STATE_INT */
-     , (27979, 40, 2) /* COMBAT_MODE_INT */
-     , (27979, 9007, 10) /* Creature_WeenieType */;
+     , (27979, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27979, 64, 0.65) /* RESIST_SLASH_FLOAT */
      , (27979, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (27979, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (27979, 64, 0.65) /* RESIST_SLASH_FLOAT */
      , (27979, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27979, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27979, 1, True) /* STUCK_BOOL */
      , (27979, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27979, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27979, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27979, 1, 420) /* STRENGTH_ATTRIBUTE */
      , (27979, 2, 700) /* ENDURANCE_ATTRIBUTE */
      , (27979, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (27979, 8, 180) /* QUICKNESS_ATTRIBUTE */
-     , (27979, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (27979, 32, 100) /* SELF_ATTRIBUTE */;
+     , (27979, 3, 180) /* QUICKNESS_ATTRIBUTE */
+     , (27979, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (27979, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27979, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27979, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27979, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27979, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27979, 3, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27979, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27979, 9, 28984, 0, 0, 0.04, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
      , (27979, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 

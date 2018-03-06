@@ -1,18 +1,15 @@
 /* Weenie - Shadow Spire (6537) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6537;
+DELETE FROM weenie WHERE class_Id = 6537;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6537, 'shadowspire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6537, 'shadowspire', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6537, 0, 6537);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6537, 1, 'Shadow Spire') /* NAME_STRING */
      , (6537, 3, 'Female') /* SEX_STRING */
      , (6537, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6537, 8, 100670397) /* ICON_DID */
      , (6537, 32, 170) /* WIELDED_TREASURE_TYPE_DID */
      , (6537, 1, 33556558) /* SETUP_DID */
@@ -24,7 +21,7 @@ VALUES (6537, 8, 100670397) /* ICON_DID */
      , (6537, 7, 268435992) /* CLOTHINGBASE_DID */
      , (6537, 22, 872415331) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6537, 1, 16) /* ITEM_TYPE_INT */
      , (6537, 2, 22) /* CREATURE_TYPE_INT */
      , (6537, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -42,10 +39,9 @@ VALUES (6537, 1, 16) /* ITEM_TYPE_INT */
      , (6537, 27, 0) /* ARMOR_TYPE_INT */
      , (6537, 93, 1032) /* PHYSICS_STATE_INT */
      , (6537, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6537, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (6537, 9007, 10) /* Creature_WeenieType */;
+     , (6537, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6537, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6537, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (6537, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -82,14 +78,14 @@ VALUES (6537, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6537, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6537, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6537, 1, True) /* STUCK_BOOL */
      , (6537, 6, True) /* AI_USES_MANA_BOOL */
      , (6537, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (6537, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6537, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6537, 139, 2.01) /* LightningVolley3_SpellID */
      , (6537, 1280, 2.014) /* HealthtoManaSelf3_SpellID */
      , (6537, 1666, 2.014) /* StaminatoHealthSelf3_SpellID */
@@ -111,23 +107,23 @@ VALUES (6537, 139, 2.01) /* LightningVolley3_SpellID */
      , (6537, 94, 2.06) /* WhirlingBlade3_SpellID */
      , (6537, 231, 2.017) /* VulnerabilityOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6537, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (6537, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (6537, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (6537, 8, 110) /* QUICKNESS_ATTRIBUTE */
-     , (6537, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (6537, 32, 10) /* SELF_ATTRIBUTE */;
+     , (6537, 3, 110) /* QUICKNESS_ATTRIBUTE */
+     , (6537, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (6537, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6537, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6537, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6537, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6537, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6537, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6537, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6537, 9, 6060, 0, 0, 0.02, False) /* Create Dark Speck for ContainTreasure_DestinationType */
      , (6537, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6537, 1, 6535, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Small Shadow Child (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

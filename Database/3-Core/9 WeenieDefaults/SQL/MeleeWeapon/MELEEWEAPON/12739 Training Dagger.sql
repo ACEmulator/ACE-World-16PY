@@ -1,18 +1,15 @@
 /* Weenie - Training Dagger (12739) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12739;
+DELETE FROM weenie WHERE class_Id = 12739;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12739, 'daggertraining');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12739, 'daggertraining', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12739, 0, 12739);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12739, 1, 'Training Dagger') /* NAME_STRING */
      , (12739, 14, 'Use Oil of Rendering on this weapon to create an Academy Dagger.') /* USE_STRING */
      , (12739, 15, 'A basic dagger forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12739, 1, 33554735) /* SETUP_DID */
      , (12739, 3, 536870932) /* SOUND_TABLE_DID */
      , (12739, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (12739, 1, 33554735) /* SETUP_DID */
      , (12739, 7, 268435783) /* CLOTHINGBASE_DID */
      , (12739, 8, 100668875) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12739, 9, 1048576) /* LOCATIONS_INT */
      , (12739, 1, 1) /* ITEM_TYPE_INT */
      , (12739, 19, 25) /* VALUE_INT */
@@ -38,16 +35,15 @@ VALUES (12739, 9, 1048576) /* LOCATIONS_INT */
      , (12739, 47, 6) /* ATTACK_TYPE_INT */
      , (12739, 48, 4) /* WEAPON_SKILL_INT */
      , (12739, 49, 25) /* WEAPON_TIME_INT */
-     , (12739, 51, 1) /* COMBAT_USE_INT */
-     , (12739, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (12739, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12739, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (12739, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (12739, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (12739, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12739, 22, True) /* INSCRIBABLE_BOOL */
      , (12739, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

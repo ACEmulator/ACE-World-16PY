@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7365, 2074017792, 3119513600, 1.8379, 30.169, 103.338, 0.743271, 0, 0, -0.66899) /* erupttenkarrdungen */
      , (5749, 2074017793, 3119513600, 83.4365, 59.957, 93.9495, -0.9999, 0, 0, 0.0141608) /* Volcano Heat */
      , (7365, 2074017794, 3119513600, 161.361, 36.1619, 109.239, 0.569612, 0, 0, -0.821914) /* erupttenkarrdungen */

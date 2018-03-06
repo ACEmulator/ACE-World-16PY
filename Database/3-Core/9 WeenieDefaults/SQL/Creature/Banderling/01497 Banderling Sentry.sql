@@ -1,16 +1,13 @@
 /* Weenie - Banderling Sentry (1497) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1497;
+DELETE FROM weenie WHERE class_Id = 1497;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1497, 'banderlingguardden');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1497, 'banderlingguardden', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1497, 0, 1497);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1497, 1, 'Banderling Sentry') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1497, 8, 100667453) /* ICON_DID */
      , (1497, 32, 52) /* WIELDED_TREASURE_TYPE_DID */
      , (1497, 1, 33558024) /* SETUP_DID */
@@ -21,7 +18,7 @@ VALUES (1497, 8, 100667453) /* ICON_DID */
      , (1497, 6, 67114021) /* PALETTE_BASE_DID */
      , (1497, 7, 268436497) /* CLOTHINGBASE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1497, 1, 16) /* ITEM_TYPE_INT */
      , (1497, 2, 2) /* CREATURE_TYPE_INT */
      , (1497, 67, 64) /* TOLERANCE_INT */
@@ -36,10 +33,9 @@ VALUES (1497, 1, 16) /* ITEM_TYPE_INT */
      , (1497, 27, 0) /* ARMOR_TYPE_INT */
      , (1497, 93, 1032) /* PHYSICS_STATE_INT */
      , (1497, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1497, 40, 2) /* COMBAT_MODE_INT */
-     , (1497, 9007, 10) /* Creature_WeenieType */;
+     , (1497, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1497, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (1497, 65, 0.65) /* RESIST_PIERCE_FLOAT */
      , (1497, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,25 +68,25 @@ VALUES (1497, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (1497, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1497, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1497, 1, True) /* STUCK_BOOL */
      , (1497, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1497, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1497, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1497, 1, 130) /* STRENGTH_ATTRIBUTE */
      , (1497, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (1497, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (1497, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (1497, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (1497, 32, 30) /* SELF_ATTRIBUTE */;
+     , (1497, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (1497, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (1497, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1497, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1497, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1497, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1497, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1497, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1497, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1497, 8, 273, 100, 0, 0.85, False) /* Create Pyreal for Treasure_DestinationType */;
 

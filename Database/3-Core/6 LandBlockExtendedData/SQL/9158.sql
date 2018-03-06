@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1148, 2031452160, 2438463747, 19.99, 111.5, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (8377, 2031452168, 2438463747, 12.5906, 114.298, 0.94125, -0.90245, 0, 0, -0.430795) /* Beer Keg */
      , (4678, 2031452165, 2438463747, 17.6087, 113.303, 0.00500001, -0.58575, 0, 0, -0.810492) /* Itir ibn Ativ the Barkeep */

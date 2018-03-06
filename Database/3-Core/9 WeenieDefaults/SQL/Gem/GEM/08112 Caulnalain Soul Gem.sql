@@ -1,18 +1,15 @@
 /* Weenie - Caulnalain Soul Gem (8112) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8112;
+DELETE FROM weenie WHERE class_Id = 8112;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8112, 'gemcaulnalainsoul');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8112, 'gemcaulnalainsoul', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8112, 0, 8112);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8112, 16, 'The heart of the Caulnalain Soul Crystal.') /* LONG_DESC_STRING */
      , (8112, 1, 'Caulnalain Soul Gem') /* NAME_STRING */
      , (8112, 15, 'The heart of the Caulnalain Soul Crystal.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8112, 1, 33554809) /* SETUP_DID */
      , (8112, 3, 536870932) /* SOUND_TABLE_DID */
      , (8112, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (8112, 1, 33554809) /* SETUP_DID */
      , (8112, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8112, 8, 100670987) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8112, 9, 0) /* LOCATIONS_INT */
      , (8112, 1, 2048) /* ITEM_TYPE_INT */
      , (8112, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,12 +32,11 @@ VALUES (8112, 9, 0) /* LOCATIONS_INT */
      , (8112, 19, 0) /* VALUE_INT */
      , (8112, 93, 1044) /* PHYSICS_STATE_INT */
      , (8112, 33, 1) /* BONDED_INT */
-     , (8112, 114, 1) /* ATTUNED_INT */
-     , (8112, 9007, 38) /* Gem_WeenieType */;
+     , (8112, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8112, 12, 0.5) /* SHADE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8112, 22, True) /* INSCRIBABLE_BOOL */;
 

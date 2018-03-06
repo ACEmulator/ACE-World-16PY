@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14414, 2109038593, 3679846656, 8.49244, 82.3928, 20.005, 0.346304, 0, 0, -0.938122) /* Sir Tenshin */
      , (5086, 2109038594, 3679846656, 7.30631, 81.2847, 20.005, 0.872134, 0, 0, 0.489267) /* linkmonstergen30seconds */
      , (14449, 2109038597, 3679846657, 12.1426, 84.707, 20.005, 0.908542, 0, 0, -0.417794) /* Underground Passage */
@@ -8,11 +8,11 @@ VALUES (14414, 2109038593, 3679846656, 8.49244, 82.3928, 20.005, 0.346304, 0, 0,
      , (14460, 2109038595, 3679846400, 27.8602, 63.3384, 20.005, -0.173445, 0, 0, 0.984844) /* Sentry */
      , (14459, 2109038596, 3679846400, 26.2151, 104.501, 20.005, 0.949175, 0, 0, -0.314749) /* Sentry */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2109038594'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2109038599'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2109038594'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2109038599'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038595'; /* linkmonstergen30seconds <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038596'; /* linkmonstergen30seconds <- Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2109038593'; /* linkmonstergen30seconds <- Sir Tenshin */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2109038598'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2109038595'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2109038596'; /* linkmonstergen30seconds <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2109038593'; /* linkmonstergen30seconds <- Sir Tenshin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2109038598'; /* linkmonstergen30seconds <- Sentry */
 

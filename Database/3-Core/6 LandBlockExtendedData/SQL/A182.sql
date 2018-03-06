@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (887, 2048401408, 2709651456, 111.465, 29.1114, 20.005, -0.995943, 0, 0, -0.0899874) /* aurochcowgen */
      , (887, 2048401409, 2709651456, 110.441, 34.84, 19.8983, -0.926839, 0, 0, 0.375458) /* aurochcowgen */
      , (887, 2048401410, 2709651456, 115.513, 40.0733, 19.0395, -0.926839, 0, 0, 0.375458) /* aurochcowgen */

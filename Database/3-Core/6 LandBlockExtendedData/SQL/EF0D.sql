@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4216, 2129711125, 4010606848, 60.043, 59.694, 173.91, 1, 0, 0, 0) /* Diamond Golem */
      , (29786, 2129711128, 4010606850, 86.0265, 107.745, 108.31, 0.983488, 0, 0, 0.180974) /* Steamy Font */
      , (24482, 2129711116, 4010606851, 87.0616, 105.655, 108.305, -0.162286, 0, 0, 0.986744) /* Small Mud Golem */
@@ -35,30 +35,30 @@ VALUES (4216, 2129711125, 4010606848, 60.043, 59.694, 173.91, 1, 0, 0, 0) /* Dia
      , (4219, 2129711127, 4010606592, 69.5622, 71.0414, 107.905, -0.696779, 0, 0, -0.717286) /* linkmonstergen7minutes */
      , (29674, 2129711139, 4010606592, 91.8137, 23.639, 107.555, -0.463161, 0, 0, 0.886274) /* generatorheatfont1 */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2129711127'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2129711138'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2129711127'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2129711138'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711105'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711106'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711107'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711108'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711109'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711110'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711111'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711112'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711113'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711114'; /* linkmonstergen7minutes <- Small Mud Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711115'; /* linkmonstergen7minutes <- Small Mud Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711116'; /* linkmonstergen7minutes <- Small Mud Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711117'; /* linkmonstergen7minutes <- Small Mud Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711118'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711119'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711120'; /* linkmonstergen7minutes <- Small Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711121'; /* linkmonstergen7minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711122'; /* linkmonstergen7minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711123'; /* linkmonstergen7minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711124'; /* linkmonstergen7minutes <- Nubilous Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711125'; /* linkmonstergen7minutes <- Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2129711126'; /* linkmonstergen7minutes <- Cursed Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2129711137'; /* linkmonstergen5minutes <- Font Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711105'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711106'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711107'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711108'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711109'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711110'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711111'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711112'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711113'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711114'; /* linkmonstergen7minutes <- Small Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711115'; /* linkmonstergen7minutes <- Small Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711116'; /* linkmonstergen7minutes <- Small Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711117'; /* linkmonstergen7minutes <- Small Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711118'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711119'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711120'; /* linkmonstergen7minutes <- Small Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711121'; /* linkmonstergen7minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711122'; /* linkmonstergen7minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711123'; /* linkmonstergen7minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711124'; /* linkmonstergen7minutes <- Nubilous Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711125'; /* linkmonstergen7minutes <- Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2129711126'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2129711137'; /* linkmonstergen5minutes <- Font Guardian */
 

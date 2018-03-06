@@ -1,16 +1,13 @@
 /* Weenie - Copper Scarab (686) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 686;
+DELETE FROM weenie WHERE class_Id = 686;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (686, 'scarabcopper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (686, 'scarabcopper', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (686, 0, 686);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (686, 1, 'Copper Scarab') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (686, 1, 33555211) /* SETUP_DID */
      , (686, 3, 536870932) /* SOUND_TABLE_DID */
      , (686, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (686, 1, 33555211) /* SETUP_DID */
      , (686, 8, 100668388) /* ICON_DID */
      , (686, 29, 3) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (686, 9, 0) /* LOCATIONS_INT */
      , (686, 1, 4096) /* ITEM_TYPE_INT */
      , (686, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -34,6 +31,5 @@ VALUES (686, 9, 0) /* LOCATIONS_INT */
      , (686, 19, 100) /* VALUE_INT */
      , (686, 150, 103) /* HOOK_PLACEMENT_INT */
      , (686, 151, 2) /* HOOK_TYPE_INT */
-     , (686, 93, 1044) /* PHYSICS_STATE_INT */
-     , (686, 9007, 32) /* SpellComponent_WeenieType */;
+     , (686, 93, 1044) /* PHYSICS_STATE_INT */;
 

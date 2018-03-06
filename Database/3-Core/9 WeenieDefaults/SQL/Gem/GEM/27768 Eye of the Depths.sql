@@ -1,18 +1,15 @@
 /* Weenie - Eye of the Depths (27768) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27768;
+DELETE FROM weenie WHERE class_Id = 27768;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27768, 'gemportalsunkenmereextreme');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27768, 'gemportalsunkenmereextreme', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27768, 0, 27768);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27768, 1, 'Eye of the Depths') /* NAME_STRING */
      , (27768, 14, 'Double-click on this portal gem to summon a portal. You must be level 80 or greater to enter the summoned portal.') /* USE_STRING */
      , (27768, 15, 'A green portal gem surrounded by a clasp, held by an amethyst cradle, adorned with a sparkling cluster of aquamarine and placed atop a jade dais.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27768, 1, 33558806) /* SETUP_DID */
      , (27768, 3, 536870932) /* SOUND_TABLE_DID */
      , (27768, 28, 157) /* SPELL_DID */
@@ -21,7 +18,7 @@ VALUES (27768, 1, 33558806) /* SETUP_DID */
      , (27768, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (27768, 31, 27777) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27768, 9, 0) /* LOCATIONS_INT */
      , (27768, 1, 2048) /* ITEM_TYPE_INT */
      , (27768, 13, 25) /* STACK_UNIT_ENCUMB_INT */
@@ -42,10 +39,9 @@ VALUES (27768, 9, 0) /* LOCATIONS_INT */
      , (27768, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27768, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27768, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27768, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27768, 9007, 38) /* Gem_WeenieType */;
+     , (27768, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27768, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27768, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27768, 22, True) /* INSCRIBABLE_BOOL */;

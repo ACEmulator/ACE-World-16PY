@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4254, 1983152185, 1665663232, 10, -60, -59.995, -0.707107, 0, 0, -0.707107) /* Umbris Shadow */
      , (25662, 1983152186, 1665663237, 20, -20, -59.9945, 1, 0, 0, 0) /* Lesser Void Knight */
      , (25664, 1983152187, 1665663238, 20, -30, -59.9935, 1, 0, 0, 0) /* Lesser Shadow Wretch */
@@ -246,212 +246,212 @@ VALUES (4254, 1983152185, 1665663232, 10, -60, -59.995, -0.707107, 0, 0, -0.7071
      , (11501, 1983152394, 1665663990, 118.459, -131.161, 12.005, 0.6825, 0, 0, 0.730886) /* Cultist */
      , (2180, 1983152182, 1665663994, 115.244, -130.011, 12.005, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1983152182'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1983152181'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1983152145'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1983152155'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1983152174'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1983152173'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1983152176'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1983152257'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1983152260'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1983152263'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1983152259'; /* linkmonstergen1hour */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1983152205'; /* linkmonstergen1hour */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1983152188'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1983152248'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1983152249'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1983152363'; /* linkmonstergen30minutes */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1983152328'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1983152329'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1983152330'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1983152331'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1983152322'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1983152182'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1983152181'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1983152145'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1983152155'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1983152174'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1983152173'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1983152176'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1983152257'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1983152260'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1983152263'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1983152259'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1983152205'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1983152188'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1983152248'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1983152249'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1983152363'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1983152328'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1983152329'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1983152330'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1983152331'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1983152322'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983152164'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1983152184'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1983152167'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1983152183'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1983152170'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1983152147'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1983152156'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1983152153'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1983152163'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1983152151'; /* Door <- Torch */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1983152144'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1983152175'; /* linkmonstergen5minutes <- Reinforced Door */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1983152178'; /* linkmonstergen5minutes <- Reinforced Door */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1983152256'; /* linkitemgen10seconds <- Bewren's Journal */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1983152261'; /* linkitemgen10seconds <- Jaeget's Journal */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1983152262'; /* linkitemgen10seconds <- Note */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1983152258'; /* linkmonstergen1hour <- Twitch */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1983152204'; /* linkmonstergen1hour <- Proselytic Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152190'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152211'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152194'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152189'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152208'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152187'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152202'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152203'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152206'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152209'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152192'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152195'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152191'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152186'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152198'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152200'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152207'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152210'; /* linkmonstergen3minutes <- Lesser Void Knight */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152199'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152197'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1983152193'; /* linkmonstergen3minutes <- Tenebrous Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152247'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152250'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152244'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152253'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152212'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152196'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152201'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152185'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152230'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152213'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152233'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152232'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152221'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152241'; /* linkmonstergen4minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152214'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152215'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152242'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152220'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152240'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152239'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152234'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152231'; /* linkmonstergen4minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152254'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152252'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152216'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152245'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152255'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152246'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152243'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1983152251'; /* linkmonstergen4minutes <- Sinister Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152229'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152218'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152226'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152223'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152225'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152236'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1983152238'; /* linkmonstergen4minutes <- Shadow Cyst */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1983152362'; /* linkmonstergen30minutes <- The Black Breath */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152272'; /* linkmonstergen4minutes <- Cultist High Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152270'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152282'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152268'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152307'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152304'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152288'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152306'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152291'; /* linkmonstergen4minutes <- Cultist High Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152287'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152278'; /* linkmonstergen4minutes <- Cultist High Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152283'; /* linkmonstergen4minutes <- Cultist High Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152293'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152284'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152310'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152292'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152339'; /* linkmonstergen4minutes <- Summoned Pulsar Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152309'; /* linkmonstergen4minutes <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152305'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152338'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152324'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152334'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152265'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152327'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152335'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1983152266'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152264'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152308'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152267'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152320'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152336'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152311'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152323'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152314'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152342'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152316'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152375'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152315'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152333'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152313'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152372'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152371'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152350'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152365'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152345'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152346'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152343'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152344'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152341'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152340'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152370'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152374'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152368'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1983152369'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152366'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152367'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152352'; /* linkmonstergen4minutes <- Voltarc */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152357'; /* linkmonstergen4minutes <- Gout */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152358'; /* linkmonstergen4minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152356'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152351'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152373'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152319'; /* linkmonstergen4minutes <- Stringent */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152385'; /* linkmonstergen4minutes <- Cultist High Priest */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152317'; /* linkmonstergen4minutes <- Apozim */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152318'; /* linkmonstergen4minutes <- Mox */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152354'; /* linkmonstergen4minutes <- Scintilla */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152359'; /* linkmonstergen4minutes <- Inferno */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152353'; /* linkmonstergen4minutes <- Charge */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152349'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152360'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152347'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152388'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152364'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152386'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152387'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152382'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152383'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152390'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152391'; /* linkmonstergen4minutes <- Mist Golem */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152394'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1983152389'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152392'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152393'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152381'; /* linkmonstergen4minutes <- Flake */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152312'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152379'; /* linkmonstergen4minutes <- Frost */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152380'; /* linkmonstergen4minutes <- Flake */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152377'; /* linkmonstergen4minutes <- Hyem */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152378'; /* linkmonstergen4minutes <- Chill */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152384'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152376'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152303'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152302'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152298'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152294'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152337'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152299'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152300'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152301'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152289'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152290'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152296'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152297'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152285'; /* linkmonstergen4minutes <- Cultist */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152279'; /* linkmonstergen4minutes <- Cultist Priest */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152277'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1983152275'; /* linkmonstergen4minutes <- Cultist Cohort */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1983152321'; /* linkmonstergen10minutes <- Dual Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983152164'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1983152184'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983152167'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1983152183'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983152170'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1983152147'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983152156'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1983152153'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983152163'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1983152151'; /* Door <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1983152144'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1983152175'; /* linkmonstergen5minutes <- Reinforced Door */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1983152178'; /* linkmonstergen5minutes <- Reinforced Door */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1983152256'; /* linkitemgen10seconds <- Bewren's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1983152261'; /* linkitemgen10seconds <- Jaeget's Journal */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1983152262'; /* linkitemgen10seconds <- Note */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1983152258'; /* linkmonstergen1hour <- Twitch */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1983152204'; /* linkmonstergen1hour <- Proselytic Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152190'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152211'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152194'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152189'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152208'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152187'; /* linkmonstergen3minutes <- Lesser Shadow Wretch */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152202'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152203'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152206'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152209'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152192'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152195'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152191'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152186'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152198'; /* linkmonstergen3minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152200'; /* linkmonstergen3minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152207'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152210'; /* linkmonstergen3minutes <- Lesser Void Knight */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152199'; /* linkmonstergen3minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152197'; /* linkmonstergen3minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1983152193'; /* linkmonstergen3minutes <- Tenebrous Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152247'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152250'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152244'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152253'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152212'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152196'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152201'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152185'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152230'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152213'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152233'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152232'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152221'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152241'; /* linkmonstergen4minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152214'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152215'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152242'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152220'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152240'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152239'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152234'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152231'; /* linkmonstergen4minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152254'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152252'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152216'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152245'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152255'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152246'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152243'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1983152251'; /* linkmonstergen4minutes <- Sinister Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152229'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152218'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152226'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152223'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152225'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152236'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1983152238'; /* linkmonstergen4minutes <- Shadow Cyst */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1983152362'; /* linkmonstergen30minutes <- The Black Breath */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152272'; /* linkmonstergen4minutes <- Cultist High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152270'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152282'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152268'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152307'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152304'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152288'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152306'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152291'; /* linkmonstergen4minutes <- Cultist High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152287'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152278'; /* linkmonstergen4minutes <- Cultist High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152283'; /* linkmonstergen4minutes <- Cultist High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152293'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152284'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152310'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152292'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152339'; /* linkmonstergen4minutes <- Summoned Pulsar Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152309'; /* linkmonstergen4minutes <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152305'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152338'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152324'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152334'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152265'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152327'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152335'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1983152266'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152264'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152308'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152267'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152320'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152336'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152311'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152323'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152314'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152342'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152316'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152375'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152315'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152333'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152313'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152372'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152371'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152350'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152365'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152345'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152346'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152343'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152344'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152341'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152340'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152370'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152374'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152368'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1983152369'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152366'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152367'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152352'; /* linkmonstergen4minutes <- Voltarc */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152357'; /* linkmonstergen4minutes <- Gout */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152358'; /* linkmonstergen4minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152356'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152351'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152373'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152319'; /* linkmonstergen4minutes <- Stringent */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152385'; /* linkmonstergen4minutes <- Cultist High Priest */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152317'; /* linkmonstergen4minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152318'; /* linkmonstergen4minutes <- Mox */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152354'; /* linkmonstergen4minutes <- Scintilla */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152359'; /* linkmonstergen4minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152353'; /* linkmonstergen4minutes <- Charge */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152349'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152360'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152347'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152388'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152364'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152386'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152387'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152382'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152383'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152390'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152391'; /* linkmonstergen4minutes <- Mist Golem */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152394'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1983152389'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152392'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152393'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152381'; /* linkmonstergen4minutes <- Flake */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152312'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152379'; /* linkmonstergen4minutes <- Frost */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152380'; /* linkmonstergen4minutes <- Flake */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152377'; /* linkmonstergen4minutes <- Hyem */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152378'; /* linkmonstergen4minutes <- Chill */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152384'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152376'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152303'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152302'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152298'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152294'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152337'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152299'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152300'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152301'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152289'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152290'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152296'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152297'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152285'; /* linkmonstergen4minutes <- Cultist */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152279'; /* linkmonstergen4minutes <- Cultist Priest */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152277'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1983152275'; /* linkmonstergen4minutes <- Cultist Cohort */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1983152321'; /* linkmonstergen10minutes <- Dual Fragment */
 

@@ -1,16 +1,13 @@
 /* Weenie - Wand of Black Fire (3749) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3749;
+DELETE FROM weenie WHERE class_Id = 3749;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3749, 'wandblackfire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3749, 'wandblackfire', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3749, 0, 3749);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3749, 1, 'Wand of Black Fire') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3749, 1, 33558258) /* SETUP_DID */
      , (3749, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (3749, 3, 536870932) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (3749, 1, 33558258) /* SETUP_DID */
      , (3749, 8, 100674115) /* ICON_DID */
      , (3749, 28, 145) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3749, 9, 16777216) /* LOCATIONS_INT */
      , (3749, 1, 32768) /* ITEM_TYPE_INT */
      , (3749, 19, 5700) /* VALUE_INT */
@@ -39,19 +36,18 @@ VALUES (3749, 9, 16777216) /* LOCATIONS_INT */
      , (3749, 108, 2000) /* ITEM_MAX_MANA_INT */
      , (3749, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (3749, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (3749, 117, 75) /* ITEM_MANA_COST_INT */
-     , (3749, 9007, 35) /* Caster_WeenieType */;
+     , (3749, 117, 75) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3749, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (3749, 5, -0.025) /* MANA_RATE_FLOAT */
      , (3749, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (3749, 144, 0.03) /* MANA_CONVERSION_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3749, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3749, 1033, 2) /* ColdProtectionSelf4_SpellID */
      , (3749, 1069, 2) /* LightningProtectionSelf4_SpellID */;
 

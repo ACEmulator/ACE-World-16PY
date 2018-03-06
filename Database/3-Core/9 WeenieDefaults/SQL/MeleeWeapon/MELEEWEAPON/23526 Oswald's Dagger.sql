@@ -1,19 +1,16 @@
 /* Weenie - Oswald's Dagger (23526) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23526;
+DELETE FROM weenie WHERE class_Id = 23526;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23526, 'daggeroswaldnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23526, 'daggeroswaldnew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23526, 0, 23526);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23526, 1, 'Oswald''s Dagger') /* NAME_STRING */
      , (23526, 15, 'A well-worn dagger, its blade stained with Banderling blood.') /* SHORT_DESC_STRING */
      , (23526, 7, 'This is the blade that took the life of Gertarh.') /* INSCRIPTION_STRING */
      , (23526, 8, 'Oswald') /* SCRIBE_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23526, 1, 33555707) /* SETUP_DID */
      , (23526, 3, 536870932) /* SOUND_TABLE_DID */
      , (23526, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (23526, 1, 33555707) /* SETUP_DID */
      , (23526, 7, 268435783) /* CLOTHINGBASE_DID */
      , (23526, 8, 100668878) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23526, 9, 1048576) /* LOCATIONS_INT */
      , (23526, 1, 1) /* ITEM_TYPE_INT */
      , (23526, 19, 300) /* VALUE_INT */
@@ -45,21 +42,20 @@ VALUES (23526, 9, 1048576) /* LOCATIONS_INT */
      , (23526, 47, 6) /* ATTACK_TYPE_INT */
      , (23526, 48, 4) /* WEAPON_SKILL_INT */
      , (23526, 49, 10) /* WEAPON_TIME_INT */
-     , (23526, 51, 1) /* COMBAT_USE_INT */
-     , (23526, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23526, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23526, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (23526, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (23526, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23526, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (23526, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23526, 22, True) /* INSCRIBABLE_BOOL */
      , (23526, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23526, 1591, 2) /* HeartSeeker5_SpellID */
      , (23526, 1615, 2) /* BloodDrinker5_SpellID */
      , (23526, 854, 2) /* DeceptionMasterySelf5_SpellID */

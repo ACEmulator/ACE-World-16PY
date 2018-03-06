@@ -1,23 +1,20 @@
 /* Weenie - Ivory Tooth Dart (3709) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3709;
+DELETE FROM weenie WHERE class_Id = 3709;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3709, 'dartivorytooth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3709, 'dartivorytooth', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3709, 0, 3709);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3709, 1, 'Ivory Tooth Dart') /* NAME_STRING */
      , (3709, 15, 'Dart made from the tooth of an Ivory Gromnie.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3709, 1, 33554737) /* SETUP_DID */
      , (3709, 3, 536870932) /* SOUND_TABLE_DID */
      , (3709, 8, 100667591) /* ICON_DID */
      , (3709, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3709, 9, 4194304) /* LOCATIONS_INT */
      , (3709, 1, 256) /* ITEM_TYPE_INT */
      , (3709, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -37,10 +34,9 @@ VALUES (3709, 9, 4194304) /* LOCATIONS_INT */
      , (3709, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (3709, 48, 12) /* WEAPON_SKILL_INT */
      , (3709, 49, 10) /* WEAPON_TIME_INT */
-     , (3709, 51, 2) /* COMBAT_USE_INT */
-     , (3709, 9007, 4) /* Missile_WeenieType */;
+     , (3709, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3709, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (3709, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (3709, 22, 0.2) /* DAMAGE_VARIANCE_FLOAT */

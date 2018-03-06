@@ -1,16 +1,13 @@
 /* Weenie - Sable Gromnie (11527) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11527;
+DELETE FROM weenie WHERE class_Id = 11527;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11527, 'gromniesable-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11527, 'gromniesable-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11527, 0, 11527);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11527, 1, 'Sable Gromnie') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11527, 1, 33554487) /* SETUP_DID */
      , (11527, 2, 150994971) /* MOTION_TABLE_DID */
      , (11527, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (11527, 1, 33554487) /* SETUP_DID */
      , (11527, 8, 100667938) /* ICON_DID */
      , (11527, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11527, 1, 16) /* ITEM_TYPE_INT */
      , (11527, 146, 11962) /* XP_OVERRIDE_INT */
      , (11527, 2, 15) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (11527, 1, 16) /* ITEM_TYPE_INT */
      , (11527, 25, 61) /* LEVEL_INT */
      , (11527, 27, 0) /* ARMOR_TYPE_INT */
      , (11527, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11527, 40, 2) /* COMBAT_MODE_INT */
-     , (11527, 9007, 10) /* Creature_WeenieType */;
+     , (11527, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11527, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11527, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11527, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (11527, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11527, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11527, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11527, 1, True) /* STUCK_BOOL */
      , (11527, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11527, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11527, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11527, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (11527, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (11527, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (11527, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (11527, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (11527, 32, 70) /* SELF_ATTRIBUTE */;
+     , (11527, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (11527, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (11527, 6, 70) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11527, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11527, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11527, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11527, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11527, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11527, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11527, 9, 28210, 0, 0, 0.05, False) /* Create Sable Gromnie Tooth for ContainTreasure_DestinationType */
      , (11527, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (11527, 9, 28204, 0, 0, 0.05, False) /* Create Sturdy Gromnie Hide for ContainTreasure_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (153, 2060963846, 2910650640, 36, 78, 52.005, 1, 0, 0, 0) /* Fountain */
      , (143, 2060963844, 2910650651, 34.5244, 92.9991, 52, 0.997609, 0, 0, 0.0691146) /* Chest */
      , (6770, 2060963840, 2910650654, 34.0856, 89.6832, 55.205, 0.47347, 0, 0, -0.88081) /* Kayna bint Iswas */
@@ -8,9 +8,9 @@ VALUES (153, 2060963846, 2910650640, 36, 78, 52.005, 1, 0, 0, 0) /* Fountain */
      , (3955, 2060963843, 2910650368, 37.858, 62.979, 52.7584, 0.997473, 0, 0, 0.0710457) /* linkmonstergen15minutes */
      , (4980, 2060963845, 2910650368, 29.7878, 90.2518, 52.05, -0.92388, 0, 0, -0.382683) /* Refreshing Fountain */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2060963843'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2060963843'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963841'; /* linkmonstergen15minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963842'; /* linkmonstergen15minutes <- Iron Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2060963840'; /* linkmonstergen15minutes <- Kayna bint Iswas */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963841'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963842'; /* linkmonstergen15minutes <- Iron Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2060963840'; /* linkmonstergen15minutes <- Kayna bint Iswas */
 

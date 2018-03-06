@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12499, 2018009088, 2223374336, 165.102, 108.347, 154.247, 0.621835, 0, 0, -0.783148) /* Four Towers Settlement Portal */
      , (12476, 2018009089, 2223374336, 163.675, 99.1879, 154.365, 0.385808, 0, 0, -0.922579) /* Bay of Sands Portal */
      , (12525, 2018009090, 2223374336, 155.322, 97.7112, 155.062, 0.19483, 0, 0, -0.980837) /* Musansayn Portal */

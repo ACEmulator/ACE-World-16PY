@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Soldier (29956) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29956;
+DELETE FROM weenie WHERE class_Id = 29956;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29956, 'olthoisoldierperilbeneath');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29956, 'olthoisoldierperilbeneath', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29956, 0, 29956);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29956, 1, 'Olthoi Soldier') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29956, 1, 33557162) /* SETUP_DID */
      , (29956, 2, 150994946) /* MOTION_TABLE_DID */
      , (29956, 35, 451) /* DEATH_TREASURE_TYPE_DID */
@@ -20,7 +17,7 @@ VALUES (29956, 1, 33557162) /* SETUP_DID */
      , (29956, 30, 85) /* PHYSICS_SCRIPT_DID */
      , (29956, 22, 872415265) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29956, 1, 16) /* ITEM_TYPE_INT */
      , (29956, 2, 1) /* CREATURE_TYPE_INT */
      , (29956, 140, 1) /* AI_OPTIONS_INT */
@@ -35,10 +32,9 @@ VALUES (29956, 1, 16) /* ITEM_TYPE_INT */
      , (29956, 25, 61) /* LEVEL_INT */
      , (29956, 27, 0) /* ARMOR_TYPE_INT */
      , (29956, 93, 1032) /* PHYSICS_STATE_INT */
-     , (29956, 40, 2) /* COMBAT_MODE_INT */
-     , (29956, 9007, 10) /* Creature_WeenieType */;
+     , (29956, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29956, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (29956, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (29956, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (29956, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (29956, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29956, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29956, 1, True) /* STUCK_BOOL */
      , (29956, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (29956, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29956, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29956, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (29956, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (29956, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (29956, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (29956, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (29956, 32, 50) /* SELF_ATTRIBUTE */;
+     , (29956, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (29956, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (29956, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29956, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29956, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29956, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29956, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29956, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29956, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29956, 9, 3679, 0, 0, 0.08, False) /* Create Olthoi Claw for ContainTreasure_DestinationType */
      , (29956, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
      , (29956, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */

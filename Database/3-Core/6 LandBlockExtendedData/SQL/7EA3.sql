@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (770, 2011836416, 2124611584, 12.0608, 162.691, 43.1201, -0.974905, 0, 0, 0.22262) /* Eyebright */
      , (625, 2011836417, 2124611584, 11.3679, 163.489, 43.2588, -0.765164, 0, 0, 0.643836) /* Ginseng */
      , (766, 2011836418, 2124611584, 12.9569, 163.757, 43.2978, -0.243813, 0, 0, 0.969822) /* Bistort */
@@ -12,11 +12,11 @@ VALUES (770, 2011836416, 2124611584, 12.0608, 162.691, 43.1201, -0.974905, 0, 0,
      , (1479, 2011836426, 2124611584, 8.73306, 162.005, 43.0059, 0.873764, 0, 0, -0.486351) /* banderlingfoodgen */
      , (953, 2011836427, 2124611584, 7.92804, 164.235, 43.3774, 0.5955, 0, 0, -0.803356) /* banderlingyounggen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011836421'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2011836421'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836416'; /* linkitemgen <- Eyebright */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836417'; /* linkitemgen <- Ginseng */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836418'; /* linkitemgen <- Bistort */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836419'; /* linkitemgen <- Hawthorn */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011836420'; /* linkitemgen <- Amaranth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011836416'; /* linkitemgen <- Eyebright */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011836417'; /* linkitemgen <- Ginseng */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011836418'; /* linkitemgen <- Bistort */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011836419'; /* linkitemgen <- Hawthorn */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011836420'; /* linkitemgen <- Amaranth */
 

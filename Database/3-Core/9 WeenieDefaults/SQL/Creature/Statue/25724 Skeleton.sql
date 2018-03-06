@@ -1,17 +1,14 @@
 /* Weenie - Skeleton (25724) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25724;
+DELETE FROM weenie WHERE class_Id = 25724;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25724, 'skeletonnoir1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25724, 'skeletonnoir1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25724, 0, 25724);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25724, 1, 'Skeleton') /* NAME_STRING */
      , (25724, 15, 'The skeletal remains of poor deceased soul.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25724, 1, 33554521) /* SETUP_DID */
      , (25724, 2, 150994981) /* MOTION_TABLE_DID */
      , (25724, 3, 536870942) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (25724, 1, 33554521) /* SETUP_DID */
      , (25724, 8, 100669124) /* ICON_DID */
      , (25724, 22, 872415269) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25724, 1, 16) /* ITEM_TYPE_INT */
      , (25724, 146, 43164) /* XP_OVERRIDE_INT */
      , (25724, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (25724, 1, 16) /* ITEM_TYPE_INT */
      , (25724, 25, 710) /* LEVEL_INT */
      , (25724, 27, 0) /* ARMOR_TYPE_INT */
      , (25724, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (25724, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (25724, 9007, 10) /* Creature_WeenieType */;
+     , (25724, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25724, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25724, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25724, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (25724, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25724, 54, 3) /* USE_RADIUS_FLOAT */
      , (25724, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25724, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25724, 1, True) /* STUCK_BOOL */
      , (25724, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -76,16 +72,16 @@ VALUES (25724, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25724, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (25724, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25724, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (25724, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (25724, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (25724, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (25724, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (25724, 32, 285) /* SELF_ATTRIBUTE */;
+     , (25724, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (25724, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (25724, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25724, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25724, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25724, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25724, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25724, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25724, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

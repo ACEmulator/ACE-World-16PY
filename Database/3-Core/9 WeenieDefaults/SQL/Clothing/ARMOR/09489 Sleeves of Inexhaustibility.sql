@@ -1,17 +1,14 @@
 /* Weenie - Sleeves of Inexhaustibility (9489) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9489;
+DELETE FROM weenie WHERE class_Id = 9489;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9489, 'sleevesinexhaustibility');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9489, 'sleevesinexhaustibility', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9489, 0, 9489);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9489, 1, 'Sleeves of Inexhaustibility') /* NAME_STRING */
      , (9489, 15, 'Never tire and never surrender. [Note: You must have Axe specialized to use the magic on this item, in addition to the other requirements]') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9489, 41, 1) /* ITEM_SPECIALIZED_ONLY_DID */
      , (9489, 1, 33554655) /* SETUP_DID */
      , (9489, 37, 1) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (9489, 41, 1) /* ITEM_SPECIALIZED_ONLY_DID */
      , (9489, 7, 268436163) /* CLOTHINGBASE_DID */
      , (9489, 8, 100671484) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9489, 9, 6144) /* LOCATIONS_INT */
      , (9489, 1, 2) /* ITEM_TYPE_INT */
      , (9489, 19, 2000) /* VALUE_INT */
@@ -37,10 +34,9 @@ VALUES (9489, 9, 6144) /* LOCATIONS_INT */
      , (9489, 107, 700) /* ITEM_CUR_MANA_INT */
      , (9489, 108, 700) /* ITEM_MAX_MANA_INT */
      , (9489, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (9489, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9489, 9007, 2) /* Clothing_WeenieType */;
+     , (9489, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9489, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9489, 5, -0.033) /* MANA_RATE_FLOAT */
      , (9489, 12, 0.8) /* SHADE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (9489, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9489, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (9489, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9489, 100, True) /* DYABLE_BOOL */
      , (9489, 22, True) /* INSCRIBABLE_BOOL */
      , (9489, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9489, 1360, 2) /* EnduranceOther6_SpellID */
      , (9489, 2385, 2) /* Vigilance_SpellID */
      , (9489, 2386, 2) /* Indomitability_SpellID */

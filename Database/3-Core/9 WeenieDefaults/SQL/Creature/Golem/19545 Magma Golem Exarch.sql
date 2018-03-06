@@ -1,16 +1,13 @@
 /* Weenie - Magma Golem Exarch (19545) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19545;
+DELETE FROM weenie WHERE class_Id = 19545;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19545, 'golemmagmaexarch');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19545, 'golemmagmaexarch', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19545, 0, 19545);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19545, 1, 'Magma Golem Exarch') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19545, 1, 33556427) /* SETUP_DID */
      , (19545, 2, 150995073) /* MOTION_TABLE_DID */
      , (19545, 35, 31) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (19545, 1, 33556427) /* SETUP_DID */
      , (19545, 8, 100667940) /* ICON_DID */
      , (19545, 22, 872415325) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19545, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (19545, 1, 16) /* ITEM_TYPE_INT */
      , (19545, 146, 190435) /* XP_OVERRIDE_INT */
@@ -34,10 +31,9 @@ VALUES (19545, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (19545, 27, 0) /* ARMOR_TYPE_INT */
      , (19545, 93, 4197384) /* PHYSICS_STATE_INT */
      , (19545, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (19545, 40, 2) /* COMBAT_MODE_INT */
-     , (19545, 9007, 10) /* Creature_WeenieType */;
+     , (19545, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19545, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (19545, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (19545, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,7 +71,7 @@ VALUES (19545, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (19545, 125, 0.15) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19545, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19545, 1, True) /* STUCK_BOOL */
      , (19545, 6, True) /* AI_USES_MANA_BOOL */
      , (19545, 50, True) /* NEVER_FAIL_CASTING_BOOL */
@@ -85,7 +81,7 @@ VALUES (19545, 1, True) /* STUCK_BOOL */
      , (19545, 13, False) /* ETHEREAL_BOOL */
      , (19545, 15, True) /* LIGHTS_STATUS_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19545, 84, 2.07) /* FlameBolt5_SpellID */
      , (19545, 1160, 2.01) /* HealSelf5_SpellID */
      , (19545, 68, 2.07) /* ShockWave5_SpellID */
@@ -99,25 +95,25 @@ VALUES (19545, 84, 2.07) /* FlameBolt5_SpellID */
      , (19545, 1395, 2.01) /* ClumsinessOther5_SpellID */
      , (19545, 1401, 2.03) /* QuicknessSelf5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19545, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (19545, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (19545, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (19545, 8, 160) /* QUICKNESS_ATTRIBUTE */
-     , (19545, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (19545, 32, 150) /* SELF_ATTRIBUTE */;
+     , (19545, 3, 160) /* QUICKNESS_ATTRIBUTE */
+     , (19545, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (19545, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19545, 64, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19545, 128, 4700) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19545, 256, 850) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19545, 1, 4850) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19545, 3, 4700) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19545, 5, 850) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19545, 9, 6353, 0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
      , (19545, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (19545, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (19545, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19545, -1, 8405, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Flamma (x6 up to max of 6) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

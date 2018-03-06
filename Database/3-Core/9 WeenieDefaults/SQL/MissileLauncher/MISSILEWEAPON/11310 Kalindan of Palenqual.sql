@@ -1,23 +1,20 @@
 /* Weenie - Kalindan of Palenqual (11310) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11310;
+DELETE FROM weenie WHERE class_Id = 11310;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11310, 'xbow135menhir-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11310, 'xbow135menhir-xp', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11310, 0, 11310);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11310, 16, 'The Kalindan of Palenqual, an Aun Tumerok relic. This missile weapon was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Timaru, Siraluun, and Tonk.') /* LONG_DESC_STRING */
      , (11310, 1, 'Kalindan of Palenqual') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11310, 1, 33557238) /* SETUP_DID */
      , (11310, 3, 536870932) /* SOUND_TABLE_DID */
      , (11310, 8, 100671872) /* ICON_DID */
      , (11310, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11310, 9, 4194304) /* LOCATIONS_INT */
      , (11310, 1, 256) /* ITEM_TYPE_INT */
      , (11310, 5, 600) /* ENCUMB_VAL_INT */
@@ -41,10 +38,9 @@ VALUES (11310, 9, 4194304) /* LOCATIONS_INT */
      , (11310, 51, 2) /* COMBAT_USE_INT */
      , (11310, 52, 2) /* PARENT_LOCATION_INT */
      , (11310, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (11310, 60, 180) /* WEAPON_RANGE_INT */
-     , (11310, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (11310, 60, 180) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11310, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (11310, 5, -0.05) /* MANA_RATE_FLOAT */
      , (11310, 63, 2.45) /* DAMAGE_MOD_FLOAT */
@@ -52,13 +48,13 @@ VALUES (11310, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (11310, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (11310, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11310, 99, True) /* IVORYABLE_BOOL */
      , (11310, 69, False) /* IS_SELLABLE_BOOL */
      , (11310, 22, True) /* INSCRIBABLE_BOOL */
      , (11310, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11310, 496, 2) /* CrossBowMasterySelf6_SpellID */
      , (11310, 1605, 2) /* Defender6_SpellID */
      , (11310, 1616, 2) /* BloodDrinker6_SpellID */

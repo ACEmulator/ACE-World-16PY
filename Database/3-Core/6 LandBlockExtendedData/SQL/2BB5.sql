@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11392, 1924878341, 733282560, 157.178, 12.4023, 94.005, -0.528559, 0, 0, -0.848897) /* Yen Loc Anh the Mage */
      , (11393, 1924878339, 733282563, 132.93, 11.8656, 70.469, -0.00260605, 0, 0, -0.999997) /* Brother Samir ibn Lomaq the Monk */
      , (412, 1924878336, 733282567, 131.203, 12.95, 70.474, 0.707107, 0, 0, -0.707107) /* Door */
@@ -10,7 +10,7 @@ VALUES (11392, 1924878341, 733282560, 157.178, 12.4023, 94.005, -0.528559, 0, 0,
      , (5086, 1924878344, 733282304, 179.401, 76.9476, 0.005, -0.162572, 0, 0, 0.986697) /* linkmonstergen30seconds */
      , (509, 1924878345, 733282304, 155.71, 9.3781, 99.005, 0.27163, 0, 0, -0.962402) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1924878344'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1924878344'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1924878346'; /* linkmonstergen30seconds <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1924878346'; /* linkmonstergen30seconds <- Town Crier */
 

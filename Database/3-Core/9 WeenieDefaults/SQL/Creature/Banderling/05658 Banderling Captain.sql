@@ -1,16 +1,13 @@
 /* Weenie - Banderling Captain (5658) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5658;
+DELETE FROM weenie WHERE class_Id = 5658;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5658, 'banderlingcaptainmageacademy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5658, 'banderlingcaptainmageacademy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5658, 0, 5658);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5658, 1, 'Banderling Captain') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5658, 8, 100667453) /* ICON_DID */
      , (5658, 32, 47) /* WIELDED_TREASURE_TYPE_DID */
      , (5658, 1, 33558024) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (5658, 8, 100667453) /* ICON_DID */
      , (5658, 7, 268436498) /* CLOTHINGBASE_DID */
      , (5658, 22, 872415255) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5658, 1, 16) /* ITEM_TYPE_INT */
      , (5658, 2, 2) /* CREATURE_TYPE_INT */
      , (5658, 3, 17) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (5658, 1, 16) /* ITEM_TYPE_INT */
      , (5658, 27, 0) /* ARMOR_TYPE_INT */
      , (5658, 93, 1032) /* PHYSICS_STATE_INT */
      , (5658, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (5658, 40, 2) /* COMBAT_MODE_INT */
-     , (5658, 9007, 10) /* Creature_WeenieType */;
+     , (5658, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5658, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (5658, 65, 0.65) /* RESIST_PIERCE_FLOAT */
      , (5658, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,13 +69,13 @@ VALUES (5658, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (5658, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5658, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5658, 1, True) /* STUCK_BOOL */
      , (5658, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5658, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5658, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5658, 64, 2.005) /* ShockWave1_SpellID */
      , (5658, 81, 2.02) /* FlameBolt2_SpellID */
      , (5658, 65, 2.02) /* ShockWave2_SpellID */
@@ -89,20 +85,20 @@ VALUES (5658, 64, 2.005) /* ShockWave1_SpellID */
      , (5658, 18, 2.01) /* InvulnerabilitySelf1_SpellID */
      , (5658, 93, 2.02) /* WhirlingBlade2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5658, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (5658, 2, 90) /* ENDURANCE_ATTRIBUTE */
      , (5658, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (5658, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (5658, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (5658, 32, 45) /* SELF_ATTRIBUTE */;
+     , (5658, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (5658, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (5658, 6, 45) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5658, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5658, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5658, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5658, 1, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5658, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5658, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5658, 9, 3693, 0, 0, 0.04, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
      , (5658, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
      , (5658, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */

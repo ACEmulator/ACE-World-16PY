@@ -1,17 +1,14 @@
 /* Weenie - Shreth Token (11946) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11946;
+DELETE FROM weenie WHERE class_Id = 11946;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11946, 'shrethtoken');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11946, 'shrethtoken', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11946, 0, 11946);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11946, 16, 'A token with a Shreth head on it.  This was given to you in exchange for your valor.  If you give it to any of the army collectors, they will grant you a gift. ') /* LONG_DESC_STRING */
      , (11946, 1, 'Shreth Token') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11946, 1, 33557280) /* SETUP_DID */
      , (11946, 3, 536870932) /* SOUND_TABLE_DID */
      , (11946, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (11946, 1, 33557280) /* SETUP_DID */
      , (11946, 7, 268435723) /* CLOTHINGBASE_DID */
      , (11946, 8, 100671975) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11946, 9, 0) /* LOCATIONS_INT */
      , (11946, 1, 2048) /* ITEM_TYPE_INT */
      , (11946, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (11946, 9, 0) /* LOCATIONS_INT */
      , (11946, 19, 500) /* VALUE_INT */
      , (11946, 93, 1044) /* PHYSICS_STATE_INT */
      , (11946, 33, 1) /* BONDED_INT */
-     , (11946, 114, 1) /* ATTUNED_INT */
-     , (11946, 9007, 38) /* Gem_WeenieType */;
+     , (11946, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11946, 22, True) /* INSCRIBABLE_BOOL */;
 

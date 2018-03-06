@@ -1,16 +1,13 @@
 /* Weenie - Fire Shreth (26470) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26470;
+DELETE FROM weenie WHERE class_Id = 26470;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26470, 'shrethfire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26470, 'shrethfire', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26470, 0, 26470);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26470, 1, 'Fire Shreth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26470, 1, 33555879) /* SETUP_DID */
      , (26470, 2, 150995072) /* MOTION_TABLE_DID */
      , (26470, 35, 454) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (26470, 1, 33555879) /* SETUP_DID */
      , (26470, 7, 268435808) /* CLOTHINGBASE_DID */
      , (26470, 8, 100669720) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26470, 1, 16) /* ITEM_TYPE_INT */
      , (26470, 146, 27259) /* XP_OVERRIDE_INT */
      , (26470, 2, 32) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (26470, 1, 16) /* ITEM_TYPE_INT */
      , (26470, 25, 95) /* LEVEL_INT */
      , (26470, 27, 0) /* ARMOR_TYPE_INT */
      , (26470, 93, 1032) /* PHYSICS_STATE_INT */
-     , (26470, 40, 2) /* COMBAT_MODE_INT */
-     , (26470, 9007, 10) /* Creature_WeenieType */;
+     , (26470, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26470, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (26470, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (26470, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (26470, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (26470, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (26470, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26470, 1, True) /* STUCK_BOOL */
      , (26470, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (26470, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26470, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26470, 1, 280) /* STRENGTH_ATTRIBUTE */
      , (26470, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (26470, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (26470, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (26470, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (26470, 32, 150) /* SELF_ATTRIBUTE */;
+     , (26470, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (26470, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (26470, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26470, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26470, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26470, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26470, 1, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26470, 3, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26470, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26470, 9, 14587, 0, 0, 0.05, False) /* Create Fire Shreth Hide for ContainTreasure_DestinationType */
      , (26470, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (26470, 9, 27093, 0, 0, 0.01, False) /* Create Little Green Seeds for ContainTreasure_DestinationType */

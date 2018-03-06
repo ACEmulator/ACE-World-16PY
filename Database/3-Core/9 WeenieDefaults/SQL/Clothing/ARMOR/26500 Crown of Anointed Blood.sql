@@ -1,17 +1,14 @@
 /* Weenie - Crown of Anointed Blood (26500) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26500;
+DELETE FROM weenie WHERE class_Id = 26500;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26500, 'crownixir3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26500, 'crownixir3', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26500, 0, 26500);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26500, 1, 'Crown of Anointed Blood') /* NAME_STRING */
      , (26500, 15, 'This veiled crown was likely used during the rites of the Falatacot.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26500, 1, 33558591) /* SETUP_DID */
      , (26500, 3, 536870932) /* SOUND_TABLE_DID */
      , (26500, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (26500, 1, 33558591) /* SETUP_DID */
      , (26500, 7, 268436791) /* CLOTHINGBASE_DID */
      , (26500, 8, 100675772) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26500, 9, 1) /* LOCATIONS_INT */
      , (26500, 1, 2) /* ITEM_TYPE_INT */
      , (26500, 19, 7500) /* VALUE_INT */
@@ -38,10 +35,9 @@ VALUES (26500, 9, 1) /* LOCATIONS_INT */
      , (26500, 106, 335) /* ITEM_SPELLCRAFT_INT */
      , (26500, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (26500, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (26500, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (26500, 9007, 2) /* Clothing_WeenieType */;
+     , (26500, 109, 200) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26500, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (26500, 5, -0.033) /* MANA_RATE_FLOAT */
      , (26500, 12, 0.66) /* SHADE_FLOAT */
@@ -54,11 +50,11 @@ VALUES (26500, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (26500, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (26500, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26500, 69, False) /* IS_SELLABLE_BOOL */
      , (26500, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26500, 3034, 2) /* BenedictionImmortality_SpellID */
      , (26500, 3035, 2) /* ClosingGreatDivide_SpellID */;
 

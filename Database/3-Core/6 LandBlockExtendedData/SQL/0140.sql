@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (238, 1880358912, 20971776, 4.32166, -40.1622, -53.971, -0.707107, 0, 0, 0.707107) /* Virindi Puppet */
      , (4014, 1880358913, 20971781, 10, -40, -54, 0.707107, 0, 0, -0.707107) /* itemlowmagicgen */
      , (238, 1880358914, 20971793, 20, -30, -53.971, 0.866025, 0, 0, -0.5) /* Virindi Puppet */
@@ -73,67 +73,67 @@ VALUES (238, 1880358912, 20971776, 4.32166, -40.1622, -53.971, -0.707107, 0, 0, 
      , (238, 1880358983, 20972132, 60, -80, 18.029, 0.707107, 0, 0, -0.707107) /* Virindi Puppet */
      , (286, 1880358984, 20972133, 58.4335, -84.5099, 19.5035, -0.707107, 0, 0, -0.707107) /* Lever */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880358980'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880358966'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880358937'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880358967'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880358959'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880358943'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880358974'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880358962'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880358931'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880358936'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880358980'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880358966'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880358937'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880358967'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880358959'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880358943'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880358974'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880358962'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880358931'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880358936'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880358947'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880358979'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358961'; /* linkmonstergen15minutes <- Kilif Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358968'; /* linkmonstergen15minutes <- Kilif Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358932'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358938'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358975'; /* linkmonstergen15minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358976'; /* linkmonstergen15minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358981'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358930'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358940'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358934'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358956'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358948'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358946'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358960'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358954'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358973'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358977'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358951'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358952'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358953'; /* linkmonstergen15minutes <- Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358983'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358918'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358916'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358922'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358925'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358927'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358924'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358917'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358915'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358914'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358929'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358912'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358921'; /* linkmonstergen15minutes <- Virindi Puppet */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358963'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358926'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358969'; /* linkmonstergen15minutes <- Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358957'; /* linkmonstergen15minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358949'; /* linkmonstergen15minutes <- Tusker Guard */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880358945'; /* linkmonstergen15minutes <- Tusker Slave */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880358958'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880358971'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880358970'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880358955'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880358982'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880358972'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880358944'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880358964'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880358978'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880358935'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880358984'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880358947'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880358979'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358961'; /* linkmonstergen15minutes <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358968'; /* linkmonstergen15minutes <- Kilif Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358932'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358938'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358975'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358976'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358981'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358930'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358940'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358934'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358956'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358948'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358946'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358960'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358954'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358973'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358977'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358951'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358952'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358953'; /* linkmonstergen15minutes <- Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358983'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358918'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358916'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358922'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358925'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358927'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358924'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358917'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358915'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358914'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358929'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358912'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358921'; /* linkmonstergen15minutes <- Virindi Puppet */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358963'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358926'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358969'; /* linkmonstergen15minutes <- Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358957'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358949'; /* linkmonstergen15minutes <- Tusker Guard */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880358945'; /* linkmonstergen15minutes <- Tusker Slave */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880358958'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880358971'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880358970'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880358955'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880358982'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880358972'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880358944'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880358964'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880358978'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880358935'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880358984'; /* Door <- Lever */
 

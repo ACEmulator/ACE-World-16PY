@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Legionary (11728) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11728;
+DELETE FROM weenie WHERE class_Id = 11728;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11728, 'olthoilegionaryspecial-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11728, 'olthoilegionaryspecial-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11728, 0, 11728);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11728, 1, 'Olthoi Legionary') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11728, 1, 33557162) /* SETUP_DID */
      , (11728, 2, 150994946) /* MOTION_TABLE_DID */
      , (11728, 35, 450) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (11728, 1, 33557162) /* SETUP_DID */
      , (11728, 8, 100667623) /* ICON_DID */
      , (11728, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11728, 1, 16) /* ITEM_TYPE_INT */
      , (11728, 2, 1) /* CREATURE_TYPE_INT */
      , (11728, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (11728, 1, 16) /* ITEM_TYPE_INT */
      , (11728, 25, 70) /* LEVEL_INT */
      , (11728, 27, 0) /* ARMOR_TYPE_INT */
      , (11728, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11728, 40, 2) /* COMBAT_MODE_INT */
-     , (11728, 9007, 10) /* Creature_WeenieType */;
+     , (11728, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11728, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11728, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (11728, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (11728, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11728, 125, 0.5) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11728, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11728, 1, True) /* STUCK_BOOL */
      , (11728, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11728, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11728, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11728, 1, 330) /* STRENGTH_ATTRIBUTE */
      , (11728, 2, 350) /* ENDURANCE_ATTRIBUTE */
      , (11728, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (11728, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (11728, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (11728, 32, 100) /* SELF_ATTRIBUTE */;
+     , (11728, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (11728, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (11728, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11728, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11728, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11728, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11728, 1, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11728, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11728, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11728, 9, 10846, 0, 0, 1, False) /* Create Legionary Pincer for ContainTreasure_DestinationType */
      , (11728, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Moonstone (2431) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2431;
+DELETE FROM weenie WHERE class_Id = 2431;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2431, 'gemmoonstone');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2431, 'gemmoonstone', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2431, 0, 2431);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2431, 1, 'Moonstone') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2431, 1, 33554809) /* SETUP_DID */
      , (2431, 3, 536870932) /* SOUND_TABLE_DID */
      , (2431, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (2431, 1, 33554809) /* SETUP_DID */
      , (2431, 7, 268435723) /* CLOTHINGBASE_DID */
      , (2431, 8, 100674748) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2431, 9, 0) /* LOCATIONS_INT */
      , (2431, 1, 2048) /* ITEM_TYPE_INT */
      , (2431, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (2431, 9, 0) /* LOCATIONS_INT */
      , (2431, 16, 1) /* ITEM_USEABLE_INT */
      , (2431, 19, 50) /* VALUE_INT */
      , (2431, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2431, 169, 16777216) /* TSYS_MUTATION_DATA_INT */
-     , (2431, 9007, 38) /* Gem_WeenieType */;
+     , (2431, 169, 16777216) /* TSYS_MUTATION_DATA_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2431, 22, True) /* INSCRIBABLE_BOOL */;
 

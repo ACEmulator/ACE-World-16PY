@@ -1,43 +1,39 @@
 /* Weenie - Jexki Ki's Journal (26663) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26663;
+DELETE FROM weenie WHERE class_Id = 26663;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26663, 'journaljexkiki');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26663, 'journaljexkiki', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26663, 0, 26663);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26663, 1, 'Jexki Ki''s Journal') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26663, 1, 33558620) /* SETUP_DID */
      , (26663, 3, 536870932) /* SOUND_TABLE_DID */
      , (26663, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (26663, 6, 67114959) /* PALETTE_BASE_DID */
      , (26663, 8, 100675784) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26663, 9, 0) /* LOCATIONS_INT */
      , (26663, 1, 8192) /* ITEM_TYPE_INT */
      , (26663, 93, 1044) /* PHYSICS_STATE_INT */
      , (26663, 5, 25) /* ENCUMB_VAL_INT */
      , (26663, 16, 8) /* ITEM_USEABLE_INT */
      , (26663, 8, 200) /* MASS_INT */
-     , (26663, 19, 90) /* VALUE_INT */
-     , (26663, 174, 7) /* APPRAISAL_PAGES_INT */
-     , (26663, 175, 7) /* APPRAISAL_MAX_PAGES_INT */
-     , (26663, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (26663, 9007, 8) /* Book_WeenieType */;
+     , (26663, 19, 90) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26663, 39, 1.22) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26663, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (26663, 0, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'Cold stings the bones and tires flesh.
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (26663, 7, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (26663, 0, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Cold stings the bones and tires flesh.
 In sorrow we have marched, watched the land
 turned icy, our masters laid low beneath
 the hands of their brethren, we their servants 
@@ -47,7 +43,7 @@ sisters from near, afar and betwixt the
 ever watchful eyes of the fallen. Fallen who
 shed tears for the voices that call when leaves
 ')
-     , (26663, 1, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'are rustled, those forgotten and lost,
+     , (26663, 1, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'are rustled, those forgotten and lost,
 wayward are all souls that cling to
 the edict from afar, whence we came.
 They who tread now in the cold yet 
@@ -60,7 +56,7 @@ darkness that consumes flesh, fire and sun.
 She calls sisters to swell her ranks
 and they answer with efficiency unmatched.
 ')
-     , (26663, 2, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'Drawn by promise of discovery, life
+     , (26663, 2, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Drawn by promise of discovery, life
 beyond life, and death that mimics life.
 Gifts she has earned and pledged to teach.
 Ixir Zi, my Matron, my Mother, my boon.
@@ -71,7 +67,7 @@ cascading blood that opens the well
 to new worlds where life teems in warm
 climes, yet untouched by the War of Hate.
 ')
-     , (26663, 3, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'Sisters! Come now to her.
+     , (26663, 3, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Sisters! Come now to her.
 Come all to the seat of your world, 
 wherein the warriors of death cannot find thee.
 Here at her bosom where all are touched
@@ -83,7 +79,7 @@ Life shall be parted and death shall be scorned,
 eternity gifted and the crush of sand
 shall not grind your bones to dust. Nay,
 ')
-     , (26663, 4, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'touch of her flesh and drink of her blood
+     , (26663, 4, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'touch of her flesh and drink of her blood
 and know the immortal gifts that she will offer.
 Let the twelve and she, gift you as were they.
 Through the divine Ixir Zi, shall our host
@@ -92,14 +88,14 @@ Free of voices, free of those that stalk
 in shadowed hills and those who fell to 
 whispers on the wind!
 ')
-     , (26663, 5, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'One final ritus, one final gift before we slumber
+     , (26663, 5, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'One final ritus, one final gift before we slumber
 as our lords, beneath the world,
 in temples of obsidian and blood.
 Darkness has churned the war against the shadow, 
 the shadow has churned the war against the Darkness,
 and in their folly they have opened the way for Light.
 ')
-     , (26663, 6, 'Translator, Aun Laokhe', 'prewritten', 4294967295, False, 'Come, Sisters! Hear her
+     , (26663, 6, 4294967295, 'Translator, Aun Laokhe', 'prewritten', False, 'Come, Sisters! Hear her
 raise her voice in song and know that she
 commands the gifts for one simple taste;
 then no death, no life, no breath shall

@@ -1,17 +1,14 @@
 /* Weenie - Assault Orb (23890) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23890;
+DELETE FROM weenie WHERE class_Id = 23890;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23890, 'orbtumerokwar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23890, 'orbtumerokwar', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23890, 0, 23890);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23890, 16, 'A reward for defeating the leaders of the Falcon Clan.') /* LONG_DESC_STRING */
      , (23890, 1, 'Assault Orb') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23890, 1, 33558211) /* SETUP_DID */
      , (23890, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (23890, 3, 536870932) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (23890, 1, 33558211) /* SETUP_DID */
      , (23890, 7, 268436199) /* CLOTHINGBASE_DID */
      , (23890, 8, 100671741) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23890, 9, 16777216) /* LOCATIONS_INT */
      , (23890, 1, 32768) /* ITEM_TYPE_INT */
      , (23890, 19, 5000) /* VALUE_INT */
@@ -42,21 +39,20 @@ VALUES (23890, 9, 16777216) /* LOCATIONS_INT */
      , (23890, 107, 600) /* ITEM_CUR_MANA_INT */
      , (23890, 108, 600) /* ITEM_MAX_MANA_INT */
      , (23890, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (23890, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (23890, 9007, 35) /* Caster_WeenieType */;
+     , (23890, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23890, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23890, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23890, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (23890, 138, 2.5) /* SLAYER_DAMAGE_BONUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23890, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (23890, 15, True) /* LIGHTS_STATUS_BOOL */
      , (23890, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23890, 656, 2) /* ManaMasterySelf4_SpellID */
      , (23890, 1425, 2) /* FocusSelf5_SpellID */
      , (23890, 215, 2) /* ManaRenewalSelf4_SpellID */

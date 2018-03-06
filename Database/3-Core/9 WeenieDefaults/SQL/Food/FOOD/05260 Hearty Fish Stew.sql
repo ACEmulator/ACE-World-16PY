@@ -1,24 +1,21 @@
 /* Weenie - Hearty Fish Stew (5260) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5260;
+DELETE FROM weenie WHERE class_Id = 5260;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5260, 'heartyfishstew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5260, 'heartyfishstew', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5260, 0, 5260);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5260, 1, 'Hearty Fish Stew') /* NAME_STRING */
      , (5260, 20, 'Bowls of Hearty Fish Stew ') /* PLURAL_NAME_STRING */
      , (5260, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5260, 1, 33555968) /* SETUP_DID */
      , (5260, 3, 536870932) /* SOUND_TABLE_DID */
      , (5260, 8, 100669958) /* ICON_DID */
      , (5260, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5260, 9, 0) /* LOCATIONS_INT */
      , (5260, 1, 32) /* ITEM_TYPE_INT */
      , (5260, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -33,9 +30,8 @@ VALUES (5260, 9, 0) /* LOCATIONS_INT */
      , (5260, 19, 80) /* VALUE_INT */
      , (5260, 89, 4) /* BOOSTER_ENUM_INT */
      , (5260, 90, 39) /* BOOST_VALUE_INT */
-     , (5260, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5260, 9007, 18) /* Food_WeenieType */;
+     , (5260, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5260, 69, False) /* IS_SELLABLE_BOOL */;
 

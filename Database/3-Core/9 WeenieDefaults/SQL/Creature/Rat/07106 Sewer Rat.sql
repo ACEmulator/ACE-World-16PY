@@ -1,16 +1,13 @@
 /* Weenie - Sewer Rat (7106) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7106;
+DELETE FROM weenie WHERE class_Id = 7106;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7106, 'ratsewer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7106, 'ratsewer', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7106, 0, 7106);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7106, 1, 'Sewer Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7106, 1, 33554493) /* SETUP_DID */
      , (7106, 2, 150994958) /* MOTION_TABLE_DID */
      , (7106, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (7106, 1, 33554493) /* SETUP_DID */
      , (7106, 8, 100667451) /* ICON_DID */
      , (7106, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7106, 1, 16) /* ITEM_TYPE_INT */
      , (7106, 146, 9350) /* XP_OVERRIDE_INT */
      , (7106, 2, 10) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (7106, 1, 16) /* ITEM_TYPE_INT */
      , (7106, 25, 53) /* LEVEL_INT */
      , (7106, 27, 0) /* ARMOR_TYPE_INT */
      , (7106, 93, 1032) /* PHYSICS_STATE_INT */
-     , (7106, 40, 2) /* COMBAT_MODE_INT */
-     , (7106, 9007, 10) /* Creature_WeenieType */;
+     , (7106, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7106, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (7106, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (7106, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (7106, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (7106, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7106, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7106, 1, True) /* STUCK_BOOL */
      , (7106, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (7106, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7106, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7106, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (7106, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (7106, 4, 280) /* COORDINATION_ATTRIBUTE */
-     , (7106, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (7106, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (7106, 32, 100) /* SELF_ATTRIBUTE */;
+     , (7106, 3, 260) /* QUICKNESS_ATTRIBUTE */
+     , (7106, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (7106, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7106, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7106, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7106, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7106, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7106, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7106, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7106, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (7106, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (420, 2072432646, 3094151426, 14.4357, 179.502, 20.51, 0.0279898, 0, 0, -0.999608) /* itemfood-generator */
      , (1036, 2072432647, 3094151430, 4.53289, 185.932, 16.81, 0.50589, 0, 0, 0.862598) /* itemdaggergenerator */
      , (720, 2072432640, 3094151432, 14.3003, 177.788, 20.505, -1, 0, 0, 0) /* Sliding Door */

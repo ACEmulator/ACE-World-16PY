@@ -1,24 +1,21 @@
 /* Weenie - Template for Food items. Stacks to 100 (29115) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29115;
+DELETE FROM weenie WHERE class_Id = 29115;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29115, 'lagerspectacular');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29115, 'lagerspectacular', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29115, 0, 29115);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29115, 1, 'Template for Food items. Stacks to 100') /* NAME_STRING */
      , (29115, 20, 'Food') /* PLURAL_NAME_STRING */
      , (29115, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29115, 1, 33555978) /* SETUP_DID */
      , (29115, 3, 536870932) /* SOUND_TABLE_DID */
      , (29115, 8, 100669942) /* ICON_DID */
      , (29115, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29115, 9, 0) /* LOCATIONS_INT */
      , (29115, 1, 32) /* ITEM_TYPE_INT */
      , (29115, 13, 75) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (29115, 9, 0) /* LOCATIONS_INT */
      , (29115, 19, 22) /* VALUE_INT */
      , (29115, 89, 4) /* BOOSTER_ENUM_INT */
      , (29115, 90, 9) /* BOOST_VALUE_INT */
-     , (29115, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29115, 9007, 18) /* Food_WeenieType */;
+     , (29115, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29115, 69, False) /* IS_SELLABLE_BOOL */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12466, 1957396480, 1253572608, 116.345, 43.8935, 240.005, 0.836393, 0, 0, -0.548131) /* Adams' Beach Portal */
      , (12514, 1957396481, 1253572608, 117.527, 36.0704, 240.005, 0.728184, 0, 0, -0.685382) /* Lithaenean Cottages Portal */
      , (12538, 1957396482, 1253572608, 117.058, 27.4033, 240.005, 0.597732, 0, 0, -0.801696) /* Plateau Hollow Settlement Portal */

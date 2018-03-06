@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22723, 2137530378, 4135715074, 175.901, 77.09, 63.605, 0.718093, 0, 0, -0.695948) /* Bowyer */
      , (22722, 2137530374, 4135715089, 139.946, 80.1047, 63.605, -0.932177, 0, 0, -0.362002) /* Blacksmith */
      , (22642, 2137530381, 4135715100, 175.994, 30.9674, 63.605, 0.662733, 0, 0, -0.748856) /* Brighteyes, the Tailor */
@@ -18,11 +18,11 @@ VALUES (22723, 2137530378, 4135715074, 175.901, 77.09, 63.605, 0.718093, 0, 0, -
      , (22717, 2137530386, 4135714816, 159.34, 91.7266, 58.005, 0.818677, 0, 0, -0.574254) /* Not too far to the Tusker Emporium! */
      , (22640, 2137530380, 4135714816, 153.616, 59.6561, 58.0099, -0.553984, 0, 0, -0.832527) /* Mayor Ko Ko */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2137530382'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2137530383'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2137530388'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2137530382'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2137530383'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2137530388'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2137530381'; /* linkmonstergen3minutes <- Brighteyes, the Tailor */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2137530380'; /* linkmonstergen3minutes <- Mayor Ko Ko */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2137530387'; /* linkitemgen10seconds <- Note */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2137530381'; /* linkmonstergen3minutes <- Brighteyes, the Tailor */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2137530380'; /* linkmonstergen3minutes <- Mayor Ko Ko */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2137530387'; /* linkitemgen10seconds <- Note */
 

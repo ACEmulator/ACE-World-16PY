@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 1880166400, 17891586, -4.075, -29.38, 0, -0.707107, 0, 0, -0.707107) /* Chest */
      , (152, 1880166401, 17891586, 0.216423, -30.137, 0.005, 1, 0, 0, 0) /* Font */
      , (143, 1880166402, 17891589, 12.8325, 4.05, 0.0125, -1, 0, 0, 4.37114E-08) /* Chest */
@@ -16,15 +16,15 @@ VALUES (143, 1880166400, 17891586, -4.075, -29.38, 0, -0.707107, 0, 0, -0.707107
      , (4378, 1880166414, 17891594, 20, -10, 0, 1, 0, 0, 0) /* portalrandomgen */
      , (7238, 1880166415, 17891594, 24.06, -5.86512, 0.06954, 0.705619, 0, 0, -0.708592) /* Sentinel Notebook */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880166405'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880166405'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166404'; /* linkitemgen25seconds <- Wedding Chest Key */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166406'; /* linkitemgen25seconds <- Wedding Chest Key */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166407'; /* linkitemgen25seconds <- Wedding Chest Key */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166408'; /* linkitemgen25seconds <- Wedding Chest Key */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166409'; /* linkitemgen25seconds <- Wedding Chest Key */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166410'; /* linkitemgen25seconds <- The Wedding Guide */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166411'; /* linkitemgen25seconds <- Book */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166415'; /* linkitemgen25seconds <- Sentinel Notebook */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880166412'; /* linkitemgen25seconds <- Parchment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166404'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166406'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166407'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166408'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166409'; /* linkitemgen25seconds <- Wedding Chest Key */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166410'; /* linkitemgen25seconds <- The Wedding Guide */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166411'; /* linkitemgen25seconds <- Book */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166415'; /* linkitemgen25seconds <- Sentinel Notebook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880166412'; /* linkitemgen25seconds <- Parchment */
 

@@ -1,16 +1,13 @@
 /* Weenie - Bloodthirsty Monouga (24287) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24287;
+DELETE FROM weenie WHERE class_Id = 24287;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24287, 'monougabloodthirsty');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24287, 'monougabloodthirsty', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24287, 0, 24287);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24287, 1, 'Bloodthirsty Monouga') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24287, 8, 100669117) /* ICON_DID */
      , (24287, 32, 271) /* WIELDED_TREASURE_TYPE_DID */
      , (24287, 1, 33555199) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (24287, 8, 100669117) /* ICON_DID */
      , (24287, 7, 268436619) /* CLOTHINGBASE_DID */
      , (24287, 22, 872415257) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24287, 1, 16) /* ITEM_TYPE_INT */
      , (24287, 2, 28) /* CREATURE_TYPE_INT */
      , (24287, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (24287, 1, 16) /* ITEM_TYPE_INT */
      , (24287, 27, 0) /* ARMOR_TYPE_INT */
      , (24287, 93, 4195336) /* PHYSICS_STATE_INT */
      , (24287, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (24287, 40, 2) /* COMBAT_MODE_INT */
-     , (24287, 9007, 10) /* Creature_WeenieType */;
+     , (24287, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24287, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (24287, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (24287, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (24287, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (24287, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24287, 31, 21) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24287, 1, True) /* STUCK_BOOL */
      , (24287, 6, True) /* AI_USES_MANA_BOOL */
      , (24287, 50, True) /* NEVER_FAIL_CASTING_BOOL */
@@ -83,20 +79,20 @@ VALUES (24287, 1, True) /* STUCK_BOOL */
      , (24287, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24287, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24287, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (24287, 2, 440) /* ENDURANCE_ATTRIBUTE */
      , (24287, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (24287, 8, 190) /* QUICKNESS_ATTRIBUTE */
-     , (24287, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (24287, 32, 140) /* SELF_ATTRIBUTE */;
+     , (24287, 3, 190) /* QUICKNESS_ATTRIBUTE */
+     , (24287, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (24287, 6, 140) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24287, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24287, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24287, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24287, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24287, 3, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24287, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24287, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
      , (24287, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
      , (24287, 9, 24843, 0, 0, 0.03, False) /* Create Bloodthirsty Monouga Idol for ContainTreasure_DestinationType */

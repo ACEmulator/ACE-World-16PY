@@ -1,24 +1,21 @@
 /* Weenie - A Carved Plate (27926) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27926;
+DELETE FROM weenie WHERE class_Id = 27926;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27926, 'platehizkrilogic1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27926, 'platehizkrilogic1', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27926, 0, 27926);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27926, 1, 'A Carved Plate') /* NAME_STRING */
      , (27926, 15, 'A plate with a relief carved into the face. The relief is of a triangle turned on its side with a small dot located along the longest side.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27926, 1, 33558772) /* SETUP_DID */
      , (27926, 3, 536870932) /* SOUND_TABLE_DID */
      , (27926, 36, 234881046) /* MUTATE_FILTER_DID */
      , (27926, 8, 100676560) /* ICON_DID */
      , (27926, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27926, 9, 0) /* LOCATIONS_INT */
      , (27926, 1, 2048) /* ITEM_TYPE_INT */
      , (27926, 13, 100) /* STACK_UNIT_ENCUMB_INT */
@@ -30,9 +27,8 @@ VALUES (27926, 9, 0) /* LOCATIONS_INT */
      , (27926, 15, 0) /* STACK_UNIT_VALUE_INT */
      , (27926, 16, 1) /* ITEM_USEABLE_INT */
      , (27926, 19, 0) /* VALUE_INT */
-     , (27926, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27926, 9007, 38) /* Gem_WeenieType */;
+     , (27926, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27926, 22, True) /* INSCRIBABLE_BOOL */;
 

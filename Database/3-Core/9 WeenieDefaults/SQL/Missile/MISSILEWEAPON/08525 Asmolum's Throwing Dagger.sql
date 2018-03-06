@@ -1,24 +1,21 @@
 /* Weenie - Asmolum's Throwing Dagger (8525) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8525;
+DELETE FROM weenie WHERE class_Id = 8525;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8525, 'daggerthrowingasmolum');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8525, 'daggerthrowingasmolum', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8525, 0, 8525);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8525, 16, 'An ancient throwing dagger of Dericostian design. This weapon appears to be totally unreactive to spellcraft.') /* LONG_DESC_STRING */
      , (8525, 1, 'Asmolum''s Throwing Dagger') /* NAME_STRING */
      , (8525, 15, 'A throwing dagger.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8525, 1, 33554744) /* SETUP_DID */
      , (8525, 3, 536870932) /* SOUND_TABLE_DID */
      , (8525, 8, 100668935) /* ICON_DID */
      , (8525, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8525, 9, 4194304) /* LOCATIONS_INT */
      , (8525, 1, 256) /* ITEM_TYPE_INT */
      , (8525, 13, 15) /* STACK_UNIT_ENCUMB_INT */
@@ -40,10 +37,9 @@ VALUES (8525, 9, 4194304) /* LOCATIONS_INT */
      , (8525, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (8525, 48, 12) /* WEAPON_SKILL_INT */
      , (8525, 49, 20) /* WEAPON_TIME_INT */
-     , (8525, 51, 2) /* COMBAT_USE_INT */
-     , (8525, 9007, 4) /* Missile_WeenieType */;
+     , (8525, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8525, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (8525, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
      , (8525, 78, 1) /* FRICTION_FLOAT */
@@ -51,7 +47,7 @@ VALUES (8525, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (8525, 27, 3.5) /* ROTATION_SPEED_FLOAT */
      , (8525, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8525, 17, True) /* INELASTIC_BOOL */
      , (8525, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (8525, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */

@@ -1,16 +1,13 @@
 /* Weenie - Creeping Margul (27500) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27500;
+DELETE FROM weenie WHERE class_Id = 27500;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27500, 'margulcreepingforbidden');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27500, 'margulcreepingforbidden', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27500, 0, 27500);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27500, 1, 'Creeping Margul') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27500, 1, 33558554) /* SETUP_DID */
      , (27500, 2, 150995263) /* MOTION_TABLE_DID */
      , (27500, 35, 461) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (27500, 1, 33558554) /* SETUP_DID */
      , (27500, 8, 100675661) /* ICON_DID */
      , (27500, 30, 84) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27500, 1, 16) /* ITEM_TYPE_INT */
      , (27500, 2, 71) /* CREATURE_TYPE_INT */
      , (27500, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (27500, 1, 16) /* ITEM_TYPE_INT */
      , (27500, 27, 0) /* ARMOR_TYPE_INT */
      , (27500, 93, 1032) /* PHYSICS_STATE_INT */
      , (27500, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27500, 40, 2) /* COMBAT_MODE_INT */
-     , (27500, 9007, 10) /* Creature_WeenieType */;
+     , (27500, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27500, 64, 0.85) /* RESIST_SLASH_FLOAT */
      , (27500, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (27500, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,7 +72,7 @@ VALUES (27500, 64, 0.85) /* RESIST_SLASH_FLOAT */
      , (27500, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27500, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27500, 1, True) /* STUCK_BOOL */
      , (27500, 6, True) /* AI_USES_MANA_BOOL */
      , (27500, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (27500, 1, True) /* STUCK_BOOL */
      , (27500, 13, False) /* ETHEREAL_BOOL */
      , (27500, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27500, 1608, 2.005) /* LureBlade3_SpellID */
      , (27500, 2162, 2.02) /* AcidVulnerabilityOther7_SpellID */
      , (27500, 2074, 2.03) /* ImperilOther7_SpellID */
@@ -97,20 +93,20 @@ VALUES (27500, 1608, 2.005) /* LureBlade3_SpellID */
      , (27500, 627, 2.01) /* LifeMagicIneptitudeOther5_SpellID */
      , (27500, 573, 2.01) /* CreatureEnchantmentIneptitudeOther5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27500, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (27500, 2, 360) /* ENDURANCE_ATTRIBUTE */
      , (27500, 4, 350) /* COORDINATION_ATTRIBUTE */
-     , (27500, 8, 380) /* QUICKNESS_ATTRIBUTE */
-     , (27500, 16, 360) /* FOCUS_ATTRIBUTE */
-     , (27500, 32, 360) /* SELF_ATTRIBUTE */;
+     , (27500, 3, 380) /* QUICKNESS_ATTRIBUTE */
+     , (27500, 5, 360) /* FOCUS_ATTRIBUTE */
+     , (27500, 6, 360) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27500, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27500, 128, 840) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27500, 256, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27500, 1, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27500, 3, 840) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27500, 5, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27500, 9, 27305, 0, 0, 0.01, False) /* Create Forbidden Key for ContainTreasure_DestinationType */
      , (27500, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

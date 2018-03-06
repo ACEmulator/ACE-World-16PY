@@ -1,20 +1,17 @@
 /* Weenie - Aerlinthe Patron Shirt (7428) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7428;
+DELETE FROM weenie WHERE class_Id = 7428;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7428, 'shirtaerlinthepatron');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7428, 'shirtaerlinthepatron', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7428, 0, 7428);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7428, 8, '-') /* SCRIBE_NAME_STRING */
      , (7428, 16, 'A shirt purchased on Aerlinthe Island.') /* LONG_DESC_STRING */
      , (7428, 1, 'Aerlinthe Patron Shirt') /* NAME_STRING */
      , (7428, 15, 'A shirt purchased on Aerlinthe Island.') /* SHORT_DESC_STRING */
      , (7428, 7, 'My patron went to Aerlinthe, and all I got was this lousy shirt.') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7428, 1, 33554883) /* SETUP_DID */
      , (7428, 3, 536870932) /* SOUND_TABLE_DID */
      , (7428, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -23,7 +20,7 @@ VALUES (7428, 1, 33554883) /* SETUP_DID */
      , (7428, 7, 268436011) /* CLOTHINGBASE_DID */
      , (7428, 8, 100670734) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7428, 9, 10) /* LOCATIONS_INT */
      , (7428, 1, 4) /* ITEM_TYPE_INT */
      , (7428, 27, 1) /* ARMOR_TYPE_INT */
@@ -39,10 +36,9 @@ VALUES (7428, 9, 10) /* LOCATIONS_INT */
      , (7428, 107, 317) /* ITEM_CUR_MANA_INT */
      , (7428, 108, 467) /* ITEM_MAX_MANA_INT */
      , (7428, 109, 155) /* ITEM_DIFFICULTY_INT */
-     , (7428, 110, 1) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (7428, 9007, 2) /* Clothing_WeenieType */;
+     , (7428, 110, 1) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7428, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (7428, 5, -0.033) /* MANA_RATE_FLOAT */
      , (7428, 12, 0) /* SHADE_FLOAT */
@@ -53,9 +49,9 @@ VALUES (7428, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (7428, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (7428, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7428, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7428, 955, 2) /* FealtyOther4_SpellID */;
 

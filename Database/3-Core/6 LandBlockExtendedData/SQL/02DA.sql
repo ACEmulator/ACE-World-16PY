@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7944, 1882038272, 47841542, 60, -420, -101.995, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (8014, 1882038273, 47841558, 79.5285, -419.884, -89.995, 0.653699, 0, 0, 0.756754) /* Fragment */
      , (8014, 1882038274, 47841559, 90.2885, -408.324, -89.995, 0.997217, 0, 0, -0.074556) /* Fragment */
@@ -166,168 +166,168 @@ VALUES (7944, 1882038272, 47841542, 60, -420, -101.995, 0.707107, 0, 0, -0.70710
      , (28556, 1882038440, 47842118, 256.215, -340.554, 0.0042, -0.335004, 0, 0, -0.942217) /* Devious Shadow */
      , (28556, 1882038441, 47842119, 258.94, -346.374, 0.0042, -0.335005, 0, 0, -0.942216) /* Devious Shadow */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882038432'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882038432'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038326'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038325'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038324'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038323'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038311'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038310'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038321'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038320'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038317'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038322'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038312'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038318'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038314'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038313'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038301'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038300'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038309'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038302'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038307'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038308'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038305'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038304'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038292'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038291'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038299'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038293'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038297'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038298'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038306'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038303'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038319'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038327'; /* linkmonstergen5minutes <- Fenmalain Shadow Leader */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038316'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038295'; /* linkmonstergen5minutes <- Sahoni Arsanc */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038285'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038296'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038287'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038286'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038288'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038277'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038278'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038276'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038281'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038273'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038279'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038280'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038275'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038274'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038290'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038289'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038282'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038341'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038346'; /* linkmonstergen5minutes <- Fenmalain Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038342'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038343'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038339'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038338'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038337'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038340'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038335'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038336'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038333'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038334'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038332'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038330'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038331'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038328'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038329'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038431'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038433'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038424'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038423'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038429'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038430'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038428'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038427'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038426'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038425'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038435'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038439'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038438'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038434'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038437'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038436'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038441'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038440'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038421'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038422'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038418'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038419'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038420'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038416'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038417'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038414'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038413'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038415'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038411'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038412'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038405'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038404'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038410'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038409'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038407'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038406'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038402'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038403'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038408'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038400'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038399'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038401'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038393'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038397'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038396'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038394'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038392'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038386'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038385'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038395'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038388'; /* linkmonstergen5minutes <- Devious Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038353'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038350'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038352'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038354'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038378'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038376'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038372'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038369'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038347'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038366'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038351'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038365'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038368'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038371'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038381'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038377'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038379'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038391'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038390'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038389'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038380'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038364'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038375'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038374'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038387'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038384'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038382'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038383'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038370'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038367'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038398'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038356'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038355'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038358'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038362'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038363'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038357'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038361'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038360'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038359'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038348'; /* linkmonstergen5minutes <- Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038373'; /* linkmonstergen5minutes <- Risen Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882038349'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038326'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038325'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038324'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038323'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038311'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038310'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038321'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038320'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038317'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038322'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038312'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038318'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038314'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038313'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038301'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038300'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038309'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038302'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038307'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038308'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038305'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038304'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038292'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038291'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038299'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038293'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038297'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038298'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038306'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038303'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038319'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038327'; /* linkmonstergen5minutes <- Fenmalain Shadow Leader */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038316'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038295'; /* linkmonstergen5minutes <- Sahoni Arsanc */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038285'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038296'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038287'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038286'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038288'; /* linkmonstergen5minutes <- Fenmalain Satellite Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038277'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038278'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038276'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038281'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038273'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038279'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038280'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038275'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038274'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038290'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038289'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038282'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038341'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038346'; /* linkmonstergen5minutes <- Fenmalain Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038342'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038343'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038339'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038338'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038337'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038340'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038335'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038336'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038333'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038334'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038332'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038330'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038331'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038328'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038329'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038431'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038433'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038424'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038423'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038429'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038430'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038428'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038427'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038426'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038425'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038435'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038439'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038438'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038434'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038437'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038436'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038441'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038440'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038421'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038422'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038418'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038419'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038420'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038416'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038417'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038414'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038413'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038415'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038411'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038412'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038405'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038404'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038410'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038409'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038407'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038406'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038402'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038403'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038408'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038400'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038399'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038401'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038393'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038397'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038396'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038394'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038392'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038386'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038385'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038395'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038388'; /* linkmonstergen5minutes <- Devious Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038353'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038350'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038352'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038354'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038378'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038376'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038372'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038369'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038347'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038366'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038351'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038365'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038368'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038371'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038381'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038377'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038379'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038391'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038390'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038389'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038380'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038364'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038375'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038374'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038387'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038384'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038382'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038383'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038370'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038367'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038398'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038356'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038355'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038358'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038362'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038363'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038357'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038361'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038360'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038359'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038348'; /* linkmonstergen5minutes <- Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038373'; /* linkmonstergen5minutes <- Risen Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882038349'; /* linkmonstergen5minutes <- Fragment */
 

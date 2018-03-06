@@ -1,18 +1,15 @@
 /* Weenie - Frost Oil (5331) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5331;
+DELETE FROM weenie WHERE class_Id = 5331;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5331, 'oilfrost');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5331, 'oilfrost', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5331, 0, 5331);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5331, 1, 'Frost Oil') /* NAME_STRING */
      , (5331, 20, 'Vials of Frost Oil') /* PLURAL_NAME_STRING */
      , (5331, 14, 'This item is used in fletching.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5331, 1, 33555967) /* SETUP_DID */
      , (5331, 3, 536870932) /* SOUND_TABLE_DID */
      , (5331, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (5331, 1, 33555967) /* SETUP_DID */
      , (5331, 7, 268435815) /* CLOTHINGBASE_DID */
      , (5331, 8, 100670010) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5331, 9, 0) /* LOCATIONS_INT */
      , (5331, 1, 67108864) /* ITEM_TYPE_INT */
      , (5331, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (5331, 9, 0) /* LOCATIONS_INT */
      , (5331, 16, 524296) /* ITEM_USEABLE_INT */
      , (5331, 19, 20) /* VALUE_INT */
      , (5331, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5331, 94, 134217728) /* TARGET_TYPE_INT */
-     , (5331, 9007, 44) /* CraftTool_WeenieType */;
+     , (5331, 94, 134217728) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5331, 69, False) /* IS_SELLABLE_BOOL */;
 

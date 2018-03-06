@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4702, 2045001734, 2655256849, 35.9925, 6.01204, 46.005, 0.99996, 0, 0, -0.00899763) /* Najsuf al-Afan the Shopkeeper */
      , (4700, 2045001738, 2655256851, 35.9461, 18.0094, 46.005, 0.00877496, 0, 0, -0.999961) /* Jeweler Hawtala bint Arsha */
      , (4701, 2045001737, 2655256859, 29.9925, 11.9572, 46.005, 0.669814, 0, 0, -0.742529) /* Scribe Tashwi ibn Sayat */
@@ -32,7 +32,7 @@ VALUES (4702, 2045001734, 2655256849, 35.9925, 6.01204, 46.005, 0.99996, 0, 0, -
      , (4667, 2045001741, 2655256576, 47.2004, 9.87274, 49.2, -0.999931, 0, 0, -0.0117074) /* General Supplies */
      , (4663, 2045001742, 2655256576, 132.925, 26.8992, 39.2, 0.9997, 0, 0, -0.0245077) /* Blade of the Desert */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045001759'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045001759'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045001758'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045001758'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

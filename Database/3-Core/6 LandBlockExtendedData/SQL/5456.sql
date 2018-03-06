@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12701, 1967480832, 1414922496, 126.426, -101.115, -42, 0.732954, 0, 0, -0.680278) /* Tunnelling Grievver */
      , (12701, 1967480833, 1414922496, 126.415, -98.889, -42, 0.715719, 0, 0, -0.698388) /* Tunnelling Grievver */
      , (7979, 1967480834, 1414922497, 83.0882, -93.24, -36, 0.664305, 0, 0, 0.747462) /* Virulent Grievver */
@@ -89,67 +89,67 @@ VALUES (12701, 1967480832, 1414922496, 126.426, -101.115, -42, 0.732954, 0, 0, -
      , (15274, 1967480966, 1414922874, 130.835, -31.1851, -5.995, -0.077248, 0, 0, -0.997012) /* linkmonstergen1minute */
      , (20643, 1967480968, 1414922911, 104.437, -20.014, 0.005, -0.696708, 0, 0, -0.717355) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967480966'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1967480965'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967480966'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967480965'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480938'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480937'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480901'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480905'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480907'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480910'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480913'; /* linkmonstergen1minute <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480908'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480930'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480948'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480890'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480891'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480872'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480886'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480858'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480860'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480838'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480843'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480833'; /* linkmonstergen1minute <- Tunnelling Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480832'; /* linkmonstergen1minute <- Tunnelling Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480854'; /* linkmonstergen1minute <- Tunnelling Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480865'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480870'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480864'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480863'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480899'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480900'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480926'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480928'; /* linkmonstergen1minute <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480888'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480887'; /* linkmonstergen1minute <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480952'; /* linkmonstergen1minute <- Cocooned Auroch */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480873'; /* linkmonstergen1minute <- Cocooned Auroch */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967480871'; /* linkmonstergen1minute <- Spinning Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480903'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480964'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480893'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480892'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480898'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480897'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480960'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480957'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480947'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480954'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480959'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480879'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480881'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480880'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480876'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480877'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480855'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480944'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480835'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480834'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480841'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480836'; /* linkmonstergen3minutes <- Virulent Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480894'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480929'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480856'; /* linkmonstergen3minutes <- Scrawed Grievver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967480934'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480938'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480937'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480901'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480905'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480907'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480910'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480913'; /* linkmonstergen1minute <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480908'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480930'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480948'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480890'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480891'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480872'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480886'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480858'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480860'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480838'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480843'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480833'; /* linkmonstergen1minute <- Tunnelling Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480832'; /* linkmonstergen1minute <- Tunnelling Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480854'; /* linkmonstergen1minute <- Tunnelling Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480865'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480870'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480864'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480863'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480899'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480900'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480926'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480928'; /* linkmonstergen1minute <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480888'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480887'; /* linkmonstergen1minute <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480952'; /* linkmonstergen1minute <- Cocooned Auroch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480873'; /* linkmonstergen1minute <- Cocooned Auroch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967480871'; /* linkmonstergen1minute <- Spinning Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480903'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480964'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480893'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480892'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480898'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480897'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480960'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480957'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480947'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480954'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480959'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480879'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480881'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480880'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480876'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480877'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480855'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480944'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480835'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480834'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480841'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480836'; /* linkmonstergen3minutes <- Virulent Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480894'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480929'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480856'; /* linkmonstergen3minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967480934'; /* linkmonstergen3minutes <- Virulent Grievver */
 

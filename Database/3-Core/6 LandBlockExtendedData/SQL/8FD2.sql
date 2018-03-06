@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2387, 2029854720, 2412904448, 16.6376, 152.056, 277.943, 0.970739, 0, 0, 0.240135) /* Crater Caves Dungeon */
      , (7355, 2029854721, 2412904448, 37.404, 136.765, 278, -0.888421, 0, 0, -0.459029) /* eruptespergen */
      , (7355, 2029854722, 2412904448, 148.05, 25.3744, 277.105, 0.168093, 0, 0, 0.985771) /* eruptespergen */

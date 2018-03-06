@@ -1,16 +1,13 @@
 /* Weenie - Slithis Eye Stalk (4258) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4258;
+DELETE FROM weenie WHERE class_Id = 4258;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4258, 'slithiseyestalk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4258, 'slithiseyestalk', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4258, 0, 4258);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4258, 1, 'Slithis Eye Stalk') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4258, 1, 33555670) /* SETUP_DID */
      , (4258, 2, 150995067) /* MOTION_TABLE_DID */
      , (4258, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (4258, 1, 33555670) /* SETUP_DID */
      , (4258, 7, 268436087) /* CLOTHINGBASE_DID */
      , (4258, 8, 100671186) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4258, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (4258, 1, 16) /* ITEM_TYPE_INT */
      , (4258, 2, 36) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (4258, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (4258, 27, 0) /* ARMOR_TYPE_INT */
      , (4258, 93, 1032) /* PHYSICS_STATE_INT */
      , (4258, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (4258, 40, 2) /* COMBAT_MODE_INT */
-     , (4258, 9007, 10) /* Creature_WeenieType */;
+     , (4258, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4258, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (4258, 65, 0.58) /* RESIST_PIERCE_FLOAT */
      , (4258, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -77,7 +73,7 @@ VALUES (4258, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (4258, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4258, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4258, 1, True) /* STUCK_BOOL */
      , (4258, 6, True) /* AI_USES_MANA_BOOL */
      , (4258, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -86,7 +82,7 @@ VALUES (4258, 1, True) /* STUCK_BOOL */
      , (4258, 13, False) /* ETHEREAL_BOOL */
      , (4258, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4258, 1262, 2.01) /* DrainMana3_SpellID */
      , (4258, 1309, 2.01) /* ArmorSelf3_SpellID */
      , (4258, 1158, 2.005) /* HealSelf3_SpellID */
@@ -95,23 +91,23 @@ VALUES (4258, 1262, 2.01) /* DrainMana3_SpellID */
      , (4258, 173, 2.01) /* FesterOther3_SpellID */
      , (4258, 1465, 2.01) /* FeeblemindOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4258, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (4258, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (4258, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (4258, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (4258, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (4258, 32, 150) /* SELF_ATTRIBUTE */;
+     , (4258, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (4258, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (4258, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4258, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4258, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4258, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4258, 1, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4258, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4258, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4258, 2, 8619, 10, 0, 0, False) /* Create Slithis Splinter for Wield_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4258, -1, 4257, 5, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Slithis Tentacle (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (4258, -1, 4256, 5, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Slithis Tendril (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

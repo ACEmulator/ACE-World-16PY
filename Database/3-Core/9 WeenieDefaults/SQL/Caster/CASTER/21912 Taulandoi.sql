@@ -1,17 +1,14 @@
 /* Weenie - Taulandoi (21912) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21912;
+DELETE FROM weenie WHERE class_Id = 21912;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21912, 'stavegaerlanfrost');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21912, 'stavegaerlanfrost', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21912, 0, 21912);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21912, 1, 'Taulandoi') /* NAME_STRING */
      , (21912, 15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21912, 1, 33557963) /* SETUP_DID */
      , (21912, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (21912, 3, 536870932) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (21912, 1, 33557963) /* SETUP_DID */
      , (21912, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (21912, 28, 2783) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21912, 9, 16777216) /* LOCATIONS_INT */
      , (21912, 1, 32768) /* ITEM_TYPE_INT */
      , (21912, 5, 120) /* ENCUMB_VAL_INT */
@@ -41,19 +38,18 @@ VALUES (21912, 9, 16777216) /* LOCATIONS_INT */
      , (21912, 109, 100) /* ITEM_DIFFICULTY_INT */
      , (21912, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (21912, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (21912, 117, 4000) /* ITEM_MANA_COST_INT */
-     , (21912, 9007, 35) /* Caster_WeenieType */;
+     , (21912, 117, 4000) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21912, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (21912, 5, -1) /* MANA_RATE_FLOAT */
      , (21912, 138, 2) /* SLAYER_DAMAGE_BONUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21912, 69, False) /* IS_SELLABLE_BOOL */
      , (21912, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21912, 664, 2) /* ManaMasteryOther6_SpellID */
      , (21912, 2584, 2) /* CANTRIPWILLPOWER1_SpellID */
      , (21912, 640, 2) /* WarMagicMasteryOther6_SpellID */

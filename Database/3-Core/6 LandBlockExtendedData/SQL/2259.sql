@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20187, 1915064344, 576258048, 108.36, 44.3784, 0.00499999, -0.444113, 0, 0, 0.895971) /* Buillic */
      , (7923, 1915064340, 576258048, 109.062, 59.5629, 0.968571, 0.997199, 0, 0, 0.0747943) /* linkmonstergen3minutes */
      , (20186, 1915064324, 576258048, 63.8532, 50.9491, 0.250761, 0.654516, 0, 0, 0.756049) /* Apozim */
@@ -12,16 +12,16 @@ VALUES (20187, 1915064344, 576258048, 108.36, 44.3784, 0.00499999, -0.444113, 0,
      , (14514, 1915064334, 576258048, 122.264, 80.0999, 3.84477, 0.594879, 0, 0, -0.803815) /* Miasma */
      , (21414, 1915064349, 576258048, 106.478, 61.4156, 1.12297, 0.0668974, 0, 0, -0.99776) /* Acid Guardian Lair */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1915064340'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1915064340'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064344'; /* linkmonstergen3minutes <- Buillic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064324'; /* linkmonstergen3minutes <- Apozim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064339'; /* linkmonstergen3minutes <- Mox */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064326'; /* linkmonstergen3minutes <- Apozim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064342'; /* linkmonstergen3minutes <- Buillic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064341'; /* linkmonstergen3minutes <- Mox */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064346'; /* linkmonstergen3minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064330'; /* linkmonstergen3minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064335'; /* linkmonstergen3minutes <- Mox */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1915064334'; /* linkmonstergen3minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064344'; /* linkmonstergen3minutes <- Buillic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064324'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064339'; /* linkmonstergen3minutes <- Mox */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064326'; /* linkmonstergen3minutes <- Apozim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064342'; /* linkmonstergen3minutes <- Buillic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064341'; /* linkmonstergen3minutes <- Mox */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064346'; /* linkmonstergen3minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064330'; /* linkmonstergen3minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064335'; /* linkmonstergen3minutes <- Mox */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1915064334'; /* linkmonstergen3minutes <- Miasma */
 

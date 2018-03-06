@@ -1,16 +1,13 @@
 /* Weenie - Rendeath Shreth (7114) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7114;
+DELETE FROM weenie WHERE class_Id = 7114;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7114, 'shrethrendeath');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7114, 'shrethrendeath', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7114, 0, 7114);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7114, 1, 'Rendeath Shreth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7114, 1, 33555879) /* SETUP_DID */
      , (7114, 2, 150995072) /* MOTION_TABLE_DID */
      , (7114, 35, 458) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (7114, 1, 33555879) /* SETUP_DID */
      , (7114, 7, 268436624) /* CLOTHINGBASE_DID */
      , (7114, 8, 100669720) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7114, 1, 16) /* ITEM_TYPE_INT */
      , (7114, 146, 43303) /* XP_OVERRIDE_INT */
      , (7114, 2, 32) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (7114, 1, 16) /* ITEM_TYPE_INT */
      , (7114, 25, 120) /* LEVEL_INT */
      , (7114, 27, 0) /* ARMOR_TYPE_INT */
      , (7114, 93, 1032) /* PHYSICS_STATE_INT */
-     , (7114, 40, 2) /* COMBAT_MODE_INT */
-     , (7114, 9007, 10) /* Creature_WeenieType */;
+     , (7114, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7114, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (7114, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (7114, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (7114, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (7114, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7114, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7114, 1, True) /* STUCK_BOOL */
      , (7114, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (7114, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7114, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7114, 1, 340) /* STRENGTH_ATTRIBUTE */
      , (7114, 2, 375) /* ENDURANCE_ATTRIBUTE */
      , (7114, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (7114, 8, 320) /* QUICKNESS_ATTRIBUTE */
-     , (7114, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (7114, 32, 150) /* SELF_ATTRIBUTE */;
+     , (7114, 3, 320) /* QUICKNESS_ATTRIBUTE */
+     , (7114, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (7114, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7114, 64, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7114, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7114, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7114, 1, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7114, 3, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7114, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7114, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
      , (7114, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (7114, 9, 24850, 0, 0, 0.03, False) /* Create Rendeath Shreth Hide for ContainTreasure_DestinationType */

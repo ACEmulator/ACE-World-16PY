@@ -1,17 +1,14 @@
 /* Weenie - Shendolain Helm of the Lightbringer (8808) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8808;
+DELETE FROM weenie WHERE class_Id = 8808;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8808, 'helmshendolain');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8808, 'helmshendolain', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8808, 0, 8808);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8808, 1, 'Shendolain Helm of the Lightbringer') /* NAME_STRING */
      , (8808, 15, 'A trophy from the banishment of Bael''Zharon.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8808, 1, 33556941) /* SETUP_DID */
      , (8808, 3, 536870932) /* SOUND_TABLE_DID */
      , (8808, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (8808, 1, 33556941) /* SETUP_DID */
      , (8808, 7, 268436105) /* CLOTHINGBASE_DID */
      , (8808, 8, 100671293) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8808, 9, 1) /* LOCATIONS_INT */
      , (8808, 1, 2) /* ITEM_TYPE_INT */
      , (8808, 19, 0) /* VALUE_INT */
@@ -34,10 +31,9 @@ VALUES (8808, 9, 1) /* LOCATIONS_INT */
      , (8808, 28, 10) /* ARMOR_LEVEL_INT */
      , (8808, 93, 1044) /* PHYSICS_STATE_INT */
      , (8808, 33, 1) /* BONDED_INT */
-     , (8808, 114, 1) /* ATTUNED_INT */
-     , (8808, 9007, 2) /* Clothing_WeenieType */;
+     , (8808, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8808, 12, 0.2) /* SHADE_FLOAT */
      , (8808, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8808, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -49,7 +45,7 @@ VALUES (8808, 12, 0.2) /* SHADE_FLOAT */
      , (8808, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (8808, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8808, 99, True) /* IVORYABLE_BOOL */
      , (8808, 69, False) /* IS_SELLABLE_BOOL */
      , (8808, 22, True) /* INSCRIBABLE_BOOL */

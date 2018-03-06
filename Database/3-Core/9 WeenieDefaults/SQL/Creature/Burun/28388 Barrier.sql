@@ -1,17 +1,14 @@
 /* Weenie - Barrier (28388) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28388;
+DELETE FROM weenie WHERE class_Id = 28388;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28388, 'generatorkiviklir60');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28388, 'generatorkiviklir60', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28388, 0, 28388);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28388, 1, 'Barrier') /* NAME_STRING */
      , (28388, 15, 'A barrier constructed of muck and slime.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28388, 1, 33558871) /* SETUP_DID */
      , (28388, 2, 150995309) /* MOTION_TABLE_DID */
      , (28388, 3, 536871052) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28388, 1, 33558871) /* SETUP_DID */
      , (28388, 8, 100676956) /* ICON_DID */
      , (28388, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28388, 1, 16) /* ITEM_TYPE_INT */
      , (28388, 2, 75) /* CREATURE_TYPE_INT */
      , (28388, 67, 1) /* TOLERANCE_INT */
@@ -37,10 +34,9 @@ VALUES (28388, 1, 16) /* ITEM_TYPE_INT */
      , (28388, 93, 1032) /* PHYSICS_STATE_INT */
      , (28388, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (28388, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (28388, 40, 1) /* COMBAT_MODE_INT */
-     , (28388, 9007, 10) /* Creature_WeenieType */;
+     , (28388, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28388, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (28388, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (28388, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (28388, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (28388, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (28388, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28388, 1, True) /* STUCK_BOOL */
      , (28388, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (28388, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -83,20 +79,20 @@ VALUES (28388, 1, True) /* STUCK_BOOL */
      , (28388, 13, False) /* ETHEREAL_BOOL */
      , (28388, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28388, 1, 1) /* STRENGTH_ATTRIBUTE */
      , (28388, 2, 1) /* ENDURANCE_ATTRIBUTE */
      , (28388, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (28388, 8, 1) /* QUICKNESS_ATTRIBUTE */
-     , (28388, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (28388, 32, 1) /* SELF_ATTRIBUTE */;
+     , (28388, 3, 1) /* QUICKNESS_ATTRIBUTE */
+     , (28388, 5, 1) /* FOCUS_ATTRIBUTE */
+     , (28388, 6, 1) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28388, 64, 4999) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28388, 128, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28388, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28388, 1, 4999) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28388, 3, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28388, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 28.7, -10.3, 6, -4.371139E-08, 0, 0, -1)/* Generate Burun Ruuk Seer (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (28388, -1, 26019, 1, 1, 1, 1, 4, -1, 0, 0, 41353743, 31.2, -10.4, 6, -4.371139E-08, 0, 0, -1)/* Generate Burun Ruuk Seer (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (28388, -1, 27984, 1, 1, 1, 1, 4, -1, 0, 0, 41353512, 30.1, -26.4, 0, -4.371139E-08, 0, 0, -1)/* Generate Guruk Crusher (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

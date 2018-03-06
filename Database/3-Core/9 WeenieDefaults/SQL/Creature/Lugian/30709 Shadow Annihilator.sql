@@ -1,16 +1,13 @@
 /* Weenie - Shadow Annihilator (30709) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30709;
+DELETE FROM weenie WHERE class_Id = 30709;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30709, 'lugianassaultbossshoktok');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30709, 'lugianassaultbossshoktok', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30709, 0, 30709);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30709, 1, 'Shadow Annihilator') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30709, 8, 100667447) /* ICON_DID */
      , (30709, 32, 436) /* WIELDED_TREASURE_TYPE_DID */
      , (30709, 1, 33557003) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (30709, 8, 100667447) /* ICON_DID */
      , (30709, 7, 268436618) /* CLOTHINGBASE_DID */
      , (30709, 22, 872415262) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30709, 1, 16) /* ITEM_TYPE_INT */
      , (30709, 2, 5) /* CREATURE_TYPE_INT */
      , (30709, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (30709, 1, 16) /* ITEM_TYPE_INT */
      , (30709, 27, 0) /* ARMOR_TYPE_INT */
      , (30709, 93, 1032) /* PHYSICS_STATE_INT */
      , (30709, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (30709, 40, 2) /* COMBAT_MODE_INT */
-     , (30709, 9007, 10) /* Creature_WeenieType */;
+     , (30709, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30709, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (30709, 65, 0.66) /* RESIST_PIERCE_FLOAT */
      , (30709, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (30709, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (30709, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (30709, 31, 23) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30709, 1, True) /* STUCK_BOOL */
      , (30709, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (30709, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30709, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30709, 1, 320) /* STRENGTH_ATTRIBUTE */
      , (30709, 2, 240) /* ENDURANCE_ATTRIBUTE */
      , (30709, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (30709, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (30709, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (30709, 32, 135) /* SELF_ATTRIBUTE */;
+     , (30709, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (30709, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (30709, 6, 135) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30709, 64, 4000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30709, 128, 4000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30709, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30709, 1, 4000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30709, 3, 4000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30709, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30709, 9, 30700, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
      , (30709, 9, 30700, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */
      , (30709, 9, 30700, 0, 0, 1, False) /* Create Tursh Totem Shard for ContainTreasure_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (939, 1880424448, 22020352, -0.722543, -73.8939, -17.9923, 0.139603, 0, 0, -0.990208) /* Young Banderling */
      , (939, 1880424449, 22020353, -0.631632, -77.818, -17.9923, 0.653338, 0, 0, -0.757066) /* Young Banderling */
      , (420, 1880424450, 22020355, 0.552761, -75.1721, -18, -4.37114E-08, 0, 0, -1) /* itemfood-generator */
@@ -68,49 +68,49 @@ VALUES (939, 1880424448, 22020352, -0.722543, -73.8939, -17.9923, 0.139603, 0, 0
      , (420, 1880424512, 22020492, 31.9205, -17.1611, 0, -0.30995, 0, 0, -0.950753) /* itemfood-generator */
      , (4108, 1880424513, 22020492, 28.4091, -17.1629, 0.011, 0.253968, 0, 0, -0.967213) /* Gnawer Shreth */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880424511'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880424482'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880424498'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880424475'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880424458'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880424510'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880424514'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880424511'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880424482'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880424498'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880424475'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880424458'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880424510'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880424514'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424513'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424504'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424505'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424470'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424471'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424481'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424509'; /* linkmonstergen3minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424496'; /* linkmonstergen3minutes <- Skeleton */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424464'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424465'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424462'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424459'; /* linkmonstergen3minutes <- Carrion Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424448'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424449'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424451'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424455'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424456'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424483'; /* linkmonstergen3minutes <- Drudge Slinker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424484'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424486'; /* linkmonstergen3minutes <- Drudge Skulker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424468'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424479'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424480'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424500'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424491'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880424476'; /* linkmonstergen3minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880424469'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880424489'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880424490'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880424495'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880424497'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880424474'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880424460'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880424457'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880424506'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880424508'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880424515'; /* linkitemgen10seconds <- Alloy Device */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424513'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424504'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424505'; /* linkmonstergen3minutes <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424470'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424471'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424481'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424509'; /* linkmonstergen3minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424496'; /* linkmonstergen3minutes <- Skeleton */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424464'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424465'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424462'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424459'; /* linkmonstergen3minutes <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424448'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424449'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424451'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424455'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424456'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424483'; /* linkmonstergen3minutes <- Drudge Slinker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424484'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424486'; /* linkmonstergen3minutes <- Drudge Skulker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424468'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424479'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424480'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424500'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424491'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880424476'; /* linkmonstergen3minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880424469'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880424489'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880424490'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880424495'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880424497'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880424474'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880424460'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880424457'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880424506'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880424508'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880424515'; /* linkitemgen10seconds <- Alloy Device */
 

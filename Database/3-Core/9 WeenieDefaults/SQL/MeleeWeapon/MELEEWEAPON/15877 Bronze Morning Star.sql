@@ -1,16 +1,13 @@
 /* Weenie - Bronze Morning Star (15877) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15877;
+DELETE FROM weenie WHERE class_Id = 15877;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15877, 'morningstarstatue-monsteronly');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15877, 'morningstarstatue-monsteronly', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15877, 0, 15877);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15877, 1, 'Bronze Morning Star') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15877, 1, 33554748) /* SETUP_DID */
      , (15877, 3, 536870932) /* SOUND_TABLE_DID */
      , (15877, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (15877, 1, 33554748) /* SETUP_DID */
      , (15877, 7, 268435764) /* CLOTHINGBASE_DID */
      , (15877, 8, 100668965) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15877, 33, -2) /* BONDED_INT */
      , (15877, 9, 1048576) /* LOCATIONS_INT */
      , (15877, 1, 1) /* ITEM_TYPE_INT */
@@ -36,17 +33,16 @@ VALUES (15877, 33, -2) /* BONDED_INT */
      , (15877, 48, 5) /* WEAPON_SKILL_INT */
      , (15877, 49, 5) /* WEAPON_TIME_INT */
      , (15877, 114, 1) /* ATTUNED_INT */
-     , (15877, 51, 1) /* COMBAT_USE_INT */
-     , (15877, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (15877, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15877, 39, 2.5) /* DEFAULT_SCALE_FLOAT */
      , (15877, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (15877, 21, 0.9) /* WEAPON_LENGTH_FLOAT */
      , (15877, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (15877, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15877, 22, True) /* INSCRIBABLE_BOOL */
      , (15877, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

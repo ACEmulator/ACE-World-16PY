@@ -1,16 +1,13 @@
 /* Weenie - Tumerok Scout (4099) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4099;
+DELETE FROM weenie WHERE class_Id = 4099;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4099, 'tumerokscoutarcher');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4099, 'tumerokscoutarcher', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4099, 0, 4099);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4099, 1, 'Tumerok Scout') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4099, 8, 100667452) /* ICON_DID */
      , (4099, 32, 223) /* WIELDED_TREASURE_TYPE_DID */
      , (4099, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (4099, 8, 100667452) /* ICON_DID */
      , (4099, 7, 268436629) /* CLOTHINGBASE_DID */
      , (4099, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4099, 1, 16) /* ITEM_TYPE_INT */
      , (4099, 2, 6) /* CREATURE_TYPE_INT */
      , (4099, 3, 9) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (4099, 1, 16) /* ITEM_TYPE_INT */
      , (4099, 25, 16) /* LEVEL_INT */
      , (4099, 27, 0) /* ARMOR_TYPE_INT */
      , (4099, 93, 1032) /* PHYSICS_STATE_INT */
-     , (4099, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (4099, 9007, 10) /* Creature_WeenieType */;
+     , (4099, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4099, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4099, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (4099, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (4099, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4099, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4099, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4099, 1, True) /* STUCK_BOOL */
      , (4099, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4099, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4099, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4099, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (4099, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (4099, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (4099, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (4099, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (4099, 32, 40) /* SELF_ATTRIBUTE */;
+     , (4099, 3, 75) /* QUICKNESS_ATTRIBUTE */
+     , (4099, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (4099, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4099, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4099, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4099, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4099, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4099, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4099, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4099, 8, 308, 0, 0, 0.05, False) /* Create Budiaq for Treasure_DestinationType */
      , (4099, 8, 309, 0, 0, 0.05, False) /* Create Club for Treasure_DestinationType */
      , (4099, 8, 313, 0, 0, 0.05, False) /* Create Dabus for Treasure_DestinationType */

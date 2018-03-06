@@ -1,22 +1,19 @@
 /* Weenie - Lugian Morning Star (23764) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23764;
+DELETE FROM weenie WHERE class_Id = 23764;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23764, 'lugianmorningstarhollowhigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23764, 'lugianmorningstarhollowhigh', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23764, 0, 23764);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23764, 1, 'Lugian Morning Star') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23764, 1, 33554748) /* SETUP_DID */
      , (23764, 3, 536870932) /* SOUND_TABLE_DID */
      , (23764, 8, 100667600) /* ICON_DID */
      , (23764, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23764, 9, 1048576) /* LOCATIONS_INT */
      , (23764, 1, 1) /* ITEM_TYPE_INT */
      , (23764, 93, 1044) /* PHYSICS_STATE_INT */
@@ -33,10 +30,9 @@ VALUES (23764, 9, 1048576) /* LOCATIONS_INT */
      , (23764, 47, 4) /* ATTACK_TYPE_INT */
      , (23764, 48, 5) /* WEAPON_SKILL_INT */
      , (23764, 49, 140) /* WEAPON_TIME_INT */
-     , (23764, 51, 1) /* COMBAT_USE_INT */
-     , (23764, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23764, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23764, 39, 2) /* DEFAULT_SCALE_FLOAT */
      , (23764, 76, 0.7) /* TRANSLUCENCY_FLOAT */
      , (23764, 29, 1) /* WEAPON_DEFENSE_FLOAT */
@@ -44,7 +40,7 @@ VALUES (23764, 39, 2) /* DEFAULT_SCALE_FLOAT */
      , (23764, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (23764, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23764, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (23764, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
      , (23764, 22, True) /* INSCRIBABLE_BOOL */;

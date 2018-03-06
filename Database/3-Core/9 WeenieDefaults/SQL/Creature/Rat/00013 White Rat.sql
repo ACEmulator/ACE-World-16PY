@@ -1,16 +1,13 @@
 /* Weenie - White Rat (13) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 13;
+DELETE FROM weenie WHERE class_Id = 13;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (13, 'ratwhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (13, 'ratwhite', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13, 0, 13);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13, 1, 'White Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13, 1, 33554493) /* SETUP_DID */
      , (13, 2, 150994958) /* MOTION_TABLE_DID */
      , (13, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (13, 1, 33554493) /* SETUP_DID */
      , (13, 7, 268435555) /* CLOTHINGBASE_DID */
      , (13, 8, 100667451) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13, 1, 16) /* ITEM_TYPE_INT */
      , (13, 146, 74) /* XP_OVERRIDE_INT */
      , (13, 2, 10) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (13, 1, 16) /* ITEM_TYPE_INT */
      , (13, 25, 4) /* LEVEL_INT */
      , (13, 27, 0) /* ARMOR_TYPE_INT */
      , (13, 93, 1032) /* PHYSICS_STATE_INT */
-     , (13, 40, 2) /* COMBAT_MODE_INT */
-     , (13, 9007, 10) /* Creature_WeenieType */;
+     , (13, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (13, 65, 1.6) /* RESIST_PIERCE_FLOAT */
      , (13, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (13, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (13, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (13, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13, 1, True) /* STUCK_BOOL */
      , (13, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (13, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (13, 1, 10) /* STRENGTH_ATTRIBUTE */
      , (13, 2, 10) /* ENDURANCE_ATTRIBUTE */
      , (13, 4, 20) /* COORDINATION_ATTRIBUTE */
-     , (13, 8, 20) /* QUICKNESS_ATTRIBUTE */
-     , (13, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (13, 32, 10) /* SELF_ATTRIBUTE */;
+     , (13, 3, 20) /* QUICKNESS_ATTRIBUTE */
+     , (13, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (13, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (13, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (13, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (13, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (13, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (13, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (13, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13, 9, 3685, 0, 0, 0.15, False) /* Create White Rat Tail for ContainTreasure_DestinationType */
      , (13, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14880, 1984196608, 1682374912, 90.2666, -59.0804, -197.993, -0.190969, 0, 0, 0.981596) /* Theral */
      , (19540, 1984196609, 1682374913, 87.1186, -67.1934, -197.993, 0.481422, 0, 0, -0.876489) /* Scoriscant */
      , (7923, 1984196610, 1682374913, 89.0868, -70.2917, -197.995, 0.638268, 0, 0, 0.769814) /* linkmonstergen3minutes */
@@ -110,96 +110,96 @@ VALUES (14880, 1984196608, 1682374912, 90.2666, -59.0804, -197.993, -0.190969, 0
      , (7923, 1984196741, 1682375231, 49.7583, -62.4165, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (4219, 1984196742, 1682375231, 50.7488, -62.16, 0.005, 1, 0, 0, 0) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984196740'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984196741'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1984196742'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1984196610'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984196740'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984196741'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1984196742'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1984196610'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196702'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196701'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196735'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196734'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196738'; /* linkmonstergen5minutes <- Paroxysm Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196736'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196731'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196739'; /* linkmonstergen5minutes <- Paroxysm Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196723'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196732'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196725'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196724'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196728'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196727'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196717'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196729'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196719'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196718'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196709'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196720'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196711'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196710'; /* linkmonstergen5minutes <- Virindi Profane */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196713'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196712'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196705'; /* linkmonstergen5minutes <- Pandemonium Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196704'; /* linkmonstergen5minutes <- Virindi Consul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984196707'; /* linkmonstergen5minutes <- Paroxysm Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196737'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196726'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196733'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196715'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196730'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196716'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196721'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196714'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196722'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196708'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196703'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984196706'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196699'; /* linkmonstergen7minutes <- Brumal */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196695'; /* linkmonstergen7minutes <- Brumal */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196700'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196698'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196696'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196690'; /* linkmonstergen7minutes <- Electric Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196689'; /* linkmonstergen7minutes <- Acidic Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196688'; /* linkmonstergen7minutes <- Fiery Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196687'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196691'; /* linkmonstergen7minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196692'; /* linkmonstergen7minutes <- Firestorm */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196685'; /* linkmonstergen7minutes <- Astyrrian */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196686'; /* linkmonstergen7minutes <- Gelid */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196679'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196680'; /* linkmonstergen7minutes <- Fiery Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196681'; /* linkmonstergen7minutes <- Acidic Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196677'; /* linkmonstergen7minutes <- Astyrrian */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196682'; /* linkmonstergen7minutes <- Electric Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196678'; /* linkmonstergen7minutes <- Gelid */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196683'; /* linkmonstergen7minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196684'; /* linkmonstergen7minutes <- Firestorm */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196673'; /* linkmonstergen7minutes <- Fiery Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196675'; /* linkmonstergen7minutes <- Electric Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196674'; /* linkmonstergen7minutes <- Acidic Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196676'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196672'; /* linkmonstergen7minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196654'; /* linkmonstergen7minutes <- Fiery Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196670'; /* linkmonstergen7minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196656'; /* linkmonstergen7minutes <- Electric Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196655'; /* linkmonstergen7minutes <- Acidic Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196652'; /* linkmonstergen7minutes <- Tsuric */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196657'; /* linkmonstergen7minutes <- Icy Tentacle */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196648'; /* linkmonstergen7minutes <- Sirrocco */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196653'; /* linkmonstergen7minutes <- Maelstrom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196650'; /* linkmonstergen7minutes <- Conflagration */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196649'; /* linkmonstergen7minutes <- Theral */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196651'; /* linkmonstergen7minutes <- Scoriscant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196622'; /* linkmonstergen7minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196616'; /* linkmonstergen7minutes <- Conflagration */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196623'; /* linkmonstergen7minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196611'; /* linkmonstergen7minutes <- Tsuric */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196609'; /* linkmonstergen7minutes <- Scoriscant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196612'; /* linkmonstergen7minutes <- Sirrocco */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196615'; /* linkmonstergen7minutes <- Maelstrom */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196614'; /* linkmonstergen7minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196608'; /* linkmonstergen7minutes <- Theral */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1984196617'; /* linkmonstergen7minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1984196613'; /* linkmonstergen3minutes <- Harbinger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196702'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196701'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196735'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196734'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196738'; /* linkmonstergen5minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196736'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196731'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196739'; /* linkmonstergen5minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196723'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196732'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196725'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196724'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196728'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196727'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196717'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196729'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196719'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196718'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196709'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196720'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196711'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196710'; /* linkmonstergen5minutes <- Virindi Profane */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196713'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196712'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196705'; /* linkmonstergen5minutes <- Pandemonium Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196704'; /* linkmonstergen5minutes <- Virindi Consul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984196707'; /* linkmonstergen5minutes <- Paroxysm Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196737'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196726'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196733'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196715'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196730'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196716'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196721'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196714'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196722'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196708'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196703'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984196706'; /* linkmonstergen3minutes <- Iorik Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196699'; /* linkmonstergen7minutes <- Brumal */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196695'; /* linkmonstergen7minutes <- Brumal */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196700'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196698'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196696'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196690'; /* linkmonstergen7minutes <- Electric Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196689'; /* linkmonstergen7minutes <- Acidic Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196688'; /* linkmonstergen7minutes <- Fiery Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196687'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196691'; /* linkmonstergen7minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196692'; /* linkmonstergen7minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196685'; /* linkmonstergen7minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196686'; /* linkmonstergen7minutes <- Gelid */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196679'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196680'; /* linkmonstergen7minutes <- Fiery Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196681'; /* linkmonstergen7minutes <- Acidic Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196677'; /* linkmonstergen7minutes <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196682'; /* linkmonstergen7minutes <- Electric Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196678'; /* linkmonstergen7minutes <- Gelid */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196683'; /* linkmonstergen7minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196684'; /* linkmonstergen7minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196673'; /* linkmonstergen7minutes <- Fiery Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196675'; /* linkmonstergen7minutes <- Electric Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196674'; /* linkmonstergen7minutes <- Acidic Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196676'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196672'; /* linkmonstergen7minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196654'; /* linkmonstergen7minutes <- Fiery Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196670'; /* linkmonstergen7minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196656'; /* linkmonstergen7minutes <- Electric Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196655'; /* linkmonstergen7minutes <- Acidic Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196652'; /* linkmonstergen7minutes <- Tsuric */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196657'; /* linkmonstergen7minutes <- Icy Tentacle */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196648'; /* linkmonstergen7minutes <- Sirrocco */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196653'; /* linkmonstergen7minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196650'; /* linkmonstergen7minutes <- Conflagration */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196649'; /* linkmonstergen7minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196651'; /* linkmonstergen7minutes <- Scoriscant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196622'; /* linkmonstergen7minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196616'; /* linkmonstergen7minutes <- Conflagration */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196623'; /* linkmonstergen7minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196611'; /* linkmonstergen7minutes <- Tsuric */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196609'; /* linkmonstergen7minutes <- Scoriscant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196612'; /* linkmonstergen7minutes <- Sirrocco */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196615'; /* linkmonstergen7minutes <- Maelstrom */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196614'; /* linkmonstergen7minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196608'; /* linkmonstergen7minutes <- Theral */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1984196617'; /* linkmonstergen7minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1984196613'; /* linkmonstergen3minutes <- Harbinger */
 

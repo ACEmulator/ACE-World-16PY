@@ -1,42 +1,38 @@
 /* Weenie - Ancient Warrior's Tower (26481) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26481;
+DELETE FROM weenie WHERE class_Id = 26481;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26481, 'rumorhidetakitower');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26481, 'rumorhidetakitower', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26481, 0, 26481);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26481, 1, 'Ancient Warrior''s Tower') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26481, 1, 33554773) /* SETUP_DID */
      , (26481, 3, 536870932) /* SOUND_TABLE_DID */
      , (26481, 8, 100675748) /* ICON_DID */
      , (26481, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26481, 9, 0) /* LOCATIONS_INT */
      , (26481, 1, 8192) /* ITEM_TYPE_INT */
      , (26481, 93, 1044) /* PHYSICS_STATE_INT */
      , (26481, 5, 5) /* ENCUMB_VAL_INT */
      , (26481, 16, 8) /* ITEM_USEABLE_INT */
      , (26481, 8, 5) /* MASS_INT */
-     , (26481, 19, 5) /* VALUE_INT */
-     , (26481, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (26481, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (26481, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (26481, 9007, 8) /* Book_WeenieType */;
+     , (26481, 19, 5) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26481, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26481, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (26481, 0, '', 'prewritten', 4294967295, False, '
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (26481, 1, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (26481, 0, 4294967295, '', 'prewritten', False, '
 Far to the southwest, along the highest peaks of the Snowflake Mountain Range, there exists an ancient temple complex. Some say the undead gathered there are the animated corpses of dishonored warriors, who once abandoned their master in his greatest hour of need. Others whisper tales of a wisp whose touch causes the dead to walk once more. Who knows which tales are truth and which are false?
 
 ');

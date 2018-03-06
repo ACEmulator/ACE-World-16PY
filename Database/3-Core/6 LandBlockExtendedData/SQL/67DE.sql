@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7924, 1987960845, 1742602499, 117.388, 64.336, 64.405, -0.818654, 0, 0, 0.574288) /* linkmonstergen5minutes */
      , (20642, 1987960847, 1742602499, 122.244, 66.2091, 64.405, 0.841501, 0, 0, -0.540255) /* Grievver Caves Portal */
      , (7978, 1987960846, 1742602499, 117.846, 64.569, 64.405, -0.596707, 0, 0, -0.802459) /* Scrawed Grievver */
@@ -16,9 +16,9 @@ VALUES (7924, 1987960845, 1742602499, 117.388, 64.336, 64.405, -0.818654, 0, 0, 
      , (19435, 1987960843, 1742602240, 13.0947, 12.1339, 52.1945, 0.792842, 0, 0, 0.609428) /* Red Phyntos Wasp */
      , (8059, 1987960844, 1742602240, 80.5871, 48.9337, 75.3711, -0.668421, 0, 0, -0.743783) /* grievverscrawedcampgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1987960842'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1987960845'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1987960842'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1987960845'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1987960843'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1987960846'; /* linkmonstergen5minutes <- Scrawed Grievver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1987960843'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1987960846'; /* linkmonstergen5minutes <- Scrawed Grievver */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1388, 2002370561, 1973158147, 123.662, 155.855, 244.005, 0.706529, 0, 0, -0.707684) /* Merchant */
      , (509, 2002370560, 1973157888, 148.412, 146.292, 240.005, -0.796061, 0, 0, 0.605217) /* Life Stone */
      , (1018, 2002370564, 1973157888, 153.681, 177.542, 240.005, 0.92388, 0, 0, -0.382683) /* Portal to Hebian-To */

@@ -1,16 +1,13 @@
 /* Weenie - Candy Stick (13221) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 13221;
+DELETE FROM weenie WHERE class_Id = 13221;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (13221, 'candystick');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (13221, 'candystick', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13221, 0, 13221);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13221, 1, 'Candy Stick') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13221, 1, 33557441) /* SETUP_DID */
      , (13221, 2, 150995147) /* MOTION_TABLE_DID */
      , (13221, 3, 536871000) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (13221, 1, 33557441) /* SETUP_DID */
      , (13221, 8, 100672416) /* ICON_DID */
      , (13221, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13221, 25, 42) /* LEVEL_INT */
      , (13221, 1, 16) /* ITEM_TYPE_INT */
      , (13221, 146, 0) /* XP_OVERRIDE_INT */
@@ -32,10 +29,9 @@ VALUES (13221, 25, 42) /* LEVEL_INT */
      , (13221, 27, 0) /* ARMOR_TYPE_INT */
      , (13221, 93, 2098192) /* PHYSICS_STATE_INT */
      , (13221, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (13221, 40, 2) /* COMBAT_MODE_INT */
-     , (13221, 9007, 10) /* Creature_WeenieType */;
+     , (13221, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13221, 64, 1) /* RESIST_SLASH_FLOAT */
      , (13221, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (13221, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -68,7 +64,7 @@ VALUES (13221, 64, 1) /* RESIST_SLASH_FLOAT */
      , (13221, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (13221, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13221, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (13221, 1, True) /* STUCK_BOOL */
      , (13221, 6, False) /* AI_USES_MANA_BOOL */
@@ -80,7 +76,7 @@ VALUES (13221, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (13221, 50, True) /* NEVER_FAIL_CASTING_BOOL */
      , (13221, 29, True) /* NO_CORPSE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (13221, 1025, 2.08) /* BludgeonProtectionOther2_SpellID */
      , (13221, 1313, 2.08) /* ArmorOther2_SpellID */
      , (13221, 1162, 2.08) /* HealOther2_SpellID */
@@ -96,19 +92,19 @@ VALUES (13221, 1025, 2.08) /* BludgeonProtectionOther2_SpellID */
      , (13221, 251, 2.08) /* ImpregnabilityOther2_SpellID */
      , (13221, 510, 2.08) /* AcidProtectionOther2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (13221, 1, 10) /* STRENGTH_ATTRIBUTE */
      , (13221, 2, 10) /* ENDURANCE_ATTRIBUTE */
      , (13221, 4, 10) /* COORDINATION_ATTRIBUTE */
-     , (13221, 8, 10) /* QUICKNESS_ATTRIBUTE */
-     , (13221, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (13221, 32, 100) /* SELF_ATTRIBUTE */;
+     , (13221, 3, 10) /* QUICKNESS_ATTRIBUTE */
+     , (13221, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (13221, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (13221, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (13221, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (13221, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (13221, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (13221, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (13221, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (13221, 1, 13222, 10, 0, 0, False) /* Create Peppermint Stick for Contain_DestinationType */;
 

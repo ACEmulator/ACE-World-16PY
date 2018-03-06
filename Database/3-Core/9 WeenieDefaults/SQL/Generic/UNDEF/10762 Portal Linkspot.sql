@@ -1,24 +1,20 @@
 /* Weenie - Portal Linkspot (10762) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10762;
+DELETE FROM weenie WHERE class_Id = 10762;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10762, 'portaldestination');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10762, 'portaldestination', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10762, 0, 10762);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10762, 1, 'Portal Linkspot') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10762, 1, 33555229) /* SETUP_DID */
      , (10762, 8, 100667494) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10762, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10762, 9007, 1) /* Generic_WeenieType */;
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (10762, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10762, 1, True) /* STUCK_BOOL */
      , (10762, 13, True) /* ETHEREAL_BOOL */
      , (10762, 54, True) /* IS_DYNAMIC_BOOL */;

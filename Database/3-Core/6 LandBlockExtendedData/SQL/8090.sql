@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (994, 2013855765, 2156921088, 30.72, 150.24, 124.01, 0.892979, 0, 0, -0.450099) /* Muda bint Qalakh the Tailor */
      , (1148, 2013855744, 2156921091, 32.5, 162.99, 124, 1, 0, 0, 0) /* Door */
      , (989, 2013855764, 2156921094, 41.16, 164.04, 124.005, -0.280667, 0, 0, -0.959805) /* Zubid ibn Ifi the Grocer */
@@ -62,10 +62,10 @@ VALUES (994, 2013855765, 2156921088, 30.72, 150.24, 124.01, 0.892979, 0, 0, -0.4
      , (27547, 2013855823, 2156920832, 75.5241, 32.4954, 124.005, 0.497901, 0, 0, -0.867234) /* Bind Stone */
      , (19464, 2013855795, 2156920832, 55.7027, 113.29, 127.605, 0.670732, 0, 0, 0.7417) /* Coron Usgin */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2013855778'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2013855778'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855776'; /* linkmonstergen3minutes <- Ufet, Prophet of Blades */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855795'; /* linkmonstergen3minutes <- Coron Usgin */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855821'; /* linkmonstergen3minutes <- Sign */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2013855826'; /* linkmonstergen3minutes <- Coman ibn Rashid */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855776'; /* linkmonstergen3minutes <- Ufet, Prophet of Blades */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855795'; /* linkmonstergen3minutes <- Coron Usgin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855821'; /* linkmonstergen3minutes <- Sign */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2013855826'; /* linkmonstergen3minutes <- Coman ibn Rashid */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3955, 2051751940, 2763260160, 16.7131, 49.0097, 116.805, 0.835492, 0, 0, 0.549503) /* linkmonstergen15minutes */
      , (4108, 2051751961, 2763260160, 9.73673, 54.3509, 116.805, 0.882551, 0, 0, 0.470217) /* Gnawer Shreth */
      , (4108, 2051751960, 2763260160, 11.5404, 54.434, 116.805, 0.999219, 0, 0, 0.039526) /* Gnawer Shreth */
@@ -24,21 +24,21 @@ VALUES (3955, 2051751940, 2763260160, 16.7131, 49.0097, 116.805, 0.835492, 0, 0,
      , (419, 2051751942, 2763259904, 53.1278, 39.561, 119.608, 0.431873, 0, 0, 0.901935) /* itemclothing-generator */
      , (14410, 2051751951, 2763259904, 70.7892, 188.356, 96.005, 0.989681, 0, 0, 0.143285) /* Reformed Bandit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2051751940'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2051751950'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2051751940'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2051751950'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751943'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751939'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751941'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751955'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751956'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751957'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751958'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751959'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751960'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2051751961'; /* linkmonstergen15minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2051751951'; /* linkmonstergen30seconds <- Reformed Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2051751952'; /* linkmonstergen30seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2051751953'; /* linkmonstergen30seconds <- Hollow Minion */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2051751954'; /* linkmonstergen30seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751943'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751939'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751941'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751955'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751956'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751957'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751958'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751959'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751960'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2051751961'; /* linkmonstergen15minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2051751951'; /* linkmonstergen30seconds <- Reformed Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2051751952'; /* linkmonstergen30seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2051751953'; /* linkmonstergen30seconds <- Hollow Minion */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2051751954'; /* linkmonstergen30seconds <- Hollow Minion */
 

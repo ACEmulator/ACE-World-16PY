@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27554, 2030895115, 2429550848, 57.7154, 108.431, 282.005, 0.245539, 0, 0, -0.969387) /* Caleb Jinor the Healer */
      , (2499, 2030895108, 2429550848, 57.2708, 105.264, 282.005, 0.871158, 0, 0, -0.491003) /* Geldeb Finol the Weaponsmith */
      , (2497, 2030895109, 2429550848, 62.1343, 105.981, 282.005, -0.453362, 0, 0, -0.891326) /* Weldub Finol the Jeweler */
@@ -13,8 +13,8 @@ VALUES (27554, 2030895115, 2429550848, 57.7154, 108.431, 282.005, 0.245539, 0, 0
      , (7923, 2030895112, 2429550592, 64.5901, 113.213, 297.205, 0.946173, 0, 0, -0.323661) /* linkmonstergen3minutes */
      , (6356, 2030895111, 2429550592, 62.1963, 107.7, 297.21, 0.764914, 0, 0, 0.644132) /* Silencia's Magma Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030895112'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030895112'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895116'; /* linkmonstergen3minutes <- Journeyman Cook */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030895111'; /* linkmonstergen3minutes <- Silencia's Magma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030895116'; /* linkmonstergen3minutes <- Journeyman Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030895111'; /* linkmonstergen3minutes <- Silencia's Magma Golem */
 

@@ -1,17 +1,14 @@
 /* Weenie - Volkama's Hoeroa of the Rivers (11438) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11438;
+DELETE FROM weenie WHERE class_Id = 11438;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11438, 'staffhoeroarivers-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11438, 'staffhoeroarivers-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11438, 0, 11438);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11438, 16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (11438, 1, 'Volkama''s Hoeroa of the Rivers') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11438, 1, 33557237) /* SETUP_DID */
      , (11438, 3, 536870932) /* SOUND_TABLE_DID */
      , (11438, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (11438, 1, 33557237) /* SETUP_DID */
      , (11438, 7, 268436254) /* CLOTHINGBASE_DID */
      , (11438, 8, 100672100) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11438, 9, 1048576) /* LOCATIONS_INT */
      , (11438, 1, 1) /* ITEM_TYPE_INT */
      , (11438, 5, 450) /* ENCUMB_VAL_INT */
@@ -46,10 +43,9 @@ VALUES (11438, 9, 1048576) /* LOCATIONS_INT */
      , (11438, 48, 10) /* WEAPON_SKILL_INT */
      , (11438, 49, 20) /* WEAPON_TIME_INT */
      , (11438, 114, 1) /* ATTUNED_INT */
-     , (11438, 51, 1) /* COMBAT_USE_INT */
-     , (11438, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11438, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11438, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (11438, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (11438, 5, -0.03333) /* MANA_RATE_FLOAT */
@@ -59,13 +55,13 @@ VALUES (11438, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (11438, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */
      , (11438, 22, 0.57) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11438, 99, True) /* IVORYABLE_BOOL */
      , (11438, 69, False) /* IS_SELLABLE_BOOL */
      , (11438, 22, True) /* INSCRIBABLE_BOOL */
      , (11438, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11438, 2467, 2) /* CascadeStaffGreater_SpellID */
      , (11438, 2470, 2) /* StillWaterGreater_SpellID */
      , (11438, 2473, 2) /* TorrentGreater_SpellID */;

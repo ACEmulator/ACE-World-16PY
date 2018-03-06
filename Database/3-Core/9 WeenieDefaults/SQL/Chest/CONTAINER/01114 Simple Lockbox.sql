@@ -1,25 +1,22 @@
 /* Weenie - Simple Lockbox (1114) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1114;
+DELETE FROM weenie WHERE class_Id = 1114;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1114, 'lockboxcrude');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1114, 'lockboxcrude', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1114, 0, 1114);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1114, 1, 'Simple Lockbox') /* NAME_STRING */
      , (1114, 12, 'chestkey3') /* LOCK_CODE_STRING */
      , (1114, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1114, 1, 33554556) /* SETUP_DID */
      , (1114, 2, 150994948) /* MOTION_TABLE_DID */
      , (1114, 3, 536870945) /* SOUND_TABLE_DID */
      , (1114, 8, 100667424) /* ICON_DID */
      , (1114, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1114, 9, 0) /* LOCATIONS_INT */
      , (1114, 1, 512) /* ITEM_TYPE_INT */
      , (1114, 5, 300) /* ENCUMB_VAL_INT */
@@ -32,14 +29,13 @@ VALUES (1114, 9, 0) /* LOCATIONS_INT */
      , (1114, 93, 1052) /* PHYSICS_STATE_INT */
      , (1114, 96, 200) /* ENCUMB_CAPACITY_INT */
      , (1114, 37, 10) /* RESIST_ITEM_APPRAISAL_INT */
-     , (1114, 38, 20) /* RESIST_LOCKPICK_INT */
-     , (1114, 9007, 20) /* Chest_WeenieType */;
+     , (1114, 38, 20) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1114, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
      , (1114, 54, 0.5) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1114, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (1114, 2, False) /* OPEN_BOOL */
      , (1114, 34, False) /* DEFAULT_OPEN_BOOL */

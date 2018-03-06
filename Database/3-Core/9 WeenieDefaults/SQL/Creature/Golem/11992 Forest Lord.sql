@@ -1,16 +1,13 @@
 /* Weenie - Forest Lord (11992) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11992;
+DELETE FROM weenie WHERE class_Id = 11992;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11992, 'golemlowbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11992, 'golemlowbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11992, 0, 11992);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11992, 1, 'Forest Lord') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11992, 1, 33556428) /* SETUP_DID */
      , (11992, 2, 150995073) /* MOTION_TABLE_DID */
      , (11992, 35, 24) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11992, 1, 33556428) /* SETUP_DID */
      , (11992, 7, 268436247) /* CLOTHINGBASE_DID */
      , (11992, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11992, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (11992, 1, 16) /* ITEM_TYPE_INT */
      , (11992, 2, 13) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (11992, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
      , (11992, 27, 0) /* ARMOR_TYPE_INT */
      , (11992, 93, 1032) /* PHYSICS_STATE_INT */
      , (11992, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (11992, 40, 2) /* COMBAT_MODE_INT */
-     , (11992, 9007, 10) /* Creature_WeenieType */;
+     , (11992, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11992, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (11992, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (11992, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,7 +72,7 @@ VALUES (11992, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (11992, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11992, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11992, 1, True) /* STUCK_BOOL */
      , (11992, 6, True) /* AI_USES_MANA_BOOL */
      , (11992, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,33 +80,33 @@ VALUES (11992, 1, True) /* STUCK_BOOL */
      , (11992, 13, False) /* ETHEREAL_BOOL */
      , (11992, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11992, 1157, 2.02) /* HealSelf2_SpellID */
      , (11992, 65, 2.08) /* ShockWave2_SpellID */
      , (11992, 66, 2.02) /* ShockWave3_SpellID */
      , (11992, 87, 2.08) /* ForceBolt2_SpellID */
      , (11992, 1091, 2.1) /* FireProtectionSelf3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11992, 1, 110) /* STRENGTH_ATTRIBUTE */
      , (11992, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (11992, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (11992, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (11992, 16, 125) /* FOCUS_ATTRIBUTE */
-     , (11992, 32, 125) /* SELF_ATTRIBUTE */;
+     , (11992, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (11992, 5, 125) /* FOCUS_ATTRIBUTE */
+     , (11992, 6, 125) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11992, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11992, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11992, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11992, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11992, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11992, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11992, 9, 3673, 0, 0, 0.25, False) /* Create Wood Heart for ContainTreasure_DestinationType */
      , (11992, 9, 0, 0, 0, 0.75, False) /* Create  for ContainTreasure_DestinationType */
      , (11992, 9, 6353, 0, 0, 0.2, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
      , (11992, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11992, 0.25, 942, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Wood Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11992, 0.5, 942, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Wood Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11992, 0.75, 942, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Wood Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

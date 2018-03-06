@@ -1,17 +1,14 @@
 /* Weenie - Tree (25723) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25723;
+DELETE FROM weenie WHERE class_Id = 25723;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25723, 'signtreenoir1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25723, 'signtreenoir1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25723, 0, 25723);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25723, 1, 'Tree') /* NAME_STRING */
      , (25723, 15, 'A tree, looking much like all the others.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25723, 1, 33558278) /* SETUP_DID */
      , (25723, 2, 150995147) /* MOTION_TABLE_DID */
      , (25723, 3, 536871052) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (25723, 1, 33558278) /* SETUP_DID */
      , (25723, 8, 100667499) /* ICON_DID */
      , (25723, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25723, 1, 16) /* ITEM_TYPE_INT */
      , (25723, 146, 43164) /* XP_OVERRIDE_INT */
      , (25723, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (25723, 1, 16) /* ITEM_TYPE_INT */
      , (25723, 25, 710) /* LEVEL_INT */
      , (25723, 27, 0) /* ARMOR_TYPE_INT */
      , (25723, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (25723, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (25723, 9007, 10) /* Creature_WeenieType */;
+     , (25723, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25723, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25723, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25723, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (25723, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25723, 54, 3) /* USE_RADIUS_FLOAT */
      , (25723, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25723, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25723, 1, True) /* STUCK_BOOL */
      , (25723, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -76,16 +72,16 @@ VALUES (25723, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25723, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (25723, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25723, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (25723, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (25723, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (25723, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (25723, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (25723, 32, 285) /* SELF_ATTRIBUTE */;
+     , (25723, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (25723, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (25723, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25723, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25723, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25723, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25723, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25723, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25723, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

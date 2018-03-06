@@ -1,18 +1,15 @@
 /* Weenie - Mattekar Arm Guard (9393) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9393;
+DELETE FROM weenie WHERE class_Id = 9393;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9393, 'mattekararmguard');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9393, 'mattekararmguard', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9393, 0, 9393);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9393, 16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LONG_DESC_STRING */
      , (9393, 1, 'Mattekar Arm Guard') /* NAME_STRING */
      , (9393, 15, 'A Large Mattekar arm guard.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9393, 1, 33557017) /* SETUP_DID */
      , (9393, 3, 536870932) /* SOUND_TABLE_DID */
      , (9393, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (9393, 1, 33557017) /* SETUP_DID */
      , (9393, 7, 268436172) /* CLOTHINGBASE_DID */
      , (9393, 8, 100671516) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9393, 9, 32) /* LOCATIONS_INT */
      , (9393, 1, 2) /* ITEM_TYPE_INT */
      , (9393, 19, 4500) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (9393, 9, 32) /* LOCATIONS_INT */
      , (9393, 107, 50) /* ITEM_CUR_MANA_INT */
      , (9393, 108, 200) /* ITEM_MAX_MANA_INT */
      , (9393, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (9393, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9393, 9007, 2) /* Clothing_WeenieType */;
+     , (9393, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9393, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9393, 5, -0.01) /* MANA_RATE_FLOAT */
      , (9393, 12, 0.86) /* SHADE_FLOAT */
@@ -56,9 +52,9 @@ VALUES (9393, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9393, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (9393, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9393, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9393, 247, 2) /* InvulnerabilitySelf4_SpellID */;
 

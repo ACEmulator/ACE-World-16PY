@@ -1,16 +1,13 @@
 /* Weenie - Iron Spined Chittick (22506) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22506;
+DELETE FROM weenie WHERE class_Id = 22506;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22506, 'chittickironspine');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22506, 'chittickironspine', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22506, 0, 22506);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22506, 1, 'Iron Spined Chittick') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22506, 1, 33558118) /* SETUP_DID */
      , (22506, 2, 150995065) /* MOTION_TABLE_DID */
      , (22506, 35, 458) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (22506, 1, 33558118) /* SETUP_DID */
      , (22506, 7, 268436515) /* CLOTHINGBASE_DID */
      , (22506, 8, 100669115) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22506, 1, 16) /* ITEM_TYPE_INT */
      , (22506, 2, 33) /* CREATURE_TYPE_INT */
      , (22506, 3, 13) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (22506, 1, 16) /* ITEM_TYPE_INT */
      , (22506, 146, 52390) /* XP_OVERRIDE_INT */
      , (22506, 25, 115) /* LEVEL_INT */
      , (22506, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22506, 40, 2) /* COMBAT_MODE_INT */
-     , (22506, 9007, 10) /* Creature_WeenieType */;
+     , (22506, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22506, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (22506, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
      , (22506, 65, 1) /* RESIST_PIERCE_FLOAT */
@@ -69,26 +65,26 @@ VALUES (22506, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (22506, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22506, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22506, 1, True) /* STUCK_BOOL */
      , (22506, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (22506, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22506, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22506, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (22506, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (22506, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (22506, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (22506, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (22506, 32, 180) /* SELF_ATTRIBUTE */;
+     , (22506, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (22506, 5, 180) /* FOCUS_ATTRIBUTE */
+     , (22506, 6, 180) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22506, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22506, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22506, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22506, 1, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22506, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22506, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22506, 2, 22544, 0, 0, 0, False) /* Create Lightning Spines for Wield_DestinationType */
      , (22506, 9, 28888, 0, 0, 0.05, False) /* Create Chittick Head for ContainTreasure_DestinationType */
      , (22506, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;

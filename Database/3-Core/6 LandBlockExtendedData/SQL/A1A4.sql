@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.707107) /* Door */
      , (739, 2048540699, 2711879936, 55.8, 150.66, 49.925, -0.131391, 0, 0, -0.991331) /* Fyrdina Ellic the Weaponsmith */
      , (143, 2048540673, 2711879940, 63.975, 155.88, 49.92, 0.9899, 0, 0, -0.141765) /* Chest */
@@ -80,14 +80,14 @@ VALUES (412, 2048540672, 2711879936, 59.99, 154.68, 49.92, 0.707107, 0, 0, -0.70
      , (7923, 2048540724, 2711879680, 76.5484, 44.2252, 66.005, 0.648727, 0, 0, -0.761021) /* linkmonstergen3minutes */
      , (7923, 2048540725, 2711879680, 41.1208, 125.941, 50.005, -0.020619, 0, 0, 0.999787) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2048540752'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2048540757'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2048540724'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2048540752'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2048540757'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2048540724'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540750'; /* linkmonstergen10minutes <- Wils Morrem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540749'; /* linkmonstergen10minutes <- Tiffany Comfore */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2048540751'; /* linkmonstergen10minutes <- Copper Vanurp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2048540756'; /* linkmonstergen3minutes <- Student */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540759'; /* linkmonstergen3minutes <- Sword of Frozen Fury */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2048540773'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540750'; /* linkmonstergen10minutes <- Wils Morrem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540749'; /* linkmonstergen10minutes <- Tiffany Comfore */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2048540751'; /* linkmonstergen10minutes <- Copper Vanurp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2048540756'; /* linkmonstergen3minutes <- Student */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540759'; /* linkmonstergen3minutes <- Sword of Frozen Fury */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2048540773'; /* linkmonstergen3minutes <- Apprentice Cook */
 

@@ -1,18 +1,15 @@
 /* Weenie - Dark Towers (27388) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27388;
+DELETE FROM weenie WHERE class_Id = 27388;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27388, 'gemquestdarktowers');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27388, 'gemquestdarktowers', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27388, 0, 27388);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27388, 16, 'Take heed! With the loss of our Lord, many shadows seek leadership other than the old generals. A new dark power is rising near the crater where our Lord was first imprisoned. Come and bask in the dark glory! We shall rise anew and consume this land with darkness!') /* LONG_DESC_STRING */
      , (27388, 1, 'Dark Towers') /* NAME_STRING */
      , (27388, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27388, 1, 33556769) /* SETUP_DID */
      , (27388, 3, 536870932) /* SOUND_TABLE_DID */
      , (27388, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (27388, 1, 33556769) /* SETUP_DID */
      , (27388, 50, 100676404) /* ICON_OVERLAY_DID */
      , (27388, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27388, 9, 0) /* LOCATIONS_INT */
      , (27388, 1, 2048) /* ITEM_TYPE_INT */
      , (27388, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (27388, 9, 0) /* LOCATIONS_INT */
      , (27388, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27388, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27388, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27388, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27388, 9007, 38) /* Gem_WeenieType */;
+     , (27388, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27388, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27388, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27388, 22, True) /* INSCRIBABLE_BOOL */;

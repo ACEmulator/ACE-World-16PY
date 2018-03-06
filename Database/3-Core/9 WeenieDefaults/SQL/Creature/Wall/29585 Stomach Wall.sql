@@ -1,17 +1,14 @@
 /* Weenie - Stomach Wall (29585) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29585;
+DELETE FROM weenie WHERE class_Id = 29585;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29585, 'wallstomachbroodu');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29585, 'wallstomachbroodu', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29585, 0, 29585);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29585, 16, 'A throbbing wall of living fleshy material. The gurgling of acid and the presence of half digested corpses alerts you to the fact that this is a stomach wall. You are in the belly of the beast.') /* LONG_DESC_STRING */
      , (29585, 1, 'Stomach Wall') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29585, 1, 33559079) /* SETUP_DID */
      , (29585, 2, 150995318) /* MOTION_TABLE_DID */
      , (29585, 3, 536871001) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (29585, 1, 33559079) /* SETUP_DID */
      , (29585, 8, 100677188) /* ICON_DID */
      , (29585, 22, 872415339) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29585, 1, 16) /* ITEM_TYPE_INT */
      , (29585, 146, 0) /* XP_OVERRIDE_INT */
      , (29585, 2, 64) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (29585, 1, 16) /* ITEM_TYPE_INT */
      , (29585, 27, 0) /* ARMOR_TYPE_INT */
      , (29585, 93, 1032) /* PHYSICS_STATE_INT */
      , (29585, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (29585, 40, 1) /* COMBAT_MODE_INT */
-     , (29585, 9007, 10) /* Creature_WeenieType */;
+     , (29585, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29585, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (29585, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (29585, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,7 +63,7 @@ VALUES (29585, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (29585, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29585, 31, 0.3) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29585, 1, True) /* STUCK_BOOL */
      , (29585, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (29585, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -77,16 +73,16 @@ VALUES (29585, 1, True) /* STUCK_BOOL */
      , (29585, 13, False) /* ETHEREAL_BOOL */
      , (29585, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29585, 1, 1) /* STRENGTH_ATTRIBUTE */
      , (29585, 2, 1) /* ENDURANCE_ATTRIBUTE */
      , (29585, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (29585, 8, 1) /* QUICKNESS_ATTRIBUTE */
-     , (29585, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (29585, 32, 1) /* SELF_ATTRIBUTE */;
+     , (29585, 3, 1) /* QUICKNESS_ATTRIBUTE */
+     , (29585, 5, 1) /* FOCUS_ATTRIBUTE */
+     , (29585, 6, 1) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29585, 64, 999999) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29585, 128, 999999) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29585, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29585, 1, 999999) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29585, 3, 999999) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29585, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 

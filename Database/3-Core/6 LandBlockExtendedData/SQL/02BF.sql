@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1630, 1881927680, 46072064, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -0.798621) /* Lich Lord */
      , (619, 1881927681, 46072065, 3.591, -50.1941, 0.00825, 0.714421, 0, 0, -0.699716) /* Revenant */
      , (619, 1881927682, 46072066, 9.90867, -3.32259, 0.00825, 0.0457799, 0, 0, -0.998952) /* Revenant */
@@ -16,18 +16,18 @@ VALUES (1630, 1881927680, 46072064, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -
      , (619, 1881927694, 46072095, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128) /* Revenant */
      , (8481, 1881927695, 46072096, 56.193, -50, 0, -0.707107, 0, 0, -0.707107) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881927692'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881927693'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881927692'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881927693'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881927686'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927689'; /* linkmonstergen4minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927691'; /* linkmonstergen4minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927685'; /* linkmonstergen4minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927683'; /* linkmonstergen4minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927684'; /* linkmonstergen4minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927680'; /* linkmonstergen4minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927690'; /* linkmonstergen4minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927694'; /* linkmonstergen4minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927681'; /* linkmonstergen4minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881927682'; /* linkmonstergen4minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881927686'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927689'; /* linkmonstergen4minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927691'; /* linkmonstergen4minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927685'; /* linkmonstergen4minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927683'; /* linkmonstergen4minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927684'; /* linkmonstergen4minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927680'; /* linkmonstergen4minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927690'; /* linkmonstergen4minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927694'; /* linkmonstergen4minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927681'; /* linkmonstergen4minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881927682'; /* linkmonstergen4minutes <- Revenant */
 

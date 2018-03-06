@@ -1,16 +1,13 @@
 /* Weenie - Greater Mu-miyah (6772) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6772;
+DELETE FROM weenie WHERE class_Id = 6772;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6772, 'mumiyahgreatercrimsonruby3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6772, 'mumiyahgreatercrimsonruby3', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6772, 0, 6772);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6772, 1, 'Greater Mu-miyah') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6772, 1, 33554433) /* SETUP_DID */
      , (6772, 2, 150994981) /* MOTION_TABLE_DID */
      , (6772, 3, 536870942) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (6772, 1, 33554433) /* SETUP_DID */
      , (6772, 7, 268435645) /* CLOTHINGBASE_DID */
      , (6772, 8, 100669122) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6772, 1, 16) /* ITEM_TYPE_INT */
      , (6772, 2, 14) /* CREATURE_TYPE_INT */
      , (6772, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (6772, 1, 16) /* ITEM_TYPE_INT */
      , (6772, 27, 0) /* ARMOR_TYPE_INT */
      , (6772, 93, 1032) /* PHYSICS_STATE_INT */
      , (6772, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6772, 40, 1) /* COMBAT_MODE_INT */
-     , (6772, 9007, 10) /* Creature_WeenieType */;
+     , (6772, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6772, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (6772, 65, 0.58) /* RESIST_PIERCE_FLOAT */
      , (6772, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,14 +69,14 @@ VALUES (6772, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (6772, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6772, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6772, 1, True) /* STUCK_BOOL */
      , (6772, 6, True) /* AI_USES_MANA_BOOL */
      , (6772, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (6772, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6772, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6772, 1198, 2.016) /* EnfeebleOther4_SpellID */
      , (6772, 82, 2.011) /* FlameBolt3_SpellID */
      , (6772, 1222, 2.016) /* ManaDrainOther4_SpellID */
@@ -104,19 +100,19 @@ VALUES (6772, 1198, 2.016) /* EnfeebleOther4_SpellID */
      , (6772, 60, 2.011) /* AcidStream3_SpellID */
      , (6772, 61, 2.023) /* AcidStream4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6772, 1, 145) /* STRENGTH_ATTRIBUTE */
      , (6772, 2, 80) /* ENDURANCE_ATTRIBUTE */
      , (6772, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (6772, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (6772, 16, 75) /* FOCUS_ATTRIBUTE */
-     , (6772, 32, 75) /* SELF_ATTRIBUTE */;
+     , (6772, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (6772, 5, 75) /* FOCUS_ATTRIBUTE */
+     , (6772, 6, 75) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6772, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6772, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6772, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6772, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6772, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6772, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6772, 8, 6662, 0, 0, 1, False) /* Create The Ruby Mahwan for Treasure_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Shockwave (1634) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1634;
+DELETE FROM weenie WHERE class_Id = 1634;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1634, 'shockwave');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1634, 'shockwave', /* ProjectileSpell_WeenieType */ 33);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1634, 0, 1634);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1634, 1, 'Shockwave') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1634, 1, 33555450) /* SETUP_DID */
      , (1634, 3, 536870971) /* SOUND_TABLE_DID */
      , (1634, 8, 100667494) /* ICON_DID */
@@ -18,19 +15,18 @@ VALUES (1634, 1, 33555450) /* SETUP_DID */
      , (1634, 22, 872415241) /* PHYSICS_EFFECT_TABLE_DID */
      , (1634, 28, 64) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1634, 66, 0) /* CHECKPOINT_STATUS_INT */
      , (1634, 8, 25) /* MASS_INT */
      , (1634, 9, 0) /* LOCATIONS_INT */
-     , (1634, 93, 133140) /* PHYSICS_STATE_INT */
-     , (1634, 9007, 33) /* ProjectileSpell_WeenieType */;
+     , (1634, 93, 133140) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1634, 78, 1) /* FRICTION_FLOAT */
      , (1634, 79, 0) /* ELASTICITY_FLOAT */
      , (1634, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1634, 17, True) /* INELASTIC_BOOL */
      , (1634, 1, True) /* STUCK_BOOL */
      , (1634, 14, False) /* GRAVITY_STATUS_BOOL */

@@ -1,18 +1,15 @@
 /* Weenie - Siraluun Dress (11362) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11362;
+DELETE FROM weenie WHERE class_Id = 11362;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11362, 'dresssiraluun-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11362, 'dresssiraluun-xp', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11362, 0, 11362);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11362, 16, 'A formal gown woven from the plumes of a Kithless Siraluun.') /* LONG_DESC_STRING */
      , (11362, 1, 'Siraluun Dress') /* NAME_STRING */
      , (11362, 15, 'A formal gown woven from the plumes of a Kithless Siraluun.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11362, 1, 33554854) /* SETUP_DID */
      , (11362, 3, 536870932) /* SOUND_TABLE_DID */
      , (11362, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (11362, 1, 33554854) /* SETUP_DID */
      , (11362, 7, 268436236) /* CLOTHINGBASE_DID */
      , (11362, 8, 100671998) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11362, 9, 32512) /* LOCATIONS_INT */
      , (11362, 1, 4) /* ITEM_TYPE_INT */
      , (11362, 19, 5000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (11362, 9, 32512) /* LOCATIONS_INT */
      , (11362, 107, 800) /* ITEM_CUR_MANA_INT */
      , (11362, 108, 800) /* ITEM_MAX_MANA_INT */
      , (11362, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (11362, 114, 1) /* ATTUNED_INT */
-     , (11362, 9007, 2) /* Clothing_WeenieType */;
+     , (11362, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11362, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (11362, 5, -0.03) /* MANA_RATE_FLOAT */
      , (11362, 12, 1) /* SHADE_FLOAT */
@@ -54,12 +50,12 @@ VALUES (11362, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (11362, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (11362, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11362, 99, True) /* IVORYABLE_BOOL */
      , (11362, 22, True) /* INSCRIBABLE_BOOL */
      , (11362, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11362, 902, 2) /* LeadershipMasterySelf5_SpellID */
      , (11362, 2013, 2) /* WizardsGreaterIntellect_SpellID */;
 

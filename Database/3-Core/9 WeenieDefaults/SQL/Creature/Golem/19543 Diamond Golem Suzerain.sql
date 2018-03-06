@@ -1,16 +1,13 @@
 /* Weenie - Diamond Golem Suzerain (19543) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19543;
+DELETE FROM weenie WHERE class_Id = 19543;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19543, 'golemdiamondsuzerain');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19543, 'golemdiamondsuzerain', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19543, 0, 19543);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19543, 1, 'Diamond Golem Suzerain') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19543, 1, 33556439) /* SETUP_DID */
      , (19543, 2, 150995073) /* MOTION_TABLE_DID */
      , (19543, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (19543, 1, 33556439) /* SETUP_DID */
      , (19543, 7, 268435983) /* CLOTHINGBASE_DID */
      , (19543, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19543, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (19543, 1, 16) /* ITEM_TYPE_INT */
      , (19543, 2, 13) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (19543, 81, 6) /* MAX_GENERATED_OBJECTS_INT */
      , (19543, 27, 0) /* ARMOR_TYPE_INT */
      , (19543, 93, 1032) /* PHYSICS_STATE_INT */
      , (19543, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (19543, 40, 2) /* COMBAT_MODE_INT */
-     , (19543, 9007, 10) /* Creature_WeenieType */;
+     , (19543, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19543, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (19543, 65, 0.67) /* RESIST_PIERCE_FLOAT */
      , (19543, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -80,7 +76,7 @@ VALUES (19543, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (19543, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19543, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19543, 1, True) /* STUCK_BOOL */
      , (19543, 6, True) /* AI_USES_MANA_BOOL */
      , (19543, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -88,7 +84,7 @@ VALUES (19543, 1, True) /* STUCK_BOOL */
      , (19543, 13, False) /* ETHEREAL_BOOL */
      , (19543, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19543, 2328, 2.01) /* DrainHealth7_SpellID */
      , (19543, 1053, 2.048) /* BludgeonVulnerabilityOther6_SpellID */
      , (19543, 2073, 2.01) /* healself7_SpellID */
@@ -96,20 +92,20 @@ VALUES (19543, 2328, 2.01) /* DrainHealth7_SpellID */
      , (19543, 1343, 2.048) /* WeaknessOther6_SpellID */
      , (19543, 1327, 2.048) /* ImperilOther6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19543, 1, 400) /* STRENGTH_ATTRIBUTE */
      , (19543, 2, 600) /* ENDURANCE_ATTRIBUTE */
      , (19543, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (19543, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (19543, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (19543, 32, 290) /* SELF_ATTRIBUTE */;
+     , (19543, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (19543, 5, 290) /* FOCUS_ATTRIBUTE */
+     , (19543, 6, 290) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19543, 64, 17700) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19543, 128, 17400) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19543, 256, 910) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19543, 1, 17700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19543, 3, 17400) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19543, 5, 910) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19543, 9, 7338, 0, 0, 0.15, False) /* Create Diamond Heart for ContainTreasure_DestinationType */
      , (19543, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */
      , (19543, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
@@ -119,6 +115,6 @@ VALUES (19543, 9, 7338, 0, 0, 0.15, False) /* Create Diamond Heart for ContainTr
      , (19543, 9, 12689, 0, 0, 0.04, False) /* Create Diamond Powder for ContainTreasure_DestinationType */
      , (19543, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19543, -1, 7094, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Synnast (x6 up to max of 6) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

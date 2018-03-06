@@ -1,16 +1,13 @@
 /* Weenie - Bandit Shield (1270) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1270;
+DELETE FROM weenie WHERE class_Id = 1270;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1270, 'shieldroundfancy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1270, 'shieldroundfancy', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1270, 0, 1270);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1270, 1, 'Bandit Shield') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1270, 1, 33554786) /* SETUP_DID */
      , (1270, 3, 536870932) /* SOUND_TABLE_DID */
      , (1270, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (1270, 1, 33554786) /* SETUP_DID */
      , (1270, 7, 268435607) /* CLOTHINGBASE_DID */
      , (1270, 8, 100667361) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1270, 9, 2097152) /* LOCATIONS_INT */
      , (1270, 1, 2) /* ITEM_TYPE_INT */
      , (1270, 19, 320) /* VALUE_INT */
@@ -38,10 +35,9 @@ VALUES (1270, 9, 2097152) /* LOCATIONS_INT */
      , (1270, 108, 100) /* ITEM_MAX_MANA_INT */
      , (1270, 109, 10) /* ITEM_DIFFICULTY_INT */
      , (1270, 51, 4) /* COMBAT_USE_INT */
-     , (1270, 115, 105) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1270, 9007, 1) /* Generic_WeenieType */;
+     , (1270, 115, 105) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1270, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (1270, 5, -0.1) /* MANA_RATE_FLOAT */
      , (1270, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -54,9 +50,9 @@ VALUES (1270, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (1270, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (1270, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1270, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1270, 810, 2) /* FireProtectionOther2_SpellID */;
 

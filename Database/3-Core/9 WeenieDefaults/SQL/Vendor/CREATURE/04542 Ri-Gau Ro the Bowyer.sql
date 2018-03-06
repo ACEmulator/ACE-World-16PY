@@ -1,27 +1,24 @@
 /* Weenie - Ri-Gau Ro the Bowyer (4542) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4542;
+DELETE FROM weenie WHERE class_Id = 4542;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4542, 'linbowyer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4542, 'linbowyer', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4542, 0, 4542);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4542, 1, 'Ri-Gau Ro the Bowyer') /* NAME_STRING */
      , (4542, 3, 'Male') /* SEX_STRING */
      , (4542, 4, 'Sho') /* HERITAGE_GROUP_STRING */
      , (4542, 5, 'Bowyer') /* TEMPLATE_STRING */
      , (4542, 24, 'Lin') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4542, 1, 33554433) /* SETUP_DID */
      , (4542, 2, 150994945) /* MOTION_TABLE_DID */
      , (4542, 3, 536870913) /* SOUND_TABLE_DID */
      , (4542, 4, 805306368) /* COMBAT_TABLE_DID */
      , (4542, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4542, 1, 16) /* ITEM_TYPE_INT */
      , (4542, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
      , (4542, 2, 31) /* CREATURE_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (4542, 1, 16) /* ITEM_TYPE_INT */
      , (4542, 27, 0) /* ARMOR_TYPE_INT */
      , (4542, 93, 2098200) /* PHYSICS_STATE_INT */
      , (4542, 126, 2000) /* VENDOR_HAPPY_MEAN_INT */
-     , (4542, 127, 1000) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (4542, 9007, 12) /* Vendor_WeenieType */;
+     , (4542, 127, 1000) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4542, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4542, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (4542, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (4542, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4542, 54, 3) /* USE_RADIUS_FLOAT */
      , (4542, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4542, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (4542, 1, True) /* STUCK_BOOL */
      , (4542, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -81,20 +77,20 @@ VALUES (4542, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (4542, 13, False) /* ETHEREAL_BOOL */
      , (4542, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4542, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (4542, 2, 40) /* ENDURANCE_ATTRIBUTE */
      , (4542, 4, 110) /* COORDINATION_ATTRIBUTE */
-     , (4542, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (4542, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (4542, 32, 30) /* SELF_ATTRIBUTE */;
+     , (4542, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (4542, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (4542, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4542, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4542, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4542, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4542, 1, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4542, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4542, 5, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4542, 2, 2590, 0, 9, 0, False) /* Create Shirt for Wield_DestinationType */
      , (4542, 2, 127, 0, 2, 0.6, False) /* Create Pants for Wield_DestinationType */
      , (4542, 2, 115, 0, 2, 0.6, False) /* Create Leather Boots for Wield_DestinationType */

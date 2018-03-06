@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11083, 1916538880, 599851008, 156.083, 131.743, 110.005, -0.356577, 0, 0, 0.934266) /* menhirdrummerngen-xp */
      , (12093, 1916538881, 599851008, 156, 125, 110, 1, 0, 0, 0) /* menhir1intactngen-xp */
      , (12093, 1916538882, 599851008, 149, 132, 110, 0.707107, 0, 0, -0.707107) /* menhir1intactngen-xp */

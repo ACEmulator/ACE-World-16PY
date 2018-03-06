@@ -1,16 +1,13 @@
 /* Weenie - Ebon Mattekar (26469) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26469;
+DELETE FROM weenie WHERE class_Id = 26469;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26469, 'mattekarebon');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26469, 'mattekarebon', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26469, 0, 26469);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26469, 1, 'Ebon Mattekar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26469, 1, 33555590) /* SETUP_DID */
      , (26469, 2, 150995047) /* MOTION_TABLE_DID */
      , (26469, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (26469, 1, 33555590) /* SETUP_DID */
      , (26469, 7, 268435729) /* CLOTHINGBASE_DID */
      , (26469, 8, 100669121) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26469, 1, 16) /* ITEM_TYPE_INT */
      , (26469, 146, 20363) /* XP_OVERRIDE_INT */
      , (26469, 2, 23) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (26469, 1, 16) /* ITEM_TYPE_INT */
      , (26469, 16, 1) /* ITEM_USEABLE_INT */
      , (26469, 25, 85) /* LEVEL_INT */
      , (26469, 93, 1032) /* PHYSICS_STATE_INT */
-     , (26469, 40, 2) /* COMBAT_MODE_INT */
-     , (26469, 9007, 10) /* Creature_WeenieType */;
+     , (26469, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26469, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (26469, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (26469, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (26469, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (26469, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (26469, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26469, 1, True) /* STUCK_BOOL */
      , (26469, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (26469, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26469, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26469, 1, 360) /* STRENGTH_ATTRIBUTE */
      , (26469, 2, 350) /* ENDURANCE_ATTRIBUTE */
      , (26469, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (26469, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (26469, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (26469, 32, 100) /* SELF_ATTRIBUTE */;
+     , (26469, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (26469, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (26469, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26469, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26469, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26469, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26469, 1, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26469, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26469, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26469, 9, 14589, 0, 0, 0.05, False) /* Create Ebon Mattekar Hide for ContainTreasure_DestinationType */
      , (26469, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

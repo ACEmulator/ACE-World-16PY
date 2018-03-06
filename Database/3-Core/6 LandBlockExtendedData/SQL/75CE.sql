@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2582, 2002575360, 1976434688, 106.885, 44.4537, 302.87, 0.191177, 0, 0, -0.981556) /* Great Mattekar */
      , (2582, 2002575361, 1976434688, 110.628, 45.5526, 302.582, -0.450392, 0, 0, 0.892831) /* Great Mattekar */
      , (2581, 2002575362, 1976434688, 123.36, 53.5019, 301.445, -0.837233, 0, 0, 0.546846) /* Snowy Mattekar */
@@ -14,19 +14,19 @@ VALUES (2582, 2002575360, 1976434688, 106.885, 44.4537, 302.87, 0.191177, 0, 0, 
      , (2399, 2002575372, 1976434688, 56.7213, 38.0942, 302.728, 0.743068, 0, 0, -0.669216) /* White Jade */
      , (1542, 2002575373, 1976434688, 55.4336, 37.2557, 302.724, 0.978414, 0, 0, -0.206653) /* linkitemgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2002575366'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2002575371'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2002575373'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2002575366'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2002575371'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2002575373'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575360'; /* linkmonstergen <- Great Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575361'; /* linkmonstergen <- Great Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575362'; /* linkmonstergen <- Snowy Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575363'; /* linkmonstergen <- Snowy Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575364'; /* linkmonstergen <- Snowy Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2002575365'; /* linkmonstergen <- Snowy Mattekar */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575367'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575368'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575369'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2002575370'; /* linkmonstergen <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2002575372'; /* linkitemgen <- White Jade */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575360'; /* linkmonstergen <- Great Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575361'; /* linkmonstergen <- Great Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575362'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575363'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575364'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2002575365'; /* linkmonstergen <- Snowy Mattekar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2002575367'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2002575368'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2002575369'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2002575370'; /* linkmonstergen <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2002575372'; /* linkitemgen <- White Jade */
 

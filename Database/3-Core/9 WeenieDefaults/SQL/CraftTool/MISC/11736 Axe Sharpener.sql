@@ -1,25 +1,22 @@
 /* Weenie - Axe Sharpener (11736) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11736;
+DELETE FROM weenie WHERE class_Id = 11736;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11736, 'axebuff');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11736, 'axebuff', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11736, 0, 11736);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11736, 16, 'An axe sharpening stone.  If used on an axe, will sharpen it to the point where it would inflict devestating wounds.') /* LONG_DESC_STRING */
      , (11736, 1, 'Axe Sharpener') /* NAME_STRING */
      , (11736, 14, 'Use this on a loot-generated axe to give the weapon triple critical capability. Using this on an already augmented weapon will destroy the stone.') /* USE_STRING */
      , (11736, 15, 'An axe sharpening stone') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11736, 1, 33557278) /* SETUP_DID */
      , (11736, 3, 536870932) /* SOUND_TABLE_DID */
      , (11736, 8, 100671954) /* ICON_DID */
      , (11736, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11736, 9, 0) /* LOCATIONS_INT */
      , (11736, 1, 128) /* ITEM_TYPE_INT */
      , (11736, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -34,13 +31,12 @@ VALUES (11736, 9, 0) /* LOCATIONS_INT */
      , (11736, 93, 1044) /* PHYSICS_STATE_INT */
      , (11736, 94, 1) /* TARGET_TYPE_INT */
      , (11736, 33, 1) /* BONDED_INT */
-     , (11736, 114, 1) /* ATTUNED_INT */
-     , (11736, 9007, 44) /* CraftTool_WeenieType */;
+     , (11736, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11736, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11736, 22, True) /* INSCRIBABLE_BOOL */
      , (11736, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

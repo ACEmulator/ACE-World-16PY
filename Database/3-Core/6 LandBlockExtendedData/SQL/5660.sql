@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5624, 1969618944, 1449132294, 131.75, -70, -29.995, -0.707107, 0, 0, -0.707107) /* Door */
      , (20907, 1969618947, 1449132298, 156.992, -66.7427, -29.995, 0.921061, 0, 0, 0.389418) /* Singularity Chest */
      , (20955, 1969618948, 1449132298, 162.12, -73.3572, -29.0611, 0.183057, 0, 0, -0.983102) /* Gaerlan's Diary */
@@ -35,18 +35,18 @@ VALUES (5624, 1969618944, 1449132294, 131.75, -70, -29.995, -0.707107, 0, 0, -0.
      , (1025, 1969618974, 1449132526, 153.534, -97.6953, 12.005, 0.0191485, 0, 0, -0.999817) /* Portal to Rithwic */
      , (20912, 1969618970, 1449132526, 149.815, -96.3723, 12.005, -0.999743, 0, 0, -0.0226812) /* Hibdin Velos */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1969618953'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1969618965'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1969618953'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1969618965'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969618954'; /* linkitemgen10seconds <- Letter for Melanay */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969618951'; /* linkitemgen10seconds <- Tusker Husk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1969618948'; /* linkitemgen10seconds <- Gaerlan's Diary */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618966'; /* linkmonstergen3minutes <- Timon Rae */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618960'; /* linkmonstergen3minutes <- Josef */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618963'; /* linkmonstergen3minutes <- Remmick */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618964'; /* linkmonstergen3minutes <- Kira Sojini */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618950'; /* linkmonstergen3minutes <- Leandra */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618970'; /* linkmonstergen3minutes <- Hibdin Velos */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618969'; /* linkmonstergen3minutes <- Ambrosia Roe */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1969618957'; /* linkmonstergen3minutes <- Julian Bartok */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969618954'; /* linkitemgen10seconds <- Letter for Melanay */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969618951'; /* linkitemgen10seconds <- Tusker Husk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1969618948'; /* linkitemgen10seconds <- Gaerlan's Diary */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618966'; /* linkmonstergen3minutes <- Timon Rae */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618960'; /* linkmonstergen3minutes <- Josef */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618963'; /* linkmonstergen3minutes <- Remmick */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618964'; /* linkmonstergen3minutes <- Kira Sojini */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618950'; /* linkmonstergen3minutes <- Leandra */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618970'; /* linkmonstergen3minutes <- Hibdin Velos */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618969'; /* linkmonstergen3minutes <- Ambrosia Roe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1969618957'; /* linkmonstergen3minutes <- Julian Bartok */
 

@@ -1,43 +1,39 @@
 /* Weenie - Nexus Town Information Guide (25736) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25736;
+DELETE FROM weenie WHERE class_Id = 25736;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25736, 'bookportallisttowns');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25736, 'bookportallisttowns', /* Book_WeenieType */ 8);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25736, 0, 25736);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25736, 1, 'Nexus Town Information Guide') /* NAME_STRING */
      , (25736, 15, 'A book listing the portals linking the Nexus towns as well as those leading to where the Nexus town stamps can be found. ') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25736, 1, 33554771) /* SETUP_DID */
      , (25736, 3, 536870932) /* SOUND_TABLE_DID */
      , (25736, 8, 100668117) /* ICON_DID */
      , (25736, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25736, 9, 0) /* LOCATIONS_INT */
      , (25736, 1, 8192) /* ITEM_TYPE_INT */
      , (25736, 93, 1044) /* PHYSICS_STATE_INT */
      , (25736, 5, 10) /* ENCUMB_VAL_INT */
      , (25736, 16, 8) /* ITEM_USEABLE_INT */
      , (25736, 8, 200) /* MASS_INT */
-     , (25736, 19, 0) /* VALUE_INT */
-     , (25736, 174, 9) /* APPRAISAL_PAGES_INT */
-     , (25736, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
-     , (25736, 22, 1000) /* AVAILABLE_CHARACTER_INT */
-     , (25736, 9007, 8) /* Book_WeenieType */;
+     , (25736, 19, 0) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25736, 39, 1.22) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25736, 22, False) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (25736, 0, '', 'prewritten', 4294967295, False, 'Al-Arqas Information Guide
+INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
+VALUES (25736, 9, 1000) /* Book Data */;
+
+INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
+VALUES (25736, 0, 4294967295, '', 'prewritten', False, 'Al-Arqas Information Guide
 Town: 31.3S 13.6E
 North Outpost: 28.1S 13.9E 
 West Outpost: 31.3S 10.7E
@@ -52,7 +48,7 @@ from Holtburg: Leather Basinet
 from Lytlethorpe: Leather Girth
 from Rithwic: Leather Breastplate
 ')
-     , (25736, 1, '', 'prewritten', 4294967295, False, 'Samsur Information Guide
+     , (25736, 1, 4294967295, '', 'prewritten', False, 'Samsur Information Guide
 Town: 2.9S 19.5E
 East Outpost: 3.2S 22.2E
 Northwest Outpost: 0.1N 16.3E
@@ -68,7 +64,7 @@ from Holtburg: Buckler
 from Lytlethorpe: Leather Bracers
 from Rithwic: Leather Pauldrons
 ')
-     , (25736, 2, '', 'prewritten', 4294967295, False, 'Yaraq Information Guide
+     , (25736, 2, 4294967295, '', 'prewritten', False, 'Yaraq Information Guide
 Town: 21.5S 1.6W
 Holtburg Portal: 21.3S 1.8W
 Al-Arqas Portal: 21.3S 1.4W
@@ -83,7 +79,7 @@ from Holtburg: Leather Leggings
 from Lytlethorpe: Leather Boots
 from Rithwic: Leather Sleeves
 ')
-     , (25736, 3, '', 'prewritten', 4294967295, False, 'Nanto Information Guide
+     , (25736, 3, 4294967295, '', 'prewritten', False, 'Nanto Information Guide
 Town: 52.6S 81.9E
 North Outpost: 49S 81.6E
 East Outpost: 52.4S 85.3E
@@ -98,7 +94,7 @@ from Holtburg: Mace
 from Lytlethorpe: Spear
 from Rithwic: Katar
 ')
-     , (25736, 4, '', 'prewritten', 4294967295, False, 'Shoushi Information Guide
+     , (25736, 4, 4294967295, '', 'prewritten', False, 'Shoushi Information Guide
 Town: 33.5S 72.8E
 Yaraq Portal: 33.8S 72.8E
 Nanto Portal: 33.2S 72.8E
@@ -113,7 +109,7 @@ from Holtburg: Dagger
 from Lytlethorpe: Yumi or Atlatl
 from Rithwic: Crossbow
 ')
-     , (25736, 5, '', 'prewritten', 4294967295, False, 'Yanshi Information Guide
+     , (25736, 5, 4294967295, '', 'prewritten', False, 'Yanshi Information Guide
 Town: 12.7S 46.4E
 North Outpost: 9.9S 46.7E
 South Outpost: 15.6S 46.5E
@@ -129,7 +125,7 @@ from Holtburg: Ken
 from Lytlethorpe: Axe
 from Rithwic: Staff
 ')
-     , (25736, 6, '', 'prewritten', 4294967295, False, 'Holtburg Information Guide
+     , (25736, 6, 4294967295, '', 'prewritten', False, 'Holtburg Information Guide
 Town: 42.3 N 33.6E
 Shoushi Portal: 42.2N 33.8E
 Rithwic Portal: 42.4N 33.7E
@@ -143,7 +139,7 @@ from Nanto: Mace
 from Shoushi: Dagger
 from Yanshi: Ken
 ')
-     , (25736, 7, '', 'prewritten', 4294967295, False, 'Lytlethorpe Information Guide
+     , (25736, 7, 4294967295, '', 'prewritten', False, 'Lytlethorpe Information Guide
 Town: 0.6N 51.2E
 East Outpost 1.1N 54.2E
 West Outpost 1.1N 48.4E
@@ -159,7 +155,7 @@ from Nanto: Spear
 from Shoushi: Yumi or Atlatl
 from Yanshi: Axe
 ')
-     , (25736, 8, '', 'prewritten', 4294967295, False, 'Rithwic Information Guide
+     , (25736, 8, 4294967295, '', 'prewritten', False, 'Rithwic Information Guide
 East Outpost 10.3N 61.5E
 South Outpost 7.6N 58.4E
 Holtburg Portal: 10.1N 57.3E

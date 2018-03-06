@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2252, 2094272547, 3443589376, 162.438, 111.823, 54.005, -0.250755, 0, 0, -0.968051) /* Kiun Baicho the Barkeeper */
      , (8377, 2094272566, 3443589376, 158.741, 115.385, 54.44, -0.714136, 0, 0, -0.700007) /* Beer Keg */
      , (4771, 2094272562, 3443589381, 154.506, 103.725, 59.605, -0.502071, 0, 0, 0.864827) /* collectorjewelshogen */
@@ -83,9 +83,9 @@ VALUES (2252, 2094272547, 3443589376, 162.438, 111.823, 54.005, -0.250755, 0, 0,
      , (2270, 2094272559, 3443589120, 140.827, 82.8542, 54.005, 0.652508, 0, 0, 0.757782) /* Physician */
      , (4776, 2094272561, 3443589120, 77.5197, 115.593, 54.005, 0.0547887, 0, 0, -0.998498) /* collectorwingshogen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2094272571'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2094272589'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2094272571'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2094272589'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2094272570'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2094272588'; /* linkmonstergen3minutes <- Lia Tze */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2094272570'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2094272588'; /* linkmonstergen3minutes <- Lia Tze */
 

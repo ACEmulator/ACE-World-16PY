@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4561, 2139475974, 4166844675, 10.291, 14.59, 54.005, 0.229754, 0, 0, 0.973249) /* Lai Jhong the Archmage */
      , (720, 2139475968, 4166844416, 6.66135, 6.66134, 54, 0.92388, 0, 0, -0.382683) /* Sliding Door */
      , (720, 2139475969, 4166844416, 17.3207, 17.3207, 57, 0.92388, 0, 0, -0.382683) /* Sliding Door */

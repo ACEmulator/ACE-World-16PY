@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1619, 2075549698, 3144024321, 35.9, 40.1616, 8.0055, 0.0606623, 0, 0, 0.998158) /* Mosswart Shaman */
      , (211, 2075549699, 3144024321, 37.5327, 39.5804, 8.0055, 0.233523, 0, 0, 0.972351) /* Mudlurk Mosswart */
      , (211, 2075549700, 3144024321, 34.3753, 37.4967, 8.0055, 0.830994, 0, 0, -0.556281) /* Mudlurk Mosswart */
@@ -16,11 +16,11 @@ VALUES (1619, 2075549698, 3144024321, 35.9, 40.1616, 8.0055, 0.0606623, 0, 0, 0.
      , (509, 2075549705, 3144024064, 69.0502, 127.265, 6.005, 0.997055, 0, 0, 0.0766877) /* Life Stone */
      , (903, 2075549706, 3144024064, 16.0264, 160.885, 5.905, -0.75825, 0, 0, -0.651963) /* phyntoswaspbluegen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075549702'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075549702'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549698'; /* linkmonstergen <- Mosswart Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549699'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549700'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549701'; /* linkmonstergen <- Mudlurk Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075549711'; /* linkmonstergen <- Mud Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075549698'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075549699'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075549700'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075549701'; /* linkmonstergen <- Mudlurk Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075549711'; /* linkmonstergen <- Mud Golem */
 

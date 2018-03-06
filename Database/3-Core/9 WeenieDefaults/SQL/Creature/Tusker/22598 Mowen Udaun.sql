@@ -1,16 +1,13 @@
 /* Weenie - Mowen Udaun (22598) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22598;
+DELETE FROM weenie WHERE class_Id = 22598;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22598, 'tuskermowen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22598, 'tuskermowen', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22598, 0, 22598);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22598, 1, 'Mowen Udaun') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22598, 1, 33558137) /* SETUP_DID */
      , (22598, 2, 150994956) /* MOTION_TABLE_DID */
      , (22598, 35, 354) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (22598, 1, 33558137) /* SETUP_DID */
      , (22598, 8, 100667443) /* ICON_DID */
      , (22598, 31, 22705) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22598, 1, 16) /* ITEM_TYPE_INT */
      , (22598, 2, 8) /* CREATURE_TYPE_INT */
      , (22598, 3, 20) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (22598, 1, 16) /* ITEM_TYPE_INT */
      , (22598, 25, 900) /* LEVEL_INT */
      , (22598, 27, 0) /* ARMOR_TYPE_INT */
      , (22598, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22598, 40, 2) /* COMBAT_MODE_INT */
-     , (22598, 9007, 10) /* Creature_WeenieType */;
+     , (22598, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22598, 64, 0.4) /* RESIST_SLASH_FLOAT */
      , (22598, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (22598, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (22598, 64, 0.4) /* RESIST_SLASH_FLOAT */
      , (22598, 125, 0.9) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22598, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22598, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (22598, 1, True) /* STUCK_BOOL */
      , (22598, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -80,23 +76,23 @@ VALUES (22598, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (22598, 29, True) /* NO_CORPSE_BOOL */
      , (22598, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22598, 1, 500) /* STRENGTH_ATTRIBUTE */
      , (22598, 2, 600) /* ENDURANCE_ATTRIBUTE */
      , (22598, 4, 400) /* COORDINATION_ATTRIBUTE */
-     , (22598, 8, 360) /* QUICKNESS_ATTRIBUTE */
-     , (22598, 16, 105) /* FOCUS_ATTRIBUTE */
-     , (22598, 32, 105) /* SELF_ATTRIBUTE */;
+     , (22598, 3, 360) /* QUICKNESS_ATTRIBUTE */
+     , (22598, 5, 105) /* FOCUS_ATTRIBUTE */
+     , (22598, 6, 105) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22598, 64, 7700) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22598, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22598, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22598, 1, 7700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22598, 3, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22598, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22598, 12, 1581449475, 19.9864, -9.242, 0.005, -4.371139E-08, 0, 0, -1) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
      , (22598, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

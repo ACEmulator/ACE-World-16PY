@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11518, 1881743434, 43122945, 118.939, -34.4287, -23.994, 0.755005, 0, 0, 0.655719) /* Hea Hunter */
      , (11518, 1881743435, 43122947, 127.927, -22.3153, -23.994, 0.362566, 0, 0, 0.931958) /* Hea Hunter */
      , (9257, 1881743436, 43122949, 127.387, -39.3302, -23.995, -0.929705, 0, 0, -0.368306) /* Silt Lurker */
@@ -77,58 +77,58 @@ VALUES (11518, 1881743434, 43122945, 118.939, -34.4287, -23.994, 0.755005, 0, 0,
      , (11326, 1881743432, 43123230, 30.0004, -60.0134, 0.005, 1, 0, 0, 0) /* Exit to the Surface */
      , (568, 1881743433, 43123232, 30, -55.25, 0, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881743367'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881743484'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881743367'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881743484'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881743368'; /* linkmonstergen3minutes <- Hea Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881743440'; /* linkmonstergen3minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881743438'; /* linkmonstergen3minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881743437'; /* linkmonstergen3minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881743436'; /* linkmonstergen3minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743482'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743483'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743478'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743480'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743469'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743468'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743454'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743475'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743472'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743450'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743449'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743471'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743464'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743458'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743455'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743447'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743448'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743451'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743459'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743443'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743445'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743441'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743457'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743456'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743452'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743470'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743435'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743442'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743444'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743446'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743434'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743465'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743467'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743462'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743463'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743439'; /* linkmonstergen5minutes <- Hea Hunter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743466'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743460'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743461'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743476'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743477'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743473'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743474'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743479'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743481'; /* linkmonstergen5minutes <- Silt Lurker */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881743453'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881743368'; /* linkmonstergen3minutes <- Hea Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881743440'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881743438'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881743437'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881743436'; /* linkmonstergen3minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743482'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743483'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743478'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743480'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743469'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743468'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743454'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743475'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743472'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743450'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743449'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743471'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743464'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743458'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743455'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743447'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743448'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743451'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743459'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743443'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743445'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743441'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743457'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743456'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743452'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743470'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743435'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743442'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743444'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743446'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743434'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743465'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743467'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743462'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743463'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743439'; /* linkmonstergen5minutes <- Hea Hunter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743466'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743460'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743461'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743476'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743477'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743473'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743474'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743479'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743481'; /* linkmonstergen5minutes <- Silt Lurker */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881743453'; /* linkmonstergen5minutes <- Hea Hunter */
 

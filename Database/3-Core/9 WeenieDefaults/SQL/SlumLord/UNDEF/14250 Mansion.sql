@@ -1,36 +1,32 @@
 /* Weenie - Mansion (14250) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14250;
+DELETE FROM weenie WHERE class_Id = 14250;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14250, 'slumlordmansion2441-2450');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14250, 'slumlordmansion2441-2450', /* SlumLord_WeenieType */ 55);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14250, 0, 14250);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14250, 1, 'Mansion') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14250, 1, 33557167) /* SETUP_DID */
      , (14250, 2, 150995128) /* MOTION_TABLE_DID */
      , (14250, 8, 100671884) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14250, 16, 32) /* ITEM_USEABLE_INT */
      , (14250, 86, 50) /* MIN_LEVEL_INT */
      , (14250, 93, 1044) /* PHYSICS_STATE_INT */
-     , (14250, 163, 6) /* ALLEGIANCE_MIN_LEVEL_INT */
-     , (14250, 9007, 55) /* SlumLord_WeenieType */;
+     , (14250, 163, 6) /* ALLEGIANCE_MIN_LEVEL_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14250, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (14250, 54, 3) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14250, 1, True) /* STUCK_BOOL */
      , (14250, 76, True) /* HOUSE_REQUIRES_MONARCH_BOOL */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14250, 16, 273, 10000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */
      , (14250, 16, 11710, 20, 0, 0, False) /* Create Writ of Refuge for HouseBuy_DestinationType */
      , (14250, 16, 9511, 20, 0, 0, False) /* Create Golden Gromnie for HouseBuy_DestinationType */

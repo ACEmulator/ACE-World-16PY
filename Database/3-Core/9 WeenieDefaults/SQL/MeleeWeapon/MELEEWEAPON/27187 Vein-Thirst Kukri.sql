@@ -1,17 +1,14 @@
 /* Weenie - Vein-Thirst Kukri (27187) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27187;
+DELETE FROM weenie WHERE class_Id = 27187;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27187, 'kukriliazk1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27187, 'kukriliazk1', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27187, 0, 27187);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27187, 1, 'Vein-Thirst Kukri') /* NAME_STRING */
      , (27187, 15, 'This Falatacot weapon appears to be an ornamental or sacrificial one. Curved and sharp, the blade seems alive in some way.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27187, 1, 33558634) /* SETUP_DID */
      , (27187, 3, 536870932) /* SOUND_TABLE_DID */
      , (27187, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (27187, 1, 33558634) /* SETUP_DID */
      , (27187, 7, 268436792) /* CLOTHINGBASE_DID */
      , (27187, 8, 100675921) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27187, 9, 1048576) /* LOCATIONS_INT */
      , (27187, 1, 1) /* ITEM_TYPE_INT */
      , (27187, 19, 1000) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (27187, 9, 1048576) /* LOCATIONS_INT */
      , (27187, 47, 166) /* ATTACK_TYPE_INT */
      , (27187, 48, 4) /* WEAPON_SKILL_INT */
      , (27187, 49, 10) /* WEAPON_TIME_INT */
-     , (27187, 51, 1) /* COMBAT_USE_INT */
-     , (27187, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27187, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27187, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (27187, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (27187, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -57,11 +53,11 @@ VALUES (27187, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (27187, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (27187, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27187, 22, True) /* INSCRIBABLE_BOOL */
      , (27187, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27187, 1117, 2) /* BladeProtectionOther3_SpellID */
      , (27187, 1603, 2) /* Defender4_SpellID */
      , (27187, 1614, 2) /* BloodDrinker4_SpellID */

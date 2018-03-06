@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5489, 1971605504, 1480917248, 0.385503, -50.2356, -29.995, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (21386, 1971605541, 1480917248, -0.902727, -52.5739, -29.339, 0.706875, 0, 0, -0.707339) /* Gaerlan */
      , (7926, 1971605542, 1480917248, -3.99945, -49.7559, -27.3859, -0.820815, 0, 0, -0.571194) /* linkmonstergen20minutes */
@@ -29,22 +29,22 @@ VALUES (5489, 1971605504, 1480917248, 0.385503, -50.2356, -29.995, 1, 0, 0, 0) /
      , (7474, 1971605515, 1480917432, 80, -50, 6.105, 1, 0, 0, 0) /* 30 sec Firespurt */
      , (21551, 1971605539, 1480917445, 90, -30, 6.0065, 1, 0, 0, 0) /* Strife Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1971605532'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1971605542'; /* linkmonstergen20minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971605532'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1971605542'; /* linkmonstergen20minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605530'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605534'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605535'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605531'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605538'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605536'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605537'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605539'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605533'; /* linkmonstergen5minutes <- Ember */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605529'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605527'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605526'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605528'; /* linkmonstergen5minutes <- Inferno */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971605525'; /* linkmonstergen5minutes <- Strife Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1971605541'; /* linkmonstergen20minutes <- Gaerlan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605530'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605534'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605535'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605531'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605538'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605536'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605537'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605539'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605533'; /* linkmonstergen5minutes <- Ember */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605529'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605527'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605526'; /* linkmonstergen5minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605528'; /* linkmonstergen5minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971605525'; /* linkmonstergen5minutes <- Strife Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1971605541'; /* linkmonstergen20minutes <- Gaerlan */
 

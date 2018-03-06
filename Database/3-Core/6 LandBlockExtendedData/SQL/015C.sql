@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13, 1880473600, 22806787, 0.813215, -74.1906, 0.004, -0.69041, 0, 0, -0.723419) /* White Rat */
      , (7923, 1880473601, 22806791, 10, -40, 0, -4.37114E-08, 0, 0, -1) /* linkmonstergen3minutes */
      , (13, 1880473602, 22806794, 9.08183, -71.822, 0.004, -0.995323, 0, 0, -0.0966056) /* White Rat */
@@ -18,22 +18,22 @@ VALUES (13, 1880473600, 22806787, 0.813215, -74.1906, 0.004, -0.69041, 0, 0, -0.
      , (219, 1880473616, 22806860, 39.9304, -86.278, 0.004, -0.913012, 0, 0, -0.407932) /* Grey Rat */
      , (220, 1880473617, 22806862, 37.4708, -117.993, 0.004, -0.147808, 0, 0, -0.989016) /* Brown Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880473601'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880473601'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473609'; /* linkmonstergen3minutes <- Grey Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473608'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473613'; /* linkmonstergen3minutes <- Tan Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473603'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473614'; /* linkmonstergen3minutes <- Tan Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473615'; /* linkmonstergen3minutes <- Tan Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473610'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473605'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473611'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473616'; /* linkmonstergen3minutes <- Grey Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473606'; /* linkmonstergen3minutes <- Tan Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473602'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473600'; /* linkmonstergen3minutes <- White Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473607'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473612'; /* linkmonstergen3minutes <- Grey Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880473617'; /* linkmonstergen3minutes <- Brown Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473609'; /* linkmonstergen3minutes <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473608'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473613'; /* linkmonstergen3minutes <- Tan Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473603'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473614'; /* linkmonstergen3minutes <- Tan Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473615'; /* linkmonstergen3minutes <- Tan Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473610'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473605'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473611'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473616'; /* linkmonstergen3minutes <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473606'; /* linkmonstergen3minutes <- Tan Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473602'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473600'; /* linkmonstergen3minutes <- White Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473607'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473612'; /* linkmonstergen3minutes <- Grey Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880473617'; /* linkmonstergen3minutes <- Brown Rat */
 

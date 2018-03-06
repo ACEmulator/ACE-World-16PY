@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2041, 2074734594, 3130982656, 33.9438, 180.139, 56.005, 0.968912, 0, 0, 0.247404) /* Minthada the Librarian */
      , (8864, 2074734601, 3130982656, 29.0884, 183.381, 56.005, -0.707107, 0, 0, -0.707107) /* History Shelf */
      , (16892, 2074734602, 3130982656, 39.2077, 183.831, 56.005, -0.496103, 0, 0, -0.868264) /* Arcanum Researcher */
@@ -10,8 +10,8 @@ VALUES (2041, 2074734594, 3130982656, 33.9438, 180.139, 56.005, 0.968912, 0, 0, 
      , (412, 2074734593, 3130982400, 40.6892, 174.198, 56, 0.707107, 0, 0, -0.707107) /* Door */
      , (1154, 2074734599, 3130982400, 34.6064, 187.303, 56.005, -0.0285891, 0, 0, 0.999591) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074734599'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074734599'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734602'; /* linkmonstergen <- Arcanum Researcher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074734598'; /* linkmonstergen <- Bretself the Translator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734602'; /* linkmonstergen <- Arcanum Researcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074734598'; /* linkmonstergen <- Bretself the Translator */
 

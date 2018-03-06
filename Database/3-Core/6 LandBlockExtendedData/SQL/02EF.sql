@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5489, 1882124288, 49217792, 110, -170, -41.995, 0.731689, 0, 0, -0.681639) /* "Mag-Ma!" */
      , (5489, 1882124289, 49217793, 120, -170, -41.995, 1, 0, 0, 0) /* "Mag-Ma!" */
      , (7342, 1882124290, 49217800, 70, -90, -23.995, 1, 0, 0, -4.37114E-08) /* Surface Portal */
@@ -120,36 +120,36 @@ VALUES (5489, 1882124288, 49217792, 110, -170, -41.995, 0.731689, 0, 0, -0.68163
      , (2131, 1882124406, 49218474, 220.018, -109.711, 12.005, 0.914651, 0, 0, -0.404245) /* Pressure Plate */
      , (7484, 1882124407, 49218491, 238.524, -97.1717, 12.005, 0.070737, 0, 0, -0.997495) /* undeadactivatedgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882124359'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882124352'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882124404'; /* Shockwave Trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882124324'; /* Shockwave Trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1882124336'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1882124301'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1882124296'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1882124309'; /* Shockwave Trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1882124372'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1882124383'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1882124397'; /* Shockwave Trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1882124354'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882124359'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882124352'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882124404'; /* Shockwave Trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882124324'; /* Shockwave Trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1882124336'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1882124301'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1882124296'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1882124309'; /* Shockwave Trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1882124372'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1882124383'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1882124397'; /* Shockwave Trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1882124354'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882124360'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882124391'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882124349'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882124403'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882124406'; /* Shockwave Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882124323'; /* Shockwave Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1882124335'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1882124307'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1882124294'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1882124308'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1882124310'; /* Shockwave Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1882124368'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1882124364'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1882124377'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1882124395'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1882124396'; /* Shockwave Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1882124321'; /* linkmonstergen4minutes <- Lesser Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1882124291'; /* linkmonstergen4minutes <- Lesser Acolyte */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1882124363'; /* linkmonstergen4minutes <- High Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882124360'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882124391'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882124349'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882124403'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882124406'; /* Shockwave Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882124323'; /* Shockwave Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882124335'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1882124307'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1882124294'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1882124308'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1882124310'; /* Shockwave Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1882124368'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1882124364'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1882124377'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1882124395'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1882124396'; /* Shockwave Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1882124321'; /* linkmonstergen4minutes <- Lesser Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1882124291'; /* linkmonstergen4minutes <- Lesser Acolyte */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1882124363'; /* linkmonstergen4minutes <- High Acolyte */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1762, 1954926592, 1214054400, 116.054, 119.106, 4.18474, -0.70506, 0, 0, 0.709147) /* Skeleton Lord */
      , (1761, 1954926593, 1214054400, 116.298, 120.59, 4.21514, -0.894588, 0, 0, 0.446892) /* Skeleton Captain */
      , (1761, 1954926594, 1214054400, 117.181, 116.618, 3.67623, -0.803117, 0, 0, 0.595822) /* Skeleton Captain */
@@ -12,16 +12,16 @@ VALUES (1762, 1954926592, 1214054400, 116.054, 119.106, 4.18474, -0.70506, 0, 0,
      , (1936, 1954926602, 1214054400, 112.938, 118.467, 4.33808, 0.605725, 0, 0, 0.795674) /* Chest */
      , (1760, 1954926603, 1214054400, 110.528, 115.231, 3.99956, -0.931295, 0, 0, -0.364267) /* Skeleton Warrior */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1954926601'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1954926601'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926592'; /* linkmonstergen <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926593'; /* linkmonstergen <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926594'; /* linkmonstergen <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926595'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926596'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926597'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926598'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926599'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926600'; /* linkmonstergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1954926603'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926592'; /* linkmonstergen <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926593'; /* linkmonstergen <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926594'; /* linkmonstergen <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926595'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926596'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926597'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926598'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926599'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926600'; /* linkmonstergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1954926603'; /* linkmonstergen <- Skeleton Warrior */
 

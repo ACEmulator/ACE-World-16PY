@@ -1,18 +1,15 @@
 /* Weenie - Ursuin Hide Helmet (8663) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8663;
+DELETE FROM weenie WHERE class_Id = 8663;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8663, 'helmetursuin');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8663, 'helmetursuin', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8663, 0, 8663);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8663, 16, 'A helmet adorned and reinforced with Ursuin hide and bone.') /* LONG_DESC_STRING */
      , (8663, 1, 'Ursuin Hide Helmet') /* NAME_STRING */
      , (8663, 15, 'An Ursuin Helmet') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8663, 1, 33556942) /* SETUP_DID */
      , (8663, 3, 536870932) /* SOUND_TABLE_DID */
      , (8663, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (8663, 1, 33556942) /* SETUP_DID */
      , (8663, 7, 268436106) /* CLOTHINGBASE_DID */
      , (8663, 8, 100668243) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8663, 9, 1) /* LOCATIONS_INT */
      , (8663, 1, 2) /* ITEM_TYPE_INT */
      , (8663, 19, 3750) /* VALUE_INT */
@@ -33,10 +30,9 @@ VALUES (8663, 9, 1) /* LOCATIONS_INT */
      , (8663, 151, 2) /* HOOK_TYPE_INT */
      , (8663, 27, 4) /* ARMOR_TYPE_INT */
      , (8663, 28, 180) /* ARMOR_LEVEL_INT */
-     , (8663, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8663, 9007, 2) /* Clothing_WeenieType */;
+     , (8663, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8663, 12, 0.5) /* SHADE_FLOAT */
      , (8663, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8663, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -48,6 +44,6 @@ VALUES (8663, 12, 0.5) /* SHADE_FLOAT */
      , (8663, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (8663, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8663, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Auroch Fire Bull (1607) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1607;
+DELETE FROM weenie WHERE class_Id = 1607;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1607, 'aurochfirebull');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1607, 'aurochfirebull', /* Cow_WeenieType */ 15);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1607, 0, 1607);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1607, 1, 'Auroch Fire Bull') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1607, 1, 33554478) /* SETUP_DID */
      , (1607, 2, 150994969) /* MOTION_TABLE_DID */
      , (1607, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (1607, 1, 33554478) /* SETUP_DID */
      , (1607, 8, 100667936) /* ICON_DID */
      , (1607, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1607, 1, 16) /* ITEM_TYPE_INT */
      , (1607, 2, 11) /* CREATURE_TYPE_INT */
      , (1607, 67, 64) /* TOLERANCE_INT */
@@ -37,10 +34,9 @@ VALUES (1607, 1, 16) /* ITEM_TYPE_INT */
      , (1607, 25, 18) /* LEVEL_INT */
      , (1607, 27, 0) /* ARMOR_TYPE_INT */
      , (1607, 93, 1032) /* PHYSICS_STATE_INT */
-     , (1607, 40, 2) /* COMBAT_MODE_INT */
-     , (1607, 9007, 15) /* Cow_WeenieType */;
+     , (1607, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1607, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (1607, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (1607, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (1607, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (1607, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1607, 31, 23) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1607, 1, True) /* STUCK_BOOL */
      , (1607, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1607, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1607, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1607, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (1607, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (1607, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (1607, 8, 60) /* QUICKNESS_ATTRIBUTE */
-     , (1607, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (1607, 32, 70) /* SELF_ATTRIBUTE */;
+     , (1607, 3, 60) /* QUICKNESS_ATTRIBUTE */
+     , (1607, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (1607, 6, 70) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1607, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1607, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1607, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1607, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1607, 3, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1607, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1607, 9, 7039, 0, 0, 0.02, False) /* Create Fire Auroch Horn for ContainTreasure_DestinationType */
      , (1607, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (1607, 9, 20857, 0, 0, 0.04, False) /* Create Cooking Stamp for ContainTreasure_DestinationType */

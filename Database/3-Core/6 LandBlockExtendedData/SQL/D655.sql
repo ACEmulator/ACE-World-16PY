@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2103791616, 3595895045, 107.05, 82.24, 52.01, -1, 0, 0, 0) /* Door */
      , (720, 2103791617, 3595895056, 161.441, 111.957, 44, 0.707107, 0, 0, 0.707107) /* Sliding Door */
      , (720, 2103791618, 3595895057, 150.541, 104.032, 44, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -18,7 +18,7 @@ VALUES (412, 2103791616, 3595895045, 107.05, 82.24, 52.01, -1, 0, 0, 0) /* Door 
      , (5142, 2103791630, 3595894784, 107.622, 71.0277, 52.005, -0.998231, 0, 0, 0.0594489) /* IMPORTANT SIGN  */
      , (6441, 2103791633, 3595894784, 162.034, 75.6874, 44.005, 0.707107, 0, 0, -0.707107) /* Well */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2103791635'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2103791635'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2103791636'; /* linkmonstergen3minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2103791636'; /* linkmonstergen3minutes <- Sentry */
 

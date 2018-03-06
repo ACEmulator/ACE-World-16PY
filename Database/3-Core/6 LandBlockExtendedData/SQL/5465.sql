@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15834, 1967542272, 1415905536, 0, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Illsin Veranda */
      , (16895, 1967542273, 1415905536, 2.975, -29.975, 0.005, -0.707107, 0, 0, -0.707107) /* Illsin Veranda */
      , (15833, 1967542274, 1415905537, 0, -50, 0.005, 0.707107, 0, 0, -0.707107) /* Caerna Dwellings */

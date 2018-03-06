@@ -1,18 +1,15 @@
 /* Weenie - Staff Tattoo (22562) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22562;
+DELETE FROM weenie WHERE class_Id = 22562;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22562, 'tattoostaff');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22562, 'tattoostaff', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22562, 0, 22562);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22562, 16, 'A vial of tattoo ink infused with the power of crashing blades. When painted on the upper arms the ink will act as armor and will grant the wearer the power of crashing blades.') /* LONG_DESC_STRING */
      , (22562, 1, 'Staff Tattoo') /* NAME_STRING */
      , (22562, 15, 'A vial of tattoo ink used to draw staff tattoos.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22562, 1, 33554641) /* SETUP_DID */
      , (22562, 3, 536870932) /* SOUND_TABLE_DID */
      , (22562, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (22562, 1, 33554641) /* SETUP_DID */
      , (22562, 8, 100668172) /* ICON_DID */
      , (22562, 50, 100673782) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22562, 9, 2048) /* LOCATIONS_INT */
      , (22562, 1, 2) /* ITEM_TYPE_INT */
      , (22562, 27, 1) /* ARMOR_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (22562, 9, 2048) /* LOCATIONS_INT */
      , (22562, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (22562, 107, 1200) /* ITEM_CUR_MANA_INT */
      , (22562, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (22562, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (22562, 9007, 2) /* Clothing_WeenieType */;
+     , (22562, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22562, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22562, 5, -0.1) /* MANA_RATE_FLOAT */
      , (22562, 12, 0.33) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (22562, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22562, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22562, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22562, 22, True) /* INSCRIBABLE_BOOL */
      , (22562, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22562, 1029, 2) /* BludgeonProtectionOther6_SpellID */
      , (22562, 1384, 2) /* CoordinationOther6_SpellID */
      , (22562, 2693, 2) /* ModerateStaffAptitude_SpellID */

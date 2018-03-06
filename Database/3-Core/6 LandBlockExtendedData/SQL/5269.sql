@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14927, 1965461508, 1382613248, 0, -140, 0.005, 0.696707, 0, 0, -0.717356) /* Cold Feet Portal */
      , (14927, 1965461509, 1382613257, 20, -60, 0.005, 0.020795, 0, 0, -0.999784) /* Cold Feet Portal */
      , (5624, 1965461529, 1382613283, 34.7616, -39.9769, 0.005, -0.707107, 0, 0, -0.707107) /* Door */
@@ -24,17 +24,17 @@ VALUES (14927, 1965461508, 1382613248, 0, -140, 0.005, 0.696707, 0, 0, -0.717356
      , (5624, 1965461535, 1382613427, 110.064, -34.752, 0.005, 1, 0, 0, 0) /* Door */
      , (14908, 1965461522, 1382613429, 110, -50, 0.027, 1, 0, 0, -4.37114E-08) /* Greed */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1965461514'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1965461538'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1965461536'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1965461537'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1965461539'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965461514'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965461538'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965461536'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1965461537'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1965461539'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965461513'; /* linkmonstergen30seconds <- Jealousy */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965461512'; /* linkmonstergen30seconds <- Anger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965461522'; /* linkmonstergen30seconds <- Greed */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965461524'; /* Door <- Wedding Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1965461523'; /* Door <- Wedding Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1965461532'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1965461527'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965461513'; /* linkmonstergen30seconds <- Jealousy */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965461512'; /* linkmonstergen30seconds <- Anger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965461522'; /* linkmonstergen30seconds <- Greed */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965461524'; /* Door <- Wedding Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965461523'; /* Door <- Wedding Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1965461532'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1965461527'; /* Door <- Button */
 

@@ -1,24 +1,20 @@
 /* Weenie - Advocate Channel 1 (2349) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2349;
+DELETE FROM weenie WHERE class_Id = 2349;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2349, 'channel-advocate1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2349, 'channel-advocate1', /* Channel_WeenieType */ 36);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2349, 0, 2349);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2349, 1, 'Advocate Channel 1') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2349, 1, 33555397) /* SETUP_DID */
      , (2349, 8, 100667388) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2349, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2349, 9007, 36) /* Channel_WeenieType */;
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (2349, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2349, 1, True) /* STUCK_BOOL */
      , (2349, 18, True) /* VISIBILITY_BOOL */;
 

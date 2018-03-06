@@ -1,17 +1,14 @@
 /* Weenie - Bladed Bow of Impaling (27177) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27177;
+DELETE FROM weenie WHERE class_Id = 27177;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27177, 'bowliazk3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27177, 'bowliazk3', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27177, 0, 27177);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27177, 16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LONG_DESC_STRING */
      , (27177, 1, 'Bladed Bow of Impaling') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27177, 1, 33558633) /* SETUP_DID */
      , (27177, 3, 536870932) /* SOUND_TABLE_DID */
      , (27177, 30, 87) /* PHYSICS_SCRIPT_DID */
@@ -20,7 +17,7 @@ VALUES (27177, 1, 33558633) /* SETUP_DID */
      , (27177, 7, 268436792) /* CLOTHINGBASE_DID */
      , (27177, 8, 100675922) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27177, 9, 4194304) /* LOCATIONS_INT */
      , (27177, 1, 256) /* ITEM_TYPE_INT */
      , (27177, 19, 4000) /* VALUE_INT */
@@ -47,10 +44,9 @@ VALUES (27177, 9, 4194304) /* LOCATIONS_INT */
      , (27177, 51, 2) /* COMBAT_USE_INT */
      , (27177, 52, 2) /* PARENT_LOCATION_INT */
      , (27177, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (27177, 60, 200) /* WEAPON_RANGE_INT */
-     , (27177, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (27177, 60, 200) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27177, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27177, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (27177, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -61,12 +57,12 @@ VALUES (27177, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27177, 26, 26.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (27177, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27177, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27177, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27177, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27177, 1604, 2) /* Defender5_SpellID */
      , (27177, 1616, 2) /* BloodDrinker6_SpellID */
      , (27177, 1627, 2) /* SwiftKiller6_SpellID */

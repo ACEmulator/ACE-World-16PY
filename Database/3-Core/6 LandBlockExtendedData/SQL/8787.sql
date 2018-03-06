@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1762, 2021158928, 2273771776, 150.115, 173.818, 108.005, -0.749725, 0, 0, 0.66175) /* Skeleton Lord */
      , (1148, 2021158912, 2273771779, 152.092, 184.985, 108, 1, 0, 0, 0) /* Door */
      , (1762, 2021158934, 2273771779, 152.698, 177.197, 108.005, -0.984348, 0, 0, -0.176233) /* Skeleton Lord */
@@ -15,16 +15,16 @@ VALUES (1762, 2021158928, 2273771776, 150.115, 173.818, 108.005, -0.749725, 0, 0
      , (1762, 2021158931, 2273771520, 150.062, 180.181, 116.805, -0.904134, 0, 0, 0.427249) /* Skeleton Lord */
      , (22208, 2021158930, 2273771520, 154.032, 179.108, 116.805, -0.901893, 0, 0, -0.431959) /* Skeleton Wraith */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2021158924'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2021158924'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158925'; /* linkmonstergen7minutes <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158926'; /* linkmonstergen7minutes <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158927'; /* linkmonstergen7minutes <- Skeleton Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158928'; /* linkmonstergen7minutes <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158929'; /* linkmonstergen7minutes <- Skeleton Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158930'; /* linkmonstergen7minutes <- Skeleton Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158931'; /* linkmonstergen7minutes <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158932'; /* linkmonstergen7minutes <- Risen Knight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158933'; /* linkmonstergen7minutes <- Silver Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2021158934'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158925'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158926'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158927'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158928'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158929'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158930'; /* linkmonstergen7minutes <- Skeleton Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158931'; /* linkmonstergen7minutes <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158932'; /* linkmonstergen7minutes <- Risen Knight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158933'; /* linkmonstergen7minutes <- Silver Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2021158934'; /* linkmonstergen7minutes <- Skeleton Lord */
 

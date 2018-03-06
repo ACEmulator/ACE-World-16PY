@@ -1,16 +1,13 @@
 /* Weenie - Dranith Menacet (14428) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14428;
+DELETE FROM weenie WHERE class_Id = 14428;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14428, 'hollowminionregicideboss');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14428, 'hollowminionregicideboss', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14428, 0, 14428);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14428, 1, 'Dranith Menacet') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14428, 1, 33556792) /* SETUP_DID */
      , (14428, 2, 150995146) /* MOTION_TABLE_DID */
      , (14428, 35, 329) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (14428, 1, 33556792) /* SETUP_DID */
      , (14428, 8, 100671140) /* ICON_DID */
      , (14428, 22, 872415367) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14428, 1, 16) /* ITEM_TYPE_INT */
      , (14428, 2, 48) /* CREATURE_TYPE_INT */
      , (14428, 140, 1) /* AI_OPTIONS_INT */
@@ -32,10 +29,9 @@ VALUES (14428, 1, 16) /* ITEM_TYPE_INT */
      , (14428, 146, 3179) /* XP_OVERRIDE_INT */
      , (14428, 25, 43) /* LEVEL_INT */
      , (14428, 27, 0) /* ARMOR_TYPE_INT */
-     , (14428, 93, 1032) /* PHYSICS_STATE_INT */
-     , (14428, 9007, 10) /* Creature_WeenieType */;
+     , (14428, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14428, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (14428, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (14428, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -66,7 +62,7 @@ VALUES (14428, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (14428, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (14428, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14428, 1, True) /* STUCK_BOOL */
      , (14428, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (14428, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -74,19 +70,19 @@ VALUES (14428, 1, True) /* STUCK_BOOL */
      , (14428, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14428, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (14428, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (14428, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (14428, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (14428, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (14428, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (14428, 32, 40) /* SELF_ATTRIBUTE */;
+     , (14428, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (14428, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (14428, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14428, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14428, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14428, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (14428, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14428, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14428, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14428, 1, 14438, 1, 0, 0, False) /* Create Menacet's Orders for Contain_DestinationType */;
 

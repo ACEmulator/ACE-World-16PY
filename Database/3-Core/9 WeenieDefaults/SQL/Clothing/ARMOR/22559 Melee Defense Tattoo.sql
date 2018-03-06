@@ -1,18 +1,15 @@
 /* Weenie - Melee Defense Tattoo (22559) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22559;
+DELETE FROM weenie WHERE class_Id = 22559;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22559, 'tattoomeleedefense');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22559, 'tattoomeleedefense', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22559, 0, 22559);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22559, 16, 'A vial of tattoo ink infused with the power of whistling wind. When painted on the upper arms the ink will act as armor and will grant the wearer the power of whistling wind.') /* LONG_DESC_STRING */
      , (22559, 1, 'Melee Defense Tattoo') /* NAME_STRING */
      , (22559, 15, 'A vial of tattoo ink used to draw melee defense tattoos.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22559, 1, 33554641) /* SETUP_DID */
      , (22559, 3, 536870932) /* SOUND_TABLE_DID */
      , (22559, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (22559, 1, 33554641) /* SETUP_DID */
      , (22559, 8, 100668172) /* ICON_DID */
      , (22559, 50, 100673778) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22559, 9, 4096) /* LOCATIONS_INT */
      , (22559, 1, 2) /* ITEM_TYPE_INT */
      , (22559, 27, 1) /* ARMOR_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (22559, 9, 4096) /* LOCATIONS_INT */
      , (22559, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (22559, 107, 1200) /* ITEM_CUR_MANA_INT */
      , (22559, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (22559, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (22559, 9007, 2) /* Clothing_WeenieType */;
+     , (22559, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22559, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22559, 5, -0.1) /* MANA_RATE_FLOAT */
      , (22559, 12, 0.33) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (22559, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22559, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22559, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22559, 22, True) /* INSCRIBABLE_BOOL */
      , (22559, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22559, 1384, 2) /* CoordinationOther6_SpellID */
      , (22559, 1408, 2) /* QuicknessOther6_SpellID */
      , (22559, 1317, 2) /* ArmorOther6_SpellID */

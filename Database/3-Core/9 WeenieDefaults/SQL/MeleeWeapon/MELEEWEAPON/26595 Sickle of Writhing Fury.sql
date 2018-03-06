@@ -1,17 +1,14 @@
 /* Weenie - Sickle of Writhing Fury (26595) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26595;
+DELETE FROM weenie WHERE class_Id = 26595;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26595, 'sickleixir1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26595, 'sickleixir1', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26595, 0, 26595);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26595, 1, 'Sickle of Writhing Fury') /* NAME_STRING */
      , (26595, 15, 'A sickle once used for bloodletting in Falatacot rites.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26595, 1, 33558593) /* SETUP_DID */
      , (26595, 3, 536870932) /* SOUND_TABLE_DID */
      , (26595, 30, 87) /* PHYSICS_SCRIPT_DID */
@@ -20,7 +17,7 @@ VALUES (26595, 1, 33558593) /* SETUP_DID */
      , (26595, 7, 268436792) /* CLOTHINGBASE_DID */
      , (26595, 8, 100675777) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26595, 9, 1048576) /* LOCATIONS_INT */
      , (26595, 1, 1) /* ITEM_TYPE_INT */
      , (26595, 19, 2000) /* VALUE_INT */
@@ -44,10 +41,9 @@ VALUES (26595, 9, 1048576) /* LOCATIONS_INT */
      , (26595, 47, 4) /* ATTACK_TYPE_INT */
      , (26595, 48, 1) /* WEAPON_SKILL_INT */
      , (26595, 49, 65) /* WEAPON_TIME_INT */
-     , (26595, 51, 1) /* COMBAT_USE_INT */
-     , (26595, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (26595, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26595, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26595, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (26595, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (26595, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (26595, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (26595, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26595, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26595, 1603, 2) /* Defender4_SpellID */
      , (26595, 2675, 2) /* FeebleAxeAptitude_SpellID */
      , (26595, 1615, 2) /* BloodDrinker5_SpellID */

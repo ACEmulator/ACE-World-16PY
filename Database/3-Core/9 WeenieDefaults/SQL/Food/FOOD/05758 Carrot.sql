@@ -1,25 +1,22 @@
 /* Weenie - Carrot (5758) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5758;
+DELETE FROM weenie WHERE class_Id = 5758;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5758, 'carrot');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5758, 'carrot', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5758, 0, 5758);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5758, 1, 'Carrot') /* NAME_STRING */
      , (5758, 20, 'Carrots') /* PLURAL_NAME_STRING */
      , (5758, 14, 'Use this item to eat it.') /* USE_STRING */
      , (5758, 15, 'Sweet carrots of a fine, rich orange hue.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5758, 1, 33556220) /* SETUP_DID */
      , (5758, 3, 536870932) /* SOUND_TABLE_DID */
      , (5758, 8, 100670276) /* ICON_DID */
      , (5758, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5758, 9, 0) /* LOCATIONS_INT */
      , (5758, 1, 32) /* ITEM_TYPE_INT */
      , (5758, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -35,6 +32,5 @@ VALUES (5758, 9, 0) /* LOCATIONS_INT */
      , (5758, 151, 2) /* HOOK_TYPE_INT */
      , (5758, 89, 4) /* BOOSTER_ENUM_INT */
      , (5758, 90, 3) /* BOOST_VALUE_INT */
-     , (5758, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5758, 9007, 18) /* Food_WeenieType */;
+     , (5758, 93, 1044) /* PHYSICS_STATE_INT */;
 

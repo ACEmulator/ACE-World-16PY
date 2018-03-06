@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3981, 1881976832, 46858496, 3.02628, -10.349, -5.995, 0.435066, 0, 0, 0.900399) /* Chest */
      , (1763, 1881976833, 46858496, 3.99778, -10.4463, -5.995, -0.719117, 0, 0, 0.694889) /* Lesser Mu-miyah */
      , (1986, 1881976834, 46858497, 12.3118, -10.1916, -5.995, -0.751207, 0, 0, 0.660067) /* Water Wisp */
@@ -50,35 +50,35 @@ VALUES (3981, 1881976832, 46858496, 3.02628, -10.349, -5.995, 0.435066, 0, 0, 0.
      , (950, 1881976880, 46858711, 39.1121, -60.5635, 12.0075, 0.994154, 0, 0, 0.107974) /* Zombie */
      , (1301, 1881976881, 46858714, 40, -55.25, 12, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881976849'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881976849'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976841'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976837'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976838'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976844'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976846'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976834'; /* linkmonstergen7minutes <- Water Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976835'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976836'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976843'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976851'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976854'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976874'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976859'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976860'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976871'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976862'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976863'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976864'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976880'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976865'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976879'; /* linkmonstergen7minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976867'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976868'; /* linkmonstergen7minutes <- Zombie */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976878'; /* linkmonstergen7minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976876'; /* linkmonstergen7minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976855'; /* linkmonstergen7minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976839'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976840'; /* linkmonstergen7minutes <- Black Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881976833'; /* linkmonstergen7minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976841'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976837'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976838'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976844'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976846'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976834'; /* linkmonstergen7minutes <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976835'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976836'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976843'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976851'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976854'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976874'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976859'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976860'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976871'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976862'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976863'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976864'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976880'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976865'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976879'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976867'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976868'; /* linkmonstergen7minutes <- Zombie */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976878'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976876'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976855'; /* linkmonstergen7minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976839'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976840'; /* linkmonstergen7minutes <- Black Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881976833'; /* linkmonstergen7minutes <- Lesser Mu-miyah */
 

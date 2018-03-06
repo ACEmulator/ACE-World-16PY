@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (214, 1908129792, 465305600, 51.2691, 110.547, 96.005, -0.324304, 0, 0, -0.945953) /* Olthoi Soldier */
      , (214, 1908129793, 465305600, 51.4557, 106.116, 96.005, -0.157827, 0, 0, -0.987467) /* Olthoi Soldier */
      , (214, 1908129794, 465305600, 55.5893, 108.752, 96.005, 0.202298, 0, 0, -0.979324) /* Olthoi Soldier */
@@ -13,18 +13,18 @@ VALUES (214, 1908129792, 465305600, 51.2691, 110.547, 96.005, -0.324304, 0, 0, -
      , (11520, 1908129803, 465305600, 127.762, 57.1209, 82.006, -0.995291, 0, 0, 0.0969314) /* Hea Nualuan */
      , (11520, 1908129804, 465305600, 126.468, 55.5423, 82.006, -0.938057, 0, 0, -0.34648) /* Hea Nualuan */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908129795'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1908129795'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129792'; /* linkmonstergen3minutes <- Olthoi Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129793'; /* linkmonstergen3minutes <- Olthoi Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129794'; /* linkmonstergen3minutes <- Olthoi Soldier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129796'; /* linkmonstergen3minutes <- Hea Itealuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129797'; /* linkmonstergen3minutes <- Hea Itealuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129798'; /* linkmonstergen3minutes <- Hea Itealuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129799'; /* linkmonstergen3minutes <- Hea Elder Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129800'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129801'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129802'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129803'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908129804'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129792'; /* linkmonstergen3minutes <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129793'; /* linkmonstergen3minutes <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129794'; /* linkmonstergen3minutes <- Olthoi Soldier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129796'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129797'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129798'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129799'; /* linkmonstergen3minutes <- Hea Elder Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129800'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129801'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129802'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129803'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908129804'; /* linkmonstergen3minutes <- Hea Nualuan */
 

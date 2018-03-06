@@ -1,16 +1,13 @@
 /* Weenie - A Society Bracelet Of Coordination (8683) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8683;
+DELETE FROM weenie WHERE class_Id = 8683;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8683, 'braceletcoordinationnewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8683, 'braceletcoordinationnewbiequest', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8683, 0, 8683);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8683, 1, 'A Society Bracelet Of Coordination') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8683, 1, 33554683) /* SETUP_DID */
      , (8683, 3, 536870932) /* SOUND_TABLE_DID */
      , (8683, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (8683, 1, 33554683) /* SETUP_DID */
      , (8683, 7, 268435738) /* CLOTHINGBASE_DID */
      , (8683, 8, 100675471) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8683, 9, 196608) /* LOCATIONS_INT */
      , (8683, 1, 8) /* ITEM_TYPE_INT */
      , (8683, 19, 1) /* VALUE_INT */
@@ -32,17 +29,16 @@ VALUES (8683, 9, 196608) /* LOCATIONS_INT */
      , (8683, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (8683, 107, 400) /* ITEM_CUR_MANA_INT */
      , (8683, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (8683, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (8683, 9007, 1) /* Generic_WeenieType */;
+     , (8683, 109, 15) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8683, 5, -0.025) /* MANA_RATE_FLOAT */
      , (8683, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8683, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (8683, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8683, 1380, 2) /* CoordinationOther2_SpellID */;
 

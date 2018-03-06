@@ -1,19 +1,16 @@
 /* Weenie - Composite Arm (7050) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7050;
+DELETE FROM weenie WHERE class_Id = 7050;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7050, 'bowcompositearmsin2hrn2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7050, 'bowcompositearmsin2hrn2', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7050, 0, 7050);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7050, 16, 'A composite arm, made of the sinew of a Lugian and a Great Mattekar horn.') /* LONG_DESC_STRING */
      , (7050, 1, 'Composite Arm') /* NAME_STRING */
      , (7050, 14, 'Combine this with another composite arm. ') /* USE_STRING */
      , (7050, 15, 'A composite arm, made of the sinew of a Lugian and a Great Mattekar horn.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7050, 1, 33556599) /* SETUP_DID */
      , (7050, 3, 536870932) /* SOUND_TABLE_DID */
      , (7050, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (7050, 1, 33556599) /* SETUP_DID */
      , (7050, 7, 268436000) /* CLOTHINGBASE_DID */
      , (7050, 8, 100670674) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7050, 9, 0) /* LOCATIONS_INT */
      , (7050, 1, 128) /* ITEM_TYPE_INT */
      , (7050, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,10 +32,9 @@ VALUES (7050, 9, 0) /* LOCATIONS_INT */
      , (7050, 16, 524296) /* ITEM_USEABLE_INT */
      , (7050, 19, 0) /* VALUE_INT */
      , (7050, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7050, 94, 128) /* TARGET_TYPE_INT */
-     , (7050, 9007, 44) /* CraftTool_WeenieType */;
+     , (7050, 94, 128) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7050, 69, False) /* IS_SELLABLE_BOOL */
      , (7050, 22, True) /* INSCRIBABLE_BOOL */
      , (7050, 23, True) /* DESTROY_ON_SELL_BOOL */;

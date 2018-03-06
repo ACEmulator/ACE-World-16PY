@@ -1,17 +1,14 @@
 /* Weenie - Qin Xikit's Crown (29591) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29591;
+DELETE FROM weenie WHERE class_Id = 29591;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29591, 'crownqinxikit');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29591, 'crownqinxikit', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29591, 0, 29591);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29591, 16, 'A crown once worn by Qin Xikit, not the key to opening the portal to her island. Perhaps if this were placed onto a dais that had a fitting for the crown it would open the way to her island.') /* LONG_DESC_STRING */
      , (29591, 1, 'Qin Xikit''s Crown') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29591, 1, 33554809) /* SETUP_DID */
      , (29591, 3, 536870932) /* SOUND_TABLE_DID */
      , (29591, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (29591, 1, 33554809) /* SETUP_DID */
      , (29591, 7, 268435723) /* CLOTHINGBASE_DID */
      , (29591, 8, 100675772) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29591, 9, 0) /* LOCATIONS_INT */
      , (29591, 1, 2048) /* ITEM_TYPE_INT */
      , (29591, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,13 +34,12 @@ VALUES (29591, 9, 0) /* LOCATIONS_INT */
      , (29591, 151, 2) /* HOOK_TYPE_INT */
      , (29591, 93, 1044) /* PHYSICS_STATE_INT */
      , (29591, 33, 1) /* BONDED_INT */
-     , (29591, 114, 1) /* ATTUNED_INT */
-     , (29591, 9007, 38) /* Gem_WeenieType */;
+     , (29591, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29591, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29591, 22, True) /* INSCRIBABLE_BOOL */
      , (29591, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

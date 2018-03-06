@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14584, 1965465600, 1382678784, 70.3223, -75.9365, -42, -4.37114E-08, 0, 0, -1) /* Return to Dereth */
      , (14560, 1965465601, 1382678808, 70, -60, -30, 1, 0, 0, 0) /* Quiddity Rift */
      , (14584, 1965465602, 1382678836, 134.153, -80.1877, -35.995, 0.712431, 0, 0, 0.701742) /* Return to Dereth */
@@ -52,24 +52,24 @@ VALUES (14584, 1965465600, 1382678784, 70.3223, -75.9365, -42, -4.37114E-08, 0, 
      , (14575, 1965465652, 1382679328, 69.9862, -70.1228, -11.7666, 1, 0, 0, 0) /* Aun Tanua */
      , (7923, 1965465653, 1382679328, 66.9413, -65.8488, -11.995, 0.094411, 0, 0, -0.995533) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1965465653'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1965465633'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1965465629'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965465653'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965465633'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965465629'; /* Virindi Crystal */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465649'; /* linkmonstergen3minutes <- Lilitha */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465652'; /* linkmonstergen3minutes <- Aun Tanua */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465630'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465631'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465627'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465611'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465650'; /* linkmonstergen3minutes <- Yalaini Woman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465607'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465651'; /* linkmonstergen3minutes <- Yalaini Man */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465603'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465605'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465604'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465654'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965465601'; /* linkmonstergen3minutes <- Quiddity Rift */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965465632'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1965465628'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465649'; /* linkmonstergen3minutes <- Lilitha */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465652'; /* linkmonstergen3minutes <- Aun Tanua */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465630'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465631'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465627'; /* linkmonstergen3minutes <- Vibrant Virindi Energy Cluster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465611'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465650'; /* linkmonstergen3minutes <- Yalaini Woman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465607'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465651'; /* linkmonstergen3minutes <- Yalaini Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465603'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465605'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465604'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465654'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965465601'; /* linkmonstergen3minutes <- Quiddity Rift */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965465632'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965465628'; /* Virindi Crystal <- Pressure Plate */
 

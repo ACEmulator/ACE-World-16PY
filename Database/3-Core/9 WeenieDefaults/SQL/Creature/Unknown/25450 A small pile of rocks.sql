@@ -1,22 +1,19 @@
 /* Weenie - A small pile of rocks (25450) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25450;
+DELETE FROM weenie WHERE class_Id = 25450;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25450, 'chestrockpilerot2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25450, 'chestrockpilerot2', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25450, 0, 25450);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25450, 1, 'A small pile of rocks') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25450, 1, 33558434) /* SETUP_DID */
      , (25450, 2, 150995252) /* MOTION_TABLE_DID */
      , (25450, 3, 536870949) /* SOUND_TABLE_DID */
      , (25450, 8, 100674798) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25450, 1, 16) /* ITEM_TYPE_INT */
      , (25450, 2, 40) /* CREATURE_TYPE_INT */
      , (25450, 133, 0) /* SHOWABLE_ON_RADAR_INT */
@@ -30,10 +27,9 @@ VALUES (25450, 1, 16) /* ITEM_TYPE_INT */
      , (25450, 25, 66) /* LEVEL_INT */
      , (25450, 27, 0) /* ARMOR_TYPE_INT */
      , (25450, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (25450, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (25450, 9007, 10) /* Creature_WeenieType */;
+     , (25450, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25450, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25450, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25450, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -62,7 +58,7 @@ VALUES (25450, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25450, 54, 3) /* USE_RADIUS_FLOAT */
      , (25450, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25450, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25450, 1, True) /* STUCK_BOOL */
      , (25450, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -74,16 +70,16 @@ VALUES (25450, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25450, 19, False) /* ATTACKABLE_BOOL */
      , (25450, 90, True) /* NPC_INTERACTS_SILENTLY_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25450, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (25450, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (25450, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (25450, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (25450, 16, 240) /* FOCUS_ATTRIBUTE */
-     , (25450, 32, 30) /* SELF_ATTRIBUTE */;
+     , (25450, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (25450, 5, 240) /* FOCUS_ATTRIBUTE */
+     , (25450, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25450, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25450, 128, 235) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25450, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25450, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25450, 3, 235) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25450, 5, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 

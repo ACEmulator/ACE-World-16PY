@@ -1,18 +1,15 @@
 /* Weenie - Corcima Castle Central Ward Portal Sending Gem (29443) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29443;
+DELETE FROM weenie WHERE class_Id = 29443;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29443, 'gemportalcorcimacastlecentersilver');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29443, 'gemportalcorcimacastlecentersilver', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29443, 0, 29443);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29443, 1, 'Corcima Castle Central Ward Portal Sending Gem') /* NAME_STRING */
      , (29443, 14, 'Double Click on this portal gem to transport yourself to the Abandoned Mines.') /* USE_STRING */
      , (29443, 15, 'A glowing red gem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29443, 1, 33556769) /* SETUP_DID */
      , (29443, 3, 536870932) /* SOUND_TABLE_DID */
      , (29443, 28, 2942) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (29443, 1, 33556769) /* SETUP_DID */
      , (29443, 7, 268435723) /* CLOTHINGBASE_DID */
      , (29443, 8, 100672368) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29443, 9, 0) /* LOCATIONS_INT */
      , (29443, 1, 2048) /* ITEM_TYPE_INT */
      , (29443, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -46,13 +43,12 @@ VALUES (29443, 9, 0) /* LOCATIONS_INT */
      , (29443, 108, 70) /* ITEM_MAX_MANA_INT */
      , (29443, 109, 40) /* ITEM_DIFFICULTY_INT */
      , (29443, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (29443, 114, 0) /* ATTUNED_INT */
-     , (29443, 9007, 38) /* Gem_WeenieType */;
+     , (29443, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29443, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29443, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (29443, 15, True) /* LIGHTS_STATUS_BOOL */;
 

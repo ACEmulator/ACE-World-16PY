@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1363, 1880961024, 30605580, 10, -20, 0, 1, 0, 0, 0) /* Base of Mt. Zabool */
      , (396, 1880961025, 30605586, 2.1605, 0.737083, 6, 1, 0, 0, 0) /* reedshark-generator */
      , (907, 1880961026, 30605594, 19.2034, -10.4107, 6, 1, 0, 0, 0) /* reedsharkpupgen */

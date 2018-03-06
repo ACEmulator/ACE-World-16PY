@@ -1,16 +1,13 @@
 /* Weenie - Sotiris Hollow Minion (8270) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8270;
+DELETE FROM weenie WHERE class_Id = 8270;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8270, 'hollowminionsotiris');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8270, 'hollowminionsotiris', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8270, 0, 8270);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8270, 1, 'Sotiris Hollow Minion') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8270, 1, 33556792) /* SETUP_DID */
      , (8270, 2, 150995101) /* MOTION_TABLE_DID */
      , (8270, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (8270, 1, 33556792) /* SETUP_DID */
      , (8270, 8, 100671140) /* ICON_DID */
      , (8270, 22, 872415367) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8270, 1, 16) /* ITEM_TYPE_INT */
      , (8270, 2, 48) /* CREATURE_TYPE_INT */
      , (8270, 140, 1) /* AI_OPTIONS_INT */
@@ -32,10 +29,9 @@ VALUES (8270, 1, 16) /* ITEM_TYPE_INT */
      , (8270, 146, 6846) /* XP_OVERRIDE_INT */
      , (8270, 25, 44) /* LEVEL_INT */
      , (8270, 27, 0) /* ARMOR_TYPE_INT */
-     , (8270, 93, 1032) /* PHYSICS_STATE_INT */
-     , (8270, 9007, 10) /* Creature_WeenieType */;
+     , (8270, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8270, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (8270, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (8270, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -66,7 +62,7 @@ VALUES (8270, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (8270, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8270, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8270, 1, True) /* STUCK_BOOL */
      , (8270, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (8270, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -74,20 +70,20 @@ VALUES (8270, 1, True) /* STUCK_BOOL */
      , (8270, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8270, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8270, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (8270, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (8270, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (8270, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (8270, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (8270, 32, 40) /* SELF_ATTRIBUTE */;
+     , (8270, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (8270, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (8270, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8270, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8270, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8270, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8270, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8270, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8270, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8270, 9, 25559, 0, 0, 0.05, False) /* Create Hollow Minion's Face for ContainTreasure_DestinationType */
      , (8270, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

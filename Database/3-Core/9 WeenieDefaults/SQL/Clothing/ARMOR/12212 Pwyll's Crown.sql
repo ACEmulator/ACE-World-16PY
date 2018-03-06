@@ -1,18 +1,15 @@
 /* Weenie - Pwyll's Crown (12212) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12212;
+DELETE FROM weenie WHERE class_Id = 12212;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12212, 'regaliaaluvianhi');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12212, 'regaliaaluvianhi', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12212, 0, 12212);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12212, 16, 'This masterfully crafted mask makes other masks look like child''s play. The features almost look alive, and it is a comfortable fit on your head.') /* LONG_DESC_STRING */
      , (12212, 1, 'Pwyll''s Crown') /* NAME_STRING */
      , (12212, 19, 'Aluvian') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12212, 1, 33557384) /* SETUP_DID */
      , (12212, 3, 536870932) /* SOUND_TABLE_DID */
      , (12212, 37, 4) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (12212, 1, 33557384) /* SETUP_DID */
      , (12212, 7, 268436287) /* CLOTHINGBASE_DID */
      , (12212, 8, 100672216) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12212, 9, 1) /* LOCATIONS_INT */
      , (12212, 1, 2) /* ITEM_TYPE_INT */
      , (12212, 19, 4000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (12212, 9, 1) /* LOCATIONS_INT */
      , (12212, 107, 400) /* ITEM_CUR_MANA_INT */
      , (12212, 108, 400) /* ITEM_MAX_MANA_INT */
      , (12212, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (12212, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12212, 9007, 2) /* Clothing_WeenieType */;
+     , (12212, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12212, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12212, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (12212, 12, 0.66) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (12212, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12212, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (12212, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12212, 22, True) /* INSCRIBABLE_BOOL */
      , (12212, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12212, 326, 2) /* DaggerMasterySelf5_SpellID */
      , (12212, 1311, 2) /* ArmorSelf5_SpellID */
      , (12212, 680, 2) /* ArcaneEnlightenmentSelf3_SpellID */

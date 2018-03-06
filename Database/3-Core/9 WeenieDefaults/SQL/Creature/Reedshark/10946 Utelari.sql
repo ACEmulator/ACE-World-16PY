@@ -1,16 +1,13 @@
 /* Weenie - Utelari (10946) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10946;
+DELETE FROM weenie WHERE class_Id = 10946;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10946, 'reedsharkhunter3-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10946, 'reedsharkhunter3-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10946, 0, 10946);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10946, 1, 'Utelari') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10946, 1, 33554489) /* SETUP_DID */
      , (10946, 2, 150994970) /* MOTION_TABLE_DID */
      , (10946, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (10946, 1, 33554489) /* SETUP_DID */
      , (10946, 7, 268435556) /* CLOTHINGBASE_DID */
      , (10946, 8, 100667939) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10946, 1, 16) /* ITEM_TYPE_INT */
      , (10946, 2, 16) /* CREATURE_TYPE_INT */
      , (10946, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (10946, 1, 16) /* ITEM_TYPE_INT */
      , (10946, 146, 20297) /* XP_OVERRIDE_INT */
      , (10946, 25, 85) /* LEVEL_INT */
      , (10946, 93, 1032) /* PHYSICS_STATE_INT */
-     , (10946, 40, 2) /* COMBAT_MODE_INT */
-     , (10946, 9007, 10) /* Creature_WeenieType */;
+     , (10946, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10946, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10946, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (10946, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,29 +67,29 @@ VALUES (10946, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10946, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10946, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10946, 1, True) /* STUCK_BOOL */
      , (10946, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (10946, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (10946, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10946, 2421, 2.05) /* ParalyzingFear_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10946, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (10946, 2, 260) /* ENDURANCE_ATTRIBUTE */
      , (10946, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (10946, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (10946, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (10946, 32, 80) /* SELF_ATTRIBUTE */;
+     , (10946, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (10946, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (10946, 6, 80) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10946, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10946, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10946, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10946, 1, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10946, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10946, 5, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10946, 9, 10972, 0, 0, 1, False) /* Create Utelari's Collar for ContainTreasure_DestinationType */
      , (10946, 9, 10976, 0, 0, 1, False) /* Create Virindi Implant for ContainTreasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3954, 2045939725, 2670264582, 11.4933, 156.367, 290.005, -0.411547, 0, 0, 0.911388) /* linkitemgen15minutes */
      , (5768, 2045939724, 2670264582, 12.978, 155.022, 290.93, 0.324702, 0, 0, 0.945816) /* Poofy Snowball */
      , (5768, 2045939723, 2670264582, 13.4492, 154.939, 290.93, 0.324702, 0, 0, 0.945816) /* Poofy Snowball */
@@ -14,18 +14,18 @@ VALUES (3954, 2045939725, 2670264582, 11.4933, 156.367, 290.005, -0.411547, 0, 0
      , (25791, 2045939720, 2670264320, 35.9044, 132.257, 290.005, 0.00287147, 0, 0, -0.999996) /* Numb */
      , (25790, 2045939719, 2670264320, 36.6449, 135.789, 290.005, -0.920189, 0, 0, -0.391474) /* Nip */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045939713'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2045939725'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045939713'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2045939725'; /* linkitemgen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939712'; /* linkmonstergen7minutes <- Sam */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939714'; /* linkmonstergen7minutes <- Robert */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939715'; /* linkmonstergen7minutes <- The Mayor */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939717'; /* linkmonstergen7minutes <- Emma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939716'; /* linkmonstergen7minutes <- Elijah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939718'; /* linkmonstergen7minutes <- Chef Pleist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939719'; /* linkmonstergen7minutes <- Nip */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045939720'; /* linkmonstergen7minutes <- Numb */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939722'; /* linkitemgen15minutes <- Poofy Snowball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939723'; /* linkitemgen15minutes <- Poofy Snowball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045939724'; /* linkitemgen15minutes <- Poofy Snowball */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939712'; /* linkmonstergen7minutes <- Sam */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939714'; /* linkmonstergen7minutes <- Robert */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939715'; /* linkmonstergen7minutes <- The Mayor */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939717'; /* linkmonstergen7minutes <- Emma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939716'; /* linkmonstergen7minutes <- Elijah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939718'; /* linkmonstergen7minutes <- Chef Pleist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939719'; /* linkmonstergen7minutes <- Nip */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045939720'; /* linkmonstergen7minutes <- Numb */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939722'; /* linkitemgen15minutes <- Poofy Snowball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939723'; /* linkitemgen15minutes <- Poofy Snowball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045939724'; /* linkitemgen15minutes <- Poofy Snowball */
 

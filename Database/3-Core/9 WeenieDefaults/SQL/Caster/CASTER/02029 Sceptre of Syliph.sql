@@ -1,16 +1,13 @@
 /* Weenie - Sceptre of Syliph (2029) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2029;
+DELETE FROM weenie WHERE class_Id = 2029;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2029, 'syliphsceptre');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2029, 'syliphsceptre', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2029, 0, 2029);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2029, 1, 'Sceptre of Syliph') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2029, 1, 33554704) /* SETUP_DID */
      , (2029, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (2029, 3, 536870932) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (2029, 1, 33554704) /* SETUP_DID */
      , (2029, 7, 268435755) /* CLOTHINGBASE_DID */
      , (2029, 8, 100668792) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2029, 9, 16777216) /* LOCATIONS_INT */
      , (2029, 1, 32768) /* ITEM_TYPE_INT */
      , (2029, 19, 2001) /* VALUE_INT */
@@ -40,12 +37,11 @@ VALUES (2029, 9, 16777216) /* LOCATIONS_INT */
      , (2029, 109, 30) /* ITEM_DIFFICULTY_INT */
      , (2029, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (2029, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (2029, 117, 16) /* ITEM_MANA_COST_INT */
-     , (2029, 9007, 35) /* Caster_WeenieType */;
+     , (2029, 117, 16) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2029, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2029, 22, True) /* INSCRIBABLE_BOOL */;
 

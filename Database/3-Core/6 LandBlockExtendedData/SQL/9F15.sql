@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (204, 2045857792, 2668953856, 84.1566, 182.719, 121.605, -0.0389359, 0, 0, 0.999242) /* Lich */
      , (204, 2045857793, 2668953856, 80.4808, 183.093, 122.405, -0.586269, 0, 0, 0.810116) /* Lich */
      , (204, 2045857794, 2668953856, 80.4938, 176.485, 125.605, -0.994297, 0, 0, 0.106647) /* Lich */
@@ -17,21 +17,21 @@ VALUES (204, 2045857792, 2668953856, 84.1566, 182.719, 121.605, -0.0389359, 0, 0
      , (1154, 2045857800, 2668953600, 81.0857, 177.267, 135.205, 0.999363, 0, 0, 0.0356882) /* linkmonstergen */
      , (204, 2045857802, 2668953600, 81.1875, 166.223, 120.005, -0.269428, 0, 0, 0.963021) /* Lich */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045857800'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2045857807'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2045857797'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045857800'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2045857807'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2045857797'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045857805'; /* linkmonstergen <- Lich Archmage */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857806'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857802'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857803'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857795'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857798'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2045857808'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857804'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857792'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857793'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857794'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857796'; /* linkmonstergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2045857799'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045857805'; /* linkmonstergen <- Lich Archmage */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857806'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857802'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857803'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857795'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857798'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2045857808'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857804'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857792'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857793'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857794'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857796'; /* linkmonstergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2045857799'; /* linkmonstergen <- Lich */
 

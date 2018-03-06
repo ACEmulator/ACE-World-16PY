@@ -1,19 +1,16 @@
 /* Weenie - Pumpkin Soup (8249) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8249;
+DELETE FROM weenie WHERE class_Id = 8249;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8249, 'pumpkinsoup');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8249, 'pumpkinsoup', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8249, 0, 8249);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8249, 1, 'Pumpkin Soup') /* NAME_STRING */
      , (8249, 20, 'Bowls of Pumpkin Soup') /* PLURAL_NAME_STRING */
      , (8249, 14, 'Use this item to eat it.') /* USE_STRING */
      , (8249, 15, 'A thick, sweetened soup made from cooked pumpkin.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8249, 1, 33554668) /* SETUP_DID */
      , (8249, 3, 536870932) /* SOUND_TABLE_DID */
      , (8249, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (8249, 1, 33554668) /* SETUP_DID */
      , (8249, 7, 268436049) /* CLOTHINGBASE_DID */
      , (8249, 8, 100671016) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8249, 9, 0) /* LOCATIONS_INT */
      , (8249, 1, 32) /* ITEM_TYPE_INT */
      , (8249, 13, 75) /* STACK_UNIT_ENCUMB_INT */
@@ -35,9 +32,8 @@ VALUES (8249, 9, 0) /* LOCATIONS_INT */
      , (8249, 19, 35) /* VALUE_INT */
      , (8249, 89, 4) /* BOOSTER_ENUM_INT */
      , (8249, 90, 15) /* BOOST_VALUE_INT */
-     , (8249, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8249, 9007, 18) /* Food_WeenieType */;
+     , (8249, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8249, 69, False) /* IS_SELLABLE_BOOL */;
 

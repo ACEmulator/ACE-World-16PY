@@ -1,17 +1,14 @@
 /* Weenie - Branith's Shirt (2032) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2032;
+DELETE FROM weenie WHERE class_Id = 2032;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2032, 'shirtstuddedleatherbranith');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2032, 'shirtstuddedleatherbranith', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2032, 0, 2032);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2032, 16, 'A well-mended leather shirt. Inside the collar is a small tag which reads: Branith.') /* LONG_DESC_STRING */
      , (2032, 1, 'Branith''s Shirt') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2032, 1, 33558287) /* SETUP_DID */
      , (2032, 3, 536870932) /* SOUND_TABLE_DID */
      , (2032, 37, 34) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (2032, 1, 33558287) /* SETUP_DID */
      , (2032, 7, 268436589) /* CLOTHINGBASE_DID */
      , (2032, 8, 100674240) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2032, 9, 3584) /* LOCATIONS_INT */
      , (2032, 1, 2) /* ITEM_TYPE_INT */
      , (2032, 19, 6000) /* VALUE_INT */
@@ -38,10 +35,9 @@ VALUES (2032, 9, 3584) /* LOCATIONS_INT */
      , (2032, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (2032, 107, 500) /* ITEM_CUR_MANA_INT */
      , (2032, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (2032, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (2032, 9007, 2) /* Clothing_WeenieType */;
+     , (2032, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2032, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (2032, 5, -0.025) /* MANA_RATE_FLOAT */
      , (2032, 12, 0.66) /* SHADE_FLOAT */
@@ -54,11 +50,11 @@ VALUES (2032, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (2032, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (2032, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2032, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (2032, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2032, 1092, 2) /* FireProtectionSelf4_SpellID */
      , (2032, 1033, 2) /* ColdProtectionSelf4_SpellID */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11479, 1881681920, 42139905, 41.9913, -127.806, -17.995, 0.666471, 0, 0, -0.745531) /* Olthoi Gardener */
      , (10850, 1881681921, 42139910, 48.8522, -128.408, -17.995, -0.827754, 0, 0, 0.561091) /* Surface Exit */
      , (11479, 1881681922, 42139914, 56.1461, -106.521, -17.995, 0.867358, 0, 0, -0.497684) /* Olthoi Gardener */
@@ -29,30 +29,30 @@ VALUES (11479, 1881681920, 42139905, 41.9913, -127.806, -17.995, 0.666471, 0, 0,
      , (11479, 1881681945, 42140072, 113.094, -86.9031, 0.005, 0.519482, 0, 0, -0.854482) /* Olthoi Gardener */
      , (11479, 1881681946, 42140080, 127.307, -88.6367, 0.005, 0.586172, 0, 0, 0.810187) /* Olthoi Gardener */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881681926'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881681935'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881681926'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881681935'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881681925'; /* linkmonstergen5minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881681939'; /* linkmonstergen5minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681936'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681937'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681940'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681941'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681942'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681943'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681944'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681945'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681946'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681933'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681922'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681923'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681927'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681928'; /* linkmonstergen4minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681932'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681930'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681920'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681929'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681931'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681947'; /* linkmonstergen4minutes <- Olthoi Gardener */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881681948'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881681925'; /* linkmonstergen5minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881681939'; /* linkmonstergen5minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681936'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681937'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681940'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681941'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681942'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681943'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681944'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681945'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681946'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681933'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681922'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681923'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681927'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681928'; /* linkmonstergen4minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681932'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681930'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681920'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681929'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681931'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681947'; /* linkmonstergen4minutes <- Olthoi Gardener */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881681948'; /* linkmonstergen4minutes <- Olthoi Gardener */
 

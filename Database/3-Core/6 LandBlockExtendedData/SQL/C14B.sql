@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2131, 2081730560, 3242917888, 39.2284, 164.762, 20.005, 0.273503, 0, 0, -0.961871) /* Pressure Plate */
      , (2131, 2081730561, 3242917888, 45.5419, 165.483, 20.0529, -0.933674, 0, 0, -0.358125) /* Pressure Plate */
      , (2131, 2081730562, 3242917888, 37.1442, 158.112, 20.005, -0.203041, 0, 0, -0.97917) /* Pressure Plate */
@@ -12,17 +12,17 @@ VALUES (2131, 2081730560, 3242917888, 39.2284, 164.762, 20.005, 0.273503, 0, 0, 
      , (4064, 2081730570, 3242917888, 30.8525, 142.034, 24.4186, -0.294288, 0, 0, -0.955717) /* Whirling Blade Trap */
      , (4064, 2081730571, 3242917888, 29.2911, 143.258, 24.4186, -0.294288, 0, 0, -0.955717) /* Whirling Blade Trap */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2081730566'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2081730567'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2081730569'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2081730568'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2081730570'; /* Whirling Blade Trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2081730571'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2081730566'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2081730567'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2081730569'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2081730568'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2081730570'; /* Whirling Blade Trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2081730571'; /* Whirling Blade Trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2081730560'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2081730561'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2081730564'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2081730565'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2081730563'; /* Whirling Blade Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2081730562'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2081730560'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2081730561'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2081730564'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2081730565'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2081730563'; /* Whirling Blade Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2081730562'; /* Whirling Blade Trap <- Pressure Plate */
 

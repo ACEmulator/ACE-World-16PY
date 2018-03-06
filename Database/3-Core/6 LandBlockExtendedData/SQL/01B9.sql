@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (892, 1880854528, 28901632, 10.231, -13.894, -12, 0, 0, 0, -1) /* drudgeprowlergen */
      , (892, 1880854529, 28901632, 12.212, -13.1124, -12, 0, 0, 0, -1) /* drudgeprowlergen */
      , (892, 1880854530, 28901633, 11.3404, -17.3605, -12, 1, 0, 0, 0) /* drudgeprowlergen */
@@ -27,10 +27,10 @@ VALUES (892, 1880854528, 28901632, 10.231, -13.894, -12, 0, 0, 0, -1) /* drudgep
      , (143, 1880854553, 28901696, 46.0875, -21.7525, 0.0125, -0.707107, 0, 0, -0.707107) /* Chest */
      , (278, 1880854554, 28901698, 50, -15.245, 0, 1, 0, 0, 0) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880854545'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880854545'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880854541'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880854542'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880854543'; /* linkmonstergen <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880854548'; /* linkmonstergen <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880854541'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880854542'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880854543'; /* linkmonstergen <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880854548'; /* linkmonstergen <- Gnawer Shreth */
 

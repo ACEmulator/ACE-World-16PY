@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1378, 2083045385, 3263955203, 58.418, 82.2662, 23.705, 0.895696, 0, 0, -0.444667) /* Roaming Bowyer */
      , (1381, 2083045381, 3263955206, 57.6351, 107.976, 23.705, -0.823322, 0, 0, 0.567575) /* Farmer */
      , (14341, 2083045390, 3263954944, 108, 60, 24.45, 1, 0, 0, 0) /* Chess Board */
@@ -12,13 +12,13 @@ VALUES (1378, 2083045385, 3263955203, 58.418, 82.2662, 23.705, 0.895696, 0, 0, -
      , (6076, 2083045382, 3263954944, 26, 67, 24.005, 0.707107, 0, 0, -0.707107) /* Wood Target Drudge */
      , (6076, 2083045383, 3263954944, 26, 62, 24.005, 0.707107, 0, 0, -0.707107) /* Wood Target Drudge */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083045380'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2083045380'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045376'; /* linkmonstergen3minutes <- Straw Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045377'; /* linkmonstergen3minutes <- Straw Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045378'; /* linkmonstergen3minutes <- Straw Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045379'; /* linkmonstergen3minutes <- Straw Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045383'; /* linkmonstergen3minutes <- Wood Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045382'; /* linkmonstergen3minutes <- Wood Target Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083045384'; /* linkmonstergen3minutes <- Oak Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045376'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045377'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045378'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045379'; /* linkmonstergen3minutes <- Straw Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045383'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045382'; /* linkmonstergen3minutes <- Wood Target Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083045384'; /* linkmonstergen3minutes <- Oak Target Drudge */
 

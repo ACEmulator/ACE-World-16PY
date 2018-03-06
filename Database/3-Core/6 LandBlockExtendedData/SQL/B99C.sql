@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1378, 2073673733, 3114008837, 36.8564, 153.961, 57.005, 0.95761, 0, 0, 0.288067) /* Roaming Bowyer */
      , (1403, 2073673734, 3114008838, 32.7459, 157.475, 60.005, -0.891702, 0, 0, -0.452623) /* cluelostlightgen */
      , (2042, 2073673735, 3114008841, 18.2998, 128.349, 54.005, 0.754, 0, 0, -0.656875) /* Farmer Pogget */

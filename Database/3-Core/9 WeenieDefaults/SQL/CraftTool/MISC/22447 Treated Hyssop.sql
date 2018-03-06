@@ -1,19 +1,16 @@
 /* Weenie - Treated Hyssop (22447) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22447;
+DELETE FROM weenie WHERE class_Id = 22447;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22447, 'hyssoptreated');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22447, 'hyssoptreated', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22447, 0, 22447);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22447, 1, 'Treated Hyssop') /* NAME_STRING */
      , (22447, 20, 'Bundles of Hyssop') /* PLURAL_NAME_STRING */
      , (22447, 14, 'Use this bundle of treated hyssop with a bundle of treated mandrake.') /* USE_STRING */
      , (22447, 15, 'A bundle of wrapped hyssop with a stinging scent.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22447, 1, 33554817) /* SETUP_DID */
      , (22447, 3, 536870932) /* SOUND_TABLE_DID */
      , (22447, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (22447, 1, 33554817) /* SETUP_DID */
      , (22447, 7, 268435720) /* CLOTHINGBASE_DID */
      , (22447, 8, 100673802) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22447, 9, 0) /* LOCATIONS_INT */
      , (22447, 1, 128) /* ITEM_TYPE_INT */
      , (22447, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -37,9 +34,8 @@ VALUES (22447, 9, 0) /* LOCATIONS_INT */
      , (22447, 93, 1044) /* PHYSICS_STATE_INT */
      , (22447, 94, 128) /* TARGET_TYPE_INT */
      , (22447, 33, 0) /* BONDED_INT */
-     , (22447, 114, 0) /* ATTUNED_INT */
-     , (22447, 9007, 44) /* CraftTool_WeenieType */;
+     , (22447, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22447, 69, False) /* IS_SELLABLE_BOOL */;
 

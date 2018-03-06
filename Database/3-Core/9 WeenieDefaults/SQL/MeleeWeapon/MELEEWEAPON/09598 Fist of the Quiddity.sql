@@ -1,18 +1,15 @@
 /* Weenie - Fist of the Quiddity (9598) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9598;
+DELETE FROM weenie WHERE class_Id = 9598;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9598, 'locestusquiddity');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9598, 'locestusquiddity', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9598, 0, 9598);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9598, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */
      , (9598, 1, 'Fist of the Quiddity') /* NAME_STRING */
      , (9598, 15, 'A weapon made of a strange pulsating energy.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9598, 1, 33557109) /* SETUP_DID */
      , (9598, 3, 536870932) /* SOUND_TABLE_DID */
      , (9598, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (9598, 1, 33557109) /* SETUP_DID */
      , (9598, 8, 100671695) /* ICON_DID */
      , (9598, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9598, 9, 1048576) /* LOCATIONS_INT */
      , (9598, 1, 1) /* ITEM_TYPE_INT */
      , (9598, 5, 400) /* ENCUMB_VAL_INT */
@@ -42,10 +39,9 @@ VALUES (9598, 9, 1048576) /* LOCATIONS_INT */
      , (9598, 48, 13) /* WEAPON_SKILL_INT */
      , (9598, 49, 20) /* WEAPON_TIME_INT */
      , (9598, 51, 1) /* COMBAT_USE_INT */
-     , (9598, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9598, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (9598, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9598, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (9598, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
      , (9598, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (9598, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (9598, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */
      , (9598, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9598, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (9598, 15, True) /* LIGHTS_STATUS_BOOL */
      , (9598, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9598, 1603, 2) /* Defender4_SpellID */
      , (9598, 1614, 2) /* BloodDrinker4_SpellID */
      , (9598, 1625, 2) /* SwiftKiller4_SpellID */

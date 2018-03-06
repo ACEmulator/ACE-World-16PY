@@ -1,16 +1,13 @@
 /* Weenie - Martinate Hollow Minion (11542) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11542;
+DELETE FROM weenie WHERE class_Id = 11542;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11542, 'hollowminionmartinate-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11542, 'hollowminionmartinate-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11542, 0, 11542);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11542, 1, 'Martinate Hollow Minion') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11542, 1, 33556792) /* SETUP_DID */
      , (11542, 2, 150995101) /* MOTION_TABLE_DID */
      , (11542, 35, 352) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11542, 1, 33556792) /* SETUP_DID */
      , (11542, 7, 268436085) /* CLOTHINGBASE_DID */
      , (11542, 8, 100671140) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11542, 1, 16) /* ITEM_TYPE_INT */
      , (11542, 2, 48) /* CREATURE_TYPE_INT */
      , (11542, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11542, 1, 16) /* ITEM_TYPE_INT */
      , (11542, 146, 20000) /* XP_OVERRIDE_INT */
      , (11542, 25, 130) /* LEVEL_INT */
      , (11542, 27, 0) /* ARMOR_TYPE_INT */
-     , (11542, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11542, 9007, 10) /* Creature_WeenieType */;
+     , (11542, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11542, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (11542, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (11542, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,7 +66,7 @@ VALUES (11542, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (11542, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11542, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11542, 1, True) /* STUCK_BOOL */
      , (11542, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (11542, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
@@ -78,20 +74,20 @@ VALUES (11542, 1, True) /* STUCK_BOOL */
      , (11542, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11542, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11542, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (11542, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (11542, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (11542, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (11542, 16, 105) /* FOCUS_ATTRIBUTE */
-     , (11542, 32, 105) /* SELF_ATTRIBUTE */;
+     , (11542, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (11542, 5, 105) /* FOCUS_ATTRIBUTE */
+     , (11542, 6, 105) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11542, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11542, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11542, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11542, 1, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11542, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11542, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11542, 9, 9292, 0, 0, 0.06, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
      , (11542, 9, 0, 0, 0, 0.94, False) /* Create  for ContainTreasure_DestinationType */;
 

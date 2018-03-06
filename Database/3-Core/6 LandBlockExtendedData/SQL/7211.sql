@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7434, 1998655497, 1913716992, 11.8545, 106.748, 142.005, -0.999935, 0, 0, -0.0114051) /* soulfearingacolytetower2gen */
      , (2181, 1998655494, 1913716993, 15.0362, 103.672, 150.882, 1, 0, 0, 0) /* Door */
      , (2181, 1998655489, 1913716997, 79.5374, 104.949, 116.882, 0.707107, 0, 0, -0.707107) /* Door */
@@ -10,12 +10,12 @@ VALUES (7434, 1998655497, 1913716992, 11.8545, 106.748, 142.005, -0.999935, 0, 0
      , (2181, 1998655493, 1913716736, 11.9909, 102.98, 142.082, 1, 0, 0, 0) /* Door */
      , (7431, 1998655495, 1913716736, 77.678, 105.761, 108.007, -0.882948, 0, 0, -0.469471) /* Lich */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1998655493'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1998655488'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1998655496'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1998655493'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1998655488'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1998655496'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655490'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1998655492'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1998655491'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1998655495'; /* linkmonstergen10minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1998655490'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1998655492'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1998655491'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1998655495'; /* linkmonstergen10minutes <- Lich */
 

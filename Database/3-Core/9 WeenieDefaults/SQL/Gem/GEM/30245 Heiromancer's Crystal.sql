@@ -1,17 +1,14 @@
 /* Weenie - Heiromancer's Crystal (30245) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30245;
+DELETE FROM weenie WHERE class_Id = 30245;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30245, 'gemrarevolatilewarmagic');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30245, 'gemrarevolatilewarmagic', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30245, 0, 30245);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30245, 16, 'A lovely template for a rare magical gem.') /* LONG_DESC_STRING */
      , (30245, 1, 'Heiromancer''s Crystal') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30245, 1, 33554809) /* SETUP_DID */
      , (30245, 3, 536870932) /* SOUND_TABLE_DID */
      , (30245, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (30245, 1, 33554809) /* SETUP_DID */
      , (30245, 8, 100674739) /* ICON_DID */
      , (30245, 28, 3743) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30245, 9, 0) /* LOCATIONS_INT */
      , (30245, 1, 2048) /* ITEM_TYPE_INT */
      , (30245, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,9 +34,8 @@ VALUES (30245, 9, 0) /* LOCATIONS_INT */
      , (30245, 150, 103) /* HOOK_PLACEMENT_INT */
      , (30245, 151, 11) /* HOOK_TYPE_INT */
      , (30245, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30245, 94, 16) /* TARGET_TYPE_INT */
-     , (30245, 9007, 38) /* Gem_WeenieType */;
+     , (30245, 94, 16) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30245, 22, True) /* INSCRIBABLE_BOOL */;
 

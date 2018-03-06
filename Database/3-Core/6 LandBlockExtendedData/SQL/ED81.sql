@@ -1,8 +1,8 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27513, 2128089088, 3984654336, 80.4026, 60.1336, 1.98273, 0.931476, 0, 0, -0.363803) /* A Sycophant's Corpse */
      , (7923, 2128089089, 3984654336, 80.6769, 57.8211, 2.36815, 0.931476, 0, 0, -0.363803) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2128089089'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2128089089'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2128089088'; /* linkmonstergen3minutes <- A Sycophant's Corpse */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2128089088'; /* linkmonstergen3minutes <- A Sycophant's Corpse */
 

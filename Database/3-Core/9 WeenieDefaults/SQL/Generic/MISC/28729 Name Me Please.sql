@@ -1,24 +1,21 @@
 /* Weenie - Name Me Please (28729) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28729;
+DELETE FROM weenie WHERE class_Id = 28729;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28729, 'ruschkiceshardaugmented');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28729, 'ruschkiceshardaugmented', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28729, 0, 28729);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28729, 16, 'Long description shows up when players ID an item.') /* LONG_DESC_STRING */
      , (28729, 1, 'Name Me Please') /* NAME_STRING */
      , (28729, 15, 'Short description does not show up in game.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28729, 1, 33554769) /* SETUP_DID */
      , (28729, 3, 536870932) /* SOUND_TABLE_DID */
      , (28729, 8, 100674497) /* ICON_DID */
      , (28729, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28729, 33, 0) /* BONDED_INT */
      , (28729, 9, 0) /* LOCATIONS_INT */
      , (28729, 1, 128) /* ITEM_TYPE_INT */
@@ -27,10 +24,9 @@ VALUES (28729, 33, 0) /* BONDED_INT */
      , (28729, 16, 1) /* ITEM_USEABLE_INT */
      , (28729, 8, 10) /* MASS_INT */
      , (28729, 19, 200) /* VALUE_INT */
-     , (28729, 114, 0) /* ATTUNED_INT */
-     , (28729, 9007, 1) /* Generic_WeenieType */;
+     , (28729, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28729, 22, True) /* INSCRIBABLE_BOOL */
      , (28729, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

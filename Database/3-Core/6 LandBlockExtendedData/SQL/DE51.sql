@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2112163840, 3729850629, 84.95, 133.76, 16.01, 0, 0, 0, -1) /* Door */
      , (4559, 2112163843, 3729850634, 38.0053, 130.046, 17.605, 0.999934, 0, 0, -0.0114983) /* Oi Ra the Shopkeeper */
      , (4486, 2112163841, 3729850368, 84.048, 121.921, 16.005, 1, 0, 0, 0) /* Shoushi Southeast Training Academy Portal */
@@ -13,7 +13,7 @@ VALUES (412, 2112163840, 3729850629, 84.95, 133.76, 16.01, 0, 0, 0, -1) /* Door 
      , (5108, 2112163850, 3729850368, 29.6267, 103.483, 16.9082, -0.429638, 0, 0, -0.903001) /* LIFESTONES SIGN */
      , (12725, 2112163857, 3729850368, 109.504, 81.1371, 29.205, 0.81105, 0, 0, -0.584977) /* Sentry */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2112163856'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2112163856'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2112163857'; /* linkmonstergen3minutes <- Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2112163857'; /* linkmonstergen3minutes <- Sentry */
 

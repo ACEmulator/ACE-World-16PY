@@ -1,25 +1,22 @@
 /* Weenie - Virindi Scalpel (11007) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11007;
+DELETE FROM weenie WHERE class_Id = 11007;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11007, 'scalpelvirindi-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11007, 'scalpelvirindi-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11007, 0, 11007);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11007, 16, 'A small, flimsy looking blade for precision slicing. It appears to be made of pure diamond. As you peer at it, a swathe of tiny, three-dimensional geometric shapes briefly flash violet within the hilt, and a hollow voice in your mind intones, "Puppet, this reconfiguration has been specially prepared and left for your use. Use on captured meat beings. It will ignore the flesh-enhancing energy patterns they utilize. You will still have to peel their artificial exoskeletons away."') /* LONG_DESC_STRING */
      , (11007, 1, 'Virindi Scalpel') /* NAME_STRING */
      , (11007, 15, 'A small, flimsy-looking blade for precision slicing.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11007, 1, 33557231) /* SETUP_DID */
      , (11007, 3, 536870932) /* SOUND_TABLE_DID */
      , (11007, 36, 234881044) /* MUTATE_FILTER_DID */
      , (11007, 8, 100671865) /* ICON_DID */
      , (11007, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11007, 9, 1048576) /* LOCATIONS_INT */
      , (11007, 1, 1) /* ITEM_TYPE_INT */
      , (11007, 93, 1044) /* PHYSICS_STATE_INT */
@@ -39,10 +36,9 @@ VALUES (11007, 9, 1048576) /* LOCATIONS_INT */
      , (11007, 47, 6) /* ATTACK_TYPE_INT */
      , (11007, 48, 4) /* WEAPON_SKILL_INT */
      , (11007, 49, 1) /* WEAPON_TIME_INT */
-     , (11007, 51, 1) /* COMBAT_USE_INT */
-     , (11007, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11007, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11007, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (11007, 21, 0.35) /* WEAPON_LENGTH_FLOAT */
      , (11007, 5, -0.01) /* MANA_RATE_FLOAT */
@@ -50,13 +46,13 @@ VALUES (11007, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (11007, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (11007, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11007, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (11007, 69, False) /* IS_SELLABLE_BOOL */
      , (11007, 22, True) /* INSCRIBABLE_BOOL */
      , (11007, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11007, 321, 2) /* DaggerMasteryOther6_SpellID */
      , (11007, 1384, 2) /* CoordinationOther6_SpellID */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Field Ursuin Cub (26689) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26689;
+DELETE FROM weenie WHERE class_Id = 26689;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26689, 'ursuinbabyfield');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26689, 'ursuinbabyfield', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26689, 0, 26689);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26689, 1, 'Field Ursuin Cub') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26689, 1, 33556773) /* SETUP_DID */
      , (26689, 2, 150995284) /* MOTION_TABLE_DID */
      , (26689, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (26689, 1, 33556773) /* SETUP_DID */
      , (26689, 8, 100670959) /* ICON_DID */
      , (26689, 22, 872415366) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26689, 1, 16) /* ITEM_TYPE_INT */
      , (26689, 2, 46) /* CREATURE_TYPE_INT */
      , (26689, 67, 64) /* TOLERANCE_INT */
@@ -34,10 +31,9 @@ VALUES (26689, 1, 16) /* ITEM_TYPE_INT */
      , (26689, 27, 0) /* ARMOR_TYPE_INT */
      , (26689, 93, 1032) /* PHYSICS_STATE_INT */
      , (26689, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (26689, 40, 2) /* COMBAT_MODE_INT */
-     , (26689, 9007, 10) /* Creature_WeenieType */;
+     , (26689, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26689, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (26689, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (26689, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (26689, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (26689, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (26689, 31, 14) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26689, 1, True) /* STUCK_BOOL */
      , (26689, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (26689, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26689, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26689, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (26689, 2, 40) /* ENDURANCE_ATTRIBUTE */
      , (26689, 4, 90) /* COORDINATION_ATTRIBUTE */
-     , (26689, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (26689, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (26689, 32, 20) /* SELF_ATTRIBUTE */;
+     , (26689, 3, 50) /* QUICKNESS_ATTRIBUTE */
+     , (26689, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (26689, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26689, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26689, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26689, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26689, 1, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26689, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26689, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26689, 9, 27249, 0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
      , (26689, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 

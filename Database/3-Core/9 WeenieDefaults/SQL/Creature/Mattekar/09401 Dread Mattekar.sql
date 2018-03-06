@@ -1,16 +1,13 @@
 /* Weenie - Dread Mattekar (9401) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9401;
+DELETE FROM weenie WHERE class_Id = 9401;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9401, 'mattekardread');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9401, 'mattekardread', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9401, 0, 9401);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9401, 1, 'Dread Mattekar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9401, 1, 33555590) /* SETUP_DID */
      , (9401, 2, 150995047) /* MOTION_TABLE_DID */
      , (9401, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (9401, 1, 33555590) /* SETUP_DID */
      , (9401, 8, 100669121) /* ICON_DID */
      , (9401, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9401, 1, 16) /* ITEM_TYPE_INT */
      , (9401, 2, 23) /* CREATURE_TYPE_INT */
      , (9401, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (9401, 1, 16) /* ITEM_TYPE_INT */
      , (9401, 146, 6521) /* XP_OVERRIDE_INT */
      , (9401, 25, 44) /* LEVEL_INT */
      , (9401, 93, 1032) /* PHYSICS_STATE_INT */
-     , (9401, 40, 2) /* COMBAT_MODE_INT */
-     , (9401, 9007, 10) /* Creature_WeenieType */;
+     , (9401, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9401, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (9401, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (9401, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (9401, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (9401, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (9401, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9401, 1, True) /* STUCK_BOOL */
      , (9401, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (9401, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9401, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9401, 1, 175) /* STRENGTH_ATTRIBUTE */
      , (9401, 2, 145) /* ENDURANCE_ATTRIBUTE */
      , (9401, 4, 155) /* COORDINATION_ATTRIBUTE */
-     , (9401, 8, 155) /* QUICKNESS_ATTRIBUTE */
-     , (9401, 16, 130) /* FOCUS_ATTRIBUTE */
-     , (9401, 32, 130) /* SELF_ATTRIBUTE */;
+     , (9401, 3, 155) /* QUICKNESS_ATTRIBUTE */
+     , (9401, 5, 130) /* FOCUS_ATTRIBUTE */
+     , (9401, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9401, 64, 98) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9401, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9401, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9401, 1, 98) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9401, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9401, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9401, 9, 9413, 0, 0, 0.02, False) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
      , (9401, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,26 +1,23 @@
 /* Weenie - An angry spirit (21723) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21723;
+DELETE FROM weenie WHERE class_Id = 21723;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21723, 'gaerlanceremonyinvisiblenpc-low');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21723, 'gaerlanceremonyinvisiblenpc-low', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21723, 0, 21723);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21723, 1, 'An angry spirit') /* NAME_STRING */
      , (21723, 3, 'Male') /* SEX_STRING */
      , (21723, 4, 'Sho') /* HERITAGE_GROUP_STRING */
      , (21723, 5, 'Invisible Event Controller') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21723, 1, 33554433) /* SETUP_DID */
      , (21723, 2, 150994945) /* MOTION_TABLE_DID */
      , (21723, 3, 536870913) /* SOUND_TABLE_DID */
      , (21723, 4, 805306368) /* COMBAT_TABLE_DID */
      , (21723, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21723, 1, 16) /* ITEM_TYPE_INT */
      , (21723, 2, 31) /* CREATURE_TYPE_INT */
      , (21723, 67, 1) /* TOLERANCE_INT */
@@ -34,10 +31,9 @@ VALUES (21723, 1, 16) /* ITEM_TYPE_INT */
      , (21723, 25, 68) /* LEVEL_INT */
      , (21723, 27, 0) /* ARMOR_TYPE_INT */
      , (21723, 93, 6292508) /* PHYSICS_STATE_INT */
-     , (21723, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (21723, 9007, 10) /* Creature_WeenieType */;
+     , (21723, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21723, 64, 1) /* RESIST_SLASH_FLOAT */
      , (21723, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (21723, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,7 +63,7 @@ VALUES (21723, 64, 1) /* RESIST_SLASH_FLOAT */
      , (21723, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (21723, 31, 40) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21723, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (21723, 1, True) /* STUCK_BOOL */
      , (21723, 6, False) /* AI_USES_MANA_BOOL */
@@ -78,16 +74,16 @@ VALUES (21723, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (21723, 13, True) /* ETHEREAL_BOOL */
      , (21723, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (21723, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (21723, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (21723, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (21723, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (21723, 16, 400) /* FOCUS_ATTRIBUTE */
-     , (21723, 32, 400) /* SELF_ATTRIBUTE */;
+     , (21723, 3, 75) /* QUICKNESS_ATTRIBUTE */
+     , (21723, 5, 400) /* FOCUS_ATTRIBUTE */
+     , (21723, 6, 400) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (21723, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (21723, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (21723, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (21723, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (21723, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (21723, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 

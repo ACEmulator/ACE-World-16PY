@@ -1,23 +1,20 @@
 /* Weenie - Powdered Iron (28900) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28900;
+DELETE FROM weenie WHERE class_Id = 28900;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28900, 'ironpowdered');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28900, 'ironpowdered', /* Stackable_WeenieType */ 51);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28900, 0, 28900);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28900, 16, 'A small heap of finely powdered iron.') /* LONG_DESC_STRING */
      , (28900, 1, 'Powdered Iron') /* NAME_STRING */
      , (28900, 20, 'Powdered Iron') /* PLURAL_NAME_STRING */
      , (28900, 14, 'This item is used in the Journeyman Alchemists'' alchemy skill tests.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28900, 1, 33557505) /* SETUP_DID */
      , (28900, 8, 100677043) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28900, 9, 0) /* LOCATIONS_INT */
      , (28900, 1, 128) /* ITEM_TYPE_INT */
      , (28900, 13, 5) /* STACK_UNIT_ENCUMB_INT */
@@ -31,9 +28,8 @@ VALUES (28900, 9, 0) /* LOCATIONS_INT */
      , (28900, 19, 5) /* VALUE_INT */
      , (28900, 93, 1044) /* PHYSICS_STATE_INT */
      , (28900, 33, 1) /* BONDED_INT */
-     , (28900, 114, 1) /* ATTUNED_INT */
-     , (28900, 9007, 51) /* Stackable_WeenieType */;
+     , (28900, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28900, 69, False) /* IS_SELLABLE_BOOL */;
 

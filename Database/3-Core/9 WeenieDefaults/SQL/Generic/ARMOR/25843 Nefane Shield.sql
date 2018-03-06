@@ -1,17 +1,14 @@
 /* Weenie - Nefane Shield (25843) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25843;
+DELETE FROM weenie WHERE class_Id = 25843;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25843, 'shieldnefane');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25843, 'shieldnefane', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25843, 0, 25843);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25843, 1, 'Nefane Shield') /* NAME_STRING */
      , (25843, 15, 'This shield was carved from the shell of a corrupted Nefane. Some elements of the natural magic of the creature remains within the shield.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25843, 1, 33558556) /* SETUP_DID */
      , (25843, 3, 536870932) /* SOUND_TABLE_DID */
      , (25843, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (25843, 1, 33558556) /* SETUP_DID */
      , (25843, 7, 268436757) /* CLOTHINGBASE_DID */
      , (25843, 8, 100675625) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25843, 9, 2097152) /* LOCATIONS_INT */
      , (25843, 1, 2) /* ITEM_TYPE_INT */
      , (25843, 19, 10275) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (25843, 9, 2097152) /* LOCATIONS_INT */
      , (25843, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (25843, 109, 200) /* ITEM_DIFFICULTY_INT */
      , (25843, 51, 4) /* COMBAT_USE_INT */
-     , (25843, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (25843, 9007, 1) /* Generic_WeenieType */;
+     , (25843, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25843, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25843, 5, -0.033) /* MANA_RATE_FLOAT */
      , (25843, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -57,10 +53,10 @@ VALUES (25843, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25843, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (25843, 19, 0.25) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25843, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25843, 2937, 2) /* ModerateImpregnability_SpellID */
      , (25843, 2938, 2) /* ModerateInvulnerability_SpellID */;
 

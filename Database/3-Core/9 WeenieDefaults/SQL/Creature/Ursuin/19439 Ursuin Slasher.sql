@@ -1,16 +1,13 @@
 /* Weenie - Ursuin Slasher (19439) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19439;
+DELETE FROM weenie WHERE class_Id = 19439;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19439, 'ursuinslasher');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19439, 'ursuinslasher', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19439, 0, 19439);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19439, 1, 'Ursuin Slasher') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19439, 1, 33556773) /* SETUP_DID */
      , (19439, 2, 150995100) /* MOTION_TABLE_DID */
      , (19439, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (19439, 1, 33556773) /* SETUP_DID */
      , (19439, 8, 100670959) /* ICON_DID */
      , (19439, 22, 872415366) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19439, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (19439, 1, 16) /* ITEM_TYPE_INT */
      , (19439, 2, 46) /* CREATURE_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (19439, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (19439, 93, 1032) /* PHYSICS_STATE_INT */
      , (19439, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (19439, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (19439, 40, 2) /* COMBAT_MODE_INT */
-     , (19439, 9007, 10) /* Creature_WeenieType */;
+     , (19439, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19439, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (19439, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (19439, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (19439, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (19439, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19439, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19439, 1, True) /* STUCK_BOOL */
      , (19439, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (19439, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19439, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19439, 1, 230) /* STRENGTH_ATTRIBUTE */
      , (19439, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (19439, 4, 90) /* COORDINATION_ATTRIBUTE */
-     , (19439, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (19439, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (19439, 32, 90) /* SELF_ATTRIBUTE */;
+     , (19439, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (19439, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (19439, 6, 90) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19439, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19439, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19439, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19439, 1, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19439, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19439, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19439, 9, 19475, 0, 0, 0.03, False) /* Create Large Ursuin Hide with head for ContainTreasure_DestinationType */
      , (19439, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

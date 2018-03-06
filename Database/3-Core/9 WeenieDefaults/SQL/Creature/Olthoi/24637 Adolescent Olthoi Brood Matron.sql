@@ -1,16 +1,13 @@
 /* Weenie - Adolescent Olthoi Brood Matron (24637) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24637;
+DELETE FROM weenie WHERE class_Id = 24637;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24637, 'olthoibroodmatronhiveshigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24637, 'olthoibroodmatronhiveshigh', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24637, 0, 24637);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24637, 1, 'Adolescent Olthoi Brood Matron') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24637, 1, 33557165) /* SETUP_DID */
      , (24637, 2, 150995135) /* MOTION_TABLE_DID */
      , (24637, 35, 146) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (24637, 1, 33557165) /* SETUP_DID */
      , (24637, 8, 100667623) /* ICON_DID */
      , (24637, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24637, 1, 16) /* ITEM_TYPE_INT */
      , (24637, 2, 1) /* CREATURE_TYPE_INT */
      , (24637, 3, 2) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (24637, 1, 16) /* ITEM_TYPE_INT */
      , (24637, 25, 115) /* LEVEL_INT */
      , (24637, 27, 0) /* ARMOR_TYPE_INT */
      , (24637, 93, 1032) /* PHYSICS_STATE_INT */
-     , (24637, 40, 2) /* COMBAT_MODE_INT */
-     , (24637, 9007, 10) /* Creature_WeenieType */;
+     , (24637, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24637, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (24637, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (24637, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (24637, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (24637, 125, 0.25) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24637, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24637, 1, True) /* STUCK_BOOL */
      , (24637, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (24637, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24637, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24637, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (24637, 2, 420) /* ENDURANCE_ATTRIBUTE */
      , (24637, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (24637, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (24637, 16, 240) /* FOCUS_ATTRIBUTE */
-     , (24637, 32, 240) /* SELF_ATTRIBUTE */;
+     , (24637, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (24637, 5, 240) /* FOCUS_ATTRIBUTE */
+     , (24637, 6, 240) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24637, 64, 790) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24637, 128, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24637, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24637, 1, 790) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24637, 3, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24637, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24637, 9, 24642, 0, 0, 0.333, False) /* Create Adolescent Brood Matron Tail for ContainTreasure_DestinationType */
      , (24637, 9, 24644, 0, 0, 0.333, False) /* Create Adolescent Brood Matron Tarsus for ContainTreasure_DestinationType */
      , (24637, 9, 24646, 0, 0, 0.334, False) /* Create Adolescent Brood Matron Tibia for ContainTreasure_DestinationType */;

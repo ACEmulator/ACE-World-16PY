@@ -1,19 +1,16 @@
 /* Weenie - Shendolain Soul Crystal Shard (8797) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8797;
+DELETE FROM weenie WHERE class_Id = 8797;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8797, 'shardsoulcrystalshendolain');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8797, 'shardsoulcrystalshendolain', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8797, 0, 8797);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8797, 16, 'A remnant of the Shendolain Soul Crystal. (Bring it to one of the Chosen of Asheron)') /* LONG_DESC_STRING */
      , (8797, 1, 'Shendolain Soul Crystal Shard') /* NAME_STRING */
      , (8797, 33, 'ShardSoulCrystal') /* QUEST_STRING */
      , (8797, 15, 'A remnant of the Shendolain Soul Crystal. (Bring it to one of the Chosen of Asheron)') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8797, 1, 33556406) /* SETUP_DID */
      , (8797, 3, 536870932) /* SOUND_TABLE_DID */
      , (8797, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (8797, 1, 33556406) /* SETUP_DID */
      , (8797, 7, 268435994) /* CLOTHINGBASE_DID */
      , (8797, 8, 100671236) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8797, 9, 0) /* LOCATIONS_INT */
      , (8797, 1, 2048) /* ITEM_TYPE_INT */
      , (8797, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,14 +34,13 @@ VALUES (8797, 9, 0) /* LOCATIONS_INT */
      , (8797, 19, 0) /* VALUE_INT */
      , (8797, 93, 1044) /* PHYSICS_STATE_INT */
      , (8797, 33, 1) /* BONDED_INT */
-     , (8797, 114, 1) /* ATTUNED_INT */
-     , (8797, 9007, 38) /* Gem_WeenieType */;
+     , (8797, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8797, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (8797, 12, 0.2) /* SHADE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8797, 22, True) /* INSCRIBABLE_BOOL */
      , (8797, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

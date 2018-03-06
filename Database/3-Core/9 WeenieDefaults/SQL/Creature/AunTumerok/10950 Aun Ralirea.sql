@@ -1,16 +1,13 @@
 /* Weenie - Aun Ralirea (10950) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10950;
+DELETE FROM weenie WHERE class_Id = 10950;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10950, 'tumerokchampionralirea-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10950, 'tumerokchampionralirea-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10950, 0, 10950);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10950, 1, 'Aun Ralirea') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10950, 1, 33557117) /* SETUP_DID */
      , (10950, 2, 150994954) /* MOTION_TABLE_DID */
      , (10950, 3, 536870931) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (10950, 1, 33557117) /* SETUP_DID */
      , (10950, 7, 268436193) /* CLOTHINGBASE_DID */
      , (10950, 8, 100671756) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10950, 1, 16) /* ITEM_TYPE_INT */
      , (10950, 2, 57) /* CREATURE_TYPE_INT */
      , (10950, 67, 64) /* TOLERANCE_INT */
@@ -39,10 +36,9 @@ VALUES (10950, 1, 16) /* ITEM_TYPE_INT */
      , (10950, 27, 0) /* ARMOR_TYPE_INT */
      , (10950, 93, 1032) /* PHYSICS_STATE_INT */
      , (10950, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (10950, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (10950, 9007, 10) /* Creature_WeenieType */;
+     , (10950, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10950, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10950, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (10950, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,7 +74,7 @@ VALUES (10950, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10950, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10950, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10950, 1, True) /* STUCK_BOOL */
      , (10950, 6, True) /* AI_USES_MANA_BOOL */
      , (10950, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -86,7 +82,7 @@ VALUES (10950, 1, True) /* STUCK_BOOL */
      , (10950, 13, False) /* ETHEREAL_BOOL */
      , (10950, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10950, 1223, 2.012) /* ManaDrainOther5_SpellID */
      , (10950, 1159, 2.009) /* HealSelf4_SpellID */
      , (10950, 1175, 2.012) /* HarmOther5_SpellID */
@@ -125,20 +121,20 @@ VALUES (10950, 1223, 2.012) /* ManaDrainOther5_SpellID */
      , (10950, 62, 2.015) /* AcidStream5_SpellID */
      , (10950, 63, 2.003) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10950, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (10950, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (10950, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (10950, 8, 275) /* QUICKNESS_ATTRIBUTE */
-     , (10950, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (10950, 32, 270) /* SELF_ATTRIBUTE */;
+     , (10950, 3, 275) /* QUICKNESS_ATTRIBUTE */
+     , (10950, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (10950, 6, 270) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10950, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10950, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10950, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10950, 1, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10950, 3, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10950, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10950, 2, 10995, 0, 0, 1, False) /* Create Ebon Spine Harpoon for Wield_DestinationType */
      , (10950, 9, 10997, 10, 0, 1, False) /* Create Ebon Spine Harpoon for ContainTreasure_DestinationType */
      , (10950, 1, 10996, 1, 0, 1, False) /* Create Ebon Spine Harpoon for Contain_DestinationType */
@@ -153,7 +149,7 @@ VALUES (10950, 2, 10995, 0, 0, 1, False) /* Create Ebon Spine Harpoon for Wield_
      , (10950, 9, 9413, 0, 0, 0.05, False) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
      , (10950, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10950, -1, 11508, 90, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Aun Elder Shaman (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (10950, -1, 11509, 90, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Aun Hunter (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

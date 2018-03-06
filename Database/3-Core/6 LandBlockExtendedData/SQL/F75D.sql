@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20210, 2138427408, 4150067460, 114.578, 8.79531, 46.005, 0.694165, 0, 0, 0.719816) /* Scrivener of Creature Magic */
      , (20226, 2138427406, 4150067461, 99.9067, 6.40467, 46.005, -0.974086, 0, 0, 0.226179) /* Scrivener of War Magic */
      , (20214, 2138427407, 4150067461, 101.441, 15.0443, 46.005, -0.700253, 0, 0, 0.713895) /* Scrivener of Item Magic */

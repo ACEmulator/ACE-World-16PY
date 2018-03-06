@@ -1,24 +1,21 @@
 /* Weenie - Magic trap (4094) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4094;
+DELETE FROM weenie WHERE class_Id = 4094;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4094, 'trapslownesslvl2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4094, 'trapslownesslvl2', /* Switch_WeenieType */ 26);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4094, 0, 4094);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4094, 1, 'Magic trap') /* NAME_STRING */
      , (4094, 22, 'You hear a faint clicking sound.') /* ACTIVATION_FAILURE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4094, 1, 33554669) /* SETUP_DID */
      , (4094, 3, 536870932) /* SOUND_TABLE_DID */
      , (4094, 8, 100667494) /* ICON_DID */
      , (4094, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (4094, 28, 1416) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4094, 1, 128) /* ITEM_TYPE_INT */
      , (4094, 93, 20) /* PHYSICS_STATE_INT */
      , (4094, 5, 6000) /* ENCUMB_VAL_INT */
@@ -28,13 +25,12 @@ VALUES (4094, 1, 128) /* ITEM_TYPE_INT */
      , (4094, 83, 4096) /* ACTIVATION_RESPONSE_INT */
      , (4094, 19, 200) /* VALUE_INT */
      , (4094, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (4094, 119, 1) /* ACTIVE_INT */
-     , (4094, 9007, 26) /* Switch_WeenieType */;
+     , (4094, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4094, 11, 30) /* RESET_INTERVAL_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4094, 1, True) /* STUCK_BOOL */
      , (4094, 12, False) /* REPORT_COLLISIONS_BOOL */
      , (4094, 13, True) /* ETHEREAL_BOOL */

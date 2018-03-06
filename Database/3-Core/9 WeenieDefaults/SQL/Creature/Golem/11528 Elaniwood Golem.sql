@@ -1,16 +1,13 @@
 /* Weenie - Elaniwood Golem (11528) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11528;
+DELETE FROM weenie WHERE class_Id = 11528;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11528, 'golemelaniwood-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11528, 'golemelaniwood-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11528, 0, 11528);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11528, 1, 'Elaniwood Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11528, 1, 33556428) /* SETUP_DID */
      , (11528, 2, 150995073) /* MOTION_TABLE_DID */
      , (11528, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (11528, 1, 33556428) /* SETUP_DID */
      , (11528, 8, 100667940) /* ICON_DID */
      , (11528, 22, 872415326) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11528, 25, 18) /* LEVEL_INT */
      , (11528, 1, 16) /* ITEM_TYPE_INT */
      , (11528, 146, 1481) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (11528, 25, 18) /* LEVEL_INT */
      , (11528, 16, 1) /* ITEM_USEABLE_INT */
      , (11528, 27, 0) /* ARMOR_TYPE_INT */
      , (11528, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11528, 40, 2) /* COMBAT_MODE_INT */
-     , (11528, 9007, 10) /* Creature_WeenieType */;
+     , (11528, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11528, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (11528, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (11528, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,31 +63,31 @@ VALUES (11528, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (11528, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11528, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11528, 1, True) /* STUCK_BOOL */
      , (11528, 6, True) /* AI_USES_MANA_BOOL */
      , (11528, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11528, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11528, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11528, 65, 2.04) /* ShockWave2_SpellID */
      , (11528, 87, 2.04) /* ForceBolt2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11528, 1, 130) /* STRENGTH_ATTRIBUTE */
      , (11528, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (11528, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (11528, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (11528, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (11528, 32, 100) /* SELF_ATTRIBUTE */;
+     , (11528, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (11528, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (11528, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11528, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11528, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11528, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11528, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11528, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11528, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11528, 9, 11350, 0, 0, 0.05, False) /* Create Elaniwood Golem Heart for ContainTreasure_DestinationType */
      , (11528, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (11528, 9, 6353, 0, 0, 0.015, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */

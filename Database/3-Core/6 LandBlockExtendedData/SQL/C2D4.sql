@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2611, 2083340288, 3268673536, 116.029, 87.4832, 138.399, -0.998568, 0, 0, -0.0534991) /* Zofrit Zefir */
      , (2611, 2083340289, 3268673536, 151.703, 91.2949, 142.92, -0.698418, 0, 0, 0.71569) /* Zofrit Zefir */
      , (2611, 2083340290, 3268673536, 133.431, 89.3744, 140.819, -0.71291, 0, 0, 0.701256) /* Zofrit Zefir */
@@ -8,13 +8,13 @@ VALUES (2611, 2083340288, 3268673536, 116.029, 87.4832, 138.399, -0.998568, 0, 0
      , (2611, 2083340294, 3268673536, 139.021, 84.3655, 142.168, 0.99584, 0, 0, -0.0911199) /* Zofrit Zefir */
      , (3955, 2083340295, 3268673536, 116.029, 87.4832, 138.387, -0.998568, 0, 0, -0.0534991) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2083340295'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2083340295'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340288'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340289'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340290'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340291'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340292'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340293'; /* linkmonstergen15minutes <- Zofrit Zefir */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2083340294'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340288'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340289'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340290'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340291'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340292'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340293'; /* linkmonstergen15minutes <- Zofrit Zefir */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2083340294'; /* linkmonstergen15minutes <- Zofrit Zefir */
 

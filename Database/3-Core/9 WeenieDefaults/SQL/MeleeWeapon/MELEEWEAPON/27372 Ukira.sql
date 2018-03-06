@@ -1,17 +1,14 @@
 /* Weenie - Ukira (27372) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27372;
+DELETE FROM weenie WHERE class_Id = 27372;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27372, 'swordukira');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27372, 'swordukira', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27372, 0, 27372);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27372, 16, 'A beautifully carved sword. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LONG_DESC_STRING */
      , (27372, 1, 'Ukira') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27372, 1, 33558666) /* SETUP_DID */
      , (27372, 3, 536870932) /* SOUND_TABLE_DID */
      , (27372, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27372, 1, 33558666) /* SETUP_DID */
      , (27372, 7, 268436252) /* CLOTHINGBASE_DID */
      , (27372, 8, 100676349) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27372, 9, 1048576) /* LOCATIONS_INT */
      , (27372, 1, 1) /* ITEM_TYPE_INT */
      , (27372, 93, 1044) /* PHYSICS_STATE_INT */
@@ -37,10 +34,9 @@ VALUES (27372, 9, 1048576) /* LOCATIONS_INT */
      , (27372, 48, 11) /* WEAPON_SKILL_INT */
      , (27372, 49, 60) /* WEAPON_TIME_INT */
      , (27372, 114, 1) /* ATTUNED_INT */
-     , (27372, 51, 1) /* COMBAT_USE_INT */
-     , (27372, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27372, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27372, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (27372, 136, 3) /* CRITICAL_MULTIPLIER_FLOAT */
      , (27372, 29, 1) /* WEAPON_DEFENSE_FLOAT */
@@ -48,7 +44,7 @@ VALUES (27372, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (27372, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (27372, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27372, 22, True) /* INSCRIBABLE_BOOL */
      , (27372, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

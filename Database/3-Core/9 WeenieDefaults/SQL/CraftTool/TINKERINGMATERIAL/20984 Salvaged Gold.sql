@@ -1,18 +1,15 @@
 /* Weenie - Salvaged Gold (20984) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20984;
+DELETE FROM weenie WHERE class_Id = 20984;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20984, 'materialgold');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20984, 'materialgold', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20984, 0, 20984);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20984, 1, 'Salvaged Gold') /* NAME_STRING */
      , (20984, 14, 'Apply this material to a treasure-generated item to raise the item''s value by 25%.') /* USE_STRING */
      , (20984, 15, 'A bar of gold material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20984, 1, 33554817) /* SETUP_DID */
      , (20984, 3, 536870932) /* SOUND_TABLE_DID */
      , (20984, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (20984, 1, 33554817) /* SETUP_DID */
      , (20984, 8, 100667436) /* ICON_DID */
      , (20984, 50, 100673228) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20984, 9, 0) /* LOCATIONS_INT */
      , (20984, 1, 1073741824) /* ITEM_TYPE_INT */
      , (20984, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (20984, 9, 0) /* LOCATIONS_INT */
      , (20984, 91, 100) /* MAX_STRUCTURE_INT */
      , (20984, 93, 1044) /* PHYSICS_STATE_INT */
      , (20984, 94, 35215) /* TARGET_TYPE_INT */
-     , (20984, 33, 1) /* BONDED_INT */
-     , (20984, 9007, 44) /* CraftTool_WeenieType */;
+     , (20984, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20984, 22, True) /* INSCRIBABLE_BOOL */
      , (20984, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

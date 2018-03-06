@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (720, 2122457088, 3894542600, 88.9719, 57.019, 24.5, -0.999966, 0, 0, -0.0082894) /* Sliding Door */
      , (720, 2122457089, 3894542603, 88.8708, 63.1181, 24.5, -0.999966, 0, 0, -0.0082894) /* Sliding Door */
      , (8432, 2122457094, 3894542603, 82.0376, 67.0986, 24.505, -0.385242, 0, 0, 0.922816) /* Vanten the Archmage */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1148, 1903894528, 397541632, 130.885, 60.5018, 41.205, 0.999557, 0, 0, -0.0297741) /* Door */
      , (11395, 1903894530, 397541637, 131.524, 68.5955, 44.005, -0.54949, 0, 0, -0.8355) /* Micon Stuvis the Barkeep */
      , (8377, 1903894540, 397541637, 129.502, 69.57, 45, -0.999255, 0, 0, -0.0385884) /* Beer Keg */
@@ -15,10 +15,10 @@ VALUES (1148, 1903894528, 397541632, 130.885, 60.5018, 41.205, 0.999557, 0, 0, -
      , (5772, 1903894543, 397541376, 135.376, 33.1646, 44.005, -0.197293, 0, 0, -0.980345) /* Town Crier */
      , (509, 1903894542, 397541376, 101.375, 53.2718, 44.005, 0.977793, 0, 0, 0.209573) /* Life Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1903894532'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1903894532'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894543'; /* linkmonstergen30seconds <- Town Crier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894535'; /* linkmonstergen30seconds <- Behdo Yii */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894531'; /* linkmonstergen30seconds <- Ling Xiao the Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903894544'; /* linkmonstergen30seconds <- Bachus Flufens */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903894543'; /* linkmonstergen30seconds <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903894535'; /* linkmonstergen30seconds <- Behdo Yii */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903894531'; /* linkmonstergen30seconds <- Ling Xiao the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903894544'; /* linkmonstergen30seconds <- Bachus Flufens */
 

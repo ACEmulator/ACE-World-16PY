@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1032, 1880920064, 29950208, 63.0237, -180, -72, 0.707107, 0, 0, -0.707107) /* Portal to Zaikhal */
      , (1026, 1880920065, 29950209, 63.0237, -190, -72, 0.707107, 0, 0, -0.707107) /* Portal to Samsur */
      , (1025, 1880920066, 29950210, 70, -174.75, -72, -4.37114E-08, 0, 0, -1) /* Portal to Rithwic */
@@ -74,17 +74,17 @@ VALUES (1032, 1880920064, 29950208, 63.0237, -180, -72, 0.707107, 0, 0, -0.70710
      , (1596, 1880920138, 29950513, 80, -20, 0, -4.37114E-08, 0, 0, -1) /* Surface */
      , (568, 1880920139, 29950515, 80, -24.75, 0, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880920101'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880920095'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880920082'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880920085'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880920087'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880920101'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880920095'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880920082'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880920085'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880920087'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880920100'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880920094'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880920081'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880920083'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880920084'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880920088'; /* linkmonstergen <- Undead Miner */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880920086'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880920100'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880920094'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880920081'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880920083'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880920084'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880920088'; /* linkmonstergen <- Undead Miner */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880920086'; /* linkmonstergen <- Undead Miner */
 

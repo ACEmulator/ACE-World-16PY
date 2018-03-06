@@ -1,16 +1,13 @@
 /* Weenie - Mite Warrior Queen (24029) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24029;
+DELETE FROM weenie WHERE class_Id = 24029;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24029, 'mitequeen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24029, 'mitequeen', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24029, 0, 24029);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24029, 1, 'Mite Warrior Queen') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24029, 1, 33558658) /* SETUP_DID */
      , (24029, 2, 150994955) /* MOTION_TABLE_DID */
      , (24029, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (24029, 1, 33558658) /* SETUP_DID */
      , (24029, 7, 268436816) /* CLOTHINGBASE_DID */
      , (24029, 8, 100667448) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24029, 1, 16) /* ITEM_TYPE_INT */
      , (24029, 146, 13024) /* XP_OVERRIDE_INT */
      , (24029, 2, 7) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (24029, 1, 16) /* ITEM_TYPE_INT */
      , (24029, 27, 0) /* ARMOR_TYPE_INT */
      , (24029, 93, 1032) /* PHYSICS_STATE_INT */
      , (24029, 101, 129) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (24029, 40, 2) /* COMBAT_MODE_INT */
-     , (24029, 9007, 10) /* Creature_WeenieType */;
+     , (24029, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24029, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (24029, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (24029, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (24029, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (24029, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24029, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24029, 1, True) /* STUCK_BOOL */
      , (24029, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (24029, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24029, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24029, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (24029, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (24029, 4, 185) /* COORDINATION_ATTRIBUTE */
-     , (24029, 8, 195) /* QUICKNESS_ATTRIBUTE */
-     , (24029, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (24029, 32, 100) /* SELF_ATTRIBUTE */;
+     , (24029, 3, 195) /* QUICKNESS_ATTRIBUTE */
+     , (24029, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (24029, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24029, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24029, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24029, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24029, 1, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24029, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24029, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24029, 1, 8211, 250, 0, 0, False) /* Create Discus for Contain_DestinationType */
      , (24029, 1, 24033, 250, 0, 0, False) /* Create Mite Queen's Staff for Contain_DestinationType */
      , (24029, 1, 24126, 250, 0, 0, False) /* Create A Crumpled Letter for Contain_DestinationType */;

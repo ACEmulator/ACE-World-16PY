@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1371, 1992171522, 1809973504, 179.377, 83.6521, 84.005, 0.669614, 0, 0, -0.742709) /* Archmage */
      , (1378, 1992171523, 1809973504, 175.398, 80.9717, 84.005, -0.858829, 0, 0, -0.512263) /* Roaming Bowyer */
      , (412, 1992171520, 1809973248, 176.613, 86.2965, 84, -4.37114E-08, 0, 0, -1) /* Door */
@@ -10,9 +10,9 @@ VALUES (1371, 1992171522, 1809973504, 179.377, 83.6521, 84.005, 0.669614, 0, 0, 
      , (2566, 1992171526, 1809973248, 157.128, 82.2775, 84.005, 0.666972, 0, 0, 0.745082) /* Black Rabbit */
      , (2566, 1992171527, 1809973248, 151.765, 79.7195, 84.005, 0.99742, 0, 0, -0.0717797) /* Black Rabbit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1992171529'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1992171529'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171526'; /* linkmonstergen <- Black Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171527'; /* linkmonstergen <- Black Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1992171528'; /* linkmonstergen <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1992171526'; /* linkmonstergen <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1992171527'; /* linkmonstergen <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1992171528'; /* linkmonstergen <- Black Rabbit */
 

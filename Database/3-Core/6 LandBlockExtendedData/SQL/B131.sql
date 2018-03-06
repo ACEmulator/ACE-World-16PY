@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7085, 2064846863, 2972778752, 83.5835, 177.379, 51.6072, 0.997576, 0, 0, -0.0695798) /* Banderling Berserker */
      , (7085, 2064846871, 2972778752, 81.4978, 182.972, 58.8072, 0.645105, 0, 0, -0.764094) /* Banderling Berserker */
      , (7085, 2064846870, 2972778752, 80.8333, 180.513, 50.0072, 0.81409, 0, 0, -0.580739) /* Banderling Berserker */
@@ -21,21 +21,21 @@ VALUES (7085, 2064846863, 2972778752, 83.5835, 177.379, 51.6072, 0.997576, 0, 0,
      , (7085, 2064846873, 2972778496, 87.0794, 182.311, 65.2072, -0.304716, 0, 0, -0.952443) /* Banderling Berserker */
      , (7085, 2064846872, 2972778496, 81.0863, 179.65, 65.2072, -0.115734, 0, 0, -0.99328) /* Banderling Berserker */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2064846885'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2064846885'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846869'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846870'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846863'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846871'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846872'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846873'; /* linkmonstergen5minutes <- Banderling Berserker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846862'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846874'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846875'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846868'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846867'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846864'; /* linkmonstergen5minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846879'; /* linkmonstergen5minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846882'; /* linkmonstergen5minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2064846883'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846869'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846870'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846863'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846871'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846872'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846873'; /* linkmonstergen5minutes <- Banderling Berserker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846862'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846874'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846875'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846868'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846867'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846864'; /* linkmonstergen5minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846879'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846882'; /* linkmonstergen5minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2064846883'; /* linkmonstergen5minutes <- Dark Revenant */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4686, 2030403592, 2421686545, 173.852, 132.299, 0.005, 0.755999, 0, 0, -0.654573) /* Tailor Najsun */
      , (4684, 2030403593, 2421686547, 185.989, 131.855, 0.024, -0.823199, 0, 0, -0.567753) /* Bashkiya the Scribe */
      , (4677, 2030403594, 2421686548, 188.124, 132.778, 3.205, -0.461937, 0, 0, -0.886913) /* Archmage Jiz ibn Ijfai */
@@ -40,11 +40,11 @@ VALUES (4686, 2030403592, 2421686545, 173.852, 132.299, 0.005, 0.755999, 0, 0, -
      , (4645, 2030403605, 2421686272, 35.2427, 160.153, 5.34729, 0.997699, 0, 0, 0.0678047) /* Al-Arqas */
      , (27547, 2030403635, 2421686272, 142.744, 89.0523, 0.00500003, -0.362012, 0, 0, 0.932173) /* Bind Stone */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030403608'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030403608'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403598'; /* linkmonstergen3minutes <- Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403630'; /* linkmonstergen3minutes <- Jalina al-Hajj */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403603'; /* linkmonstergen3minutes <- Jilsaya bint Dah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403631'; /* linkmonstergen3minutes <- Adara al-Rajin */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030403636'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403598'; /* linkmonstergen3minutes <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403630'; /* linkmonstergen3minutes <- Jalina al-Hajj */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403603'; /* linkmonstergen3minutes <- Jilsaya bint Dah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403631'; /* linkmonstergen3minutes <- Adara al-Rajin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030403636'; /* linkmonstergen3minutes <- Apprentice Cook */
 

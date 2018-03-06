@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12467, 2037899264, 2541617152, 42.9019, 67.847, 30.005, -0.317767, 0, 0, -0.948169) /* Adventurer's Haven Cottages Portal */
      , (12540, 2037899265, 2541617152, 44.4483, 59.612, 30.005, -0.911534, 0, 0, -0.411225) /* Samsur Butte Cottages Portal */
      , (12570, 2037899266, 2541617152, 34.2368, 67.9712, 30.005, 0.126919, 0, 0, -0.991913) /* Yushad Ridge Cottages Portal */

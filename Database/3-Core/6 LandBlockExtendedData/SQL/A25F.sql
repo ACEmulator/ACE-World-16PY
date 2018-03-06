@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1828, 2049306640, 2724135168, 158.096, 157.207, 19.705, 0.619255, 0, 0, 0.78519) /* Yahr ibn Ajaj the Bowyer */
      , (1148, 2049306624, 2724135173, 124.238, 56.5763, 20, 0.707107, 0, 0, 0.707107) /* Door */
      , (8377, 2049306652, 2724135173, 126.557, 53.0103, 20.5801, -0.242663, 0, 0, -0.970111) /* Beer Keg */
@@ -37,7 +37,7 @@ VALUES (1828, 2049306640, 2724135168, 158.096, 157.207, 19.705, 0.619255, 0, 0, 
      , (1810, 2049306645, 2724134912, 130.145, 132.921, 23.7908, -0.903941, 0, 0, -0.427657) /* The Thirsty Blade */
      , (1804, 2049306644, 2724134912, 151.074, 151.381, 22.9984, -4.37114E-08, 0, 0, -1) /* Bows and Arrows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2049306667'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2049306667'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2049306666'; /* linkmonstergen1hour <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2049306666'; /* linkmonstergen1hour <- Apprentice Cook */
 

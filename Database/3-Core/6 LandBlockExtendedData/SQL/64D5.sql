@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.705253) /* Chest */
      , (5435, 1984778254, 1691681024, 61.2449, 134.414, 78.005, 0.0884496, 0, 0, 0.996081) /* Archmage Ta Ri  */
      , (2533, 1984778258, 1691681031, 86.4072, 108.694, 78.005, -0.208046, 0, 0, -0.978119) /* Gerhi, Bowyer of Stonehold  */
@@ -50,16 +50,16 @@ VALUES (143, 1984778240, 1691681024, 60.6675, 136.557, 78, 0.708956, 0, 0, -0.70
      , (27248, 1984778292, 1691680768, 82.2909, 66.7715, 78.005, -0.99692, 0, 0, -0.0784281) /* Corin of Stonehold */
      , (14, 1984778305, 1691680768, 112.009, 101.073, 78.0057, -0.989876, 0, 0, 0.141933) /* Cow */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1984778308'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1984778272'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1984778308'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1984778272'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1984778307'; /* linkitemgen10seconds <- Barnar the Tinker's Note */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778291'; /* linkmonstergen3minutes <- Olcris, Nuhmudira's Student */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778303'; /* linkmonstergen3minutes <- Cow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778271'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778304'; /* linkmonstergen3minutes <- Cow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778306'; /* linkmonstergen3minutes <- Cow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778309'; /* linkmonstergen3minutes <- Suzuhara Baijin */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778310'; /* linkmonstergen3minutes <- Cyphis Suldow */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1984778305'; /* linkmonstergen3minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1984778307'; /* linkitemgen10seconds <- Barnar the Tinker's Note */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778291'; /* linkmonstergen3minutes <- Olcris, Nuhmudira's Student */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778303'; /* linkmonstergen3minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778271'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778304'; /* linkmonstergen3minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778306'; /* linkmonstergen3minutes <- Cow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778309'; /* linkmonstergen3minutes <- Suzuhara Baijin */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778310'; /* linkmonstergen3minutes <- Cyphis Suldow */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1984778305'; /* linkmonstergen3minutes <- Cow */
 

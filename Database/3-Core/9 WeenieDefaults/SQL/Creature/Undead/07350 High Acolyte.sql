@@ -1,16 +1,13 @@
 /* Weenie - High Acolyte (7350) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7350;
+DELETE FROM weenie WHERE class_Id = 7350;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7350, 'zombiesoulfearingacolytearea3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7350, 'zombiesoulfearingacolytearea3', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7350, 0, 7350);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7350, 1, 'High Acolyte') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7350, 8, 100667942) /* ICON_DID */
      , (7350, 32, 248) /* WIELDED_TREASURE_TYPE_DID */
      , (7350, 1, 33554839) /* SETUP_DID */
@@ -23,7 +20,7 @@ VALUES (7350, 8, 100667942) /* ICON_DID */
      , (7350, 22, 872415272) /* PHYSICS_EFFECT_TABLE_DID */
      , (7350, 31, 7347) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7350, 1, 16) /* ITEM_TYPE_INT */
      , (7350, 2, 14) /* CREATURE_TYPE_INT */
      , (7350, 3, 69) /* PALETTE_TEMPLATE_INT */
@@ -42,10 +39,9 @@ VALUES (7350, 1, 16) /* ITEM_TYPE_INT */
      , (7350, 93, 4195336) /* PHYSICS_STATE_INT */
      , (7350, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (7350, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (7350, 40, 1) /* COMBAT_MODE_INT */
-     , (7350, 9007, 10) /* Creature_WeenieType */;
+     , (7350, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7350, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7350, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (7350, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -82,7 +78,7 @@ VALUES (7350, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7350, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7350, 31, 4) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7350, 1, True) /* STUCK_BOOL */
      , (7350, 6, True) /* AI_USES_MANA_BOOL */
      , (7350, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
@@ -90,7 +86,7 @@ VALUES (7350, 1, True) /* STUCK_BOOL */
      , (7350, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7350, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7350, 1252, 2.02) /* DrainStamina4_SpellID */
      , (7350, 136, 2.013) /* FrostVolley4_SpellID */
      , (7350, 72, 2.013) /* FrostBolt4_SpellID */
@@ -125,23 +121,23 @@ VALUES (7350, 1252, 2.02) /* DrainStamina4_SpellID */
      , (7350, 1341, 2.009) /* WeaknessOther4_SpellID */
      , (7350, 62, 2.014) /* AcidStream5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7350, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (7350, 2, 175) /* ENDURANCE_ATTRIBUTE */
      , (7350, 4, 135) /* COORDINATION_ATTRIBUTE */
-     , (7350, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (7350, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (7350, 32, 155) /* SELF_ATTRIBUTE */;
+     , (7350, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (7350, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (7350, 6, 155) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7350, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7350, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7350, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7350, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7350, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7350, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7350, 12, 49218197, 51.7, -69.7, 0, -0.7071068, 0, 0, -0.7071068) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7350, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
      , (7350, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (7350, 9, 7810, 0, 0, 1, False) /* Create Yucky Key for ContainTreasure_DestinationType */
@@ -149,6 +145,6 @@ VALUES (7350, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for Contain
      , (7350, 9, 7817, 0, 0, 1, False) /* Create Skull of High Acolyte for ContainTreasure_DestinationType */
      , (7350, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7350, 1, 7818, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate an evil presence (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Deadly Hollow Dagger (21361) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21361;
+DELETE FROM weenie WHERE class_Id = 21361;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21361, 'daggerhollownew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21361, 'daggerhollownew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21361, 0, 21361);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21361, 16, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LONG_DESC_STRING */
      , (21361, 1, 'Deadly Hollow Dagger') /* NAME_STRING */
      , (21361, 15, 'A dagger crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21361, 1, 33556650) /* SETUP_DID */
      , (21361, 3, 536870932) /* SOUND_TABLE_DID */
      , (21361, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (21361, 1, 33556650) /* SETUP_DID */
      , (21361, 7, 268435783) /* CLOTHINGBASE_DID */
      , (21361, 8, 100668875) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21361, 9, 1048576) /* LOCATIONS_INT */
      , (21361, 1, 1) /* ITEM_TYPE_INT */
      , (21361, 19, 2000) /* VALUE_INT */
@@ -44,17 +41,16 @@ VALUES (21361, 9, 1048576) /* LOCATIONS_INT */
      , (21361, 48, 4) /* WEAPON_SKILL_INT */
      , (21361, 49, 20) /* WEAPON_TIME_INT */
      , (21361, 114, 1) /* ATTUNED_INT */
-     , (21361, 51, 1) /* COMBAT_USE_INT */
-     , (21361, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (21361, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21361, 76, 0.7) /* TRANSLUCENCY_FLOAT */
      , (21361, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (21361, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (21361, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (21361, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21361, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
      , (21361, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
      , (21361, 99, True) /* IVORYABLE_BOOL */

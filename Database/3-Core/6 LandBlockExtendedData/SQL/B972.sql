@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20225, 2073501713, 3111256320, 181.605, 85.0497, 33.705, -0.347513, 0, 0, -0.937675) /* Journeyman Scrivener of War Magic */
      , (20221, 2073501710, 3111256320, 181.423, 91.2998, 33.705, 0.496955, 0, 0, 0.867776) /* Journeyman Scrivener of Life Magic */
      , (20213, 2073501712, 3111256321, 180.976, 83.5373, 33.705, -0.705136, 0, 0, -0.709072) /* Journeyman Scrivener of Item Magic */
@@ -33,12 +33,12 @@ VALUES (20225, 2073501713, 3111256320, 181.605, 85.0497, 33.705, -0.347513, 0, 0
      , (827, 2073501716, 3111256064, 110.905, 78.0281, 34.005, 0.997874, 0, 0, 0.065168) /* Opal House */
      , (823, 2073501708, 3111256064, 103.561, 31.771, 24.005, 0.955278, 0, 0, 0.29571) /* Smith Wah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2073501725'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2073501725'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501701'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501719'; /* linkmonstergen3minutes <- Dai Ya the Scholar */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501724'; /* linkmonstergen3minutes <- Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501749'; /* linkmonstergen3minutes <- Apprentice Fletcher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501750'; /* linkmonstergen3minutes <- Bleeargh, Mosswart Swamp Lord */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2073501751'; /* linkmonstergen3minutes <- Ydnew */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501701'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501719'; /* linkmonstergen3minutes <- Dai Ya the Scholar */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501724'; /* linkmonstergen3minutes <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501749'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501750'; /* linkmonstergen3minutes <- Bleeargh, Mosswart Swamp Lord */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2073501751'; /* linkmonstergen3minutes <- Ydnew */
 

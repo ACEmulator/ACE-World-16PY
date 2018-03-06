@@ -1,24 +1,21 @@
 /* Weenie - Unholy Gatekeeper of Slaughter (30788) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30788;
+DELETE FROM weenie WHERE class_Id = 30788;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30788, 'pvphategatekeeper80unholy');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30788, 'pvphategatekeeper80unholy', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30788, 0, 30788);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30788, 1, 'Unholy Gatekeeper of Slaughter') /* NAME_STRING */
      , (30788, 15, 'This Gate may be used by those Chosen of Bael''Zharon from levels 80 to 109.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30788, 1, 33559248) /* SETUP_DID */
      , (30788, 2, 150995330) /* MOTION_TABLE_DID */
      , (30788, 3, 536870932) /* SOUND_TABLE_DID */
      , (30788, 4, 805306368) /* COMBAT_TABLE_DID */
      , (30788, 8, 100677462) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30788, 1, 16) /* ITEM_TYPE_INT */
      , (30788, 146, 1230) /* XP_OVERRIDE_INT */
      , (30788, 2, 63) /* CREATURE_TYPE_INT */
@@ -31,10 +28,9 @@ VALUES (30788, 1, 16) /* ITEM_TYPE_INT */
      , (30788, 25, 10) /* LEVEL_INT */
      , (30788, 27, 0) /* ARMOR_TYPE_INT */
      , (30788, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (30788, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (30788, 9007, 10) /* Creature_WeenieType */;
+     , (30788, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30788, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30788, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (30788, 66, 1) /* RESIST_BLUDGEON_FLOAT */
@@ -62,7 +58,7 @@ VALUES (30788, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30788, 54, 3) /* USE_RADIUS_FLOAT */
      , (30788, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30788, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (30788, 1, True) /* STUCK_BOOL */
      , (30788, 8, False) /* ALLOW_GIVE_BOOL */
@@ -74,16 +70,16 @@ VALUES (30788, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (30788, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (30788, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30788, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (30788, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (30788, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (30788, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (30788, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (30788, 32, 130) /* SELF_ATTRIBUTE */;
+     , (30788, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30788, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (30788, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30788, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30788, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30788, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30788, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30788, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30788, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 

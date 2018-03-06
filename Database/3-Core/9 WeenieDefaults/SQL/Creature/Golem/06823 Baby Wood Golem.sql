@@ -1,16 +1,13 @@
 /* Weenie - Baby Wood Golem (6823) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6823;
+DELETE FROM weenie WHERE class_Id = 6823;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6823, 'golemwoodsmall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6823, 'golemwoodsmall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6823, 0, 6823);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6823, 1, 'Baby Wood Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6823, 1, 33556428) /* SETUP_DID */
      , (6823, 2, 150995073) /* MOTION_TABLE_DID */
      , (6823, 35, 35) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (6823, 1, 33556428) /* SETUP_DID */
      , (6823, 8, 100667940) /* ICON_DID */
      , (6823, 22, 872415326) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6823, 1, 16) /* ITEM_TYPE_INT */
      , (6823, 146, 2000000) /* XP_OVERRIDE_INT */
      , (6823, 2, 13) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (6823, 1, 16) /* ITEM_TYPE_INT */
      , (6823, 25, 126) /* LEVEL_INT */
      , (6823, 27, 0) /* ARMOR_TYPE_INT */
      , (6823, 93, 1032) /* PHYSICS_STATE_INT */
-     , (6823, 40, 2) /* COMBAT_MODE_INT */
-     , (6823, 9007, 10) /* Creature_WeenieType */;
+     , (6823, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6823, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (6823, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (6823, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,26 +63,26 @@ VALUES (6823, 64, 0.83) /* RESIST_SLASH_FLOAT */
      , (6823, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6823, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6823, 1, True) /* STUCK_BOOL */
      , (6823, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (6823, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6823, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6823, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (6823, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (6823, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (6823, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (6823, 16, 95) /* FOCUS_ATTRIBUTE */
-     , (6823, 32, 95) /* SELF_ATTRIBUTE */;
+     , (6823, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (6823, 5, 95) /* FOCUS_ATTRIBUTE */
+     , (6823, 6, 95) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6823, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6823, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6823, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6823, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6823, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6823, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6823, 9, 3673, 0, 0, 0.05, False) /* Create Wood Heart for ContainTreasure_DestinationType */
      , (6823, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (6823, 9, 6353, 0, 0, 0.05, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */

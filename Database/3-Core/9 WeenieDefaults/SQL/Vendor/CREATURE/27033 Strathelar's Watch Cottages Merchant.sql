@@ -1,26 +1,23 @@
 /* Weenie - Strathelar's Watch Cottages Merchant (27033) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27033;
+DELETE FROM weenie WHERE class_Id = 27033;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27033, 'strathelarswatchcottagesvendor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27033, 'strathelarswatchcottagesvendor', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27033, 0, 27033);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27033, 1, 'Strathelar''s Watch Cottages Merchant') /* NAME_STRING */
      , (27033, 3, 'Male') /* SEX_STRING */
      , (27033, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
      , (27033, 5, 'Merchant') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27033, 1, 33554433) /* SETUP_DID */
      , (27033, 2, 150994945) /* MOTION_TABLE_DID */
      , (27033, 3, 536870913) /* SOUND_TABLE_DID */
      , (27033, 4, 805306368) /* COMBAT_TABLE_DID */
      , (27033, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27033, 1, 16) /* ITEM_TYPE_INT */
      , (27033, 74, 264192) /* MERCHANDISE_ITEM_TYPES_INT */
      , (27033, 2, 31) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (27033, 1, 16) /* ITEM_TYPE_INT */
      , (27033, 27, 0) /* ARMOR_TYPE_INT */
      , (27033, 93, 2098204) /* PHYSICS_STATE_INT */
      , (27033, 126, 125) /* VENDOR_HAPPY_MEAN_INT */
-     , (27033, 127, 125) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (27033, 9007, 12) /* Vendor_WeenieType */;
+     , (27033, 127, 125) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27033, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27033, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (27033, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (27033, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27033, 54, 3) /* USE_RADIUS_FLOAT */
      , (27033, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27033, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (27033, 1, True) /* STUCK_BOOL */
      , (27033, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
      , (27033, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27033, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27033, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (27033, 2, 90) /* ENDURANCE_ATTRIBUTE */
      , (27033, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (27033, 8, 85) /* QUICKNESS_ATTRIBUTE */
-     , (27033, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (27033, 32, 45) /* SELF_ATTRIBUTE */;
+     , (27033, 3, 85) /* QUICKNESS_ATTRIBUTE */
+     , (27033, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (27033, 6, 45) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27033, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27033, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27033, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27033, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27033, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27033, 5, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27033, 4, 26398, -1, 0, 0, False) /* Create Strathelar's Watch Cottages Portal Gem for Shop_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Astyrrian (6379) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6379;
+DELETE FROM weenie WHERE class_Id = 6379;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6379, 'lightningelementalastyrrian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6379, 'lightningelementalastyrrian', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6379, 0, 6379);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6379, 1, 'Astyrrian') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6379, 1, 33556140) /* SETUP_DID */
      , (6379, 2, 150995087) /* MOTION_TABLE_DID */
      , (6379, 35, 464) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (6379, 1, 33556140) /* SETUP_DID */
      , (6379, 8, 100670581) /* ICON_DID */
      , (6379, 22, 872415349) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6379, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
      , (6379, 1, 16) /* ITEM_TYPE_INT */
      , (6379, 2, 42) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (6379, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
      , (6379, 27, 0) /* ARMOR_TYPE_INT */
      , (6379, 93, 3080) /* PHYSICS_STATE_INT */
      , (6379, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6379, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (6379, 9007, 10) /* Creature_WeenieType */;
+     , (6379, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6379, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (6379, 65, 0.45) /* RESIST_PIERCE_FLOAT */
      , (6379, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (6379, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (6379, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6379, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6379, 1, True) /* STUCK_BOOL */
      , (6379, 6, True) /* AI_USES_MANA_BOOL */
      , (6379, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (6379, 1, True) /* STUCK_BOOL */
      , (6379, 15, True) /* LIGHTS_STATUS_BOOL */
      , (6379, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6379, 1161, 2.013) /* HealSelf6_SpellID */
      , (6379, 1089, 2.017) /* LightningVulnerabilityOther6_SpellID */
      , (6379, 170, 2.008) /* RegenerationSelf6_SpellID */
@@ -95,24 +91,24 @@ VALUES (6379, 1161, 2.013) /* HealSelf6_SpellID */
      , (6379, 1312, 2.008) /* ArmorSelf6_SpellID */
      , (6379, 1327, 2.017) /* ImperilOther6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6379, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (6379, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (6379, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (6379, 8, 270) /* QUICKNESS_ATTRIBUTE */
-     , (6379, 16, 220) /* FOCUS_ATTRIBUTE */
-     , (6379, 32, 245) /* SELF_ATTRIBUTE */;
+     , (6379, 3, 270) /* QUICKNESS_ATTRIBUTE */
+     , (6379, 5, 220) /* FOCUS_ATTRIBUTE */
+     , (6379, 6, 245) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6379, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6379, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6379, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6379, 1, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6379, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6379, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6379, 2, 6383, 3, 0, 0, False) /* Create Ball of Electricity for Wield_DestinationType */
      , (6379, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (6379, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6379, 1, 6380, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Scintilla (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

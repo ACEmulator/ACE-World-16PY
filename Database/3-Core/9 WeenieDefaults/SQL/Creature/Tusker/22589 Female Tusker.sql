@@ -1,16 +1,13 @@
 /* Weenie - Female Tusker (22589) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22589;
+DELETE FROM weenie WHERE class_Id = 22589;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22589, 'tuskerfemale-tusk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22589, 'tuskerfemale-tusk', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22589, 0, 22589);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22589, 1, 'Female Tusker') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22589, 1, 33556836) /* SETUP_DID */
      , (22589, 2, 150994956) /* MOTION_TABLE_DID */
      , (22589, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (22589, 1, 33556836) /* SETUP_DID */
      , (22589, 7, 268436066) /* CLOTHINGBASE_DID */
      , (22589, 8, 100667443) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22589, 1, 16) /* ITEM_TYPE_INT */
      , (22589, 146, 819) /* XP_OVERRIDE_INT */
      , (22589, 2, 8) /* CREATURE_TYPE_INT */
@@ -34,10 +31,9 @@ VALUES (22589, 1, 16) /* ITEM_TYPE_INT */
      , (22589, 25, 18) /* LEVEL_INT */
      , (22589, 27, 0) /* ARMOR_TYPE_INT */
      , (22589, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22589, 40, 2) /* COMBAT_MODE_INT */
-     , (22589, 9007, 10) /* Creature_WeenieType */;
+     , (22589, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22589, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22589, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (22589, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (22589, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22589, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22589, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22589, 1, True) /* STUCK_BOOL */
      , (22589, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (22589, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22589, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22589, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (22589, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (22589, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (22589, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (22589, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (22589, 32, 30) /* SELF_ATTRIBUTE */;
+     , (22589, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (22589, 5, 20) /* FOCUS_ATTRIBUTE */
+     , (22589, 6, 30) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22589, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22589, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22589, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22589, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22589, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22589, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22589, 1, 22423, 1, 0, 0, False) /* Create Female Tusker Tusk for Contain_DestinationType */
      , (22589, 9, 22578, 0, 0, 0.01, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
      , (22589, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;

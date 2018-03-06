@@ -1,17 +1,14 @@
 /* Weenie - Waaika (11465) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11465;
+DELETE FROM weenie WHERE class_Id = 11465;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11465, 'macewaaika-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11465, 'macewaaika-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11465, 0, 11465);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11465, 16, 'A beautifully carved mace. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LONG_DESC_STRING */
      , (11465, 1, 'Waaika') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11465, 1, 33557235) /* SETUP_DID */
      , (11465, 3, 536870932) /* SOUND_TABLE_DID */
      , (11465, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (11465, 1, 33557235) /* SETUP_DID */
      , (11465, 7, 268436252) /* CLOTHINGBASE_DID */
      , (11465, 8, 100672084) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11465, 33, 1) /* BONDED_INT */
      , (11465, 9, 1048576) /* LOCATIONS_INT */
      , (11465, 1, 1) /* ITEM_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (11465, 33, 1) /* BONDED_INT */
      , (11465, 48, 5) /* WEAPON_SKILL_INT */
      , (11465, 49, 40) /* WEAPON_TIME_INT */
      , (11465, 114, 1) /* ATTUNED_INT */
-     , (11465, 51, 1) /* COMBAT_USE_INT */
-     , (11465, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11465, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11465, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (11465, 136, 3) /* CRITICAL_MULTIPLIER_FLOAT */
      , (11465, 29, 1) /* WEAPON_DEFENSE_FLOAT */
@@ -46,7 +42,7 @@ VALUES (11465, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (11465, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (11465, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11465, 22, True) /* INSCRIBABLE_BOOL */
      , (11465, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

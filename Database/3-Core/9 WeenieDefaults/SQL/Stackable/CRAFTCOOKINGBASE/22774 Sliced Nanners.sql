@@ -1,24 +1,21 @@
 /* Weenie - Sliced Nanners (22774) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22774;
+DELETE FROM weenie WHERE class_Id = 22774;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22774, 'nannersliced');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22774, 'nannersliced', /* Stackable_WeenieType */ 51);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22774, 0, 22774);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22774, 1, 'Sliced Nanners') /* NAME_STRING */
      , (22774, 14, 'This item is used in cooking.') /* USE_STRING */
      , (22774, 15, 'Nanners that have painstakingly been sliced into bite size pieces.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22774, 1, 33558106) /* SETUP_DID */
      , (22774, 3, 536870932) /* SOUND_TABLE_DID */
      , (22774, 8, 100673825) /* ICON_DID */
      , (22774, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22774, 9, 0) /* LOCATIONS_INT */
      , (22774, 1, 4194304) /* ITEM_TYPE_INT */
      , (22774, 13, 30) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (22774, 9, 0) /* LOCATIONS_INT */
      , (22774, 19, 60) /* VALUE_INT */
      , (22774, 150, 103) /* HOOK_PLACEMENT_INT */
      , (22774, 151, 2) /* HOOK_TYPE_INT */
-     , (22774, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22774, 9007, 51) /* Stackable_WeenieType */;
+     , (22774, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22774, 69, False) /* IS_SELLABLE_BOOL */;
 

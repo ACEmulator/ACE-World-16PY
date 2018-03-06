@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15778, 1967538176, 1415840000, 20.0903, -94.2561, -35.995, 0.998257, 0, 0, 0.059009) /* Labyrinth */
      , (14518, 1967538208, 1415840008, 1.3751, -30.1091, -23.993, 0.678557, 0, 0, -0.734548) /* Shivver */
      , (278, 1967538177, 1415840012, 0, -44.75, -24, 0, 0, 0, -1) /* Door */
@@ -48,25 +48,25 @@ VALUES (15778, 1967538176, 1415840000, 20.0903, -94.2561, -35.995, 0.998257, 0, 
      , (15777, 1967538207, 1415840174, 57.5763, -72.4069, 0.005, -0.370494, 0, 0, -0.928835) /* Surface */
      , (4453, 1967538205, 1415840183, 65.5, -70, 0.005, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1967538192'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1967538224'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1967538192'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1967538224'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967538191'; /* linkitemgen10seconds <- Miadun hu Okardunai */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1967538206'; /* linkitemgen10seconds <- Linaural Urilaentai */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538218'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538225'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538221'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538219'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538226'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538222'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538220'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538216'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538223'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538217'; /* linkmonstergen5minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538215'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538214'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538208'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538210'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538211'; /* linkmonstergen5minutes <- Shivver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1967538212'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538191'; /* linkitemgen10seconds <- Miadun hu Okardunai */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1967538206'; /* linkitemgen10seconds <- Linaural Urilaentai */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538218'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538225'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538221'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538219'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538226'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538222'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538220'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538216'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538223'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538217'; /* linkmonstergen5minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538215'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538214'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538208'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538210'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538211'; /* linkmonstergen5minutes <- Shivver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1967538212'; /* linkmonstergen5minutes <- Shivver */
 

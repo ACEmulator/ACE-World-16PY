@@ -1,23 +1,20 @@
 /* Weenie - A Carved Plate (27930) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27930;
+DELETE FROM weenie WHERE class_Id = 27930;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27930, 'platehizkrirezarel');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27930, 'platehizkrirezarel', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27930, 0, 27930);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27930, 1, 'A Carved Plate') /* NAME_STRING */
      , (27930, 15, 'A plate with a relief carved into the face. The relief is of the moon, Rez''arel.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27930, 1, 33558776) /* SETUP_DID */
      , (27930, 3, 536870932) /* SOUND_TABLE_DID */
      , (27930, 8, 100676558) /* ICON_DID */
      , (27930, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27930, 9, 0) /* LOCATIONS_INT */
      , (27930, 1, 2048) /* ITEM_TYPE_INT */
      , (27930, 13, 100) /* STACK_UNIT_ENCUMB_INT */
@@ -31,9 +28,8 @@ VALUES (27930, 9, 0) /* LOCATIONS_INT */
      , (27930, 19, 0) /* VALUE_INT */
      , (27930, 93, 1044) /* PHYSICS_STATE_INT */
      , (27930, 33, 1) /* BONDED_INT */
-     , (27930, 114, 1) /* ATTUNED_INT */
-     , (27930, 9007, 38) /* Gem_WeenieType */;
+     , (27930, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27930, 22, True) /* INSCRIBABLE_BOOL */;
 

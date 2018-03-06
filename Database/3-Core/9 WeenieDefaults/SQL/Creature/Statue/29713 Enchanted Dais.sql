@@ -1,16 +1,13 @@
 /* Weenie - Enchanted Dais (29713) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29713;
+DELETE FROM weenie WHERE class_Id = 29713;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29713, 'daiscrownpassage');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29713, 'daiscrownpassage', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29713, 0, 29713);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29713, 1, 'Enchanted Dais') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29713, 1, 33559083) /* SETUP_DID */
      , (29713, 2, 150995319) /* MOTION_TABLE_DID */
      , (29713, 3, 536871052) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (29713, 1, 33559083) /* SETUP_DID */
      , (29713, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */
      , (29713, 31, 29785) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29713, 1, 16) /* ITEM_TYPE_INT */
      , (29713, 146, 42772) /* XP_OVERRIDE_INT */
      , (29713, 2, 63) /* CREATURE_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (29713, 1, 16) /* ITEM_TYPE_INT */
      , (29713, 25, 465) /* LEVEL_INT */
      , (29713, 27, 0) /* ARMOR_TYPE_INT */
      , (29713, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (29713, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (29713, 9007, 10) /* Creature_WeenieType */;
+     , (29713, 95, 3) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29713, 64, 1) /* RESIST_SLASH_FLOAT */
      , (29713, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (29713, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -65,7 +61,7 @@ VALUES (29713, 64, 1) /* RESIST_SLASH_FLOAT */
      , (29713, 54, 3) /* USE_RADIUS_FLOAT */
      , (29713, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29713, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (29713, 1, True) /* STUCK_BOOL */
      , (29713, 8, True) /* ALLOW_GIVE_BOOL */
@@ -77,19 +73,19 @@ VALUES (29713, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (29713, 19, False) /* ATTACKABLE_BOOL */
      , (29713, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29713, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (29713, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (29713, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (29713, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (29713, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (29713, 32, 285) /* SELF_ATTRIBUTE */;
+     , (29713, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (29713, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (29713, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29713, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29713, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29713, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29713, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29713, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29713, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29713, 12, 15859985, 10.066, -1.736, -5.995, 0.9999543, 0, 0, -0.009555543) /* PORTAL_SUMMON_LOC_POSITION */;
 

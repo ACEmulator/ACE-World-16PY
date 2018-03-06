@@ -1,16 +1,13 @@
 /* Weenie - Composite Bow with Handle (6925) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6925;
+DELETE FROM weenie WHERE class_Id = 6925;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6925, 'bowcompositedmg2def1spd2atk2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6925, 'bowcompositedmg2def1spd2atk2', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6925, 0, 6925);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6925, 1, 'Composite Bow with Handle') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6925, 1, 33556600) /* SETUP_DID */
      , (6925, 3, 536870932) /* SOUND_TABLE_DID */
      , (6925, 37, 2) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (6925, 1, 33556600) /* SETUP_DID */
      , (6925, 7, 268436002) /* CLOTHINGBASE_DID */
      , (6925, 8, 100670669) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6925, 9, 4194304) /* LOCATIONS_INT */
      , (6925, 1, 256) /* ITEM_TYPE_INT */
      , (6925, 19, 400) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (6925, 9, 4194304) /* LOCATIONS_INT */
      , (6925, 115, 210) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (6925, 52, 2) /* PARENT_LOCATION_INT */
      , (6925, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (6925, 60, 192) /* WEAPON_RANGE_INT */
-     , (6925, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (6925, 60, 192) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6925, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
      , (6925, 5, -0.05) /* MANA_RATE_FLOAT */
      , (6925, 63, 1.9) /* DAMAGE_MOD_FLOAT */
@@ -57,13 +53,13 @@ VALUES (6925, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
      , (6925, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (6925, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6925, 99, True) /* IVORYABLE_BOOL */
      , (6925, 69, False) /* IS_SELLABLE_BOOL */
      , (6925, 22, True) /* INSCRIBABLE_BOOL */
      , (6925, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6925, 1614, 2) /* BloodDrinker4_SpellID */
      , (6925, 464, 2) /* BowMasteryOther4_SpellID */;
 

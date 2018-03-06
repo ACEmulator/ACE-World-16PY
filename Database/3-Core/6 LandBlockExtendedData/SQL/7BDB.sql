@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7923, 2008920066, 2077949952, 94.8629, 65.7869, 432.005, -0.980445, 0, 0, -0.196794) /* linkmonstergen3minutes */
      , (5712, 2008920072, 2077949952, 93.3773, 63.8444, 432.009, -0.536603, 0, 0, -0.843835) /* Inferno */
      , (5712, 2008920084, 2077949952, 97.0275, 68.2158, 431.837, -0.997938, 0, 0, 0.0641841) /* Inferno */
@@ -11,15 +11,15 @@ VALUES (7923, 2008920066, 2077949952, 94.8629, 65.7869, 432.005, -0.980445, 0, 0
      , (7092, 2008920092, 2077949952, 89.0482, 49.4076, 431.084, 0.0540477, 0, 0, -0.998538) /* Firestorm */
      , (21416, 2008920096, 2077949952, 96.2313, 62.7448, 431.966, -0.999958, 0, 0, 0.00915469) /* Fire Guardian Lair */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2008920066'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2008920066'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920088'; /* linkmonstergen3minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920089'; /* linkmonstergen3minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920090'; /* linkmonstergen3minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920091'; /* linkmonstergen3minutes <- Flamma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920092'; /* linkmonstergen3minutes <- Firestorm */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920093'; /* linkmonstergen3minutes <- Firestorm */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920086'; /* linkmonstergen3minutes <- Firestorm */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920084'; /* linkmonstergen3minutes <- Inferno */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2008920072'; /* linkmonstergen3minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920088'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920089'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920090'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920091'; /* linkmonstergen3minutes <- Flamma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920092'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920093'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920086'; /* linkmonstergen3minutes <- Firestorm */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920084'; /* linkmonstergen3minutes <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2008920072'; /* linkmonstergen3minutes <- Inferno */
 

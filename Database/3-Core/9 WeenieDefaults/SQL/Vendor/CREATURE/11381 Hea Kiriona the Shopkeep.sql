@@ -1,17 +1,14 @@
 /* Weenie - Hea Kiriona the Shopkeep (11381) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11381;
+DELETE FROM weenie WHERE class_Id = 11381;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11381, 'ahurengashopkeep-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11381, 'ahurengashopkeep-xp', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11381, 0, 11381);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11381, 1, 'Hea Kiriona the Shopkeep') /* NAME_STRING */
      , (11381, 24, 'Ahurenga') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11381, 1, 33554496) /* SETUP_DID */
      , (11381, 2, 150994954) /* MOTION_TABLE_DID */
      , (11381, 3, 536870931) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (11381, 1, 33554496) /* SETUP_DID */
      , (11381, 7, 268435647) /* CLOTHINGBASE_DID */
      , (11381, 8, 100667452) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11381, 1, 16) /* ITEM_TYPE_INT */
      , (11381, 74, 1078215328) /* MERCHANDISE_ITEM_TYPES_INT */
      , (11381, 2, 6) /* CREATURE_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (11381, 1, 16) /* ITEM_TYPE_INT */
      , (11381, 27, 0) /* ARMOR_TYPE_INT */
      , (11381, 93, 2098200) /* PHYSICS_STATE_INT */
      , (11381, 126, 250) /* VENDOR_HAPPY_MEAN_INT */
-     , (11381, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (11381, 9007, 12) /* Vendor_WeenieType */;
+     , (11381, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11381, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11381, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11381, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -77,7 +73,7 @@ VALUES (11381, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11381, 54, 3) /* USE_RADIUS_FLOAT */
      , (11381, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11381, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (11381, 1, True) /* STUCK_BOOL */
      , (11381, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -86,20 +82,20 @@ VALUES (11381, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (11381, 19, False) /* ATTACKABLE_BOOL */
      , (11381, 54, True) /* IS_DYNAMIC_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11381, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (11381, 2, 90) /* ENDURANCE_ATTRIBUTE */
      , (11381, 4, 95) /* COORDINATION_ATTRIBUTE */
-     , (11381, 8, 95) /* QUICKNESS_ATTRIBUTE */
-     , (11381, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (11381, 32, 60) /* SELF_ATTRIBUTE */;
+     , (11381, 3, 95) /* QUICKNESS_ATTRIBUTE */
+     , (11381, 5, 90) /* FOCUS_ATTRIBUTE */
+     , (11381, 6, 60) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11381, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11381, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11381, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11381, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11381, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11381, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11381, 4, 139, -1, 90, 1, False) /* Create Small Belt Pouch for Shop_DestinationType */
      , (11381, 4, 136, -1, 61, 1, False) /* Create Pack for Shop_DestinationType */
      , (11381, 4, 547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom for Shop_DestinationType */

@@ -1,16 +1,13 @@
 /* Weenie - Sephal Niffis (7988) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7988;
+DELETE FROM weenie WHERE class_Id = 7988;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7988, 'niffissephal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7988, 'niffissephal', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7988, 0, 7988);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7988, 1, 'Sephal Niffis') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7988, 1, 33556774) /* SETUP_DID */
      , (7988, 2, 150995099) /* MOTION_TABLE_DID */
      , (7988, 35, 462) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (7988, 1, 33556774) /* SETUP_DID */
      , (7988, 7, 268436039) /* CLOTHINGBASE_DID */
      , (7988, 8, 100670961) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7988, 1, 16) /* ITEM_TYPE_INT */
      , (7988, 2, 45) /* CREATURE_TYPE_INT */
      , (7988, 3, 82) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (7988, 1, 16) /* ITEM_TYPE_INT */
      , (7988, 27, 0) /* ARMOR_TYPE_INT */
      , (7988, 93, 1032) /* PHYSICS_STATE_INT */
      , (7988, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (7988, 40, 2) /* COMBAT_MODE_INT */
-     , (7988, 9007, 10) /* Creature_WeenieType */;
+     , (7988, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7988, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7988, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (7988, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (7988, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7988, 127, 2) /* AI_COUNTERACT_ENCHANTMENT_FLOAT */
      , (7988, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7988, 1, True) /* STUCK_BOOL */
      , (7988, 6, True) /* AI_USES_MANA_BOOL */
      , (7988, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -82,7 +78,7 @@ VALUES (7988, 1, True) /* STUCK_BOOL */
      , (7988, 13, False) /* ETHEREAL_BOOL */
      , (7988, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7988, 1239, 2.008) /* DrainHealth3_SpellID */
      , (7988, 517, 2) /* AcidProtectionSelf3_SpellID */
      , (7988, 1309, 2) /* ArmorSelf3_SpellID */
@@ -97,20 +93,20 @@ VALUES (7988, 1239, 2.008) /* DrainHealth3_SpellID */
      , (7988, 1465, 2.035) /* FeeblemindOther3_SpellID */
      , (7988, 1340, 2.035) /* WeaknessOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7988, 1, 220) /* STRENGTH_ATTRIBUTE */
      , (7988, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (7988, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (7988, 8, 180) /* QUICKNESS_ATTRIBUTE */
-     , (7988, 16, 170) /* FOCUS_ATTRIBUTE */
-     , (7988, 32, 220) /* SELF_ATTRIBUTE */;
+     , (7988, 3, 180) /* QUICKNESS_ATTRIBUTE */
+     , (7988, 5, 170) /* FOCUS_ATTRIBUTE */
+     , (7988, 6, 220) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7988, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7988, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7988, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7988, 1, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7988, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7988, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7988, 9, 10703, 0, 0, 0.03, False) /* Create Niffis Shell for ContainTreasure_DestinationType */
      , (7988, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

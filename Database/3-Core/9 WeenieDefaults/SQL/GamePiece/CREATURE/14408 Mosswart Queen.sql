@@ -1,16 +1,13 @@
 /* Weenie - Mosswart Queen (14408) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14408;
+DELETE FROM weenie WHERE class_Id = 14408;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14408, 'mosswartqueen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14408, 'mosswartqueen', /* GamePiece_WeenieType */ 61);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14408, 0, 14408);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14408, 1, 'Mosswart Queen') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14408, 1, 33557327) /* SETUP_DID */
      , (14408, 2, 150994953) /* MOTION_TABLE_DID */
      , (14408, 3, 536870959) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (14408, 1, 33557327) /* SETUP_DID */
      , (14408, 7, 268436292) /* CLOTHINGBASE_DID */
      , (14408, 8, 100667449) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14408, 1, 16) /* ITEM_TYPE_INT */
      , (14408, 2, 4) /* CREATURE_TYPE_INT */
      , (14408, 67, 64) /* TOLERANCE_INT */
@@ -36,10 +33,9 @@ VALUES (14408, 1, 16) /* ITEM_TYPE_INT */
      , (14408, 27, 0) /* ARMOR_TYPE_INT */
      , (14408, 93, 1036) /* PHYSICS_STATE_INT */
      , (14408, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (14408, 40, 2) /* COMBAT_MODE_INT */
-     , (14408, 9007, 61) /* GamePiece_WeenieType */;
+     , (14408, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14408, 64, 0) /* RESIST_SLASH_FLOAT */
      , (14408, 65, 0) /* RESIST_PIERCE_FLOAT */
      , (14408, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (14408, 64, 0) /* RESIST_SLASH_FLOAT */
      , (14408, 125, 0) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (14408, 31, 1) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14408, 1, True) /* STUCK_BOOL */
      , (14408, 19, False) /* ATTACKABLE_BOOL */
      , (14408, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -80,19 +76,19 @@ VALUES (14408, 1, True) /* STUCK_BOOL */
      , (14408, 29, True) /* NO_CORPSE_BOOL */
      , (14408, 13, True) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14408, 61, 3) /* AcidStream4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (14408, 1, 20) /* STRENGTH_ATTRIBUTE */
      , (14408, 2, 30) /* ENDURANCE_ATTRIBUTE */
      , (14408, 4, 25) /* COORDINATION_ATTRIBUTE */
-     , (14408, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (14408, 16, 25) /* FOCUS_ATTRIBUTE */
-     , (14408, 32, 15) /* SELF_ATTRIBUTE */;
+     , (14408, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (14408, 5, 25) /* FOCUS_ATTRIBUTE */
+     , (14408, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14408, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14408, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14408, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (14408, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14408, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14408, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 

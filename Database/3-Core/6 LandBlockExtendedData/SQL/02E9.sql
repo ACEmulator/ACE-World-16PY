@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7550, 1882099712, 48824576, 4.90002, -411.447, -11.99, 0.076439, 0, 0, -0.997074) /* Amploth Raider */
      , (7550, 1882099713, 48824576, 0.356531, -413.489, -11.99, 0.353333, 0, 0, -0.935498) /* Amploth Raider */
      , (7550, 1882099714, 48824576, -2.40781, -414.436, -11.99, 0.589691, 0, 0, -0.807629) /* Amploth Raider */
@@ -68,67 +68,67 @@ VALUES (7550, 1882099712, 48824576, 4.90002, -411.447, -11.99, 0.076439, 0, 0, -
      , (7553, 1882099778, 48824907, 205.92, -190.361, 0.01, 0.979761, 0, 0, 0.200171) /* Laigus Raider */
      , (7553, 1882099779, 48824907, 206.879, -192.659, 0.01, 0.884075, 0, 0, 0.467345) /* Laigus Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882099769'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882099733'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882099729'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1882099756'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882099769'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882099733'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882099729'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1882099756'; /* Magic trap */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099766'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099767'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099774'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099775'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099776'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099777'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099761'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099762'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099763'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099770'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099771'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099772'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099773'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099778'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099779'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099764'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099765'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099759'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099760'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099753'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099754'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099750'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099751'; /* linkmonstergen15minutes <- Laigus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099752'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099757'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099758'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099732'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099731'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099723'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099724'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099738'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099739'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882099746'; /* linkmonstergen15minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099747'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099748'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099742'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099743'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099744'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099740'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099741'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099734'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099735'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099736'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099719'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099720'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099725'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099726'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099727'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099722'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099716'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099717'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099712'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099713'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099714'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099749'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882099721'; /* linkmonstergen3minutes <- Amploth Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882099730'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1882099755'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099766'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099767'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099774'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099775'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099776'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099777'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099761'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099762'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099763'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099770'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099771'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099772'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099773'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099778'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099779'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099764'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099765'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099759'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099760'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099753'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099754'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099750'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099751'; /* linkmonstergen15minutes <- Laigus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099752'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099757'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099758'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099732'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099731'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099723'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099724'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099738'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099739'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882099746'; /* linkmonstergen15minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099747'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099748'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099742'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099743'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099744'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099740'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099741'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099734'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099735'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099736'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099719'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099720'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099725'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099726'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099727'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099722'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099716'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099717'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099712'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099713'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099714'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099749'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882099721'; /* linkmonstergen3minutes <- Amploth Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882099730'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1882099755'; /* Magic trap <- Pressure Plate */
 

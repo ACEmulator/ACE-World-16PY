@@ -1,17 +1,14 @@
 /* Weenie - Acidic Weeping Dagger (25615) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25615;
+DELETE FROM weenie WHERE class_Id = 25615;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25615, 'daggerweepingacidic');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25615, 'daggerweepingacidic', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25615, 0, 25615);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25615, 1, 'Acidic Weeping Dagger') /* NAME_STRING */
      , (25615, 15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25615, 1, 33558469) /* SETUP_DID */
      , (25615, 3, 536870932) /* SOUND_TABLE_DID */
      , (25615, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (25615, 1, 33558469) /* SETUP_DID */
      , (25615, 7, 268436698) /* CLOTHINGBASE_DID */
      , (25615, 8, 100674891) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25615, 9, 1048576) /* LOCATIONS_INT */
      , (25615, 1, 1) /* ITEM_TYPE_INT */
      , (25615, 19, 8000) /* VALUE_INT */
@@ -49,10 +46,9 @@ VALUES (25615, 9, 1048576) /* LOCATIONS_INT */
      , (25615, 48, 4) /* WEAPON_SKILL_INT */
      , (25615, 49, 12) /* WEAPON_TIME_INT */
      , (25615, 114, 1) /* ATTUNED_INT */
-     , (25615, 51, 1) /* COMBAT_USE_INT */
-     , (25615, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25615, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25615, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25615, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (25615, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -62,12 +58,12 @@ VALUES (25615, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25615, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (25615, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25615, 99, True) /* IVORYABLE_BOOL */
      , (25615, 22, True) /* INSCRIBABLE_BOOL */
      , (25615, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25615, 2689, 2) /* ModerateDaggerAptitude_SpellID */
      , (25615, 2963, 2) /* CunningHunter_SpellID */
      , (25615, 2964, 2) /* MarkHunter_SpellID */

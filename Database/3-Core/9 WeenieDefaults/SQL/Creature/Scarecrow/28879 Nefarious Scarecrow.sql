@@ -1,16 +1,13 @@
 /* Weenie - Nefarious Scarecrow (28879) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28879;
+DELETE FROM weenie WHERE class_Id = 28879;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28879, 'scarecrownefarious');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28879, 'scarecrownefarious', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28879, 0, 28879);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28879, 1, 'Nefarious Scarecrow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28879, 1, 33556868) /* SETUP_DID */
      , (28879, 2, 150995101) /* MOTION_TABLE_DID */
      , (28879, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (28879, 1, 33556868) /* SETUP_DID */
      , (28879, 7, 268436084) /* CLOTHINGBASE_DID */
      , (28879, 8, 100671141) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28879, 1, 16) /* ITEM_TYPE_INT */
      , (28879, 2, 49) /* CREATURE_TYPE_INT */
      , (28879, 67, 2) /* TOLERANCE_INT */
@@ -38,10 +35,9 @@ VALUES (28879, 1, 16) /* ITEM_TYPE_INT */
      , (28879, 25, 53) /* LEVEL_INT */
      , (28879, 27, 0) /* ARMOR_TYPE_INT */
      , (28879, 93, 1032) /* PHYSICS_STATE_INT */
-     , (28879, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (28879, 9007, 10) /* Creature_WeenieType */;
+     , (28879, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28879, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (28879, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (28879, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -77,14 +73,14 @@ VALUES (28879, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (28879, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (28879, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28879, 1, True) /* STUCK_BOOL */
      , (28879, 6, False) /* AI_USES_MANA_BOOL */
      , (28879, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (28879, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28879, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28879, 1091, 2.008) /* FireProtectionSelf3_SpellID */
      , (28879, 196, 2.009) /* ExhaustionOther3_SpellID */
      , (28879, 1197, 2.009) /* EnfeebleOther3_SpellID */
@@ -95,20 +91,20 @@ VALUES (28879, 1091, 2.008) /* FireProtectionSelf3_SpellID */
      , (28879, 173, 2.009) /* FesterOther3_SpellID */
      , (28879, 246, 2.008) /* InvulnerabilitySelf3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28879, 1, 155) /* STRENGTH_ATTRIBUTE */
      , (28879, 2, 185) /* ENDURANCE_ATTRIBUTE */
      , (28879, 4, 145) /* COORDINATION_ATTRIBUTE */
-     , (28879, 8, 145) /* QUICKNESS_ATTRIBUTE */
-     , (28879, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (28879, 32, 165) /* SELF_ATTRIBUTE */;
+     , (28879, 3, 145) /* QUICKNESS_ATTRIBUTE */
+     , (28879, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (28879, 6, 165) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28879, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28879, 128, 115) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28879, 256, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28879, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28879, 3, 115) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28879, 5, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28879, 9, 8232, 0, 0, 0.1, False) /* Create Pumpkin for ContainTreasure_DestinationType */
      , (28879, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */
      , (28879, 9, 8232, 0, 0, 0.2, False) /* Create Pumpkin for ContainTreasure_DestinationType */
@@ -117,7 +113,7 @@ VALUES (28879, 9, 8232, 0, 0, 0.1, False) /* Create Pumpkin for ContainTreasure_
      , (28879, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (28879, 2, 8395, 12, 0, 0, False) /* Create Jack o' Lantern for Wield_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28879, 0.06, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
      , (28879, 0.12, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 1.4, 1.4, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */
      , (28879, 0.18, 8232, 120, 1, 1, 2, 4, -1, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0)/* Generate Pumpkin (x1 up to max of 1) - PickUp_RegenerationType - Specific_RegenLocationType */

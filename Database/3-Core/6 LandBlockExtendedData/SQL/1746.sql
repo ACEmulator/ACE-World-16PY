@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23566, 1903452175, 390463744, 87.1264, 154.556, 69.605, 0.793058, 0, 0, 0.609146) /* Tumerok Trooper */
      , (23566, 1903452177, 390463744, 82.4976, 156.943, 68.006, 0.0257762, 0, 0, -0.999668) /* Tumerok Trooper */
      , (24951, 1903452189, 390463744, 82.2737, 154.8, 68.01, 0.985314, 0, 0, -0.17075) /* Gotrok Titan */
@@ -20,25 +20,25 @@ VALUES (23566, 1903452175, 390463744, 87.1264, 154.556, 69.605, 0.793058, 0, 0, 
      , (23567, 1903452188, 390463488, 102.345, 178.124, 76.805, -0.997244, 0, 0, 0.074189) /* Tumerok War Monger */
      , (23567, 1903452190, 390463488, 80.9322, 156.884, 83.2065, 0.67784, 0, 0, 0.735209) /* Tumerok War Monger */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1903452191'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1903452191'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452186'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452184'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452183'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452188'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452185'; /* linkmonstergen5minutes <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452182'; /* linkmonstergen5minutes <- Direland Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452178'; /* linkmonstergen5minutes <- Raider Juggernaut */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452181'; /* linkmonstergen5minutes <- Gotrok Titan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452180'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452179'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452176'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452177'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452175'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452189'; /* linkmonstergen5minutes <- Gotrok Titan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452190'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452187'; /* linkmonstergen5minutes <- Tumerok War Monger */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452192'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452193'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1903452194'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452186'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452184'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452183'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452188'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452185'; /* linkmonstergen5minutes <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452182'; /* linkmonstergen5minutes <- Direland Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452178'; /* linkmonstergen5minutes <- Raider Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452181'; /* linkmonstergen5minutes <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452180'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452179'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452176'; /* linkmonstergen5minutes <- Gotrok Juggernaut */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452177'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452175'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452189'; /* linkmonstergen5minutes <- Gotrok Titan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452190'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452187'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452192'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452193'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1903452194'; /* linkmonstergen5minutes <- Tumerok Trooper */
 

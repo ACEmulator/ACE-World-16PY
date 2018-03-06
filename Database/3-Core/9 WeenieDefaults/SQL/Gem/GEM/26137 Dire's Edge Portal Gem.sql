@@ -1,17 +1,14 @@
 /* Weenie - Dire's Edge Portal Gem (26137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26137;
+DELETE FROM weenie WHERE class_Id = 26137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26137, 'gemportaldiresedge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26137, 'gemportaldiresedge', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26137, 0, 26137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26137, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (26137, 1, 'Dire''s Edge Portal Gem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26137, 1, 33556769) /* SETUP_DID */
      , (26137, 3, 536870932) /* SOUND_TABLE_DID */
      , (26137, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (26137, 1, 33556769) /* SETUP_DID */
      , (26137, 8, 100675760) /* ICON_DID */
      , (26137, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26137, 9, 0) /* LOCATIONS_INT */
      , (26137, 1, 2048) /* ITEM_TYPE_INT */
      , (26137, 11, 20) /* MAX_STACK_SIZE_INT */
@@ -43,10 +40,9 @@ VALUES (26137, 9, 0) /* LOCATIONS_INT */
      , (26137, 107, 50) /* ITEM_CUR_MANA_INT */
      , (26137, 108, 50) /* ITEM_MAX_MANA_INT */
      , (26137, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (26137, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (26137, 9007, 38) /* Gem_WeenieType */;
+     , (26137, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26137, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (26137, 15, True) /* LIGHTS_STATUS_BOOL */;
 

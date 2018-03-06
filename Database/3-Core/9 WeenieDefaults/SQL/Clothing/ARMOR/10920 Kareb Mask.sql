@@ -1,19 +1,16 @@
 /* Weenie - Kareb Mask (10920) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10920;
+DELETE FROM weenie WHERE class_Id = 10920;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10920, 'boygrubmask-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10920, 'boygrubmask-xp', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10920, 0, 10920);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10920, 8, 'Tekapuapuh') /* SCRIBE_NAME_STRING */
      , (10920, 16, 'A mask carved in tribute to the mythical Tumerok trickster, Karab. Cloaked behind his mysterious visage, you feel capable of taking over the world! But maybe you''ll take a nice nap first.') /* LONG_DESC_STRING */
      , (10920, 1, 'Kareb Mask') /* NAME_STRING */
      , (10920, 7, 'Here''s my mask! I love my mask! It''s slimming! Makes me look not so fat! Hey! Where are you going!') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10920, 1, 33558334) /* SETUP_DID */
      , (10920, 3, 536870932) /* SOUND_TABLE_DID */
      , (10920, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (10920, 1, 33558334) /* SETUP_DID */
      , (10920, 7, 268436596) /* CLOTHINGBASE_DID */
      , (10920, 8, 100674298) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10920, 9, 1) /* LOCATIONS_INT */
      , (10920, 1, 2) /* ITEM_TYPE_INT */
      , (10920, 19, 750) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (10920, 9, 1) /* LOCATIONS_INT */
      , (10920, 107, 500) /* ITEM_CUR_MANA_INT */
      , (10920, 108, 500) /* ITEM_MAX_MANA_INT */
      , (10920, 109, 60) /* ITEM_DIFFICULTY_INT */
-     , (10920, 114, 1) /* ATTUNED_INT */
-     , (10920, 9007, 2) /* Clothing_WeenieType */;
+     , (10920, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10920, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (10920, 5, -0.033) /* MANA_RATE_FLOAT */
      , (10920, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -56,12 +52,12 @@ VALUES (10920, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (10920, 18, 1.5) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (10920, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10920, 99, True) /* IVORYABLE_BOOL */
      , (10920, 22, True) /* INSCRIBABLE_BOOL */
      , (10920, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10920, 247, 2) /* InvulnerabilitySelf4_SpellID */
      , (10920, 681, 2) /* ArcaneEnlightenmentSelf4_SpellID */
      , (10920, 1484, 2) /* Impenetrability4_SpellID */;

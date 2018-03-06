@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7923, 2011095074, 2112749826, 85.0822, 136.836, 156.005, 0.998661, 0, 0, -0.0517334) /* linkmonstergen3minutes */
      , (21550, 2011095080, 2112749826, 82.0484, 132.207, 156.007, 0.369452, 0, 0, 0.92925) /* Stasis Wisp */
      , (21550, 2011095079, 2112749826, 83.5177, 135.495, 156.007, 0.500712, 0, 0, 0.865614) /* Stasis Wisp */
@@ -22,26 +22,26 @@ VALUES (7923, 2011095074, 2112749826, 85.0822, 136.836, 156.005, 0.998661, 0, 0,
      , (7099, 2011095072, 2112749568, 84.1096, 121.495, 156.011, -0.0267922, 0, 0, -0.999641) /* Vapor Golem */
      , (7099, 2011095073, 2112749568, 81.5651, 121.396, 156.011, 0.0781717, 0, 0, -0.99694) /* Vapor Golem */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2011095074'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2011095074'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095063'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095065'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095066'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095067'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095068'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095069'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095070'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095071'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095062'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095064'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095060'; /* linkmonstergen3minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095059'; /* linkmonstergen3minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095072'; /* linkmonstergen3minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095073'; /* linkmonstergen3minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095061'; /* linkmonstergen3minutes <- Vapor Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095076'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095077'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095078'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095079'; /* linkmonstergen3minutes <- Stasis Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2011095080'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095063'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095065'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095066'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095067'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095068'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095069'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095070'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095071'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095062'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095064'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095060'; /* linkmonstergen3minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095059'; /* linkmonstergen3minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095072'; /* linkmonstergen3minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095073'; /* linkmonstergen3minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095061'; /* linkmonstergen3minutes <- Vapor Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095076'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095077'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095078'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095079'; /* linkmonstergen3minutes <- Stasis Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2011095080'; /* linkmonstergen3minutes <- Stasis Wisp */
 

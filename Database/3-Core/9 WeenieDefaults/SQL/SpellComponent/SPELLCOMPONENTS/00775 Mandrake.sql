@@ -1,17 +1,14 @@
 /* Weenie - Mandrake (775) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 775;
+DELETE FROM weenie WHERE class_Id = 775;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (775, 'mandrake');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (775, 'mandrake', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (775, 0, 775);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (775, 1, 'Mandrake') /* NAME_STRING */
      , (775, 20, 'Sacks of Mandrake') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (775, 1, 33554817) /* SETUP_DID */
      , (775, 3, 536870932) /* SOUND_TABLE_DID */
      , (775, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (775, 1, 33554817) /* SETUP_DID */
      , (775, 8, 100668427) /* ICON_DID */
      , (775, 29, 8) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (775, 9, 0) /* LOCATIONS_INT */
      , (775, 1, 4096) /* ITEM_TYPE_INT */
      , (775, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,9 +30,8 @@ VALUES (775, 9, 0) /* LOCATIONS_INT */
      , (775, 15, 10) /* STACK_UNIT_VALUE_INT */
      , (775, 16, 1) /* ITEM_USEABLE_INT */
      , (775, 19, 10) /* VALUE_INT */
-     , (775, 93, 1044) /* PHYSICS_STATE_INT */
-     , (775, 9007, 32) /* SpellComponent_WeenieType */;
+     , (775, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (775, 39, 0.4) /* DEFAULT_SCALE_FLOAT */;
 

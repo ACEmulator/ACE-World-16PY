@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21723, 1970552837, 1464074550, 60.2262, -10.0354, -17.995, 0.714421, 0, 0, 0.699716) /* An angry spirit */
      , (21569, 1970552838, 1464074572, 66.0842, -10.0361, -17.995, 0.705526, 0, 0, 0.708684) /* eventceremonydisruptedlowgen */
      , (21530, 1970552905, 1464074585, 93.738, -20.242, -17.995, 0, 0, 0, -1) /* Chest */
@@ -81,36 +81,36 @@ VALUES (21723, 1970552837, 1464074550, 60.2262, -10.0354, -17.995, 0.714421, 0, 
      , (21529, 1970552921, 1464074729, 118.239, -200.24, 0.005, -4.37114E-08, 0, 0, -1) /* Chest */
      , (21495, 1970552836, 1464074740, 20, -30, 6.005, 1, 0, 0, 0) /* Statue */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1970552833'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1970552833'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552832'; /* linkmonstergen10minutes <- Tribunal */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552836'; /* linkmonstergen10minutes <- Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552844'; /* linkmonstergen10minutes <- Sunlight */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552845'; /* linkmonstergen10minutes <- Nothing */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552846'; /* linkmonstergen10minutes <- Man */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552857'; /* linkmonstergen10minutes <- Mushroom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552842'; /* linkmonstergen10minutes <- Darkness */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552841'; /* linkmonstergen10minutes <- E */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552843'; /* linkmonstergen10minutes <- Wind */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552847'; /* linkmonstergen10minutes <- Stars */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552850'; /* linkmonstergen10minutes <- Tomorrow */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552851'; /* linkmonstergen10minutes <- Death */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552858'; /* linkmonstergen10minutes <- Hope */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552859'; /* linkmonstergen10minutes <- Ring */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552855'; /* linkmonstergen10minutes <- Hole */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552856'; /* linkmonstergen10minutes <- Flame */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552852'; /* linkmonstergen10minutes <- Bed */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552853'; /* linkmonstergen10minutes <- Eyes */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552854'; /* linkmonstergen10minutes <- Black */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552848'; /* linkmonstergen10minutes <- Silence */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552849'; /* linkmonstergen10minutes <- Coffin */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552860'; /* linkmonstergen10minutes <- Time */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552837'; /* linkmonstergen10minutes <- An angry spirit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552889'; /* linkmonstergen10minutes <- Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552904'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552909'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552911'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552912'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552913'; /* linkmonstergen10minutes <- Door */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1970552910'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552832'; /* linkmonstergen10minutes <- Tribunal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552836'; /* linkmonstergen10minutes <- Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552844'; /* linkmonstergen10minutes <- Sunlight */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552845'; /* linkmonstergen10minutes <- Nothing */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552846'; /* linkmonstergen10minutes <- Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552857'; /* linkmonstergen10minutes <- Mushroom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552842'; /* linkmonstergen10minutes <- Darkness */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552841'; /* linkmonstergen10minutes <- E */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552843'; /* linkmonstergen10minutes <- Wind */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552847'; /* linkmonstergen10minutes <- Stars */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552850'; /* linkmonstergen10minutes <- Tomorrow */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552851'; /* linkmonstergen10minutes <- Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552858'; /* linkmonstergen10minutes <- Hope */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552859'; /* linkmonstergen10minutes <- Ring */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552855'; /* linkmonstergen10minutes <- Hole */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552856'; /* linkmonstergen10minutes <- Flame */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552852'; /* linkmonstergen10minutes <- Bed */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552853'; /* linkmonstergen10minutes <- Eyes */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552854'; /* linkmonstergen10minutes <- Black */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552848'; /* linkmonstergen10minutes <- Silence */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552849'; /* linkmonstergen10minutes <- Coffin */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552860'; /* linkmonstergen10minutes <- Time */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552837'; /* linkmonstergen10minutes <- An angry spirit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552889'; /* linkmonstergen10minutes <- Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552904'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552909'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552911'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552912'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552913'; /* linkmonstergen10minutes <- Door */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1970552910'; /* linkmonstergen10minutes <- A Rolling Ball of Death */
 

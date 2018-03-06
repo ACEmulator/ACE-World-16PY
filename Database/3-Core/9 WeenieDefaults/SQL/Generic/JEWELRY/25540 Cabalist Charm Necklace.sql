@@ -1,17 +1,14 @@
 /* Weenie - Cabalist Charm Necklace (25540) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25540;
+DELETE FROM weenie WHERE class_Id = 25540;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25540, 'necklacedrudgecabalistcharm');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25540, 'necklacedrudgecabalistcharm', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25540, 0, 25540);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25540, 16, 'A powerful charm crafted by Drudge Cabalists. The magic within the necklace is now freed.') /* LONG_DESC_STRING */
      , (25540, 1, 'Cabalist Charm Necklace') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25540, 1, 33554683) /* SETUP_DID */
      , (25540, 3, 536870932) /* SOUND_TABLE_DID */
      , (25540, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (25540, 1, 33554683) /* SETUP_DID */
      , (25540, 7, 268435832) /* CLOTHINGBASE_DID */
      , (25540, 8, 100674480) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25540, 9, 32768) /* LOCATIONS_INT */
      , (25540, 1, 8) /* ITEM_TYPE_INT */
      , (25540, 19, 4500) /* VALUE_INT */
@@ -36,18 +33,17 @@ VALUES (25540, 9, 32768) /* LOCATIONS_INT */
      , (25540, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (25540, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (25540, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25540, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25540, 9007, 1) /* Generic_WeenieType */;
+     , (25540, 109, 125) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25540, 5, -0.049) /* MANA_RATE_FLOAT */
      , (25540, 39, 0.37) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25540, 22, True) /* INSCRIBABLE_BOOL */
      , (25540, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25540, 2581, 2) /* CANTRIPFOCUS1_SpellID */
      , (25540, 2584, 2) /* CANTRIPWILLPOWER1_SpellID */
      , (25540, 2012, 2) /* WizardsIntellect_SpellID */;

@@ -1,19 +1,16 @@
 /* Weenie - Dho War Apprentice Robe (6072) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6072;
+DELETE FROM weenie WHERE class_Id = 6072;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6072, 'robesuckwargharundim');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6072, 'robesuckwargharundim', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6072, 0, 6072);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6072, 16, 'A finely tailored Gharu''ndim robe for inexperienced mages.') /* LONG_DESC_STRING */
      , (6072, 1, 'Dho War Apprentice Robe') /* NAME_STRING */
      , (6072, 19, 'Gharu''ndim') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */
      , (6072, 15, 'A finely tailored Gharu''ndim robe for inexperienced mages.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6072, 1, 33554854) /* SETUP_DID */
      , (6072, 3, 536870932) /* SOUND_TABLE_DID */
      , (6072, 37, 34) /* ITEM_SKILL_LIMIT_DID */
@@ -22,7 +19,7 @@ VALUES (6072, 1, 33554854) /* SETUP_DID */
      , (6072, 7, 268435855) /* CLOTHINGBASE_DID */
      , (6072, 8, 100670373) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6072, 9, 32512) /* LOCATIONS_INT */
      , (6072, 1, 4) /* ITEM_TYPE_INT */
      , (6072, 19, 1120) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (6072, 9, 32512) /* LOCATIONS_INT */
      , (6072, 107, 250) /* ITEM_CUR_MANA_INT */
      , (6072, 108, 250) /* ITEM_MAX_MANA_INT */
      , (6072, 109, 20) /* ITEM_DIFFICULTY_INT */
-     , (6072, 115, 70) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (6072, 9007, 2) /* Clothing_WeenieType */;
+     , (6072, 115, 70) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6072, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (6072, 5, -0.015) /* MANA_RATE_FLOAT */
      , (6072, 12, 1) /* SHADE_FLOAT */
@@ -53,10 +49,10 @@ VALUES (6072, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (6072, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (6072, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6072, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6072, 1451, 2) /* WillpowerOther1_SpellID */
      , (6072, 635, 2) /* WarMagicMasteryOther1_SpellID */;
 

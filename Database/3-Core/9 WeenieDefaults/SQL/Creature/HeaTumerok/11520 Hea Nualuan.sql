@@ -1,16 +1,13 @@
 /* Weenie - Hea Nualuan (11520) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11520;
+DELETE FROM weenie WHERE class_Id = 11520;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11520, 'tumerokheanualuan-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11520, 'tumerokheanualuan-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11520, 0, 11520);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11520, 1, 'Hea Nualuan') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11520, 8, 100667452) /* ICON_DID */
      , (11520, 32, 387) /* WIELDED_TREASURE_TYPE_DID */
      , (11520, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (11520, 8, 100667452) /* ICON_DID */
      , (11520, 7, 268436630) /* CLOTHINGBASE_DID */
      , (11520, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11520, 1, 16) /* ITEM_TYPE_INT */
      , (11520, 2, 58) /* CREATURE_TYPE_INT */
      , (11520, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (11520, 1, 16) /* ITEM_TYPE_INT */
      , (11520, 25, 83) /* LEVEL_INT */
      , (11520, 27, 0) /* ARMOR_TYPE_INT */
      , (11520, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11520, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (11520, 9007, 10) /* Creature_WeenieType */;
+     , (11520, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11520, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11520, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (11520, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,27 +69,27 @@ VALUES (11520, 64, 1) /* RESIST_SLASH_FLOAT */
      , (11520, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11520, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11520, 1, True) /* STUCK_BOOL */
      , (11520, 6, True) /* AI_USES_MANA_BOOL */
      , (11520, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11520, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11520, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11520, 1, 220) /* STRENGTH_ATTRIBUTE */
      , (11520, 2, 180) /* ENDURANCE_ATTRIBUTE */
      , (11520, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (11520, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (11520, 16, 145) /* FOCUS_ATTRIBUTE */
-     , (11520, 32, 140) /* SELF_ATTRIBUTE */;
+     , (11520, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (11520, 5, 145) /* FOCUS_ATTRIBUTE */
+     , (11520, 6, 140) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11520, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11520, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11520, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11520, 1, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11520, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11520, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11520, 9, 11454, 0, 0, 0.02, False) /* Create Totem of Audetaunga for ContainTreasure_DestinationType */
      , (11520, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (11520, 9, 11456, 0, 0, 0.02, False) /* Create Totem of Volkama for ContainTreasure_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29491, 1879183360, 2162953, 10, -120, 0.008, 0.707107, 0, 0, -0.707107) /* Knight of Karlun Guard */
      , (29491, 1879183361, 2162959, 17, -43, 0.0077, 0.707107, 0, 0, -0.707107) /* Knight of Karlun Guard */
      , (29491, 1879183362, 2162959, 23, -43, 0.055, -0.707107, 0, 0, -0.707107) /* Knight of Karlun Guard */
@@ -17,21 +17,21 @@ VALUES (29491, 1879183360, 2162953, 10, -120, 0.008, 0.707107, 0, 0, -0.707107) 
      , (29491, 1879183375, 2163032, 23, 1.02686E-07, 6.008, 0, 0, 0, -1) /* Knight of Karlun Guard */
      , (7924, 1879183376, 2163033, 20, -10, 6.005, 1, 0, 0, 0) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879183376'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879183376'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183373'; /* linkmonstergen5minutes <- Sir Coretto */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183374'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183375'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183361'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183362'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183363'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183364'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183365'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183366'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183360'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183372'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183367'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183368'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183369'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879183370'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183373'; /* linkmonstergen5minutes <- Sir Coretto */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183374'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183375'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183361'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183362'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183363'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183364'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183365'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183366'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183360'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183372'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183367'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183368'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183369'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879183370'; /* linkmonstergen5minutes <- Knight of Karlun Guard */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19715, 1945309196, 1060176128, 54.5726, 181.332, -5.195, -0.658079, 0, 0, 0.752949) /* Colossus Foundry Portal */
      , (24212, 1945309198, 1060176131, 42.6759, 106.041, -0.295, -0.97225, 0, 0, -0.233944) /* Caelis Renning */
      , (24214, 1945309199, 1060176131, 36.2207, 105.113, -0.295, 0.999908, 0, 0, -0.0135942) /* Aun Teverea */
@@ -15,9 +15,9 @@ VALUES (19715, 1945309196, 1060176128, 54.5726, 181.332, -5.195, -0.658079, 0, 0
      , (24221, 1945309202, 1060175872, 67.2259, 182.241, 1.18674, 0.178722, 0, 0, -0.9839) /* Wai Jhou */
      , (23631, 1945309197, 1060175872, 65.964, 123.254, 159.889, -0.999891, 0, 0, 0.0147444) /* eventmadcowgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1945309201'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1945309201'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309198'; /* linkmonstergen3minutes <- Caelis Renning */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309200'; /* linkmonstergen3minutes <- Kreavon */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1945309199'; /* linkmonstergen3minutes <- Aun Teverea */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945309198'; /* linkmonstergen3minutes <- Caelis Renning */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945309200'; /* linkmonstergen3minutes <- Kreavon */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1945309199'; /* linkmonstergen3minutes <- Aun Teverea */
 

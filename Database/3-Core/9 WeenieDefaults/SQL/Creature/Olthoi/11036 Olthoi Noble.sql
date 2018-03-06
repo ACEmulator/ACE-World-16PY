@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Noble (11036) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11036;
+DELETE FROM weenie WHERE class_Id = 11036;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11036, 'olthoinobledires3c-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11036, 'olthoinobledires3c-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11036, 0, 11036);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11036, 1, 'Olthoi Noble') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11036, 1, 33557161) /* SETUP_DID */
      , (11036, 2, 150994946) /* MOTION_TABLE_DID */
      , (11036, 35, 450) /* DEATH_TREASURE_TYPE_DID */
@@ -20,7 +17,7 @@ VALUES (11036, 1, 33557161) /* SETUP_DID */
      , (11036, 30, 85) /* PHYSICS_SCRIPT_DID */
      , (11036, 22, 872415265) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11036, 1, 16) /* ITEM_TYPE_INT */
      , (11036, 2, 1) /* CREATURE_TYPE_INT */
      , (11036, 140, 1) /* AI_OPTIONS_INT */
@@ -38,10 +35,9 @@ VALUES (11036, 1, 16) /* ITEM_TYPE_INT */
      , (11036, 27, 0) /* ARMOR_TYPE_INT */
      , (11036, 93, 1032) /* PHYSICS_STATE_INT */
      , (11036, 103, 5) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (11036, 40, 2) /* COMBAT_MODE_INT */
-     , (11036, 9007, 10) /* Creature_WeenieType */;
+     , (11036, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11036, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11036, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11036, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (11036, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11036, 125, 0.5) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11036, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11036, 1, True) /* STUCK_BOOL */
      , (11036, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11036, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11036, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11036, 1, 360) /* STRENGTH_ATTRIBUTE */
      , (11036, 2, 360) /* ENDURANCE_ATTRIBUTE */
      , (11036, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (11036, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (11036, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (11036, 32, 160) /* SELF_ATTRIBUTE */;
+     , (11036, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (11036, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (11036, 6, 160) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11036, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11036, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11036, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11036, 1, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11036, 3, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11036, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11036, 9, 11157, 0, 0, 0.03, False) /* Create Alchemy Tessera for ContainTreasure_DestinationType */
      , (11036, 9, 11158, 0, 0, 0.03, False) /* Create Arcane Lore Tessera for ContainTreasure_DestinationType */
      , (11036, 9, 11159, 0, 0, 0.02, False) /* Create Armor Tinkering Tessera for ContainTreasure_DestinationType */
@@ -131,7 +127,7 @@ VALUES (11036, 9, 11157, 0, 0, 0.03, False) /* Create Alchemy Tessera for Contai
      , (11036, 9, 11190, 0, 0, 0.03, False) /* Create War Magic Tessera for ContainTreasure_DestinationType */
      , (11036, 9, 11191, 0, 0, 0.02, False) /* Create Weapon Tinkering Tessera for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11036, -1, 11042, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Olthoi Noble (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11036, -1, 11042, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Olthoi Noble (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

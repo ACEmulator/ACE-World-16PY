@@ -1,16 +1,13 @@
 /* Weenie - Levistras, Speaker of the New Directive (12263) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12263;
+DELETE FROM weenie WHERE class_Id = 12263;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12263, 'virindidirectorlevistras');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12263, 'virindidirectorlevistras', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12263, 0, 12263);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12263, 1, 'Levistras, Speaker of the New Directive') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12263, 1, 33554497) /* SETUP_DID */
      , (12263, 2, 150994984) /* MOTION_TABLE_DID */
      , (12263, 35, 243) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (12263, 1, 33554497) /* SETUP_DID */
      , (12263, 7, 268436278) /* CLOTHINGBASE_DID */
      , (12263, 8, 100667943) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12263, 1, 16) /* ITEM_TYPE_INT */
      , (12263, 2, 19) /* CREATURE_TYPE_INT */
      , (12263, 3, 3) /* PALETTE_TEMPLATE_INT */
@@ -34,10 +31,9 @@ VALUES (12263, 1, 16) /* ITEM_TYPE_INT */
      , (12263, 146, 14000) /* XP_OVERRIDE_INT */
      , (12263, 25, 126) /* LEVEL_INT */
      , (12263, 27, 0) /* ARMOR_TYPE_INT */
-     , (12263, 93, 1032) /* PHYSICS_STATE_INT */
-     , (12263, 9007, 10) /* Creature_WeenieType */;
+     , (12263, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12263, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12263, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (12263, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,14 +67,14 @@ VALUES (12263, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12263, 125, 0) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12263, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12263, 1, True) /* STUCK_BOOL */
      , (12263, 6, False) /* AI_USES_MANA_BOOL */
      , (12263, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12263, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12263, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12263, 137, 2.011) /* FrostVolley5_SpellID */
      , (12263, 73, 2.011) /* FrostBolt5_SpellID */
      , (12263, 1053, 2.09) /* BludgeonVulnerabilityOther6_SpellID */
@@ -117,19 +113,19 @@ VALUES (12263, 137, 2.011) /* FrostVolley5_SpellID */
      , (12263, 62, 2.011) /* AcidStream5_SpellID */
      , (12263, 63, 2.017) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12263, 1, 40) /* STRENGTH_ATTRIBUTE */
      , (12263, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (12263, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (12263, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (12263, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (12263, 32, 250) /* SELF_ATTRIBUTE */;
+     , (12263, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (12263, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (12263, 6, 250) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12263, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12263, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12263, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12263, 1, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12263, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12263, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12263, 8, 12269, 1, 0, 0, False) /* Create Shroud of Levistras for Treasure_DestinationType */;
 

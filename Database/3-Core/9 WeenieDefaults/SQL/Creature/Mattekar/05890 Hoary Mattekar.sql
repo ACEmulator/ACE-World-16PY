@@ -1,16 +1,13 @@
 /* Weenie - Hoary Mattekar (5890) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5890;
+DELETE FROM weenie WHERE class_Id = 5890;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5890, 'mattekarhoary');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5890, 'mattekarhoary', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5890, 0, 5890);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5890, 1, 'Hoary Mattekar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5890, 1, 33555590) /* SETUP_DID */
      , (5890, 2, 150995047) /* MOTION_TABLE_DID */
      , (5890, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (5890, 1, 33555590) /* SETUP_DID */
      , (5890, 7, 268435729) /* CLOTHINGBASE_DID */
      , (5890, 8, 100669121) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5890, 1, 16) /* ITEM_TYPE_INT */
      , (5890, 146, 20363) /* XP_OVERRIDE_INT */
      , (5890, 2, 23) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (5890, 1, 16) /* ITEM_TYPE_INT */
      , (5890, 16, 1) /* ITEM_USEABLE_INT */
      , (5890, 25, 85) /* LEVEL_INT */
      , (5890, 93, 1032) /* PHYSICS_STATE_INT */
-     , (5890, 40, 2) /* COMBAT_MODE_INT */
-     , (5890, 9007, 10) /* Creature_WeenieType */;
+     , (5890, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5890, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (5890, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (5890, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (5890, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (5890, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5890, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5890, 1, True) /* STUCK_BOOL */
      , (5890, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5890, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5890, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5890, 1, 360) /* STRENGTH_ATTRIBUTE */
      , (5890, 2, 350) /* ENDURANCE_ATTRIBUTE */
      , (5890, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (5890, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (5890, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (5890, 32, 100) /* SELF_ATTRIBUTE */;
+     , (5890, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (5890, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (5890, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5890, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5890, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5890, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5890, 1, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5890, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5890, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5890, 9, 5892, 0, 0, 0.03, False) /* Create Hoary Mattekar Hide for ContainTreasure_DestinationType */
      , (5890, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

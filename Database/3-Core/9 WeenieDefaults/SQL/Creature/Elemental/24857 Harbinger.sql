@@ -1,16 +1,13 @@
 /* Weenie - Harbinger (24857) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24857;
+DELETE FROM weenie WHERE class_Id = 24857;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24857, 'harbingerrepeatnuhmudira');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24857, 'harbingerrepeatnuhmudira', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24857, 0, 24857);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24857, 1, 'Harbinger') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24857, 1, 33557927) /* SETUP_DID */
      , (24857, 2, 150995217) /* MOTION_TABLE_DID */
      , (24857, 3, 536871059) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (24857, 1, 33557927) /* SETUP_DID */
      , (24857, 7, 268436461) /* CLOTHINGBASE_DID */
      , (24857, 8, 100673483) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24857, 1, 16) /* ITEM_TYPE_INT */
      , (24857, 2, 62) /* CREATURE_TYPE_INT */
      , (24857, 68, 13) /* TARGETING_TACTIC_INT */
@@ -36,10 +33,9 @@ VALUES (24857, 1, 16) /* ITEM_TYPE_INT */
      , (24857, 27, 0) /* ARMOR_TYPE_INT */
      , (24857, 93, 1032) /* PHYSICS_STATE_INT */
      , (24857, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (24857, 40, 1) /* COMBAT_MODE_INT */
-     , (24857, 9007, 10) /* Creature_WeenieType */;
+     , (24857, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24857, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (24857, 65, 0.45) /* RESIST_PIERCE_FLOAT */
      , (24857, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (24857, 64, 0.45) /* RESIST_SLASH_FLOAT */
      , (24857, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24857, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24857, 1, True) /* STUCK_BOOL */
      , (24857, 6, True) /* AI_USES_MANA_BOOL */
      , (24857, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -81,7 +77,7 @@ VALUES (24857, 1, True) /* STUCK_BOOL */
      , (24857, 29, True) /* NO_CORPSE_BOOL */
      , (24857, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24857, 2700, 2.02) /* CorrosiveCloud_SpellID */
      , (24857, 2054, 2.02) /* BafflementOther7_SpellID */
      , (24857, 2056, 2.02) /* ClumsinessOther7_SpellID */
@@ -111,23 +107,23 @@ VALUES (24857, 2700, 2.02) /* CorrosiveCloud_SpellID */
      , (24857, 1788, 2.02) /* LightningRing_SpellID */
      , (24857, 2172, 2.02) /* LightningVulnerabilityOther7_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24857, 1, 400) /* STRENGTH_ATTRIBUTE */
      , (24857, 2, 400) /* ENDURANCE_ATTRIBUTE */
      , (24857, 4, 400) /* COORDINATION_ATTRIBUTE */
-     , (24857, 8, 400) /* QUICKNESS_ATTRIBUTE */
-     , (24857, 16, 400) /* FOCUS_ATTRIBUTE */
-     , (24857, 32, 400) /* SELF_ATTRIBUTE */;
+     , (24857, 3, 400) /* QUICKNESS_ATTRIBUTE */
+     , (24857, 5, 400) /* FOCUS_ATTRIBUTE */
+     , (24857, 6, 400) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24857, 64, 99960) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24857, 128, 49600) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24857, 256, 49600) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24857, 1, 99960) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24857, 3, 49600) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24857, 5, 49600) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24857, 12, 1682374918, 112.454, -62.6237, -197.995, 1, 0, 0, 0) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */
      , (24857, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (24857, 9, 22132, 0, 0, 1, False) /* Create Harbinger Arm Token for ContainTreasure_DestinationType */

@@ -1,18 +1,15 @@
 /* Weenie - Quiddity Orb (10731) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10731;
+DELETE FROM weenie WHERE class_Id = 10731;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10731, 'orbquiddity');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10731, 'orbquiddity', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10731, 0, 10731);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10731, 16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LONG_DESC_STRING */
      , (10731, 1, 'Quiddity Orb') /* NAME_STRING */
      , (10731, 15, 'A spellcasting orb empowered with an otherworldly energy.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10731, 1, 33557050) /* SETUP_DID */
      , (10731, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (10731, 3, 536870932) /* SOUND_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (10731, 1, 33557050) /* SETUP_DID */
      , (10731, 7, 268436041) /* CLOTHINGBASE_DID */
      , (10731, 8, 100671667) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10731, 9, 16777216) /* LOCATIONS_INT */
      , (10731, 1, 32768) /* ITEM_TYPE_INT */
      , (10731, 19, 2000) /* VALUE_INT */
@@ -42,23 +39,22 @@ VALUES (10731, 9, 16777216) /* LOCATIONS_INT */
      , (10731, 109, 200) /* ITEM_DIFFICULTY_INT */
      , (10731, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (10731, 114, 1) /* ATTUNED_INT */
-     , (10731, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (10731, 9007, 35) /* Caster_WeenieType */;
+     , (10731, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10731, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (10731, 5, -0.05) /* MANA_RATE_FLOAT */
      , (10731, 12, 0.5) /* SHADE_FLOAT */
      , (10731, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10731, 99, True) /* IVORYABLE_BOOL */
      , (10731, 69, False) /* IS_SELLABLE_BOOL */
      , (10731, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (10731, 15, True) /* LIGHTS_STATUS_BOOL */
      , (10731, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10731, 585, 2) /* ItemEnchantmentMasterySelf5_SpellID */
      , (10731, 610, 2) /* LifeMagicMasterySelf6_SpellID */
      , (10731, 658, 2) /* ManaMasterySelf6_SpellID */;

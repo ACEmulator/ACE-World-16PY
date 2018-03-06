@@ -1,24 +1,21 @@
 /* Weenie - Thorsten Cragstone's Tomb (2143) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2143;
+DELETE FROM weenie WHERE class_Id = 2143;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2143, 'gravecragstone');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2143, 'gravecragstone', /* Switch_WeenieType */ 26);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2143, 0, 2143);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2143, 16, 'Though plain, this tomb radiates an aura of power and majesty.  Surely Thorsten Cragstone''s presence can be felt here.') /* LONG_DESC_STRING */
      , (2143, 1, 'Thorsten Cragstone''s Tomb') /* NAME_STRING */
      , (2143, 15, 'Though plain, this tomb radiates an aura of power and majesty.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2143, 1, 33554638) /* SETUP_DID */
      , (2143, 8, 100668103) /* ICON_DID */
      , (2143, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (2143, 28, 1163) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2143, 1, 512) /* ITEM_TYPE_INT */
      , (2143, 93, 1048) /* PHYSICS_STATE_INT */
      , (2143, 5, 7000) /* ENCUMB_VAL_INT */
@@ -30,14 +27,13 @@ VALUES (2143, 1, 512) /* ITEM_TYPE_INT */
      , (2143, 19, 300) /* VALUE_INT */
      , (2143, 96, 500) /* ENCUMB_CAPACITY_INT */
      , (2143, 38, 90) /* RESIST_LOCKPICK_INT */
-     , (2143, 119, 1) /* ACTIVE_INT */
-     , (2143, 9007, 26) /* Switch_WeenieType */;
+     , (2143, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2143, 11, 300) /* RESET_INTERVAL_FLOAT */
      , (2143, 54, 2.3) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2143, 1, True) /* STUCK_BOOL */
      , (2143, 2, False) /* OPEN_BOOL */
      , (2143, 3, False) /* LOCKED_BOOL */

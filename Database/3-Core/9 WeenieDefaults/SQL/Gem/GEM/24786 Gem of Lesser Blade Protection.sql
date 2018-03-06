@@ -1,18 +1,15 @@
 /* Weenie - Gem of Lesser Blade Protection (24786) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24786;
+DELETE FROM weenie WHERE class_Id = 24786;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24786, 'gembladepro3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24786, 'gembladepro3', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24786, 0, 24786);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24786, 1, 'Gem of Lesser Blade Protection') /* NAME_STRING */
      , (24786, 20, 'Gems of Lesser Blade Protection') /* PLURAL_NAME_STRING */
      , (24786, 15, 'A gem that will cast Blade Protection III on anyone who uses it. The gem will be destroyed in the process.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24786, 1, 33554809) /* SETUP_DID */
      , (24786, 3, 536870932) /* SOUND_TABLE_DID */
      , (24786, 28, 1117) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (24786, 1, 33554809) /* SETUP_DID */
      , (24786, 7, 268435723) /* CLOTHINGBASE_DID */
      , (24786, 8, 100674431) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24786, 9, 0) /* LOCATIONS_INT */
      , (24786, 1, 2048) /* ITEM_TYPE_INT */
      , (24786, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (24786, 9, 0) /* LOCATIONS_INT */
      , (24786, 107, 100) /* ITEM_CUR_MANA_INT */
      , (24786, 108, 200) /* ITEM_MAX_MANA_INT */
      , (24786, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (24786, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (24786, 9007, 38) /* Gem_WeenieType */;
+     , (24786, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24786, 69, False) /* IS_SELLABLE_BOOL */
      , (24786, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

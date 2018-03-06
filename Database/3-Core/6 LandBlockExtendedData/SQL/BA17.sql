@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27247, 2074177584, 3122069766, 89.4882, 182.685, 84.005, 0.031287, 0, 0, -0.99951) /* Tatuso of Kara */
      , (2537, 2074177549, 3122069772, 36.2696, 78.5496, 134.005, 0.931428, 0, 0, -0.363925) /* Archmage Kiko of Kara  */
      , (20224, 2074177577, 3122069772, 31.8127, 83.246, 134.005, -0.684634, 0, 0, 0.728887) /* Grand Master Scrivener of War Magic */
@@ -37,9 +37,9 @@ VALUES (27247, 2074177584, 3122069766, 89.4882, 182.685, 84.005, 0.031287, 0, 0,
      , (12304, 2074177563, 3122069504, 28.7045, 184.06, 82.005, -0.698498, 0, 0, 0.715612) /* Agent of the Arcanum  */
      , (1351, 2074177555, 3122069504, 66.844, 9.35452, 133.225, 0.0701175, 0, 0, -0.997539) /* Sign */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2074177562'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2074177562'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177561'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177586'; /* linkmonstergen3minutes <- Journeyman Alchemist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2074177582'; /* linkmonstergen3minutes <- Miko Li, Jojii Adherent */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177561'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177586'; /* linkmonstergen3minutes <- Journeyman Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2074177582'; /* linkmonstergen3minutes <- Miko Li, Jojii Adherent */
 

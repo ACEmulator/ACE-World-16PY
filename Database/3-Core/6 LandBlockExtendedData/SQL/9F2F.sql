@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (387, 2045964288, 2670657536, 78.539, 34.5712, 64.005, -0.867483, 0, 0, -0.497467) /* lugian-generator */
      , (387, 2045964289, 2670657536, 72.7896, 37.6696, 64.005, -0.976052, 0, 0, -0.217536) /* lugian-generator */
      , (387, 2045964290, 2670657536, 65.5091, 50.6621, 64.2268, 0.244898, 0, 0, 0.969549) /* lugian-generator */
@@ -11,12 +11,12 @@ VALUES (387, 2045964288, 2670657536, 78.539, 34.5712, 64.005, -0.867483, 0, 0, -
      , (387, 2045964297, 2670657536, 45.8662, 51.1666, 64.005, 0.963456, 0, 0, 0.267865) /* lugian-generator */
      , (1154, 2045964298, 2670657536, 46.6406, 49.2597, 64.005, -0.343254, 0, 0, 0.939243) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2045964298'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2045964298'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964291'; /* linkmonstergen <- Gotrok Amploth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964292'; /* linkmonstergen <- Gotrok Amploth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964293'; /* linkmonstergen <- Gotrok Amploth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964294'; /* linkmonstergen <- Gotrok Amploth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964295'; /* linkmonstergen <- Gotrok Obeloth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2045964296'; /* linkmonstergen <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964291'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964292'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964293'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964294'; /* linkmonstergen <- Gotrok Amploth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964295'; /* linkmonstergen <- Gotrok Obeloth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2045964296'; /* linkmonstergen <- Gotrok Obeloth */
 

@@ -1,17 +1,14 @@
 /* Weenie - Deadly Armor Piercing Arrow (27549) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27549;
+DELETE FROM weenie WHERE class_Id = 27549;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27549, 'arrowdeadlyarmorpiercingtest3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27549, 'arrowdeadlyarmorpiercingtest3', /* Ammunition_WeenieType */ 5);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27549, 0, 27549);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27549, 16, 'This test arrow has it''s physics placed on the front of the arrow.') /* LONG_DESC_STRING */
      , (27549, 1, 'Deadly Armor Piercing Arrow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27549, 1, 33558682) /* SETUP_DID */
      , (27549, 3, 536870932) /* SOUND_TABLE_DID */
      , (27549, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27549, 1, 33558682) /* SETUP_DID */
      , (27549, 7, 268436303) /* CLOTHINGBASE_DID */
      , (27549, 8, 100672659) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27549, 9, 8388608) /* LOCATIONS_INT */
      , (27549, 1, 256) /* ITEM_TYPE_INT */
      , (27549, 11, 250) /* MAX_STACK_SIZE_INT */
@@ -41,10 +38,9 @@ VALUES (27549, 9, 8388608) /* LOCATIONS_INT */
      , (27549, 44, 30) /* DAMAGE_INT */
      , (27549, 45, 2) /* DAMAGE_TYPE_INT */
      , (27549, 50, 1) /* AMMO_TYPE_INT */
-     , (27549, 51, 3) /* COMBAT_USE_INT */
-     , (27549, 9007, 5) /* Ammunition_WeenieType */;
+     , (27549, 51, 3) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27549, 79, 0) /* ELASTICITY_FLOAT */
      , (27549, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
      , (27549, 62, 1) /* WEAPON_OFFENSE_FLOAT */
@@ -52,6 +48,6 @@ VALUES (27549, 79, 0) /* ELASTICITY_FLOAT */
      , (27549, 78, 1) /* FRICTION_FLOAT */
      , (27549, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27549, 17, True) /* INELASTIC_BOOL */;
 

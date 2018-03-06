@@ -1,18 +1,15 @@
 /* Weenie - Pulsating Wisp Heart (8666) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8666;
+DELETE FROM weenie WHERE class_Id = 8666;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8666, 'wispheart');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8666, 'wispheart', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8666, 0, 8666);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8666, 16, 'A pulsating wisp heart that seems to contain a large amount of stolen energy.') /* LONG_DESC_STRING */
      , (8666, 1, 'Pulsating Wisp Heart') /* NAME_STRING */
      , (8666, 15, 'A Pulsating Wisp heart.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8666, 1, 33556932) /* SETUP_DID */
      , (8666, 3, 536870932) /* SOUND_TABLE_DID */
      , (8666, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (8666, 1, 33556932) /* SETUP_DID */
      , (8666, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8666, 8, 100671244) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8666, 9, 0) /* LOCATIONS_INT */
      , (8666, 1, 2048) /* ITEM_TYPE_INT */
      , (8666, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,13 +31,12 @@ VALUES (8666, 9, 0) /* LOCATIONS_INT */
      , (8666, 15, 0) /* STACK_UNIT_VALUE_INT */
      , (8666, 16, 1) /* ITEM_USEABLE_INT */
      , (8666, 19, 0) /* VALUE_INT */
-     , (8666, 93, 3092) /* PHYSICS_STATE_INT */
-     , (8666, 9007, 38) /* Gem_WeenieType */;
+     , (8666, 93, 3092) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8666, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8666, 22, True) /* INSCRIBABLE_BOOL */
      , (8666, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8666, 23, True) /* DESTROY_ON_SELL_BOOL */

@@ -1,16 +1,13 @@
 /* Weenie - Shadow Lugian Portal (30834) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30834;
+DELETE FROM weenie WHERE class_Id = 30834;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30834, 'portalbossinfiltration');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30834, 'portalbossinfiltration', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30834, 0, 30834);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30834, 1, 'Shadow Lugian Portal') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30834, 1, 33559251) /* SETUP_DID */
      , (30834, 2, 150995332) /* MOTION_TABLE_DID */
      , (30834, 3, 536871015) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (30834, 1, 33559251) /* SETUP_DID */
      , (30834, 22, 872415331) /* PHYSICS_EFFECT_TABLE_DID */
      , (30834, 31, 30844) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30834, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (30834, 1, 16) /* ITEM_TYPE_INT */
      , (30834, 146, 200000) /* XP_OVERRIDE_INT */
@@ -35,10 +32,9 @@ VALUES (30834, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (30834, 93, 1032) /* PHYSICS_STATE_INT */
      , (30834, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (30834, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (30834, 40, 2) /* COMBAT_MODE_INT */
-     , (30834, 9007, 10) /* Creature_WeenieType */;
+     , (30834, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30834, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (30834, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (30834, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,7 +69,7 @@ VALUES (30834, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (30834, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (30834, 31, 30) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30834, 1, True) /* STUCK_BOOL */
      , (30834, 6, False) /* AI_USES_MANA_BOOL */
      , (30834, 103, True) /* NON_PROJECTILE_MAGIC_IMMUNE_BOOL */
@@ -84,7 +80,7 @@ VALUES (30834, 1, True) /* STUCK_BOOL */
      , (30834, 13, False) /* ETHEREAL_BOOL */
      , (30834, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30834, 1198, 2.02) /* EnfeebleOther4_SpellID */
      , (30834, 1222, 2.02) /* ManaDrainOther4_SpellID */
      , (30834, 1394, 2.02) /* ClumsinessOther4_SpellID */
@@ -99,23 +95,23 @@ VALUES (30834, 1198, 2.02) /* EnfeebleOther4_SpellID */
      , (30834, 1466, 2.02) /* FeeblemindOther4_SpellID */
      , (30834, 1341, 2.02) /* WeaknessOther4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30834, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (30834, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (30834, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (30834, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (30834, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (30834, 32, 100) /* SELF_ATTRIBUTE */;
+     , (30834, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (30834, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (30834, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30834, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30834, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30834, 256, 10000) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30834, 1, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30834, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30834, 5, 10000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30834, 12, 445514003, -198, -25, 88.405, 1, 0, 0, 0) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30834, -1, 30838, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Commander (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (30834, -1, 30837, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Infiltrator (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (30834, -1, 30836, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Seeker (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

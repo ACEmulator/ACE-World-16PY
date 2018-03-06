@@ -1,16 +1,13 @@
 /* Weenie - Missile (8602) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8602;
+DELETE FROM weenie WHERE class_Id = 8602;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8602, 'missilegreen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8602, 'missilegreen', /* ProjectileSpell_WeenieType */ 33);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8602, 0, 8602);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8602, 1, 'Missile') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8602, 1, 33555469) /* SETUP_DID */
      , (8602, 3, 536870971) /* SOUND_TABLE_DID */
      , (8602, 8, 100667494) /* ICON_DID */
@@ -18,19 +15,18 @@ VALUES (8602, 1, 33555469) /* SETUP_DID */
      , (8602, 22, 872415247) /* PHYSICS_EFFECT_TABLE_DID */
      , (8602, 28, 86) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8602, 66, 0) /* CHECKPOINT_STATUS_INT */
      , (8602, 8, 25) /* MASS_INT */
      , (8602, 9, 0) /* LOCATIONS_INT */
-     , (8602, 93, 133140) /* PHYSICS_STATE_INT */
-     , (8602, 9007, 33) /* ProjectileSpell_WeenieType */;
+     , (8602, 93, 133140) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8602, 78, 1) /* FRICTION_FLOAT */
      , (8602, 79, 0) /* ELASTICITY_FLOAT */
      , (8602, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8602, 17, True) /* INELASTIC_BOOL */
      , (8602, 1, True) /* STUCK_BOOL */
      , (8602, 14, False) /* GRAVITY_STATUS_BOOL */

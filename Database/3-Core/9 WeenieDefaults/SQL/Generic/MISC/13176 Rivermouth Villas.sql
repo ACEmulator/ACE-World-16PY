@@ -1,30 +1,26 @@
 /* Weenie - Rivermouth Villas (13176) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 13176;
+DELETE FROM weenie WHERE class_Id = 13176;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (13176, 'rivermouthvillassign');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (13176, 'rivermouthvillassign', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (13176, 0, 13176);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13176, 16, 'Welcome to Rivermouth Villas') /* LONG_DESC_STRING */
      , (13176, 1, 'Rivermouth Villas') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13176, 1, 33557463) /* SETUP_DID */
      , (13176, 8, 100668115) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13176, 1, 128) /* ITEM_TYPE_INT */
      , (13176, 93, 1048) /* PHYSICS_STATE_INT */
      , (13176, 5, 9000) /* ENCUMB_VAL_INT */
      , (13176, 16, 1) /* ITEM_USEABLE_INT */
      , (13176, 8, 1800) /* MASS_INT */
-     , (13176, 19, 125) /* VALUE_INT */
-     , (13176, 9007, 1) /* Generic_WeenieType */;
+     , (13176, 19, 125) /* VALUE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13176, 1, True) /* STUCK_BOOL */
      , (13176, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13176, 13, False) /* ETHEREAL_BOOL */

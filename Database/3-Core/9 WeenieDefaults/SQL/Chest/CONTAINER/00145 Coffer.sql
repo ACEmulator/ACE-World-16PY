@@ -1,23 +1,20 @@
 /* Weenie - Coffer (145) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 145;
+DELETE FROM weenie WHERE class_Id = 145;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (145, 'coffer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (145, 'coffer', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (145, 0, 145);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (145, 1, 'Coffer') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (145, 1, 33554556) /* SETUP_DID */
      , (145, 2, 150994948) /* MOTION_TABLE_DID */
      , (145, 3, 536870945) /* SOUND_TABLE_DID */
      , (145, 8, 100667416) /* ICON_DID */
      , (145, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (145, 1, 512) /* ITEM_TYPE_INT */
      , (145, 93, 1048) /* PHYSICS_STATE_INT */
      , (145, 5, 6000) /* ENCUMB_VAL_INT */
@@ -27,14 +24,13 @@ VALUES (145, 1, 512) /* ITEM_TYPE_INT */
      , (145, 16, 48) /* ITEM_USEABLE_INT */
      , (145, 8, 3000) /* MASS_INT */
      , (145, 19, 200) /* VALUE_INT */
-     , (145, 38, 50) /* RESIST_LOCKPICK_INT */
-     , (145, 9007, 20) /* Chest_WeenieType */;
+     , (145, 38, 50) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (145, 39, 0.67) /* DEFAULT_SCALE_FLOAT */
      , (145, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (145, 1, True) /* STUCK_BOOL */
      , (145, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (145, 2, False) /* OPEN_BOOL */

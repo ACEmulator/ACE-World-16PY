@@ -1,17 +1,14 @@
 /* Weenie - Hieroglyph of Magic Item Tinkering Expertise (30158) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30158;
+DELETE FROM weenie WHERE class_Id = 30158;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30158, 'gemrareeternalmagicitemtinkering');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30158, 'gemrareeternalmagicitemtinkering', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30158, 0, 30158);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30158, 16, 'A lovely template for a rare magical gem.') /* LONG_DESC_STRING */
      , (30158, 1, 'Hieroglyph of Magic Item Tinkering Expertise') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30158, 1, 33554809) /* SETUP_DID */
      , (30158, 3, 536870932) /* SOUND_TABLE_DID */
      , (30158, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (30158, 1, 33554809) /* SETUP_DID */
      , (30158, 8, 100674739) /* ICON_DID */
      , (30158, 28, 2277) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30158, 9, 0) /* LOCATIONS_INT */
      , (30158, 1, 2048) /* ITEM_TYPE_INT */
      , (30158, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,9 +34,8 @@ VALUES (30158, 9, 0) /* LOCATIONS_INT */
      , (30158, 150, 103) /* HOOK_PLACEMENT_INT */
      , (30158, 151, 11) /* HOOK_TYPE_INT */
      , (30158, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30158, 94, 16) /* TARGET_TYPE_INT */
-     , (30158, 9007, 38) /* Gem_WeenieType */;
+     , (30158, 94, 16) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30158, 22, True) /* INSCRIBABLE_BOOL */;
 

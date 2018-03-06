@@ -1,16 +1,13 @@
 /* Weenie - Water Wisp (30442) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30442;
+DELETE FROM weenie WHERE class_Id = 30442;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30442, 'wispwater-nofall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30442, 'wispwater-nofall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30442, 0, 30442);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30442, 1, 'Water Wisp') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30442, 1, 33555865) /* SETUP_DID */
      , (30442, 2, 150994993) /* MOTION_TABLE_DID */
      , (30442, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (30442, 1, 33555865) /* SETUP_DID */
      , (30442, 8, 100668442) /* ICON_DID */
      , (30442, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30442, 25, 9) /* LEVEL_INT */
      , (30442, 1, 16) /* ITEM_TYPE_INT */
      , (30442, 146, 469) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (30442, 25, 9) /* LEVEL_INT */
      , (30442, 16, 1) /* ITEM_USEABLE_INT */
      , (30442, 27, 0) /* ARMOR_TYPE_INT */
      , (30442, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (30442, 40, 2) /* COMBAT_MODE_INT */
-     , (30442, 9007, 10) /* Creature_WeenieType */;
+     , (30442, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30442, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30442, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (30442, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,7 +63,7 @@ VALUES (30442, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30442, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (30442, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30442, 1, True) /* STUCK_BOOL */
      , (30442, 6, True) /* AI_USES_MANA_BOOL */
      , (30442, 50, True) /* NEVER_FAIL_CASTING_BOOL */
@@ -77,7 +73,7 @@ VALUES (30442, 1, True) /* STUCK_BOOL */
      , (30442, 29, True) /* NO_CORPSE_BOOL */
      , (30442, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30442, 219, 2.17) /* ManaDepletionOther2_SpellID */
      , (30442, 195, 2.17) /* ExhaustionOther2_SpellID */
      , (30442, 1172, 2.17) /* HarmOther2_SpellID */
@@ -91,16 +87,16 @@ VALUES (30442, 219, 2.17) /* ManaDepletionOther2_SpellID */
      , (30442, 172, 2.17) /* FesterOther2_SpellID */
      , (30442, 1261, 2.67) /* DrainMana2_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30442, 1, 25) /* STRENGTH_ATTRIBUTE */
      , (30442, 2, 50) /* ENDURANCE_ATTRIBUTE */
      , (30442, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (30442, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (30442, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (30442, 32, 70) /* SELF_ATTRIBUTE */;
+     , (30442, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (30442, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (30442, 6, 70) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30442, 64, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30442, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30442, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30442, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30442, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30442, 5, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 

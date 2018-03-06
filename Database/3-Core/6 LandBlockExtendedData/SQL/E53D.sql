@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4548, 2119421958, 3845980416, 182.822, 175.592, 96.005, -0.881957, 0, 0, 0.471329) /* Wah Chon the Barkeep */
      , (8377, 2119421967, 3845980416, 186.998, 172.117, 96.47, 0.0108708, 0, 0, -0.999941) /* Beer Keg */
      , (5122, 2119421962, 3845980416, 174.793, 173.865, 96.005, -0.346385, 0, 0, -0.938092) /* Wa Shi */
@@ -18,9 +18,9 @@ VALUES (4548, 2119421958, 3845980416, 182.822, 175.592, 96.005, -0.881957, 0, 0,
      , (4519, 2119421964, 3845980160, 163.698, 27.849, 76.327, 0.92388, 0, 0, -0.382683) /* Nanto */
      , (4517, 2119421961, 3845980160, 179.816, 140.054, 97.824, 1, 0, 0, 0) /* South Town Supplies */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119421966'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119421966'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421965'; /* linkmonstergen3minutes <- Miyako Nujou-Wah  */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421962'; /* linkmonstergen3minutes <- Wa Shi */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119421972'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119421965'; /* linkmonstergen3minutes <- Miyako Nujou-Wah  */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119421962'; /* linkmonstergen3minutes <- Wa Shi */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119421972'; /* linkmonstergen3minutes <- Apprentice Cook */
 

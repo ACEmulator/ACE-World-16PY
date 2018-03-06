@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14411, 2111111185, 3713007872, 151.275, 128.013, 22.005, 0.588842, 0, 0, -0.808248) /* Ostentatious Farmer */
      , (14453, 2111111184, 3713007874, 157.066, 136.389, 21.505, 0.998846, 0, 0, -0.0480363) /* Trap Door */
      , (14418, 2111111183, 3713007874, 156.081, 136.535, 21.505, 0.999545, 0, 0, -0.0301505) /* Trap Door */
@@ -9,7 +9,7 @@ VALUES (14411, 2111111185, 3713007872, 151.275, 128.013, 22.005, 0.588842, 0, 0,
      , (722, 2111111175, 3713007616, 155, 122.95, 22, 1, 0, 0, 0) /* Door */
      , (721, 2111111176, 3713007616, 157, 122.95, 22, -4.37114E-08, 0, 0, -1) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2111111184'; /* Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2111111184'; /* Trap Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2111111183'; /* Trap Door <- Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2111111183'; /* Trap Door <- Trap Door */
 

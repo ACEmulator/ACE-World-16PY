@@ -1,16 +1,13 @@
 /* Weenie - Singular Doll (12237) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12237;
+DELETE FROM weenie WHERE class_Id = 12237;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12237, 'dollpyrealleader');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12237, 'dollpyrealleader', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12237, 0, 12237);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12237, 1, 'Singular Doll') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12237, 1, 33556996) /* SETUP_DID */
      , (12237, 2, 150994984) /* MOTION_TABLE_DID */
      , (12237, 35, 463) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (12237, 1, 33556996) /* SETUP_DID */
      , (12237, 8, 100671421) /* ICON_DID */
      , (12237, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12237, 1, 16) /* ITEM_TYPE_INT */
      , (12237, 2, 53) /* CREATURE_TYPE_INT */
      , (12237, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (12237, 1, 16) /* ITEM_TYPE_INT */
      , (12237, 16, 1) /* ITEM_USEABLE_INT */
      , (12237, 146, 6259) /* XP_OVERRIDE_INT */
      , (12237, 25, 44) /* LEVEL_INT */
-     , (12237, 93, 1032) /* PHYSICS_STATE_INT */
-     , (12237, 9007, 10) /* Creature_WeenieType */;
+     , (12237, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12237, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12237, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (12237, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (12237, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12237, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12237, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12237, 1, True) /* STUCK_BOOL */
      , (12237, 6, True) /* AI_USES_MANA_BOOL */
      , (12237, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -80,7 +76,7 @@ VALUES (12237, 1, True) /* STUCK_BOOL */
      , (12237, 13, False) /* ETHEREAL_BOOL */
      , (12237, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12237, 1174, 2.02) /* HarmOther4_SpellID */
      , (12237, 1198, 2.02) /* EnfeebleOther4_SpellID */
      , (12237, 82, 2.025) /* FlameBolt3_SpellID */
@@ -94,20 +90,20 @@ VALUES (12237, 1174, 2.02) /* HarmOther4_SpellID */
      , (12237, 1263, 2.02) /* DrainMana4_SpellID */
      , (12237, 1086, 2.06) /* LightningVulnerabilityOther3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12237, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (12237, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (12237, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (12237, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (12237, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (12237, 32, 150) /* SELF_ATTRIBUTE */;
+     , (12237, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (12237, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (12237, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12237, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12237, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12237, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12237, 1, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12237, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12237, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12237, 8, 12232, 1, 0, 0, False) /* Create Doll Leader's Charm for Treasure_DestinationType */
      , (12237, 8, 12282, 1, 0, 0, False) /* Create Singular Pyreal Message Shard for Treasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (146, 1880453120, 22479104, 3.27918, -45.7444, -12, 0, 0, 0, -1) /* Coffin */
      , (4818, 1880453121, 22479104, -3.54304, -53.4866, -12, 0.923879, 0, 0, -0.382684) /* Sarcophagus */
      , (4855, 1880453124, 22479104, -3.40012, -45.7892, -12, 1, 0, 0, 0) /* Sarcophagus */
@@ -33,26 +33,26 @@ VALUES (146, 1880453120, 22479104, 3.27918, -45.7444, -12, 0, 0, 0, -1) /* Coffi
      , (30507, 1880453170, 22479208, 16.8594, -46.4999, 0.005, 0.724723, 0, 0, -0.689041) /* Mad Star Marionette */
      , (146, 1880453151, 22479216, 17.4139, -57.2606, 0, -0.707107, 0, 0, -0.707107) /* Coffin */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880453130'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880453164'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880453130'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880453164'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880453129'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453165'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453153'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453152'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453168'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453163'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453169'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453167'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453155'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453157'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453158'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453160'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453159'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453154'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453161'; /* linkmonstergen7minutes <- Sandstone Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453125'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453166'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453156'; /* linkmonstergen7minutes <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880453170'; /* linkmonstergen7minutes <- Mad Star Marionette */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880453129'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453165'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453153'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453152'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453168'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453163'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453169'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453167'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453155'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453157'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453158'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453160'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453159'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453154'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453161'; /* linkmonstergen7minutes <- Sandstone Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453125'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453166'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453156'; /* linkmonstergen7minutes <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880453170'; /* linkmonstergen7minutes <- Mad Star Marionette */
 

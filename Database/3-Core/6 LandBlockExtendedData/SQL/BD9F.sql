@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 2077880320, 3181314304, 40.1278, 131.123, 40.0125, 0.763796, 0, 0, -0.645458) /* Chest */
      , (675, 2077880323, 3181314304, 35.5068, 130.93, 40.005, -0.644791, 0, 0, 0.764359) /* Magus Gondibyr Langarl */
      , (20215, 2077880334, 3181314310, 41.6363, 107.251, 40.005, -0.71831, 0, 0, -0.695723) /* Apprentice Scrivener of Item and War Magic */

@@ -1,18 +1,15 @@
 /* Weenie - Basalt Blade (12011) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12011;
+DELETE FROM weenie WHERE class_Id = 12011;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12011, 'nekodebasalt');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12011, 'nekodebasalt', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12011, 0, 12011);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12011, 16, 'A large chunk of volcanic rock with a middle thin enough to grasp.  There is a slot in the rock that you think a haft may be able to fit into.  (Give it to a trophy collector to transform it into an axe)') /* LONG_DESC_STRING */
      , (12011, 1, 'Basalt Blade') /* NAME_STRING */
      , (12011, 15, 'A large chunk of volcanic rock with a middle thin enough to grasp.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12011, 1, 33557335) /* SETUP_DID */
      , (12011, 3, 536870932) /* SOUND_TABLE_DID */
      , (12011, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (12011, 1, 33557335) /* SETUP_DID */
      , (12011, 8, 100672108) /* ICON_DID */
      , (12011, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12011, 9, 1048576) /* LOCATIONS_INT */
      , (12011, 1, 1) /* ITEM_TYPE_INT */
      , (12011, 93, 1044) /* PHYSICS_STATE_INT */
@@ -41,20 +38,19 @@ VALUES (12011, 9, 1048576) /* LOCATIONS_INT */
      , (12011, 48, 13) /* WEAPON_SKILL_INT */
      , (12011, 49, 20) /* WEAPON_TIME_INT */
      , (12011, 51, 1) /* COMBAT_USE_INT */
-     , (12011, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12011, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (12011, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12011, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (12011, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
      , (12011, 5, -0.017) /* MANA_RATE_FLOAT */
      , (12011, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */
      , (12011, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12011, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12011, 1625, 2) /* SwiftKiller4_SpellID */
      , (12011, 1021, 2) /* BludgeonProtectionSelf4_SpellID */;
 

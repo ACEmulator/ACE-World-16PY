@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22520, 1971617792, 1481113858, 92.8248, -47.0354, -5.9901, 0.908526, 0, 0, -0.417829) /* Tusker Redeemer */
      , (22512, 1971617793, 1481113858, 92.2271, -49.1015, -5.995, 0.918686, 0, 0, -0.394988) /* Tusker Minion */
      , (22520, 1971617794, 1481113865, 98.1392, -48.9173, -5.9901, 0.994382, 0, 0, -0.105855) /* Tusker Redeemer */
@@ -32,36 +32,36 @@ VALUES (22520, 1971617792, 1481113858, 92.8248, -47.0354, -5.9901, 0.908526, 0, 
      , (22512, 1971617822, 1481113974, 98.8323, -8.2003, 18.005, 0.903849, 0, 0, 0.427852) /* Tusker Minion */
      , (22673, 1971617823, 1481113975, 109.947, -4.096, 18.005, -0.999563, 0, 0, -0.029554) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1971617802'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1971617802'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617792'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617794'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617819'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617821'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617822'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617820'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617795'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617793'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617800'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617803'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617801'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617805'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617808'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617806'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617804'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617798'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617797'; /* linkmonstergen4minutes <- Tusker Redeemer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617799'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617796'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617807'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617809'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617812'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617810'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617811'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617814'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617815'; /* linkmonstergen4minutes <- Tusker Minion */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617813'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617816'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617818'; /* linkmonstergen4minutes <- Tusker Liberator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1971617817'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617792'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617794'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617819'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617821'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617822'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617820'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617795'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617793'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617800'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617803'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617801'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617805'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617808'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617806'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617804'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617798'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617797'; /* linkmonstergen4minutes <- Tusker Redeemer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617799'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617796'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617807'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617809'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617812'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617810'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617811'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617814'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617815'; /* linkmonstergen4minutes <- Tusker Minion */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617813'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617816'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617818'; /* linkmonstergen4minutes <- Tusker Liberator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1971617817'; /* linkmonstergen4minutes <- Tusker Liberator */
 

@@ -1,17 +1,14 @@
 /* Weenie - Pugilist's Gauntlets (24464) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24464;
+DELETE FROM weenie WHERE class_Id = 24464;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24464, 'gauntletspugilists');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24464, 'gauntletspugilists', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24464, 0, 24464);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24464, 16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the pugilist.') /* LONG_DESC_STRING */
      , (24464, 1, 'Pugilist''s Gauntlets') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24464, 1, 33554648) /* SETUP_DID */
      , (24464, 3, 536870932) /* SOUND_TABLE_DID */
      , (24464, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (24464, 1, 33554648) /* SETUP_DID */
      , (24464, 7, 268436636) /* CLOTHINGBASE_DID */
      , (24464, 8, 100674338) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24464, 9, 32) /* LOCATIONS_INT */
      , (24464, 1, 2) /* ITEM_TYPE_INT */
      , (24464, 27, 32) /* ARMOR_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (24464, 9, 32) /* LOCATIONS_INT */
      , (24464, 44, 15) /* DAMAGE_INT */
      , (24464, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (24464, 45, 4) /* DAMAGE_TYPE_INT */
-     , (24464, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (24464, 9007, 2) /* Clothing_WeenieType */;
+     , (24464, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24464, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24464, 5, -0.05) /* MANA_RATE_FLOAT */
      , (24464, 12, 0.66) /* SHADE_FLOAT */
@@ -57,11 +53,11 @@ VALUES (24464, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24464, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (24464, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24464, 69, False) /* IS_SELLABLE_BOOL */
      , (24464, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24464, 1485, 2) /* Impenetrability5_SpellID */
      , (24464, 2696, 2) /* ModerateUnarmedAptitude_SpellID */
      , (24464, 1384, 2) /* CoordinationOther6_SpellID */;

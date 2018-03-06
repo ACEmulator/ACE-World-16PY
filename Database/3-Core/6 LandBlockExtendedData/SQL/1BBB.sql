@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11520, 1908125696, 465240064, 124.321, 187.225, 82.006, 0.747583, 0, 0, 0.664169) /* Hea Nualuan */
      , (11519, 1908125697, 465240064, 140.235, 172.706, 82.006, -0.779256, 0, 0, 0.626706) /* Hea Itealuan */
      , (11519, 1908125698, 465240064, 134.712, 189.78, 82.006, -0.928442, 0, 0, 0.371476) /* Hea Itealuan */
@@ -10,15 +10,15 @@ VALUES (11520, 1908125696, 465240064, 124.321, 187.225, 82.006, 0.747583, 0, 0, 
      , (11480, 1908125704, 465240064, 64.7859, 154.969, 82.005, -0.0183726, 0, 0, 0.999831) /* Olthoi Harvester */
      , (11480, 1908125705, 465240064, 59.3873, 170.248, 81.905, 0.993519, 0, 0, 0.113662) /* Olthoi Harvester */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1908125702'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1908125702'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125696'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125697'; /* linkmonstergen3minutes <- Hea Itealuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125698'; /* linkmonstergen3minutes <- Hea Itealuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125699'; /* linkmonstergen3minutes <- Hea Elder Shaman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125700'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125701'; /* linkmonstergen3minutes <- Hea Nualuan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125703'; /* linkmonstergen3minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125704'; /* linkmonstergen3minutes <- Olthoi Harvester */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1908125705'; /* linkmonstergen3minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125696'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125697'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125698'; /* linkmonstergen3minutes <- Hea Itealuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125699'; /* linkmonstergen3minutes <- Hea Elder Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125700'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125701'; /* linkmonstergen3minutes <- Hea Nualuan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125703'; /* linkmonstergen3minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125704'; /* linkmonstergen3minutes <- Olthoi Harvester */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1908125705'; /* linkmonstergen3minutes <- Olthoi Harvester */
 

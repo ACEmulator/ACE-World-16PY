@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0, 0.785939) /* Apprentice Fletcher */
      , (651, 2095665184, 3465871618, 88.2, 14.52, 20.005, 1, 0, 0, 0) /* Bowyer Bronwin */
      , (143, 2095665152, 3465871620, 87.9318, 16.1648, 23.04, -0.95956, 0, 0, 0.281503) /* Chest */
@@ -78,14 +78,14 @@ VALUES (28188, 2095665258, 3465871618, 83.4763, 15.3482, 20.005, -0.618304, 0, 0
      , (638, 2095665197, 3465871360, 89.3005, 21.4586, 20.04, -0.38671, 0, 0, -0.922201) /* Bowyer  */
      , (637, 2095665198, 3465871360, 158.76, 24.24, 20.04, 1, 0, 0, 0) /* Blacksmith  */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2095665191'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2095665214'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2095665191'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2095665214'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665203'; /* linkmonstergen <- Weary-looking Man */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665208'; /* linkmonstergen <- Olivier Rognath */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665207'; /* linkmonstergen <- Alexander the Deft */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2095665215'; /* linkmonstergen <- Alexander's Apprentice */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665213'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665254'; /* linkmonstergen3minutes <- Samuel, Former Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2095665258'; /* linkmonstergen3minutes <- Apprentice Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665203'; /* linkmonstergen <- Weary-looking Man */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665208'; /* linkmonstergen <- Olivier Rognath */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665207'; /* linkmonstergen <- Alexander the Deft */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2095665215'; /* linkmonstergen <- Alexander's Apprentice */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665213'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665254'; /* linkmonstergen3minutes <- Samuel, Former Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2095665258'; /* linkmonstergen3minutes <- Apprentice Fletcher */
 

@@ -1,17 +1,14 @@
 /* Weenie - Jaleh's Leggings (24173) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24173;
+DELETE FROM weenie WHERE class_Id = 24173;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24173, 'leggingsjaleh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24173, 'leggingsjaleh', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24173, 0, 24173);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24173, 16, 'A pair of richly decorated and lightweight amullian pants. The main body of the pants seems to be silk and the trim made of a heavy leather.') /* LONG_DESC_STRING */
      , (24173, 1, 'Jaleh''s Leggings') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24173, 1, 33554856) /* SETUP_DID */
      , (24173, 3, 536870932) /* SOUND_TABLE_DID */
      , (24173, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (24173, 1, 33554856) /* SETUP_DID */
      , (24173, 7, 268436593) /* CLOTHINGBASE_DID */
      , (24173, 8, 100674273) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24173, 9, 25600) /* LOCATIONS_INT */
      , (24173, 1, 2) /* ITEM_TYPE_INT */
      , (24173, 19, 8500) /* VALUE_INT */
@@ -36,10 +33,9 @@ VALUES (24173, 9, 25600) /* LOCATIONS_INT */
      , (24173, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (24173, 107, 650) /* ITEM_CUR_MANA_INT */
      , (24173, 108, 650) /* ITEM_MAX_MANA_INT */
-     , (24173, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (24173, 9007, 2) /* Clothing_WeenieType */;
+     , (24173, 109, 120) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24173, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24173, 5, -0.025) /* MANA_RATE_FLOAT */
      , (24173, 12, 0.1) /* SHADE_FLOAT */
@@ -52,11 +48,11 @@ VALUES (24173, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24173, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (24173, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24173, 22, True) /* INSCRIBABLE_BOOL */
      , (24173, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24173, 909, 2) /* LeadershipMasteryOther6_SpellID */
      , (24173, 1485, 2) /* Impenetrability5_SpellID */
      , (24173, 993, 2) /* SprintOther6_SpellID */;

@@ -1,17 +1,14 @@
 /* Weenie - Adams' Beach Portal Gem (26059) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26059;
+DELETE FROM weenie WHERE class_Id = 26059;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26059, 'gemportaladamsbeach');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26059, 'gemportaladamsbeach', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26059, 0, 26059);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26059, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
      , (26059, 1, 'Adams'' Beach Portal Gem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26059, 1, 33556769) /* SETUP_DID */
      , (26059, 3, 536870932) /* SOUND_TABLE_DID */
      , (26059, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (26059, 1, 33556769) /* SETUP_DID */
      , (26059, 8, 100675760) /* ICON_DID */
      , (26059, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26059, 9, 0) /* LOCATIONS_INT */
      , (26059, 1, 2048) /* ITEM_TYPE_INT */
      , (26059, 11, 20) /* MAX_STACK_SIZE_INT */
@@ -43,10 +40,9 @@ VALUES (26059, 9, 0) /* LOCATIONS_INT */
      , (26059, 107, 50) /* ITEM_CUR_MANA_INT */
      , (26059, 108, 50) /* ITEM_MAX_MANA_INT */
      , (26059, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (26059, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (26059, 9007, 38) /* Gem_WeenieType */;
+     , (26059, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26059, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (26059, 15, True) /* LIGHTS_STATUS_BOOL */;
 

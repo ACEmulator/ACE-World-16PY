@@ -1,16 +1,13 @@
 /* Weenie - Mad Star Marionette (30507) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30507;
+DELETE FROM weenie WHERE class_Id = 30507;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30507, 'marionettemadstar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30507, 'marionettemadstar', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30507, 0, 30507);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30507, 1, 'Mad Star Marionette') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30507, 1, 33556995) /* SETUP_DID */
      , (30507, 2, 150995099) /* MOTION_TABLE_DID */
      , (30507, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (30507, 1, 33556995) /* SETUP_DID */
      , (30507, 7, 268435558) /* CLOTHINGBASE_DID */
      , (30507, 8, 100671420) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30507, 1, 16) /* ITEM_TYPE_INT */
      , (30507, 2, 54) /* CREATURE_TYPE_INT */
      , (30507, 3, 70) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (30507, 1, 16) /* ITEM_TYPE_INT */
      , (30507, 27, 0) /* ARMOR_TYPE_INT */
      , (30507, 93, 1032) /* PHYSICS_STATE_INT */
      , (30507, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (30507, 40, 2) /* COMBAT_MODE_INT */
-     , (30507, 9007, 10) /* Creature_WeenieType */;
+     , (30507, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30507, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30507, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (30507, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,14 +70,14 @@ VALUES (30507, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30507, 127, 2) /* AI_COUNTERACT_ENCHANTMENT_FLOAT */
      , (30507, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30507, 1, True) /* STUCK_BOOL */
      , (30507, 6, True) /* AI_USES_MANA_BOOL */
      , (30507, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (30507, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30507, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30507, 75, 2.028) /* LightningBolt1_SpellID */
      , (30507, 3, 2.028) /* WeaknessOther1_SpellID */
      , (30507, 6, 2.05) /* HealSelf1_SpellID */
@@ -96,19 +92,19 @@ VALUES (30507, 75, 2.028) /* LightningBolt1_SpellID */
      , (30507, 1439, 2.028) /* BafflementOther1_SpellID */
      , (30507, 1463, 2.028) /* FeeblemindOther1_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30507, 1, 65) /* STRENGTH_ATTRIBUTE */
      , (30507, 2, 85) /* ENDURANCE_ATTRIBUTE */
      , (30507, 4, 45) /* COORDINATION_ATTRIBUTE */
-     , (30507, 8, 40) /* QUICKNESS_ATTRIBUTE */
-     , (30507, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (30507, 32, 85) /* SELF_ATTRIBUTE */;
+     , (30507, 3, 40) /* QUICKNESS_ATTRIBUTE */
+     , (30507, 5, 80) /* FOCUS_ATTRIBUTE */
+     , (30507, 6, 85) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30507, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30507, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30507, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30507, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30507, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30507, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30507, 9, 30506, 0, 0, 1, False) /* Create Mad Star Marionette's Head for ContainTreasure_DestinationType */;
 

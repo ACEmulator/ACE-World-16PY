@@ -1,19 +1,16 @@
 /* Weenie - Dark Chocolate Candy Bar (12233) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12233;
+DELETE FROM weenie WHERE class_Id = 12233;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12233, 'candychocolatedark');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12233, 'candychocolatedark', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12233, 0, 12233);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12233, 1, 'Dark Chocolate Candy Bar') /* NAME_STRING */
      , (12233, 20, 'Dark Chocolate Candy Bars') /* PLURAL_NAME_STRING */
      , (12233, 14, 'Use this item to eat it.') /* USE_STRING */
      , (12233, 15, 'A dark chocolate candy with a sticky, sweet center.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12233, 1, 33555677) /* SETUP_DID */
      , (12233, 3, 536870932) /* SOUND_TABLE_DID */
      , (12233, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (12233, 1, 33555677) /* SETUP_DID */
      , (12233, 7, 268435979) /* CLOTHINGBASE_DID */
      , (12233, 8, 100672208) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12233, 9, 0) /* LOCATIONS_INT */
      , (12233, 1, 32) /* ITEM_TYPE_INT */
      , (12233, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -36,12 +33,11 @@ VALUES (12233, 9, 0) /* LOCATIONS_INT */
      , (12233, 19, 45) /* VALUE_INT */
      , (12233, 89, 4) /* BOOSTER_ENUM_INT */
      , (12233, 90, 35) /* BOOST_VALUE_INT */
-     , (12233, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12233, 9007, 18) /* Food_WeenieType */;
+     , (12233, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12233, 39, 0.7) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12233, 69, False) /* IS_SELLABLE_BOOL */;
 

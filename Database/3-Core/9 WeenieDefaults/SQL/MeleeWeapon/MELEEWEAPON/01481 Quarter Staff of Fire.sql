@@ -1,24 +1,21 @@
 /* Weenie - Quarter Staff of Fire (1481) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1481;
+DELETE FROM weenie WHERE class_Id = 1481;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1481, 'quarterstafffire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1481, 'quarterstafffire', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1481, 0, 1481);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1481, 16, 'A flaming staff wrestled from the grasp of a treacherous banderling bandit.') /* LONG_DESC_STRING */
      , (1481, 1, 'Quarter Staff of Fire') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1481, 1, 33558066) /* SETUP_DID */
      , (1481, 37, 10) /* ITEM_SKILL_LIMIT_DID */
      , (1481, 7, 268436486) /* CLOTHINGBASE_DID */
      , (1481, 8, 100667602) /* ICON_DID */
      , (1481, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1481, 9, 1048576) /* LOCATIONS_INT */
      , (1481, 1, 1) /* ITEM_TYPE_INT */
      , (1481, 19, 3000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (1481, 9, 1048576) /* LOCATIONS_INT */
      , (1481, 48, 10) /* WEAPON_SKILL_INT */
      , (1481, 49, 30) /* WEAPON_TIME_INT */
      , (1481, 51, 1) /* COMBAT_USE_INT */
-     , (1481, 115, 85) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1481, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (1481, 115, 85) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1481, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (1481, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (1481, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -51,10 +47,10 @@ VALUES (1481, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (1481, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (1481, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1481, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1481, 1602, 2) /* Defender3_SpellID */
      , (1481, 836, 2) /* FireProtectionOther3_SpellID */
      , (1481, 1589, 2) /* HeartSeeker3_SpellID */

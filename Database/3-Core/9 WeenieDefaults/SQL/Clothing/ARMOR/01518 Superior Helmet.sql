@@ -1,18 +1,15 @@
 /* Weenie - Superior Helmet (1518) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1518;
+DELETE FROM weenie WHERE class_Id = 1518;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1518, 'helmsuperior');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1518, 'helmsuperior', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1518, 0, 1518);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1518, 16, 'A superior helm from the Halls of Helm.') /* LONG_DESC_STRING */
      , (1518, 1, 'Superior Helmet') /* NAME_STRING */
      , (1518, 15, 'A superior helm.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1518, 1, 33554650) /* SETUP_DID */
      , (1518, 37, 6) /* ITEM_SKILL_LIMIT_DID */
      , (1518, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (1518, 1, 33554650) /* SETUP_DID */
      , (1518, 7, 268435500) /* CLOTHINGBASE_DID */
      , (1518, 8, 100667343) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1518, 9, 1) /* LOCATIONS_INT */
      , (1518, 1, 2) /* ITEM_TYPE_INT */
      , (1518, 19, 5500) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (1518, 9, 1) /* LOCATIONS_INT */
      , (1518, 107, 336) /* ITEM_CUR_MANA_INT */
      , (1518, 108, 432) /* ITEM_MAX_MANA_INT */
      , (1518, 109, 57) /* ITEM_DIFFICULTY_INT */
-     , (1518, 115, 153) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1518, 9007, 2) /* Clothing_WeenieType */;
+     , (1518, 115, 153) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1518, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (1518, 5, -0.05) /* MANA_RATE_FLOAT */
      , (1518, 12, 0.66) /* SHADE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (1518, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (1518, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (1518, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1518, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1518, 1483, 2) /* Impenetrability3_SpellID */
      , (1518, 1549, 2) /* FlameBane3_SpellID */
      , (1518, 241, 2) /* InvulnerabilityOther3_SpellID */;

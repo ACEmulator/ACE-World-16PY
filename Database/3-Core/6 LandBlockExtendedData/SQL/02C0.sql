@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7124, 1881931776, 46137600, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -0.798621) /* Dark Magus */
      , (7123, 1881931777, 46137601, 3.591, -50.1941, 0.00825, 0.714421, 0, 0, -0.699716) /* Dark Leech */
      , (7123, 1881931778, 46137602, 9.90867, -3.32259, 0.00825, 0.0457799, 0, 0, -0.998952) /* Dark Leech */
@@ -18,18 +18,18 @@ VALUES (7124, 1881931776, 46137600, 3.68906, -10.076, 0.00825, 0.601834, 0, 0, -
      , (7123, 1881931792, 46137631, 56.6291, -10.0501, 0.00825, 0.659983, 0, 0, 0.75128) /* Dark Leech */
      , (8479, 1881931793, 46137632, 56.193, -50, 0, -0.707107, 0, 0, -0.707107) /* Surface */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881931790'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881931791'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881931790'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881931791'; /* linkmonstergen4minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881931782'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931787'; /* linkmonstergen4minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931789'; /* linkmonstergen4minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931781'; /* linkmonstergen4minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931779'; /* linkmonstergen4minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931780'; /* linkmonstergen4minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931776'; /* linkmonstergen4minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931788'; /* linkmonstergen4minutes <- Dark Magus */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931792'; /* linkmonstergen4minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931777'; /* linkmonstergen4minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881931778'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881931782'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931787'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931789'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931781'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931779'; /* linkmonstergen4minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931780'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931776'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931788'; /* linkmonstergen4minutes <- Dark Magus */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931792'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931777'; /* linkmonstergen4minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881931778'; /* linkmonstergen4minutes <- Dark Leech */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (183, 2034917376, 2493907200, 61.4356, 178.163, 46.0055, -0.179464, 0, 0, -0.983765) /* Banderling Raver */
      , (183, 2034917380, 2493907200, 58.0745, 178.671, 46.0055, -0.502648, 0, 0, 0.864491) /* Banderling Raver */
      , (183, 2034917382, 2493907200, 60.4745, 181.876, 47.605, 0.100673, 0, 0, 0.99492) /* Banderling Raver */
@@ -30,33 +30,33 @@ VALUES (183, 2034917376, 2493907200, 61.4356, 178.163, 46.0055, -0.179464, 0, 0,
      , (2131, 2034917397, 2493906944, 61.4784, 177.629, 61.26, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (4097, 2034917398, 2493906944, 62.8516, 176.025, 63.6125, 0.668639, 0, 0, -0.743587) /* Magic trap */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2034917392'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2034917395'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2034917393'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2034917398'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='2034917385'; /* linkmonstergen30minutes */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='2034917402'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='2034917390'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='2034917386'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2034917392'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2034917395'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2034917393'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2034917398'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='2034917385'; /* linkmonstergen30minutes */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='2034917402'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='2034917390'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='2034917386'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917391'; /* linkmonstergen <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917376'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917377'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917378'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917379'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917380'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917382'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917383'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917387'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917388'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2034917405'; /* linkmonstergen <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2034917394'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2034917397'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2034917396'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917384'; /* linkmonstergen30minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='2034917381'; /* linkmonstergen30minutes <- Tumerok Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='2034917401'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='2034917403'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917399'; /* linkmonstergen3minutes <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='2034917400'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917391'; /* linkmonstergen <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917376'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917377'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917378'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917379'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917380'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917382'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917383'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917387'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917388'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2034917405'; /* linkmonstergen <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2034917394'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2034917397'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2034917396'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2034917384'; /* linkmonstergen30minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='2034917381'; /* linkmonstergen30minutes <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='2034917401'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='2034917403'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='2034917399'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='2034917400'; /* linkmonstergen3minutes <- Banderling Raver */
 

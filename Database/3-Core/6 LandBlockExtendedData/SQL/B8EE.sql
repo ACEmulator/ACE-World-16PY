@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7365, 2072961024, 3102605312, 111.783, 20.2136, 81.4265, 0.084175, 0, 0, 0.996451) /* erupttenkarrdungen */
      , (7364, 2072961025, 3102605312, 132.384, 12.758, 86.5759, -0.935878, 0, 0, 0.352324) /* erupttenkarrdunfxgen */
      , (7216, 2072961026, 3102605312, 186.581, 8.55542, 105.641, -0.999685, 0, 0, 0.025108) /* lavalandashwestmixgen */

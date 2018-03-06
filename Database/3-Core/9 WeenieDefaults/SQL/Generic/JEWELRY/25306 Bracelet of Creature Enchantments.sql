@@ -1,16 +1,13 @@
 /* Weenie - Bracelet of Creature Enchantments (25306) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25306;
+DELETE FROM weenie WHERE class_Id = 25306;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25306, 'braceletskills6lo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25306, 'braceletskills6lo', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25306, 0, 25306);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25306, 1, 'Bracelet of Creature Enchantments') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25306, 1, 33554683) /* SETUP_DID */
      , (25306, 3, 536870932) /* SOUND_TABLE_DID */
      , (25306, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (25306, 1, 33554683) /* SETUP_DID */
      , (25306, 7, 268436286) /* CLOTHINGBASE_DID */
      , (25306, 8, 100672215) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25306, 9, 196608) /* LOCATIONS_INT */
      , (25306, 1, 8) /* ITEM_TYPE_INT */
      , (25306, 19, 0) /* VALUE_INT */
@@ -34,17 +31,16 @@ VALUES (25306, 9, 196608) /* LOCATIONS_INT */
      , (25306, 107, 600) /* ITEM_CUR_MANA_INT */
      , (25306, 108, 600) /* ITEM_MAX_MANA_INT */
      , (25306, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (25306, 114, 1) /* ATTUNED_INT */
-     , (25306, 9007, 1) /* Generic_WeenieType */;
+     , (25306, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25306, 5, 0) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25306, 22, True) /* INSCRIBABLE_BOOL */
      , (25306, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25306, 321, 2) /* DaggerMasteryOther6_SpellID */
      , (25306, 592, 2) /* ItemEnchantmentMasteryOther6_SpellID */
      , (25306, 664, 2) /* ManaMasteryOther6_SpellID */

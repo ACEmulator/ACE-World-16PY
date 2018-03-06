@@ -1,16 +1,13 @@
 /* Weenie - A Society Staff (8714) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8714;
+DELETE FROM weenie WHERE class_Id = 8714;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8714, 'staffnewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8714, 'staffnewbiequest', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8714, 0, 8714);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8714, 1, 'A Society Staff') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8714, 1, 33554749) /* SETUP_DID */
      , (8714, 3, 536870932) /* SOUND_TABLE_DID */
      , (8714, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (8714, 1, 33554749) /* SETUP_DID */
      , (8714, 8, 100669105) /* ICON_DID */
      , (8714, 50, 100675463) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8714, 9, 1048576) /* LOCATIONS_INT */
      , (8714, 1, 1) /* ITEM_TYPE_INT */
      , (8714, 19, 1) /* VALUE_INT */
@@ -42,10 +39,9 @@ VALUES (8714, 9, 1048576) /* LOCATIONS_INT */
      , (8714, 47, 6) /* ATTACK_TYPE_INT */
      , (8714, 48, 10) /* WEAPON_SKILL_INT */
      , (8714, 49, 30) /* WEAPON_TIME_INT */
-     , (8714, 51, 1) /* COMBAT_USE_INT */
-     , (8714, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (8714, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8714, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (8714, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (8714, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -54,10 +50,10 @@ VALUES (8714, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (8714, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (8714, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8714, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8714, 389, 2) /* StaffMasteryOther2_SpellID */
      , (8714, 1612, 2) /* BloodDrinker2_SpellID */;
 

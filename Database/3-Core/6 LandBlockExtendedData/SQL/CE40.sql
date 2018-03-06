@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12532, 2095316992, 3460300800, 155.608, 150.938, 62.3942, -0.808726, 0, 0, 0.588185) /* North Baishi Cottages Portal */
      , (12536, 2095316993, 3460300800, 153.228, 139.447, 63.246, -0.34158, 0, 0, 0.939853) /* Oboro Portal */
      , (13136, 2095316994, 3460300800, 151.122, 130.99, 63.6827, -0.266693, 0, 0, 0.963782) /* Tanshi Portal */

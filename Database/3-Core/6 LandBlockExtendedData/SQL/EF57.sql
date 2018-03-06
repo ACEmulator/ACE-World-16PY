@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2181, 2130014216, 4015456513, 55.7042, 8.96617, 8.882, 0.707107, 0, 0, -0.707107) /* Door */
      , (298, 2130014208, 4015456256, 54.9825, 8.97456, 8.805, 0.707107, 0, 0, -0.707107) /* Pressure Plate */
      , (1763, 2130014209, 4015456256, 64.9211, 7.16157, 8.805, -0.71487, 0, 0, 0.699257) /* Lesser Mu-miyah */
@@ -11,15 +11,15 @@ VALUES (2181, 2130014216, 4015456513, 55.7042, 8.96617, 8.882, 0.707107, 0, 0, -
      , (1154, 2130014218, 4015456256, 49.0242, 7.67184, 0.005, 0.303765, 0, 0, -0.952747) /* linkmonstergen */
      , (1763, 2130014217, 4015456256, 56.4839, 9.79876, 15.205, 0.96079, 0, 0, -0.277279) /* Lesser Mu-miyah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2130014214'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2130014216'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2130014218'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2130014214'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2130014216'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2130014218'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014213'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014212'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014211'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014210'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2130014209'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2130014208'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2130014217'; /* linkmonstergen <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2130014213'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2130014212'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2130014211'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2130014210'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2130014209'; /* linkmonstergen15minutes <- Lesser Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2130014208'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2130014217'; /* linkmonstergen <- Lesser Mu-miyah */
 

@@ -1,16 +1,13 @@
 /* Weenie - Green Phyntos Wasp Wing (3701) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3701;
+DELETE FROM weenie WHERE class_Id = 3701;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3701, 'waspwinggreen');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3701, 'waspwinggreen', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3701, 0, 3701);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3701, 1, 'Green Phyntos Wasp Wing') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3701, 1, 33558524) /* SETUP_DID */
      , (3701, 3, 536870932) /* SOUND_TABLE_DID */
      , (3701, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (3701, 1, 33558524) /* SETUP_DID */
      , (3701, 7, 268435546) /* CLOTHINGBASE_DID */
      , (3701, 8, 100670060) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3701, 9, 0) /* LOCATIONS_INT */
      , (3701, 1, 128) /* ITEM_TYPE_INT */
      , (3701, 19, 5) /* VALUE_INT */
@@ -28,13 +25,12 @@ VALUES (3701, 9, 0) /* LOCATIONS_INT */
      , (3701, 8, 10) /* MASS_INT */
      , (3701, 150, 103) /* HOOK_PLACEMENT_INT */
      , (3701, 151, 2) /* HOOK_TYPE_INT */
-     , (3701, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3701, 9007, 1) /* Generic_WeenieType */;
+     , (3701, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3701, 39, 1.1) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3701, 22, True) /* INSCRIBABLE_BOOL */
      , (3701, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

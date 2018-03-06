@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7924, 1973702656, 1514471689, 20, -10, 0.005, 1, 0, 0, 0) /* linkmonstergen5minutes */
      , (7098, 1973702657, 1514471693, 23.2677, -30.8716, 0.01, -0.872883, 0, 0, 0.48793) /* Plasma Golem */
      , (19538, 1973702658, 1514471694, 16.5673, -37.373, 0.0085, -0.820815, 0, 0, 0.571195) /* Blizzard */
@@ -21,22 +21,22 @@ VALUES (7924, 1973702656, 1514471689, 20, -10, 0.005, 1, 0, 0, 0) /* linkmonster
      , (19537, 1973702673, 1514472023, 90.0325, -119.22, 12.0085, -0.00420396, 0, 0, 0.999991) /* Avalanche */
      , (19537, 1973702674, 1514472046, 90, -200, 12.0085, 1, 0, 0, 0) /* Avalanche */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1973702656'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1973702686'; /* linkmonstergen20minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1973702656'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1973702686'; /* linkmonstergen20minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702657'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702658'; /* linkmonstergen5minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702660'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702662'; /* linkmonstergen5minutes <- Plasma Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702663'; /* linkmonstergen5minutes <- Platinum Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702666'; /* linkmonstergen5minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702673'; /* linkmonstergen5minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702671'; /* linkmonstergen5minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702669'; /* linkmonstergen5minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702667'; /* linkmonstergen5minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702672'; /* linkmonstergen5minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702674'; /* linkmonstergen5minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702670'; /* linkmonstergen5minutes <- Blizzard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1973702668'; /* linkmonstergen5minutes <- Avalanche */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1973702685'; /* linkmonstergen20minutes <- Gaerlan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702657'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702658'; /* linkmonstergen5minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702660'; /* linkmonstergen5minutes <- Acidic Diamond Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702662'; /* linkmonstergen5minutes <- Plasma Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702663'; /* linkmonstergen5minutes <- Platinum Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702666'; /* linkmonstergen5minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702673'; /* linkmonstergen5minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702671'; /* linkmonstergen5minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702669'; /* linkmonstergen5minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702667'; /* linkmonstergen5minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702672'; /* linkmonstergen5minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702674'; /* linkmonstergen5minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702670'; /* linkmonstergen5minutes <- Blizzard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1973702668'; /* linkmonstergen5minutes <- Avalanche */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1973702685'; /* linkmonstergen20minutes <- Gaerlan */
 

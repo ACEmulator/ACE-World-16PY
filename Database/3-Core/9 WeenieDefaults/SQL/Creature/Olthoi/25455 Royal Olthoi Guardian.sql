@@ -1,16 +1,13 @@
 /* Weenie - Royal Olthoi Guardian (25455) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25455;
+DELETE FROM weenie WHERE class_Id = 25455;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25455, 'olthoiroyalguardrot1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25455, 'olthoiroyalguardrot1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25455, 0, 25455);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25455, 1, 'Royal Olthoi Guardian') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25455, 1, 33557046) /* SETUP_DID */
      , (25455, 2, 150995130) /* MOTION_TABLE_DID */
      , (25455, 35, 452) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (25455, 1, 33557046) /* SETUP_DID */
      , (25455, 8, 100667623) /* ICON_DID */
      , (25455, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25455, 1, 16) /* ITEM_TYPE_INT */
      , (25455, 2, 1) /* CREATURE_TYPE_INT */
      , (25455, 3, 8) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (25455, 1, 16) /* ITEM_TYPE_INT */
      , (25455, 25, 115) /* LEVEL_INT */
      , (25455, 27, 0) /* ARMOR_TYPE_INT */
      , (25455, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25455, 40, 2) /* COMBAT_MODE_INT */
-     , (25455, 9007, 10) /* Creature_WeenieType */;
+     , (25455, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25455, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25455, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (25455, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,25 +70,25 @@ VALUES (25455, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25455, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25455, 31, 14) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25455, 1, True) /* STUCK_BOOL */
      , (25455, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25455, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25455, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25455, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (25455, 2, 420) /* ENDURANCE_ATTRIBUTE */
      , (25455, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (25455, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (25455, 16, 260) /* FOCUS_ATTRIBUTE */
-     , (25455, 32, 260) /* SELF_ATTRIBUTE */;
+     , (25455, 3, 220) /* QUICKNESS_ATTRIBUTE */
+     , (25455, 5, 260) /* FOCUS_ATTRIBUTE */
+     , (25455, 6, 260) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25455, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25455, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25455, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25455, 1, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25455, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25455, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25455, 1, 25482, 0, 0, 0, False) /* Create Smelly Olthoi Gland for Contain_DestinationType */;
 

@@ -1,17 +1,14 @@
 /* Weenie - Armor Protection Gem (22876) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22876;
+DELETE FROM weenie WHERE class_Id = 22876;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22876, 'gemarmorprot6');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22876, 'gemarmorprot6', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22876, 0, 22876);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22876, 1, 'Armor Protection Gem') /* NAME_STRING */
      , (22876, 15, 'A gem of armor protection') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22876, 1, 33554809) /* SETUP_DID */
      , (22876, 3, 536870932) /* SOUND_TABLE_DID */
      , (22876, 28, 1317) /* SPELL_DID */
@@ -21,7 +18,7 @@ VALUES (22876, 1, 33554809) /* SETUP_DID */
      , (22876, 7, 268435723) /* CLOTHINGBASE_DID */
      , (22876, 8, 100673898) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22876, 9, 0) /* LOCATIONS_INT */
      , (22876, 1, 2048) /* ITEM_TYPE_INT */
      , (22876, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -41,10 +38,9 @@ VALUES (22876, 9, 0) /* LOCATIONS_INT */
      , (22876, 107, 100) /* ITEM_CUR_MANA_INT */
      , (22876, 108, 200) /* ITEM_MAX_MANA_INT */
      , (22876, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (22876, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (22876, 9007, 38) /* Gem_WeenieType */;
+     , (22876, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22876, 22, True) /* INSCRIBABLE_BOOL */
      , (22876, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

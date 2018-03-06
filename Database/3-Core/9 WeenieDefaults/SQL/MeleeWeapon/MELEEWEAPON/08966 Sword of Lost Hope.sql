@@ -1,17 +1,14 @@
 /* Weenie - Sword of Lost Hope (8966) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8966;
+DELETE FROM weenie WHERE class_Id = 8966;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8966, 'swordlosthopewhitered');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8966, 'swordlosthopewhitered', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8966, 0, 8966);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8966, 16, 'The Sword of Lost Hope glows with a faint reddish-white radiance.  The weapon seems to coruscate with the power of Ilservian''s blood.  The Light has been forever dimmed, and the weapon is now empowered by the essence of the Hopeslayer.  It will no longer accept infusions of light.') /* LONG_DESC_STRING */
      , (8966, 1, 'Sword of Lost Hope') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8966, 1, 33556949) /* SETUP_DID */
      , (8966, 3, 536870932) /* SOUND_TABLE_DID */
      , (8966, 37, 11) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (8966, 1, 33556949) /* SETUP_DID */
      , (8966, 7, 268436109) /* CLOTHINGBASE_DID */
      , (8966, 8, 100671325) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8966, 9, 1048576) /* LOCATIONS_INT */
      , (8966, 1, 1) /* ITEM_TYPE_INT */
      , (8966, 19, 0) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (8966, 9, 1048576) /* LOCATIONS_INT */
      , (8966, 49, 30) /* WEAPON_TIME_INT */
      , (8966, 114, 1) /* ATTUNED_INT */
      , (8966, 51, 1) /* COMBAT_USE_INT */
-     , (8966, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8966, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (8966, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8966, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (8966, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (8966, 5, -0.1) /* MANA_RATE_FLOAT */
@@ -56,14 +52,14 @@ VALUES (8966, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (8966, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (8966, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8966, 99, True) /* IVORYABLE_BOOL */
      , (8966, 69, False) /* IS_SELLABLE_BOOL */
      , (8966, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8966, 15, True) /* LIGHTS_STATUS_BOOL */
      , (8966, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8966, 1406, 2) /* QuicknessOther4_SpellID */
      , (8966, 1358, 2) /* EnduranceOther4_SpellID */
      , (8966, 1615, 2) /* BloodDrinker5_SpellID */

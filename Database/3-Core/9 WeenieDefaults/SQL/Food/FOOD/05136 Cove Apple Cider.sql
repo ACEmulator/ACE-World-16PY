@@ -1,27 +1,24 @@
 /* Weenie - Cove Apple Cider (5136) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5136;
+DELETE FROM weenie WHERE class_Id = 5136;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5136, 'coveapplecider');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5136, 'coveapplecider', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5136, 0, 5136);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5136, 16, 'Cove Apple Cider, bottled in Yaraq by the al-Luq family.') /* LONG_DESC_STRING */
      , (5136, 1, 'Cove Apple Cider') /* NAME_STRING */
      , (5136, 20, 'Mugs of Cove Cider') /* PLURAL_NAME_STRING */
      , (5136, 14, 'Use this item to drink it.') /* USE_STRING */
      , (5136, 15, 'Cove Apple Cider, bottled in Yaraq.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5136, 1, 33554665) /* SETUP_DID */
      , (5136, 3, 536870932) /* SOUND_TABLE_DID */
      , (5136, 8, 100667432) /* ICON_DID */
      , (5136, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (5136, 23, 65) /* USE_SOUND_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5136, 9, 0) /* LOCATIONS_INT */
      , (5136, 1, 32) /* ITEM_TYPE_INT */
      , (5136, 13, 50) /* STACK_UNIT_ENCUMB_INT */
@@ -35,6 +32,5 @@ VALUES (5136, 9, 0) /* LOCATIONS_INT */
      , (5136, 19, 10) /* VALUE_INT */
      , (5136, 89, 4) /* BOOSTER_ENUM_INT */
      , (5136, 90, 10) /* BOOST_VALUE_INT */
-     , (5136, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5136, 9007, 18) /* Food_WeenieType */;
+     , (5136, 93, 1044) /* PHYSICS_STATE_INT */;
 

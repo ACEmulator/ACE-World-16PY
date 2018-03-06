@@ -1,18 +1,15 @@
 /* Weenie - Combined Kukuur Hides (29566) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29566;
+DELETE FROM weenie WHERE class_Id = 29566;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29566, 'hidekukuur2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29566, 'hidekukuur2', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29566, 0, 29566);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29566, 16, 'Three Kukuur hides have been placed together Reeshan''s, Kiree''s and Broodu''s.') /* LONG_DESC_STRING */
      , (29566, 1, 'Combined Kukuur Hides') /* NAME_STRING */
      , (29566, 14, 'Combine with other Kukuur hides.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29566, 1, 33554817) /* SETUP_DID */
      , (29566, 3, 536870932) /* SOUND_TABLE_DID */
      , (29566, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (29566, 1, 33554817) /* SETUP_DID */
      , (29566, 7, 268435832) /* CLOTHINGBASE_DID */
      , (29566, 8, 100677169) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29566, 9, 0) /* LOCATIONS_INT */
      , (29566, 1, 2048) /* ITEM_TYPE_INT */
      , (29566, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,10 +35,9 @@ VALUES (29566, 9, 0) /* LOCATIONS_INT */
      , (29566, 93, 1044) /* PHYSICS_STATE_INT */
      , (29566, 94, 2048) /* TARGET_TYPE_INT */
      , (29566, 33, 1) /* BONDED_INT */
-     , (29566, 114, 1) /* ATTUNED_INT */
-     , (29566, 9007, 44) /* CraftTool_WeenieType */;
+     , (29566, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29566, 69, False) /* IS_SELLABLE_BOOL */
      , (29566, 22, True) /* INSCRIBABLE_BOOL */;
 

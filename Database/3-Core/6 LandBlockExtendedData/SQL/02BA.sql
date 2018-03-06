@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4247, 1881907200, 45744391, 95.8774, -109.991, -23.9946, 0.690705, 0, 0, 0.723137) /* Foul Moarsman */
      , (4248, 1881907201, 45744394, 120.893, -92.4074, -23.9933, 0.536792, 0, 0, 0.843715) /* Putrid Moarsman */
      , (4248, 1881907202, 45744396, 116.646, -107.226, -23.9933, 0.997779, 0, 0, 0.0666169) /* Putrid Moarsman */
@@ -27,30 +27,30 @@ VALUES (4247, 1881907200, 45744391, 95.8774, -109.991, -23.9946, 0.690705, 0, 0,
      , (8599, 1881907225, 45744637, 129.511, -29.7786, 0.005, -0.904504, 0, 0, -0.426465) /* Surface */
      , (4246, 1881907226, 45744643, 131.723, -61.2856, 0.005, -0.930892, 0, 0, -0.365294) /* Rank Moarsman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881907223'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881907224'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881907223'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881907224'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907220'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907219'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907221'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907222'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907204'; /* linkmonstergen5minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907205'; /* linkmonstergen5minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907207'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907210'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907226'; /* linkmonstergen5minutes <- Rank Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907213'; /* linkmonstergen5minutes <- Shallows Devourer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907214'; /* linkmonstergen5minutes <- Shallows Devourer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907217'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907200'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907202'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907203'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907201'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907218'; /* linkmonstergen5minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907211'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907212'; /* linkmonstergen5minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881907215'; /* linkmonstergen5minutes <- Water Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881907206'; /* linkmonstergen10minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881907209'; /* linkmonstergen10minutes <- Rank Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881907216'; /* linkmonstergen10minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907220'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907219'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907221'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907222'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907204'; /* linkmonstergen5minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907205'; /* linkmonstergen5minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907207'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907210'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907226'; /* linkmonstergen5minutes <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907213'; /* linkmonstergen5minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907214'; /* linkmonstergen5minutes <- Shallows Devourer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907217'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907200'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907202'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907203'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907201'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907218'; /* linkmonstergen5minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907211'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907212'; /* linkmonstergen5minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881907215'; /* linkmonstergen5minutes <- Water Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881907206'; /* linkmonstergen10minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881907209'; /* linkmonstergen10minutes <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881907216'; /* linkmonstergen10minutes <- Putrid Moarsman */
 

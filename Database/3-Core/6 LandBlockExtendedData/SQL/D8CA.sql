@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1118, 2106368000, 3637116928, 87.4737, 67.4012, 287.873, 0.839685, 0, 0, 0.543074) /* Black Death Catacombs Portal */
      , (384, 2106368001, 3637116928, 80.094, 73.3305, 285.697, 0.71815, 0, 0, -0.695888) /* olthoi-generator */
      , (384, 2106368002, 3637116928, 81.7017, 58.7963, 285.851, -0.173358, 0, 0, -0.984859) /* olthoi-generator */

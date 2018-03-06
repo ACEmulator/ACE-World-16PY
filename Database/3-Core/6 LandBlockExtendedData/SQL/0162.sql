@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1915, 1880498176, 23200001, 2.96198, -133.634, 0, -0.626434, 0, 0, -0.779474) /* Chest */
      , (4110, 1880498177, 23200001, 5.00341, -128.463, 0.4815, 0.658445, 0, 0, -0.752629) /* Blood Shreth */
      , (4110, 1880498178, 23200003, 6.73905, -124.984, 0.4815, 0.807861, 0, 0, -0.589373) /* Blood Shreth */
@@ -33,28 +33,28 @@ VALUES (1915, 1880498176, 23200001, 2.96198, -133.634, 0, -0.626434, 0, 0, -0.77
      , (4110, 1880498206, 23200243, 71.5837, -57.7406, 12.011, -0.707107, 0, 0, -0.707107) /* Blood Shreth */
      , (1460, 1880498207, 23200244, 73.6734, -60.0302, 12, -0.993961, 0, 0, -0.109734) /* itemfoodhealgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880498198'; /* linknewbiemonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880498199'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880498198'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880498199'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498177'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498178'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498179'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498180'; /* linknewbiemonstergen <- Hunter Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498190'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498188'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498182'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498183'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498206'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498202'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498197'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498203'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498201'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498195'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498184'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498187'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498185'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880498186'; /* linknewbiemonstergen <- Blood Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498191'; /* linkitemgen25seconds <- Brogord's Axe */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498200'; /* linkitemgen25seconds <- Holtburg Town Stamp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880498208'; /* linkitemgen25seconds <- Letter to Ryndya */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498177'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498178'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498179'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498180'; /* linknewbiemonstergen <- Hunter Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498190'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498188'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498182'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498183'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498206'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498202'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498197'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498203'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498201'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498195'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498184'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498187'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498185'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880498186'; /* linknewbiemonstergen <- Blood Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880498191'; /* linkitemgen25seconds <- Brogord's Axe */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880498200'; /* linkitemgen25seconds <- Holtburg Town Stamp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880498208'; /* linkitemgen25seconds <- Letter to Ryndya */
 

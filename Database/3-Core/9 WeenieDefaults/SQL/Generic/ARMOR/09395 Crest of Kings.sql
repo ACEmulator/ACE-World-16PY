@@ -1,25 +1,22 @@
 /* Weenie - Crest of Kings (9395) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9395;
+DELETE FROM weenie WHERE class_Id = 9395;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9395, 'shieldcrest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9395, 'shieldcrest', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9395, 0, 9395);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9395, 16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LONG_DESC_STRING */
      , (9395, 1, 'Crest of Kings') /* NAME_STRING */
      , (9395, 15, 'A large carved shield.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9395, 1, 33557014) /* SETUP_DID */
      , (9395, 3, 536870932) /* SOUND_TABLE_DID */
      , (9395, 37, 6) /* ITEM_SKILL_LIMIT_DID */
      , (9395, 8, 100671513) /* ICON_DID */
      , (9395, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9395, 9, 2097152) /* LOCATIONS_INT */
      , (9395, 1, 2) /* ITEM_TYPE_INT */
      , (9395, 5, 1100) /* ENCUMB_VAL_INT */
@@ -37,10 +34,9 @@ VALUES (9395, 9, 2097152) /* LOCATIONS_INT */
      , (9395, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (9395, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (9395, 51, 4) /* COMBAT_USE_INT */
-     , (9395, 115, 190) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9395, 9007, 1) /* Generic_WeenieType */;
+     , (9395, 115, 190) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9395, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9395, 5, -0.05) /* MANA_RATE_FLOAT */
      , (9395, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -53,11 +49,11 @@ VALUES (9395, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (9395, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (9395, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9395, 22, True) /* INSCRIBABLE_BOOL */
      , (9395, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9395, 1091, 2) /* FireProtectionSelf3_SpellID */
      , (9395, 1135, 2) /* PiercingProtectionSelf3_SpellID */
      , (9395, 517, 2) /* AcidProtectionSelf3_SpellID */;

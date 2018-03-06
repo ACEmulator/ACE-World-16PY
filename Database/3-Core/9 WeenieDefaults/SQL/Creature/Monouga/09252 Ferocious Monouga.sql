@@ -1,16 +1,13 @@
 /* Weenie - Ferocious Monouga (9252) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9252;
+DELETE FROM weenie WHERE class_Id = 9252;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9252, 'monougaferocious');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9252, 'monougaferocious', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9252, 0, 9252);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9252, 1, 'Ferocious Monouga') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9252, 8, 100669117) /* ICON_DID */
      , (9252, 32, 119) /* WIELDED_TREASURE_TYPE_DID */
      , (9252, 1, 33555199) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (9252, 8, 100669117) /* ICON_DID */
      , (9252, 7, 268436143) /* CLOTHINGBASE_DID */
      , (9252, 22, 872415257) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9252, 1, 16) /* ITEM_TYPE_INT */
      , (9252, 2, 28) /* CREATURE_TYPE_INT */
      , (9252, 3, 64) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (9252, 1, 16) /* ITEM_TYPE_INT */
      , (9252, 27, 0) /* ARMOR_TYPE_INT */
      , (9252, 93, 4195336) /* PHYSICS_STATE_INT */
      , (9252, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (9252, 40, 2) /* COMBAT_MODE_INT */
-     , (9252, 9007, 10) /* Creature_WeenieType */;
+     , (9252, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9252, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (9252, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (9252, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,27 +69,27 @@ VALUES (9252, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (9252, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (9252, 31, 21) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9252, 1, True) /* STUCK_BOOL */
      , (9252, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (9252, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (9252, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9252, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9252, 1, 210) /* STRENGTH_ATTRIBUTE */
      , (9252, 2, 270) /* ENDURANCE_ATTRIBUTE */
      , (9252, 4, 135) /* COORDINATION_ATTRIBUTE */
-     , (9252, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (9252, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (9252, 32, 110) /* SELF_ATTRIBUTE */;
+     , (9252, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (9252, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (9252, 6, 110) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9252, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9252, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9252, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9252, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9252, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9252, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9252, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
      , (9252, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
      , (9252, 9, 15769, 0, 0, 0.02, False) /* Create Ruined Amulet of the Spear for ContainTreasure_DestinationType */

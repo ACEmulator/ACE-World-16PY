@@ -1,18 +1,15 @@
 /* Weenie - Dagger Tattoo (22555) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22555;
+DELETE FROM weenie WHERE class_Id = 22555;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22555, 'tattoodagger');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22555, 'tattoodagger', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22555, 0, 22555);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22555, 16, 'A vial of tattoo ink infused with the power of whistling winds. When painted on the upper arms the ink will act as armor and will grant the wearer the power of whistling winds.') /* LONG_DESC_STRING */
      , (22555, 1, 'Dagger Tattoo') /* NAME_STRING */
      , (22555, 15, 'A vial of tattoo ink used to draw dagger tattoos.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22555, 1, 33554641) /* SETUP_DID */
      , (22555, 3, 536870932) /* SOUND_TABLE_DID */
      , (22555, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (22555, 1, 33554641) /* SETUP_DID */
      , (22555, 8, 100668172) /* ICON_DID */
      , (22555, 50, 100673763) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22555, 9, 2048) /* LOCATIONS_INT */
      , (22555, 1, 2) /* ITEM_TYPE_INT */
      , (22555, 27, 1) /* ARMOR_TYPE_INT */
@@ -40,10 +37,9 @@ VALUES (22555, 9, 2048) /* LOCATIONS_INT */
      , (22555, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (22555, 107, 1200) /* ITEM_CUR_MANA_INT */
      , (22555, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (22555, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (22555, 9007, 2) /* Clothing_WeenieType */;
+     , (22555, 109, 150) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22555, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22555, 5, -0.1) /* MANA_RATE_FLOAT */
      , (22555, 12, 0.33) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (22555, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (22555, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22555, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22555, 22, True) /* INSCRIBABLE_BOOL */
      , (22555, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22555, 1384, 2) /* CoordinationOther6_SpellID */
      , (22555, 1408, 2) /* QuicknessOther6_SpellID */
      , (22555, 2689, 2) /* ModerateDaggerAptitude_SpellID */

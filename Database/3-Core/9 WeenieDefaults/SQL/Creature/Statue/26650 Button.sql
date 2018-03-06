@@ -1,16 +1,13 @@
 /* Weenie - Button (26650) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26650;
+DELETE FROM weenie WHERE class_Id = 26650;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26650, 'buttontempledoor2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26650, 'buttontempledoor2', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26650, 0, 26650);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26650, 1, 'Button') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26650, 1, 33558654) /* SETUP_DID */
      , (26650, 2, 150995147) /* MOTION_TABLE_DID */
      , (26650, 3, 536871052) /* SOUND_TABLE_DID */
@@ -18,10 +15,10 @@ VALUES (26650, 1, 33558654) /* SETUP_DID */
      , (26650, 8, 100667474) /* ICON_DID */
      , (26650, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (26650, 16, 1985237106) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26650, 1, 16) /* ITEM_TYPE_INT */
      , (26650, 146, 43164) /* XP_OVERRIDE_INT */
      , (26650, 2, 63) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (26650, 1, 16) /* ITEM_TYPE_INT */
      , (26650, 27, 0) /* ARMOR_TYPE_INT */
      , (26650, 93, 6292504) /* PHYSICS_STATE_INT */
      , (26650, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (26650, 119, 1) /* ACTIVE_INT */
-     , (26650, 9007, 10) /* Creature_WeenieType */;
+     , (26650, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26650, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26650, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (26650, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -68,7 +64,7 @@ VALUES (26650, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26650, 54, 1) /* USE_RADIUS_FLOAT */
      , (26650, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26650, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26650, 1, True) /* STUCK_BOOL */
      , (26650, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
@@ -79,16 +75,16 @@ VALUES (26650, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26650, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (26650, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26650, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (26650, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (26650, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (26650, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (26650, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (26650, 32, 285) /* SELF_ATTRIBUTE */;
+     , (26650, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (26650, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (26650, 6, 285) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26650, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26650, 128, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26650, 256, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26650, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26650, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26650, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
 

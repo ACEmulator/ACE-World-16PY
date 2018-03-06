@@ -1,16 +1,13 @@
 /* Weenie - Rolling Death (21916) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21916;
+DELETE FROM weenie WHERE class_Id = 21916;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21916, 'rollingdeathacid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21916, 'rollingdeathacid', /* ProjectileSpell_WeenieType */ 33);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21916, 0, 21916);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21916, 1, 'Rolling Death') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21916, 1, 33557980) /* SETUP_DID */
      , (21916, 3, 536870967) /* SOUND_TABLE_DID */
      , (21916, 30, 89) /* PHYSICS_SCRIPT_DID */
@@ -20,21 +17,20 @@ VALUES (21916, 1, 33557980) /* SETUP_DID */
      , (21916, 8, 100667494) /* ICON_DID */
      , (21916, 28, 2791) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21916, 66, 0) /* CHECKPOINT_STATUS_INT */
      , (21916, 3, 8) /* PALETTE_TEMPLATE_INT */
      , (21916, 8, 25) /* MASS_INT */
      , (21916, 9, 0) /* LOCATIONS_INT */
-     , (21916, 93, 133140) /* PHYSICS_STATE_INT */
-     , (21916, 9007, 33) /* ProjectileSpell_WeenieType */;
+     , (21916, 93, 133140) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21916, 79, 0) /* ELASTICITY_FLOAT */
      , (21916, 39, 2.25) /* DEFAULT_SCALE_FLOAT */
      , (21916, 78, 1) /* FRICTION_FLOAT */
      , (21916, 26, 2) /* MAXIMUM_VELOCITY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21916, 17, True) /* INELASTIC_BOOL */
      , (21916, 1, True) /* STUCK_BOOL */
      , (21916, 14, False) /* GRAVITY_STATUS_BOOL */

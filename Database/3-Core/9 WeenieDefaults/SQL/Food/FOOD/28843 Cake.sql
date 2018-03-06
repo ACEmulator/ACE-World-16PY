@@ -1,24 +1,21 @@
 /* Weenie - Cake (28843) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28843;
+DELETE FROM weenie WHERE class_Id = 28843;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28843, 'cakeeggpenguincave');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28843, 'cakeeggpenguincave', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28843, 0, 28843);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28843, 1, 'Cake') /* NAME_STRING */
      , (28843, 20, 'Slices of Cake') /* PLURAL_NAME_STRING */
      , (28843, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28843, 1, 33555193) /* SETUP_DID */
      , (28843, 3, 536870932) /* SOUND_TABLE_DID */
      , (28843, 8, 100667457) /* ICON_DID */
      , (28843, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28843, 9, 0) /* LOCATIONS_INT */
      , (28843, 1, 32) /* ITEM_TYPE_INT */
      , (28843, 13, 35) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (28843, 9, 0) /* LOCATIONS_INT */
      , (28843, 19, 28) /* VALUE_INT */
      , (28843, 89, 4) /* BOOSTER_ENUM_INT */
      , (28843, 90, 8) /* BOOST_VALUE_INT */
-     , (28843, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28843, 9007, 18) /* Food_WeenieType */;
+     , (28843, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28843, 69, False) /* IS_SELLABLE_BOOL */;
 

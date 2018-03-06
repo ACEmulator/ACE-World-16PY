@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14423, 1965510656, 1383399680, 35.532, -8.65, -5, -0.729828, 0, 0, -0.683631) /* Folded Strathelar Guards Uniform */
      , (14423, 1965510657, 1383399680, 35.533, -9.816, -5, -0.729828, 0, 0, -0.683631) /* Folded Strathelar Guards Uniform */
      , (14423, 1965510658, 1383399680, 35.678, -10.521, -5, -0.729828, 0, 0, -0.683631) /* Folded Strathelar Guards Uniform */
@@ -23,13 +23,13 @@ VALUES (14423, 1965510656, 1383399680, 35.532, -8.65, -5, -0.729828, 0, 0, -0.68
      , (14468, 1965510676, 1383399700, 11.9939, -14.8977, 2, 1, 0, 0, -4.37114E-08) /* Candle */
      , (14468, 1965510680, 1383399705, 20.556, -17.897, 1.775, -0.960079, 0, 0, -0.279728) /* Candle */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1965510675'; /* Fireplace */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1965510671'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1965510679'; /* Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1965510675'; /* Fireplace */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1965510671'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1965510679'; /* Trap Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965510676'; /* Fireplace <- Candle */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1965510680'; /* Fireplace <- Candle */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965510669'; /* linkmonstergen3minutes <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1965510670'; /* linkmonstergen3minutes <- Swamp Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1965510673'; /* Trap Door <- Trap Door */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965510676'; /* Fireplace <- Candle */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1965510680'; /* Fireplace <- Candle */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510669'; /* linkmonstergen3minutes <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1965510670'; /* linkmonstergen3minutes <- Swamp Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1965510673'; /* Trap Door <- Trap Door */
 

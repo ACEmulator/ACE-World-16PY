@@ -1,16 +1,13 @@
 /* Weenie - Ancient Defender (29583) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29583;
+DELETE FROM weenie WHERE class_Id = 29583;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29583, 'ghostfalatacotdefender');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29583, 'ghostfalatacotdefender', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29583, 0, 29583);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29583, 1, 'Ancient Defender') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29583, 1, 33558816) /* SETUP_DID */
      , (29583, 2, 150995302) /* MOTION_TABLE_DID */
      , (29583, 35, 31) /* DEATH_TREASURE_TYPE_DID */
@@ -21,10 +18,10 @@ VALUES (29583, 1, 33558816) /* SETUP_DID */
      , (29583, 7, 268436835) /* CLOTHINGBASE_DID */
      , (29583, 8, 100676679) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (29583, 16, 1880039427) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29583, 1, 16) /* ITEM_TYPE_INT */
      , (29583, 2, 77) /* CREATURE_TYPE_INT */
      , (29583, 3, 38) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (29583, 1, 16) /* ITEM_TYPE_INT */
      , (29583, 25, 200) /* LEVEL_INT */
      , (29583, 27, 0) /* ARMOR_TYPE_INT */
      , (29583, 93, 1032) /* PHYSICS_STATE_INT */
-     , (29583, 119, 1) /* ACTIVE_INT */
-     , (29583, 9007, 10) /* Creature_WeenieType */;
+     , (29583, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29583, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (29583, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (29583, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,7 +72,7 @@ VALUES (29583, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (29583, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (29583, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29583, 1, True) /* STUCK_BOOL */
      , (29583, 6, False) /* AI_USES_MANA_BOOL */
      , (29583, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,7 +80,7 @@ VALUES (29583, 1, True) /* STUCK_BOOL */
      , (29583, 29, True) /* NO_CORPSE_BOOL */
      , (29583, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29583, 897, 2.02) /* HealingIneptitudeOther6_SpellID */
      , (29583, 1327, 2.04) /* ImperilOther6_SpellID */
      , (29583, 2758, 2.05) /* BladeArc6_SpellID */
@@ -98,16 +94,16 @@ VALUES (29583, 897, 2.02) /* HealingIneptitudeOther6_SpellID */
      , (29583, 126, 2.05) /* BladeBlast6_SpellID */
      , (29583, 1343, 2.03) /* WeaknessOther6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (29583, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (29583, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (29583, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (29583, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (29583, 16, 330) /* FOCUS_ATTRIBUTE */
-     , (29583, 32, 350) /* SELF_ATTRIBUTE */;
+     , (29583, 3, 200) /* QUICKNESS_ATTRIBUTE */
+     , (29583, 5, 330) /* FOCUS_ATTRIBUTE */
+     , (29583, 6, 350) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29583, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29583, 128, 700) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29583, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (29583, 1, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29583, 3, 700) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29583, 5, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Plaguefang (25848) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25848;
+DELETE FROM weenie WHERE class_Id = 25848;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25848, 'reedsharkbossplaguefang');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25848, 'reedsharkbossplaguefang', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25848, 0, 25848);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25848, 1, 'Plaguefang') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25848, 1, 33554489) /* SETUP_DID */
      , (25848, 2, 150994970) /* MOTION_TABLE_DID */
      , (25848, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (25848, 1, 33554489) /* SETUP_DID */
      , (25848, 7, 268436731) /* CLOTHINGBASE_DID */
      , (25848, 8, 100667939) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25848, 1, 16) /* ITEM_TYPE_INT */
      , (25848, 146, 855132) /* XP_OVERRIDE_INT */
      , (25848, 2, 16) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (25848, 1, 16) /* ITEM_TYPE_INT */
      , (25848, 16, 1) /* ITEM_USEABLE_INT */
      , (25848, 25, 170) /* LEVEL_INT */
      , (25848, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25848, 40, 2) /* COMBAT_MODE_INT */
-     , (25848, 9007, 10) /* Creature_WeenieType */;
+     , (25848, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25848, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (25848, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25848, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,30 +65,30 @@ VALUES (25848, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (25848, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25848, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25848, 1, True) /* STUCK_BOOL */
      , (25848, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25848, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25848, 13, False) /* ETHEREAL_BOOL */
      , (25848, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25848, 2994, 2.02) /* Plague_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25848, 1, 600) /* STRENGTH_ATTRIBUTE */
      , (25848, 2, 600) /* ENDURANCE_ATTRIBUTE */
      , (25848, 4, 600) /* COORDINATION_ATTRIBUTE */
-     , (25848, 8, 600) /* QUICKNESS_ATTRIBUTE */
-     , (25848, 16, 300) /* FOCUS_ATTRIBUTE */
-     , (25848, 32, 300) /* SELF_ATTRIBUTE */;
+     , (25848, 3, 600) /* QUICKNESS_ATTRIBUTE */
+     , (25848, 5, 300) /* FOCUS_ATTRIBUTE */
+     , (25848, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25848, 64, 8700) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25848, 128, 8400) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25848, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25848, 1, 8700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25848, 3, 8400) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25848, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25848, 9, 25902, 0, 0, 1, False) /* Create Plaguefang's Hide for ContainTreasure_DestinationType */
      , (25848, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (25848, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */

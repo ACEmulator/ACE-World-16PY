@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7123, 2140286976, 4179820544, 108.036, 93.3913, 22.0082, 0.622686, 0, 0, 0.782471) /* Dark Leech */
      , (7110, 2140286977, 4179820544, 82.8682, 118.031, 22.005, 0.999852, 0, 0, -0.0171749) /* Ulu Sclavus */
      , (7123, 2140286978, 4179820544, 58.9206, 93.5005, 22.0082, 0.417726, 0, 0, -0.908573) /* Dark Leech */
@@ -8,13 +8,13 @@ VALUES (7123, 2140286976, 4179820544, 108.036, 93.3913, 22.0082, 0.622686, 0, 0,
      , (4219, 2140286982, 4179820544, 100.642, 164.688, 22.005, -0.99944, 0, 0, 0.0334662) /* linkmonstergen7minutes */
      , (2586, 2140286983, 4179820544, 86.0622, 116.564, 22.005, 0.96376, 0, 0, -0.266772) /* Sata Sclavus */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2140286982'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2140286982'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286983'; /* linkmonstergen7minutes <- Sata Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286977'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286980'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286976'; /* linkmonstergen7minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286981'; /* linkmonstergen7minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286979'; /* linkmonstergen7minutes <- Dark Leech */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2140286978'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286983'; /* linkmonstergen7minutes <- Sata Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286977'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286980'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286976'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286981'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286979'; /* linkmonstergen7minutes <- Dark Leech */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2140286978'; /* linkmonstergen7minutes <- Dark Leech */
 

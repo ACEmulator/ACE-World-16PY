@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (910, 1962766336, 1339490304, 148.742, 25.9148, 33.4503, 0.999948, 0, 0, -0.0102203) /* tuskergoldmalegen */
      , (909, 1962766337, 1339490304, 154.108, 34.1556, 32.3163, 0.99938, 0, 0, -0.0352132) /* tuskerfemalegen */
      , (909, 1962766338, 1339490304, 154.816, 48.6769, 30.9908, 0.921581, 0, 0, -0.388186) /* tuskerfemalegen */
@@ -11,7 +11,7 @@ VALUES (910, 1962766336, 1339490304, 148.742, 25.9148, 33.4503, 0.999948, 0, 0, 
      , (1627, 1962766345, 1339490304, 153.904, 52.1678, 30.5081, -0.921846, 0, 0, 0.387556) /* Tusker Crimsonback */
      , (1154, 1962766346, 1339490304, 156.36, 51.777, 30.3528, -0.698155, 0, 0, 0.715946) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1962766346'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1962766346'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1962766345'; /* linkmonstergen <- Tusker Crimsonback */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1962766345'; /* linkmonstergen <- Tusker Crimsonback */
 

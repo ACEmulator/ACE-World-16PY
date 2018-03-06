@@ -1,16 +1,13 @@
 /* Weenie - Greater Koujia Leggings of Flame (7722) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7722;
+DELETE FROM weenie WHERE class_Id = 7722;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7722, 'leggingskoujiashadowgreaternewfire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7722, 'leggingskoujiashadowgreaternewfire', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7722, 0, 7722);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7722, 1, 'Greater Koujia Leggings of Flame') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7722, 1, 33554856) /* SETUP_DID */
      , (7722, 3, 536870932) /* SOUND_TABLE_DID */
      , (7722, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (7722, 1, 33554856) /* SETUP_DID */
      , (7722, 7, 268435849) /* CLOTHINGBASE_DID */
      , (7722, 8, 100670461) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7722, 9, 25600) /* LOCATIONS_INT */
      , (7722, 1, 2) /* ITEM_TYPE_INT */
      , (7722, 27, 32) /* ARMOR_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (7722, 9, 25600) /* LOCATIONS_INT */
      , (7722, 93, 1044) /* PHYSICS_STATE_INT */
      , (7722, 33, 1) /* BONDED_INT */
      , (7722, 36, 9999) /* RESIST_MAGIC_INT */
-     , (7722, 114, 1) /* ATTUNED_INT */
-     , (7722, 9007, 2) /* Clothing_WeenieType */;
+     , (7722, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7722, 12, 0.9) /* SHADE_FLOAT */
      , (7722, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (7722, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -47,7 +43,7 @@ VALUES (7722, 12, 0.9) /* SHADE_FLOAT */
      , (7722, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (7722, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7722, 69, False) /* IS_SELLABLE_BOOL */
      , (7722, 22, True) /* INSCRIBABLE_BOOL */
      , (7722, 23, True) /* DESTROY_ON_SELL_BOOL */;

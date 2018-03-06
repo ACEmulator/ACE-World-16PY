@@ -1,18 +1,15 @@
 /* Weenie - White Rabbit Carcass (12128) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12128;
+DELETE FROM weenie WHERE class_Id = 12128;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12128, 'rabbitcarcasswhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12128, 'rabbitcarcasswhite', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12128, 0, 12128);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12128, 16, 'A dead white rabbit.') /* LONG_DESC_STRING */
      , (12128, 1, 'White Rabbit Carcass') /* NAME_STRING */
      , (12128, 15, 'A dead white rabbit.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12128, 1, 33556210) /* SETUP_DID */
      , (12128, 3, 536870932) /* SOUND_TABLE_DID */
      , (12128, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (12128, 1, 33556210) /* SETUP_DID */
      , (12128, 7, 268436309) /* CLOTHINGBASE_DID */
      , (12128, 8, 100672405) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12128, 33, 0) /* BONDED_INT */
      , (12128, 9, 0) /* LOCATIONS_INT */
      , (12128, 1, 128) /* ITEM_TYPE_INT */
@@ -29,10 +26,9 @@ VALUES (12128, 33, 0) /* BONDED_INT */
      , (12128, 16, 1) /* ITEM_USEABLE_INT */
      , (12128, 8, 230) /* MASS_INT */
      , (12128, 19, 0) /* VALUE_INT */
-     , (12128, 114, 0) /* ATTUNED_INT */
-     , (12128, 9007, 1) /* Generic_WeenieType */;
+     , (12128, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12128, 22, True) /* INSCRIBABLE_BOOL */
      , (12128, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

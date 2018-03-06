@@ -1,17 +1,14 @@
 /* Weenie - Palenqual's Kalindan of the Vortex (27367) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27367;
+DELETE FROM weenie WHERE class_Id = 27367;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27367, 'xbowkalindanvortex');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27367, 'xbowkalindanvortex', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27367, 0, 27367);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27367, 16, 'A kalindan fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (27367, 1, 'Palenqual''s Kalindan of the Vortex') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27367, 1, 33558668) /* SETUP_DID */
      , (27367, 3, 536870932) /* SOUND_TABLE_DID */
      , (27367, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27367, 1, 33558668) /* SETUP_DID */
      , (27367, 7, 268436253) /* CLOTHINGBASE_DID */
      , (27367, 8, 100676346) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27367, 9, 4194304) /* LOCATIONS_INT */
      , (27367, 1, 256) /* ITEM_TYPE_INT */
      , (27367, 5, 900) /* ENCUMB_VAL_INT */
@@ -47,10 +44,9 @@ VALUES (27367, 9, 4194304) /* LOCATIONS_INT */
      , (27367, 51, 2) /* COMBAT_USE_INT */
      , (27367, 52, 2) /* PARENT_LOCATION_INT */
      , (27367, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (27367, 60, 160) /* WEAPON_RANGE_INT */
-     , (27367, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (27367, 60, 160) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27367, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27367, 5, -0.033333) /* MANA_RATE_FLOAT */
      , (27367, 63, 2.45) /* DAMAGE_MOD_FLOAT */
@@ -60,13 +56,13 @@ VALUES (27367, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27367, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (27367, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27367, 99, True) /* IVORYABLE_BOOL */
      , (27367, 69, False) /* IS_SELLABLE_BOOL */
      , (27367, 22, True) /* INSCRIBABLE_BOOL */
      , (27367, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27367, 2438, 2) /* RockslideLesser_SpellID */
      , (27367, 2441, 2) /* StoneCliffsLesser_SpellID */
      , (27367, 2444, 2) /* StrengthofEarthLesser_SpellID */

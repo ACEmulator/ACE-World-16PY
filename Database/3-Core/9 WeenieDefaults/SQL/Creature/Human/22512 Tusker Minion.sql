@@ -1,18 +1,15 @@
 /* Weenie - Tusker Minion (22512) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22512;
+DELETE FROM weenie WHERE class_Id = 22512;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22512, 'humantuskerminionmage');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22512, 'humantuskerminionmage', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22512, 0, 22512);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22512, 1, 'Tusker Minion') /* NAME_STRING */
      , (22512, 3, 'Male') /* SEX_STRING */
      , (22512, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22512, 8, 100667446) /* ICON_DID */
      , (22512, 32, 416) /* WIELDED_TREASURE_TYPE_DID */
      , (22512, 1, 33554433) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (22512, 8, 100667446) /* ICON_DID */
      , (22512, 4, 805306368) /* COMBAT_TABLE_DID */
      , (22512, 22, 872415236) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22512, 1, 16) /* ITEM_TYPE_INT */
      , (22512, 2, 31) /* CREATURE_TYPE_INT */
      , (22512, 68, 13) /* TARGETING_TACTIC_INT */
@@ -36,10 +33,9 @@ VALUES (22512, 1, 16) /* ITEM_TYPE_INT */
      , (22512, 25, 35) /* LEVEL_INT */
      , (22512, 27, 0) /* ARMOR_TYPE_INT */
      , (22512, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22512, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (22512, 9007, 10) /* Creature_WeenieType */;
+     , (22512, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22512, 64, 1) /* RESIST_SLASH_FLOAT */
      , (22512, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (22512, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,7 +67,7 @@ VALUES (22512, 64, 1) /* RESIST_SLASH_FLOAT */
      , (22512, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22512, 31, 15) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22512, 1, True) /* STUCK_BOOL */
      , (22512, 6, True) /* AI_USES_MANA_BOOL */
      , (22512, 7, True) /* AI_USE_HUMAN_MAGIC_ANIMATIONS_BOOL */
@@ -79,7 +75,7 @@ VALUES (22512, 1, True) /* STUCK_BOOL */
      , (22512, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22512, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22512, 1309, 2) /* ArmorSelf3_SpellID */
      , (22512, 82, 2.12) /* FlameBolt3_SpellID */
      , (22512, 66, 2.12) /* ShockWave3_SpellID */
@@ -91,16 +87,16 @@ VALUES (22512, 1309, 2) /* ArmorSelf3_SpellID */
      , (22512, 1050, 2.04) /* BludgeonVulnerabilityOther3_SpellID */
      , (22512, 60, 2.12) /* AcidStream3_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22512, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (22512, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (22512, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (22512, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (22512, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (22512, 32, 160) /* SELF_ATTRIBUTE */;
+     , (22512, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (22512, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (22512, 6, 160) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22512, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22512, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22512, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22512, 1, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22512, 3, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22512, 5, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 

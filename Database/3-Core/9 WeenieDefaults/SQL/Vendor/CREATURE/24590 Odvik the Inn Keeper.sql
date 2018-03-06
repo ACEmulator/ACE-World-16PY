@@ -1,18 +1,15 @@
 /* Weenie - Odvik the Inn Keeper (24590) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24590;
+DELETE FROM weenie WHERE class_Id = 24590;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24590, 'candethkeepbarkeeper');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24590, 'candethkeepbarkeeper', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24590, 0, 24590);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24590, 1, 'Odvik the Inn Keeper') /* NAME_STRING */
      , (24590, 5, 'Inn Keeper') /* TEMPLATE_STRING */
      , (24590, 24, 'Candeth Keep') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24590, 1, 33557003) /* SETUP_DID */
      , (24590, 2, 150994950) /* MOTION_TABLE_DID */
      , (24590, 3, 536870922) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (24590, 1, 33557003) /* SETUP_DID */
      , (24590, 7, 268436152) /* CLOTHINGBASE_DID */
      , (24590, 8, 100667447) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24590, 1, 16) /* ITEM_TYPE_INT */
      , (24590, 74, 262176) /* MERCHANDISE_ITEM_TYPES_INT */
      , (24590, 2, 5) /* CREATURE_TYPE_INT */
@@ -39,10 +36,9 @@ VALUES (24590, 1, 16) /* ITEM_TYPE_INT */
      , (24590, 27, 0) /* ARMOR_TYPE_INT */
      , (24590, 93, 2098200) /* PHYSICS_STATE_INT */
      , (24590, 126, 250) /* VENDOR_HAPPY_MEAN_INT */
-     , (24590, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (24590, 9007, 12) /* Vendor_WeenieType */;
+     , (24590, 127, 250) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24590, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24590, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (24590, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,7 +72,7 @@ VALUES (24590, 64, 1) /* RESIST_SLASH_FLOAT */
      , (24590, 54, 5) /* USE_RADIUS_FLOAT */
      , (24590, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24590, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24590, 1, True) /* STUCK_BOOL */
      , (24590, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -84,20 +80,20 @@ VALUES (24590, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (24590, 13, False) /* ETHEREAL_BOOL */
      , (24590, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24590, 1, 204) /* STRENGTH_ATTRIBUTE */
      , (24590, 2, 192) /* ENDURANCE_ATTRIBUTE */
      , (24590, 4, 145) /* COORDINATION_ATTRIBUTE */
-     , (24590, 8, 124) /* QUICKNESS_ATTRIBUTE */
-     , (24590, 16, 15) /* FOCUS_ATTRIBUTE */
-     , (24590, 32, 15) /* SELF_ATTRIBUTE */;
+     , (24590, 3, 124) /* QUICKNESS_ATTRIBUTE */
+     , (24590, 5, 15) /* FOCUS_ATTRIBUTE */
+     , (24590, 6, 15) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24590, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24590, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24590, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24590, 1, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24590, 3, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24590, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24590, 4, 4746, -1, 0, 0, False) /* Create Water for Shop_DestinationType */
      , (24590, 4, 2453, -1, 0, 0, False) /* Create Cider for Shop_DestinationType */
      , (24590, 4, 2462, -1, 0, 0, False) /* Create Mead for Shop_DestinationType */

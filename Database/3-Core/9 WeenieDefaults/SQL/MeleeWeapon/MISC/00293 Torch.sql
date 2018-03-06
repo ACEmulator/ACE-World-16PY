@@ -1,22 +1,19 @@
 /* Weenie - Torch (293) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 293;
+DELETE FROM weenie WHERE class_Id = 293;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (293, 'torch');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (293, 'torch', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (293, 0, 293);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (293, 1, 'Torch') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (293, 1, 33555887) /* SETUP_DID */
      , (293, 3, 536870932) /* SOUND_TABLE_DID */
      , (293, 8, 100667506) /* ICON_DID */
      , (293, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (293, 9, 1048576) /* LOCATIONS_INT */
      , (293, 1, 128) /* ITEM_TYPE_INT */
      , (293, 93, 3092) /* PHYSICS_STATE_INT */
@@ -32,16 +29,15 @@ VALUES (293, 9, 1048576) /* LOCATIONS_INT */
      , (293, 47, 4) /* ATTACK_TYPE_INT */
      , (293, 48, 5) /* WEAPON_SKILL_INT */
      , (293, 49, 40) /* WEAPON_TIME_INT */
-     , (293, 51, 1) /* COMBAT_USE_INT */
-     , (293, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (293, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (293, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
      , (293, 44, 0) /* TIME_TO_ROT_FLOAT */
      , (293, 21, 0.68) /* WEAPON_LENGTH_FLOAT */
      , (293, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (293, 15, True) /* LIGHTS_STATUS_BOOL */
      , (293, 22, True) /* INSCRIBABLE_BOOL */;
 

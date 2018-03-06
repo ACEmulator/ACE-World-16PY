@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (990, 2012807168, 2140143889, 101.52, 155.88, 144.005, 0.584958, 0, 0, -0.811064) /* Healer Hisuf ibn Shudir */
      , (5695, 2012807172, 2140143890, 100.788, 153.96, 147.205, 0.723958, 0, 0, -0.689844) /* Kuyiza bint Zayi the Translator */
      , (1154, 2012807174, 2140143890, 101.828, 155.553, 147.205, -0.00131678, 0, 0, 0.999999) /* linkmonstergen */
@@ -13,12 +13,12 @@ VALUES (990, 2012807168, 2140143889, 101.52, 155.88, 144.005, 0.584958, 0, 0, -0
      , (3951, 2012807176, 2140143616, 109.222, 141.47, 144.005, 0.0593664, 0, 0, 0.998236) /* linkmonstergen1hour */
      , (8266, 2012807175, 2140143616, 110.697, 142.459, 144.005, 0.704148, 0, 0, -0.710054) /* Diyas al-Yat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2012807174'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2012807176'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2012807174'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2012807176'; /* linkmonstergen1hour */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2012807172'; /* linkmonstergen <- Kuyiza bint Zayi the Translator */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012807175'; /* linkmonstergen1hour <- Diyas al-Yat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012807180'; /* linkmonstergen1hour <- Ecorto the Lost Director */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012807181'; /* linkmonstergen1hour <- Arcanum Researcher */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2012807182'; /* linkmonstergen1hour <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2012807172'; /* linkmonstergen <- Kuyiza bint Zayi the Translator */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807175'; /* linkmonstergen1hour <- Diyas al-Yat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807180'; /* linkmonstergen1hour <- Ecorto the Lost Director */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807181'; /* linkmonstergen1hour <- Arcanum Researcher */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2012807182'; /* linkmonstergen1hour <- Apprentice Alchemist */
 

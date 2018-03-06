@@ -1,16 +1,13 @@
 /* Weenie - Dark Sorcerer (12037) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12037;
+DELETE FROM weenie WHERE class_Id = 12037;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12037, 'undeadbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12037, 'undeadbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12037, 0, 12037);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12037, 1, 'Dark Sorcerer') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12037, 8, 100667942) /* ICON_DID */
      , (12037, 32, 291) /* WIELDED_TREASURE_TYPE_DID */
      , (12037, 1, 33554839) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (12037, 8, 100667942) /* ICON_DID */
      , (12037, 7, 268435558) /* CLOTHINGBASE_DID */
      , (12037, 22, 872415272) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12037, 1, 16) /* ITEM_TYPE_INT */
      , (12037, 2, 14) /* CREATURE_TYPE_INT */
      , (12037, 3, 10) /* PALETTE_TEMPLATE_INT */
@@ -40,10 +37,9 @@ VALUES (12037, 1, 16) /* ITEM_TYPE_INT */
      , (12037, 93, 1032) /* PHYSICS_STATE_INT */
      , (12037, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (12037, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (12037, 40, 1) /* COMBAT_MODE_INT */
-     , (12037, 9007, 10) /* Creature_WeenieType */;
+     , (12037, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12037, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12037, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (12037, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -79,14 +75,14 @@ VALUES (12037, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12037, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12037, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12037, 1, True) /* STUCK_BOOL */
      , (12037, 6, True) /* AI_USES_MANA_BOOL */
      , (12037, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (12037, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12037, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12037, 1253, 2.025) /* DrainStamina5_SpellID */
      , (12037, 137, 2.01) /* FrostVolley5_SpellID */
      , (12037, 73, 2.01) /* FrostBolt5_SpellID */
@@ -121,20 +117,20 @@ VALUES (12037, 1253, 2.025) /* DrainStamina5_SpellID */
      , (12037, 1343, 2.011) /* WeaknessOther6_SpellID */
      , (12037, 63, 2.04) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12037, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (12037, 2, 290) /* ENDURANCE_ATTRIBUTE */
      , (12037, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (12037, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (12037, 16, 295) /* FOCUS_ATTRIBUTE */
-     , (12037, 32, 295) /* SELF_ATTRIBUTE */;
+     , (12037, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (12037, 5, 295) /* FOCUS_ATTRIBUTE */
+     , (12037, 6, 295) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12037, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12037, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12037, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12037, 1, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12037, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12037, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12037, 9, 6876, 0, 0, 0.5, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (12037, 9, 0, 0, 0, 0.5, False) /* Create  for ContainTreasure_DestinationType */
      , (12037, 9, 7045, 0, 0, 0.8, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
@@ -144,7 +140,7 @@ VALUES (12037, 9, 6876, 0, 0, 0.5, False) /* Create Sturdy Iron Key for ContainT
      , (12037, 9, 23611, 0, 0, 0.3, False) /* Create Dark Sorcerer's Phylactery for ContainTreasure_DestinationType */
      , (12037, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12037, 0.5, 7124, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dark Magus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12037, 1, 7124, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dark Magus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

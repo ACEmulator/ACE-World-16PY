@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1761, 1880174641, 18022669, 29.9393, -18.9898, -11.9975, 1, 0, 0, 0) /* Skeleton Captain */
      , (1761, 1880174642, 18022675, 30, -40, -17.9975, 0.707107, 0, 0, -0.707107) /* Skeleton Captain */
      , (1761, 1880174643, 18022677, 30.3611, -51.8754, -11.9975, 1, 0, 0, 0) /* Skeleton Captain */
@@ -42,45 +42,45 @@ VALUES (1761, 1880174641, 18022669, 29.9393, -18.9898, -11.9975, 1, 0, 0, 0) /* 
      , (4219, 1880174665, 18022929, 30.2543, -23.1833, 6.005, -0.0740164, 0, 0, -0.997257) /* linkmonstergen7minutes */
      , (6780, 1880174632, 18022940, 50, -16.359, 6.583, 1, 0, 0, 0) /* Surface Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880174605'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880174631'; /* linknewbiemonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880174665'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880174664'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880174605'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880174631'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880174665'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880174664'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880174603'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880174629'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880174604'; /* linknewbiemonstergen <- Skeleton Lord */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174597'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174600'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174636'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174638'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174634'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174635'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174640'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174637'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174639'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174647'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174652'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174641'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174646'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174654'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174633'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174653'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174655'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174649'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174651'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880174648'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174650'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174645'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174643'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174644'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174642'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174659'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174661'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174656'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174657'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174662'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174663'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174660'; /* linkmonstergen7minutes <- Skeleton Captain */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880174658'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880174603'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880174629'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880174604'; /* linknewbiemonstergen <- Skeleton Lord */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174597'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174600'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174636'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174638'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174634'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174635'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174640'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174637'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174639'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174647'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174652'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174641'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174646'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174654'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174633'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174653'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174655'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174649'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174651'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880174648'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174650'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174645'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174643'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174644'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174642'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174659'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174661'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174656'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174657'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174662'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174663'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174660'; /* linkmonstergen7minutes <- Skeleton Captain */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880174658'; /* linkmonstergen7minutes <- Skeleton Captain */
 

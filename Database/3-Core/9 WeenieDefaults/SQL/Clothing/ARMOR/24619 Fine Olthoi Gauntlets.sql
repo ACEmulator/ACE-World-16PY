@@ -1,16 +1,13 @@
 /* Weenie - Fine Olthoi Gauntlets (24619) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24619;
+DELETE FROM weenie WHERE class_Id = 24619;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24619, 'gauntletsolthoihigh');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24619, 'gauntletsolthoihigh', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24619, 0, 24619);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24619, 1, 'Fine Olthoi Gauntlets') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24619, 1, 33554648) /* SETUP_DID */
      , (24619, 3, 536870932) /* SOUND_TABLE_DID */
      , (24619, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (24619, 1, 33554648) /* SETUP_DID */
      , (24619, 7, 268436656) /* CLOTHINGBASE_DID */
      , (24619, 8, 100674576) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24619, 9, 32) /* LOCATIONS_INT */
      , (24619, 1, 2) /* ITEM_TYPE_INT */
      , (24619, 27, 32) /* ARMOR_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (24619, 9, 32) /* LOCATIONS_INT */
      , (24619, 36, 9999) /* RESIST_MAGIC_INT */
      , (24619, 169, 151651588) /* TSYS_MUTATION_DATA_INT */
      , (24619, 44, 3) /* DAMAGE_INT */
-     , (24619, 45, 4) /* DAMAGE_TYPE_INT */
-     , (24619, 9007, 2) /* Clothing_WeenieType */;
+     , (24619, 45, 4) /* DAMAGE_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24619, 12, 0.66) /* SHADE_FLOAT */
      , (24619, 13, 1.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (24619, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -54,7 +50,7 @@ VALUES (24619, 12, 0.66) /* SHADE_FLOAT */
      , (24619, 19, 1.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (24619, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24619, 100, True) /* DYABLE_BOOL */
      , (24619, 22, True) /* INSCRIBABLE_BOOL */;
 

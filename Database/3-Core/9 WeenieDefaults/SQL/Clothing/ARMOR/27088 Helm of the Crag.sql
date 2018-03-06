@@ -1,18 +1,15 @@
 /* Weenie - Helm of the Crag (27088) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27088;
+DELETE FROM weenie WHERE class_Id = 27088;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27088, 'helmcragnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27088, 'helmcragnew', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27088, 0, 27088);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27088, 16, 'A large horned helm with the horns of a large mattekar.') /* LONG_DESC_STRING */
      , (27088, 1, 'Helm of the Crag') /* NAME_STRING */
      , (27088, 15, 'A large horned helm.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27088, 1, 33557002) /* SETUP_DID */
      , (27088, 3, 536870932) /* SOUND_TABLE_DID */
      , (27088, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27088, 1, 33557002) /* SETUP_DID */
      , (27088, 7, 268436151) /* CLOTHINGBASE_DID */
      , (27088, 8, 100667349) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27088, 9, 1) /* LOCATIONS_INT */
      , (27088, 1, 2) /* ITEM_TYPE_INT */
      , (27088, 19, 2000) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (27088, 9, 1) /* LOCATIONS_INT */
      , (27088, 160, 40) /* WIELD_DIFFICULTY_INT */
      , (27088, 106, 200) /* ITEM_SPELLCRAFT_INT */
      , (27088, 107, 200) /* ITEM_CUR_MANA_INT */
-     , (27088, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (27088, 9007, 2) /* Clothing_WeenieType */;
+     , (27088, 108, 200) /* ITEM_MAX_MANA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27088, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27088, 5, -0.05) /* MANA_RATE_FLOAT */
      , (27088, 12, 0.25) /* SHADE_FLOAT */
@@ -55,12 +51,12 @@ VALUES (27088, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (27088, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (27088, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27088, 100, True) /* DYABLE_BOOL */
      , (27088, 22, True) /* INSCRIBABLE_BOOL */
      , (27088, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27088, 1538, 2) /* LightningBane4_SpellID */
      , (27088, 1027, 2) /* BludgeonProtectionOther4_SpellID */
      , (27088, 1550, 2) /* FlameBane4_SpellID */

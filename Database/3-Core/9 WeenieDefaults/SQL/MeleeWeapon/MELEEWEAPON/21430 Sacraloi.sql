@@ -1,24 +1,21 @@
 /* Weenie - Sacraloi (21430) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21430;
+DELETE FROM weenie WHERE class_Id = 21430;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21430, 'daggergaerlan');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21430, 'daggergaerlan', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21430, 0, 21430);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21430, 1, 'Sacraloi') /* NAME_STRING */
      , (21430, 15, 'A dagger constructed from obsidian and cerulean colored stone.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21430, 1, 33557961) /* SETUP_DID */
      , (21430, 3, 536870932) /* SOUND_TABLE_DID */
      , (21430, 37, 4) /* ITEM_SKILL_LIMIT_DID */
      , (21430, 8, 100673488) /* ICON_DID */
      , (21430, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21430, 9, 1048576) /* LOCATIONS_INT */
      , (21430, 1, 1) /* ITEM_TYPE_INT */
      , (21430, 5, 120) /* ENCUMB_VAL_INT */
@@ -45,10 +42,9 @@ VALUES (21430, 9, 1048576) /* LOCATIONS_INT */
      , (21430, 48, 4) /* WEAPON_SKILL_INT */
      , (21430, 49, 15) /* WEAPON_TIME_INT */
      , (21430, 51, 1) /* COMBAT_USE_INT */
-     , (21430, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (21430, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (21430, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21430, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
      , (21430, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (21430, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (21430, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
      , (21430, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */
      , (21430, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21430, 69, False) /* IS_SELLABLE_BOOL */
      , (21430, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21430, 320, 2) /* DaggerMasteryOther5_SpellID */
      , (21430, 1604, 2) /* Defender5_SpellID */
      , (21430, 1591, 2) /* HeartSeeker5_SpellID */

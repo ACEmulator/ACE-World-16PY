@@ -1,16 +1,13 @@
 /* Weenie - Assassin's Acid Jambiya (12187) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12187;
+DELETE FROM weenie WHERE class_Id = 12187;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12187, 'jambiyaacidbanditzharalim');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12187, 'jambiyaacidbanditzharalim', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12187, 0, 12187);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12187, 1, 'Assassin''s Acid Jambiya') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12187, 1, 33555710) /* SETUP_DID */
      , (12187, 3, 536870932) /* SOUND_TABLE_DID */
      , (12187, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (12187, 1, 33555710) /* SETUP_DID */
      , (12187, 7, 268435784) /* CLOTHINGBASE_DID */
      , (12187, 8, 100667592) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12187, 33, -2) /* BONDED_INT */
      , (12187, 9, 1048576) /* LOCATIONS_INT */
      , (12187, 1, 1) /* ITEM_TYPE_INT */
@@ -37,15 +34,14 @@ VALUES (12187, 33, -2) /* BONDED_INT */
      , (12187, 48, 4) /* WEAPON_SKILL_INT */
      , (12187, 49, 1) /* WEAPON_TIME_INT */
      , (12187, 114, 1) /* ATTUNED_INT */
-     , (12187, 51, 1) /* COMBAT_USE_INT */
-     , (12187, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (12187, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12187, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (12187, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (12187, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (12187, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12187, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Tumerok Fighter (4101) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4101;
+DELETE FROM weenie WHERE class_Id = 4101;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4101, 'tumerokfighterarcher');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4101, 'tumerokfighterarcher', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4101, 0, 4101);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4101, 1, 'Tumerok Fighter') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4101, 8, 100667452) /* ICON_DID */
      , (4101, 32, 195) /* WIELDED_TREASURE_TYPE_DID */
      , (4101, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (4101, 8, 100667452) /* ICON_DID */
      , (4101, 7, 268436629) /* CLOTHINGBASE_DID */
      , (4101, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4101, 1, 16) /* ITEM_TYPE_INT */
      , (4101, 2, 6) /* CREATURE_TYPE_INT */
      , (4101, 3, 1) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (4101, 1, 16) /* ITEM_TYPE_INT */
      , (4101, 25, 18) /* LEVEL_INT */
      , (4101, 27, 0) /* ARMOR_TYPE_INT */
      , (4101, 93, 1032) /* PHYSICS_STATE_INT */
-     , (4101, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (4101, 9007, 10) /* Creature_WeenieType */;
+     , (4101, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4101, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4101, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (4101, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (4101, 64, 1) /* RESIST_SLASH_FLOAT */
      , (4101, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (4101, 31, 20) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4101, 1, True) /* STUCK_BOOL */
      , (4101, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (4101, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4101, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (4101, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (4101, 2, 85) /* ENDURANCE_ATTRIBUTE */
      , (4101, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (4101, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (4101, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (4101, 32, 50) /* SELF_ATTRIBUTE */;
+     , (4101, 3, 30) /* QUICKNESS_ATTRIBUTE */
+     , (4101, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (4101, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4101, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4101, 128, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4101, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (4101, 1, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4101, 3, 85) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4101, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4101, 8, 301, 0, 0, 0.14, False) /* Create Battle Axe for Treasure_DestinationType */
      , (4101, 8, 350, 0, 0, 0.07, False) /* Create Broad Sword for Treasure_DestinationType */
      , (4101, 8, 324, 0, 0, 0.06, False) /* Create Kaskara for Treasure_DestinationType */

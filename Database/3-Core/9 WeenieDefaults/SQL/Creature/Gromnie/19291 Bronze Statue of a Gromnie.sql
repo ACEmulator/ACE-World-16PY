@@ -1,16 +1,13 @@
 /* Weenie - Bronze Statue of a Gromnie (19291) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 19291;
+DELETE FROM weenie WHERE class_Id = 19291;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (19291, 'statuereplicalowgromniesmall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (19291, 'statuereplicalowgromniesmall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (19291, 0, 19291);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19291, 1, 'Bronze Statue of a Gromnie') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19291, 1, 33554487) /* SETUP_DID */
      , (19291, 2, 150995184) /* MOTION_TABLE_DID */
      , (19291, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (19291, 1, 33554487) /* SETUP_DID */
      , (19291, 8, 100667938) /* ICON_DID */
      , (19291, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19291, 1, 16) /* ITEM_TYPE_INT */
      , (19291, 2, 15) /* CREATURE_TYPE_INT */
      , (19291, 67, 64) /* TOLERANCE_INT */
@@ -36,10 +33,9 @@ VALUES (19291, 1, 16) /* ITEM_TYPE_INT */
      , (19291, 25, 17) /* LEVEL_INT */
      , (19291, 27, 0) /* ARMOR_TYPE_INT */
      , (19291, 93, 1032) /* PHYSICS_STATE_INT */
-     , (19291, 40, 2) /* COMBAT_MODE_INT */
-     , (19291, 9007, 10) /* Creature_WeenieType */;
+     , (19291, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19291, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (19291, 65, 0.1) /* RESIST_PIERCE_FLOAT */
      , (19291, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,27 +65,27 @@ VALUES (19291, 64, 0.1) /* RESIST_SLASH_FLOAT */
      , (19291, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (19291, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19291, 1, True) /* STUCK_BOOL */
      , (19291, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (19291, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19291, 13, False) /* ETHEREAL_BOOL */
      , (19291, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (19291, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (19291, 2, 110) /* ENDURANCE_ATTRIBUTE */
      , (19291, 4, 115) /* COORDINATION_ATTRIBUTE */
-     , (19291, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (19291, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (19291, 32, 100) /* SELF_ATTRIBUTE */;
+     , (19291, 3, 90) /* QUICKNESS_ATTRIBUTE */
+     , (19291, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (19291, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19291, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19291, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19291, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (19291, 1, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (19291, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (19291, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19291, 9, 19216, 0, 0, 0.05, False) /* Create Bronze Gear from a Statue for ContainTreasure_DestinationType */
      , (19291, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7106, 2102644758, 3577544960, 37.7023, 182.966, 340.012, -0.461484, 0, 0, -0.887148) /* Sewer Rat */
      , (1989, 2102644761, 3577544960, 33.6664, 182.378, 346.352, -0.38788, 0, 0, 0.92171) /* Shadow Wisp */
      , (7106, 2102644760, 3577544960, 33.2714, 181.561, 340.012, 0.289328, 0, 0, -0.95723) /* Sewer Rat */
@@ -15,16 +15,16 @@ VALUES (7106, 2102644758, 3577544960, 37.7023, 182.966, 340.012, -0.461484, 0, 0
      , (4217, 2102644756, 3577544704, 34.0544, 177.47, 355.208, -0.996038, 0, 0, -0.0889316) /* Dark Revenant */
      , (4217, 2102644757, 3577544704, 33.4493, 182.656, 355.208, -0.326794, 0, 0, 0.945096) /* Dark Revenant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2102644738'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2102644743'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2102644738'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2102644743'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2102644741'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644739'; /* linkmonstergen7minutes <- Obsidian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644756'; /* linkmonstergen7minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644757'; /* linkmonstergen7minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644758'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644759'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644760'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644761'; /* linkmonstergen7minutes <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2102644762'; /* linkmonstergen7minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2102644741'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644739'; /* linkmonstergen7minutes <- Obsidian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644756'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644757'; /* linkmonstergen7minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644758'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644759'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644760'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644761'; /* linkmonstergen7minutes <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2102644762'; /* linkmonstergen7minutes <- Obsidian Golem */
 

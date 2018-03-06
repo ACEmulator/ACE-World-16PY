@@ -1,17 +1,14 @@
 /* Weenie - Elysa's Bangle (27106) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27106;
+DELETE FROM weenie WHERE class_Id = 27106;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27106, 'braceletelysabangle2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27106, 'braceletelysabangle2', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27106, 0, 27106);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27106, 16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LONG_DESC_STRING */
      , (27106, 1, 'Elysa''s Bangle') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27106, 1, 33554683) /* SETUP_DID */
      , (27106, 3, 536870932) /* SOUND_TABLE_DID */
      , (27106, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (27106, 1, 33554683) /* SETUP_DID */
      , (27106, 7, 268436286) /* CLOTHINGBASE_DID */
      , (27106, 8, 100675929) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27106, 9, 196608) /* LOCATIONS_INT */
      , (27106, 1, 8) /* ITEM_TYPE_INT */
      , (27106, 19, 700) /* VALUE_INT */
@@ -38,16 +35,15 @@ VALUES (27106, 9, 196608) /* LOCATIONS_INT */
      , (27106, 106, 125) /* ITEM_SPELLCRAFT_INT */
      , (27106, 107, 600) /* ITEM_CUR_MANA_INT */
      , (27106, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27106, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (27106, 9007, 1) /* Generic_WeenieType */;
+     , (27106, 109, 100) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27106, 5, -0.033333) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27106, 22, True) /* INSCRIBABLE_BOOL */
      , (27106, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27106, 271, 2) /* MagicResistanceOther4_SpellID */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30496, 1880846354, 28770560, -1.91505, -18.1044, -23.995, 0.488206, 0, 0, -0.872728) /* Lou Ka's Trident */
      , (4249, 1880846355, 28770560, -1.85741, -21.7164, -23.995, 0.993596, 0, 0, -0.112987) /* Young Mosswart */
      , (4249, 1880846356, 28770560, -1.67483, -17.7174, -23.995, 0.599713, 0, 0, -0.800215) /* Young Mosswart */
@@ -56,53 +56,53 @@ VALUES (30496, 1880846354, 28770560, -1.91505, -18.1044, -23.995, 0.488206, 0, 0
      , (12, 1880846403, 28770795, 66.4955, -14.613, 0.055, -0.510931, 0, 0, 0.859622) /* Red Phyntos Wasp */
      , (12, 1880846404, 28770796, 73.324, -16.9759, 0.012, -0.744894, 0, 0, -0.667183) /* Red Phyntos Wasp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880846391'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880846392'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880846391'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880846392'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846377'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846382'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846378'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846379'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846375'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846389'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846384'; /* linkmonstergen7minutes <- Mosswart Feeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846387'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846388'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846380'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846393'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846402'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846386'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846342'; /* linkmonstergen7minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846361'; /* linkmonstergen7minutes <- Carrion Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846338'; /* linkmonstergen7minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846339'; /* linkmonstergen7minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846358'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846369'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846347'; /* linkmonstergen7minutes <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846363'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846372'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846373'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846368'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846371'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846367'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846394'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846397'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846404'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846359'; /* linkmonstergen7minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846360'; /* linkmonstergen7minutes <- Gnawer Shreth */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846370'; /* linkmonstergen7minutes <- Creeper Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846400'; /* linkmonstergen7minutes <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846390'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846366'; /* linkmonstergen7minutes <- Creeper Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846403'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846399'; /* linkmonstergen7minutes <- Outcast Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846357'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846355'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880846356'; /* linkmonstergen7minutes <- Young Mosswart */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846354'; /* linkitemgen25seconds <- Lou Ka's Trident */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846376'; /* linkitemgen25seconds <- Lou Ka's Katar */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846396'; /* linkitemgen25seconds <- Lou Ka's Shouken */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846385'; /* linkitemgen25seconds <- Bai Den's Necklace */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846374'; /* linkitemgen25seconds <- Bai Den's Ring */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880846401'; /* linkitemgen25seconds <- Bai Den's Bracelet */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846377'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846382'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846378'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846379'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846375'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846389'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846384'; /* linkmonstergen7minutes <- Mosswart Feeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846387'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846388'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846380'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846393'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846402'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846386'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846342'; /* linkmonstergen7minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846361'; /* linkmonstergen7minutes <- Carrion Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846338'; /* linkmonstergen7minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846339'; /* linkmonstergen7minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846358'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846369'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846347'; /* linkmonstergen7minutes <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846363'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846372'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846373'; /* linkmonstergen7minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846368'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846371'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846367'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846394'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846397'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846404'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846359'; /* linkmonstergen7minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846360'; /* linkmonstergen7minutes <- Gnawer Shreth */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846370'; /* linkmonstergen7minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846400'; /* linkmonstergen7minutes <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846390'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846366'; /* linkmonstergen7minutes <- Creeper Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846403'; /* linkmonstergen7minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846399'; /* linkmonstergen7minutes <- Outcast Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846357'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846355'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880846356'; /* linkmonstergen7minutes <- Young Mosswart */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846354'; /* linkitemgen25seconds <- Lou Ka's Trident */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846376'; /* linkitemgen25seconds <- Lou Ka's Katar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846396'; /* linkitemgen25seconds <- Lou Ka's Shouken */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846385'; /* linkitemgen25seconds <- Bai Den's Necklace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846374'; /* linkitemgen25seconds <- Bai Den's Ring */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880846401'; /* linkitemgen25seconds <- Bai Den's Bracelet */
 

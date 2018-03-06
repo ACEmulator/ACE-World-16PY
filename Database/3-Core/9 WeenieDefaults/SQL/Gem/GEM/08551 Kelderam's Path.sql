@@ -1,19 +1,16 @@
 /* Weenie - Kelderam's Path (8551) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8551;
+DELETE FROM weenie WHERE class_Id = 8551;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8551, 'gemportalcoipk');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8551, 'gemportalcoipk', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8551, 0, 8551);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8551, 16, 'The violet fires of portalspace flicker within this gem''s facets. They seem to flicker, however, and there are red highlights. The artifact feels as if it has been... tainted somehow. The gem works best if used outside in a realatively flat area.') /* LONG_DESC_STRING */
      , (8551, 1, 'Kelderam''s Path') /* NAME_STRING */
      , (8551, 33, 'GemIthaencCatacombs') /* QUEST_STRING */
      , (8551, 15, 'The violet fires of portalspace flicker within this gem''s facets. The gem works best if used outside in a realatively flat area.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8551, 1, 33556769) /* SETUP_DID */
      , (8551, 3, 536870932) /* SOUND_TABLE_DID */
      , (8551, 28, 2028) /* SPELL_DID */
@@ -24,7 +21,7 @@ VALUES (8551, 1, 33556769) /* SETUP_DID */
      , (8551, 7, 268435723) /* CLOTHINGBASE_DID */
      , (8551, 8, 100670993) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8551, 9, 0) /* LOCATIONS_INT */
      , (8551, 1, 2048) /* ITEM_TYPE_INT */
      , (8551, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -46,10 +43,9 @@ VALUES (8551, 9, 0) /* LOCATIONS_INT */
      , (8551, 108, 50) /* ITEM_MAX_MANA_INT */
      , (8551, 109, 0) /* ITEM_DIFFICULTY_INT */
      , (8551, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8551, 114, 1) /* ATTUNED_INT */
-     , (8551, 9007, 38) /* Gem_WeenieType */;
+     , (8551, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8551, 69, False) /* IS_SELLABLE_BOOL */
      , (8551, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8551, 15, True) /* LIGHTS_STATUS_BOOL */

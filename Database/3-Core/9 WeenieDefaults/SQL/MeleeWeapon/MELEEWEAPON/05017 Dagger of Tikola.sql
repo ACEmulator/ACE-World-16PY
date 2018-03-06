@@ -1,17 +1,14 @@
 /* Weenie - Dagger of Tikola (5017) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5017;
+DELETE FROM weenie WHERE class_Id = 5017;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5017, 'daggertikola');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5017, 'daggertikola', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5017, 0, 5017);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5017, 16, 'A terribly sharp, dangerous dagger that seems to be of unusual Empyrean make.') /* LONG_DESC_STRING */
      , (5017, 1, 'Dagger of Tikola') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5017, 1, 33556572) /* SETUP_DID */
      , (5017, 3, 536870932) /* SOUND_TABLE_DID */
      , (5017, 37, 4) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (5017, 1, 33556572) /* SETUP_DID */
      , (5017, 7, 268435993) /* CLOTHINGBASE_DID */
      , (5017, 8, 100668935) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5017, 9, 1048576) /* LOCATIONS_INT */
      , (5017, 1, 1) /* ITEM_TYPE_INT */
      , (5017, 19, 2500) /* VALUE_INT */
@@ -44,10 +41,9 @@ VALUES (5017, 9, 1048576) /* LOCATIONS_INT */
      , (5017, 49, 20) /* WEAPON_TIME_INT */
      , (5017, 114, 1) /* ATTUNED_INT */
      , (5017, 51, 1) /* COMBAT_USE_INT */
-     , (5017, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (5017, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (5017, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5017, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
      , (5017, 21, 0.35) /* WEAPON_LENGTH_FLOAT */
      , (5017, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -55,12 +51,12 @@ VALUES (5017, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
      , (5017, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */
      , (5017, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5017, 99, True) /* IVORYABLE_BOOL */
      , (5017, 22, True) /* INSCRIBABLE_BOOL */
      , (5017, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5017, 1602, 2) /* Defender3_SpellID */
      , (5017, 1589, 2) /* HeartSeeker3_SpellID */
      , (5017, 1613, 2) /* BloodDrinker3_SpellID */

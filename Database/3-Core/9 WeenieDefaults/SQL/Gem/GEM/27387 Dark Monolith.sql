@@ -1,18 +1,15 @@
 /* Weenie - Dark Monolith (27387) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27387;
+DELETE FROM weenie WHERE class_Id = 27387;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27387, 'gemquestdarkmonolith');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27387, 'gemquestdarkmonolith', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27387, 0, 27387);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27387, 16, 'A strange crystal found in the remains of a golem. It is shaped like a mote, but has obvious portal magics surrounding it. While holding it you sense a distant source of power somewhere below.') /* LONG_DESC_STRING */
      , (27387, 1, 'Dark Monolith') /* NAME_STRING */
      , (27387, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27387, 1, 33556769) /* SETUP_DID */
      , (27387, 3, 536870932) /* SOUND_TABLE_DID */
      , (27387, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (27387, 1, 33556769) /* SETUP_DID */
      , (27387, 50, 100676404) /* ICON_OVERLAY_DID */
      , (27387, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27387, 9, 0) /* LOCATIONS_INT */
      , (27387, 1, 2048) /* ITEM_TYPE_INT */
      , (27387, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (27387, 9, 0) /* LOCATIONS_INT */
      , (27387, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27387, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27387, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27387, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27387, 9007, 38) /* Gem_WeenieType */;
+     , (27387, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27387, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27387, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27387, 22, True) /* INSCRIBABLE_BOOL */;

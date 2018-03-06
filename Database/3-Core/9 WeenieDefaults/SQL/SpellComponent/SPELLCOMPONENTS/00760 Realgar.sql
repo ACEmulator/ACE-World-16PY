@@ -1,17 +1,14 @@
 /* Weenie - Realgar (760) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 760;
+DELETE FROM weenie WHERE class_Id = 760;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (760, 'alchemrealgar');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (760, 'alchemrealgar', /* SpellComponent_WeenieType */ 32);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (760, 0, 760);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (760, 1, 'Realgar') /* NAME_STRING */
      , (760, 20, 'Realgar Potions') /* PLURAL_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (760, 1, 33555209) /* SETUP_DID */
      , (760, 3, 536870932) /* SOUND_TABLE_DID */
      , (760, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (760, 1, 33555209) /* SETUP_DID */
      , (760, 8, 100669713) /* ICON_DID */
      , (760, 29, 44) /* SPELL_COMPONENT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (760, 9, 0) /* LOCATIONS_INT */
      , (760, 1, 4096) /* ITEM_TYPE_INT */
      , (760, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -33,6 +30,5 @@ VALUES (760, 9, 0) /* LOCATIONS_INT */
      , (760, 15, 5) /* STACK_UNIT_VALUE_INT */
      , (760, 16, 1) /* ITEM_USEABLE_INT */
      , (760, 19, 5) /* VALUE_INT */
-     , (760, 93, 1044) /* PHYSICS_STATE_INT */
-     , (760, 9007, 32) /* SpellComponent_WeenieType */;
+     , (760, 93, 1044) /* PHYSICS_STATE_INT */;
 

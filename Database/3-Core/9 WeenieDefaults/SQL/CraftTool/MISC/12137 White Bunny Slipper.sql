@@ -1,19 +1,16 @@
 /* Weenie - White Bunny Slipper (12137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12137;
+DELETE FROM weenie WHERE class_Id = 12137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12137, 'slipperbunnywhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12137, 'slipperbunnywhite', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12137, 0, 12137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12137, 16, 'A white bunny slipper.') /* LONG_DESC_STRING */
      , (12137, 1, 'White Bunny Slipper') /* NAME_STRING */
      , (12137, 14, 'Use this on a white rabbit carcass to create a pair of white bunny slippers.') /* USE_STRING */
      , (12137, 15, 'A white bunny slipper.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12137, 1, 33557436) /* SETUP_DID */
      , (12137, 3, 536870932) /* SOUND_TABLE_DID */
      , (12137, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (12137, 1, 33557436) /* SETUP_DID */
      , (12137, 7, 268436308) /* CLOTHINGBASE_DID */
      , (12137, 8, 100672403) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12137, 9, 0) /* LOCATIONS_INT */
      , (12137, 1, 128) /* ITEM_TYPE_INT */
      , (12137, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,10 +34,9 @@ VALUES (12137, 9, 0) /* LOCATIONS_INT */
      , (12137, 93, 1044) /* PHYSICS_STATE_INT */
      , (12137, 94, 128) /* TARGET_TYPE_INT */
      , (12137, 33, 0) /* BONDED_INT */
-     , (12137, 114, 0) /* ATTUNED_INT */
-     , (12137, 9007, 44) /* CraftTool_WeenieType */;
+     , (12137, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12137, 22, True) /* INSCRIBABLE_BOOL */
      , (12137, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

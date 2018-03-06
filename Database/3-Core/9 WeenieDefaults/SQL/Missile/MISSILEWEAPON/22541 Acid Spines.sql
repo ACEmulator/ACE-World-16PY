@@ -1,22 +1,19 @@
 /* Weenie - Acid Spines (22541) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22541;
+DELETE FROM weenie WHERE class_Id = 22541;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22541, 'chittickmissileacid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22541, 'chittickmissileacid', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22541, 0, 22541);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22541, 1, 'Acid Spines') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22541, 1, 33558114) /* SETUP_DID */
      , (22541, 3, 536870932) /* SOUND_TABLE_DID */
      , (22541, 8, 100671205) /* ICON_DID */
      , (22541, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22541, 9, 4194304) /* LOCATIONS_INT */
      , (22541, 1, 256) /* ITEM_TYPE_INT */
      , (22541, 13, 15) /* STACK_UNIT_ENCUMB_INT */
@@ -36,10 +33,9 @@ VALUES (22541, 9, 4194304) /* LOCATIONS_INT */
      , (22541, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (22541, 48, 12) /* WEAPON_SKILL_INT */
      , (22541, 49, 10) /* WEAPON_TIME_INT */
-     , (22541, 51, 2) /* COMBAT_USE_INT */
-     , (22541, 9007, 4) /* Missile_WeenieType */;
+     , (22541, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22541, 79, 0) /* ELASTICITY_FLOAT */
      , (22541, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (22541, 136, 2) /* CRITICAL_MULTIPLIER_FLOAT */
@@ -49,7 +45,7 @@ VALUES (22541, 79, 0) /* ELASTICITY_FLOAT */
      , (22541, 27, 0) /* ROTATION_SPEED_FLOAT */
      , (22541, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22541, 17, True) /* INELASTIC_BOOL */
      , (22541, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (22541, 24, True) /* UI_HIDDEN_BOOL */;

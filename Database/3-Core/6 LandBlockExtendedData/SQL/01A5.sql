@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8431, 1880772706, 27590912, 40.5961, -103.938, -47.9935, -0.646431, 0, 0, 0.762973) /* Nomad Mu-miyah */
      , (1016, 1880772608, 27590913, 41.8902, -112.161, -48, 1, 0, 0, 0) /* Eastham Portal */
      , (165, 1880772609, 27590915, 50, -100, -47.95, 1, 0, 0, 0) /* Pool */
@@ -65,50 +65,50 @@ VALUES (8431, 1880772706, 27590912, 40.5961, -103.938, -47.9935, -0.646431, 0, 0
      , (7923, 1880772705, 27591078, 27.2217, 2.54581, 6.005, 0.706294, 0, 0, 0.707919) /* linkmonstergen3minutes */
      , (2504, 1880772668, 27591082, 25.25, -20, 6, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880772669'; /* linkitemgen10seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880772705'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880772669'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880772705'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880772670'; /* linkitemgen10seconds <- Alloy Motor */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772742'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772741'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772746'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772747'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772738'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772736'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772737'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772724'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772717'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772726'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772723'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772719'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772718'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772715'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772716'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772720'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772734'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772721'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772722'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772725'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772709'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772745'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772735'; /* linkmonstergen3minutes <- Terrible Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772707'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772706'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772710'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772711'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772714'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772712'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772708'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772713'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772727'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772729'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772728'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772731'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772730'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772733'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772732'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772740'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772739'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772744'; /* linkmonstergen3minutes <- Unruly Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880772743'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880772670'; /* linkitemgen10seconds <- Alloy Motor */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772742'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772741'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772746'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772747'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772738'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772736'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772737'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772724'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772717'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772726'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772723'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772719'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772718'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772715'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772716'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772720'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772734'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772721'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772722'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772725'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772709'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772745'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772735'; /* linkmonstergen3minutes <- Terrible Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772707'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772706'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772710'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772711'; /* linkmonstergen3minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772714'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772712'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772708'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772713'; /* linkmonstergen3minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772727'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772729'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772728'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772731'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772730'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772733'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772732'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772740'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772739'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772744'; /* linkmonstergen3minutes <- Unruly Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880772743'; /* linkmonstergen3minutes <- Unruly Monouga */
 

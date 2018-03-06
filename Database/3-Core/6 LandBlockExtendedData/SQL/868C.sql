@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1943, 2020130833, 2257322240, 182.707, 75.3185, 300.005, -0.372936, 0, 0, -0.927857) /* Chest */
      , (7106, 2020130834, 2257322240, 184.12, 83.0321, 300.012, -0.354854, 0, 0, -0.934922) /* Sewer Rat */
      , (7106, 2020130835, 2257322240, 182.336, 80.0924, 300.012, 0.210653, 0, 0, -0.977561) /* Sewer Rat */
@@ -15,16 +15,16 @@ VALUES (1943, 2020130833, 2257322240, 182.707, 75.3185, 300.005, -0.372936, 0, 0
      , (9251, 2020130839, 2257321984, 184.53, 77.8212, 303.605, 0.12606, 0, 0, -0.992023) /* Brutish Monouga */
      , (9251, 2020130838, 2257321984, 185.934, 81.4679, 303.605, -0.993526, 0, 0, 0.113609) /* Brutish Monouga */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2020130830'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2020130830'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130831'; /* linkmonstergen7minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130832'; /* linkmonstergen7minutes <- Wily Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130834'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130835'; /* linkmonstergen7minutes <- Sewer Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130836'; /* linkmonstergen7minutes <- Grizzled Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130837'; /* linkmonstergen7minutes <- Brutish Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130838'; /* linkmonstergen7minutes <- Brutish Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130839'; /* linkmonstergen7minutes <- Brutish Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130840'; /* linkmonstergen7minutes <- Brutish Monouga */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2020130841'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130831'; /* linkmonstergen7minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130832'; /* linkmonstergen7minutes <- Wily Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130834'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130835'; /* linkmonstergen7minutes <- Sewer Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130836'; /* linkmonstergen7minutes <- Grizzled Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130837'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130838'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130839'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130840'; /* linkmonstergen7minutes <- Brutish Monouga */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2020130841'; /* linkmonstergen7minutes <- Brutish Monouga */
 

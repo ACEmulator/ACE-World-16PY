@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12501, 2051678208, 2762080256, 69.2844, 59.6521, 140.808, -0.704917, 0, 0, 0.70929) /* Glenden Hills East Settlement Portal */
      , (12502, 2051678209, 2762080256, 68.4484, 68.0194, 140.041, -0.915724, 0, 0, 0.401808) /* Glenden Hills North Settlement Portal */
      , (12571, 2051678210, 2762080256, 68.9415, 51.0403, 141.497, -0.445552, 0, 0, 0.895256) /* Zabool Overlook Settlement Portal */

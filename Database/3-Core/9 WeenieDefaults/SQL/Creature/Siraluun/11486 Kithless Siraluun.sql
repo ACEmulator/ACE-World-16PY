@@ -1,16 +1,13 @@
 /* Weenie - Kithless Siraluun (11486) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11486;
+DELETE FROM weenie WHERE class_Id = 11486;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11486, 'siraluunkithless-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11486, 'siraluunkithless-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11486, 0, 11486);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11486, 1, 'Kithless Siraluun') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11486, 1, 33557059) /* SETUP_DID */
      , (11486, 2, 150995131) /* MOTION_TABLE_DID */
      , (11486, 35, 456) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11486, 1, 33557059) /* SETUP_DID */
      , (11486, 7, 268436194) /* CLOTHINGBASE_DID */
      , (11486, 8, 100671751) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11486, 1, 16) /* ITEM_TYPE_INT */
      , (11486, 2, 56) /* CREATURE_TYPE_INT */
      , (11486, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11486, 1, 16) /* ITEM_TYPE_INT */
      , (11486, 25, 88) /* LEVEL_INT */
      , (11486, 27, 0) /* ARMOR_TYPE_INT */
      , (11486, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11486, 40, 2) /* COMBAT_MODE_INT */
-     , (11486, 9007, 10) /* Creature_WeenieType */;
+     , (11486, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11486, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (11486, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (11486, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (11486, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (11486, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11486, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11486, 1, True) /* STUCK_BOOL */
      , (11486, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11486, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11486, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11486, 1, 320) /* STRENGTH_ATTRIBUTE */
      , (11486, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (11486, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (11486, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (11486, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (11486, 32, 200) /* SELF_ATTRIBUTE */;
+     , (11486, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (11486, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (11486, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11486, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11486, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11486, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11486, 1, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11486, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11486, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11486, 9, 11363, 0, 0, 0.05, False) /* Create Small Bundle of Kithless Siraluun Feathers for ContainTreasure_DestinationType */
      , (11486, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (11486, 9, 29906, 0, 0, 0.05, False) /* Create Kithless Siraluun Claw for ContainTreasure_DestinationType */

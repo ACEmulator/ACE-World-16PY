@@ -1,18 +1,15 @@
 /* Weenie - Dread Mattekar Paw (9413) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9413;
+DELETE FROM weenie WHERE class_Id = 9413;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9413, 'mattekarclawdread');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9413, 'mattekarclawdread', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9413, 0, 9413);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9413, 16, 'A Large Dread Mattekar paw.') /* LONG_DESC_STRING */
      , (9413, 1, 'Dread Mattekar Paw') /* NAME_STRING */
      , (9413, 15, 'A Large Dread Mattekar paw.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9413, 1, 33557018) /* SETUP_DID */
      , (9413, 3, 536870932) /* SOUND_TABLE_DID */
      , (9413, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9413, 1, 33557018) /* SETUP_DID */
      , (9413, 7, 268436173) /* CLOTHINGBASE_DID */
      , (9413, 8, 100671518) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9413, 9, 0) /* LOCATIONS_INT */
      , (9413, 1, 128) /* ITEM_TYPE_INT */
      , (9413, 19, 500) /* VALUE_INT */
@@ -30,13 +27,12 @@ VALUES (9413, 9, 0) /* LOCATIONS_INT */
      , (9413, 8, 500) /* MASS_INT */
      , (9413, 150, 103) /* HOOK_PLACEMENT_INT */
      , (9413, 151, 9) /* HOOK_TYPE_INT */
-     , (9413, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9413, 9007, 1) /* Generic_WeenieType */;
+     , (9413, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9413, 39, 2) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9413, 22, True) /* INSCRIBABLE_BOOL */
      , (9413, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

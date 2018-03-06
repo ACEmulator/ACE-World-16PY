@@ -1,17 +1,14 @@
 /* Weenie - Electric Weeping Axe (25608) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25608;
+DELETE FROM weenie WHERE class_Id = 25608;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25608, 'axeweepingelectric');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25608, 'axeweepingelectric', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25608, 0, 25608);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25608, 1, 'Electric Weeping Axe') /* NAME_STRING */
      , (25608, 15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25608, 1, 33558489) /* SETUP_DID */
      , (25608, 3, 536870932) /* SOUND_TABLE_DID */
      , (25608, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (25608, 1, 33558489) /* SETUP_DID */
      , (25608, 7, 268436698) /* CLOTHINGBASE_DID */
      , (25608, 8, 100674884) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25608, 9, 1048576) /* LOCATIONS_INT */
      , (25608, 1, 1) /* ITEM_TYPE_INT */
      , (25608, 19, 8000) /* VALUE_INT */
@@ -49,10 +46,9 @@ VALUES (25608, 9, 1048576) /* LOCATIONS_INT */
      , (25608, 48, 1) /* WEAPON_SKILL_INT */
      , (25608, 49, 55) /* WEAPON_TIME_INT */
      , (25608, 114, 1) /* ATTUNED_INT */
-     , (25608, 51, 1) /* COMBAT_USE_INT */
-     , (25608, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25608, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25608, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25608, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (25608, 5, -0.025) /* MANA_RATE_FLOAT */
@@ -62,12 +58,12 @@ VALUES (25608, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (25608, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (25608, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25608, 99, True) /* IVORYABLE_BOOL */
      , (25608, 22, True) /* INSCRIBABLE_BOOL */
      , (25608, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25608, 2963, 2) /* CunningHunter_SpellID */
      , (25608, 2964, 2) /* MarkHunter_SpellID */
      , (25608, 2966, 2) /* MurderousThirst_SpellID */

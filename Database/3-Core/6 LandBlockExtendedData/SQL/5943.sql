@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15266, 1972645908, 1497563392, 2.47053, -50.2426, -11.99, -0.276417, 0, 0, 0.961038) /* Acidic Coral Golem */
      , (7626, 1972645909, 1497563394, 10.6714, -48.1871, -11.99, -0.055036, 0, 0, 0.998484) /* Coral Golem */
      , (3955, 1972645910, 1497563395, 10.8217, -57.4582, -11.995, 1, 0, 0, 0) /* linkmonstergen15minutes */
@@ -18,23 +18,23 @@ VALUES (15266, 1972645908, 1497563392, 2.47053, -50.2426, -11.99, -0.276417, 0, 
      , (14514, 1972645899, 1497563458, 56.3328, -37.7076, 0.0085, -0.999951, 0, 0, 0.00994104) /* Miasma */
      , (7924, 1972645900, 1497563466, 47.9849, -2.03576, 6.005, -0.0235962, 0, 0, 0.999722) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1972645900'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1972645910'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972645900'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972645910'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645893'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645894'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645896'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645895'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645899'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645897'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645898'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645891'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645892'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645890'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645889'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645888'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645908'; /* linkmonstergen5minutes <- Acidic Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645909'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972645912'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1972645911'; /* linkmonstergen15minutes <- Coral Golem Viceroy */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645893'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645894'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645896'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645895'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645899'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645897'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645898'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645891'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645892'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645890'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645889'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645888'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645908'; /* linkmonstergen5minutes <- Acidic Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645909'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972645912'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972645911'; /* linkmonstergen15minutes <- Coral Golem Viceroy */
 

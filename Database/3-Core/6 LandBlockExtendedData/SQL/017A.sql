@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1927, 1880596480, 24772864, 60, -80, -12, 0, 0, 0, -1) /* Chest */
      , (938, 1880596481, 24772867, 0, -10, -5.9923, -4.37114E-08, 0, 0, -1) /* Banderling Raider */
      , (15759, 1880596482, 24772867, 0.111239, -8.93708, -5.995, 0.999687, 0, 0, -0.0249971) /* linkitemgen10seconds */
@@ -32,31 +32,31 @@ VALUES (1927, 1880596480, 24772864, 60, -80, -12, 0, 0, 0, -1) /* Chest */
      , (1668, 1880596510, 24772948, 72.4498, -9.12956, 0.00715, -0.684773, 0, 0, -0.728756) /* Banderling Breeder */
      , (1668, 1880596511, 24772948, 71.0387, -13.525, 0.00715, -0.869551, 0, 0, -0.493844) /* Banderling Breeder */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880596500'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880596482'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880596500'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880596482'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596498'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596499'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596510'; /* linkmonstergen4minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596511'; /* linkmonstergen4minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596508'; /* linkmonstergen4minutes <- Banderling Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596509'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596491'; /* linkmonstergen4minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596489'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596490'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596487'; /* linkmonstergen4minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596488'; /* linkmonstergen4minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596485'; /* linkmonstergen4minutes <- Banderling Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596486'; /* linkmonstergen4minutes <- Banderling Raider */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596492'; /* linkmonstergen4minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596493'; /* linkmonstergen4minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596501'; /* linkmonstergen4minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596502'; /* linkmonstergen4minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596505'; /* linkmonstergen4minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596503'; /* linkmonstergen4minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596496'; /* linkmonstergen4minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596497'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596506'; /* linkmonstergen4minutes <- Banderling Guard */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880596481'; /* linkmonstergen4minutes <- Banderling Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880596483'; /* linkitemgen10seconds <- Hand of Vagurat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596498'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596499'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596510'; /* linkmonstergen4minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596511'; /* linkmonstergen4minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596508'; /* linkmonstergen4minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596509'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596491'; /* linkmonstergen4minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596489'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596490'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596487'; /* linkmonstergen4minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596488'; /* linkmonstergen4minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596485'; /* linkmonstergen4minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596486'; /* linkmonstergen4minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596492'; /* linkmonstergen4minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596493'; /* linkmonstergen4minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596501'; /* linkmonstergen4minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596502'; /* linkmonstergen4minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596505'; /* linkmonstergen4minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596503'; /* linkmonstergen4minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596496'; /* linkmonstergen4minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596497'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596506'; /* linkmonstergen4minutes <- Banderling Guard */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880596481'; /* linkmonstergen4minutes <- Banderling Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880596483'; /* linkitemgen10seconds <- Hand of Vagurat */
 

@@ -1,16 +1,13 @@
 /* Weenie - Tumerok Scout (6019) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6019;
+DELETE FROM weenie WHERE class_Id = 6019;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6019, 'tumerokscoutnofall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6019, 'tumerokscoutnofall', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6019, 0, 6019);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6019, 1, 'Tumerok Scout') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6019, 8, 100667452) /* ICON_DID */
      , (6019, 32, 224) /* WIELDED_TREASURE_TYPE_DID */
      , (6019, 1, 33554496) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (6019, 8, 100667452) /* ICON_DID */
      , (6019, 7, 268436629) /* CLOTHINGBASE_DID */
      , (6019, 22, 872415270) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6019, 1, 16) /* ITEM_TYPE_INT */
      , (6019, 2, 6) /* CREATURE_TYPE_INT */
      , (6019, 3, 9) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (6019, 1, 16) /* ITEM_TYPE_INT */
      , (6019, 25, 16) /* LEVEL_INT */
      , (6019, 27, 0) /* ARMOR_TYPE_INT */
      , (6019, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (6019, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6019, 9007, 10) /* Creature_WeenieType */;
+     , (6019, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6019, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6019, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (6019, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,27 +68,27 @@ VALUES (6019, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6019, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6019, 31, 26) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6019, 1, True) /* STUCK_BOOL */
      , (6019, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (6019, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (6019, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6019, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6019, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (6019, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (6019, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (6019, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (6019, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (6019, 32, 40) /* SELF_ATTRIBUTE */;
+     , (6019, 3, 75) /* QUICKNESS_ATTRIBUTE */
+     , (6019, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (6019, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6019, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6019, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6019, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6019, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6019, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6019, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6019, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (6019, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

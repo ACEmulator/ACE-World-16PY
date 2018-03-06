@@ -1,17 +1,14 @@
 /* Weenie - Obsidian Crown (3707) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 3707;
+DELETE FROM weenie WHERE class_Id = 3707;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (3707, 'crownobsidian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (3707, 'crownobsidian', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (3707, 0, 3707);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3707, 16, 'Obsidian Crown of Arcane Enlightenment.') /* LONG_DESC_STRING */
      , (3707, 1, 'Obsidian Crown') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3707, 1, 33554685) /* SETUP_DID */
      , (3707, 3, 536870932) /* SOUND_TABLE_DID */
      , (3707, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (3707, 1, 33554685) /* SETUP_DID */
      , (3707, 7, 268435509) /* CLOTHINGBASE_DID */
      , (3707, 8, 100669185) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3707, 9, 1) /* LOCATIONS_INT */
      , (3707, 1, 2) /* ITEM_TYPE_INT */
      , (3707, 19, 7000) /* VALUE_INT */
@@ -39,10 +36,9 @@ VALUES (3707, 9, 1) /* LOCATIONS_INT */
      , (3707, 107, 333) /* ITEM_CUR_MANA_INT */
      , (3707, 108, 720) /* ITEM_MAX_MANA_INT */
      , (3707, 109, 250) /* ITEM_DIFFICULTY_INT */
-     , (3707, 117, 60) /* ITEM_MANA_COST_INT */
-     , (3707, 9007, 2) /* Clothing_WeenieType */;
+     , (3707, 117, 60) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3707, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (3707, 5, -0.2) /* MANA_RATE_FLOAT */
      , (3707, 12, 0.66) /* SHADE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (3707, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (3707, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (3707, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3707, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3707, 687, 2) /* ArcaneEnlightenmentOther4_SpellID */
      , (3707, 1486, 2) /* Impenetrability6_SpellID */;
 

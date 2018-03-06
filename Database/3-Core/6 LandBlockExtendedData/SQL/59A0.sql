@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (907, 1973026816, 1503657984, 74.0913, 30.856, 17.4337, 0.892726, 0, 0, -0.450599) /* reedsharkpupgen */
      , (907, 1973026817, 1503657984, 78.0616, 33.4998, 17.2134, 0.752123, 0, 0, -0.659023) /* reedsharkpupgen */
      , (907, 1973026818, 1503657984, 85.2701, 26.5825, 17.7898, 0.390595, 0, 0, -0.920563) /* reedsharkpupgen */

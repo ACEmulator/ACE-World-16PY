@@ -1,18 +1,15 @@
 /* Weenie - Tanae's Tewhate of the Forests (11411) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11411;
+DELETE FROM weenie WHERE class_Id = 11411;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11411, 'axetewhateforests-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11411, 'axetewhateforests-xp', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11411, 0, 11411);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11411, 16, 'A tewhate fused to a triple totem.  It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (11411, 1, 'Tanae''s Tewhate of the Forests') /* NAME_STRING */
      , (11411, 15, 'A tewhate fused to a triple totem.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11411, 1, 33557233) /* SETUP_DID */
      , (11411, 3, 536870932) /* SOUND_TABLE_DID */
      , (11411, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (11411, 1, 33557233) /* SETUP_DID */
      , (11411, 7, 268436251) /* CLOTHINGBASE_DID */
      , (11411, 8, 100672069) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11411, 9, 1048576) /* LOCATIONS_INT */
      , (11411, 1, 1) /* ITEM_TYPE_INT */
      , (11411, 5, 700) /* ENCUMB_VAL_INT */
@@ -48,10 +45,9 @@ VALUES (11411, 9, 1048576) /* LOCATIONS_INT */
      , (11411, 48, 1) /* WEAPON_SKILL_INT */
      , (11411, 49, 60) /* WEAPON_TIME_INT */
      , (11411, 114, 1) /* ATTUNED_INT */
-     , (11411, 51, 1) /* COMBAT_USE_INT */
-     , (11411, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (11411, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11411, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (11411, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
      , (11411, 5, -0.03333) /* MANA_RATE_FLOAT */
@@ -61,12 +57,12 @@ VALUES (11411, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (11411, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */
      , (11411, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11411, 99, True) /* IVORYABLE_BOOL */
      , (11411, 22, True) /* INSCRIBABLE_BOOL */
      , (11411, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11411, 2446, 2) /* GrowthGreater_SpellID */
      , (11411, 2449, 2) /* HuntersAcumenGreater_SpellID */
      , (11411, 2452, 2) /* ThornsGreater_SpellID */;

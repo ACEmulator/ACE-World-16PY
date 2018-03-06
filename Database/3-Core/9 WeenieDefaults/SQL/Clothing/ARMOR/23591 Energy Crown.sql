@@ -1,17 +1,14 @@
 /* Weenie - Energy Crown (23591) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23591;
+DELETE FROM weenie WHERE class_Id = 23591;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23591, 'crownenergynew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23591, 'crownenergynew', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23591, 0, 23591);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23591, 16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized and protected.') /* LONG_DESC_STRING */
      , (23591, 1, 'Energy Crown') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23591, 1, 33557336) /* SETUP_DID */
      , (23591, 3, 536870932) /* SOUND_TABLE_DID */
      , (23591, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23591, 1, 33557336) /* SETUP_DID */
      , (23591, 7, 268436259) /* CLOTHINGBASE_DID */
      , (23591, 8, 100672117) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23591, 9, 1) /* LOCATIONS_INT */
      , (23591, 1, 2) /* ITEM_TYPE_INT */
      , (23591, 19, 3000) /* VALUE_INT */
@@ -37,10 +34,9 @@ VALUES (23591, 9, 1) /* LOCATIONS_INT */
      , (23591, 106, 150) /* ITEM_SPELLCRAFT_INT */
      , (23591, 107, 1320) /* ITEM_CUR_MANA_INT */
      , (23591, 108, 1320) /* ITEM_MAX_MANA_INT */
-     , (23591, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (23591, 9007, 2) /* Clothing_WeenieType */;
+     , (23591, 109, 100) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23591, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23591, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23591, 12, 0.66) /* SHADE_FLOAT */
@@ -53,11 +49,11 @@ VALUES (23591, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23591, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (23591, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23591, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (23591, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23591, 191, 2) /* RejuvenationSelf4_SpellID */
      , (23591, 1484, 2) /* Impenetrability4_SpellID */
      , (23591, 277, 2) /* MagicResistanceSelf4_SpellID */

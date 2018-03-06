@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25862, 1892716558, 218693888, 12.2111, 79.3741, 85.0706, -0.995422, 0, 0, -0.0955729) /* Helcan Margul */
      , (30793, 1892716552, 218693889, 11.788, 84.8277, 85.071, 0.707107, 0, 0, -0.707107) /* Black Marrow Reliquary */
      , (412, 1892716544, 218693893, 9.8774, 84.8966, 85.0756, 0.707107, 0, 0, -0.707107) /* Door */
@@ -16,19 +16,19 @@ VALUES (25862, 1892716558, 218693888, 12.2111, 79.3741, 85.0706, -0.995422, 0, 0
      , (25860, 1892716555, 218693632, 12.3278, 81.737, 93.8706, 0.851584, 0, 0, 0.524218) /* Creeping Margul */
      , (25864, 1892716556, 218693632, 11.3999, 83.8456, 93.8706, 0.713163, 0, 0, 0.700998) /* Stalking Margul */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1892716546'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1892716559'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1892716546'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1892716559'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716549'; /* linkmonstergen15minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716551'; /* linkmonstergen15minutes <- Helcan Margul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716548'; /* linkmonstergen15minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716550'; /* linkmonstergen15minutes <- Helcan Margul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716547'; /* linkmonstergen15minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1892716545'; /* linkmonstergen15minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716553'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716554'; /* linkmonstergen5minutes <- Helcan Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716555'; /* linkmonstergen5minutes <- Creeping Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716556'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716557'; /* linkmonstergen5minutes <- Stalking Margul */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1892716558'; /* linkmonstergen5minutes <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716549'; /* linkmonstergen15minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716551'; /* linkmonstergen15minutes <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716548'; /* linkmonstergen15minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716550'; /* linkmonstergen15minutes <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716547'; /* linkmonstergen15minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1892716545'; /* linkmonstergen15minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716553'; /* linkmonstergen5minutes <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716554'; /* linkmonstergen5minutes <- Helcan Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716555'; /* linkmonstergen5minutes <- Creeping Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716556'; /* linkmonstergen5minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716557'; /* linkmonstergen5minutes <- Stalking Margul */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1892716558'; /* linkmonstergen5minutes <- Helcan Margul */
 

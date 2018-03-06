@@ -1,16 +1,13 @@
 /* Weenie - Mite Scamp (1467) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1467;
+DELETE FROM weenie WHERE class_Id = 1467;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1467, 'mitefood');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1467, 'mitefood', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1467, 0, 1467);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1467, 1, 'Mite Scamp') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1467, 1, 33558656) /* SETUP_DID */
      , (1467, 2, 150994955) /* MOTION_TABLE_DID */
      , (1467, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (1467, 1, 33558656) /* SETUP_DID */
      , (1467, 7, 268436816) /* CLOTHINGBASE_DID */
      , (1467, 8, 100667448) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1467, 1, 16) /* ITEM_TYPE_INT */
      , (1467, 146, 319) /* XP_OVERRIDE_INT */
      , (1467, 2, 7) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (1467, 1, 16) /* ITEM_TYPE_INT */
      , (1467, 27, 0) /* ARMOR_TYPE_INT */
      , (1467, 93, 1032) /* PHYSICS_STATE_INT */
      , (1467, 101, 129) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1467, 40, 2) /* COMBAT_MODE_INT */
-     , (1467, 9007, 10) /* Creature_WeenieType */;
+     , (1467, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1467, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (1467, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (1467, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,25 +66,25 @@ VALUES (1467, 64, 0.7) /* RESIST_SLASH_FLOAT */
      , (1467, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1467, 31, 17) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1467, 1, True) /* STUCK_BOOL */
      , (1467, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1467, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1467, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1467, 1, 40) /* STRENGTH_ATTRIBUTE */
      , (1467, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (1467, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (1467, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (1467, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (1467, 32, 40) /* SELF_ATTRIBUTE */;
+     , (1467, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (1467, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (1467, 6, 40) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1467, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1467, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1467, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1467, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1467, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1467, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1467, 1, 114, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Platemail Vambraces (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Infinite Dimple Dried Rations (30111) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30111;
+DELETE FROM weenie WHERE class_Id = 30111;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30111, 'rationsrareeternalsimple');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30111, 'rationsrareeternalsimple', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30111, 0, 30111);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30111, 16, 'A lovely template for a rare.') /* LONG_DESC_STRING */
      , (30111, 1, 'Infinite Dimple Dried Rations') /* NAME_STRING */
      , (30111, 14, 'Use this item to drink it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30111, 1, 33554603) /* SETUP_DID */
      , (30111, 3, 536870932) /* SOUND_TABLE_DID */
      , (30111, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (30111, 1, 33554603) /* SETUP_DID */
      , (30111, 7, 268435816) /* CLOTHINGBASE_DID */
      , (30111, 8, 100676310) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30111, 9, 0) /* LOCATIONS_INT */
      , (30111, 1, 128) /* ITEM_TYPE_INT */
      , (30111, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,9 +35,8 @@ VALUES (30111, 9, 0) /* LOCATIONS_INT */
      , (30111, 151, 11) /* HOOK_TYPE_INT */
      , (30111, 89, 4) /* BOOSTER_ENUM_INT */
      , (30111, 90, 25) /* BOOST_VALUE_INT */
-     , (30111, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30111, 9007, 18) /* Food_WeenieType */;
+     , (30111, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30111, 22, True) /* INSCRIBABLE_BOOL */;
 

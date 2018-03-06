@@ -1,23 +1,20 @@
 /* Weenie - Button (8420) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8420;
+DELETE FROM weenie WHERE class_Id = 8420;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8420, 'buttonswitchsmall');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8420, 'buttonswitchsmall', /* Switch_WeenieType */ 26);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8420, 0, 8420);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8420, 1, 'Button') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8420, 1, 33554714) /* SETUP_DID */
      , (8420, 8, 100667474) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (8420, 16, 0) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8420, 9, 0) /* LOCATIONS_INT */
      , (8420, 1, 128) /* ITEM_TYPE_INT */
      , (8420, 93, 1032) /* PHYSICS_STATE_INT */
@@ -25,14 +22,13 @@ VALUES (8420, 9, 0) /* LOCATIONS_INT */
      , (8420, 16, 48) /* ITEM_USEABLE_INT */
      , (8420, 8, 5) /* MASS_INT */
      , (8420, 19, 10) /* VALUE_INT */
-     , (8420, 119, 1) /* ACTIVE_INT */
-     , (8420, 9007, 26) /* Switch_WeenieType */;
+     , (8420, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8420, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (8420, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8420, 1, True) /* STUCK_BOOL */
      , (8420, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (8420, 12, True) /* REPORT_COLLISIONS_BOOL */

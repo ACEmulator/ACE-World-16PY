@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12533, 2093568000, 3432316928, 59.4769, 42.5984, 20.5985, -0.253108, 0, 0, -0.967438) /* North Eastham Meadow Portal */
      , (12557, 2093568001, 3432316928, 51.9455, 51.3708, 21.6762, 0.40402, 0, 0, 0.91475) /* Strathelar's Watch Cottages Portal */
      , (12509, 2093568002, 3432316928, 45.2177, 59, 21.0883, 0.617773, 0, 0, 0.786357) /* Lake Blessed Cottages Portal */

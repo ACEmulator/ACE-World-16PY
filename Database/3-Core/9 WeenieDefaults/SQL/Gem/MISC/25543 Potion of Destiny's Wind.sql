@@ -1,19 +1,16 @@
 /* Weenie - Potion of Destiny's Wind (25543) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25543;
+DELETE FROM weenie WHERE class_Id = 25543;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25543, 'potiondestinywind');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25543, 'potiondestinywind', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25543, 0, 25543);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25543, 1, 'Potion of Destiny''s Wind') /* NAME_STRING */
      , (25543, 20, 'Potions of Destiny''s Wind') /* PLURAL_NAME_STRING */
      , (25543, 14, 'Use this item to drink it.') /* USE_STRING */
      , (25543, 15, 'A potion assembled by alchemists of Xarabydun. The exact process for the creation of this potion is still unknown.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25543, 1, 33554603) /* SETUP_DID */
      , (25543, 3, 536870932) /* SOUND_TABLE_DID */
      , (25543, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (25543, 1, 33554603) /* SETUP_DID */
      , (25543, 8, 100675052) /* ICON_DID */
      , (25543, 28, 2979) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25543, 9, 0) /* LOCATIONS_INT */
      , (25543, 1, 128) /* ITEM_TYPE_INT */
      , (25543, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -42,6 +39,5 @@ VALUES (25543, 9, 0) /* LOCATIONS_INT */
      , (25543, 106, 300) /* ITEM_SPELLCRAFT_INT */
      , (25543, 107, 100) /* ITEM_CUR_MANA_INT */
      , (25543, 108, 100) /* ITEM_MAX_MANA_INT */
-     , (25543, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (25543, 9007, 38) /* Gem_WeenieType */;
+     , (25543, 109, 0) /* ITEM_DIFFICULTY_INT */;
 

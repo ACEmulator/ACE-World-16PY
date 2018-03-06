@@ -1,16 +1,13 @@
 /* Weenie - Anadil of Shakrassekor (8539) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8539;
+DELETE FROM weenie WHERE class_Id = 8539;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8539, 'mumiyahanadil');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8539, 'mumiyahanadil', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8539, 0, 8539);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8539, 1, 'Anadil of Shakrassekor') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8539, 1, 33554433) /* SETUP_DID */
      , (8539, 2, 150994981) /* MOTION_TABLE_DID */
      , (8539, 3, 536870942) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (8539, 1, 33554433) /* SETUP_DID */
      , (8539, 7, 268435645) /* CLOTHINGBASE_DID */
      , (8539, 8, 100669122) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8539, 1, 16) /* ITEM_TYPE_INT */
      , (8539, 2, 14) /* CREATURE_TYPE_INT */
      , (8539, 3, 43) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (8539, 1, 16) /* ITEM_TYPE_INT */
      , (8539, 27, 0) /* ARMOR_TYPE_INT */
      , (8539, 93, 1032) /* PHYSICS_STATE_INT */
      , (8539, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (8539, 40, 1) /* COMBAT_MODE_INT */
-     , (8539, 9007, 10) /* Creature_WeenieType */;
+     , (8539, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8539, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (8539, 65, 0.58) /* RESIST_PIERCE_FLOAT */
      , (8539, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,14 +70,14 @@ VALUES (8539, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (8539, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8539, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8539, 1, True) /* STUCK_BOOL */
      , (8539, 6, False) /* AI_USES_MANA_BOOL */
      , (8539, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (8539, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8539, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8539, 85, 2.017) /* FlameBolt6_SpellID */
      , (8539, 69, 2.017) /* ShockWave6_SpellID */
      , (8539, 1176, 2.02) /* HarmOther6_SpellID */
@@ -95,20 +91,20 @@ VALUES (8539, 85, 2.017) /* FlameBolt6_SpellID */
      , (8539, 1265, 2.025) /* DrainMana6_SpellID */
      , (8539, 63, 2.017) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8539, 1, 640) /* STRENGTH_ATTRIBUTE */
      , (8539, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (8539, 4, 480) /* COORDINATION_ATTRIBUTE */
-     , (8539, 8, 430) /* QUICKNESS_ATTRIBUTE */
-     , (8539, 16, 330) /* FOCUS_ATTRIBUTE */
-     , (8539, 32, 340) /* SELF_ATTRIBUTE */;
+     , (8539, 3, 430) /* QUICKNESS_ATTRIBUTE */
+     , (8539, 5, 330) /* FOCUS_ATTRIBUTE */
+     , (8539, 6, 340) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8539, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8539, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8539, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8539, 1, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8539, 3, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8539, 5, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8539, 2, 8527, 0, 0, 0, False) /* Create Staff of the Nomads for Wield_DestinationType */
      , (8539, 9, 8528, 0, 0, 1, False) /* Create Splintered Staff for ContainTreasure_DestinationType */
      , (8539, 9, 8529, 0, 0, 1, False) /* Create Splintered Staff for ContainTreasure_DestinationType */

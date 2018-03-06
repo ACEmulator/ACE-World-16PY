@@ -1,17 +1,14 @@
 /* Weenie - Audetaunga's Panaq of the Mountains (27341) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27341;
+DELETE FROM weenie WHERE class_Id = 27341;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27341, 'bowpanaqmountains');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27341, 'bowpanaqmountains', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27341, 0, 27341);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27341, 16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */
      , (27341, 1, 'Audetaunga''s Panaq of the Mountains') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27341, 1, 33558662) /* SETUP_DID */
      , (27341, 3, 536870932) /* SOUND_TABLE_DID */
      , (27341, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27341, 1, 33558662) /* SETUP_DID */
      , (27341, 7, 268436248) /* CLOTHINGBASE_DID */
      , (27341, 8, 100676375) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27341, 9, 4194304) /* LOCATIONS_INT */
      , (27341, 1, 256) /* ITEM_TYPE_INT */
      , (27341, 5, 800) /* ENCUMB_VAL_INT */
@@ -47,10 +44,9 @@ VALUES (27341, 9, 4194304) /* LOCATIONS_INT */
      , (27341, 51, 2) /* COMBAT_USE_INT */
      , (27341, 52, 2) /* PARENT_LOCATION_INT */
      , (27341, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (27341, 60, 175) /* WEAPON_RANGE_INT */
-     , (27341, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (27341, 60, 175) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27341, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27341, 5, -0.033333) /* MANA_RATE_FLOAT */
      , (27341, 136, 3) /* CRITICAL_MULTIPLIER_FLOAT */
@@ -59,13 +55,13 @@ VALUES (27341, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
      , (27341, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */
      , (27341, 63, 2.2) /* DAMAGE_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27341, 99, True) /* IVORYABLE_BOOL */
      , (27341, 69, False) /* IS_SELLABLE_BOOL */
      , (27341, 22, True) /* INSCRIBABLE_BOOL */
      , (27341, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27341, 2437, 2) /* RockslideGreater_SpellID */
      , (27341, 2440, 2) /* StoneCliffsGreater_SpellID */
      , (27341, 2443, 2) /* StrengthofEarthGreater_SpellID */;

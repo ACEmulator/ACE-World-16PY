@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1610, 2057859089, 2860974336, 79.8492, 36.6437, 21.205, 0.968113, 0, 0, -0.250514) /* Drudge Ravener */
      , (1610, 2057859088, 2860974336, 79.275, 40.1327, 21.205, 0.47162, 0, 0, -0.881802) /* Drudge Ravener */
      , (1610, 2057859086, 2860974336, 81.746, 45.1692, 21.205, -0.794791, 0, 0, -0.606883) /* Drudge Ravener */
@@ -10,14 +10,14 @@ VALUES (1610, 2057859089, 2860974336, 79.8492, 36.6437, 21.205, 0.968113, 0, 0, 
      , (1610, 2057859084, 2860974080, 76.8234, 37.8633, 26.0045, -0.991788, 0, 0, 0.127896) /* Drudge Ravener */
      , (1610, 2057859085, 2860974080, 79.3856, 39.2988, 26.0045, 0.0726619, 0, 0, 0.997357) /* Drudge Ravener */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2057859081'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2057859081'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859089'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859088'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859086'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859082'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859083'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859084'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859085'; /* linkmonstergen3minutes <- Drudge Ravener */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2057859087'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859089'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859088'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859086'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859082'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859083'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859084'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859085'; /* linkmonstergen3minutes <- Drudge Ravener */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2057859087'; /* linkmonstergen3minutes <- Drudge Ravener */
 

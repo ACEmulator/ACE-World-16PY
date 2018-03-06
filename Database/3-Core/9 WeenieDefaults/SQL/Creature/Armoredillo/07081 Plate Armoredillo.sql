@@ -1,16 +1,13 @@
 /* Weenie - Plate Armoredillo (7081) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7081;
+DELETE FROM weenie WHERE class_Id = 7081;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7081, 'armoredilloplate');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7081, 'armoredilloplate', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7081, 0, 7081);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7081, 1, 'Plate Armoredillo') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7081, 1, 33554436) /* SETUP_DID */
      , (7081, 2, 150994972) /* MOTION_TABLE_DID */
      , (7081, 35, 454) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (7081, 1, 33554436) /* SETUP_DID */
      , (7081, 7, 268436612) /* CLOTHINGBASE_DID */
      , (7081, 8, 100667935) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7081, 1, 16) /* ITEM_TYPE_INT */
      , (7081, 146, 26161) /* XP_OVERRIDE_INT */
      , (7081, 2, 17) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (7081, 1, 16) /* ITEM_TYPE_INT */
      , (7081, 16, 1) /* ITEM_USEABLE_INT */
      , (7081, 25, 95) /* LEVEL_INT */
      , (7081, 93, 1032) /* PHYSICS_STATE_INT */
-     , (7081, 40, 2) /* COMBAT_MODE_INT */
-     , (7081, 9007, 10) /* Creature_WeenieType */;
+     , (7081, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7081, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (7081, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
      , (7081, 65, 1) /* RESIST_PIERCE_FLOAT */
@@ -69,26 +65,26 @@ VALUES (7081, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (7081, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (7081, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7081, 1, True) /* STUCK_BOOL */
      , (7081, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (7081, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7081, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7081, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (7081, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (7081, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (7081, 8, 180) /* QUICKNESS_ATTRIBUTE */
-     , (7081, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (7081, 32, 90) /* SELF_ATTRIBUTE */;
+     , (7081, 3, 180) /* QUICKNESS_ATTRIBUTE */
+     , (7081, 5, 90) /* FOCUS_ATTRIBUTE */
+     , (7081, 6, 90) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7081, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7081, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7081, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7081, 1, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7081, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7081, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7081, 9, 22951, 0, 0, 0.07, False) /* Create Plate Armoredillo Spine for ContainTreasure_DestinationType */
      , (7081, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */
      , (7081, 9, 24828, 0, 0, 0.03, False) /* Create Plate Armoredillo Hide for ContainTreasure_DestinationType */

@@ -1,16 +1,13 @@
 /* Weenie - Brown Mouse (23624) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23624;
+DELETE FROM weenie WHERE class_Id = 23624;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23624, 'ratbrowntiny');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23624, 'ratbrowntiny', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23624, 0, 23624);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23624, 1, 'Brown Mouse') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23624, 1, 33558222) /* SETUP_DID */
      , (23624, 2, 150994958) /* MOTION_TABLE_DID */
      , (23624, 3, 536870927) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (23624, 1, 33558222) /* SETUP_DID */
      , (23624, 7, 268436541) /* CLOTHINGBASE_DID */
      , (23624, 8, 100667451) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23624, 1, 16) /* ITEM_TYPE_INT */
      , (23624, 146, 5) /* XP_OVERRIDE_INT */
      , (23624, 2, 10) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (23624, 1, 16) /* ITEM_TYPE_INT */
      , (23624, 25, 1) /* LEVEL_INT */
      , (23624, 27, 0) /* ARMOR_TYPE_INT */
      , (23624, 93, 1032) /* PHYSICS_STATE_INT */
-     , (23624, 40, 2) /* COMBAT_MODE_INT */
-     , (23624, 9007, 10) /* Creature_WeenieType */;
+     , (23624, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23624, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (23624, 65, 1.6) /* RESIST_PIERCE_FLOAT */
      , (23624, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,27 +65,27 @@ VALUES (23624, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (23624, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (23624, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23624, 1, True) /* STUCK_BOOL */
      , (23624, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (23624, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23624, 29, True) /* NO_CORPSE_BOOL */
      , (23624, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (23624, 1, 10) /* STRENGTH_ATTRIBUTE */
      , (23624, 2, 10) /* ENDURANCE_ATTRIBUTE */
      , (23624, 4, 20) /* COORDINATION_ATTRIBUTE */
-     , (23624, 8, 20) /* QUICKNESS_ATTRIBUTE */
-     , (23624, 16, 10) /* FOCUS_ATTRIBUTE */
-     , (23624, 32, 10) /* SELF_ATTRIBUTE */;
+     , (23624, 3, 20) /* QUICKNESS_ATTRIBUTE */
+     , (23624, 5, 10) /* FOCUS_ATTRIBUTE */
+     , (23624, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23624, 64, 1) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23624, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23624, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (23624, 1, 1) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23624, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23624, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23624, 9, 23888, 0, 0, 0.02, False) /* Create Ulgrim's Golden Key for ContainTreasure_DestinationType */
      , (23624, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (23624, 9, 261, 0, 0, 0.01, False) /* Create Cheese for ContainTreasure_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8476, 2131881988, 4045340928, 22.8049, 28.9637, 12.805, 0.937098, 0, 0, -0.349067) /* Moarsmen Muck */
      , (4219, 2131881996, 4045340928, 19.2238, 18.8164, 12.805, 0.287637, 0, 0, 0.95774) /* linkmonstergen7minutes */
      , (27858, 2131881995, 4045340928, 19.741, 25.6009, 12.805, 0.287637, 0, 0, 0.95774) /* Muculent Moarsman */
@@ -9,13 +9,13 @@ VALUES (8476, 2131881988, 4045340928, 22.8049, 28.9637, 12.805, 0.937098, 0, 0, 
      , (27854, 2131881992, 4045340672, 14.9948, 10.9855, 18.0048, -0.379257, 0, 0, -0.925291) /* Fetid Moarsman */
      , (4246, 2131881991, 4045340672, 12.5048, 15.0333, 22.0787, -0.656804, 0, 0, -0.754062) /* Rank Moarsman */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2131881996'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2131881996'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881989'; /* linkmonstergen7minutes <- Rank Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881990'; /* linkmonstergen7minutes <- Rank Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881991'; /* linkmonstergen7minutes <- Rank Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881992'; /* linkmonstergen7minutes <- Fetid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881993'; /* linkmonstergen7minutes <- Fetid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881994'; /* linkmonstergen7minutes <- Fetid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2131881995'; /* linkmonstergen7minutes <- Muculent Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881989'; /* linkmonstergen7minutes <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881990'; /* linkmonstergen7minutes <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881991'; /* linkmonstergen7minutes <- Rank Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881992'; /* linkmonstergen7minutes <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881993'; /* linkmonstergen7minutes <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881994'; /* linkmonstergen7minutes <- Fetid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2131881995'; /* linkmonstergen7minutes <- Muculent Moarsman */
 

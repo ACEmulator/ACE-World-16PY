@@ -1,16 +1,13 @@
 /* Weenie - Obeloth Lugian (205) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 205;
+DELETE FROM weenie WHERE class_Id = 205;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (205, 'lugianobeloth');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (205, 'lugianobeloth', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (205, 0, 205);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (205, 1, 'Obeloth Lugian') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (205, 8, 100667447) /* ICON_DID */
      , (205, 32, 112) /* WIELDED_TREASURE_TYPE_DID */
      , (205, 1, 33557003) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (205, 8, 100667447) /* ICON_DID */
      , (205, 7, 268436155) /* CLOTHINGBASE_DID */
      , (205, 22, 872415262) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (205, 1, 16) /* ITEM_TYPE_INT */
      , (205, 2, 5) /* CREATURE_TYPE_INT */
      , (205, 67, 64) /* TOLERANCE_INT */
@@ -39,10 +36,9 @@ VALUES (205, 1, 16) /* ITEM_TYPE_INT */
      , (205, 27, 0) /* ARMOR_TYPE_INT */
      , (205, 93, 1032) /* PHYSICS_STATE_INT */
      , (205, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (205, 40, 2) /* COMBAT_MODE_INT */
-     , (205, 9007, 10) /* Creature_WeenieType */;
+     , (205, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (205, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (205, 65, 0.66) /* RESIST_PIERCE_FLOAT */
      , (205, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (205, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (205, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (205, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (205, 1, True) /* STUCK_BOOL */
      , (205, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (205, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (205, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (205, 1, 225) /* STRENGTH_ATTRIBUTE */
      , (205, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (205, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (205, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (205, 16, 55) /* FOCUS_ATTRIBUTE */
-     , (205, 32, 85) /* SELF_ATTRIBUTE */;
+     , (205, 3, 75) /* QUICKNESS_ATTRIBUTE */
+     , (205, 5, 55) /* FOCUS_ATTRIBUTE */
+     , (205, 6, 85) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (205, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (205, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (205, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (205, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (205, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (205, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (205, 9, 7042, 0, 0, 0.02, False) /* Create Small Lugian Sinew for ContainTreasure_DestinationType */
      , (205, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

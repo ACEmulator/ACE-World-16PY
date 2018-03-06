@@ -1,19 +1,16 @@
 /* Weenie - Elysa Strathelar (22105) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22105;
+DELETE FROM weenie WHERE class_Id = 22105;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22105, 'elysarithwicparade');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22105, 'elysarithwicparade', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22105, 0, 22105);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22105, 1, 'Elysa Strathelar') /* NAME_STRING */
      , (22105, 3, 'Female') /* SEX_STRING */
      , (22105, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
      , (22105, 5, 'High Queen') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22105, 1, 33554510) /* SETUP_DID */
      , (22105, 2, 150994945) /* MOTION_TABLE_DID */
      , (22105, 3, 536870914) /* SOUND_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (22105, 1, 33554510) /* SETUP_DID */
      , (22105, 7, 268436485) /* CLOTHINGBASE_DID */
      , (22105, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22105, 1, 16) /* ITEM_TYPE_INT */
      , (22105, 2, 31) /* CREATURE_TYPE_INT */
      , (22105, 3, 13) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (22105, 1, 16) /* ITEM_TYPE_INT */
      , (22105, 25, 126) /* LEVEL_INT */
      , (22105, 27, 0) /* ARMOR_TYPE_INT */
      , (22105, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (22105, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (22105, 9007, 10) /* Creature_WeenieType */;
+     , (22105, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22105, 64, 1) /* RESIST_SLASH_FLOAT */
      , (22105, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (22105, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,7 +65,7 @@ VALUES (22105, 64, 1) /* RESIST_SLASH_FLOAT */
      , (22105, 54, 3) /* USE_RADIUS_FLOAT */
      , (22105, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22105, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (22105, 1, True) /* STUCK_BOOL */
      , (22105, 8, True) /* ALLOW_GIVE_BOOL */
@@ -79,19 +75,19 @@ VALUES (22105, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (22105, 13, False) /* ETHEREAL_BOOL */
      , (22105, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22105, 1, 190) /* STRENGTH_ATTRIBUTE */
      , (22105, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (22105, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (22105, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (22105, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (22105, 32, 200) /* SELF_ATTRIBUTE */;
+     , (22105, 3, 260) /* QUICKNESS_ATTRIBUTE */
+     , (22105, 5, 200) /* FOCUS_ATTRIBUTE */
+     , (22105, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22105, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22105, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22105, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22105, 1, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22105, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22105, 5, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22105, 2, 8891, 0, 0, 0, False) /* Create Elysa's Longbow for Wield_DestinationType */;
 

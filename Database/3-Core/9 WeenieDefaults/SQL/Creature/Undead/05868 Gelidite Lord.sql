@@ -1,16 +1,13 @@
 /* Weenie - Gelidite Lord (5868) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5868;
+DELETE FROM weenie WHERE class_Id = 5868;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5868, 'lichlordfrore');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5868, 'lichlordfrore', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5868, 0, 5868);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5868, 1, 'Gelidite Lord') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5868, 8, 100667942) /* ICON_DID */
      , (5868, 32, 291) /* WIELDED_TREASURE_TYPE_DID */
      , (5868, 1, 33554839) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (5868, 8, 100667942) /* ICON_DID */
      , (5868, 7, 268436788) /* CLOTHINGBASE_DID */
      , (5868, 22, 872415272) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5868, 1, 16) /* ITEM_TYPE_INT */
      , (5868, 2, 14) /* CREATURE_TYPE_INT */
      , (5868, 3, 1) /* PALETTE_TEMPLATE_INT */
@@ -40,10 +37,9 @@ VALUES (5868, 1, 16) /* ITEM_TYPE_INT */
      , (5868, 93, 1032) /* PHYSICS_STATE_INT */
      , (5868, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (5868, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (5868, 40, 1) /* COMBAT_MODE_INT */
-     , (5868, 9007, 10) /* Creature_WeenieType */;
+     , (5868, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5868, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (5868, 65, 0.52) /* RESIST_PIERCE_FLOAT */
      , (5868, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,7 +74,7 @@ VALUES (5868, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (5868, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (5868, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5868, 1, True) /* STUCK_BOOL */
      , (5868, 6, True) /* AI_USES_MANA_BOOL */
      , (5868, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -86,7 +82,7 @@ VALUES (5868, 1, True) /* STUCK_BOOL */
      , (5868, 13, False) /* ETHEREAL_BOOL */
      , (5868, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5868, 145, 2.01) /* FlameVolley5_SpellID */
      , (5868, 1342, 2.011) /* WeaknessOther5_SpellID */
      , (5868, 1253, 2.025) /* DrainStamina5_SpellID */
@@ -110,19 +106,19 @@ VALUES (5868, 145, 2.01) /* FlameVolley5_SpellID */
      , (5868, 1467, 2.011) /* FeeblemindOther5_SpellID */
      , (5868, 62, 2.01) /* AcidStream5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (5868, 1, 280) /* STRENGTH_ATTRIBUTE */
      , (5868, 2, 310) /* ENDURANCE_ATTRIBUTE */
      , (5868, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (5868, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (5868, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (5868, 32, 290) /* SELF_ATTRIBUTE */;
+     , (5868, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (5868, 5, 290) /* FOCUS_ATTRIBUTE */
+     , (5868, 6, 290) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5868, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5868, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5868, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (5868, 1, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5868, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5868, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5868, 1, 26008, 240, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Gelidite Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

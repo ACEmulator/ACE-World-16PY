@@ -1,16 +1,13 @@
 /* Weenie - Gotrok Amploth (24939) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24939;
+DELETE FROM weenie WHERE class_Id = 24939;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24939, 'lugianamplothrenegade');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24939, 'lugianamplothrenegade', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24939, 0, 24939);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24939, 1, 'Gotrok Amploth') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24939, 8, 100667447) /* ICON_DID */
      , (24939, 32, 437) /* WIELDED_TREASURE_TYPE_DID */
      , (24939, 1, 33557003) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (24939, 8, 100667447) /* ICON_DID */
      , (24939, 7, 268436156) /* CLOTHINGBASE_DID */
      , (24939, 22, 872415262) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24939, 1, 16) /* ITEM_TYPE_INT */
      , (24939, 2, 70) /* CREATURE_TYPE_INT */
      , (24939, 3, 20) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (24939, 1, 16) /* ITEM_TYPE_INT */
      , (24939, 27, 0) /* ARMOR_TYPE_INT */
      , (24939, 93, 1032) /* PHYSICS_STATE_INT */
      , (24939, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (24939, 40, 2) /* COMBAT_MODE_INT */
-     , (24939, 9007, 10) /* Creature_WeenieType */;
+     , (24939, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24939, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (24939, 65, 0.66) /* RESIST_PIERCE_FLOAT */
      , (24939, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -75,26 +71,26 @@ VALUES (24939, 64, 0.66) /* RESIST_SLASH_FLOAT */
      , (24939, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (24939, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24939, 1, True) /* STUCK_BOOL */
      , (24939, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (24939, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24939, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (24939, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (24939, 2, 150) /* ENDURANCE_ATTRIBUTE */
      , (24939, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (24939, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (24939, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (24939, 32, 50) /* SELF_ATTRIBUTE */;
+     , (24939, 3, 70) /* QUICKNESS_ATTRIBUTE */
+     , (24939, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (24939, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24939, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24939, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24939, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (24939, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24939, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24939, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24939, 9, 7042, 0, 0, 0.02, False) /* Create Small Lugian Sinew for ContainTreasure_DestinationType */
      , (24939, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

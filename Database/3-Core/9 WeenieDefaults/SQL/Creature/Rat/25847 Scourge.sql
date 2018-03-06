@@ -1,16 +1,13 @@
 /* Weenie - Scourge (25847) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25847;
+DELETE FROM weenie WHERE class_Id = 25847;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25847, 'ratbossscourge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25847, 'ratbossscourge', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25847, 0, 25847);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25847, 1, 'Scourge') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25847, 1, 33554493) /* SETUP_DID */
      , (25847, 2, 150994958) /* MOTION_TABLE_DID */
      , (25847, 35, 32) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (25847, 1, 33554493) /* SETUP_DID */
      , (25847, 8, 100667451) /* ICON_DID */
      , (25847, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25847, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (25847, 1, 16) /* ITEM_TYPE_INT */
      , (25847, 2, 10) /* CREATURE_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (25847, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
      , (25847, 27, 0) /* ARMOR_TYPE_INT */
      , (25847, 93, 1032) /* PHYSICS_STATE_INT */
      , (25847, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (25847, 40, 2) /* COMBAT_MODE_INT */
-     , (25847, 9007, 10) /* Creature_WeenieType */;
+     , (25847, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25847, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25847, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (25847, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,36 +72,36 @@ VALUES (25847, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25847, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25847, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25847, 1, True) /* STUCK_BOOL */
      , (25847, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25847, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25847, 13, False) /* ETHEREAL_BOOL */
      , (25847, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25847, 2996, 2.01) /* Scourge_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25847, 1, 340) /* STRENGTH_ATTRIBUTE */
      , (25847, 2, 350) /* ENDURANCE_ATTRIBUTE */
      , (25847, 4, 420) /* COORDINATION_ATTRIBUTE */
-     , (25847, 8, 400) /* QUICKNESS_ATTRIBUTE */
-     , (25847, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (25847, 32, 200) /* SELF_ATTRIBUTE */;
+     , (25847, 3, 400) /* QUICKNESS_ATTRIBUTE */
+     , (25847, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (25847, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25847, 64, 7325) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25847, 128, 7150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25847, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25847, 1, 7325) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25847, 3, 7150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25847, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25847, 9, 25900, 0, 0, 1, False) /* Create Scourge's Hide for ContainTreasure_DestinationType */
      , (25847, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (25847, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
      , (25847, 9, 0, 0, 0, 0.9, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25847, -1, 25877, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Contagion Rat (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (25847, -1, 25879, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Pestilence Rat (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (25847, -1, 25878, 20, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Infested Rat (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;

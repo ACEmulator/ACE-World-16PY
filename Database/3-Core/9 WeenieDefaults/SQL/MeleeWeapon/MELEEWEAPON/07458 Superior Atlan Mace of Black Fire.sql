@@ -1,16 +1,13 @@
 /* Weenie - Superior Atlan Mace of Black Fire (7458) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7458;
+DELETE FROM weenie WHERE class_Id = 7458;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7458, 'macebetterblackfire');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7458, 'macebetterblackfire', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7458, 0, 7458);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7458, 1, 'Superior Atlan Mace of Black Fire') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7458, 1, 33557394) /* SETUP_DID */
      , (7458, 3, 536870932) /* SOUND_TABLE_DID */
      , (7458, 37, 5) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (7458, 1, 33557394) /* SETUP_DID */
      , (7458, 7, 268435902) /* CLOTHINGBASE_DID */
      , (7458, 8, 100670543) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7458, 9, 1048576) /* LOCATIONS_INT */
      , (7458, 1, 1) /* ITEM_TYPE_INT */
      , (7458, 19, 4000) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (7458, 9, 1048576) /* LOCATIONS_INT */
      , (7458, 49, 35) /* WEAPON_TIME_INT */
      , (7458, 114, 1) /* ATTUNED_INT */
      , (7458, 51, 1) /* COMBAT_USE_INT */
-     , (7458, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7458, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (7458, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7458, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (7458, 21, 0.6) /* WEAPON_LENGTH_FLOAT */
      , (7458, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -52,13 +48,13 @@ VALUES (7458, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (7458, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
      , (7458, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7458, 99, True) /* IVORYABLE_BOOL */
      , (7458, 69, False) /* IS_SELLABLE_BOOL */
      , (7458, 22, True) /* INSCRIBABLE_BOOL */
      , (7458, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7458, 1846, 2) /* MagicYieldBlackFire_SpellID */
      , (7458, 1605, 2) /* Defender6_SpellID */
      , (7458, 1592, 2) /* HeartSeeker6_SpellID */

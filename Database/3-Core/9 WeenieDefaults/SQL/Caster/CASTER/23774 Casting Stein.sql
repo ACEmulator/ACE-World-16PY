@@ -1,17 +1,14 @@
 /* Weenie - Casting Stein (23774) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23774;
+DELETE FROM weenie WHERE class_Id = 23774;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23774, 'orbulgrim');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23774, 'orbulgrim', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23774, 0, 23774);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23774, 16, 'A magical beer stein that can be used to focus magic.') /* LONG_DESC_STRING */
      , (23774, 1, 'Casting Stein') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23774, 1, 33558217) /* SETUP_DID */
      , (23774, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (23774, 3, 536870932) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23774, 1, 33558217) /* SETUP_DID */
      , (23774, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (23774, 28, 1679) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23774, 9, 16777216) /* LOCATIONS_INT */
      , (23774, 1, 32768) /* ITEM_TYPE_INT */
      , (23774, 5, 50) /* ENCUMB_VAL_INT */
@@ -36,17 +33,16 @@ VALUES (23774, 9, 16777216) /* LOCATIONS_INT */
      , (23774, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (23774, 109, 50) /* ITEM_DIFFICULTY_INT */
      , (23774, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (23774, 117, 75) /* ITEM_MANA_COST_INT */
-     , (23774, 9007, 35) /* Caster_WeenieType */;
+     , (23774, 117, 75) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23774, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23774, 5, 0) /* MANA_RATE_FLOAT */
      , (23774, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (23774, 12, 0.5) /* SHADE_FLOAT */
      , (23774, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23774, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (23774, 15, True) /* LIGHTS_STATUS_BOOL */
      , (23774, 22, True) /* INSCRIBABLE_BOOL */;

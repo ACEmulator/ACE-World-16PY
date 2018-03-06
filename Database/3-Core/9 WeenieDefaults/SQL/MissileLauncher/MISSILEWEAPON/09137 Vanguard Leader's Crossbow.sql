@@ -1,19 +1,16 @@
 /* Weenie - Vanguard Leader's Crossbow (9137) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9137;
+DELETE FROM weenie WHERE class_Id = 9137;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9137, 'crossbowvanguardleader');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9137, 'crossbowvanguardleader', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9137, 0, 9137);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9137, 16, 'A Tumerok leader''s heavy crossbow, studded with unidentifiable gems.') /* LONG_DESC_STRING */
      , (9137, 1, 'Vanguard Leader''s Crossbow') /* NAME_STRING */
      , (9137, 33, 'TumerokVanguardCrossbow') /* QUEST_STRING */
      , (9137, 15, 'A heavy crossbow, studded with strange gems.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9137, 1, 33554732) /* SETUP_DID */
      , (9137, 3, 536870932) /* SOUND_TABLE_DID */
      , (9137, 37, 3) /* ITEM_SKILL_LIMIT_DID */
@@ -22,7 +19,7 @@ VALUES (9137, 1, 33554732) /* SETUP_DID */
      , (9137, 7, 268435762) /* CLOTHINGBASE_DID */
      , (9137, 8, 100668835) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9137, 9, 4194304) /* LOCATIONS_INT */
      , (9137, 1, 256) /* ITEM_TYPE_INT */
      , (9137, 19, 1200) /* VALUE_INT */
@@ -47,10 +44,9 @@ VALUES (9137, 9, 4194304) /* LOCATIONS_INT */
      , (9137, 115, 140) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (9137, 52, 2) /* PARENT_LOCATION_INT */
      , (9137, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (9137, 60, 192) /* WEAPON_RANGE_INT */
-     , (9137, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (9137, 60, 192) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9137, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9137, 5, -0.025) /* MANA_RATE_FLOAT */
      , (9137, 63, 1.6) /* DAMAGE_MOD_FLOAT */
@@ -58,11 +54,11 @@ VALUES (9137, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (9137, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (9137, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9137, 22, True) /* INSCRIBABLE_BOOL */
      , (9137, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9137, 1613, 2) /* BloodDrinker3_SpellID */
      , (9137, 1625, 2) /* SwiftKiller4_SpellID */
      , (9137, 1588, 2) /* HeartSeeker2_SpellID */

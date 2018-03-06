@@ -1,17 +1,14 @@
 /* Weenie - Esorcelled Falchion (26601) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26601;
+DELETE FROM weenie WHERE class_Id = 26601;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26601, 'swordixir3');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26601, 'swordixir3', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26601, 0, 26601);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26601, 1, 'Esorcelled Falchion') /* NAME_STRING */
      , (26601, 15, 'A strange blade once used by the Falatacot.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26601, 1, 33558592) /* SETUP_DID */
      , (26601, 3, 536870932) /* SOUND_TABLE_DID */
      , (26601, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (26601, 1, 33558592) /* SETUP_DID */
      , (26601, 7, 268436792) /* CLOTHINGBASE_DID */
      , (26601, 8, 100675773) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26601, 9, 1048576) /* LOCATIONS_INT */
      , (26601, 1, 1) /* ITEM_TYPE_INT */
      , (26601, 19, 6000) /* VALUE_INT */
@@ -43,10 +40,9 @@ VALUES (26601, 9, 1048576) /* LOCATIONS_INT */
      , (26601, 47, 166) /* ATTACK_TYPE_INT */
      , (26601, 48, 11) /* WEAPON_SKILL_INT */
      , (26601, 49, 40) /* WEAPON_TIME_INT */
-     , (26601, 51, 1) /* COMBAT_USE_INT */
-     , (26601, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (26601, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26601, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (26601, 21, 0.96) /* WEAPON_LENGTH_FLOAT */
      , (26601, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -54,10 +50,10 @@ VALUES (26601, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (26601, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (26601, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26601, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26601, 1605, 2) /* Defender6_SpellID */
      , (26601, 164, 2) /* RegenerationOther6_SpellID */
      , (26601, 2694, 2) /* ModerateSwordAptitude_SpellID */

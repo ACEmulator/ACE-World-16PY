@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (720, 2073497600, 3111190793, 40.4568, 30.3165, 18.005, 1, 0, 0, 0) /* Sliding Door */
      , (720, 2073497601, 3111190794, 32.5318, 41.2165, 18.005, 0, 0, 0, -1) /* Sliding Door */
      , (1403, 2073497609, 3111190794, 33.3447, 32.4941, 18.01, 0.999008, 0, 0, 0.0445338) /* cluelostlightgen */

@@ -1,18 +1,15 @@
 /* Weenie - Advanced Creature Enchantment Skill Puzzle Piece (11646) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11646;
+DELETE FROM weenie WHERE class_Id = 11646;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11646, 'skillpuzzlecreatureadvanced');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11646, 'skillpuzzlecreatureadvanced', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11646, 0, 11646);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11646, 16, 'An Advanced Creature Enchantment skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Creature Enchantment skill to assemble.') /* LONG_DESC_STRING */
      , (11646, 1, 'Advanced Creature Enchantment Skill Puzzle Piece') /* NAME_STRING */
      , (11646, 15, 'An Advanced Creature Enchantment skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Creature Enchantment skill to assemble.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11646, 1, 33554669) /* SETUP_DID */
      , (11646, 3, 536870932) /* SOUND_TABLE_DID */
      , (11646, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (11646, 1, 33554669) /* SETUP_DID */
      , (11646, 7, 268436178) /* CLOTHINGBASE_DID */
      , (11646, 8, 100671709) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11646, 33, -2) /* BONDED_INT */
      , (11646, 9, 0) /* LOCATIONS_INT */
      , (11646, 1, 128) /* ITEM_TYPE_INT */
@@ -30,13 +27,12 @@ VALUES (11646, 33, -2) /* BONDED_INT */
      , (11646, 16, 1) /* ITEM_USEABLE_INT */
      , (11646, 8, 10) /* MASS_INT */
      , (11646, 19, 10000) /* VALUE_INT */
-     , (11646, 114, 1) /* ATTUNED_INT */
-     , (11646, 9007, 1) /* Generic_WeenieType */;
+     , (11646, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11646, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11646, 69, False) /* IS_SELLABLE_BOOL */
      , (11646, 22, True) /* INSCRIBABLE_BOOL */
      , (11646, 23, True) /* DESTROY_ON_SELL_BOOL */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12555, 2012622848, 2137194496, 137.255, 98.6483, 47.3979, 0.996592, 0, 0, -0.0824944) /* South Yaraq Cottages Portal */
      , (12504, 2012622849, 2137194496, 147.854, 91.4879, 46.757, 0.759932, 0, 0, -0.650003) /* Ijaniya  Portal */
      , (12565, 2012622850, 2137194496, 147.35, 77.2985, 49.1219, 0.635154, 0, 0, -0.772386) /* Wi Badlands Settlement Portal */

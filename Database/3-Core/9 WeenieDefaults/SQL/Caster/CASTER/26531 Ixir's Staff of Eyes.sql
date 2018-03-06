@@ -1,17 +1,14 @@
 /* Weenie - Ixir's Staff of Eyes (26531) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26531;
+DELETE FROM weenie WHERE class_Id = 26531;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26531, 'staffixir2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26531, 'staffixir2', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26531, 0, 26531);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26531, 1, 'Ixir''s Staff of Eyes') /* NAME_STRING */
      , (26531, 15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26531, 1, 33558596) /* SETUP_DID */
      , (26531, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (26531, 3, 536870932) /* SOUND_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (26531, 1, 33558596) /* SETUP_DID */
      , (26531, 7, 268436792) /* CLOTHINGBASE_DID */
      , (26531, 8, 100675776) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26531, 9, 16777216) /* LOCATIONS_INT */
      , (26531, 1, 32768) /* ITEM_TYPE_INT */
      , (26531, 19, 5200) /* VALUE_INT */
@@ -43,21 +40,20 @@ VALUES (26531, 9, 16777216) /* LOCATIONS_INT */
      , (26531, 108, 1400) /* ITEM_MAX_MANA_INT */
      , (26531, 109, 100) /* ITEM_DIFFICULTY_INT */
      , (26531, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (26531, 117, 200) /* ITEM_MANA_COST_INT */
-     , (26531, 9007, 35) /* Caster_WeenieType */;
+     , (26531, 117, 200) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26531, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (26531, 5, -0.05) /* MANA_RATE_FLOAT */
      , (26531, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
      , (26531, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26531, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (26531, 15, True) /* LIGHTS_STATUS_BOOL */
      , (26531, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26531, 1456, 2) /* WillpowerOther6_SpellID */
      , (26531, 1432, 2) /* FocusOther6_SpellID */
      , (26531, 211, 2) /* ManaRenewalOther6_SpellID */

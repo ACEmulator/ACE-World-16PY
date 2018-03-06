@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28245, 1879085057, 590081, 28.5849, -49.6962, -23.971, 0.972783, 0, 0, -0.231719) /* Poltergeist */
      , (30710, 1879085058, 590081, 33.7924, -51.5204, -23.971, 0.891628, 0, 0, -0.452768) /* Poltergeist */
      , (5086, 1879085059, 590081, 33.963, -47.6447, -23.995, 0.794824, 0, 0, -0.606841) /* linkmonstergen30seconds */
@@ -46,48 +46,48 @@ VALUES (28245, 1879085057, 590081, 28.5849, -49.6962, -23.971, 0.972783, 0, 0, -
      , (25878, 1879085109, 590286, 13.5088, -79.7573, 6.012, 0.69925, 0, 0, 0.714877) /* Infested Rat */
      , (25878, 1879085110, 590301, 32.6071, -69.8589, 6.012, 0.801726, 0, 0, 0.597692) /* Infested Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1879085059'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1879085060'; /* linkmonstergen2minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1879085068'; /* linkmonstergen1minute */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1879085094'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1879085108'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1879085059'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1879085060'; /* linkmonstergen2minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1879085068'; /* linkmonstergen1minute */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1879085094'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1879085108'; /* linkmonstergen2minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879085058'; /* linkmonstergen30seconds <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879085062'; /* linkmonstergen30seconds <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879085061'; /* linkmonstergen30seconds <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1879085064'; /* linkmonstergen30seconds <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1879085057'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085067'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085066'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085065'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085070'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085069'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085077'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085078'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085082'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085071'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085072'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085079'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085081'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085080'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085109'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1879085110'; /* linkmonstergen1minute <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879085090'; /* linkmonstergen3minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879085085'; /* linkmonstergen3minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879085089'; /* linkmonstergen3minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879085103'; /* linkmonstergen3minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1879085105'; /* linkmonstergen3minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085093'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085088'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085083'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085073'; /* linkmonstergen2minutes <- Infested Rat */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085074'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085075'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085091'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085096'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085107'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085087'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085102'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085099'; /* linkmonstergen2minutes <- Poltergeist */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1879085098'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879085058'; /* linkmonstergen30seconds <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879085062'; /* linkmonstergen30seconds <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879085061'; /* linkmonstergen30seconds <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1879085064'; /* linkmonstergen30seconds <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1879085057'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085067'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085066'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085065'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085070'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085069'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085077'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085078'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085082'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085071'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085072'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085079'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085081'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085080'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085109'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1879085110'; /* linkmonstergen1minute <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879085090'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879085085'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879085089'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879085103'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1879085105'; /* linkmonstergen3minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085093'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085088'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085083'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085073'; /* linkmonstergen2minutes <- Infested Rat */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085074'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085075'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085091'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085096'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085107'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085087'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085102'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085099'; /* linkmonstergen2minutes <- Poltergeist */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1879085098'; /* linkmonstergen2minutes <- Poltergeist */
 

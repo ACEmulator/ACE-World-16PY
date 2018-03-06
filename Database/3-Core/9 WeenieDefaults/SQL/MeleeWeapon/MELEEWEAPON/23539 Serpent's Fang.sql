@@ -1,23 +1,20 @@
 /* Weenie - Serpent's Fang (23539) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23539;
+DELETE FROM weenie WHERE class_Id = 23539;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23539, 'spearserpentnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23539, 'spearserpentnew', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23539, 0, 23539);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23539, 16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs.') /* LONG_DESC_STRING */
      , (23539, 1, 'Serpent''s Fang') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23539, 1, 33557337) /* SETUP_DID */
      , (23539, 3, 536870932) /* SOUND_TABLE_DID */
      , (23539, 8, 100674087) /* ICON_DID */
      , (23539, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23539, 9, 1048576) /* LOCATIONS_INT */
      , (23539, 1, 1) /* ITEM_TYPE_INT */
      , (23539, 5, 550) /* ENCUMB_VAL_INT */
@@ -40,10 +37,9 @@ VALUES (23539, 9, 1048576) /* LOCATIONS_INT */
      , (23539, 47, 2) /* ATTACK_TYPE_INT */
      , (23539, 48, 9) /* WEAPON_SKILL_INT */
      , (23539, 49, 30) /* WEAPON_TIME_INT */
-     , (23539, 51, 1) /* COMBAT_USE_INT */
-     , (23539, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (23539, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23539, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23539, 21, 1.3) /* WEAPON_LENGTH_FLOAT */
      , (23539, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -51,10 +47,10 @@ VALUES (23539, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (23539, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */
      , (23539, 22, 0.66) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23539, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23539, 1605, 2) /* Defender6_SpellID */
      , (23539, 1592, 2) /* HeartSeeker6_SpellID */
      , (23539, 1624, 2) /* SwiftKiller3_SpellID */

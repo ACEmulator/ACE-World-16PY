@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1986, 2030759936, 2427387904, 16.9229, 10.1, 48.05, -0.62932, 0, 0, 0.777146) /* Water Wisp */
      , (1986, 2030759937, 2427387904, 17.0909, 8.88738, 49.7218, 0.592364, 0, 0, -0.80567) /* Water Wisp */
      , (1154, 2030759938, 2427387904, 4.91148, 19.3304, 47.905, -0.882277, 0, 0, 0.470731) /* linkmonstergen */
@@ -8,8 +8,8 @@ VALUES (1986, 2030759936, 2427387904, 16.9229, 10.1, 48.05, -0.62932, 0, 0, 0.77
      , (953, 2030759942, 2427387904, 60.1848, 99.5044, 48.2528, 0.99563, 0, 0, 0.0933832) /* banderlingyounggen */
      , (1400, 2030759943, 2427387904, 58.913, 100.113, 48.1324, 0.188187, 0, 0, -0.982133) /* itemfishgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2030759938'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2030759938'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030759936'; /* linkmonstergen <- Water Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2030759937'; /* linkmonstergen <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030759936'; /* linkmonstergen <- Water Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2030759937'; /* linkmonstergen <- Water Wisp */
 

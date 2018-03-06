@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5393, 2030899200, 2429616128, 112.186, 30.7524, 277.905, -0.0163486, 0, 0, -0.999866) /* Festival Stone */
      , (7355, 2030899201, 2429616128, 49.1241, 5.43807, 277.105, 0.0833727, 0, 0, -0.996518) /* eruptespergen */
      , (7354, 2030899202, 2429616128, 35.936, 84.065, 278, 0.941388, 0, 0, -0.337325) /* eruptesperfxgen */

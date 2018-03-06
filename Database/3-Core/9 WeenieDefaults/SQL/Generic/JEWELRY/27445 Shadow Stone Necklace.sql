@@ -1,18 +1,15 @@
 /* Weenie - Shadow Stone Necklace (27445) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27445;
+DELETE FROM weenie WHERE class_Id = 27445;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27445, 'necklaceshadowstone');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27445, 'necklaceshadowstone', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27445, 0, 27445);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27445, 16, 'The focus of the Consumed Wraith''s power, the Shadow Stone crackles with abyssal energy.') /* LONG_DESC_STRING */
      , (27445, 1, 'Shadow Stone Necklace') /* NAME_STRING */
      , (27445, 33, 'PickedUpNecklaceShadowStone') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27445, 1, 33554680) /* SETUP_DID */
      , (27445, 3, 536870932) /* SOUND_TABLE_DID */
      , (27445, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27445, 1, 33554680) /* SETUP_DID */
      , (27445, 7, 268436095) /* CLOTHINGBASE_DID */
      , (27445, 8, 100676419) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27445, 9, 32768) /* LOCATIONS_INT */
      , (27445, 1, 8) /* ITEM_TYPE_INT */
      , (27445, 19, 6000) /* VALUE_INT */
@@ -38,17 +35,16 @@ VALUES (27445, 9, 32768) /* LOCATIONS_INT */
      , (27445, 106, 500) /* ITEM_SPELLCRAFT_INT */
      , (27445, 107, 800) /* ITEM_CUR_MANA_INT */
      , (27445, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (27445, 109, 225) /* ITEM_DIFFICULTY_INT */
-     , (27445, 9007, 1) /* Generic_WeenieType */;
+     , (27445, 109, 225) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27445, 5, -0.033333) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27445, 22, True) /* INSCRIBABLE_BOOL */
      , (27445, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27445, 2182, 2) /* ManaRenewalOther7_SpellID */
      , (27445, 2184, 2) /* RegenerationOther7_SpellID */;
 

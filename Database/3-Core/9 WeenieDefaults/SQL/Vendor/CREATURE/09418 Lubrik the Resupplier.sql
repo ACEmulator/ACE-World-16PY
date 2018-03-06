@@ -1,17 +1,14 @@
 /* Weenie - Lubrik the Resupplier (9418) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9418;
+DELETE FROM weenie WHERE class_Id = 9418;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9418, 'linvaktukalshopkeep');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9418, 'linvaktukalshopkeep', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9418, 0, 9418);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9418, 1, 'Lubrik the Resupplier') /* NAME_STRING */
      , (9418, 24, 'Linvak Tukal') /* TOWN_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9418, 1, 33557003) /* SETUP_DID */
      , (9418, 2, 150994950) /* MOTION_TABLE_DID */
      , (9418, 3, 536870922) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (9418, 1, 33557003) /* SETUP_DID */
      , (9418, 7, 268436157) /* CLOTHINGBASE_DID */
      , (9418, 8, 100667447) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9418, 1, 16) /* ITEM_TYPE_INT */
      , (9418, 74, 1208250287) /* MERCHANDISE_ITEM_TYPES_INT */
      , (9418, 2, 5) /* CREATURE_TYPE_INT */
@@ -38,10 +35,9 @@ VALUES (9418, 1, 16) /* ITEM_TYPE_INT */
      , (9418, 27, 0) /* ARMOR_TYPE_INT */
      , (9418, 93, 2098200) /* PHYSICS_STATE_INT */
      , (9418, 126, 500) /* VENDOR_HAPPY_MEAN_INT */
-     , (9418, 127, 500) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (9418, 9007, 12) /* Vendor_WeenieType */;
+     , (9418, 127, 500) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9418, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9418, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (9418, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (9418, 64, 1) /* RESIST_SLASH_FLOAT */
      , (9418, 54, 3) /* USE_RADIUS_FLOAT */
      , (9418, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9418, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (9418, 1, True) /* STUCK_BOOL */
      , (9418, 39, False) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -82,20 +78,20 @@ VALUES (9418, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (9418, 13, False) /* ETHEREAL_BOOL */
      , (9418, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (9418, 1, 280) /* STRENGTH_ATTRIBUTE */
      , (9418, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (9418, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (9418, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (9418, 16, 165) /* FOCUS_ATTRIBUTE */
-     , (9418, 32, 170) /* SELF_ATTRIBUTE */;
+     , (9418, 3, 150) /* QUICKNESS_ATTRIBUTE */
+     , (9418, 5, 165) /* FOCUS_ATTRIBUTE */
+     , (9418, 6, 170) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9418, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (9418, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (9418, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (9418, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (9418, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (9418, 5, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9418, 4, 309, -1, 0, 0, False) /* Create Club for Shop_DestinationType */
      , (9418, 4, 316, -1, 0, 0, False) /* Create Throwing Dart for Shop_DestinationType */
      , (9418, 4, 303, -1, 0, 0, False) /* Create Hand Axe for Shop_DestinationType */

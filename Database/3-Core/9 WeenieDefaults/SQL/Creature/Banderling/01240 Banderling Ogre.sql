@@ -1,16 +1,13 @@
 /* Weenie - Banderling Ogre (1240) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1240;
+DELETE FROM weenie WHERE class_Id = 1240;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1240, 'banderlingguardglenden');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1240, 'banderlingguardglenden', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1240, 0, 1240);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1240, 1, 'Banderling Ogre') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1240, 8, 100667453) /* ICON_DID */
      , (1240, 32, 270) /* WIELDED_TREASURE_TYPE_DID */
      , (1240, 1, 33558024) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (1240, 8, 100667453) /* ICON_DID */
      , (1240, 7, 268436496) /* CLOTHINGBASE_DID */
      , (1240, 22, 872415255) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1240, 1, 16) /* ITEM_TYPE_INT */
      , (1240, 2, 2) /* CREATURE_TYPE_INT */
      , (1240, 3, 44) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (1240, 1, 16) /* ITEM_TYPE_INT */
      , (1240, 27, 0) /* ARMOR_TYPE_INT */
      , (1240, 93, 1032) /* PHYSICS_STATE_INT */
      , (1240, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (1240, 40, 2) /* COMBAT_MODE_INT */
-     , (1240, 9007, 10) /* Creature_WeenieType */;
+     , (1240, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1240, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (1240, 65, 0.65) /* RESIST_PIERCE_FLOAT */
      , (1240, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (1240, 64, 0.76) /* RESIST_SLASH_FLOAT */
      , (1240, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1240, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1240, 1, True) /* STUCK_BOOL */
      , (1240, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1240, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1240, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1240, 1, 130) /* STRENGTH_ATTRIBUTE */
      , (1240, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (1240, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (1240, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (1240, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (1240, 32, 50) /* SELF_ATTRIBUTE */;
+     , (1240, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (1240, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (1240, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1240, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1240, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1240, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1240, 1, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1240, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1240, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1240, 1, 1247, 0, 0, 0, False) /* Create Key for Contain_DestinationType */
      , (1240, 1, 1437, 250, 0, 0, False) /* Create Fire Arrow for Contain_DestinationType */
      , (1240, 1, 72, 0, 13, 0, False) /* Create Platemail Hauberk for Contain_DestinationType */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (961, 2088095746, 3344761088, 107.504, 105.123, 6.005, 0.189309, 0, 0, -0.981918) /* mosswartbarkergen */
      , (961, 2088095747, 3344761088, 107.99, 111.493, 7.605, 0.289717, 0, 0, -0.957112) /* mosswartbarkergen */
      , (961, 2088095748, 3344761088, 104.949, 110.837, 8.405, 0.126921, 0, 0, -0.991913) /* mosswartbarkergen */
@@ -12,7 +12,7 @@ VALUES (961, 2088095746, 3344761088, 107.504, 105.123, 6.005, 0.189309, 0, 0, -0
      , (1480, 2088095750, 3344760832, 107.096, 104.585, 21.205, 0.703075, 0, 0, 0.711115) /* mosswartfoodgen */
      , (899, 2088095751, 3344760832, 104.972, 106.722, 21.205, 0.0297087, 0, 0, 0.999559) /* mosswartmudlurkgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2088095754'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2088095754'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2088095753'; /* linkmonstergen <- Mosswart Shaman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2088095753'; /* linkmonstergen <- Mosswart Shaman */
 

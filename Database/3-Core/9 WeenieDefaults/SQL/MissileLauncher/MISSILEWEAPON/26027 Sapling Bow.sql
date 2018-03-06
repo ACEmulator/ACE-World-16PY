@@ -1,16 +1,13 @@
 /* Weenie - Sapling Bow (26027) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26027;
+DELETE FROM weenie WHERE class_Id = 26027;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26027, 'bowburunsaplingextreme');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26027, 'bowburunsaplingextreme', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26027, 0, 26027);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26027, 1, 'Sapling Bow') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26027, 1, 33554728) /* SETUP_DID */
      , (26027, 3, 536870932) /* SOUND_TABLE_DID */
      , (26027, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (26027, 1, 33554728) /* SETUP_DID */
      , (26027, 7, 268435759) /* CLOTHINGBASE_DID */
      , (26027, 8, 100668815) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26027, 33, -2) /* BONDED_INT */
      , (26027, 9, 4194304) /* LOCATIONS_INT */
      , (26027, 1, 256) /* ITEM_TYPE_INT */
@@ -41,10 +38,9 @@ VALUES (26027, 33, -2) /* BONDED_INT */
      , (26027, 51, 2) /* COMBAT_USE_INT */
      , (26027, 52, 2) /* PARENT_LOCATION_INT */
      , (26027, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (26027, 60, 192) /* WEAPON_RANGE_INT */
-     , (26027, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (26027, 60, 192) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26027, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (26027, 5, 0) /* MANA_RATE_FLOAT */
      , (26027, 63, 2.2) /* DAMAGE_MOD_FLOAT */
@@ -52,11 +48,11 @@ VALUES (26027, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (26027, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
      , (26027, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26027, 22, True) /* INSCRIBABLE_BOOL */
      , (26027, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26027, 1616, 2) /* BloodDrinker6_SpellID */
      , (26027, 1627, 2) /* SwiftKiller6_SpellID */;
 

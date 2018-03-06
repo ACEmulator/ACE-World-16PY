@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8553, 2134999047, 4095213837, 32.7054, 45.6692, 162.705, 1, 0, 0, 0) /* Kelderam's Tomb */
      , (8510, 2134999048, 4095213837, 39.2854, 45.4451, 162.705, 1, 0, 0, 0) /* Adja's Memorial */
      , (8514, 2134999044, 4095213845, 33.8706, 18.1776, 191.005, -0.134863, 0, 0, -0.990864) /* Mistress' Chest */
@@ -16,9 +16,9 @@ VALUES (8553, 2134999047, 4095213837, 32.7054, 45.6692, 162.705, 1, 0, 0, 0) /* 
      , (5408, 2134999051, 4095213568, 149.224, 147.803, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */
      , (5408, 2134999052, 4095213568, 132.296, 147.871, 99.905, 0.00510117, 0, 0, -0.999987) /* Waterfall */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2134999043'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2134999043'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999041'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999042'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2134999049'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999041'; /* linkmonstergen10minutes <- Sulthis Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999042'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2134999049'; /* linkmonstergen10minutes <- Slithayr Eye Stalk */
 

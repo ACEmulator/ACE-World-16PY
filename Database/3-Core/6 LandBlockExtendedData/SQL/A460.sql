@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12774, 2051407872, 2757754880, 111.854, 63.0992, 30.6423, 0.72266, 0, 0, 0.691204) /* Settlement Portals */
      , (12534, 2051407873, 2757754880, 101.184, 80.6316, 28.2793, 0.999272, 0, 0, 0.0381447) /* North Uziz Settlement Portal */
      , (12526, 2051407874, 2757754880, 110.746, 80.7933, 29.73, 0.99993, 0, 0, -0.0118458) /* Narziz Cottages Portal */

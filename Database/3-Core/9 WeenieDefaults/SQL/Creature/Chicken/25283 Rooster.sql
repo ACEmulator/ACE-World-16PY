@@ -1,16 +1,13 @@
 /* Weenie - Rooster (25283) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25283;
+DELETE FROM weenie WHERE class_Id = 25283;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25283, 'chickenrooster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25283, 'chickenrooster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25283, 0, 25283);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25283, 1, 'Rooster') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25283, 1, 33558422) /* SETUP_DID */
      , (25283, 2, 150995244) /* MOTION_TABLE_DID */
      , (25283, 3, 536871071) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (25283, 1, 33558422) /* SETUP_DID */
      , (25283, 7, 268436660) /* CLOTHINGBASE_DID */
      , (25283, 8, 100674625) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25283, 1, 16) /* ITEM_TYPE_INT */
      , (25283, 146, 50) /* XP_OVERRIDE_INT */
      , (25283, 2, 69) /* CREATURE_TYPE_INT */
@@ -33,10 +30,9 @@ VALUES (25283, 1, 16) /* ITEM_TYPE_INT */
      , (25283, 25, 7) /* LEVEL_INT */
      , (25283, 27, 0) /* ARMOR_TYPE_INT */
      , (25283, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25283, 40, 2) /* COMBAT_MODE_INT */
-     , (25283, 9007, 10) /* Creature_WeenieType */;
+     , (25283, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25283, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (25283, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (25283, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -69,26 +65,26 @@ VALUES (25283, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (25283, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25283, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25283, 1, True) /* STUCK_BOOL */
      , (25283, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25283, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25283, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25283, 1, 5) /* STRENGTH_ATTRIBUTE */
      , (25283, 2, 5) /* ENDURANCE_ATTRIBUTE */
      , (25283, 4, 5) /* COORDINATION_ATTRIBUTE */
-     , (25283, 8, 10) /* QUICKNESS_ATTRIBUTE */
-     , (25283, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (25283, 32, 1) /* SELF_ATTRIBUTE */;
+     , (25283, 3, 10) /* QUICKNESS_ATTRIBUTE */
+     , (25283, 5, 1) /* FOCUS_ATTRIBUTE */
+     , (25283, 6, 1) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25283, 64, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25283, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25283, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25283, 1, 0) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25283, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25283, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25283, 9, 262, 0, 0, 0.75, False) /* Create Chicken for ContainTreasure_DestinationType */
      , (25283, 9, 0, 0, 0, 0.25, False) /* Create  for ContainTreasure_DestinationType */;
 

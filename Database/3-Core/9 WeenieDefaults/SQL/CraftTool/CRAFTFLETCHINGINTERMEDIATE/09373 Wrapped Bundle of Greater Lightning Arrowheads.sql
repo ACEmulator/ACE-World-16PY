@@ -1,24 +1,21 @@
 /* Weenie - Wrapped Bundle of Greater Lightning Arrowheads (9373) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 9373;
+DELETE FROM weenie WHERE class_Id = 9373;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (9373, 'wrappedarrowheadgreaterelectric');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (9373, 'wrappedarrowheadgreaterelectric', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (9373, 0, 9373);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9373, 1, 'Wrapped Bundle of Greater Lightning Arrowheads') /* NAME_STRING */
      , (9373, 20, 'Wrapped Bundles of Greater Lightning Arrowheads') /* PLURAL_NAME_STRING */
      , (9373, 14, 'This item is used in fletching.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9373, 1, 33557030) /* SETUP_DID */
      , (9373, 3, 536870932) /* SOUND_TABLE_DID */
      , (9373, 8, 100671606) /* ICON_DID */
      , (9373, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9373, 9, 0) /* LOCATIONS_INT */
      , (9373, 1, 134217728) /* ITEM_TYPE_INT */
      , (9373, 13, 10) /* STACK_UNIT_ENCUMB_INT */
@@ -32,10 +29,9 @@ VALUES (9373, 9, 0) /* LOCATIONS_INT */
      , (9373, 19, 2500) /* VALUE_INT */
      , (9373, 93, 1044) /* PHYSICS_STATE_INT */
      , (9373, 94, 134217728) /* TARGET_TYPE_INT */
-     , (9373, 33, 1) /* BONDED_INT */
-     , (9373, 9007, 44) /* CraftTool_WeenieType */;
+     , (9373, 33, 1) /* BONDED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9373, 69, False) /* IS_SELLABLE_BOOL */
      , (9373, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

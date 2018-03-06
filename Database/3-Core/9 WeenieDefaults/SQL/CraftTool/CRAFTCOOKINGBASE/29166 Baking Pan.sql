@@ -1,23 +1,20 @@
 /* Weenie - Baking Pan (29166) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29166;
+DELETE FROM weenie WHERE class_Id = 29166;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29166, 'wortambertasty');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29166, 'wortambertasty', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29166, 0, 29166);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29166, 1, 'Baking Pan') /* NAME_STRING */
      , (29166, 14, 'This item is used in cooking.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29166, 1, 33555969) /* SETUP_DID */
      , (29166, 3, 536870932) /* SOUND_TABLE_DID */
      , (29166, 8, 100669993) /* ICON_DID */
      , (29166, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29166, 9, 0) /* LOCATIONS_INT */
      , (29166, 1, 4194304) /* ITEM_TYPE_INT */
      , (29166, 13, 150) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (29166, 9, 0) /* LOCATIONS_INT */
      , (29166, 150, 103) /* HOOK_PLACEMENT_INT */
      , (29166, 151, 2) /* HOOK_TYPE_INT */
      , (29166, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29166, 94, 4194336) /* TARGET_TYPE_INT */
-     , (29166, 9007, 44) /* CraftTool_WeenieType */;
+     , (29166, 94, 4194336) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29166, 22, True) /* INSCRIBABLE_BOOL */;
 

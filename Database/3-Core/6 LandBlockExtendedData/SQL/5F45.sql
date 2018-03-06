@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5489, 1978945536, 1598357760, 60, -20, -12, -0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1978945537, 1598357761, 60, -30, -12, -0.707107, 0, 0, -0.707107) /* "Mag-Ma!" */
      , (5489, 1978945638, 1598357762, 70, -10, -12, 0.707107, 0, 0, 0.707107) /* "Mag-Ma!" */
@@ -58,40 +58,40 @@ VALUES (5489, 1978945536, 1598357760, 60, -20, -12, -0.707107, 0, 0, -0.707107) 
      , (24139, 1978945620, 1598357863, 79.9249, -4.77114, 6.005, -0.0291999, 0, 0, 0.999574) /* Invisible Assailant */
      , (24139, 1978945624, 1598357875, 85.5703, -19.8325, 6.005, 0.385543, 0, 0, 0.92269) /* Invisible Assailant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1978945607'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1978945551'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1978945601'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1978945607'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1978945551'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1978945601'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945606'; /* linkmonstergen3minutes <- Judgment Statue */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945603'; /* linkmonstergen3minutes <- Mu Mu */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945604'; /* linkmonstergen3minutes <- Cao Cao */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945611'; /* linkmonstergen3minutes <- Shim Shim */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945608'; /* linkmonstergen3minutes <- Babysitter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1978945612'; /* linkmonstergen3minutes <- Po Po */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945575'; /* linkmonstergen3minutes <- Target */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945624'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945615'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945618'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945620'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945580'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945562'; /* linkmonstergen3minutes <- Invisible Assailant */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945560'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945561'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945572'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945591'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945594'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945595'; /* linkmonstergen3minutes <- Puzzle Box */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945570'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945568'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945636'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945631'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945634'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945635'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945637'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945640'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945642'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945641'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945644'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1978945645'; /* linkmonstergen3minutes <- A Rolling Ball */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1978945600'; /* linkitemgen10seconds <- Heart of Innocence */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945606'; /* linkmonstergen3minutes <- Judgment Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945603'; /* linkmonstergen3minutes <- Mu Mu */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945604'; /* linkmonstergen3minutes <- Cao Cao */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945611'; /* linkmonstergen3minutes <- Shim Shim */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945608'; /* linkmonstergen3minutes <- Babysitter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1978945612'; /* linkmonstergen3minutes <- Po Po */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945575'; /* linkmonstergen3minutes <- Target */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945624'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945615'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945618'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945620'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945580'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945562'; /* linkmonstergen3minutes <- Invisible Assailant */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945560'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945561'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945572'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945591'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945594'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945595'; /* linkmonstergen3minutes <- Puzzle Box */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945570'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945568'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945636'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945631'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945634'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945635'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945637'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945640'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945642'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945641'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945644'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1978945645'; /* linkmonstergen3minutes <- A Rolling Ball */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1978945600'; /* linkitemgen10seconds <- Heart of Innocence */
 

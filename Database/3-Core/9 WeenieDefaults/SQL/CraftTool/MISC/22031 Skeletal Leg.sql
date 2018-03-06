@@ -1,23 +1,20 @@
 /* Weenie - Skeletal Leg (22031) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22031;
+DELETE FROM weenie WHERE class_Id = 22031;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22031, 'legskeletal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22031, 'legskeletal', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22031, 0, 22031);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22031, 1, 'Skeletal Leg') /* NAME_STRING */
      , (22031, 14, 'Use this on a skeletal torso fitted with arms or one fitted with arms and a leg.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22031, 1, 33558034) /* SETUP_DID */
      , (22031, 3, 536870932) /* SOUND_TABLE_DID */
      , (22031, 8, 100673702) /* ICON_DID */
      , (22031, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22031, 9, 0) /* LOCATIONS_INT */
      , (22031, 1, 128) /* ITEM_TYPE_INT */
      , (22031, 13, 200) /* STACK_UNIT_ENCUMB_INT */
@@ -34,10 +31,9 @@ VALUES (22031, 9, 0) /* LOCATIONS_INT */
      , (22031, 93, 1044) /* PHYSICS_STATE_INT */
      , (22031, 94, 128) /* TARGET_TYPE_INT */
      , (22031, 33, 0) /* BONDED_INT */
-     , (22031, 114, 0) /* ATTUNED_INT */
-     , (22031, 9007, 44) /* CraftTool_WeenieType */;
+     , (22031, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22031, 22, True) /* INSCRIBABLE_BOOL */
      , (22031, 23, False) /* DESTROY_ON_SELL_BOOL */;
 

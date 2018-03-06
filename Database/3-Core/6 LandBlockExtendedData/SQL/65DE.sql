@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19127, 1985863680, 1709047808, 191.356, 23.9887, 146.112, 0.707107, 0, 0, -0.707107) /* Verdentine Magnan */
      , (7923, 1985863681, 1709047808, 191.356, 23.989, 146.112, 0.707107, 0, 0, -0.707107) /* linkmonstergen3minutes */
      , (8059, 1985863683, 1709047808, 17.4637, 119.735, 77.4994, 0.0263052, 0, 0, -0.999654) /* grievverscrawedcampgen */
@@ -10,9 +10,9 @@ VALUES (19127, 1985863680, 1709047808, 191.356, 23.9887, 146.112, 0.707107, 0, 0
      , (19435, 1985863689, 1709047808, 61.6642, 156.519, 69.5815, 0.555531, 0, 0, 0.831496) /* Red Phyntos Wasp */
      , (22258, 1985863690, 1709047808, 136.709, 17.344, 155.486, -0.707107, 0, 0, -0.707107) /* Olthoi Flag */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1985863681'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1985863688'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1985863681'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1985863688'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1985863680'; /* linkmonstergen3minutes <- Verdentine Magnan */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1985863689'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1985863680'; /* linkmonstergen3minutes <- Verdentine Magnan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1985863689'; /* linkmonstergen10minutes <- Red Phyntos Wasp */
 

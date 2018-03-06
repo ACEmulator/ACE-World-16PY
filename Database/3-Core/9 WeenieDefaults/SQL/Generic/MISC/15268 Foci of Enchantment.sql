@@ -1,17 +1,14 @@
 /* Weenie - Foci of Enchantment (15268) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 15268;
+DELETE FROM weenie WHERE class_Id = 15268;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (15268, 'packcreatureessence');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (15268, 'packcreatureessence', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (15268, 0, 15268);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15268, 1, 'Foci of Enchantment') /* NAME_STRING */
      , (15268, 15, 'A foci used to cast spells from the School of the Left Hand.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15268, 1, 33554769) /* SETUP_DID */
      , (15268, 3, 536870932) /* SOUND_TABLE_DID */
      , (15268, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (15268, 1, 33554769) /* SETUP_DID */
      , (15268, 8, 100671612) /* ICON_DID */
      , (15268, 50, 100671612) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15268, 33, 1) /* BONDED_INT */
      , (15268, 9, 0) /* LOCATIONS_INT */
      , (15268, 1, 128) /* ITEM_TYPE_INT */
@@ -30,13 +27,12 @@ VALUES (15268, 33, 1) /* BONDED_INT */
      , (15268, 5, 400) /* ENCUMB_VAL_INT */
      , (15268, 16, 56) /* ITEM_USEABLE_INT */
      , (15268, 8, 200) /* MASS_INT */
-     , (15268, 114, 1) /* ATTUNED_INT */
-     , (15268, 9007, 1) /* Generic_WeenieType */;
+     , (15268, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15268, 39, 1.75) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15268, 69, False) /* IS_SELLABLE_BOOL */
      , (15268, 81, True) /* REQUIRES_BACKPACK_SLOT_BOOL */
      , (15268, 84, True) /* IGNORE_CLO_ICONS_BOOL */

@@ -1,16 +1,13 @@
 /* Weenie - White Mattekar (2580) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 2580;
+DELETE FROM weenie WHERE class_Id = 2580;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (2580, 'mattekarwhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (2580, 'mattekarwhite', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (2580, 0, 2580);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2580, 1, 'White Mattekar') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2580, 1, 33555590) /* SETUP_DID */
      , (2580, 2, 150995047) /* MOTION_TABLE_DID */
      , (2580, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (2580, 1, 33555590) /* SETUP_DID */
      , (2580, 8, 100669121) /* ICON_DID */
      , (2580, 22, 872415278) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2580, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (2580, 1, 16) /* ITEM_TYPE_INT */
      , (2580, 146, 536) /* XP_OVERRIDE_INT */
@@ -33,10 +30,9 @@ VALUES (2580, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (2580, 25, 11) /* LEVEL_INT */
      , (2580, 93, 1032) /* PHYSICS_STATE_INT */
      , (2580, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (2580, 40, 2) /* COMBAT_MODE_INT */
-     , (2580, 9007, 10) /* Creature_WeenieType */;
+     , (2580, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2580, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (2580, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (2580, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (2580, 64, 0.58) /* RESIST_SLASH_FLOAT */
      , (2580, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (2580, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2580, 1, True) /* STUCK_BOOL */
      , (2580, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (2580, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2580, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (2580, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (2580, 2, 110) /* ENDURANCE_ATTRIBUTE */
      , (2580, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (2580, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (2580, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (2580, 32, 50) /* SELF_ATTRIBUTE */;
+     , (2580, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (2580, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (2580, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (2580, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (2580, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (2580, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (2580, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (2580, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (2580, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2580, 9, 4240, 0, 0, 0.03, False) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
      , (2580, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0.173377) /* collectorshogen */
      , (4550, 2120470551, 3862757638, 80.4207, 113.497, 87.605, 0.143339, 0, 0, -0.989674) /* Ye Te the Bowyer */
      , (4551, 2120470557, 3862757640, 80.8723, 156.652, 86.005, -0.0822382, 0, 0, 0.996613) /* Jo Gau the Grocer */
@@ -53,8 +53,8 @@ VALUES (4772, 2120470552, 3862757634, 86.344, 103.558, 90.805, 0.984856, 0, 0, 0
      , (12304, 2120470562, 3862757376, 102.536, 54.7218, 86.005, 0.999884, 0, 0, 0.0152548) /* Agent of the Arcanum  */
      , (4519, 2120470558, 3862757376, 75.014, 131.72, 86.005, 0.92388, 0, 0, -0.382683) /* Nanto */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2120470561'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2120470561'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470560'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2120470589'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470560'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2120470589'; /* linkmonstergen3minutes <- Small Creepy Statue */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1903, 2030190592, 2418278400, 183.208, 113.732, -0.095, 0.412278, 0, 0, 0.911058) /* Desert Ridge Border */
      , (1902, 2030190593, 2418278400, 128.554, 132.465, -0.095, 0.180084, 0, 0, 0.983651) /* Hilltop */
      , (1351, 2030190594, 2418278400, 128.883, 135.463, -0.095, 0.0611766, 0, 0, -0.998127) /* Sign */

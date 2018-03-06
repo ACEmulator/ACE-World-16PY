@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4053, 2087849992, 3340828928, 2.97536, 17.8265, 209.66, -0.972699, 0, 0, 0.232071) /* Mines of Despair */
      , (720, 2087849984, 3340828672, 78.979, 83.6233, 196.025, 0.0399139, 0, 0, -0.999203) /* Sliding Door */
      , (720, 2087849985, 3340828672, 79.3918, 78.5902, 196.025, 0.0399139, 0, 0, -0.999203) /* Sliding Door */
@@ -9,10 +9,10 @@ VALUES (4053, 2087849992, 3340828928, 2.97536, 17.8265, 209.66, -0.972699, 0, 0,
      , (1760, 2087849990, 3340828672, 70.9625, 83.8544, 196.005, -0.955356, 0, 0, 0.295456) /* Skeleton Warrior */
      , (3596, 2087849991, 3340828672, 67.8723, 85.6777, 196.005, -0.955863, 0, 0, 0.293814) /* linkmonsterscattergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2087849991'; /* linkmonsterscattergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087849991'; /* linkmonsterscattergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2087849988'; /* linkmonsterscattergen <- Undead */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2087849989'; /* linkmonsterscattergen <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2087849990'; /* linkmonsterscattergen <- Skeleton Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2087849987'; /* linkmonsterscattergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849988'; /* linkmonsterscattergen <- Undead */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849989'; /* linkmonsterscattergen <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849990'; /* linkmonsterscattergen <- Skeleton Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087849987'; /* linkmonsterscattergen <- Lich */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1632, 2047561743, 2696216834, 132.071, 109.98, 76.01, 0.427793, 0, 0, -0.903877) /* Drudge Slave */
      , (1632, 2047561745, 2696216834, 132.006, 108.498, 76.01, 0.694014, 0, 0, -0.719962) /* Drudge Slave */
      , (143, 2047561728, 2696216836, 127.246, 111.062, 79.0225, -0.709571, 0, 0, -0.704634) /* Chest */
@@ -15,15 +15,15 @@ VALUES (1632, 2047561743, 2696216834, 132.071, 109.98, 76.01, 0.427793, 0, 0, -0
      , (1154, 2047561739, 2696216576, 148.104, 115.99, 76.005, 0.994405, 0, 0, -0.105635) /* linkmonstergen */
      , (1625, 2047561746, 2696216576, 171.401, 145.947, 76.012, -0.971848, 0, 0, -0.235609) /* Mountain Rat */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2047561739'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2047561739'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561733'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561734'; /* linkmonstergen <- Drudge Prowler */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561748'; /* linkmonstergen <- Banderling Blade */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561747'; /* linkmonstergen <- Banderling Blade */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561744'; /* linkmonstergen <- Banderling Blade */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561743'; /* linkmonstergen <- Drudge Slave */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561745'; /* linkmonstergen <- Drudge Slave */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561746'; /* linkmonstergen <- Mountain Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2047561749'; /* linkmonstergen <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561733'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561734'; /* linkmonstergen <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561748'; /* linkmonstergen <- Banderling Blade */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561747'; /* linkmonstergen <- Banderling Blade */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561744'; /* linkmonstergen <- Banderling Blade */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561743'; /* linkmonstergen <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561745'; /* linkmonstergen <- Drudge Slave */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561746'; /* linkmonstergen <- Mountain Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2047561749'; /* linkmonstergen <- Mountain Rat */
 

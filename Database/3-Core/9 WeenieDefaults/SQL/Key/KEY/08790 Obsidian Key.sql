@@ -1,13 +1,10 @@
 /* Weenie - Obsidian Key (8790) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8790;
+DELETE FROM weenie WHERE class_Id = 8790;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8790, 'keyobsidian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8790, 'keyobsidian', /* Key_WeenieType */ 22);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8790, 0, 8790);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8790, 16, 'A key to the chest in the Lair of the Hopeslayer.') /* LONG_DESC_STRING */
      , (8790, 1, 'Obsidian Key') /* NAME_STRING */
      , (8790, 33, 'HopeslayerObsidianKey') /* QUEST_STRING */
@@ -15,13 +12,13 @@ VALUES (8790, 16, 'A key to the chest in the Lair of the Hopeslayer.') /* LONG_D
      , (8790, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */
      , (8790, 15, 'A key to the chest in the Lair of the Hopeslayer.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8790, 1, 33554784) /* SETUP_DID */
      , (8790, 3, 536870932) /* SOUND_TABLE_DID */
      , (8790, 8, 100671245) /* ICON_DID */
      , (8790, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8790, 1, 16384) /* ITEM_TYPE_INT */
      , (8790, 93, 1044) /* PHYSICS_STATE_INT */
      , (8790, 5, 10) /* ENCUMB_VAL_INT */
@@ -32,10 +29,9 @@ VALUES (8790, 1, 16384) /* ITEM_TYPE_INT */
      , (8790, 92, 1) /* STRUCTURE_INT */
      , (8790, 94, 640) /* TARGET_TYPE_INT */
      , (8790, 33, 1) /* BONDED_INT */
-     , (8790, 114, 1) /* ATTUNED_INT */
-     , (8790, 9007, 22) /* Key_WeenieType */;
+     , (8790, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8790, 22, True) /* INSCRIBABLE_BOOL */
      , (8790, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

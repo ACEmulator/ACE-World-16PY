@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.728371) /* Tailor Ma Shih */
      , (720, 2107985922, 3663003915, 36.145, 111, 20, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (720, 2107985923, 3663003915, 36.145, 105, 20, 0.707107, 0, 0, -0.707107) /* Sliding Door */
@@ -93,15 +93,15 @@ VALUES (843, 2107985964, 3663003906, 138.36, 178.8, 21.61, -0.685183, 0, 0, -0.7
      , (4135, 2107985989, 3663003648, 41.6209, 40.6596, 21.9665, -0.707107, 0, 0, -0.707107) /* Archmage Chen Wah-Ji */
      , (153, 2107985990, 3663003648, 89.52, 112.68, 20, 1, 0, 0, 0) /* Fountain */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107985968'; /* linkmonstergen1hour */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2107985994'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107985968'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107985994'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107985962'; /* linkmonstergen1hour <- Oi-Tong Ye  */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107986034'; /* linkmonstergen1hour <- Apprentice Alchemist */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986046'; /* linkmonstergen3minutes <- Cooking Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986048'; /* linkmonstergen3minutes <- Fletching Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986047'; /* linkmonstergen3minutes <- Salvaging Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986050'; /* linkmonstergen3minutes <- Lockpick Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986049'; /* linkmonstergen3minutes <- Alchemy Forge */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107986043'; /* linkmonstergen3minutes <- Lou Ka */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107985962'; /* linkmonstergen1hour <- Oi-Tong Ye  */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107986034'; /* linkmonstergen1hour <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986046'; /* linkmonstergen3minutes <- Cooking Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986048'; /* linkmonstergen3minutes <- Fletching Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986047'; /* linkmonstergen3minutes <- Salvaging Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986050'; /* linkmonstergen3minutes <- Lockpick Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986049'; /* linkmonstergen3minutes <- Alchemy Forge */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107986043'; /* linkmonstergen3minutes <- Lou Ka */
 

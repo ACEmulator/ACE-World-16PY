@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4542, 2107879448, 3661299974, 114.211, 40.7714, 18.005, -0.333767, 0, 0, 0.942656) /* Ri-Gau Ro the Bowyer */
      , (3924, 2107879437, 3661299983, 104.606, 88.639, 6.805, 0.61995, 0, 0, -0.784641) /* Wing Collector */
      , (1154, 2107879438, 3661299983, 106.534, 89.5565, 6.805, -0.712275, 0, 0, 0.701901) /* linkmonstergen */
@@ -41,11 +41,11 @@ VALUES (4542, 2107879448, 3661299974, 114.211, 40.7714, 18.005, -0.333767, 0, 0,
      , (4503, 2107879447, 3661299712, 153.228, 86.1752, 2.79562, 0.707107, 0, 0, -0.707107) /* Tekai the Scribe */
      , (5431, 2107879449, 3661299712, 116.827, 38.5033, 19.8, 0.707107, 0, 0, -0.707107) /* Forest's Blessing Bows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2107879438'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2107879470'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2107879438'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2107879470'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879437'; /* linkmonstergen <- Wing Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2107879445'; /* linkmonstergen <- Collector */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879469'; /* linkmonstergen3minutes <- Tian Li Quan */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2107879472'; /* linkmonstergen3minutes <- Jojii Shrine */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879437'; /* linkmonstergen <- Wing Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2107879445'; /* linkmonstergen <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879469'; /* linkmonstergen3minutes <- Tian Li Quan */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2107879472'; /* linkmonstergen3minutes <- Jojii Shrine */
 

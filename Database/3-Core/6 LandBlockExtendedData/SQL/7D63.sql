@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1148, 2010525696, 2103640320, 35.975, 84, 9.205, 0.707107, 0, 0, -0.707107) /* Door */
      , (4179, 2010525706, 2103640325, 29.113, 89.58, 9.45, 0.127887, 0, 0, -0.991789) /* Bonfire */
      , (794, 2010525697, 2103640064, 187.184, 115.728, 15.9622, 0.406236, 0, 0, 0.913768) /* applegenerator */
@@ -13,7 +13,7 @@ VALUES (1148, 2010525696, 2103640320, 35.975, 84, 9.205, 0.707107, 0, 0, -0.7071
      , (5178, 2010525708, 2103640064, 23.5602, 85.6381, 11.9683, 0.719682, 0, 0, 0.694304) /* Lubziklan al-Luq */
      , (7923, 2010525709, 2103640064, 24.6039, 88.2084, 12.005, -0.609033, 0, 0, 0.793145) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010525709'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2010525709'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010525708'; /* linkmonstergen3minutes <- Lubziklan al-Luq */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010525708'; /* linkmonstergen3minutes <- Lubziklan al-Luq */
 

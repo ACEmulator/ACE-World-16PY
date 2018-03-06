@@ -1,16 +1,13 @@
 /* Weenie - Dagger of Frozen Fury (24099) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24099;
+DELETE FROM weenie WHERE class_Id = 24099;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24099, 'daggerfrozenfury');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24099, 'daggerfrozenfury', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24099, 0, 24099);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24099, 1, 'Dagger of Frozen Fury') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24099, 1, 33558264) /* SETUP_DID */
      , (24099, 3, 536870932) /* SOUND_TABLE_DID */
      , (24099, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (24099, 1, 33558264) /* SETUP_DID */
      , (24099, 7, 268435783) /* CLOTHINGBASE_DID */
      , (24099, 8, 100674255) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24099, 9, 1048576) /* LOCATIONS_INT */
      , (24099, 1, 1) /* ITEM_TYPE_INT */
      , (24099, 5, 100) /* ENCUMB_VAL_INT */
@@ -42,10 +39,9 @@ VALUES (24099, 9, 1048576) /* LOCATIONS_INT */
      , (24099, 47, 6) /* ATTACK_TYPE_INT */
      , (24099, 48, 4) /* WEAPON_SKILL_INT */
      , (24099, 49, 10) /* WEAPON_TIME_INT */
-     , (24099, 51, 1) /* COMBAT_USE_INT */
-     , (24099, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (24099, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24099, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (24099, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (24099, 5, -0.1) /* MANA_RATE_FLOAT */
@@ -53,10 +49,10 @@ VALUES (24099, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (24099, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (24099, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24099, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24099, 1604, 2) /* Defender5_SpellID */
      , (24099, 1591, 2) /* HeartSeeker5_SpellID */
      , (24099, 1615, 2) /* BloodDrinker5_SpellID */

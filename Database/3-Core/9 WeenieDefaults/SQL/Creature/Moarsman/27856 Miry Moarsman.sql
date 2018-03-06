@@ -1,16 +1,13 @@
 /* Weenie - Miry Moarsman (27856) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27856;
+DELETE FROM weenie WHERE class_Id = 27856;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27856, 'moarsmanmiry');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27856, 'moarsmanmiry', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27856, 0, 27856);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27856, 1, 'Miry Moarsman') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27856, 1, 33556882) /* SETUP_DID */
      , (27856, 2, 150995104) /* MOTION_TABLE_DID */
      , (27856, 35, 448) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (27856, 1, 33556882) /* SETUP_DID */
      , (27856, 8, 100671185) /* ICON_DID */
      , (27856, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27856, 1, 16) /* ITEM_TYPE_INT */
      , (27856, 2, 34) /* CREATURE_TYPE_INT */
      , (27856, 3, 26) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (27856, 1, 16) /* ITEM_TYPE_INT */
      , (27856, 27, 0) /* ARMOR_TYPE_INT */
      , (27856, 93, 1032) /* PHYSICS_STATE_INT */
      , (27856, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (27856, 40, 2) /* COMBAT_MODE_INT */
-     , (27856, 9007, 10) /* Creature_WeenieType */;
+     , (27856, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27856, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (27856, 65, 0.56) /* RESIST_PIERCE_FLOAT */
      , (27856, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (27856, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (27856, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (27856, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27856, 1, True) /* STUCK_BOOL */
      , (27856, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (27856, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27856, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27856, 1, 380) /* STRENGTH_ATTRIBUTE */
      , (27856, 2, 340) /* ENDURANCE_ATTRIBUTE */
      , (27856, 4, 280) /* COORDINATION_ATTRIBUTE */
-     , (27856, 8, 360) /* QUICKNESS_ATTRIBUTE */
-     , (27856, 16, 280) /* FOCUS_ATTRIBUTE */
-     , (27856, 32, 320) /* SELF_ATTRIBUTE */;
+     , (27856, 3, 360) /* QUICKNESS_ATTRIBUTE */
+     , (27856, 5, 280) /* FOCUS_ATTRIBUTE */
+     , (27856, 6, 320) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27856, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27856, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27856, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27856, 1, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27856, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27856, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27856, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
      , (27856, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
 

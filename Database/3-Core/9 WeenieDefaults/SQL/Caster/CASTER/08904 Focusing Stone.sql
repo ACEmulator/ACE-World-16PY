@@ -1,19 +1,16 @@
 /* Weenie - Focusing Stone (8904) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8904;
+DELETE FROM weenie WHERE class_Id = 8904;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8904, 'focusingstoneimbued');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8904, 'focusingstoneimbued', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8904, 0, 8904);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8904, 16, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* LONG_DESC_STRING */
      , (8904, 1, 'Focusing Stone') /* NAME_STRING */
      , (8904, 33, 'FocusingStoneImbued') /* QUEST_STRING */
      , (8904, 15, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8904, 1, 33556976) /* SETUP_DID */
      , (8904, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (8904, 3, 536870932) /* SOUND_TABLE_DID */
@@ -24,7 +21,7 @@ VALUES (8904, 1, 33556976) /* SETUP_DID */
      , (8904, 7, 268436041) /* CLOTHINGBASE_DID */
      , (8904, 8, 100671374) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8904, 9, 16777216) /* LOCATIONS_INT */
      , (8904, 1, 32768) /* ITEM_TYPE_INT */
      , (8904, 19, 3000) /* VALUE_INT */
@@ -45,23 +42,22 @@ VALUES (8904, 9, 16777216) /* LOCATIONS_INT */
      , (8904, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
      , (8904, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (8904, 114, 1) /* ATTUNED_INT */
-     , (8904, 117, 7500) /* ITEM_MANA_COST_INT */
-     , (8904, 9007, 35) /* Caster_WeenieType */;
+     , (8904, 117, 7500) /* ITEM_MANA_COST_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8904, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (8904, 5, -0.05) /* MANA_RATE_FLOAT */
      , (8904, 39, 0.7) /* DEFAULT_SCALE_FLOAT */
      , (8904, 76, 0.2) /* TRANSLUCENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8904, 99, True) /* IVORYABLE_BOOL */
      , (8904, 69, False) /* IS_SELLABLE_BOOL */
      , (8904, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (8904, 15, True) /* LIGHTS_STATUS_BOOL */
      , (8904, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8904, 2346, 2) /* MaledictionSelf_SpellID */
      , (8904, 2347, 2) /* ConcentrationSelf_SpellID */;
 

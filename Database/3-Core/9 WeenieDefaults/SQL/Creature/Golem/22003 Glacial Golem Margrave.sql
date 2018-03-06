@@ -1,16 +1,13 @@
 /* Weenie - Glacial Golem Margrave (22003) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22003;
+DELETE FROM weenie WHERE class_Id = 22003;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22003, 'golemglacialmargraveportal1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22003, 'golemglacialmargraveportal1', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22003, 0, 22003);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22003, 1, 'Glacial Golem Margrave') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22003, 1, 33557484) /* SETUP_DID */
      , (22003, 2, 150995073) /* MOTION_TABLE_DID */
      , (22003, 3, 536870933) /* SOUND_TABLE_DID */
@@ -22,7 +19,7 @@ VALUES (22003, 1, 33557484) /* SETUP_DID */
      , (22003, 8, 100667940) /* ICON_DID */
      , (22003, 31, 21405) /* LINKED_PORTAL_ONE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22003, 1, 16) /* ITEM_TYPE_INT */
      , (22003, 2, 13) /* CREATURE_TYPE_INT */
      , (22003, 3, 10) /* PALETTE_TEMPLATE_INT */
@@ -36,10 +33,9 @@ VALUES (22003, 1, 16) /* ITEM_TYPE_INT */
      , (22003, 25, 70) /* LEVEL_INT */
      , (22003, 27, 0) /* ARMOR_TYPE_INT */
      , (22003, 93, 1032) /* PHYSICS_STATE_INT */
-     , (22003, 40, 2) /* COMBAT_MODE_INT */
-     , (22003, 9007, 10) /* Creature_WeenieType */;
+     , (22003, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22003, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22003, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (22003, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -76,36 +72,36 @@ VALUES (22003, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (22003, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (22003, 31, 10) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22003, 1, True) /* STUCK_BOOL */
      , (22003, 6, False) /* AI_USES_MANA_BOOL */
      , (22003, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (22003, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22003, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22003, 1310, 2.02) /* ArmorSelf4_SpellID */
      , (22003, 232, 2.02) /* VulnerabilityOther4_SpellID */
      , (22003, 108, 2.02) /* FrostBlast4_SpellID */
      , (22003, 1325, 2.02) /* ImperilOther4_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (22003, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (22003, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (22003, 4, 40) /* COORDINATION_ATTRIBUTE */
-     , (22003, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (22003, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (22003, 32, 110) /* SELF_ATTRIBUTE */;
+     , (22003, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (22003, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (22003, 6, 110) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22003, 64, 4900) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22003, 128, 5800) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22003, 256, 2890) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (22003, 1, 4900) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22003, 3, 5800) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22003, 5, 2890) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22003, 12, 1464008980, 10.121, -32.81, -5.995, -4.371139E-08, 0, 0, -1) /* PORTAL_SUMMON_LOC_POSITION */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22003, 9, 6354, 0, 0, 0.2, False) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
      , (22003, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Banished Monouga (30884) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30884;
+DELETE FROM weenie WHERE class_Id = 30884;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30884, 'monougabossmid0205');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30884, 'monougabossmid0205', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30884, 0, 30884);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30884, 1, 'Banished Monouga') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30884, 8, 100669117) /* ICON_DID */
      , (30884, 32, 271) /* WIELDED_TREASURE_TYPE_DID */
      , (30884, 1, 33555199) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (30884, 8, 100669117) /* ICON_DID */
      , (30884, 7, 268436620) /* CLOTHINGBASE_DID */
      , (30884, 22, 872415257) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30884, 1, 16) /* ITEM_TYPE_INT */
      , (30884, 2, 28) /* CREATURE_TYPE_INT */
      , (30884, 3, 76) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (30884, 1, 16) /* ITEM_TYPE_INT */
      , (30884, 27, 0) /* ARMOR_TYPE_INT */
      , (30884, 93, 4195336) /* PHYSICS_STATE_INT */
      , (30884, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (30884, 40, 2) /* COMBAT_MODE_INT */
-     , (30884, 9007, 10) /* Creature_WeenieType */;
+     , (30884, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30884, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (30884, 65, 0.9) /* RESIST_PIERCE_FLOAT */
      , (30884, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,27 +69,27 @@ VALUES (30884, 64, 0.6) /* RESIST_SLASH_FLOAT */
      , (30884, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (30884, 31, 21) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30884, 1, True) /* STUCK_BOOL */
      , (30884, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (30884, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (30884, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30884, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30884, 1, 240) /* STRENGTH_ATTRIBUTE */
      , (30884, 2, 390) /* ENDURANCE_ATTRIBUTE */
      , (30884, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (30884, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (30884, 16, 145) /* FOCUS_ATTRIBUTE */
-     , (30884, 32, 125) /* SELF_ATTRIBUTE */;
+     , (30884, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (30884, 5, 145) /* FOCUS_ATTRIBUTE */
+     , (30884, 6, 125) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30884, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30884, 128, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30884, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30884, 1, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30884, 3, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30884, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30884, 9, 12253, 0, 0, 0.09, False) /* Create Monougat for ContainTreasure_DestinationType */
      , (30884, 9, 0, 0, 0, 0.91, False) /* Create  for ContainTreasure_DestinationType */
      , (30884, 9, 30862, 0, 0, 1, False) /* Create Banished Nekode for ContainTreasure_DestinationType */;

@@ -1,16 +1,13 @@
 /* Weenie - Water Golem (941) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 941;
+DELETE FROM weenie WHERE class_Id = 941;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (941, 'golemwater');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (941, 'golemwater', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (941, 0, 941);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (941, 1, 'Water Golem') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (941, 1, 33556454) /* SETUP_DID */
      , (941, 2, 150995073) /* MOTION_TABLE_DID */
      , (941, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (941, 1, 33556454) /* SETUP_DID */
      , (941, 8, 100667940) /* ICON_DID */
      , (941, 22, 872415330) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (941, 25, 9) /* LEVEL_INT */
      , (941, 1, 16) /* ITEM_TYPE_INT */
      , (941, 146, 348) /* XP_OVERRIDE_INT */
@@ -31,10 +28,9 @@ VALUES (941, 25, 9) /* LEVEL_INT */
      , (941, 16, 1) /* ITEM_USEABLE_INT */
      , (941, 27, 0) /* ARMOR_TYPE_INT */
      , (941, 93, 1032) /* PHYSICS_STATE_INT */
-     , (941, 40, 2) /* COMBAT_MODE_INT */
-     , (941, 9007, 10) /* Creature_WeenieType */;
+     , (941, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (941, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (941, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (941, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -68,34 +64,34 @@ VALUES (941, 64, 0.33) /* RESIST_SLASH_FLOAT */
      , (941, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (941, 31, 13) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (941, 1, True) /* STUCK_BOOL */
      , (941, 6, True) /* AI_USES_MANA_BOOL */
      , (941, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (941, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (941, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (941, 70, 2.02) /* FrostBolt2_SpellID */
      , (941, 6, 2.01) /* HealSelf1_SpellID */
      , (941, 28, 2.075) /* FrostBolt1_SpellID */
      , (941, 1249, 2.02) /* DrainStamina1_SpellID */
      , (941, 58, 2.075) /* AcidStream1_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (941, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (941, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (941, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (941, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (941, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (941, 32, 50) /* SELF_ATTRIBUTE */;
+     , (941, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (941, 5, 50) /* FOCUS_ATTRIBUTE */
+     , (941, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (941, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (941, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (941, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (941, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (941, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (941, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (941, 9, 6353, 0, 0, 0.01, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
      , (941, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (941, 9, 10760, 0, 0, 0.03, False) /* Create Wet Towel for ContainTreasure_DestinationType */

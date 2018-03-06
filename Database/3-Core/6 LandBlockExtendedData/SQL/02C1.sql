@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27772, 1881935886, 46203154, 37.0318, -36.4181, -5.995, -0.9415, 0, 0, -0.337012) /* Adjanite Gem */
      , (27774, 1881935887, 46203162, 63.1009, -16.8414, -5.9748, 0.864142, 0, 0, 0.503249) /* Labyrinthine Necklace */
      , (15759, 1881935888, 46203162, 55.987, -23.2608, -5.995, 0.747184, 0, 0, 0.664617) /* linkitemgen10seconds */
@@ -19,23 +19,23 @@ VALUES (27772, 1881935886, 46203154, 37.0318, -36.4181, -5.995, -0.9415, 0, 0, -
      , (8475, 1881935884, 46203253, 120, -20, 6, 0.707107, 0, 0, -0.707107) /* Surface Portal */
      , (7924, 1881935885, 46203261, 139.456, -21.1812, 6.01222, 0.707107, 0, 0, -0.707107) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881935885'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881935888'; /* linkitemgen10seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881935885'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881935888'; /* linkitemgen10seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935883'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935872'; /* linkmonstergen5minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935875'; /* linkmonstergen5minutes <- Ashen Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935879'; /* linkmonstergen5minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935874'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935876'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935878'; /* linkmonstergen5minutes <- Ashen Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935882'; /* linkmonstergen5minutes <- Ashen Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935880'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935881'; /* linkmonstergen5minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935873'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935891'; /* linkmonstergen5minutes <- Pallid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935890'; /* linkmonstergen5minutes <- Sallow Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881935889'; /* linkmonstergen5minutes <- Ashen Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935887'; /* linkitemgen10seconds <- Labyrinthine Necklace */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881935886'; /* linkitemgen10seconds <- Adjanite Gem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935883'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935872'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935875'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935879'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935874'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935876'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935878'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935882'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935880'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935881'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935873'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935891'; /* linkmonstergen5minutes <- Pallid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935890'; /* linkmonstergen5minutes <- Sallow Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881935889'; /* linkmonstergen5minutes <- Ashen Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881935887'; /* linkitemgen10seconds <- Labyrinthine Necklace */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881935886'; /* linkitemgen10seconds <- Adjanite Gem */
 

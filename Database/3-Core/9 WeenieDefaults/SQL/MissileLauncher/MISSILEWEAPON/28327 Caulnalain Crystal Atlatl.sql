@@ -1,17 +1,14 @@
 /* Weenie - Caulnalain Crystal Atlatl (28327) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28327;
+DELETE FROM weenie WHERE class_Id = 28327;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28327, 'atlatlcrystalcaulnew');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28327, 'atlatlcrystalcaulnew', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28327, 0, 28327);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28327, 16, 'An atlatl imbued with the essence of the Caulnalain Crystal. Uses crystal-tipped darts.') /* LONG_DESC_STRING */
      , (28327, 1, 'Caulnalain Crystal Atlatl') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28327, 1, 33557433) /* SETUP_DID */
      , (28327, 3, 536870932) /* SOUND_TABLE_DID */
      , (28327, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28327, 1, 33557433) /* SETUP_DID */
      , (28327, 7, 268436042) /* CLOTHINGBASE_DID */
      , (28327, 8, 100674033) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28327, 9, 4194304) /* LOCATIONS_INT */
      , (28327, 1, 256) /* ITEM_TYPE_INT */
      , (28327, 19, 2000) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (28327, 9, 4194304) /* LOCATIONS_INT */
      , (28327, 49, 30) /* WEAPON_TIME_INT */
      , (28327, 50, 32) /* AMMO_TYPE_INT */
      , (28327, 51, 2) /* COMBAT_USE_INT */
-     , (28327, 60, 120) /* WEAPON_RANGE_INT */
-     , (28327, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (28327, 60, 120) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28327, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (28327, 5, -0.05) /* MANA_RATE_FLOAT */
      , (28327, 63, 2.55) /* DAMAGE_MOD_FLOAT */
@@ -59,11 +55,11 @@ VALUES (28327, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (28327, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (28327, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28327, 22, True) /* INSCRIBABLE_BOOL */
      , (28327, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28327, 1603, 2) /* Defender4_SpellID */
      , (28327, 1614, 2) /* BloodDrinker4_SpellID */
      , (28327, 536, 2) /* ThrownWeaponMasteryOther4_SpellID */

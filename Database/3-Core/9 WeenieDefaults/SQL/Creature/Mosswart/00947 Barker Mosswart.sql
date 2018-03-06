@@ -1,16 +1,13 @@
 /* Weenie - Barker Mosswart (947) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 947;
+DELETE FROM weenie WHERE class_Id = 947;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (947, 'mosswartbarker');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (947, 'mosswartbarker', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (947, 0, 947);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (947, 1, 'Barker Mosswart') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (947, 8, 100667449) /* ICON_DID */
      , (947, 32, 121) /* WIELDED_TREASURE_TYPE_DID */
      , (947, 1, 33557327) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (947, 8, 100667449) /* ICON_DID */
      , (947, 7, 268436292) /* CLOTHINGBASE_DID */
      , (947, 22, 872415264) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (947, 1, 16) /* ITEM_TYPE_INT */
      , (947, 2, 4) /* CREATURE_TYPE_INT */
      , (947, 3, 58) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (947, 1, 16) /* ITEM_TYPE_INT */
      , (947, 27, 0) /* ARMOR_TYPE_INT */
      , (947, 93, 1032) /* PHYSICS_STATE_INT */
      , (947, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (947, 40, 2) /* COMBAT_MODE_INT */
-     , (947, 9007, 10) /* Creature_WeenieType */;
+     , (947, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (947, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (947, 65, 0.8) /* RESIST_PIERCE_FLOAT */
      , (947, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (947, 64, 0.55) /* RESIST_SLASH_FLOAT */
      , (947, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (947, 31, 18) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (947, 1, True) /* STUCK_BOOL */
      , (947, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (947, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (947, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (947, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (947, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (947, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (947, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (947, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (947, 32, 50) /* SELF_ATTRIBUTE */;
+     , (947, 3, 90) /* QUICKNESS_ATTRIBUTE */
+     , (947, 5, 60) /* FOCUS_ATTRIBUTE */
+     , (947, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (947, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (947, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (947, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (947, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (947, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (947, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (947, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (947, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (947, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */

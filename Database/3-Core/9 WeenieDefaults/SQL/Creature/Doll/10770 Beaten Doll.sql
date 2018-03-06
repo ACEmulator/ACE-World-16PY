@@ -1,16 +1,13 @@
 /* Weenie - Beaten Doll (10770) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10770;
+DELETE FROM weenie WHERE class_Id = 10770;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10770, 'dollbeaten');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10770, 'dollbeaten', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10770, 0, 10770);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10770, 1, 'Beaten Doll') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10770, 1, 33557063) /* SETUP_DID */
      , (10770, 2, 150994984) /* MOTION_TABLE_DID */
      , (10770, 35, 465) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (10770, 1, 33557063) /* SETUP_DID */
      , (10770, 8, 100671421) /* ICON_DID */
      , (10770, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10770, 1, 16) /* ITEM_TYPE_INT */
      , (10770, 2, 53) /* CREATURE_TYPE_INT */
      , (10770, 3, 3) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (10770, 1, 16) /* ITEM_TYPE_INT */
      , (10770, 16, 1) /* ITEM_USEABLE_INT */
      , (10770, 146, 2565) /* XP_OVERRIDE_INT */
      , (10770, 25, 26) /* LEVEL_INT */
-     , (10770, 93, 1032) /* PHYSICS_STATE_INT */
-     , (10770, 9007, 10) /* Creature_WeenieType */;
+     , (10770, 93, 1032) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10770, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10770, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (10770, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,14 +66,14 @@ VALUES (10770, 64, 1) /* RESIST_SLASH_FLOAT */
      , (10770, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (10770, 31, 14) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10770, 1, True) /* STUCK_BOOL */
      , (10770, 6, True) /* AI_USES_MANA_BOOL */
      , (10770, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (10770, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (10770, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10770, 81, 2.025) /* FlameBolt2_SpellID */
      , (10770, 1157, 2) /* HealSelf2_SpellID */
      , (10770, 70, 2.025) /* FrostBolt2_SpellID */
@@ -91,16 +87,16 @@ VALUES (10770, 81, 2.025) /* FlameBolt2_SpellID */
      , (10770, 1260, 2.02) /* DrainMana1_SpellID */
      , (10770, 1084, 2.06) /* LightningVulnerabilityOther1_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (10770, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (10770, 2, 140) /* ENDURANCE_ATTRIBUTE */
      , (10770, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (10770, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (10770, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (10770, 32, 140) /* SELF_ATTRIBUTE */;
+     , (10770, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (10770, 5, 140) /* FOCUS_ATTRIBUTE */
+     , (10770, 6, 140) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (10770, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (10770, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (10770, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (10770, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (10770, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (10770, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 

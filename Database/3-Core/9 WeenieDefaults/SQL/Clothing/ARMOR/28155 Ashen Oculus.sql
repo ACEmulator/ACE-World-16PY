@@ -1,17 +1,14 @@
 /* Weenie - Ashen Oculus (28155) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28155;
+DELETE FROM weenie WHERE class_Id = 28155;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28155, 'oculusash');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28155, 'oculusash', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28155, 0, 28155);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28155, 16, 'A solidifed adolescent ash gromnie eye.') /* LONG_DESC_STRING */
      , (28155, 1, 'Ashen Oculus') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28155, 1, 33554809) /* SETUP_DID */
      , (28155, 3, 536870932) /* SOUND_TABLE_DID */
      , (28155, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (28155, 1, 33554809) /* SETUP_DID */
      , (28155, 7, 268436858) /* CLOTHINGBASE_DID */
      , (28155, 8, 100674136) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28155, 9, 1) /* LOCATIONS_INT */
      , (28155, 1, 2) /* ITEM_TYPE_INT */
      , (28155, 27, 32) /* ARMOR_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (28155, 9, 1) /* LOCATIONS_INT */
      , (28155, 106, 400) /* ITEM_SPELLCRAFT_INT */
      , (28155, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (28155, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (28155, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (28155, 9007, 2) /* Clothing_WeenieType */;
+     , (28155, 109, 200) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28155, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28155, 5, -0.033) /* MANA_RATE_FLOAT */
      , (28155, 12, 0.66) /* SHADE_FLOAT */
@@ -53,10 +49,10 @@ VALUES (28155, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28155, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (28155, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28155, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28155, 3371, 2) /* lifegivergreater_SpellID */
      , (28155, 2158, 2) /* LightningProtectionOther7_SpellID */
      , (28155, 2622, 2) /* CANTRIPSTORMWARD1_SpellID */;

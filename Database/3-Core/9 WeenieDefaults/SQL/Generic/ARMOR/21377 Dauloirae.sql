@@ -1,23 +1,20 @@
 /* Weenie - Dauloirae (21377) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 21377;
+DELETE FROM weenie WHERE class_Id = 21377;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (21377, 'shieldgaerlan');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (21377, 'shieldgaerlan', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (21377, 0, 21377);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21377, 1, 'Dauloirae') /* NAME_STRING */
      , (21377, 15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21377, 1, 33557964) /* SETUP_DID */
      , (21377, 3, 536870932) /* SOUND_TABLE_DID */
      , (21377, 8, 100673491) /* ICON_DID */
      , (21377, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21377, 9, 2097152) /* LOCATIONS_INT */
      , (21377, 1, 2) /* ITEM_TYPE_INT */
      , (21377, 5, 750) /* ENCUMB_VAL_INT */
@@ -38,10 +35,9 @@ VALUES (21377, 9, 2097152) /* LOCATIONS_INT */
      , (21377, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (21377, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (21377, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (21377, 51, 4) /* COMBAT_USE_INT */
-     , (21377, 9007, 1) /* Generic_WeenieType */;
+     , (21377, 51, 4) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21377, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (21377, 5, -0.05) /* MANA_RATE_FLOAT */
      , (21377, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
@@ -53,11 +49,11 @@ VALUES (21377, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (21377, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (21377, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21377, 69, False) /* IS_SELLABLE_BOOL */
      , (21377, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21377, 514, 2) /* AcidProtectionOther6_SpellID */
      , (21377, 1572, 2) /* PiercingBane4_SpellID */
      , (21377, 1485, 2) /* Impenetrability5_SpellID */

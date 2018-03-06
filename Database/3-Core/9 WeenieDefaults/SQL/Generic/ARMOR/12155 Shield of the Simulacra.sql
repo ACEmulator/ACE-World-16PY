@@ -1,18 +1,15 @@
 /* Weenie - Shield of the Simulacra (12155) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12155;
+DELETE FROM weenie WHERE class_Id = 12155;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12155, 'shieldsimulacra');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12155, 'shieldsimulacra', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12155, 0, 12155);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12155, 16, 'A shield enchanted with powerful magic, taken from the Northern Infiltrator Keep dungeon.') /* LONG_DESC_STRING */
      , (12155, 1, 'Shield of the Simulacra') /* NAME_STRING */
      , (12155, 33, 'ShieldSimulacra') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12155, 1, 33554786) /* SETUP_DID */
      , (12155, 3, 536870932) /* SOUND_TABLE_DID */
      , (12155, 37, 6) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (12155, 1, 33554786) /* SETUP_DID */
      , (12155, 7, 268435607) /* CLOTHINGBASE_DID */
      , (12155, 8, 100672136) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12155, 9, 2097152) /* LOCATIONS_INT */
      , (12155, 1, 2) /* ITEM_TYPE_INT */
      , (12155, 19, 3000) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (12155, 9, 2097152) /* LOCATIONS_INT */
      , (12155, 109, 35) /* ITEM_DIFFICULTY_INT */
      , (12155, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (12155, 51, 4) /* COMBAT_USE_INT */
-     , (12155, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12155, 9007, 1) /* Generic_WeenieType */;
+     , (12155, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12155, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12155, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (12155, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
@@ -57,10 +53,10 @@ VALUES (12155, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (12155, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (12155, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12155, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12155, 1484, 2) /* Impenetrability4_SpellID */
      , (12155, 1376, 2) /* CoordinationSelf4_SpellID */
      , (12155, 1330, 2) /* StrengthSelf4_SpellID */;

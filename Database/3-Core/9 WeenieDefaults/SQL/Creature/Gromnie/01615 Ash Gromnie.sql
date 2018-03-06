@@ -1,16 +1,13 @@
 /* Weenie - Ash Gromnie (1615) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1615;
+DELETE FROM weenie WHERE class_Id = 1615;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1615, 'gromnieash');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1615, 'gromnieash', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1615, 0, 1615);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1615, 1, 'Ash Gromnie') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1615, 1, 33554487) /* SETUP_DID */
      , (1615, 2, 150994971) /* MOTION_TABLE_DID */
      , (1615, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (1615, 1, 33554487) /* SETUP_DID */
      , (1615, 8, 100667938) /* ICON_DID */
      , (1615, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1615, 1, 16) /* ITEM_TYPE_INT */
      , (1615, 146, 2306) /* XP_OVERRIDE_INT */
      , (1615, 2, 15) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (1615, 1, 16) /* ITEM_TYPE_INT */
      , (1615, 25, 26) /* LEVEL_INT */
      , (1615, 27, 0) /* ARMOR_TYPE_INT */
      , (1615, 93, 1032) /* PHYSICS_STATE_INT */
-     , (1615, 40, 2) /* COMBAT_MODE_INT */
-     , (1615, 9007, 10) /* Creature_WeenieType */;
+     , (1615, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1615, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1615, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (1615, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (1615, 64, 1) /* RESIST_SLASH_FLOAT */
      , (1615, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1615, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1615, 1, True) /* STUCK_BOOL */
      , (1615, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1615, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1615, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1615, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (1615, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (1615, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (1615, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (1615, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (1615, 32, 50) /* SELF_ATTRIBUTE */;
+     , (1615, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (1615, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (1615, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1615, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1615, 128, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1615, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1615, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1615, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1615, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1615, 9, 3674, 0, 0, 0.05, False) /* Create Ash Gromnie Tooth for ContainTreasure_DestinationType */
      , (1615, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (1615, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */

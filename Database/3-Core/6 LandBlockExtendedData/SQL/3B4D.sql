@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23565, 1941229595, 994902272, 33.1172, 109.962, 2.006, -0.976065, 0, 0, -0.217477) /* Tumerok Major */
      , (2065, 1941229569, 994902276, 38.634, 130.219, 2.005, 0.707107, 0, 0, -0.707107) /* Town of Dryreach */
      , (23565, 1941229588, 994902280, 14.2601, 133.643, 2.006, -0.98938, 0, 0, -0.145353) /* Tumerok Major */
@@ -16,19 +16,19 @@ VALUES (23565, 1941229595, 994902272, 33.1172, 109.962, 2.006, -0.976065, 0, 0, 
      , (23565, 1941229597, 994902016, 33.0838, 126.526, 2.006, -0.283485, 0, 0, -0.958977) /* Tumerok Major */
      , (23565, 1941229596, 994902016, 31.1935, 104.818, 10.806, -0.681585, 0, 0, -0.731739) /* Tumerok Major */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1941229587'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1941229587'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229592'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229598'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229599'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229588'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229589'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229590'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229591'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229593'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229595'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229596'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229597'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229600'; /* linkmonstergen3minutes <- Tumerok Major */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941229594'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229592'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229598'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229599'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229588'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229589'; /* linkmonstergen3minutes <- Tumerok Taskmaster */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229590'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229591'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229593'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229595'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229596'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229597'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229600'; /* linkmonstergen3minutes <- Tumerok Major */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941229594'; /* linkmonstergen3minutes <- Tumerok Major */
 

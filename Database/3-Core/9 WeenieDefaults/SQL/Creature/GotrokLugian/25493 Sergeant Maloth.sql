@@ -1,17 +1,14 @@
 /* Weenie - Sergeant Maloth (25493) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25493;
+DELETE FROM weenie WHERE class_Id = 25493;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25493, 'renegadegarrisonguard');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25493, 'renegadegarrisonguard', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25493, 0, 25493);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25493, 1, 'Sergeant Maloth') /* NAME_STRING */
      , (25493, 5, 'Gotrok Sergeant') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25493, 1, 33557003) /* SETUP_DID */
      , (25493, 2, 150994950) /* MOTION_TABLE_DID */
      , (25493, 3, 536870922) /* SOUND_TABLE_DID */
@@ -21,10 +18,10 @@ VALUES (25493, 1, 33557003) /* SETUP_DID */
      , (25493, 7, 268436153) /* CLOTHINGBASE_DID */
      , (25493, 8, 100667447) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_iid` (`aceObjectId`, `iidPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
 VALUES (25493, 16, 1980010542) /* ACTIVATION_TARGET_IID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25493, 1, 16) /* ITEM_TYPE_INT */
      , (25493, 2, 70) /* CREATURE_TYPE_INT */
      , (25493, 3, 21) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (25493, 1, 16) /* ITEM_TYPE_INT */
      , (25493, 27, 0) /* ARMOR_TYPE_INT */
      , (25493, 93, 6292504) /* PHYSICS_STATE_INT */
      , (25493, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (25493, 119, 1) /* ACTIVE_INT */
-     , (25493, 9007, 10) /* Creature_WeenieType */;
+     , (25493, 119, 1) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25493, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25493, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (25493, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (25493, 64, 1) /* RESIST_SLASH_FLOAT */
      , (25493, 54, 3) /* USE_RADIUS_FLOAT */
      , (25493, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25493, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25493, 1, True) /* STUCK_BOOL */
      , (25493, 8, True) /* ALLOW_GIVE_BOOL */
@@ -84,16 +80,16 @@ VALUES (25493, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (25493, 13, False) /* ETHEREAL_BOOL */
      , (25493, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25493, 1, 260) /* STRENGTH_ATTRIBUTE */
      , (25493, 2, 210) /* ENDURANCE_ATTRIBUTE */
      , (25493, 4, 125) /* COORDINATION_ATTRIBUTE */
-     , (25493, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (25493, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (25493, 32, 150) /* SELF_ATTRIBUTE */;
+     , (25493, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (25493, 5, 110) /* FOCUS_ATTRIBUTE */
+     , (25493, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25493, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25493, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25493, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25493, 1, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25493, 3, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25493, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6122, 1972654080, 1497694464, 0.015341, -50, -29.9244, 1, 0, 0, 0) /* Acid */
      , (21383, 1972654108, 1497694464, 0.453568, -51.3429, -29.995, 0.701755, 0, 0, -0.712418) /* Gaerlan */
      , (7926, 1972654109, 1497694464, 0.015341, -45.4881, -27.27, 1, 0, 0, 0) /* linkmonstergen20minutes */
@@ -20,21 +20,21 @@ VALUES (6122, 1972654080, 1497694464, 0.015341, -50, -29.9244, 1, 0, 0, 0) /* Ac
      , (21549, 1972654105, 1497694550, 60, -40, 6.0065, 1, 0, 0, 0) /* Corrosion Wisp */
      , (21549, 1972654106, 1497694662, 89.5643, -37.5076, 6.0065, 0.997576, 0, 0, -0.069591) /* Corrosion Wisp */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1972654101'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1972654109'; /* linkmonstergen20minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1972654101'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1972654109'; /* linkmonstergen20minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654098'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654103'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654099'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654100'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654097'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654102'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654106'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654105'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654094'; /* linkmonstergen5minutes <- Caustic */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654095'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654096'; /* linkmonstergen5minutes <- Miasma */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654093'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1972654104'; /* linkmonstergen5minutes <- Corrosion Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1972654108'; /* linkmonstergen20minutes <- Gaerlan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654098'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654103'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654099'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654100'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654097'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654102'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654106'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654105'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654094'; /* linkmonstergen5minutes <- Caustic */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654095'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654096'; /* linkmonstergen5minutes <- Miasma */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654093'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1972654104'; /* linkmonstergen5minutes <- Corrosion Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1972654108'; /* linkmonstergen20minutes <- Gaerlan */
 

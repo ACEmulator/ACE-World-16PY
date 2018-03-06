@@ -1,16 +1,13 @@
 /* Weenie - Virindi Castaway (27814) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27814;
+DELETE FROM weenie WHERE class_Id = 27814;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27814, 'virindicastawaymartine');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27814, 'virindicastawaymartine', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27814, 0, 27814);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27814, 1, 'Virindi Castaway') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27814, 1, 33554497) /* SETUP_DID */
      , (27814, 2, 150994984) /* MOTION_TABLE_DID */
      , (27814, 3, 536870930) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (27814, 1, 33554497) /* SETUP_DID */
      , (27814, 7, 268436129) /* CLOTHINGBASE_DID */
      , (27814, 8, 100667943) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27814, 1, 16) /* ITEM_TYPE_INT */
      , (27814, 2, 19) /* CREATURE_TYPE_INT */
      , (27814, 3, 17) /* PALETTE_TEMPLATE_INT */
@@ -33,10 +30,9 @@ VALUES (27814, 1, 16) /* ITEM_TYPE_INT */
      , (27814, 25, 11) /* LEVEL_INT */
      , (27814, 27, 0) /* ARMOR_TYPE_INT */
      , (27814, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (27814, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (27814, 9007, 10) /* Creature_WeenieType */;
+     , (27814, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27814, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27814, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (27814, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -67,7 +63,7 @@ VALUES (27814, 64, 1) /* RESIST_SLASH_FLOAT */
      , (27814, 54, 3) /* USE_RADIUS_FLOAT */
      , (27814, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27814, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (27814, 1, True) /* STUCK_BOOL */
      , (27814, 8, True) /* ALLOW_GIVE_BOOL */
@@ -77,16 +73,16 @@ VALUES (27814, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (27814, 13, False) /* ETHEREAL_BOOL */
      , (27814, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (27814, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (27814, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (27814, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (27814, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (27814, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (27814, 32, 130) /* SELF_ATTRIBUTE */;
+     , (27814, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (27814, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (27814, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27814, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27814, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27814, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (27814, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27814, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27814, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 

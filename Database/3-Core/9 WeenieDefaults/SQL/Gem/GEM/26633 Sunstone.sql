@@ -1,17 +1,14 @@
 /* Weenie - Sunstone (26633) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26633;
+DELETE FROM weenie WHERE class_Id = 26633;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26633, 'gemtemplered');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26633, 'gemtemplered', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26633, 0, 26633);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26633, 1, 'Sunstone') /* NAME_STRING */
      , (26633, 33, 'TempleSacredStone') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26633, 1, 33554809) /* SETUP_DID */
      , (26633, 3, 536870932) /* SOUND_TABLE_DID */
      , (26633, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (26633, 1, 33554809) /* SETUP_DID */
      , (26633, 7, 268435723) /* CLOTHINGBASE_DID */
      , (26633, 8, 100674717) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26633, 9, 0) /* LOCATIONS_INT */
      , (26633, 1, 2048) /* ITEM_TYPE_INT */
      , (26633, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,9 +33,8 @@ VALUES (26633, 9, 0) /* LOCATIONS_INT */
      , (26633, 19, 0) /* VALUE_INT */
      , (26633, 93, 1044) /* PHYSICS_STATE_INT */
      , (26633, 33, 1) /* BONDED_INT */
-     , (26633, 114, 1) /* ATTUNED_INT */
-     , (26633, 9007, 38) /* Gem_WeenieType */;
+     , (26633, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26633, 22, True) /* INSCRIBABLE_BOOL */;
 

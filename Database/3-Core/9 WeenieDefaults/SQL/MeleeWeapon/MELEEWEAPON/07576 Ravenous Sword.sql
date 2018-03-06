@@ -1,18 +1,15 @@
 /* Weenie - Ravenous Sword (7576) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7576;
+DELETE FROM weenie WHERE class_Id = 7576;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7576, 'swordravenous');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7576, 'swordravenous', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7576, 0, 7576);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7576, 16, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LONG_DESC_STRING */
      , (7576, 1, 'Ravenous Sword') /* NAME_STRING */
      , (7576, 15, 'A sword crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7576, 1, 33556658) /* SETUP_DID */
      , (7576, 3, 536870932) /* SOUND_TABLE_DID */
      , (7576, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -22,7 +19,7 @@ VALUES (7576, 1, 33556658) /* SETUP_DID */
      , (7576, 7, 268435788) /* CLOTHINGBASE_DID */
      , (7576, 8, 100668915) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7576, 9, 1048576) /* LOCATIONS_INT */
      , (7576, 1, 1) /* ITEM_TYPE_INT */
      , (7576, 19, 5000) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (7576, 9, 1048576) /* LOCATIONS_INT */
      , (7576, 49, 50) /* WEAPON_TIME_INT */
      , (7576, 114, 1) /* ATTUNED_INT */
      , (7576, 51, 1) /* COMBAT_USE_INT */
-     , (7576, 115, 275) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7576, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (7576, 115, 275) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7576, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (7576, 21, 1.1) /* WEAPON_LENGTH_FLOAT */
      , (7576, 5, -0.1) /* MANA_RATE_FLOAT */
@@ -57,12 +53,12 @@ VALUES (7576, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (7576, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (7576, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7576, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (7576, 15, True) /* LIGHTS_STATUS_BOOL */
      , (7576, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7576, 1994, 2) /* WoundTwister_SpellID */
      , (7576, 1995, 2) /* Alacrity_SpellID */
      , (7576, 1996, 2) /* SoulHunter_SpellID */;

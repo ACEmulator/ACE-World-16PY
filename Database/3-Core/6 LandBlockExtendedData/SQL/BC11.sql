@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2076250112, 3155230998, 56.64, 68.7758, 240.002, 0, 0, 0, -1) /* Door */
      , (9104, 2076250143, 3155231007, 62.8661, 64.0006, 248.364, 0.709373, 0, 0, -0.704834) /* Trunk */
      , (412, 2076250113, 3155231014, 44.7757, 87.36, 240.002, -0.707107, 0, 0, -0.707107) /* Door */
@@ -31,16 +31,16 @@ VALUES (412, 2076250112, 3155230998, 56.64, 68.7758, 240.002, 0, 0, 0, -1) /* Do
      , (9027, 2076250125, 3155230720, 94.528, 87, 240.082, -0.707107, 0, 0, -0.707107) /* Lyceum Gates */
      , (4219, 2076250130, 3155230720, 75.6475, 75.4834, 240.005, 0.719576, 0, 0, -0.694414) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2076250125'; /* Lyceum Gates */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2076250124'; /* Lyceum Gates */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2076250130'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='2076250138'; /* linkitemgen25seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2076250125'; /* Lyceum Gates */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2076250124'; /* Lyceum Gates */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2076250130'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='2076250138'; /* linkitemgen25seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2076250126'; /* Lyceum Gates <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2076250127'; /* Lyceum Gates <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250128'; /* linkmonstergen7minutes <- Guardian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250129'; /* linkmonstergen7minutes <- Guardian Golem */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2076250140'; /* linkmonstergen7minutes <- Eaushi the Trainer */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250139'; /* linkitemgen25seconds <- Slip of Paper */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='2076250141'; /* linkitemgen25seconds <- Lightweight Tome */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2076250126'; /* Lyceum Gates <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2076250127'; /* Lyceum Gates <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250128'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250129'; /* linkmonstergen7minutes <- Guardian Golem */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2076250140'; /* linkmonstergen7minutes <- Eaushi the Trainer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250139'; /* linkitemgen25seconds <- Slip of Paper */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='2076250141'; /* linkitemgen25seconds <- Lightweight Tome */
 

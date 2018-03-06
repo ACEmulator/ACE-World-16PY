@@ -1,18 +1,15 @@
 /* Weenie - King's Helm (8204) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8204;
+DELETE FROM weenie WHERE class_Id = 8204;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8204, 'regaliaaluvian');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8204, 'regaliaaluvian', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8204, 0, 8204);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8204, 16, 'A finely crafted mask with the features of the legendary high king Pwyll upon it. It is a testament to the skill of its maker -- the features almost look life-like, and it is a comfortable fit on your head.') /* LONG_DESC_STRING */
      , (8204, 1, 'King''s Helm') /* NAME_STRING */
      , (8204, 19, 'Aluvian') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8204, 1, 33556860) /* SETUP_DID */
      , (8204, 3, 536870932) /* SOUND_TABLE_DID */
      , (8204, 37, 4) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (8204, 1, 33556860) /* SETUP_DID */
      , (8204, 7, 268436078) /* CLOTHINGBASE_DID */
      , (8204, 8, 100671132) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8204, 9, 1) /* LOCATIONS_INT */
      , (8204, 1, 2) /* ITEM_TYPE_INT */
      , (8204, 19, 2000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (8204, 9, 1) /* LOCATIONS_INT */
      , (8204, 107, 200) /* ITEM_CUR_MANA_INT */
      , (8204, 108, 200) /* ITEM_MAX_MANA_INT */
      , (8204, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8204, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8204, 9007, 2) /* Clothing_WeenieType */;
+     , (8204, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8204, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8204, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (8204, 12, 0.66) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (8204, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (8204, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (8204, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8204, 22, True) /* INSCRIBABLE_BOOL */
      , (8204, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8204, 325, 2) /* DaggerMasterySelf4_SpellID */
      , (8204, 247, 2) /* InvulnerabilitySelf4_SpellID */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22650, 1977892864, 1581515009, 131.557, -237.417, -47.995, 0.71054, 0, 0, 0.703657) /* Legend of the Tusker King */
      , (22517, 1977892865, 1581515010, 139.952, -232.84, -47.9835, 0.70021, 0, 0, -0.713937) /* Annihilator */
      , (22517, 1977892866, 1581515011, 139.865, -237.309, -47.9835, 0.70021, 0, 0, -0.713937) /* Annihilator */
@@ -212,152 +212,152 @@ VALUES (22650, 1977892864, 1581515009, 131.557, -237.417, -47.995, 0.71054, 0, 0
      , (22747, 1977893011, 1581515629, 118.993, -105.315, 0.005, 0.0742412, 0, 0, -0.99724) /* Reaper */
      , (14546, 1977893075, 1581515635, 120, -120, 0.005, 1, 0, 0, 0) /* Putrescent Air */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1977893005'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1977893005'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892990'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892994'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892970'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892971'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892983'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892984'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892991'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892961'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892902'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892901'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892882'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892885'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892886'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892883'; /* linkmonstergen7minutes <- Iron Spined Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892887'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892884'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892879'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892878'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892877'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892881'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892880'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892875'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892918'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892913'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892890'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892893'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892894'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892891'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892889'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892892'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892888'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892895'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892896'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892898'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892900'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892897'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892899'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892876'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892948'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892933'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892972'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892985'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892992'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892967'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892973'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892986'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892995'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892962'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892963'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892996'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892998'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892965'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892975'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892988'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892987'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892989'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892997'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892964'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892974'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892976'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892929'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892930'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892931'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892932'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892927'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892928'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892925'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892926'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892953'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892954'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892955'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892956'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892951'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892952'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892949'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892950'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892944'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892945'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892946'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892947'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892936'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892937'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892934'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892935'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892942'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892943'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892941'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892940'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892938'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892939'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892908'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892903'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892906'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892904'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892907'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892905'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892909'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892914'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892919'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892922'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892917'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892912'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893010'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892910'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893011'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892915'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893001'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892920'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893002'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892921'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892999'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892916'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893000'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892911'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893008'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892923'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893009'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892924'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893003'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892867'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893004'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892869'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893007'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892873'; /* linkmonstergen7minutes <- Assailer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977893006'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892874'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892968'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892870'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892969'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892868'; /* linkmonstergen7minutes <- Devastator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892981'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892871'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892982'; /* linkmonstergen7minutes <- Obsidian Chittick */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892872'; /* linkmonstergen7minutes <- Tusker Sycophant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892979'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892865'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892980'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892866'; /* linkmonstergen7minutes <- Annihilator */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892977'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892978'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892959'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892960'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892958'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892957'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892966'; /* linkmonstergen7minutes <- Reaper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1977892993'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892990'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892994'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892970'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892971'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892983'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892984'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892991'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892961'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892902'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892901'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892882'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892885'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892886'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892883'; /* linkmonstergen7minutes <- Iron Spined Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892887'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892884'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892879'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892878'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892877'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892881'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892880'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892875'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892918'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892913'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892890'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892893'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892894'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892891'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892889'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892892'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892888'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892895'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892896'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892898'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892900'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892897'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892899'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892876'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892948'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892933'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892972'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892985'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892992'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892967'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892973'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892986'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892995'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892962'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892963'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892996'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892998'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892965'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892975'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892988'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892987'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892989'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892997'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892964'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892974'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892976'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892929'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892930'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892931'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892932'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892927'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892928'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892925'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892926'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892953'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892954'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892955'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892956'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892951'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892952'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892949'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892950'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892944'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892945'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892946'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892947'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892936'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892937'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892934'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892935'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892942'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892943'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892941'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892940'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892938'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892939'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892908'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892903'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892906'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892904'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892907'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892905'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892909'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892914'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892919'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892922'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892917'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892912'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893010'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892910'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893011'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892915'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893001'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892920'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893002'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892921'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892999'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892916'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893000'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892911'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893008'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892923'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893009'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892924'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893003'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892867'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893004'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892869'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893007'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892873'; /* linkmonstergen7minutes <- Assailer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977893006'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892874'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892968'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892870'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892969'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892868'; /* linkmonstergen7minutes <- Devastator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892981'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892871'; /* linkmonstergen7minutes <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892982'; /* linkmonstergen7minutes <- Obsidian Chittick */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892872'; /* linkmonstergen7minutes <- Tusker Sycophant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892979'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892865'; /* linkmonstergen7minutes <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892980'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892866'; /* linkmonstergen7minutes <- Annihilator */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892977'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892978'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892959'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892960'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892958'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892957'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892966'; /* linkmonstergen7minutes <- Reaper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1977892993'; /* linkmonstergen7minutes <- Reaper */
 

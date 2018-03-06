@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (857, 2121588777, 3880648963, 86.9182, 153.638, 34.005, 0.445417, 0, 0, 0.895323) /* Archmage Anyao Zai */
      , (28477, 2121588920, 3880648963, 78.6258, 155.74, 34.005, -0.97337, 0, 0, 0.22924) /* Li Fong */
      , (856, 2121588776, 3880648975, 44.04, 162.96, 32.005, 0.445417, 0, 0, 0.895323) /* Archmage Shikiru Nohon */
@@ -116,9 +116,9 @@ VALUES (857, 2121588777, 3880648963, 86.9182, 153.638, 34.005, 0.445417, 0, 0, 0
      , (11811, 2121588811, 3880648704, 85.4, 134.997, 32.005, -0.99925, 0, 0, -0.0387243) /* Shosa Kiroji Matanui */
      , (7923, 2121588813, 3880648704, 79.6925, 88.354, 32.005, -0.563311, 0, 0, 0.826245) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2121588813'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2121588813'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588904'; /* linkmonstergen3minutes <- Sign */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588811'; /* linkmonstergen3minutes <- Shosa Kiroji Matanui */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2121588920'; /* linkmonstergen3minutes <- Li Fong */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121588904'; /* linkmonstergen3minutes <- Sign */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121588811'; /* linkmonstergen3minutes <- Shosa Kiroji Matanui */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2121588920'; /* linkmonstergen3minutes <- Li Fong */
 

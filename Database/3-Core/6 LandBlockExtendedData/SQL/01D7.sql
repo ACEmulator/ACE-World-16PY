@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4027, 1880977409, 30867712, 16.7839, -22.0965, -36, -4.37114E-08, 0, 0, -1) /* itemmedminergen */
      , (7340, 1880977557, 30867712, 19.2668, -20.2021, -35.971, 0.74613, 0, 0, -0.6658) /* Virindi Observer */
      , (5624, 1880977410, 30867713, 34.75, -20, -36, 0.707107, 0, 0, -0.707107) /* Door */
@@ -142,98 +142,98 @@ VALUES (4027, 1880977409, 30867712, 16.7839, -22.0965, -36, -4.37114E-08, 0, 0, 
      , (7923, 1880977588, 30868086, 58.87, -131.126, 0.005, -0.923879, 0, 0, -0.382684) /* linkmonstergen3minutes */
      , (7923, 1880977589, 30868086, 58.0779, -130.355, 0.005, -0.923879, 0, 0, -0.382684) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880977446'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880977530'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880977555'; /* linknewbiemonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880977454'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880977452'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880977547'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880977548'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880977498'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880977493'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880977489'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1880977486'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1880977484'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1880977478'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1880977442'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1880977426'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1880977428'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1880977587'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1880977588'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1880977589'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880977446'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880977530'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880977555'; /* linknewbiemonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880977454'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880977452'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880977547'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880977548'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880977498'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880977493'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880977489'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880977486'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1880977484'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880977478'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1880977442'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1880977426'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1880977428'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880977587'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1880977588'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1880977589'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880977447'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880977460'; /* Door <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880977528'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977444'; /* linknewbiemonstergen <- Wari al Sha'im */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977418'; /* linknewbiemonstergen <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977429'; /* linknewbiemonstergen <- Shadow Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977435'; /* linknewbiemonstergen <- Inferno */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977411'; /* linknewbiemonstergen <- Astyrrian */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880977557'; /* linknewbiemonstergen <- Virindi Observer */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880977453'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880977451'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880977545'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880977546'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880977497'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880977494'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880977488'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880977492'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880977483'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880977475'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880977441'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880977425'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880977427'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977569'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977558'; /* linkmonstergen3minutes <- Ice Golem */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977574'; /* linkmonstergen3minutes <- Banderling Breeder */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977573'; /* linkmonstergen3minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977583'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977582'; /* linkmonstergen3minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977581'; /* linkmonstergen3minutes <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977577'; /* linkmonstergen3minutes <- Desert Rat */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977567'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977561'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977560'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977559'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977562'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977563'; /* linkmonstergen3minutes <- Glacial Golem */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977565'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977564'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977584'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977508'; /* linkmonstergen3minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977576'; /* linkmonstergen3minutes <- Desert Rat */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880977549'; /* linkmonstergen3minutes <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977575'; /* linkmonstergen3minutes <- Desert Rat */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977578'; /* linkmonstergen3minutes <- Desert Rat */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977572'; /* linkmonstergen3minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977585'; /* linkmonstergen3minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977586'; /* linkmonstergen3minutes <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977541'; /* linkmonstergen3minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977580'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977579'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977566'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977568'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977571'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977570'; /* linkmonstergen3minutes <- Banderling Bandit */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977543'; /* linkmonstergen3minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977500'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977542'; /* linkmonstergen3minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977503'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977505'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977499'; /* linkmonstergen3minutes <- Shadow Child */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977544'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880977537'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977540'; /* linkmonstergen3minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977496'; /* linkmonstergen3minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977539'; /* linkmonstergen3minutes <- Shadow Child */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977443'; /* linkmonstergen3minutes <- Lich */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977450'; /* linkmonstergen3minutes <- Lich Lord */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977506'; /* linkmonstergen3minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977504'; /* linkmonstergen3minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977512'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977536'; /* linkmonstergen3minutes <- Banderling Captain */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977513'; /* linkmonstergen3minutes <- Granite Golem */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977501'; /* linkmonstergen3minutes <- Male Tusker */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880977535'; /* linkmonstergen3minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880977447'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880977460'; /* Door <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880977528'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977444'; /* linknewbiemonstergen <- Wari al Sha'im */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977418'; /* linknewbiemonstergen <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977429'; /* linknewbiemonstergen <- Shadow Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977435'; /* linknewbiemonstergen <- Inferno */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977411'; /* linknewbiemonstergen <- Astyrrian */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880977557'; /* linknewbiemonstergen <- Virindi Observer */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880977453'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880977451'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880977545'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880977546'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880977497'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880977494'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880977488'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880977492'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880977483'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880977475'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880977441'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880977425'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880977427'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977569'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977558'; /* linkmonstergen3minutes <- Ice Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977574'; /* linkmonstergen3minutes <- Banderling Breeder */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977573'; /* linkmonstergen3minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977583'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977582'; /* linkmonstergen3minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977581'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977577'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977567'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977561'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977560'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977559'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977562'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977563'; /* linkmonstergen3minutes <- Glacial Golem */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977565'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977564'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977584'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977508'; /* linkmonstergen3minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977576'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880977549'; /* linkmonstergen3minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977575'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977578'; /* linkmonstergen3minutes <- Desert Rat */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977572'; /* linkmonstergen3minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977585'; /* linkmonstergen3minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977586'; /* linkmonstergen3minutes <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977541'; /* linkmonstergen3minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977580'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977579'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977566'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977568'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977571'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977570'; /* linkmonstergen3minutes <- Banderling Bandit */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977543'; /* linkmonstergen3minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977500'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977542'; /* linkmonstergen3minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977503'; /* linkmonstergen3minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977505'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977499'; /* linkmonstergen3minutes <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977544'; /* linkmonstergen3minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880977537'; /* linkmonstergen3minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977540'; /* linkmonstergen3minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977496'; /* linkmonstergen3minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977539'; /* linkmonstergen3minutes <- Shadow Child */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977443'; /* linkmonstergen3minutes <- Lich */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977450'; /* linkmonstergen3minutes <- Lich Lord */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977506'; /* linkmonstergen3minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977504'; /* linkmonstergen3minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977512'; /* linkmonstergen3minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977536'; /* linkmonstergen3minutes <- Banderling Captain */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977513'; /* linkmonstergen3minutes <- Granite Golem */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977501'; /* linkmonstergen3minutes <- Male Tusker */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880977535'; /* linkmonstergen3minutes <- Banderling Breeder */
 

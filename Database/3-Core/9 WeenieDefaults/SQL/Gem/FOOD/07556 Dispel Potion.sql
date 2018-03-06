@@ -1,18 +1,15 @@
 /* Weenie - Dispel Potion (7556) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7556;
+DELETE FROM weenie WHERE class_Id = 7556;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7556, 'potiondispel1');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7556, 'potiondispel1', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7556, 0, 7556);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7556, 16, 'A potion capable of dispelling negative enchantments of level 4 or lower.') /* LONG_DESC_STRING */
      , (7556, 1, 'Dispel Potion') /* NAME_STRING */
      , (7556, 15, 'A dispel potion.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7556, 1, 33554603) /* SETUP_DID */
      , (7556, 27, 318767233) /* USE_USER_ANIMATION_DID */
      , (7556, 3, 536870932) /* SOUND_TABLE_DID */
@@ -24,7 +21,7 @@ VALUES (7556, 1, 33554603) /* SETUP_DID */
      , (7556, 8, 100670741) /* ICON_DID */
      , (7556, 28, 1867) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7556, 9, 0) /* LOCATIONS_INT */
      , (7556, 1, 32) /* ITEM_TYPE_INT */
      , (7556, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -44,9 +41,8 @@ VALUES (7556, 9, 0) /* LOCATIONS_INT */
      , (7556, 107, 50) /* ITEM_CUR_MANA_INT */
      , (7556, 108, 50) /* ITEM_MAX_MANA_INT */
      , (7556, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (7556, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (7556, 9007, 38) /* Gem_WeenieType */;
+     , (7556, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7556, 69, False) /* IS_SELLABLE_BOOL */;
 

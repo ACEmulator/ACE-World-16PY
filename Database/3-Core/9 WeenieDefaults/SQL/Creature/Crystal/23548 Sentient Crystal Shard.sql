@@ -1,16 +1,13 @@
 /* Weenie - Sentient Crystal Shard (23548) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23548;
+DELETE FROM weenie WHERE class_Id = 23548;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23548, 'crystalshardsentient');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23548, 'crystalshardsentient', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23548, 0, 23548);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23548, 1, 'Sentient Crystal Shard') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23548, 1, 33556732) /* SETUP_DID */
      , (23548, 2, 150995107) /* MOTION_TABLE_DID */
      , (23548, 3, 536871001) /* SOUND_TABLE_DID */
@@ -21,7 +18,7 @@ VALUES (23548, 1, 33556732) /* SETUP_DID */
      , (23548, 7, 268435859) /* CLOTHINGBASE_DID */
      , (23548, 8, 100670283) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23548, 1, 16) /* ITEM_TYPE_INT */
      , (23548, 2, 47) /* CREATURE_TYPE_INT */
      , (23548, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (23548, 1, 16) /* ITEM_TYPE_INT */
      , (23548, 27, 0) /* ARMOR_TYPE_INT */
      , (23548, 93, 1032) /* PHYSICS_STATE_INT */
      , (23548, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (23548, 40, 2) /* COMBAT_MODE_INT */
-     , (23548, 9007, 10) /* Creature_WeenieType */;
+     , (23548, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23548, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23548, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (23548, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -78,7 +74,7 @@ VALUES (23548, 64, 1) /* RESIST_SLASH_FLOAT */
      , (23548, 125, 0) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (23548, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23548, 1, True) /* STUCK_BOOL */
      , (23548, 6, True) /* AI_USES_MANA_BOOL */
      , (23548, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -86,7 +82,7 @@ VALUES (23548, 1, True) /* STUCK_BOOL */
      , (23548, 13, False) /* ETHEREAL_BOOL */
      , (23548, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23548, 2168, 2.083) /* ColdVulnerabilityOther7_SpellID */
      , (23548, 2064, 2.083) /* FeeblemindOther7_SpellID */
      , (23548, 2056, 2.083) /* ClumsinessOther7_SpellID */
@@ -97,20 +93,20 @@ VALUES (23548, 2168, 2.083) /* ColdVulnerabilityOther7_SpellID */
      , (23548, 2162, 2.083) /* AcidVulnerabilityOther7_SpellID */
      , (23548, 2172, 2.083) /* LightningVulnerabilityOther7_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (23548, 1, 220) /* STRENGTH_ATTRIBUTE */
      , (23548, 2, 220) /* ENDURANCE_ATTRIBUTE */
      , (23548, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (23548, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (23548, 16, 420) /* FOCUS_ATTRIBUTE */
-     , (23548, 32, 560) /* SELF_ATTRIBUTE */;
+     , (23548, 3, 240) /* QUICKNESS_ATTRIBUTE */
+     , (23548, 5, 420) /* FOCUS_ATTRIBUTE */
+     , (23548, 6, 560) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23548, 64, 14890) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (23548, 128, 4780) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (23548, 256, 14440) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (23548, 1, 14890) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (23548, 3, 4780) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (23548, 5, 14440) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23548, 9, 23853, 0, 0, 0.0125, False) /* Create Seared Shard for ContainTreasure_DestinationType */
      , (23548, 9, 23854, 0, 0, 0.0125, False) /* Create Chilled Shard for ContainTreasure_DestinationType */
      , (23548, 9, 23849, 0, 0, 0.0125, False) /* Create Scored Shard for ContainTreasure_DestinationType */
@@ -125,6 +121,6 @@ VALUES (23548, 9, 23853, 0, 0, 0.0125, False) /* Create Seared Shard for Contain
      , (23548, 9, 23107, 0, 0, 0.01, False) /* Create Mangled Dark Key for ContainTreasure_DestinationType */
      , (23548, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23548, -1, 23549, 5, 10, 10, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Crystal Shard Sentinel (x10 up to max of 10) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

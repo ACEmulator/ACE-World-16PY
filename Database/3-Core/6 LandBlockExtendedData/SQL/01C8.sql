@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (894, 1880915968, 29884678, 12.0162, -0.00914407, 0, 0.597538, 0, 0, -0.801841) /* lugianlithosgen */
      , (422, 1880915969, 29884679, 6.59971, -1.28932, 0, -0.707107, 0, 0, -0.707107) /* itemshield-generator */
      , (1593, 1880915970, 29884683, 7.39135, -58.3264, 0, -0.707107, 0, 0, -0.707107) /* Surface */

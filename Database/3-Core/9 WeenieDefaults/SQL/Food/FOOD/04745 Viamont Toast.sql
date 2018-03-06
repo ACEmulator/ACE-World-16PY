@@ -1,24 +1,21 @@
 /* Weenie - Viamont Toast (4745) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 4745;
+DELETE FROM weenie WHERE class_Id = 4745;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (4745, 'viamonttoast');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (4745, 'viamonttoast', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (4745, 0, 4745);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4745, 1, 'Viamont Toast') /* NAME_STRING */
      , (4745, 20, 'Pieces of Viamont Toast') /* PLURAL_NAME_STRING */
      , (4745, 14, 'Use this item to eat it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4745, 1, 33554806) /* SETUP_DID */
      , (4745, 3, 536870932) /* SOUND_TABLE_DID */
      , (4745, 8, 100670039) /* ICON_DID */
      , (4745, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4745, 9, 0) /* LOCATIONS_INT */
      , (4745, 1, 32) /* ITEM_TYPE_INT */
      , (4745, 13, 75) /* STACK_UNIT_ENCUMB_INT */
@@ -32,9 +29,8 @@ VALUES (4745, 9, 0) /* LOCATIONS_INT */
      , (4745, 19, 22) /* VALUE_INT */
      , (4745, 89, 4) /* BOOSTER_ENUM_INT */
      , (4745, 90, 9) /* BOOST_VALUE_INT */
-     , (4745, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4745, 9007, 18) /* Food_WeenieType */;
+     , (4745, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4745, 69, False) /* IS_SELLABLE_BOOL */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Quality Dissolving Isparian Wand (20167) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 20167;
+DELETE FROM weenie WHERE class_Id = 20167;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (20167, 'wandisparianstingingmajor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (20167, 'wandisparianstingingmajor', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (20167, 0, 20167);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20167, 1, 'Quality Dissolving Isparian Wand') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20167, 1, 33557783) /* SETUP_DID */
      , (20167, 3, 536870932) /* SOUND_TABLE_DID */
      , (20167, 37, 16) /* ITEM_SKILL_LIMIT_DID */
@@ -19,7 +16,7 @@ VALUES (20167, 1, 33557783) /* SETUP_DID */
      , (20167, 7, 268436395) /* CLOTHINGBASE_DID */
      , (20167, 8, 100672995) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20167, 9, 16777216) /* LOCATIONS_INT */
      , (20167, 1, 32768) /* ITEM_TYPE_INT */
      , (20167, 19, 2000) /* VALUE_INT */
@@ -42,21 +39,20 @@ VALUES (20167, 9, 16777216) /* LOCATIONS_INT */
      , (20167, 107, 300) /* ITEM_CUR_MANA_INT */
      , (20167, 108, 300) /* ITEM_MAX_MANA_INT */
      , (20167, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (20167, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (20167, 9007, 35) /* Caster_WeenieType */;
+     , (20167, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20167, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (20167, 5, -0.025) /* MANA_RATE_FLOAT */
      , (20167, 39, 1) /* DEFAULT_SCALE_FLOAT */
      , (20167, 138, 3) /* SLAYER_DAMAGE_BONUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20167, 69, False) /* IS_SELLABLE_BOOL */
      , (20167, 22, True) /* INSCRIBABLE_BOOL */
      , (20167, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20167, 632, 2) /* WarMagicMasterySelf4_SpellID */
      , (20167, 560, 2) /* CreatureEnchantmentMasterySelf4_SpellID */
      , (20167, 520, 2) /* AcidProtectionSelf6_SpellID */

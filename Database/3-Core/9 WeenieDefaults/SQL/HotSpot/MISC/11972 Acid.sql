@@ -1,22 +1,19 @@
 /* Weenie - Acid (11972) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11972;
+DELETE FROM weenie WHERE class_Id = 11972;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11972, 'acidsubmerge');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11972, 'acidsubmerge', /* HotSpot_WeenieType */ 13);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11972, 0, 11972);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11972, 1, 'Acid') /* NAME_STRING */
      , (11972, 17, 'You suffer %i damage from being submerged in acid!') /* ACTIVATION_TALK_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11972, 1, 33556024) /* SETUP_DID */
      , (11972, 3, 536870994) /* SOUND_TABLE_DID */
      , (11972, 8, 100667465) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11972, 9, 0) /* LOCATIONS_INT */
      , (11972, 1, 128) /* ITEM_TYPE_INT */
      , (11972, 45, 32) /* DAMAGE_TYPE_INT */
@@ -26,16 +23,15 @@ VALUES (11972, 9, 0) /* LOCATIONS_INT */
      , (11972, 8, 1) /* MASS_INT */
      , (11972, 19, 1) /* VALUE_INT */
      , (11972, 44, 150) /* DAMAGE_INT */
-     , (11972, 119, 0) /* ACTIVE_INT */
-     , (11972, 9007, 13) /* HotSpot_WeenieType */;
+     , (11972, 119, 0) /* ACTIVE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11972, 39, 1.5) /* DEFAULT_SCALE_FLOAT */
      , (11972, 105, 3) /* HOTSPOT_CYCLE_TIME_FLOAT */
      , (11972, 106, 0.2) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
      , (11972, 22, 0.15) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11972, 57, False) /* AFFECTS_AIS_BOOL */
      , (11972, 1, True) /* STUCK_BOOL */
      , (11972, 11, False) /* IGNORE_COLLISIONS_BOOL */

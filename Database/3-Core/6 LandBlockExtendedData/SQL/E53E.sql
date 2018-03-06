@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4547, 2119426057, 3846045955, 86.6978, 8.78249, 120.005, 0.999849, 0, 0, -0.0173605) /* Archmage Jo Ji-Shen */
      , (5121, 2119426065, 3846045955, 83.112, 5.9495, 120.005, 0.235566, 0, 0, -0.971858) /* Shin Ro */
      , (1154, 2119426064, 3846045955, 84.4189, 6.62258, 120.005, 0.235566, 0, 0, -0.971858) /* linkmonstergen */
@@ -19,7 +19,7 @@ VALUES (4547, 2119426057, 3846045955, 86.6978, 8.78249, 120.005, 0.999849, 0, 0,
      , (4515, 2119426060, 3846045696, 126.425, 19.3223, 110.546, -0.707107, 0, 0, -0.707107) /* The Touch of Healing */
      , (4518, 2119426061, 3846045696, 137.651, 19.3005, 110.52, -0.707107, 0, 0, -0.707107) /* The Nanto Scribe */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2119426064'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2119426064'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2119426065'; /* linkmonstergen <- Shin Ro */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2119426065'; /* linkmonstergen <- Shin Ro */
 

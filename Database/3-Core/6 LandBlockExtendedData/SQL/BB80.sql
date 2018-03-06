@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4447, 2075656196, 3145728265, 175.598, 128.992, 44.005, -0.542918, 0, 0, -0.839786) /* Tromylda the Shopkeeper */
      , (171, 2075656202, 3145728265, 179.842, 136.684, 44.005, 0.999966, 0, 0, 0.00825141) /* Vat */
      , (5047, 2075656206, 3145728267, 179.556, 129.229, 47.005, 0.996726, 0, 0, -0.0808481) /* Beltslora */
@@ -14,7 +14,7 @@ VALUES (4447, 2075656196, 3145728265, 175.598, 128.992, 44.005, -0.542918, 0, 0,
      , (5071, 2075656210, 3145728000, 171.605, 134.631, 44.005, 0.707107, 0, 0, -0.707107) /* West Lytelthorpe Outpost */
      , (3955, 2075656203, 3145728000, 191.677, 104.1, 44.005, 0.991288, 0, 0, -0.131712) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075656203'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075656203'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075656206'; /* linkmonstergen15minutes <- Beltslora */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075656206'; /* linkmonstergen15minutes <- Beltslora */
 

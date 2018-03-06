@@ -1,17 +1,14 @@
 /* Weenie - Jolly Snowman (7883) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 7883;
+DELETE FROM weenie WHERE class_Id = 7883;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (7883, 'snowmanjollygiant');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (7883, 'snowmanjollygiant', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (7883, 0, 7883);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7883, 1, 'Jolly Snowman') /* NAME_STRING */
      , (7883, 5, 'Purveyor of Ice') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7883, 1, 33556221) /* SETUP_DID */
      , (7883, 2, 150995088) /* MOTION_TABLE_DID */
      , (7883, 3, 536871000) /* SOUND_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (7883, 1, 33556221) /* SETUP_DID */
      , (7883, 8, 100669125) /* ICON_DID */
      , (7883, 22, 872415346) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7883, 1, 16) /* ITEM_TYPE_INT */
      , (7883, 74, 4456480) /* MERCHANDISE_ITEM_TYPES_INT */
      , (7883, 2, 39) /* CREATURE_TYPE_INT */
@@ -36,10 +33,9 @@ VALUES (7883, 1, 16) /* ITEM_TYPE_INT */
      , (7883, 27, 0) /* ARMOR_TYPE_INT */
      , (7883, 93, 2098200) /* PHYSICS_STATE_INT */
      , (7883, 126, 500) /* VENDOR_HAPPY_MEAN_INT */
-     , (7883, 127, 500) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (7883, 9007, 12) /* Vendor_WeenieType */;
+     , (7883, 127, 500) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7883, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7883, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (7883, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,7 +68,7 @@ VALUES (7883, 64, 1) /* RESIST_SLASH_FLOAT */
      , (7883, 54, 3) /* USE_RADIUS_FLOAT */
      , (7883, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7883, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (7883, 1, True) /* STUCK_BOOL */
      , (7883, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
@@ -80,20 +76,20 @@ VALUES (7883, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (7883, 13, False) /* ETHEREAL_BOOL */
      , (7883, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (7883, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (7883, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (7883, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (7883, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (7883, 16, 300) /* FOCUS_ATTRIBUTE */
-     , (7883, 32, 300) /* SELF_ATTRIBUTE */;
+     , (7883, 3, 300) /* QUICKNESS_ATTRIBUTE */
+     , (7883, 5, 300) /* FOCUS_ATTRIBUTE */
+     , (7883, 6, 300) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7883, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7883, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7883, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (7883, 1, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7883, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7883, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7883, 4, 7835, -1, 0, 0, False) /* Create Magic Iceball for Shop_DestinationType */
      , (7883, 4, 13224, -1, 0, 0, False) /* Create A Frozen Note for Shop_DestinationType */;
 

@@ -1,16 +1,13 @@
 /* Weenie - Orb of the Bunny Booty (8400) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8400;
+DELETE FROM weenie WHERE class_Id = 8400;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8400, 'orbwhitebunny');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8400, 'orbwhitebunny', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8400, 0, 8400);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8400, 1, 'Orb of the Bunny Booty') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8400, 1, 33556870) /* SETUP_DID */
      , (8400, 3, 536870932) /* SOUND_TABLE_DID */
      , (8400, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (8400, 1, 33556870) /* SETUP_DID */
      , (8400, 7, 268435725) /* CLOTHINGBASE_DID */
      , (8400, 8, 100669116) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8400, 9, 16777216) /* LOCATIONS_INT */
      , (8400, 1, 32768) /* ITEM_TYPE_INT */
      , (8400, 19, 666) /* VALUE_INT */
@@ -34,15 +31,14 @@ VALUES (8400, 9, 16777216) /* LOCATIONS_INT */
      , (8400, 94, 16) /* TARGET_TYPE_INT */
      , (8400, 33, 1) /* BONDED_INT */
      , (8400, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (8400, 114, 1) /* ATTUNED_INT */
-     , (8400, 9007, 35) /* Caster_WeenieType */;
+     , (8400, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8400, 39, 1.6) /* DEFAULT_SCALE_FLOAT */
      , (8400, 12, 0.5) /* SHADE_FLOAT */
      , (8400, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8400, 99, True) /* IVORYABLE_BOOL */
      , (8400, 22, True) /* INSCRIBABLE_BOOL */
      , (8400, 23, True) /* DESTROY_ON_SELL_BOOL */;

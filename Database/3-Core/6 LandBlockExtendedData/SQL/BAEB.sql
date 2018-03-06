@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7507, 2075045888, 3135963136, 9.48041, 177.635, -0.44, 0.918707, 0, 0, -0.39494) /* Coral Golem */
      , (7507, 2075045889, 3135963136, 15.2396, 183.717, -0.44, -0.363689, 0, 0, -0.93152) /* Coral Golem */
      , (7626, 2075045893, 3135963136, 14.8277, 176.672, -0.09, -0.911627, 0, 0, -0.411018) /* Coral Golem */
@@ -8,10 +8,10 @@ VALUES (7507, 2075045888, 3135963136, 9.48041, 177.635, -0.44, 0.918707, 0, 0, -
      , (7215, 2075045896, 3135963136, 108.757, 180.698, -0.445, -0.698891, 0, 0, 0.715228) /* lavalandasheastmixgen */
      , (7215, 2075045897, 3135963136, 157.257, 179.578, -0.095, -0.698891, 0, 0, 0.715228) /* lavalandasheastmixgen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2075045894'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2075045894'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075045888'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075045889'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075045891'; /* linkmonstergen5minutes <- Coral Golem */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2075045893'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045888'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045889'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045891'; /* linkmonstergen5minutes <- Coral Golem */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2075045893'; /* linkmonstergen5minutes <- Coral Golem */
 

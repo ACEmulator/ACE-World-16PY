@@ -1,37 +1,33 @@
 /* Weenie - Sliding Door (1233) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1233;
+DELETE FROM weenie WHERE class_Id = 1233;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1233, 'doorshoslidelockgood');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1233, 'doorshoslidelockgood', /* Door_WeenieType */ 19);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1233, 0, 1233);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1233, 1, 'Sliding Door') /* NAME_STRING */
      , (1233, 14, 'Use this item to open it.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1233, 1, 33555216) /* SETUP_DID */
      , (1233, 2, 150994987) /* MOTION_TABLE_DID */
      , (1233, 3, 536870963) /* SOUND_TABLE_DID */
      , (1233, 8, 100668183) /* ICON_DID */
      , (1233, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1233, 1, 128) /* ITEM_TYPE_INT */
      , (1233, 16, 32) /* ITEM_USEABLE_INT */
      , (1233, 8, 500) /* MASS_INT */
      , (1233, 19, 0) /* VALUE_INT */
      , (1233, 93, 24) /* PHYSICS_STATE_INT */
-     , (1233, 38, 122) /* RESIST_LOCKPICK_INT */
-     , (1233, 9007, 19) /* Door_WeenieType */;
+     , (1233, 38, 122) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1233, 11, 300) /* RESET_INTERVAL_FLOAT */
      , (1233, 54, 2) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1233, 1, True) /* STUCK_BOOL */
      , (1233, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (1233, 2, False) /* OPEN_BOOL */

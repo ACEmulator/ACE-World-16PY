@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7426, 2077155328, 3169714176, 83.8505, 83.9277, 170.005, -0.692915, 0, 0, -0.721019) /* erupttenkarrdunflarefxgen */
      , (7364, 2077155329, 3169714176, 60.9653, 83.0176, 167.251, -0.692915, 0, 0, -0.721019) /* erupttenkarrdunfxgen */
      , (7364, 2077155330, 3169714176, 59.9232, 108, 166.986, -0.692916, 0, 0, -0.721019) /* erupttenkarrdunfxgen */
@@ -66,15 +66,15 @@ VALUES (7426, 2077155328, 3169714176, 83.8505, 83.9277, 170.005, -0.692915, 0, 0
      , (7093, 2077155396, 3169714176, 116.152, 96.1847, 170.024, 0.995728, 0, 0, -0.0923388) /* Hellfire */
      , (7093, 2077155397, 3169714176, 125.68, 83.5602, 171.902, -0.932863, 0, 0, -0.360232) /* Hellfire */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2077155388'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2077155388'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155389'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155390'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155391'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155392'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155393'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155394'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155395'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155396'; /* linkmonstergen5minutes <- Hellfire */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2077155397'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155389'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155390'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155391'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155392'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155393'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155394'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155395'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155396'; /* linkmonstergen5minutes <- Hellfire */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2077155397'; /* linkmonstergen5minutes <- Hellfire */
 

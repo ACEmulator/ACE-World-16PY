@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (951, 2009931776, 2094137600, 86.1302, 61.2152, 170.005, 0.160203, 0, 0, -0.987084) /* banderlingguardgen */
      , (951, 2009931777, 2094137600, 84.5988, 57.1486, 170.005, 0.52616, 0, 0, -0.850386) /* banderlingguardgen */
      , (951, 2009931782, 2094137600, 87.1897, 63.2284, 178.805, 0.634618, 0, 0, 0.772826) /* banderlingguardgen */
@@ -62,20 +62,20 @@ VALUES (951, 2009931776, 2094137600, 86.1302, 61.2152, 170.005, 0.160203, 0, 0, 
      , (1669, 2009931822, 2094137344, 106.426, 37.5656, 174.606, -0.994089, 0, 0, -0.108565) /* Banderling Chief */
      , (1154, 2009931821, 2094137344, 105.186, 41.8897, 170.005, 0.317732, 0, 0, -0.948181) /* linkmonstergen */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2009931821'; /* linkmonstergen */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2009931820'; /* linkitemgen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2009931821'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2009931820'; /* linkitemgen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931796'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931797'; /* linkmonstergen <- Tumerok Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931808'; /* linkmonstergen <- Tumerok Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931809'; /* linkmonstergen <- Tumerok Worker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931810'; /* linkmonstergen <- Tumerok Worker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931811'; /* linkmonstergen <- Tumerok Warrior */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931813'; /* linkmonstergen <- Tumerok Fighter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2009931822'; /* linkmonstergen <- Banderling Chief */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009931814'; /* linkitemgen <- Gypsum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009931815'; /* linkitemgen <- Cinnabar */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009931816'; /* linkitemgen <- Gypsum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009931818'; /* linkitemgen <- Powdered Quartz */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2009931819'; /* linkitemgen <- Powdered Hematite */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931796'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931797'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931808'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931809'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931810'; /* linkmonstergen <- Tumerok Worker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931811'; /* linkmonstergen <- Tumerok Warrior */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931813'; /* linkmonstergen <- Tumerok Fighter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2009931822'; /* linkmonstergen <- Banderling Chief */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2009931814'; /* linkitemgen <- Gypsum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2009931815'; /* linkitemgen <- Cinnabar */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2009931816'; /* linkitemgen <- Gypsum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2009931818'; /* linkitemgen <- Powdered Quartz */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2009931819'; /* linkitemgen <- Powdered Hematite */
 

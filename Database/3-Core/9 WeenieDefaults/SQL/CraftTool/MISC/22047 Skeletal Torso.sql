@@ -1,22 +1,19 @@
 /* Weenie - Skeletal Torso (22047) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22047;
+DELETE FROM weenie WHERE class_Id = 22047;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22047, 'torsoskeletal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22047, 'torsoskeletal', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22047, 0, 22047);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22047, 1, 'Skeletal Torso') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22047, 1, 33558004) /* SETUP_DID */
      , (22047, 3, 536870932) /* SOUND_TABLE_DID */
      , (22047, 8, 100673704) /* ICON_DID */
      , (22047, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22047, 9, 0) /* LOCATIONS_INT */
      , (22047, 1, 128) /* ITEM_TYPE_INT */
      , (22047, 13, 400) /* STACK_UNIT_ENCUMB_INT */
@@ -32,13 +29,12 @@ VALUES (22047, 9, 0) /* LOCATIONS_INT */
      , (22047, 151, 2) /* HOOK_TYPE_INT */
      , (22047, 93, 1044) /* PHYSICS_STATE_INT */
      , (22047, 33, 0) /* BONDED_INT */
-     , (22047, 114, 0) /* ATTUNED_INT */
-     , (22047, 9007, 44) /* CraftTool_WeenieType */;
+     , (22047, 114, 0) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22047, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22047, 22, True) /* INSCRIBABLE_BOOL */
      , (22047, 23, False) /* DESTROY_ON_SELL_BOOL */;
 

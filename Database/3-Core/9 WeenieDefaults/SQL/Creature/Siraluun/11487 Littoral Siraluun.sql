@@ -1,16 +1,13 @@
 /* Weenie - Littoral Siraluun (11487) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11487;
+DELETE FROM weenie WHERE class_Id = 11487;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11487, 'siraluunlittoral-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11487, 'siraluunlittoral-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11487, 0, 11487);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11487, 1, 'Littoral Siraluun') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11487, 1, 33557059) /* SETUP_DID */
      , (11487, 2, 150995131) /* MOTION_TABLE_DID */
      , (11487, 35, 457) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (11487, 1, 33557059) /* SETUP_DID */
      , (11487, 7, 268436194) /* CLOTHINGBASE_DID */
      , (11487, 8, 100671751) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11487, 1, 16) /* ITEM_TYPE_INT */
      , (11487, 2, 56) /* CREATURE_TYPE_INT */
      , (11487, 3, 17) /* PALETTE_TEMPLATE_INT */
@@ -35,10 +32,9 @@ VALUES (11487, 1, 16) /* ITEM_TYPE_INT */
      , (11487, 25, 42) /* LEVEL_INT */
      , (11487, 27, 0) /* ARMOR_TYPE_INT */
      , (11487, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11487, 40, 2) /* COMBAT_MODE_INT */
-     , (11487, 9007, 10) /* Creature_WeenieType */;
+     , (11487, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11487, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (11487, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (11487, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (11487, 64, 0.9) /* RESIST_SLASH_FLOAT */
      , (11487, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11487, 31, 8) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11487, 1, True) /* STUCK_BOOL */
      , (11487, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11487, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11487, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11487, 1, 180) /* STRENGTH_ATTRIBUTE */
      , (11487, 2, 160) /* ENDURANCE_ATTRIBUTE */
      , (11487, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (11487, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (11487, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (11487, 32, 70) /* SELF_ATTRIBUTE */;
+     , (11487, 3, 140) /* QUICKNESS_ATTRIBUTE */
+     , (11487, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (11487, 6, 70) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11487, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11487, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11487, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11487, 1, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11487, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11487, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11487, 9, 11366, 0, 0, 0.05, False) /* Create Littoral Siraluun Claw for ContainTreasure_DestinationType */
      , (11487, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */
      , (11487, 9, 29899, 0, 0, 0.05, False) /* Create Small Bundle of Littoral Siraluun Feathers for ContainTreasure_DestinationType */

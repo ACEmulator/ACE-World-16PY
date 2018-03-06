@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27857, 1880707072, 26542337, 31.2955, -120, -11.994, 1, 0, 0, 0) /* Muck Glutton */
      , (27857, 1880707073, 26542337, 29.1915, -120, -11.994, 1, 0, 0, 0) /* Muck Glutton */
      , (7181, 1880707074, 26542342, 29.7878, -127.549, -11.9936, 0.999925, 0, 0, 0.012257) /* Desolation Moarsman */
@@ -157,155 +157,155 @@ VALUES (27857, 1880707072, 26542337, 31.2955, -120, -11.994, 1, 0, 0, 0) /* Muck
      , (27857, 1880707179, 26543508, 117.85, -187.683, 12.006, 0.987701, 0, 0, -0.156354) /* Muck Glutton */
      , (27857, 1880707180, 26543508, 120.567, -192.434, 12.006, 0.999976, 0, 0, -0.006998) /* Muck Glutton */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880707129'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880707101'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880707103'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880707102'; /* linkmonstergen4minutes */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880707197'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880707093'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880707084'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880707091'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880707092'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880707142'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1880707150'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1880707149'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1880707172'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1880707107'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1880707115'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1880707108'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1880707098'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1880707096'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1880707134'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1880707127'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1880707120'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1880707106'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1880707077'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1880707075'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880707129'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880707101'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880707103'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880707102'; /* linkmonstergen4minutes */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880707197'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880707093'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880707084'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880707091'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880707092'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880707142'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880707150'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1880707149'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880707172'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1880707107'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1880707115'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1880707108'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880707098'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1880707096'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1880707134'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1880707127'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1880707120'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1880707106'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1880707077'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1880707075'; /* Guardian */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707173'; /* linkmonstergen3minutes <- Indecipherable Book */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707128'; /* linkmonstergen3minutes <- Kir Loz */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707131'; /* linkmonstergen3minutes <- Hevk Loz */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707121'; /* linkmonstergen3minutes <- Jif Loz */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707159'; /* linkmonstergen3minutes <- Door to Xi Ru's Sanctum */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707122'; /* linkmonstergen3minutes <- Bust of Emperor Kellin II */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707123'; /* linkmonstergen3minutes <- Bust of Nali Valind */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707124'; /* linkmonstergen3minutes <- Bust of Asheron Realaidain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707132'; /* linkmonstergen3minutes <- Portrait of Geraine IV */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707130'; /* linkmonstergen3minutes <- Portrait of Avoren Palacost */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707133'; /* linkmonstergen3minutes <- Portrait of Asheron Realaidain */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707160'; /* linkmonstergen3minutes <- Statue of Ualannan */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707161'; /* linkmonstergen3minutes <- Statue of Aurlanna */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880707158'; /* linkmonstergen3minutes <- Statue of Lauallana */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707086'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707085'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707117'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707116'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707100'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707099'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707114'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707113'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707083'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707082'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707119'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707118'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707081'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707080'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707109'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707110'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707097'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707111'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707095'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707105'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707088'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707087'; /* linkmonstergen5minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707152'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707151'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707136'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707135'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707089'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707094'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707112'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707090'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707157'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880707156'; /* linkmonstergen5minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707180'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707179'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707169'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707175'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707171'; /* linkmonstergen4minutes <- Desolation Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707170'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707167'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707174'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707168'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707073'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707072'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707148'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707147'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707076'; /* linkmonstergen4minutes <- Desolation Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707074'; /* linkmonstergen4minutes <- Desolation Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707079'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707078'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707140'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707139'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707138'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707137'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707154'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880707153'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707146'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707145'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707163'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707162'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707155'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707141'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707144'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707143'; /* linkmonstergen4minutes <- Miry Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707166'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707165'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707177'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707176'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707178'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880707164'; /* linkmonstergen4minutes <- Muck Glutton */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880707198'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880707227'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880707192'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880707189'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880707226'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880707188'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880707185'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880707187'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880707186'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880707190'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880707191'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880707217'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880707218'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880707221'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880707222'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880707219'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880707220'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880707224'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880707223'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880707201'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880707200'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880707202'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880707206'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880707203'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880707204'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880707205'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880707196'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880707195'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880707193'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880707199'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880707194'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880707216'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880707214'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880707210'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880707212'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880707209'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880707207'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1880707228'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1880707229'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1880707184'; /* Guardian <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1880707183'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1880707182'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1880707181'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707173'; /* linkmonstergen3minutes <- Indecipherable Book */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707128'; /* linkmonstergen3minutes <- Kir Loz */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707131'; /* linkmonstergen3minutes <- Hevk Loz */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707121'; /* linkmonstergen3minutes <- Jif Loz */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707159'; /* linkmonstergen3minutes <- Door to Xi Ru's Sanctum */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707122'; /* linkmonstergen3minutes <- Bust of Emperor Kellin II */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707123'; /* linkmonstergen3minutes <- Bust of Nali Valind */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707124'; /* linkmonstergen3minutes <- Bust of Asheron Realaidain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707132'; /* linkmonstergen3minutes <- Portrait of Geraine IV */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707130'; /* linkmonstergen3minutes <- Portrait of Avoren Palacost */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707133'; /* linkmonstergen3minutes <- Portrait of Asheron Realaidain */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707160'; /* linkmonstergen3minutes <- Statue of Ualannan */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707161'; /* linkmonstergen3minutes <- Statue of Aurlanna */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880707158'; /* linkmonstergen3minutes <- Statue of Lauallana */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707086'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707085'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707117'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707116'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707100'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707099'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707114'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707113'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707083'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707082'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707119'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707118'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707081'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707080'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707109'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707110'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707097'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707111'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707095'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707105'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707088'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707087'; /* linkmonstergen5minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707152'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707151'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707136'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707135'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707089'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707094'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707112'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707090'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707157'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880707156'; /* linkmonstergen5minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707180'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707179'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707169'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707175'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707171'; /* linkmonstergen4minutes <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707170'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707167'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707174'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707168'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707073'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707072'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707148'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707147'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707076'; /* linkmonstergen4minutes <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707074'; /* linkmonstergen4minutes <- Desolation Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707079'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707078'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707140'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707139'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707138'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707137'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707154'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880707153'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707146'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707145'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707163'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707162'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707155'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707141'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707144'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707143'; /* linkmonstergen4minutes <- Miry Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707166'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707165'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707177'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707176'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707178'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880707164'; /* linkmonstergen4minutes <- Muck Glutton */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880707198'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880707227'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880707192'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880707189'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880707226'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880707188'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880707185'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880707187'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880707186'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880707190'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880707191'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880707217'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880707218'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880707221'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880707222'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880707219'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880707220'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880707224'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880707223'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880707201'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880707200'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880707202'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880707206'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880707203'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880707204'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880707205'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880707196'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880707195'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880707193'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880707199'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880707194'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880707216'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880707214'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880707210'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880707212'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880707209'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880707207'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880707228'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880707229'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880707184'; /* Guardian <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880707183'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880707182'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880707181'; /* Guardian <- Button */
 

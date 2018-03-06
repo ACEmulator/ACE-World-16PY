@@ -1,25 +1,22 @@
 /* Weenie - Iasparailaun (22246) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22246;
+DELETE FROM weenie WHERE class_Id = 22246;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22246, 'swordempyreangaerlanlow-creatureonly');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22246, 'swordempyreangaerlanlow-creatureonly', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22246, 0, 22246);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22246, 1, 'Iasparailaun') /* NAME_STRING */
      , (22246, 15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* SHORT_DESC_STRING */
      , (22246, 7, 'With this I shall cleanse the vermin from the world. Then shall I strike the final blow through Asheron''s heart. The Emperor will have no choice but name me his chief vizier.') /* INSCRIPTION_STRING */
      , (22246, 8, 'Gaerlan') /* SCRIBE_NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22246, 1, 33557926) /* SETUP_DID */
      , (22246, 3, 536870932) /* SOUND_TABLE_DID */
      , (22246, 8, 100673479) /* ICON_DID */
      , (22246, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22246, 9, 1048576) /* LOCATIONS_INT */
      , (22246, 1, 1) /* ITEM_TYPE_INT */
      , (22246, 5, 450) /* ENCUMB_VAL_INT */
@@ -43,10 +40,9 @@ VALUES (22246, 9, 1048576) /* LOCATIONS_INT */
      , (22246, 48, 11) /* WEAPON_SKILL_INT */
      , (22246, 49, 30) /* WEAPON_TIME_INT */
      , (22246, 114, 0) /* ATTUNED_INT */
-     , (22246, 51, 1) /* COMBAT_USE_INT */
-     , (22246, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (22246, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22246, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (22246, 138, 2) /* SLAYER_DAMAGE_BONUS_FLOAT */
      , (22246, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
@@ -54,7 +50,7 @@ VALUES (22246, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
      , (22246, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */
      , (22246, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22246, 22, True) /* INSCRIBABLE_BOOL */
      , (22246, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

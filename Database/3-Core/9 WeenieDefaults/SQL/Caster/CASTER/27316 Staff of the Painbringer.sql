@@ -1,17 +1,14 @@
 /* Weenie - Staff of the Painbringer (27316) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27316;
+DELETE FROM weenie WHERE class_Id = 27316;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27316, 'staffpainbringer');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27316, 'staffpainbringer', /* Caster_WeenieType */ 35);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27316, 0, 27316);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27316, 16, 'The head of the Painbringer is mounted atop this large, magical battle staff.  The craftsmanship is superb -- one would hardly guess that it was made by a tailor!') /* LONG_DESC_STRING */
      , (27316, 1, 'Staff of the Painbringer') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27316, 1, 33558674) /* SETUP_DID */
      , (27316, 27, 1073742049) /* USE_USER_ANIMATION_DID */
      , (27316, 3, 536870932) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (27316, 1, 33558674) /* SETUP_DID */
      , (27316, 7, 268436059) /* CLOTHINGBASE_DID */
      , (27316, 8, 100676391) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27316, 9, 16777216) /* LOCATIONS_INT */
      , (27316, 1, 32768) /* ITEM_TYPE_INT */
      , (27316, 19, 5000) /* VALUE_INT */
@@ -40,20 +37,19 @@ VALUES (27316, 9, 16777216) /* LOCATIONS_INT */
      , (27316, 107, 500) /* ITEM_CUR_MANA_INT */
      , (27316, 108, 500) /* ITEM_MAX_MANA_INT */
      , (27316, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (27316, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (27316, 9007, 35) /* Caster_WeenieType */;
+     , (27316, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27316, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
      , (27316, 5, -0.033) /* MANA_RATE_FLOAT */
      , (27316, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
      , (27316, 147, 0.1) /* CRITICAL_FREQUENCY_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27316, 69, False) /* IS_SELLABLE_BOOL */
      , (27316, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27316, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27316, 2052, 2) /* ArmorOther7_SpellID */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (384, 2082160640, 3249799168, 28.8499, 13.8252, 238.005, -0.0820815, 0, 0, -0.996626) /* olthoi-generator */
      , (384, 2082160641, 3249799168, 36.5137, 8.83536, 238.005, 0.264636, 0, 0, -0.964348) /* olthoi-generator */
      , (384, 2082160642, 3249799168, 44.413, 15.2691, 235.084, 0.904066, 0, 0, -0.427393) /* olthoi-generator */

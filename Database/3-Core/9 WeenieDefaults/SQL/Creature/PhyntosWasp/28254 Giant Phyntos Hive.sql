@@ -1,17 +1,14 @@
 /* Weenie - Giant Phyntos Hive (28254) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28254;
+DELETE FROM weenie WHERE class_Id = 28254;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28254, 'phyntoswaspgianthive');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28254, 'phyntoswaspgianthive', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28254, 0, 28254);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28254, 1, 'Giant Phyntos Hive') /* NAME_STRING */
      , (28254, 15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28254, 1, 33558821) /* SETUP_DID */
      , (28254, 2, 150995305) /* MOTION_TABLE_DID */
      , (28254, 3, 536870993) /* SOUND_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (28254, 1, 33558821) /* SETUP_DID */
      , (28254, 8, 100676680) /* ICON_DID */
      , (28254, 22, 872415339) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28254, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (28254, 1, 16) /* ITEM_TYPE_INT */
      , (28254, 2, 9) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (28254, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (28254, 93, 1032) /* PHYSICS_STATE_INT */
      , (28254, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (28254, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (28254, 40, 1) /* COMBAT_MODE_INT */
-     , (28254, 9007, 10) /* Creature_WeenieType */;
+     , (28254, 40, 1) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28254, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (28254, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (28254, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,7 +70,7 @@ VALUES (28254, 64, 0.5) /* RESIST_SLASH_FLOAT */
      , (28254, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (28254, 31, 0.3) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28254, 1, True) /* STUCK_BOOL */
      , (28254, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (28254, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -84,20 +80,20 @@ VALUES (28254, 1, True) /* STUCK_BOOL */
      , (28254, 13, False) /* ETHEREAL_BOOL */
      , (28254, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28254, 1, 200) /* STRENGTH_ATTRIBUTE */
      , (28254, 2, 210) /* ENDURANCE_ATTRIBUTE */
      , (28254, 4, 225) /* COORDINATION_ATTRIBUTE */
-     , (28254, 8, 225) /* QUICKNESS_ATTRIBUTE */
-     , (28254, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (28254, 32, 150) /* SELF_ATTRIBUTE */;
+     , (28254, 3, 225) /* QUICKNESS_ATTRIBUTE */
+     , (28254, 5, 150) /* FOCUS_ATTRIBUTE */
+     , (28254, 6, 150) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28254, 64, 445) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28254, 128, 290) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28254, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28254, 1, 445) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28254, 3, 290) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28254, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28254, -1, 28255, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Giant Phyntos Swarm (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (28254, -1, 28255, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Giant Phyntos Swarm (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (28254, -1, 28255, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Giant Phyntos Swarm (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

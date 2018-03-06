@@ -1,24 +1,21 @@
 /* Weenie - Dastardly Dirk (25545) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25545;
+DELETE FROM weenie WHERE class_Id = 25545;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25545, 'dirkdastardly');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25545, 'dirkdastardly', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25545, 0, 25545);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25545, 1, 'Dastardly Dirk') /* NAME_STRING */
      , (25545, 15, 'This dirk, a filed down shin bone from an ancient skeleton, radiates a significant amount of heat. Flames erupt from the bone when wielded.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25545, 1, 33558497) /* SETUP_DID */
      , (25545, 3, 536870932) /* SOUND_TABLE_DID */
      , (25545, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
      , (25545, 6, 67111919) /* PALETTE_BASE_DID */
      , (25545, 8, 100674963) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25545, 9, 1048576) /* LOCATIONS_INT */
      , (25545, 1, 1) /* ITEM_TYPE_INT */
      , (25545, 93, 1044) /* PHYSICS_STATE_INT */
@@ -41,10 +38,9 @@ VALUES (25545, 9, 1048576) /* LOCATIONS_INT */
      , (25545, 47, 6) /* ATTACK_TYPE_INT */
      , (25545, 48, 4) /* WEAPON_SKILL_INT */
      , (25545, 49, 10) /* WEAPON_TIME_INT */
-     , (25545, 51, 1) /* COMBAT_USE_INT */
-     , (25545, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (25545, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25545, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (25545, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (25545, 5, -0.01666) /* MANA_RATE_FLOAT */
@@ -52,10 +48,10 @@ VALUES (25545, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
      , (25545, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */
      , (25545, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25545, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25545, 1096, 2) /* FireProtectionOther6_SpellID */
      , (25545, 1592, 2) /* HeartSeeker6_SpellID */
      , (25545, 1616, 2) /* BloodDrinker6_SpellID */;

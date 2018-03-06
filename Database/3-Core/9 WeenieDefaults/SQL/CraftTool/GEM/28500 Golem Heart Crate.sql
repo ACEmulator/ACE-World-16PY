@@ -1,18 +1,15 @@
 /* Weenie - Golem Heart Crate (28500) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28500;
+DELETE FROM weenie WHERE class_Id = 28500;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28500, 'crategolemcatalogue');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28500, 'crategolemcatalogue', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28500, 0, 28500);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28500, 16, 'A crate with six empty slots. Each are labeled for one of the different golem hearts that the crate is meant to hold. The first slot appears to be reserved for a Granite Golem heart.') /* LONG_DESC_STRING */
      , (28500, 1, 'Golem Heart Crate') /* NAME_STRING */
      , (28500, 14, 'Place a Granite Golem heart into the slot assigned to the granite heart.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28500, 1, 33554930) /* SETUP_DID */
      , (28500, 3, 536870932) /* SOUND_TABLE_DID */
      , (28500, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (28500, 1, 33554930) /* SETUP_DID */
      , (28500, 7, 268435723) /* CLOTHINGBASE_DID */
      , (28500, 8, 100676970) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28500, 9, 0) /* LOCATIONS_INT */
      , (28500, 1, 2048) /* ITEM_TYPE_INT */
      , (28500, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -38,10 +35,9 @@ VALUES (28500, 9, 0) /* LOCATIONS_INT */
      , (28500, 93, 1044) /* PHYSICS_STATE_INT */
      , (28500, 94, 2176) /* TARGET_TYPE_INT */
      , (28500, 33, 1) /* BONDED_INT */
-     , (28500, 114, 1) /* ATTUNED_INT */
-     , (28500, 9007, 44) /* CraftTool_WeenieType */;
+     , (28500, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28500, 69, False) /* IS_SELLABLE_BOOL */
      , (28500, 22, True) /* INSCRIBABLE_BOOL */;
 

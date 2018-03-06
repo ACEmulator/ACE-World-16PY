@@ -1,17 +1,14 @@
 /* Weenie - Silifi of Crimson Stars (22977) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22977;
+DELETE FROM weenie WHERE class_Id = 22977;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22977, 'silificrimsonstarsxxxhoary');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22977, 'silificrimsonstarsxxxhoary', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22977, 0, 22977);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22977, 16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Hoary Armoredillo. There are three notches on the haft.') /* LONG_DESC_STRING */
      , (22977, 1, 'Silifi of Crimson Stars') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22977, 1, 33556553) /* SETUP_DID */
      , (22977, 3, 536870932) /* SOUND_TABLE_DID */
      , (22977, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (22977, 1, 33556553) /* SETUP_DID */
      , (22977, 7, 268435986) /* CLOTHINGBASE_DID */
      , (22977, 8, 100670611) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22977, 9, 1048576) /* LOCATIONS_INT */
      , (22977, 1, 1) /* ITEM_TYPE_INT */
      , (22977, 19, 2500) /* VALUE_INT */
@@ -40,17 +37,16 @@ VALUES (22977, 9, 1048576) /* LOCATIONS_INT */
      , (22977, 48, 1) /* WEAPON_SKILL_INT */
      , (22977, 49, 70) /* WEAPON_TIME_INT */
      , (22977, 114, 1) /* ATTUNED_INT */
-     , (22977, 51, 1) /* COMBAT_USE_INT */
-     , (22977, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (22977, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22977, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
      , (22977, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
      , (22977, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (22977, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */
      , (22977, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22977, 69, False) /* IS_SELLABLE_BOOL */
      , (22977, 22, True) /* INSCRIBABLE_BOOL */
      , (22977, 23, True) /* DESTROY_ON_SELL_BOOL */;

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19364, 1969623040, 1449197824, 0, -30, 0.005, 0.707107, 0, 0, -0.707107) /* Heartland Yard Portal */
      , (19386, 1969623041, 1449197824, 2.975, -29.975, 0.005, -0.707107, 0, 0, -0.707107) /* Heartland Yard */
      , (19362, 1969623042, 1449197825, 0, -50, 0.005, 0.707107, 0, 0, -0.707107) /* Gajin Dwellings Portal */

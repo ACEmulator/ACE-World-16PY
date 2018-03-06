@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4248, 1881894912, 45547776, 61.0308, -60.6889, -53.9933, 0.796209, 0, 0, -0.605022) /* Putrid Moarsman */
      , (8866, 1881894913, 45547779, 62.021, -75.922, -53.9933, 0.0632627, 0, 0, -0.997997) /* Putrid Moarsman */
      , (4248, 1881894914, 45547782, 73.8024, -70.7218, -53.9933, -0.79329, 0, 0, -0.608843) /* Putrid Moarsman */
@@ -114,109 +114,109 @@ VALUES (4248, 1881894912, 45547776, 61.0308, -60.6889, -53.9933, 0.796209, 0, 0,
      , (7562, 1881895024, 45548258, 99.8758, -57.242, -5.01863, -0.710755, 0, 0, 0.703439) /* Magic trap */
      , (8533, 1881895025, 45548278, 70, -66.848, 0.5, 1, 0, 0, -4.37114E-08) /* Cathedral Ruins Portal */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1881895009'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1881895012'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1881894915'; /* linkmonstergen7minutes */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1881894986'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1881894989'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1881895014'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1881895005'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1881895011'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1881895024'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1881895007'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1881895017'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1881894930'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1881894927'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1881894920'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1881894921'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1881894922'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1881894923'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1881894980'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1881894981'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1881894994'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1881894991'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1881894958'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1881894959'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1881894952'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='1881894969'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='1881894975'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='1881894964'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='1881894963'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='1881894953'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='1881894946'; /* Magic trap */
-UPDATE `ace_landblock` SET `linkSlot`='31', `linkSource`='1' WHERE `preassignedGuid`='1881894924'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1881895009'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1881895012'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1881894915'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1881894986'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1881894989'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1881895014'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1881895005'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1881895011'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1881895024'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1881895007'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1881895017'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1881894930'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1881894927'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1881894920'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1881894921'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1881894922'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1881894923'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1881894980'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1881894981'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1881894994'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1881894991'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1881894958'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1881894959'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1881894952'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1881894969'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1881894975'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1881894964'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1881894963'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1881894953'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1881894946'; /* Magic trap */
+UPDATE `landblock_instances` SET `link_Slot`='31', `link_Controller`=True WHERE `guid`='1881894924'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881894985'; /* Door <- Torch */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1881894996'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881894984'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1881894940'; /* Door <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894914'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894912'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894925'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894932'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894931'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894933'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894928'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894939'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894942'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894937'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894935'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895008'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895018'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895015'; /* linkmonstergen7minutes <- Cursed Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895002'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894998'; /* linkmonstergen7minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894999'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895000'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895001'; /* linkmonstergen7minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894997'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894983'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894995'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894978'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894988'; /* linkmonstergen7minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894976'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894967'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894945'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895020'; /* linkmonstergen7minutes <- Cursed Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895019'; /* linkmonstergen7minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895021'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895022'; /* linkmonstergen7minutes <- Ulu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894970'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894971'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894955'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894956'; /* linkmonstergen7minutes <- Putrid Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894950'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894948'; /* linkmonstergen7minutes <- Affliction Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894949'; /* linkmonstergen7minutes <- Faisi Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881895003'; /* linkmonstergen7minutes <- Chomu Sclavus */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894973'; /* linkmonstergen7minutes <- Foul Moarsman */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1881894977'; /* linkmonstergen7minutes <- Cursed Wisp */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1881894987'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1881894990'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1881895013'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1881895004'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1881895010'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1881895023'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1881895006'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1881895016'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1881894929'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1881894926'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1881894919'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1881894916'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1881894918'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1881894917'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1881894979'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1881894982'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1881894993'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1881894992'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1881894957'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1881894960'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1881894951'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='1881894968'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='1881894974'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='1881894965'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='1881894962'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1881894954'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='1881894947'; /* Magic trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='31' WHERE `preassignedGuid`='1881894913'; /* linkmonstergen3minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881894985'; /* Door <- Torch */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1881894996'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881894984'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1881894940'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894914'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894912'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894925'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894932'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894931'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894933'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894928'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894939'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894942'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894937'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894935'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895008'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895018'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895015'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895002'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894998'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894999'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895000'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895001'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894997'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894983'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894995'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894978'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894988'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894976'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894967'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894945'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895020'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895019'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895021'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895022'; /* linkmonstergen7minutes <- Ulu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894970'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894971'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894955'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894956'; /* linkmonstergen7minutes <- Putrid Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894950'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894948'; /* linkmonstergen7minutes <- Affliction Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894949'; /* linkmonstergen7minutes <- Faisi Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881895003'; /* linkmonstergen7minutes <- Chomu Sclavus */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894973'; /* linkmonstergen7minutes <- Foul Moarsman */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1881894977'; /* linkmonstergen7minutes <- Cursed Wisp */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1881894987'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1881894990'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1881895013'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1881895004'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1881895010'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1881895023'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1881895006'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1881895016'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1881894929'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1881894926'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1881894919'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1881894916'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1881894918'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1881894917'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1881894979'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1881894982'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1881894993'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1881894992'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1881894957'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1881894960'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1881894951'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1881894968'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1881894974'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1881894965'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1881894962'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1881894954'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1881894947'; /* Magic trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='31' WHERE `guid`='1881894913'; /* linkmonstergen3minutes <- Putrid Moarsman */
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12492, 2091241472, 3395092480, 58.096, 75.8792, 12.005, -0.403877, 0, 0, -0.914813) /* East Sawato Settlement Portal */
      , (12542, 2091241473, 3395092480, 57.696, 87.7449, 12.005, -0.728241, 0, 0, -0.685321) /* Sawato Foothills Settlement Portal */
      , (12475, 2091241474, 3395092480, 64.2604, 99.3999, 12.005, -0.979052, 0, 0, -0.203611) /* Ayn Tayan Portal */

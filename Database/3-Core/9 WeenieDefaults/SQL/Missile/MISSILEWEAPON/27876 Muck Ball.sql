@@ -1,22 +1,19 @@
 /* Weenie - Muck Ball (27876) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27876;
+DELETE FROM weenie WHERE class_Id = 27876;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27876, 'mudballguruk4');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27876, 'mudballguruk4', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27876, 0, 27876);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27876, 1, 'Muck Ball') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27876, 1, 33558785) /* SETUP_DID */
      , (27876, 3, 536870932) /* SOUND_TABLE_DID */
      , (27876, 8, 100676576) /* ICON_DID */
      , (27876, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27876, 9, 4194304) /* LOCATIONS_INT */
      , (27876, 1, 256) /* ITEM_TYPE_INT */
      , (27876, 13, 23) /* STACK_UNIT_ENCUMB_INT */
@@ -35,10 +32,9 @@ VALUES (27876, 9, 4194304) /* LOCATIONS_INT */
      , (27876, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (27876, 48, 12) /* WEAPON_SKILL_INT */
      , (27876, 49, 20) /* WEAPON_TIME_INT */
-     , (27876, 51, 2) /* COMBAT_USE_INT */
-     , (27876, 9007, 4) /* Missile_WeenieType */;
+     , (27876, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27876, 151, 0.9) /* IGNORE_SHIELD_FLOAT */
      , (27876, 79, 0) /* ELASTICITY_FLOAT */
      , (27876, 39, 0.3) /* DEFAULT_SCALE_FLOAT */
@@ -51,6 +47,6 @@ VALUES (27876, 151, 0.9) /* IGNORE_SHIELD_FLOAT */
      , (27876, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (27876, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27876, 17, True) /* INELASTIC_BOOL */;
 

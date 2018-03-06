@@ -1,17 +1,14 @@
 /* Weenie - Silifi of Crimson Stars (6665) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6665;
+DELETE FROM weenie WHERE class_Id = 6665;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6665, 'silificrimsonstars123bronze');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6665, 'silificrimsonstars123bronze', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6665, 0, 6665);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6665, 16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Bronze Armoredillo. It is fitted with the rubies Al-Shajar, Al-Khur, and Mahwan.') /* LONG_DESC_STRING */
      , (6665, 1, 'Silifi of Crimson Stars') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6665, 1, 33556553) /* SETUP_DID */
      , (6665, 3, 536870932) /* SOUND_TABLE_DID */
      , (6665, 37, 1) /* ITEM_SKILL_LIMIT_DID */
@@ -20,7 +17,7 @@ VALUES (6665, 1, 33556553) /* SETUP_DID */
      , (6665, 7, 268435986) /* CLOTHINGBASE_DID */
      , (6665, 8, 100670611) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6665, 9, 1048576) /* LOCATIONS_INT */
      , (6665, 1, 1) /* ITEM_TYPE_INT */
      , (6665, 19, 11900) /* VALUE_INT */
@@ -45,10 +42,9 @@ VALUES (6665, 9, 1048576) /* LOCATIONS_INT */
      , (6665, 49, 40) /* WEAPON_TIME_INT */
      , (6665, 114, 1) /* ATTUNED_INT */
      , (6665, 51, 1) /* COMBAT_USE_INT */
-     , (6665, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (6665, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (6665, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6665, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (6665, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (6665, 5, -0.05) /* MANA_RATE_FLOAT */
@@ -56,13 +52,13 @@ VALUES (6665, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (6665, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (6665, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6665, 99, True) /* IVORYABLE_BOOL */
      , (6665, 69, False) /* IS_SELLABLE_BOOL */
      , (6665, 22, True) /* INSCRIBABLE_BOOL */
      , (6665, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6665, 1605, 2) /* Defender6_SpellID */
      , (6665, 1616, 2) /* BloodDrinker6_SpellID */
      , (6665, 1077, 2) /* LightningProtectionOther6_SpellID */;

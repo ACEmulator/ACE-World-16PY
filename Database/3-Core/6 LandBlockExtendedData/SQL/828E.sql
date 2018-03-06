@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2181, 2015944705, 2190344448, 80.9392, 128.015, 124.082, -4.37114E-08, 0, 0, -1) /* Door */
      , (4975, 2015944711, 2190344448, 86.643, 130.109, 124.005, 0.71227, 0, 0, -0.701905) /* Impious Temple Portal */
      , (4980, 2015944704, 2190344456, 57.7319, 110.01, 124.05, 0.707107, 0, 0, -0.707107) /* Refreshing Fountain */
@@ -12,9 +12,9 @@ VALUES (2181, 2015944705, 2190344448, 80.9392, 128.015, 124.082, -4.37114E-08, 0
      , (269, 2015944713, 2190344192, 80.6009, 135.865, 140.409, -0.707107, 0, 0, -0.707107) /* Button */
      , (5636, 2015944712, 2190344192, 78.8453, 125.981, 124.005, 0.105943, 0, 0, 0.994372) /* Dizah ibn Nadqab */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2015944705'; /* Door */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2015944715'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2015944705'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2015944715'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2015944713'; /* Door <- Button */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2015944712'; /* linkmonstergen <- Dizah ibn Nadqab */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2015944713'; /* Door <- Button */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2015944712'; /* linkmonstergen <- Dizah ibn Nadqab */
 

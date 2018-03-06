@@ -1,24 +1,21 @@
 /* Weenie - Pillar of Slaughter (30779) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30779;
+DELETE FROM weenie WHERE class_Id = 30779;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30779, 'pvphatepillar80');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30779, 'pvphatepillar80', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30779, 0, 30779);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30779, 1, 'Pillar of Slaughter') /* NAME_STRING */
      , (30779, 15, 'Use this Pillar to infuse some of its darkness into your self. You will then have 30 minutes to use the associated Effigy elsewhere in this Mausoleum.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30779, 1, 33559250) /* SETUP_DID */
      , (30779, 2, 150995329) /* MOTION_TABLE_DID */
      , (30779, 3, 536870932) /* SOUND_TABLE_DID */
      , (30779, 4, 805306368) /* COMBAT_TABLE_DID */
      , (30779, 8, 100677461) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30779, 1, 16) /* ITEM_TYPE_INT */
      , (30779, 146, 1230) /* XP_OVERRIDE_INT */
      , (30779, 2, 63) /* CREATURE_TYPE_INT */
@@ -31,10 +28,9 @@ VALUES (30779, 1, 16) /* ITEM_TYPE_INT */
      , (30779, 25, 10) /* LEVEL_INT */
      , (30779, 27, 0) /* ARMOR_TYPE_INT */
      , (30779, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (30779, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (30779, 9007, 10) /* Creature_WeenieType */;
+     , (30779, 95, 8) /* RADARBLIP_COLOR_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30779, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30779, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (30779, 66, 1) /* RESIST_BLUDGEON_FLOAT */
@@ -62,7 +58,7 @@ VALUES (30779, 64, 1) /* RESIST_SLASH_FLOAT */
      , (30779, 54, 3) /* USE_RADIUS_FLOAT */
      , (30779, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30779, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (30779, 1, True) /* STUCK_BOOL */
      , (30779, 8, False) /* ALLOW_GIVE_BOOL */
@@ -74,16 +70,16 @@ VALUES (30779, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (30779, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (30779, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (30779, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (30779, 2, 70) /* ENDURANCE_ATTRIBUTE */
      , (30779, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (30779, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (30779, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (30779, 32, 130) /* SELF_ATTRIBUTE */;
+     , (30779, 3, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30779, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (30779, 6, 130) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30779, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30779, 128, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30779, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (30779, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30779, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30779, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 

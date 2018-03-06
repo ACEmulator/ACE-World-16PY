@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (412, 2087358474, 3332964611, 57.3735, 31.6814, 42.025, 1, 0, 0, 0) /* Door */
      , (412, 2087358475, 3332964611, 64.2485, 31.6814, 42, 1, 0, 0, 0) /* Door */
      , (412, 2087358476, 3332964612, 60.8235, 32.2064, 42, 0, 0, 0, -1) /* Door */
@@ -65,14 +65,14 @@ VALUES (412, 2087358474, 3332964611, 57.3735, 31.6814, 42.025, 1, 0, 0, 0) /* Do
      , (463, 2087358511, 3332964352, 44.6036, 66.9681, 42.005, -0.383276, 0, 0, -0.923634) /* Arwic */
      , (3951, 2087358510, 3332964352, 49.0566, 70.194, 42.005, -0.999615, 0, 0, -0.0277369) /* linkmonstergen1hour */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2087358510'; /* linkmonstergen1hour */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2087358527'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2087358531'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2087358510'; /* linkmonstergen1hour */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2087358527'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2087358531'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2087358518'; /* linkmonstergen1hour <- Leather Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2087358528'; /* linkmonstergen3minutes <- Anasha */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2087358534'; /* linkmonstergen3minutes <- Apprentice Alchemist */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2087358509'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2087358530'; /* linkmonstergen3minutes <- Hiyp the Toad */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2087358532'; /* linkmonstergen3minutes <- Translator Aun Laokhe */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2087358518'; /* linkmonstergen1hour <- Leather Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2087358528'; /* linkmonstergen3minutes <- Anasha */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358534'; /* linkmonstergen3minutes <- Apprentice Alchemist */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358509'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358530'; /* linkmonstergen3minutes <- Hiyp the Toad */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2087358532'; /* linkmonstergen3minutes <- Translator Aun Laokhe */
 

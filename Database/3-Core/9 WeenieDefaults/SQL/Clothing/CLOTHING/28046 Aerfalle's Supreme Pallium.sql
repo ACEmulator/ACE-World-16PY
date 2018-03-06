@@ -1,18 +1,15 @@
 /* Weenie - Aerfalle's Supreme Pallium (28046) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28046;
+DELETE FROM weenie WHERE class_Id = 28046;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28046, 'robeaerfallenewuber');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28046, 'robeaerfallenewuber', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28046, 0, 28046);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28046, 16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LONG_DESC_STRING */
      , (28046, 1, 'Aerfalle''s Supreme Pallium') /* NAME_STRING */
      , (28046, 33, 'UberPalliumObtained') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28046, 1, 33554854) /* SETUP_DID */
      , (28046, 3, 536870932) /* SOUND_TABLE_DID */
      , (28046, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (28046, 1, 33554854) /* SETUP_DID */
      , (28046, 7, 268435853) /* CLOTHINGBASE_DID */
      , (28046, 8, 100670350) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28046, 9, 32512) /* LOCATIONS_INT */
      , (28046, 1, 4) /* ITEM_TYPE_INT */
      , (28046, 19, 12710) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (28046, 9, 32512) /* LOCATIONS_INT */
      , (28046, 107, 500) /* ITEM_CUR_MANA_INT */
      , (28046, 108, 1000) /* ITEM_MAX_MANA_INT */
      , (28046, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (28046, 114, 1) /* ATTUNED_INT */
-     , (28046, 9007, 2) /* Clothing_WeenieType */;
+     , (28046, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28046, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28046, 5, -0.05) /* MANA_RATE_FLOAT */
      , (28046, 12, 0.1) /* SHADE_FLOAT */
@@ -54,12 +50,12 @@ VALUES (28046, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (28046, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (28046, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28046, 99, True) /* IVORYABLE_BOOL */
      , (28046, 22, True) /* INSCRIBABLE_BOOL */
      , (28046, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28046, 2090, 2) /* WillPowerOther7_SpellID */
      , (28046, 2066, 2) /* FocusOther7_SpellID */
      , (28046, 2015, 2) /* AerfallesWard_SpellID */;

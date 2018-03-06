@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (720, 2132942848, 4062314752, 129, 132.025, 18, -1, 0, 0, 0) /* Sliding Door */
      , (720, 2132942849, 4062314752, 135, 132.025, 18, -1, 0, 0, 0) /* Sliding Door */
      , (5621, 2132942850, 4062314752, 131.91, 136.45, 19.85, -0.707107, 0, 0, -0.707107) /* Hot Air */
@@ -23,10 +23,10 @@ VALUES (720, 2132942848, 4062314752, 129, 132.025, 18, -1, 0, 0, 0) /* Sliding D
      , (8490, 2132942860, 4062314496, 143.743, 175.368, 18.005, -0.999999, 0, 0, 0.00164489) /* MacNiall the Unruled */
      , (3955, 2132942861, 4062314496, 142.634, 175.015, 18.005, -0.991134, 0, 0, -0.132863) /* linkmonstergen15minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2132942861'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2132942861'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942860'; /* linkmonstergen15minutes <- MacNiall the Unruled */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942877'; /* linkmonstergen15minutes <- Open Journal */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942880'; /* linkmonstergen15minutes <- Journeyman Fletcher */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2132942878'; /* linkmonstergen15minutes <- Gentleman Jake Hawkins */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942860'; /* linkmonstergen15minutes <- MacNiall the Unruled */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942877'; /* linkmonstergen15minutes <- Open Journal */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942880'; /* linkmonstergen15minutes <- Journeyman Fletcher */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2132942878'; /* linkmonstergen15minutes <- Gentleman Jake Hawkins */
 

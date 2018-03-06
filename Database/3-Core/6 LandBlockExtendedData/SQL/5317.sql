@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7346, 1966174224, 1394016256, 182.654, 30.1996, 43.3401, -0.959709, 0, 0, -0.280996) /* Banderling Enforcer */
      , (7346, 1966174225, 1394016256, 180.268, 31.2191, 43.5328, -0.799368, 0, 0, 0.600842) /* Banderling Enforcer */
      , (7346, 1966174226, 1394016256, 176.389, 36.556, 44.1423, -0.915471, 0, 0, -0.402383) /* Banderling Enforcer */
@@ -14,18 +14,18 @@ VALUES (7346, 1966174224, 1394016256, 182.654, 30.1996, 43.3401, -0.959709, 0, 0
      , (1917, 1966174236, 1394016256, 178.026, 36.6428, 44.1084, -0.999997, 0, 0, 0.00250771) /* Chest */
      , (7089, 1966174237, 1394016256, 178.103, 99.089, 40.9052, 0.0879459, 0, 0, -0.996125) /* Altered Drudge */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1966174228'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1966174228'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174235'; /* linkmonstergen5minutes <- Altered Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174234'; /* linkmonstergen5minutes <- Altered Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174237'; /* linkmonstergen5minutes <- Altered Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174227'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174226'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174225'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174231'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174224'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174229'; /* linkmonstergen5minutes <- Banderling Enforcer */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174233'; /* linkmonstergen5minutes <- Augmented Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174230'; /* linkmonstergen5minutes <- Augmented Drudge */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1966174232'; /* linkmonstergen5minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174235'; /* linkmonstergen5minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174234'; /* linkmonstergen5minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174237'; /* linkmonstergen5minutes <- Altered Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174227'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174226'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174225'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174231'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174224'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174229'; /* linkmonstergen5minutes <- Banderling Enforcer */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174233'; /* linkmonstergen5minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174230'; /* linkmonstergen5minutes <- Augmented Drudge */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1966174232'; /* linkmonstergen5minutes <- Augmented Drudge */
 

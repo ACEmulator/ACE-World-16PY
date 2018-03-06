@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14341, 2105888778, 3629449216, 31, 106, 26.45, 1, 0, 0, 0) /* Chess Board */
      , (153, 2105888768, 3629449216, 119.745, 120.013, 28.0611, 0.92388, 0, 0, -0.382683) /* Fountain */
      , (3955, 2105888769, 3629449216, 125.303, 131.25, 30.2847, 0.181531, 0, 0, 0.983385) /* linkmonstergen15minutes */
@@ -10,13 +10,13 @@ VALUES (14341, 2105888778, 3629449216, 31, 106, 26.45, 1, 0, 0, 0) /* Chess Boar
      , (2567, 2105888775, 3629449216, 114.245, 125.863, 28.4952, 0.353496, 0, 0, 0.935436) /* Brown Rabbit */
      , (2567, 2105888776, 3629449216, 129.034, 123.567, 30.1183, -0.420965, 0, 0, 0.907077) /* Brown Rabbit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2105888769'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2105888769'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888770'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888771'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888772'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888773'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888774'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888775'; /* linkmonstergen15minutes <- Brown Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2105888776'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888770'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888771'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888772'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888773'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888774'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888775'; /* linkmonstergen15minutes <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2105888776'; /* linkmonstergen15minutes <- Brown Rabbit */
 

@@ -1,18 +1,15 @@
 /* Weenie - Gem of Mana Management (29557) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29557;
+DELETE FROM weenie WHERE class_Id = 29557;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29557, 'gemnoblemanamod');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29557, 'gemnoblemanamod', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29557, 0, 29557);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29557, 16, 'This gem can be added to the Burun slaying variant of the  noble scepter. If so, it will enhance the scepter ability to manage the flow of mana to the user. The scepter will then only be wieldable by the crafter.') /* LONG_DESC_STRING */
      , (29557, 1, 'Gem of Mana Management') /* NAME_STRING */
      , (29557, 14, 'Combine with a Burun Slaying Noble Scepter to enhance the mana conversion enhancement of the casting implement.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29557, 1, 33554809) /* SETUP_DID */
      , (29557, 3, 536870932) /* SOUND_TABLE_DID */
      , (29557, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (29557, 1, 33554809) /* SETUP_DID */
      , (29557, 7, 268435723) /* CLOTHINGBASE_DID */
      , (29557, 8, 100677132) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29557, 9, 0) /* LOCATIONS_INT */
      , (29557, 1, 2048) /* ITEM_TYPE_INT */
      , (29557, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -36,10 +33,9 @@ VALUES (29557, 9, 0) /* LOCATIONS_INT */
      , (29557, 150, 103) /* HOOK_PLACEMENT_INT */
      , (29557, 151, 2) /* HOOK_TYPE_INT */
      , (29557, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29557, 94, 33041) /* TARGET_TYPE_INT */
-     , (29557, 9007, 44) /* CraftTool_WeenieType */;
+     , (29557, 94, 33041) /* TARGET_TYPE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29557, 69, False) /* IS_SELLABLE_BOOL */
      , (29557, 22, True) /* INSCRIBABLE_BOOL */;
 

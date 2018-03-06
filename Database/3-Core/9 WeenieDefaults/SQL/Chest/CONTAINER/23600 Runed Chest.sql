@@ -1,27 +1,24 @@
 /* Weenie - Runed Chest (23600) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23600;
+DELETE FROM weenie WHERE class_Id = 23600;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23600, 'chestquestlockedhighpoib');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23600, 'chestquestlockedhighpoib', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23600, 0, 23600);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23600, 16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LONG_DESC_STRING */
      , (23600, 1, 'Runed Chest') /* NAME_STRING */
      , (23600, 33, 'ChestQuestLockedHighPOIB') /* QUEST_STRING */
      , (23600, 12, 'nokey') /* LOCK_CODE_STRING */
      , (23600, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23600, 1, 33558095) /* SETUP_DID */
      , (23600, 2, 150994948) /* MOTION_TABLE_DID */
      , (23600, 3, 536870945) /* SOUND_TABLE_DID */
      , (23600, 8, 100667424) /* ICON_DID */
      , (23600, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23600, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
      , (23600, 1, 512) /* ITEM_TYPE_INT */
      , (23600, 5, 9000) /* ENCUMB_VAL_INT */
@@ -34,15 +31,14 @@ VALUES (23600, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
      , (23600, 83, 2) /* ACTIVATION_RESPONSE_INT */
      , (23600, 93, 1048) /* PHYSICS_STATE_INT */
      , (23600, 100, 1) /* GENERATOR_TYPE_INT */
-     , (23600, 38, 300) /* RESIST_LOCKPICK_INT */
-     , (23600, 9007, 20) /* Chest_WeenieType */;
+     , (23600, 38, 300) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23600, 41, 10) /* REGENERATION_INTERVAL_FLOAT */
      , (23600, 43, 1) /* GENERATOR_RADIUS_FLOAT */
      , (23600, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23600, 1, True) /* STUCK_BOOL */
      , (23600, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (23600, 2, False) /* OPEN_BOOL */
@@ -52,6 +48,6 @@ VALUES (23600, 1, True) /* STUCK_BOOL */
      , (23600, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23600, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23600, -1, 412, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Door (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 

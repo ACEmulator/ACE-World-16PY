@@ -1,18 +1,15 @@
 /* Weenie - Skeletal Guise (22020) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22020;
+DELETE FROM weenie WHERE class_Id = 22020;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22020, 'costumeskeleton');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22020, 'costumeskeleton', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22020, 0, 22020);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22020, 16, 'A finely crafted skeleton costume that is only missing the head.') /* LONG_DESC_STRING */
      , (22020, 1, 'Skeletal Guise') /* NAME_STRING */
      , (22020, 15, 'A skeleton costume.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22020, 1, 33558008) /* SETUP_DID */
      , (22020, 3, 536870932) /* SOUND_TABLE_DID */
      , (22020, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (22020, 1, 33558008) /* SETUP_DID */
      , (22020, 7, 268436470) /* CLOTHINGBASE_DID */
      , (22020, 8, 100673718) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22020, 9, 32512) /* LOCATIONS_INT */
      , (22020, 1, 4) /* ITEM_TYPE_INT */
      , (22020, 19, 1000) /* VALUE_INT */
@@ -34,10 +31,9 @@ VALUES (22020, 9, 32512) /* LOCATIONS_INT */
      , (22020, 151, 2) /* HOOK_TYPE_INT */
      , (22020, 27, 1) /* ARMOR_TYPE_INT */
      , (22020, 28, 10) /* ARMOR_LEVEL_INT */
-     , (22020, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22020, 9007, 2) /* Clothing_WeenieType */;
+     , (22020, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22020, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (22020, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (22020, 12, 0) /* SHADE_FLOAT */
@@ -48,7 +44,7 @@ VALUES (22020, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (22020, 18, 0.55) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (22020, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22020, 22, True) /* INSCRIBABLE_BOOL */
      , (22020, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

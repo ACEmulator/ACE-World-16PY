@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1215, 2053828610, 2796486912, 152.54, 57.756, 48.005, -0.0220572, 0, 0, -0.999757) /* Chest */
      , (1631, 2053828617, 2796486912, 156.016, 58.4527, 48.005, -0.914079, 0, 0, -0.405535) /* Drudge Servant */
      , (1464, 2053828616, 2796486912, 154.113, 57.395, 48.005, -0.967836, 0, 0, -0.251583) /* Drudge Robber */
@@ -8,9 +8,9 @@ VALUES (1215, 2053828610, 2796486912, 152.54, 57.756, 48.005, -0.0220572, 0, 0, 
      , (412, 2053828608, 2796486656, 155.533, 65.2591, 48, -0.00490871, 0, 0, -0.999988) /* Door */
      , (412, 2053828609, 2796486656, 151.218, 61.1763, 48, 0.703627, 0, 0, -0.710569) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2053828614'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2053828614'; /* linkmonstergen10minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828615'; /* linkmonstergen10minutes <- Drudge Servant */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828616'; /* linkmonstergen10minutes <- Drudge Robber */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2053828617'; /* linkmonstergen10minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2053828615'; /* linkmonstergen10minutes <- Drudge Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2053828616'; /* linkmonstergen10minutes <- Drudge Robber */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2053828617'; /* linkmonstergen10minutes <- Drudge Servant */
 

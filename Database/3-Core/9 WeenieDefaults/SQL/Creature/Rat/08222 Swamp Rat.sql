@@ -1,16 +1,13 @@
 /* Weenie - Swamp Rat (8222) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8222;
+DELETE FROM weenie WHERE class_Id = 8222;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8222, 'ratswampxara');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8222, 'ratswampxara', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8222, 0, 8222);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8222, 1, 'Swamp Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8222, 1, 33554493) /* SETUP_DID */
      , (8222, 2, 150994958) /* MOTION_TABLE_DID */
      , (8222, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (8222, 1, 33554493) /* SETUP_DID */
      , (8222, 8, 100667451) /* ICON_DID */
      , (8222, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8222, 1, 16) /* ITEM_TYPE_INT */
      , (8222, 146, 1159) /* XP_OVERRIDE_INT */
      , (8222, 2, 10) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (8222, 1, 16) /* ITEM_TYPE_INT */
      , (8222, 25, 16) /* LEVEL_INT */
      , (8222, 27, 0) /* ARMOR_TYPE_INT */
      , (8222, 93, 1032) /* PHYSICS_STATE_INT */
-     , (8222, 40, 2) /* COMBAT_MODE_INT */
-     , (8222, 9007, 10) /* Creature_WeenieType */;
+     , (8222, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8222, 64, 0.85) /* RESIST_SLASH_FLOAT */
      , (8222, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (8222, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (8222, 64, 0.85) /* RESIST_SLASH_FLOAT */
      , (8222, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (8222, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8222, 1, True) /* STUCK_BOOL */
      , (8222, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (8222, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8222, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (8222, 1, 70) /* STRENGTH_ATTRIBUTE */
      , (8222, 2, 120) /* ENDURANCE_ATTRIBUTE */
      , (8222, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (8222, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (8222, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (8222, 32, 50) /* SELF_ATTRIBUTE */;
+     , (8222, 3, 100) /* QUICKNESS_ATTRIBUTE */
+     , (8222, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (8222, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8222, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8222, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8222, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (8222, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8222, 3, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8222, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8222, 9, 8223, 0, 0, 0.2, False) /* Create Xarabydun Swamp Rat Tail for ContainTreasure_DestinationType */
      , (8222, 9, 0, 0, 0, 0.8, False) /* Create  for ContainTreasure_DestinationType */;
 

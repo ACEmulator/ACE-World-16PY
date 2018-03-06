@@ -1,16 +1,13 @@
 /* Weenie - Heart of the Temple (26645) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26645;
+DELETE FROM weenie WHERE class_Id = 26645;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26645, 'hearttemple');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26645, 'hearttemple', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26645, 0, 26645);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26645, 1, 'Heart of the Temple') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26645, 1, 33554809) /* SETUP_DID */
      , (26645, 3, 536870932) /* SOUND_TABLE_DID */
      , (26645, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -19,7 +16,7 @@ VALUES (26645, 1, 33554809) /* SETUP_DID */
      , (26645, 7, 268435723) /* CLOTHINGBASE_DID */
      , (26645, 8, 100674727) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26645, 9, 0) /* LOCATIONS_INT */
      , (26645, 1, 2048) /* ITEM_TYPE_INT */
      , (26645, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -34,9 +31,8 @@ VALUES (26645, 9, 0) /* LOCATIONS_INT */
      , (26645, 19, 0) /* VALUE_INT */
      , (26645, 93, 1044) /* PHYSICS_STATE_INT */
      , (26645, 33, 1) /* BONDED_INT */
-     , (26645, 114, 1) /* ATTUNED_INT */
-     , (26645, 9007, 38) /* Gem_WeenieType */;
+     , (26645, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26645, 22, True) /* INSCRIBABLE_BOOL */;
 

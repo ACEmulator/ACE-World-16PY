@@ -1,18 +1,15 @@
 /* Weenie - Tufa Spire Shadow (6834) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6834;
+DELETE FROM weenie WHERE class_Id = 6834;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6834, 'shadowspiretufa');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6834, 'shadowspiretufa', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6834, 0, 6834);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6834, 1, 'Tufa Spire Shadow') /* NAME_STRING */
      , (6834, 3, 'Male') /* SEX_STRING */
      , (6834, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6834, 8, 100670397) /* ICON_DID */
      , (6834, 32, 178) /* WIELDED_TREASURE_TYPE_DID */
      , (6834, 1, 33556564) /* SETUP_DID */
@@ -24,7 +21,7 @@ VALUES (6834, 8, 100670397) /* ICON_DID */
      , (6834, 7, 268435992) /* CLOTHINGBASE_DID */
      , (6834, 22, 872415331) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6834, 1, 16) /* ITEM_TYPE_INT */
      , (6834, 2, 22) /* CREATURE_TYPE_INT */
      , (6834, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -39,10 +36,9 @@ VALUES (6834, 1, 16) /* ITEM_TYPE_INT */
      , (6834, 25, 89) /* LEVEL_INT */
      , (6834, 27, 0) /* ARMOR_TYPE_INT */
      , (6834, 93, 4195336) /* PHYSICS_STATE_INT */
-     , (6834, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (6834, 9007, 10) /* Creature_WeenieType */;
+     , (6834, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6834, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6834, 65, 0.5) /* RESIST_PIERCE_FLOAT */
      , (6834, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -77,7 +73,7 @@ VALUES (6834, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6834, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6834, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6834, 1, True) /* STUCK_BOOL */
      , (6834, 6, True) /* AI_USES_MANA_BOOL */
      , (6834, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
@@ -86,7 +82,7 @@ VALUES (6834, 1, True) /* STUCK_BOOL */
      , (6834, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6834, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6834, 1668, 2.009) /* StaminatoHealthSelf5_SpellID */
      , (6834, 145, 2.005) /* FlameVolley5_SpellID */
      , (6834, 153, 2.005) /* BladeVolley5_SpellID */
@@ -108,20 +104,20 @@ VALUES (6834, 1668, 2.009) /* StaminatoHealthSelf5_SpellID */
      , (6834, 233, 2.01) /* VulnerabilityOther5_SpellID */
      , (6834, 1264, 2.009) /* DrainMana5_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6834, 1, 170) /* STRENGTH_ATTRIBUTE */
      , (6834, 2, 200) /* ENDURANCE_ATTRIBUTE */
      , (6834, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (6834, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (6834, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (6834, 32, 200) /* SELF_ATTRIBUTE */;
+     , (6834, 3, 210) /* QUICKNESS_ATTRIBUTE */
+     , (6834, 5, 160) /* FOCUS_ATTRIBUTE */
+     , (6834, 6, 200) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6834, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6834, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6834, 256, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6834, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6834, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6834, 5, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6834, 8, 6059, 0, 0, 0.03, False) /* Create Dark Sliver for Treasure_DestinationType */
      , (6834, 1, 6820, 0, 0, 1, False) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */
      , (6834, 1, 6820, 0, 0, 1, False) /* Create Spire Key Chunk - Tufa for Contain_DestinationType */

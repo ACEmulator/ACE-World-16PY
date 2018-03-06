@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (278, 1880334337, 20578576, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880334338, 20578576, 15.2237, -20.06, 0, -0.707107, 0, 0, -0.707107) /* Door */
      , (278, 1880334340, 20578578, 20, -15.25, 0, 1, 0, 0, 0) /* Door */
@@ -50,9 +50,9 @@ VALUES (278, 1880334337, 20578576, 24.75, -20, 0, 0.707107, 0, 0, -0.707107) /* 
      , (1302, 1880334390, 20579326, 165.25, -50, 30, -0.707107, 0, 0, -0.707107) /* Door */
      , (568, 1880334391, 20579396, 165.25, -60, 36, -0.707107, 0, 0, -0.707107) /* Door */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880334371'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880334371'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880334374'; /* linkmonstergen3minutes <- Russet Rat */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880334360'; /* linkmonstergen3minutes <- Black Rabbit */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880334361'; /* linkmonstergen3minutes <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334374'; /* linkmonstergen3minutes <- Russet Rat */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334360'; /* linkmonstergen3minutes <- Black Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880334361'; /* linkmonstergen3minutes <- Black Rabbit */
 

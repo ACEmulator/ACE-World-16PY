@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (952, 2037157888, 2529755136, 20.8499, 112.541, 54.53, -0.445985, 0, 0, 0.89504) /* banderlingraidergen */
      , (952, 2037157889, 2529755136, 27.8705, 112.558, 53.3599, -0.0996088, 0, 0, 0.995027) /* banderlingraidergen */
      , (952, 2037157890, 2529755136, 30.7116, 115.595, 52.8864, -0.342686, 0, 0, 0.93945) /* banderlingraidergen */

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, 2079850581, 3212837140, 56.345, 133.03, 54.005, -0.725211, 0, 0, -0.688527) /* Chest */
      , (25715, 2079850580, 3212837140, 57.1034, 132.52, 54.005, 0.931541, 0, 0, -0.363637) /* Dame Brinna O'Shea */
      , (4439, 2079850523, 3212837145, 84.936, 61.2246, 40.005, 0.868885, 0, 0, -0.495015) /* Taryla the Bowyer */
@@ -77,10 +77,10 @@ VALUES (143, 2079850581, 3212837140, 56.345, 133.03, 54.005, -0.725211, 0, 0, -0
      , (4426, 2079850542, 3212836864, 78.8835, 54.5024, 40.005, 1, 0, 0, 0) /* Dafrida the Tailor */
      , (4417, 2079850543, 3212836864, 82.7276, 54.5476, 40.005, 1, 0, 0, 0) /* Lone Tree Bows */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2079850545'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2079850545'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850535'; /* linkmonstergen3minutes <- Lord Aleval */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850577'; /* linkmonstergen3minutes <- Guard Chandler Hammett */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850580'; /* linkmonstergen3minutes <- Dame Brinna O'Shea */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2079850587'; /* linkmonstergen3minutes <- Apprentice Cook */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2079850535'; /* linkmonstergen3minutes <- Lord Aleval */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2079850577'; /* linkmonstergen3minutes <- Guard Chandler Hammett */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2079850580'; /* linkmonstergen3minutes <- Dame Brinna O'Shea */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2079850587'; /* linkmonstergen3minutes <- Apprentice Cook */
 

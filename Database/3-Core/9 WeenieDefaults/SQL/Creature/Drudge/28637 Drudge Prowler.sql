@@ -1,16 +1,13 @@
 /* Weenie - Drudge Prowler (28637) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 28637;
+DELETE FROM weenie WHERE class_Id = 28637;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (28637, 'eaterravenous');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (28637, 'eaterravenous', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (28637, 0, 28637);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28637, 1, 'Drudge Prowler') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28637, 8, 100667445) /* ICON_DID */
      , (28637, 32, 74) /* WIELDED_TREASURE_TYPE_DID */
      , (28637, 1, 33556445) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (28637, 8, 100667445) /* ICON_DID */
      , (28637, 7, 268435972) /* CLOTHINGBASE_DID */
      , (28637, 22, 872415258) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (28637, 1, 16) /* ITEM_TYPE_INT */
      , (28637, 2, 3) /* CREATURE_TYPE_INT */
      , (28637, 3, 47) /* PALETTE_TEMPLATE_INT */
@@ -37,10 +34,9 @@ VALUES (28637, 1, 16) /* ITEM_TYPE_INT */
      , (28637, 27, 0) /* ARMOR_TYPE_INT */
      , (28637, 93, 1032) /* PHYSICS_STATE_INT */
      , (28637, 101, 131) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (28637, 40, 2) /* COMBAT_MODE_INT */
-     , (28637, 9007, 10) /* Creature_WeenieType */;
+     , (28637, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28637, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (28637, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (28637, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (28637, 64, 0.86) /* RESIST_SLASH_FLOAT */
      , (28637, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (28637, 31, 12) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28637, 1, True) /* STUCK_BOOL */
      , (28637, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (28637, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28637, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (28637, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (28637, 2, 40) /* ENDURANCE_ATTRIBUTE */
      , (28637, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (28637, 8, 45) /* QUICKNESS_ATTRIBUTE */
-     , (28637, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (28637, 32, 20) /* SELF_ATTRIBUTE */;
+     , (28637, 3, 45) /* QUICKNESS_ATTRIBUTE */
+     , (28637, 5, 30) /* FOCUS_ATTRIBUTE */
+     , (28637, 6, 20) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28637, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (28637, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (28637, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (28637, 1, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28637, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28637, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28637, 9, 3669, 0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
      , (28637, 9, 0, 0, 0, 0.92, False) /* Create  for ContainTreasure_DestinationType */
      , (28637, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */

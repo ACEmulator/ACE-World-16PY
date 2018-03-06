@@ -1,16 +1,13 @@
 /* Weenie - A Society Atlatl (23545) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23545;
+DELETE FROM weenie WHERE class_Id = 23545;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23545, 'atlatlnewbiequest');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23545, 'atlatlnewbiequest', /* MissileLauncher_WeenieType */ 3);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23545, 0, 23545);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23545, 1, 'A Society Atlatl') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23545, 1, 33557433) /* SETUP_DID */
      , (23545, 3, 536870932) /* SOUND_TABLE_DID */
      , (23545, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (23545, 1, 33557433) /* SETUP_DID */
      , (23545, 8, 100672372) /* ICON_DID */
      , (23545, 50, 100675463) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23545, 9, 4194304) /* LOCATIONS_INT */
      , (23545, 1, 256) /* ITEM_TYPE_INT */
      , (23545, 19, 1) /* VALUE_INT */
@@ -41,10 +38,9 @@ VALUES (23545, 9, 4194304) /* LOCATIONS_INT */
      , (23545, 49, 15) /* WEAPON_TIME_INT */
      , (23545, 50, 4) /* AMMO_TYPE_INT */
      , (23545, 51, 2) /* COMBAT_USE_INT */
-     , (23545, 60, 192) /* WEAPON_RANGE_INT */
-     , (23545, 9007, 3) /* MissileLauncher_WeenieType */;
+     , (23545, 60, 192) /* WEAPON_RANGE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23545, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23545, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23545, 63, 2.15) /* DAMAGE_MOD_FLOAT */
@@ -52,10 +48,10 @@ VALUES (23545, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23545, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (23545, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23545, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23545, 1612, 2) /* BloodDrinker2_SpellID */
      , (23545, 534, 2) /* ThrownWeaponMasteryOther2_SpellID */;
 

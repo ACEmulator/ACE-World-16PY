@@ -1,16 +1,13 @@
 /* Weenie - Giant Mite (25869) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25869;
+DELETE FROM weenie WHERE class_Id = 25869;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25869, 'mitegiant');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25869, 'mitegiant', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25869, 0, 25869);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25869, 1, 'Giant Mite') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25869, 1, 33558656) /* SETUP_DID */
      , (25869, 2, 150995268) /* MOTION_TABLE_DID */
      , (25869, 35, 26) /* DEATH_TREASURE_TYPE_DID */
@@ -21,7 +18,7 @@ VALUES (25869, 1, 33558656) /* SETUP_DID */
      , (25869, 7, 268436816) /* CLOTHINGBASE_DID */
      , (25869, 8, 100667448) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25869, 1, 16) /* ITEM_TYPE_INT */
      , (25869, 146, 219243) /* XP_OVERRIDE_INT */
      , (25869, 2, 7) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (25869, 1, 16) /* ITEM_TYPE_INT */
      , (25869, 27, 0) /* ARMOR_TYPE_INT */
      , (25869, 93, 1032) /* PHYSICS_STATE_INT */
      , (25869, 101, 129) /* AI_ALLOWED_COMBAT_STYLE_INT */
-     , (25869, 40, 2) /* COMBAT_MODE_INT */
-     , (25869, 9007, 10) /* Creature_WeenieType */;
+     , (25869, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25869, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (25869, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (25869, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (25869, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (25869, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25869, 31, 16) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25869, 1, True) /* STUCK_BOOL */
      , (25869, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25869, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25869, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25869, 1, 400) /* STRENGTH_ATTRIBUTE */
      , (25869, 2, 400) /* ENDURANCE_ATTRIBUTE */
      , (25869, 4, 400) /* COORDINATION_ATTRIBUTE */
-     , (25869, 8, 420) /* QUICKNESS_ATTRIBUTE */
-     , (25869, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (25869, 32, 120) /* SELF_ATTRIBUTE */;
+     , (25869, 3, 420) /* QUICKNESS_ATTRIBUTE */
+     , (25869, 5, 120) /* FOCUS_ATTRIBUTE */
+     , (25869, 6, 120) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25869, 64, 2800) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25869, 128, 2600) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25869, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25869, 1, 2800) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25869, 3, 2600) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25869, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25869, 9, 30823, 0, 0, 0.01, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
      , (25869, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (25869, 9, 28889, 0, 0, 0.05, False) /* Create Mite Head for ContainTreasure_DestinationType */

@@ -1,27 +1,23 @@
 /* Weenie - Large LiveOp Floor (22169) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22169;
+DELETE FROM weenie WHERE class_Id = 22169;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22169, 'floorlarge-lo');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22169, 'floorlarge-lo', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22169, 0, 22169);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22169, 1, 'Large LiveOp Floor') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22169, 1, 33557549) /* SETUP_DID */
      , (22169, 8, 100667940) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22169, 1, 128) /* ITEM_TYPE_INT */
      , (22169, 66, 1) /* CHECKPOINT_STATUS_INT */
      , (22169, 16, 1) /* ITEM_USEABLE_INT */
-     , (22169, 93, 24) /* PHYSICS_STATE_INT */
-     , (22169, 9007, 1) /* Generic_WeenieType */;
+     , (22169, 93, 24) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22169, 1, True) /* STUCK_BOOL */
      , (22169, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22169, 13, False) /* ETHEREAL_BOOL */

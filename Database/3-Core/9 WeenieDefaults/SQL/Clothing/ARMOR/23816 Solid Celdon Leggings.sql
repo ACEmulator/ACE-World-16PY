@@ -1,16 +1,13 @@
 /* Weenie - Solid Celdon Leggings (23816) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 23816;
+DELETE FROM weenie WHERE class_Id = 23816;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (23816, 'leggingsceldonshadowsolid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (23816, 'leggingsceldonshadowsolid', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (23816, 0, 23816);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23816, 1, 'Solid Celdon Leggings') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23816, 1, 33554856) /* SETUP_DID */
      , (23816, 3, 536870932) /* SOUND_TABLE_DID */
      , (23816, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -18,7 +15,7 @@ VALUES (23816, 1, 33554856) /* SETUP_DID */
      , (23816, 7, 268435844) /* CLOTHINGBASE_DID */
      , (23816, 8, 100674071) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23816, 9, 24576) /* LOCATIONS_INT */
      , (23816, 1, 2) /* ITEM_TYPE_INT */
      , (23816, 19, 2140) /* VALUE_INT */
@@ -37,10 +34,9 @@ VALUES (23816, 9, 24576) /* LOCATIONS_INT */
      , (23816, 33, 1) /* BONDED_INT */
      , (23816, 107, 1000) /* ITEM_CUR_MANA_INT */
      , (23816, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (23816, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (23816, 9007, 2) /* Clothing_WeenieType */;
+     , (23816, 109, 0) /* ITEM_DIFFICULTY_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23816, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23816, 5, -0.025) /* MANA_RATE_FLOAT */
      , (23816, 12, 0.232225) /* SHADE_FLOAT */
@@ -53,12 +49,12 @@ VALUES (23816, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (23816, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (23816, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23816, 69, False) /* IS_SELLABLE_BOOL */
      , (23816, 84, True) /* IGNORE_CLO_ICONS_BOOL */
      , (23816, 22, True) /* INSCRIBABLE_BOOL */
      , (23816, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23816, 2614, 2) /* CANTRIPSLASHINGWARD2_SpellID */;
 

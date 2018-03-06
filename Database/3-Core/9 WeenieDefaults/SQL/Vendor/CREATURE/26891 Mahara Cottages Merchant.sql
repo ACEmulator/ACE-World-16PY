@@ -1,26 +1,23 @@
 /* Weenie - Mahara Cottages Merchant (26891) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 26891;
+DELETE FROM weenie WHERE class_Id = 26891;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (26891, 'maharacottagesvendor');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (26891, 'maharacottagesvendor', /* Vendor_WeenieType */ 12);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (26891, 0, 26891);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26891, 1, 'Mahara Cottages Merchant') /* NAME_STRING */
      , (26891, 3, 'Male') /* SEX_STRING */
      , (26891, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
      , (26891, 5, 'Merchant') /* TEMPLATE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26891, 1, 33554433) /* SETUP_DID */
      , (26891, 2, 150994945) /* MOTION_TABLE_DID */
      , (26891, 3, 536870913) /* SOUND_TABLE_DID */
      , (26891, 4, 805306368) /* COMBAT_TABLE_DID */
      , (26891, 8, 100667446) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26891, 1, 16) /* ITEM_TYPE_INT */
      , (26891, 74, 264192) /* MERCHANDISE_ITEM_TYPES_INT */
      , (26891, 2, 31) /* CREATURE_TYPE_INT */
@@ -37,10 +34,9 @@ VALUES (26891, 1, 16) /* ITEM_TYPE_INT */
      , (26891, 27, 0) /* ARMOR_TYPE_INT */
      , (26891, 93, 2098204) /* PHYSICS_STATE_INT */
      , (26891, 126, 125) /* VENDOR_HAPPY_MEAN_INT */
-     , (26891, 127, 125) /* VENDOR_HAPPY_VARIANCE_INT */
-     , (26891, 9007, 12) /* Vendor_WeenieType */;
+     , (26891, 127, 125) /* VENDOR_HAPPY_VARIANCE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26891, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26891, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (26891, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -72,26 +68,26 @@ VALUES (26891, 64, 1) /* RESIST_SLASH_FLOAT */
      , (26891, 54, 3) /* USE_RADIUS_FLOAT */
      , (26891, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26891, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26891, 1, True) /* STUCK_BOOL */
      , (26891, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
      , (26891, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26891, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (26891, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (26891, 2, 90) /* ENDURANCE_ATTRIBUTE */
      , (26891, 4, 80) /* COORDINATION_ATTRIBUTE */
-     , (26891, 8, 85) /* QUICKNESS_ATTRIBUTE */
-     , (26891, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (26891, 32, 45) /* SELF_ATTRIBUTE */;
+     , (26891, 3, 85) /* QUICKNESS_ATTRIBUTE */
+     , (26891, 5, 40) /* FOCUS_ATTRIBUTE */
+     , (26891, 6, 45) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (26891, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26891, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26891, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (26891, 1, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26891, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26891, 5, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26891, 4, 26256, -1, 0, 0, False) /* Create Mahara Cottages Portal Gem for Shop_DestinationType */;
 

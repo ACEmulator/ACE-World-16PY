@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Soldier (11729) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 11729;
+DELETE FROM weenie WHERE class_Id = 11729;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (11729, 'olthoisoldierspecial-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (11729, 'olthoisoldierspecial-xp', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (11729, 0, 11729);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11729, 1, 'Olthoi Soldier') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11729, 1, 33557162) /* SETUP_DID */
      , (11729, 2, 150994946) /* MOTION_TABLE_DID */
      , (11729, 35, 451) /* DEATH_TREASURE_TYPE_DID */
@@ -20,7 +17,7 @@ VALUES (11729, 1, 33557162) /* SETUP_DID */
      , (11729, 30, 85) /* PHYSICS_SCRIPT_DID */
      , (11729, 22, 872415265) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11729, 1, 16) /* ITEM_TYPE_INT */
      , (11729, 2, 1) /* CREATURE_TYPE_INT */
      , (11729, 140, 1) /* AI_OPTIONS_INT */
@@ -35,10 +32,9 @@ VALUES (11729, 1, 16) /* ITEM_TYPE_INT */
      , (11729, 25, 61) /* LEVEL_INT */
      , (11729, 27, 0) /* ARMOR_TYPE_INT */
      , (11729, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11729, 40, 2) /* COMBAT_MODE_INT */
-     , (11729, 9007, 10) /* Creature_WeenieType */;
+     , (11729, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11729, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11729, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (11729, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -70,26 +66,26 @@ VALUES (11729, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (11729, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (11729, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11729, 1, True) /* STUCK_BOOL */
      , (11729, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (11729, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11729, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (11729, 1, 300) /* STRENGTH_ATTRIBUTE */
      , (11729, 2, 300) /* ENDURANCE_ATTRIBUTE */
      , (11729, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (11729, 8, 130) /* QUICKNESS_ATTRIBUTE */
-     , (11729, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (11729, 32, 50) /* SELF_ATTRIBUTE */;
+     , (11729, 3, 130) /* QUICKNESS_ATTRIBUTE */
+     , (11729, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (11729, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11729, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11729, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11729, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (11729, 1, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11729, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11729, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11729, 9, 10847, 0, 0, 1, False) /* Create Soldier Pincer for ContainTreasure_DestinationType */
      , (11729, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
 

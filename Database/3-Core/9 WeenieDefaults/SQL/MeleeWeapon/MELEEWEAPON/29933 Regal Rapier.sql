@@ -1,22 +1,19 @@
 /* Weenie - Regal Rapier (29933) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 29933;
+DELETE FROM weenie WHERE class_Id = 29933;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (29933, 'swordregal');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (29933, 'swordregal', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (29933, 0, 29933);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29933, 1, 'Regal Rapier') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29933, 1, 33559054) /* SETUP_DID */
      , (29933, 3, 536870932) /* SOUND_TABLE_DID */
      , (29933, 8, 100676973) /* ICON_DID */
      , (29933, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29933, 9, 1048576) /* LOCATIONS_INT */
      , (29933, 1, 1) /* ITEM_TYPE_INT */
      , (29933, 5, 800) /* ENCUMB_VAL_INT */
@@ -41,10 +38,9 @@ VALUES (29933, 9, 1048576) /* LOCATIONS_INT */
      , (29933, 47, 130) /* ATTACK_TYPE_INT */
      , (29933, 48, 11) /* WEAPON_SKILL_INT */
      , (29933, 49, 45) /* WEAPON_TIME_INT */
-     , (29933, 51, 1) /* COMBAT_USE_INT */
-     , (29933, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (29933, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29933, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (29933, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
      , (29933, 5, -0.0333) /* MANA_RATE_FLOAT */
@@ -55,10 +51,10 @@ VALUES (29933, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (29933, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
      , (29933, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29933, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29933, 1604, 2) /* Defender5_SpellID */
      , (29933, 1359, 2) /* EnduranceOther5_SpellID */
      , (29933, 1616, 2) /* BloodDrinker6_SpellID */

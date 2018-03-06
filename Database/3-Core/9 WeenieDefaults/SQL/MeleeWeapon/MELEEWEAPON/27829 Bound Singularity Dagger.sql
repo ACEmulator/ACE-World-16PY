@@ -1,17 +1,14 @@
 /* Weenie - Bound Singularity Dagger (27829) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27829;
+DELETE FROM weenie WHERE class_Id = 27829;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27829, 'daggersingularitynew2');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27829, 'daggersingularitynew2', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27829, 0, 27829);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27829, 1, 'Bound Singularity Dagger') /* NAME_STRING */
      , (27829, 15, 'A dagger imbued with Singularity energy.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27829, 1, 33558791) /* SETUP_DID */
      , (27829, 3, 536870932) /* SOUND_TABLE_DID */
      , (27829, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (27829, 1, 33558791) /* SETUP_DID */
      , (27829, 7, 268436240) /* CLOTHINGBASE_DID */
      , (27829, 8, 100676580) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27829, 9, 1048576) /* LOCATIONS_INT */
      , (27829, 1, 1) /* ITEM_TYPE_INT */
      , (27829, 19, 0) /* VALUE_INT */
@@ -46,10 +43,9 @@ VALUES (27829, 9, 1048576) /* LOCATIONS_INT */
      , (27829, 48, 4) /* WEAPON_SKILL_INT */
      , (27829, 49, 20) /* WEAPON_TIME_INT */
      , (27829, 114, 1) /* ATTUNED_INT */
-     , (27829, 51, 1) /* COMBAT_USE_INT */
-     , (27829, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (27829, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27829, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (27829, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
      , (27829, 5, -0.033) /* MANA_RATE_FLOAT */
@@ -59,11 +55,11 @@ VALUES (27829, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
      , (27829, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */
      , (27829, 22, 0.7) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27829, 22, True) /* INSCRIBABLE_BOOL */
      , (27829, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27829, 1592, 2) /* HeartSeeker6_SpellID */
      , (27829, 1616, 2) /* BloodDrinker6_SpellID */
      , (27829, 1384, 2) /* CoordinationOther6_SpellID */;

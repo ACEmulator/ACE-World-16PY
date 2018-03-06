@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0, 0, -1) /* tumerokleaderlocalgen-xp */
      , (11111, 1910202391, 498467078, 174.37, 131.272, 120, -0.707107, 0, 0, -0.707107) /* tumerokleaderpeacegen-xp */
      , (11112, 1910202392, 498467078, 186.221, 129.216, 120, -4.37114E-08, 0, 0, -1) /* tumerokleaderwargen-xp */
@@ -48,16 +48,16 @@ VALUES (11110, 1910202370, 498467078, 174.332, 128.681, 120.005, -4.37114E-08, 0
      , (11349, 1910202401, 498466816, 163.192, 53.9236, 120.005, 0.986886, 0, 0, -0.161419) /* Aun Whethura the Crafter */
      , (11700, 1910202403, 498466816, 133.273, 131.992, 120.005, 0.707107, 0, 0, -0.707107) /* Gate */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1910202398'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1910202398'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202393'; /* linkmonstergen30seconds <- Aun Town Crier */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202371'; /* linkmonstergen30seconds <- Aun Firanauri the Gate Keeper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202395'; /* linkmonstergen30seconds <- Aun Mireona the Shopkeep */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202400'; /* linkmonstergen30seconds <- Aun Mareura the Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202401'; /* linkmonstergen30seconds <- Aun Whethura the Crafter */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202413'; /* linkmonstergen30seconds <- Aun Ngationa */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202414'; /* linkmonstergen30seconds <- Aun Turiona */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202412'; /* linkmonstergen30seconds <- Aun Rukuona */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202411'; /* linkmonstergen30seconds <- Aun Kiriona */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1910202416'; /* linkmonstergen30seconds <- Aun Faranua */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202393'; /* linkmonstergen30seconds <- Aun Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202371'; /* linkmonstergen30seconds <- Aun Firanauri the Gate Keeper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202395'; /* linkmonstergen30seconds <- Aun Mireona the Shopkeep */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202400'; /* linkmonstergen30seconds <- Aun Mareura the Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202401'; /* linkmonstergen30seconds <- Aun Whethura the Crafter */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202413'; /* linkmonstergen30seconds <- Aun Ngationa */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202414'; /* linkmonstergen30seconds <- Aun Turiona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202412'; /* linkmonstergen30seconds <- Aun Rukuona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202411'; /* linkmonstergen30seconds <- Aun Kiriona */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1910202416'; /* linkmonstergen30seconds <- Aun Faranua */
 

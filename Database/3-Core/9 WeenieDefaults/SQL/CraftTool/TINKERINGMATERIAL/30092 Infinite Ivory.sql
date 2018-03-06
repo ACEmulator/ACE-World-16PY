@@ -1,17 +1,14 @@
 /* Weenie - Infinite Ivory (30092) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30092;
+DELETE FROM weenie WHERE class_Id = 30092;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30092, 'materialrareeternalivory');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30092, 'materialrareeternalivory', /* CraftTool_WeenieType */ 44);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30092, 0, 30092);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30092, 16, 'A lovely template for a rare.') /* LONG_DESC_STRING */
      , (30092, 1, 'Infinite Ivory') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30092, 1, 33554817) /* SETUP_DID */
      , (30092, 3, 536870932) /* SOUND_TABLE_DID */
      , (30092, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (30092, 1, 33554817) /* SETUP_DID */
      , (30092, 8, 100667436) /* ICON_DID */
      , (30092, 50, 100673260) /* ICON_OVERLAY_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30092, 9, 0) /* LOCATIONS_INT */
      , (30092, 1, 1073741824) /* ITEM_TYPE_INT */
      , (30092, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -37,9 +34,8 @@ VALUES (30092, 9, 0) /* LOCATIONS_INT */
      , (30092, 150, 103) /* HOOK_PLACEMENT_INT */
      , (30092, 151, 9) /* HOOK_TYPE_INT */
      , (30092, 91, 100) /* MAX_STRUCTURE_INT */
-     , (30092, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30092, 9007, 44) /* CraftTool_WeenieType */;
+     , (30092, 93, 1044) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30092, 22, True) /* INSCRIBABLE_BOOL */;
 

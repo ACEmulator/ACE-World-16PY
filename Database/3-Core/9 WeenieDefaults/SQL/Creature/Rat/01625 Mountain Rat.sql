@@ -1,16 +1,13 @@
 /* Weenie - Mountain Rat (1625) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 1625;
+DELETE FROM weenie WHERE class_Id = 1625;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (1625, 'ratmountain');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (1625, 'ratmountain', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (1625, 0, 1625);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1625, 1, 'Mountain Rat') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1625, 1, 33554493) /* SETUP_DID */
      , (1625, 2, 150994958) /* MOTION_TABLE_DID */
      , (1625, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (1625, 1, 33554493) /* SETUP_DID */
      , (1625, 8, 100667451) /* ICON_DID */
      , (1625, 30, 83) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1625, 1, 16) /* ITEM_TYPE_INT */
      , (1625, 146, 1482) /* XP_OVERRIDE_INT */
      , (1625, 2, 10) /* CREATURE_TYPE_INT */
@@ -35,10 +32,9 @@ VALUES (1625, 1, 16) /* ITEM_TYPE_INT */
      , (1625, 25, 18) /* LEVEL_INT */
      , (1625, 27, 0) /* ARMOR_TYPE_INT */
      , (1625, 93, 1032) /* PHYSICS_STATE_INT */
-     , (1625, 40, 2) /* COMBAT_MODE_INT */
-     , (1625, 9007, 10) /* Creature_WeenieType */;
+     , (1625, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1625, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (1625, 65, 0.85) /* RESIST_PIERCE_FLOAT */
      , (1625, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -71,26 +67,26 @@ VALUES (1625, 64, 0.8) /* RESIST_SLASH_FLOAT */
      , (1625, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (1625, 31, 25) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1625, 1, True) /* STUCK_BOOL */
      , (1625, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (1625, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1625, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (1625, 1, 70) /* STRENGTH_ATTRIBUTE */
      , (1625, 2, 100) /* ENDURANCE_ATTRIBUTE */
      , (1625, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (1625, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (1625, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (1625, 32, 50) /* SELF_ATTRIBUTE */;
+     , (1625, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (1625, 5, 70) /* FOCUS_ATTRIBUTE */
+     , (1625, 6, 50) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1625, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1625, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1625, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (1625, 1, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1625, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1625, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1625, 8, 5794, 0, 0, 0.07, False) /* Create Hot Pepper for Treasure_DestinationType */
      , (1625, 9, 0, 0, 0, 0.93, False) /* Create  for ContainTreasure_DestinationType */;
 

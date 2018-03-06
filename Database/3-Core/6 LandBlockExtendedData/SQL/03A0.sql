@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12300, 1882849289, 60817664, 52.2292, -169.579, -29.971, -0.688612, 0, 0, 0.72513) /* Singular Virindi Servant */
      , (12273, 1882849290, 60817665, 60.3619, -161.866, -29.99, -0.072007, 0, 0, 0.997404) /* Singular Gigas Raider */
      , (12273, 1882849291, 60817671, 59.5937, -177.835, -29.99, -0.940522, 0, 0, 0.339734) /* Singular Gigas Raider */
@@ -59,59 +59,59 @@ VALUES (12300, 1882849289, 60817664, 52.2292, -169.579, -29.971, -0.688612, 0, 0
      , (12273, 1882849338, 60818058, 108.242, -478.945, 0.01, 0.582994, 0, 0, -0.812477) /* Singular Gigas Raider */
      , (12273, 1882849339, 60818058, 107.143, -480.585, 0.01, -0.528357, 0, 0, -0.849022) /* Singular Gigas Raider */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1882849281'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1882849282'; /* linkmonstergen30seconds */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1882849337'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1882849281'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1882849282'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1882849337'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1882849283'; /* linkmonstergen3minutes <- Singular Lugian Warlord */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882849284'; /* linkmonstergen30seconds <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1882849286'; /* linkmonstergen30seconds <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849334'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849335'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849336'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849338'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849339'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849332'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849333'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849329'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849328'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849331'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849330'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849322'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849321'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849312'; /* linkmonstergen5minutes <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849313'; /* linkmonstergen5minutes <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849314'; /* linkmonstergen5minutes <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849303'; /* linkmonstergen5minutes <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849304'; /* linkmonstergen5minutes <- Singular Extas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849300'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849301'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849298'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849299'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849310'; /* linkmonstergen5minutes <- Singular Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849311'; /* linkmonstergen5minutes <- Singular Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849315'; /* linkmonstergen5minutes <- Singular Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849302'; /* linkmonstergen5minutes <- Singular Virindi Master */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849305'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849289'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849296'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849295'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849294'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849291'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849290'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849326'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849327'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849324'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849323'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849325'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849317'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849318'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849319'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849320'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849307'; /* linkmonstergen5minutes <- Singular Gigas Raider */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849308'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849309'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849316'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849292'; /* linkmonstergen5minutes <- Singular Virindi Servant */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1882849293'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1882849283'; /* linkmonstergen3minutes <- Singular Lugian Warlord */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882849284'; /* linkmonstergen30seconds <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1882849286'; /* linkmonstergen30seconds <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849334'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849335'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849336'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849338'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849339'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849332'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849333'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849329'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849328'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849331'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849330'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849322'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849321'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849312'; /* linkmonstergen5minutes <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849313'; /* linkmonstergen5minutes <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849314'; /* linkmonstergen5minutes <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849303'; /* linkmonstergen5minutes <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849304'; /* linkmonstergen5minutes <- Singular Extas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849300'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849301'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849298'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849299'; /* linkmonstergen5minutes <- Singular Tiatus Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849310'; /* linkmonstergen5minutes <- Singular Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849311'; /* linkmonstergen5minutes <- Singular Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849315'; /* linkmonstergen5minutes <- Singular Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849302'; /* linkmonstergen5minutes <- Singular Virindi Master */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849305'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849289'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849296'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849295'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849294'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849291'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849290'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849326'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849327'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849324'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849323'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849325'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849317'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849318'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849319'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849320'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849307'; /* linkmonstergen5minutes <- Singular Gigas Raider */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849308'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849309'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849316'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849292'; /* linkmonstergen5minutes <- Singular Virindi Servant */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1882849293'; /* linkmonstergen5minutes <- Singular Virindi Servant */
 

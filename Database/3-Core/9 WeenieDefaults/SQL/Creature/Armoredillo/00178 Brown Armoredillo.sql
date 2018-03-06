@@ -1,16 +1,13 @@
 /* Weenie - Brown Armoredillo (178) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 178;
+DELETE FROM weenie WHERE class_Id = 178;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (178, 'armoredillobrown');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (178, 'armoredillobrown', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (178, 0, 178);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (178, 1, 'Brown Armoredillo') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (178, 1, 33554436) /* SETUP_DID */
      , (178, 2, 150994972) /* MOTION_TABLE_DID */
      , (178, 35, 459) /* DEATH_TREASURE_TYPE_DID */
@@ -19,7 +16,7 @@ VALUES (178, 1, 33554436) /* SETUP_DID */
      , (178, 8, 100667935) /* ICON_DID */
      , (178, 22, 872415253) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (178, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (178, 1, 16) /* ITEM_TYPE_INT */
      , (178, 146, 168) /* XP_OVERRIDE_INT */
@@ -33,10 +30,9 @@ VALUES (178, 81, 3) /* MAX_GENERATED_OBJECTS_INT */
      , (178, 25, 5) /* LEVEL_INT */
      , (178, 93, 1032) /* PHYSICS_STATE_INT */
      , (178, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (178, 40, 2) /* COMBAT_MODE_INT */
-     , (178, 9007, 10) /* Creature_WeenieType */;
+     , (178, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (178, 64, 0.53) /* RESIST_SLASH_FLOAT */
      , (178, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
      , (178, 65, 1) /* RESIST_PIERCE_FLOAT */
@@ -70,26 +66,26 @@ VALUES (178, 64, 0.53) /* RESIST_SLASH_FLOAT */
      , (178, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (178, 31, 22) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (178, 1, True) /* STUCK_BOOL */
      , (178, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (178, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (178, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (178, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (178, 2, 80) /* ENDURANCE_ATTRIBUTE */
      , (178, 4, 40) /* COORDINATION_ATTRIBUTE */
-     , (178, 8, 55) /* QUICKNESS_ATTRIBUTE */
-     , (178, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (178, 32, 10) /* SELF_ATTRIBUTE */;
+     , (178, 3, 55) /* QUICKNESS_ATTRIBUTE */
+     , (178, 5, 20) /* FOCUS_ATTRIBUTE */
+     , (178, 6, 10) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (178, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (178, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (178, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (178, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (178, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (178, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (178, 9, 4232, 0, 0, 0.05, False) /* Create Small Armoredillo Hide for ContainTreasure_DestinationType */
      , (178, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
 

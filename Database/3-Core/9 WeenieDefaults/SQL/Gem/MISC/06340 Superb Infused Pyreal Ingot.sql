@@ -1,18 +1,15 @@
 /* Weenie - Superb Infused Pyreal Ingot (6340) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6340;
+DELETE FROM weenie WHERE class_Id = 6340;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6340, 'pyrealingotgreatinfusedclaw');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6340, 'pyrealingotgreatinfusedclaw', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6340, 0, 6340);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6340, 16, 'A pyreal ingot of exceedingly high quality infused with the essence of a claw.') /* LONG_DESC_STRING */
      , (6340, 1, 'Superb Infused Pyreal Ingot') /* NAME_STRING */
      , (6340, 15, 'A pyreal ingot of exceedingly high quality infused with the essence of a claw.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6340, 1, 33555677) /* SETUP_DID */
      , (6340, 3, 536870932) /* SOUND_TABLE_DID */
      , (6340, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -20,7 +17,7 @@ VALUES (6340, 1, 33555677) /* SETUP_DID */
      , (6340, 7, 268435723) /* CLOTHINGBASE_DID */
      , (6340, 8, 100670501) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6340, 9, 0) /* LOCATIONS_INT */
      , (6340, 1, 128) /* ITEM_TYPE_INT */
      , (6340, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -35,10 +32,9 @@ VALUES (6340, 9, 0) /* LOCATIONS_INT */
      , (6340, 19, 5000) /* VALUE_INT */
      , (6340, 93, 1044) /* PHYSICS_STATE_INT */
      , (6340, 33, 1) /* BONDED_INT */
-     , (6340, 114, 1) /* ATTUNED_INT */
-     , (6340, 9007, 38) /* Gem_WeenieType */;
+     , (6340, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6340, 69, False) /* IS_SELLABLE_BOOL */
      , (6340, 22, True) /* INSCRIBABLE_BOOL */
      , (6340, 23, True) /* DESTROY_ON_SELL_BOOL */;

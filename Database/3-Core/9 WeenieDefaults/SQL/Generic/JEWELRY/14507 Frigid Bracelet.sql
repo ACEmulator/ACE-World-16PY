@@ -1,18 +1,15 @@
 /* Weenie - Frigid Bracelet (14507) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14507;
+DELETE FROM weenie WHERE class_Id = 14507;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14507, 'braceletfrigid');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14507, 'braceletfrigid', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14507, 0, 14507);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14507, 16, 'A golden bracelet fitted with a scintillating blue gem. The metal is cool to the touch. When worn on the skin shivers move up and down your spine.') /* LONG_DESC_STRING */
      , (14507, 1, 'Frigid Bracelet') /* NAME_STRING */
      , (14507, 33, 'BraceletFrigidPickup') /* QUEST_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14507, 1, 33554683) /* SETUP_DID */
      , (14507, 3, 536870932) /* SOUND_TABLE_DID */
      , (14507, 36, 234881046) /* MUTATE_FILTER_DID */
@@ -21,7 +18,7 @@ VALUES (14507, 1, 33554683) /* SETUP_DID */
      , (14507, 7, 268436286) /* CLOTHINGBASE_DID */
      , (14507, 8, 100672505) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14507, 9, 196608) /* LOCATIONS_INT */
      , (14507, 1, 8) /* ITEM_TYPE_INT */
      , (14507, 19, 8500) /* VALUE_INT */
@@ -42,18 +39,17 @@ VALUES (14507, 9, 196608) /* LOCATIONS_INT */
      , (14507, 107, 600) /* ITEM_CUR_MANA_INT */
      , (14507, 108, 600) /* ITEM_MAX_MANA_INT */
      , (14507, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (14507, 114, 1) /* ATTUNED_INT */
-     , (14507, 9007, 1) /* Generic_WeenieType */;
+     , (14507, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14507, 5, -0.033333) /* MANA_RATE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14507, 99, True) /* IVORYABLE_BOOL */
      , (14507, 22, True) /* INSCRIBABLE_BOOL */
      , (14507, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14507, 271, 2) /* MagicResistanceOther4_SpellID */
      , (14507, 1040, 2) /* ColdProtectionOther5_SpellID */
      , (14507, 2579, 2) /* CANTRIPCOORDINATION1_SpellID */

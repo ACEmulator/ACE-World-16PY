@@ -1,16 +1,13 @@
 /* Weenie - Yoroi Tassets (113) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 113;
+DELETE FROM weenie WHERE class_Id = 113;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (113, 'tassetsyoroi');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (113, 'tassetsyoroi', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (113, 0, 113);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (113, 1, 'Yoroi Tassets') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (113, 1, 33554656) /* SETUP_DID */
      , (113, 3, 536870932) /* SOUND_TABLE_DID */
      , (113, 36, 234881042) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (113, 1, 33554656) /* SETUP_DID */
      , (113, 7, 268436438) /* CLOTHINGBASE_DID */
      , (113, 8, 100673372) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (113, 9, 8192) /* LOCATIONS_INT */
      , (113, 1, 2) /* ITEM_TYPE_INT */
      , (113, 27, 32) /* ARMOR_TYPE_INT */
@@ -32,10 +29,9 @@ VALUES (113, 9, 8192) /* LOCATIONS_INT */
      , (113, 8, 270) /* MASS_INT */
      , (113, 28, 80) /* ARMOR_LEVEL_INT */
      , (113, 93, 1044) /* PHYSICS_STATE_INT */
-     , (113, 169, 252313860) /* TSYS_MUTATION_DATA_INT */
-     , (113, 9007, 2) /* Clothing_WeenieType */;
+     , (113, 169, 252313860) /* TSYS_MUTATION_DATA_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (113, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (113, 111, 1) /* SIZE_MOD_FLOAT */
      , (113, 39, 1.33) /* DEFAULT_SCALE_FLOAT */
@@ -48,7 +44,7 @@ VALUES (113, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (113, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (113, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (113, 100, True) /* DYABLE_BOOL */
      , (113, 22, True) /* INSCRIBABLE_BOOL */;
 

@@ -1,18 +1,15 @@
 /* Weenie - Soul Staff (12029) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12029;
+DELETE FROM weenie WHERE class_Id = 12029;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12029, 'stafflugianboss');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12029, 'stafflugianboss', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12029, 0, 12029);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12029, 16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat.') /* LONG_DESC_STRING */
      , (12029, 1, 'Soul Staff') /* NAME_STRING */
      , (12029, 15, 'A bleached staff with faces carved upon it.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12029, 1, 33557346) /* SETUP_DID */
      , (12029, 3, 536870932) /* SOUND_TABLE_DID */
      , (12029, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (12029, 1, 33557346) /* SETUP_DID */
      , (12029, 8, 100672132) /* ICON_DID */
      , (12029, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12029, 9, 1048576) /* LOCATIONS_INT */
      , (12029, 1, 1) /* ITEM_TYPE_INT */
      , (12029, 93, 1044) /* PHYSICS_STATE_INT */
@@ -41,10 +38,9 @@ VALUES (12029, 9, 1048576) /* LOCATIONS_INT */
      , (12029, 48, 10) /* WEAPON_SKILL_INT */
      , (12029, 49, 20) /* WEAPON_TIME_INT */
      , (12029, 51, 1) /* COMBAT_USE_INT */
-     , (12029, 115, 260) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12029, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (12029, 115, 260) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12029, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (12029, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
      , (12029, 5, -0.017) /* MANA_RATE_FLOAT */
@@ -52,10 +48,10 @@ VALUES (12029, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
      , (12029, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */
      , (12029, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12029, 22, True) /* INSCRIBABLE_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12029, 1310, 2) /* ArmorSelf4_SpellID */
      , (12029, 2487, 2) /* SPIRITSTRIKE_SpellID */;
 

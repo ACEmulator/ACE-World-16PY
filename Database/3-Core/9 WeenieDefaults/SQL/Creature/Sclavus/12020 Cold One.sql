@@ -1,16 +1,13 @@
 /* Weenie - Cold One (12020) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 12020;
+DELETE FROM weenie WHERE class_Id = 12020;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (12020, 'sclavusbossmonster');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (12020, 'sclavusbossmonster', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (12020, 0, 12020);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12020, 1, 'Cold One') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12020, 8, 100669120) /* ICON_DID */
      , (12020, 32, 376) /* WIELDED_TREASURE_TYPE_DID */
      , (12020, 1, 33555608) /* SETUP_DID */
@@ -22,7 +19,7 @@ VALUES (12020, 8, 100669120) /* ICON_DID */
      , (12020, 7, 268435727) /* CLOTHINGBASE_DID */
      , (12020, 22, 872415280) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12020, 1, 16) /* ITEM_TYPE_INT */
      , (12020, 2, 26) /* CREATURE_TYPE_INT */
      , (12020, 3, 14) /* PALETTE_TEMPLATE_INT */
@@ -40,10 +37,9 @@ VALUES (12020, 1, 16) /* ITEM_TYPE_INT */
      , (12020, 93, 1032) /* PHYSICS_STATE_INT */
      , (12020, 101, 183) /* AI_ALLOWED_COMBAT_STYLE_INT */
      , (12020, 103, 1) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (12020, 40, 2) /* COMBAT_MODE_INT */
-     , (12020, 9007, 10) /* Creature_WeenieType */;
+     , (12020, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12020, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12020, 65, 0.75) /* RESIST_PIERCE_FLOAT */
      , (12020, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -79,7 +75,7 @@ VALUES (12020, 64, 1) /* RESIST_SLASH_FLOAT */
      , (12020, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (12020, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12020, 1, True) /* STUCK_BOOL */
      , (12020, 6, True) /* AI_USES_MANA_BOOL */
      , (12020, 11, False) /* IGNORE_COLLISIONS_BOOL */
@@ -87,7 +83,7 @@ VALUES (12020, 1, True) /* STUCK_BOOL */
      , (12020, 13, False) /* ETHEREAL_BOOL */
      , (12020, 50, True) /* NEVER_FAIL_CASTING_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12020, 142, 2.02) /* LightningVolley6_SpellID */
      , (12020, 261, 2.007) /* ImpregnabilitySelf6_SpellID */
      , (12020, 199, 2.01) /* ExhaustionOther6_SpellID */
@@ -101,20 +97,20 @@ VALUES (12020, 142, 2.02) /* LightningVolley6_SpellID */
      , (12020, 249, 2.007) /* InvulnerabilitySelf6_SpellID */
      , (12020, 63, 2.093) /* AcidStream6_SpellID */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (12020, 1, 265) /* STRENGTH_ATTRIBUTE */
      , (12020, 2, 260) /* ENDURANCE_ATTRIBUTE */
      , (12020, 4, 280) /* COORDINATION_ATTRIBUTE */
-     , (12020, 8, 330) /* QUICKNESS_ATTRIBUTE */
-     , (12020, 16, 215) /* FOCUS_ATTRIBUTE */
-     , (12020, 32, 230) /* SELF_ATTRIBUTE */;
+     , (12020, 3, 330) /* QUICKNESS_ATTRIBUTE */
+     , (12020, 5, 215) /* FOCUS_ATTRIBUTE */
+     , (12020, 6, 230) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12020, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12020, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12020, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (12020, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12020, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12020, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12020, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (12020, 9, 0, 0, 0, 0.4, False) /* Create  for ContainTreasure_DestinationType */
      , (12020, 9, 7046, 0, 0, 0.75, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
@@ -124,7 +120,7 @@ VALUES (12020, 9, 6876, 0, 0, 0.6, False) /* Create Sturdy Iron Key for ContainT
      , (12020, 9, 23539, 0, 0, 0.3, False) /* Create Serpent's Fang for ContainTreasure_DestinationType */
      , (12020, 9, 0, 0, 0, 0.7, False) /* Create  for ContainTreasure_DestinationType */;
 
-INSERT INTO `ace_object_generator_profile` (`aceObjectId`, `probability`, `weenieClassId`, `delay`, `initCreate`, `maxCreate`, `whenCreate`, `whereCreate`, `stackSize`, `paletteId`, `shade`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12020, 0.5, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Chomu Sclavus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (12020, 1, 7112, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Chomu Sclavus (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
 

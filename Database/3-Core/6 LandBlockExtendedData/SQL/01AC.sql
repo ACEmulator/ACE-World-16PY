@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4570, 1880801280, 28049664, -2.44275, -7.47773, 0, 0.382683, 0, 0, -0.92388) /* Lytelthorpe Portal */
      , (1026, 1880801281, 28049668, -2.83111, -22.6714, 0, 0.923879, 0, 0, -0.382684) /* Portal to Samsur */
      , (1029, 1880801282, 28049672, 12.2161, -7.74696, 0, 0.923879, 0, 0, -0.382684) /* Portal to Yanshi */

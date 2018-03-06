@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7183, 2136047616, 4111991040, 133.516, 129.101, 133.59, 0.254337, 0, 0, 0.967116) /* Jungle Phyntos Wasp */
      , (7183, 2136047617, 4111991040, 131.301, 129.395, 133.738, -0.0448038, 0, 0, 0.998996) /* Jungle Phyntos Wasp */
      , (3993, 2136047618, 4111991045, 130.095, 138.578, 132.677, -0.99249, 0, 0, -0.122326) /* Chest */
@@ -30,34 +30,34 @@ VALUES (7183, 2136047616, 4111991040, 133.516, 129.101, 133.59, 0.254337, 0, 0, 
      , (7986, 2136047641, 4111990784, 110.484, 85.4844, 129.105, -0.787999, 0, 0, 0.615676) /* Glissnal Niffis */
      , (7988, 2136047642, 4111990784, 90.0494, 75.7047, 129.105, 0.530435, 0, 0, 0.847725) /* Sephal Niffis */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2136047623'; /* linkmonstergen10minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='2136047643'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='2136047645'; /* linkmonstergen30seconds */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2136047623'; /* linkmonstergen10minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='2136047643'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='2136047645'; /* linkmonstergen30seconds */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047616'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047617'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047619'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047620'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047621'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2136047622'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047624'; /* linkmonstergen5minutes <- Sephal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047625'; /* linkmonstergen5minutes <- Sephal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047626'; /* linkmonstergen5minutes <- Sephal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047627'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047628'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047629'; /* linkmonstergen5minutes <- Glissnal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047630'; /* linkmonstergen5minutes <- Glissnal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047631'; /* linkmonstergen5minutes <- Glissnal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047632'; /* linkmonstergen5minutes <- Listris Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047633'; /* linkmonstergen5minutes <- Parfal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047634'; /* linkmonstergen5minutes <- Parfal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047635'; /* linkmonstergen5minutes <- Parfal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047636'; /* linkmonstergen5minutes <- Listris Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047637'; /* linkmonstergen5minutes <- Glissnal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047638'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047639'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047640'; /* linkmonstergen5minutes <- Opor Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047641'; /* linkmonstergen5minutes <- Glissnal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='2136047642'; /* linkmonstergen5minutes <- Sephal Niffis */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='2136047644'; /* linkmonstergen30seconds <- Grand Sentinel Ehcac */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047616'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047617'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047619'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047620'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047621'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2136047622'; /* linkmonstergen10minutes <- Jungle Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047624'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047625'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047626'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047627'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047628'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047629'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047630'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047631'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047632'; /* linkmonstergen5minutes <- Listris Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047633'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047634'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047635'; /* linkmonstergen5minutes <- Parfal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047636'; /* linkmonstergen5minutes <- Listris Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047637'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047638'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047639'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047640'; /* linkmonstergen5minutes <- Opor Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047641'; /* linkmonstergen5minutes <- Glissnal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='2136047642'; /* linkmonstergen5minutes <- Sephal Niffis */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='2136047644'; /* linkmonstergen30seconds <- Grand Sentinel Ehcac */
 

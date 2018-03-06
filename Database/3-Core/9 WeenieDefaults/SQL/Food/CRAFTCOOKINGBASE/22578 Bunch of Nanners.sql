@@ -1,24 +1,21 @@
 /* Weenie - Bunch of Nanners (22578) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 22578;
+DELETE FROM weenie WHERE class_Id = 22578;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (22578, 'nannerbunch');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (22578, 'nannerbunch', /* Food_WeenieType */ 18);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (22578, 0, 22578);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22578, 1, 'Bunch of Nanners') /* NAME_STRING */
      , (22578, 20, 'Bunches of Nanners') /* PLURAL_NAME_STRING */
      , (22578, 15, 'A bunch of good smelling fruit.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22578, 1, 33558106) /* SETUP_DID */
      , (22578, 3, 536870932) /* SOUND_TABLE_DID */
      , (22578, 8, 100673809) /* ICON_DID */
      , (22578, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22578, 9, 0) /* LOCATIONS_INT */
      , (22578, 1, 4194304) /* ITEM_TYPE_INT */
      , (22578, 13, 30) /* STACK_UNIT_ENCUMB_INT */
@@ -34,6 +31,5 @@ VALUES (22578, 9, 0) /* LOCATIONS_INT */
      , (22578, 151, 2) /* HOOK_TYPE_INT */
      , (22578, 89, 4) /* BOOSTER_ENUM_INT */
      , (22578, 90, 6) /* BOOST_VALUE_INT */
-     , (22578, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22578, 9007, 18) /* Food_WeenieType */;
+     , (22578, 93, 1044) /* PHYSICS_STATE_INT */;
 

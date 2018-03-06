@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7117, 1941184550, 994181380, 107.57, 65.9664, 24.4065, -0.0601969, 0, 0, 0.998187) /* Guardian Mu-miyah */
      , (7117, 1941184549, 994181381, 114.85, 60.6699, 24.4065, -0.829859, 0, 0, -0.557972) /* Guardian Mu-miyah */
      , (7117, 1941184548, 994181381, 111.742, 59.6566, 24.4065, -0.993234, 0, 0, 0.11613) /* Guardian Mu-miyah */
@@ -23,25 +23,25 @@ VALUES (7117, 1941184550, 994181380, 107.57, 65.9664, 24.4065, -0.0601969, 0, 0,
      , (7117, 1941184544, 994181414, 86.6417, 34.4409, 40.0668, 0.98953, 0, 0, 0.144325) /* Guardian Mu-miyah */
      , (7117, 1941184543, 994181414, 81.8796, 33.8954, 40.0511, 0.98655, 0, 0, -0.16346) /* Guardian Mu-miyah */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1941184546'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1941184546'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184540'; /* linkmonstergen5minutes <- Imperial Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184539'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184538'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184537'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184542'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184543'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184544'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184555'; /* linkmonstergen5minutes <- Royal Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184557'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184558'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184554'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184552'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184553'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184556'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184550'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184548'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184549'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184547'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1941184541'; /* linkmonstergen5minutes <- Royal Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184540'; /* linkmonstergen5minutes <- Imperial Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184539'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184538'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184537'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184542'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184543'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184544'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184555'; /* linkmonstergen5minutes <- Royal Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184557'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184558'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184554'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184552'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184553'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184556'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184550'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184548'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184549'; /* linkmonstergen5minutes <- Guardian Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184547'; /* linkmonstergen5minutes <- Nomad Mu-miyah */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1941184541'; /* linkmonstergen5minutes <- Royal Mu-miyah */
 

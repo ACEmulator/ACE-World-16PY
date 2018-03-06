@@ -1,17 +1,14 @@
 /* Weenie - Soldier Token (10863) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 10863;
+DELETE FROM weenie WHERE class_Id = 10863;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (10863, 'tokensoldier-xp');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (10863, 'tokensoldier-xp', /* Generic_WeenieType */ 1);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (10863, 0, 10863);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10863, 1, 'Soldier Token') /* NAME_STRING */
      , (10863, 15, 'A token of your completion of the Soldier Quest.  Please give this back to Behdo in order for him to change your title to Soldier Slaughterer.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10863, 1, 33554817) /* SETUP_DID */
      , (10863, 3, 536870932) /* SOUND_TABLE_DID */
      , (10863, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (10863, 1, 33554817) /* SETUP_DID */
      , (10863, 7, 268435832) /* CLOTHINGBASE_DID */
      , (10863, 8, 100672061) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10863, 33, 1) /* BONDED_INT */
      , (10863, 9, 0) /* LOCATIONS_INT */
      , (10863, 1, 128) /* ITEM_TYPE_INT */
@@ -29,13 +26,12 @@ VALUES (10863, 33, 1) /* BONDED_INT */
      , (10863, 5, 10) /* ENCUMB_VAL_INT */
      , (10863, 16, 1) /* ITEM_USEABLE_INT */
      , (10863, 8, 10) /* MASS_INT */
-     , (10863, 114, 1) /* ATTUNED_INT */
-     , (10863, 9007, 1) /* Generic_WeenieType */;
+     , (10863, 114, 1) /* ATTUNED_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10863, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10863, 22, True) /* INSCRIBABLE_BOOL */
      , (10863, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

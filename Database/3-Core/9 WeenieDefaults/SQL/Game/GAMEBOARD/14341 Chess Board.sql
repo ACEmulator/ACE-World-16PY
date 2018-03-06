@@ -1,25 +1,21 @@
 /* Weenie - Chess Board (14341) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 14341;
+DELETE FROM weenie WHERE class_Id = 14341;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (14341, 'chessboard');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (14341, 'chessboard', /* Game_WeenieType */ 60);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (14341, 0, 14341);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14341, 1, 'Chess Board') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14341, 1, 33558037) /* SETUP_DID */
      , (14341, 8, 100673558) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14341, 1, -2147483648) /* ITEM_TYPE_INT */
-     , (14341, 93, 1040) /* PHYSICS_STATE_INT */
-     , (14341, 9007, 60) /* Game_WeenieType */;
+     , (14341, 93, 1040) /* PHYSICS_STATE_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14341, 1, True) /* STUCK_BOOL */
      , (14341, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (14341, 13, False) /* ETHEREAL_BOOL */

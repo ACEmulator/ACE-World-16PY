@@ -1,18 +1,15 @@
 /* Weenie - Gem of Imrpoved Bludgeon Protection (24809) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 24809;
+DELETE FROM weenie WHERE class_Id = 24809;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (24809, 'gembludgeonpro5');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (24809, 'gembludgeonpro5', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (24809, 0, 24809);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24809, 1, 'Gem of Imrpoved Bludgeon Protection') /* NAME_STRING */
      , (24809, 20, 'Gems of Imrpoved Bludgeon Protection') /* PLURAL_NAME_STRING */
      , (24809, 15, 'A gem that will cast Bludgeon Protection V on anyone who uses it. The gem will be destroyed in the process.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24809, 1, 33554809) /* SETUP_DID */
      , (24809, 3, 536870932) /* SOUND_TABLE_DID */
      , (24809, 28, 1028) /* SPELL_DID */
@@ -22,7 +19,7 @@ VALUES (24809, 1, 33554809) /* SETUP_DID */
      , (24809, 7, 268435723) /* CLOTHINGBASE_DID */
      , (24809, 8, 100674438) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24809, 9, 0) /* LOCATIONS_INT */
      , (24809, 1, 2048) /* ITEM_TYPE_INT */
      , (24809, 11, 25) /* MAX_STACK_SIZE_INT */
@@ -42,10 +39,9 @@ VALUES (24809, 9, 0) /* LOCATIONS_INT */
      , (24809, 107, 100) /* ITEM_CUR_MANA_INT */
      , (24809, 108, 200) /* ITEM_MAX_MANA_INT */
      , (24809, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (24809, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (24809, 9007, 38) /* Gem_WeenieType */;
+     , (24809, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24809, 69, False) /* IS_SELLABLE_BOOL */
      , (24809, 23, True) /* DESTROY_ON_SELL_BOOL */;
 

@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, -0.850264) /* ratblackgen */
      , (905, 1918373913, 629211432, 56.4895, 111.011, 232.005, 0.567959, 0, 0, -0.823057) /* ratblackgen */
      , (905, 1918373914, 629211432, 60.5228, 110.342, 220.005, 0.404584, 0, 0, -0.914501) /* ratblackgen */
@@ -51,13 +51,13 @@ VALUES (905, 1918373912, 629211432, 61.9143, 110.254, 220.005, -0.526357, 0, 0, 
      , (12050, 1918373918, 629211136, 110.966, 115.545, 220.005, 0.664729, 0, 0, -0.747084) /* Agent of the Arcanum */
      , (7923, 1918373919, 629211136, 111.105, 116.734, 220.005, 0.151545, 0, 0, -0.98845) /* linkmonstergen3minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1918373919'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1918373944'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1918373954'; /* Door */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1918373919'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1918373944'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1918373954'; /* Door */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1918373918'; /* linkmonstergen3minutes <- Agent of the Arcanum */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373945'; /* linkmonstergen3minutes <- Town Crier */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373955'; /* linkmonstergen3minutes <- Fort Tethana Sentry */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1918373957'; /* linkmonstergen3minutes <- Small Creepy Statue */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1918373956'; /* Door <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1918373918'; /* linkmonstergen3minutes <- Agent of the Arcanum */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373945'; /* linkmonstergen3minutes <- Town Crier */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373955'; /* linkmonstergen3minutes <- Fort Tethana Sentry */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1918373957'; /* linkmonstergen3minutes <- Small Creepy Statue */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1918373956'; /* Door <- Lever */
 

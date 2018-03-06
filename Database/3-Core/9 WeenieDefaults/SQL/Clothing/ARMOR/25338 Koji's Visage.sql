@@ -1,18 +1,15 @@
 /* Weenie - Koji's Visage (25338) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25338;
+DELETE FROM weenie WHERE class_Id = 25338;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25338, 'regaliashoextreme');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25338, 'regaliashoextreme', /* Clothing_WeenieType */ 2);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25338, 0, 25338);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25338, 16, 'A lovely and delicately detailed mask representing Koji herself. ') /* LONG_DESC_STRING */
      , (25338, 1, 'Koji''s Visage') /* NAME_STRING */
      , (25338, 19, 'Sho') /* ITEM_HERITAGE_GROUP_RESTRICTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25338, 1, 33558446) /* SETUP_DID */
      , (25338, 3, 536870932) /* SOUND_TABLE_DID */
      , (25338, 37, 13) /* ITEM_SKILL_LIMIT_DID */
@@ -21,7 +18,7 @@ VALUES (25338, 1, 33558446) /* SETUP_DID */
      , (25338, 7, 268436676) /* CLOTHINGBASE_DID */
      , (25338, 8, 100674855) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25338, 9, 1) /* LOCATIONS_INT */
      , (25338, 1, 2) /* ITEM_TYPE_INT */
      , (25338, 19, 8000) /* VALUE_INT */
@@ -40,10 +37,9 @@ VALUES (25338, 9, 1) /* LOCATIONS_INT */
      , (25338, 107, 800) /* ITEM_CUR_MANA_INT */
      , (25338, 108, 800) /* ITEM_MAX_MANA_INT */
      , (25338, 109, 180) /* ITEM_DIFFICULTY_INT */
-     , (25338, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (25338, 9007, 2) /* Clothing_WeenieType */;
+     , (25338, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25338, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25338, 5, -0.0333) /* MANA_RATE_FLOAT */
      , (25338, 12, 0.66) /* SHADE_FLOAT */
@@ -56,11 +52,11 @@ VALUES (25338, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (25338, 18, 1.5) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (25338, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25338, 22, True) /* INSCRIBABLE_BOOL */
      , (25338, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25338, 448, 2) /* UnarmedCombatMasterySelf6_SpellID */
      , (25338, 1485, 2) /* Impenetrability5_SpellID */
      , (25338, 2696, 2) /* ModerateUnarmedAptitude_SpellID */

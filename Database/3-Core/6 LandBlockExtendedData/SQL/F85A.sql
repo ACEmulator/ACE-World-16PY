@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (216, 2139463680, 4166647808, 32.6527, 60.7493, 115.21, -0.29813, 0, 0, 0.954525) /* Green Phyntos Wasp */
      , (216, 2139463681, 4166647808, 38.5993, 58.1436, 115.21, 0.839342, 0, 0, 0.543604) /* Green Phyntos Wasp */
      , (215, 2139463682, 4166647808, 38.8512, 61.3717, 115.21, 0.922937, 0, 0, -0.384952) /* Blue Phyntos Wasp */
@@ -10,13 +10,13 @@ VALUES (216, 2139463680, 4166647808, 32.6527, 60.7493, 115.21, -0.29813, 0, 0, 0
      , (2577, 2139463688, 4166647808, 143.178, 28.9651, 0.00099998, 0.471216, 0, 0, 0.882018) /* Shallows Shark */
      , (1400, 2139463689, 4166647808, 142.278, 28.1951, 0.005, -0.925581, 0, 0, -0.37855) /* itemfishgenerator */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2139463686'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2139463686'; /* linkmonstergen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463680'; /* linkmonstergen15minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463681'; /* linkmonstergen15minutes <- Green Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463682'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463683'; /* linkmonstergen15minutes <- Young Banderling */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463685'; /* linkmonstergen15minutes <- Banderling Raver */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463687'; /* linkmonstergen15minutes <- Shallows Shark */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2139463688'; /* linkmonstergen15minutes <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463680'; /* linkmonstergen15minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463681'; /* linkmonstergen15minutes <- Green Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463682'; /* linkmonstergen15minutes <- Blue Phyntos Wasp */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463683'; /* linkmonstergen15minutes <- Young Banderling */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463685'; /* linkmonstergen15minutes <- Banderling Raver */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463687'; /* linkmonstergen15minutes <- Shallows Shark */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2139463688'; /* linkmonstergen15minutes <- Shallows Shark */
 

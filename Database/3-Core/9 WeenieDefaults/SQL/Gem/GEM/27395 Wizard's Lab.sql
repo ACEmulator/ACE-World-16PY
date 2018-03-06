@@ -1,18 +1,15 @@
 /* Weenie - Wizard's Lab (27395) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 27395;
+DELETE FROM weenie WHERE class_Id = 27395;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (27395, 'gemquestwizardsblade');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (27395, 'gemquestwizardsblade', /* Gem_WeenieType */ 38);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (27395, 0, 27395);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27395, 16, 'The human who has altered our servants has been found. He fumbles about with our creations attempting an understanding beyond his physical limitations. The odds of his continued existence are low. We currently deem the loss of servants less troublesome than attempting to eliminate this nuisance, but continued observance of his activities is instructed.') /* LONG_DESC_STRING */
      , (27395, 1, 'Wizard''s Lab') /* NAME_STRING */
      , (27395, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 60-80)') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27395, 1, 33556769) /* SETUP_DID */
      , (27395, 3, 536870932) /* SOUND_TABLE_DID */
      , (27395, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -23,7 +20,7 @@ VALUES (27395, 1, 33556769) /* SETUP_DID */
      , (27395, 50, 100676404) /* ICON_OVERLAY_DID */
      , (27395, 28, 157) /* SPELL_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27395, 9, 0) /* LOCATIONS_INT */
      , (27395, 1, 2048) /* ITEM_TYPE_INT */
      , (27395, 11, 1) /* MAX_STACK_SIZE_INT */
@@ -44,10 +41,9 @@ VALUES (27395, 9, 0) /* LOCATIONS_INT */
      , (27395, 107, 50) /* ITEM_CUR_MANA_INT */
      , (27395, 108, 50) /* ITEM_MAX_MANA_INT */
      , (27395, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27395, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27395, 9007, 38) /* Gem_WeenieType */;
+     , (27395, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27395, 23, True) /* DESTROY_ON_SELL_BOOL */
      , (27395, 15, True) /* LIGHTS_STATUS_BOOL */
      , (27395, 22, True) /* INSCRIBABLE_BOOL */;

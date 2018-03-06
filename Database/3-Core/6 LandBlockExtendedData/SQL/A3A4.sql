@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5424, 2050637831, 2745434370, 58.8272, 83.9826, 68.005, 0.958775, 0, 0, -0.284165) /* Fertroth the Healer */
      , (5148, 2050637839, 2745434370, 55.3828, 84.3297, 68.4611, 0.703076, 0, 0, 0.711115) /* Flames */
      , (5148, 2050637840, 2745434372, 55.3812, 84.3391, 71.4865, -0.702172, 0, 0, -0.712008) /* Flames */
@@ -18,8 +18,8 @@ VALUES (5424, 2050637831, 2745434370, 58.8272, 83.9826, 68.005, 0.958775, 0, 0, 
      , (509, 2050637830, 2745434112, 117.425, 103.42, 80.005, -0.831115, 0, 0, 0.556101) /* Life Stone */
      , (2567, 2050637832, 2745434112, 53.284, 80.8736, 68.005, -0.957913, 0, 0, -0.28706) /* Brown Rabbit */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2050637835'; /* linkmonstergen */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2050637835'; /* linkmonstergen */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637834'; /* linkmonstergen <- Collector */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2050637832'; /* linkmonstergen <- Brown Rabbit */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637834'; /* linkmonstergen <- Collector */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2050637832'; /* linkmonstergen <- Brown Rabbit */
 

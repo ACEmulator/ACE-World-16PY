@@ -1,17 +1,14 @@
 /* Weenie - Jack o' Lantern (8253) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 8253;
+DELETE FROM weenie WHERE class_Id = 8253;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (8253, 'jackolanterncook');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (8253, 'jackolanterncook', /* Missile_WeenieType */ 4);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (8253, 0, 8253);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8253, 1, 'Jack o'' Lantern') /* NAME_STRING */
      , (8253, 15, 'A reasonably crafted jack o'' lantern, made with a carving knife.') /* SHORT_DESC_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8253, 1, 33556809) /* SETUP_DID */
      , (8253, 3, 536870932) /* SOUND_TABLE_DID */
      , (8253, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
@@ -19,7 +16,7 @@ VALUES (8253, 1, 33556809) /* SETUP_DID */
      , (8253, 7, 268436046) /* CLOTHINGBASE_DID */
      , (8253, 8, 100671017) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8253, 9, 4194304) /* LOCATIONS_INT */
      , (8253, 1, 256) /* ITEM_TYPE_INT */
      , (8253, 11, 100) /* MAX_STACK_SIZE_INT */
@@ -40,10 +37,9 @@ VALUES (8253, 9, 4194304) /* LOCATIONS_INT */
      , (8253, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
      , (8253, 48, 12) /* WEAPON_SKILL_INT */
      , (8253, 49, 10) /* WEAPON_TIME_INT */
-     , (8253, 51, 2) /* COMBAT_USE_INT */
-     , (8253, 9007, 4) /* Missile_WeenieType */;
+     , (8253, 51, 2) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8253, 12, 0.5) /* SHADE_FLOAT */
      , (8253, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (8253, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
@@ -52,7 +48,7 @@ VALUES (8253, 12, 0.5) /* SHADE_FLOAT */
      , (8253, 27, 2) /* ROTATION_SPEED_FLOAT */
      , (8253, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8253, 69, False) /* IS_SELLABLE_BOOL */
      , (8253, 17, True) /* INELASTIC_BOOL */;
 

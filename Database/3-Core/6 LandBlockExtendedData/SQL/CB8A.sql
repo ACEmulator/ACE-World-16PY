@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12511, 2092474368, 3414818816, 109.302, 50.5611, 16.005, -0.151124, 0, 0, -0.988515) /* Leafdawning Settlement Portal */
      , (12520, 2092474369, 3414818816, 99.152, 51.3599, 16.005, -0.367859, 0, 0, -0.929882) /* Meridian Cottages Portal */
      , (12500, 2092474370, 3414818816, 93.0409, 59.0382, 16.005, -0.566049, 0, 0, -0.824372) /* Gaerwel Edge Settlement Portal */

@@ -1,25 +1,22 @@
 /* Weenie - Chest (612) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 612;
+DELETE FROM weenie WHERE class_Id = 612;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (612, 'chest2fair');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (612, 'chest2fair', /* Chest_WeenieType */ 20);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (612, 0, 612);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (612, 1, 'Chest') /* NAME_STRING */
      , (612, 12, 'chestkey2') /* LOCK_CODE_STRING */
      , (612, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (612, 1, 33554556) /* SETUP_DID */
      , (612, 2, 150994948) /* MOTION_TABLE_DID */
      , (612, 3, 536870945) /* SOUND_TABLE_DID */
      , (612, 8, 100667424) /* ICON_DID */
      , (612, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (612, 1, 512) /* ITEM_TYPE_INT */
      , (612, 93, 1048) /* PHYSICS_STATE_INT */
      , (612, 5, 9000) /* ENCUMB_VAL_INT */
@@ -31,13 +28,12 @@ VALUES (612, 1, 512) /* ITEM_TYPE_INT */
      , (612, 19, 2500) /* VALUE_INT */
      , (612, 96, 500) /* ENCUMB_CAPACITY_INT */
      , (612, 37, 30) /* RESIST_ITEM_APPRAISAL_INT */
-     , (612, 38, 60) /* RESIST_LOCKPICK_INT */
-     , (612, 9007, 20) /* Chest_WeenieType */;
+     , (612, 38, 60) /* RESIST_LOCKPICK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (612, 54, 1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (612, 1, True) /* STUCK_BOOL */
      , (612, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
      , (612, 2, False) /* OPEN_BOOL */

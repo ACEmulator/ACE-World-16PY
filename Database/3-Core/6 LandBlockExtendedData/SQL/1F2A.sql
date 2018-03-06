@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27429, 1911726088, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0, -0.92388) /* Consumed Wraith */
      , (7923, 1911726155, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0, -0.92388) /* linkmonstergen3minutes */
      , (27377, 1911726153, 522846464, 189.437, 149.343, 193.66, -0.92388, 0, 0, -0.382683) /* Runed Chest */
@@ -68,72 +68,72 @@ VALUES (27429, 1911726088, 522846464, 189.841, 141.943, 193.66, -0.382683, 0, 0,
      , (27569, 1911726150, 522846208, 180.304, 134.28, 209.35, -0.39253, 0, 0, -0.919739) /* The Storm */
      , (27569, 1911726151, 522846208, 177.519, 131.974, 209.35, -0.39253, 0, 0, -0.919739) /* The Storm */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1911726081'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1911726080'; /* linkmonstergen5minutes */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1911726109'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1911726126'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1911726123'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1911726125'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1911726124'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1911726127'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1911726108'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1911726129'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1911726128'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1911726132'; /* Virindi Crystal */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1911726137'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1911726138'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1911726141'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1911726149'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1911726150'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1911726151'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1911726148'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1911726142'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1911726152'; /* The Storm */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1911726154'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1911726155'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1911726081'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1911726080'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1911726109'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1911726126'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1911726123'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1911726125'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1911726124'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1911726127'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1911726108'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1911726129'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1911726128'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1911726132'; /* Virindi Crystal */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1911726137'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1911726138'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1911726141'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1911726149'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1911726150'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1911726151'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1911726148'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1911726142'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1911726152'; /* The Storm */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1911726154'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1911726155'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1911726084'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1911726083'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1911726087'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1911726086'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1911726085'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726111'; /* linkmonstergen5minutes <- Shadow Nightmare */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726112'; /* linkmonstergen5minutes <- Shadow Nightmare */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726113'; /* linkmonstergen5minutes <- Shadow Nightmare */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726115'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726117'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726118'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726120'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726121'; /* linkmonstergen5minutes <- Shadow Phantom */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726156'; /* linkmonstergen5minutes <- Shadow Nightmare */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1911726157'; /* linkmonstergen5minutes <- Shadow Wraith */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1911726099'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1911726102'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1911726100'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1911726103'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1911726096'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1911726140'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1911726094'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1911726106'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1911726093'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1911726105'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1911726101'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1911726104'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1911726107'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1911726092'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1911726095'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1911726130'; /* Virindi Crystal <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1911726136'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1911726097'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1911726139'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1911726098'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1911726143'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1911726144'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1911726145'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1911726146'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1911726147'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1911726131'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1911726135'; /* The Storm <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1911726082'; /* linkmonstergen3minutes <- Shadow Nightmare Leader */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1911726088'; /* linkmonstergen3minutes <- Consumed Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726084'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726083'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726087'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726086'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1911726085'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726111'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726112'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726113'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726115'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726117'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726118'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726120'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726121'; /* linkmonstergen5minutes <- Shadow Phantom */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726156'; /* linkmonstergen5minutes <- Shadow Nightmare */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1911726157'; /* linkmonstergen5minutes <- Shadow Wraith */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1911726099'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1911726102'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1911726100'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1911726103'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1911726096'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1911726140'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1911726094'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1911726106'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1911726093'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1911726105'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1911726101'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1911726104'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1911726107'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1911726092'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1911726095'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1911726130'; /* Virindi Crystal <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1911726136'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1911726097'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1911726139'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1911726098'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1911726143'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1911726144'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1911726145'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1911726146'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1911726147'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1911726131'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1911726135'; /* The Storm <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1911726082'; /* linkmonstergen3minutes <- Shadow Nightmare Leader */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1911726088'; /* linkmonstergen3minutes <- Consumed Wraith */
 

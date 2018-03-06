@@ -1,16 +1,13 @@
 /* Weenie - Knuckles (30614) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 30614;
+DELETE FROM weenie WHERE class_Id = 30614;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (30614, 'knucklesfrost');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (30614, 'knucklesfrost', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (30614, 0, 30614);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30614, 1, 'Knuckles') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30614, 1, 33555997) /* SETUP_DID */
      , (30614, 3, 536870932) /* SOUND_TABLE_DID */
      , (30614, 36, 234881053) /* MUTATE_FILTER_DID */
@@ -20,7 +17,7 @@ VALUES (30614, 1, 33555997) /* SETUP_DID */
      , (30614, 7, 268435829) /* CLOTHINGBASE_DID */
      , (30614, 8, 100670016) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30614, 9, 1048576) /* LOCATIONS_INT */
      , (30614, 1, 1) /* ITEM_TYPE_INT */
      , (30614, 19, 50) /* VALUE_INT */
@@ -38,16 +35,15 @@ VALUES (30614, 9, 1048576) /* LOCATIONS_INT */
      , (30614, 47, 1) /* ATTACK_TYPE_INT */
      , (30614, 48, 13) /* WEAPON_SKILL_INT */
      , (30614, 49, 20) /* WEAPON_TIME_INT */
-     , (30614, 51, 1) /* COMBAT_USE_INT */
-     , (30614, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (30614, 51, 1) /* COMBAT_USE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30614, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
      , (30614, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (30614, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
      , (30614, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (30614, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30614, 22, True) /* INSCRIBABLE_BOOL */;
 

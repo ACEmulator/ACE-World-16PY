@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29713, 1880039424, 15859985, 10, 0, -5.995, 0, 0, 0, -1) /* Enchanted Dais */
      , (29938, 1880039425, 15859991, 10, -19.825, -5.995, 1, 0, 0, -4.37114E-08) /* Guardian */
      , (29593, 1880039426, 15860000, 10, -42.003, -5.995, 0, 0, 0, -1) /* Lever */
@@ -9,12 +9,12 @@ VALUES (29713, 1880039424, 15859985, 10, 0, -5.995, 0, 0, 0, -1) /* Enchanted Da
      , (7923, 1880039431, 15860049, 10, -120, 0.005, 1, 0, 0, 0) /* linkmonstergen3minutes */
      , (29593, 1880039432, 15860053, 10, -125.519, 0.005, 0, 0, 0, -1) /* Lever */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880039430'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880039425'; /* Guardian */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880039431'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880039430'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880039425'; /* Guardian */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880039431'; /* linkmonstergen3minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880039432'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880039426'; /* Guardian <- Lever */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039424'; /* linkmonstergen3minutes <- Enchanted Dais */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880039429'; /* linkmonstergen3minutes <- Ensorcelled Dais */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880039432'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880039426'; /* Guardian <- Lever */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880039424'; /* linkmonstergen3minutes <- Enchanted Dais */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880039429'; /* linkmonstergen3minutes <- Ensorcelled Dais */
 

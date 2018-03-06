@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1757, 1880162304, 17826074, 28.3415, -110.215, -65.995, -0.66739, 0, 0, 0.744708) /* Shadow Lieutenant */
      , (4253, 1880162305, 17826084, 30, -150, -65.995, 0.714421, 0, 0, -0.699716) /* Panumbris Shadow */
      , (1757, 1880162306, 17826084, 31.8846, -149.961, -65.995, 0.796084, 0, 0, -0.605186) /* Shadow Lieutenant */
@@ -128,124 +128,124 @@ VALUES (1757, 1880162304, 17826074, 28.3415, -110.215, -65.995, -0.66739, 0, 0, 
      , (619, 1880162430, 17826544, 50, -180, 24.0082, 0.0457802, 0, 0, 0.998952) /* Revenant */
      , (619, 1880162431, 17826544, 48.5329, -178.892, 24.0082, 0.152634, 0, 0, 0.988283) /* Revenant */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1880162329'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='2', `linkSource`='1' WHERE `preassignedGuid`='1880162331'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='3', `linkSource`='1' WHERE `preassignedGuid`='1880162330'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='4', `linkSource`='1' WHERE `preassignedGuid`='1880162333'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='5', `linkSource`='1' WHERE `preassignedGuid`='1880162332'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='6', `linkSource`='1' WHERE `preassignedGuid`='1880162387'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='7', `linkSource`='1' WHERE `preassignedGuid`='1880162390'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='8', `linkSource`='1' WHERE `preassignedGuid`='1880162389'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='9', `linkSource`='1' WHERE `preassignedGuid`='1880162388'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='10', `linkSource`='1' WHERE `preassignedGuid`='1880162391'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='11', `linkSource`='1' WHERE `preassignedGuid`='1880162360'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='12', `linkSource`='1' WHERE `preassignedGuid`='1880162359'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='13', `linkSource`='1' WHERE `preassignedGuid`='1880162361'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='14', `linkSource`='1' WHERE `preassignedGuid`='1880162362'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='15', `linkSource`='1' WHERE `preassignedGuid`='1880162358'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='16', `linkSource`='1' WHERE `preassignedGuid`='1880162421'; /* linkmonstergen15minutes */
-UPDATE `ace_landblock` SET `linkSlot`='17', `linkSource`='1' WHERE `preassignedGuid`='1880162334'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='18', `linkSource`='1' WHERE `preassignedGuid`='1880162335'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='19', `linkSource`='1' WHERE `preassignedGuid`='1880162336'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='20', `linkSource`='1' WHERE `preassignedGuid`='1880162337'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='21', `linkSource`='1' WHERE `preassignedGuid`='1880162392'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='22', `linkSource`='1' WHERE `preassignedGuid`='1880162393'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='23', `linkSource`='1' WHERE `preassignedGuid`='1880162394'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='24', `linkSource`='1' WHERE `preassignedGuid`='1880162395'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='25', `linkSource`='1' WHERE `preassignedGuid`='1880162364'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='26', `linkSource`='1' WHERE `preassignedGuid`='1880162365'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='27', `linkSource`='1' WHERE `preassignedGuid`='1880162363'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='28', `linkSource`='1' WHERE `preassignedGuid`='1880162366'; /* Lightning Trap */
-UPDATE `ace_landblock` SET `linkSlot`='29', `linkSource`='1' WHERE `preassignedGuid`='1880162423'; /* linkmonstergen3minutes */
-UPDATE `ace_landblock` SET `linkSlot`='30', `linkSource`='1' WHERE `preassignedGuid`='1880162422'; /* linkitemgen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1880162329'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='2', `link_Controller`=True WHERE `guid`='1880162331'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='3', `link_Controller`=True WHERE `guid`='1880162330'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='4', `link_Controller`=True WHERE `guid`='1880162333'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='5', `link_Controller`=True WHERE `guid`='1880162332'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='6', `link_Controller`=True WHERE `guid`='1880162387'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='7', `link_Controller`=True WHERE `guid`='1880162390'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='8', `link_Controller`=True WHERE `guid`='1880162389'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='9', `link_Controller`=True WHERE `guid`='1880162388'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='10', `link_Controller`=True WHERE `guid`='1880162391'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='11', `link_Controller`=True WHERE `guid`='1880162360'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='12', `link_Controller`=True WHERE `guid`='1880162359'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='13', `link_Controller`=True WHERE `guid`='1880162361'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='14', `link_Controller`=True WHERE `guid`='1880162362'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='15', `link_Controller`=True WHERE `guid`='1880162358'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='16', `link_Controller`=True WHERE `guid`='1880162421'; /* linkmonstergen15minutes */
+UPDATE `landblock_instances` SET `link_Slot`='17', `link_Controller`=True WHERE `guid`='1880162334'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='18', `link_Controller`=True WHERE `guid`='1880162335'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='19', `link_Controller`=True WHERE `guid`='1880162336'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='20', `link_Controller`=True WHERE `guid`='1880162337'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='21', `link_Controller`=True WHERE `guid`='1880162392'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='22', `link_Controller`=True WHERE `guid`='1880162393'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='23', `link_Controller`=True WHERE `guid`='1880162394'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='24', `link_Controller`=True WHERE `guid`='1880162395'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='25', `link_Controller`=True WHERE `guid`='1880162364'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='26', `link_Controller`=True WHERE `guid`='1880162365'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='27', `link_Controller`=True WHERE `guid`='1880162363'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='28', `link_Controller`=True WHERE `guid`='1880162366'; /* Lightning Trap */
+UPDATE `landblock_instances` SET `link_Slot`='29', `link_Controller`=True WHERE `guid`='1880162423'; /* linkmonstergen3minutes */
+UPDATE `landblock_instances` SET `link_Slot`='30', `link_Controller`=True WHERE `guid`='1880162422'; /* linkitemgen15minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1880162317'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='2' WHERE `preassignedGuid`='1880162318'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='3' WHERE `preassignedGuid`='1880162319'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='4' WHERE `preassignedGuid`='1880162320'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='5' WHERE `preassignedGuid`='1880162321'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='6' WHERE `preassignedGuid`='1880162375'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='7' WHERE `preassignedGuid`='1880162376'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='8' WHERE `preassignedGuid`='1880162377'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='9' WHERE `preassignedGuid`='1880162378'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='10' WHERE `preassignedGuid`='1880162379'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='11' WHERE `preassignedGuid`='1880162339'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='12' WHERE `preassignedGuid`='1880162340'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='13' WHERE `preassignedGuid`='1880162341'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='14' WHERE `preassignedGuid`='1880162342'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='15' WHERE `preassignedGuid`='1880162343'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162418'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162419'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162420'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162430'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162431'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162416'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162417'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162410'; /* linkmonstergen15minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162413'; /* linkmonstergen15minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162414'; /* linkmonstergen15minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162427'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162428'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162429'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162408'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162409'; /* linkmonstergen15minutes <- Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162402'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162401'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162398'; /* linkmonstergen15minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162399'; /* linkmonstergen15minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162400'; /* linkmonstergen15minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162405'; /* linkmonstergen15minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162406'; /* linkmonstergen15minutes <- Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162407'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162403'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162404'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162373'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162374'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162371'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162384'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162385'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162386'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162357'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162367'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162368'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162369'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162370'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162356'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162350'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162351'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162352'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162348'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162355'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162353'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162349'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162354'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162338'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162314'; /* linkmonstergen15minutes <- Umbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162326'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162304'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162328'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162327'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162305'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162306'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162307'; /* linkmonstergen15minutes <- Shadow Lieutenant */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162315'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='16' WHERE `preassignedGuid`='1880162316'; /* linkmonstergen15minutes <- Panumbris Shadow */
-UPDATE `ace_landblock` SET `linkSlot`='17' WHERE `preassignedGuid`='1880162322'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='18' WHERE `preassignedGuid`='1880162323'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='19' WHERE `preassignedGuid`='1880162324'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='20' WHERE `preassignedGuid`='1880162325'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='21' WHERE `preassignedGuid`='1880162380'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='22' WHERE `preassignedGuid`='1880162381'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='23' WHERE `preassignedGuid`='1880162382'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='24' WHERE `preassignedGuid`='1880162383'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='25' WHERE `preassignedGuid`='1880162344'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='26' WHERE `preassignedGuid`='1880162345'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='27' WHERE `preassignedGuid`='1880162346'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='28' WHERE `preassignedGuid`='1880162347'; /* Lightning Trap <- Pressure Plate */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162415'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162412'; /* linkmonstergen3minutes <- Dark Revenant */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162311'; /* linkmonstergen3minutes <- Nexus Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162310'; /* linkmonstergen3minutes <- Nexus Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='29' WHERE `preassignedGuid`='1880162309'; /* linkmonstergen3minutes <- Nexus Fragment */
-UPDATE `ace_landblock` SET `linkSlot`='30' WHERE `preassignedGuid`='1880162425'; /* linkitemgen15minutes <- Adventurer's warning */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1880162317'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='2' WHERE `guid`='1880162318'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='3' WHERE `guid`='1880162319'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='4' WHERE `guid`='1880162320'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='5' WHERE `guid`='1880162321'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='6' WHERE `guid`='1880162375'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='7' WHERE `guid`='1880162376'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='8' WHERE `guid`='1880162377'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='9' WHERE `guid`='1880162378'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='10' WHERE `guid`='1880162379'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='11' WHERE `guid`='1880162339'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='12' WHERE `guid`='1880162340'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='13' WHERE `guid`='1880162341'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='14' WHERE `guid`='1880162342'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='15' WHERE `guid`='1880162343'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162418'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162419'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162420'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162430'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162431'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162416'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162417'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162410'; /* linkmonstergen15minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162413'; /* linkmonstergen15minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162414'; /* linkmonstergen15minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162427'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162428'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162429'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162408'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162409'; /* linkmonstergen15minutes <- Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162402'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162401'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162398'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162399'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162400'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162405'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162406'; /* linkmonstergen15minutes <- Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162407'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162403'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162404'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162373'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162374'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162371'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162384'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162385'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162386'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162357'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162367'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162368'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162369'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162370'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162356'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162350'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162351'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162352'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162348'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162355'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162353'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162349'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162354'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162338'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162314'; /* linkmonstergen15minutes <- Umbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162326'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162304'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162328'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162327'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162305'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162306'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162307'; /* linkmonstergen15minutes <- Shadow Lieutenant */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162315'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='16' WHERE `guid`='1880162316'; /* linkmonstergen15minutes <- Panumbris Shadow */
+UPDATE `landblock_instances` SET `link_Slot`='17' WHERE `guid`='1880162322'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='18' WHERE `guid`='1880162323'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='19' WHERE `guid`='1880162324'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='20' WHERE `guid`='1880162325'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='21' WHERE `guid`='1880162380'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='22' WHERE `guid`='1880162381'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='23' WHERE `guid`='1880162382'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='24' WHERE `guid`='1880162383'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='25' WHERE `guid`='1880162344'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='26' WHERE `guid`='1880162345'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='27' WHERE `guid`='1880162346'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='28' WHERE `guid`='1880162347'; /* Lightning Trap <- Pressure Plate */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880162415'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880162412'; /* linkmonstergen3minutes <- Dark Revenant */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880162311'; /* linkmonstergen3minutes <- Nexus Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880162310'; /* linkmonstergen3minutes <- Nexus Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='29' WHERE `guid`='1880162309'; /* linkmonstergen3minutes <- Nexus Fragment */
+UPDATE `landblock_instances` SET `link_Slot`='30' WHERE `guid`='1880162425'; /* linkitemgen15minutes <- Adventurer's warning */
 

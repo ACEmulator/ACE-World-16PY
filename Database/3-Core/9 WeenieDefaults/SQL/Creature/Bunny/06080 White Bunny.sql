@@ -1,16 +1,13 @@
 /* Weenie - White Bunny (6080) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 6080;
+DELETE FROM weenie WHERE class_Id = 6080;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (6080, 'rabbitbabywhite');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (6080, 'rabbitbabywhite', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (6080, 0, 6080);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6080, 1, 'White Bunny') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6080, 1, 33558659) /* SETUP_DID */
      , (6080, 2, 150995042) /* MOTION_TABLE_DID */
      , (6080, 35, 464) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (6080, 1, 33558659) /* SETUP_DID */
      , (6080, 8, 100669116) /* ICON_DID */
      , (6080, 30, 86) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6080, 1, 16) /* ITEM_TYPE_INT */
      , (6080, 2, 41) /* CREATURE_TYPE_INT */
      , (6080, 67, 2) /* TOLERANCE_INT */
@@ -37,10 +34,9 @@ VALUES (6080, 1, 16) /* ITEM_TYPE_INT */
      , (6080, 25, 360) /* LEVEL_INT */
      , (6080, 27, 0) /* ARMOR_TYPE_INT */
      , (6080, 93, 1032) /* PHYSICS_STATE_INT */
-     , (6080, 40, 2) /* COMBAT_MODE_INT */
-     , (6080, 9007, 10) /* Creature_WeenieType */;
+     , (6080, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6080, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6080, 65, 1) /* RESIST_PIERCE_FLOAT */
      , (6080, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -73,26 +69,26 @@ VALUES (6080, 64, 1) /* RESIST_SLASH_FLOAT */
      , (6080, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (6080, 31, 5) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6080, 1, True) /* STUCK_BOOL */
      , (6080, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (6080, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6080, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (6080, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (6080, 2, 250) /* ENDURANCE_ATTRIBUTE */
      , (6080, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (6080, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (6080, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (6080, 32, 250) /* SELF_ATTRIBUTE */;
+     , (6080, 3, 250) /* QUICKNESS_ATTRIBUTE */
+     , (6080, 5, 250) /* FOCUS_ATTRIBUTE */
+     , (6080, 6, 250) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6080, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6080, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6080, 256, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (6080, 1, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6080, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6080, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6080, 9, 27249, 0, 0, 0.01, False) /* Create Spring Cleaner Title Token for ContainTreasure_DestinationType */
      , (6080, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (6080, 9, 12128, 0, 0, 0.25, False) /* Create White Rabbit Carcass for ContainTreasure_DestinationType */

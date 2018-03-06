@@ -1,16 +1,13 @@
 /* Weenie - Olthoi Legionary (25750) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 25750;
+DELETE FROM weenie WHERE class_Id = 25750;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (25750, 'olthoilegionary');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (25750, 'olthoilegionary', /* Creature_WeenieType */ 10);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (25750, 0, 25750);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25750, 1, 'Olthoi Legionary') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25750, 1, 33557162) /* SETUP_DID */
      , (25750, 2, 150994946) /* MOTION_TABLE_DID */
      , (25750, 35, 360) /* DEATH_TREASURE_TYPE_DID */
@@ -22,7 +19,7 @@ VALUES (25750, 1, 33557162) /* SETUP_DID */
      , (25750, 8, 100667623) /* ICON_DID */
      , (25750, 30, 85) /* PHYSICS_SCRIPT_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25750, 1, 16) /* ITEM_TYPE_INT */
      , (25750, 2, 1) /* CREATURE_TYPE_INT */
      , (25750, 3, 39) /* PALETTE_TEMPLATE_INT */
@@ -38,10 +35,9 @@ VALUES (25750, 1, 16) /* ITEM_TYPE_INT */
      , (25750, 25, 70) /* LEVEL_INT */
      , (25750, 27, 0) /* ARMOR_TYPE_INT */
      , (25750, 93, 1032) /* PHYSICS_STATE_INT */
-     , (25750, 40, 2) /* COMBAT_MODE_INT */
-     , (25750, 9007, 10) /* Creature_WeenieType */;
+     , (25750, 40, 2) /* COMBAT_MODE_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25750, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25750, 65, 0.7) /* RESIST_PIERCE_FLOAT */
      , (25750, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
@@ -74,26 +70,26 @@ VALUES (25750, 64, 0.75) /* RESIST_SLASH_FLOAT */
      , (25750, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */
      , (25750, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25750, 1, True) /* STUCK_BOOL */
      , (25750, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (25750, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25750, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
 VALUES (25750, 1, 330) /* STRENGTH_ATTRIBUTE */
      , (25750, 2, 350) /* ENDURANCE_ATTRIBUTE */
      , (25750, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (25750, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (25750, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (25750, 32, 100) /* SELF_ATTRIBUTE */;
+     , (25750, 3, 120) /* QUICKNESS_ATTRIBUTE */
+     , (25750, 5, 100) /* FOCUS_ATTRIBUTE */
+     , (25750, 6, 100) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25750, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25750, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25750, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
+VALUES (25750, 1, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25750, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25750, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-INSERT INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`, `palette`, `shade`, `tryToBond`)
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25750, 9, 10864, 0, 0, 0.01, False) /* Create Olthoi Ichor for ContainTreasure_DestinationType */
      , (25750, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (25750, 9, 6876, 0, 0, 0.03, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */

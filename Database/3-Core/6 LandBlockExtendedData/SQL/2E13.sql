@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23566, 1927360524, 772997120, 81.1311, 62.8579, 17.2442, 0.982341, 0, 0, 0.187101) /* Tumerok Trooper */
      , (23566, 1927360525, 772997120, 83.5008, 63.7857, 17.3215, -0.805336, 0, 0, -0.592818) /* Tumerok Trooper */
      , (23566, 1927360526, 772997120, 76.6475, 65.0657, 17.4281, -0.80898, 0, 0, 0.587837) /* Tumerok Trooper */
@@ -10,14 +10,14 @@ VALUES (23566, 1927360524, 772997120, 81.1311, 62.8579, 17.2442, 0.982341, 0, 0,
      , (23566, 1927360531, 772997120, 85.9622, 65.1624, 17.4362, 0.959076, 0, 0, 0.283147) /* Tumerok Trooper */
      , (7924, 1927360532, 772997120, 83.5279, 65.8234, 17.4903, 0.935164, 0, 0, 0.354215) /* linkmonstergen5minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='1927360532'; /* linkmonstergen5minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='1927360532'; /* linkmonstergen5minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360526'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360530'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360527'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360528'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360524'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360525'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360531'; /* linkmonstergen5minutes <- Tumerok Trooper */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='1927360529'; /* linkmonstergen5minutes <- Tumerok War Monger */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360526'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360530'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360527'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360528'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360524'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360525'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360531'; /* linkmonstergen5minutes <- Tumerok Trooper */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='1927360529'; /* linkmonstergen5minutes <- Tumerok War Monger */
 

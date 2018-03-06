@@ -1,38 +1,34 @@
 /* Weenie - Al-Jalima Portal (5486) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5486;
+DELETE FROM weenie WHERE class_Id = 5486;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5486, 'portalaljalima');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5486, 'portalaljalima', /* Portal_WeenieType */ 7);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5486, 0, 5486);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5486, 1, 'Al-Jalima Portal') /* NAME_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5486, 1, 33554867) /* SETUP_DID */
      , (5486, 2, 150994947) /* MOTION_TABLE_DID */
      , (5486, 8, 100667499) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5486, 1, 65536) /* ITEM_TYPE_INT */
      , (5486, 93, 3084) /* PHYSICS_STATE_INT */
      , (5486, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (5486, 16, 32) /* ITEM_USEABLE_INT */
-     , (5486, 111, 1) /* PORTAL_BITMASK_INT */
-     , (5486, 9007, 7) /* Portal_WeenieType */;
+     , (5486, 111, 1) /* PORTAL_BITMASK_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5486, 54, -0.1) /* USE_RADIUS_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5486, 1, True) /* STUCK_BOOL */
      , (5486, 11, False) /* IGNORE_COLLISIONS_BOOL */
      , (5486, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5486, 13, True) /* ETHEREAL_BOOL */
      , (5486, 15, True) /* LIGHTS_STATUS_BOOL */;
 
-INSERT INTO `ace_position` (`aceObjectId`, `positionType`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5486, 2, 2240282668, 120.359, 95.47, 90.049, 1, 0, 0, 0) /* DESTINATION_POSITION */;
 

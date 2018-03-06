@@ -1,20 +1,17 @@
 /* Weenie - Tremblant's Ivory Staff (5943) */
-DELETE FROM ace_weenie_class WHERE weenieClassId = 5943;
+DELETE FROM weenie WHERE class_Id = 5943;
 
-INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
-VALUES (5943, 'stafftremblantfake');
+INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
+VALUES (5943, 'stafftremblantfake', /* MeleeWeapon_WeenieType */ 6);
 
-INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`)
-VALUES (5943, 0, 5943);
-
-INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5943, 8, 'Sir Joffre Tremblant') /* SCRIBE_NAME_STRING */
      , (5943, 16, 'A mighty quarterstaff, carved from the rib of a Tremendous Monouga.') /* LONG_DESC_STRING */
      , (5943, 1, 'Tremblant''s Ivory Staff') /* NAME_STRING */
      , (5943, 15, 'A mighty quarterstaff, carved from bone.') /* SHORT_DESC_STRING */
      , (5943, 7, 'In memory of a glorious victory near Holtburg!') /* INSCRIPTION_STRING */;
 
-INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5943, 1, 33555764) /* SETUP_DID */
      , (5943, 3, 536870932) /* SOUND_TABLE_DID */
      , (5943, 36, 234881044) /* MUTATE_FILTER_DID */
@@ -24,7 +21,7 @@ VALUES (5943, 1, 33555764) /* SETUP_DID */
      , (5943, 7, 268435795) /* CLOTHINGBASE_DID */
      , (5943, 8, 100669112) /* ICON_DID */;
 
-INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5943, 9, 1048576) /* LOCATIONS_INT */
      , (5943, 1, 1) /* ITEM_TYPE_INT */
      , (5943, 19, 1800) /* VALUE_INT */
@@ -49,10 +46,9 @@ VALUES (5943, 9, 1048576) /* LOCATIONS_INT */
      , (5943, 48, 10) /* WEAPON_SKILL_INT */
      , (5943, 49, 30) /* WEAPON_TIME_INT */
      , (5943, 51, 1) /* COMBAT_USE_INT */
-     , (5943, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (5943, 9007, 6) /* MeleeWeapon_WeenieType */;
+     , (5943, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
 
-INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5943, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (5943, 21, 1.48) /* WEAPON_LENGTH_FLOAT */
      , (5943, 5, -0.1) /* MANA_RATE_FLOAT */
@@ -61,11 +57,11 @@ VALUES (5943, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (5943, 62, 1) /* WEAPON_OFFENSE_FLOAT */
      , (5943, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
 
-INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5943, 22, True) /* INSCRIBABLE_BOOL */
      , (5943, 23, True) /* DESTROY_ON_SELL_BOOL */;
 
-INSERT INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`, `probability`)
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5943, 1603, 2) /* Defender4_SpellID */
      , (5943, 391, 2) /* StaffMasteryOther4_SpellID */
      , (5943, 1613, 2) /* BloodDrinker3_SpellID */;

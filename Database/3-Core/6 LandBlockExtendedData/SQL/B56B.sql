@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (394, 2069278726, 3043688710, 113.448, 86.2015, 16.805, 0.309613, 0, 0, 0.950863) /* undead-generator */
      , (720, 2069278720, 3043688712, 104.95, 79.075, 20.5, 0.707107, 0, 0, -0.707107) /* Sliding Door */
      , (143, 2069278721, 3043688712, 100.15, 80.55, 20.55, 0.704634, 0, 0, 0.709571) /* Chest */

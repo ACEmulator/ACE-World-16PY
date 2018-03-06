@@ -1,4 +1,4 @@
-INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
+INSERT INTO `landblock_instances` (`weenie_Class_Id`, `guid`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (887, 2010537984, 2103836672, 80.933, 133.718, 10.005, -0.0866729, 0, 0, -0.996237) /* aurochcowgen */
      , (887, 2010537985, 2103836672, 77.9921, 132.922, 10.005, 0.486923, 0, 0, -0.873445) /* aurochcowgen */
      , (887, 2010537986, 2103836672, 79.009, 128.423, 10.005, -0.980584, 0, 0, -0.196099) /* aurochcowgen */
@@ -10,9 +10,9 @@ VALUES (887, 2010537984, 2103836672, 80.933, 133.718, 10.005, -0.0866729, 0, 0, 
      , (940, 2010537995, 2103836672, 113.17, 95.3906, 10.005, -0.019239, 0, 0, -0.999815) /* Drudge Sneaker */
      , (4219, 2010537996, 2103836672, 115.654, 95.1658, 10.005, 0.579403, 0, 0, 0.815041) /* linkmonstergen7minutes */;
 
-UPDATE `ace_landblock` SET `linkSlot`='1', `linkSource`='1' WHERE `preassignedGuid`='2010537996'; /* linkmonstergen7minutes */
+UPDATE `landblock_instances` SET `link_Slot`='1', `link_Controller`=True WHERE `guid`='2010537996'; /* linkmonstergen7minutes */
 
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537995'; /* linkmonstergen7minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537994'; /* linkmonstergen7minutes <- Drudge Sneaker */
-UPDATE `ace_landblock` SET `linkSlot`='1' WHERE `preassignedGuid`='2010537993'; /* linkmonstergen7minutes <- Drudge Prowler */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010537995'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010537994'; /* linkmonstergen7minutes <- Drudge Sneaker */
+UPDATE `landblock_instances` SET `link_Slot`='1' WHERE `guid`='2010537993'; /* linkmonstergen7minutes <- Drudge Prowler */
 
