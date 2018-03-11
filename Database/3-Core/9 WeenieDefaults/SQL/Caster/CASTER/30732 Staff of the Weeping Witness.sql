@@ -21,7 +21,7 @@ VALUES (30732, 1, 33555022) /* SETUP_DID */
      , (30732, 28, 68) /* SPELL_DID */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30732, 38, -1) /* ALLOWED_WIELDER_IID */;
+VALUES (30732, 38, 4294967295) /* ALLOWED_WIELDER_IID */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30732, 9, 16777216) /* LOCATIONS_INT */
