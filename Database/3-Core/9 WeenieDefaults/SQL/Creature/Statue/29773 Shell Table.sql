@@ -71,16 +71,101 @@ VALUES (29773, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (29773, 19, False) /* ATTACKABLE_BOOL */
      , (29773, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (29773, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (29773, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (29773, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (29773, 3, 80) /* QUICKNESS_ATTRIBUTE */
-     , (29773, 5, 120) /* FOCUS_ATTRIBUTE */
-     , (29773, 6, 130) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (29773, 1, 60, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (29773, 2, 70, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (29773, 4, 50, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (29773, 3, 80, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (29773, 5, 120, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (29773, 6, 130, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (29773, 1, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29773, 3, 10) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29773, 5, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (29773, 1, 10, 0, 0, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29773, 3, 10, 0, 0, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29773, 5, 10, 0, 0, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (29773, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (29773, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (29773, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (29773, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (29773, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (29773, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (29773, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (29773, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (29773, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (29773, 0.33, 32, 0, NULL, NULL, NULL, 'shuffle_shells', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 0.66, 32, 1, NULL, NULL, NULL, 'shuffle_shells', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 32, 2, NULL, NULL, NULL, 'shuffle_shells', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 32, 3, NULL, NULL, NULL, 'not_playing', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 32, 4, NULL, NULL, NULL, 'correct_answer', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 32, 5, NULL, NULL, NULL, 'incorrect_answer', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 32, 6, NULL, NULL, NULL, 'cleanup', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29773, 1, 6, 0, 29650, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 6, 1, 29651, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 6, 2, 29652, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
+     , (29773, 1, 12, 0, NULL, NULL, NULL, 'ShellGamePlaying', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 1, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell1', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 2, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell2', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 3, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell3', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 4, NULL, NULL, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 5, NULL, NULL, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 12, 6, NULL, NULL, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (29773, 1, 13, 0, NULL, NULL, NULL, 'ShellGamePlaying', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 1, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell1', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 2, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell2', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 3, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell3', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 4, NULL, NULL, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 5, NULL, NULL, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (29773, 1, 13, 6, NULL, NULL, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (29773, 32, 0, 0, 22, 0, 1, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29773, 32, 0, 1, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (29773, 32, 1, 0, 22, 0, 1, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29773, 32, 1, 1, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (29773, 32, 2, 0, 22, 0, 1, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29773, 32, 2, 1, 5, 0, 1, 268435539, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (29773, 32, 3, 0, 18, 0, 1, NULL, 'You dispose of the shell within the altar.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (29773, 32, 4, 0, 22, 0, 1, NULL, 'ShellGameCompleted', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29773, 32, 4, 1, 18, 0, 1, NULL, 'You tilt the cup back enough for you to see that the ball is there!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (29773, 32, 4, 2, 67, 0, 1, NULL, 'cleanup', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 32, 5, 0, 18, 0, 1, NULL, 'You peek under the cup to see that you choose the wrong cup.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (29773, 32, 5, 1, 67, 0, 1, NULL, 'cleanup', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 32, 6, 0, 31, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 32, 6, 1, 31, 0, 1, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 32, 6, 2, 31, 0, 1, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 32, 6, 3, 31, 0, 1, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 6, 0, 0, 21, 0, 1, NULL, 'ShellGamePlaying@GiveShell1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 6, 1, 0, 21, 0, 1, NULL, 'ShellGamePlaying@GiveShell2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 6, 2, 0, 21, 0, 1, NULL, 'ShellGamePlaying@GiveShell3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 7, 0, 0, 21, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 12, 0, 0, 18, 0, 1, NULL, 'Choose and place within the altar the shell that is in front of the cup you think the ball is under.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (29773, 12, 1, 0, 31, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 1, 1, 21, 0, 1, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 12, 2, 0, 31, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 2, 1, 21, 0, 1, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 12, 3, 0, 31, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 3, 1, 21, 0, 1, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (29773, 12, 4, 0, 31, 0, 1, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 4, 1, 67, 0, 1, NULL, 'correct_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 12, 5, 0, 31, 0, 1, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 5, 1, 67, 0, 1, NULL, 'correct_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 12, 6, 0, 31, 0, 1, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 12, 6, 1, 67, 0, 1, NULL, 'correct_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 0, 0, 18, 0, 1, NULL, 'Once the cups stop moving, choose and place within the altar the shell which is in front of the cup you think the ball ended up at.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (29773, 13, 0, 1, 31, 0, 1, NULL, 'ShellGameShellAnswer1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 13, 0, 2, 31, 0, 1, NULL, 'ShellGameShellAnswer2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 13, 0, 3, 31, 0, 1, NULL, 'ShellGameShellAnswer3', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (29773, 13, 0, 4, 22, 0, 1, NULL, 'ShellGamePlaying', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29773, 13, 0, 5, 67, 0, 1, NULL, 'shuffle_shells', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 1, 0, 67, 0, 1, NULL, 'not_playing', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 2, 0, 67, 0, 1, NULL, 'not_playing', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 3, 0, 67, 0, 1, NULL, 'not_playing', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 4, 0, 67, 0, 1, NULL, 'incorrect_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 5, 0, 67, 0, 1, NULL, 'incorrect_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29773, 13, 6, 0, 67, 0, 1, NULL, 'incorrect_answer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */;
 

@@ -72,16 +72,21 @@ VALUES (2444, 1, True) /* STUCK_BOOL */
      , (2444, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2444, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (2444, 1, 1) /* STRENGTH_ATTRIBUTE */
-     , (2444, 2, 1) /* ENDURANCE_ATTRIBUTE */
-     , (2444, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (2444, 3, 2) /* QUICKNESS_ATTRIBUTE */
-     , (2444, 5, 1) /* FOCUS_ATTRIBUTE */
-     , (2444, 6, 1) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (2444, 1, 1, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (2444, 2, 1, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (2444, 4, 1, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (2444, 3, 2, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (2444, 5, 1, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (2444, 6, 1, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (2444, 1, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (2444, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (2444, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (2444, 1, 15, 0, 0, 16) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (2444, 3, 0, 0, 0, 1) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (2444, 5, 0, 0, 0, 1) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (2444, 16, 4, 1, 0.75, 8, 8, 4, 4, 8, 3, 6, 6, 0, 2, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75) /* TORSO */
+     , (2444, 0, 2, 1, 0.75, 8, 8, 4, 4, 8, 3, 6, 6, 0, 1, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0) /* HEAD */
+     , (2444, 17, 4, 0, 0, 8, 8, 4, 4, 8, 3, 6, 6, 0, 3, 0, 0.2, 0.25, 0, 0.2, 0.25, 0, 0.2, 0.25, 0, 0.2, 0.25) /* TAIL */;
 

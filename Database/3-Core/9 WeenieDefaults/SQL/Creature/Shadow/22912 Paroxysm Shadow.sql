@@ -102,18 +102,18 @@ VALUES (22912, 1159, 2.02) /* HealSelf4_SpellID */
      , (22912, 1466, 2.023) /* FeeblemindOther4_SpellID */
      , (22912, 1087, 2.02) /* LightningVulnerabilityOther4_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (22912, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (22912, 2, 250) /* ENDURANCE_ATTRIBUTE */
-     , (22912, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (22912, 3, 210) /* QUICKNESS_ATTRIBUTE */
-     , (22912, 5, 245) /* FOCUS_ATTRIBUTE */
-     , (22912, 6, 305) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (22912, 1, 200, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (22912, 2, 250, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (22912, 4, 230, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (22912, 3, 210, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (22912, 5, 245, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (22912, 6, 305, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (22912, 1, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22912, 3, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22912, 5, 400) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (22912, 1, 400, 0, 0, 525) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22912, 3, 250, 0, 0, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22912, 5, 400, 0, 0, 705) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22912, 9, 6058, 0, 0, 0.015, False) /* Create Dark Shard for ContainTreasure_DestinationType */
@@ -122,4 +122,48 @@ VALUES (22912, 9, 6058, 0, 0, 0.015, False) /* Create Dark Shard for ContainTrea
      , (22912, 9, 0, 0, 0, 0.01, False) /* Create  for ContainTreasure_DestinationType */
      , (22912, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (22912, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (22912, 8, 4, 65, 0.75, 250, 250, 225, 225, 188, 300, 200, 213, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (22912, 0, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (22912, 1, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (22912, 2, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (22912, 3, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (22912, 4, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (22912, 5, 4, 65, 0.75, 250, 250, 225, 225, 188, 300, 200, 213, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (22912, 6, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (22912, 7, 4, 0, 0, 250, 250, 225, 225, 188, 300, 200, 213, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22912, 414) /* PLAYER_DEATH_EVENT */
+     , (22912, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (22912, 1, 0, 3, 0, 180, 0, 1391.66280976225) /* AXE_SKILL */
+     , (22912, 33, 0, 3, 0, 232, 0, 1391.66280976225) /* LIFE_MAGIC_SKILL */
+     , (22912, 2, 0, 3, 0, 220, 0, 1391.66280976225) /* BOW_SKILL */
+     , (22912, 34, 0, 3, 0, 232, 0, 1391.66280976225) /* WAR_MAGIC_SKILL */
+     , (22912, 3, 0, 3, 0, 200, 0, 1391.66280976225) /* CROSSBOW_SKILL */
+     , (22912, 4, 0, 3, 0, 180, 0, 1391.66280976225) /* DAGGER_SKILL */
+     , (22912, 5, 0, 3, 0, 180, 0, 1391.66280976225) /* MACE_SKILL */
+     , (22912, 6, 0, 3, 0, 203, 0, 1391.66280976225) /* MELEE_DEFENSE_SKILL */
+     , (22912, 7, 0, 3, 0, 292, 0, 1391.66280976225) /* MISSILE_DEFENSE_SKILL */
+     , (22912, 9, 0, 3, 0, 180, 0, 1391.66280976225) /* SPEAR_SKILL */
+     , (22912, 10, 0, 3, 0, 180, 0, 1391.66280976225) /* STAFF_SKILL */
+     , (22912, 11, 0, 3, 0, 180, 0, 1391.66280976225) /* SWORD_SKILL */
+     , (22912, 13, 0, 3, 0, 207, 0, 1391.66280976225) /* UNARMED_COMBAT_SKILL */
+     , (22912, 14, 0, 3, 0, 232, 0, 1391.66280976225) /* ARCANE_LORE_SKILL */
+     , (22912, 15, 0, 3, 0, 246, 0, 1391.66280976225) /* MAGIC_DEFENSE_SKILL */
+     , (22912, 20, 0, 3, 0, 150, 0, 1391.66280976225) /* DECEPTION_SKILL */
+     , (22912, 31, 0, 3, 0, 232, 0, 1391.66280976225) /* CREATURE_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (22912, 0.01, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
+     , (22912, 0.02, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
+     , (22912, 0.03, 3, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (22912, 3, 0, 0, 10, 0, 1, NULL, 'We cannot be dead for your fear is endless!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (22912, 3, 1, 0, 10, 0, 1, NULL, 'Wisps and tendrils spinning bright, spinning bright, spinning bright in the darkness of the shadow. Hee hee, ha ha ha!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (22912, 3, 2, 0, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1844, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */;
 

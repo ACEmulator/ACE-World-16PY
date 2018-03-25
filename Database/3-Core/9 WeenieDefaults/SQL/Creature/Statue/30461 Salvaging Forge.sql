@@ -74,16 +74,80 @@ VALUES (30461, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (30461, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (30461, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (30461, 1, 380) /* STRENGTH_ATTRIBUTE */
-     , (30461, 2, 340) /* ENDURANCE_ATTRIBUTE */
-     , (30461, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (30461, 3, 250) /* QUICKNESS_ATTRIBUTE */
-     , (30461, 5, 250) /* FOCUS_ATTRIBUTE */
-     , (30461, 6, 285) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (30461, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (30461, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (30461, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (30461, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (30461, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (30461, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (30461, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30461, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30461, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (30461, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30461, 3, 151, 0, 0, 491) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30461, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (30461, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (30461, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (30461, 17, 64, 3, 0.75, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (30461, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (30461, 32, 0, 3, 0, 400, 0, 2261.88188148354) /* ITEM_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (30461, 1, 22, 0, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
+     , (30461, 1, 6, 0, 30476, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30461, 1, 6, 1, 30474, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30461, 1, 6, 2, 30475, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30461, 1, 23, 0, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
+     , (30461, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
+     , (30461, 0.01, 12, 0, NULL, NULL, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (30461, 1, 12, 1, NULL, NULL, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (30461, 1, 12, 2, NULL, NULL, NULL, 'ForgeEssenceGiven1204@North', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (30461, 1, 12, 3, NULL, NULL, NULL, 'ForgeEssenceGiven1204@South', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (30461, 1, 12, 4, NULL, NULL, NULL, 'ForgeEssenceGiven1204@West', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
+     , (30461, 0.01, 13, 0, NULL, NULL, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (30461, 1, 13, 1, NULL, NULL, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (30461, 1, 13, 2, NULL, NULL, NULL, 'ForgeEssenceGiven1204@North', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (30461, 1, 13, 3, NULL, NULL, NULL, 'ForgeEssenceGiven1204@South', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
+     , (30461, 1, 13, 4, NULL, NULL, NULL, 'ForgeEssenceGiven1204@West', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (30461, 22, 0, 0, 49, 0, 1, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0.02, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardLevelProportionalXP_EmoteType */
+     , (30461, 6, 0, 0, 21, 0, 1, NULL, 'ForgeEssenceGiven1204@North', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (30461, 6, 1, 0, 21, 0, 1, NULL, 'ForgeEssenceGiven1204@South', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (30461, 6, 2, 0, 21, 0, 1, NULL, 'ForgeEssenceGiven1204@West', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (30461, 23, 0, 0, 62, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3322562, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardNoShareXP_EmoteType */
+     , (30461, 7, 0, 0, 21, 0, 1, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
+     , (30461, 12, 0, 0, 13, 0, 1, NULL, 'Your Salvaging skill is temporarily increased. You feel more confident - more powerful. But at the same time, your heart flutters within your chest, your breath catches in your throat, and you feel a deep, dark cold in the pit of your stomach. You wonder briefly just what long-term effect this crafting forge may have on you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 12, 0, 1, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3748, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (30461, 12, 0, 2, 31, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (30461, 12, 0, 3, 22, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 12, 1, 0, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3748, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (30461, 12, 1, 1, 31, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (30461, 12, 1, 2, 22, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 12, 2, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 12, 2, 1, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (30461, 12, 3, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 12, 3, 1, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (30461, 12, 4, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 12, 4, 1, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (30461, 13, 0, 0, 13, 0, 1, NULL, 'Your Salvaging skill is temporarily increased. You feel more confident - more powerful. But at the same time, your heart flutters within your chest, your breath catches in your throat, and you feel a deep, dark cold in the pit of your stomach. You wonder briefly just what long-term effect this crafting forge may have on you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 13, 0, 1, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3757, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (30461, 13, 0, 2, 31, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (30461, 13, 0, 3, 22, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 13, 1, 0, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3757, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (30461, 13, 1, 1, 31, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
+     , (30461, 13, 1, 2, 22, 0, 1, NULL, 'CraftingForgeUsed1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 13, 2, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge! From now on you shall obtain a longer-lasting boon from all crafting forges!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 13, 2, 1, 22, 0, 1, NULL, 'ForgeEssenceGiven1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 13, 2, 2, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (30461, 13, 3, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge! From now on you shall obtain a longer-lasting boon from all crafting forges!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 13, 3, 1, 22, 0, 1, NULL, 'ForgeEssenceGiven1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 13, 3, 2, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (30461, 13, 4, 0, 13, 0, 1, NULL, 'You are commended for fueling the Salvaging Forge! From now on you shall obtain a longer-lasting boon from all crafting forges!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TextDirect_EmoteType */
+     , (30461, 13, 4, 1, 22, 0, 1, NULL, 'ForgeEssenceGiven1204', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (30461, 13, 4, 2, 36, 0, 1, NULL, 'Test_Level', NULL, 1, 125, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */;
 

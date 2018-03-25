@@ -127,18 +127,18 @@ VALUES (24661, 1156, 2.012) /* PiercingVulnerabilityOther6_SpellID */
      , (24661, 1468, 2.012) /* FeeblemindOther6_SpellID */
      , (24661, 1789, 2.015) /* ShockwaveRing_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (24661, 1, 330) /* STRENGTH_ATTRIBUTE */
-     , (24661, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (24661, 4, 340) /* COORDINATION_ATTRIBUTE */
-     , (24661, 3, 325) /* QUICKNESS_ATTRIBUTE */
-     , (24661, 5, 320) /* FOCUS_ATTRIBUTE */
-     , (24661, 6, 350) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (24661, 1, 330, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (24661, 2, 300, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (24661, 4, 340, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (24661, 3, 325, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (24661, 5, 320, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (24661, 6, 350, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (24661, 1, 99850) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24661, 3, 59700) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24661, 5, 4650) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (24661, 1, 99850, 0, 0, 100000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24661, 3, 59700, 0, 0, 60000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24661, 5, 4650, 0, 0, 5000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24661, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
@@ -153,4 +153,56 @@ VALUES (24661, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for Conta
      , (24661, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (24661, 9, 24556, 0, 0, 1, False) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */
      , (24661, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (24661, 8, 4, 5, 0.75, 420, 420, 420, 420, 420, 420, 420, 420, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (24661, 0, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (24661, 1, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (24661, 2, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (24661, 3, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (24661, 4, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (24661, 5, 4, 5, 0.75, 420, 420, 420, 420, 420, 420, 420, 420, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (24661, 6, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (24661, 7, 4, 0, 0, 420, 420, 420, 420, 420, 420, 420, 420, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24661, 414) /* PLAYER_DEATH_EVENT */
+     , (24661, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (24661, 32, 0, 3, 0, 700, 0, 1573.87619656459) /* ITEM_ENCHANTMENT_SKILL */
+     , (24661, 1, 0, 3, 0, 330, 0, 1573.87619656459) /* AXE_SKILL */
+     , (24661, 33, 0, 3, 0, 230, 0, 1573.87619656459) /* LIFE_MAGIC_SKILL */
+     , (24661, 2, 0, 3, 0, 250, 0, 1573.87619656459) /* BOW_SKILL */
+     , (24661, 34, 0, 3, 0, 230, 0, 1573.87619656459) /* WAR_MAGIC_SKILL */
+     , (24661, 35, 0, 3, 0, 900, 0, 1573.87619656459) /* LEADERSHIP_SKILL */
+     , (24661, 3, 0, 3, 0, 250, 0, 1573.87619656459) /* CROSSBOW_SKILL */
+     , (24661, 36, 0, 3, 0, 900, 0, 1573.87619656459) /* LOYALTY_SKILL */
+     , (24661, 4, 0, 3, 0, 285, 0, 1573.87619656459) /* DAGGER_SKILL */
+     , (24661, 5, 0, 3, 0, 330, 0, 1573.87619656459) /* MACE_SKILL */
+     , (24661, 37, 0, 3, 0, 400, 0, 1573.87619656459) /* FLETCHING_SKILL */
+     , (24661, 6, 0, 3, 0, 325, 0, 1573.87619656459) /* MELEE_DEFENSE_SKILL */
+     , (24661, 38, 0, 3, 0, 400, 0, 1573.87619656459) /* ALCHEMY_SKILL */
+     , (24661, 7, 0, 3, 0, 445, 0, 1573.87619656459) /* MISSILE_DEFENSE_SKILL */
+     , (24661, 39, 0, 3, 0, 900, 0, 1573.87619656459) /* COOKING_SKILL */
+     , (24661, 9, 0, 3, 0, 330, 0, 1573.87619656459) /* SPEAR_SKILL */
+     , (24661, 10, 0, 3, 0, 330, 0, 1573.87619656459) /* STAFF_SKILL */
+     , (24661, 11, 0, 3, 0, 330, 0, 1573.87619656459) /* SWORD_SKILL */
+     , (24661, 12, 0, 3, 0, 200, 0, 1573.87619656459) /* THROWN_WEAPON_SKILL */
+     , (24661, 13, 0, 3, 0, 330, 0, 1573.87619656459) /* UNARMED_COMBAT_SKILL */
+     , (24661, 14, 0, 3, 0, 250, 0, 1573.87619656459) /* ARCANE_LORE_SKILL */
+     , (24661, 15, 0, 3, 0, 320, 0, 1573.87619656459) /* MAGIC_DEFENSE_SKILL */
+     , (24661, 16, 0, 3, 0, 200, 0, 1573.87619656459) /* MANA_CONVERSION_SKILL */
+     , (24661, 18, 0, 3, 0, 200, 0, 1573.87619656459) /* ITEM_APPRAISAL_SKILL */
+     , (24661, 19, 0, 3, 0, 200, 0, 1573.87619656459) /* PERSONAL_APPRAISAL_SKILL */
+     , (24661, 20, 0, 3, 0, 100, 0, 1573.87619656459) /* DECEPTION_SKILL */
+     , (24661, 21, 0, 3, 0, 200, 0, 1573.87619656459) /* HEALING_SKILL */
+     , (24661, 22, 0, 3, 0, 200, 0, 1573.87619656459) /* JUMP_SKILL */
+     , (24661, 23, 0, 3, 0, 200, 0, 1573.87619656459) /* LOCKPICK_SKILL */
+     , (24661, 24, 0, 3, 0, 50, 0, 1573.87619656459) /* RUN_SKILL */
+     , (24661, 27, 0, 3, 0, 200, 0, 1573.87619656459) /* CREATURE_APPRAISAL_SKILL */
+     , (24661, 28, 0, 3, 0, 200, 0, 1573.87619656459) /* WEAPON_APPRAISAL_SKILL */
+     , (24661, 29, 0, 3, 0, 20, 0, 1573.87619656459) /* ARMOR_APPRAISAL_SKILL */
+     , (24661, 30, 0, 3, 0, 200, 0, 1573.87619656459) /* MAGIC_ITEM_APPRAISAL_SKILL */
+     , (24661, 31, 0, 3, 0, 230, 0, 1573.87619656459) /* CREATURE_ENCHANTMENT_SKILL */;
 

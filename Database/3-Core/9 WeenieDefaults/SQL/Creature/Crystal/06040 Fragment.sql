@@ -94,22 +94,46 @@ VALUES (6040, 624, 2.044) /* LifeMagicIneptitudeOther2_SpellID */
      , (6040, 606, 2.032) /* LifeMagicMasterySelf2_SpellID */
      , (6040, 167, 2.032) /* RegenerationSelf3_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (6040, 1, 90) /* STRENGTH_ATTRIBUTE */
-     , (6040, 2, 90) /* ENDURANCE_ATTRIBUTE */
-     , (6040, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (6040, 3, 100) /* QUICKNESS_ATTRIBUTE */
-     , (6040, 5, 90) /* FOCUS_ATTRIBUTE */
-     , (6040, 6, 150) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (6040, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (6040, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (6040, 4, 130, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (6040, 3, 100, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (6040, 5, 90, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (6040, 6, 150, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (6040, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6040, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6040, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (6040, 1, 20, 0, 0, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6040, 3, 100, 0, 0, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6040, 5, 300, 0, 0, 450) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6040, 9, 6057, 0, 0, 0.02, False) /* Create Tiny Shard for ContainTreasure_DestinationType */
      , (6040, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */
      , (6040, 9, 6055, 0, 0, 0.02, False) /* Create Cracked Shard for ContainTreasure_DestinationType */
      , (6040, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (6040, 16, 4, 10, 0, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 2, 0.3, 0.4, 0.25, 0.3, 0.4, 0.25, 0.6, 0.5, 0.25, 0.6, 0.5, 0.25) /* TORSO */
+     , (6040, 0, 4, 10, 0.75, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */
+     , (6040, 10, 4, 10, 0, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 2, 0.2, 0.4, 0.5, 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0) /* FRONT_LEG */
+     , (6040, 12, 4, 10, 0.75, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 3, 0, 0, 0.25, 0, 0, 0.25, 0, 0, 0, 0, 0, 0) /* FRONT_FOOT */
+     , (6040, 13, 4, 10, 0, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 2, 0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5) /* REAR_LEG */
+     , (6040, 15, 4, 10, 0.75, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0.25) /* REAR_FOOT */
+     , (6040, 17, 4, 10, 0.75, 100, 100, 100, 100, 119, 10000, 278, 100, 0, 2, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0.1, 0) /* TAIL */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6040, 94) /* ATTACK_NOTIFICATION_EVENT */
+     , (6040, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (6040, 33, 0, 3, 0, 80, 0, 452.309590258279) /* LIFE_MAGIC_SKILL */
+     , (6040, 34, 0, 3, 0, 80, 0, 452.309590258279) /* WAR_MAGIC_SKILL */
+     , (6040, 6, 0, 3, 0, 150, 0, 452.309590258279) /* MELEE_DEFENSE_SKILL */
+     , (6040, 31, 0, 3, 0, 80, 0, 452.309590258279) /* CREATURE_ENCHANTMENT_SKILL */
+     , (6040, 15, 0, 3, 0, 198, 0, 452.309590258279) /* MAGIC_DEFENSE_SKILL */
+     , (6040, 7, 0, 3, 0, 250, 0, 452.309590258279) /* MISSILE_DEFENSE_SKILL */
+     , (6040, 13, 0, 3, 0, 100, 0, 452.309590258279) /* UNARMED_COMBAT_SKILL */
+     , (6040, 20, 0, 3, 0, 100, 0, 452.309590258279) /* DECEPTION_SKILL */
+     , (6040, 24, 0, 2, 0, 10, 0, 452.309590258279) /* RUN_SKILL */;
 

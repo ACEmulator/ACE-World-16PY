@@ -92,18 +92,18 @@ VALUES (20189, 169, 2.008) /* RegenerationSelf5_SpellID */
      , (20189, 278, 2.008) /* MagicResistanceSelf5_SpellID */
      , (20189, 1326, 2.017) /* ImperilOther5_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (20189, 1, 220) /* STRENGTH_ATTRIBUTE */
-     , (20189, 2, 180) /* ENDURANCE_ATTRIBUTE */
-     , (20189, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (20189, 3, 200) /* QUICKNESS_ATTRIBUTE */
-     , (20189, 5, 180) /* FOCUS_ATTRIBUTE */
-     , (20189, 6, 180) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (20189, 1, 220, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (20189, 2, 180, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (20189, 4, 240, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (20189, 3, 200, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (20189, 5, 180, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (20189, 6, 180, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (20189, 1, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (20189, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (20189, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (20189, 1, 110, 0, 0, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (20189, 3, 200, 0, 0, 380) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (20189, 5, 300, 0, 0, 480) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20189, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
@@ -111,4 +111,32 @@ VALUES (20189, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for Contain
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20189, 1, 20191, 20, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Horripal (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (20189, 8, 8, 60, 0.75, 220, 187, 187, 187, 220, 220, 187, 187, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (20189, 0, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (20189, 1, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (20189, 2, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (20189, 3, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (20189, 4, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (20189, 5, 8, 50, 0.75, 220, 187, 187, 187, 220, 220, 187, 187, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (20189, 6, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (20189, 7, 8, 0, 0, 220, 187, 187, 187, 220, 220, 187, 187, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (20189, 414) /* PLAYER_DEATH_EVENT */
+     , (20189, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (20189, 33, 0, 3, 0, 150, 0, 1226.14954891021) /* LIFE_MAGIC_SKILL */
+     , (20189, 34, 0, 3, 0, 150, 0, 1226.14954891021) /* WAR_MAGIC_SKILL */
+     , (20189, 14, 0, 3, 0, 125, 0, 1226.14954891021) /* ARCANE_LORE_SKILL */
+     , (20189, 6, 0, 3, 0, 310, 0, 1226.14954891021) /* MELEE_DEFENSE_SKILL */
+     , (20189, 15, 0, 3, 0, 241, 0, 1226.14954891021) /* MAGIC_DEFENSE_SKILL */
+     , (20189, 7, 0, 3, 0, 380, 0, 1226.14954891021) /* MISSILE_DEFENSE_SKILL */
+     , (20189, 20, 0, 3, 0, 150, 0, 1226.14954891021) /* DECEPTION_SKILL */
+     , (20189, 12, 0, 3, 0, 55, 0, 1226.14954891021) /* THROWN_WEAPON_SKILL */
+     , (20189, 13, 0, 3, 0, 270, 0, 1226.14954891021) /* UNARMED_COMBAT_SKILL */
+     , (20189, 24, 0, 3, 0, 100, 0, 1226.14954891021) /* RUN_SKILL */
+     , (20189, 31, 0, 3, 0, 150, 0, 1226.14954891021) /* CREATURE_ENCHANTMENT_SKILL */;
 

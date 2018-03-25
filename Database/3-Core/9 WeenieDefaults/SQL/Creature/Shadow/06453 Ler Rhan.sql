@@ -108,18 +108,18 @@ VALUES (6453, 1667, 2.011) /* StaminatoHealthSelf4_SpellID */
      , (6453, 232, 2.013) /* VulnerabilityOther4_SpellID */
      , (6453, 1263, 2.011) /* DrainMana4_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (6453, 1, 110) /* STRENGTH_ATTRIBUTE */
-     , (6453, 2, 135) /* ENDURANCE_ATTRIBUTE */
-     , (6453, 4, 150) /* COORDINATION_ATTRIBUTE */
-     , (6453, 3, 170) /* QUICKNESS_ATTRIBUTE */
-     , (6453, 5, 130) /* FOCUS_ATTRIBUTE */
-     , (6453, 6, 60) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (6453, 1, 110, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (6453, 2, 135, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (6453, 4, 150, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (6453, 3, 170, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (6453, 5, 130, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (6453, 6, 60, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (6453, 1, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6453, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6453, 5, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (6453, 1, 70, 0, 0, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6453, 3, 200, 0, 0, 335) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6453, 5, 300, 0, 0, 360) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6453, 9, 6059, 0, 0, 0.01, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
@@ -127,4 +127,45 @@ VALUES (6453, 9, 6059, 0, 0, 0.01, False) /* Create Dark Sliver for ContainTreas
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6453, 1, 1756, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Child (x1 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (6453, 8, 4, 25, 0.75, 90, 90, 58, 69, 34, 90, 40, 58, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (6453, 0, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (6453, 1, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (6453, 2, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (6453, 3, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (6453, 4, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (6453, 5, 4, 20, 0.75, 90, 90, 58, 69, 34, 90, 40, 58, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (6453, 6, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (6453, 7, 4, 0, 0, 90, 90, 58, 69, 34, 90, 40, 58, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (6453, 414) /* PLAYER_DEATH_EVENT */
+     , (6453, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (6453, 1, 0, 2, 0, 110, 0, 478.907377110474) /* AXE_SKILL */
+     , (6453, 33, 0, 2, 0, 230, 0, 478.907377110474) /* LIFE_MAGIC_SKILL */
+     , (6453, 2, 0, 3, 0, 90, 0, 478.907377110474) /* BOW_SKILL */
+     , (6453, 34, 0, 2, 0, 250, 0, 478.907377110474) /* WAR_MAGIC_SKILL */
+     , (6453, 3, 0, 2, 0, 90, 0, 478.907377110474) /* CROSSBOW_SKILL */
+     , (6453, 4, 0, 3, 0, 110, 0, 478.907377110474) /* DAGGER_SKILL */
+     , (6453, 5, 0, 2, 0, 110, 0, 478.907377110474) /* MACE_SKILL */
+     , (6453, 6, 0, 3, 0, 80, 0, 478.907377110474) /* MELEE_DEFENSE_SKILL */
+     , (6453, 7, 0, 3, 0, 90, 0, 478.907377110474) /* MISSILE_DEFENSE_SKILL */
+     , (6453, 9, 0, 3, 0, 110, 0, 478.907377110474) /* SPEAR_SKILL */
+     , (6453, 10, 0, 2, 0, 110, 0, 478.907377110474) /* STAFF_SKILL */
+     , (6453, 11, 0, 3, 0, 110, 0, 478.907377110474) /* SWORD_SKILL */
+     , (6453, 13, 0, 2, 0, 110, 0, 478.907377110474) /* UNARMED_COMBAT_SKILL */
+     , (6453, 14, 0, 2, 0, 230, 0, 478.907377110474) /* ARCANE_LORE_SKILL */
+     , (6453, 15, 0, 2, 0, 240, 0, 478.907377110474) /* MAGIC_DEFENSE_SKILL */
+     , (6453, 20, 0, 3, 0, 150, 0, 478.907377110474) /* DECEPTION_SKILL */
+     , (6453, 31, 0, 2, 0, 230, 0, 478.907377110474) /* CREATURE_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (6453, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (6453, 3, 0, 0, 16, 0, 1, NULL, 'The wind brings tidings: The shadow of Ler Rhan has been slain by %s!  Ler Rhan has been pushed southward to the realms of the Sho and the Blackmire Swamp.  Seek Ler Rhan''s shadow; he will arrive soon...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* WorldBroadcast_EmoteType */
+     , (6453, 3, 0, 1, 17, 0, 0, NULL, 'Ler Rhan collapses, but hisses in amusement as he falls: "You may have defeated this shadow of mine, %s, but I shall rise up elsewhere!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */;
 

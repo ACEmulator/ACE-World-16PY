@@ -73,16 +73,27 @@ VALUES (24888, 1, True) /* STUCK_BOOL */
      , (24888, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24888, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (24888, 1, 1) /* STRENGTH_ATTRIBUTE */
-     , (24888, 2, 1) /* ENDURANCE_ATTRIBUTE */
-     , (24888, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (24888, 3, 1) /* QUICKNESS_ATTRIBUTE */
-     , (24888, 5, 1) /* FOCUS_ATTRIBUTE */
-     , (24888, 6, 1) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (24888, 1, 1, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (24888, 2, 1, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (24888, 4, 1, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (24888, 3, 1, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (24888, 5, 1, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (24888, 6, 1, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (24888, 1, 9999) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24888, 3, 0) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24888, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (24888, 1, 9999, 0, 0, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24888, 3, 0, 0, 0, 1) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24888, 5, 0, 0, 0, 1) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (24888, 8, 4, 1, 0.75, 400, 400, 400, 400, 400, 400, 400, 400, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (24888, 0, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (24888, 1, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (24888, 2, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (24888, 3, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (24888, 4, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (24888, 5, 4, 1, 0.75, 400, 400, 400, 400, 400, 400, 400, 400, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (24888, 6, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (24888, 7, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
 

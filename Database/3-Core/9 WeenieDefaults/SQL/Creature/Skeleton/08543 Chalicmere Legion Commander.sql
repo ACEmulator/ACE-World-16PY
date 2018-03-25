@@ -82,19 +82,53 @@ VALUES (8543, 1343, 2.067) /* WeaknessOther6_SpellID */
      , (8543, 1396, 2.067) /* ClumsinessOther6_SpellID */
      , (8543, 1444, 2.067) /* BafflementOther6_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (8543, 1, 275) /* STRENGTH_ATTRIBUTE */
-     , (8543, 2, 264) /* ENDURANCE_ATTRIBUTE */
-     , (8543, 4, 308) /* COORDINATION_ATTRIBUTE */
-     , (8543, 3, 330) /* QUICKNESS_ATTRIBUTE */
-     , (8543, 5, 275) /* FOCUS_ATTRIBUTE */
-     , (8543, 6, 275) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (8543, 1, 275, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (8543, 2, 264, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (8543, 4, 308, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (8543, 3, 330, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (8543, 5, 275, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (8543, 6, 275, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (8543, 1, 198) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8543, 3, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8543, 5, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (8543, 1, 198, 0, 0, 330) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8543, 3, 165, 0, 0, 429) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8543, 5, 110, 0, 0, 385) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8543, 1, 8520, 0, 0, 1, False) /* Create Broken Silver Key for Contain_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (8543, 8, 4, 5, 0.75, 75, 36, 27, 38, 18, 64, 24, 37, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (8543, 0, 4, 0, 0, 90, 43, 32, 45, 22, 77, 29, 44, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (8543, 1, 4, 0, 0, 80, 38, 29, 40, 19, 68, 26, 39, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (8543, 2, 4, 0, 0, 80, 38, 29, 40, 19, 68, 26, 39, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (8543, 3, 4, 0, 0, 60, 29, 22, 30, 14, 51, 19, 29, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (8543, 4, 4, 0, 0, 50, 24, 18, 25, 12, 43, 16, 25, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (8543, 5, 4, 4, 0.75, 60, 29, 22, 30, 14, 51, 19, 29, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (8543, 6, 4, 0, 0, 65, 31, 23, 33, 16, 55, 21, 32, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (8543, 7, 4, 0, 0, 65, 31, 23, 33, 16, 55, 21, 32, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8543, 414) /* PLAYER_DEATH_EVENT */
+     , (8543, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (8543, 1, 0, 2, 0, 154, 0, 592.429014024618) /* AXE_SKILL */
+     , (8543, 33, 0, 2, 0, 220, 0, 592.429014024618) /* LIFE_MAGIC_SKILL */
+     , (8543, 2, 0, 3, 0, 154, 0, 592.429014024618) /* BOW_SKILL */
+     , (8543, 34, 0, 2, 0, 220, 0, 592.429014024618) /* WAR_MAGIC_SKILL */
+     , (8543, 3, 0, 2, 0, 253, 0, 592.429014024618) /* CROSSBOW_SKILL */
+     , (8543, 4, 0, 2, 0, 253, 0, 592.429014024618) /* DAGGER_SKILL */
+     , (8543, 5, 0, 3, 0, 154, 0, 592.429014024618) /* MACE_SKILL */
+     , (8543, 6, 0, 2, 0, 176, 0, 592.429014024618) /* MELEE_DEFENSE_SKILL */
+     , (8543, 7, 0, 2, 0, 253, 0, 592.429014024618) /* MISSILE_DEFENSE_SKILL */
+     , (8543, 9, 0, 2, 0, 154, 0, 592.429014024618) /* SPEAR_SKILL */
+     , (8543, 10, 0, 2, 0, 154, 0, 592.429014024618) /* STAFF_SKILL */
+     , (8543, 11, 0, 3, 0, 154, 0, 592.429014024618) /* SWORD_SKILL */
+     , (8543, 13, 0, 2, 0, 154, 0, 592.429014024618) /* UNARMED_COMBAT_SKILL */
+     , (8543, 14, 0, 3, 0, 220, 0, 592.429014024618) /* ARCANE_LORE_SKILL */
+     , (8543, 15, 0, 2, 0, 220, 0, 592.429014024618) /* MAGIC_DEFENSE_SKILL */
+     , (8543, 20, 0, 2, 0, 132, 0, 592.429014024618) /* DECEPTION_SKILL */
+     , (8543, 31, 0, 2, 0, 220, 0, 592.429014024618) /* CREATURE_ENCHANTMENT_SKILL */;
 

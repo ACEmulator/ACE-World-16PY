@@ -73,16 +73,32 @@ VALUES (27302, 1, True) /* STUCK_BOOL */
      , (27302, 13, False) /* ETHEREAL_BOOL */
      , (27302, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (27302, 1, 1) /* STRENGTH_ATTRIBUTE */
-     , (27302, 2, 1) /* ENDURANCE_ATTRIBUTE */
-     , (27302, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (27302, 3, 1) /* QUICKNESS_ATTRIBUTE */
-     , (27302, 5, 1) /* FOCUS_ATTRIBUTE */
-     , (27302, 6, 1) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (27302, 1, 1, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (27302, 2, 1, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (27302, 4, 1, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (27302, 3, 1, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (27302, 5, 1, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (27302, 6, 1, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (27302, 1, 1499) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27302, 3, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27302, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (27302, 1, 1499, 0, 0, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27302, 3, 1000, 0, 0, 1001) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27302, 5, 0, 0, 0, 1) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (27302, 8, 4, 1, 0.75, 200, 200, 200, 200, 200, 200, 200, 200, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (27302, 0, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (27302, 1, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (27302, 2, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (27302, 3, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (27302, 4, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (27302, 5, 4, 1, 0.75, 200, 200, 200, 200, 200, 200, 200, 200, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (27302, 6, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (27302, 7, 4, 0, 0, 200, 200, 200, 200, 200, 200, 200, 200, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (27302, 6, 0, 2, 0, 200, 0, 1890.7026648974) /* MELEE_DEFENSE_SKILL */
+     , (27302, 15, 0, 3, 0, 200, 0, 1890.7026648974) /* MAGIC_DEFENSE_SKILL */
+     , (27302, 7, 0, 2, 0, 200, 0, 1890.7026648974) /* MISSILE_DEFENSE_SKILL */;
 

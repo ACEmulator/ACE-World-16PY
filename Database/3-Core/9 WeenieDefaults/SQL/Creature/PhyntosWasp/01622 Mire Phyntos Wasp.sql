@@ -78,20 +78,40 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1622, 81, 2.25) /* FlameBolt2_SpellID */
      , (1622, 59, 2.25) /* AcidStream2_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (1622, 1, 25) /* STRENGTH_ATTRIBUTE */
-     , (1622, 2, 50) /* ENDURANCE_ATTRIBUTE */
-     , (1622, 4, 90) /* COORDINATION_ATTRIBUTE */
-     , (1622, 3, 80) /* QUICKNESS_ATTRIBUTE */
-     , (1622, 5, 40) /* FOCUS_ATTRIBUTE */
-     , (1622, 6, 20) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (1622, 1, 25, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (1622, 2, 50, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (1622, 4, 90, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (1622, 3, 80, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (1622, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (1622, 6, 20, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (1622, 1, 5) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1622, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1622, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (1622, 1, 5, 0, 0, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1622, 3, 150, 0, 0, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1622, 5, 0, 0, 0, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1622, 9, 3702, 0, 0, 0.15, False) /* Create Mire Phyntos Wasp Wing for ContainTreasure_DestinationType */
      , (1622, 9, 0, 0, 0, 0.85, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (1622, 16, 4, 0, 0, 20, 16, 16, 10, 4, 9, 4, 4, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (1622, 0, 2, 5, 0.5, 20, 16, 16, 10, 4, 9, 4, 4, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (1622, 17, 1, 5, 0.75, 20, 16, 16, 10, 4, 9, 4, 4, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (1622, 21, 4, 0, 0, 10, 8, 8, 5, 2, 5, 2, 2, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (1622, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (1622, 34, 0, 3, 0, 51, 0, 309.890500648813) /* WAR_MAGIC_SKILL */
+     , (1622, 22, 0, 2, 0, 80, 0, 309.890500648813) /* JUMP_SKILL */
+     , (1622, 14, 0, 2, 0, 135, 0, 309.890500648813) /* ARCANE_LORE_SKILL */
+     , (1622, 6, 0, 3, 0, 35, 0, 309.890500648813) /* MELEE_DEFENSE_SKILL */
+     , (1622, 15, 0, 3, 0, 64, 0, 309.890500648813) /* MAGIC_DEFENSE_SKILL */
+     , (1622, 7, 0, 3, 0, 76, 0, 309.890500648813) /* MISSILE_DEFENSE_SKILL */
+     , (1622, 13, 0, 3, 0, 65, 0, 309.890500648813) /* UNARMED_COMBAT_SKILL */
+     , (1622, 20, 0, 2, 0, 5, 0, 309.890500648813) /* DECEPTION_SKILL */
+     , (1622, 24, 0, 2, 0, 80, 0, 309.890500648813) /* RUN_SKILL */;
 

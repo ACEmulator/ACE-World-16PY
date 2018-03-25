@@ -89,22 +89,50 @@ VALUES (14879, 74, 2.004) /* FrostBolt6_SpellID */
      , (14879, 1785, 2.004) /* FlameRing_SpellID */
      , (14879, 1787, 2.004) /* FrostRing_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (14879, 1, 340) /* STRENGTH_ATTRIBUTE */
-     , (14879, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (14879, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (14879, 3, 300) /* QUICKNESS_ATTRIBUTE */
-     , (14879, 5, 240) /* FOCUS_ATTRIBUTE */
-     , (14879, 6, 280) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (14879, 1, 340, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (14879, 2, 300, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (14879, 4, 300, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (14879, 3, 300, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (14879, 5, 240, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (14879, 6, 280, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (14879, 1, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (14879, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (14879, 5, 220) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (14879, 1, 400, 0, 0, 550) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14879, 3, 200, 0, 0, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14879, 5, 220, 0, 0, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14879, 2, 7799, 3, 0, 0, False) /* Create Ball of plasma for Wield_DestinationType */
      , (14879, 9, 6876, 0, 0, 0.04, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (14879, 9, 0, 0, 0, 0.96, False) /* Create  for ContainTreasure_DestinationType */
      , (14879, 9, 14882, 0, 0, 1, False) /* Create Ring of a Singularity Key for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (14879, 8, 8, 45, 0.75, 200, 200, 200, 200, 220, 220, 200, 200, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (14879, 0, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (14879, 1, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (14879, 2, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (14879, 3, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (14879, 4, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (14879, 5, 16, 45, 0.75, 200, 200, 200, 200, 220, 220, 200, 200, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (14879, 6, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (14879, 7, 32, 0, 0, 200, 200, 200, 200, 220, 220, 200, 200, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (14879, 414) /* PLAYER_DEATH_EVENT */
+     , (14879, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (14879, 33, 0, 3, 0, 175, 0, 912.671585522313) /* LIFE_MAGIC_SKILL */
+     , (14879, 34, 0, 3, 0, 175, 0, 912.671585522313) /* WAR_MAGIC_SKILL */
+     , (14879, 14, 0, 3, 0, 170, 0, 912.671585522313) /* ARCANE_LORE_SKILL */
+     , (14879, 6, 0, 3, 0, 320, 0, 912.671585522313) /* MELEE_DEFENSE_SKILL */
+     , (14879, 15, 0, 3, 0, 270, 0, 912.671585522313) /* MAGIC_DEFENSE_SKILL */
+     , (14879, 7, 0, 3, 0, 418, 0, 912.671585522313) /* MISSILE_DEFENSE_SKILL */
+     , (14879, 20, 0, 3, 0, 150, 0, 912.671585522313) /* DECEPTION_SKILL */
+     , (14879, 12, 0, 3, 0, 70, 0, 912.671585522313) /* THROWN_WEAPON_SKILL */
+     , (14879, 13, 0, 3, 0, 280, 0, 912.671585522313) /* UNARMED_COMBAT_SKILL */
+     , (14879, 24, 0, 3, 0, 100, 0, 912.671585522313) /* RUN_SKILL */
+     , (14879, 31, 0, 3, 0, 175, 0, 912.671585522313) /* CREATURE_ENCHANTMENT_SKILL */;
 

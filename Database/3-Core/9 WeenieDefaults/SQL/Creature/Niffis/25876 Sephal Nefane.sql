@@ -87,22 +87,52 @@ VALUES (25876, 2064, 2.03) /* FeeblemindOther7_SpellID */
      , (25876, 2162, 2.02) /* AcidVulnerabilityOther7_SpellID */
      , (25876, 2074, 2.02) /* ImperilOther7_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (25876, 1, 280) /* STRENGTH_ATTRIBUTE */
-     , (25876, 2, 280) /* ENDURANCE_ATTRIBUTE */
-     , (25876, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (25876, 3, 240) /* QUICKNESS_ATTRIBUTE */
-     , (25876, 5, 310) /* FOCUS_ATTRIBUTE */
-     , (25876, 6, 360) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (25876, 1, 280, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (25876, 2, 280, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (25876, 4, 260, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (25876, 3, 240, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (25876, 5, 310, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (25876, 6, 360, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (25876, 1, 1860) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25876, 3, 1720) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25876, 5, 1640) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (25876, 1, 1860, 0, 0, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25876, 3, 1720, 0, 0, 2000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25876, 5, 1640, 0, 0, 2000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25876, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
      , (25876, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (25876, 9, 25894, 0, 0, 0.0075, False) /* Create Nefane Pearl for ContainTreasure_DestinationType */
      , (25876, 9, 0, 0, 0, 0.9925, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (25876, 24, 4, 0, 0, 600, 600, 510, 510, 570, 510, 570, 510, 0, 2, 0.06, 0.22, 0.3, 0.1, 0.2, 0.3, 0.06, 0.22, 0.3, 0.1, 0.2, 0.22) /* UPPER_TENTACLE */
+     , (25876, 16, 4, 0, 0, 600, 600, 510, 510, 570, 510, 570, 510, 0, 2, 0.5, 0.48, 0.1, 0.5, 0.6, 0.1, 0.5, 0.48, 0.1, 0.5, 0.6, 0.22) /* TORSO */
+     , (25876, 0, 4, 130, 0.75, 600, 600, 510, 510, 570, 510, 570, 510, 0, 1, 0.44, 0.3, 0, 0.4, 0.1, 0, 0.44, 0.3, 0, 0.4, 0.1, 0) /* HEAD */
+     , (25876, 21, 4, 0, 0, 600, 600, 510, 510, 570, 510, 570, 510, 0, 2, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.28) /* WINGS */
+     , (25876, 25, 4, 130, 0.5, 600, 600, 510, 510, 570, 510, 570, 510, 0, 3, 0, 0, 0.3, 0, 0.1, 0.3, 0, 0, 0.3, 0, 0.1, 0.28) /* LOWER_TENTACLE */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (25876, 414) /* PLAYER_DEATH_EVENT */
+     , (25876, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (25876, 33, 0, 3, 0, 175, 0, 1677.77203609891) /* LIFE_MAGIC_SKILL */
+     , (25876, 34, 0, 3, 0, 175, 0, 1677.77203609891) /* WAR_MAGIC_SKILL */
+     , (25876, 14, 0, 3, 0, 70, 0, 1677.77203609891) /* ARCANE_LORE_SKILL */
+     , (25876, 6, 0, 3, 0, 375, 0, 1677.77203609891) /* MELEE_DEFENSE_SKILL */
+     , (25876, 31, 0, 3, 0, 175, 0, 1677.77203609891) /* CREATURE_ENCHANTMENT_SKILL */
+     , (25876, 15, 0, 3, 0, 275, 0, 1677.77203609891) /* MAGIC_DEFENSE_SKILL */
+     , (25876, 7, 0, 3, 0, 470, 0, 1677.77203609891) /* MISSILE_DEFENSE_SKILL */
+     , (25876, 13, 0, 3, 0, 350, 0, 1677.77203609891) /* UNARMED_COMBAT_SKILL */
+     , (25876, 20, 0, 3, 0, 50, 0, 1677.77203609891) /* DECEPTION_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (25876, 0.025, 5, 0, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
+     , (25876, 0.025, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (25876, 5, 0, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (25876, 5, 1, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */;
 

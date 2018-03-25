@@ -71,20 +71,29 @@ VALUES (12704, 1, True) /* STUCK_BOOL */
      , (12704, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12704, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (12704, 1, 15) /* STRENGTH_ATTRIBUTE */
-     , (12704, 2, 15) /* ENDURANCE_ATTRIBUTE */
-     , (12704, 4, 15) /* COORDINATION_ATTRIBUTE */
-     , (12704, 3, 15) /* QUICKNESS_ATTRIBUTE */
-     , (12704, 5, 15) /* FOCUS_ATTRIBUTE */
-     , (12704, 6, 15) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (12704, 1, 15, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (12704, 2, 15, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (12704, 4, 15, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (12704, 3, 15, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (12704, 5, 15, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (12704, 6, 15, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (12704, 1, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12704, 3, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12704, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (12704, 1, 25, 0, 0, 33) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12704, 3, 50, 0, 0, 65) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12704, 5, 0, 0, 0, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12704, 9, 13089, 0, 0, 1, False) /* Create Carpenter Wasp Wing for ContainTreasure_DestinationType */
      , (12704, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (12704, 16, 4, 0, 0, 15, 12, 12, 12, 5, 4, 4, 4, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (12704, 0, 2, 3, 0.5, 15, 12, 12, 12, 5, 4, 4, 4, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (12704, 17, 1, 3, 0.75, 15, 12, 12, 12, 5, 4, 4, 4, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (12704, 21, 4, 0, 0, 15, 12, 12, 12, 5, 4, 4, 4, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (12704, 414) /* PLAYER_DEATH_EVENT */;
 

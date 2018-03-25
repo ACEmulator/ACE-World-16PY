@@ -74,16 +74,47 @@ VALUES (11965, 1, True) /* STUCK_BOOL */
      , (11965, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11965, 13, False) /* ETHEREAL_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (11965, 1, 150) /* STRENGTH_ATTRIBUTE */
-     , (11965, 2, 165) /* ENDURANCE_ATTRIBUTE */
-     , (11965, 4, 170) /* COORDINATION_ATTRIBUTE */
-     , (11965, 3, 145) /* QUICKNESS_ATTRIBUTE */
-     , (11965, 5, 90) /* FOCUS_ATTRIBUTE */
-     , (11965, 6, 90) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (11965, 1, 150, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (11965, 2, 165, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (11965, 4, 170, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (11965, 3, 145, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (11965, 5, 90, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (11965, 6, 90, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (11965, 1, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11965, 3, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11965, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (11965, 1, 40, 0, 0, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11965, 3, 165, 0, 0, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11965, 5, 0, 0, 0, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (11965, 8, 4, 10, 0.75, 110, 110, 110, 110, 110, 110, 110, 110, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (11965, 0, 4, 0, 0, 130, 130, 130, 130, 130, 130, 130, 130, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (11965, 1, 4, 0, 0, 135, 135, 135, 135, 135, 135, 135, 135, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (11965, 2, 4, 0, 0, 135, 135, 135, 135, 135, 135, 135, 135, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (11965, 3, 4, 0, 0, 130, 130, 130, 130, 130, 130, 130, 130, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (11965, 4, 4, 0, 0, 130, 130, 130, 130, 130, 130, 130, 130, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (11965, 5, 4, 10, 0.75, 120, 120, 120, 120, 120, 120, 120, 120, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (11965, 6, 4, 0, 0, 120, 120, 120, 120, 120, 120, 120, 120, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (11965, 7, 4, 0, 0, 120, 120, 120, 120, 120, 120, 120, 120, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11965, 414) /* PLAYER_DEATH_EVENT */
+     , (11965, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (11965, 9, 0, 2, 0, 120, 0, 776.267765664978) /* SPEAR_SKILL */
+     , (11965, 1, 0, 3, 0, 120, 0, 776.267765664978) /* AXE_SKILL */
+     , (11965, 10, 0, 2, 0, 120, 0, 776.267765664978) /* STAFF_SKILL */
+     , (11965, 2, 0, 3, 0, 100, 0, 776.267765664978) /* BOW_SKILL */
+     , (11965, 3, 0, 2, 0, 100, 0, 776.267765664978) /* CROSSBOW_SKILL */
+     , (11965, 4, 0, 2, 0, 120, 0, 776.267765664978) /* DAGGER_SKILL */
+     , (11965, 5, 0, 2, 0, 120, 0, 776.267765664978) /* MACE_SKILL */
+     , (11965, 6, 0, 2, 0, 130, 0, 776.267765664978) /* MELEE_DEFENSE_SKILL */
+     , (11965, 7, 0, 2, 0, 100, 0, 776.267765664978) /* MISSILE_DEFENSE_SKILL */
+     , (11965, 11, 0, 3, 0, 120, 0, 776.267765664978) /* SWORD_SKILL */
+     , (11965, 13, 0, 2, 0, 120, 0, 776.267765664978) /* UNARMED_COMBAT_SKILL */
+     , (11965, 15, 0, 2, 0, 53, 0, 776.267765664978) /* MAGIC_DEFENSE_SKILL */
+     , (11965, 20, 0, 2, 0, 5, 0, 776.267765664978) /* DECEPTION_SKILL */
+     , (11965, 24, 0, 2, 0, 50, 0, 776.267765664978) /* RUN_SKILL */;
 

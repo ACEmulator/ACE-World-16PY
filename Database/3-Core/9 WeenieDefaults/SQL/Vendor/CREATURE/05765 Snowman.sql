@@ -99,18 +99,18 @@ VALUES (5765, 1063, 2.017) /* ColdVulnerabilityOther4_SpellID */
      , (5765, 73, 2.025) /* FrostBolt5_SpellID */
      , (5765, 167, 2.02) /* RegenerationSelf3_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (5765, 1, 300) /* STRENGTH_ATTRIBUTE */
-     , (5765, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (5765, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (5765, 3, 300) /* QUICKNESS_ATTRIBUTE */
-     , (5765, 5, 300) /* FOCUS_ATTRIBUTE */
-     , (5765, 6, 300) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (5765, 1, 300, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (5765, 2, 300, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (5765, 4, 300, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (5765, 3, 300, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (5765, 5, 300, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (5765, 6, 300, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (5765, 1, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5765, 3, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5765, 5, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (5765, 1, 350, 0, 0, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5765, 3, 70, 0, 0, 370) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5765, 5, 200, 0, 0, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5765, 4, 5762, -1, 0, 0, False) /* Create Snowball for Shop_DestinationType */
@@ -120,4 +120,51 @@ VALUES (5765, 4, 5762, -1, 0, 0, False) /* Create Snowball for Shop_DestinationT
      , (5765, 1, 5769, 12, 0, 0, False) /* Create Iceball for Contain_DestinationType */
      , (5765, 1, 5758, 1, 0, 0, False) /* Create Carrot for Contain_DestinationType */
      , (5765, 2, 5770, 3, 0, 0, False) /* Create "Enchanted" Iceball for Wield_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (5765, 8, 4, 45, 0.75, 150, 107, 75, 107, 15, 45, 107, 107, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (5765, 0, 4, 0, 0, 130, 92, 65, 92, 13, 39, 92, 92, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (5765, 1, 4, 0, 0, 140, 99, 70, 99, 14, 42, 99, 99, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (5765, 2, 4, 0, 0, 150, 107, 75, 107, 15, 45, 107, 107, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (5765, 3, 4, 0, 0, 140, 99, 70, 99, 14, 42, 99, 99, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (5765, 4, 4, 0, 0, 140, 99, 70, 99, 14, 42, 99, 99, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (5765, 5, 4, 45, 0.75, 140, 99, 70, 99, 14, 42, 99, 99, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (5765, 6, 4, 0, 0, 150, 107, 75, 107, 15, 45, 107, 107, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (5765, 7, 4, 0, 0, 150, 107, 75, 107, 15, 45, 107, 107, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5765, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (5765, 33, 0, 3, 0, 250, 0, 439.34391091105) /* LIFE_MAGIC_SKILL */
+     , (5765, 34, 0, 3, 0, 250, 0, 439.34391091105) /* WAR_MAGIC_SKILL */
+     , (5765, 14, 0, 2, 0, 250, 0, 439.34391091105) /* ARCANE_LORE_SKILL */
+     , (5765, 6, 0, 3, 0, 150, 0, 439.34391091105) /* MELEE_DEFENSE_SKILL */
+     , (5765, 15, 0, 3, 0, 274, 0, 439.34391091105) /* MAGIC_DEFENSE_SKILL */
+     , (5765, 7, 0, 3, 0, 150, 0, 439.34391091105) /* MISSILE_DEFENSE_SKILL */
+     , (5765, 20, 0, 3, 0, 100, 0, 439.34391091105) /* DECEPTION_SKILL */
+     , (5765, 12, 0, 3, 0, 150, 0, 439.34391091105) /* THROWN_WEAPON_SKILL */
+     , (5765, 13, 0, 3, 0, 150, 0, 439.34391091105) /* UNARMED_COMBAT_SKILL */
+     , (5765, 24, 0, 2, 0, 40, 0, 439.34391091105) /* RUN_SKILL */
+     , (5765, 31, 0, 3, 0, 250, 0, 439.34391091105) /* CREATURE_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (5765, 1, 2, 0, NULL, NULL, NULL, NULL, 1, NULL, NULL) /* Vendor_EmoteCategory */
+     , (5765, 1, 2, 1, NULL, NULL, NULL, NULL, 2, NULL, NULL) /* Vendor_EmoteCategory */
+     , (5765, 0.8, 2, 2, NULL, NULL, NULL, NULL, 3, NULL, NULL) /* Vendor_EmoteCategory */
+     , (5765, 0.8, 2, 3, NULL, NULL, NULL, NULL, 4, NULL, NULL) /* Vendor_EmoteCategory */
+     , (5765, 0.025, 5, 0, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
+     , (5765, 0.03, 5, 1, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
+     , (5765, 0.025, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
+     , (5765, 0.03, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (5765, 2, 0, 0, 10, 0, 1, NULL, 'I sell harmless snowballs, which are good for safe Player Killer action! I also sell instructions on how to make flattering likenesses of me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (5765, 2, 1, 0, 10, 0, 1, NULL, 'If you think my prices are too high, you should see my cousin''s!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (5765, 2, 2, 0, 10, 0, 1, NULL, 'Very good.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (5765, 2, 3, 0, 10, 0, 1, NULL, 'Quite good.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (5765, 5, 0, 0, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (5765, 5, 1, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (5765, 5, 2, 0, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
+     , (5765, 5, 3, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */;
 
