@@ -99,22 +99,55 @@ VALUES (11897, 81, 2.013) /* FlameBolt2_SpellID */
      , (11897, 59, 2.013) /* AcidStream2_SpellID */
      , (11897, 60, 2.002) /* AcidStream3_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (11897, 1, 100) /* STRENGTH_ATTRIBUTE */
-     , (11897, 2, 100) /* ENDURANCE_ATTRIBUTE */
-     , (11897, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (11897, 3, 150) /* QUICKNESS_ATTRIBUTE */
-     , (11897, 5, 60) /* FOCUS_ATTRIBUTE */
-     , (11897, 6, 60) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (11897, 1, 100, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (11897, 2, 100, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (11897, 4, 100, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (11897, 3, 150, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (11897, 5, 60, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (11897, 6, 60, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (11897, 1, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11897, 3, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11897, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (11897, 1, 60, 0, 0, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11897, 3, 100, 0, 0, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11897, 5, 0, 0, 0, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11897, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
      , (11897, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */
      , (11897, 9, 11836, 0, 0, 0.05, False) /* Create Banner Haft for ContainTreasure_DestinationType */
      , (11897, 9, 0, 0, 0, 0.95, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (11897, 8, 4, 3, 0.75, 50, 50, 50, 50, 50, 50, 50, 50, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (11897, 0, 4, 0, 0, 30, 30, 30, 30, 30, 30, 30, 30, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (11897, 1, 4, 0, 0, 50, 50, 50, 50, 50, 50, 50, 50, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (11897, 2, 4, 0, 0, 50, 50, 50, 50, 50, 50, 50, 50, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (11897, 3, 4, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (11897, 4, 4, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (11897, 5, 4, 2, 0.75, 20, 20, 20, 20, 20, 20, 20, 20, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (11897, 6, 4, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (11897, 7, 4, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11897, 414) /* PLAYER_DEATH_EVENT */
+     , (11897, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (11897, 1, 0, 3, 0, 115, 0, 771.40004662654) /* AXE_SKILL */
+     , (11897, 33, 0, 3, 0, 130, 0, 771.40004662654) /* LIFE_MAGIC_SKILL */
+     , (11897, 2, 0, 3, 0, 110, 0, 771.40004662654) /* BOW_SKILL */
+     , (11897, 34, 0, 3, 0, 130, 0, 771.40004662654) /* WAR_MAGIC_SKILL */
+     , (11897, 3, 0, 3, 0, 110, 0, 771.40004662654) /* CROSSBOW_SKILL */
+     , (11897, 4, 0, 3, 0, 100, 0, 771.40004662654) /* DAGGER_SKILL */
+     , (11897, 5, 0, 3, 0, 115, 0, 771.40004662654) /* MACE_SKILL */
+     , (11897, 6, 0, 3, 0, 120, 0, 771.40004662654) /* MELEE_DEFENSE_SKILL */
+     , (11897, 7, 0, 3, 0, 230, 0, 771.40004662654) /* MISSILE_DEFENSE_SKILL */
+     , (11897, 10, 0, 3, 0, 115, 0, 771.40004662654) /* STAFF_SKILL */
+     , (11897, 11, 0, 3, 0, 115, 0, 771.40004662654) /* SWORD_SKILL */
+     , (11897, 13, 0, 3, 0, 115, 0, 771.40004662654) /* UNARMED_COMBAT_SKILL */
+     , (11897, 15, 0, 3, 0, 140, 0, 771.40004662654) /* MAGIC_DEFENSE_SKILL */
+     , (11897, 20, 0, 3, 0, 40, 0, 771.40004662654) /* DECEPTION_SKILL */
+     , (11897, 24, 0, 3, 0, 60, 0, 771.40004662654) /* RUN_SKILL */
+     , (11897, 31, 0, 3, 0, 130, 0, 771.40004662654) /* CREATURE_ENCHANTMENT_SKILL */;
 

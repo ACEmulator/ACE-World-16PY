@@ -86,22 +86,69 @@ VALUES (21383, 234, 2.01) /* VulnerabilityOther6_SpellID */
      , (21383, 285, 2.01) /* MagicYieldOther6_SpellID */
      , (21383, 63, 2.02) /* AcidStream6_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (21383, 1, 500) /* STRENGTH_ATTRIBUTE */
-     , (21383, 2, 610) /* ENDURANCE_ATTRIBUTE */
-     , (21383, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (21383, 3, 250) /* QUICKNESS_ATTRIBUTE */
-     , (21383, 5, 500) /* FOCUS_ATTRIBUTE */
-     , (21383, 6, 500) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (21383, 1, 500, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (21383, 2, 610, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (21383, 4, 300, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (21383, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (21383, 5, 500, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (21383, 6, 500, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (21383, 1, 29695) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (21383, 3, 1390) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (21383, 5, 1500) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (21383, 1, 29695, 0, 0, 30000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (21383, 3, 1390, 0, 0, 2000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (21383, 5, 1500, 0, 0, 2000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21383, 12, 1497694474, 28.638, -59.181, -24, -0.7071068, 0, 0, -0.7071068) /* PORTAL_SUMMON_LOC_POSITION */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21383, 2, 20227, 0, 0, 0, False) /* Create Iasparailaun for Wield_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (21383, 8, 4, 25, 0.75, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (21383, 0, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (21383, 1, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (21383, 2, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (21383, 3, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (21383, 4, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (21383, 5, 4, 25, 0.75, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (21383, 6, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (21383, 7, 4, 0, 0, 600, 600, 600, 600, 12000, 12000, 12000, 12000, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (21383, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (21383, 16, 0, 3, 0, 200, 0, 1302.16224335242) /* MANA_CONVERSION_SKILL */
+     , (21383, 32, 0, 3, 0, 120, 0, 1302.16224335242) /* ITEM_ENCHANTMENT_SKILL */
+     , (21383, 33, 0, 3, 0, 120, 0, 1302.16224335242) /* LIFE_MAGIC_SKILL */
+     , (21383, 34, 0, 3, 0, 120, 0, 1302.16224335242) /* WAR_MAGIC_SKILL */
+     , (21383, 6, 0, 3, 0, 222, 0, 1302.16224335242) /* MELEE_DEFENSE_SKILL */
+     , (21383, 15, 0, 3, 0, 177, 0, 1302.16224335242) /* MAGIC_DEFENSE_SKILL */
+     , (21383, 7, 0, 3, 0, 405, 0, 1302.16224335242) /* MISSILE_DEFENSE_SKILL */
+     , (21383, 11, 0, 3, 0, 148, 0, 1302.16224335242) /* SWORD_SKILL */
+     , (21383, 13, 0, 3, 0, 148, 0, 1302.16224335242) /* UNARMED_COMBAT_SKILL */
+     , (21383, 21, 0, 3, 0, 200, 0, 1302.16224335242) /* HEALING_SKILL */
+     , (21383, 22, 0, 3, 0, 200, 0, 1302.16224335242) /* JUMP_SKILL */
+     , (21383, 24, 0, 3, 0, 400, 0, 1302.16224335242) /* RUN_SKILL */
+     , (21383, 31, 0, 3, 0, 120, 0, 1302.16224335242) /* CREATURE_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (21383, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
+     , (21383, 0.3, 21, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */
+     , (21383, 0.5, 21, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */
+     , (21383, 0.7, 21, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */
+     , (21383, 0.9, 21, 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */
+     , (21383, 1, 21, 4, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (21383, 3, 0, 0, 17, 0, 0, NULL, '%s has defeated Gaerlan''s acidic aspect. As the illusion crumbles away a deep voice thunders over the world, "A doomed eternity to relive this life. Stasis within the walls of a crystalline prison. How could I have fallen to you vermin. Nuhmudira, my revenge upon you shall be as painful as yours upon me."', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
+     , (21383, 3, 0, 1, 22, 0, 1, NULL, 'GaerlanKiller', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (21383, 3, 0, 2, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1637, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (21383, 21, 0, 0, 18, 0, 1, NULL, 'Insignificant being. Your attempt at injury is noted.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (21383, 21, 1, 0, 18, 0, 1, NULL, 'Even in death I find your magics to be weak. You are a pathetic brood of beings.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (21383, 21, 2, 0, 18, 0, 1, NULL, 'Even as my flesh begins to rot away, my spirit strengthens, take your lackluster skill where it can be of use... human.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (21383, 21, 3, 0, 18, 0, 1, NULL, 'Magic is not for children to practice.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
+     , (21383, 21, 4, 0, 18, 0, 1, NULL, 'Withered in this shell, broken by one of you, how can I have been reduced to this?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */;
 

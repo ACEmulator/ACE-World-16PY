@@ -71,16 +71,46 @@ VALUES (26564, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (26564, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
      , (26564, 19, False) /* ATTACKABLE_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (26564, 1, 380) /* STRENGTH_ATTRIBUTE */
-     , (26564, 2, 340) /* ENDURANCE_ATTRIBUTE */
-     , (26564, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (26564, 3, 250) /* QUICKNESS_ATTRIBUTE */
-     , (26564, 5, 250) /* FOCUS_ATTRIBUTE */
-     , (26564, 6, 285) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (26564, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (26564, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (26564, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (26564, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (26564, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (26564, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (26564, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (26564, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (26564, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (26564, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (26564, 3, 151, 0, 0, 491) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (26564, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (26564, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (26564, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (26564, 17, 64, 3, 0.75, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (26564, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (26564, 1, 23, 0, NULL, NULL, NULL, 'Consort', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
+     , (26564, 1, 23, 1, NULL, NULL, NULL, 'Apprentice', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
+     , (26564, 1, 23, 2, NULL, NULL, NULL, 'Matriarch', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
+     , (26564, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
+     , (26564, 1, 22, 0, NULL, NULL, NULL, 'Consort', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
+     , (26564, 1, 22, 1, NULL, NULL, NULL, 'Apprentice', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
+     , (26564, 1, 22, 2, NULL, NULL, NULL, 'Matriarch', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (26564, 23, 0, 0, 36, 0, 1, NULL, 'Apprentice', NULL, 70, 99, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (26564, 23, 1, 0, 36, 0, 1, NULL, 'Matriarch', NULL, 100, 9999, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (26564, 23, 2, 0, 10, 0, 1, NULL, 'This should not happen.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (26564, 7, 0, 0, 36, 0, 1, NULL, 'Consort', NULL, 40, 69, NULL, NULL, NULL, NULL, 25, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqIntStat_EmoteType */
+     , (26564, 22, 0, 0, 10, 0, 1, NULL, 'You are a pathetic example of our kind, how you have lived this long confounds me. The High Matron would regurgitate your offering, you shall only be able to awaken her most trusted consort. Go now! Your sacrifice will not be forgotten even if it is only for the weak.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (26564, 22, 0, 1, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3096, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (26564, 22, 0, 2, 23, 0, 1, NULL, 'TempleConsortFeeder', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StartEvent_EmoteType */
+     , (26564, 22, 1, 0, 10, 0, 1, NULL, 'Unworthy slug! You call yourself a sacrifice. What good shall your soul be to one as Ixir Zi? You are only worthy of her apprentice. Your sacrifice would cause her to wretch. Go now! Though you are weak, your sacrifice shall be rewarded.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (26564, 22, 1, 1, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3095, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (26564, 22, 1, 2, 23, 0, 1, NULL, 'TempleApprenticeFeeder', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StartEvent_EmoteType */
+     , (26564, 22, 2, 0, 10, 0, 1, NULL, 'You are one of the strongest forms here and yet you are too weak to awaken Ixir Zi. Still, you have made the journey. Perhaps you shall awaken the Matriarch. Go now! Your frail form will be rewarded!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (26564, 22, 2, 1, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3103, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
+     , (26564, 22, 2, 2, 23, 0, 1, NULL, 'TempleMatriarchFeeder', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StartEvent_EmoteType */;
 

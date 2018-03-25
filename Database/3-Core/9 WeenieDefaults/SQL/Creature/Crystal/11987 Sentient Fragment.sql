@@ -98,18 +98,18 @@ VALUES (11987, 1174, 2.042) /* HarmOther4_SpellID */
      , (11987, 626, 2.042) /* LifeMagicIneptitudeOther4_SpellID */
      , (11987, 168, 2.032) /* RegenerationSelf4_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (11987, 1, 160) /* STRENGTH_ATTRIBUTE */
-     , (11987, 2, 160) /* ENDURANCE_ATTRIBUTE */
-     , (11987, 4, 170) /* COORDINATION_ATTRIBUTE */
-     , (11987, 3, 180) /* QUICKNESS_ATTRIBUTE */
-     , (11987, 5, 170) /* FOCUS_ATTRIBUTE */
-     , (11987, 6, 240) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (11987, 1, 160, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (11987, 2, 160, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (11987, 4, 170, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (11987, 3, 180, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (11987, 5, 170, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (11987, 6, 240, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (11987, 1, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (11987, 3, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (11987, 5, 600) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (11987, 1, 100, 0, 0, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11987, 3, 300, 0, 0, 460) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11987, 5, 600, 0, 0, 840) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11987, 9, 6056, 0, 0, 0.5, False) /* Create Small Shard for ContainTreasure_DestinationType */
@@ -122,4 +122,28 @@ VALUES (11987, 0.25, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* G
      , (11987, 0.5, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dual Fragment (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11987, 0.75, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dual Fragment (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (11987, 1, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dual Fragment (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (11987, 16, 4, 25, 0, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 2, 0.3, 0.4, 0.25, 0.3, 0.4, 0.25, 0.6, 0.5, 0.25, 0.6, 0.5, 0.25) /* TORSO */
+     , (11987, 0, 4, 25, 0.75, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */
+     , (11987, 10, 4, 25, 0, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 2, 0.2, 0.4, 0.5, 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0) /* FRONT_LEG */
+     , (11987, 12, 4, 25, 0.75, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 3, 0, 0, 0.25, 0, 0, 0.25, 0, 0, 0, 0, 0, 0) /* FRONT_FOOT */
+     , (11987, 13, 4, 25, 0, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 2, 0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5) /* REAR_LEG */
+     , (11987, 15, 4, 25, 0.75, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0.25) /* REAR_FOOT */
+     , (11987, 17, 4, 25, 0.75, 250, 250, 250, 250, 298, 25000, 695, 250, 0, 2, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0.1, 0) /* TAIL */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (11987, 94) /* ATTACK_NOTIFICATION_EVENT */
+     , (11987, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (11987, 33, 0, 3, 0, 105, 0, 777.687208639106) /* LIFE_MAGIC_SKILL */
+     , (11987, 34, 0, 3, 0, 105, 0, 777.687208639106) /* WAR_MAGIC_SKILL */
+     , (11987, 6, 0, 3, 0, 262, 0, 777.687208639106) /* MELEE_DEFENSE_SKILL */
+     , (11987, 31, 0, 3, 0, 105, 0, 777.687208639106) /* CREATURE_ENCHANTMENT_SKILL */
+     , (11987, 15, 0, 3, 0, 202, 0, 777.687208639106) /* MAGIC_DEFENSE_SKILL */
+     , (11987, 7, 0, 3, 0, 358, 0, 777.687208639106) /* MISSILE_DEFENSE_SKILL */
+     , (11987, 13, 0, 3, 0, 240, 0, 777.687208639106) /* UNARMED_COMBAT_SKILL */
+     , (11987, 20, 0, 3, 0, 100, 0, 777.687208639106) /* DECEPTION_SKILL */
+     , (11987, 24, 0, 2, 0, 10, 0, 777.687208639106) /* RUN_SKILL */;
 

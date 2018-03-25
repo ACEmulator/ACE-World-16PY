@@ -81,19 +81,40 @@ VALUES (24866, 1264, 2.02) /* DrainMana5_SpellID */
      , (24866, 1175, 2.1) /* HarmOther5_SpellID */
      , (24866, 175, 2.02) /* FesterOther5_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (24866, 1, 230) /* STRENGTH_ATTRIBUTE */
-     , (24866, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (24866, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (24866, 3, 240) /* QUICKNESS_ATTRIBUTE */
-     , (24866, 5, 250) /* FOCUS_ATTRIBUTE */
-     , (24866, 6, 290) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (24866, 1, 230, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (24866, 2, 260, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (24866, 4, 250, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (24866, 3, 240, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (24866, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (24866, 6, 290, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (24866, 1, 320) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24866, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24866, 5, 225) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (24866, 1, 320, 0, 0, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24866, 3, 200, 0, 0, 460) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24866, 5, 225, 0, 0, 515) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24866, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (24866, 24, 4, 140, 0, 340, 289, 289, 340, 306, 340, 323, 170, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* UPPER_TENTACLE */
+     , (24866, 0, 4, 140, 0.75, 330, 281, 281, 330, 297, 330, 314, 165, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (24866, 23, 4, 140, 0, 340, 289, 289, 340, 306, 340, 323, 170, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TENTACLE */
+     , (24866, 25, 4, 140, 0.75, 340, 289, 289, 340, 306, 340, 323, 170, 0, 3, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* LOWER_TENTACLE */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24866, 414) /* PLAYER_DEATH_EVENT */
+     , (24866, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (24866, 33, 0, 3, 0, 210, 0, 1602.27063510333) /* LIFE_MAGIC_SKILL */
+     , (24866, 14, 0, 3, 0, 140, 0, 1602.27063510333) /* ARCANE_LORE_SKILL */
+     , (24866, 6, 0, 3, 0, 310, 0, 1602.27063510333) /* MELEE_DEFENSE_SKILL */
+     , (24866, 31, 0, 3, 0, 210, 0, 1602.27063510333) /* CREATURE_ENCHANTMENT_SKILL */
+     , (24866, 15, 0, 3, 0, 240, 0, 1602.27063510333) /* MAGIC_DEFENSE_SKILL */
+     , (24866, 7, 0, 3, 0, 400, 0, 1602.27063510333) /* MISSILE_DEFENSE_SKILL */
+     , (24866, 20, 0, 3, 0, 140, 0, 1602.27063510333) /* DECEPTION_SKILL */
+     , (24866, 12, 0, 3, 0, 175, 0, 1602.27063510333) /* THROWN_WEAPON_SKILL */
+     , (24866, 13, 0, 3, 0, 300, 0, 1602.27063510333) /* UNARMED_COMBAT_SKILL */;
 

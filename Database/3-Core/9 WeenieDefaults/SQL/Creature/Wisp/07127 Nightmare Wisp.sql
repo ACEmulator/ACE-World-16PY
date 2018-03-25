@@ -87,22 +87,44 @@ VALUES (7127, 223, 2.067) /* ManaDepletionOther6_SpellID */
      , (7127, 176, 2.067) /* FesterOther6_SpellID */
      , (7127, 1265, 2) /* DrainMana6_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (7127, 1, 150) /* STRENGTH_ATTRIBUTE */
-     , (7127, 2, 320) /* ENDURANCE_ATTRIBUTE */
-     , (7127, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (7127, 3, 100) /* QUICKNESS_ATTRIBUTE */
-     , (7127, 5, 435) /* FOCUS_ATTRIBUTE */
-     , (7127, 6, 420) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (7127, 1, 150, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (7127, 2, 320, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (7127, 4, 250, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (7127, 3, 100, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (7127, 5, 435, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (7127, 6, 420, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (7127, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (7127, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (7127, 5, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (7127, 1, 200, 0, 0, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7127, 3, 200, 0, 0, 520) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7127, 5, 100, 0, 0, 520) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7127, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (7127, 9, 0, 0, 0, 0.99, False) /* Create  for ContainTreasure_DestinationType */
      , (7127, 9, 8667, 0, 0, 0.03, False) /* Create Glowing Wisp Heart for ContainTreasure_DestinationType */
      , (7127, 9, 0, 0, 0, 0.97, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (7127, 16, 16, 0, 0, 140, 140, 140, 8, 8, 1400, 90, 8, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (7127, 0, 8, 60, 0.5, 140, 140, 140, 8, 8, 1400, 90, 8, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (7127, 17, 16, 25, 0.75, 130, 130, 130, 8, 8, 1300, 83, 8, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (7127, 21, 16, 0, 0, 130, 130, 130, 8, 8, 1300, 83, 8, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (7127, 414) /* PLAYER_DEATH_EVENT */
+     , (7127, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (7127, 33, 0, 3, 0, 100, 0, 521.241965645917) /* LIFE_MAGIC_SKILL */
+     , (7127, 34, 0, 3, 0, 100, 0, 521.241965645917) /* WAR_MAGIC_SKILL */
+     , (7127, 14, 0, 3, 0, 380, 0, 521.241965645917) /* ARCANE_LORE_SKILL */
+     , (7127, 6, 0, 3, 0, 390, 0, 521.241965645917) /* MELEE_DEFENSE_SKILL */
+     , (7127, 15, 0, 3, 0, 210, 0, 521.241965645917) /* MAGIC_DEFENSE_SKILL */
+     , (7127, 7, 0, 3, 0, 455, 0, 521.241965645917) /* MISSILE_DEFENSE_SKILL */
+     , (7127, 13, 0, 3, 0, 180, 0, 521.241965645917) /* UNARMED_COMBAT_SKILL */
+     , (7127, 20, 0, 3, 0, 100, 0, 521.241965645917) /* DECEPTION_SKILL */
+     , (7127, 24, 0, 3, 0, 50, 0, 521.241965645917) /* RUN_SKILL */
+     , (7127, 31, 0, 3, 0, 100, 0, 521.241965645917) /* CREATURE_ENCHANTMENT_SKILL */;
 

@@ -95,18 +95,18 @@ VALUES (8013, 1158, 2.04) /* HealSelf3_SpellID */
      , (8013, 625, 2.04) /* LifeMagicIneptitudeOther3_SpellID */
      , (8013, 1086, 2.04) /* LightningVulnerabilityOther3_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (8013, 1, 120) /* STRENGTH_ATTRIBUTE */
-     , (8013, 2, 150) /* ENDURANCE_ATTRIBUTE */
-     , (8013, 4, 110) /* COORDINATION_ATTRIBUTE */
-     , (8013, 3, 110) /* QUICKNESS_ATTRIBUTE */
-     , (8013, 5, 150) /* FOCUS_ATTRIBUTE */
-     , (8013, 6, 150) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (8013, 1, 120, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (8013, 2, 150, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (8013, 4, 110, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (8013, 3, 110, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (8013, 5, 150, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (8013, 6, 150, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (8013, 1, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8013, 3, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8013, 5, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (8013, 1, 225, 0, 0, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8013, 3, 150, 0, 0, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8013, 5, 150, 0, 0, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
@@ -119,4 +119,28 @@ VALUES (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasu
      , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */
      , (8013, 9, 8113, 0, 0, 1, False) /* Create Fenmalain Gem for ContainTreasure_DestinationType */
      , (8013, 9, 0, 0, 0, 0, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (8013, 16, 4, 0, 0, 200, 280, 220, 200, 300, 400, 280, 200, 0, 2, 0.3, 0.4, 0.25, 0.3, 0.4, 0.25, 0.6, 0.5, 0.25, 0.6, 0.5, 0.25) /* TORSO */
+     , (8013, 0, 4, 50, 0.75, 200, 280, 220, 200, 300, 400, 280, 200, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */
+     , (8013, 10, 4, 0, 0, 200, 280, 220, 200, 300, 400, 280, 200, 0, 2, 0.2, 0.4, 0.5, 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0) /* FRONT_LEG */
+     , (8013, 12, 4, 50, 0.75, 200, 280, 220, 200, 300, 400, 280, 200, 0, 3, 0, 0, 0.25, 0, 0, 0.25, 0, 0, 0, 0, 0, 0) /* FRONT_FOOT */
+     , (8013, 13, 4, 0, 0, 200, 280, 220, 200, 300, 400, 280, 200, 0, 2, 0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5) /* REAR_LEG */
+     , (8013, 15, 4, 50, 0.75, 200, 280, 220, 200, 300, 400, 280, 200, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0.25) /* REAR_FOOT */
+     , (8013, 17, 4, 50, 0.75, 200, 280, 220, 200, 300, 400, 280, 200, 0, 2, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0.1, 0) /* TAIL */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (8013, 94) /* ATTACK_NOTIFICATION_EVENT */
+     , (8013, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (8013, 33, 0, 3, 0, 105, 0, 565.052451045798) /* LIFE_MAGIC_SKILL */
+     , (8013, 34, 0, 3, 0, 105, 0, 565.052451045798) /* WAR_MAGIC_SKILL */
+     , (8013, 6, 0, 3, 0, 152, 0, 565.052451045798) /* MELEE_DEFENSE_SKILL */
+     , (8013, 31, 0, 3, 0, 105, 0, 565.052451045798) /* CREATURE_ENCHANTMENT_SKILL */
+     , (8013, 15, 0, 3, 0, 132, 0, 565.052451045798) /* MAGIC_DEFENSE_SKILL */
+     , (8013, 7, 0, 3, 0, 256, 0, 565.052451045798) /* MISSILE_DEFENSE_SKILL */
+     , (8013, 13, 0, 3, 0, 113, 0, 565.052451045798) /* UNARMED_COMBAT_SKILL */
+     , (8013, 20, 0, 3, 0, 100, 0, 565.052451045798) /* DECEPTION_SKILL */
+     , (8013, 24, 0, 2, 0, 10, 0, 565.052451045798) /* RUN_SKILL */;
 

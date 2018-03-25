@@ -87,18 +87,18 @@ VALUES (24867, 1265, 2.03) /* DrainMana6_SpellID */
      , (24867, 1312, 2.03) /* ArmorSelf6_SpellID */
      , (24867, 176, 2.03) /* FesterOther6_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (24867, 1, 240) /* STRENGTH_ATTRIBUTE */
-     , (24867, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (24867, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (24867, 3, 240) /* QUICKNESS_ATTRIBUTE */
-     , (24867, 5, 260) /* FOCUS_ATTRIBUTE */
-     , (24867, 6, 300) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (24867, 1, 240, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (24867, 2, 260, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (24867, 4, 260, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (24867, 3, 240, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (24867, 5, 260, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (24867, 6, 300, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (24867, 1, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24867, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24867, 5, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (24867, 1, 350, 0, 0, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24867, 3, 200, 0, 0, 460) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24867, 5, 250, 0, 0, 550) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24867, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
@@ -108,4 +108,25 @@ VALUES (24867, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for Conta
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24867, -1, 24869, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sishalti Tentacle (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */
      , (24867, -1, 24868, 5, 3, 3, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sishalti Tendril (x3 up to max of 3) - Destruction_RegenerationType - Scatter_RegenLocationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (24867, 24, 4, 150, 0, 460, 391, 391, 460, 414, 460, 437, 230, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* UPPER_TENTACLE */
+     , (24867, 0, 64, 150, 0.75, 450, 383, 383, 450, 405, 450, 428, 225, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (24867, 23, 4, 150, 0, 460, 391, 391, 460, 414, 460, 437, 230, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TENTACLE */
+     , (24867, 25, 4, 150, 0.75, 480, 408, 408, 480, 432, 480, 456, 240, 0, 3, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* LOWER_TENTACLE */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (24867, 414) /* PLAYER_DEATH_EVENT */
+     , (24867, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (24867, 33, 0, 3, 0, 225, 0, 1602.39375732205) /* LIFE_MAGIC_SKILL */
+     , (24867, 14, 0, 3, 0, 190, 0, 1602.39375732205) /* ARCANE_LORE_SKILL */
+     , (24867, 6, 0, 3, 0, 315, 0, 1602.39375732205) /* MELEE_DEFENSE_SKILL */
+     , (24867, 31, 0, 3, 0, 225, 0, 1602.39375732205) /* CREATURE_ENCHANTMENT_SKILL */
+     , (24867, 15, 0, 3, 0, 250, 0, 1602.39375732205) /* MAGIC_DEFENSE_SKILL */
+     , (24867, 7, 0, 3, 0, 410, 0, 1602.39375732205) /* MISSILE_DEFENSE_SKILL */
+     , (24867, 20, 0, 3, 0, 225, 0, 1602.39375732205) /* DECEPTION_SKILL */
+     , (24867, 12, 0, 3, 0, 180, 0, 1602.39375732205) /* THROWN_WEAPON_SKILL */
+     , (24867, 13, 0, 3, 0, 330, 0, 1602.39375732205) /* UNARMED_COMBAT_SKILL */;
 

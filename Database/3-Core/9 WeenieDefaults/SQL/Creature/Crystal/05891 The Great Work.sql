@@ -93,21 +93,45 @@ VALUES (5891, 84, 2.067) /* FlameBolt5_SpellID */
      , (5891, 170, 2.066) /* RegenerationSelf6_SpellID */
      , (5891, 628, 2.066) /* LifeMagicIneptitudeOther6_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (5891, 1, 300) /* STRENGTH_ATTRIBUTE */
-     , (5891, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (5891, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (5891, 3, 150) /* QUICKNESS_ATTRIBUTE */
-     , (5891, 5, 350) /* FOCUS_ATTRIBUTE */
-     , (5891, 6, 350) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (5891, 1, 300, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (5891, 2, 300, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (5891, 4, 300, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (5891, 3, 150, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (5891, 5, 350, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (5891, 6, 350, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (5891, 1, 550) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5891, 3, 500) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5891, 5, 2000) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (5891, 1, 550, 0, 0, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5891, 3, 500, 0, 0, 800) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5891, 5, 2000, 0, 0, 2350) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5891, 1, 5904, 1, 0, 0, False) /* Create Crystal Device for Contain_DestinationType */
      , (5891, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
      , (5891, 9, 0, 0, 0, 0.98, False) /* Create  for ContainTreasure_DestinationType */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (5891, 16, 4, 0, 0, 220, 220, 220, 220, 262, 22000, 612, 220, 0, 2, 0.3, 0.4, 0.25, 0.3, 0.4, 0.25, 0.6, 0.5, 0.25, 0.6, 0.5, 0.25) /* TORSO */
+     , (5891, 0, 4, 50, 0.75, 200, 200, 200, 200, 238, 20000, 556, 200, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */
+     , (5891, 10, 4, 0, 0, 220, 220, 220, 220, 262, 22000, 612, 220, 0, 2, 0.2, 0.4, 0.5, 0.2, 0.4, 0.5, 0, 0, 0, 0, 0, 0) /* FRONT_LEG */
+     , (5891, 12, 4, 50, 0.75, 200, 200, 200, 200, 238, 20000, 556, 200, 0, 3, 0, 0, 0.25, 0, 0, 0.25, 0, 0, 0, 0, 0, 0) /* FRONT_FOOT */
+     , (5891, 13, 4, 0, 0, 220, 220, 220, 220, 262, 22000, 612, 220, 0, 2, 0, 0, 0, 0, 0, 0, 0.3, 0.4, 0.5, 0.3, 0.4, 0.5) /* REAR_LEG */
+     , (5891, 15, 4, 50, 0.75, 200, 200, 200, 200, 238, 20000, 556, 200, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0.25) /* REAR_FOOT */
+     , (5891, 17, 4, 50, 0.75, 200, 200, 200, 200, 238, 20000, 556, 200, 0, 2, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0.1, 0) /* TAIL */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (5891, 94) /* ATTACK_NOTIFICATION_EVENT */
+     , (5891, 414) /* PLAYER_DEATH_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (5891, 33, 0, 3, 0, 300, 0, 445.883490832313) /* LIFE_MAGIC_SKILL */
+     , (5891, 34, 0, 3, 0, 300, 0, 445.883490832313) /* WAR_MAGIC_SKILL */
+     , (5891, 6, 0, 3, 0, 150, 0, 445.883490832313) /* MELEE_DEFENSE_SKILL */
+     , (5891, 31, 0, 3, 0, 300, 0, 445.883490832313) /* CREATURE_ENCHANTMENT_SKILL */
+     , (5891, 15, 0, 3, 0, 300, 0, 445.883490832313) /* MAGIC_DEFENSE_SKILL */
+     , (5891, 7, 0, 3, 0, 250, 0, 445.883490832313) /* MISSILE_DEFENSE_SKILL */
+     , (5891, 13, 0, 3, 0, 100, 0, 445.883490832313) /* UNARMED_COMBAT_SKILL */
+     , (5891, 20, 0, 3, 0, 100, 0, 445.883490832313) /* DECEPTION_SKILL */
+     , (5891, 24, 0, 2, 0, 10, 0, 445.883490832313) /* RUN_SKILL */;
 

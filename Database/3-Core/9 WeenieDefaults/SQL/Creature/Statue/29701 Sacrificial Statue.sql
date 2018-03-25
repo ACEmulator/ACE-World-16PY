@@ -73,16 +73,75 @@ VALUES (29701, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (29701, 19, False) /* ATTACKABLE_BOOL */
      , (29701, 52, True) /* AI_IMMOBILE_BOOL */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (29701, 1, 380) /* STRENGTH_ATTRIBUTE */
-     , (29701, 2, 340) /* ENDURANCE_ATTRIBUTE */
-     , (29701, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (29701, 3, 250) /* QUICKNESS_ATTRIBUTE */
-     , (29701, 5, 250) /* FOCUS_ATTRIBUTE */
-     , (29701, 6, 285) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (29701, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (29701, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (29701, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (29701, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (29701, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (29701, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (29701, 1, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29701, 3, 151) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29701, 5, 201) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (29701, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29701, 3, 151, 0, 0, 491) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29701, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (29701, 8, 4, 90, 0.75, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
+     , (29701, 0, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+     , (29701, 1, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
+     , (29701, 2, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
+     , (29701, 3, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
+     , (29701, 4, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
+     , (29701, 5, 4, 90, 0.75, 200, 158, 158, 160, 200, 200, 200, 200, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
+     , (29701, 6, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
+     , (29701, 7, 4, 0, 0, 200, 158, 158, 160, 200, 200, 200, 200, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (29701, 33, 0, 3, 0, 900, 0, 2165.42052447527) /* LIFE_MAGIC_SKILL */
+     , (29701, 34, 0, 3, 0, 900, 0, 2165.42052447527) /* WAR_MAGIC_SKILL */
+     , (29701, 22, 0, 3, 0, 200, 0, 2165.42052447527) /* JUMP_SKILL */
+     , (29701, 14, 0, 3, 0, 200, 0, 2165.42052447527) /* ARCANE_LORE_SKILL */
+     , (29701, 24, 0, 3, 0, 200, 0, 2165.42052447527) /* RUN_SKILL */
+     , (29701, 16, 0, 3, 0, 200, 0, 2165.42052447527) /* MANA_CONVERSION_SKILL */
+     , (29701, 31, 0, 3, 0, 900, 0, 2165.42052447527) /* CREATURE_ENCHANTMENT_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (29701, 1, 32, 0, NULL, NULL, NULL, 'not_enough_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29701, 1, 32, 1, NULL, NULL, NULL, 'too_much_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29701, 1, 32, 2, NULL, NULL, NULL, 'correct_ammount_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
+     , (29701, 1, 6, 0, 29607, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 1, 29594, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 2, 29595, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 3, 29596, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 4, 29597, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 5, 29598, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 6, 29599, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 7, 29600, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 8, 29601, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 9, 29602, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 10, 29603, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 11, 29604, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 6, 12, 29605, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29701, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (29701, 32, 0, 0, 10, 0, 1, NULL, 'That is not enough to sate my thirst!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (29701, 32, 1, 0, 10, 0, 1, NULL, 'That is more then I am able to consume.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (29701, 32, 2, 0, 10, 0, 1, NULL, 'Your sacrifice has been accepted, you may now proceed to the next room.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
+     , (29701, 32, 2, 1, 22, 0, 1, NULL, 'BloodPuzzleCompleted', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (29701, 6, 0, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 1, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 2, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 3, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 4, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 5, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 6, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 7, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 8, 0, 67, 0, 1, NULL, 'not_enough_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 9, 0, 67, 0, 1, NULL, 'correct_ammount_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 10, 0, 67, 0, 1, NULL, 'too_much_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 11, 0, 67, 0, 1, NULL, 'too_much_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 6, 12, 0, 67, 0, 1, NULL, 'too_much_blood', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
+     , (29701, 7, 0, 0, 10, 0, 1, NULL, 'Sacrifice to me 1 pint less blood then you would sacrifice to my brother on my left.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
 

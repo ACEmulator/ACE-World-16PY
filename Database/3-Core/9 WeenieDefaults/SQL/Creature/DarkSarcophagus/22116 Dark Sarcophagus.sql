@@ -84,16 +84,42 @@ VALUES (22116, 221, 2.1) /* ManaDepletionOther4_SpellID */
      , (22116, 1262, 2.15) /* DrainMana3_SpellID */
      , (22116, 174, 2.1) /* FesterOther4_SpellID */;
 
-INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`)
-VALUES (22116, 1, 10) /* STRENGTH_ATTRIBUTE */
-     , (22116, 2, 10) /* ENDURANCE_ATTRIBUTE */
-     , (22116, 4, 10) /* COORDINATION_ATTRIBUTE */
-     , (22116, 3, 10) /* QUICKNESS_ATTRIBUTE */
-     , (22116, 5, 100) /* FOCUS_ATTRIBUTE */
-     , (22116, 6, 100) /* SELF_ATTRIBUTE */;
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (22116, 1, 10, 0, 0) /* STRENGTH_ATTRIBUTE */
+     , (22116, 2, 10, 0, 0) /* ENDURANCE_ATTRIBUTE */
+     , (22116, 4, 10, 0, 0) /* COORDINATION_ATTRIBUTE */
+     , (22116, 3, 10, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (22116, 5, 100, 0, 0) /* FOCUS_ATTRIBUTE */
+     , (22116, 6, 100, 0, 0) /* SELF_ATTRIBUTE */;
 
-INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`)
-VALUES (22116, 1, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22116, 3, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22116, 5, 0) /* MAX_MANA_ATTRIBUTE_2ND */;
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (22116, 1, 20, 0, 0, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22116, 3, 200, 0, 0, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22116, 5, 0, 0, 0, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
+VALUES (22116, 16, 64, 3, 0.5, 20, 2000, 2000, 2000, 2000, 200, 2000, 2000, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
+     , (22116, 0, 8, 3, 0.5, 20, 2000, 2000, 2000, 2000, 200, 2000, 2000, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (22116, 17, 64, 3, 0.75, 20, 2000, 2000, 2000, 2000, 200, 2000, 2000, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
+     , (22116, 21, 64, 3, 0.5, 10, 1000, 1000, 1000, 1000, 100, 1000, 1000, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
+
+INSERT INTO `weenie_properties_event_filter` (`object_Id`, `event`)
+VALUES (22116, 94) /* ATTACK_NOTIFICATION_EVENT */;
+
+INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
+VALUES (22116, 33, 0, 3, 0, 400, 0, 1331.70152914525) /* LIFE_MAGIC_SKILL */
+     , (22116, 6, 0, 2, 0, 1, 0, 1331.70152914525) /* MELEE_DEFENSE_SKILL */
+     , (22116, 15, 0, 3, 0, 999, 0, 1331.70152914525) /* MAGIC_DEFENSE_SKILL */
+     , (22116, 7, 0, 3, 0, 999, 0, 1331.70152914525) /* MISSILE_DEFENSE_SKILL */;
+
+INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
+VALUES (22116, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
+     , (22116, 1, 15, 0, NULL, NULL, NULL, NULL, NULL, 0, 1.065353E+09) /* WoundedTaunt_EmoteCategory */
+     , (22116, 0.5, 20, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ReceiveCritical_EmoteCategory */;
+
+INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (22116, 3, 0, 0, 17, 0, 0, NULL, 'You feel something without voice scream in your mind in utter rage. It chills you to the bone as it fades away.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
+     , (22116, 3, 0, 1, 22, 0, 1, NULL, 'NULLIFIEDSARCOPHAGUS', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (22116, 15, 0, 0, 22, 0, 1, NULL, 'NULLIFIEDSARCOPHAGUS', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
+     , (22116, 20, 0, 0, 17, 0, 0, NULL, 'The black sarcophagus pulses with a black light.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */;
 
