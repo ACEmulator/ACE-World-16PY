@@ -105,10 +105,10 @@ VALUES (29757, 33, 0, 3, 0, 900, 0, 2172.38288805965) /* LIFE_MAGIC_SKILL */
      , (29757, 31, 0, 3, 0, 900, 0, 2172.38288805965) /* CREATURE_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (29757, 1, 1, 0, 29613, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (29757, 1, 1, 1, 29616, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (29757, 1, 1, 2, 29619, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (29757, 1, 1, 3, 29620, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (29757, 1, 1, 0, 29613 /* Axe */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (29757, 1, 1, 1, 29616 /* Mace */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (29757, 1, 1, 2, 29619 /* Spear */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (29757, 1, 1, 3, 29620 /* Sword */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (29757, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (29757, 1, 12, 0, NULL, NULL, NULL, 'MemoryGameDroppedSword', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (29757, 1, 13, 0, NULL, NULL, NULL, 'MemoryGameDroppedSword', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;

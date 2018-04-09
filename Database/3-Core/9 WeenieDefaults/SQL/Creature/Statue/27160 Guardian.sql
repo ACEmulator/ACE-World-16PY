@@ -101,25 +101,25 @@ VALUES (27160, 33, 0, 3, 0, 500, 0, 1873.60989303754) /* LIFE_MAGIC_SKILL */
      , (27160, 31, 0, 3, 0, 500, 0, 1873.60989303754) /* CREATURE_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27160, 1, 1, 0, 785, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 1, 8317, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 2, 15408, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 3, 15407, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 4, 15409, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 5, 15410, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 6, 5337, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 7, 5329, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 8, 9343, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 9, 21041, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 10, 2427, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 11, 26634, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 12, 26645, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 13, 15856, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 14, 15858, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 15, 15857, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 1, 16, 8552, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27160, 1, 6, 0, 769, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27160, 1, 6, 1, 8909, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (27160, 1, 1, 0, 785 /* Powdered Bloodstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 1, 8317 /* Powdered Bloodstone Pea */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 2, 15408 /* Bloodhunter Oil */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 3, 15407 /* Bloodhunter Infusion */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 4, 15409 /* Concentrated Bloodhunter Infusion */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 5, 15410 /* Concentrated Bloodhunter Oil */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 6, 5337 /* Bloodseeker Oil */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 7, 5329 /* Bloodseeker Infusion */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 8, 9343 /* Concentrated Bloodseeker Infusion */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 9, 21041 /* Salvaged Bloodstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 10, 2427 /* Bloodstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 11, 26634 /* Bloodstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 12, 26645 /* Heart of the Temple */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 13, 15856 /* Encrusted Bloodstone Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 14, 15858 /* Encrusted Bloodstone Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 15, 15857 /* Encrusted Bloodstone Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 1, 16, 8552 /* The Healer's Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27160, 1, 6, 0, 769 /* Dragonsblood */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27160, 1, 6, 1, 8909 /* Blood of the Hopeslayer */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (27160, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

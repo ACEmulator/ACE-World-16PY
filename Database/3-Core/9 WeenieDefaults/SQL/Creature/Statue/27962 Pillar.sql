@@ -92,10 +92,10 @@ VALUES (27962, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0
      , (27962, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27962, 1, 6, 0, 27925, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27962, 1, 6, 1, 27924, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27962, 1, 6, 2, 27930, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27962, 1, 6, 3, 27931, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (27962, 1, 6, 0, 27925 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27962, 1, 6, 1, 27924 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27962, 1, 6, 2, 27930 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27962, 1, 6, 3, 27931 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (27962, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (27962, 1, 12, 0, NULL, NULL, NULL, 'HizkRiEntrance', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (27962, 1, 12, 1, NULL, NULL, NULL, 'HizkRiEntranceFail', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

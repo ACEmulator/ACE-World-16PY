@@ -102,11 +102,11 @@ VALUES (28426, 1, 30, 0, NULL, NULL, NULL, 'StatueKivikLirGuardianTrial', NULL, 
      , (28426, 1, 22, 0, NULL, NULL, NULL, 'Arena60_Test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (28426, 1, 22, 1, NULL, NULL, NULL, 'Arena80_Test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (28426, 1, 22, 2, NULL, NULL, NULL, 'Arena100_Test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (28426, 1, 6, 0, 28344, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28426, 1, 6, 1, 28340, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28426, 1, 6, 2, 28342, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28426, 1, 6, 3, 28343, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28426, 1, 6, 4, 28341, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28426, 1, 6, 0, 28344 /* Bloodstone Emblem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28426, 1, 6, 1, 28340 /* Small Bloodstone Fragment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28426, 1, 6, 2, 28342 /* Small Bloodstone Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28426, 1, 6, 3, 28343 /* Sharp Bloodstone Fragment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28426, 1, 6, 4, 28341 /* Fused Bloodstone Chunk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (28426, 1, 23, 0, NULL, NULL, NULL, 'Arena60_Test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (28426, 1, 23, 1, NULL, NULL, NULL, 'Arena80_Test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (28426, 1, 23, 2, NULL, NULL, NULL, 'Arena100_Test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */

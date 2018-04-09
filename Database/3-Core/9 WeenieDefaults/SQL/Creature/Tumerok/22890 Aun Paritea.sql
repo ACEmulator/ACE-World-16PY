@@ -104,8 +104,8 @@ VALUES (22890, 6, 0, 2, 0, 1, 0, 1388.54011099463) /* MELEE_DEFENSE_SKILL */
      , (22890, 13, 0, 2, 0, 1, 0, 1388.54011099463) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22890, 1, 6, 0, 22889, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (22890, 1, 6, 1, 22888, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (22890, 1, 6, 0, 22889 /* Iolite Gem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (22890, 1, 6, 1, 22888 /* Chrysoberyl compound */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (22890, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (22890, 1, 12, 0, NULL, NULL, NULL, 'DELIVEREDCHRYSOBERYL', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (22890, 1, 13, 0, NULL, NULL, NULL, 'DELIVEREDCHRYSOBERYL', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;
@@ -123,7 +123,7 @@ VALUES (22890, 6, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
      , (22890, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (22890, 7, 0, 2, 10, 1, 1, NULL, 'Hello. Have you spoken to any of my colleagues in some of the towns?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (22890, 12, 0, 0, 10, 1, 1, NULL, 'At present, I have a sufficient quantity of that.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (22890, 12, 0, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22888, 1, 0, 1, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (22890, 12, 0, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22888 /* Chrysoberyl compound */, 1, 0, 1, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (22890, 13, 0, 0, 10, 1, 1, NULL, 'I am happy you have succeeded. Now, I am sure you have been informed as to how important Daichroic crystals are to Numhudira''s research. There are several ancient mines in which Daichroic crystals are yet stored. There is a portal on a hill northwest of the town of Holtburg.  From that portal you may begin this final pursuit. You will discover direct portals to the mine at its destination- you should enter the mine portal appropriate to your abilities. Bring the crystal to my fellow student back in Arwic.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (22890, 13, 0, 1, 22, 1, 1, NULL, 'DELIVEREDCHRYSOBERYL', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */;
 

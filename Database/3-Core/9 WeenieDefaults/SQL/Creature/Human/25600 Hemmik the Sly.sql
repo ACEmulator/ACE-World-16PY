@@ -110,7 +110,7 @@ VALUES (25600, 20, 0, 3, 0, 200, 0, 1644.03948417557) /* DECEPTION_SKILL */
      , (25600, 13, 0, 3, 0, 50, 0, 1644.03948417557) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25600, 1, 6, 0, 20630, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (25600, 1, 6, 0, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25600, 0.25, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25600, 0.5, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25600, 0.75, 7, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */

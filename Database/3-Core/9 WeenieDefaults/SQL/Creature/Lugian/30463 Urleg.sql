@@ -99,14 +99,14 @@ VALUES (30463, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30463, 1, 32, 0, NULL, NULL, NULL, 'RefuseRingsSet', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (30463, 1, 1, 0, 30459, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30463, 1, 1, 1, 30457, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30463, 1, 1, 2, 30458, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30463, 1, 1, 3, 30477, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30463, 1, 1, 4, 30476, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30463, 1, 1, 5, 30474, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 0, 30459 /* Ring of Shielding */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 1, 30457 /* Circlet of Shielding */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 2, 30458 /* Band of Shielding */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 3, 30477 /* Inner Sea Directive */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 4, 30476 /* Northern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30463, 1, 1, 5, 30474 /* Southern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (30463, 1, 22, 0, NULL, NULL, NULL, 'HighCheck', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (30463, 1, 6, 0, 30475, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30463, 1, 6, 0, 30475 /* Western Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (30463, 1, 23, 0, NULL, NULL, NULL, 'HighCheck', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (30463, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (30463, 1, 27, 0, NULL, NULL, NULL, 'EventCraftingForgesYaraq', NULL, NULL, NULL) /* EventSuccess_EmoteCategory */

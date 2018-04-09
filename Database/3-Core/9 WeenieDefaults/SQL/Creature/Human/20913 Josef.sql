@@ -118,13 +118,13 @@ VALUES (20913, 1, 13, 0, NULL, NULL, NULL, 'JosefKeyGiven', NULL, NULL, NULL) /*
      , (20913, 0.03, 5, 5, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (20913, 0.035, 5, 6, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (20913, 0.04, 5, 7, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (20913, 1, 6, 0, 8153, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 1, 7604, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 2, 11626, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 3, 10766, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 4, 9289, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 5, 9293, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20913, 1, 6, 6, 9294, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 0, 8153 /* Virindi Mask */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 1, 7604 /* Yellow Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 2, 11626 /* Quiddity Ingot */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 3, 10766 /* Shackles of Obedience */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 4, 9289 /* Directive Key */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 5, 9293 /* Master Key */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20913, 1, 6, 6, 9294 /* Singularity Key */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (20913, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (20913, 1, 12, 0, NULL, NULL, NULL, 'JosefKeyGiven', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 
@@ -134,7 +134,7 @@ VALUES (20913, 13, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NUL
      , (20913, 13, 0, 2, 10, 1, 1, NULL, 'Martine likes these the most because it means that you not only killed one of their most powerful members, but you have also found a way to steal some of their treasures.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20913, 13, 0, 3, 18, 1, 1, NULL, '%n manages a weak smile.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (20913, 13, 0, 4, 10, 1, 1, NULL, 'Take this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (20913, 13, 0, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20910, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (20913, 13, 0, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20910 /* Gaerlan's Key */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (20913, 13, 0, 6, 22, 0, 1, NULL, 'JosefKeyGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (20913, 13, 0, 7, 10, 1, 1, NULL, 'See I''ve made a life of finding information. I listened to everything and learned as much as I could. In his room Gaerlan kept a chest. In that chest must be something special. It was bright, like the rainbow and vibrant. Get what you can, he left it. Oh and getting there just takes a little leap of faith.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20913, 13, 0, 8, 10, 1, 1, NULL, 'Good luck, friend.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
@@ -211,9 +211,9 @@ VALUES (20913, 13, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NUL
      , (20913, 7, 0, 6, 10, 1, 1, NULL, 'He finished his little trick and suddenly a portal storm hit the center of the living area here. Portal energy was whipping off the walls and down the corridors. Next thing we know there''s a guy sitting in the middle of the room, naked as the day he was born and about eight, maybe nine feet tall.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20913, 7, 0, 7, 10, 1, 1, NULL, 'He was real confused. Had no clue where he had come from or where he was, just his name. Gaerlan. And he said over and over again...is Asheron among you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20913, 7, 0, 8, 10, 1, 1, NULL, 'Now here''s the rub. I know a lot more than that, but I need some help. So you help me...I help you. Take this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (20913, 7, 0, 9, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20961, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (20913, 7, 0, 9, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20961 /* Josef's Wish List */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (20913, 7, 0, 10, 10, 1, 1, NULL, 'Get me the things on that list and I''ll talk. It''s simple really.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20913, 12, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (20913, 12, 0, 1, 10, 1, 1, NULL, 'You should have already gotten your reward. Take this back and use it for yourself. You''ve already helped me out quite enough.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (20913, 12, 0, 2, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9294, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
+     , (20913, 12, 0, 2, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9294 /* Singularity Key */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
 

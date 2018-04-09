@@ -103,9 +103,9 @@ VALUES (29773, 0.33, 32, 0, NULL, NULL, NULL, 'shuffle_shells', NULL, NULL, NULL
      , (29773, 1, 32, 4, NULL, NULL, NULL, 'correct_answer', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29773, 1, 32, 5, NULL, NULL, NULL, 'incorrect_answer', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29773, 1, 32, 6, NULL, NULL, NULL, 'cleanup', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (29773, 1, 6, 0, 29650, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29773, 1, 6, 1, 29651, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29773, 1, 6, 2, 29652, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 6, 0, 29650 /* Left Shell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 6, 1, 29651 /* Center Shell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29773, 1, 6, 2, 29652 /* Right Shell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (29773, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (29773, 1, 12, 0, NULL, NULL, NULL, 'ShellGamePlaying', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (29773, 1, 12, 1, NULL, NULL, NULL, 'ShellGamePlaying@GiveShell1', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

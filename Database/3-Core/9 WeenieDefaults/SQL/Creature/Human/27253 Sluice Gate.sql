@@ -101,67 +101,67 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (27253, 0.92, 32, 0, NULL, NULL, NULL, 'Release', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (27253, 0.98, 32, 1, NULL, NULL, NULL, 'Release', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (27253, 1, 32, 2, NULL, NULL, NULL, 'Release', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (27253, 1, 6, 0, 23272, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 1, 23273, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 2, 23274, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 3, 23275, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 4, 23276, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 5, 23277, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 6, 23278, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 7, 23279, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 8, 23280, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 9, 23281, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 10, 23282, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 11, 23283, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 12, 23259, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 13, 23260, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 14, 23261, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 15, 23262, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 16, 23263, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 17, 23264, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 18, 23265, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 19, 23266, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 20, 23267, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 21, 23268, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 22, 23269, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 23, 23271, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 24, 23284, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 25, 23285, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 26, 23286, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 27, 23287, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 28, 23288, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 29, 23289, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 30, 23290, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 31, 23291, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 32, 23292, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 33, 23293, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 34, 23294, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 35, 23295, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 36, 23218, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 37, 23219, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 38, 23220, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 39, 23221, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 40, 23234, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 41, 23247, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 42, 23248, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 43, 23249, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 44, 23250, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 45, 23251, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 46, 23252, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 47, 23253, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 48, 23235, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 49, 23236, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 50, 23237, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 51, 23238, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 52, 23239, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 53, 23240, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 54, 23241, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 55, 23242, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 56, 23243, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 57, 23244, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 58, 23245, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 59, 23246, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27253, 1, 6, 60, 263, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 0, 23272 /* Aqua Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 1, 23273 /* Black Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 2, 23274 /* Blue Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 3, 23275 /* Brown Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 4, 23276 /* Yellow Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 5, 23277 /* Green Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 6, 23278 /* Orange Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 7, 23279 /* Pink Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 8, 23280 /* Purple Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 9, 23281 /* Red Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 10, 23282 /* Silver Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 11, 23283 /* White Minnow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 12, 23259 /* Aqua Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 13, 23260 /* Black Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 14, 23261 /* Blue Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 15, 23262 /* Brown Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 16, 23263 /* Gold Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 17, 23264 /* Green Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 18, 23265 /* Orange Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 19, 23266 /* Pink Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 20, 23267 /* Purple Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 21, 23268 /* Red Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 22, 23269 /* Silver Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 23, 23271 /* White Guppy */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 24, 23284 /* Aqua Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 25, 23285 /* Black Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 26, 23286 /* Blue Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 27, 23287 /* Brown Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 28, 23288 /* Gold Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 29, 23289 /* Green Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 30, 23290 /* Orange Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 31, 23291 /* Pink Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 32, 23292 /* Purple Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 33, 23293 /* Red Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 34, 23294 /* Silver Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 35, 23295 /* White Molly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 36, 23218 /* Aqua Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 37, 23219 /* Black Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 38, 23220 /* Blue Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 39, 23221 /* Brown Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 40, 23234 /* Green Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 41, 23247 /* Orange Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 42, 23248 /* Pink Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 43, 23249 /* Purple Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 44, 23250 /* Red Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 45, 23251 /* Silver Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 46, 23252 /* White Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 47, 23253 /* Yellow Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 48, 23235 /* Large Aqua Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 49, 23236 /* Large Black Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 50, 23237 /* Large Blue Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 51, 23238 /* Large Brown Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 52, 23239 /* Large Green Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 53, 23240 /* Large Orange Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 54, 23241 /* Large Pink Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 55, 23242 /* Large Purple Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 56, 23243 /* Large Red Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 57, 23244 /* Large Silver Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 58, 23245 /* Large White Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 59, 23246 /* Large Yellow Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27253, 1, 6, 60, 263 /* Fish */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (27253, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

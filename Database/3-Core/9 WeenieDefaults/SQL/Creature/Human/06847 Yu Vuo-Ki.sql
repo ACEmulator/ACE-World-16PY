@@ -104,12 +104,12 @@ VALUES (6847, 6, 0, 2, 0, 1, 0, 498.112130085115) /* MELEE_DEFENSE_SKILL */
      , (6847, 13, 0, 2, 0, 1, 0, 498.112130085115) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6847, 1, 1, 0, 6879, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (6847, 1, 1, 0, 6879 /* Dansha-Ki's Belongings */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (6847, 1, 13, 0, NULL, NULL, NULL, 'DryreachPrisonBreakQuest', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (6847, 0.08, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6847, 0.16, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6847, 0.26, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (6847, 1, 6, 0, 3695, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6847, 1, 6, 0, 3695 /* Gold Tumerok Insignia */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (6847, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (6847, 1, 12, 0, NULL, NULL, NULL, 'DryreachPrisonBreakQuest', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 

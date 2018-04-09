@@ -107,7 +107,7 @@ VALUES (22891, 6, 0, 2, 0, 1, 0, 1388.65445217481) /* MELEE_DEFENSE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (22891, 1, 22, 0, NULL, NULL, NULL, 'level_test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22891, 1, 6, 0, 23037, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (22891, 1, 6, 0, 23037 /* An unknown crystal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (22891, 1, 23, 0, NULL, NULL, NULL, 'level_test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (22891, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (22891, 1, 12, 0, NULL, NULL, NULL, 'TURNEDINVALARACRYSTAL', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

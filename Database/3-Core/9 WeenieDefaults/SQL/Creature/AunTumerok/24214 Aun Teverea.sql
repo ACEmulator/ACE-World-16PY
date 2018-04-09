@@ -103,80 +103,80 @@ VALUES (24214, 6, 0, 2, 0, 1, 0, 1532.98583843464) /* MELEE_DEFENSE_SKILL */
      , (24214, 13, 0, 2, 0, 1, 0, 1532.98583843464) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24214, 1, 1, 0, 24210, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 1, 24209, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 2, 21034, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 3, 21035, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 4, 21036, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 5, 21037, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 6, 21038, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 7, 21039, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 8, 21040, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 9, 21041, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 10, 21043, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 11, 21044, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 12, 21046, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 13, 21048, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 14, 21049, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 15, 21050, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 16, 21051, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 17, 21053, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 18, 21054, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 19, 21056, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 20, 21057, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 21, 21058, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 22, 21065, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 23, 21066, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 24, 21069, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 25, 21070, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 26, 21071, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 27, 21072, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 28, 21074, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 29, 21075, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 30, 21079, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 31, 21081, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 32, 21082, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 33, 21083, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 34, 21084, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 35, 21085, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 36, 21086, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 37, 21087, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 38, 21088, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 39, 21089, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 40, 20980, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 41, 20983, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 42, 20985, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 43, 21047, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 44, 21055, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 45, 21060, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 46, 21061, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 47, 21062, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 48, 21063, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 49, 21064, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 50, 21067, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 51, 21073, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 52, 21078, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 53, 21042, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 54, 20982, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 55, 21045, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 56, 20984, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 57, 20986, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 58, 21068, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 59, 20993, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 60, 21077, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 61, 20990, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 62, 21080, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 1, 63, 20989, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24214, 1, 6, 0, 24211, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 1, 20981, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 2, 21052, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 3, 20991, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 4, 21059, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 5, 20987, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 6, 20992, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 7, 21076, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 8, 20994, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24214, 1, 6, 9, 20995, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (24214, 1, 1, 0, 24210 /* Timberman Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 1, 24209 /* Miner Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 2, 21034 /* Salvaged Agate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 3, 21035 /* Salvaged Amber */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 4, 21036 /* Salvaged Amethyst */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 5, 21037 /* Salvaged Aquamarine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 6, 21038 /* Salvaged Azurite */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 7, 21039 /* Salvaged Black Garnet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 8, 21040 /* Salvaged Black Opal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 9, 21041 /* Salvaged Bloodstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 10, 21043 /* Salvaged Carnelian */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 11, 21044 /* Salvaged Citrine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 12, 21046 /* Salvaged Diamond */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 13, 21048 /* Salvaged Emerald */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 14, 21049 /* Salvaged Fire Opal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 15, 21050 /* Salvaged Green Garnet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 16, 21051 /* Salvaged Green Jade */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 17, 21053 /* Salvaged Hematite */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 18, 21054 /* Salvaged Imperial Topaz */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 19, 21056 /* Salvaged Jet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 20, 21057 /* Salvaged Lapis Lazuli */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 21, 21058 /* Salvaged Lavender Jade */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 22, 21065 /* Salvaged Opal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 23, 21066 /* Salvaged Peridot */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 24, 21069 /* Salvaged Red Garnet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 25, 21070 /* Salvaged Red Jade */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 26, 21071 /* Salvaged Rose Quartz */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 27, 21072 /* Salvaged Ruby */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 28, 21074 /* Salvaged Sapphire */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 29, 21075 /* Salvaged Serpentine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 30, 21079 /* Salvaged Sunstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 31, 21081 /* Salvaged Tiger Eye */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 32, 21082 /* Salvaged Tourmaline */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 33, 21083 /* Salvaged Turquoise */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 34, 21084 /* Salvaged White Jade */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 35, 21085 /* Salvaged White Quartz */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 36, 21086 /* Salvaged White Sapphire */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 37, 21087 /* Salvaged Yellow Garnet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 38, 21088 /* Salvaged Yellow Topaz */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 39, 21089 /* Salvaged Zircon */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 40, 20980 /* Salvaged Alabaster */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 41, 20983 /* Salvaged Ceramic */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 42, 20985 /* Salvaged Granite */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 43, 21047 /* Salvaged Ebony */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 44, 21055 /* Salvaged Ivory */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 45, 21060 /* Salvaged Malachite */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 46, 21061 /* Salvaged Marble */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 47, 21062 /* Salvaged Moonstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 48, 21063 /* Salvaged Obsidian */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 49, 21064 /* Salvaged Onyx */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 50, 21067 /* Salvaged Porcelain */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 51, 21073 /* Salvaged Sandstone */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 52, 21078 /* Salvaged Smoky Quartz */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 53, 21042 /* Salvaged Brass */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 54, 20982 /* Salvaged Bronze */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 55, 21045 /* Salvaged Copper */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 56, 20984 /* Salvaged Gold */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 57, 20986 /* Salvaged Iron */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 58, 21068 /* Salvaged Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 59, 20993 /* Salvaged Steel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 60, 21077 /* Salvaged Silver */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 61, 20990 /* Salvaged Pine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 62, 21080 /* Salvaged Teak */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 1, 63, 20989 /* Salvaged Oak */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24214, 1, 6, 0, 24211 /* Trapper Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 1, 20981 /* Salvaged Armoredillo Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 2, 21052 /* Salvaged Gromnie Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 3, 20991 /* Salvaged Reedshark Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 4, 21059 /* Salvaged Leather */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 5, 20987 /* Salvaged Linen */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 6, 20992 /* Salvaged Satin */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 7, 21076 /* Salvaged Silk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 8, 20994 /* Salvaged Velvet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24214, 1, 6, 9, 20995 /* Salvaged Wool */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24214, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (24214, 1, 12, 0, NULL, NULL, NULL, 'StrongholdTumerokBuilder@FirstTime', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (24214, 1, 12, 1, NULL, NULL, NULL, 'TalkedToBuilder', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -377,12 +377,12 @@ VALUES (24214, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
      , (24214, 12, 12, 0, 10, 0, 1, NULL, 'Friend, your hard work has paid off.  You have given the most that can be donated by any one member.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24214, 12, 12, 1, 10, 1.5, 1, NULL, 'You will be welcomed in Candeth Keep as a co-founder.  Your donations of cloth and animal hide will not go unrewarded.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24214, 12, 12, 2, 10, 3, 1, NULL, 'If you would like to be known as a skilled trapper, return this token to me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24214, 12, 12, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24211, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24214, 12, 12, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24211 /* Trapper Title Token */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24214, 12, 12, 4, 10, 0.5, 1, NULL, 'Take this animal for your head. It keeps you warm on cold nights of hunting.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24214, 12, 12, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24262, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24214, 12, 12, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24262 /* Trapper's Hat */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24214, 12, 13, 0, 22, 0, 1, NULL, 'StrongholdBuilderComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (24214, 12, 13, 1, 10, 0, 1, NULL, 'You have given one-half the resources of which the alliance is seeking from each member.  It is people like you who will be considered the true founders of Candeth Keep.  The alliance has allocated a symbolic gift for all of those who show dedication to the project.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24214, 12, 13, 2, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24208, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24214, 12, 13, 2, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24208 /* Candeth Keep Stamp */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24214, 13, 0, 0, 21, 0, 1, NULL, 'TalkedToBuilder', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
      , (24214, 13, 1, 0, 10, 0, 1, NULL, 'Hello Isparian, my name is Aun Teverea.  All Tumeroks in the xuta of Aun Hareltah have been invited to join the new alliance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24214, 13, 1, 1, 10, 3, 1, NULL, 'We are assigned to this outpost near Wai Jhou, to collect building materials for the continued upkeep of Candeth Keep, the South Direlands stronghold. I will accept all types of cloth and hide that you can afford to donate to the cause.  Large or small, your donations will be treated equally.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */

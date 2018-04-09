@@ -107,14 +107,14 @@ VALUES (24153, 6, 0, 2, 0, 1, 0, 1525.78507569482) /* MELEE_DEFENSE_SKILL */
      , (24153, 13, 0, 2, 0, 1, 0, 1525.78507569482) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24153, 1, 1, 0, 24173, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24153, 1, 1, 1, 24183, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24153, 1, 1, 2, 24174, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (24153, 1, 1, 0, 24173 /* Jaleh's Leggings */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24153, 1, 1, 1, 24183 /* Jaleh's Necklace */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24153, 1, 1, 2, 24174 /* Jaleh's Chain Shirt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (24153, 0.005, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (24153, 1, 6, 0, 24177, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24153, 1, 6, 1, 24176, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24153, 1, 6, 2, 24180, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24153, 1, 6, 3, 24178, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24153, 1, 6, 0, 24177 /* Jaleh's Silk Shirt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24153, 1, 6, 1, 24176 /* Jaleh's Wedding Ring */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24153, 1, 6, 2, 24180 /* Jaleh's Turban */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24153, 1, 6, 3, 24178 /* Jaleh's Slippers */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24153, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -141,7 +141,7 @@ VALUES (24153, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
      , (24153, 6, 0, 1, 10, 0, 1, NULL, 'This was his favorite shirt. He had it made by To-ping Ra. Though To-ping Ra allowed an apprentice to create it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24153, 6, 0, 2, 10, 2, 1, NULL, 'Jaleh was more than impressed, he was astounded but true to form he berated the apprentice and had the cost of the shirt lowered.I felt bad for the apprentice but there was little that I could do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24153, 6, 0, 3, 10, 2, 1, NULL, 'Do me one final favor, please.Take this note to the apprentice so that they might know the truth.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24153, 6, 0, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24194, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24153, 6, 0, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24194 /* Letter to Ro Bi-Jor */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24153, 6, 0, 5, 10, 1, 1, NULL, 'I am very thankful for what you have done.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24153, 6, 0, 6, 2, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 500000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
      , (24153, 6, 1, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */

@@ -100,10 +100,10 @@ VALUES (27963, 1, 22, 0, NULL, NULL, NULL, 'RightLevel', NULL, NULL, NULL) /* Te
      , (27963, 1, 22, 1, NULL, NULL, NULL, 'RightLevel@01', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (27963, 1, 22, 2, NULL, NULL, NULL, 'RightLevel@02', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (27963, 1, 22, 3, NULL, NULL, NULL, 'RightLevel@03', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (27963, 1, 6, 0, 27926, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27963, 1, 6, 1, 27927, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27963, 1, 6, 2, 27928, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27963, 1, 6, 3, 27929, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27963, 1, 6, 0, 27926 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27963, 1, 6, 1, 27927 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27963, 1, 6, 2, 27928 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27963, 1, 6, 3, 27929 /* A Carved Plate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (27963, 1, 23, 0, NULL, NULL, NULL, 'RightLevel', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (27963, 1, 23, 1, NULL, NULL, NULL, 'RightLevel@01', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (27963, 1, 23, 2, NULL, NULL, NULL, 'RightLevel@02', NULL, NULL, NULL) /* TestFailure_EmoteCategory */

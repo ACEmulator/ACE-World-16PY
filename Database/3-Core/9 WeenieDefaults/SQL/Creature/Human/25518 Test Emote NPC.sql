@@ -106,11 +106,11 @@ VALUES (25518, 6, 0, 2, 0, 1, 0, 1635.02755423268) /* MELEE_DEFENSE_SKILL */
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25518, 1, 30, 0, NULL, NULL, NULL, 'EmoteTestSwordQuest@InqFellowQuestTest', NULL, NULL, NULL) /* QuestNoFellow_EmoteCategory */
      , (25518, 1, 30, 1, NULL, NULL, NULL, 'EmoteTestSwordQuest@UpdateFellowQuestTest', NULL, NULL, NULL) /* QuestNoFellow_EmoteCategory */
-     , (25518, 1, 6, 0, 23856, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25518, 1, 6, 1, 23849, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25518, 1, 6, 2, 23850, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25518, 1, 6, 3, 23854, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25518, 1, 6, 4, 23853, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25518, 1, 6, 0, 23856 /* Hardened Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25518, 1, 6, 1, 23849 /* Scored Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25518, 1, 6, 2, 23850 /* Brilliant Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25518, 1, 6, 3, 23854 /* Chilled Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25518, 1, 6, 4, 23853 /* Seared Shard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25518, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25518, 1, 12, 0, NULL, NULL, NULL, 'EmoteTestSwordQuest@InqFellowQuestTest', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (25518, 1, 12, 1, NULL, NULL, NULL, 'EmoteTestSwordQuest@UpdateFellowQuestTest', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -131,11 +131,11 @@ VALUES (25518, 30, 0, 0, 8, 0, 0, NULL, 'QuestNoFellow - You are not in a fellow
      , (25518, 6, 4, 0, 8, 0, 0, NULL, 'I am now locking your fellowship', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
      , (25518, 6, 4, 1, 66, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LockFellow_EmoteType */
      , (25518, 7, 0, 0, 8, 0, 0, NULL, 'I am Starting Fellowship Emote Tests, you (personally) will receive supplies for the rest of this test', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (25518, 7, 0, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23854, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (25518, 7, 0, 2, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23853, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (25518, 7, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23850, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (25518, 7, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23849, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (25518, 7, 0, 5, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23856, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25518, 7, 0, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23854 /* Chilled Shard */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25518, 7, 0, 2, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23853 /* Seared Shard */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25518, 7, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23850 /* Brilliant Shard */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25518, 7, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23849 /* Scored Shard */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25518, 7, 0, 5, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23856 /* Hardened Shard */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25518, 7, 0, 6, 65, 0, 1, NULL, 'This is a fellowship broadcast', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* FellowBroadcast_EmoteType */
      , (25518, 7, 0, 7, 64, 0, 1, NULL, 'This is a fellowship tell', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TellFellow_EmoteType */
      , (25518, 7, 0, 8, 8, 0, 0, NULL, 'Yellow shard to have EmoteTestSwordQuest stamped on your fellowship', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */

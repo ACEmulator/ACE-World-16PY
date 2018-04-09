@@ -112,9 +112,9 @@ VALUES (29774, 1, 32, 0, NULL, NULL, NULL, 'give_white_marble', NULL, NULL, NULL
      , (29774, 0.5, 32, 2, NULL, NULL, NULL, 'give_mixed_marble', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29774, 1, 32, 3, NULL, NULL, NULL, 'give_mixed_marble', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29774, 1, 32, 4, NULL, NULL, NULL, 'check_for_completed_puzzle', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (29774, 1, 6, 0, 29653, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29774, 1, 6, 1, 29655, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29774, 1, 6, 2, 29654, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29774, 1, 6, 0, 29653 /* Black Marbles */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29774, 1, 6, 1, 29655 /* White Marbles */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29774, 1, 6, 2, 29654 /* Mixed Marbles */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (29774, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (29774, 1, 12, 0, NULL, NULL, NULL, 'BagPuzzleCanGetHintMarble', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (29774, 1, 12, 1, NULL, NULL, NULL, 'BagPuzzlePickBagVariant1@hintmarble', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

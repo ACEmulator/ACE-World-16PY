@@ -106,12 +106,12 @@ VALUES (24160, 6, 0, 2, 0, 1, 0, 1526.61682866213) /* MELEE_DEFENSE_SKILL */
      , (24160, 13, 0, 2, 0, 1, 0, 1526.61682866213) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24160, 1, 1, 0, 24141, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24160, 1, 1, 1, 24142, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24160, 1, 1, 2, 24143, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (24160, 1, 6, 0, 24144, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24160, 1, 6, 1, 24194, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24160, 1, 6, 2, 24137, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (24160, 1, 1, 0, 24141 /* Sweet Smelling Bark */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24160, 1, 1, 1, 24142 /* Half Empty Cider */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24160, 1, 1, 2, 24143 /* Empty Mug */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (24160, 1, 6, 0, 24144 /* Strands of Silk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24160, 1, 6, 1, 24194 /* Letter to Ro Bi-Jor */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24160, 1, 6, 2, 24137 /* Dusty Sollerets */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24160, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

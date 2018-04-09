@@ -111,31 +111,31 @@ VALUES (25493, 1, 0, 3, 0, 1, 0, 1632.98713400732) /* AXE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (25493, 1, 32, 0, NULL, NULL, NULL, 'Bribe', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (25493, 1, 1, 0, 25468, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25493, 1, 1, 1, 25482, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25493, 1, 1, 2, 25504, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25493, 1, 1, 3, 25520, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25493, 1, 1, 0, 25468 /* Royal Olthoi Jelly */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25493, 1, 1, 1, 25482 /* Smelly Olthoi Gland */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25493, 1, 1, 2, 25504 /* Letter to General Garsh */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25493, 1, 1, 3, 25520 /* Travel Log */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (25493, 1, 13, 0, NULL, NULL, NULL, 'PendantRenegade', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (25493, 0.01, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25493, 0.02, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25493, 0.03, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25493, 0.035, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25493, 0.085, 5, 4, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (25493, 1, 6, 0, 25498, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 1, 273, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 2, 365, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 3, 2621, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 4, 2622, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 5, 2623, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 6, 2624, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 7, 2625, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 8, 2626, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 9, 2627, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 10, 20628, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 11, 20629, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 12, 20630, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 13, 22614, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25493, 1, 6, 14, 24518, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 0, 25498 /* Olthoi Chitin */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 1, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 2, 365 /* Parchment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 3, 2621 /* Trade Note (100) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 4, 2622 /* Trade Note (500) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 5, 2623 /* Trade Note (1,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 6, 2624 /* Trade Note (5,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 7, 2625 /* Trade Note (10,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 8, 2626 /* Trade Note (50,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 9, 2627 /* Trade Note (100,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 10, 20628 /* Trade Note (150,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 11, 20629 /* Trade Note (200,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 12, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 13, 22614 /* Treasure */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25493, 1, 6, 14, 24518 /* Treasure */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25493, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25493, 1, 12, 0, NULL, NULL, NULL, 'PendantRenegade', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 
@@ -174,8 +174,8 @@ VALUES (25493, 32, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NUL
      , (25493, 6, 0, 1, 18, 0, 1, NULL, '%mn mashes his fists in celebration.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (25493, 6, 0, 2, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (25493, 6, 0, 3, 10, 2, 1, NULL, 'Well done! With this as proof of my defeating the Olthoi below I will garner much respect in our army. You should be rewarded for your assistance.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (25493, 6, 0, 4, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25477, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (25493, 6, 0, 5, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25501, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25493, 6, 0, 4, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25477 /* Renegade Pendant */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25493, 6, 0, 5, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25501 /* Renegade Mace */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25493, 6, 0, 6, 49, 0.5, 1, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0.05, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardLevelProportionalXP_EmoteType */
      , (25493, 6, 0, 7, 10, 1, 1, NULL, 'There, and since I''m feeling so magnanimous I will also grant you access to the garrison whenever I see you wearing your pendant. It''s the only way I will recognize you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (25493, 6, 0, 8, 10, 0, 1, NULL, 'Olthoi have a way of coming right back unless you kill them all so you may want to return to insure they have been exterminated.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */

@@ -122,13 +122,13 @@ VALUES (7403, 32, 0, 2, 0, 200, 0, 529.384197708262) /* ITEM_ENCHANTMENT_SKILL *
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (7403, 0.075, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (7403, 1, 6, 0, 2627, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 1, 2626, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 2, 2625, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 3, 2624, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 4, 2623, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 5, 2622, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (7403, 1, 6, 6, 2621, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 0, 2627 /* Trade Note (100,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 1, 2626 /* Trade Note (50,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 2, 2625 /* Trade Note (10,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 3, 2624 /* Trade Note (5,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 4, 2623 /* Trade Note (1,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 5, 2622 /* Trade Note (500) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (7403, 1, 6, 6, 2621 /* Trade Note (100) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (7403, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

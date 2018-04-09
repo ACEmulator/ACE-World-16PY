@@ -111,8 +111,8 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (20917, 1, 13, 0, NULL, NULL, NULL, 'MartinAidComplete', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (20917, 1, 13, 1, NULL, NULL, NULL, 'MartinAidComplete@01', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (20917, 1, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (20917, 1, 6, 0, 20996, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (20917, 1, 6, 1, 20960, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20917, 1, 6, 0, 20996 /* Tusker Husk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (20917, 1, 6, 1, 20960 /* Letter for Melanay */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (20917, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (20917, 1, 12, 0, NULL, NULL, NULL, 'MartinAidComplete', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (20917, 1, 12, 1, NULL, NULL, NULL, 'MartinAidComplete@01', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
@@ -133,7 +133,7 @@ VALUES (20917, 13, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL
      , (20917, 13, 1, 2, 18, 1, 1, NULL, '%n sobs.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (20917, 13, 1, 3, 10, 1, 1, NULL, 'How I loved her. I miss her so. But look what I have done, what I have become. So many people dead by my hands, and the true savior of this world...dead.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20917, 13, 1, 4, 10, 3, 1, NULL, 'What have I done? How could I have been duped in this way? Read this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (20917, 13, 1, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20958, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (20917, 13, 1, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20958 /* Untranslated Yalaini Reports */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (20917, 13, 1, 6, 10, 1, 1, NULL, 'You may need to have it translated if you cannot understand Yalaini writing. But it is important you know.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20917, 13, 1, 7, 10, 3, 1, NULL, 'So much supposition now cleared. I see the truth for the first time.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (20917, 13, 1, 8, 18, 1, 1, NULL, 'A tear falls from beneath Martine''s mask and lands upon the letter.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */

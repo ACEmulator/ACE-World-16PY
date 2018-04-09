@@ -109,7 +109,7 @@ VALUES (5763, 32, 0, 2, 0, 200, 0, 439.228034867268) /* ITEM_ENCHANTMENT_SKILL *
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (5763, 0.08, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (5763, 0.18, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (5763, 1, 6, 0, 5655, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5763, 1, 6, 0, 5655 /* Black Gem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (5763, 0.1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (5763, 1, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 

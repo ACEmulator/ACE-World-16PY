@@ -115,34 +115,34 @@ VALUES (30906, 33, 0, 3, 0, 120, 0, 2317.02035087205) /* LIFE_MAGIC_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30906, 1, 32, 0, NULL, NULL, NULL, 'RefuseSinglePage', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (30906, 1, 1, 0, 30398, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 1, 30917, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 2, 30907, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 3, 30908, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 4, 30909, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 5, 30910, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 6, 30911, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 7, 30912, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 8, 30913, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 9, 30914, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 10, 30915, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 11, 30929, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 12, 30930, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 13, 30921, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 14, 30922, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 15, 30923, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 16, 30924, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 17, 30925, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 18, 30926, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30906, 1, 1, 19, 30927, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 0, 30398 /* Shadow Pass */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 1, 30917 /* Halaetan Magic Page 1 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 2, 30907 /* Halaetan Magic Page 2 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 3, 30908 /* Halaetan Magic Page 3 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 4, 30909 /* Halaetan Magic Page 4 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 5, 30910 /* Halaetan Magic Page 5 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 6, 30911 /* Halaetan Magic Page 6 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 7, 30912 /* Halaetan Magic Page 7 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 8, 30913 /* Halaetan Magic Page 8 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 9, 30914 /* Halaetan Magic Page 9 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 10, 30915 /* Halaetan Magic Page 10 */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 11, 30929 /* A Nearly Empty Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 12, 30930 /* A Nearly Empty Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 13, 30921 /* A Nearly Empty Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 14, 30922 /* A Somewhat Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 15, 30923 /* A Somewhat Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 16, 30924 /* A Somewhat Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 17, 30925 /* A Nearly Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 18, 30926 /* A Nearly Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30906, 1, 1, 19, 30927 /* A Nearly Complete Book */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (30906, 1, 22, 0, NULL, NULL, NULL, 'Level126Check@CARLOLOREVIAMONTIANMAGES', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (30906, 1, 22, 1, NULL, NULL, NULL, 'Level126Check@CARLOREWARDOLTHOIHEAD', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (30906, 1, 22, 2, NULL, NULL, NULL, 'Level126Check@CARLOREWARDEATERTOOTH', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (30906, 1, 22, 3, NULL, NULL, NULL, 'Level126Check@CARLOREWARDBROKENPONIARD', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (30906, 1, 6, 0, 30916, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30906, 1, 6, 1, 30920, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30906, 1, 6, 2, 30918, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30906, 1, 6, 3, 30919, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30906, 1, 6, 0, 30916 /* Halaetan Magic */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30906, 1, 6, 1, 30920 /* Severed Olthoi Head */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30906, 1, 6, 2, 30918 /* Bloody Tooth */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30906, 1, 6, 3, 30919 /* Broken Poniard */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (30906, 1, 23, 0, NULL, NULL, NULL, 'Level126Check@CARLOLOREVIAMONTIANMAGES', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (30906, 1, 23, 1, NULL, NULL, NULL, 'Level126Check@CARLOREWARDOLTHOIHEAD', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (30906, 1, 23, 2, NULL, NULL, NULL, 'Level126Check@CARLOREWARDEATERTOOTH', NULL, NULL, NULL) /* TestFailure_EmoteCategory */

@@ -105,9 +105,9 @@ VALUES (27689, 6, 0, 2, 0, 1, 0, 1935.79904899452) /* MELEE_DEFENSE_SKILL */
      , (27689, 13, 0, 2, 0, 1, 0, 1935.79904899452) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27689, 1, 1, 0, 28487, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27689, 1, 1, 1, 28488, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (27689, 1, 1, 2, 28499, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (27689, 1, 1, 0, 28487 /* Morgluuk's Head */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27689, 1, 1, 1, 28488 /* Morgluuk's Flesh */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (27689, 1, 1, 2, 28499 /* Toberik's Report  */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (27689, 1, 13, 0, NULL, NULL, NULL, 'RoadsUndercoverAntius', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (27689, 0.002, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (27689, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */

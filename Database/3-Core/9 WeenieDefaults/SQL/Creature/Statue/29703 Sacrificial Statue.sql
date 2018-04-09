@@ -110,19 +110,19 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (29703, 1, 32, 0, NULL, NULL, NULL, 'not_enough_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29703, 1, 32, 1, NULL, NULL, NULL, 'too_much_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29703, 1, 32, 2, NULL, NULL, NULL, 'correct_ammount_blood', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (29703, 1, 6, 0, 29607, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 1, 29594, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 2, 29595, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 3, 29596, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 4, 29597, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 5, 29598, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 6, 29599, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 7, 29600, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 8, 29601, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 9, 29602, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 10, 29603, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 11, 29604, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29703, 1, 6, 12, 29605, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 0, 29607 /* Empty Water Skin */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 1, 29594 /* Water Skin (1 pint) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 2, 29595 /* Water Skin (2 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 3, 29596 /* Water Skin (3 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 4, 29597 /* Water Skin (4 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 5, 29598 /* Water Skin (5 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 6, 29599 /* Water Skin (6 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 7, 29600 /* Water Skin (7 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 8, 29601 /* Water Skin (8 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 9, 29602 /* Water Skin (9 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 10, 29603 /* Water Skin (10 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 11, 29604 /* Water Skin (11 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29703, 1, 6, 12, 29605 /* Water Skin (12 pints) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (29703, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -107,7 +107,7 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (25577, 1, 32, 0, NULL, NULL, NULL, 'turnAllEventsOn', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (25577, 1, 32, 1, NULL, NULL, NULL, 'turnEventsOff', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (25577, 1, 32, 2, NULL, NULL, NULL, 'doneWithTests', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (25577, 1, 6, 0, 1643, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25577, 1, 6, 0, 1643 /* Blue Taper */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25577, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25577, 1, 27, 0, NULL, NULL, NULL, 'EventDefaultOFF@def', NULL, NULL, NULL) /* EventSuccess_EmoteCategory */
      , (25577, 1, 27, 1, NULL, NULL, NULL, 'EventDefaultON@def', NULL, NULL, NULL) /* EventSuccess_EmoteCategory */
@@ -193,7 +193,7 @@ VALUES (25577, 32, 0, 0, 10, 0, 1, NULL, 'Starting all TEST events, then wait 1 
      , (25577, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (25577, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (25577, 7, 0, 2, 10, 0, 1, NULL, 'Give me a blue taper to start the event tests.  The tests take approximatly 5 minutes.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (25577, 7, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1643, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25577, 7, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1643 /* Blue Taper */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25577, 7, 0, 4, 4, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0) /* MoveHome_EmoteType */
      , (25577, 27, 0, 0, 18, 0, 1, NULL, '(EventSuccess) Event status: FAILURE @ EventDefaultOFF@def', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (25577, 27, 0, 1, 51, 1, 1, NULL, 'EventDefaultON@def', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqEvent_EmoteType */
