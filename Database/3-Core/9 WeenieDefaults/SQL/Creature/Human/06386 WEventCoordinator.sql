@@ -129,31 +129,31 @@ VALUES (6386, 0.25, 32, 0, NULL, NULL, NULL, 'give_something', NULL, NULL, NULL)
      , (6386, 1, 22, 12, NULL, NULL, NULL, 'rawxbow_test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (6386, 1, 22, 13, NULL, NULL, NULL, 'fake_bool', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (6386, 1, 22, 14, NULL, NULL, NULL, 'prop_xp_test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (6386, 1, 6, 0, 1645, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 1, 365, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 2, 3703, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 3, 3701, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 4, 3699, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 5, 3700, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 6, 3702, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 7, 8426, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 8, 74, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 9, 75, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 10, 258, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 11, 23200, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 12, 22629, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 13, 22625, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 14, 22634, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 15, 22627, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 16, 77, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 17, 3687, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 18, 24847, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 19, 24840, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 20, 9539, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 21, 24845, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 22, 1650, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 23, 1643, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6386, 1, 6, 24, 3669, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 0, 1645 /* Green Taper */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 1, 365 /* Parchment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 2, 3703 /* Red Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 3, 3701 /* Green Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 4, 3699 /* Blue Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 5, 3700 /* Gold Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 6, 3702 /* Mire Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 7, 8426 /* Jungle Phyntos Wasp Wing */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 8, 74 /* Heaume */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 9, 75 /* Helmet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 10, 258 /* Apple */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 11, 23200 /* Queenslayer Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 12, 22629 /* Tusker Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 13, 22625 /* Tusker Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 14, 22634 /* Tusker Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 15, 22627 /* Tusker Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 16, 77 /* Kabuton */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 17, 3687 /* Skeleton's Skull */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 18, 24847 /* Reaper Reedshark Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 19, 24840 /* Peerless Drudge Charm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 20, 9539 /* Green Marshmallow Eep */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 21, 24845 /* Merciless Monouga Idol */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 22, 1650 /* Red Taper */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 23, 1643 /* Blue Taper */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6386, 1, 6, 24, 3669 /* Drudge Charm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (6386, 1, 23, 0, NULL, NULL, NULL, 'level_test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (6386, 1, 23, 1, NULL, NULL, NULL, 'attackable_test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (6386, 1, 23, 2, NULL, NULL, NULL, 'pk_test2', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
@@ -227,13 +227,13 @@ VALUES (6386, 0.25, 32, 0, NULL, NULL, NULL, 'give_something', NULL, NULL, NULL)
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6386, 32, 0, 0, 8, 0, 0, NULL, 'Have a Reapper Reedshark Hide', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (6386, 32, 0, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24847, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 32, 0, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24847 /* Reaper Reedshark Hide */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 32, 1, 0, 8, 0, 0, NULL, 'Have a Peerless Drudge Charm', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (6386, 32, 1, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24840, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 32, 1, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24840 /* Peerless Drudge Charm */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 32, 2, 0, 8, 0, 0, NULL, 'Have a Green Eep', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (6386, 32, 2, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9539, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 32, 2, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9539 /* Green Marshmallow Eep */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 32, 3, 0, 8, 0, 0, NULL, 'Have a Merciless Monouga Idol (Danger, returning to NPC will produce infinite loop)', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (6386, 32, 3, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24845, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 32, 3, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24845 /* Merciless Monouga Idol */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 32, 4, 0, 5, 1, 1, 301990043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6386, 32, 4, 1, 67, 1, 1, NULL, 'give_something', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
      , (6386, 32, 5, 0, 5, 1, 1, 318767239, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
@@ -332,7 +332,7 @@ VALUES (6386, 32, 0, 0, 8, 0, 0, NULL, 'Have a Reapper Reedshark Hide', NULL, NU
      , (6386, 22, 14, 0, 67, 0, 1, NULL, 'start_xp_test', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
      , (6386, 6, 0, 0, 10, 0, 1, NULL, 'Thanks for the green taper', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6386, 6, 0, 1, 58, 0, 1, NULL, 'EmoteTestSwordQuest@subtest', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqFellowQuest_EmoteType */
-     , (6386, 6, 1, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 365, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 6, 1, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 365 /* Parchment */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 6, 1, 1, 8, 0, 0, NULL, 'awarding 1000 xp via the AwardXp emote!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
      , (6386, 6, 1, 2, 2, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
      , (6386, 6, 1, 3, 8, 0, 0, NULL, 'Attempting to do UpdateQuestEmote...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
@@ -453,7 +453,7 @@ VALUES (6386, 32, 0, 0, 8, 0, 0, NULL, 'Have a Reapper Reedshark Hide', NULL, NU
      , (6386, 23, 12, 1, 10, 0, 1, NULL, 'Good thing you didn''t give me any apples, I hate those.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6386, 23, 13, 0, 10, 0, 1, NULL, 'Test Failure @  TestFailure fake_bool', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6386, 23, 14, 0, 10, 0, 1, NULL, 'You must not have any experience to start this test, please create a new character.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (6386, 23, 14, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 3669, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6386, 23, 14, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 3669 /* Drudge Charm */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6386, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6386, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (6386, 7, 0, 2, 5, 1, 1, 318767235, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */

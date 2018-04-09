@@ -103,22 +103,22 @@ VALUES (27306, 6, 0, 2, 0, 1, 0, 1891.30431383474) /* MELEE_DEFENSE_SKILL */
      , (27306, 13, 0, 2, 0, 1, 0, 1891.30431383474) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27306, 1, 6, 0, 6624, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 1, 6329, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 2, 9175, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 3, 9172, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 4, 9511, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 5, 9179, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 6, 9176, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 7, 9180, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 8, 9174, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 9, 9171, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 10, 9170, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 11, 9177, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 12, 9169, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 13, 9173, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 14, 9178, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27306, 1, 6, 15, 25534, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (27306, 1, 6, 0, 6624 /* Shadow Fragment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 1, 6329 /* Pyreal Bar */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 2, 9175 /* Pack Cow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 3, 9172 /* Pack Drudge */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 4, 9511 /* Golden Gromnie */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 5, 9179 /* Pack Golem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 6, 9176 /* Pack Grievver */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 7, 9180 /* Pack Idol */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 8, 9174 /* Pack Lugian */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 9, 9171 /* Pack Mosswart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 10, 9170 /* Velveteen Olthoi */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 11, 9177 /* Pack Scarecrow */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 12, 9169 /* Plush Tusker */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 13, 9173 /* Pack Ursuin */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 14, 9178 /* Pack Virindi */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (27306, 1, 6, 15, 25534 /* Tremendous Monouga Pack Doll */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (27306, 0.33, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (27306, 0.66, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (27306, 1, 7, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;

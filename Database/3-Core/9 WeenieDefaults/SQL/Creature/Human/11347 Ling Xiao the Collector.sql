@@ -106,39 +106,39 @@ VALUES (11347, 6, 0, 2, 0, 1, 0, 731.864014134586) /* MELEE_DEFENSE_SKILL */
      , (11347, 13, 0, 2, 0, 1, 0, 731.864014134586) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11347, 1, 1, 0, 11340, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 1, 11367, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 2, 11351, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 3, 11339, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 4, 11366, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 5, 11352, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 6, 12235, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 7, 11370, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 8, 11350, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 9, 11355, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 10, 11368, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 11, 11341, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 12, 11353, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 13, 3679, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 14, 11363, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 15, 11361, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 16, 11356, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 17, 11357, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 18, 11358, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 19, 11359, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 20, 11360, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 21, 7604, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 22, 3696, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 23, 3697, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (11347, 1, 1, 24, 3698, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (11347, 1, 1, 0, 11340 /* Carenzi Pouchling Pelt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 1, 11367 /* Marsh Siraluun Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 2, 11351 /* Mud Golem Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 3, 11339 /* Carenzi Burrower Pelt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 4, 11366 /* Littoral Siraluun Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 5, 11352 /* Sand Golem Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 6, 12235 /* Carenzi Stalker Pelt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 7, 11370 /* Timber Siraluun Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 8, 11350 /* Elaniwood Golem Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 9, 11355 /* Aun Pendant */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 10, 11368 /* Strand Siraluun Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 11, 11341 /* Rabid Carenzi Pelt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 12, 11353 /* Vapor Golem Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 13, 3679 /* Olthoi Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 14, 11363 /* Small Bundle of Kithless Siraluun Feathers */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 15, 11361 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 16, 11356 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 17, 11357 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 18, 11358 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 19, 11359 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 20, 11360 /* Embroidered Bag */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 21, 7604 /* Yellow Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 22, 3696 /* Blue Gem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 23, 3697 /* Red Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (11347, 1, 1, 24, 3698 /* White Jewel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (11347, 0.001, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (11347, 0.002, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (11347, 0.003, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (11347, 0.004, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (11347, 1, 6, 0, 3669, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (11347, 1, 6, 1, 11342, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (11347, 1, 6, 2, 11369, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (11347, 1, 6, 3, 11354, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (11347, 1, 6, 0, 3669 /* Drudge Charm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (11347, 1, 6, 1, 11342 /* Carenzi Sentry Pelt */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (11347, 1, 6, 2, 11369 /* Tidal Siraluun Claw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (11347, 1, 6, 3, 11354 /* Water Golem Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (11347, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -226,22 +226,22 @@ VALUES (11347, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
      , (11347, 6, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (11347, 6, 0, 1, 10, 1, 1, NULL, 'Merlonna will be so jealous of my growing collection! Here, take these health potions with my thanks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (11347, 6, 0, 2, 2, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 500, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (11347, 6, 0, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 4612, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 0, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 4612 /* Tiny Mana Charge */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (11347, 6, 1, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (11347, 6, 1, 1, 10, 1, 1, NULL, 'Merlonna will be so jealous of my growing collection! Here, take this with my thanks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (11347, 6, 1, 2, 2, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 750, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (11347, 6, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (11347, 6, 1, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631 /* Excellent Healing Kit */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 1, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328 /* Iron Pea */, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (11347, 6, 2, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (11347, 6, 2, 1, 10, 1, 1, NULL, 'Merlonna will be so jealous of my growing collection! Here, take this with my thanks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (11347, 6, 2, 2, 2, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 750, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (11347, 6, 2, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (11347, 6, 2, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 2, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631 /* Excellent Healing Kit */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 2, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328 /* Iron Pea */, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (11347, 6, 3, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (11347, 6, 3, 1, 10, 1, 1, NULL, 'Merlonna will be so jealous of my growing collection! Here, take this with my thanks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (11347, 6, 3, 2, 2, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 750, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (11347, 6, 3, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (11347, 6, 3, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 3, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 631 /* Excellent Healing Kit */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (11347, 6, 3, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8328 /* Iron Pea */, 2, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (11347, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (11347, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (11347, 7, 0, 2, 5, 1, 1, 318767247, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */

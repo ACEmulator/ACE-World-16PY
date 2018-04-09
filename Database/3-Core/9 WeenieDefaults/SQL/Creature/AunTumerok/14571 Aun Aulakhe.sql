@@ -116,22 +116,22 @@ VALUES (14571, 9, 0, 2, 0, 50, 0, 896.942514754074) /* SPEAR_SKILL */
      , (14571, 31, 0, 2, 0, 10, 0, 896.942514754074) /* CREATURE_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (14571, 1, 1, 0, 14589, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 1, 14861, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 2, 14588, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 3, 14587, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 4, 14553, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 5, 14554, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 6, 14551, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 7, 14550, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 8, 14552, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 9, 14566, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 10, 14569, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (14571, 1, 1, 11, 26497, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (14571, 1, 1, 0, 14589 /* Ebon Mattekar Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 1, 14861 /* Buadren */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 2, 14588 /* Tree Trunk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 3, 14587 /* Fire Shreth Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 4, 14553 /* Hollowed-Out Tree Trunk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 5, 14554 /* Wrapped Hollowed-Out Tree Trunk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 6, 14551 /* Tanning Oil */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 7, 14550 /* Tanned Mattekar Hide */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 8, 14552 /* Leather Straps */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 9, 14566 /* Akiekie Ember */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 10, 14569 /* Invoker */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (14571, 1, 1, 11, 26497 /* Invoker */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (14571, 1, 22, 0, NULL, NULL, NULL, 'level_test', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (14571, 1, 22, 1, NULL, NULL, NULL, 'level_test@01', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (14571, 1, 6, 0, 14568, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (14571, 1, 6, 1, 14567, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (14571, 1, 6, 0, 14568 /* Buadren */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (14571, 1, 6, 1, 14567 /* Burning Akiekie Ember */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (14571, 1, 23, 0, NULL, NULL, NULL, 'level_test', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (14571, 1, 23, 1, NULL, NULL, NULL, 'level_test@01', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (14571, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
@@ -178,7 +178,7 @@ VALUES (14571, 1, 0, 0, 10, 1, 1, NULL, 'An Ebon Mattekar Hide. You must have hu
      , (14571, 6, 1, 7, 10, 1, 1, NULL, 'Give me the magic Buadren you received from Tikakhe, and I will add to its medicine.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (14571, 23, 0, 0, 21, 0, 1, NULL, 'BuadrenInvokingGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
      , (14571, 23, 1, 0, 10, 1, 1, NULL, 'This is indeed a beautiful Buadren you have made. When you are strong enough, I will ask you to undertake a special mission for me. When you complete it, I will be able to enhance this Buadren for you once you return.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (14571, 23, 1, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (14571, 23, 1, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568 /* Buadren */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (14571, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (14571, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (14571, 7, 0, 2, 31, 0, 1, NULL, 'EmberBrightReceived', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
@@ -200,13 +200,13 @@ VALUES (14571, 1, 0, 0, 10, 1, 1, NULL, 'An Ebon Mattekar Hide. You must have hu
      , (14571, 12, 5, 1, 10, 2, 1, NULL, 'You have done the Aun of Timaru a great service today, and for this I shall reward you. I have bound this Buadren to Aun Tanua''s own keh, so you may carry it against your enemies. In your time of greatest need, invoke him, and he will come to your aid.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (14571, 12, 5, 2, 10, 2, 1, NULL, 'My own mission here is not finished, for I shall not walk through the gates of Timaru until the day when Aun Tanua himself may walk beside me. If you would like to brave Aun Tanua''s prison once more, come to me after the Shining Twins have finished their journey, when I will have regained the strength to stabilize the Lightning-Sea.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (14571, 12, 5, 3, 2, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 6000000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (14571, 12, 5, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26497, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (14571, 12, 5, 4, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26497 /* Invoker */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (14571, 12, 5, 5, 22, 0, 1, NULL, 'InvokingAunTanuaComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (14571, 12, 5, 6, 31, 0, 1, NULL, 'EmberBrightReceivedNew', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
      , (14571, 12, 5, 7, 31, 0, 1, NULL, 'EmberBrightGivenNew', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
      , (14571, 12, 5, 8, 31, 0, 1, NULL, 'PortalSpacePermissionGiven', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
      , (14571, 12, 6, 0, 10, 1, 1, NULL, 'This is indeed a beautiful buadren that you have made. But I must ask you again, were you able to deliver the akiekie ember to Aun Tanua? Even though he did not return with you, do you bring word from him?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (14571, 12, 6, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (14571, 12, 6, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568 /* Buadren */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (14571, 13, 0, 0, 10, 1, 1, NULL, 'My father, Aun Shimauri, sent me to the mainland to accomplish a great mission for our xuta. At the moment, I must still ponder on how I will fullfill it. For now, perhaps you should speak to Aun Tikakhe--he has a proposition that might interest you greatly.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (14571, 13, 1, 0, 21, 0, 1, NULL, 'EmberBrightReceivedNew', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
      , (14571, 13, 2, 0, 21, 0, 1, NULL, 'EmberBrightGivenNew', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
@@ -214,5 +214,5 @@ VALUES (14571, 1, 0, 0, 10, 1, 1, NULL, 'An Ebon Mattekar Hide. You must have hu
      , (14571, 13, 4, 0, 10, 1, 1, NULL, 'My father, Aun Shimauri, sent me to the mainland to accomplish a great mission for our xuta. At the moment, I must still ponder on how I will fullfill it. For now, perhaps you should speak to Aun Tikakhe--he has a proposition that might interest you greatly.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (14571, 13, 5, 0, 21, 0, 1, NULL, 'EmberBrightGivenNew@01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
      , (14571, 13, 6, 0, 10, 1, 1, NULL, 'This is indeed a beautiful buadren that you have made. If you are willing to undertake a special mission for me, I might be able to enhance this buadren for you once you return.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (14571, 13, 6, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
+     , (14571, 13, 6, 1, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14568 /* Buadren */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
 

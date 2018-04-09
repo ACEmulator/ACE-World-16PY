@@ -110,7 +110,7 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (25486, 1, 13, 0, NULL, NULL, NULL, 'DoneWithHiypTheToad', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (25486, 0.01, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25486, 0.11, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (25486, 1, 6, 0, 25469, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25486, 1, 6, 0, 25469 /* Hiyp the Toad's pickaxe */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25486, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25486, 1, 12, 0, NULL, NULL, NULL, 'DoneWithHiypTheToad', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 

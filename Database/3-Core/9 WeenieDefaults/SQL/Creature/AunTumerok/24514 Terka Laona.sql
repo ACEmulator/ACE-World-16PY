@@ -104,7 +104,7 @@ VALUES (24514, 6, 0, 2, 0, 1, 0, 1558.52203778509) /* MELEE_DEFENSE_SKILL */
      , (24514, 13, 0, 2, 0, 1, 0, 1558.52203778509) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24514, 1, 1, 0, 4746, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (24514, 1, 1, 0, 4746 /* Water */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (24514, 0.25, 13, 0, NULL, NULL, NULL, 'ChangedSurveyorSettings', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (24514, 0.5, 13, 1, NULL, NULL, NULL, 'ChangedSurveyorSettings', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (24514, 0.79, 13, 2, NULL, NULL, NULL, 'ChangedSurveyorSettings', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
@@ -113,9 +113,9 @@ VALUES (24514, 1, 1, 0, 4746, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_Emot
      , (24514, 0.3, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (24514, 0.31, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (24514, 0.315, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (24514, 1, 6, 0, 365, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24514, 1, 6, 1, 2468, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24514, 1, 6, 2, 1446, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24514, 1, 6, 0, 365 /* Parchment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24514, 1, 6, 1, 2468 /* Sake */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24514, 1, 6, 2, 1446 /* Fire Auroch Meat */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24514, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (24514, 1, 12, 0, NULL, NULL, NULL, 'ChangedSurveyorSettings', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 

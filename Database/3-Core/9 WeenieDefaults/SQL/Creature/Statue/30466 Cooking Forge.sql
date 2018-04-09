@@ -98,9 +98,9 @@ VALUES (30466, 32, 0, 3, 0, 400, 0, 2262.69648966665) /* ITEM_ENCHANTMENT_SKILL 
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (30466, 1, 22, 0, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (30466, 1, 6, 0, 30476, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30466, 1, 6, 1, 30474, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30466, 1, 6, 2, 30475, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30466, 1, 6, 0, 30476 /* Northern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30466, 1, 6, 1, 30474 /* Southern Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30466, 1, 6, 2, 30475 /* Western Forge Essence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (30466, 1, 23, 0, NULL, NULL, NULL, 'Test_Level', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (30466, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (30466, 0.01, 12, 0, NULL, NULL, NULL, 'ForgeEssenceGiven1204@Use', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

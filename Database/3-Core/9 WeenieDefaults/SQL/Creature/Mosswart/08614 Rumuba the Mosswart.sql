@@ -102,14 +102,14 @@ VALUES (8614, 6, 0, 2, 0, 1, 0, 594.865024962794) /* MELEE_DEFENSE_SKILL */
      , (8614, 13, 0, 2, 0, 1, 0, 594.865024962794) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (8614, 1, 1, 0, 27438, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (8614, 1, 1, 1, 27648, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (8614, 1, 1, 2, 27649, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (8614, 1, 1, 3, 27650, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (8614, 1, 1, 0, 27438 /* Head of the Homunculus */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (8614, 1, 1, 1, 27648 /* Head of the Homunculus */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (8614, 1, 1, 2, 27649 /* Head of the Homunculus */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (8614, 1, 1, 3, 27650 /* Head of the Homunculus */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (8614, 1, 13, 0, NULL, NULL, NULL, 'QuestRumubaSpear', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (8614, 0.001, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (8614, 0.002, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (8614, 1, 6, 0, 8425, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8614, 1, 6, 0, 8425 /* Idol Gem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (8614, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (8614, 1, 12, 0, NULL, NULL, NULL, 'QuestRumubaSpear', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 
@@ -133,7 +133,7 @@ VALUES (8614, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
      , (8614, 13, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (8614, 13, 0, 1, 10, 1, 1, NULL, 'Rumuba already give you spearhead! What, you want more so soon? Go away! But Rumuba keep idol eye!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (8614, 13, 0, 2, 10, 1, 1, NULL, 'Stop look at me like that! Fine! You take back eye! Bring back some other time.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (8614, 13, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8425, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (8614, 13, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8425 /* Idol Gem */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (8614, 5, 0, 0, 8, 0, 20, NULL, 'So blind! Brothers not see that stone gods control them! Not see what control stone gods!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
      , (8614, 5, 1, 0, 8, 0, 20, NULL, 'Rumuba scared of the darkness in light. Darkness taking brothers!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
      , (8614, 6, 0, 0, 20, 0, 1, NULL, 'QuestRumubaSpear', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* UpdateQuest_EmoteType */
@@ -142,5 +142,5 @@ VALUES (8614, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
      , (8614, 7, 0, 2, 10, 1, 1, NULL, 'You, you help Rumuba. Rumuba need eyes of stone gods, for picking and studying. Bring eye to Rumuba, Rumuba give back bright sharp shiny!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (8614, 12, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (8614, 12, 0, 1, 10, 1, 1, NULL, 'Good, good, Rumuba need many god-eyes. You take this, make spear good for big wanga! Put on big stick, stick that come from hearts of wood giants', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (8614, 12, 0, 2, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8613, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
+     , (8614, 12, 0, 2, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 8613 /* Rumuba's Jade Spearhead */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */;
 

@@ -106,18 +106,18 @@ VALUES (12238, 6, 0, 2, 0, 1, 0, 797.27525787556) /* MELEE_DEFENSE_SKILL */
      , (12238, 13, 0, 2, 0, 1, 0, 797.27525787556) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (12238, 1, 1, 0, 11737, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (12238, 1, 1, 1, 11738, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (12238, 1, 1, 2, 11763, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (12238, 1, 1, 3, 11764, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (12238, 1, 1, 4, 11789, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (12238, 1, 1, 5, 11790, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (12238, 1, 1, 0, 11737 /* Falcon Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (12238, 1, 1, 1, 11738 /* Gromnie Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (12238, 1, 1, 2, 11763 /* Mask Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (12238, 1, 1, 3, 11764 /* Reedshark Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (12238, 1, 1, 4, 11789 /* Serpent Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (12238, 1, 1, 5, 11790 /* Shreth Banner */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (12238, 0.08, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (12238, 0.16, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (12238, 0.24, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (12238, 0.34, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (12238, 1, 6, 0, 11019, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (12238, 1, 6, 1, 23622, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (12238, 1, 6, 0, 11019 /* Pyreal Bell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (12238, 1, 6, 1, 23622 /* Pyreal Bell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (12238, 0.9, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (12238, 1, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
@@ -136,13 +136,13 @@ VALUES (12238, 1, 0, 0, 10, 0, 1, NULL, 'Sorry, I don''t frame pictures. You wan
      , (12238, 6, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (12238, 6, 0, 2, 10, 0, 1, NULL, 'Yes, I can mount this for you. Just promise not to ring the thing after it get''s dark. There''s nothing more disturbing than a bell ringing out in the night.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (12238, 6, 0, 3, 1, 3.5, 1, NULL, 'The Master Furniture Maker mounts the bell onto a sturdy post.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Act_EmoteType */
-     , (12238, 6, 0, 4, 3, 4, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23622, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (12238, 6, 0, 4, 3, 4, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 23622 /* Pyreal Bell */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (12238, 6, 0, 5, 10, 1, 1, NULL, 'You might want that crack in the bell looked at sometime.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (12238, 6, 1, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (12238, 6, 1, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (12238, 6, 1, 2, 10, 0, 1, NULL, 'Sure, I can take that off for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (12238, 6, 1, 3, 1, 2, 1, NULL, 'The Master Furniture Maker unmounts the bell.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Act_EmoteType */
-     , (12238, 6, 1, 4, 3, 4, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 11019, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (12238, 6, 1, 4, 3, 4, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 11019 /* Pyreal Bell */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (12238, 6, 1, 5, 10, 1, 1, NULL, 'There you go. Watch out for bats. They love these things.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (12238, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (12238, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */

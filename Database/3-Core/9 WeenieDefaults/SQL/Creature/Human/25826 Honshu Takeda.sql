@@ -106,10 +106,10 @@ VALUES (25826, 6, 0, 3, 0, 200, 0, 1670.41316745233) /* MELEE_DEFENSE_SKILL */
      , (25826, 13, 0, 3, 0, 220, 0, 1670.41316745233) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (25826, 1, 1, 0, 25814, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25826, 1, 1, 1, 25821, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25826, 1, 1, 2, 25813, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (25826, 1, 1, 3, 25822, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (25826, 1, 1, 0, 25814 /* Crystals of Grace */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25826, 1, 1, 1, 25821 /* Rock of Splendor */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25826, 1, 1, 2, 25813 /* Brazier of Power */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (25826, 1, 1, 3, 25822 /* Pure Water */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (25826, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (25826, 1, 12, 0, NULL, NULL, NULL, 'EmptySoulComplete', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (25826, 1, 12, 1, NULL, NULL, NULL, 'EmptySoulShield', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -149,7 +149,7 @@ VALUES (25826, 1, 0, 0, 10, 0, 1, NULL, 'These crystals must be laid into the Dr
      , (25826, 12, 3, 4, 52, 0, 1, 1124073724, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ForceMotion_EmoteType */
      , (25826, 12, 3, 5, 5, 1, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (25826, 12, 3, 6, 52, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ForceMotion_EmoteType */
-     , (25826, 12, 3, 7, 3, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25822, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25826, 12, 3, 7, 3, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25822 /* Pure Water */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25826, 12, 3, 8, 10, 2, 1, NULL, 'The water can be used to waken the combined spirit of the three, or to awaken the strength of just one. I would advise against waking just one. There is little that can be finished that is not complete.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (25826, 12, 3, 9, 22, 0, 1, NULL, 'EmptySoulComplete', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (25826, 12, 3, 10, 22, 0, 1, NULL, 'EmptySoulZen', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */

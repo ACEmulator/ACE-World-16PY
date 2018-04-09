@@ -109,31 +109,31 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (30479, 1, 32, 0, NULL, NULL, NULL, 'FlinralaItems', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (30479, 1, 32, 1, NULL, NULL, NULL, 'WorcerItems', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (30479, 1, 32, 2, NULL, NULL, NULL, 'ExplorerSocietyText', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (30479, 1, 1, 0, 30492, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 1, 5027, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 2, 5026, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 3, 30480, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 4, 30482, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 5, 30481, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 6, 5032, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 7, 30484, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 8, 30485, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 9, 30483, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 10, 8702, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 11, 8701, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 12, 8735, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 13, 8738, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 14, 8736, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 15, 8740, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 16, 8737, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 17, 8741, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 18, 8742, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 19, 8716, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 1, 20, 8739, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (30479, 1, 6, 0, 30488, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30479, 1, 6, 1, 30489, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30479, 1, 6, 2, 30487, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (30479, 1, 6, 3, 30486, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30479, 1, 1, 0, 30492 /* Letter to Ryndya */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 1, 5027 /* Brogord's Axe */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 2, 5026 /* Antique Platter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 3, 30480 /* Antique Mug */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 4, 30482 /* Antique Goblet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 5, 30481 /* Antique Bowl */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 6, 5032 /* Wedding Band */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 7, 30484 /* Bronze Candlestick */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 8, 30485 /* Bronze Handbell */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 9, 30483 /* Bronze Lamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 10, 8702 /* Scarlet Red Letter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 11, 8701 /* Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 12, 8735 /* Holtburg Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 13, 8738 /* Rithwic Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 14, 8736 /* Lytelthorpe Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 15, 8740 /* Shoushi Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 16, 8737 /* Nanto Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 17, 8741 /* Yanshi Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 18, 8742 /* Yaraq Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 19, 8716 /* Al Arqas Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 1, 20, 8739 /* Samsur Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (30479, 1, 6, 0, 30488 /* Bag of Rye Seed */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30479, 1, 6, 1, 30489 /* Bag of Wheat Seed */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30479, 1, 6, 2, 30487 /* Bag of Corn Seed */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (30479, 1, 6, 3, 30486 /* Robber Baron Head */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (30479, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

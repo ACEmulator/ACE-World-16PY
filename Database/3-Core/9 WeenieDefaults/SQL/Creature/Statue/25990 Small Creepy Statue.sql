@@ -111,10 +111,10 @@ VALUES (25990, 1, 32, 0, NULL, NULL, NULL, 'TeleToAppropriateDungeon', NULL, NUL
      , (25990, 1, 22, 1, NULL, NULL, NULL, 'check_level', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (25990, 1, 22, 2, NULL, NULL, NULL, 'check_for_pkl_status', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (25990, 1, 22, 3, NULL, NULL, NULL, 'check_pk_status', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (25990, 1, 6, 0, 2627, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25990, 1, 6, 1, 20628, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25990, 1, 6, 2, 20629, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25990, 1, 6, 3, 20630, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25990, 1, 6, 0, 2627 /* Trade Note (100,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25990, 1, 6, 1, 20628 /* Trade Note (150,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25990, 1, 6, 2, 20629 /* Trade Note (200,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25990, 1, 6, 3, 20630 /* Trade Note (250,000) */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25990, 1, 23, 0, NULL, NULL, NULL, 'check_pk_status_on_pk_server', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (25990, 1, 23, 1, NULL, NULL, NULL, 'check_level', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (25990, 1, 23, 2, NULL, NULL, NULL, 'check_for_pkl_status', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
@@ -138,11 +138,11 @@ VALUES (25990, 32, 0, 0, 51, 0, 1, NULL, 'EventIsPKWorld', NULL, NULL, NULL, NUL
      , (25990, 22, 2, 0, 67, 0, 1, NULL, 'TeleToPKL', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
      , (25990, 22, 3, 0, 67, 0, 1, NULL, 'TeleToPK', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
      , (25990, 6, 0, 0, 67, 0, 1, NULL, 'TeleToAppropriateDungeon', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
-     , (25990, 6, 1, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 2626, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25990, 6, 1, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 2626 /* Trade Note (50,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25990, 6, 1, 1, 67, 0, 1, NULL, 'TeleToAppropriateDungeon', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
-     , (25990, 6, 2, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 2627, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25990, 6, 2, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 2627 /* Trade Note (100,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25990, 6, 2, 1, 67, 0, 1, NULL, 'TeleToAppropriateDungeon', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
-     , (25990, 6, 3, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20628, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25990, 6, 3, 0, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20628 /* Trade Note (150,000) */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25990, 6, 3, 1, 67, 0, 1, NULL, 'TeleToAppropriateDungeon', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */
      , (25990, 23, 0, 0, 10, 0, 1, NULL, 'You hide in the folds of Asheron''s protection.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (25990, 23, 1, 0, 67, 0, 1, NULL, 'TeleToPK', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */

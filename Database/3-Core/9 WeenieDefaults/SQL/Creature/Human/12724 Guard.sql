@@ -109,7 +109,7 @@ VALUES (12724, 1, 13, 0, NULL, NULL, NULL, 'RecruitSent', NULL, NULL, NULL) /* Q
      , (12724, 1, 13, 1, NULL, NULL, NULL, 'TokenAcademyGiven', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (12724, 1, 13, 2, NULL, NULL, NULL, 'AcademyTokenGiven', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (12724, 0.001, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (12724, 1, 6, 0, 12709, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (12724, 1, 6, 0, 12709 /* Academy Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (12724, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (12724, 1, 12, 0, NULL, NULL, NULL, 'RecruitSent', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (12724, 1, 12, 1, NULL, NULL, NULL, 'TokenAcademyGiven', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

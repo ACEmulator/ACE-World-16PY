@@ -109,31 +109,31 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (5195, 1, 32, 0, NULL, NULL, NULL, 'NenAiItems', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (5195, 1, 32, 1, NULL, NULL, NULL, 'OiTongYeItems', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (5195, 1, 32, 2, NULL, NULL, NULL, 'ExplorerSocietyText', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (5195, 1, 1, 0, 30499, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 1, 30500, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 2, 5182, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 3, 5184, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 4, 5183, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 5, 5181, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 6, 8702, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 7, 8701, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 8, 8735, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 9, 8738, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 10, 8736, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 11, 8740, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 12, 8737, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 13, 8741, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 14, 8742, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 15, 8716, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 1, 16, 8739, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (5195, 1, 6, 0, 5190, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 1, 30496, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 2, 30498, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 3, 30497, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 4, 5186, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 5, 30494, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 6, 30493, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (5195, 1, 6, 7, 30495, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 1, 0, 30499 /* Greenmire Cider */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 1, 30500 /* Greenmire Cheese */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 2, 5182 /* Stone of Discipline */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 3, 5184 /* Stone of Detachment */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 4, 5183 /* Stone of Compassion */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 5, 5181 /* Stone of Humility */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 6, 8702 /* Scarlet Red Letter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 7, 8701 /* Lucky Gold Letter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 8, 8735 /* Holtburg Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 9, 8738 /* Rithwic Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 10, 8736 /* Lytelthorpe Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 11, 8740 /* Shoushi Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 12, 8737 /* Nanto Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 13, 8741 /* Yanshi Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 14, 8742 /* Yaraq Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 15, 8716 /* Al Arqas Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 1, 16, 8739 /* Samsur Town Stamp */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (5195, 1, 6, 0, 5190 /* Lou Ka's Yaoji */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 1, 30496 /* Lou Ka's Trident */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 2, 30498 /* Lou Ka's Shouken */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 3, 30497 /* Lou Ka's Katar */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 4, 5186 /* Bai Den's Gem */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 5, 30494 /* Bai Den's Bracelet */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 6, 30493 /* Bai Den's Ring */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (5195, 1, 6, 7, 30495 /* Bai Den's Necklace */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (5195, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -187,11 +187,11 @@ VALUES (5195, 32, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
      , (5195, 6, 7, 3, 10, 1, 1, NULL, 'Since you''ve been so kind as to help us, perhaps you could also help our friend Nen Ai. She lives just outside Shoushi, a bit further down the southwest road than the Braid Mansion Ruin you were just at.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (5195, 6, 7, 4, 10, 1, 1, NULL, 'Nen Ai has a pet drudge. She has some trouble keeping it fed, however - it has a delicate constitution. Perhaps you could visit her and see if you could help?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (5195, 6, 7, 5, 10, 1, 1, NULL, 'Here are the directions to Nen Ai''s house. Nin Hong also sells these directions.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (5195, 6, 7, 6, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26483, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (5195, 6, 7, 6, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26483 /* Directions to Nen Ai's House */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (5195, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (5195, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (5195, 7, 0, 2, 10, 0, 1, NULL, 'Those thieving mosswarts have made off with my yaoji again! And this time they took several other items belonging to myself and my partner Bai Den as well!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (5195, 7, 0, 3, 10, 1, 1, NULL, 'Here is a list of the items that are missing. Will you go to the Braid Mansion Ruin, along the road that leaves town to the southwest, and recover our things for us? We would be very grateful.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (5195, 7, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 30501, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (5195, 7, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 30501 /* A List of Items */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (5195, 7, 0, 5, 10, 1, 1, NULL, 'If you need more help finding the Braid Mansion Ruin, you can buy directions from Nin Hong at the bar.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
 

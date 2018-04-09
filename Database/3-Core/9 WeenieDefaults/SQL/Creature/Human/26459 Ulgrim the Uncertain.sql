@@ -122,15 +122,15 @@ VALUES (26459, 0.2, 32, 0, NULL, NULL, NULL, 'Drink', NULL, NULL, NULL) /* GotoS
      , (26459, 0.1, 13, 0, NULL, NULL, NULL, 'SplinterUlgrimLytelthorpe', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (26459, 1, 13, 1, NULL, NULL, NULL, 'SplinterUlgrimLytelthorpe', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (26459, 1, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (26459, 1, 6, 0, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 1, 2451, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 2, 2462, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 3, 23126, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 4, 2467, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 5, 2465, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 6, 2468, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 7, 8391, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (26459, 1, 6, 8, 2469, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 0, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 1, 2451 /* Ale */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 2, 2462 /* Mead */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 3, 23126 /* Wah Chon's Winter Lager */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 4, 2467 /* Red Wine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 5, 2465 /* Palm Wine */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 6, 2468 /* Sake */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 7, 8391 /* Filled Beer Stein */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (26459, 1, 6, 8, 2469 /* Small Beer */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (26459, 0.9, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (26459, 1, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (26459, 0.3, 12, 0, NULL, NULL, NULL, 'SplinterUlgrimLytelthorpe', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -151,7 +151,7 @@ VALUES (26459, 32, 0, 0, 10, 0, 1, NULL, 'Yes, I agree.', NULL, NULL, NULL, NULL
      , (26459, 32, 3, 2, 10, 2, 1, NULL, 'Don''t tell him where I am.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (26459, 32, 4, 0, 10, 0, 1, NULL, 'You shouldn''t never not remove those labels from mattresses. I don''t... wait, yes I do.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (26459, 13, 0, 0, 10, 0, 1, NULL, 'I think you should have this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (26459, 13, 0, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26467, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (26459, 13, 0, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26467 /* Splinter of Wood */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (26459, 13, 0, 2, 22, 0, 1, NULL, 'SplinterUlgrimLytelthorpe', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (26459, 13, 0, 3, 11, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, -0.9743701, 0, 0, -0.2249511) /* Turn_EmoteType */
      , (26459, 13, 0, 4, 5, 0, 1, 1124073787, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */

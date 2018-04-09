@@ -100,21 +100,21 @@ VALUES (28411, 32, 0, 3, 0, 500, 0, 2021.48363540391) /* ITEM_ENCHANTMENT_SKILL 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (28411, 1, 30, 0, NULL, NULL, NULL, 'StatueKivikLirGuardianTrial', NULL, NULL, NULL) /* QuestNoFellow_EmoteCategory */
      , (28411, 1, 30, 1, NULL, NULL, NULL, 'StatueKivikLirGuardianTrial@1', NULL, NULL, NULL) /* QuestNoFellow_EmoteCategory */
-     , (28411, 1, 6, 0, 28360, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 1, 28374, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 2, 28361, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 3, 28362, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 4, 28363, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 5, 28364, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 6, 28365, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 7, 28366, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 8, 28367, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 9, 28368, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 10, 28369, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 11, 28370, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 12, 28371, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 13, 28372, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28411, 1, 6, 14, 28373, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 0, 28360 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 1, 28374 /* Empty Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 2, 28361 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 3, 28362 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 4, 28363 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 5, 28364 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 6, 28365 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 7, 28366 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 8, 28367 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 9, 28368 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 10, 28369 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 11, 28370 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 12, 28371 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 13, 28372 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28411, 1, 6, 14, 28373 /* Satchel */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (28411, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (28411, 1, 12, 0, NULL, NULL, NULL, 'StatueKivikLirGuardianTrial', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (28411, 1, 12, 1, NULL, NULL, NULL, 'SpokenToEyeKivikLirTrialLogic', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -189,7 +189,7 @@ VALUES (28411, 30, 0, 0, 18, 0, 1, NULL, 'The eye remains motionless, as if wait
      , (28411, 13, 1, 0, 65, 0, 1, NULL, 'The Eye of the Watcher shudders for a moment and settles. Without warning, a voice with the sound of metal scraping on metal chimes into your mind.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* FellowBroadcast_EmoteType */
      , (28411, 13, 1, 1, 65, 1, 1, NULL, '"The Lady Kivik Lir has a fondness for Sacrificial Urns. In her time, she collected quite a few of them. In the Antechamber, she keeps six stacks of Sacrificial Urns. Within her personal chambers, she keeps three stacks of Sacrificial Urn. And here, in these halls, she keeps five stacks of Sacrificial Urns. If the Lady Kivik Lir were to put them all together, how many stacks would she command?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* FellowBroadcast_EmoteType */
      , (28411, 13, 1, 2, 61, 0, 1, NULL, 'SpokenToEyeKivikLirTrialLogic', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampFellowQuest_EmoteType */
-     , (28411, 13, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 28374, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (28411, 13, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 28374 /* Empty Satchel */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (28411, 13, 2, 0, 18, 0, 1, NULL, 'The eye remains motionless, as if waiting a prompt from some outside force.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (28411, 13, 3, 0, 58, 0, 1, NULL, 'EyeKivikLirTrialJump', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqFellowQuest_EmoteType */
      , (28411, 13, 4, 0, 58, 0, 1, NULL, 'EyeKivikLirTrialArena', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqFellowQuest_EmoteType */

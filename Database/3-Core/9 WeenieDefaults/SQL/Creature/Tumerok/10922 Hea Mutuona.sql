@@ -111,7 +111,7 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (10922, 0.002, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (10922, 0.004, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (10922, 0.006, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (10922, 1, 6, 0, 2451, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (10922, 1, 6, 0, 2451 /* Ale */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (10922, 0.5, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (10922, 1, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 

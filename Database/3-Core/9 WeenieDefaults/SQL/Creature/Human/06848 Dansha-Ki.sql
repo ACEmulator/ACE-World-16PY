@@ -105,12 +105,12 @@ VALUES (6848, 6, 0, 2, 0, 1, 0, 498.203319868331) /* MELEE_DEFENSE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (6848, 1, 32, 0, NULL, NULL, NULL, 'FinishUp', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (6848, 1, 1, 0, 6880, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6848, 1, 1, 0, 6880 /* Bone Engraved Key */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (6848, 1, 13, 0, NULL, NULL, NULL, 'DryreachPrisonBreakQuest', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (6848, 0.08, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6848, 0.16, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6848, 0.26, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (6848, 1, 6, 0, 6879, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6848, 1, 6, 0, 6879 /* Dansha-Ki's Belongings */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (6848, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (6848, 1, 12, 0, NULL, NULL, NULL, 'DryreachPrisonBreakQuest', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
 
@@ -140,7 +140,7 @@ VALUES (6848, 32, 0, 0, 7, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
      , (6848, 12, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (6848, 12, 0, 1, 10, 0, 1, NULL, 'You found my belongings! Now I can portal out of here without the tumeroks outside seeing me.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6848, 12, 0, 2, 10, 1, 1, NULL, 'I owe you a debt I can never fully repay. Please accept this ring and gem as a token of my appreciation. The ring was given to me by my father and has protected me on many occasions.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (6848, 12, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 7300, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (6848, 12, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 7316, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6848, 12, 0, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 7300 /* Dansha-Ki's Ring */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6848, 12, 0, 4, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 7316 /* Dansha-Ki's Gem of Portal Recall */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6848, 12, 0, 5, 67, 0, 1, NULL, 'FinishUp', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Goto_EmoteType */;
 

@@ -118,9 +118,9 @@ VALUES (24243, 1, 13, 0, NULL, NULL, NULL, 'GotOlthoiAxe@1', NULL, NULL, NULL) /
      , (24243, 0.1, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (24243, 0.11, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (24243, 0.21, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (24243, 1, 6, 0, 24234, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24243, 1, 6, 1, 338, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24243, 1, 6, 2, 22168, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24243, 1, 6, 0, 24234 /* Olthoi Crest */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24243, 1, 6, 1, 338 /* Quarter Staff */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24243, 1, 6, 2, 22168 /* Quarter Staff */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24243, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (24243, 1, 12, 0, NULL, NULL, NULL, 'GotOlthoiAxe@1', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (24243, 1, 12, 1, NULL, NULL, NULL, 'GaveWoodToNarg', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -156,12 +156,12 @@ VALUES (24243, 13, 0, 0, 10, 1, 1, NULL, 'We been here for years fightin'' off t
      , (24243, 12, 1, 0, 10, 1, 1, NULL, 'This is a nice one. Lemme see...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24243, 12, 1, 1, 18, 0, 1, NULL, 'Narg fashions an axe from the materials. It is crude but sharp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (24243, 12, 1, 2, 22, 0, 1, NULL, 'GotOlthoiAxe', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (24243, 12, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24239, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24243, 12, 1, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24239 /* Acid Olthoi Axe */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24243, 12, 2, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (24243, 12, 2, 1, 10, 1, 1, NULL, 'How many axes you think I can make?  Go kill something.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24243, 12, 3, 0, 10, 1, 1, NULL, 'Yeah this is good. I''ll cut it down. I get to keep the rest, see?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (24243, 12, 3, 1, 18, 0, 1, NULL, 'Narg fashions an axe from the materials. It is crude but sharp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
      , (24243, 12, 3, 2, 22, 0, 1, NULL, 'GotOlthoiAxe', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (24243, 12, 3, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24239, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (24243, 12, 3, 3, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 24239 /* Acid Olthoi Axe */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (24243, 12, 4, 0, 10, 1, 1, NULL, 'How many axes you want? Thanks, I can use this. You gotta problem with that?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
 

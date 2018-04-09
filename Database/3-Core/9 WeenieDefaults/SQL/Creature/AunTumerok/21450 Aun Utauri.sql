@@ -107,8 +107,8 @@ VALUES (21450, 6, 0, 2, 0, 1, 0, 1307.20053811133) /* MELEE_DEFENSE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (21450, 0.7, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (21450, 0.5, 6, 0, 4746, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (21450, 1, 6, 1, 4746, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (21450, 0.5, 6, 0, 4746 /* Water */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (21450, 1, 6, 1, 4746 /* Water */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (21450, 0.25, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (21450, 0.5, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (21450, 0.75, 7, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */

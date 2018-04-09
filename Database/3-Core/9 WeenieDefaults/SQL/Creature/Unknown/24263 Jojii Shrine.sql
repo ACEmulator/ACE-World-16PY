@@ -153,7 +153,7 @@ VALUES (24263, 1, 32, 0, NULL, NULL, NULL, 'GetLuckyNumbers', NULL, NULL, NULL) 
      , (24263, 0.9599996, 32, 48, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (24263, 0.9799996, 32, 49, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (24263, 0.9999996, 32, 50, NULL, NULL, NULL, 'Fortune', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (24263, 1, 6, 0, 273, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24263, 1, 6, 0, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24263, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (24263, 1, 12, 0, NULL, NULL, NULL, 'FortuneCounter@Number1', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (24263, 1, 12, 1, NULL, NULL, NULL, 'FortuneCounter@Number2', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

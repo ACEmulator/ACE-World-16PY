@@ -119,12 +119,12 @@ VALUES (6873, 32, 0, 3, 0, 400, 0, 499.544484212224) /* ITEM_ENCHANTMENT_SKILL *
      , (6873, 13, 0, 2, 0, 2, 0, 499.544484212224) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (6873, 1, 1, 0, 2468, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (6873, 1, 1, 1, 24141, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (6873, 1, 1, 2, 24144, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (6873, 1, 1, 3, 24143, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (6873, 1, 1, 4, 26452, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (6873, 1, 1, 5, 5779, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+VALUES (6873, 1, 1, 0, 2468 /* Sake */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6873, 1, 1, 1, 24141 /* Sweet Smelling Bark */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6873, 1, 1, 2, 24144 /* Strands of Silk */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6873, 1, 1, 3, 24143 /* Empty Mug */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6873, 1, 1, 4, 26452 /* Bathrobe */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (6873, 1, 1, 5, 5779 /* Strange Stick */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (6873, 1, 13, 0, NULL, NULL, NULL, 'SplintersGivenUlgrim@Test', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (6873, 1, 13, 1, NULL, NULL, NULL, 'SplintersGivenUlgrim@Done', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
      , (6873, 0.05, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
@@ -134,88 +134,88 @@ VALUES (6873, 1, 1, 0, 2468, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_Emote
      , (6873, 0.09, 5, 4, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6873, 0.09999999, 5, 5, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (6873, 0.105, 5, 6, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (6873, 0.05, 6, 0, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.1, 6, 1, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.16, 6, 2, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.21, 6, 3, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.24, 6, 4, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.27, 6, 5, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.3, 6, 6, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.33, 6, 7, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.3825, 6, 8, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.4125, 6, 9, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.4425, 6, 10, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.4725, 6, 11, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.5025, 6, 12, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.5325, 6, 13, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.5624999, 6, 14, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.5924999, 6, 15, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.6224999, 6, 16, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.6524999, 6, 17, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.6824998, 6, 18, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.7124998, 6, 19, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.7424998, 6, 20, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.7724997, 6, 21, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8024997, 6, 22, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8124997, 6, 23, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8224997, 6, 24, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8324997, 6, 25, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8424997, 6, 26, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8524997, 6, 27, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8624997, 6, 28, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8724996, 6, 29, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8774996, 6, 30, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8824996, 6, 31, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8874996, 6, 32, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8924996, 6, 33, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.8974996, 6, 34, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9024996, 6, 35, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9074996, 6, 36, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9124996, 6, 37, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9174996, 6, 38, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9224996, 6, 39, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9274996, 6, 40, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9324996, 6, 41, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9349996, 6, 42, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9374996, 6, 43, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9399996, 6, 44, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9424996, 6, 45, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9449996, 6, 46, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9474996, 6, 47, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9499996, 6, 48, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9524996, 6, 49, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9549996, 6, 50, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9574996, 6, 51, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9599996, 6, 52, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9624996, 6, 53, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9649996, 6, 54, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9674996, 6, 55, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9699996, 6, 56, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9724995, 6, 57, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9749995, 6, 58, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9774995, 6, 59, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9799995, 6, 60, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9824995, 6, 61, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9849995, 6, 62, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9874995, 6, 63, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9899995, 6, 64, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9924995, 6, 65, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9949995, 6, 66, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9974995, 6, 67, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 0.9999995, 6, 68, 2471, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 69, 22253, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 70, 297, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 71, 5831, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 72, 2462, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 73, 2451, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 74, 8391, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 75, 2469, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 76, 4746, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 77, 5498, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 78, 14769, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 79, 13222, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 80, 24142, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (6873, 1, 6, 81, 26467, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.05, 6, 0, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.1, 6, 1, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.16, 6, 2, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.21, 6, 3, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.24, 6, 4, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.27, 6, 5, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.3, 6, 6, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.33, 6, 7, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.3825, 6, 8, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.4125, 6, 9, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.4425, 6, 10, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.4725, 6, 11, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.5025, 6, 12, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.5325, 6, 13, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.5624999, 6, 14, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.5924999, 6, 15, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.6224999, 6, 16, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.6524999, 6, 17, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.6824998, 6, 18, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.7124998, 6, 19, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.7424998, 6, 20, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.7724997, 6, 21, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8024997, 6, 22, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8124997, 6, 23, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8224997, 6, 24, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8324997, 6, 25, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8424997, 6, 26, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8524997, 6, 27, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8624997, 6, 28, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8724996, 6, 29, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8774996, 6, 30, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8824996, 6, 31, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8874996, 6, 32, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8924996, 6, 33, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.8974996, 6, 34, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9024996, 6, 35, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9074996, 6, 36, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9124996, 6, 37, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9174996, 6, 38, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9224996, 6, 39, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9274996, 6, 40, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9324996, 6, 41, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9349996, 6, 42, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9374996, 6, 43, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9399996, 6, 44, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9424996, 6, 45, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9449996, 6, 46, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9474996, 6, 47, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9499996, 6, 48, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9524996, 6, 49, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9549996, 6, 50, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9574996, 6, 51, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9599996, 6, 52, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9624996, 6, 53, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9649996, 6, 54, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9674996, 6, 55, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9699996, 6, 56, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9724995, 6, 57, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9749995, 6, 58, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9774995, 6, 59, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9799995, 6, 60, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9824995, 6, 61, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9849995, 6, 62, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9874995, 6, 63, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9899995, 6, 64, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9924995, 6, 65, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9949995, 6, 66, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9974995, 6, 67, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 0.9999995, 6, 68, 2471 /* Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 69, 22253 /* Ulgrim's Scroll */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 70, 297 /* Ring */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 71, 5831 /* Nelvaine's Olde Ispar Stout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 72, 2462 /* Mead */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 73, 2451 /* Ale */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 74, 8391 /* Filled Beer Stein */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 75, 2469 /* Small Beer */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 76, 4746 /* Water */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 77, 5498 /* Water of Lethe */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 78, 14769 /* Hot Chocolate */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 79, 13222 /* Peppermint Stick */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 80, 24142 /* Half Empty Cider */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (6873, 1, 6, 81, 26467 /* Splinter of Wood */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (6873, 0.5, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (6873, 1, 7, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (6873, 1, 12, 0, NULL, NULL, NULL, 'SplintersGivenUlgrim@Test', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
@@ -621,7 +621,7 @@ VALUES (6873, 1, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, 
      , (6873, 6, 54, 6, 10, 0, 1, NULL, 'Hey, kid.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 54, 7, 10, 1, 1, NULL, 'Catch.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 54, 8, 5, 0, 1, 318767253, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (6873, 6, 54, 9, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10758, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6873, 6, 54, 9, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10758 /* Clean, Dry Towel */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6873, 6, 55, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (6873, 6, 55, 1, 10, 0, 1, NULL, 'That white rabbit may look cute an fluffy, but he''s an abomination.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 56, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
@@ -697,7 +697,7 @@ VALUES (6873, 1, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, 
      , (6873, 6, 69, 12, 5, 2, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6873, 6, 69, 13, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (6873, 6, 69, 14, 10, 0, 1, NULL, 'Here...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (6873, 6, 69, 15, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22863, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6873, 6, 69, 15, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22863 /* Ulgrim's Recall Scroll */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6873, 6, 69, 16, 10, 1, 1, NULL, 'I want you to have it. It won''t be all that useful to you I''m afraid, but you never know. Just don''t depend on it. I have places to go to.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 70, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6873, 6, 70, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
@@ -785,7 +785,7 @@ VALUES (6873, 1, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, 
      , (6873, 6, 79, 2, 10, 1, 1, NULL, 'Hey Peppermint! Have you tried my secret recipe?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 79, 3, 10, 1.5, 1, NULL, 'Then try some of my Peppermint Pumpkin Pie!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 6, 79, 4, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (6873, 6, 79, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14774, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6873, 6, 79, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 14774 /* Peppermint Pumpkin Pie */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6873, 6, 80, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6873, 6, 80, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (6873, 6, 80, 2, 10, 1, 1, NULL, 'Something doesn''t smell quite right about this stuff. You got it from Jaleh''s, eh? Well I''ve no love for the money grabbing b--. Say you don''t think that I had anything to...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
@@ -809,7 +809,7 @@ VALUES (6873, 1, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, 
      , (6873, 12, 1, 0, 10, 1, 1, NULL, 'I don''t need these splinters anymore, but seeing as you went to all that work.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 12, 1, 1, 10, 2, 1, NULL, 'I bestow upon you the Robe of Extraordinary Comfort!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (6873, 12, 1, 2, 5, 0, 1, 1124073712, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (6873, 12, 1, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26452, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (6873, 12, 1, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 26452 /* Bathrobe */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (6873, 12, 1, 4, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (6873, 12, 1, 5, 33, 0, 1, NULL, 'SplintersGivenUlgrim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* IncrementQuest_EmoteType */;
 

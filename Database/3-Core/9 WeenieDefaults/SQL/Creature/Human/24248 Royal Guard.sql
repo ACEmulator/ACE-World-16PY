@@ -105,14 +105,14 @@ VALUES (24248, 6, 0, 2, 0, 1, 0, 1536.62667390013) /* MELEE_DEFENSE_SKILL */
      , (24248, 13, 0, 2, 0, 1, 0, 1536.62667390013) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24248, 1, 6, 0, 24252, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 1, 24253, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 2, 24254, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 3, 24255, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 4, 24256, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 5, 24257, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 6, 24258, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (24248, 1, 6, 7, 24259, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (24248, 1, 6, 0, 24252 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 1, 24253 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 2, 24254 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 3, 24255 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 4, 24256 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 5, 24257 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 6, 24258 /* Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (24248, 1, 6, 7, 24259 /* A Note from a Scout */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (24248, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

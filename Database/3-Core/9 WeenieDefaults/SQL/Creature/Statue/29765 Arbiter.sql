@@ -109,14 +109,14 @@ VALUES (29765, 33, 0, 3, 0, 900, 0, 2173.53336011671) /* LIFE_MAGIC_SKILL */
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (29765, 1, 32, 0, NULL, NULL, NULL, 'completed_puzzle', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (29765, 1, 32, 1, NULL, NULL, NULL, 'failed_puzzle', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (29765, 1, 6, 0, 29649, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 1, 29646, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 2, 29645, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 3, 29648, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 4, 29643, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 5, 29642, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 6, 29644, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (29765, 1, 6, 7, 29647, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 0, 29649 /* Clue Card */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 1, 29646 /* Red Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 2, 29645 /* Orange Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 3, 29648 /* Yellow Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 4, 29643 /* Green Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 5, 29642 /* Blue Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 6, 29644 /* Indigo Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (29765, 1, 6, 7, 29647 /* Violet Ball */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (29765, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (29765, 1, 12, 0, NULL, NULL, NULL, 'ColorPuzzleRedRiddle', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (29765, 1, 12, 1, NULL, NULL, NULL, 'ColorPuzzleOrangeRiddle', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */

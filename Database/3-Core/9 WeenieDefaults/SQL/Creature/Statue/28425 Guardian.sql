@@ -97,16 +97,16 @@ VALUES (28425, 32, 0, 3, 0, 900, 0, 2023.20849951981) /* ITEM_ENCHANTMENT_SKILL 
      , (28425, 31, 0, 3, 0, 900, 0, 2023.20849951981) /* CREATURE_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28425, 1, 6, 0, 28346, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 1, 28349, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 2, 28350, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 3, 28348, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 4, 28359, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 5, 28358, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 6, 28357, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 7, 28356, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 8, 28351, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (28425, 1, 6, 9, 28347, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+VALUES (28425, 1, 6, 0, 28346 /* Emblem of Blackened Blood */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 1, 28349 /* Emblem of Blood */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 2, 28350 /* Emblem of the Fiazhat */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 3, 28348 /* Emblem of Aged Blood */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 4, 28359 /* Emblem of Blackened Weald */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 5, 28358 /* Emblem of Serpent's Hold */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 6, 28357 /* Emblem of Ages Past */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 7, 28356 /* Emblem of Sclavus Sight */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 8, 28351 /* Emblem of Ages Hence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (28425, 1, 6, 9, 28347 /* Emblem of Time's Wrath */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (28425, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
      , (28425, 1, 12, 0, NULL, NULL, NULL, 'StatueKivikLirGuardianAntechamber', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
      , (28425, 1, 13, 0, NULL, NULL, NULL, 'StatueKivikLirGuardianAntechamber', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;

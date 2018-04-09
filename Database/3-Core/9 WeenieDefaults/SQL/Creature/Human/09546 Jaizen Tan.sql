@@ -108,42 +108,42 @@ VALUES (9546, 6, 0, 2, 0, 1, 0, 647.550621320645) /* MELEE_DEFENSE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (9546, 0.001, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (9546, 1, 6, 0, 9567, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 1, 9580, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 2, 9577, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 3, 9566, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 4, 9618, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 5, 9573, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 6, 9574, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 7, 9575, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 8, 9576, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 9, 9578, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 10, 9565, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 11, 9568, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 12, 9570, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 13, 9579, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 14, 9572, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 15, 9571, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 16, 9569, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 17, 11670, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 18, 11656, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 19, 11659, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 20, 11671, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 21, 11667, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 22, 11663, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 23, 11662, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 24, 11661, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 25, 11660, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 26, 11658, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 27, 11673, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 28, 11669, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 29, 11666, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 30, 11657, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 31, 11664, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 32, 11665, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 33, 11668, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 34, 27436, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9546, 1, 6, 35, 27440, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 0, 9567 /* Completed Bow Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 1, 9580 /* Completed Crossbow Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 2, 9577 /* Completed Thrown Weapons Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 3, 9566 /* Completed Axe Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 4, 9618 /* Completed Dagger Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 5, 9573 /* Completed Mace Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 6, 9574 /* Completed Spear Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 7, 9575 /* Completed Staff Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 8, 9576 /* Completed Sword Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 9, 9578 /* Completed Unarmed Combat Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 10, 9565 /* Completed Alchemy Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 11, 9568 /* Completed Cooking Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 12, 9570 /* Completed Fletching Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 13, 9579 /* Completed War Magic Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 14, 9572 /* Completed Life Magic Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 15, 9571 /* Completed Item Enchantment Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 16, 9569 /* Completed Creature Enchantment Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 17, 11670 /* Completed Advanced Bow Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 18, 11656 /* Completed Advanced Crossbow Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 19, 11659 /* Completed Advanced Thrown Weapons Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 20, 11671 /* Completed Advanced Axe Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 21, 11667 /* Completed Advanced Dagger Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 22, 11663 /* Completed Advanced Mace Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 23, 11662 /* Completed Advanced Spear Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 24, 11661 /* Completed Advanced Staff Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 25, 11660 /* Completed Advanced Sword Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 26, 11658 /* Completed Advanced Unarmed Combat Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 27, 11673 /* Completed Advanced Alchemy Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 28, 11669 /* Completed Advanced Cooking Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 29, 11666 /* Completed Advanced Fletching Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 30, 11657 /* Completed Advanced War Magic Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 31, 11664 /* Completed Advanced Life Magic Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 32, 11665 /* Completed Advanced Item Enchantment Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 33, 11668 /* Completed Advanced Creature Enchantment Skill Puzzle */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 34, 27436 /* Philanthropist Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9546, 1, 6, 35, 27440 /* Grave Robber Title Token */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (9546, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
@@ -288,19 +288,19 @@ VALUES (9546, 5, 0, 0, 8, 0, 20, NULL, 'Does a thing determin its name, or does 
      , (9546, 6, 27, 2, 17, 0, 0, NULL, 'Attention, all!  Let it be known that %s has proven worthy to be called Alchemist!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
      , (9546, 6, 27, 3, 22, 0, 1, NULL, 'BestowerAlchemy2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (9546, 6, 27, 4, 34, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AddCharacterTitle_EmoteType */
-     , (9546, 6, 27, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9623, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (9546, 6, 27, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9623 /* Alchemist's Hat */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (9546, 6, 28, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (9546, 6, 28, 1, 10, 0, 1, NULL, 'Well done!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (9546, 6, 28, 2, 17, 0, 0, NULL, 'Attention, all!  Let it be known that %s has proven worthy to be called Iron Chef!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
      , (9546, 6, 28, 3, 22, 0, 1, NULL, 'BestowerCooking2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (9546, 6, 28, 4, 34, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AddCharacterTitle_EmoteType */
-     , (9546, 6, 28, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9622, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (9546, 6, 28, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9622 /* Chef's Hat */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (9546, 6, 29, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (9546, 6, 29, 1, 10, 0, 1, NULL, 'Well done!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (9546, 6, 29, 2, 17, 0, 0, NULL, 'Attention, all!  Let it be known that %s has proven worthy to be called Master Fletcher!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
      , (9546, 6, 29, 3, 22, 0, 1, NULL, 'BestowerFletching2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
      , (9546, 6, 29, 4, 34, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AddCharacterTitle_EmoteType */
-     , (9546, 6, 29, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9624, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (9546, 6, 29, 5, 3, 1, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 9624 /* Fletcher's Cap */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (9546, 6, 30, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (9546, 6, 30, 1, 10, 0, 1, NULL, 'Well done!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (9546, 6, 30, 2, 17, 0, 0, NULL, 'Attention, all!  Let it be known that %s has proven worthy to be called Warlock!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */

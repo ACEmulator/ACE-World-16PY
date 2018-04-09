@@ -104,11 +104,11 @@ VALUES (25794, 0.05, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL)
      , (25794, 0.08, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (25794, 1, 22, 0, NULL, NULL, NULL, 'is_male', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (25794, 1, 22, 1, NULL, NULL, NULL, 'is_female', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (25794, 1, 6, 0, 25798, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25794, 1, 6, 1, 2456, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25794, 1, 6, 2, 2466, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25794, 1, 6, 3, 5672, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (25794, 1, 6, 4, 7844, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25794, 1, 6, 0, 25798 /* Scold's Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25794, 1, 6, 1, 2456 /* Green Tea */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25794, 1, 6, 2, 2466 /* Red Tea */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25794, 1, 6, 3, 5672 /* Herbal Tea */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (25794, 1, 6, 4, 7844 /* Frozen Green Tea */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (25794, 1, 23, 0, NULL, NULL, NULL, 'is_male', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (25794, 1, 23, 1, NULL, NULL, NULL, 'is_female', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (25794, 0.33, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
@@ -128,7 +128,7 @@ VALUES (25794, 5, 0, 0, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, 
      , (25794, 6, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (25794, 6, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
      , (25794, 6, 0, 2, 10, 0, 1, NULL, 'Oh! You made it back alright! I''m so very happy! And you brought proof of Scold''s demise. I can''t thank you enough! Here''s a little something I froze for you while you were gone.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (25794, 6, 0, 3, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25783, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
+     , (25794, 6, 0, 3, 3, 3, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 25783 /* Snowflake */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
      , (25794, 6, 0, 4, 10, 1, 1, NULL, 'It''s magically resistant to heat so it won''t melt. It hope it will helps to remind you not to chop up people just because they are made of snow.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
      , (25794, 6, 1, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
      , (25794, 6, 1, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */

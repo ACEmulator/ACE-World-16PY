@@ -106,25 +106,25 @@ INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `
 VALUES (9406, 1, 32, 0, NULL, NULL, NULL, 'RefuseTrophiesText', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (9406, 1, 32, 1, NULL, NULL, NULL, 'RefuseInfusionText', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
      , (9406, 1, 32, 2, NULL, NULL, NULL, 'RefuseQuestRewardsText', NULL, NULL, NULL) /* GotoSet_EmoteCategory */
-     , (9406, 1, 1, 0, 9390, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 1, 9391, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 2, 9421, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 3, 9394, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 4, 9469, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 5, 9470, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 6, 9468, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 7, 9472, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 8, 9473, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 9, 9471, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 10, 9474, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 11, 9475, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 12, 9476, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 13, 9489, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 14, 9491, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 15, 9490, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 16, 27090, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 17, 27092, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (9406, 1, 1, 18, 27095, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 0, 9390 /* Lugian Armor */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 1, 9391 /* Lugian Crest */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 2, 9421 /* Lugian Scepter */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 3, 9394 /* Lugian Pauldron */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 4, 9469 /* Cloth of the Arm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 5, 9470 /* Sceptre of the Mind */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 6, 9468 /* Blade of the Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 7, 9472 /* Sleeves of the Arm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 8, 9473 /* Staff of the Mind */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 9, 9471 /* Spear of the Heart */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 10, 9474 /* Calm Strength */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 11, 9475 /* Benevolent Calm */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 12, 9476 /* Strong Benevolence */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 13, 9489 /* Sleeves of Inexhaustibility */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 14, 9491 /* Staff of Clarity */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 15, 9490 /* Spear of Purity */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 16, 27090 /* Sleeves of Inexhaustibility */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 17, 27092 /* Staff of Clarity */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
+     , (9406, 1, 1, 18, 27095 /* Spear of Purity */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
      , (9406, 0.025, 5, 0, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (9406, 0.1, 5, 1, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (9406, 0.125, 5, 2, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
@@ -135,8 +135,8 @@ VALUES (9406, 1, 32, 0, NULL, NULL, NULL, 'RefuseTrophiesText', NULL, NULL, NULL
      , (9406, 0.135, 5, 7, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (9406, 1, 22, 0, NULL, NULL, NULL, 'Level126Check@NOTEINFILTRATIONORDERS', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
      , (9406, 1, 22, 1, NULL, NULL, NULL, 'Level126Check@FURBALORINFILTRATION', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (9406, 1, 6, 0, 30830, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (9406, 1, 6, 1, 30829, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9406, 1, 6, 0, 30830 /* Coda */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (9406, 1, 6, 1, 30829 /* A Patch of Balor's Fur */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
      , (9406, 1, 23, 0, NULL, NULL, NULL, 'Level126Check@NOTEINFILTRATIONORDERS', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (9406, 1, 23, 1, NULL, NULL, NULL, 'Level126Check@FURBALORINFILTRATION', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
      , (9406, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;

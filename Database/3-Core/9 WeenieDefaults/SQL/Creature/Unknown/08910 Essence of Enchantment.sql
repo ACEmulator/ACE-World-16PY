@@ -101,129 +101,129 @@ VALUES (8910, 6, 0, 2, 0, 1, 0, 612.473147951291) /* MELEE_DEFENSE_SKILL */
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (8910, 0.05, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (8910, 1, 6, 0, 2638, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 1, 2643, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 2, 2653, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 3, 2648, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 4, 2658, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 5, 2663, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 6, 2673, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 7, 2678, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 8, 2681, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 9, 2686, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 10, 2716, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 11, 2721, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 12, 2736, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 13, 2741, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 14, 2746, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 15, 2751, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 16, 2756, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 17, 2761, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 18, 5985, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 19, 5991, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 20, 5997, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 21, 3132, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 22, 3137, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 23, 3142, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 24, 3147, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 25, 3152, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 26, 3157, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 27, 3162, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 28, 3167, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 29, 3172, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 30, 3177, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 31, 3182, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 32, 3187, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 33, 5949, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 34, 5955, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 35, 5961, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 36, 3192, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 37, 3197, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 38, 3202, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 39, 3207, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 40, 3217, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 41, 3212, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 42, 3222, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 43, 3232, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 44, 3227, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 45, 3237, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 46, 3242, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 47, 3247, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 48, 3252, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 49, 3257, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 50, 3262, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 51, 3267, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 52, 5973, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 53, 5967, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 54, 5979, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 55, 3272, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 56, 3277, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 57, 3282, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 58, 3287, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 59, 3292, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 60, 3297, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 61, 3302, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 62, 3307, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 63, 3312, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 64, 3317, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 65, 3322, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 66, 3327, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 67, 3332, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 68, 3337, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 69, 3342, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 70, 9629, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 71, 3347, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 72, 3357, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 73, 3362, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 74, 3352, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 75, 3367, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 76, 3372, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 77, 3377, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 78, 3382, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 79, 3387, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 80, 3392, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 81, 3397, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 82, 3402, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 83, 3407, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 84, 3412, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 85, 3417, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 86, 3422, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 87, 3427, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 88, 9613, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 89, 3432, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 90, 3437, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 91, 3447, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 92, 3442, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 93, 5547, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 94, 3462, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 95, 3452, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 96, 3457, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 97, 3467, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 98, 3472, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 99, 3477, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 100, 3482, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 101, 3487, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 102, 3492, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 103, 3497, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 104, 3502, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 105, 3507, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 106, 3512, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 107, 3517, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 108, 3522, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 109, 3527, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 110, 3532, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 111, 3537, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 112, 3542, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 113, 3547, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 114, 3552, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 115, 3557, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 116, 3562, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 117, 3567, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 118, 3572, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 119, 3577, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 120, 3582, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 121, 3587, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (8910, 1, 6, 122, 3592, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */;
+     , (8910, 1, 6, 0, 2638 /* Scroll of Bafflement Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 1, 2643 /* Scroll of Clumsiness Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 2, 2653 /* Scroll of Coordination Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 3, 2648 /* Scroll of Coordination Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 4, 2658 /* Scroll of Endurance Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 5, 2663 /* Scroll of Endurance Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 6, 2673 /* Scroll of Feeblemind Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 7, 2678 /* Scroll of Focus Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 8, 2681 /* Scroll of Focus Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 9, 2686 /* Scroll of Frailty Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 10, 2716 /* Scroll of Quickness Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 11, 2721 /* Scroll of Quickness Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 12, 2736 /* Scroll of Slowness Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 13, 2741 /* Scroll of Strength Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 14, 2746 /* Scroll of Self Strength VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 15, 2751 /* Scroll of Weakness Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 16, 2756 /* Scroll of WillPower Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 17, 2761 /* Scroll of WillPower Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 18, 5985 /* Scroll of Alchemy Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 19, 5991 /* Scroll of Alchemy Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 20, 5997 /* Scroll of Alchemy Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 21, 3132 /* Scroll of Arcane Benightedness VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 22, 3137 /* Scroll of Arcane Enlightenment VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 23, 3142 /* Scroll of Arcane Enlightenment Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 24, 3147 /* Scroll of Armor Tinkering Expertise Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 25, 3152 /* Scroll of Armor Tinkering Expertise Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 26, 3157 /* Scroll of Armor Tinkering Ignorance VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 27, 3162 /* Scroll of Axe Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 28, 3167 /* Scroll of Axe Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 29, 3172 /* Scroll of Axe Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 30, 3177 /* Scroll of Bow Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 31, 3182 /* Scroll of Bow Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 32, 3187 /* Scroll of Bow Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 33, 5949 /* Scroll of Cooking Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 34, 5955 /* Scroll of Cooking Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 35, 5961 /* Scroll of Cooking Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 36, 3192 /* Scroll of Creature Enchantment Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 37, 3197 /* Scroll of Creature Enchantment Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 38, 3202 /* Scroll of Creature Enchantment Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 39, 3207 /* Scroll of Crossbow Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 40, 3217 /* Scroll of Crossbow Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 41, 3212 /* Scroll of Crossbow Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 42, 3222 /* Scroll of Dagger Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 43, 3232 /* Scroll of Dagger Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 44, 3227 /* Scroll of Dagger Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 45, 3237 /* Scroll of Deception Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 46, 3242 /* Scroll of Deception Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 47, 3247 /* Scroll of Deception Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 48, 3252 /* Scroll of Defenselessness VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 49, 3257 /* Scroll of Faithlessness VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 50, 3262 /* Scroll of Fealty Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 51, 3267 /* Scroll of Fealty Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 52, 5973 /* Scroll of Fletching Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 53, 5967 /* Scroll of Fletching Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 54, 5979 /* Scroll of Fletching Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 55, 3272 /* Scroll of Healing Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 56, 3277 /* Scroll of Healing Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 57, 3282 /* Scroll of Healing Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 58, 3287 /* Scroll of Impregnability Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 59, 3292 /* Scroll of Impregnability Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 60, 3297 /* Scroll of Invulnerability Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 61, 3302 /* Scroll of Invulnerability Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 62, 3307 /* Scroll of Item Enchantment Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 63, 3312 /* Scroll of Item Enchantment Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 64, 3317 /* Scroll of Item Enchantment Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 65, 3322 /* Scroll of Item Tinkering Expertise Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 66, 3327 /* Scroll of Item Tinkering Expertise Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 67, 3332 /* Scroll of Item Tinkering Ignorance VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 68, 3337 /* Scroll of Jumping Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 69, 3342 /* Scroll of Jumping Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 70, 9629 /* Scroll of Jumping Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 71, 3347 /* Scroll of Leaden Feet VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 72, 3357 /* Scroll of Leadership Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 73, 3362 /* Scroll of Leadership Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 74, 3352 /* Scroll of Leadership Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 75, 3367 /* Scroll of Life Magic Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 76, 3372 /* Scroll of Life Magic Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 77, 3377 /* Scroll of Life Magic Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 78, 3382 /* Scroll of Lockpick Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 79, 3387 /* Scroll of Lockpick Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 80, 3392 /* Scroll of Lockpick Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 81, 3397 /* Scroll of Mace Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 82, 3402 /* Scroll of Mace Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 83, 3407 /* Scroll of Mace Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 84, 3412 /* Scroll of Magic Item Tinkering Expertise Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 85, 3417 /* Scroll of Magic Item Tinkering Expertise Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 86, 3422 /* Scroll of Magic Item Tinkering Ignorance VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 87, 3427 /* Scroll of Magic Yield Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 88, 9613 /* Scroll of Mana Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 89, 3432 /* Scroll of Mana Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 90, 3437 /* Scroll of Mana Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 91, 3447 /* Scroll of Monster Unfamiliarity VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 92, 3442 /* Scroll of Monster Attunement Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 93, 5547 /* Scroll of Monster Attunement Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 94, 3462 /* Scroll of Person Unfamiliarity VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 95, 3452 /* Scroll of Person Attunement Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 96, 3457 /* Scroll of Person Attunement Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 97, 3467 /* Scroll of Resist Magic Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 98, 3472 /* Scroll of Resist Magic Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 99, 3477 /* Scroll of Spear Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 100, 3482 /* Scroll of Spear Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 101, 3487 /* Scroll of Spear Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 102, 3492 /* Scroll of Sprint Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 103, 3497 /* Scroll of Sprint Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 104, 3502 /* Scroll of Staff Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 105, 3507 /* Scroll of Staff Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 106, 3512 /* Scroll of Staff Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 107, 3517 /* Scroll of Sword Ineptitude Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 108, 3522 /* Scroll of Sword Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 109, 3527 /* Scroll of Sword Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 110, 3532 /* Scroll of Thrown Weapons Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 111, 3537 /* Scroll of Thrown Weapon Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 112, 3542 /* Scroll of Thrown Weapon Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 113, 3547 /* Scroll of Unarmed Combat Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 114, 3552 /* Scroll of Unarmed Combat Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 115, 3557 /* Scroll of Unarmed Combat Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 116, 3562 /* Scroll of Vulnerability VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 117, 3567 /* Scroll of War Magic Ineptitude VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 118, 3572 /* Scroll of War Magic Mastery Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 119, 3577 /* Scroll of War Magic Mastery Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 120, 3582 /* Scroll of Weapon Tinkering Expertise Other VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 121, 3587 /* Scroll of Weapon Tinkering Expertise Self VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
+     , (8910, 1, 6, 122, 3592 /* Scroll of Weapon Tinkering Ignorance VI */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */;
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8910, 5, 0, 0, 1, 0, 1, NULL, 'The Essence of Enchantment emits a soft light, illuminating the area.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Act_EmoteType */
