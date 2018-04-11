@@ -160,7 +160,7 @@ VALUES (27430, 1, 0, 3, 0, 300, 0, 1909.03698980228) /* AXE_SKILL */
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
 VALUES (27430, 0.2, 19, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Homesick_EmoteCategory */
      , (27430, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
-     , (27430, 0.4, 15, 0, NULL, NULL, NULL, NULL, NULL, 1.053609E+09, 1.056965E+09) /* WoundedTaunt_EmoteCategory */
+     , (27430, 0.4, 15, 0, NULL, NULL, NULL, NULL, NULL, 0.4, 0.5) /* WoundedTaunt_EmoteCategory */
      , (27430, 0.25, 16, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (27430, 0.5, 16, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (27430, 0.75, 16, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */

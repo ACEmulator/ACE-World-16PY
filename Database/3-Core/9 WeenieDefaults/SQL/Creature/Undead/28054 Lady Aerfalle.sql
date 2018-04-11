@@ -192,9 +192,9 @@ VALUES (28054, 0.2, 19, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Homesick
      , (28054, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
      , (28054, 0.1, 14, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Taunt_EmoteCategory */
      , (28054, 0.2, 14, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Taunt_EmoteCategory */
-     , (28054, 0.19, 15, 0, NULL, NULL, NULL, NULL, NULL, 1.044549E+09, 1.045892E+09) /* WoundedTaunt_EmoteCategory */
-     , (28054, 0.49, 15, 1, NULL, NULL, NULL, NULL, NULL, 1.056629E+09, 1.057132E+09) /* WoundedTaunt_EmoteCategory */
-     , (28054, 0.79, 15, 2, NULL, NULL, NULL, NULL, NULL, 1.06183E+09, 1.062166E+09) /* WoundedTaunt_EmoteCategory */
+     , (28054, 0.19, 15, 0, NULL, NULL, NULL, NULL, NULL, 0.19, 0.21) /* WoundedTaunt_EmoteCategory */
+     , (28054, 0.49, 15, 1, NULL, NULL, NULL, NULL, NULL, 0.49, 0.51) /* WoundedTaunt_EmoteCategory */
+     , (28054, 0.79, 15, 2, NULL, NULL, NULL, NULL, NULL, 0.79, 0.81) /* WoundedTaunt_EmoteCategory */
      , (28054, 0.5, 16, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (28054, 1, 16, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (28054, 0.1, 17, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* NewEnemy_EmoteCategory */

@@ -146,8 +146,8 @@ VALUES (10941, 0.99, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_Em
      , (10941, 0.05, 14, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Taunt_EmoteCategory */
      , (10941, 0.1, 14, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Taunt_EmoteCategory */
      , (10941, 0.15, 14, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Taunt_EmoteCategory */
-     , (10941, 0.049, 15, 0, NULL, NULL, NULL, NULL, NULL, 1.028175E+09, 1.028712E+09) /* WoundedTaunt_EmoteCategory */
-     , (10941, 0.19, 15, 1, NULL, NULL, NULL, NULL, NULL, 1.044549E+09, 1.045892E+09) /* WoundedTaunt_EmoteCategory */
+     , (10941, 0.049, 15, 0, NULL, NULL, NULL, NULL, NULL, 0.049, 0.051) /* WoundedTaunt_EmoteCategory */
+     , (10941, 0.19, 15, 1, NULL, NULL, NULL, NULL, NULL, 0.19, 0.21) /* WoundedTaunt_EmoteCategory */
      , (10941, 0.5, 16, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (10941, 1, 16, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (10941, 0.1, 21, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */;

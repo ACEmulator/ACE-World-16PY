@@ -156,7 +156,7 @@ VALUES (27664, 1, 0, 3, 0, 355, 0, 1933.56416735702) /* AXE_SKILL */
      , (27664, 31, 0, 3, 0, 263, 0, 1933.56416735702) /* CREATURE_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27664, 0.1, 15, 0, NULL, NULL, NULL, NULL, NULL, 0, 1.036832E+09) /* WoundedTaunt_EmoteCategory */
+VALUES (27664, 0.1, 15, 0, NULL, NULL, NULL, NULL, NULL, 0, 0.1) /* WoundedTaunt_EmoteCategory */
      , (27664, 0.05, 18, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Scream_EmoteCategory */
      , (27664, 0.1, 18, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Scream_EmoteCategory */
      , (27664, 0.25, 21, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistSpell_EmoteCategory */
