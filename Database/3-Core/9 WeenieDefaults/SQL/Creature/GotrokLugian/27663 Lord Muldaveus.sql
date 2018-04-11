@@ -126,7 +126,7 @@ VALUES (27663, 0.25, 21, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* ResistS
      , (27663, 0.025, 5, 4, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (27663, 0.1, 5, 5, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
      , (27663, 0.125, 5, 6, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (27663, 0.1, 15, 0, NULL, NULL, NULL, NULL, NULL, 0, 1.036832E+09) /* WoundedTaunt_EmoteCategory */
+     , (27663, 0.1, 15, 0, NULL, NULL, NULL, NULL, NULL, 0, 0.1) /* WoundedTaunt_EmoteCategory */
      , (27663, 0.5, 16, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (27663, 0.7, 16, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
      , (27663, 0.75, 16, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* KillTaunt_EmoteCategory */
