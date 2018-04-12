@@ -33,10 +33,34 @@ echo This will not take long.
 copy /b ACE-World-CE16PY.sql + "..\3-Core\6 LandBlockExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql
 
+echo Compiling Regions... No output will be displayed except if error occurs.
+echo This will not take long.
+
+copy /b ACE-World-CE16PY.sql + "..\3-Core\1 RegionDescExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
+echo. >> ACE-World-CE16PY.sql
+
 echo Compiling Spells... No output will be displayed except if error occurs.
 echo This will not take long.
 
 copy /b ACE-World-CE16PY.sql + "..\3-Core\2 SpellTableExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
+echo. >> ACE-World-CE16PY.sql
+
+echo Compiling House Portals... No output will be displayed except if error occurs.
+echo This will not take long.
+
+copy /b ACE-World-CE16PY.sql + "..\3-Core\5 HousingPortals\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
+echo. >> ACE-World-CE16PY.sql
+
+echo Compiling Quests... No output will be displayed except if error occurs.
+echo This will not take long.
+
+copy /b ACE-World-CE16PY.sql + "..\3-Core\8 QuestDefDB\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
+echo. >> ACE-World-CE16PY.sql
+
+echo Compiling Events... No output will be displayed except if error occurs.
+echo This will not take long.
+
+copy /b ACE-World-CE16PY.sql + "..\3-Core\B GameEventDefDB\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql
 
 echo /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_SQL_SAFE_UPDATES */; >> ACE-World-CE16PY.sql
