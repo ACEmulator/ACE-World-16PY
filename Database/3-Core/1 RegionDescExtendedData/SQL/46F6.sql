@@ -1,0 +1,30 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (18166, 30429, 0, 0) /* halaetanextremesolgen */
+     , (18166, 30429, 0, 1) /* halaetanextremesolgen */
+     , (18166, 30429, 0, 4) /* halaetanextremesolgen */
+     , (18166, 30429, 0, 5) /* halaetanextremesolgen */
+     , (18166, 30429, 0, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 1, 1) /* halaetanextremesolgen */
+     , (18166, 30429, 1, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 1, 7) /* halaetanextremesolgen */
+     , (18166, 30429, 2, 0) /* halaetanextremesolgen */
+     , (18166, 30429, 2, 3) /* halaetanextremesolgen */
+     , (18166, 30429, 2, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 3, 4) /* halaetanextremesolgen */
+     , (18166, 30429, 3, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 3, 7) /* halaetanextremesolgen */
+     , (18166, 30429, 4, 3) /* halaetanextremesolgen */
+     , (18166, 30429, 4, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 4, 7) /* halaetanextremesolgen */
+     , (18166, 30429, 5, 0) /* halaetanextremesolgen */
+     , (18166, 30429, 5, 3) /* halaetanextremesolgen */
+     , (18166, 30429, 5, 4) /* halaetanextremesolgen */
+     , (18166, 30429, 5, 5) /* halaetanextremesolgen */
+     , (18166, 30429, 6, 5) /* halaetanextremesolgen */
+     , (18166, 30429, 6, 6) /* halaetanextremesolgen */
+     , (18166, 30429, 6, 7) /* halaetanextremesolgen */
+     , (18166, 30429, 7, 0) /* halaetanextremesolgen */
+     , (18166, 30429, 7, 1) /* halaetanextremesolgen */
+     , (18166, 30429, 7, 5) /* halaetanextremesolgen */
+     , (18166, 30429, 7, 7) /* halaetanextremesolgen */;
+

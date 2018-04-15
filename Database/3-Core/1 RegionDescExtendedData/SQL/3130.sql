@@ -1,0 +1,5 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (12592, 1981, 0, 1) /* obsidiancentermixgen */
+     , (12592, 1981, 2, 0) /* obsidiancentermixgen */
+     , (12592, 1981, 4, 4) /* obsidiancentermixgen */;
+

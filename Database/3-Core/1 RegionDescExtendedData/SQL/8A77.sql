@@ -1,0 +1,9 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (35447, 23178, 0, 5) /* newbieghadesertgen */
+     , (35447, 23178, 0, 6) /* newbieghadesertgen */
+     , (35447, 23178, 5, 0) /* newbieghadesertgen */
+     , (35447, 23178, 5, 3) /* newbieghadesertgen */
+     , (35447, 23178, 6, 3) /* newbieghadesertgen */
+     , (35447, 23178, 6, 5) /* newbieghadesertgen */
+     , (35447, 23178, 6, 6) /* newbieghadesertgen */;
+

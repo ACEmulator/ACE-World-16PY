@@ -1,0 +1,29 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (60787, 22389, 0, 1) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 0, 4) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 0, 5) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 0, 6) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 1, 2) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 1, 5) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 2, 0) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 2, 1) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 2, 3) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 2, 7) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 3, 2) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 3, 6) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 3, 7) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 4, 3) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 4, 4) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 4, 6) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 1) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 2) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 3) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 4) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 5) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 5, 7) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 6, 0) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 6, 5) /* tuskerisland-uberlandgen */
+     , (60787, 22389, 7, 1) /* tuskerisland-uberlandgen */
+     , (60787, 22539, 7, 4) /* tuskerisland-uberbeachlandgen */
+     , (60787, 22539, 7, 7) /* tuskerisland-uberbeachlandgen */;
+

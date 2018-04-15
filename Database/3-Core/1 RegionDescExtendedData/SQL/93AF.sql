@@ -1,0 +1,6 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (37807, 21183, 1, 1) /* lownorthforestgen */
+     , (37807, 21183, 2, 2) /* lownorthforestgen */
+     , (37807, 21183, 3, 0) /* lownorthforestgen */
+     , (37807, 21183, 7, 0) /* lownorthforestgen */;
+
