@@ -34,7 +34,7 @@ copy /b ACE-World-CE16PY.sql + "..\3-Core\6 LandBlockExtendedData\SQL\*.sql" ACE
 echo. >> ACE-World-CE16PY.sql
 
 echo Compiling Regions... No output will be displayed except if error occurs.
-echo This will not take long.
+echo This will take a while...
 
 copy /b ACE-World-CE16PY.sql + "..\3-Core\1 RegionDescExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql

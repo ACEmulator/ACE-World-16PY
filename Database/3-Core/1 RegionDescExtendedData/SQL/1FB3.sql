@@ -1,0 +1,4 @@
+INSERT INTO `encounter` (`landblock`, `weenie_Class_Id`, `cell_X`, `cell_Y`)
+VALUES (8115, 27735, 0, 1) /* maraelowplainsgenerator */
+     , (8115, 27735, 3, 5) /* maraelowplainsgenerator */;
+
