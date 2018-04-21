@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 8627;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8627, 'yariacidmonsteronly2', /* MeleeWeapon_WeenieType */ 6);
+VALUES (8627, 'yariacidmonsteronly2', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8627, 1, 'Acid Yari') /* NAME_STRING */;
+VALUES (8627, 001 /* NAME_STRING */, 'Acid Yari');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8627, 1, 33555825) /* SETUP_DID */
-     , (8627, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8627, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (8627, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8627, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8627, 7, 268435777) /* CLOTHINGBASE_DID */
-     , (8627, 8, 100667579) /* ICON_DID */;
+VALUES (8627, 001 /* SETUP_DID */, 33555825)
+     , (8627, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8627, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8627, 007 /* CLOTHINGBASE_DID */, 268435777)
+     , (8627, 008 /* ICON_DID */, 100667579)
+     , (8627, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8627, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8627, 9, 1048576) /* LOCATIONS_INT */
-     , (8627, 1, 1) /* ITEM_TYPE_INT */
-     , (8627, 19, 600) /* VALUE_INT */
-     , (8627, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (8627, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8627, 5, 750) /* ENCUMB_VAL_INT */
-     , (8627, 16, 1) /* ITEM_USEABLE_INT */
-     , (8627, 8, 150) /* MASS_INT */
-     , (8627, 18, 256) /* UI_EFFECTS_INT */
-     , (8627, 33, -2) /* BONDED_INT */
-     , (8627, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (8627, 44, 20) /* DAMAGE_INT */
-     , (8627, 45, 32) /* DAMAGE_TYPE_INT */
-     , (8627, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (8627, 47, 2) /* ATTACK_TYPE_INT */
-     , (8627, 48, 9) /* WEAPON_SKILL_INT */
-     , (8627, 49, 30) /* WEAPON_TIME_INT */
-     , (8627, 51, 1) /* COMBAT_USE_INT */;
+VALUES (8627, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (8627, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (8627, 005 /* ENCUMB_VAL_INT */, 750)
+     , (8627, 008 /* MASS_INT */, 150)
+     , (8627, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (8627, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8627, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
+     , (8627, 019 /* VALUE_INT */, 600)
+     , (8627, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (8627, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (8627, 044 /* DAMAGE_INT */, 20)
+     , (8627, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (8627, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (8627, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
+     , (8627, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
+     , (8627, 049 /* WEAPON_TIME_INT */, 30)
+     , (8627, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (8627, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8627, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8627, 21, 1.3) /* WEAPON_LENGTH_FLOAT */
-     , (8627, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (8627, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (8627, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
+     , (8627, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (8627, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (8627, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8627, 22, True) /* INSCRIBABLE_BOOL */
-     , (8627, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8627, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8627, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

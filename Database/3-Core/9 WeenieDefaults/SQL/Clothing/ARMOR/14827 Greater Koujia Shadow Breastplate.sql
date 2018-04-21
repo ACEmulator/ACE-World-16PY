@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 14827;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14827, 'breastplatekoujiashadowgreater0', /* Clothing_WeenieType */ 2);
+VALUES (14827, 'breastplatekoujiashadowgreater0', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14827, 1, 'Greater Koujia Shadow Breastplate') /* NAME_STRING */;
+VALUES (14827, 001 /* NAME_STRING */, 'Greater Koujia Shadow Breastplate');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14827, 1, 33554642) /* SETUP_DID */
-     , (14827, 3, 536870932) /* SOUND_TABLE_DID */
-     , (14827, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (14827, 6, 67108990) /* PALETTE_BASE_DID */
-     , (14827, 7, 268435852) /* CLOTHINGBASE_DID */
-     , (14827, 8, 100670451) /* ICON_DID */;
+VALUES (14827, 001 /* SETUP_DID */, 33554642)
+     , (14827, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (14827, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (14827, 007 /* CLOTHINGBASE_DID */, 268435852)
+     , (14827, 008 /* ICON_DID */, 100670451)
+     , (14827, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14827, 9, 512) /* LOCATIONS_INT */
-     , (14827, 1, 2) /* ITEM_TYPE_INT */
-     , (14827, 27, 32) /* ARMOR_TYPE_INT */
-     , (14827, 19, 2320) /* VALUE_INT */
-     , (14827, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (14827, 4, 1024) /* CLOTHING_PRIORITY_INT */
-     , (14827, 5, 1675) /* ENCUMB_VAL_INT */
-     , (14827, 16, 1) /* ITEM_USEABLE_INT */
-     , (14827, 8, 850) /* MASS_INT */
-     , (14827, 28, 195) /* ARMOR_LEVEL_INT */
-     , (14827, 93, 1044) /* PHYSICS_STATE_INT */
-     , (14827, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (14827, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (14827, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (14827, 33, 1) /* BONDED_INT */;
+VALUES (14827, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (14827, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (14827, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
+     , (14827, 005 /* ENCUMB_VAL_INT */, 1675)
+     , (14827, 008 /* MASS_INT */, 850)
+     , (14827, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
+     , (14827, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (14827, 019 /* VALUE_INT */, 2320)
+     , (14827, 027 /* ARMOR_TYPE_INT */, 32)
+     , (14827, 028 /* ARMOR_LEVEL_INT */, 195)
+     , (14827, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (14827, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (14827, 158 /* WIELD_REQUIREMENTS_INT */, 7)
+     , (14827, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (14827, 160 /* WIELD_DIFFICULTY_INT */, 30);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14827, 12, 0.95) /* SHADE_FLOAT */
-     , (14827, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (14827, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (14827, 110, 1) /* BULK_MOD_FLOAT */
-     , (14827, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (14827, 111, 1) /* SIZE_MOD_FLOAT */
-     , (14827, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (14827, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (14827, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (14827, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (14827, 012 /* SHADE_FLOAT */, 0.95)
+     , (14827, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (14827, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (14827, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (14827, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
+     , (14827, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
+     , (14827, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
+     , (14827, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.5)
+     , (14827, 110 /* BULK_MOD_FLOAT */, 1)
+     , (14827, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14827, 22, True) /* INSCRIBABLE_BOOL */
-     , (14827, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (14827, 022 /* INSCRIBABLE_BOOL */, True)
+     , (14827, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

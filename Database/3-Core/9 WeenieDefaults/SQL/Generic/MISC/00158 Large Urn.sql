@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 158;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (158, 'largeurn', /* Generic_WeenieType */ 1);
+VALUES (158, 'largeurn', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (158, 1, 'Large Urn') /* NAME_STRING */;
+VALUES (158, 001 /* NAME_STRING */, 'Large Urn');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (158, 1, 33555091) /* SETUP_DID */
-     , (158, 3, 536870932) /* SOUND_TABLE_DID */
-     , (158, 8, 100668109) /* ICON_DID */
-     , (158, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (158, 001 /* SETUP_DID */, 33555091)
+     , (158, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (158, 008 /* ICON_DID */, 100668109)
+     , (158, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (158, 1, 128) /* ITEM_TYPE_INT */
-     , (158, 93, 1048) /* PHYSICS_STATE_INT */
-     , (158, 5, 6000) /* ENCUMB_VAL_INT */
-     , (158, 16, 1) /* ITEM_USEABLE_INT */
-     , (158, 8, 3000) /* MASS_INT */
-     , (158, 19, 200) /* VALUE_INT */;
+VALUES (158, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (158, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (158, 008 /* MASS_INT */, 3000)
+     , (158, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (158, 019 /* VALUE_INT */, 200)
+     , (158, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (158, 39, 2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (158, 039 /* DEFAULT_SCALE_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (158, 1, True) /* STUCK_BOOL */
-     , (158, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (158, 13, False) /* ETHEREAL_BOOL */;
+VALUES (158, 001 /* STUCK_BOOL */, True)
+     , (158, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (158, 013 /* ETHEREAL_BOOL */, False);
 

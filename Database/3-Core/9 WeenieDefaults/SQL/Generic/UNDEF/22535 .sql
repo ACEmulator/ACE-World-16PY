@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 22535;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22535, 'tuskerisland-lowbeachlandgen', /* Generic_WeenieType */ 1);
+VALUES (22535, 'tuskerisland-lowbeachlandgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22535, 1, 'tuskerisland-lowbeachlandgen') /* NAME_STRING */;
+VALUES (22535, 001 /* NAME_STRING */, 'tuskerisland-lowbeachlandgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22535, 1, 33555051) /* SETUP_DID */
-     , (22535, 8, 100667494) /* ICON_DID */;
+VALUES (22535, 001 /* SETUP_DID */, 33555051)
+     , (22535, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22535, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (22535, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (22535, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (22535, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (22535, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (22535, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22535, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (22535, 43, 5) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (22535, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (22535, 043 /* GENERATOR_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22535, 1, True) /* STUCK_BOOL */
-     , (22535, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (22535, 18, True) /* VISIBILITY_BOOL */;
+VALUES (22535, 001 /* STUCK_BOOL */, True)
+     , (22535, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (22535, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22535, 0.08, 22524, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Tuskie Tosser (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

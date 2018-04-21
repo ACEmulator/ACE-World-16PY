@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 4602;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4602, 'serviceenduranceother', /* Generic_WeenieType */ 1);
+VALUES (4602, 'serviceenduranceother', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4602, 1, 'Endurance Other I') /* NAME_STRING */;
+VALUES (4602, 001 /* NAME_STRING */, 'Endurance Other I');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4602, 1, 33554667) /* SETUP_DID */
-     , (4602, 8, 100668273) /* ICON_DID */
-     , (4602, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (4602, 28, 1355) /* SPELL_DID */;
+VALUES (4602, 001 /* SETUP_DID */, 33554667)
+     , (4602, 008 /* ICON_DID */, 100668273)
+     , (4602, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (4602, 028 /* SPELL_DID */, 1355 /* EnduranceOther1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4602, 9, 0) /* LOCATIONS_INT */
-     , (4602, 1, 1048576) /* ITEM_TYPE_INT */
-     , (4602, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4602, 5, 0) /* ENCUMB_VAL_INT */
-     , (4602, 16, 1) /* ITEM_USEABLE_INT */
-     , (4602, 8, 0) /* MASS_INT */
-     , (4602, 19, 100) /* VALUE_INT */;
+VALUES (4602, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (4602, 005 /* ENCUMB_VAL_INT */, 0)
+     , (4602, 008 /* MASS_INT */, 0)
+     , (4602, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4602, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4602, 019 /* VALUE_INT */, 100)
+     , (4602, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4602, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (4602, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (4602, 022 /* INSCRIBABLE_BOOL */, False)
+     , (4602, 051 /* VENDOR_SERVICE_BOOL */, True);
 

@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 13194;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13194, 'wisplakecottagessign', /* Generic_WeenieType */ 1);
+VALUES (13194, 'wisplakecottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13194, 16, 'Welcome to Wisp Lake Cottages') /* LONG_DESC_STRING */
-     , (13194, 1, 'Wisp Lake Cottages') /* NAME_STRING */;
+VALUES (13194, 001 /* NAME_STRING */, 'Wisp Lake Cottages')
+     , (13194, 016 /* LONG_DESC_STRING */, 'Welcome to Wisp Lake Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13194, 1, 33557463) /* SETUP_DID */
-     , (13194, 8, 100668115) /* ICON_DID */;
+VALUES (13194, 001 /* SETUP_DID */, 33557463)
+     , (13194, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13194, 1, 128) /* ITEM_TYPE_INT */
-     , (13194, 93, 1048) /* PHYSICS_STATE_INT */
-     , (13194, 5, 9000) /* ENCUMB_VAL_INT */
-     , (13194, 16, 1) /* ITEM_USEABLE_INT */
-     , (13194, 8, 1800) /* MASS_INT */
-     , (13194, 19, 125) /* VALUE_INT */;
+VALUES (13194, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (13194, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (13194, 008 /* MASS_INT */, 1800)
+     , (13194, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (13194, 019 /* VALUE_INT */, 125)
+     , (13194, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13194, 1, True) /* STUCK_BOOL */
-     , (13194, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (13194, 13, False) /* ETHEREAL_BOOL */
-     , (13194, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (13194, 001 /* STUCK_BOOL */, True)
+     , (13194, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (13194, 013 /* ETHEREAL_BOOL */, False)
+     , (13194, 022 /* INSCRIBABLE_BOOL */, False);
 

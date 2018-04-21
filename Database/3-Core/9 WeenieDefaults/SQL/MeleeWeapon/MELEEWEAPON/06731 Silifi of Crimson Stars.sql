@@ -2,63 +2,63 @@
 DELETE FROM weenie WHERE class_Id = 6731;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6731, 'silificrimsonstars245sandy', /* MeleeWeapon_WeenieType */ 6);
+VALUES (6731, 'silificrimsonstars245sandy', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6731, 16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Sandy Armoredillo. It is fitted with the rubies Al-Khur, Yujazik, and Sulmada.') /* LONG_DESC_STRING */
-     , (6731, 1, 'Silifi of Crimson Stars') /* NAME_STRING */
-     , (6731, 15, 'An ancient silifi, its blade made from the spine of an Armoredillo. It is fitted with three of the Crimson Star rubies.') /* SHORT_DESC_STRING */;
+VALUES (6731, 001 /* NAME_STRING */, 'Silifi of Crimson Stars')
+     , (6731, 015 /* SHORT_DESC_STRING */, 'An ancient silifi, its blade made from the spine of an Armoredillo. It is fitted with three of the Crimson Star rubies.')
+     , (6731, 016 /* LONG_DESC_STRING */, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Sandy Armoredillo. It is fitted with the rubies Al-Khur, Yujazik, and Sulmada.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6731, 1, 33556553) /* SETUP_DID */
-     , (6731, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6731, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (6731, 37, 1) /* ITEM_SKILL_LIMIT_DID */
-     , (6731, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6731, 6, 67111919) /* PALETTE_BASE_DID */
-     , (6731, 7, 268435986) /* CLOTHINGBASE_DID */
-     , (6731, 8, 100670611) /* ICON_DID */;
+VALUES (6731, 001 /* SETUP_DID */, 33556553)
+     , (6731, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6731, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (6731, 007 /* CLOTHINGBASE_DID */, 268435986)
+     , (6731, 008 /* ICON_DID */, 100670611)
+     , (6731, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6731, 036 /* MUTATE_FILTER_DID */, 234881044)
+     , (6731, 037 /* ITEM_SKILL_LIMIT_DID */, 1);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6731, 9, 1048576) /* LOCATIONS_INT */
-     , (6731, 1, 1) /* ITEM_TYPE_INT */
-     , (6731, 19, 11700) /* VALUE_INT */
-     , (6731, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (6731, 5, 950) /* ENCUMB_VAL_INT */
-     , (6731, 16, 1) /* ITEM_USEABLE_INT */
-     , (6731, 8, 360) /* MASS_INT */
-     , (6731, 18, 1) /* UI_EFFECTS_INT */
-     , (6731, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (6731, 151, 2) /* HOOK_TYPE_INT */
-     , (6731, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6731, 33, 1) /* BONDED_INT */
-     , (6731, 106, 170) /* ITEM_SPELLCRAFT_INT */
-     , (6731, 107, 900) /* ITEM_CUR_MANA_INT */
-     , (6731, 44, 17) /* DAMAGE_INT */
-     , (6731, 108, 900) /* ITEM_MAX_MANA_INT */
-     , (6731, 45, 64) /* DAMAGE_TYPE_INT */
-     , (6731, 109, 110) /* ITEM_DIFFICULTY_INT */
-     , (6731, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (6731, 47, 4) /* ATTACK_TYPE_INT */
-     , (6731, 48, 1) /* WEAPON_SKILL_INT */
-     , (6731, 49, 40) /* WEAPON_TIME_INT */
-     , (6731, 114, 1) /* ATTUNED_INT */
-     , (6731, 51, 1) /* COMBAT_USE_INT */
-     , (6731, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
+VALUES (6731, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (6731, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (6731, 005 /* ENCUMB_VAL_INT */, 950)
+     , (6731, 008 /* MASS_INT */, 360)
+     , (6731, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (6731, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6731, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (6731, 019 /* VALUE_INT */, 11700)
+     , (6731, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6731, 044 /* DAMAGE_INT */, 17)
+     , (6731, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
+     , (6731, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (6731, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (6731, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
+     , (6731, 049 /* WEAPON_TIME_INT */, 40)
+     , (6731, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (6731, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6731, 106 /* ITEM_SPELLCRAFT_INT */, 170)
+     , (6731, 107 /* ITEM_CUR_MANA_INT */, 900)
+     , (6731, 108 /* ITEM_MAX_MANA_INT */, 900)
+     , (6731, 109 /* ITEM_DIFFICULTY_INT */, 110)
+     , (6731, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (6731, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 280)
+     , (6731, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (6731, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6731, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
-     , (6731, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
-     , (6731, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (6731, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
-     , (6731, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */
-     , (6731, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (6731, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (6731, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
+     , (6731, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (6731, 029 /* WEAPON_DEFENSE_FLOAT */, 1.1)
+     , (6731, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
+     , (6731, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6731, 99, True) /* IVORYABLE_BOOL */
-     , (6731, 69, False) /* IS_SELLABLE_BOOL */
-     , (6731, 22, True) /* INSCRIBABLE_BOOL */
-     , (6731, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6731, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6731, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (6731, 069 /* IS_SELLABLE_BOOL */, False)
+     , (6731, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6731, 1096, 2) /* FireProtectionOther6_SpellID */

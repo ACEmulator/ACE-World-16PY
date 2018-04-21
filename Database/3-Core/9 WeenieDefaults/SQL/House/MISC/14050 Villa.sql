@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 14050;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14050, 'housevilla1858', /* House_WeenieType */ 53);
+VALUES (14050, 'housevilla1858', 53 /* House_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14050, 1, 'Villa') /* NAME_STRING */;
+VALUES (14050, 001 /* NAME_STRING */, 'Villa');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14050, 1, 33557058) /* SETUP_DID */
-     , (14050, 8, 100671886) /* ICON_DID */
-     , (14050, 42, 1858) /* HOUSEID_DID */
-     , (14050, 44, 151) /* RESTRICTION_EFFECT_DID */;
+VALUES (14050, 001 /* SETUP_DID */, 33557058)
+     , (14050, 008 /* ICON_DID */, 100671886)
+     , (14050, 042 /* HOUSEID_DID */, 1858)
+     , (14050, 044 /* RESTRICTION_EFFECT_DID */, 151 /* PS_WeddingSteele */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14050, 161, 50) /* HOUSE_MAX_HOOKS_USABLE_INT */
-     , (14050, 9, 0) /* LOCATIONS_INT */
-     , (14050, 1, 128) /* ITEM_TYPE_INT */
-     , (14050, 93, 52) /* PHYSICS_STATE_INT */
-     , (14050, 5, 10) /* ENCUMB_VAL_INT */
-     , (14050, 16, 1) /* ITEM_USEABLE_INT */
-     , (14050, 8, 10) /* MASS_INT */
-     , (14050, 155, 2) /* HOUSE_TYPE_INT */
-     , (14050, 19, 0) /* VALUE_INT */;
+VALUES (14050, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14050, 005 /* ENCUMB_VAL_INT */, 10)
+     , (14050, 008 /* MASS_INT */, 10)
+     , (14050, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (14050, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (14050, 019 /* VALUE_INT */, 0)
+     , (14050, 093 /* PHYSICS_STATE_INT */, 52 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, NODRAW_PS */)
+     , (14050, 155 /* HOUSE_TYPE_INT */, 2 /* Villa_HouseType */)
+     , (14050, 161 /* HOUSE_MAX_HOOKS_USABLE_INT */, 50);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14050, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (14050, 039 /* DEFAULT_SCALE_FLOAT */, 0.1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14050, 1, True) /* STUCK_BOOL */
-     , (14050, 71, True) /* NODRAW_BOOL */
-     , (14050, 13, True) /* ETHEREAL_BOOL */
-     , (14050, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (14050, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (14050, 001 /* STUCK_BOOL */, True)
+     , (14050, 013 /* ETHEREAL_BOOL */, True)
+     , (14050, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (14050, 024 /* UI_HIDDEN_BOOL */, True)
+     , (14050, 071 /* NODRAW_BOOL */, True);
 

@@ -2,26 +2,26 @@
 DELETE FROM weenie WHERE class_Id = 22121;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22121, 'ursuinrugaliverug', /* Generic_WeenieType */ 1);
+VALUES (22121, 'ursuinrugaliverug', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22121, 1, 'Ursuin Rug') /* NAME_STRING */
-     , (22121, 15, 'An Ursuin hide Rug') /* SHORT_DESC_STRING */;
+VALUES (22121, 001 /* NAME_STRING */, 'Ursuin Rug')
+     , (22121, 015 /* SHORT_DESC_STRING */, 'An Ursuin hide Rug');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22121, 1, 33557140) /* SETUP_DID */
-     , (22121, 8, 100671820) /* ICON_DID */;
+VALUES (22121, 001 /* SETUP_DID */, 33557140)
+     , (22121, 008 /* ICON_DID */, 100671820);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22121, 9, 0) /* LOCATIONS_INT */
-     , (22121, 1, 128) /* ITEM_TYPE_INT */
-     , (22121, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22121, 5, 50) /* ENCUMB_VAL_INT */
-     , (22121, 16, 1) /* ITEM_USEABLE_INT */
-     , (22121, 8, 25) /* MASS_INT */
-     , (22121, 19, 100000) /* VALUE_INT */;
+VALUES (22121, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22121, 005 /* ENCUMB_VAL_INT */, 50)
+     , (22121, 008 /* MASS_INT */, 25)
+     , (22121, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (22121, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22121, 019 /* VALUE_INT */, 100000)
+     , (22121, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22121, 1, True) /* STUCK_BOOL */
-     , (22121, 13, True) /* ETHEREAL_BOOL */;
+VALUES (22121, 001 /* STUCK_BOOL */, True)
+     , (22121, 013 /* ETHEREAL_BOOL */, True);
 

@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 11696;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11696, 'houseconstructionsign', /* Generic_WeenieType */ 1);
+VALUES (11696, 'houseconstructionsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11696, 16, 'Under Construction') /* LONG_DESC_STRING */
-     , (11696, 1, 'Under Construction') /* NAME_STRING */;
+VALUES (11696, 001 /* NAME_STRING */, 'Under Construction')
+     , (11696, 016 /* LONG_DESC_STRING */, 'Under Construction');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11696, 1, 33555088) /* SETUP_DID */
-     , (11696, 8, 100668115) /* ICON_DID */;
+VALUES (11696, 001 /* SETUP_DID */, 33555088)
+     , (11696, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11696, 1, 128) /* ITEM_TYPE_INT */
-     , (11696, 93, 1048) /* PHYSICS_STATE_INT */
-     , (11696, 5, 9000) /* ENCUMB_VAL_INT */
-     , (11696, 16, 1) /* ITEM_USEABLE_INT */
-     , (11696, 8, 1800) /* MASS_INT */
-     , (11696, 19, 125) /* VALUE_INT */;
+VALUES (11696, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11696, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (11696, 008 /* MASS_INT */, 1800)
+     , (11696, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11696, 019 /* VALUE_INT */, 125)
+     , (11696, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11696, 1, True) /* STUCK_BOOL */
-     , (11696, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (11696, 13, False) /* ETHEREAL_BOOL */
-     , (11696, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (11696, 001 /* STUCK_BOOL */, True)
+     , (11696, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (11696, 013 /* ETHEREAL_BOOL */, False)
+     , (11696, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 5635;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5635, 'friedrabbit', /* Food_WeenieType */ 18);
+VALUES (5635, 'friedrabbit', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5635, 1, 'Fried Rabbit ') /* NAME_STRING */
-     , (5635, 20, 'Fried Rabbits') /* PLURAL_NAME_STRING */
-     , (5635, 14, 'Use this item to eat it.') /* USE_STRING */;
+VALUES (5635, 001 /* NAME_STRING */, 'Fried Rabbit ')
+     , (5635, 014 /* USE_STRING */, 'Use this item to eat it.')
+     , (5635, 020 /* PLURAL_NAME_STRING */, 'Fried Rabbits');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5635, 1, 33556031) /* SETUP_DID */
-     , (5635, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5635, 8, 100670272) /* ICON_DID */
-     , (5635, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5635, 001 /* SETUP_DID */, 33556031)
+     , (5635, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5635, 008 /* ICON_DID */, 100670272)
+     , (5635, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5635, 9, 0) /* LOCATIONS_INT */
-     , (5635, 1, 32) /* ITEM_TYPE_INT */
-     , (5635, 13, 75) /* STACK_UNIT_ENCUMB_INT */
-     , (5635, 5, 75) /* ENCUMB_VAL_INT */
-     , (5635, 8, 50) /* MASS_INT */
-     , (5635, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5635, 12, 1) /* STACK_SIZE_INT */
-     , (5635, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (5635, 15, 20) /* STACK_UNIT_VALUE_INT */
-     , (5635, 16, 8) /* ITEM_USEABLE_INT */
-     , (5635, 19, 20) /* VALUE_INT */
-     , (5635, 89, 4) /* BOOSTER_ENUM_INT */
-     , (5635, 90, 12) /* BOOST_VALUE_INT */
-     , (5635, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (5635, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (5635, 005 /* ENCUMB_VAL_INT */, 75)
+     , (5635, 008 /* MASS_INT */, 50)
+     , (5635, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5635, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5635, 012 /* STACK_SIZE_INT */, 1)
+     , (5635, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
+     , (5635, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (5635, 015 /* STACK_UNIT_VALUE_INT */, 20)
+     , (5635, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5635, 019 /* VALUE_INT */, 20)
+     , (5635, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (5635, 090 /* BOOST_VALUE_INT */, 12)
+     , (5635, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5635, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (5635, 069 /* IS_SELLABLE_BOOL */, False);
 

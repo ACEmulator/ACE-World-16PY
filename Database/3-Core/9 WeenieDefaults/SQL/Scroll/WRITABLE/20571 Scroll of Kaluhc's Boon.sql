@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 20571;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20571, 'scrollpersonattunementother7', /* Scroll_WeenieType */ 34);
+VALUES (20571, 'scrollpersonattunementother7', 34 /* Scroll_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20571, 1, 'Scroll of Kaluhc''s Boon') /* NAME_STRING */
-     , (20571, 15, 'When learned, this spell increases the target''s Assess Person skill by 40 points.') /* SHORT_DESC_STRING */;
+VALUES (20571, 001 /* NAME_STRING */, 'Scroll of Kaluhc''s Boon')
+     , (20571, 015 /* SHORT_DESC_STRING */, 'When learned, this spell increases the target''s Assess Person skill by 40 points.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20571, 1, 33554826) /* SETUP_DID */
-     , (20571, 8, 100676448) /* ICON_DID */
-     , (20571, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (20571, 28, 2292) /* SPELL_DID */;
+VALUES (20571, 001 /* SETUP_DID */, 33554826)
+     , (20571, 008 /* ICON_DID */, 100676448)
+     , (20571, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (20571, 028 /* SPELL_DID */, 2292 /* PersonAttunementOther7_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20571, 9, 0) /* LOCATIONS_INT */
-     , (20571, 1, 8192) /* ITEM_TYPE_INT */
-     , (20571, 93, 1044) /* PHYSICS_STATE_INT */
-     , (20571, 5, 30) /* ENCUMB_VAL_INT */
-     , (20571, 16, 8) /* ITEM_USEABLE_INT */
-     , (20571, 8, 90) /* MASS_INT */
-     , (20571, 19, 2000) /* VALUE_INT */;
+VALUES (20571, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (20571, 005 /* ENCUMB_VAL_INT */, 30)
+     , (20571, 008 /* MASS_INT */, 90)
+     , (20571, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (20571, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (20571, 019 /* VALUE_INT */, 2000)
+     , (20571, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20571, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (20571, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20571, 22, True) /* INSCRIBABLE_BOOL */
-     , (20571, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (20571, 022 /* INSCRIBABLE_BOOL */, True)
+     , (20571, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

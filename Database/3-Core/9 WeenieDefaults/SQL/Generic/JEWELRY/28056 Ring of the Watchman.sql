@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 28056;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28056, 'ringwatchmannew', /* Generic_WeenieType */ 1);
+VALUES (28056, 'ringwatchmannew', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28056, 16, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.') /* LONG_DESC_STRING */
-     , (28056, 1, 'Ring of the Watchman') /* NAME_STRING */;
+VALUES (28056, 001 /* NAME_STRING */, 'Ring of the Watchman')
+     , (28056, 016 /* LONG_DESC_STRING */, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28056, 1, 33554691) /* SETUP_DID */
-     , (28056, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28056, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (28056, 37, 31) /* ITEM_SKILL_LIMIT_DID */
-     , (28056, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28056, 6, 67111919) /* PALETTE_BASE_DID */
-     , (28056, 7, 268436015) /* CLOTHINGBASE_DID */
-     , (28056, 8, 100670751) /* ICON_DID */;
+VALUES (28056, 001 /* SETUP_DID */, 33554691)
+     , (28056, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28056, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (28056, 007 /* CLOTHINGBASE_DID */, 268436015)
+     , (28056, 008 /* ICON_DID */, 100670751)
+     , (28056, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (28056, 036 /* MUTATE_FILTER_DID */, 234881046)
+     , (28056, 037 /* ITEM_SKILL_LIMIT_DID */, 31);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28056, 9, 786432) /* LOCATIONS_INT */
-     , (28056, 1, 8) /* ITEM_TYPE_INT */
-     , (28056, 19, 4500) /* VALUE_INT */
-     , (28056, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (28056, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28056, 5, 15) /* ENCUMB_VAL_INT */
-     , (28056, 16, 1) /* ITEM_USEABLE_INT */
-     , (28056, 8, 10) /* MASS_INT */
-     , (28056, 18, 1) /* UI_EFFECTS_INT */
-     , (28056, 33, 1) /* BONDED_INT */
-     , (28056, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (28056, 107, 200) /* ITEM_CUR_MANA_INT */
-     , (28056, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (28056, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (28056, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
+VALUES (28056, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (28056, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (28056, 005 /* ENCUMB_VAL_INT */, 15)
+     , (28056, 008 /* MASS_INT */, 10)
+     , (28056, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
+     , (28056, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28056, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (28056, 019 /* VALUE_INT */, 4500)
+     , (28056, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (28056, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28056, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (28056, 107 /* ITEM_CUR_MANA_INT */, 200)
+     , (28056, 108 /* ITEM_MAX_MANA_INT */, 400)
+     , (28056, 109 /* ITEM_DIFFICULTY_INT */, 50)
+     , (28056, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28056, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (28056, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (28056, 005 /* MANA_RATE_FLOAT */, -0.033)
+     , (28056, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28056, 22, True) /* INSCRIBABLE_BOOL */
-     , (28056, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28056, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28056, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28056, 567, 2) /* CreatureEnchantmentMasteryOther5_SpellID */

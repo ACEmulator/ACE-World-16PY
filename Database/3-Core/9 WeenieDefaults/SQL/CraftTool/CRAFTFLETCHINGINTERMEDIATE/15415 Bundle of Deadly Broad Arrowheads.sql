@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 15415;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15415, 'arrowheaddeadlybroad', /* CraftTool_WeenieType */ 44);
+VALUES (15415, 'arrowheaddeadlybroad', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15415, 1, 'Bundle of Deadly Broad Arrowheads') /* NAME_STRING */
-     , (15415, 20, 'Bundles of Deadly Broad Arrowheads') /* PLURAL_NAME_STRING */
-     , (15415, 14, 'This item is used in fletching.') /* USE_STRING */;
+VALUES (15415, 001 /* NAME_STRING */, 'Bundle of Deadly Broad Arrowheads')
+     , (15415, 014 /* USE_STRING */, 'This item is used in fletching.')
+     , (15415, 020 /* PLURAL_NAME_STRING */, 'Bundles of Deadly Broad Arrowheads');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15415, 1, 33555958) /* SETUP_DID */
-     , (15415, 3, 536870932) /* SOUND_TABLE_DID */
-     , (15415, 8, 100672671) /* ICON_DID */
-     , (15415, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (15415, 001 /* SETUP_DID */, 33555958)
+     , (15415, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (15415, 008 /* ICON_DID */, 100672671)
+     , (15415, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15415, 9, 0) /* LOCATIONS_INT */
-     , (15415, 1, 134217728) /* ITEM_TYPE_INT */
-     , (15415, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (15415, 5, 10) /* ENCUMB_VAL_INT */
-     , (15415, 8, 10) /* MASS_INT */
-     , (15415, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (15415, 12, 1) /* STACK_SIZE_INT */
-     , (15415, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (15415, 15, 50) /* STACK_UNIT_VALUE_INT */
-     , (15415, 16, 524296) /* ITEM_USEABLE_INT */
-     , (15415, 19, 50) /* VALUE_INT */
-     , (15415, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15415, 94, 134217728) /* TARGET_TYPE_INT */;
+VALUES (15415, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
+     , (15415, 005 /* ENCUMB_VAL_INT */, 10)
+     , (15415, 008 /* MASS_INT */, 10)
+     , (15415, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (15415, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (15415, 012 /* STACK_SIZE_INT */, 1)
+     , (15415, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (15415, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (15415, 015 /* STACK_UNIT_VALUE_INT */, 50)
+     , (15415, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (15415, 019 /* VALUE_INT */, 50)
+     , (15415, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (15415, 094 /* TARGET_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15415, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (15415, 069 /* IS_SELLABLE_BOOL */, False);
 

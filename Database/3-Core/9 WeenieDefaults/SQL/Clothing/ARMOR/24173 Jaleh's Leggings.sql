@@ -2,55 +2,55 @@
 DELETE FROM weenie WHERE class_Id = 24173;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24173, 'leggingsjaleh', /* Clothing_WeenieType */ 2);
+VALUES (24173, 'leggingsjaleh', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24173, 16, 'A pair of richly decorated and lightweight amullian pants. The main body of the pants seems to be silk and the trim made of a heavy leather.') /* LONG_DESC_STRING */
-     , (24173, 1, 'Jaleh''s Leggings') /* NAME_STRING */;
+VALUES (24173, 001 /* NAME_STRING */, 'Jaleh''s Leggings')
+     , (24173, 016 /* LONG_DESC_STRING */, 'A pair of richly decorated and lightweight amullian pants. The main body of the pants seems to be silk and the trim made of a heavy leather.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24173, 1, 33554856) /* SETUP_DID */
-     , (24173, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24173, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (24173, 6, 67108990) /* PALETTE_BASE_DID */
-     , (24173, 7, 268436593) /* CLOTHINGBASE_DID */
-     , (24173, 8, 100674273) /* ICON_DID */;
+VALUES (24173, 001 /* SETUP_DID */, 33554856)
+     , (24173, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24173, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (24173, 007 /* CLOTHINGBASE_DID */, 268436593)
+     , (24173, 008 /* ICON_DID */, 100674273)
+     , (24173, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24173, 9, 25600) /* LOCATIONS_INT */
-     , (24173, 1, 2) /* ITEM_TYPE_INT */
-     , (24173, 19, 8500) /* VALUE_INT */
-     , (24173, 131, 53) /* MATERIAL_TYPE_INT */
-     , (24173, 3, 22) /* PALETTE_TEMPLATE_INT */
-     , (24173, 4, 2816) /* CLOTHING_PRIORITY_INT */
-     , (24173, 5, 975) /* ENCUMB_VAL_INT */
-     , (24173, 16, 1) /* ITEM_USEABLE_INT */
-     , (24173, 8, 1275) /* MASS_INT */
-     , (24173, 27, 2) /* ARMOR_TYPE_INT */
-     , (24173, 28, 200) /* ARMOR_LEVEL_INT */
-     , (24173, 93, 1044) /* PHYSICS_STATE_INT */
-     , (24173, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (24173, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (24173, 107, 650) /* ITEM_CUR_MANA_INT */
-     , (24173, 108, 650) /* ITEM_MAX_MANA_INT */
-     , (24173, 109, 120) /* ITEM_DIFFICULTY_INT */;
+VALUES (24173, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (24173, 003 /* PALETTE_TEMPLATE_INT */, 22 /* AQUA_PALETTE_TEMPLATE */)
+     , (24173, 004 /* CLOTHING_PRIORITY_INT */, 2816 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */)
+     , (24173, 005 /* ENCUMB_VAL_INT */, 975)
+     , (24173, 008 /* MASS_INT */, 1275)
+     , (24173, 009 /* LOCATIONS_INT */, 25600 /* ABDOMEN_ARMOR_LOC, UPPER_LEG_ARMOR_LOC, LOWER_LEG_ARMOR_LOC */)
+     , (24173, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (24173, 019 /* VALUE_INT */, 8500)
+     , (24173, 027 /* ARMOR_TYPE_INT */, 2)
+     , (24173, 028 /* ARMOR_LEVEL_INT */, 200)
+     , (24173, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (24173, 105 /* ITEM_WORKMANSHIP_INT */, 8)
+     , (24173, 106 /* ITEM_SPELLCRAFT_INT */, 300)
+     , (24173, 107 /* ITEM_CUR_MANA_INT */, 650)
+     , (24173, 108 /* ITEM_MAX_MANA_INT */, 650)
+     , (24173, 109 /* ITEM_DIFFICULTY_INT */, 120)
+     , (24173, 131 /* MATERIAL_TYPE_INT */, 53 /* Armoredillo_Hide_MaterialType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24173, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (24173, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (24173, 12, 0.1) /* SHADE_FLOAT */
-     , (24173, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (24173, 110, 1) /* BULK_MOD_FLOAT */
-     , (24173, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (24173, 111, 1) /* SIZE_MOD_FLOAT */
-     , (24173, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (24173, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (24173, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (24173, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (24173, 005 /* MANA_RATE_FLOAT */, -0.025)
+     , (24173, 012 /* SHADE_FLOAT */, 0.1)
+     , (24173, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
+     , (24173, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (24173, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (24173, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
+     , (24173, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
+     , (24173, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.4)
+     , (24173, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (24173, 110 /* BULK_MOD_FLOAT */, 1)
+     , (24173, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24173, 22, True) /* INSCRIBABLE_BOOL */
-     , (24173, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (24173, 022 /* INSCRIBABLE_BOOL */, True)
+     , (24173, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24173, 909, 2) /* LeadershipMasteryOther6_SpellID */

@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 143;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (143, 'chest', /* Chest_WeenieType */ 20);
+VALUES (143, 'chest', 20 /* Chest_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (143, 1, 'Chest') /* NAME_STRING */
-     , (143, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (143, 001 /* NAME_STRING */, 'Chest')
+     , (143, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (143, 1, 33554556) /* SETUP_DID */
-     , (143, 2, 150994948) /* MOTION_TABLE_DID */
-     , (143, 3, 536870945) /* SOUND_TABLE_DID */
-     , (143, 8, 100667426) /* ICON_DID */
-     , (143, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (143, 001 /* SETUP_DID */, 33554556)
+     , (143, 002 /* MOTION_TABLE_DID */, 150994948)
+     , (143, 003 /* SOUND_TABLE_DID */, 536870945)
+     , (143, 008 /* ICON_DID */, 100667426)
+     , (143, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (143, 1, 512) /* ITEM_TYPE_INT */
-     , (143, 93, 1048) /* PHYSICS_STATE_INT */
-     , (143, 5, 6000) /* ENCUMB_VAL_INT */
-     , (143, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (143, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (143, 16, 48) /* ITEM_USEABLE_INT */
-     , (143, 8, 3000) /* MASS_INT */
-     , (143, 83, 2) /* ACTIVATION_RESPONSE_INT */
-     , (143, 19, 200) /* VALUE_INT */
-     , (143, 96, 500) /* ENCUMB_CAPACITY_INT */;
+VALUES (143, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (143, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (143, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (143, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (143, 008 /* MASS_INT */, 3000)
+     , (143, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (143, 019 /* VALUE_INT */, 200)
+     , (143, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
+     , (143, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (143, 096 /* ENCUMB_CAPACITY_INT */, 500);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (143, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (143, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (143, 1, True) /* STUCK_BOOL */
-     , (143, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (143, 2, False) /* OPEN_BOOL */
-     , (143, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (143, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (143, 13, False) /* ETHEREAL_BOOL */;
+VALUES (143, 001 /* STUCK_BOOL */, True)
+     , (143, 002 /* OPEN_BOOL */, False)
+     , (143, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (143, 013 /* ETHEREAL_BOOL */, False)
+     , (143, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (143, 034 /* DEFAULT_OPEN_BOOL */, False);
 

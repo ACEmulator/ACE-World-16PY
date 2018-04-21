@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 21078;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21078, 'materialsmokyquartz', /* CraftTool_WeenieType */ 44);
+VALUES (21078, 'materialsmokyquartz', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21078, 1, 'Salvaged Smoky Quartz') /* NAME_STRING */
-     , (21078, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Coordination. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
-     , (21078, 15, 'Chips of smoky quartz material salvaged from old items.') /* SHORT_DESC_STRING */;
+VALUES (21078, 001 /* NAME_STRING */, 'Salvaged Smoky Quartz')
+     , (21078, 014 /* USE_STRING */, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Coordination. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.')
+     , (21078, 015 /* SHORT_DESC_STRING */, 'Chips of smoky quartz material salvaged from old items.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21078, 1, 33554817) /* SETUP_DID */
-     , (21078, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21078, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21078, 6, 67111919) /* PALETTE_BASE_DID */
-     , (21078, 7, 268436430) /* CLOTHINGBASE_DID */
-     , (21078, 8, 100667436) /* ICON_DID */
-     , (21078, 50, 100673302) /* ICON_OVERLAY_DID */;
+VALUES (21078, 001 /* SETUP_DID */, 33554817)
+     , (21078, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21078, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (21078, 007 /* CLOTHINGBASE_DID */, 268436430)
+     , (21078, 008 /* ICON_DID */, 100667436)
+     , (21078, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21078, 050 /* ICON_OVERLAY_DID */, 100673302);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21078, 9, 0) /* LOCATIONS_INT */
-     , (21078, 1, 1073741824) /* ITEM_TYPE_INT */
-     , (21078, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (21078, 131, 40) /* MATERIAL_TYPE_INT */
-     , (21078, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (21078, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (21078, 5, 100) /* ENCUMB_VAL_INT */
-     , (21078, 8, 100) /* MASS_INT */
-     , (21078, 12, 1) /* STACK_SIZE_INT */
-     , (21078, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (21078, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (21078, 16, 524296) /* ITEM_USEABLE_INT */
-     , (21078, 19, 10) /* VALUE_INT */
-     , (21078, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21078, 151, 9) /* HOOK_TYPE_INT */
-     , (21078, 91, 100) /* MAX_STRUCTURE_INT */
-     , (21078, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21078, 94, 8) /* TARGET_TYPE_INT */
-     , (21078, 33, 1) /* BONDED_INT */;
+VALUES (21078, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
+     , (21078, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (21078, 005 /* ENCUMB_VAL_INT */, 100)
+     , (21078, 008 /* MASS_INT */, 100)
+     , (21078, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (21078, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (21078, 012 /* STACK_SIZE_INT */, 1)
+     , (21078, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (21078, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (21078, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (21078, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (21078, 019 /* VALUE_INT */, 10)
+     , (21078, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (21078, 091 /* MAX_STRUCTURE_INT */, 100)
+     , (21078, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21078, 094 /* TARGET_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (21078, 131 /* MATERIAL_TYPE_INT */, 40 /* Smoky_Quartz_MaterialType */)
+     , (21078, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21078, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21078, 22, True) /* INSCRIBABLE_BOOL */
-     , (21078, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (21078, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21078, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

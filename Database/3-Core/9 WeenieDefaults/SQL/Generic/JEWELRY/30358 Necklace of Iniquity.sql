@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 30358;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30358, 'necklacerareiniquity', /* Generic_WeenieType */ 1);
+VALUES (30358, 'necklacerareiniquity', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30358, 16, 'Describe me here.') /* LONG_DESC_STRING */
-     , (30358, 1, 'Necklace of Iniquity') /* NAME_STRING */;
+VALUES (30358, 001 /* NAME_STRING */, 'Necklace of Iniquity')
+     , (30358, 016 /* LONG_DESC_STRING */, 'Describe me here.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30358, 1, 33554680) /* SETUP_DID */
-     , (30358, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30358, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (30358, 6, 67111919) /* PALETTE_BASE_DID */
-     , (30358, 7, 268435735) /* CLOTHINGBASE_DID */
-     , (30358, 8, 100668602) /* ICON_DID */;
+VALUES (30358, 001 /* SETUP_DID */, 33554680)
+     , (30358, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30358, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (30358, 007 /* CLOTHINGBASE_DID */, 268435735)
+     , (30358, 008 /* ICON_DID */, 100668602)
+     , (30358, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30358, 9, 32768) /* LOCATIONS_INT */
-     , (30358, 1, 8) /* ITEM_TYPE_INT */
-     , (30358, 19, 50) /* VALUE_INT */
-     , (30358, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (30358, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30358, 5, 100) /* ENCUMB_VAL_INT */
-     , (30358, 16, 1) /* ITEM_USEABLE_INT */
-     , (30358, 8, 50) /* MASS_INT */;
+VALUES (30358, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (30358, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (30358, 005 /* ENCUMB_VAL_INT */, 100)
+     , (30358, 008 /* MASS_INT */, 50)
+     , (30358, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
+     , (30358, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (30358, 019 /* VALUE_INT */, 50)
+     , (30358, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30358, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (30358, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30358, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30358, 022 /* INSCRIBABLE_BOOL */, True);
 

@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 27319;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27319, 'healthtincture', /* Food_WeenieType */ 18);
+VALUES (27319, 'healthtincture', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27319, 1, 'Health Tincture') /* NAME_STRING */
-     , (27319, 14, 'Use this item to drink it.') /* USE_STRING */;
+VALUES (27319, 001 /* NAME_STRING */, 'Health Tincture')
+     , (27319, 014 /* USE_STRING */, 'Use this item to drink it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27319, 1, 33554603) /* SETUP_DID */
-     , (27319, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27319, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (27319, 6, 67111919) /* PALETTE_BASE_DID */
-     , (27319, 23, 65) /* USE_SOUND_DID */
-     , (27319, 7, 268435816) /* CLOTHINGBASE_DID */
-     , (27319, 8, 100676311) /* ICON_DID */;
+VALUES (27319, 001 /* SETUP_DID */, 33554603)
+     , (27319, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27319, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (27319, 007 /* CLOTHINGBASE_DID */, 268435816)
+     , (27319, 008 /* ICON_DID */, 100676311)
+     , (27319, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (27319, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27319, 9, 0) /* LOCATIONS_INT */
-     , (27319, 1, 128) /* ITEM_TYPE_INT */
-     , (27319, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (27319, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (27319, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (27319, 5, 50) /* ENCUMB_VAL_INT */
-     , (27319, 8, 45) /* MASS_INT */
-     , (27319, 12, 1) /* STACK_SIZE_INT */
-     , (27319, 14, 45) /* STACK_UNIT_MASS_INT */
-     , (27319, 15, 500) /* STACK_UNIT_VALUE_INT */
-     , (27319, 16, 8) /* ITEM_USEABLE_INT */
-     , (27319, 19, 500) /* VALUE_INT */
-     , (27319, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (27319, 151, 11) /* HOOK_TYPE_INT */
-     , (27319, 89, 2) /* BOOSTER_ENUM_INT */
-     , (27319, 90, 50) /* BOOST_VALUE_INT */
-     , (27319, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (27319, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (27319, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (27319, 005 /* ENCUMB_VAL_INT */, 50)
+     , (27319, 008 /* MASS_INT */, 45)
+     , (27319, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27319, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (27319, 012 /* STACK_SIZE_INT */, 1)
+     , (27319, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (27319, 014 /* STACK_UNIT_MASS_INT */, 45)
+     , (27319, 015 /* STACK_UNIT_VALUE_INT */, 500)
+     , (27319, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (27319, 019 /* VALUE_INT */, 500)
+     , (27319, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
+     , (27319, 090 /* BOOST_VALUE_INT */, 50)
+     , (27319, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (27319, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (27319, 151 /* HOOK_TYPE_INT */, 11 /*  */);
 

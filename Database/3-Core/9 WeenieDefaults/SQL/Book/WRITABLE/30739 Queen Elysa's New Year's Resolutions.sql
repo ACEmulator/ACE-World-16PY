@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 30739;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30739, 'notenewyearsresolutionselysa', /* Book_WeenieType */ 8);
+VALUES (30739, 'notenewyearsresolutionselysa', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30739, 1, 'Queen Elysa''s New Year''s Resolutions') /* NAME_STRING */;
+VALUES (30739, 001 /* NAME_STRING */, 'Queen Elysa''s New Year''s Resolutions');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30739, 1, 33554773) /* SETUP_DID */
-     , (30739, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30739, 8, 100667503) /* ICON_DID */
-     , (30739, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (30739, 001 /* SETUP_DID */, 33554773)
+     , (30739, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30739, 008 /* ICON_DID */, 100667503)
+     , (30739, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30739, 9, 0) /* LOCATIONS_INT */
-     , (30739, 1, 8192) /* ITEM_TYPE_INT */
-     , (30739, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30739, 5, 5) /* ENCUMB_VAL_INT */
-     , (30739, 16, 8) /* ITEM_USEABLE_INT */
-     , (30739, 8, 5) /* MASS_INT */
-     , (30739, 19, 100) /* VALUE_INT */
-     , (30739, 150, 99) /* HOOK_PLACEMENT_INT */
-     , (30739, 151, 2) /* HOOK_TYPE_INT */
-     , (30739, 33, 0) /* BONDED_INT */
-     , (30739, 114, 0) /* ATTUNED_INT */;
+VALUES (30739, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (30739, 005 /* ENCUMB_VAL_INT */, 5)
+     , (30739, 008 /* MASS_INT */, 5)
+     , (30739, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30739, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (30739, 019 /* VALUE_INT */, 100)
+     , (30739, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (30739, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30739, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
+     , (30739, 150 /* HOOK_PLACEMENT_INT */, 99 /* XXXUnknown63 */)
+     , (30739, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30739, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (30739, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30739, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (30739, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30739, 2, 1000) /* Book Data */;

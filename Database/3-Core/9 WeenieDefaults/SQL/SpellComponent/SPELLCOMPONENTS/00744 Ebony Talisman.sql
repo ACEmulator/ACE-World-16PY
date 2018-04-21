@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 744;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (744, 'ebonytalisman', /* SpellComponent_WeenieType */ 32);
+VALUES (744, 'ebonytalisman', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (744, 1, 'Ebony Talisman') /* NAME_STRING */;
+VALUES (744, 001 /* NAME_STRING */, 'Ebony Talisman');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (744, 1, 33555207) /* SETUP_DID */
-     , (744, 3, 536870932) /* SOUND_TABLE_DID */
-     , (744, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (744, 6, 67111919) /* PALETTE_BASE_DID */
-     , (744, 7, 268435722) /* CLOTHINGBASE_DID */
-     , (744, 8, 100669709) /* ICON_DID */
-     , (744, 29, 54) /* SPELL_COMPONENT_DID */;
+VALUES (744, 001 /* SETUP_DID */, 33555207)
+     , (744, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (744, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (744, 007 /* CLOTHINGBASE_DID */, 268435722)
+     , (744, 008 /* ICON_DID */, 100669709)
+     , (744, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (744, 029 /* SPELL_COMPONENT_DID */, 54);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (744, 9, 0) /* LOCATIONS_INT */
-     , (744, 1, 4096) /* ITEM_TYPE_INT */
-     , (744, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (744, 3, 13) /* PALETTE_TEMPLATE_INT */
-     , (744, 13, 4) /* STACK_UNIT_ENCUMB_INT */
-     , (744, 5, 4) /* ENCUMB_VAL_INT */
-     , (744, 8, 100) /* MASS_INT */
-     , (744, 12, 1) /* STACK_SIZE_INT */
-     , (744, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (744, 15, 5) /* STACK_UNIT_VALUE_INT */
-     , (744, 16, 1) /* ITEM_USEABLE_INT */
-     , (744, 19, 5) /* VALUE_INT */
-     , (744, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (744, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (744, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
+     , (744, 005 /* ENCUMB_VAL_INT */, 4)
+     , (744, 008 /* MASS_INT */, 100)
+     , (744, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (744, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (744, 012 /* STACK_SIZE_INT */, 1)
+     , (744, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
+     , (744, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (744, 015 /* STACK_UNIT_VALUE_INT */, 5)
+     , (744, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (744, 019 /* VALUE_INT */, 5)
+     , (744, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

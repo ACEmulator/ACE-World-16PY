@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 6911;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6911, 'bowcompositedmg1def3spd2atk0', /* MissileLauncher_WeenieType */ 3);
+VALUES (6911, 'bowcompositedmg1def3spd2atk0', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6911, 1, 'Composite Bow') /* NAME_STRING */;
+VALUES (6911, 001 /* NAME_STRING */, 'Composite Bow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6911, 1, 33556601) /* SETUP_DID */
-     , (6911, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6911, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6911, 6, 67112869) /* PALETTE_BASE_DID */
-     , (6911, 7, 268436003) /* CLOTHINGBASE_DID */
-     , (6911, 8, 100670672) /* ICON_DID */;
+VALUES (6911, 001 /* SETUP_DID */, 33556601)
+     , (6911, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6911, 006 /* PALETTE_BASE_DID */, 67112869)
+     , (6911, 007 /* CLOTHINGBASE_DID */, 268436003)
+     , (6911, 008 /* ICON_DID */, 100670672)
+     , (6911, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6911, 33, 1) /* BONDED_INT */
-     , (6911, 9, 4194304) /* LOCATIONS_INT */
-     , (6911, 1, 256) /* ITEM_TYPE_INT */
-     , (6911, 19, 400) /* VALUE_INT */
-     , (6911, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (6911, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6911, 5, 980) /* ENCUMB_VAL_INT */
-     , (6911, 16, 1) /* ITEM_USEABLE_INT */
-     , (6911, 8, 140) /* MASS_INT */
-     , (6911, 44, 0) /* DAMAGE_INT */
-     , (6911, 46, 16) /* DEFAULT_COMBAT_STYLE_INT */
-     , (6911, 48, 2) /* WEAPON_SKILL_INT */
-     , (6911, 49, 40) /* WEAPON_TIME_INT */
-     , (6911, 50, 1) /* AMMO_TYPE_INT */
-     , (6911, 114, 1) /* ATTUNED_INT */
-     , (6911, 51, 2) /* COMBAT_USE_INT */
-     , (6911, 52, 2) /* PARENT_LOCATION_INT */
-     , (6911, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (6911, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (6911, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (6911, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (6911, 005 /* ENCUMB_VAL_INT */, 980)
+     , (6911, 008 /* MASS_INT */, 140)
+     , (6911, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (6911, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6911, 019 /* VALUE_INT */, 400)
+     , (6911, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6911, 044 /* DAMAGE_INT */, 0)
+     , (6911, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
+     , (6911, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
+     , (6911, 049 /* WEAPON_TIME_INT */, 40)
+     , (6911, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (6911, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (6911, 052 /* PARENT_LOCATION_INT */, 2)
+     , (6911, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (6911, 060 /* WEAPON_RANGE_INT */, 192)
+     , (6911, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6911, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6911, 63, 1.4) /* DAMAGE_MOD_FLOAT */
-     , (6911, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (6911, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (6911, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (6911, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (6911, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (6911, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
+     , (6911, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (6911, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (6911, 063 /* DAMAGE_MOD_FLOAT */, 1.4);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6911, 69, False) /* IS_SELLABLE_BOOL */
-     , (6911, 22, True) /* INSCRIBABLE_BOOL */
-     , (6911, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6911, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6911, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (6911, 069 /* IS_SELLABLE_BOOL */, False);
 

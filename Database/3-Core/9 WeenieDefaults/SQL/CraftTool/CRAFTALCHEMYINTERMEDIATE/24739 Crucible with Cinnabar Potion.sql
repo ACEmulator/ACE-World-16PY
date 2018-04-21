@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 24739;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24739, 'cruciblestamina', /* CraftTool_WeenieType */ 44);
+VALUES (24739, 'cruciblestamina', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24739, 16, 'A Cinnabar Potion has been added to this crucible.') /* LONG_DESC_STRING */
-     , (24739, 1, 'Crucible with Cinnabar Potion') /* NAME_STRING */
-     , (24739, 20, 'Crucibles with Cinnabar Potion') /* PLURAL_NAME_STRING */
-     , (24739, 14, 'This item is used in alchemy.') /* USE_STRING */;
+VALUES (24739, 001 /* NAME_STRING */, 'Crucible with Cinnabar Potion')
+     , (24739, 014 /* USE_STRING */, 'This item is used in alchemy.')
+     , (24739, 016 /* LONG_DESC_STRING */, 'A Cinnabar Potion has been added to this crucible.')
+     , (24739, 020 /* PLURAL_NAME_STRING */, 'Crucibles with Cinnabar Potion');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24739, 1, 33555966) /* SETUP_DID */
-     , (24739, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24739, 8, 100674462) /* ICON_DID */
-     , (24739, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (24739, 001 /* SETUP_DID */, 33555966)
+     , (24739, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24739, 008 /* ICON_DID */, 100674462)
+     , (24739, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24739, 9, 0) /* LOCATIONS_INT */
-     , (24739, 1, 67108864) /* ITEM_TYPE_INT */
-     , (24739, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (24739, 5, 50) /* ENCUMB_VAL_INT */
-     , (24739, 8, 25) /* MASS_INT */
-     , (24739, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (24739, 12, 1) /* STACK_SIZE_INT */
-     , (24739, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (24739, 15, 500) /* STACK_UNIT_VALUE_INT */
-     , (24739, 16, 524296) /* ITEM_USEABLE_INT */
-     , (24739, 19, 500) /* VALUE_INT */
-     , (24739, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (24739, 151, 9) /* HOOK_TYPE_INT */
-     , (24739, 93, 1044) /* PHYSICS_STATE_INT */
-     , (24739, 94, 4201088) /* TARGET_TYPE_INT */;
+VALUES (24739, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
+     , (24739, 005 /* ENCUMB_VAL_INT */, 50)
+     , (24739, 008 /* MASS_INT */, 25)
+     , (24739, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (24739, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (24739, 012 /* STACK_SIZE_INT */, 1)
+     , (24739, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (24739, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (24739, 015 /* STACK_UNIT_VALUE_INT */, 500)
+     , (24739, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (24739, 019 /* VALUE_INT */, 500)
+     , (24739, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (24739, 094 /* TARGET_TYPE_INT */, 4201088 /*  */)
+     , (24739, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (24739, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24739, 69, False) /* IS_SELLABLE_BOOL */
-     , (24739, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (24739, 022 /* INSCRIBABLE_BOOL */, True)
+     , (24739, 069 /* IS_SELLABLE_BOOL */, False);
 

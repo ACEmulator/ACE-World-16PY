@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 5697;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5697, 'lecternshadow', /* Book_WeenieType */ 8);
+VALUES (5697, 'lecternshadow', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5697, 1, 'To Be A Shadow') /* NAME_STRING */;
+VALUES (5697, 001 /* NAME_STRING */, 'To Be A Shadow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5697, 1, 33556013) /* SETUP_DID */
-     , (5697, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5697, 8, 100668236) /* ICON_DID */
-     , (5697, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5697, 001 /* SETUP_DID */, 33556013)
+     , (5697, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5697, 008 /* ICON_DID */, 100668236)
+     , (5697, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5697, 9, 0) /* LOCATIONS_INT */
-     , (5697, 1, 8192) /* ITEM_TYPE_INT */
-     , (5697, 93, 1040) /* PHYSICS_STATE_INT */
-     , (5697, 5, 25) /* ENCUMB_VAL_INT */
-     , (5697, 16, 8) /* ITEM_USEABLE_INT */
-     , (5697, 8, 5) /* MASS_INT */
-     , (5697, 19, 10) /* VALUE_INT */;
+VALUES (5697, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (5697, 005 /* ENCUMB_VAL_INT */, 25)
+     , (5697, 008 /* MASS_INT */, 5)
+     , (5697, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5697, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5697, 019 /* VALUE_INT */, 10)
+     , (5697, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5697, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (5697, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5697, 1, True) /* STUCK_BOOL */
-     , (5697, 13, False) /* ETHEREAL_BOOL */
-     , (5697, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (5697, 001 /* STUCK_BOOL */, True)
+     , (5697, 013 /* ETHEREAL_BOOL */, False)
+     , (5697, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5697, 64, 1000) /* Book Data */;

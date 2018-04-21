@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 30922;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30922, 'carlolorebook004', /* CraftTool_WeenieType */ 44);
+VALUES (30922, 'carlolorebook004', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30922, 16, 'A portion of Carlo di Cenza''s journal. This book contains only four pages.') /* LONG_DESC_STRING */
-     , (30922, 1, 'A Somewhat Complete Book') /* NAME_STRING */
-     , (30922, 14, 'Use this book binding on Halaetan Magic Page 5.') /* USE_STRING */;
+VALUES (30922, 001 /* NAME_STRING */, 'A Somewhat Complete Book')
+     , (30922, 014 /* USE_STRING */, 'Use this book binding on Halaetan Magic Page 5.')
+     , (30922, 016 /* LONG_DESC_STRING */, 'A portion of Carlo di Cenza''s journal. This book contains only four pages.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30922, 1, 33554771) /* SETUP_DID */
-     , (30922, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30922, 8, 100668117) /* ICON_DID */
-     , (30922, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (30922, 001 /* SETUP_DID */, 33554771)
+     , (30922, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30922, 008 /* ICON_DID */, 100668117)
+     , (30922, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30922, 13, 75) /* STACK_UNIT_ENCUMB_INT */
-     , (30922, 5, 75) /* ENCUMB_VAL_INT */
-     , (30922, 16, 524296) /* ITEM_USEABLE_INT */
-     , (30922, 8, 50) /* MASS_INT */
-     , (30922, 9, 0) /* LOCATIONS_INT */
-     , (30922, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (30922, 12, 1) /* STACK_SIZE_INT */
-     , (30922, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (30922, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (30922, 19, 0) /* VALUE_INT */
-     , (30922, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30922, 94, 8192) /* TARGET_TYPE_INT */
-     , (30922, 33, 1) /* BONDED_INT */
-     , (30922, 114, 1) /* ATTUNED_INT */;
+VALUES (30922, 005 /* ENCUMB_VAL_INT */, 75)
+     , (30922, 008 /* MASS_INT */, 50)
+     , (30922, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30922, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (30922, 012 /* STACK_SIZE_INT */, 1)
+     , (30922, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
+     , (30922, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (30922, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (30922, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (30922, 019 /* VALUE_INT */, 0)
+     , (30922, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (30922, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30922, 094 /* TARGET_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (30922, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30922, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30922, 022 /* INSCRIBABLE_BOOL */, True);
 

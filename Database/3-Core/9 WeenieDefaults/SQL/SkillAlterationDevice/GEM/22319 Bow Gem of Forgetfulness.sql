@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 22319;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22319, 'skillgemdownbow', /* SkillAlterationDevice_WeenieType */ 62);
+VALUES (22319, 'skillgemdownbow', 62 /* SkillAlterationDevice_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22319, 1, 'Bow Gem of Forgetfulness') /* NAME_STRING */
-     , (22319, 33, 'SkillAlterationGemPickedUp') /* QUEST_STRING */
-     , (22319, 14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return eight skill credits when used to unspecialize or untrain the Bow skill.') /* USE_STRING */;
+VALUES (22319, 001 /* NAME_STRING */, 'Bow Gem of Forgetfulness')
+     , (22319, 014 /* USE_STRING */, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return eight skill credits when used to unspecialize or untrain the Bow skill.')
+     , (22319, 033 /* QUEST_STRING */, 'SkillAlterationGemPickedUp');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22319, 1, 33558087) /* SETUP_DID */
-     , (22319, 6, 67111919) /* PALETTE_BASE_DID */
-     , (22319, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (22319, 8, 100673789) /* ICON_DID */
-     , (22319, 50, 100673759) /* ICON_OVERLAY_DID */;
+VALUES (22319, 001 /* SETUP_DID */, 33558087)
+     , (22319, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (22319, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (22319, 008 /* ICON_DID */, 100673789)
+     , (22319, 050 /* ICON_OVERLAY_DID */, 100673759);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22319, 185, 2) /* TYPE_OF_ALTERATION_INT */
-     , (22319, 33, 1) /* BONDED_INT */
-     , (22319, 1, 2048) /* ITEM_TYPE_INT */
-     , (22319, 19, 0) /* VALUE_INT */
-     , (22319, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (22319, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22319, 5, 10) /* ENCUMB_VAL_INT */
-     , (22319, 16, 8) /* ITEM_USEABLE_INT */
-     , (22319, 114, 1) /* ATTUNED_INT */
-     , (22319, 186, 2) /* SKILL_TO_BE_ALTERED_INT */;
+VALUES (22319, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (22319, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (22319, 005 /* ENCUMB_VAL_INT */, 10)
+     , (22319, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (22319, 019 /* VALUE_INT */, 0)
+     , (22319, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (22319, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22319, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (22319, 185 /* TYPE_OF_ALTERATION_INT */, 2)
+     , (22319, 186 /* SKILL_TO_BE_ALTERED_INT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22319, 22, True) /* INSCRIBABLE_BOOL */
-     , (22319, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (22319, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22319, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

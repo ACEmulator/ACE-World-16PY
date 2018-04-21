@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 9191;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9191, 'gemdispellower', /* Gem_WeenieType */ 38);
+VALUES (9191, 'gemdispellower', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9191, 16, 'A small glowing gem, that seems to radiate light from an internal source.') /* LONG_DESC_STRING */
-     , (9191, 1, 'Gem of Cleansing') /* NAME_STRING */
-     , (9191, 20, 'Gems of Cleansing') /* PLURAL_NAME_STRING */
-     , (9191, 15, 'A small glowing gem.') /* SHORT_DESC_STRING */;
+VALUES (9191, 001 /* NAME_STRING */, 'Gem of Cleansing')
+     , (9191, 015 /* SHORT_DESC_STRING */, 'A small glowing gem.')
+     , (9191, 016 /* LONG_DESC_STRING */, 'A small glowing gem, that seems to radiate light from an internal source.')
+     , (9191, 020 /* PLURAL_NAME_STRING */, 'Gems of Cleansing');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9191, 1, 33554809) /* SETUP_DID */
-     , (9191, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9191, 28, 1876) /* SPELL_DID */
-     , (9191, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (9191, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9191, 6, 67111919) /* PALETTE_BASE_DID */
-     , (9191, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (9191, 8, 100671406) /* ICON_DID */;
+VALUES (9191, 001 /* SETUP_DID */, 33554809)
+     , (9191, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9191, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (9191, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (9191, 008 /* ICON_DID */, 100671406)
+     , (9191, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (9191, 028 /* SPELL_DID */, 1876 /* DispelAllBadSelf5_SpellID */)
+     , (9191, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9191, 9, 0) /* LOCATIONS_INT */
-     , (9191, 1, 2048) /* ITEM_TYPE_INT */
-     , (9191, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (9191, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (9191, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (9191, 5, 10) /* ENCUMB_VAL_INT */
-     , (9191, 8, 10) /* MASS_INT */
-     , (9191, 12, 1) /* STACK_SIZE_INT */
-     , (9191, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (9191, 15, 100) /* STACK_UNIT_VALUE_INT */
-     , (9191, 16, 8) /* ITEM_USEABLE_INT */
-     , (9191, 18, 1) /* UI_EFFECTS_INT */
-     , (9191, 19, 100) /* VALUE_INT */
-     , (9191, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9191, 94, 16) /* TARGET_TYPE_INT */
-     , (9191, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (9191, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (9191, 108, 150) /* ITEM_MAX_MANA_INT */
-     , (9191, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (9191, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (9191, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (9191, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (9191, 005 /* ENCUMB_VAL_INT */, 10)
+     , (9191, 008 /* MASS_INT */, 10)
+     , (9191, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9191, 011 /* MAX_STACK_SIZE_INT */, 25)
+     , (9191, 012 /* STACK_SIZE_INT */, 1)
+     , (9191, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (9191, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (9191, 015 /* STACK_UNIT_VALUE_INT */, 100)
+     , (9191, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (9191, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (9191, 019 /* VALUE_INT */, 100)
+     , (9191, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9191, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (9191, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (9191, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (9191, 108 /* ITEM_MAX_MANA_INT */, 150)
+     , (9191, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (9191, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9191, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9191, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9191, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9191, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

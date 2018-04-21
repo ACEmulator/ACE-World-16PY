@@ -2,57 +2,57 @@
 DELETE FROM weenie WHERE class_Id = 22550;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22550, 'glovestusker', /* Clothing_WeenieType */ 2);
+VALUES (22550, 'glovestusker', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22550, 1, 'Tusker Paws') /* NAME_STRING */
-     , (22550, 15, 'A pair of tusker paws.') /* SHORT_DESC_STRING */;
+VALUES (22550, 001 /* NAME_STRING */, 'Tusker Paws')
+     , (22550, 015 /* SHORT_DESC_STRING */, 'A pair of tusker paws.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22550, 1, 33558149) /* SETUP_DID */
-     , (22550, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22550, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (22550, 6, 67108990) /* PALETTE_BASE_DID */
-     , (22550, 7, 268436532) /* CLOTHINGBASE_DID */
-     , (22550, 8, 100673932) /* ICON_DID */;
+VALUES (22550, 001 /* SETUP_DID */, 33558149)
+     , (22550, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22550, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (22550, 007 /* CLOTHINGBASE_DID */, 268436532)
+     , (22550, 008 /* ICON_DID */, 100673932)
+     , (22550, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22550, 9, 32) /* LOCATIONS_INT */
-     , (22550, 1, 2) /* ITEM_TYPE_INT */
-     , (22550, 19, 2000) /* VALUE_INT */
-     , (22550, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (22550, 4, 32768) /* CLOTHING_PRIORITY_INT */
-     , (22550, 5, 600) /* ENCUMB_VAL_INT */
-     , (22550, 16, 1) /* ITEM_USEABLE_INT */
-     , (22550, 8, 2000) /* MASS_INT */
-     , (22550, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (22550, 151, 6) /* HOOK_TYPE_INT */
-     , (22550, 27, 32) /* ARMOR_TYPE_INT */
-     , (22550, 28, 260) /* ARMOR_LEVEL_INT */
-     , (22550, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22550, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (22550, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (22550, 160, 60) /* WIELD_DIFFICULTY_INT */
-     , (22550, 44, 12) /* DAMAGE_INT */
-     , (22550, 45, 4) /* DAMAGE_TYPE_INT */
-     , (22550, 49, 100) /* WEAPON_TIME_INT */;
+VALUES (22550, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (22550, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (22550, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
+     , (22550, 005 /* ENCUMB_VAL_INT */, 600)
+     , (22550, 008 /* MASS_INT */, 2000)
+     , (22550, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
+     , (22550, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22550, 019 /* VALUE_INT */, 2000)
+     , (22550, 027 /* ARMOR_TYPE_INT */, 32)
+     , (22550, 028 /* ARMOR_LEVEL_INT */, 260)
+     , (22550, 044 /* DAMAGE_INT */, 12)
+     , (22550, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (22550, 049 /* WEAPON_TIME_INT */, 100)
+     , (22550, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22550, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (22550, 151 /* HOOK_TYPE_INT */, 6 /*  */)
+     , (22550, 158 /* WIELD_REQUIREMENTS_INT */, 7)
+     , (22550, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (22550, 160 /* WIELD_DIFFICULTY_INT */, 60);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22550, 16, 0.66) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22550, 136, 3) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (22550, 12, 1) /* SHADE_FLOAT */
-     , (22550, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22550, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22550, 110, 1) /* BULK_MOD_FLOAT */
-     , (22550, 15, 0.66) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22550, 111, 1) /* SIZE_MOD_FLOAT */
-     , (22550, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22550, 18, 0.44) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22550, 19, 0.24) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22550, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
-     , (22550, 29, 0.8) /* WEAPON_DEFENSE_FLOAT */
-     , (22550, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (22550, 012 /* SHADE_FLOAT */, 1)
+     , (22550, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
+     , (22550, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (22550, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.66)
+     , (22550, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.66)
+     , (22550, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.7)
+     , (22550, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.44)
+     , (22550, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.24)
+     , (22550, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
+     , (22550, 029 /* WEAPON_DEFENSE_FLOAT */, 0.8)
+     , (22550, 062 /* WEAPON_OFFENSE_FLOAT */, 1.2)
+     , (22550, 110 /* BULK_MOD_FLOAT */, 1)
+     , (22550, 111 /* SIZE_MOD_FLOAT */, 1)
+     , (22550, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22550, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (22550, 022 /* INSCRIBABLE_BOOL */, True);
 

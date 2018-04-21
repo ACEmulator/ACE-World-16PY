@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 23030;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23030, 'booksilificrimsonstarshints', /* Book_WeenieType */ 8);
+VALUES (23030, 'booksilificrimsonstarshints', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23030, 1, 'Notes on the Silifi') /* NAME_STRING */;
+VALUES (23030, 001 /* NAME_STRING */, 'Notes on the Silifi');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23030, 1, 33554773) /* SETUP_DID */
-     , (23030, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23030, 8, 100668176) /* ICON_DID */
-     , (23030, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (23030, 001 /* SETUP_DID */, 33554773)
+     , (23030, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23030, 008 /* ICON_DID */, 100668176)
+     , (23030, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23030, 9, 0) /* LOCATIONS_INT */
-     , (23030, 1, 8192) /* ITEM_TYPE_INT */
-     , (23030, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23030, 5, 10) /* ENCUMB_VAL_INT */
-     , (23030, 16, 8) /* ITEM_USEABLE_INT */
-     , (23030, 8, 5) /* MASS_INT */
-     , (23030, 19, 10) /* VALUE_INT */;
+VALUES (23030, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (23030, 005 /* ENCUMB_VAL_INT */, 10)
+     , (23030, 008 /* MASS_INT */, 5)
+     , (23030, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (23030, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (23030, 019 /* VALUE_INT */, 10)
+     , (23030, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23030, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (23030, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23030, 3, 1000) /* Book Data */;

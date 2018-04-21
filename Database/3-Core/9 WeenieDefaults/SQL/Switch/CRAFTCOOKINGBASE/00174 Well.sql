@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 174;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (174, 'well', /* Switch_WeenieType */ 26);
+VALUES (174, 'well', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (174, 1, 'Well') /* NAME_STRING */
-     , (174, 14, 'Use an empty flask on the well to fill it with water.') /* USE_STRING */;
+VALUES (174, 001 /* NAME_STRING */, 'Well')
+     , (174, 014 /* USE_STRING */, 'Use an empty flask on the well to fill it with water.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (174, 1, 33554816) /* SETUP_DID */
-     , (174, 3, 536870932) /* SOUND_TABLE_DID */
-     , (174, 8, 100667466) /* ICON_DID */
-     , (174, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (174, 28, 1183) /* SPELL_DID */;
+VALUES (174, 001 /* SETUP_DID */, 33554816)
+     , (174, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (174, 008 /* ICON_DID */, 100667466)
+     , (174, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (174, 028 /* SPELL_DID */, 1183 /* RevitalizeOther1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (174, 1, 4194304) /* ITEM_TYPE_INT */
-     , (174, 93, 1048) /* PHYSICS_STATE_INT */
-     , (174, 5, 6000) /* ENCUMB_VAL_INT */
-     , (174, 16, 48) /* ITEM_USEABLE_INT */
-     , (174, 8, 3000) /* MASS_INT */
-     , (174, 19, 200) /* VALUE_INT */
-     , (174, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (174, 119, 1) /* ACTIVE_INT */;
+VALUES (174, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (174, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (174, 008 /* MASS_INT */, 3000)
+     , (174, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (174, 019 /* VALUE_INT */, 200)
+     , (174, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (174, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (174, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (174, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (174, 11, 10) /* RESET_INTERVAL_FLOAT */
-     , (174, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (174, 011 /* RESET_INTERVAL_FLOAT */, 10)
+     , (174, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (174, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (174, 1, True) /* STUCK_BOOL */
-     , (174, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (174, 13, False) /* ETHEREAL_BOOL */;
+VALUES (174, 001 /* STUCK_BOOL */, True)
+     , (174, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (174, 013 /* ETHEREAL_BOOL */, False);
 

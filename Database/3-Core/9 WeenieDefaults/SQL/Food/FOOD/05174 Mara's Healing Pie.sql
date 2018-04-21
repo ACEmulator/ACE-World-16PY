@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 5174;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5174, 'maraapplepie', /* Food_WeenieType */ 18);
+VALUES (5174, 'maraapplepie', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5174, 16, 'A Cove Apple pie baked by Mara al-Luq, with healing properties.') /* LONG_DESC_STRING */
-     , (5174, 1, 'Mara''s Healing Pie') /* NAME_STRING */
-     , (5174, 20, 'Mara''s Healing Pies') /* PLURAL_NAME_STRING */
-     , (5174, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (5174, 15, 'A delicious Cove Apple pie.') /* SHORT_DESC_STRING */;
+VALUES (5174, 001 /* NAME_STRING */, 'Mara''s Healing Pie')
+     , (5174, 014 /* USE_STRING */, 'Use this item to eat it.')
+     , (5174, 015 /* SHORT_DESC_STRING */, 'A delicious Cove Apple pie.')
+     , (5174, 016 /* LONG_DESC_STRING */, 'A Cove Apple pie baked by Mara al-Luq, with healing properties.')
+     , (5174, 020 /* PLURAL_NAME_STRING */, 'Mara''s Healing Pies');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5174, 1, 33555978) /* SETUP_DID */
-     , (5174, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5174, 8, 100669942) /* ICON_DID */
-     , (5174, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5174, 001 /* SETUP_DID */, 33555978)
+     , (5174, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5174, 008 /* ICON_DID */, 100669942)
+     , (5174, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5174, 9, 0) /* LOCATIONS_INT */
-     , (5174, 1, 32) /* ITEM_TYPE_INT */
-     , (5174, 13, 75) /* STACK_UNIT_ENCUMB_INT */
-     , (5174, 5, 75) /* ENCUMB_VAL_INT */
-     , (5174, 8, 50) /* MASS_INT */
-     , (5174, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5174, 12, 1) /* STACK_SIZE_INT */
-     , (5174, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (5174, 15, 12) /* STACK_UNIT_VALUE_INT */
-     , (5174, 16, 8) /* ITEM_USEABLE_INT */
-     , (5174, 19, 12) /* VALUE_INT */
-     , (5174, 89, 2) /* BOOSTER_ENUM_INT */
-     , (5174, 90, 15) /* BOOST_VALUE_INT */
-     , (5174, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (5174, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (5174, 005 /* ENCUMB_VAL_INT */, 75)
+     , (5174, 008 /* MASS_INT */, 50)
+     , (5174, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5174, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5174, 012 /* STACK_SIZE_INT */, 1)
+     , (5174, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
+     , (5174, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (5174, 015 /* STACK_UNIT_VALUE_INT */, 12)
+     , (5174, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5174, 019 /* VALUE_INT */, 12)
+     , (5174, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
+     , (5174, 090 /* BOOST_VALUE_INT */, 15)
+     , (5174, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

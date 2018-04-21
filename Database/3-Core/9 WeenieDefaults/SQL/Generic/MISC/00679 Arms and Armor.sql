@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 679;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (679, 'cragstoneblacksmithsign', /* Generic_WeenieType */ 1);
+VALUES (679, 'cragstoneblacksmithsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (679, 16, 'Arms and Armor') /* LONG_DESC_STRING */
-     , (679, 1, 'Arms and Armor') /* NAME_STRING */;
+VALUES (679, 001 /* NAME_STRING */, 'Arms and Armor')
+     , (679, 016 /* LONG_DESC_STRING */, 'Arms and Armor');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (679, 1, 33555088) /* SETUP_DID */
-     , (679, 6, 67111092) /* PALETTE_BASE_DID */
-     , (679, 7, 268435653) /* CLOTHINGBASE_DID */
-     , (679, 8, 100668115) /* ICON_DID */;
+VALUES (679, 001 /* SETUP_DID */, 33555088)
+     , (679, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (679, 007 /* CLOTHINGBASE_DID */, 268435653)
+     , (679, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (679, 1, 128) /* ITEM_TYPE_INT */
-     , (679, 93, 1048) /* PHYSICS_STATE_INT */
-     , (679, 5, 9000) /* ENCUMB_VAL_INT */
-     , (679, 16, 1) /* ITEM_USEABLE_INT */
-     , (679, 8, 1800) /* MASS_INT */
-     , (679, 19, 125) /* VALUE_INT */;
+VALUES (679, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (679, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (679, 008 /* MASS_INT */, 1800)
+     , (679, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (679, 019 /* VALUE_INT */, 125)
+     , (679, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (679, 1, True) /* STUCK_BOOL */
-     , (679, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (679, 13, False) /* ETHEREAL_BOOL */
-     , (679, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (679, 001 /* STUCK_BOOL */, True)
+     , (679, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (679, 013 /* ETHEREAL_BOOL */, False)
+     , (679, 022 /* INSCRIBABLE_BOOL */, False);
 

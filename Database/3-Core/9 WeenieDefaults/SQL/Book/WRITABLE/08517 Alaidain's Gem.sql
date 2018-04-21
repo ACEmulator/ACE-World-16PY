@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 8517;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8517, 'gemalaidain', /* Book_WeenieType */ 8);
+VALUES (8517, 'gemalaidain', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8517, 16, 'The words upon this gem were scribed by Her Majesty Empress Alaidain upon her return to the lighted lands. In her waning years, she entrusted this gem to the wards of Ithaenc. Only the monarchs of the Seaborne Empire may read these fateful words, spoken by the last King of Dericost as he lay dying before his throne of ice.') /* LONG_DESC_STRING */
-     , (8517, 1, 'Alaidain''s Gem') /* NAME_STRING */
-     , (8517, 15, 'A magnificent jewel, carefully inscribed with Yalaini script. It seems to speak to you...') /* SHORT_DESC_STRING */;
+VALUES (8517, 001 /* NAME_STRING */, 'Alaidain''s Gem')
+     , (8517, 015 /* SHORT_DESC_STRING */, 'A magnificent jewel, carefully inscribed with Yalaini script. It seems to speak to you...')
+     , (8517, 016 /* LONG_DESC_STRING */, 'The words upon this gem were scribed by Her Majesty Empress Alaidain upon her return to the lighted lands. In her waning years, she entrusted this gem to the wards of Ithaenc. Only the monarchs of the Seaborne Empire may read these fateful words, spoken by the last King of Dericost as he lay dying before his throne of ice.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8517, 1, 33556906) /* SETUP_DID */
-     , (8517, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8517, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8517, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8517, 7, 268436093) /* CLOTHINGBASE_DID */
-     , (8517, 8, 100671210) /* ICON_DID */;
+VALUES (8517, 001 /* SETUP_DID */, 33556906)
+     , (8517, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8517, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8517, 007 /* CLOTHINGBASE_DID */, 268436093)
+     , (8517, 008 /* ICON_DID */, 100671210)
+     , (8517, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8517, 9, 0) /* LOCATIONS_INT */
-     , (8517, 1, 8192) /* ITEM_TYPE_INT */
-     , (8517, 19, 10) /* VALUE_INT */
-     , (8517, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (8517, 93, 16) /* PHYSICS_STATE_INT */
-     , (8517, 5, 25) /* ENCUMB_VAL_INT */
-     , (8517, 16, 8) /* ITEM_USEABLE_INT */
-     , (8517, 8, 5) /* MASS_INT */;
+VALUES (8517, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (8517, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (8517, 005 /* ENCUMB_VAL_INT */, 25)
+     , (8517, 008 /* MASS_INT */, 5)
+     , (8517, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8517, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (8517, 019 /* VALUE_INT */, 10)
+     , (8517, 093 /* PHYSICS_STATE_INT */, 16 /* IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8517, 39, 2.25) /* DEFAULT_SCALE_FLOAT */
-     , (8517, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (8517, 039 /* DEFAULT_SCALE_FLOAT */, 2.25)
+     , (8517, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8517, 1, True) /* STUCK_BOOL */
-     , (8517, 13, False) /* ETHEREAL_BOOL */
-     , (8517, 22, False) /* INSCRIBABLE_BOOL */
-     , (8517, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (8517, 001 /* STUCK_BOOL */, True)
+     , (8517, 013 /* ETHEREAL_BOOL */, False)
+     , (8517, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (8517, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8517, 1, 1000) /* Book Data */;

@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 4081;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4081, 'trapfeeblemindlvl1', /* Switch_WeenieType */ 26);
+VALUES (4081, 'trapfeeblemindlvl1', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4081, 1, 'Magic trap') /* NAME_STRING */
-     , (4081, 22, 'You hear a faint clicking sound.') /* ACTIVATION_FAILURE_STRING */;
+VALUES (4081, 001 /* NAME_STRING */, 'Magic trap')
+     , (4081, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a faint clicking sound.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4081, 1, 33554669) /* SETUP_DID */
-     , (4081, 3, 536870932) /* SOUND_TABLE_DID */
-     , (4081, 8, 100667494) /* ICON_DID */
-     , (4081, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (4081, 28, 1463) /* SPELL_DID */;
+VALUES (4081, 001 /* SETUP_DID */, 33554669)
+     , (4081, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (4081, 008 /* ICON_DID */, 100667494)
+     , (4081, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (4081, 028 /* SPELL_DID */, 1463 /* FeeblemindOther1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4081, 1, 128) /* ITEM_TYPE_INT */
-     , (4081, 93, 20) /* PHYSICS_STATE_INT */
-     , (4081, 5, 6000) /* ENCUMB_VAL_INT */
-     , (4081, 134, 8) /* PLAYER_KILLER_STATUS_INT */
-     , (4081, 16, 1) /* ITEM_USEABLE_INT */
-     , (4081, 8, 3000) /* MASS_INT */
-     , (4081, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (4081, 19, 200) /* VALUE_INT */
-     , (4081, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (4081, 119, 1) /* ACTIVE_INT */;
+VALUES (4081, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4081, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (4081, 008 /* MASS_INT */, 3000)
+     , (4081, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4081, 019 /* VALUE_INT */, 200)
+     , (4081, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (4081, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
+     , (4081, 106 /* ITEM_SPELLCRAFT_INT */, 100)
+     , (4081, 119 /* ACTIVE_INT */, 1)
+     , (4081, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4081, 11, 30) /* RESET_INTERVAL_FLOAT */;
+VALUES (4081, 011 /* RESET_INTERVAL_FLOAT */, 30);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4081, 1, True) /* STUCK_BOOL */
-     , (4081, 12, False) /* REPORT_COLLISIONS_BOOL */
-     , (4081, 13, True) /* ETHEREAL_BOOL */
-     , (4081, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (4081, 18, True) /* VISIBILITY_BOOL */;
+VALUES (4081, 001 /* STUCK_BOOL */, True)
+     , (4081, 012 /* REPORT_COLLISIONS_BOOL */, False)
+     , (4081, 013 /* ETHEREAL_BOOL */, True)
+     , (4081, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (4081, 018 /* VISIBILITY_BOOL */, True);
 

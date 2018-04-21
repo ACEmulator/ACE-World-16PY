@@ -2,60 +2,60 @@
 DELETE FROM weenie WHERE class_Id = 15449;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15449, 'spearhollownew', /* MeleeWeapon_WeenieType */ 6);
+VALUES (15449, 'spearhollownew', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15449, 16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LONG_DESC_STRING */
-     , (15449, 1, 'Deadly Hollow Spear') /* NAME_STRING */
-     , (15449, 15, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* SHORT_DESC_STRING */;
+VALUES (15449, 001 /* NAME_STRING */, 'Deadly Hollow Spear')
+     , (15449, 015 /* SHORT_DESC_STRING */, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)')
+     , (15449, 016 /* LONG_DESC_STRING */, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15449, 1, 33556646) /* SETUP_DID */
-     , (15449, 3, 536870932) /* SOUND_TABLE_DID */
-     , (15449, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (15449, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (15449, 6, 67111919) /* PALETTE_BASE_DID */
-     , (15449, 7, 268435768) /* CLOTHINGBASE_DID */
-     , (15449, 8, 100669005) /* ICON_DID */;
+VALUES (15449, 001 /* SETUP_DID */, 33556646)
+     , (15449, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (15449, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (15449, 007 /* CLOTHINGBASE_DID */, 268435768)
+     , (15449, 008 /* ICON_DID */, 100669005)
+     , (15449, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (15449, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15449, 9, 1048576) /* LOCATIONS_INT */
-     , (15449, 1, 1) /* ITEM_TYPE_INT */
-     , (15449, 19, 4000) /* VALUE_INT */
-     , (15449, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (15449, 5, 700) /* ENCUMB_VAL_INT */
-     , (15449, 16, 1) /* ITEM_USEABLE_INT */
-     , (15449, 8, 140) /* MASS_INT */
-     , (15449, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (15449, 151, 2) /* HOOK_TYPE_INT */
-     , (15449, 93, 3092) /* PHYSICS_STATE_INT */
-     , (15449, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (15449, 159, 9) /* WIELD_SKILLTYPE_INT */
-     , (15449, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (15449, 33, 1) /* BONDED_INT */
-     , (15449, 36, 9999) /* RESIST_MAGIC_INT */
-     , (15449, 44, 48) /* DAMAGE_INT */
-     , (15449, 45, 2) /* DAMAGE_TYPE_INT */
-     , (15449, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (15449, 47, 2) /* ATTACK_TYPE_INT */
-     , (15449, 48, 9) /* WEAPON_SKILL_INT */
-     , (15449, 49, 30) /* WEAPON_TIME_INT */
-     , (15449, 114, 1) /* ATTUNED_INT */
-     , (15449, 51, 1) /* COMBAT_USE_INT */;
+VALUES (15449, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (15449, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (15449, 005 /* ENCUMB_VAL_INT */, 700)
+     , (15449, 008 /* MASS_INT */, 140)
+     , (15449, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (15449, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15449, 019 /* VALUE_INT */, 4000)
+     , (15449, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (15449, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (15449, 044 /* DAMAGE_INT */, 48)
+     , (15449, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (15449, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (15449, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
+     , (15449, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
+     , (15449, 049 /* WEAPON_TIME_INT */, 30)
+     , (15449, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (15449, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (15449, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (15449, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (15449, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (15449, 158 /* WIELD_REQUIREMENTS_INT */, 2)
+     , (15449, 159 /* WIELD_SKILLTYPE_INT */, 9)
+     , (15449, 160 /* WIELD_DIFFICULTY_INT */, 250);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15449, 76, 0.7) /* TRANSLUCENCY_FLOAT */
-     , (15449, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (15449, 21, 1.5) /* WEAPON_LENGTH_FLOAT */
-     , (15449, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */
-     , (15449, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (15449, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
+     , (15449, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.4)
+     , (15449, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (15449, 062 /* WEAPON_OFFENSE_FLOAT */, 1.1)
+     , (15449, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15449, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
-     , (15449, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
-     , (15449, 99, True) /* IVORYABLE_BOOL */
-     , (15449, 69, False) /* IS_SELLABLE_BOOL */
-     , (15449, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (15449, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (15449, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (15449, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (15449, 022 /* INSCRIBABLE_BOOL */, True)
+     , (15449, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (15449, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
+     , (15449, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True)
+     , (15449, 069 /* IS_SELLABLE_BOOL */, False)
+     , (15449, 099 /* IVORYABLE_BOOL */, True);
 

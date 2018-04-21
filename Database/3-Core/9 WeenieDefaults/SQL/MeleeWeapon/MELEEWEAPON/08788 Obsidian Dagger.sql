@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 8788;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8788, 'daggerobsidian', /* MeleeWeapon_WeenieType */ 6);
+VALUES (8788, 'daggerobsidian', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8788, 16, 'A light, well-balanced obsidian dagger, capable of striking quickly.') /* LONG_DESC_STRING */
-     , (8788, 1, 'Obsidian Dagger') /* NAME_STRING */
-     , (8788, 33, 'HopeslayerObsidianDagger') /* QUEST_STRING */;
+VALUES (8788, 001 /* NAME_STRING */, 'Obsidian Dagger')
+     , (8788, 016 /* LONG_DESC_STRING */, 'A light, well-balanced obsidian dagger, capable of striking quickly.')
+     , (8788, 033 /* QUEST_STRING */, 'HopeslayerObsidianDagger');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8788, 1, 33554887) /* SETUP_DID */
-     , (8788, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8788, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8788, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8788, 7, 268436097) /* CLOTHINGBASE_DID */
-     , (8788, 8, 100671248) /* ICON_DID */;
+VALUES (8788, 001 /* SETUP_DID */, 33554887)
+     , (8788, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8788, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8788, 007 /* CLOTHINGBASE_DID */, 268436097)
+     , (8788, 008 /* ICON_DID */, 100671248)
+     , (8788, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8788, 9, 1048576) /* LOCATIONS_INT */
-     , (8788, 1, 1) /* ITEM_TYPE_INT */
-     , (8788, 19, 3000) /* VALUE_INT */
-     , (8788, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (8788, 5, 100) /* ENCUMB_VAL_INT */
-     , (8788, 16, 1) /* ITEM_USEABLE_INT */
-     , (8788, 8, 90) /* MASS_INT */
-     , (8788, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8788, 151, 2) /* HOOK_TYPE_INT */
-     , (8788, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8788, 44, 8) /* DAMAGE_INT */
-     , (8788, 45, 3) /* DAMAGE_TYPE_INT */
-     , (8788, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (8788, 47, 166) /* ATTACK_TYPE_INT */
-     , (8788, 48, 4) /* WEAPON_SKILL_INT */
-     , (8788, 49, 20) /* WEAPON_TIME_INT */
-     , (8788, 51, 1) /* COMBAT_USE_INT */;
+VALUES (8788, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (8788, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (8788, 005 /* ENCUMB_VAL_INT */, 100)
+     , (8788, 008 /* MASS_INT */, 90)
+     , (8788, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (8788, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8788, 019 /* VALUE_INT */, 3000)
+     , (8788, 044 /* DAMAGE_INT */, 8)
+     , (8788, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (8788, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (8788, 047 /* ATTACK_TYPE_INT */, 166 /*  */)
+     , (8788, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
+     , (8788, 049 /* WEAPON_TIME_INT */, 20)
+     , (8788, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (8788, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8788, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8788, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8788, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (8788, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
-     , (8788, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
-     , (8788, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (8788, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
+     , (8788, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
+     , (8788, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
+     , (8788, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8788, 22, True) /* INSCRIBABLE_BOOL */
-     , (8788, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8788, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8788, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

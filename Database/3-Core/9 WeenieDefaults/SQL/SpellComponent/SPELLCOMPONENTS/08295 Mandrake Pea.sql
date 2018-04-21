@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 8295;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8295, 'peaherbmandrake', /* SpellComponent_WeenieType */ 32);
+VALUES (8295, 'peaherbmandrake', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8295, 16, 'A concentrated mandrake pea.') /* LONG_DESC_STRING */
-     , (8295, 1, 'Mandrake Pea') /* NAME_STRING */
-     , (8295, 15, 'A concentrated mandrake pea.') /* SHORT_DESC_STRING */;
+VALUES (8295, 001 /* NAME_STRING */, 'Mandrake Pea')
+     , (8295, 015 /* SHORT_DESC_STRING */, 'A concentrated mandrake pea.')
+     , (8295, 016 /* LONG_DESC_STRING */, 'A concentrated mandrake pea.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8295, 1, 33554817) /* SETUP_DID */
-     , (8295, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8295, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8295, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8295, 7, 268435720) /* CLOTHINGBASE_DID */
-     , (8295, 8, 100671054) /* ICON_DID */
-     , (8295, 29, 120) /* SPELL_COMPONENT_DID */;
+VALUES (8295, 001 /* SETUP_DID */, 33554817)
+     , (8295, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8295, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8295, 007 /* CLOTHINGBASE_DID */, 268435720)
+     , (8295, 008 /* ICON_DID */, 100671054)
+     , (8295, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8295, 029 /* SPELL_COMPONENT_DID */, 120);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8295, 9, 0) /* LOCATIONS_INT */
-     , (8295, 1, 4096) /* ITEM_TYPE_INT */
-     , (8295, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (8295, 5, 10) /* ENCUMB_VAL_INT */
-     , (8295, 8, 50) /* MASS_INT */
-     , (8295, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8295, 12, 1) /* STACK_SIZE_INT */
-     , (8295, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (8295, 15, 1250) /* STACK_UNIT_VALUE_INT */
-     , (8295, 16, 1) /* ITEM_USEABLE_INT */
-     , (8295, 19, 1250) /* VALUE_INT */
-     , (8295, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8295, 33, 1) /* BONDED_INT */;
+VALUES (8295, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (8295, 005 /* ENCUMB_VAL_INT */, 10)
+     , (8295, 008 /* MASS_INT */, 50)
+     , (8295, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8295, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (8295, 012 /* STACK_SIZE_INT */, 1)
+     , (8295, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (8295, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (8295, 015 /* STACK_UNIT_VALUE_INT */, 1250)
+     , (8295, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8295, 019 /* VALUE_INT */, 1250)
+     , (8295, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8295, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8295, 39, 0.33) /* DEFAULT_SCALE_FLOAT */;
+VALUES (8295, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8295, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8295, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

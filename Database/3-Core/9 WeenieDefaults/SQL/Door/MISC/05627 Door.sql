@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 5627;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5627, 'doorolthoi-ai', /* Door_WeenieType */ 19);
+VALUES (5627, 'doorolthoi-ai', 19 /* Door_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5627, 1, 'Door') /* NAME_STRING */
-     , (5627, 14, 'Use this item to open it.') /* USE_STRING */;
+VALUES (5627, 001 /* NAME_STRING */, 'Door')
+     , (5627, 014 /* USE_STRING */, 'Use this item to open it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5627, 1, 33555954) /* SETUP_DID */
-     , (5627, 2, 150995079) /* MOTION_TABLE_DID */
-     , (5627, 3, 536870991) /* SOUND_TABLE_DID */
-     , (5627, 8, 100668183) /* ICON_DID */
-     , (5627, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5627, 001 /* SETUP_DID */, 33555954)
+     , (5627, 002 /* MOTION_TABLE_DID */, 150995079)
+     , (5627, 003 /* SOUND_TABLE_DID */, 536870991)
+     , (5627, 008 /* ICON_DID */, 100668183)
+     , (5627, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5627, 1, 128) /* ITEM_TYPE_INT */
-     , (5627, 16, 32) /* ITEM_USEABLE_INT */
-     , (5627, 8, 500) /* MASS_INT */
-     , (5627, 19, 0) /* VALUE_INT */
-     , (5627, 93, 8) /* PHYSICS_STATE_INT */;
+VALUES (5627, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (5627, 008 /* MASS_INT */, 500)
+     , (5627, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (5627, 019 /* VALUE_INT */, 0)
+     , (5627, 093 /* PHYSICS_STATE_INT */, 8 /* REPORT_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5627, 11, 300) /* RESET_INTERVAL_FLOAT */
-     , (5627, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (5627, 011 /* RESET_INTERVAL_FLOAT */, 300)
+     , (5627, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5627, 1, True) /* STUCK_BOOL */
-     , (5627, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (5627, 2, False) /* OPEN_BOOL */
-     , (5627, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (5627, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (5627, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (5627, 13, False) /* ETHEREAL_BOOL */
-     , (5627, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (5627, 001 /* STUCK_BOOL */, True)
+     , (5627, 002 /* OPEN_BOOL */, False)
+     , (5627, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (5627, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (5627, 013 /* ETHEREAL_BOOL */, False)
+     , (5627, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (5627, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (5627, 034 /* DEFAULT_OPEN_BOOL */, False);
 

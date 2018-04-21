@@ -2,43 +2,43 @@
 DELETE FROM weenie WHERE class_Id = 19410;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19410, 'glyphnewwand', /* CraftTool_WeenieType */ 44);
+VALUES (19410, 'glyphnewwand', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19410, 16, 'A glyph with the image of a wand emblazoned upon it.') /* LONG_DESC_STRING */
-     , (19410, 1, 'New Wand Glyph') /* NAME_STRING */
-     , (19410, 14, 'Use this on a Diamond Infused Pyreal Ingot.') /* USE_STRING */
-     , (19410, 15, 'A glyph with the image of a wand emblazoned upon it.') /* SHORT_DESC_STRING */;
+VALUES (19410, 001 /* NAME_STRING */, 'New Wand Glyph')
+     , (19410, 014 /* USE_STRING */, 'Use this on a Diamond Infused Pyreal Ingot.')
+     , (19410, 015 /* SHORT_DESC_STRING */, 'A glyph with the image of a wand emblazoned upon it.')
+     , (19410, 016 /* LONG_DESC_STRING */, 'A glyph with the image of a wand emblazoned upon it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19410, 1, 33556438) /* SETUP_DID */
-     , (19410, 3, 536870932) /* SOUND_TABLE_DID */
-     , (19410, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (19410, 6, 67111092) /* PALETTE_BASE_DID */
-     , (19410, 7, 268436386) /* CLOTHINGBASE_DID */
-     , (19410, 8, 100672880) /* ICON_DID */;
+VALUES (19410, 001 /* SETUP_DID */, 33556438)
+     , (19410, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (19410, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (19410, 007 /* CLOTHINGBASE_DID */, 268436386)
+     , (19410, 008 /* ICON_DID */, 100672880)
+     , (19410, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19410, 9, 0) /* LOCATIONS_INT */
-     , (19410, 1, 128) /* ITEM_TYPE_INT */
-     , (19410, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (19410, 5, 10) /* ENCUMB_VAL_INT */
-     , (19410, 8, 10) /* MASS_INT */
-     , (19410, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (19410, 12, 1) /* STACK_SIZE_INT */
-     , (19410, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (19410, 15, 5000) /* STACK_UNIT_VALUE_INT */
-     , (19410, 16, 524296) /* ITEM_USEABLE_INT */
-     , (19410, 19, 5000) /* VALUE_INT */
-     , (19410, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (19410, 151, 11) /* HOOK_TYPE_INT */
-     , (19410, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19410, 94, 128) /* TARGET_TYPE_INT */;
+VALUES (19410, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19410, 005 /* ENCUMB_VAL_INT */, 10)
+     , (19410, 008 /* MASS_INT */, 10)
+     , (19410, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (19410, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (19410, 012 /* STACK_SIZE_INT */, 1)
+     , (19410, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (19410, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (19410, 015 /* STACK_UNIT_VALUE_INT */, 5000)
+     , (19410, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (19410, 019 /* VALUE_INT */, 5000)
+     , (19410, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (19410, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19410, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (19410, 151 /* HOOK_TYPE_INT */, 11 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19410, 39, 0.2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (19410, 039 /* DEFAULT_SCALE_FLOAT */, 0.2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19410, 22, True) /* INSCRIBABLE_BOOL */
-     , (19410, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (19410, 022 /* INSCRIBABLE_BOOL */, True)
+     , (19410, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

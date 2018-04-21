@@ -2,42 +2,42 @@
 DELETE FROM weenie WHERE class_Id = 1440;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1440, 'axefast', /* MeleeWeapon_WeenieType */ 6);
+VALUES (1440, 'axefast', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1440, 16, 'This battle axe seems easier to wield than others.') /* LONG_DESC_STRING */
-     , (1440, 1, 'Fast Axe') /* NAME_STRING */
-     , (1440, 15, 'A battle axe.') /* SHORT_DESC_STRING */;
+VALUES (1440, 001 /* NAME_STRING */, 'Fast Axe')
+     , (1440, 015 /* SHORT_DESC_STRING */, 'A battle axe.')
+     , (1440, 016 /* LONG_DESC_STRING */, 'This battle axe seems easier to wield than others.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1440, 1, 33554725) /* SETUP_DID */
-     , (1440, 8, 100667606) /* ICON_DID */
-     , (1440, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (1440, 001 /* SETUP_DID */, 33554725)
+     , (1440, 008 /* ICON_DID */, 100667606)
+     , (1440, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1440, 9, 1048576) /* LOCATIONS_INT */
-     , (1440, 1, 1) /* ITEM_TYPE_INT */
-     , (1440, 93, 1044) /* PHYSICS_STATE_INT */
-     , (1440, 5, 800) /* ENCUMB_VAL_INT */
-     , (1440, 16, 1) /* ITEM_USEABLE_INT */
-     , (1440, 8, 320) /* MASS_INT */
-     , (1440, 19, 420) /* VALUE_INT */
-     , (1440, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (1440, 151, 2) /* HOOK_TYPE_INT */
-     , (1440, 44, 10) /* DAMAGE_INT */
-     , (1440, 45, 1) /* DAMAGE_TYPE_INT */
-     , (1440, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (1440, 47, 4) /* ATTACK_TYPE_INT */
-     , (1440, 48, 1) /* WEAPON_SKILL_INT */
-     , (1440, 49, 48) /* WEAPON_TIME_INT */
-     , (1440, 51, 1) /* COMBAT_USE_INT */;
+VALUES (1440, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (1440, 005 /* ENCUMB_VAL_INT */, 800)
+     , (1440, 008 /* MASS_INT */, 320)
+     , (1440, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (1440, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (1440, 019 /* VALUE_INT */, 420)
+     , (1440, 044 /* DAMAGE_INT */, 10)
+     , (1440, 045 /* DAMAGE_TYPE_INT */, 1 /* SLASH_DAMAGE_TYPE */)
+     , (1440, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (1440, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (1440, 048 /* WEAPON_SKILL_INT */, 1 /* AXE_SKILL */)
+     , (1440, 049 /* WEAPON_TIME_INT */, 48)
+     , (1440, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (1440, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (1440, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (1440, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1440, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (1440, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
-     , (1440, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (1440, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (1440, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
+     , (1440, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (1440, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (1440, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1440, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (1440, 022 /* INSCRIBABLE_BOOL */, True);
 

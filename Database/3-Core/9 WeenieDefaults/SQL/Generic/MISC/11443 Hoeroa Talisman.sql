@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 11443;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11443, 'talismanhoeroa-xp', /* Generic_WeenieType */ 1);
+VALUES (11443, 'talismanhoeroa-xp', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11443, 16, 'A small talisman carved with the image of a staff.  If given to Aun Imeitanua, he will bestow a hoeroa in exchange.') /* LONG_DESC_STRING */
-     , (11443, 1, 'Hoeroa Talisman') /* NAME_STRING */
-     , (11443, 15, 'A small talisman carved with the image of a staff.') /* SHORT_DESC_STRING */;
+VALUES (11443, 001 /* NAME_STRING */, 'Hoeroa Talisman')
+     , (11443, 015 /* SHORT_DESC_STRING */, 'A small talisman carved with the image of a staff.')
+     , (11443, 016 /* LONG_DESC_STRING */, 'A small talisman carved with the image of a staff.  If given to Aun Imeitanua, he will bestow a hoeroa in exchange.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11443, 1, 33554680) /* SETUP_DID */
-     , (11443, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11443, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (11443, 8, 100671829) /* ICON_DID */
-     , (11443, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (11443, 001 /* SETUP_DID */, 33554680)
+     , (11443, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11443, 008 /* ICON_DID */, 100671829)
+     , (11443, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (11443, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11443, 33, 1) /* BONDED_INT */
-     , (11443, 9, 0) /* LOCATIONS_INT */
-     , (11443, 1, 128) /* ITEM_TYPE_INT */
-     , (11443, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11443, 5, 10) /* ENCUMB_VAL_INT */
-     , (11443, 16, 1) /* ITEM_USEABLE_INT */
-     , (11443, 8, 50) /* MASS_INT */
-     , (11443, 19, 50) /* VALUE_INT */
-     , (11443, 114, 1) /* ATTUNED_INT */;
+VALUES (11443, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11443, 005 /* ENCUMB_VAL_INT */, 10)
+     , (11443, 008 /* MASS_INT */, 50)
+     , (11443, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11443, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11443, 019 /* VALUE_INT */, 50)
+     , (11443, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (11443, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11443, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11443, 39, 0.37) /* DEFAULT_SCALE_FLOAT */;
+VALUES (11443, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11443, 22, True) /* INSCRIBABLE_BOOL */
-     , (11443, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11443, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11443, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

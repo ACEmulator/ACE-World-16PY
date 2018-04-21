@@ -2,26 +2,26 @@
 DELETE FROM weenie WHERE class_Id = 267;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (267, 'bedroll', /* Generic_WeenieType */ 1);
+VALUES (267, 'bedroll', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (267, 1, 'Bedroll') /* NAME_STRING */
-     , (267, 15, 'You can use this item on floor hooks.') /* SHORT_DESC_STRING */;
+VALUES (267, 001 /* NAME_STRING */, 'Bedroll')
+     , (267, 015 /* SHORT_DESC_STRING */, 'You can use this item on floor hooks.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (267, 1, 33555056) /* SETUP_DID */
-     , (267, 8, 100672423) /* ICON_DID */;
+VALUES (267, 001 /* SETUP_DID */, 33555056)
+     , (267, 008 /* ICON_DID */, 100672423);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (267, 1, 128) /* ITEM_TYPE_INT */
-     , (267, 93, 1044) /* PHYSICS_STATE_INT */
-     , (267, 5, 200) /* ENCUMB_VAL_INT */
-     , (267, 16, 1) /* ITEM_USEABLE_INT */
-     , (267, 8, 100) /* MASS_INT */
-     , (267, 19, 500) /* VALUE_INT */
-     , (267, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (267, 151, 1) /* HOOK_TYPE_INT */;
+VALUES (267, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (267, 005 /* ENCUMB_VAL_INT */, 200)
+     , (267, 008 /* MASS_INT */, 100)
+     , (267, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (267, 019 /* VALUE_INT */, 500)
+     , (267, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (267, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (267, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (267, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (267, 022 /* INSCRIBABLE_BOOL */, True);
 

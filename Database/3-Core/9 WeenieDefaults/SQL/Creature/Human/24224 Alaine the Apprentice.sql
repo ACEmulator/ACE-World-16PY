@@ -2,80 +2,80 @@
 DELETE FROM weenie WHERE class_Id = 24224;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24224, 'arcanumalchemistapprentice', /* Creature_WeenieType */ 10);
+VALUES (24224, 'arcanumalchemistapprentice', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24224, 1, 'Alaine the Apprentice') /* NAME_STRING */
-     , (24224, 3, 'Female') /* SEX_STRING */
-     , (24224, 4, 'Gharu''ndim') /* HERITAGE_GROUP_STRING */
-     , (24224, 5, 'Apprentice Alchemist') /* TEMPLATE_STRING */;
+VALUES (24224, 001 /* NAME_STRING */, 'Alaine the Apprentice')
+     , (24224, 003 /* SEX_STRING */, 'Female')
+     , (24224, 004 /* HERITAGE_GROUP_STRING */, 'Gharu''ndim')
+     , (24224, 005 /* TEMPLATE_STRING */, 'Apprentice Alchemist');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24224, 1, 33554510) /* SETUP_DID */
-     , (24224, 2, 150994945) /* MOTION_TABLE_DID */
-     , (24224, 3, 536870914) /* SOUND_TABLE_DID */
-     , (24224, 4, 805306368) /* COMBAT_TABLE_DID */
-     , (24224, 8, 100667446) /* ICON_DID */;
+VALUES (24224, 001 /* SETUP_DID */, 33554510)
+     , (24224, 002 /* MOTION_TABLE_DID */, 150994945)
+     , (24224, 003 /* SOUND_TABLE_DID */, 536870914)
+     , (24224, 004 /* COMBAT_TABLE_DID */, 805306368)
+     , (24224, 008 /* ICON_DID */, 100667446);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24224, 1, 16) /* ITEM_TYPE_INT */
-     , (24224, 146, 1112) /* XP_OVERRIDE_INT */
-     , (24224, 2, 31) /* CREATURE_TYPE_INT */
-     , (24224, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (24224, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (24224, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24224, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (24224, 16, 32) /* ITEM_USEABLE_INT */
-     , (24224, 8, 120) /* MASS_INT */
-     , (24224, 25, 40) /* LEVEL_INT */
-     , (24224, 27, 0) /* ARMOR_TYPE_INT */
-     , (24224, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (24224, 95, 8) /* RADARBLIP_COLOR_INT */;
+VALUES (24224, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (24224, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
+     , (24224, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (24224, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (24224, 008 /* MASS_INT */, 120)
+     , (24224, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (24224, 025 /* LEVEL_INT */, 40)
+     , (24224, 027 /* ARMOR_TYPE_INT */, 0)
+     , (24224, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
+     , (24224, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
+     , (24224, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
+     , (24224, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (24224, 146 /* XP_OVERRIDE_INT */, 1112);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24224, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (24224, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (24224, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (24224, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (24224, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (24224, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (24224, 3, 0.16) /* HEALTH_RATE_FLOAT */
-     , (24224, 68, 1) /* RESIST_COLD_FLOAT */
-     , (24224, 4, 5) /* STAMINA_RATE_FLOAT */
-     , (24224, 5, 1) /* MANA_RATE_FLOAT */
-     , (24224, 69, 1) /* RESIST_ACID_FLOAT */
-     , (24224, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (24224, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (24224, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (24224, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (24224, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (24224, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (24224, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (24224, 13, 0.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (24224, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (24224, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (24224, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (24224, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (24224, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (24224, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (24224, 54, 3) /* USE_RADIUS_FLOAT */
-     , (24224, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (24224, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (24224, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (24224, 003 /* HEALTH_RATE_FLOAT */, 0.16)
+     , (24224, 004 /* STAMINA_RATE_FLOAT */, 5)
+     , (24224, 005 /* MANA_RATE_FLOAT */, 1)
+     , (24224, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
+     , (24224, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (24224, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
+     , (24224, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
+     , (24224, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
+     , (24224, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (24224, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (24224, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (24224, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (24224, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (24224, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (24224, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (24224, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (24224, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (24224, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (24224, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (24224, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (24224, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (24224, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (24224, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (24224, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (24224, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24224, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (24224, 1, True) /* STUCK_BOOL */
-     , (24224, 8, True) /* ALLOW_GIVE_BOOL */
-     , (24224, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
-     , (24224, 52, True) /* AI_IMMOBILE_BOOL */
-     , (24224, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (24224, 13, False) /* ETHEREAL_BOOL */
-     , (24224, 19, False) /* ATTACKABLE_BOOL */;
+VALUES (24224, 001 /* STUCK_BOOL */, True)
+     , (24224, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (24224, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (24224, 013 /* ETHEREAL_BOOL */, False)
+     , (24224, 019 /* ATTACKABLE_BOOL */, False)
+     , (24224, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
+     , (24224, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
+     , (24224, 052 /* AI_IMMOBILE_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24224, 1, 150, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (24224, 2, 140, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (24224, 4, 195, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (24224, 3, 120, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (24224, 4, 195, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (24224, 5, 260, 0, 0) /* FOCUS_ATTRIBUTE */
      , (24224, 6, 230, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -88,31 +88,31 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (24224, 2, 5913, 0, 5, 0, False) /* Create Dho Item Master Robe for Wield_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (24224, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
-     , (24224, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+VALUES (24224, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
      , (24224, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
      , (24224, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
      , (24224, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
      , (24224, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
      , (24224, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
      , (24224, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (24224, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+     , (24224, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
+     , (24224, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (24224, 0.04, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (24224, 0.08, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (24224, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+VALUES (24224, 0.04, 5 /* HeartBeat_EmoteCategory */, 0, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (24224, 0.08, 5 /* HeartBeat_EmoteCategory */, 1, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (24224, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24224, 5, 0, 0, 5, 0, 1, 318767243, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (24224, 5, 1, 0, 5, 0, 1, 318767235, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (24224, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (24224, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (24224, 7, 0, 2, 10, 0, 1, NULL, 'Hello! If you are willing, we have a task for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24224, 7, 0, 3, 10, 1, 1, NULL, 'The Arcanum lost some important research when Martine raided our Research Facility near Al-Jalima. Martine seems to be gone now, but his minions remain, preventing us from retrieving the decanters we need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24224, 7, 0, 4, 10, 1, 1, NULL, 'If you can go there and find the decanters, then you can journey to the Fathomless Chasm, a wellspring of pure mana, and use the decanters to collect the essence there. This essence is required to forge the new pyreal weapons, which we are calling Isparian.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24224, 7, 0, 5, 10, 1, 1, NULL, 'Here -- I have literature that explains all this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (24224, 7, 0, 6, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20014 /* Isparian Arms */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (24224, 7, 0, 7, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20015 /* Treatise on Essence */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (24224, 7, 0, 8, 10, 1, 1, NULL, 'The locations of the Research Facility and the Fathomless Chasm are written on the flyleaves.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
+VALUES (24224, 5 /* HeartBeat_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 318767243 /* Motion_ScratchHead */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 5 /* HeartBeat_EmoteCategory */, 1, 0, 5 /* Motion_EmoteType */, 0, 1, 318767235 /* Motion_Nod */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 2, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Hello! If you are willing, we have a task for you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 3, 10 /* Tell_EmoteType */, 1, 1, NULL, 'The Arcanum lost some important research when Martine raided our Research Facility near Al-Jalima. Martine seems to be gone now, but his minions remain, preventing us from retrieving the decanters we need.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 4, 10 /* Tell_EmoteType */, 1, 1, NULL, 'If you can go there and find the decanters, then you can journey to the Fathomless Chasm, a wellspring of pure mana, and use the decanters to collect the essence there. This essence is required to forge the new pyreal weapons, which we are calling Isparian.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 5, 10 /* Tell_EmoteType */, 1, 1, NULL, 'Here -- I have literature that explains all this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 6, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20014 /* Isparian Arms */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 7, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 20015 /* Treatise on Essence */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (24224, 7 /* Use_EmoteCategory */, 0, 8, 10 /* Tell_EmoteType */, 1, 1, NULL, 'The locations of the Research Facility and the Fathomless Chasm are written on the flyleaves.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

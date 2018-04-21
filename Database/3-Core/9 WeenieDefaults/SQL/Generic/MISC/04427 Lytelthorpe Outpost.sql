@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 4427;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4427, 'lytelthorpeoutpostsign', /* Generic_WeenieType */ 1);
+VALUES (4427, 'lytelthorpeoutpostsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4427, 16, 'This way to Lytelthorpe!') /* LONG_DESC_STRING */
-     , (4427, 1, 'Lytelthorpe Outpost') /* NAME_STRING */;
+VALUES (4427, 001 /* NAME_STRING */, 'Lytelthorpe Outpost')
+     , (4427, 016 /* LONG_DESC_STRING */, 'This way to Lytelthorpe!');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4427, 1, 33555984) /* SETUP_DID */
-     , (4427, 8, 100668115) /* ICON_DID */;
+VALUES (4427, 001 /* SETUP_DID */, 33555984)
+     , (4427, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4427, 1, 128) /* ITEM_TYPE_INT */
-     , (4427, 93, 1048) /* PHYSICS_STATE_INT */
-     , (4427, 5, 9000) /* ENCUMB_VAL_INT */
-     , (4427, 16, 1) /* ITEM_USEABLE_INT */
-     , (4427, 8, 1800) /* MASS_INT */
-     , (4427, 19, 125) /* VALUE_INT */;
+VALUES (4427, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4427, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (4427, 008 /* MASS_INT */, 1800)
+     , (4427, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4427, 019 /* VALUE_INT */, 125)
+     , (4427, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4427, 1, True) /* STUCK_BOOL */
-     , (4427, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (4427, 13, False) /* ETHEREAL_BOOL */
-     , (4427, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (4427, 001 /* STUCK_BOOL */, True)
+     , (4427, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (4427, 013 /* ETHEREAL_BOOL */, False)
+     , (4427, 022 /* INSCRIBABLE_BOOL */, False);
 

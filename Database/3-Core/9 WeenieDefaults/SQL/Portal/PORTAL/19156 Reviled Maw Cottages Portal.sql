@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 19156;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19156, 'portalreviledmawcottages', /* Portal_WeenieType */ 7);
+VALUES (19156, 'portalreviledmawcottages', 7 /* Portal_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19156, 1, 'Reviled Maw Cottages Portal') /* NAME_STRING */;
+VALUES (19156, 001 /* NAME_STRING */, 'Reviled Maw Cottages Portal');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19156, 1, 33554867) /* SETUP_DID */
-     , (19156, 2, 150994947) /* MOTION_TABLE_DID */
-     , (19156, 8, 100667499) /* ICON_DID */;
+VALUES (19156, 001 /* SETUP_DID */, 33554867)
+     , (19156, 002 /* MOTION_TABLE_DID */, 150994947)
+     , (19156, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19156, 1, 65536) /* ITEM_TYPE_INT */
-     , (19156, 93, 3084) /* PHYSICS_STATE_INT */
-     , (19156, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (19156, 16, 32) /* ITEM_USEABLE_INT */
-     , (19156, 111, 1) /* PORTAL_BITMASK_INT */;
+VALUES (19156, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
+     , (19156, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (19156, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (19156, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
+     , (19156, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19156, 54, -0.1) /* USE_RADIUS_FLOAT */;
+VALUES (19156, 054 /* USE_RADIUS_FLOAT */, -0.1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19156, 1, True) /* STUCK_BOOL */
-     , (19156, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (19156, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (19156, 13, True) /* ETHEREAL_BOOL */
-     , (19156, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (19156, 001 /* STUCK_BOOL */, True)
+     , (19156, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (19156, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (19156, 013 /* ETHEREAL_BOOL */, True)
+     , (19156, 015 /* LIGHTS_STATUS_BOOL */, True);
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19156, 2, 2158624788, 70.691, 93.004, 84.005, -0.3853023, 0, 0, -0.9227904) /* DESTINATION_POSITION */;

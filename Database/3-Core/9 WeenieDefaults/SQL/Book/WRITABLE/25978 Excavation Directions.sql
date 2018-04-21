@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 25978;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25978, 'notedecrepittower', /* Book_WeenieType */ 8);
+VALUES (25978, 'notedecrepittower', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25978, 16, 'Directions given to the group of Zharalim Explorers searching for the newly discovered bulwark north west of Zaikhal.') /* LONG_DESC_STRING */
-     , (25978, 1, 'Excavation Directions') /* NAME_STRING */
-     , (25978, 15, 'Directions given to the group of Zharalim Explorers searching for the newly discovered bulwark north west of Zaikhal.') /* SHORT_DESC_STRING */;
+VALUES (25978, 001 /* NAME_STRING */, 'Excavation Directions')
+     , (25978, 015 /* SHORT_DESC_STRING */, 'Directions given to the group of Zharalim Explorers searching for the newly discovered bulwark north west of Zaikhal.')
+     , (25978, 016 /* LONG_DESC_STRING */, 'Directions given to the group of Zharalim Explorers searching for the newly discovered bulwark north west of Zaikhal.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25978, 1, 33554773) /* SETUP_DID */
-     , (25978, 3, 536870932) /* SOUND_TABLE_DID */
-     , (25978, 8, 100668176) /* ICON_DID */
-     , (25978, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (25978, 001 /* SETUP_DID */, 33554773)
+     , (25978, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (25978, 008 /* ICON_DID */, 100668176)
+     , (25978, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25978, 9, 0) /* LOCATIONS_INT */
-     , (25978, 1, 8192) /* ITEM_TYPE_INT */
-     , (25978, 93, 1044) /* PHYSICS_STATE_INT */
-     , (25978, 5, 10) /* ENCUMB_VAL_INT */
-     , (25978, 16, 8) /* ITEM_USEABLE_INT */
-     , (25978, 8, 5) /* MASS_INT */
-     , (25978, 19, 0) /* VALUE_INT */;
+VALUES (25978, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (25978, 005 /* ENCUMB_VAL_INT */, 10)
+     , (25978, 008 /* MASS_INT */, 5)
+     , (25978, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (25978, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (25978, 019 /* VALUE_INT */, 0)
+     , (25978, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25978, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (25978, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25978, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (25978, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25978, 3, 1000) /* Book Data */;

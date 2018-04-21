@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 23658;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23658, 'clubthrowingfirebanderlingmid', /* Missile_WeenieType */ 4);
+VALUES (23658, 'clubthrowingfirebanderlingmid', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23658, 1, 'Fire Throwing Club') /* NAME_STRING */;
+VALUES (23658, 001 /* NAME_STRING */, 'Fire Throwing Club');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23658, 1, 33555698) /* SETUP_DID */
-     , (23658, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23658, 8, 100669762) /* ICON_DID */
-     , (23658, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (23658, 001 /* SETUP_DID */, 33555698)
+     , (23658, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23658, 008 /* ICON_DID */, 100669762)
+     , (23658, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23658, 9, 4194304) /* LOCATIONS_INT */
-     , (23658, 1, 256) /* ITEM_TYPE_INT */
-     , (23658, 13, 23) /* STACK_UNIT_ENCUMB_INT */
-     , (23658, 5, 23) /* ENCUMB_VAL_INT */
-     , (23658, 8, 15) /* MASS_INT */
-     , (23658, 11, 40) /* MAX_STACK_SIZE_INT */
-     , (23658, 12, 1) /* STACK_SIZE_INT */
-     , (23658, 14, 15) /* STACK_UNIT_MASS_INT */
-     , (23658, 15, 20) /* STACK_UNIT_VALUE_INT */
-     , (23658, 16, 1) /* ITEM_USEABLE_INT */
-     , (23658, 18, 128) /* UI_EFFECTS_INT */
-     , (23658, 19, 20) /* VALUE_INT */
-     , (23658, 93, 132116) /* PHYSICS_STATE_INT */
-     , (23658, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (23658, 44, 27) /* DAMAGE_INT */
-     , (23658, 45, 16) /* DAMAGE_TYPE_INT */
-     , (23658, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (23658, 48, 12) /* WEAPON_SKILL_INT */
-     , (23658, 49, 20) /* WEAPON_TIME_INT */
-     , (23658, 51, 2) /* COMBAT_USE_INT */;
+VALUES (23658, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (23658, 005 /* ENCUMB_VAL_INT */, 23)
+     , (23658, 008 /* MASS_INT */, 15)
+     , (23658, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (23658, 011 /* MAX_STACK_SIZE_INT */, 40)
+     , (23658, 012 /* STACK_SIZE_INT */, 1)
+     , (23658, 013 /* STACK_UNIT_ENCUMB_INT */, 23)
+     , (23658, 014 /* STACK_UNIT_MASS_INT */, 15)
+     , (23658, 015 /* STACK_UNIT_VALUE_INT */, 20)
+     , (23658, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (23658, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
+     , (23658, 019 /* VALUE_INT */, 20)
+     , (23658, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (23658, 044 /* DAMAGE_INT */, 27)
+     , (23658, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
+     , (23658, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (23658, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (23658, 049 /* WEAPON_TIME_INT */, 20)
+     , (23658, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (23658, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23658, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (23658, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
-     , (23658, 78, 1) /* FRICTION_FLOAT */
-     , (23658, 79, 0) /* ELASTICITY_FLOAT */
-     , (23658, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (23658, 21, 0.54) /* WEAPON_LENGTH_FLOAT */
-     , (23658, 27, 2) /* ROTATION_SPEED_FLOAT */;
+VALUES (23658, 021 /* WEAPON_LENGTH_FLOAT */, 0.54)
+     , (23658, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.45)
+     , (23658, 027 /* ROTATION_SPEED_FLOAT */, 2)
+     , (23658, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (23658, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (23658, 078 /* FRICTION_FLOAT */, 1)
+     , (23658, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23658, 17, True) /* INELASTIC_BOOL */;
+VALUES (23658, 017 /* INELASTIC_BOOL */, True);
 

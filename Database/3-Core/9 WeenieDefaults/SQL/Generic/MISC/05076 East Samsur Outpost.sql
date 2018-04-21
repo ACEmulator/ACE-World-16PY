@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 5076;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5076, 'samsureastoutpostsign', /* Generic_WeenieType */ 1);
+VALUES (5076, 'samsureastoutpostsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5076, 16, 'Welcome to the East Samsur Outpost.') /* LONG_DESC_STRING */
-     , (5076, 1, 'East Samsur Outpost') /* NAME_STRING */;
+VALUES (5076, 001 /* NAME_STRING */, 'East Samsur Outpost')
+     , (5076, 016 /* LONG_DESC_STRING */, 'Welcome to the East Samsur Outpost.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5076, 1, 33555088) /* SETUP_DID */
-     , (5076, 8, 100668115) /* ICON_DID */;
+VALUES (5076, 001 /* SETUP_DID */, 33555088)
+     , (5076, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5076, 1, 128) /* ITEM_TYPE_INT */
-     , (5076, 93, 24) /* PHYSICS_STATE_INT */
-     , (5076, 5, 9000) /* ENCUMB_VAL_INT */
-     , (5076, 16, 1) /* ITEM_USEABLE_INT */
-     , (5076, 8, 1800) /* MASS_INT */
-     , (5076, 19, 125) /* VALUE_INT */;
+VALUES (5076, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (5076, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (5076, 008 /* MASS_INT */, 1800)
+     , (5076, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5076, 019 /* VALUE_INT */, 125)
+     , (5076, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5076, 1, True) /* STUCK_BOOL */
-     , (5076, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (5076, 13, False) /* ETHEREAL_BOOL */
-     , (5076, 22, False) /* INSCRIBABLE_BOOL */
-     , (5076, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (5076, 001 /* STUCK_BOOL */, True)
+     , (5076, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (5076, 013 /* ETHEREAL_BOOL */, False)
+     , (5076, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (5076, 022 /* INSCRIBABLE_BOOL */, False);
 

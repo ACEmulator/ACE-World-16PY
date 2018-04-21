@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 778;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (778, 'saffron', /* SpellComponent_WeenieType */ 32);
+VALUES (778, 'saffron', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (778, 1, 'Saffron') /* NAME_STRING */
-     , (778, 20, 'Sacks of Saffron') /* PLURAL_NAME_STRING */;
+VALUES (778, 001 /* NAME_STRING */, 'Saffron')
+     , (778, 020 /* PLURAL_NAME_STRING */, 'Sacks of Saffron');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (778, 1, 33554817) /* SETUP_DID */
-     , (778, 3, 536870932) /* SOUND_TABLE_DID */
-     , (778, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (778, 6, 67111919) /* PALETTE_BASE_DID */
-     , (778, 7, 268435720) /* CLOTHINGBASE_DID */
-     , (778, 8, 100668431) /* ICON_DID */
-     , (778, 29, 9) /* SPELL_COMPONENT_DID */;
+VALUES (778, 001 /* SETUP_DID */, 33554817)
+     , (778, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (778, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (778, 007 /* CLOTHINGBASE_DID */, 268435720)
+     , (778, 008 /* ICON_DID */, 100668431)
+     , (778, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (778, 029 /* SPELL_COMPONENT_DID */, 9);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (778, 9, 0) /* LOCATIONS_INT */
-     , (778, 1, 4096) /* ITEM_TYPE_INT */
-     , (778, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (778, 3, 13) /* PALETTE_TEMPLATE_INT */
-     , (778, 13, 4) /* STACK_UNIT_ENCUMB_INT */
-     , (778, 5, 4) /* ENCUMB_VAL_INT */
-     , (778, 8, 100) /* MASS_INT */
-     , (778, 12, 1) /* STACK_SIZE_INT */
-     , (778, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (778, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (778, 16, 1) /* ITEM_USEABLE_INT */
-     , (778, 19, 10) /* VALUE_INT */
-     , (778, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (778, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (778, 003 /* PALETTE_TEMPLATE_INT */, 13 /* PURPLE_PALETTE_TEMPLATE */)
+     , (778, 005 /* ENCUMB_VAL_INT */, 4)
+     , (778, 008 /* MASS_INT */, 100)
+     , (778, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (778, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (778, 012 /* STACK_SIZE_INT */, 1)
+     , (778, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
+     , (778, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (778, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (778, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (778, 019 /* VALUE_INT */, 10)
+     , (778, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (778, 39, 0.4) /* DEFAULT_SCALE_FLOAT */;
+VALUES (778, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
 

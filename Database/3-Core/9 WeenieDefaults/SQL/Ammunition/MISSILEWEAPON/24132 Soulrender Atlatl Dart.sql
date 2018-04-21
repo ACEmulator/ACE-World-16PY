@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 24132;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24132, 'atlatldartsoulrender', /* Ammunition_WeenieType */ 5);
+VALUES (24132, 'atlatldartsoulrender', 5 /* Ammunition_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24132, 1, 'Soulrender Atlatl Dart') /* NAME_STRING */;
+VALUES (24132, 001 /* NAME_STRING */, 'Soulrender Atlatl Dart');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24132, 1, 33557596) /* SETUP_DID */
-     , (24132, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24132, 8, 100676640) /* ICON_DID */
-     , (24132, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (24132, 001 /* SETUP_DID */, 33557596)
+     , (24132, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24132, 008 /* ICON_DID */, 100676640)
+     , (24132, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24132, 9, 8388608) /* LOCATIONS_INT */
-     , (24132, 1, 256) /* ITEM_TYPE_INT */
-     , (24132, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (24132, 5, 10) /* ENCUMB_VAL_INT */
-     , (24132, 8, 2) /* MASS_INT */
-     , (24132, 11, 250) /* MAX_STACK_SIZE_INT */
-     , (24132, 12, 1) /* STACK_SIZE_INT */
-     , (24132, 14, 2) /* STACK_UNIT_MASS_INT */
-     , (24132, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (24132, 16, 1) /* ITEM_USEABLE_INT */
-     , (24132, 19, 10) /* VALUE_INT */
-     , (24132, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (24132, 151, 2) /* HOOK_TYPE_INT */
-     , (24132, 93, 132116) /* PHYSICS_STATE_INT */
-     , (24132, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (24132, 159, 12) /* WIELD_SKILLTYPE_INT */
-     , (24132, 160, 290) /* WIELD_DIFFICULTY_INT */
-     , (24132, 44, 42) /* DAMAGE_INT */
-     , (24132, 45, 2) /* DAMAGE_TYPE_INT */
-     , (24132, 50, 32) /* AMMO_TYPE_INT */
-     , (24132, 51, 3) /* COMBAT_USE_INT */;
+VALUES (24132, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (24132, 005 /* ENCUMB_VAL_INT */, 10)
+     , (24132, 008 /* MASS_INT */, 2)
+     , (24132, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
+     , (24132, 011 /* MAX_STACK_SIZE_INT */, 250)
+     , (24132, 012 /* STACK_SIZE_INT */, 1)
+     , (24132, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (24132, 014 /* STACK_UNIT_MASS_INT */, 2)
+     , (24132, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (24132, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (24132, 019 /* VALUE_INT */, 10)
+     , (24132, 044 /* DAMAGE_INT */, 42)
+     , (24132, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (24132, 050 /* AMMO_TYPE_INT */, 32 /*  */)
+     , (24132, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
+     , (24132, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
+     , (24132, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (24132, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (24132, 158 /* WIELD_REQUIREMENTS_INT */, 2)
+     , (24132, 159 /* WIELD_SKILLTYPE_INT */, 12)
+     , (24132, 160 /* WIELD_DIFFICULTY_INT */, 290);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24132, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (24132, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (24132, 78, 1) /* FRICTION_FLOAT */
-     , (24132, 79, 0) /* ELASTICITY_FLOAT */
-     , (24132, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (24132, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (24132, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (24132, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (24132, 078 /* FRICTION_FLOAT */, 1)
+     , (24132, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24132, 69, False) /* IS_SELLABLE_BOOL */
-     , (24132, 17, True) /* INELASTIC_BOOL */;
+VALUES (24132, 017 /* INELASTIC_BOOL */, True)
+     , (24132, 069 /* IS_SELLABLE_BOOL */, False);
 

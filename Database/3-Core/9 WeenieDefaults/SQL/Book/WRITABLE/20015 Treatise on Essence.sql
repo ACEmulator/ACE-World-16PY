@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 20015;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20015, 'tomeessenceasheron', /* Book_WeenieType */ 8);
+VALUES (20015, 'tomeessenceasheron', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20015, 1, 'Treatise on Essence') /* NAME_STRING */
-     , (20015, 15, 'A book penned by Asheron.') /* SHORT_DESC_STRING */
-     , (20015, 7, 'Fathomless Chasm: 37S 63.5E') /* INSCRIPTION_STRING */
-     , (20015, 8, 'Ciandra') /* SCRIBE_NAME_STRING */;
+VALUES (20015, 001 /* NAME_STRING */, 'Treatise on Essence')
+     , (20015, 007 /* INSCRIPTION_STRING */, 'Fathomless Chasm: 37S 63.5E')
+     , (20015, 008 /* SCRIBE_NAME_STRING */, 'Ciandra')
+     , (20015, 015 /* SHORT_DESC_STRING */, 'A book penned by Asheron.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20015, 1, 33554771) /* SETUP_DID */
-     , (20015, 3, 536870932) /* SOUND_TABLE_DID */
-     , (20015, 8, 100668117) /* ICON_DID */
-     , (20015, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (20015, 001 /* SETUP_DID */, 33554771)
+     , (20015, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (20015, 008 /* ICON_DID */, 100668117)
+     , (20015, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20015, 9, 0) /* LOCATIONS_INT */
-     , (20015, 1, 8192) /* ITEM_TYPE_INT */
-     , (20015, 93, 1044) /* PHYSICS_STATE_INT */
-     , (20015, 5, 160) /* ENCUMB_VAL_INT */
-     , (20015, 16, 8) /* ITEM_USEABLE_INT */
-     , (20015, 8, 200) /* MASS_INT */
-     , (20015, 19, 0) /* VALUE_INT */;
+VALUES (20015, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (20015, 005 /* ENCUMB_VAL_INT */, 160)
+     , (20015, 008 /* MASS_INT */, 200)
+     , (20015, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (20015, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (20015, 019 /* VALUE_INT */, 0)
+     , (20015, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20015, 39, 1.22) /* DEFAULT_SCALE_FLOAT */;
+VALUES (20015, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20015, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (20015, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20015, 13, 1000) /* Book Data */;

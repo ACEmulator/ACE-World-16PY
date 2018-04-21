@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 7557;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7557, 'potiondispel2', /* Gem_WeenieType */ 38);
+VALUES (7557, 'potiondispel2', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7557, 16, 'A potion capable of dispelling negative enchantments of level 5 or lower.') /* LONG_DESC_STRING */
-     , (7557, 1, 'Strong Dispel Potion') /* NAME_STRING */
-     , (7557, 15, 'A dispel potion.') /* SHORT_DESC_STRING */;
+VALUES (7557, 001 /* NAME_STRING */, 'Strong Dispel Potion')
+     , (7557, 015 /* SHORT_DESC_STRING */, 'A dispel potion.')
+     , (7557, 016 /* LONG_DESC_STRING */, 'A potion capable of dispelling negative enchantments of level 5 or lower.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7557, 1, 33554603) /* SETUP_DID */
-     , (7557, 27, 318767233) /* USE_USER_ANIMATION_DID */
-     , (7557, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7557, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (7557, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7557, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7557, 23, 65) /* USE_SOUND_DID */
-     , (7557, 7, 268435996) /* CLOTHINGBASE_DID */
-     , (7557, 8, 100670742) /* ICON_DID */
-     , (7557, 28, 1873) /* SPELL_DID */;
+VALUES (7557, 001 /* SETUP_DID */, 33554603)
+     , (7557, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7557, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7557, 007 /* CLOTHINGBASE_DID */, 268435996)
+     , (7557, 008 /* ICON_DID */, 100670742)
+     , (7557, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7557, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */)
+     , (7557, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
+     , (7557, 028 /* SPELL_DID */, 1873 /* DispelAllBadOther5_SpellID */)
+     , (7557, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7557, 9, 0) /* LOCATIONS_INT */
-     , (7557, 1, 32) /* ITEM_TYPE_INT */
-     , (7557, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (7557, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (7557, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (7557, 5, 50) /* ENCUMB_VAL_INT */
-     , (7557, 8, 25) /* MASS_INT */
-     , (7557, 12, 1) /* STACK_SIZE_INT */
-     , (7557, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (7557, 15, 150) /* STACK_UNIT_VALUE_INT */
-     , (7557, 16, 8) /* ITEM_USEABLE_INT */
-     , (7557, 18, 1) /* UI_EFFECTS_INT */
-     , (7557, 19, 150) /* VALUE_INT */
-     , (7557, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7557, 94, 16) /* TARGET_TYPE_INT */
-     , (7557, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (7557, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (7557, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (7557, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (7557, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (7557, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (7557, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (7557, 005 /* ENCUMB_VAL_INT */, 50)
+     , (7557, 008 /* MASS_INT */, 25)
+     , (7557, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7557, 011 /* MAX_STACK_SIZE_INT */, 25)
+     , (7557, 012 /* STACK_SIZE_INT */, 1)
+     , (7557, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (7557, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (7557, 015 /* STACK_UNIT_VALUE_INT */, 150)
+     , (7557, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (7557, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (7557, 019 /* VALUE_INT */, 150)
+     , (7557, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7557, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (7557, 106 /* ITEM_SPELLCRAFT_INT */, 50)
+     , (7557, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (7557, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (7557, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (7557, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7557, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (7557, 069 /* IS_SELLABLE_BOOL */, False);
 

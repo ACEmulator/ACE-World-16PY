@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 23431;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23431, 'minnowaquaplaque', /* Book_WeenieType */ 8);
+VALUES (23431, 'minnowaquaplaque', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23431, 1, 'Mounted Fish') /* NAME_STRING */
-     , (23431, 14, 'This item can be used on wall hooks.') /* USE_STRING */;
+VALUES (23431, 001 /* NAME_STRING */, 'Mounted Fish')
+     , (23431, 014 /* USE_STRING */, 'This item can be used on wall hooks.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23431, 1, 33554674) /* SETUP_DID */
-     , (23431, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23431, 8, 100667461) /* ICON_DID */
-     , (23431, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (23431, 001 /* SETUP_DID */, 33554674)
+     , (23431, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23431, 008 /* ICON_DID */, 100667461)
+     , (23431, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23431, 9, 0) /* LOCATIONS_INT */
-     , (23431, 1, 8192) /* ITEM_TYPE_INT */
-     , (23431, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23431, 5, 100) /* ENCUMB_VAL_INT */
-     , (23431, 16, 48) /* ITEM_USEABLE_INT */
-     , (23431, 8, 50) /* MASS_INT */
-     , (23431, 19, 15) /* VALUE_INT */
-     , (23431, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (23431, 151, 2) /* HOOK_TYPE_INT */;
+VALUES (23431, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (23431, 005 /* ENCUMB_VAL_INT */, 100)
+     , (23431, 008 /* MASS_INT */, 50)
+     , (23431, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (23431, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (23431, 019 /* VALUE_INT */, 15)
+     , (23431, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (23431, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (23431, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23431, 13, True) /* ETHEREAL_BOOL */
-     , (23431, 22, True) /* INSCRIBABLE_BOOL */
-     , (23431, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (23431, 013 /* ETHEREAL_BOOL */, True)
+     , (23431, 022 /* INSCRIBABLE_BOOL */, True)
+     , (23431, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23431, 1, 1000) /* Book Data */;

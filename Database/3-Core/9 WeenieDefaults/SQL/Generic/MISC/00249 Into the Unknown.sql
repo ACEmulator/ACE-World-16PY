@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 249;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (249, 'painting3', /* Generic_WeenieType */ 1);
+VALUES (249, 'painting3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (249, 1, 'Into the Unknown') /* NAME_STRING */
-     , (249, 15, 'This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+VALUES (249, 001 /* NAME_STRING */, 'Into the Unknown')
+     , (249, 015 /* SHORT_DESC_STRING */, 'This item can be used on an item hook.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (249, 1, 33557343) /* SETUP_DID */
-     , (249, 3, 536870932) /* SOUND_TABLE_DID */
-     , (249, 8, 100672345) /* ICON_DID */
-     , (249, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (249, 001 /* SETUP_DID */, 33557343)
+     , (249, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (249, 008 /* ICON_DID */, 100672345)
+     , (249, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (249, 9, 0) /* LOCATIONS_INT */
-     , (249, 1, 128) /* ITEM_TYPE_INT */
-     , (249, 93, 1044) /* PHYSICS_STATE_INT */
-     , (249, 5, 5000) /* ENCUMB_VAL_INT */
-     , (249, 16, 1) /* ITEM_USEABLE_INT */
-     , (249, 8, 25) /* MASS_INT */
-     , (249, 19, 12904) /* VALUE_INT */
-     , (249, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (249, 151, 2) /* HOOK_TYPE_INT */;
+VALUES (249, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (249, 005 /* ENCUMB_VAL_INT */, 5000)
+     , (249, 008 /* MASS_INT */, 25)
+     , (249, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (249, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (249, 019 /* VALUE_INT */, 12904)
+     , (249, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (249, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (249, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (249, 13, True) /* ETHEREAL_BOOL */
-     , (249, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (249, 013 /* ETHEREAL_BOOL */, True)
+     , (249, 022 /* INSCRIBABLE_BOOL */, True);
 

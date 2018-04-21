@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 644;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (644, 'rithwicblacksmithsign', /* Generic_WeenieType */ 1);
+VALUES (644, 'rithwicblacksmithsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (644, 16, 'Smithy') /* LONG_DESC_STRING */
-     , (644, 1, 'Smithy') /* NAME_STRING */;
+VALUES (644, 001 /* NAME_STRING */, 'Smithy')
+     , (644, 016 /* LONG_DESC_STRING */, 'Smithy');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (644, 1, 33555593) /* SETUP_DID */
-     , (644, 6, 67111092) /* PALETTE_BASE_DID */
-     , (644, 7, 268435670) /* CLOTHINGBASE_DID */
-     , (644, 8, 100668115) /* ICON_DID */;
+VALUES (644, 001 /* SETUP_DID */, 33555593)
+     , (644, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (644, 007 /* CLOTHINGBASE_DID */, 268435670)
+     , (644, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (644, 1, 128) /* ITEM_TYPE_INT */
-     , (644, 93, 1048) /* PHYSICS_STATE_INT */
-     , (644, 5, 9000) /* ENCUMB_VAL_INT */
-     , (644, 16, 1) /* ITEM_USEABLE_INT */
-     , (644, 8, 1800) /* MASS_INT */
-     , (644, 19, 125) /* VALUE_INT */;
+VALUES (644, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (644, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (644, 008 /* MASS_INT */, 1800)
+     , (644, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (644, 019 /* VALUE_INT */, 125)
+     , (644, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (644, 1, True) /* STUCK_BOOL */
-     , (644, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (644, 13, False) /* ETHEREAL_BOOL */
-     , (644, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (644, 001 /* STUCK_BOOL */, True)
+     , (644, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (644, 013 /* ETHEREAL_BOOL */, False)
+     , (644, 022 /* INSCRIBABLE_BOOL */, False);
 

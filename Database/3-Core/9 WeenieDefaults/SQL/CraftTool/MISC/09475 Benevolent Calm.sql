@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 9475;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9475, 'infusionheartmind', /* CraftTool_WeenieType */ 44);
+VALUES (9475, 'infusionheartmind', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9475, 16, 'Vigilance is best served by a focused mind.') /* LONG_DESC_STRING */
-     , (9475, 1, 'Benevolent Calm') /* NAME_STRING */
-     , (9475, 14, 'Use this item on the Staff of the Mind to create the Staff of Clarity. You must have Mana Conversion trained to attempt this interaction.') /* USE_STRING */
-     , (9475, 15, 'A concoction of magical essences.') /* SHORT_DESC_STRING */;
+VALUES (9475, 001 /* NAME_STRING */, 'Benevolent Calm')
+     , (9475, 014 /* USE_STRING */, 'Use this item on the Staff of the Mind to create the Staff of Clarity. You must have Mana Conversion trained to attempt this interaction.')
+     , (9475, 015 /* SHORT_DESC_STRING */, 'A concoction of magical essences.')
+     , (9475, 016 /* LONG_DESC_STRING */, 'Vigilance is best served by a focused mind.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9475, 1, 33557007) /* SETUP_DID */
-     , (9475, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9475, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9475, 6, 67111919) /* PALETTE_BASE_DID */
-     , (9475, 7, 268436164) /* CLOTHINGBASE_DID */
-     , (9475, 8, 100671490) /* ICON_DID */;
+VALUES (9475, 001 /* SETUP_DID */, 33557007)
+     , (9475, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9475, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (9475, 007 /* CLOTHINGBASE_DID */, 268436164)
+     , (9475, 008 /* ICON_DID */, 100671490)
+     , (9475, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9475, 9, 0) /* LOCATIONS_INT */
-     , (9475, 1, 128) /* ITEM_TYPE_INT */
-     , (9475, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (9475, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (9475, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (9475, 5, 15) /* ENCUMB_VAL_INT */
-     , (9475, 8, 5) /* MASS_INT */
-     , (9475, 12, 1) /* STACK_SIZE_INT */
-     , (9475, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (9475, 15, 2000) /* STACK_UNIT_VALUE_INT */
-     , (9475, 16, 524296) /* ITEM_USEABLE_INT */
-     , (9475, 19, 2000) /* VALUE_INT */
-     , (9475, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9475, 94, 128) /* TARGET_TYPE_INT */
-     , (9475, 33, 1) /* BONDED_INT */
-     , (9475, 114, 1) /* ATTUNED_INT */;
+VALUES (9475, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9475, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (9475, 005 /* ENCUMB_VAL_INT */, 15)
+     , (9475, 008 /* MASS_INT */, 5)
+     , (9475, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9475, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (9475, 012 /* STACK_SIZE_INT */, 1)
+     , (9475, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (9475, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (9475, 015 /* STACK_UNIT_VALUE_INT */, 2000)
+     , (9475, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (9475, 019 /* VALUE_INT */, 2000)
+     , (9475, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9475, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9475, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9475, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9475, 39, 2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9475, 039 /* DEFAULT_SCALE_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9475, 22, True) /* INSCRIBABLE_BOOL */
-     , (9475, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9475, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9475, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

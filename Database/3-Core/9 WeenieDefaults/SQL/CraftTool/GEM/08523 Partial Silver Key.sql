@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 8523;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8523, 'catacombkeypartial', /* CraftTool_WeenieType */ 44);
+VALUES (8523, 'catacombkeypartial', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8523, 16, 'A partially rebuilt silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.') /* LONG_DESC_STRING */
-     , (8523, 1, 'Partial Silver Key') /* NAME_STRING */
-     , (8523, 14, 'This key looks like it was deliberately snapped by inhuman strength. It is partially repaired.') /* USE_STRING */
-     , (8523, 15, 'A partial key.') /* SHORT_DESC_STRING */;
+VALUES (8523, 001 /* NAME_STRING */, 'Partial Silver Key')
+     , (8523, 014 /* USE_STRING */, 'This key looks like it was deliberately snapped by inhuman strength. It is partially repaired.')
+     , (8523, 015 /* SHORT_DESC_STRING */, 'A partial key.')
+     , (8523, 016 /* LONG_DESC_STRING */, 'A partially rebuilt silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8523, 1, 33554784) /* SETUP_DID */
-     , (8523, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8523, 8, 100670627) /* ICON_DID */
-     , (8523, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (8523, 001 /* SETUP_DID */, 33554784)
+     , (8523, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8523, 008 /* ICON_DID */, 100670627)
+     , (8523, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8523, 9, 0) /* LOCATIONS_INT */
-     , (8523, 1, 2048) /* ITEM_TYPE_INT */
-     , (8523, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (8523, 5, 50) /* ENCUMB_VAL_INT */
-     , (8523, 8, 50) /* MASS_INT */
-     , (8523, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (8523, 12, 1) /* STACK_SIZE_INT */
-     , (8523, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (8523, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (8523, 16, 524296) /* ITEM_USEABLE_INT */
-     , (8523, 19, 0) /* VALUE_INT */
-     , (8523, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8523, 94, 2048) /* TARGET_TYPE_INT */
-     , (8523, 33, 1) /* BONDED_INT */;
+VALUES (8523, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8523, 005 /* ENCUMB_VAL_INT */, 50)
+     , (8523, 008 /* MASS_INT */, 50)
+     , (8523, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8523, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (8523, 012 /* STACK_SIZE_INT */, 1)
+     , (8523, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (8523, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (8523, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (8523, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (8523, 019 /* VALUE_INT */, 0)
+     , (8523, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8523, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8523, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8523, 69, False) /* IS_SELLABLE_BOOL */
-     , (8523, 22, True) /* INSCRIBABLE_BOOL */
-     , (8523, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8523, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8523, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (8523, 069 /* IS_SELLABLE_BOOL */, False);
 

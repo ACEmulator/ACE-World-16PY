@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 2459;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2459, 'kumiss', /* Food_WeenieType */ 18);
+VALUES (2459, 'kumiss', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2459, 1, 'Kumiss') /* NAME_STRING */
-     , (2459, 20, 'Cups of Kumiss') /* PLURAL_NAME_STRING */
-     , (2459, 14, 'Use this item to drink it.') /* USE_STRING */;
+VALUES (2459, 001 /* NAME_STRING */, 'Kumiss')
+     , (2459, 014 /* USE_STRING */, 'Use this item to drink it.')
+     , (2459, 020 /* PLURAL_NAME_STRING */, 'Cups of Kumiss');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2459, 1, 33554662) /* SETUP_DID */
-     , (2459, 3, 536870932) /* SOUND_TABLE_DID */
-     , (2459, 8, 100667428) /* ICON_DID */
-     , (2459, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (2459, 23, 65) /* USE_SOUND_DID */;
+VALUES (2459, 001 /* SETUP_DID */, 33554662)
+     , (2459, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (2459, 008 /* ICON_DID */, 100667428)
+     , (2459, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (2459, 023 /* USE_SOUND_DID */, 65 /* Sound_Drink1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2459, 9, 0) /* LOCATIONS_INT */
-     , (2459, 1, 32) /* ITEM_TYPE_INT */
-     , (2459, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (2459, 5, 50) /* ENCUMB_VAL_INT */
-     , (2459, 8, 25) /* MASS_INT */
-     , (2459, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (2459, 12, 1) /* STACK_SIZE_INT */
-     , (2459, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (2459, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (2459, 16, 8) /* ITEM_USEABLE_INT */
-     , (2459, 19, 10) /* VALUE_INT */
-     , (2459, 89, 4) /* BOOSTER_ENUM_INT */
-     , (2459, 90, 6) /* BOOST_VALUE_INT */
-     , (2459, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (2459, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (2459, 005 /* ENCUMB_VAL_INT */, 50)
+     , (2459, 008 /* MASS_INT */, 25)
+     , (2459, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (2459, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (2459, 012 /* STACK_SIZE_INT */, 1)
+     , (2459, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (2459, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (2459, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (2459, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (2459, 019 /* VALUE_INT */, 10)
+     , (2459, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (2459, 090 /* BOOST_VALUE_INT */, 6)
+     , (2459, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

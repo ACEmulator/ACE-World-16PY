@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 19193;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19193, 'unifiedheartvillassign', /* Generic_WeenieType */ 1);
+VALUES (19193, 'unifiedheartvillassign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19193, 16, 'Welcome to Unified Heart Villas') /* LONG_DESC_STRING */
-     , (19193, 1, 'Unified Heart Villas') /* NAME_STRING */;
+VALUES (19193, 001 /* NAME_STRING */, 'Unified Heart Villas')
+     , (19193, 016 /* LONG_DESC_STRING */, 'Welcome to Unified Heart Villas');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19193, 1, 33557463) /* SETUP_DID */
-     , (19193, 8, 100668115) /* ICON_DID */;
+VALUES (19193, 001 /* SETUP_DID */, 33557463)
+     , (19193, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19193, 1, 128) /* ITEM_TYPE_INT */
-     , (19193, 93, 1048) /* PHYSICS_STATE_INT */
-     , (19193, 5, 9000) /* ENCUMB_VAL_INT */
-     , (19193, 16, 1) /* ITEM_USEABLE_INT */
-     , (19193, 8, 1800) /* MASS_INT */
-     , (19193, 19, 125) /* VALUE_INT */;
+VALUES (19193, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19193, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (19193, 008 /* MASS_INT */, 1800)
+     , (19193, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19193, 019 /* VALUE_INT */, 125)
+     , (19193, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19193, 1, True) /* STUCK_BOOL */
-     , (19193, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (19193, 13, False) /* ETHEREAL_BOOL */
-     , (19193, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (19193, 001 /* STUCK_BOOL */, True)
+     , (19193, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (19193, 013 /* ETHEREAL_BOOL */, False)
+     , (19193, 022 /* INSCRIBABLE_BOOL */, False);
 

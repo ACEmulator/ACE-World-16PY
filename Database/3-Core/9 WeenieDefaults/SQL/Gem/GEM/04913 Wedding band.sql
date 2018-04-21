@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 4913;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4913, 'weddingband', /* Gem_WeenieType */ 38);
+VALUES (4913, 'weddingband', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4913, 1, 'Wedding band') /* NAME_STRING */;
+VALUES (4913, 001 /* NAME_STRING */, 'Wedding band');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4913, 1, 33554690) /* SETUP_DID */
-     , (4913, 3, 536870932) /* SOUND_TABLE_DID */
-     , (4913, 28, 1708) /* SPELL_DID */
-     , (4913, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (4913, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (4913, 6, 67111919) /* PALETTE_BASE_DID */
-     , (4913, 7, 268435754) /* CLOTHINGBASE_DID */
-     , (4913, 8, 100668562) /* ICON_DID */;
+VALUES (4913, 001 /* SETUP_DID */, 33554690)
+     , (4913, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (4913, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (4913, 007 /* CLOTHINGBASE_DID */, 268435754)
+     , (4913, 008 /* ICON_DID */, 100668562)
+     , (4913, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (4913, 028 /* SPELL_DID */, 1708 /* WeddingBliss_SpellID */)
+     , (4913, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4913, 9, 0) /* LOCATIONS_INT */
-     , (4913, 1, 2048) /* ITEM_TYPE_INT */
-     , (4913, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (4913, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (4913, 13, 30) /* STACK_UNIT_ENCUMB_INT */
-     , (4913, 5, 30) /* ENCUMB_VAL_INT */
-     , (4913, 8, 20) /* MASS_INT */
-     , (4913, 12, 1) /* STACK_SIZE_INT */
-     , (4913, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (4913, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (4913, 16, 8) /* ITEM_USEABLE_INT */
-     , (4913, 19, 0) /* VALUE_INT */
-     , (4913, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4913, 94, 16) /* TARGET_TYPE_INT */
-     , (4913, 106, 90) /* ITEM_SPELLCRAFT_INT */
-     , (4913, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (4913, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (4913, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (4913, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (4913, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (4913, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (4913, 005 /* ENCUMB_VAL_INT */, 30)
+     , (4913, 008 /* MASS_INT */, 20)
+     , (4913, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4913, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (4913, 012 /* STACK_SIZE_INT */, 1)
+     , (4913, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
+     , (4913, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (4913, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (4913, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (4913, 019 /* VALUE_INT */, 0)
+     , (4913, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (4913, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (4913, 106 /* ITEM_SPELLCRAFT_INT */, 90)
+     , (4913, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (4913, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (4913, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (4913, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4913, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (4913, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4913, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (4913, 022 /* INSCRIBABLE_BOOL */, True);
 

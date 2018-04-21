@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 1957;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1957, 'extremedirelandsdesertshadowgen', /* Generic_WeenieType */ 1);
+VALUES (1957, 'extremedirelandsdesertshadowgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1957, 1, 'extremedirelandsdesertshadowgen') /* NAME_STRING */;
+VALUES (1957, 001 /* NAME_STRING */, 'extremedirelandsdesertshadowgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1957, 1, 33555051) /* SETUP_DID */
-     , (1957, 8, 100667494) /* ICON_DID */;
+VALUES (1957, 001 /* SETUP_DID */, 33555051)
+     , (1957, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1957, 81, 2) /* MAX_GENERATED_OBJECTS_INT */
-     , (1957, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (1957, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (1957, 081 /* MAX_GENERATED_OBJECTS_INT */, 2)
+     , (1957, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (1957, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1957, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (1957, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (1957, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (1957, 043 /* GENERATOR_RADIUS_FLOAT */, 15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1957, 1, True) /* STUCK_BOOL */
-     , (1957, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (1957, 18, True) /* VISIBILITY_BOOL */;
+VALUES (1957, 001 /* STUCK_BOOL */, True)
+     , (1957, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (1957, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1957, 0.05, 8057, 1800, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate grievverdestroyercampgen (x1 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */

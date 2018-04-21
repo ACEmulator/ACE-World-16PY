@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 9378;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9378, 'wrappedquarrelshaft', /* Ammunition_WeenieType */ 5);
+VALUES (9378, 'wrappedquarrelshaft', 5 /* Ammunition_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9378, 1, 'Wrapped Bundle of Quarrelshafts') /* NAME_STRING */
-     , (9378, 20, 'Wrapped Bundles of Quarrelshafts') /* PLURAL_NAME_STRING */;
+VALUES (9378, 001 /* NAME_STRING */, 'Wrapped Bundle of Quarrelshafts')
+     , (9378, 020 /* PLURAL_NAME_STRING */, 'Wrapped Bundles of Quarrelshafts');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9378, 1, 33557032) /* SETUP_DID */
-     , (9378, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9378, 8, 100671609) /* ICON_DID */
-     , (9378, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9378, 001 /* SETUP_DID */, 33557032)
+     , (9378, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9378, 008 /* ICON_DID */, 100671609)
+     , (9378, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9378, 9, 0) /* LOCATIONS_INT */
-     , (9378, 1, 134217728) /* ITEM_TYPE_INT */
-     , (9378, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (9378, 5, 10) /* ENCUMB_VAL_INT */
-     , (9378, 8, 5) /* MASS_INT */
-     , (9378, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (9378, 12, 1) /* STACK_SIZE_INT */
-     , (9378, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (9378, 15, 250) /* STACK_UNIT_VALUE_INT */
-     , (9378, 19, 250) /* VALUE_INT */
-     , (9378, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9378, 33, 1) /* BONDED_INT */;
+VALUES (9378, 001 /* ITEM_TYPE_INT */, 134217728 /* TYPE_CRAFT_FLETCHING_INTERMEDIATE */)
+     , (9378, 005 /* ENCUMB_VAL_INT */, 10)
+     , (9378, 008 /* MASS_INT */, 5)
+     , (9378, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9378, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (9378, 012 /* STACK_SIZE_INT */, 1)
+     , (9378, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (9378, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (9378, 015 /* STACK_UNIT_VALUE_INT */, 250)
+     , (9378, 019 /* VALUE_INT */, 250)
+     , (9378, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9378, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9378, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9378, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

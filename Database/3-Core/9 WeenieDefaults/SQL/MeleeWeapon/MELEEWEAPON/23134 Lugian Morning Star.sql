@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 23134;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23134, 'lugianmorningstarhollowvod', /* MeleeWeapon_WeenieType */ 6);
+VALUES (23134, 'lugianmorningstarhollowvod', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23134, 1, 'Lugian Morning Star') /* NAME_STRING */;
+VALUES (23134, 001 /* NAME_STRING */, 'Lugian Morning Star');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23134, 1, 33554748) /* SETUP_DID */
-     , (23134, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23134, 8, 100667600) /* ICON_DID */
-     , (23134, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (23134, 001 /* SETUP_DID */, 33554748)
+     , (23134, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23134, 008 /* ICON_DID */, 100667600)
+     , (23134, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23134, 9, 1048576) /* LOCATIONS_INT */
-     , (23134, 1, 1) /* ITEM_TYPE_INT */
-     , (23134, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23134, 5, 11040) /* ENCUMB_VAL_INT */
-     , (23134, 16, 1) /* ITEM_USEABLE_INT */
-     , (23134, 8, 3680) /* MASS_INT */
-     , (23134, 19, 850) /* VALUE_INT */
-     , (23134, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (23134, 151, 2) /* HOOK_TYPE_INT */
-     , (23134, 36, 9999) /* RESIST_MAGIC_INT */
-     , (23134, 44, 50) /* DAMAGE_INT */
-     , (23134, 45, 2) /* DAMAGE_TYPE_INT */
-     , (23134, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (23134, 47, 4) /* ATTACK_TYPE_INT */
-     , (23134, 48, 5) /* WEAPON_SKILL_INT */
-     , (23134, 49, 80) /* WEAPON_TIME_INT */
-     , (23134, 51, 1) /* COMBAT_USE_INT */;
+VALUES (23134, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (23134, 005 /* ENCUMB_VAL_INT */, 11040)
+     , (23134, 008 /* MASS_INT */, 3680)
+     , (23134, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (23134, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (23134, 019 /* VALUE_INT */, 850)
+     , (23134, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (23134, 044 /* DAMAGE_INT */, 50)
+     , (23134, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (23134, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (23134, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (23134, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
+     , (23134, 049 /* WEAPON_TIME_INT */, 80)
+     , (23134, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (23134, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (23134, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (23134, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23134, 39, 2) /* DEFAULT_SCALE_FLOAT */
-     , (23134, 76, 0.7) /* TRANSLUCENCY_FLOAT */
-     , (23134, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (23134, 21, 1.8) /* WEAPON_LENGTH_FLOAT */
-     , (23134, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (23134, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (23134, 021 /* WEAPON_LENGTH_FLOAT */, 1.8)
+     , (23134, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (23134, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (23134, 039 /* DEFAULT_SCALE_FLOAT */, 2)
+     , (23134, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (23134, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23134, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
-     , (23134, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
-     , (23134, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (23134, 022 /* INSCRIBABLE_BOOL */, True)
+     , (23134, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
+     , (23134, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
 

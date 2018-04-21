@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 5182;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5182, 'stoneofdiscipline', /* Generic_WeenieType */ 1);
+VALUES (5182, 'stoneofdiscipline', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5182, 16, 'A small grey stone, smoothed by thousands of years of gently flowing water. ') /* LONG_DESC_STRING */
-     , (5182, 1, 'Stone of Discipline') /* NAME_STRING */
-     , (5182, 33, 'ShoushiStoneDiscipline1204') /* QUEST_STRING */;
+VALUES (5182, 001 /* NAME_STRING */, 'Stone of Discipline')
+     , (5182, 016 /* LONG_DESC_STRING */, 'A small grey stone, smoothed by thousands of years of gently flowing water. ')
+     , (5182, 033 /* QUEST_STRING */, 'ShoushiStoneDiscipline1204');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5182, 1, 33556947) /* SETUP_DID */
-     , (5182, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5182, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5182, 6, 67111928) /* PALETTE_BASE_DID */
-     , (5182, 7, 268436041) /* CLOTHINGBASE_DID */
-     , (5182, 8, 100671336) /* ICON_DID */;
+VALUES (5182, 001 /* SETUP_DID */, 33556947)
+     , (5182, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5182, 006 /* PALETTE_BASE_DID */, 67111928)
+     , (5182, 007 /* CLOTHINGBASE_DID */, 268436041)
+     , (5182, 008 /* ICON_DID */, 100671336)
+     , (5182, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5182, 9, 0) /* LOCATIONS_INT */
-     , (5182, 1, 1024) /* ITEM_TYPE_INT */
-     , (5182, 19, 0) /* VALUE_INT */
-     , (5182, 3, 17) /* PALETTE_TEMPLATE_INT */
-     , (5182, 93, 3092) /* PHYSICS_STATE_INT */
-     , (5182, 5, 10) /* ENCUMB_VAL_INT */
-     , (5182, 16, 1) /* ITEM_USEABLE_INT */
-     , (5182, 8, 10) /* MASS_INT */
-     , (5182, 18, 16) /* UI_EFFECTS_INT */
-     , (5182, 33, 1) /* BONDED_INT */
-     , (5182, 114, 1) /* ATTUNED_INT */;
+VALUES (5182, 001 /* ITEM_TYPE_INT */, 1024 /* TYPE_USELESS */)
+     , (5182, 003 /* PALETTE_TEMPLATE_INT */, 17 /* YELLOW_PALETTE_TEMPLATE */)
+     , (5182, 005 /* ENCUMB_VAL_INT */, 10)
+     , (5182, 008 /* MASS_INT */, 10)
+     , (5182, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5182, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5182, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
+     , (5182, 019 /* VALUE_INT */, 0)
+     , (5182, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (5182, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (5182, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5182, 39, 0.3) /* DEFAULT_SCALE_FLOAT */
-     , (5182, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
+VALUES (5182, 039 /* DEFAULT_SCALE_FLOAT */, 0.3)
+     , (5182, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5182, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (5182, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (5182, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (5182, 022 /* INSCRIBABLE_BOOL */, True);
 

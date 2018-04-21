@@ -2,43 +2,43 @@
 DELETE FROM weenie WHERE class_Id = 29921;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29921, 'dollrewardmartine', /* Book_WeenieType */ 8);
+VALUES (29921, 'dollrewardmartine', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29921, 16, 'The enigmatic and powerful Martine, in his Virindi-modified form.') /* LONG_DESC_STRING */
-     , (29921, 1, 'Pack Martine') /* NAME_STRING */
-     , (29921, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */
-     , (29921, 15, 'Short description does not show up in game.') /* SHORT_DESC_STRING */;
+VALUES (29921, 001 /* NAME_STRING */, 'Pack Martine')
+     , (29921, 014 /* USE_STRING */, 'This doll may be hooked. Use this doll to read a historical lesson.')
+     , (29921, 015 /* SHORT_DESC_STRING */, 'Short description does not show up in game.')
+     , (29921, 016 /* LONG_DESC_STRING */, 'The enigmatic and powerful Martine, in his Virindi-modified form.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29921, 1, 33559087) /* SETUP_DID */
-     , (29921, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29921, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29921, 6, 67108990) /* PALETTE_BASE_DID */
-     , (29921, 7, 268436397) /* CLOTHINGBASE_DID */
-     , (29921, 8, 100667446) /* ICON_DID */;
+VALUES (29921, 001 /* SETUP_DID */, 33559087)
+     , (29921, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29921, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (29921, 007 /* CLOTHINGBASE_DID */, 268436397)
+     , (29921, 008 /* ICON_DID */, 100667446)
+     , (29921, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29921, 9, 0) /* LOCATIONS_INT */
-     , (29921, 1, 8192) /* ITEM_TYPE_INT */
-     , (29921, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29921, 5, 10) /* ENCUMB_VAL_INT */
-     , (29921, 16, 8) /* ITEM_USEABLE_INT */
-     , (29921, 8, 230) /* MASS_INT */
-     , (29921, 19, 5000) /* VALUE_INT */
-     , (29921, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (29921, 151, 9) /* HOOK_TYPE_INT */
-     , (29921, 33, 1) /* BONDED_INT */
-     , (29921, 114, 0) /* ATTUNED_INT */;
+VALUES (29921, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (29921, 005 /* ENCUMB_VAL_INT */, 10)
+     , (29921, 008 /* MASS_INT */, 230)
+     , (29921, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29921, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (29921, 019 /* VALUE_INT */, 5000)
+     , (29921, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (29921, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29921, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
+     , (29921, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (29921, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29921, 39, 0.4) /* DEFAULT_SCALE_FLOAT */
-     , (29921, 44, -1) /* TIME_TO_ROT_FLOAT */
-     , (29921, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (29921, 039 /* DEFAULT_SCALE_FLOAT */, 0.4)
+     , (29921, 044 /* TIME_TO_ROT_FLOAT */, -1)
+     , (29921, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29921, 69, False) /* IS_SELLABLE_BOOL */
-     , (29921, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (29921, 022 /* INSCRIBABLE_BOOL */, False)
+     , (29921, 069 /* IS_SELLABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29921, 5, 1000) /* Book Data */;

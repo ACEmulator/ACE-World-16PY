@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 9558;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9558, 'serviceweaponexpertise3', /* Generic_WeenieType */ 1);
+VALUES (9558, 'serviceweaponexpertise3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9558, 1, 'Weapon Expertise III') /* NAME_STRING */;
+VALUES (9558, 001 /* NAME_STRING */, 'Weapon Expertise III');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9558, 1, 33554667) /* SETUP_DID */
-     , (9558, 8, 100668357) /* ICON_DID */
-     , (9558, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9558, 28, 782) /* SPELL_DID */;
+VALUES (9558, 001 /* SETUP_DID */, 33554667)
+     , (9558, 008 /* ICON_DID */, 100668357)
+     , (9558, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (9558, 028 /* SPELL_DID */, 782 /* WeaponExpertiseOther3_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9558, 9, 0) /* LOCATIONS_INT */
-     , (9558, 1, 1048576) /* ITEM_TYPE_INT */
-     , (9558, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9558, 5, 0) /* ENCUMB_VAL_INT */
-     , (9558, 16, 1) /* ITEM_USEABLE_INT */
-     , (9558, 8, 0) /* MASS_INT */
-     , (9558, 19, 1000) /* VALUE_INT */;
+VALUES (9558, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (9558, 005 /* ENCUMB_VAL_INT */, 0)
+     , (9558, 008 /* MASS_INT */, 0)
+     , (9558, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9558, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9558, 019 /* VALUE_INT */, 1000)
+     , (9558, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9558, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (9558, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (9558, 022 /* INSCRIBABLE_BOOL */, False)
+     , (9558, 051 /* VENDOR_SERVICE_BOOL */, True);
 

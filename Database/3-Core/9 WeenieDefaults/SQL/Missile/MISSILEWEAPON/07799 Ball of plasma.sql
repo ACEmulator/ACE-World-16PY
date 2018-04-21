@@ -2,54 +2,54 @@
 DELETE FROM weenie WHERE class_Id = 7799;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7799, 'ballofuberfire', /* Missile_WeenieType */ 4);
+VALUES (7799, 'ballofuberfire', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7799, 1, 'Ball of plasma') /* NAME_STRING */;
+VALUES (7799, 001 /* NAME_STRING */, 'Ball of plasma');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7799, 1, 33555469) /* SETUP_DID */
-     , (7799, 3, 536870967) /* SOUND_TABLE_DID */
-     , (7799, 8, 100667590) /* ICON_DID */
-     , (7799, 30, 89) /* PHYSICS_SCRIPT_DID */
-     , (7799, 22, 872415237) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7799, 001 /* SETUP_DID */, 33555469)
+     , (7799, 003 /* SOUND_TABLE_DID */, 536870967)
+     , (7799, 008 /* ICON_DID */, 100667590)
+     , (7799, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415237)
+     , (7799, 030 /* PHYSICS_SCRIPT_DID */, 89 /* PS_Destroy */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7799, 9, 4194304) /* LOCATIONS_INT */
-     , (7799, 1, 256) /* ITEM_TYPE_INT */
-     , (7799, 13, 12) /* STACK_UNIT_ENCUMB_INT */
-     , (7799, 5, 12) /* ENCUMB_VAL_INT */
-     , (7799, 8, 8) /* MASS_INT */
-     , (7799, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (7799, 12, 1) /* STACK_SIZE_INT */
-     , (7799, 14, 8) /* STACK_UNIT_MASS_INT */
-     , (7799, 15, 15) /* STACK_UNIT_VALUE_INT */
-     , (7799, 16, 1) /* ITEM_USEABLE_INT */
-     , (7799, 18, 32) /* UI_EFFECTS_INT */
-     , (7799, 19, 15) /* VALUE_INT */
-     , (7799, 93, 131092) /* PHYSICS_STATE_INT */
-     , (7799, 33, -2) /* BONDED_INT */
-     , (7799, 44, 10) /* DAMAGE_INT */
-     , (7799, 45, 16) /* DAMAGE_TYPE_INT */
-     , (7799, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7799, 48, 12) /* WEAPON_SKILL_INT */
-     , (7799, 49, 12) /* WEAPON_TIME_INT */
-     , (7799, 51, 2) /* COMBAT_USE_INT */;
+VALUES (7799, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (7799, 005 /* ENCUMB_VAL_INT */, 12)
+     , (7799, 008 /* MASS_INT */, 8)
+     , (7799, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (7799, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (7799, 012 /* STACK_SIZE_INT */, 1)
+     , (7799, 013 /* STACK_UNIT_ENCUMB_INT */, 12)
+     , (7799, 014 /* STACK_UNIT_MASS_INT */, 8)
+     , (7799, 015 /* STACK_UNIT_VALUE_INT */, 15)
+     , (7799, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7799, 018 /* UI_EFFECTS_INT */, 32 /* UI_EFFECT_FIRE */)
+     , (7799, 019 /* VALUE_INT */, 15)
+     , (7799, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (7799, 044 /* DAMAGE_INT */, 10)
+     , (7799, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
+     , (7799, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (7799, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (7799, 049 /* WEAPON_TIME_INT */, 12)
+     , (7799, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (7799, 093 /* PHYSICS_STATE_INT */, 131092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, INELASTIC_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7799, 44, 0) /* TIME_TO_ROT_FLOAT */
-     , (7799, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (7799, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (7799, 78, 1) /* FRICTION_FLOAT */
-     , (7799, 79, 0) /* ELASTICITY_FLOAT */
-     , (7799, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
-     , (7799, 27, 0) /* ROTATION_SPEED_FLOAT */
-     , (7799, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (7799, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (7799, 026 /* MAXIMUM_VELOCITY_FLOAT */, 15)
+     , (7799, 027 /* ROTATION_SPEED_FLOAT */, 0)
+     , (7799, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (7799, 044 /* TIME_TO_ROT_FLOAT */, 0)
+     , (7799, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (7799, 078 /* FRICTION_FLOAT */, 1)
+     , (7799, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7799, 17, True) /* INELASTIC_BOOL */
-     , (7799, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
-     , (7799, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
-     , (7799, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (7799, 16, True) /* SCRIPTED_COLLISION_BOOL */;
+VALUES (7799, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (7799, 016 /* SCRIPTED_COLLISION_BOOL */, True)
+     , (7799, 017 /* INELASTIC_BOOL */, True)
+     , (7799, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
+     , (7799, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
 

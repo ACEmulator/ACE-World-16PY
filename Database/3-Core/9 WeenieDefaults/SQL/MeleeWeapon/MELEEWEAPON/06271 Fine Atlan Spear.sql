@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 6271;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6271, 'speargoodnostone', /* MeleeWeapon_WeenieType */ 6);
+VALUES (6271, 'speargoodnostone', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6271, 1, 'Fine Atlan Spear') /* NAME_STRING */;
+VALUES (6271, 001 /* NAME_STRING */, 'Fine Atlan Spear');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6271, 1, 33556260) /* SETUP_DID */
-     , (6271, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6271, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6271, 6, 67111919) /* PALETTE_BASE_DID */
-     , (6271, 7, 268435879) /* CLOTHINGBASE_DID */
-     , (6271, 8, 100670549) /* ICON_DID */;
+VALUES (6271, 001 /* SETUP_DID */, 33556260)
+     , (6271, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6271, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (6271, 007 /* CLOTHINGBASE_DID */, 268435879)
+     , (6271, 008 /* ICON_DID */, 100670549)
+     , (6271, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6271, 9, 1048576) /* LOCATIONS_INT */
-     , (6271, 1, 1) /* ITEM_TYPE_INT */
-     , (6271, 19, 3000) /* VALUE_INT */
-     , (6271, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (6271, 5, 700) /* ENCUMB_VAL_INT */
-     , (6271, 16, 1) /* ITEM_USEABLE_INT */
-     , (6271, 8, 800) /* MASS_INT */
-     , (6271, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (6271, 151, 2) /* HOOK_TYPE_INT */
-     , (6271, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6271, 33, 1) /* BONDED_INT */
-     , (6271, 44, 17) /* DAMAGE_INT */
-     , (6271, 45, 2) /* DAMAGE_TYPE_INT */
-     , (6271, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (6271, 47, 2) /* ATTACK_TYPE_INT */
-     , (6271, 48, 9) /* WEAPON_SKILL_INT */
-     , (6271, 49, 20) /* WEAPON_TIME_INT */
-     , (6271, 51, 1) /* COMBAT_USE_INT */;
+VALUES (6271, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (6271, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (6271, 005 /* ENCUMB_VAL_INT */, 700)
+     , (6271, 008 /* MASS_INT */, 800)
+     , (6271, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (6271, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6271, 019 /* VALUE_INT */, 3000)
+     , (6271, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6271, 044 /* DAMAGE_INT */, 17)
+     , (6271, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (6271, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (6271, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
+     , (6271, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
+     , (6271, 049 /* WEAPON_TIME_INT */, 20)
+     , (6271, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (6271, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6271, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (6271, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6271, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (6271, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
-     , (6271, 21, 1.5) /* WEAPON_LENGTH_FLOAT */
-     , (6271, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */
-     , (6271, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (6271, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
+     , (6271, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.6)
+     , (6271, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
+     , (6271, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (6271, 062 /* WEAPON_OFFENSE_FLOAT */, 1.03);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6271, 69, False) /* IS_SELLABLE_BOOL */
-     , (6271, 22, True) /* INSCRIBABLE_BOOL */
-     , (6271, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6271, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6271, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (6271, 069 /* IS_SELLABLE_BOOL */, False);
 

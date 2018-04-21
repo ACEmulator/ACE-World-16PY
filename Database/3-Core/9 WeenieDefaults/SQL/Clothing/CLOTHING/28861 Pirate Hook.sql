@@ -2,43 +2,43 @@
 DELETE FROM weenie WHERE class_Id = 28861;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28861, 'glovehook', /* Clothing_WeenieType */ 2);
+VALUES (28861, 'glovehook', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28861, 1, 'Pirate Hook') /* NAME_STRING */;
+VALUES (28861, 001 /* NAME_STRING */, 'Pirate Hook');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28861, 1, 33559017) /* SETUP_DID */
-     , (28861, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28861, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28861, 6, 67108990) /* PALETTE_BASE_DID */
-     , (28861, 7, 268436871) /* CLOTHINGBASE_DID */
-     , (28861, 8, 100677106) /* ICON_DID */;
+VALUES (28861, 001 /* SETUP_DID */, 33559017)
+     , (28861, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28861, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (28861, 007 /* CLOTHINGBASE_DID */, 268436871)
+     , (28861, 008 /* ICON_DID */, 100677106)
+     , (28861, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28861, 9, 32) /* LOCATIONS_INT */
-     , (28861, 1, 4) /* ITEM_TYPE_INT */
-     , (28861, 27, 1) /* ARMOR_TYPE_INT */
-     , (28861, 19, 500) /* VALUE_INT */
-     , (28861, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (28861, 4, 32768) /* CLOTHING_PRIORITY_INT */
-     , (28861, 5, 100) /* ENCUMB_VAL_INT */
-     , (28861, 16, 1) /* ITEM_USEABLE_INT */
-     , (28861, 8, 25) /* MASS_INT */
-     , (28861, 28, 10) /* ARMOR_LEVEL_INT */
-     , (28861, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (28861, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
+     , (28861, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (28861, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
+     , (28861, 005 /* ENCUMB_VAL_INT */, 100)
+     , (28861, 008 /* MASS_INT */, 25)
+     , (28861, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
+     , (28861, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28861, 019 /* VALUE_INT */, 500)
+     , (28861, 027 /* ARMOR_TYPE_INT */, 1)
+     , (28861, 028 /* ARMOR_LEVEL_INT */, 10)
+     , (28861, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28861, 12, 0.66) /* SHADE_FLOAT */
-     , (28861, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (28861, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (28861, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (28861, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (28861, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (28861, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (28861, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (28861, 012 /* SHADE_FLOAT */, 0.66)
+     , (28861, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
+     , (28861, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (28861, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (28861, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.5)
+     , (28861, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.5)
+     , (28861, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.3)
+     , (28861, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28861, 22, True) /* INSCRIBABLE_BOOL */
-     , (28861, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28861, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28861, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

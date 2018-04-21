@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 30414;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30414, 'penguinubercampgen', /* Generic_WeenieType */ 1);
+VALUES (30414, 'penguinubercampgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30414, 1, 'penguinubercampgen') /* NAME_STRING */;
+VALUES (30414, 001 /* NAME_STRING */, 'penguinubercampgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30414, 1, 33555051) /* SETUP_DID */
-     , (30414, 8, 100667494) /* ICON_DID */;
+VALUES (30414, 001 /* SETUP_DID */, 33555051)
+     , (30414, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30414, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (30414, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (30414, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (30414, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (30414, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (30414, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30414, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (30414, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (30414, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (30414, 043 /* GENERATOR_RADIUS_FLOAT */, 15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30414, 1, True) /* STUCK_BOOL */
-     , (30414, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (30414, 18, True) /* VISIBILITY_BOOL */;
+VALUES (30414, 001 /* STUCK_BOOL */, True)
+     , (30414, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (30414, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30414, 0.027, 22408, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate tuskerislandredeemercampgen (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 5936;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5936, 'staffbrokenimpious', /* Generic_WeenieType */ 1);
+VALUES (5936, 'staffbrokenimpious', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5936, 16, 'This staff is crafted from a strange alloy. The staff is clearly broken. There are several areas where the alloy has been exposed to corrosives.') /* LONG_DESC_STRING */
-     , (5936, 1, 'Broken Staff') /* NAME_STRING */
-     , (5936, 15, 'This staff is crafted from an unknown material. Something about the staff doesn''t seem right.') /* SHORT_DESC_STRING */;
+VALUES (5936, 001 /* NAME_STRING */, 'Broken Staff')
+     , (5936, 015 /* SHORT_DESC_STRING */, 'This staff is crafted from an unknown material. Something about the staff doesn''t seem right.')
+     , (5936, 016 /* LONG_DESC_STRING */, 'This staff is crafted from a strange alloy. The staff is clearly broken. There are several areas where the alloy has been exposed to corrosives.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5936, 1, 33555022) /* SETUP_DID */
-     , (5936, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5936, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (5936, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5936, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5936, 7, 268435796) /* CLOTHINGBASE_DID */
-     , (5936, 8, 100668702) /* ICON_DID */;
+VALUES (5936, 001 /* SETUP_DID */, 33555022)
+     , (5936, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5936, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5936, 007 /* CLOTHINGBASE_DID */, 268435796)
+     , (5936, 008 /* ICON_DID */, 100668702)
+     , (5936, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (5936, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5936, 9, 0) /* LOCATIONS_INT */
-     , (5936, 1, 32768) /* ITEM_TYPE_INT */
-     , (5936, 19, 1) /* VALUE_INT */
-     , (5936, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (5936, 5, 125) /* ENCUMB_VAL_INT */
-     , (5936, 16, 1) /* ITEM_USEABLE_INT */
-     , (5936, 8, 50) /* MASS_INT */
-     , (5936, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (5936, 151, 2) /* HOOK_TYPE_INT */
-     , (5936, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5936, 33, 1) /* BONDED_INT */
-     , (5936, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (5936, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (5936, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (5936, 005 /* ENCUMB_VAL_INT */, 125)
+     , (5936, 008 /* MASS_INT */, 50)
+     , (5936, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5936, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5936, 019 /* VALUE_INT */, 1)
+     , (5936, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (5936, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5936, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (5936, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (5936, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5936, 12, 0.8) /* SHADE_FLOAT */;
+VALUES (5936, 012 /* SHADE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5936, 22, True) /* INSCRIBABLE_BOOL */
-     , (5936, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (5936, 022 /* INSCRIBABLE_BOOL */, True)
+     , (5936, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

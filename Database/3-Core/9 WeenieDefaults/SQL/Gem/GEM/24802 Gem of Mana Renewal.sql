@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 24802;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24802, 'gemmanarenewal4', /* Gem_WeenieType */ 38);
+VALUES (24802, 'gemmanarenewal4', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24802, 1, 'Gem of Mana Renewal') /* NAME_STRING */
-     , (24802, 20, 'Gems of Mana Renewal') /* PLURAL_NAME_STRING */
-     , (24802, 15, 'A gem that will cast Mana Renewal IV on anyone who uses it. The gem will be destroyed in the process.') /* SHORT_DESC_STRING */;
+VALUES (24802, 001 /* NAME_STRING */, 'Gem of Mana Renewal')
+     , (24802, 015 /* SHORT_DESC_STRING */, 'A gem that will cast Mana Renewal IV on anyone who uses it. The gem will be destroyed in the process.')
+     , (24802, 020 /* PLURAL_NAME_STRING */, 'Gems of Mana Renewal');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24802, 1, 33554809) /* SETUP_DID */
-     , (24802, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24802, 28, 209) /* SPELL_DID */
-     , (24802, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (24802, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (24802, 6, 67111919) /* PALETTE_BASE_DID */
-     , (24802, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (24802, 8, 100674419) /* ICON_DID */;
+VALUES (24802, 001 /* SETUP_DID */, 33554809)
+     , (24802, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24802, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (24802, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (24802, 008 /* ICON_DID */, 100674419)
+     , (24802, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (24802, 028 /* SPELL_DID */, 209 /* ManaRenewalOther4_SpellID */)
+     , (24802, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24802, 9, 0) /* LOCATIONS_INT */
-     , (24802, 1, 2048) /* ITEM_TYPE_INT */
-     , (24802, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (24802, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (24802, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (24802, 5, 5) /* ENCUMB_VAL_INT */
-     , (24802, 8, 10) /* MASS_INT */
-     , (24802, 12, 1) /* STACK_SIZE_INT */
-     , (24802, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (24802, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (24802, 16, 8) /* ITEM_USEABLE_INT */
-     , (24802, 18, 1) /* UI_EFFECTS_INT */
-     , (24802, 19, 0) /* VALUE_INT */
-     , (24802, 93, 1044) /* PHYSICS_STATE_INT */
-     , (24802, 94, 16) /* TARGET_TYPE_INT */
-     , (24802, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (24802, 107, 100) /* ITEM_CUR_MANA_INT */
-     , (24802, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (24802, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (24802, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (24802, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (24802, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (24802, 005 /* ENCUMB_VAL_INT */, 5)
+     , (24802, 008 /* MASS_INT */, 10)
+     , (24802, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (24802, 011 /* MAX_STACK_SIZE_INT */, 25)
+     , (24802, 012 /* STACK_SIZE_INT */, 1)
+     , (24802, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (24802, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (24802, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (24802, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (24802, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (24802, 019 /* VALUE_INT */, 0)
+     , (24802, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (24802, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (24802, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (24802, 107 /* ITEM_CUR_MANA_INT */, 100)
+     , (24802, 108 /* ITEM_MAX_MANA_INT */, 200)
+     , (24802, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (24802, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24802, 69, False) /* IS_SELLABLE_BOOL */
-     , (24802, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (24802, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (24802, 069 /* IS_SELLABLE_BOOL */, False);
 

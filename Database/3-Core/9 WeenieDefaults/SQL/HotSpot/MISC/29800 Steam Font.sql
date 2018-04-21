@@ -2,42 +2,42 @@
 DELETE FROM weenie WHERE class_Id = 29800;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29800, 'hotspotheatfont', /* HotSpot_WeenieType */ 13);
+VALUES (29800, 'hotspotheatfont', 13 /* HotSpot_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29800, 1, 'Steam Font') /* NAME_STRING */
-     , (29800, 17, 'You suffer %i damage from the steam font.') /* ACTIVATION_TALK_STRING */;
+VALUES (29800, 001 /* NAME_STRING */, 'Steam Font')
+     , (29800, 017 /* ACTIVATION_TALK_STRING */, 'You suffer %i damage from the steam font.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29800, 1, 33555403) /* SETUP_DID */
-     , (29800, 3, 536870994) /* SOUND_TABLE_DID */
-     , (29800, 8, 100667465) /* ICON_DID */;
+VALUES (29800, 001 /* SETUP_DID */, 33555403)
+     , (29800, 003 /* SOUND_TABLE_DID */, 536870994)
+     , (29800, 008 /* ICON_DID */, 100667465);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29800, 9, 0) /* LOCATIONS_INT */
-     , (29800, 1, 128) /* ITEM_TYPE_INT */
-     , (29800, 45, 16) /* DAMAGE_TYPE_INT */
-     , (29800, 93, 12) /* PHYSICS_STATE_INT */
-     , (29800, 5, 1) /* ENCUMB_VAL_INT */
-     , (29800, 16, 1) /* ITEM_USEABLE_INT */
-     , (29800, 8, 1) /* MASS_INT */
-     , (29800, 19, 1) /* VALUE_INT */
-     , (29800, 44, 100) /* DAMAGE_INT */
-     , (29800, 119, 0) /* ACTIVE_INT */;
+VALUES (29800, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (29800, 005 /* ENCUMB_VAL_INT */, 1)
+     , (29800, 008 /* MASS_INT */, 1)
+     , (29800, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29800, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29800, 019 /* VALUE_INT */, 1)
+     , (29800, 044 /* DAMAGE_INT */, 100)
+     , (29800, 045 /* DAMAGE_TYPE_INT */, 16 /* FIRE_DAMAGE_TYPE */)
+     , (29800, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
+     , (29800, 119 /* ACTIVE_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29800, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
-     , (29800, 105, 2) /* HOTSPOT_CYCLE_TIME_FLOAT */
-     , (29800, 106, 0.4) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
-     , (29800, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (29800, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (29800, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
+     , (29800, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 2)
+     , (29800, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.4);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29800, 57, False) /* AFFECTS_AIS_BOOL */
-     , (29800, 1, True) /* STUCK_BOOL */
-     , (29800, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (29800, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (29800, 13, True) /* ETHEREAL_BOOL */
-     , (29800, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (29800, 55, True) /* IS_HOT_BOOL */
-     , (29800, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (29800, 001 /* STUCK_BOOL */, True)
+     , (29800, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (29800, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (29800, 013 /* ETHEREAL_BOOL */, True)
+     , (29800, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (29800, 024 /* UI_HIDDEN_BOOL */, True)
+     , (29800, 055 /* IS_HOT_BOOL */, True)
+     , (29800, 057 /* AFFECTS_AIS_BOOL */, False);
 

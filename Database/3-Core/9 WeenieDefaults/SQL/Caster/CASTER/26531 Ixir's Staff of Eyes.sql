@@ -2,56 +2,56 @@
 DELETE FROM weenie WHERE class_Id = 26531;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26531, 'staffixir2', /* Caster_WeenieType */ 35);
+VALUES (26531, 'staffixir2', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26531, 1, 'Ixir''s Staff of Eyes') /* NAME_STRING */
-     , (26531, 15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* SHORT_DESC_STRING */;
+VALUES (26531, 001 /* NAME_STRING */, 'Ixir''s Staff of Eyes')
+     , (26531, 015 /* SHORT_DESC_STRING */, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26531, 1, 33558596) /* SETUP_DID */
-     , (26531, 27, 1073742049) /* USE_USER_ANIMATION_DID */
-     , (26531, 3, 536870932) /* SOUND_TABLE_DID */
-     , (26531, 28, 3068) /* SPELL_DID */
-     , (26531, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (26531, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (26531, 6, 67114956) /* PALETTE_BASE_DID */
-     , (26531, 7, 268436792) /* CLOTHINGBASE_DID */
-     , (26531, 8, 100675776) /* ICON_DID */;
+VALUES (26531, 001 /* SETUP_DID */, 33558596)
+     , (26531, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (26531, 006 /* PALETTE_BASE_DID */, 67114956)
+     , (26531, 007 /* CLOTHINGBASE_DID */, 268436792)
+     , (26531, 008 /* ICON_DID */, 100675776)
+     , (26531, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (26531, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
+     , (26531, 028 /* SPELL_DID */, 3068 /* MinorWardRebirth_SpellID */)
+     , (26531, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26531, 9, 16777216) /* LOCATIONS_INT */
-     , (26531, 1, 32768) /* ITEM_TYPE_INT */
-     , (26531, 19, 5200) /* VALUE_INT */
-     , (26531, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (26531, 5, 75) /* ENCUMB_VAL_INT */
-     , (26531, 16, 6291460) /* ITEM_USEABLE_INT */
-     , (26531, 8, 25) /* MASS_INT */
-     , (26531, 18, 1) /* UI_EFFECTS_INT */
-     , (26531, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (26531, 151, 2) /* HOOK_TYPE_INT */
-     , (26531, 93, 3092) /* PHYSICS_STATE_INT */
-     , (26531, 94, 16) /* TARGET_TYPE_INT */
-     , (26531, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (26531, 159, 32) /* WIELD_SKILLTYPE_INT */
-     , (26531, 160, 200) /* WIELD_DIFFICULTY_INT */
-     , (26531, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (26531, 107, 1400) /* ITEM_CUR_MANA_INT */
-     , (26531, 108, 1400) /* ITEM_MAX_MANA_INT */
-     , (26531, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (26531, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (26531, 117, 200) /* ITEM_MANA_COST_INT */;
+VALUES (26531, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (26531, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (26531, 005 /* ENCUMB_VAL_INT */, 75)
+     , (26531, 008 /* MASS_INT */, 25)
+     , (26531, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (26531, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
+     , (26531, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (26531, 019 /* VALUE_INT */, 5200)
+     , (26531, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (26531, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (26531, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (26531, 106 /* ITEM_SPELLCRAFT_INT */, 325)
+     , (26531, 107 /* ITEM_CUR_MANA_INT */, 1400)
+     , (26531, 108 /* ITEM_MAX_MANA_INT */, 1400)
+     , (26531, 109 /* ITEM_DIFFICULTY_INT */, 100)
+     , (26531, 117 /* ITEM_MANA_COST_INT */, 200)
+     , (26531, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (26531, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (26531, 158 /* WIELD_REQUIREMENTS_INT */, 2)
+     , (26531, 159 /* WIELD_SKILLTYPE_INT */, 32)
+     , (26531, 160 /* WIELD_DIFFICULTY_INT */, 200);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26531, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (26531, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (26531, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
-     , (26531, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */;
+VALUES (26531, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (26531, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (26531, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
+     , (26531, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26531, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (26531, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (26531, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (26531, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (26531, 022 /* INSCRIBABLE_BOOL */, True)
+     , (26531, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26531, 1456, 2) /* WillpowerOther6_SpellID */

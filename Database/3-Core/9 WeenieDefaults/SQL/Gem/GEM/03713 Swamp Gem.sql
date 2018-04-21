@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 3713;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3713, 'gemswamp', /* Gem_WeenieType */ 38);
+VALUES (3713, 'gemswamp', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3713, 16, 'Swamp Gem of Quickness.') /* LONG_DESC_STRING */
-     , (3713, 1, 'Swamp Gem') /* NAME_STRING */
-     , (3713, 15, 'Swamp Gem') /* SHORT_DESC_STRING */;
+VALUES (3713, 001 /* NAME_STRING */, 'Swamp Gem')
+     , (3713, 015 /* SHORT_DESC_STRING */, 'Swamp Gem')
+     , (3713, 016 /* LONG_DESC_STRING */, 'Swamp Gem of Quickness.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3713, 1, 33554809) /* SETUP_DID */
-     , (3713, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3713, 28, 1405) /* SPELL_DID */
-     , (3713, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (3713, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (3713, 6, 67111919) /* PALETTE_BASE_DID */
-     , (3713, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (3713, 8, 100673968) /* ICON_DID */;
+VALUES (3713, 001 /* SETUP_DID */, 33554809)
+     , (3713, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3713, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (3713, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (3713, 008 /* ICON_DID */, 100673968)
+     , (3713, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (3713, 028 /* SPELL_DID */, 1405 /* QuicknessOther3_SpellID */)
+     , (3713, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3713, 9, 0) /* LOCATIONS_INT */
-     , (3713, 1, 2048) /* ITEM_TYPE_INT */
-     , (3713, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (3713, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (3713, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (3713, 5, 10) /* ENCUMB_VAL_INT */
-     , (3713, 8, 10) /* MASS_INT */
-     , (3713, 12, 1) /* STACK_SIZE_INT */
-     , (3713, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (3713, 15, 750) /* STACK_UNIT_VALUE_INT */
-     , (3713, 16, 8) /* ITEM_USEABLE_INT */
-     , (3713, 18, 1) /* UI_EFFECTS_INT */
-     , (3713, 19, 750) /* VALUE_INT */
-     , (3713, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3713, 94, 16) /* TARGET_TYPE_INT */
-     , (3713, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (3713, 107, 30) /* ITEM_CUR_MANA_INT */
-     , (3713, 108, 30) /* ITEM_MAX_MANA_INT */
-     , (3713, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (3713, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (3713, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (3713, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (3713, 005 /* ENCUMB_VAL_INT */, 10)
+     , (3713, 008 /* MASS_INT */, 10)
+     , (3713, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (3713, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (3713, 012 /* STACK_SIZE_INT */, 1)
+     , (3713, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (3713, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (3713, 015 /* STACK_UNIT_VALUE_INT */, 750)
+     , (3713, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (3713, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (3713, 019 /* VALUE_INT */, 750)
+     , (3713, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3713, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (3713, 106 /* ITEM_SPELLCRAFT_INT */, 100)
+     , (3713, 107 /* ITEM_CUR_MANA_INT */, 30)
+     , (3713, 108 /* ITEM_MAX_MANA_INT */, 30)
+     , (3713, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (3713, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3713, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (3713, 022 /* INSCRIBABLE_BOOL */, True);
 

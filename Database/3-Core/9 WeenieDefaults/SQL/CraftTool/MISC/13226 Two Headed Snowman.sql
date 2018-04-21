@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 13226;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13226, 'snowmanfinished2heads', /* CraftTool_WeenieType */ 44);
+VALUES (13226, 'snowmanfinished2heads', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13226, 16, 'A monstrous snowman. It''s very disturbing and the neighbors don''t like it.') /* LONG_DESC_STRING */
-     , (13226, 1, 'Two Headed Snowman') /* NAME_STRING */
-     , (13226, 14, 'You can hook this item on floor and yard hooks. It''s oddly colder than normal snow.') /* USE_STRING */
-     , (13226, 15, 'A monstrous snowman.') /* SHORT_DESC_STRING */;
+VALUES (13226, 001 /* NAME_STRING */, 'Two Headed Snowman')
+     , (13226, 014 /* USE_STRING */, 'You can hook this item on floor and yard hooks. It''s oddly colder than normal snow.')
+     , (13226, 015 /* SHORT_DESC_STRING */, 'A monstrous snowman.')
+     , (13226, 016 /* LONG_DESC_STRING */, 'A monstrous snowman. It''s very disturbing and the neighbors don''t like it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13226, 1, 33557451) /* SETUP_DID */
-     , (13226, 8, 100672435) /* ICON_DID */;
+VALUES (13226, 001 /* SETUP_DID */, 33557451)
+     , (13226, 008 /* ICON_DID */, 100672435);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13226, 1, 128) /* ITEM_TYPE_INT */
-     , (13226, 13, 180) /* STACK_UNIT_ENCUMB_INT */
-     , (13226, 5, 180) /* ENCUMB_VAL_INT */
-     , (13226, 16, 524296) /* ITEM_USEABLE_INT */
-     , (13226, 8, 90) /* MASS_INT */
-     , (13226, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (13226, 12, 1) /* STACK_SIZE_INT */
-     , (13226, 14, 90) /* STACK_UNIT_MASS_INT */
-     , (13226, 15, 45) /* STACK_UNIT_VALUE_INT */
-     , (13226, 19, 45) /* VALUE_INT */
-     , (13226, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (13226, 151, 9) /* HOOK_TYPE_INT */
-     , (13226, 93, 1044) /* PHYSICS_STATE_INT */
-     , (13226, 94, 4) /* TARGET_TYPE_INT */;
+VALUES (13226, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (13226, 005 /* ENCUMB_VAL_INT */, 180)
+     , (13226, 008 /* MASS_INT */, 90)
+     , (13226, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (13226, 012 /* STACK_SIZE_INT */, 1)
+     , (13226, 013 /* STACK_UNIT_ENCUMB_INT */, 180)
+     , (13226, 014 /* STACK_UNIT_MASS_INT */, 90)
+     , (13226, 015 /* STACK_UNIT_VALUE_INT */, 45)
+     , (13226, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (13226, 019 /* VALUE_INT */, 45)
+     , (13226, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (13226, 094 /* TARGET_TYPE_INT */, 4 /* TYPE_CLOTHING */)
+     , (13226, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (13226, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (13226, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (13226, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13226, 69, False) /* IS_SELLABLE_BOOL */
-     , (13226, 22, True) /* INSCRIBABLE_BOOL */
-     , (13226, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (13226, 022 /* INSCRIBABLE_BOOL */, True)
+     , (13226, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (13226, 069 /* IS_SELLABLE_BOOL */, False);
 

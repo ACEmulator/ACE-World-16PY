@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 9045;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9045, 'gemthauleggings', /* Gem_WeenieType */ 38);
+VALUES (9045, 'gemthauleggings', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9045, 16, 'A pale crystal, taken from a Nephol Golem.') /* LONG_DESC_STRING */
-     , (9045, 1, 'Pale Crystal') /* NAME_STRING */
-     , (9045, 15, 'A pale crystal.') /* SHORT_DESC_STRING */;
+VALUES (9045, 001 /* NAME_STRING */, 'Pale Crystal')
+     , (9045, 015 /* SHORT_DESC_STRING */, 'A pale crystal.')
+     , (9045, 016 /* LONG_DESC_STRING */, 'A pale crystal, taken from a Nephol Golem.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9045, 1, 33554809) /* SETUP_DID */
-     , (9045, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9045, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (9045, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9045, 6, 67111919) /* PALETTE_BASE_DID */
-     , (9045, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (9045, 8, 100671335) /* ICON_DID */;
+VALUES (9045, 001 /* SETUP_DID */, 33554809)
+     , (9045, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9045, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (9045, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (9045, 008 /* ICON_DID */, 100671335)
+     , (9045, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (9045, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9045, 9, 0) /* LOCATIONS_INT */
-     , (9045, 1, 2048) /* ITEM_TYPE_INT */
-     , (9045, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (9045, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (9045, 13, 200) /* STACK_UNIT_ENCUMB_INT */
-     , (9045, 5, 200) /* ENCUMB_VAL_INT */
-     , (9045, 8, 100) /* MASS_INT */
-     , (9045, 12, 1) /* STACK_SIZE_INT */
-     , (9045, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (9045, 15, 25) /* STACK_UNIT_VALUE_INT */
-     , (9045, 16, 1) /* ITEM_USEABLE_INT */
-     , (9045, 19, 25) /* VALUE_INT */
-     , (9045, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9045, 33, 1) /* BONDED_INT */
-     , (9045, 114, 1) /* ATTUNED_INT */;
+VALUES (9045, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (9045, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (9045, 005 /* ENCUMB_VAL_INT */, 200)
+     , (9045, 008 /* MASS_INT */, 100)
+     , (9045, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9045, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (9045, 012 /* STACK_SIZE_INT */, 1)
+     , (9045, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
+     , (9045, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (9045, 015 /* STACK_UNIT_VALUE_INT */, 25)
+     , (9045, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9045, 019 /* VALUE_INT */, 25)
+     , (9045, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9045, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9045, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9045, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (9045, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
+VALUES (9045, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (9045, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9045, 22, True) /* INSCRIBABLE_BOOL */
-     , (9045, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9045, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9045, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

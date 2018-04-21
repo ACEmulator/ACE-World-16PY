@@ -2,82 +2,82 @@
 DELETE FROM weenie WHERE class_Id = 10924;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10924, 'boygrubpetgrub-xp', /* Creature_WeenieType */ 10);
+VALUES (10924, 'boygrubpetgrub-xp', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10924, 1, 'Putiputipuh') /* NAME_STRING */;
+VALUES (10924, 001 /* NAME_STRING */, 'Putiputipuh');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10924, 1, 33558333) /* SETUP_DID */
-     , (10924, 2, 150995238) /* MOTION_TABLE_DID */
-     , (10924, 3, 536870976) /* SOUND_TABLE_DID */
-     , (10924, 4, 805306418) /* COMBAT_TABLE_DID */
-     , (10924, 6, 67114236) /* PALETTE_BASE_DID */
-     , (10924, 7, 268436600) /* CLOTHINGBASE_DID */
-     , (10924, 8, 100674298) /* ICON_DID */;
+VALUES (10924, 001 /* SETUP_DID */, 33558333)
+     , (10924, 002 /* MOTION_TABLE_DID */, 150995238)
+     , (10924, 003 /* SOUND_TABLE_DID */, 536870976)
+     , (10924, 004 /* COMBAT_TABLE_DID */, 805306418)
+     , (10924, 006 /* PALETTE_BASE_DID */, 67114236)
+     , (10924, 007 /* CLOTHINGBASE_DID */, 268436600)
+     , (10924, 008 /* ICON_DID */, 100674298);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10924, 1, 16) /* ITEM_TYPE_INT */
-     , (10924, 2, 35) /* CREATURE_TYPE_INT */
-     , (10924, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (10924, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (10924, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (10924, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (10924, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (10924, 16, 32) /* ITEM_USEABLE_INT */
-     , (10924, 8, 120) /* MASS_INT */
-     , (10924, 146, 186) /* XP_OVERRIDE_INT */
-     , (10924, 25, 7) /* LEVEL_INT */
-     , (10924, 27, 0) /* ARMOR_TYPE_INT */
-     , (10924, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (10924, 95, 2) /* RADARBLIP_COLOR_INT */;
+VALUES (10924, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (10924, 002 /* CREATURE_TYPE_INT */, 35 /* Olthoi_Larvae_CreatureType */)
+     , (10924, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (10924, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (10924, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (10924, 008 /* MASS_INT */, 120)
+     , (10924, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (10924, 025 /* LEVEL_INT */, 7)
+     , (10924, 027 /* ARMOR_TYPE_INT */, 0)
+     , (10924, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
+     , (10924, 095 /* RADARBLIP_COLOR_INT */, 2 /* Gold */)
+     , (10924, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
+     , (10924, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (10924, 146 /* XP_OVERRIDE_INT */, 186);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10924, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (10924, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (10924, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (10924, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (10924, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (10924, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (10924, 3, 0.16) /* HEALTH_RATE_FLOAT */
-     , (10924, 68, 1) /* RESIST_COLD_FLOAT */
-     , (10924, 4, 5) /* STAMINA_RATE_FLOAT */
-     , (10924, 5, 1) /* MANA_RATE_FLOAT */
-     , (10924, 69, 1) /* RESIST_ACID_FLOAT */
-     , (10924, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (10924, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (10924, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
-     , (10924, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (10924, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (10924, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (10924, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (10924, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (10924, 13, 0.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (10924, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (10924, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (10924, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (10924, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (10924, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (10924, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (10924, 54, 3) /* USE_RADIUS_FLOAT */
-     , (10924, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (10924, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (10924, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (10924, 003 /* HEALTH_RATE_FLOAT */, 0.16)
+     , (10924, 004 /* STAMINA_RATE_FLOAT */, 5)
+     , (10924, 005 /* MANA_RATE_FLOAT */, 1)
+     , (10924, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
+     , (10924, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (10924, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
+     , (10924, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
+     , (10924, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
+     , (10924, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (10924, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (10924, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
+     , (10924, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (10924, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (10924, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (10924, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (10924, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (10924, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (10924, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (10924, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (10924, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (10924, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (10924, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (10924, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (10924, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (10924, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (10924, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10924, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (10924, 1, True) /* STUCK_BOOL */
-     , (10924, 8, True) /* ALLOW_GIVE_BOOL */
-     , (10924, 90, True) /* NPC_INTERACTS_SILENTLY_BOOL */
-     , (10924, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
-     , (10924, 52, True) /* AI_IMMOBILE_BOOL */
-     , (10924, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (10924, 13, False) /* ETHEREAL_BOOL */
-     , (10924, 19, False) /* ATTACKABLE_BOOL */;
+VALUES (10924, 001 /* STUCK_BOOL */, True)
+     , (10924, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (10924, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (10924, 013 /* ETHEREAL_BOOL */, False)
+     , (10924, 019 /* ATTACKABLE_BOOL */, False)
+     , (10924, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
+     , (10924, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
+     , (10924, 052 /* AI_IMMOBILE_BOOL */, True)
+     , (10924, 090 /* NPC_INTERACTS_SILENTLY_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10924, 1, 80, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (10924, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (10924, 4, 70, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (10924, 3, 70, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (10924, 4, 70, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (10924, 5, 10, 0, 0) /* FOCUS_ATTRIBUTE */
      , (10924, 6, 20, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -87,74 +87,74 @@ VALUES (10924, 1, 80, 0, 0, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10924, 5, 40, 0, 0, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (10924, 16, 4, 4, 0.75, 8, 7, 8, 9, 3, 3, 8, 5, 0, 2, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75) /* TORSO */
-     , (10924, 0, 2, 2, 0.75, 8, 7, 8, 9, 3, 3, 8, 5, 0, 1, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0) /* HEAD */
+VALUES (10924, 0, 2, 2, 0.75, 8, 7, 8, 9, 3, 3, 8, 5, 0, 1, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0, 0.33, 0.4, 0) /* HEAD */
+     , (10924, 16, 4, 4, 0.75, 8, 7, 8, 9, 3, 3, 8, 5, 0, 2, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75, 0.67, 0.4, 0.75) /* TORSO */
      , (10924, 17, 4, 0, 0, 8, 7, 8, 9, 3, 3, 8, 5, 0, 3, 0, 0.2, 0.25, 0, 0.2, 0.25, 0, 0.2, 0.25, 0, 0.2, 0.25) /* TAIL */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (10924, 6, 0, 2, 0, 1, 0, 704.721621958461) /* MELEE_DEFENSE_SKILL */
-     , (10924, 7, 0, 2, 0, 0, 0, 704.721621958461) /* MISSILE_DEFENSE_SKILL */
-     , (10924, 13, 0, 2, 0, 0, 0, 704.721621958461) /* UNARMED_COMBAT_SKILL */;
+VALUES (10924, 6, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 1, 0, 704.721621958461) /* MELEE_DEFENSE_SKILL */
+     , (10924, 7, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 0, 0, 704.721621958461) /* MISSILE_DEFENSE_SKILL */
+     , (10924, 13, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 0, 0, 704.721621958461) /* UNARMED_COMBAT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (10924, 1, 1, 0, 10917 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (10924, 1, 1, 1, 10918 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (10924, 1, 1, 2, 10919 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (10924, 1, 1, 3, 10916 /* Panaq */, NULL, NULL, NULL, NULL, NULL, NULL) /* Refuse_EmoteCategory */
-     , (10924, 1, 13, 0, NULL, NULL, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
-     , (10924, 1, 13, 1, NULL, NULL, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
-     , (10924, 1, 13, 2, NULL, NULL, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */
-     , (10924, 0.01, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (10924, 0.02, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (10924, 1, 6, 0, 258 /* Apple */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (10924, 1, 6, 1, 10921 /* Tekapuapuh's Note */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (10924, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
-     , (10924, 1, 12, 0, NULL, NULL, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
-     , (10924, 1, 12, 1, NULL, NULL, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
-     , (10924, 1, 12, 2, NULL, NULL, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */;
+VALUES (10924, 1, 1 /* Refuse_EmoteCategory */, 0, 10917 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 1 /* Refuse_EmoteCategory */, 1, 10918 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 1 /* Refuse_EmoteCategory */, 2, 10919 /* Mysterious Tumerok Artifact */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 1 /* Refuse_EmoteCategory */, 3, 10916 /* Panaq */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 13 /* QuestFailure_EmoteCategory */, 0, NULL, NULL, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL)
+     , (10924, 1, 13 /* QuestFailure_EmoteCategory */, 1, NULL, NULL, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL)
+     , (10924, 1, 13 /* QuestFailure_EmoteCategory */, 2, NULL, NULL, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL)
+     , (10924, 0.01, 5 /* HeartBeat_EmoteCategory */, 0, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (10924, 0.02, 5 /* HeartBeat_EmoteCategory */, 1, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (10924, 1, 6 /* Give_EmoteCategory */, 0, 258 /* Apple */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 6 /* Give_EmoteCategory */, 1, 10921 /* Tekapuapuh's Note */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1, 12 /* QuestSuccess_EmoteCategory */, 0, NULL, NULL, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL)
+     , (10924, 1, 12 /* QuestSuccess_EmoteCategory */, 1, NULL, NULL, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL)
+     , (10924, 1, 12 /* QuestSuccess_EmoteCategory */, 2, NULL, NULL, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10924, 1, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 1, 0, 1, 18, 0, 1, NULL, 'Putiputipuh idly nibbles at the artifact.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 1, 1, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 1, 1, 1, 18, 0, 1, NULL, 'Putiputipuh rubs up against the artifact, then ignores it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 1, 2, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 1, 2, 1, 18, 0, 1, NULL, 'Putiputipuh stares (if you can call it that) at the artifact for a moment. Then stops.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 1, 3, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 1, 3, 1, 18, 0, 1, NULL, 'Putiputipuh happily gnaws on the end of the bow for a moment, but does nothing more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 0, 0, 18, 0, 1, NULL, 'The grub rustles, but otherwise ignores you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 1, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 13, 1, 1, 18, 0, 1, NULL, 'The grub seems to sniff the air, but doesn''t eat.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 1, 2, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 13, 1, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 258 /* Apple */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (10924, 13, 1, 4, 18, 1, 1, NULL, 'Tekapuapuh sighs. "Hmm. I remember washing my hands in those splashy-bubble-pots, before feeding her an onga. Maybe your hands are dirty?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 1, 5, 22, 0, 1, NULL, 'BoyGrubFoundApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (10924, 13, 1, 6, 22, 0, 1, NULL, 'BoyGrubFedWrongApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (10924, 13, 2, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 13, 2, 1, 18, 0, 1, NULL, 'As you reach out with the apple, the grub emits a faint, high-pitched whine. You feel something squirming under your skin, along your arm and into the apple.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 2, 2, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 13, 2, 3, 18, 1, 1, NULL, 'The grub happily devours the apple, swallowing it core and all.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 2, 4, 18, 1, 1, NULL, 'Tekapuapuh squeals with delight. "You did it! Putiputipuh''s happy again! Thank you thank you thank you!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 13, 2, 5, 2, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 25000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardXP_EmoteType */
-     , (10924, 13, 2, 6, 22, 0, 1, NULL, 'BoyGrubCompletedQuest', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (10924, 5, 0, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 5, 1, 0, 5, 0, 1, 268435538, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 6, 0, 0, 21, 0, 1, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
-     , (10924, 6, 1, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 6, 1, 1, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 6, 1, 2, 18, 0, 1, NULL, 'Putiputipuh smells the note, chews it up, then spits it out. Yuck.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 6, 1, 3, 3, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10921 /* Tekapuapuh's Note */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (10924, 7, 0, 0, 21, 0, 1, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
-     , (10924, 12, 0, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 12, 0, 1, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 12, 0, 2, 18, 0, 1, NULL, 'Putiputipuh whines, so softly and at so high a pitch you can bearly hear it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 12, 1, 0, 21, 0, 1, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
-     , (10924, 12, 2, 0, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (10924, 12, 2, 1, 18, 0, 1, NULL, 'The grub doesn''t seem hungry at the moment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (10924, 12, 2, 2, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (10924, 12, 2, 3, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 258 /* Apple */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (10924, 12, 2, 4, 31, 0, 1, NULL, 'BoyGrubInfested', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (10924, 12, 2, 5, 31, 0, 1, NULL, 'BoyGrubFoundApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (10924, 12, 2, 6, 31, 0, 1, NULL, 'BoyGrubFedWrongApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (10924, 12, 2, 7, 31, 0, 1, NULL, 'BoyGrubStartedQuest', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */;
+VALUES (10924, 1 /* Refuse_EmoteCategory */, 0, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 0, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh idly nibbles at the artifact.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 1, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 1, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh rubs up against the artifact, then ignores it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 2, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 2, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh stares (if you can call it that) at the artifact for a moment. Then stops.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 3, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 1 /* Refuse_EmoteCategory */, 3, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh happily gnaws on the end of the bow for a moment, but does nothing more.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'The grub rustles, but otherwise ignores you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'The grub seems to sniff the air, but doesn''t eat.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 2, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 3, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 258 /* Apple */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 4, 18 /* DirectBroadcast_EmoteType */, 1, 1, NULL, 'Tekapuapuh sighs. "Hmm. I remember washing my hands in those splashy-bubble-pots, before feeding her an onga. Maybe your hands are dirty?"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 5, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'BoyGrubFoundApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 1, 6, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'BoyGrubFedWrongApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'As you reach out with the apple, the grub emits a faint, high-pitched whine. You feel something squirming under your skin, along your arm and into the apple.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 2, 5 /* Motion_EmoteType */, 0, 1, 268435538 /* Motion_Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 3, 18 /* DirectBroadcast_EmoteType */, 1, 1, NULL, 'The grub happily devours the apple, swallowing it core and all.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 4, 18 /* DirectBroadcast_EmoteType */, 1, 1, NULL, 'Tekapuapuh squeals with delight. "You did it! Putiputipuh''s happy again! Thank you thank you thank you!"', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 5, 2 /* AwardXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 25000, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 13 /* QuestFailure_EmoteCategory */, 2, 6, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'BoyGrubCompletedQuest', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 5 /* HeartBeat_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 5 /* HeartBeat_EmoteCategory */, 1, 0, 5 /* Motion_EmoteType */, 0, 1, 268435538 /* Motion_Twitch2 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 6 /* Give_EmoteCategory */, 0, 0, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'BoyGrubInfested@GaveApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 6 /* Give_EmoteCategory */, 1, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 6 /* Give_EmoteCategory */, 1, 1, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 6 /* Give_EmoteCategory */, 1, 2, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh smells the note, chews it up, then spits it out. Yuck.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 6 /* Give_EmoteCategory */, 1, 3, 3 /* Give_EmoteType */, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 10921 /* Tekapuapuh's Note */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 7 /* Use_EmoteCategory */, 0, 0, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'BoyGrubInfested@Used', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 0, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 0, 1, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 0, 2, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Putiputipuh whines, so softly and at so high a pitch you can bearly hear it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 1, 0, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'BoyGrubCompletedQuest@GaveApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 0, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 1, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'The grub doesn''t seem hungry at the moment.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 2, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 3, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 258 /* Apple */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 4, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'BoyGrubInfested', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 5, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'BoyGrubFoundApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 6, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'BoyGrubFedWrongApple', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (10924, 12 /* QuestSuccess_EmoteCategory */, 2, 7, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'BoyGrubStartedQuest', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 29606;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29606, 'bloodpuzzlebloodpool', /* Generic_WeenieType */ 1);
+VALUES (29606, 'bloodpuzzlebloodpool', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29606, 1, 'Pool of Blood') /* NAME_STRING */;
+VALUES (29606, 001 /* NAME_STRING */, 'Pool of Blood');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29606, 1, 33558754) /* SETUP_DID */
-     , (29606, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29606, 8, 100676555) /* ICON_DID */
-     , (29606, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29606, 001 /* SETUP_DID */, 33558754)
+     , (29606, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29606, 008 /* ICON_DID */, 100676555)
+     , (29606, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29606, 1, 4194304) /* ITEM_TYPE_INT */
-     , (29606, 93, 1048) /* PHYSICS_STATE_INT */
-     , (29606, 5, 6000) /* ENCUMB_VAL_INT */
-     , (29606, 16, 1) /* ITEM_USEABLE_INT */
-     , (29606, 8, 3000) /* MASS_INT */
-     , (29606, 19, 200) /* VALUE_INT */;
+VALUES (29606, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (29606, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (29606, 008 /* MASS_INT */, 3000)
+     , (29606, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29606, 019 /* VALUE_INT */, 200)
+     , (29606, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29606, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (29606, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (29606, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (29606, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29606, 1, True) /* STUCK_BOOL */
-     , (29606, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (29606, 13, False) /* ETHEREAL_BOOL */;
+VALUES (29606, 001 /* STUCK_BOOL */, True)
+     , (29606, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (29606, 013 /* ETHEREAL_BOOL */, False);
 

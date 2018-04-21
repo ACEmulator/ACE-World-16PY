@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 23337;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23337, 'fishingsignhigh', /* Book_WeenieType */ 8);
+VALUES (23337, 'fishingsignhigh', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23337, 1, 'Fishing Sign') /* NAME_STRING */;
+VALUES (23337, 001 /* NAME_STRING */, 'Fishing Sign');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23337, 1, 33555088) /* SETUP_DID */
-     , (23337, 8, 100668115) /* ICON_DID */;
+VALUES (23337, 001 /* SETUP_DID */, 33555088)
+     , (23337, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23337, 1, 8192) /* ITEM_TYPE_INT */
-     , (23337, 93, 1040) /* PHYSICS_STATE_INT */
-     , (23337, 5, 9000) /* ENCUMB_VAL_INT */
-     , (23337, 16, 48) /* ITEM_USEABLE_INT */
-     , (23337, 8, 1800) /* MASS_INT */
-     , (23337, 19, 125) /* VALUE_INT */;
+VALUES (23337, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (23337, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (23337, 008 /* MASS_INT */, 1800)
+     , (23337, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (23337, 019 /* VALUE_INT */, 125)
+     , (23337, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23337, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (23337, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23337, 1, True) /* STUCK_BOOL */
-     , (23337, 13, False) /* ETHEREAL_BOOL */
-     , (23337, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (23337, 001 /* STUCK_BOOL */, True)
+     , (23337, 013 /* ETHEREAL_BOOL */, False)
+     , (23337, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23337, 1, 1000) /* Book Data */;

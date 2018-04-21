@@ -2,62 +2,62 @@
 DELETE FROM weenie WHERE class_Id = 7022;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7022, 'crossbowcompositedmg3def1spd2atk3', /* MissileLauncher_WeenieType */ 3);
+VALUES (7022, 'crossbowcompositedmg3def1spd2atk3', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7022, 1, 'Composite Crossbow with Handle') /* NAME_STRING */;
+VALUES (7022, 001 /* NAME_STRING */, 'Composite Crossbow with Handle');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7022, 1, 33556596) /* SETUP_DID */
-     , (7022, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7022, 37, 3) /* ITEM_SKILL_LIMIT_DID */
-     , (7022, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7022, 6, 67112869) /* PALETTE_BASE_DID */
-     , (7022, 7, 268436004) /* CLOTHINGBASE_DID */
-     , (7022, 8, 100670691) /* ICON_DID */;
+VALUES (7022, 001 /* SETUP_DID */, 33556596)
+     , (7022, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7022, 006 /* PALETTE_BASE_DID */, 67112869)
+     , (7022, 007 /* CLOTHINGBASE_DID */, 268436004)
+     , (7022, 008 /* ICON_DID */, 100670691)
+     , (7022, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7022, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7022, 9, 4194304) /* LOCATIONS_INT */
-     , (7022, 1, 256) /* ITEM_TYPE_INT */
-     , (7022, 19, 375) /* VALUE_INT */
-     , (7022, 3, 40) /* PALETTE_TEMPLATE_INT */
-     , (7022, 5, 1920) /* ENCUMB_VAL_INT */
-     , (7022, 16, 1) /* ITEM_USEABLE_INT */
-     , (7022, 8, 640) /* MASS_INT */
-     , (7022, 18, 1) /* UI_EFFECTS_INT */
-     , (7022, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (7022, 151, 2) /* HOOK_TYPE_INT */
-     , (7022, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7022, 33, 1) /* BONDED_INT */
-     , (7022, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (7022, 107, 0) /* ITEM_CUR_MANA_INT */
-     , (7022, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (7022, 44, 0) /* DAMAGE_INT */
-     , (7022, 109, 170) /* ITEM_DIFFICULTY_INT */
-     , (7022, 46, 32) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7022, 48, 3) /* WEAPON_SKILL_INT */
-     , (7022, 49, 105) /* WEAPON_TIME_INT */
-     , (7022, 50, 2) /* AMMO_TYPE_INT */
-     , (7022, 114, 1) /* ATTUNED_INT */
-     , (7022, 51, 2) /* COMBAT_USE_INT */
-     , (7022, 115, 240) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7022, 52, 2) /* PARENT_LOCATION_INT */
-     , (7022, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (7022, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (7022, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (7022, 003 /* PALETTE_TEMPLATE_INT */, 40 /* BRONZE_PALETTE_TEMPLATE */)
+     , (7022, 005 /* ENCUMB_VAL_INT */, 1920)
+     , (7022, 008 /* MASS_INT */, 640)
+     , (7022, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (7022, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7022, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (7022, 019 /* VALUE_INT */, 375)
+     , (7022, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7022, 044 /* DAMAGE_INT */, 0)
+     , (7022, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
+     , (7022, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
+     , (7022, 049 /* WEAPON_TIME_INT */, 105)
+     , (7022, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
+     , (7022, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (7022, 052 /* PARENT_LOCATION_INT */, 2)
+     , (7022, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (7022, 060 /* WEAPON_RANGE_INT */, 192)
+     , (7022, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7022, 106 /* ITEM_SPELLCRAFT_INT */, 200)
+     , (7022, 107 /* ITEM_CUR_MANA_INT */, 0)
+     , (7022, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (7022, 109 /* ITEM_DIFFICULTY_INT */, 170)
+     , (7022, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (7022, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 240)
+     , (7022, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (7022, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7022, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
-     , (7022, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (7022, 63, 2.4) /* DAMAGE_MOD_FLOAT */
-     , (7022, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
-     , (7022, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (7022, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (7022, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (7022, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (7022, 029 /* WEAPON_DEFENSE_FLOAT */, 1.02)
+     , (7022, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
+     , (7022, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06)
+     , (7022, 063 /* DAMAGE_MOD_FLOAT */, 2.4);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7022, 99, True) /* IVORYABLE_BOOL */
-     , (7022, 69, False) /* IS_SELLABLE_BOOL */
-     , (7022, 22, True) /* INSCRIBABLE_BOOL */
-     , (7022, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7022, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7022, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (7022, 069 /* IS_SELLABLE_BOOL */, False)
+     , (7022, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7022, 1615, 2) /* BloodDrinker5_SpellID */

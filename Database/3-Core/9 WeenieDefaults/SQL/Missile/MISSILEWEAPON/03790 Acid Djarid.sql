@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 3790;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3790, 'djaridacid', /* Missile_WeenieType */ 4);
+VALUES (3790, 'djaridacid', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3790, 1, 'Acid Djarid') /* NAME_STRING */;
+VALUES (3790, 001 /* NAME_STRING */, 'Acid Djarid');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3790, 1, 33555720) /* SETUP_DID */
-     , (3790, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3790, 8, 100667593) /* ICON_DID */
-     , (3790, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (3790, 001 /* SETUP_DID */, 33555720)
+     , (3790, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3790, 008 /* ICON_DID */, 100667593)
+     , (3790, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3790, 9, 4194304) /* LOCATIONS_INT */
-     , (3790, 1, 256) /* ITEM_TYPE_INT */
-     , (3790, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (3790, 5, 15) /* ENCUMB_VAL_INT */
-     , (3790, 8, 20) /* MASS_INT */
-     , (3790, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (3790, 12, 1) /* STACK_SIZE_INT */
-     , (3790, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (3790, 15, 20) /* STACK_UNIT_VALUE_INT */
-     , (3790, 16, 1) /* ITEM_USEABLE_INT */
-     , (3790, 18, 256) /* UI_EFFECTS_INT */
-     , (3790, 19, 20) /* VALUE_INT */
-     , (3790, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (3790, 151, 2) /* HOOK_TYPE_INT */
-     , (3790, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3790, 44, 10) /* DAMAGE_INT */
-     , (3790, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3790, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (3790, 48, 12) /* WEAPON_SKILL_INT */
-     , (3790, 49, 20) /* WEAPON_TIME_INT */
-     , (3790, 51, 2) /* COMBAT_USE_INT */;
+VALUES (3790, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (3790, 005 /* ENCUMB_VAL_INT */, 15)
+     , (3790, 008 /* MASS_INT */, 20)
+     , (3790, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (3790, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (3790, 012 /* STACK_SIZE_INT */, 1)
+     , (3790, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (3790, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (3790, 015 /* STACK_UNIT_VALUE_INT */, 20)
+     , (3790, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (3790, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
+     , (3790, 019 /* VALUE_INT */, 20)
+     , (3790, 044 /* DAMAGE_INT */, 10)
+     , (3790, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (3790, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (3790, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (3790, 049 /* WEAPON_TIME_INT */, 20)
+     , (3790, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (3790, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3790, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (3790, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3790, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (3790, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (3790, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (3790, 27, 0) /* ROTATION_SPEED_FLOAT */
-     , (3790, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (3790, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (3790, 027 /* ROTATION_SPEED_FLOAT */, 0)
+     , (3790, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (3790, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (3790, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 

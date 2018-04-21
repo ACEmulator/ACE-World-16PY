@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 7914;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7914, 'septumbrisnote', /* Book_WeenieType */ 8);
+VALUES (7914, 'septumbrisnote', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7914, 16, 'A thin, membranous, unidentifiable life form, with Empyrean script burned into its flesh.') /* LONG_DESC_STRING */
-     , (7914, 1, 'Pulsing Lump') /* NAME_STRING */
-     , (7914, 14, 'This item cannot be read.') /* USE_STRING */
-     , (7914, 15, 'A thin, membranous, unidentifiable life form, with script burned into its flesh.') /* SHORT_DESC_STRING */;
+VALUES (7914, 001 /* NAME_STRING */, 'Pulsing Lump')
+     , (7914, 014 /* USE_STRING */, 'This item cannot be read.')
+     , (7914, 015 /* SHORT_DESC_STRING */, 'A thin, membranous, unidentifiable life form, with script burned into its flesh.')
+     , (7914, 016 /* LONG_DESC_STRING */, 'A thin, membranous, unidentifiable life form, with Empyrean script burned into its flesh.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7914, 1, 33556232) /* SETUP_DID */
-     , (7914, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7914, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7914, 6, 67111928) /* PALETTE_BASE_DID */
-     , (7914, 7, 268436029) /* CLOTHINGBASE_DID */
-     , (7914, 8, 100670890) /* ICON_DID */;
+VALUES (7914, 001 /* SETUP_DID */, 33556232)
+     , (7914, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7914, 006 /* PALETTE_BASE_DID */, 67111928)
+     , (7914, 007 /* CLOTHINGBASE_DID */, 268436029)
+     , (7914, 008 /* ICON_DID */, 100670890)
+     , (7914, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7914, 33, 1) /* BONDED_INT */
-     , (7914, 9, 0) /* LOCATIONS_INT */
-     , (7914, 1, 128) /* ITEM_TYPE_INT */
-     , (7914, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7914, 5, 50) /* ENCUMB_VAL_INT */
-     , (7914, 16, 8) /* ITEM_USEABLE_INT */
-     , (7914, 8, 5) /* MASS_INT */
-     , (7914, 19, 20) /* VALUE_INT */;
+VALUES (7914, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (7914, 005 /* ENCUMB_VAL_INT */, 50)
+     , (7914, 008 /* MASS_INT */, 5)
+     , (7914, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7914, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (7914, 019 /* VALUE_INT */, 20)
+     , (7914, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7914, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7914, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (7914, 76, 0.5) /* TRANSLUCENCY_FLOAT */
-     , (7914, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (7914, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (7914, 054 /* USE_RADIUS_FLOAT */, 1)
+     , (7914, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7914, 22, False) /* INSCRIBABLE_BOOL */
-     , (7914, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7914, 022 /* INSCRIBABLE_BOOL */, False)
+     , (7914, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (7914, 1, 1000) /* Book Data */;

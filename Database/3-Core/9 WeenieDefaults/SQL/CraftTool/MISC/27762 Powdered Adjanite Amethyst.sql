@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 27762;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27762, 'powderadjaniteamethyst', /* CraftTool_WeenieType */ 44);
+VALUES (27762, 'powderadjaniteamethyst', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27762, 1, 'Powdered Adjanite Amethyst') /* NAME_STRING */
-     , (27762, 14, 'You are not sure what this artifact can be used on.') /* USE_STRING */
-     , (27762, 15, 'A pile of finely ground amethyst. The powder sparkles in even the faintest of light.') /* SHORT_DESC_STRING */;
+VALUES (27762, 001 /* NAME_STRING */, 'Powdered Adjanite Amethyst')
+     , (27762, 014 /* USE_STRING */, 'You are not sure what this artifact can be used on.')
+     , (27762, 015 /* SHORT_DESC_STRING */, 'A pile of finely ground amethyst. The powder sparkles in even the faintest of light.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27762, 1, 33555208) /* SETUP_DID */
-     , (27762, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27762, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (27762, 6, 67111919) /* PALETTE_BASE_DID */
-     , (27762, 7, 268435778) /* CLOTHINGBASE_DID */
-     , (27762, 8, 100676637) /* ICON_DID */;
+VALUES (27762, 001 /* SETUP_DID */, 33555208)
+     , (27762, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27762, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (27762, 007 /* CLOTHINGBASE_DID */, 268435778)
+     , (27762, 008 /* ICON_DID */, 100676637)
+     , (27762, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27762, 9, 0) /* LOCATIONS_INT */
-     , (27762, 1, 128) /* ITEM_TYPE_INT */
-     , (27762, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (27762, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (27762, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (27762, 5, 5) /* ENCUMB_VAL_INT */
-     , (27762, 8, 20) /* MASS_INT */
-     , (27762, 12, 1) /* STACK_SIZE_INT */
-     , (27762, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (27762, 15, 5000) /* STACK_UNIT_VALUE_INT */
-     , (27762, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (27762, 19, 5000) /* VALUE_INT */
-     , (27762, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27762, 94, 8) /* TARGET_TYPE_INT */;
+VALUES (27762, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (27762, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (27762, 005 /* ENCUMB_VAL_INT */, 5)
+     , (27762, 008 /* MASS_INT */, 20)
+     , (27762, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27762, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (27762, 012 /* STACK_SIZE_INT */, 1)
+     , (27762, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (27762, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (27762, 015 /* STACK_UNIT_VALUE_INT */, 5000)
+     , (27762, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (27762, 019 /* VALUE_INT */, 5000)
+     , (27762, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (27762, 094 /* TARGET_TYPE_INT */, 8 /* TYPE_JEWELRY */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27762, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (27762, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27762, 22, True) /* INSCRIBABLE_BOOL */
-     , (27762, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (27762, 022 /* INSCRIBABLE_BOOL */, True)
+     , (27762, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

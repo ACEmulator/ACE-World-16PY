@@ -2,55 +2,55 @@
 DELETE FROM weenie WHERE class_Id = 6042;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6042, 'mageacademycoffinwarriorhighlocked', /* Chest_WeenieType */ 20);
+VALUES (6042, 'mageacademycoffinwarriorhighlocked', 20 /* Chest_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6042, 16, 'A coffin of sand-colored stone. You notice a suspicious glow near the lock.') /* LONG_DESC_STRING */
-     , (6042, 1, 'Lady Jaera''s Tomb') /* NAME_STRING */
-     , (6042, 12, 'keymageacademycoffin') /* LOCK_CODE_STRING */
-     , (6042, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (6042, 001 /* NAME_STRING */, 'Lady Jaera''s Tomb')
+     , (6042, 012 /* LOCK_CODE_STRING */, 'keymageacademycoffin')
+     , (6042, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
+     , (6042, 016 /* LONG_DESC_STRING */, 'A coffin of sand-colored stone. You notice a suspicious glow near the lock.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6042, 1, 33554638) /* SETUP_DID */
-     , (6042, 2, 150994980) /* MOTION_TABLE_DID */
-     , (6042, 3, 536870949) /* SOUND_TABLE_DID */
-     , (6042, 8, 100668103) /* ICON_DID */
-     , (6042, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6042, 28, 1326) /* SPELL_DID */;
+VALUES (6042, 001 /* SETUP_DID */, 33554638)
+     , (6042, 002 /* MOTION_TABLE_DID */, 150994980)
+     , (6042, 003 /* SOUND_TABLE_DID */, 536870949)
+     , (6042, 008 /* ICON_DID */, 100668103)
+     , (6042, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6042, 028 /* SPELL_DID */, 1326 /* ImperilOther5_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6042, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
-     , (6042, 1, 512) /* ITEM_TYPE_INT */
-     , (6042, 5, 6000) /* ENCUMB_VAL_INT */
-     , (6042, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (6042, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (6042, 16, 48) /* ITEM_USEABLE_INT */
-     , (6042, 8, 3000) /* MASS_INT */
-     , (6042, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (6042, 19, 200) /* VALUE_INT */
-     , (6042, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (6042, 93, 1048) /* PHYSICS_STATE_INT */
-     , (6042, 96, 500) /* ENCUMB_CAPACITY_INT */
-     , (6042, 100, 1) /* GENERATOR_TYPE_INT */
-     , (6042, 37, 300) /* RESIST_ITEM_APPRAISAL_INT */
-     , (6042, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (6042, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (6042, 119, 65535) /* ACTIVE_INT */;
+VALUES (6042, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (6042, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (6042, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (6042, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (6042, 008 /* MASS_INT */, 3000)
+     , (6042, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (6042, 019 /* VALUE_INT */, 200)
+     , (6042, 037 /* RESIST_ITEM_APPRAISAL_INT */, 300)
+     , (6042, 038 /* RESIST_LOCKPICK_INT */, 5000)
+     , (6042, 081 /* MAX_GENERATED_OBJECTS_INT */, 5)
+     , (6042, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (6042, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (6042, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6042, 096 /* ENCUMB_CAPACITY_INT */, 500)
+     , (6042, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */)
+     , (6042, 106 /* ITEM_SPELLCRAFT_INT */, 400)
+     , (6042, 119 /* ACTIVE_INT */, 65535);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6042, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (6042, 43, 1) /* GENERATOR_RADIUS_FLOAT */
-     , (6042, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (6042, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (6042, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
+     , (6042, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6042, 1, True) /* STUCK_BOOL */
-     , (6042, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (6042, 2, False) /* OPEN_BOOL */
-     , (6042, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (6042, 3, True) /* LOCKED_BOOL */
-     , (6042, 35, True) /* DEFAULT_LOCKED_BOOL */
-     , (6042, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (6042, 13, False) /* ETHEREAL_BOOL */;
+VALUES (6042, 001 /* STUCK_BOOL */, True)
+     , (6042, 002 /* OPEN_BOOL */, False)
+     , (6042, 003 /* LOCKED_BOOL */, True)
+     , (6042, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (6042, 013 /* ETHEREAL_BOOL */, False)
+     , (6042, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (6042, 034 /* DEFAULT_OPEN_BOOL */, False)
+     , (6042, 035 /* DEFAULT_LOCKED_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6042, 1, 1, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Clay (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;

@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 30799;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30799, 'gemportalfloatingtower', /* Gem_WeenieType */ 38);
+VALUES (30799, 'gemportalfloatingtower', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30799, 1, 'Corrupted Skull') /* NAME_STRING */
-     , (30799, 14, 'Double Click on this item to summon a portal to the floating towers of the Singularity Caul.') /* USE_STRING */
-     , (30799, 15, 'A soot covered skull. The eyes emit an eerie bright green glow. ') /* SHORT_DESC_STRING */;
+VALUES (30799, 001 /* NAME_STRING */, 'Corrupted Skull')
+     , (30799, 014 /* USE_STRING */, 'Double Click on this item to summon a portal to the floating towers of the Singularity Caul.')
+     , (30799, 015 /* SHORT_DESC_STRING */, 'A soot covered skull. The eyes emit an eerie bright green glow. ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30799, 1, 33555205) /* SETUP_DID */
-     , (30799, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30799, 8, 100677491) /* ICON_DID */
-     , (30799, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (30799, 28, 157) /* SPELL_DID */
-     , (30799, 31, 30819) /* LINKED_PORTAL_ONE_DID */;
+VALUES (30799, 001 /* SETUP_DID */, 33555205)
+     , (30799, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30799, 008 /* ICON_DID */, 100677491)
+     , (30799, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (30799, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
+     , (30799, 031 /* LINKED_PORTAL_ONE_DID */, 30819 /* Floating Tower */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30799, 9, 0) /* LOCATIONS_INT */
-     , (30799, 1, 2048) /* ITEM_TYPE_INT */
-     , (30799, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (30799, 5, 50) /* ENCUMB_VAL_INT */
-     , (30799, 8, 5) /* MASS_INT */
-     , (30799, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (30799, 12, 1) /* STACK_SIZE_INT */
-     , (30799, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (30799, 15, 5000) /* STACK_UNIT_VALUE_INT */
-     , (30799, 16, 8) /* ITEM_USEABLE_INT */
-     , (30799, 18, 1) /* UI_EFFECTS_INT */
-     , (30799, 19, 5000) /* VALUE_INT */
-     , (30799, 93, 3092) /* PHYSICS_STATE_INT */
-     , (30799, 94, 16) /* TARGET_TYPE_INT */
-     , (30799, 33, 0) /* BONDED_INT */
-     , (30799, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (30799, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (30799, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (30799, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30799, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (30799, 114, 0) /* ATTUNED_INT */;
+VALUES (30799, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (30799, 005 /* ENCUMB_VAL_INT */, 50)
+     , (30799, 008 /* MASS_INT */, 5)
+     , (30799, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30799, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (30799, 012 /* STACK_SIZE_INT */, 1)
+     , (30799, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (30799, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (30799, 015 /* STACK_UNIT_VALUE_INT */, 5000)
+     , (30799, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (30799, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (30799, 019 /* VALUE_INT */, 5000)
+     , (30799, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (30799, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (30799, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (30799, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (30799, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (30799, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (30799, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (30799, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (30799, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30799, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (30799, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (30799, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30799, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (30799, 022 /* INSCRIBABLE_BOOL */, True)
+     , (30799, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

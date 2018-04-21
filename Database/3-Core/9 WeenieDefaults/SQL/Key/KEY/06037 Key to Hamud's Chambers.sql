@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 6037;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6037, 'keyhamud', /* Key_WeenieType */ 22);
+VALUES (6037, 'keyhamud', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6037, 16, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.') /* LONG_DESC_STRING */
-     , (6037, 1, 'Key to Hamud''s Chambers') /* NAME_STRING */
-     , (6037, 13, 'keyhamud') /* KEY_CODE_STRING */
-     , (6037, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */
-     , (6037, 15, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.') /* SHORT_DESC_STRING */;
+VALUES (6037, 001 /* NAME_STRING */, 'Key to Hamud''s Chambers')
+     , (6037, 013 /* KEY_CODE_STRING */, 'keyhamud')
+     , (6037, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
+     , (6037, 015 /* SHORT_DESC_STRING */, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.')
+     , (6037, 016 /* LONG_DESC_STRING */, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6037, 1, 33554784) /* SETUP_DID */
-     , (6037, 8, 100668441) /* ICON_DID */
-     , (6037, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (6037, 001 /* SETUP_DID */, 33554784)
+     , (6037, 008 /* ICON_DID */, 100668441)
+     , (6037, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6037, 1, 16384) /* ITEM_TYPE_INT */
-     , (6037, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6037, 5, 50) /* ENCUMB_VAL_INT */
-     , (6037, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (6037, 8, 20) /* MASS_INT */
-     , (6037, 91, 2) /* MAX_STRUCTURE_INT */
-     , (6037, 19, 30) /* VALUE_INT */
-     , (6037, 92, 2) /* STRUCTURE_INT */
-     , (6037, 94, 640) /* TARGET_TYPE_INT */;
+VALUES (6037, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (6037, 005 /* ENCUMB_VAL_INT */, 50)
+     , (6037, 008 /* MASS_INT */, 20)
+     , (6037, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (6037, 019 /* VALUE_INT */, 30)
+     , (6037, 091 /* MAX_STRUCTURE_INT */, 2)
+     , (6037, 092 /* STRUCTURE_INT */, 2)
+     , (6037, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6037, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6037, 22, True) /* INSCRIBABLE_BOOL */
-     , (6037, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6037, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6037, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

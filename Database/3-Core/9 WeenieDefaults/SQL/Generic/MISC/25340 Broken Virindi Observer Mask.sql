@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 25340;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25340, 'maskvirindiobserverbroken', /* Generic_WeenieType */ 1);
+VALUES (25340, 'maskvirindiobserverbroken', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25340, 16, 'A black mask made out of some indeterminable metal that seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance. Perhaps if you bring it a friendly Virindi, or a human who studies Virindi, they can repair it for you?') /* LONG_DESC_STRING */
-     , (25340, 1, 'Broken Virindi Observer Mask') /* NAME_STRING */
-     , (25340, 33, 'RegaliaMaskUpper') /* QUEST_STRING */;
+VALUES (25340, 001 /* NAME_STRING */, 'Broken Virindi Observer Mask')
+     , (25340, 016 /* LONG_DESC_STRING */, 'A black mask made out of some indeterminable metal that seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance. Perhaps if you bring it a friendly Virindi, or a human who studies Virindi, they can repair it for you?')
+     , (25340, 033 /* QUEST_STRING */, 'RegaliaMaskUpper');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25340, 1, 33556827) /* SETUP_DID */
-     , (25340, 3, 536870932) /* SOUND_TABLE_DID */
-     , (25340, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (25340, 6, 67108990) /* PALETTE_BASE_DID */
-     , (25340, 7, 268436257) /* CLOTHINGBASE_DID */
-     , (25340, 8, 100674850) /* ICON_DID */;
+VALUES (25340, 001 /* SETUP_DID */, 33556827)
+     , (25340, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (25340, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (25340, 007 /* CLOTHINGBASE_DID */, 268436257)
+     , (25340, 008 /* ICON_DID */, 100674850)
+     , (25340, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25340, 33, 1) /* BONDED_INT */
-     , (25340, 9, 0) /* LOCATIONS_INT */
-     , (25340, 1, 128) /* ITEM_TYPE_INT */
-     , (25340, 19, 0) /* VALUE_INT */
-     , (25340, 3, 3) /* PALETTE_TEMPLATE_INT */
-     , (25340, 93, 1044) /* PHYSICS_STATE_INT */
-     , (25340, 5, 300) /* ENCUMB_VAL_INT */
-     , (25340, 16, 1) /* ITEM_USEABLE_INT */
-     , (25340, 8, 600) /* MASS_INT */
-     , (25340, 114, 1) /* ATTUNED_INT */;
+VALUES (25340, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (25340, 003 /* PALETTE_TEMPLATE_INT */, 3 /* BLUEPURPLE_PALETTE_TEMPLATE */)
+     , (25340, 005 /* ENCUMB_VAL_INT */, 300)
+     , (25340, 008 /* MASS_INT */, 600)
+     , (25340, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (25340, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (25340, 019 /* VALUE_INT */, 0)
+     , (25340, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (25340, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (25340, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25340, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (25340, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25340, 22, True) /* INSCRIBABLE_BOOL */
-     , (25340, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (25340, 022 /* INSCRIBABLE_BOOL */, True)
+     , (25340, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

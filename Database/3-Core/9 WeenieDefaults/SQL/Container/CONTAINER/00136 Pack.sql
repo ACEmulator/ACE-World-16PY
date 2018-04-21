@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 136;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (136, 'backpack', /* Container_WeenieType */ 21);
+VALUES (136, 'backpack', 21 /* Container_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (136, 1, 'Pack') /* NAME_STRING */;
+VALUES (136, 001 /* NAME_STRING */, 'Pack');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (136, 1, 33554769) /* SETUP_DID */
-     , (136, 3, 536870932) /* SOUND_TABLE_DID */
-     , (136, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (136, 6, 67111919) /* PALETTE_BASE_DID */
-     , (136, 7, 268435867) /* CLOTHINGBASE_DID */
-     , (136, 8, 100670383) /* ICON_DID */;
+VALUES (136, 001 /* SETUP_DID */, 33554769)
+     , (136, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (136, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (136, 007 /* CLOTHINGBASE_DID */, 268435867)
+     , (136, 008 /* ICON_DID */, 100670383)
+     , (136, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (136, 9, 0) /* LOCATIONS_INT */
-     , (136, 1, 512) /* ITEM_TYPE_INT */
-     , (136, 19, 65) /* VALUE_INT */
-     , (136, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (136, 5, 15) /* ENCUMB_VAL_INT */
-     , (136, 6, 24) /* ITEMS_CAPACITY_INT */
-     , (136, 7, 0) /* CONTAINERS_CAPACITY_INT */
-     , (136, 16, 56) /* ITEM_USEABLE_INT */
-     , (136, 8, 200) /* MASS_INT */
-     , (136, 93, 1044) /* PHYSICS_STATE_INT */
-     , (136, 96, 2000) /* ENCUMB_CAPACITY_INT */;
+VALUES (136, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (136, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (136, 005 /* ENCUMB_VAL_INT */, 15)
+     , (136, 006 /* ITEMS_CAPACITY_INT */, 24)
+     , (136, 007 /* CONTAINERS_CAPACITY_INT */, 0)
+     , (136, 008 /* MASS_INT */, 200)
+     , (136, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (136, 016 /* ITEM_USEABLE_INT */, 56 /* USEABLE_CONTAINED_VIEWED_REMOTE */)
+     , (136, 019 /* VALUE_INT */, 65)
+     , (136, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (136, 096 /* ENCUMB_CAPACITY_INT */, 2000);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (136, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
-     , (136, 54, 0.5) /* USE_RADIUS_FLOAT */;
+VALUES (136, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
+     , (136, 054 /* USE_RADIUS_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (136, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (136, 022 /* INSCRIBABLE_BOOL */, True);
 

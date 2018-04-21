@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 9229;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9229, 'healingkittreated', /* Healer_WeenieType */ 28);
+VALUES (9229, 'healingkittreated', 28 /* Healer_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9229, 16, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.') /* LONG_DESC_STRING */
-     , (9229, 1, 'Treated Healing Kit') /* NAME_STRING */;
+VALUES (9229, 001 /* NAME_STRING */, 'Treated Healing Kit')
+     , (9229, 016 /* LONG_DESC_STRING */, 'A Treated Healing kit that smells faintly of hyssop and other aromatic herbs.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9229, 1, 33555194) /* SETUP_DID */
-     , (9229, 8, 100676325) /* ICON_DID */;
+VALUES (9229, 001 /* SETUP_DID */, 33555194)
+     , (9229, 008 /* ICON_DID */, 100676325);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9229, 89, 2) /* BOOSTER_ENUM_INT */
-     , (9229, 9, 0) /* LOCATIONS_INT */
-     , (9229, 1, 128) /* ITEM_TYPE_INT */
-     , (9229, 5, 50) /* ENCUMB_VAL_INT */
-     , (9229, 16, 2228232) /* ITEM_USEABLE_INT */
-     , (9229, 8, 25) /* MASS_INT */
-     , (9229, 91, 50) /* MAX_STRUCTURE_INT */
-     , (9229, 19, 2000) /* VALUE_INT */
-     , (9229, 90, 25) /* BOOST_VALUE_INT */
-     , (9229, 92, 50) /* STRUCTURE_INT */
-     , (9229, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9229, 94, 16) /* TARGET_TYPE_INT */;
+VALUES (9229, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9229, 005 /* ENCUMB_VAL_INT */, 50)
+     , (9229, 008 /* MASS_INT */, 25)
+     , (9229, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9229, 016 /* ITEM_USEABLE_INT */, 2228232 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_OR_SELF */)
+     , (9229, 019 /* VALUE_INT */, 2000)
+     , (9229, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
+     , (9229, 090 /* BOOST_VALUE_INT */, 25)
+     , (9229, 091 /* MAX_STRUCTURE_INT */, 50)
+     , (9229, 092 /* STRUCTURE_INT */, 50)
+     , (9229, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9229, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9229, 100, 2) /* HEALKIT_MOD_FLOAT */;
+VALUES (9229, 100 /* HEALKIT_MOD_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9229, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (9229, 022 /* INSCRIBABLE_BOOL */, True);
 

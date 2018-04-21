@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 7974;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7974, 'yumimonsteronly2', /* MissileLauncher_WeenieType */ 3);
+VALUES (7974, 'yumimonsteronly2', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7974, 1, 'Yumi') /* NAME_STRING */;
+VALUES (7974, 001 /* NAME_STRING */, 'Yumi');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7974, 1, 33554728) /* SETUP_DID */
-     , (7974, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7974, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7974, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7974, 7, 268435759) /* CLOTHINGBASE_DID */
-     , (7974, 8, 100668815) /* ICON_DID */;
+VALUES (7974, 001 /* SETUP_DID */, 33554728)
+     , (7974, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7974, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7974, 007 /* CLOTHINGBASE_DID */, 268435759)
+     , (7974, 008 /* ICON_DID */, 100668815)
+     , (7974, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7974, 33, -2) /* BONDED_INT */
-     , (7974, 9, 4194304) /* LOCATIONS_INT */
-     , (7974, 1, 256) /* ITEM_TYPE_INT */
-     , (7974, 19, 400) /* VALUE_INT */
-     , (7974, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (7974, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7974, 5, 980) /* ENCUMB_VAL_INT */
-     , (7974, 16, 1) /* ITEM_USEABLE_INT */
-     , (7974, 8, 140) /* MASS_INT */
-     , (7974, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (7974, 44, 0) /* DAMAGE_INT */
-     , (7974, 46, 16) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7974, 48, 2) /* WEAPON_SKILL_INT */
-     , (7974, 49, 20) /* WEAPON_TIME_INT */
-     , (7974, 114, 1) /* ATTUNED_INT */
-     , (7974, 50, 1) /* AMMO_TYPE_INT */
-     , (7974, 51, 2) /* COMBAT_USE_INT */
-     , (7974, 52, 2) /* PARENT_LOCATION_INT */
-     , (7974, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (7974, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (7974, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (7974, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (7974, 005 /* ENCUMB_VAL_INT */, 980)
+     , (7974, 008 /* MASS_INT */, 140)
+     , (7974, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (7974, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7974, 019 /* VALUE_INT */, 400)
+     , (7974, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (7974, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (7974, 044 /* DAMAGE_INT */, 0)
+     , (7974, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
+     , (7974, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
+     , (7974, 049 /* WEAPON_TIME_INT */, 20)
+     , (7974, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (7974, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (7974, 052 /* PARENT_LOCATION_INT */, 2)
+     , (7974, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (7974, 060 /* WEAPON_RANGE_INT */, 192)
+     , (7974, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7974, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7974, 63, 2.33) /* DAMAGE_MOD_FLOAT */
-     , (7974, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (7974, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (7974, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (7974, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (7974, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (7974, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (7974, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (7974, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (7974, 063 /* DAMAGE_MOD_FLOAT */, 2.33);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7974, 22, True) /* INSCRIBABLE_BOOL */
-     , (7974, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7974, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7974, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

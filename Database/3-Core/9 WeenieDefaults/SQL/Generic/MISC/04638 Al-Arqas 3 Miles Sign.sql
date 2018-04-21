@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 4638;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4638, 'alarqas3milesign', /* Generic_WeenieType */ 1);
+VALUES (4638, 'alarqas3milesign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4638, 16, '3 Miles to Al-Arqas') /* LONG_DESC_STRING */
-     , (4638, 1, 'Al-Arqas 3 Miles Sign') /* NAME_STRING */;
+VALUES (4638, 001 /* NAME_STRING */, 'Al-Arqas 3 Miles Sign')
+     , (4638, 016 /* LONG_DESC_STRING */, '3 Miles to Al-Arqas');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4638, 1, 33555985) /* SETUP_DID */
-     , (4638, 8, 100668115) /* ICON_DID */;
+VALUES (4638, 001 /* SETUP_DID */, 33555985)
+     , (4638, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4638, 1, 128) /* ITEM_TYPE_INT */
-     , (4638, 93, 24) /* PHYSICS_STATE_INT */
-     , (4638, 5, 9000) /* ENCUMB_VAL_INT */
-     , (4638, 16, 1) /* ITEM_USEABLE_INT */
-     , (4638, 8, 1800) /* MASS_INT */
-     , (4638, 19, 125) /* VALUE_INT */;
+VALUES (4638, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4638, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (4638, 008 /* MASS_INT */, 1800)
+     , (4638, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4638, 019 /* VALUE_INT */, 125)
+     , (4638, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4638, 1, True) /* STUCK_BOOL */
-     , (4638, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (4638, 13, False) /* ETHEREAL_BOOL */
-     , (4638, 22, False) /* INSCRIBABLE_BOOL */
-     , (4638, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (4638, 001 /* STUCK_BOOL */, True)
+     , (4638, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (4638, 013 /* ETHEREAL_BOOL */, False)
+     , (4638, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (4638, 022 /* INSCRIBABLE_BOOL */, False);
 

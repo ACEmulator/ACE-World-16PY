@@ -2,51 +2,51 @@
 DELETE FROM weenie WHERE class_Id = 11305;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11305, 'staffmagic345menhir-xp', /* Caster_WeenieType */ 35);
+VALUES (11305, 'staffmagic345menhir-xp', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11305, 16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Siraluun, Storm, and Tonk.') /* LONG_DESC_STRING */
-     , (11305, 1, 'Stave of Palenqual') /* NAME_STRING */;
+VALUES (11305, 001 /* NAME_STRING */, 'Stave of Palenqual')
+     , (11305, 016 /* LONG_DESC_STRING */, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Siraluun, Storm, and Tonk.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11305, 1, 33557232) /* SETUP_DID */
-     , (11305, 27, 1073742049) /* USE_USER_ANIMATION_DID */
-     , (11305, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11305, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (11305, 6, 67111919) /* PALETTE_BASE_DID */
-     , (11305, 8, 100671868) /* ICON_DID */
-     , (11305, 28, 1836) /* SPELL_DID */;
+VALUES (11305, 001 /* SETUP_DID */, 33557232)
+     , (11305, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11305, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (11305, 008 /* ICON_DID */, 100671868)
+     , (11305, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (11305, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
+     , (11305, 028 /* SPELL_DID */, 1836 /* FrostStrike_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11305, 9, 16777216) /* LOCATIONS_INT */
-     , (11305, 1, 32768) /* ITEM_TYPE_INT */
-     , (11305, 5, 200) /* ENCUMB_VAL_INT */
-     , (11305, 16, 6291460) /* ITEM_USEABLE_INT */
-     , (11305, 8, 200) /* MASS_INT */
-     , (11305, 18, 1) /* UI_EFFECTS_INT */
-     , (11305, 19, 0) /* VALUE_INT */
-     , (11305, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (11305, 151, 2) /* HOOK_TYPE_INT */
-     , (11305, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11305, 94, 16) /* TARGET_TYPE_INT */
-     , (11305, 33, 1) /* BONDED_INT */
-     , (11305, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (11305, 107, 8544) /* ITEM_CUR_MANA_INT */
-     , (11305, 108, 8544) /* ITEM_MAX_MANA_INT */
-     , (11305, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (11305, 114, 1) /* ATTUNED_INT */
-     , (11305, 117, 600) /* ITEM_MANA_COST_INT */;
+VALUES (11305, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (11305, 005 /* ENCUMB_VAL_INT */, 200)
+     , (11305, 008 /* MASS_INT */, 200)
+     , (11305, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (11305, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
+     , (11305, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (11305, 019 /* VALUE_INT */, 0)
+     , (11305, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (11305, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (11305, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11305, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (11305, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (11305, 107 /* ITEM_CUR_MANA_INT */, 8544)
+     , (11305, 108 /* ITEM_MAX_MANA_INT */, 8544)
+     , (11305, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (11305, 117 /* ITEM_MANA_COST_INT */, 600)
+     , (11305, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (11305, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11305, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (11305, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (11305, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */;
+VALUES (11305, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (11305, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (11305, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.07);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11305, 99, True) /* IVORYABLE_BOOL */
-     , (11305, 69, False) /* IS_SELLABLE_BOOL */
-     , (11305, 22, True) /* INSCRIBABLE_BOOL */
-     , (11305, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11305, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11305, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (11305, 069 /* IS_SELLABLE_BOOL */, False)
+     , (11305, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11305, 2581, 2) /* CANTRIPFOCUS1_SpellID */

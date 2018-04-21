@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 8180;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8180, 'servicedispelother1', /* Generic_WeenieType */ 1);
+VALUES (8180, 'servicedispelother1', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8180, 1, 'Evaporate All Magic Other') /* NAME_STRING */;
+VALUES (8180, 001 /* NAME_STRING */, 'Evaporate All Magic Other');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8180, 1, 33554667) /* SETUP_DID */
-     , (8180, 8, 100670799) /* ICON_DID */
-     , (8180, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8180, 28, 1847) /* SPELL_DID */;
+VALUES (8180, 001 /* SETUP_DID */, 33554667)
+     , (8180, 008 /* ICON_DID */, 100670799)
+     , (8180, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8180, 028 /* SPELL_DID */, 1847 /* DispelAllNeutralOther1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8180, 9, 0) /* LOCATIONS_INT */
-     , (8180, 1, 1048576) /* ITEM_TYPE_INT */
-     , (8180, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8180, 5, 0) /* ENCUMB_VAL_INT */
-     , (8180, 16, 1) /* ITEM_USEABLE_INT */
-     , (8180, 8, 0) /* MASS_INT */
-     , (8180, 19, 1000) /* VALUE_INT */;
+VALUES (8180, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (8180, 005 /* ENCUMB_VAL_INT */, 0)
+     , (8180, 008 /* MASS_INT */, 0)
+     , (8180, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8180, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8180, 019 /* VALUE_INT */, 1000)
+     , (8180, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8180, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (8180, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (8180, 022 /* INSCRIBABLE_BOOL */, False)
+     , (8180, 051 /* VENDOR_SERVICE_BOOL */, True);
 

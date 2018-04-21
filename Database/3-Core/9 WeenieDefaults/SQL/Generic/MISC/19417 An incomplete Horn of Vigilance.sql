@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 19417;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19417, 'soundmakerbaseupperpipe3', /* Generic_WeenieType */ 1);
+VALUES (19417, 'soundmakerbaseupperpipe3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19417, 1, 'An incomplete Horn of Vigilance') /* NAME_STRING */
-     , (19417, 15, 'An incomplete Horn of Vigilance.') /* SHORT_DESC_STRING */;
+VALUES (19417, 001 /* NAME_STRING */, 'An incomplete Horn of Vigilance')
+     , (19417, 015 /* SHORT_DESC_STRING */, 'An incomplete Horn of Vigilance.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19417, 1, 33557831) /* SETUP_DID */
-     , (19417, 8, 100673048) /* ICON_DID */;
+VALUES (19417, 001 /* SETUP_DID */, 33557831)
+     , (19417, 008 /* ICON_DID */, 100673048);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19417, 33, 1) /* BONDED_INT */
-     , (19417, 9, 0) /* LOCATIONS_INT */
-     , (19417, 1, 128) /* ITEM_TYPE_INT */
-     , (19417, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19417, 5, 50) /* ENCUMB_VAL_INT */
-     , (19417, 16, 1) /* ITEM_USEABLE_INT */
-     , (19417, 8, 25) /* MASS_INT */
-     , (19417, 19, 0) /* VALUE_INT */
-     , (19417, 114, 1) /* ATTUNED_INT */;
+VALUES (19417, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19417, 005 /* ENCUMB_VAL_INT */, 50)
+     , (19417, 008 /* MASS_INT */, 25)
+     , (19417, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (19417, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19417, 019 /* VALUE_INT */, 0)
+     , (19417, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (19417, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (19417, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19417, 13, True) /* ETHEREAL_BOOL */
-     , (19417, 69, False) /* IS_SELLABLE_BOOL */
-     , (19417, 22, True) /* INSCRIBABLE_BOOL */
-     , (19417, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (19417, 013 /* ETHEREAL_BOOL */, True)
+     , (19417, 022 /* INSCRIBABLE_BOOL */, True)
+     , (19417, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (19417, 069 /* IS_SELLABLE_BOOL */, False);
 

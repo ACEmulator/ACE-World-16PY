@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 922;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (922, 'holtburg3milessign', /* Generic_WeenieType */ 1);
+VALUES (922, 'holtburg3milessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (922, 16, 'Town of Holtburg: 3 miles.') /* LONG_DESC_STRING */
-     , (922, 1, 'Holtburg: 3 miles') /* NAME_STRING */;
+VALUES (922, 001 /* NAME_STRING */, 'Holtburg: 3 miles')
+     , (922, 016 /* LONG_DESC_STRING */, 'Town of Holtburg: 3 miles.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (922, 1, 33555984) /* SETUP_DID */
-     , (922, 8, 100668115) /* ICON_DID */;
+VALUES (922, 001 /* SETUP_DID */, 33555984)
+     , (922, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (922, 1, 128) /* ITEM_TYPE_INT */
-     , (922, 93, 1048) /* PHYSICS_STATE_INT */
-     , (922, 5, 9000) /* ENCUMB_VAL_INT */
-     , (922, 16, 1) /* ITEM_USEABLE_INT */
-     , (922, 8, 1800) /* MASS_INT */
-     , (922, 19, 125) /* VALUE_INT */;
+VALUES (922, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (922, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (922, 008 /* MASS_INT */, 1800)
+     , (922, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (922, 019 /* VALUE_INT */, 125)
+     , (922, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (922, 1, True) /* STUCK_BOOL */
-     , (922, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (922, 13, False) /* ETHEREAL_BOOL */
-     , (922, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (922, 001 /* STUCK_BOOL */, True)
+     , (922, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (922, 013 /* ETHEREAL_BOOL */, False)
+     , (922, 022 /* INSCRIBABLE_BOOL */, False);
 

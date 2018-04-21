@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 8157;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8157, 'sackherbs50', /* Container_WeenieType */ 21);
+VALUES (8157, 'sackherbs50', 21 /* Container_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8157, 1, 'Herb Pouch') /* NAME_STRING */
-     , (8157, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (8157, 001 /* NAME_STRING */, 'Herb Pouch')
+     , (8157, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8157, 1, 33554817) /* SETUP_DID */
-     , (8157, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8157, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8157, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8157, 7, 268435833) /* CLOTHINGBASE_DID */
-     , (8157, 8, 100667436) /* ICON_DID */;
+VALUES (8157, 001 /* SETUP_DID */, 33554817)
+     , (8157, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8157, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8157, 007 /* CLOTHINGBASE_DID */, 268435833)
+     , (8157, 008 /* ICON_DID */, 100667436)
+     , (8157, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8157, 9, 0) /* LOCATIONS_INT */
-     , (8157, 1, 512) /* ITEM_TYPE_INT */
-     , (8157, 19, 5) /* VALUE_INT */
-     , (8157, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (8157, 5, 15) /* ENCUMB_VAL_INT */
-     , (8157, 6, 24) /* ITEMS_CAPACITY_INT */
-     , (8157, 7, 0) /* CONTAINERS_CAPACITY_INT */
-     , (8157, 16, 56) /* ITEM_USEABLE_INT */
-     , (8157, 8, 140) /* MASS_INT */
-     , (8157, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8157, 96, 180) /* ENCUMB_CAPACITY_INT */;
+VALUES (8157, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (8157, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (8157, 005 /* ENCUMB_VAL_INT */, 15)
+     , (8157, 006 /* ITEMS_CAPACITY_INT */, 24)
+     , (8157, 007 /* CONTAINERS_CAPACITY_INT */, 0)
+     , (8157, 008 /* MASS_INT */, 140)
+     , (8157, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8157, 016 /* ITEM_USEABLE_INT */, 56 /* USEABLE_CONTAINED_VIEWED_REMOTE */)
+     , (8157, 019 /* VALUE_INT */, 5)
+     , (8157, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8157, 096 /* ENCUMB_CAPACITY_INT */, 180);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8157, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (8157, 54, 0.5) /* USE_RADIUS_FLOAT */;
+VALUES (8157, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (8157, 054 /* USE_RADIUS_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8157, 2, False) /* OPEN_BOOL */
-     , (8157, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (8157, 002 /* OPEN_BOOL */, False)
+     , (8157, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8157, 1, 774, 50, 0, 0, False) /* Create Hyssop for Contain_DestinationType */

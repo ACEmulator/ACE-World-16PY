@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 5333;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5333, 'oilhealth', /* CraftTool_WeenieType */ 44);
+VALUES (5333, 'oilhealth', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5333, 1, 'Health Oil') /* NAME_STRING */
-     , (5333, 20, 'Vials of Health Oil') /* PLURAL_NAME_STRING */
-     , (5333, 14, 'This item is used in cooking.') /* USE_STRING */;
+VALUES (5333, 001 /* NAME_STRING */, 'Health Oil')
+     , (5333, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (5333, 020 /* PLURAL_NAME_STRING */, 'Vials of Health Oil');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5333, 1, 33555967) /* SETUP_DID */
-     , (5333, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5333, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5333, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5333, 7, 268435815) /* CLOTHINGBASE_DID */
-     , (5333, 8, 100670011) /* ICON_DID */;
+VALUES (5333, 001 /* SETUP_DID */, 33555967)
+     , (5333, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5333, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5333, 007 /* CLOTHINGBASE_DID */, 268435815)
+     , (5333, 008 /* ICON_DID */, 100670011)
+     , (5333, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5333, 9, 0) /* LOCATIONS_INT */
-     , (5333, 1, 67108864) /* ITEM_TYPE_INT */
-     , (5333, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5333, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (5333, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (5333, 5, 15) /* ENCUMB_VAL_INT */
-     , (5333, 8, 5) /* MASS_INT */
-     , (5333, 12, 1) /* STACK_SIZE_INT */
-     , (5333, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (5333, 15, 20) /* STACK_UNIT_VALUE_INT */
-     , (5333, 16, 524296) /* ITEM_USEABLE_INT */
-     , (5333, 19, 20) /* VALUE_INT */
-     , (5333, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5333, 94, 3013615) /* TARGET_TYPE_INT */;
+VALUES (5333, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
+     , (5333, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (5333, 005 /* ENCUMB_VAL_INT */, 15)
+     , (5333, 008 /* MASS_INT */, 5)
+     , (5333, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5333, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5333, 012 /* STACK_SIZE_INT */, 1)
+     , (5333, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (5333, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (5333, 015 /* STACK_UNIT_VALUE_INT */, 20)
+     , (5333, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (5333, 019 /* VALUE_INT */, 20)
+     , (5333, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5333, 094 /* TARGET_TYPE_INT */, 3013615 /* TYPE_ITEM */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5333, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (5333, 069 /* IS_SELLABLE_BOOL */, False);
 

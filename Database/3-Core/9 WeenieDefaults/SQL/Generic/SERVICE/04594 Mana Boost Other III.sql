@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 4594;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4594, 'servicemanaboost3', /* Generic_WeenieType */ 1);
+VALUES (4594, 'servicemanaboost3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4594, 1, 'Mana Boost Other III') /* NAME_STRING */;
+VALUES (4594, 001 /* NAME_STRING */, 'Mana Boost Other III');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4594, 1, 33554667) /* SETUP_DID */
-     , (4594, 8, 100668288) /* ICON_DID */
-     , (4594, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (4594, 28, 1209) /* SPELL_DID */;
+VALUES (4594, 001 /* SETUP_DID */, 33554667)
+     , (4594, 008 /* ICON_DID */, 100668288)
+     , (4594, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (4594, 028 /* SPELL_DID */, 1209 /* ManaBoostOther3_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4594, 9, 0) /* LOCATIONS_INT */
-     , (4594, 1, 1048576) /* ITEM_TYPE_INT */
-     , (4594, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4594, 5, 0) /* ENCUMB_VAL_INT */
-     , (4594, 16, 1) /* ITEM_USEABLE_INT */
-     , (4594, 8, 0) /* MASS_INT */
-     , (4594, 19, 83) /* VALUE_INT */;
+VALUES (4594, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (4594, 005 /* ENCUMB_VAL_INT */, 0)
+     , (4594, 008 /* MASS_INT */, 0)
+     , (4594, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4594, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4594, 019 /* VALUE_INT */, 83)
+     , (4594, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4594, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (4594, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (4594, 022 /* INSCRIBABLE_BOOL */, False)
+     , (4594, 051 /* VENDOR_SERVICE_BOOL */, True);
 

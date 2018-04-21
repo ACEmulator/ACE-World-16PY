@@ -2,54 +2,54 @@
 DELETE FROM weenie WHERE class_Id = 12029;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12029, 'stafflugianboss', /* MeleeWeapon_WeenieType */ 6);
+VALUES (12029, 'stafflugianboss', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12029, 16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat.') /* LONG_DESC_STRING */
-     , (12029, 1, 'Soul Staff') /* NAME_STRING */
-     , (12029, 15, 'A bleached staff with faces carved upon it.') /* SHORT_DESC_STRING */;
+VALUES (12029, 001 /* NAME_STRING */, 'Soul Staff')
+     , (12029, 015 /* SHORT_DESC_STRING */, 'A bleached staff with faces carved upon it.')
+     , (12029, 016 /* LONG_DESC_STRING */, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12029, 1, 33557346) /* SETUP_DID */
-     , (12029, 3, 536870932) /* SOUND_TABLE_DID */
-     , (12029, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (12029, 37, 10) /* ITEM_SKILL_LIMIT_DID */
-     , (12029, 8, 100672132) /* ICON_DID */
-     , (12029, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (12029, 001 /* SETUP_DID */, 33557346)
+     , (12029, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (12029, 008 /* ICON_DID */, 100672132)
+     , (12029, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (12029, 036 /* MUTATE_FILTER_DID */, 234881044)
+     , (12029, 037 /* ITEM_SKILL_LIMIT_DID */, 10);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12029, 9, 1048576) /* LOCATIONS_INT */
-     , (12029, 1, 1) /* ITEM_TYPE_INT */
-     , (12029, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12029, 5, 450) /* ENCUMB_VAL_INT */
-     , (12029, 16, 1) /* ITEM_USEABLE_INT */
-     , (12029, 8, 400) /* MASS_INT */
-     , (12029, 19, 2700) /* VALUE_INT */
-     , (12029, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (12029, 151, 2) /* HOOK_TYPE_INT */
-     , (12029, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (12029, 107, 200) /* ITEM_CUR_MANA_INT */
-     , (12029, 44, 11) /* DAMAGE_INT */
-     , (12029, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (12029, 45, 4) /* DAMAGE_TYPE_INT */
-     , (12029, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (12029, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (12029, 47, 6) /* ATTACK_TYPE_INT */
-     , (12029, 48, 10) /* WEAPON_SKILL_INT */
-     , (12029, 49, 20) /* WEAPON_TIME_INT */
-     , (12029, 51, 1) /* COMBAT_USE_INT */
-     , (12029, 115, 260) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
+VALUES (12029, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (12029, 005 /* ENCUMB_VAL_INT */, 450)
+     , (12029, 008 /* MASS_INT */, 400)
+     , (12029, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (12029, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (12029, 019 /* VALUE_INT */, 2700)
+     , (12029, 044 /* DAMAGE_INT */, 11)
+     , (12029, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (12029, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (12029, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (12029, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
+     , (12029, 049 /* WEAPON_TIME_INT */, 20)
+     , (12029, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (12029, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (12029, 106 /* ITEM_SPELLCRAFT_INT */, 200)
+     , (12029, 107 /* ITEM_CUR_MANA_INT */, 200)
+     , (12029, 108 /* ITEM_MAX_MANA_INT */, 200)
+     , (12029, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (12029, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 260)
+     , (12029, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (12029, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12029, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
-     , (12029, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
-     , (12029, 5, -0.017) /* MANA_RATE_FLOAT */
-     , (12029, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (12029, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */
-     , (12029, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (12029, 005 /* MANA_RATE_FLOAT */, -0.017)
+     , (12029, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
+     , (12029, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (12029, 029 /* WEAPON_DEFENSE_FLOAT */, 1.04)
+     , (12029, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (12029, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12029, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (12029, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12029, 1310, 2) /* ArmorSelf4_SpellID */

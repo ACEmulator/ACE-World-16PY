@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 3724;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3724, 'swordolthoi', /* MeleeWeapon_WeenieType */ 6);
+VALUES (3724, 'swordolthoi', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3724, 16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LONG_DESC_STRING */
-     , (3724, 1, 'Olthoi Sword') /* NAME_STRING */;
+VALUES (3724, 001 /* NAME_STRING */, 'Olthoi Sword')
+     , (3724, 016 /* LONG_DESC_STRING */, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3724, 1, 33556589) /* SETUP_DID */
-     , (3724, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3724, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (3724, 6, 67109311) /* PALETTE_BASE_DID */
-     , (3724, 7, 268435998) /* CLOTHINGBASE_DID */
-     , (3724, 8, 100670666) /* ICON_DID */;
+VALUES (3724, 001 /* SETUP_DID */, 33556589)
+     , (3724, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3724, 006 /* PALETTE_BASE_DID */, 67109311)
+     , (3724, 007 /* CLOTHINGBASE_DID */, 268435998)
+     , (3724, 008 /* ICON_DID */, 100670666)
+     , (3724, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3724, 9, 1048576) /* LOCATIONS_INT */
-     , (3724, 1, 1) /* ITEM_TYPE_INT */
-     , (3724, 19, 1500) /* VALUE_INT */
-     , (3724, 3, 52) /* PALETTE_TEMPLATE_INT */
-     , (3724, 5, 350) /* ENCUMB_VAL_INT */
-     , (3724, 16, 1) /* ITEM_USEABLE_INT */
-     , (3724, 8, 140) /* MASS_INT */
-     , (3724, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (3724, 151, 2) /* HOOK_TYPE_INT */
-     , (3724, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3724, 44, 20) /* DAMAGE_INT */
-     , (3724, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3724, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (3724, 47, 6) /* ATTACK_TYPE_INT */
-     , (3724, 48, 11) /* WEAPON_SKILL_INT */
-     , (3724, 49, 40) /* WEAPON_TIME_INT */
-     , (3724, 51, 1) /* COMBAT_USE_INT */;
+VALUES (3724, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (3724, 003 /* PALETTE_TEMPLATE_INT */, 52 /* DARKGREY_PALETTE_TEMPLATE */)
+     , (3724, 005 /* ENCUMB_VAL_INT */, 350)
+     , (3724, 008 /* MASS_INT */, 140)
+     , (3724, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (3724, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (3724, 019 /* VALUE_INT */, 1500)
+     , (3724, 044 /* DAMAGE_INT */, 20)
+     , (3724, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (3724, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (3724, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (3724, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (3724, 049 /* WEAPON_TIME_INT */, 40)
+     , (3724, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (3724, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3724, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (3724, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3724, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (3724, 12, 0.5) /* SHADE_FLOAT */
-     , (3724, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (3724, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
-     , (3724, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
-     , (3724, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (3724, 012 /* SHADE_FLOAT */, 0.5)
+     , (3724, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
+     , (3724, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (3724, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
+     , (3724, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (3724, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3724, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (3724, 022 /* INSCRIBABLE_BOOL */, True);
 

@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 27628;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27628, 'rumorspire19', /* Book_WeenieType */ 8);
+VALUES (27628, 'rumorspire19', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27628, 1, 'Behdo Yii') /* NAME_STRING */;
+VALUES (27628, 001 /* NAME_STRING */, 'Behdo Yii');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27628, 1, 33554773) /* SETUP_DID */
-     , (27628, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27628, 8, 100675748) /* ICON_DID */
-     , (27628, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (27628, 001 /* SETUP_DID */, 33554773)
+     , (27628, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27628, 008 /* ICON_DID */, 100675748)
+     , (27628, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27628, 9, 0) /* LOCATIONS_INT */
-     , (27628, 1, 8192) /* ITEM_TYPE_INT */
-     , (27628, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27628, 5, 5) /* ENCUMB_VAL_INT */
-     , (27628, 16, 8) /* ITEM_USEABLE_INT */
-     , (27628, 8, 5) /* MASS_INT */
-     , (27628, 19, 5) /* VALUE_INT */;
+VALUES (27628, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (27628, 005 /* ENCUMB_VAL_INT */, 5)
+     , (27628, 008 /* MASS_INT */, 5)
+     , (27628, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27628, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (27628, 019 /* VALUE_INT */, 5)
+     , (27628, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27628, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (27628, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27628, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (27628, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27628, 1, 1000) /* Book Data */;

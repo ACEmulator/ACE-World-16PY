@@ -2,43 +2,43 @@
 DELETE FROM weenie WHERE class_Id = 21081;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21081, 'materialtigereye', /* CraftTool_WeenieType */ 44);
+VALUES (21081, 'materialtigereye', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21081, 1, 'Salvaged Tiger Eye') /* NAME_STRING */
-     , (21081, 14, 'This item has no apparent use.') /* USE_STRING */
-     , (21081, 15, 'Chips of tiger eye material salvaged from old items.') /* SHORT_DESC_STRING */;
+VALUES (21081, 001 /* NAME_STRING */, 'Salvaged Tiger Eye')
+     , (21081, 014 /* USE_STRING */, 'This item has no apparent use.')
+     , (21081, 015 /* SHORT_DESC_STRING */, 'Chips of tiger eye material salvaged from old items.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21081, 1, 33554817) /* SETUP_DID */
-     , (21081, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21081, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21081, 6, 67111919) /* PALETTE_BASE_DID */
-     , (21081, 7, 268436430) /* CLOTHINGBASE_DID */
-     , (21081, 8, 100667436) /* ICON_DID */
-     , (21081, 50, 100673305) /* ICON_OVERLAY_DID */;
+VALUES (21081, 001 /* SETUP_DID */, 33554817)
+     , (21081, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21081, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (21081, 007 /* CLOTHINGBASE_DID */, 268436430)
+     , (21081, 008 /* ICON_DID */, 100667436)
+     , (21081, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21081, 050 /* ICON_OVERLAY_DID */, 100673305);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21081, 9, 0) /* LOCATIONS_INT */
-     , (21081, 1, 1073741824) /* ITEM_TYPE_INT */
-     , (21081, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (21081, 131, 42) /* MATERIAL_TYPE_INT */
-     , (21081, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (21081, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (21081, 5, 100) /* ENCUMB_VAL_INT */
-     , (21081, 8, 100) /* MASS_INT */
-     , (21081, 12, 1) /* STACK_SIZE_INT */
-     , (21081, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (21081, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (21081, 16, 1) /* ITEM_USEABLE_INT */
-     , (21081, 19, 10) /* VALUE_INT */
-     , (21081, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21081, 151, 9) /* HOOK_TYPE_INT */
-     , (21081, 91, 100) /* MAX_STRUCTURE_INT */
-     , (21081, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21081, 33, 1) /* BONDED_INT */;
+VALUES (21081, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
+     , (21081, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (21081, 005 /* ENCUMB_VAL_INT */, 100)
+     , (21081, 008 /* MASS_INT */, 100)
+     , (21081, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (21081, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (21081, 012 /* STACK_SIZE_INT */, 1)
+     , (21081, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (21081, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (21081, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (21081, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21081, 019 /* VALUE_INT */, 10)
+     , (21081, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (21081, 091 /* MAX_STRUCTURE_INT */, 100)
+     , (21081, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21081, 131 /* MATERIAL_TYPE_INT */, 42 /* Tiger_Eye_MaterialType */)
+     , (21081, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21081, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21081, 22, True) /* INSCRIBABLE_BOOL */
-     , (21081, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (21081, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21081, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

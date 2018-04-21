@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 20636;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20636, 'flamegout', /* Generic_WeenieType */ 1);
+VALUES (20636, 'flamegout', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20636, 1, 'Gout of Elemental Flame') /* NAME_STRING */;
+VALUES (20636, 001 /* NAME_STRING */, 'Gout of Elemental Flame');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20636, 1, 33557544) /* SETUP_DID */
-     , (20636, 8, 100667494) /* ICON_DID */;
+VALUES (20636, 001 /* SETUP_DID */, 33557544)
+     , (20636, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20636, 1, 128) /* ITEM_TYPE_INT */
-     , (20636, 93, 2068) /* PHYSICS_STATE_INT */
-     , (20636, 5, 0) /* ENCUMB_VAL_INT */
-     , (20636, 16, 1) /* ITEM_USEABLE_INT */
-     , (20636, 8, 0) /* MASS_INT */
-     , (20636, 19, 0) /* VALUE_INT */;
+VALUES (20636, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (20636, 005 /* ENCUMB_VAL_INT */, 0)
+     , (20636, 008 /* MASS_INT */, 0)
+     , (20636, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (20636, 019 /* VALUE_INT */, 0)
+     , (20636, 093 /* PHYSICS_STATE_INT */, 2068 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20636, 1, True) /* STUCK_BOOL */
-     , (20636, 13, True) /* ETHEREAL_BOOL */
-     , (20636, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (20636, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (20636, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (20636, 001 /* STUCK_BOOL */, True)
+     , (20636, 013 /* ETHEREAL_BOOL */, True)
+     , (20636, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (20636, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (20636, 024 /* UI_HIDDEN_BOOL */, True);
 

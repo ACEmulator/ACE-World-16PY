@@ -2,19 +2,19 @@
 DELETE FROM weenie WHERE class_Id = 1149;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1149, 'allegiance', /* Allegiance_WeenieType */ 30);
+VALUES (1149, 'allegiance', 30 /* Allegiance_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1149, 1, 'Allegiance') /* NAME_STRING */;
+VALUES (1149, 001 /* NAME_STRING */, 'Allegiance');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1149, 1, 33555057) /* SETUP_DID */
-     , (1149, 8, 100667494) /* ICON_DID */;
+VALUES (1149, 001 /* SETUP_DID */, 33555057)
+     , (1149, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1149, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (1149, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1149, 1, True) /* STUCK_BOOL */
-     , (1149, 18, True) /* VISIBILITY_BOOL */;
+VALUES (1149, 001 /* STUCK_BOOL */, True)
+     , (1149, 018 /* VISIBILITY_BOOL */, True);
 

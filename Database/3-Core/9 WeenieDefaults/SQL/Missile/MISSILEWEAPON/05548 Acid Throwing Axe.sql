@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 5548;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5548, 'axethrowingacidstack', /* Missile_WeenieType */ 4);
+VALUES (5548, 'axethrowingacidstack', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5548, 1, 'Acid Throwing Axe') /* NAME_STRING */;
+VALUES (5548, 001 /* NAME_STRING */, 'Acid Throwing Axe');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5548, 1, 33555702) /* SETUP_DID */
-     , (5548, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5548, 8, 100667581) /* ICON_DID */
-     , (5548, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5548, 001 /* SETUP_DID */, 33555702)
+     , (5548, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5548, 008 /* ICON_DID */, 100667581)
+     , (5548, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5548, 9, 4194304) /* LOCATIONS_INT */
-     , (5548, 1, 256) /* ITEM_TYPE_INT */
-     , (5548, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (5548, 5, 600) /* ENCUMB_VAL_INT */
-     , (5548, 8, 800) /* MASS_INT */
-     , (5548, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5548, 12, 40) /* STACK_SIZE_INT */
-     , (5548, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (5548, 15, 25) /* STACK_UNIT_VALUE_INT */
-     , (5548, 16, 1) /* ITEM_USEABLE_INT */
-     , (5548, 18, 256) /* UI_EFFECTS_INT */
-     , (5548, 19, 1000) /* VALUE_INT */
-     , (5548, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (5548, 151, 2) /* HOOK_TYPE_INT */
-     , (5548, 93, 132116) /* PHYSICS_STATE_INT */
-     , (5548, 44, 12) /* DAMAGE_INT */
-     , (5548, 45, 32) /* DAMAGE_TYPE_INT */
-     , (5548, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (5548, 48, 12) /* WEAPON_SKILL_INT */
-     , (5548, 49, 20) /* WEAPON_TIME_INT */
-     , (5548, 51, 2) /* COMBAT_USE_INT */;
+VALUES (5548, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (5548, 005 /* ENCUMB_VAL_INT */, 600)
+     , (5548, 008 /* MASS_INT */, 800)
+     , (5548, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (5548, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5548, 012 /* STACK_SIZE_INT */, 40)
+     , (5548, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (5548, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (5548, 015 /* STACK_UNIT_VALUE_INT */, 25)
+     , (5548, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5548, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
+     , (5548, 019 /* VALUE_INT */, 1000)
+     , (5548, 044 /* DAMAGE_INT */, 12)
+     , (5548, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (5548, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (5548, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (5548, 049 /* WEAPON_TIME_INT */, 20)
+     , (5548, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (5548, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
+     , (5548, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (5548, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5548, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (5548, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (5548, 78, 1) /* FRICTION_FLOAT */
-     , (5548, 79, 0) /* ELASTICITY_FLOAT */
-     , (5548, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (5548, 21, 0.34) /* WEAPON_LENGTH_FLOAT */
-     , (5548, 27, 2) /* ROTATION_SPEED_FLOAT */;
+VALUES (5548, 021 /* WEAPON_LENGTH_FLOAT */, 0.34)
+     , (5548, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (5548, 027 /* ROTATION_SPEED_FLOAT */, 2)
+     , (5548, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (5548, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (5548, 078 /* FRICTION_FLOAT */, 1)
+     , (5548, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5548, 17, True) /* INELASTIC_BOOL */;
+VALUES (5548, 017 /* INELASTIC_BOOL */, True);
 

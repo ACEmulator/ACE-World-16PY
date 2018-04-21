@@ -2,86 +2,86 @@
 DELETE FROM weenie WHERE class_Id = 11023;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11023, 'olthoibroodnoblesoutheast-xp', /* Creature_WeenieType */ 10);
+VALUES (11023, 'olthoibroodnoblesoutheast-xp', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11023, 1, 'Olthoi Brood Noble') /* NAME_STRING */;
+VALUES (11023, 001 /* NAME_STRING */, 'Olthoi Brood Noble');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11023, 1, 33557046) /* SETUP_DID */
-     , (11023, 2, 150995130) /* MOTION_TABLE_DID */
-     , (11023, 35, 452) /* DEATH_TREASURE_TYPE_DID */
-     , (11023, 3, 536871036) /* SOUND_TABLE_DID */
-     , (11023, 4, 805306395) /* COMBAT_TABLE_DID */
-     , (11023, 8, 100667623) /* ICON_DID */
-     , (11023, 30, 85) /* PHYSICS_SCRIPT_DID */
-     , (11023, 22, 872415378) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (11023, 001 /* SETUP_DID */, 33557046)
+     , (11023, 002 /* MOTION_TABLE_DID */, 150995130)
+     , (11023, 003 /* SOUND_TABLE_DID */, 536871036)
+     , (11023, 004 /* COMBAT_TABLE_DID */, 805306395)
+     , (11023, 008 /* ICON_DID */, 100667623)
+     , (11023, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415378)
+     , (11023, 030 /* PHYSICS_SCRIPT_DID */, 85 /* PS_BreatheFrost */)
+     , (11023, 035 /* DEATH_TREASURE_TYPE_DID */, 452);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11023, 1, 16) /* ITEM_TYPE_INT */
-     , (11023, 2, 1) /* CREATURE_TYPE_INT */
-     , (11023, 140, 1) /* AI_OPTIONS_INT */
-     , (11023, 68, 13) /* TARGETING_TACTIC_INT */
-     , (11023, 133, 2) /* SHOWABLE_ON_RADAR_INT */
-     , (11023, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (11023, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (11023, 72, 35) /* FRIEND_TYPE_INT */
-     , (11023, 8, 8000) /* MASS_INT */
-     , (11023, 16, 1) /* ITEM_USEABLE_INT */
-     , (11023, 81, 2) /* MAX_GENERATED_OBJECTS_INT */
-     , (11023, 146, 126729) /* XP_OVERRIDE_INT */
-     , (11023, 82, 2) /* INIT_GENERATED_OBJECTS_INT */
-     , (11023, 25, 125) /* LEVEL_INT */
-     , (11023, 27, 0) /* ARMOR_TYPE_INT */
-     , (11023, 93, 1032) /* PHYSICS_STATE_INT */
-     , (11023, 103, 3) /* GENERATOR_DESTRUCTION_TYPE_INT */
-     , (11023, 40, 2) /* COMBAT_MODE_INT */;
+VALUES (11023, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (11023, 002 /* CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */)
+     , (11023, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (11023, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (11023, 008 /* MASS_INT */, 8000)
+     , (11023, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11023, 025 /* LEVEL_INT */, 125)
+     , (11023, 027 /* ARMOR_TYPE_INT */, 0)
+     , (11023, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
+     , (11023, 068 /* TARGETING_TACTIC_INT */, 13)
+     , (11023, 072 /* FRIEND_TYPE_INT */, 35)
+     , (11023, 081 /* MAX_GENERATED_OBJECTS_INT */, 2)
+     , (11023, 082 /* INIT_GENERATED_OBJECTS_INT */, 2)
+     , (11023, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
+     , (11023, 103 /* GENERATOR_DESTRUCTION_TYPE_INT */, 3 /* Kill_GeneratorDestruct */)
+     , (11023, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
+     , (11023, 140 /* AI_OPTIONS_INT */, 1)
+     , (11023, 146 /* XP_OVERRIDE_INT */, 126729);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11023, 64, 0.75) /* RESIST_SLASH_FLOAT */
-     , (11023, 65, 0.7) /* RESIST_PIERCE_FLOAT */
-     , (11023, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (11023, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (11023, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (11023, 34, 1) /* POWERUP_TIME_FLOAT */
-     , (11023, 67, 0.75) /* RESIST_FIRE_FLOAT */
-     , (11023, 3, 10) /* HEALTH_RATE_FLOAT */
-     , (11023, 4, 30) /* STAMINA_RATE_FLOAT */
-     , (11023, 68, 0.75) /* RESIST_COLD_FLOAT */
-     , (11023, 36, 1) /* CHARGE_SPEED_FLOAT */
-     , (11023, 5, 2) /* MANA_RATE_FLOAT */
-     , (11023, 69, 0.25) /* RESIST_ACID_FLOAT */
-     , (11023, 70, 0.4) /* RESIST_ELECTRIC_FLOAT */
-     , (11023, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (11023, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (11023, 72, 0.25) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (11023, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (11023, 41, 300) /* REGENERATION_INTERVAL_FLOAT */
-     , (11023, 74, 0.25) /* RESIST_MANA_DRAIN_FLOAT */
-     , (11023, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (11023, 43, 10) /* GENERATOR_RADIUS_FLOAT */
-     , (11023, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (11023, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (11023, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (11023, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (11023, 17, 1.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (11023, 18, 1.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (11023, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (11023, 117, 0.6) /* FOCUSED_PROBABILITY_FLOAT */
-     , (11023, 125, 0.25) /* RESIST_HEALTH_DRAIN_FLOAT */
-     , (11023, 31, 24) /* VISUAL_AWARENESS_RANGE_FLOAT */;
+VALUES (11023, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (11023, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (11023, 003 /* HEALTH_RATE_FLOAT */, 10)
+     , (11023, 004 /* STAMINA_RATE_FLOAT */, 30)
+     , (11023, 005 /* MANA_RATE_FLOAT */, 2)
+     , (11023, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.1)
+     , (11023, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (11023, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
+     , (11023, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (11023, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.1)
+     , (11023, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.1)
+     , (11023, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (11023, 031 /* VISUAL_AWARENESS_RANGE_FLOAT */, 24)
+     , (11023, 034 /* POWERUP_TIME_FLOAT */, 1)
+     , (11023, 036 /* CHARGE_SPEED_FLOAT */, 1)
+     , (11023, 041 /* REGENERATION_INTERVAL_FLOAT */, 300)
+     , (11023, 043 /* GENERATOR_RADIUS_FLOAT */, 10)
+     , (11023, 064 /* RESIST_SLASH_FLOAT */, 0.75)
+     , (11023, 065 /* RESIST_PIERCE_FLOAT */, 0.7)
+     , (11023, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (11023, 067 /* RESIST_FIRE_FLOAT */, 0.75)
+     , (11023, 068 /* RESIST_COLD_FLOAT */, 0.75)
+     , (11023, 069 /* RESIST_ACID_FLOAT */, 0.25)
+     , (11023, 070 /* RESIST_ELECTRIC_FLOAT */, 0.4)
+     , (11023, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (11023, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 0.25)
+     , (11023, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (11023, 074 /* RESIST_MANA_DRAIN_FLOAT */, 0.25)
+     , (11023, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (11023, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (11023, 117 /* FOCUSED_PROBABILITY_FLOAT */, 0.6)
+     , (11023, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 0.25);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11023, 1, True) /* STUCK_BOOL */
-     , (11023, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (11023, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (11023, 13, False) /* ETHEREAL_BOOL */;
+VALUES (11023, 001 /* STUCK_BOOL */, True)
+     , (11023, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (11023, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (11023, 013 /* ETHEREAL_BOOL */, False);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11023, 1, 360, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (11023, 2, 360, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (11023, 4, 240, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (11023, 3, 220, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (11023, 4, 240, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (11023, 5, 160, 0, 0) /* FOCUS_ATTRIBUTE */
      , (11023, 6, 160, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -132,8 +132,8 @@ VALUES (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, -3, 5, 20, -4.371139E-08,
      , (11023, -1, 11025, 60, 1, 1, 1, 4, -1, 0, 0, 0, 1, -5, 20, 1, 0, 0, 0)/* Generate Olthoi Brood Noble (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (11023, 16, 4, 5, 0, 600, 660, 480, 480, 600, 660, 660, 600, 0, 2, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45) /* TORSO */
-     , (11023, 0, 4, 5, 0, 600, 660, 480, 480, 600, 660, 660, 600, 0, 1, 0.1, 0, 0, 0.1, 0, 0, 0.1, 0, 0, 0.1, 0, 0) /* HEAD */
+VALUES (11023, 0, 4, 5, 0, 600, 660, 480, 480, 600, 660, 660, 600, 0, 1, 0.1, 0, 0, 0.1, 0, 0, 0.1, 0, 0, 0.1, 0, 0) /* HEAD */
+     , (11023, 16, 4, 5, 0, 600, 660, 480, 480, 600, 660, 660, 600, 0, 2, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45, 0.45, 0.4, 0.45) /* TORSO */
      , (11023, 18, 4, 90, 0.5, 600, 660, 480, 480, 600, 660, 660, 600, 0, 2, 0, 0.2, 0.1, 0, 0.2, 0.1, 0, 0.2, 0.1, 0, 0.2, 0.1) /* ARM */
      , (11023, 19, 4, 15, 0, 600, 660, 480, 480, 600, 660, 660, 600, 0, 3, 0, 0.2, 0.45, 0, 0.2, 0.45, 0, 0.2, 0.45, 0, 0.2, 0.45) /* LEG */
      , (11023, 20, 2, 90, 0.75, 600, 660, 480, 480, 600, 660, 660, 600, 0, 2, 0.45, 0.2, 0, 0.45, 0.2, 0, 0.45, 0.2, 0, 0.45, 0.2, 0) /* CLAW */
@@ -144,23 +144,23 @@ VALUES (11023, 414) /* PLAYER_DEATH_EVENT */
      , (11023, 94) /* ATTACK_NOTIFICATION_EVENT */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (11023, 22, 0, 2, 0, 200, 0, 712.266463054332) /* JUMP_SKILL */
-     , (11023, 6, 0, 3, 0, 320, 0, 712.266463054332) /* MELEE_DEFENSE_SKILL */
-     , (11023, 15, 0, 3, 0, 330, 0, 712.266463054332) /* MAGIC_DEFENSE_SKILL */
-     , (11023, 7, 0, 3, 0, 400, 0, 712.266463054332) /* MISSILE_DEFENSE_SKILL */
-     , (11023, 13, 0, 3, 0, 240, 0, 712.266463054332) /* UNARMED_COMBAT_SKILL */
-     , (11023, 20, 0, 2, 0, 100, 0, 712.266463054332) /* DECEPTION_SKILL */
-     , (11023, 24, 0, 2, 0, 50, 0, 712.266463054332) /* RUN_SKILL */;
+VALUES (11023, 6, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 320, 0, 712.266463054332) /* MELEE_DEFENSE_SKILL */
+     , (11023, 7, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 400, 0, 712.266463054332) /* MISSILE_DEFENSE_SKILL */
+     , (11023, 13, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 240, 0, 712.266463054332) /* UNARMED_COMBAT_SKILL */
+     , (11023, 15, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 330, 0, 712.266463054332) /* MAGIC_DEFENSE_SKILL */
+     , (11023, 20, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 100, 0, 712.266463054332) /* DECEPTION_SKILL */
+     , (11023, 22, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 200, 0, 712.266463054332) /* JUMP_SKILL */
+     , (11023, 24, 0, 2 /* TRAINED_SKILL_ADVANCEMENT_CLASS */, 0, 50, 0, 712.266463054332) /* RUN_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (11023, 1, 3, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Death_EmoteCategory */
-     , (11023, 0.15, 5, 0, NULL, 2147483708, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (11023, 0.15, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */;
+VALUES (11023, 1, 3 /* Death_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (11023, 0.15, 5 /* HeartBeat_EmoteCategory */, 0, NULL, 2147483708 /* UaNoShieldAttack */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (11023, 0.15, 5 /* HeartBeat_EmoteCategory */, 1, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11023, 3, 0, 0, 22, 0, 1, NULL, 'InvasionQuest03', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (11023, 3, 0, 1, 17, 0, 0, NULL, '%s hews the head from the Brood Noble! The chittering of the swarming Olthoi begins to subside... the danger in the southeast of Marae has been averted.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* LocalBroadcast_EmoteType */
-     , (11023, 3, 0, 2, 24, 0, 1, NULL, 'SouthEastSwarmC', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StopEvent_EmoteType */
-     , (11023, 5, 0, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (11023, 5, 1, 0, 5, 0, 1, 268435537, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */;
+VALUES (11023, 3 /* Death_EmoteCategory */, 0, 0, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'InvasionQuest03', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (11023, 3 /* Death_EmoteCategory */, 0, 1, 17 /* LocalBroadcast_EmoteType */, 0, 0, NULL, '%s hews the head from the Brood Noble! The chittering of the swarming Olthoi begins to subside... the danger in the southeast of Marae has been averted.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (11023, 3 /* Death_EmoteCategory */, 0, 2, 24 /* StopEvent_EmoteType */, 0, 1, NULL, 'SouthEastSwarmC', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (11023, 5 /* HeartBeat_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (11023, 5 /* HeartBeat_EmoteCategory */, 1, 0, 5 /* Motion_EmoteType */, 0, 1, 268435537 /* Motion_Twitch1 */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

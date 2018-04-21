@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 7493;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7493, 'chestclothinglow', /* Chest_WeenieType */ 20);
+VALUES (7493, 'chestclothinglow', 20 /* Chest_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7493, 1, 'Chest') /* NAME_STRING */
-     , (7493, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (7493, 001 /* NAME_STRING */, 'Chest')
+     , (7493, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7493, 1, 33554556) /* SETUP_DID */
-     , (7493, 2, 150994948) /* MOTION_TABLE_DID */
-     , (7493, 3, 536870945) /* SOUND_TABLE_DID */
-     , (7493, 8, 100667424) /* ICON_DID */
-     , (7493, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7493, 001 /* SETUP_DID */, 33554556)
+     , (7493, 002 /* MOTION_TABLE_DID */, 150994948)
+     , (7493, 003 /* SOUND_TABLE_DID */, 536870945)
+     , (7493, 008 /* ICON_DID */, 100667424)
+     , (7493, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7493, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (7493, 1, 512) /* ITEM_TYPE_INT */
-     , (7493, 5, 9000) /* ENCUMB_VAL_INT */
-     , (7493, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (7493, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (7493, 16, 48) /* ITEM_USEABLE_INT */
-     , (7493, 8, 3000) /* MASS_INT */
-     , (7493, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (7493, 19, 2500) /* VALUE_INT */
-     , (7493, 83, 2) /* ACTIVATION_RESPONSE_INT */
-     , (7493, 93, 1048) /* PHYSICS_STATE_INT */
-     , (7493, 96, 500) /* ENCUMB_CAPACITY_INT */
-     , (7493, 100, 1) /* GENERATOR_TYPE_INT */;
+VALUES (7493, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (7493, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (7493, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (7493, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (7493, 008 /* MASS_INT */, 3000)
+     , (7493, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (7493, 019 /* VALUE_INT */, 2500)
+     , (7493, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (7493, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (7493, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
+     , (7493, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7493, 096 /* ENCUMB_CAPACITY_INT */, 500)
+     , (7493, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7493, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (7493, 43, 1) /* GENERATOR_RADIUS_FLOAT */
-     , (7493, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (7493, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (7493, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
+     , (7493, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7493, 1, True) /* STUCK_BOOL */
-     , (7493, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (7493, 2, False) /* OPEN_BOOL */
-     , (7493, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (7493, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (7493, 13, False) /* ETHEREAL_BOOL */;
+VALUES (7493, 001 /* STUCK_BOOL */, True)
+     , (7493, 002 /* OPEN_BOOL */, False)
+     , (7493, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (7493, 013 /* ETHEREAL_BOOL */, False)
+     , (7493, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (7493, 034 /* DEFAULT_OPEN_BOOL */, False);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7493, 1, 4, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate  (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;

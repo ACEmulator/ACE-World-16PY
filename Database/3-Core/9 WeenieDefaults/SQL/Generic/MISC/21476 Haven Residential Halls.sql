@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 21476;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21476, 'havenresidentialhallssign', /* Generic_WeenieType */ 1);
+VALUES (21476, 'havenresidentialhallssign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21476, 16, 'Haven Residential Halls') /* LONG_DESC_STRING */
-     , (21476, 1, 'Haven Residential Halls') /* NAME_STRING */;
+VALUES (21476, 001 /* NAME_STRING */, 'Haven Residential Halls')
+     , (21476, 016 /* LONG_DESC_STRING */, 'Haven Residential Halls');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21476, 1, 33557901) /* SETUP_DID */
-     , (21476, 8, 100667499) /* ICON_DID */;
+VALUES (21476, 001 /* SETUP_DID */, 33557901)
+     , (21476, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21476, 1, 128) /* ITEM_TYPE_INT */
-     , (21476, 93, 1048) /* PHYSICS_STATE_INT */
-     , (21476, 5, 9000) /* ENCUMB_VAL_INT */
-     , (21476, 16, 1) /* ITEM_USEABLE_INT */
-     , (21476, 8, 1800) /* MASS_INT */
-     , (21476, 19, 125) /* VALUE_INT */;
+VALUES (21476, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (21476, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (21476, 008 /* MASS_INT */, 1800)
+     , (21476, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21476, 019 /* VALUE_INT */, 125)
+     , (21476, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21476, 1, True) /* STUCK_BOOL */
-     , (21476, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (21476, 13, False) /* ETHEREAL_BOOL */
-     , (21476, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (21476, 001 /* STUCK_BOOL */, True)
+     , (21476, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (21476, 013 /* ETHEREAL_BOOL */, False)
+     , (21476, 022 /* INSCRIBABLE_BOOL */, False);
 

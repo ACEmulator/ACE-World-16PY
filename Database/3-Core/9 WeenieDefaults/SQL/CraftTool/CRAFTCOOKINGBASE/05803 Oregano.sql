@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 5803;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5803, 'oregano', /* CraftTool_WeenieType */ 44);
+VALUES (5803, 'oregano', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5803, 16, 'Freshly dried leaves of oregano.') /* LONG_DESC_STRING */
-     , (5803, 1, 'Oregano') /* NAME_STRING */
-     , (5803, 20, 'Jars of Oregano') /* PLURAL_NAME_STRING */
-     , (5803, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (5803, 15, 'Freshly dried leaves of oregano.') /* SHORT_DESC_STRING */;
+VALUES (5803, 001 /* NAME_STRING */, 'Oregano')
+     , (5803, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (5803, 015 /* SHORT_DESC_STRING */, 'Freshly dried leaves of oregano.')
+     , (5803, 016 /* LONG_DESC_STRING */, 'Freshly dried leaves of oregano.')
+     , (5803, 020 /* PLURAL_NAME_STRING */, 'Jars of Oregano');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5803, 1, 33555208) /* SETUP_DID */
-     , (5803, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5803, 7, 268435718) /* CLOTHINGBASE_DID */
-     , (5803, 8, 100670301) /* ICON_DID */;
+VALUES (5803, 001 /* SETUP_DID */, 33555208)
+     , (5803, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5803, 007 /* CLOTHINGBASE_DID */, 268435718)
+     , (5803, 008 /* ICON_DID */, 100670301);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5803, 9, 0) /* LOCATIONS_INT */
-     , (5803, 1, 4194304) /* ITEM_TYPE_INT */
-     , (5803, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5803, 3, 81) /* PALETTE_TEMPLATE_INT */
-     , (5803, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (5803, 5, 10) /* ENCUMB_VAL_INT */
-     , (5803, 8, 10) /* MASS_INT */
-     , (5803, 12, 1) /* STACK_SIZE_INT */
-     , (5803, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (5803, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (5803, 16, 524296) /* ITEM_USEABLE_INT */
-     , (5803, 19, 10) /* VALUE_INT */
-     , (5803, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5803, 94, 4194336) /* TARGET_TYPE_INT */;
+VALUES (5803, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (5803, 003 /* PALETTE_TEMPLATE_INT */, 81 /* LITEGREEN_PALETTE_TEMPLATE */)
+     , (5803, 005 /* ENCUMB_VAL_INT */, 10)
+     , (5803, 008 /* MASS_INT */, 10)
+     , (5803, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5803, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5803, 012 /* STACK_SIZE_INT */, 1)
+     , (5803, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (5803, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (5803, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (5803, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (5803, 019 /* VALUE_INT */, 10)
+     , (5803, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5803, 094 /* TARGET_TYPE_INT */, 4194336 /*  */);
 

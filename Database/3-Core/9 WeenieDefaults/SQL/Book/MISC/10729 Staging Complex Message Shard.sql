@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 10729;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10729, 'notevirindistaginggrounduntranslated', /* Book_WeenieType */ 8);
+VALUES (10729, 'notevirindistaginggrounduntranslated', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10729, 16, 'A message shard taken from a Virindi Director in the Landbridge Staging Complex dungeon.') /* LONG_DESC_STRING */
-     , (10729, 1, 'Staging Complex Message Shard') /* NAME_STRING */
-     , (10729, 14, 'This item cannot be read.') /* USE_STRING */
-     , (10729, 15, 'A message shard taken from a Virindi Director.') /* SHORT_DESC_STRING */;
+VALUES (10729, 001 /* NAME_STRING */, 'Staging Complex Message Shard')
+     , (10729, 014 /* USE_STRING */, 'This item cannot be read.')
+     , (10729, 015 /* SHORT_DESC_STRING */, 'A message shard taken from a Virindi Director.')
+     , (10729, 016 /* LONG_DESC_STRING */, 'A message shard taken from a Virindi Director in the Landbridge Staging Complex dungeon.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10729, 1, 33555391) /* SETUP_DID */
-     , (10729, 3, 536870932) /* SOUND_TABLE_DID */
-     , (10729, 8, 100671183) /* ICON_DID */
-     , (10729, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (10729, 001 /* SETUP_DID */, 33555391)
+     , (10729, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (10729, 008 /* ICON_DID */, 100671183)
+     , (10729, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10729, 9, 0) /* LOCATIONS_INT */
-     , (10729, 1, 128) /* ITEM_TYPE_INT */
-     , (10729, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10729, 5, 50) /* ENCUMB_VAL_INT */
-     , (10729, 16, 8) /* ITEM_USEABLE_INT */
-     , (10729, 8, 5) /* MASS_INT */
-     , (10729, 19, 10) /* VALUE_INT */;
+VALUES (10729, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (10729, 005 /* ENCUMB_VAL_INT */, 50)
+     , (10729, 008 /* MASS_INT */, 5)
+     , (10729, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (10729, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (10729, 019 /* VALUE_INT */, 10)
+     , (10729, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10729, 39, 0.2) /* DEFAULT_SCALE_FLOAT */
-     , (10729, 76, 0.5) /* TRANSLUCENCY_FLOAT */
-     , (10729, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (10729, 039 /* DEFAULT_SCALE_FLOAT */, 0.2)
+     , (10729, 054 /* USE_RADIUS_FLOAT */, 1)
+     , (10729, 076 /* TRANSLUCENCY_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10729, 22, False) /* INSCRIBABLE_BOOL */
-     , (10729, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (10729, 022 /* INSCRIBABLE_BOOL */, False)
+     , (10729, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10729, 1, 1000) /* Book Data */;

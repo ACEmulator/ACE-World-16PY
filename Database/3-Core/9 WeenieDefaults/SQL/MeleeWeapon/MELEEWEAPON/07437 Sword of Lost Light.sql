@@ -2,56 +2,56 @@
 DELETE FROM weenie WHERE class_Id = 7437;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7437, 'swordlostlightbluered', /* MeleeWeapon_WeenieType */ 6);
+VALUES (7437, 'swordlostlightbluered', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7437, 16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe and red fire from Mount Tenkarrdun.') /* LONG_DESC_STRING */
-     , (7437, 1, 'Sword of Lost Light') /* NAME_STRING */;
+VALUES (7437, 001 /* NAME_STRING */, 'Sword of Lost Light')
+     , (7437, 016 /* LONG_DESC_STRING */, 'The Sword of Lost Light, infused with blue fire from Mount Lethe and red fire from Mount Tenkarrdun.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7437, 1, 33555927) /* SETUP_DID */
-     , (7437, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7437, 37, 11) /* ITEM_SKILL_LIMIT_DID */
-     , (7437, 8, 100669772) /* ICON_DID */
-     , (7437, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7437, 001 /* SETUP_DID */, 33555927)
+     , (7437, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7437, 008 /* ICON_DID */, 100669772)
+     , (7437, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7437, 037 /* ITEM_SKILL_LIMIT_DID */, 11);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7437, 9, 1048576) /* LOCATIONS_INT */
-     , (7437, 1, 1) /* ITEM_TYPE_INT */
-     , (7437, 5, 450) /* ENCUMB_VAL_INT */
-     , (7437, 16, 1) /* ITEM_USEABLE_INT */
-     , (7437, 8, 180) /* MASS_INT */
-     , (7437, 18, 1) /* UI_EFFECTS_INT */
-     , (7437, 19, 12800) /* VALUE_INT */
-     , (7437, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (7437, 151, 2) /* HOOK_TYPE_INT */
-     , (7437, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7437, 33, 1) /* BONDED_INT */
-     , (7437, 106, 260) /* ITEM_SPELLCRAFT_INT */
-     , (7437, 107, 453) /* ITEM_CUR_MANA_INT */
-     , (7437, 44, 13) /* DAMAGE_INT */
-     , (7437, 108, 588) /* ITEM_MAX_MANA_INT */
-     , (7437, 45, 3) /* DAMAGE_TYPE_INT */
-     , (7437, 109, 158) /* ITEM_DIFFICULTY_INT */
-     , (7437, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7437, 47, 6) /* ATTACK_TYPE_INT */
-     , (7437, 48, 11) /* WEAPON_SKILL_INT */
-     , (7437, 49, 30) /* WEAPON_TIME_INT */
-     , (7437, 51, 1) /* COMBAT_USE_INT */
-     , (7437, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
+VALUES (7437, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (7437, 005 /* ENCUMB_VAL_INT */, 450)
+     , (7437, 008 /* MASS_INT */, 180)
+     , (7437, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (7437, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7437, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (7437, 019 /* VALUE_INT */, 12800)
+     , (7437, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7437, 044 /* DAMAGE_INT */, 13)
+     , (7437, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (7437, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (7437, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (7437, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (7437, 049 /* WEAPON_TIME_INT */, 30)
+     , (7437, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (7437, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7437, 106 /* ITEM_SPELLCRAFT_INT */, 260)
+     , (7437, 107 /* ITEM_CUR_MANA_INT */, 453)
+     , (7437, 108 /* ITEM_MAX_MANA_INT */, 588)
+     , (7437, 109 /* ITEM_DIFFICULTY_INT */, 158)
+     , (7437, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 280)
+     , (7437, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (7437, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7437, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
-     , (7437, 21, 0.95) /* WEAPON_LENGTH_FLOAT */
-     , (7437, 5, -0.1) /* MANA_RATE_FLOAT */
-     , (7437, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (7437, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */
-     , (7437, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (7437, 005 /* MANA_RATE_FLOAT */, -0.1)
+     , (7437, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)
+     , (7437, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (7437, 029 /* WEAPON_DEFENSE_FLOAT */, 1.03)
+     , (7437, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (7437, 062 /* WEAPON_OFFENSE_FLOAT */, 1.06);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7437, 69, False) /* IS_SELLABLE_BOOL */
-     , (7437, 22, True) /* INSCRIBABLE_BOOL */
-     , (7437, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7437, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7437, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (7437, 069 /* IS_SELLABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7437, 1615, 2) /* BloodDrinker5_SpellID */

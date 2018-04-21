@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 7277;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7277, 'flamewall', /* ProjectileSpell_WeenieType */ 33);
+VALUES (7277, 'flamewall', 33 /* ProjectileSpell_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7277, 1, 'Flame Bolt') /* NAME_STRING */;
+VALUES (7277, 001 /* NAME_STRING */, 'Flame Bolt');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7277, 1, 33555469) /* SETUP_DID */
-     , (7277, 3, 536870967) /* SOUND_TABLE_DID */
-     , (7277, 8, 100667494) /* ICON_DID */
-     , (7277, 30, 89) /* PHYSICS_SCRIPT_DID */
-     , (7277, 22, 872415237) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7277, 28, 27) /* SPELL_DID */;
+VALUES (7277, 001 /* SETUP_DID */, 33555469)
+     , (7277, 003 /* SOUND_TABLE_DID */, 536870967)
+     , (7277, 008 /* ICON_DID */, 100667494)
+     , (7277, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415237)
+     , (7277, 028 /* SPELL_DID */, 27 /* FlameBolt1_SpellID */)
+     , (7277, 030 /* PHYSICS_SCRIPT_DID */, 89 /* PS_Destroy */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7277, 66, 0) /* CHECKPOINT_STATUS_INT */
-     , (7277, 8, 25) /* MASS_INT */
-     , (7277, 9, 0) /* LOCATIONS_INT */
-     , (7277, 93, 133140) /* PHYSICS_STATE_INT */;
+VALUES (7277, 008 /* MASS_INT */, 25)
+     , (7277, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7277, 066 /* CHECKPOINT_STATUS_INT */, 0)
+     , (7277, 093 /* PHYSICS_STATE_INT */, 133140 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS, INELASTIC_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7277, 78, 1) /* FRICTION_FLOAT */
-     , (7277, 79, 0) /* ELASTICITY_FLOAT */
-     , (7277, 26, 3) /* MAXIMUM_VELOCITY_FLOAT */;
+VALUES (7277, 026 /* MAXIMUM_VELOCITY_FLOAT */, 3)
+     , (7277, 078 /* FRICTION_FLOAT */, 1)
+     , (7277, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7277, 17, True) /* INELASTIC_BOOL */
-     , (7277, 1, True) /* STUCK_BOOL */
-     , (7277, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (7277, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (7277, 24, True) /* UI_HIDDEN_BOOL */
-     , (7277, 16, True) /* SCRIPTED_COLLISION_BOOL */;
+VALUES (7277, 001 /* STUCK_BOOL */, True)
+     , (7277, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (7277, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (7277, 016 /* SCRIPTED_COLLISION_BOOL */, True)
+     , (7277, 017 /* INELASTIC_BOOL */, True)
+     , (7277, 024 /* UI_HIDDEN_BOOL */, True);
 

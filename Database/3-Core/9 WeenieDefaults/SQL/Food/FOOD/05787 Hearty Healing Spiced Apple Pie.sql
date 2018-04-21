@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 5787;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5787, 'heartyhealingspicedapplepie', /* Food_WeenieType */ 18);
+VALUES (5787, 'heartyhealingspicedapplepie', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5787, 1, 'Hearty Healing Spiced Apple Pie') /* NAME_STRING */
-     , (5787, 20, 'Hearty Healing Spiced Apple Pies') /* PLURAL_NAME_STRING */
-     , (5787, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (5787, 15, 'An apple pie with a rich, spicy, sweet and tart flavor.') /* SHORT_DESC_STRING */;
+VALUES (5787, 001 /* NAME_STRING */, 'Hearty Healing Spiced Apple Pie')
+     , (5787, 014 /* USE_STRING */, 'Use this item to eat it.')
+     , (5787, 015 /* SHORT_DESC_STRING */, 'An apple pie with a rich, spicy, sweet and tart flavor.')
+     , (5787, 020 /* PLURAL_NAME_STRING */, 'Hearty Healing Spiced Apple Pies');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5787, 1, 33555978) /* SETUP_DID */
-     , (5787, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5787, 8, 100670286) /* ICON_DID */
-     , (5787, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5787, 001 /* SETUP_DID */, 33555978)
+     , (5787, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5787, 008 /* ICON_DID */, 100670286)
+     , (5787, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5787, 9, 0) /* LOCATIONS_INT */
-     , (5787, 1, 32) /* ITEM_TYPE_INT */
-     , (5787, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (5787, 5, 50) /* ENCUMB_VAL_INT */
-     , (5787, 8, 50) /* MASS_INT */
-     , (5787, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (5787, 12, 1) /* STACK_SIZE_INT */
-     , (5787, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (5787, 15, 140) /* STACK_UNIT_VALUE_INT */
-     , (5787, 16, 8) /* ITEM_USEABLE_INT */
-     , (5787, 18, 4) /* UI_EFFECTS_INT */
-     , (5787, 19, 140) /* VALUE_INT */
-     , (5787, 89, 2) /* BOOSTER_ENUM_INT */
-     , (5787, 90, 40) /* BOOST_VALUE_INT */
-     , (5787, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (5787, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (5787, 005 /* ENCUMB_VAL_INT */, 50)
+     , (5787, 008 /* MASS_INT */, 50)
+     , (5787, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5787, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (5787, 012 /* STACK_SIZE_INT */, 1)
+     , (5787, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (5787, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (5787, 015 /* STACK_UNIT_VALUE_INT */, 140)
+     , (5787, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5787, 018 /* UI_EFFECTS_INT */, 4 /* UI_EFFECT_BOOST_HEALTH */)
+     , (5787, 019 /* VALUE_INT */, 140)
+     , (5787, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
+     , (5787, 090 /* BOOST_VALUE_INT */, 40)
+     , (5787, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5787, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (5787, 069 /* IS_SELLABLE_BOOL */, False);
 

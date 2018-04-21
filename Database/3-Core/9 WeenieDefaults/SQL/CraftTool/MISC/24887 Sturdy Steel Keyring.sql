@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 24887;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24887, 'keyringchestextreme', /* CraftTool_WeenieType */ 44);
+VALUES (24887, 'keyringchestextreme', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24887, 16, 'A crude keyring roughly carved out of a coral golem heart. ') /* LONG_DESC_STRING */
-     , (24887, 1, 'Sturdy Steel Keyring') /* NAME_STRING */
-     , (24887, 14, 'Use this ring on a sturdy steel key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* USE_STRING */;
+VALUES (24887, 001 /* NAME_STRING */, 'Sturdy Steel Keyring')
+     , (24887, 014 /* USE_STRING */, 'Use this ring on a sturdy steel key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.')
+     , (24887, 016 /* LONG_DESC_STRING */, 'A crude keyring roughly carved out of a coral golem heart. ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24887, 1, 33554790) /* SETUP_DID */
-     , (24887, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24887, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (24887, 6, 67111919) /* PALETTE_BASE_DID */
-     , (24887, 7, 268435782) /* CLOTHINGBASE_DID */
-     , (24887, 8, 100674623) /* ICON_DID */;
+VALUES (24887, 001 /* SETUP_DID */, 33554790)
+     , (24887, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24887, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (24887, 007 /* CLOTHINGBASE_DID */, 268435782)
+     , (24887, 008 /* ICON_DID */, 100674623)
+     , (24887, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24887, 9, 0) /* LOCATIONS_INT */
-     , (24887, 1, 128) /* ITEM_TYPE_INT */
-     , (24887, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (24887, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (24887, 13, 40) /* STACK_UNIT_ENCUMB_INT */
-     , (24887, 5, 40) /* ENCUMB_VAL_INT */
-     , (24887, 8, 40) /* MASS_INT */
-     , (24887, 12, 1) /* STACK_SIZE_INT */
-     , (24887, 14, 40) /* STACK_UNIT_MASS_INT */
-     , (24887, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (24887, 16, 524296) /* ITEM_USEABLE_INT */
-     , (24887, 19, 10) /* VALUE_INT */
-     , (24887, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (24887, 151, 2) /* HOOK_TYPE_INT */
-     , (24887, 91, 50) /* MAX_STRUCTURE_INT */
-     , (24887, 92, 50) /* STRUCTURE_INT */
-     , (24887, 93, 1044) /* PHYSICS_STATE_INT */
-     , (24887, 94, 16384) /* TARGET_TYPE_INT */;
+VALUES (24887, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (24887, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (24887, 005 /* ENCUMB_VAL_INT */, 40)
+     , (24887, 008 /* MASS_INT */, 40)
+     , (24887, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (24887, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (24887, 012 /* STACK_SIZE_INT */, 1)
+     , (24887, 013 /* STACK_UNIT_ENCUMB_INT */, 40)
+     , (24887, 014 /* STACK_UNIT_MASS_INT */, 40)
+     , (24887, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (24887, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (24887, 019 /* VALUE_INT */, 10)
+     , (24887, 091 /* MAX_STRUCTURE_INT */, 50)
+     , (24887, 092 /* STRUCTURE_INT */, 50)
+     , (24887, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (24887, 094 /* TARGET_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (24887, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (24887, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24887, 39, 0.75) /* DEFAULT_SCALE_FLOAT */;
+VALUES (24887, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24887, 69, False) /* IS_SELLABLE_BOOL */
-     , (24887, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (24887, 022 /* INSCRIBABLE_BOOL */, True)
+     , (24887, 069 /* IS_SELLABLE_BOOL */, False);
 

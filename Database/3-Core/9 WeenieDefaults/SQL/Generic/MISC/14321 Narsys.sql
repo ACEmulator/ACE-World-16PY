@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 14321;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14321, 'narsyssign', /* Generic_WeenieType */ 1);
+VALUES (14321, 'narsyssign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14321, 16, 'Welcome to Narsys') /* LONG_DESC_STRING */
-     , (14321, 1, 'Narsys') /* NAME_STRING */;
+VALUES (14321, 001 /* NAME_STRING */, 'Narsys')
+     , (14321, 016 /* LONG_DESC_STRING */, 'Welcome to Narsys');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14321, 1, 33557463) /* SETUP_DID */
-     , (14321, 8, 100668115) /* ICON_DID */;
+VALUES (14321, 001 /* SETUP_DID */, 33557463)
+     , (14321, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14321, 1, 128) /* ITEM_TYPE_INT */
-     , (14321, 93, 1048) /* PHYSICS_STATE_INT */
-     , (14321, 5, 9000) /* ENCUMB_VAL_INT */
-     , (14321, 16, 1) /* ITEM_USEABLE_INT */
-     , (14321, 8, 1800) /* MASS_INT */
-     , (14321, 19, 125) /* VALUE_INT */;
+VALUES (14321, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14321, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (14321, 008 /* MASS_INT */, 1800)
+     , (14321, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (14321, 019 /* VALUE_INT */, 125)
+     , (14321, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14321, 1, True) /* STUCK_BOOL */
-     , (14321, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (14321, 13, False) /* ETHEREAL_BOOL */
-     , (14321, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (14321, 001 /* STUCK_BOOL */, True)
+     , (14321, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (14321, 013 /* ETHEREAL_BOOL */, False)
+     , (14321, 022 /* INSCRIBABLE_BOOL */, False);
 

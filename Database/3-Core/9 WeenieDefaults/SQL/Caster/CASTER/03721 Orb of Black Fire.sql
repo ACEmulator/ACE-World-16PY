@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 3721;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3721, 'orbblackfire', /* Caster_WeenieType */ 35);
+VALUES (3721, 'orbblackfire', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3721, 1, 'Orb of Black Fire') /* NAME_STRING */;
+VALUES (3721, 001 /* NAME_STRING */, 'Orb of Black Fire');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721, 1, 33558249) /* SETUP_DID */
-     , (3721, 27, 1073742049) /* USE_USER_ANIMATION_DID */
-     , (3721, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3721, 37, 33) /* ITEM_SKILL_LIMIT_DID */
-     , (3721, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (3721, 6, 67111928) /* PALETTE_BASE_DID */
-     , (3721, 7, 268435751) /* CLOTHINGBASE_DID */
-     , (3721, 8, 100674114) /* ICON_DID */
-     , (3721, 28, 145) /* SPELL_DID */;
+VALUES (3721, 001 /* SETUP_DID */, 33558249)
+     , (3721, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3721, 006 /* PALETTE_BASE_DID */, 67111928)
+     , (3721, 007 /* CLOTHINGBASE_DID */, 268435751)
+     , (3721, 008 /* ICON_DID */, 100674114)
+     , (3721, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (3721, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
+     , (3721, 028 /* SPELL_DID */, 145 /* FlameVolley5_SpellID */)
+     , (3721, 037 /* ITEM_SKILL_LIMIT_DID */, 33);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3721, 9, 16777216) /* LOCATIONS_INT */
-     , (3721, 1, 32768) /* ITEM_TYPE_INT */
-     , (3721, 19, 5700) /* VALUE_INT */
-     , (3721, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (3721, 5, 50) /* ENCUMB_VAL_INT */
-     , (3721, 16, 6291464) /* ITEM_USEABLE_INT */
-     , (3721, 8, 50) /* MASS_INT */
-     , (3721, 18, 1) /* UI_EFFECTS_INT */
-     , (3721, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (3721, 151, 2) /* HOOK_TYPE_INT */
-     , (3721, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3721, 94, 16) /* TARGET_TYPE_INT */
-     , (3721, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (3721, 107, 2000) /* ITEM_CUR_MANA_INT */
-     , (3721, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (3721, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (3721, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (3721, 117, 75) /* ITEM_MANA_COST_INT */;
+VALUES (3721, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (3721, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (3721, 005 /* ENCUMB_VAL_INT */, 50)
+     , (3721, 008 /* MASS_INT */, 50)
+     , (3721, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (3721, 016 /* ITEM_USEABLE_INT */, 6291464 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_NEVER_WALK */)
+     , (3721, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (3721, 019 /* VALUE_INT */, 5700)
+     , (3721, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (3721, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3721, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (3721, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (3721, 107 /* ITEM_CUR_MANA_INT */, 2000)
+     , (3721, 108 /* ITEM_MAX_MANA_INT */, 2000)
+     , (3721, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 125)
+     , (3721, 117 /* ITEM_MANA_COST_INT */, 75)
+     , (3721, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (3721, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3721, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (3721, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (3721, 39, 0.8) /* DEFAULT_SCALE_FLOAT */
-     , (3721, 144, 0.03) /* MANA_CONVERSION_MOD_FLOAT */;
+VALUES (3721, 005 /* MANA_RATE_FLOAT */, -0.025)
+     , (3721, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (3721, 039 /* DEFAULT_SCALE_FLOAT */, 0.8)
+     , (3721, 144 /* MANA_CONVERSION_MOD_FLOAT */, 0.03);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3721, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (3721, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3721, 1092, 2) /* FireProtectionSelf4_SpellID */

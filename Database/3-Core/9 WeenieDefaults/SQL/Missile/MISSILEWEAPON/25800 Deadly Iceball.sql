@@ -2,59 +2,59 @@
 DELETE FROM weenie WHERE class_Id = 25800;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25800, 'iceballdeadly', /* Missile_WeenieType */ 4);
+VALUES (25800, 'iceballdeadly', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25800, 16, 'A deadly iceball. The kind your mother told you not to make.') /* LONG_DESC_STRING */
-     , (25800, 1, 'Deadly Iceball') /* NAME_STRING */;
+VALUES (25800, 001 /* NAME_STRING */, 'Deadly Iceball')
+     , (25800, 016 /* LONG_DESC_STRING */, 'A deadly iceball. The kind your mother told you not to make.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25800, 1, 33556223) /* SETUP_DID */
-     , (25800, 3, 536870932) /* SOUND_TABLE_DID */
-     , (25800, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (25800, 6, 67111928) /* PALETTE_BASE_DID */
-     , (25800, 7, 268435841) /* CLOTHINGBASE_DID */
-     , (25800, 8, 100675521) /* ICON_DID */;
+VALUES (25800, 001 /* SETUP_DID */, 33556223)
+     , (25800, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (25800, 006 /* PALETTE_BASE_DID */, 67111928)
+     , (25800, 007 /* CLOTHINGBASE_DID */, 268435841)
+     , (25800, 008 /* ICON_DID */, 100675521)
+     , (25800, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25800, 9, 4194304) /* LOCATIONS_INT */
-     , (25800, 1, 256) /* ITEM_TYPE_INT */
-     , (25800, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (25800, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (25800, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (25800, 5, 50) /* ENCUMB_VAL_INT */
-     , (25800, 8, 50) /* MASS_INT */
-     , (25800, 12, 1) /* STACK_SIZE_INT */
-     , (25800, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (25800, 15, 100) /* STACK_UNIT_VALUE_INT */
-     , (25800, 16, 1) /* ITEM_USEABLE_INT */
-     , (25800, 19, 100) /* VALUE_INT */
-     , (25800, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (25800, 151, 2) /* HOOK_TYPE_INT */
-     , (25800, 93, 132116) /* PHYSICS_STATE_INT */
-     , (25800, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25800, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (25800, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (25800, 36, 9999) /* RESIST_MAGIC_INT */
-     , (25800, 44, 125) /* DAMAGE_INT */
-     , (25800, 45, 8) /* DAMAGE_TYPE_INT */
-     , (25800, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (25800, 48, 12) /* WEAPON_SKILL_INT */
-     , (25800, 49, 10) /* WEAPON_TIME_INT */
-     , (25800, 51, 2) /* COMBAT_USE_INT */;
+VALUES (25800, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (25800, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (25800, 005 /* ENCUMB_VAL_INT */, 50)
+     , (25800, 008 /* MASS_INT */, 50)
+     , (25800, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (25800, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (25800, 012 /* STACK_SIZE_INT */, 1)
+     , (25800, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (25800, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (25800, 015 /* STACK_UNIT_VALUE_INT */, 100)
+     , (25800, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (25800, 019 /* VALUE_INT */, 100)
+     , (25800, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (25800, 044 /* DAMAGE_INT */, 125)
+     , (25800, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
+     , (25800, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (25800, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (25800, 049 /* WEAPON_TIME_INT */, 10)
+     , (25800, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (25800, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
+     , (25800, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (25800, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (25800, 158 /* WIELD_REQUIREMENTS_INT */, 7)
+     , (25800, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (25800, 160 /* WIELD_DIFFICULTY_INT */, 30);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25800, 79, 0) /* ELASTICITY_FLOAT */
-     , (25800, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
-     , (25800, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (25800, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (25800, 78, 1) /* FRICTION_FLOAT */
-     , (25800, 29, 0.8) /* WEAPON_DEFENSE_FLOAT */
-     , (25800, 21, 1.5) /* WEAPON_LENGTH_FLOAT */
-     , (25800, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
-     , (25800, 27, 1) /* ROTATION_SPEED_FLOAT */;
+VALUES (25800, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
+     , (25800, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (25800, 026 /* MAXIMUM_VELOCITY_FLOAT */, 15)
+     , (25800, 027 /* ROTATION_SPEED_FLOAT */, 1)
+     , (25800, 029 /* WEAPON_DEFENSE_FLOAT */, 0.8)
+     , (25800, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
+     , (25800, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (25800, 078 /* FRICTION_FLOAT */, 1)
+     , (25800, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25800, 17, True) /* INELASTIC_BOOL */
-     , (25800, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (25800, 017 /* INELASTIC_BOOL */, True)
+     , (25800, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

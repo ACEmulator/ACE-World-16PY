@@ -2,59 +2,59 @@
 DELETE FROM weenie WHERE class_Id = 21354;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21354, 'daggerphantom', /* MeleeWeapon_WeenieType */ 6);
+VALUES (21354, 'daggerphantom', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21354, 16, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LONG_DESC_STRING */
-     , (21354, 1, 'Phantom Dagger') /* NAME_STRING */
-     , (21354, 15, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* SHORT_DESC_STRING */;
+VALUES (21354, 001 /* NAME_STRING */, 'Phantom Dagger')
+     , (21354, 015 /* SHORT_DESC_STRING */, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)')
+     , (21354, 016 /* LONG_DESC_STRING */, 'A dagger with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21354, 1, 33556656) /* SETUP_DID */
-     , (21354, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21354, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (21354, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21354, 6, 67111919) /* PALETTE_BASE_DID */
-     , (21354, 7, 268435783) /* CLOTHINGBASE_DID */
-     , (21354, 8, 100668875) /* ICON_DID */;
+VALUES (21354, 001 /* SETUP_DID */, 33556656)
+     , (21354, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21354, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (21354, 007 /* CLOTHINGBASE_DID */, 268435783)
+     , (21354, 008 /* ICON_DID */, 100668875)
+     , (21354, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21354, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21354, 9, 1048576) /* LOCATIONS_INT */
-     , (21354, 1, 1) /* ITEM_TYPE_INT */
-     , (21354, 19, 3000) /* VALUE_INT */
-     , (21354, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (21354, 5, 135) /* ENCUMB_VAL_INT */
-     , (21354, 16, 1) /* ITEM_USEABLE_INT */
-     , (21354, 8, 90) /* MASS_INT */
-     , (21354, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21354, 151, 2) /* HOOK_TYPE_INT */
-     , (21354, 93, 3092) /* PHYSICS_STATE_INT */
-     , (21354, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (21354, 159, 4) /* WIELD_SKILLTYPE_INT */
-     , (21354, 160, 275) /* WIELD_DIFFICULTY_INT */
-     , (21354, 33, 1) /* BONDED_INT */
-     , (21354, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21354, 44, 5) /* DAMAGE_INT */
-     , (21354, 45, 3) /* DAMAGE_TYPE_INT */
-     , (21354, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (21354, 47, 6) /* ATTACK_TYPE_INT */
-     , (21354, 48, 4) /* WEAPON_SKILL_INT */
-     , (21354, 49, 20) /* WEAPON_TIME_INT */
-     , (21354, 114, 1) /* ATTUNED_INT */
-     , (21354, 179, -2147483648) /* IMBUED_EFFECT_INT */
-     , (21354, 51, 1) /* COMBAT_USE_INT */;
+VALUES (21354, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (21354, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (21354, 005 /* ENCUMB_VAL_INT */, 135)
+     , (21354, 008 /* MASS_INT */, 90)
+     , (21354, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (21354, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21354, 019 /* VALUE_INT */, 3000)
+     , (21354, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (21354, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (21354, 044 /* DAMAGE_INT */, 5)
+     , (21354, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (21354, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (21354, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (21354, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
+     , (21354, 049 /* WEAPON_TIME_INT */, 20)
+     , (21354, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (21354, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (21354, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (21354, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21354, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (21354, 158 /* WIELD_REQUIREMENTS_INT */, 2)
+     , (21354, 159 /* WIELD_SKILLTYPE_INT */, 4)
+     , (21354, 160 /* WIELD_DIFFICULTY_INT */, 275)
+     , (21354, 179 /* IMBUED_EFFECT_INT */, -2147483648);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21354, 76, 0.7) /* TRANSLUCENCY_FLOAT */
-     , (21354, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (21354, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
-     , (21354, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */
-     , (21354, 22, 0.1) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (21354, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
+     , (21354, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.1)
+     , (21354, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (21354, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15)
+     , (21354, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21354, 99, True) /* IVORYABLE_BOOL */
-     , (21354, 69, False) /* IS_SELLABLE_BOOL */
-     , (21354, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (21354, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (21354, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21354, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (21354, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21354, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (21354, 069 /* IS_SELLABLE_BOOL */, False)
+     , (21354, 099 /* IVORYABLE_BOOL */, True);
 

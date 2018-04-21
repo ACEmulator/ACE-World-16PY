@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 258;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (258, 'apple', /* Food_WeenieType */ 18);
+VALUES (258, 'apple', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (258, 1, 'Apple') /* NAME_STRING */
-     , (258, 14, 'Use this item to eat it.') /* USE_STRING */;
+VALUES (258, 001 /* NAME_STRING */, 'Apple')
+     , (258, 014 /* USE_STRING */, 'Use this item to eat it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (258, 1, 33554667) /* SETUP_DID */
-     , (258, 3, 536870932) /* SOUND_TABLE_DID */
-     , (258, 8, 100667465) /* ICON_DID */
-     , (258, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (258, 001 /* SETUP_DID */, 33554667)
+     , (258, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (258, 008 /* ICON_DID */, 100667465)
+     , (258, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (258, 9, 0) /* LOCATIONS_INT */
-     , (258, 1, 32) /* ITEM_TYPE_INT */
-     , (258, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (258, 5, 50) /* ENCUMB_VAL_INT */
-     , (258, 8, 25) /* MASS_INT */
-     , (258, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (258, 12, 1) /* STACK_SIZE_INT */
-     , (258, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (258, 15, 7) /* STACK_UNIT_VALUE_INT */
-     , (258, 16, 8) /* ITEM_USEABLE_INT */
-     , (258, 19, 7) /* VALUE_INT */
-     , (258, 89, 4) /* BOOSTER_ENUM_INT */
-     , (258, 90, 4) /* BOOST_VALUE_INT */
-     , (258, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (258, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (258, 005 /* ENCUMB_VAL_INT */, 50)
+     , (258, 008 /* MASS_INT */, 25)
+     , (258, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (258, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (258, 012 /* STACK_SIZE_INT */, 1)
+     , (258, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (258, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (258, 015 /* STACK_UNIT_VALUE_INT */, 7)
+     , (258, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (258, 019 /* VALUE_INT */, 7)
+     , (258, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (258, 090 /* BOOST_VALUE_INT */, 4)
+     , (258, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

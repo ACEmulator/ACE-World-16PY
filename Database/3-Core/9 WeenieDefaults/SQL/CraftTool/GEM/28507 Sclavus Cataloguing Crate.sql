@@ -2,42 +2,42 @@
 DELETE FROM weenie WHERE class_Id = 28507;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28507, 'cratesclavuscatalogue2', /* CraftTool_WeenieType */ 44);
+VALUES (28507, 'cratesclavuscatalogue2', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28507, 16, 'A functional crate for storing messy materials. The crate has one full bag -- a small Sclavus hide is inside this bag-- and three empty bags. The next bag is labeled Sclavus hide.') /* LONG_DESC_STRING */
-     , (28507, 1, 'Sclavus Cataloguing Crate') /* NAME_STRING */
-     , (28507, 14, 'Place a Sclavus Hide into the lined bag inside this crate.') /* USE_STRING */;
+VALUES (28507, 001 /* NAME_STRING */, 'Sclavus Cataloguing Crate')
+     , (28507, 014 /* USE_STRING */, 'Place a Sclavus Hide into the lined bag inside this crate.')
+     , (28507, 016 /* LONG_DESC_STRING */, 'A functional crate for storing messy materials. The crate has one full bag -- a small Sclavus hide is inside this bag-- and three empty bags. The next bag is labeled Sclavus hide.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28507, 1, 33554930) /* SETUP_DID */
-     , (28507, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28507, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28507, 6, 67111919) /* PALETTE_BASE_DID */
-     , (28507, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (28507, 8, 100676965) /* ICON_DID */;
+VALUES (28507, 001 /* SETUP_DID */, 33554930)
+     , (28507, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28507, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (28507, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (28507, 008 /* ICON_DID */, 100676965)
+     , (28507, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28507, 9, 0) /* LOCATIONS_INT */
-     , (28507, 1, 2048) /* ITEM_TYPE_INT */
-     , (28507, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (28507, 3, 83) /* PALETTE_TEMPLATE_INT */
-     , (28507, 13, 300) /* STACK_UNIT_ENCUMB_INT */
-     , (28507, 5, 300) /* ENCUMB_VAL_INT */
-     , (28507, 8, 10) /* MASS_INT */
-     , (28507, 12, 1) /* STACK_SIZE_INT */
-     , (28507, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (28507, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (28507, 16, 524296) /* ITEM_USEABLE_INT */
-     , (28507, 19, 0) /* VALUE_INT */
-     , (28507, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (28507, 151, 2) /* HOOK_TYPE_INT */
-     , (28507, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28507, 94, 2176) /* TARGET_TYPE_INT */
-     , (28507, 33, 1) /* BONDED_INT */
-     , (28507, 114, 1) /* ATTUNED_INT */;
+VALUES (28507, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (28507, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
+     , (28507, 005 /* ENCUMB_VAL_INT */, 300)
+     , (28507, 008 /* MASS_INT */, 10)
+     , (28507, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28507, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (28507, 012 /* STACK_SIZE_INT */, 1)
+     , (28507, 013 /* STACK_UNIT_ENCUMB_INT */, 300)
+     , (28507, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (28507, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (28507, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (28507, 019 /* VALUE_INT */, 0)
+     , (28507, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (28507, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28507, 094 /* TARGET_TYPE_INT */, 2176 /*  */)
+     , (28507, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (28507, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (28507, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28507, 69, False) /* IS_SELLABLE_BOOL */
-     , (28507, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (28507, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28507, 069 /* IS_SELLABLE_BOOL */, False);
 

@@ -2,25 +2,25 @@
 DELETE FROM weenie WHERE class_Id = 10698;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10698, 'butterflyswarm', /* Generic_WeenieType */ 1);
+VALUES (10698, 'butterflyswarm', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10698, 1, 'Butterflies!') /* NAME_STRING */;
+VALUES (10698, 001 /* NAME_STRING */, 'Butterflies!');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10698, 1, 33555600) /* SETUP_DID */
-     , (10698, 8, 100667494) /* ICON_DID */;
+VALUES (10698, 001 /* SETUP_DID */, 33555600)
+     , (10698, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10698, 1, 128) /* ITEM_TYPE_INT */
-     , (10698, 93, 20) /* PHYSICS_STATE_INT */
-     , (10698, 5, 1) /* ENCUMB_VAL_INT */
-     , (10698, 16, 1) /* ITEM_USEABLE_INT */
-     , (10698, 8, 1) /* MASS_INT */
-     , (10698, 19, 0) /* VALUE_INT */;
+VALUES (10698, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (10698, 005 /* ENCUMB_VAL_INT */, 1)
+     , (10698, 008 /* MASS_INT */, 1)
+     , (10698, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (10698, 019 /* VALUE_INT */, 0)
+     , (10698, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10698, 1, True) /* STUCK_BOOL */
-     , (10698, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (10698, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (10698, 001 /* STUCK_BOOL */, True)
+     , (10698, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (10698, 024 /* UI_HIDDEN_BOOL */, True);
 

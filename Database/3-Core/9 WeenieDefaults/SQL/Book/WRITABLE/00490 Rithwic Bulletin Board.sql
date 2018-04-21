@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 490;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (490, 'sign-rithwicbulletinboard', /* Book_WeenieType */ 8);
+VALUES (490, 'sign-rithwicbulletinboard', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (490, 1, 'Rithwic Bulletin Board') /* NAME_STRING */;
+VALUES (490, 001 /* NAME_STRING */, 'Rithwic Bulletin Board');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (490, 1, 33555088) /* SETUP_DID */
-     , (490, 8, 100668115) /* ICON_DID */;
+VALUES (490, 001 /* SETUP_DID */, 33555088)
+     , (490, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (490, 1, 8192) /* ITEM_TYPE_INT */
-     , (490, 93, 1048) /* PHYSICS_STATE_INT */
-     , (490, 5, 9000) /* ENCUMB_VAL_INT */
-     , (490, 16, 48) /* ITEM_USEABLE_INT */
-     , (490, 8, 1800) /* MASS_INT */
-     , (490, 19, 125) /* VALUE_INT */;
+VALUES (490, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (490, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (490, 008 /* MASS_INT */, 1800)
+     , (490, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (490, 019 /* VALUE_INT */, 125)
+     , (490, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (490, 39, 1.3) /* DEFAULT_SCALE_FLOAT */
-     , (490, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (490, 039 /* DEFAULT_SCALE_FLOAT */, 1.3)
+     , (490, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (490, 1, True) /* STUCK_BOOL */
-     , (490, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (490, 13, False) /* ETHEREAL_BOOL */
-     , (490, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (490, 001 /* STUCK_BOOL */, True)
+     , (490, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (490, 013 /* ETHEREAL_BOOL */, False)
+     , (490, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (490, 100, 1000) /* Book Data */;

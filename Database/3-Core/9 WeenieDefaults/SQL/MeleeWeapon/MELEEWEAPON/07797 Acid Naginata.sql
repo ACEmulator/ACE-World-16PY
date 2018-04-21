@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 7797;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7797, 'swordstaffacid', /* MeleeWeapon_WeenieType */ 6);
+VALUES (7797, 'swordstaffacid', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7797, 1, 'Acid Naginata') /* NAME_STRING */;
+VALUES (7797, 001 /* NAME_STRING */, 'Acid Naginata');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7797, 1, 33556670) /* SETUP_DID */
-     , (7797, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7797, 36, 234881053) /* MUTATE_FILTER_DID */
-     , (7797, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7797, 46, 939524103) /* TSYS_MUTATION_FILTER_DID */
-     , (7797, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7797, 7, 268436012) /* CLOTHINGBASE_DID */
-     , (7797, 8, 100670761) /* ICON_DID */;
+VALUES (7797, 001 /* SETUP_DID */, 33556670)
+     , (7797, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7797, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7797, 007 /* CLOTHINGBASE_DID */, 268436012)
+     , (7797, 008 /* ICON_DID */, 100670761)
+     , (7797, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7797, 036 /* MUTATE_FILTER_DID */, 234881053)
+     , (7797, 046 /* TSYS_MUTATION_FILTER_DID */, 939524103);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7797, 9, 1048576) /* LOCATIONS_INT */
-     , (7797, 1, 1) /* ITEM_TYPE_INT */
-     , (7797, 19, 350) /* VALUE_INT */
-     , (7797, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (7797, 5, 750) /* ENCUMB_VAL_INT */
-     , (7797, 16, 1) /* ITEM_USEABLE_INT */
-     , (7797, 8, 150) /* MASS_INT */
-     , (7797, 18, 256) /* UI_EFFECTS_INT */
-     , (7797, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (7797, 151, 2) /* HOOK_TYPE_INT */
-     , (7797, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7797, 169, 101188618) /* TSYS_MUTATION_DATA_INT */
-     , (7797, 44, 9) /* DAMAGE_INT */
-     , (7797, 45, 32) /* DAMAGE_TYPE_INT */
-     , (7797, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7797, 47, 6) /* ATTACK_TYPE_INT */
-     , (7797, 48, 9) /* WEAPON_SKILL_INT */
-     , (7797, 49, 35) /* WEAPON_TIME_INT */
-     , (7797, 51, 1) /* COMBAT_USE_INT */;
+VALUES (7797, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (7797, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (7797, 005 /* ENCUMB_VAL_INT */, 750)
+     , (7797, 008 /* MASS_INT */, 150)
+     , (7797, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (7797, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7797, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
+     , (7797, 019 /* VALUE_INT */, 350)
+     , (7797, 044 /* DAMAGE_INT */, 9)
+     , (7797, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (7797, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (7797, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (7797, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
+     , (7797, 049 /* WEAPON_TIME_INT */, 35)
+     , (7797, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (7797, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7797, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (7797, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (7797, 169 /* TSYS_MUTATION_DATA_INT */, 101188618);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7797, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (7797, 21, 1.3) /* WEAPON_LENGTH_FLOAT */
-     , (7797, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (7797, 22, 0.66) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (7797, 021 /* WEAPON_LENGTH_FLOAT */, 1.3)
+     , (7797, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.66)
+     , (7797, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (7797, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7797, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (7797, 022 /* INSCRIBABLE_BOOL */, True);
 

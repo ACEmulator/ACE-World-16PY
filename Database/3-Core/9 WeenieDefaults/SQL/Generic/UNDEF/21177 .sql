@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 21177;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21177, 'lowcentraldesertgen', /* Generic_WeenieType */ 1);
+VALUES (21177, 'lowcentraldesertgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21177, 1, 'lowcentraldesertgen') /* NAME_STRING */;
+VALUES (21177, 001 /* NAME_STRING */, 'lowcentraldesertgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21177, 1, 33555051) /* SETUP_DID */
-     , (21177, 8, 100667494) /* ICON_DID */;
+VALUES (21177, 001 /* SETUP_DID */, 33555051)
+     , (21177, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21177, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (21177, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (21177, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (21177, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (21177, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (21177, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21177, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (21177, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (21177, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (21177, 043 /* GENERATOR_RADIUS_FLOAT */, 15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21177, 1, True) /* STUCK_BOOL */
-     , (21177, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (21177, 18, True) /* VISIBILITY_BOOL */;
+VALUES (21177, 001 /* STUCK_BOOL */, True)
+     , (21177, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (21177, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21177, 0.01, 4273, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate ratsilverswarmgen (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

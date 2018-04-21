@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 9066;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9066, 'platecipher', /* CraftTool_WeenieType */ 44);
+VALUES (9066, 'platecipher', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9066, 16, 'A strange old puzzle box. There are two slots, each about the size of a small book, on opposing sides. There is a symbol inscribed on its metal surface; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LONG_DESC_STRING */
-     , (9066, 1, 'Puzzle Box') /* NAME_STRING */
-     , (9066, 14, 'You have no idea how to use this item.') /* USE_STRING */
-     , (9066, 15, 'A strange old puzzle box.') /* SHORT_DESC_STRING */;
+VALUES (9066, 001 /* NAME_STRING */, 'Puzzle Box')
+     , (9066, 014 /* USE_STRING */, 'You have no idea how to use this item.')
+     , (9066, 015 /* SHORT_DESC_STRING */, 'A strange old puzzle box.')
+     , (9066, 016 /* LONG_DESC_STRING */, 'A strange old puzzle box. There are two slots, each about the size of a small book, on opposing sides. There is a symbol inscribed on its metal surface; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9066, 1, 33556961) /* SETUP_DID */
-     , (9066, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9066, 8, 100671337) /* ICON_DID */
-     , (9066, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9066, 001 /* SETUP_DID */, 33556961)
+     , (9066, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9066, 008 /* ICON_DID */, 100671337)
+     , (9066, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9066, 9, 0) /* LOCATIONS_INT */
-     , (9066, 1, 128) /* ITEM_TYPE_INT */
-     , (9066, 13, 70) /* STACK_UNIT_ENCUMB_INT */
-     , (9066, 5, 70) /* ENCUMB_VAL_INT */
-     , (9066, 8, 20) /* MASS_INT */
-     , (9066, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (9066, 12, 1) /* STACK_SIZE_INT */
-     , (9066, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (9066, 15, 100) /* STACK_UNIT_VALUE_INT */
-     , (9066, 16, 524296) /* ITEM_USEABLE_INT */
-     , (9066, 19, 100) /* VALUE_INT */
-     , (9066, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (9066, 151, 11) /* HOOK_TYPE_INT */
-     , (9066, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9066, 94, 8192) /* TARGET_TYPE_INT */;
+VALUES (9066, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9066, 005 /* ENCUMB_VAL_INT */, 70)
+     , (9066, 008 /* MASS_INT */, 20)
+     , (9066, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9066, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (9066, 012 /* STACK_SIZE_INT */, 1)
+     , (9066, 013 /* STACK_UNIT_ENCUMB_INT */, 70)
+     , (9066, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (9066, 015 /* STACK_UNIT_VALUE_INT */, 100)
+     , (9066, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (9066, 019 /* VALUE_INT */, 100)
+     , (9066, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9066, 094 /* TARGET_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (9066, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (9066, 151 /* HOOK_TYPE_INT */, 11 /*  */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9066, 22, True) /* INSCRIBABLE_BOOL */
-     , (9066, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9066, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9066, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

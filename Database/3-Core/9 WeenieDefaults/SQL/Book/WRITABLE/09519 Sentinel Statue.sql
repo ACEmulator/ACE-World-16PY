@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 9519;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9519, 'statuesentinel', /* Book_WeenieType */ 8);
+VALUES (9519, 'statuesentinel', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9519, 16, 'A memorial to those who served.') /* LONG_DESC_STRING */
-     , (9519, 1, 'Sentinel Statue') /* NAME_STRING */
-     , (9519, 14, 'Use this statue to read its inscription.') /* USE_STRING */
-     , (9519, 15, 'A memorial to those who served.') /* SHORT_DESC_STRING */;
+VALUES (9519, 001 /* NAME_STRING */, 'Sentinel Statue')
+     , (9519, 014 /* USE_STRING */, 'Use this statue to read its inscription.')
+     , (9519, 015 /* SHORT_DESC_STRING */, 'A memorial to those who served.')
+     , (9519, 016 /* LONG_DESC_STRING */, 'A memorial to those who served.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9519, 1, 33557020) /* SETUP_DID */
-     , (9519, 2, 150995125) /* MOTION_TABLE_DID */
-     , (9519, 19, 268435537) /* ACTIVATION_ANIMATION_DID */
-     , (9519, 3, 536871026) /* SOUND_TABLE_DID */
-     , (9519, 6, 67108990) /* PALETTE_BASE_DID */
-     , (9519, 7, 268436177) /* CLOTHINGBASE_DID */
-     , (9519, 8, 100671531) /* ICON_DID */;
+VALUES (9519, 001 /* SETUP_DID */, 33557020)
+     , (9519, 002 /* MOTION_TABLE_DID */, 150995125)
+     , (9519, 003 /* SOUND_TABLE_DID */, 536871026)
+     , (9519, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (9519, 007 /* CLOTHINGBASE_DID */, 268436177)
+     , (9519, 008 /* ICON_DID */, 100671531)
+     , (9519, 019 /* ACTIVATION_ANIMATION_DID */, 268435537 /* Motion_Twitch1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9519, 1, 8192) /* ITEM_TYPE_INT */
-     , (9519, 83, 4) /* ACTIVATION_RESPONSE_INT */
-     , (9519, 19, 0) /* VALUE_INT */
-     , (9519, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (9519, 93, 1040) /* PHYSICS_STATE_INT */
-     , (9519, 5, 4000) /* ENCUMB_VAL_INT */
-     , (9519, 16, 32) /* ITEM_USEABLE_INT */
-     , (9519, 8, 2500) /* MASS_INT */
-     , (9519, 119, 1) /* ACTIVE_INT */;
+VALUES (9519, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (9519, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (9519, 005 /* ENCUMB_VAL_INT */, 4000)
+     , (9519, 008 /* MASS_INT */, 2500)
+     , (9519, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (9519, 019 /* VALUE_INT */, 0)
+     , (9519, 083 /* ACTIVATION_RESPONSE_INT */, 4 /* Animate_ActivationResponse */)
+     , (9519, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9519, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9519, 39, 5) /* DEFAULT_SCALE_FLOAT */
-     , (9519, 11, 3) /* RESET_INTERVAL_FLOAT */
-     , (9519, 12, 0.1) /* SHADE_FLOAT */
-     , (9519, 54, 25) /* USE_RADIUS_FLOAT */;
+VALUES (9519, 011 /* RESET_INTERVAL_FLOAT */, 3)
+     , (9519, 012 /* SHADE_FLOAT */, 0.1)
+     , (9519, 039 /* DEFAULT_SCALE_FLOAT */, 5)
+     , (9519, 054 /* USE_RADIUS_FLOAT */, 25);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9519, 1, True) /* STUCK_BOOL */
-     , (9519, 13, False) /* ETHEREAL_BOOL */
-     , (9519, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (9519, 001 /* STUCK_BOOL */, True)
+     , (9519, 013 /* ETHEREAL_BOOL */, False)
+     , (9519, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9519, 1, 1000) /* Book Data */;

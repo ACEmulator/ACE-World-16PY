@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 8649;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8649, 'plantwintersilvercrushed', /* Stackable_WeenieType */ 51);
+VALUES (8649, 'plantwintersilvercrushed', 51 /* Stackable_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8649, 16, 'The crushed pieces of a silvery white argenory plant. ') /* LONG_DESC_STRING */
-     , (8649, 1, 'Crushed Argenory Plant') /* NAME_STRING */
-     , (8649, 20, 'Crushed Argenory Plants') /* PLURAL_NAME_STRING */
-     , (8649, 15, 'The crushed pieces of a silvery white argenory plant.') /* SHORT_DESC_STRING */;
+VALUES (8649, 001 /* NAME_STRING */, 'Crushed Argenory Plant')
+     , (8649, 015 /* SHORT_DESC_STRING */, 'The crushed pieces of a silvery white argenory plant.')
+     , (8649, 016 /* LONG_DESC_STRING */, 'The crushed pieces of a silvery white argenory plant. ')
+     , (8649, 020 /* PLURAL_NAME_STRING */, 'Crushed Argenory Plants');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8649, 1, 33556752) /* SETUP_DID */
-     , (8649, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8649, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8649, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8649, 7, 268436035) /* CLOTHINGBASE_DID */
-     , (8649, 8, 100670767) /* ICON_DID */;
+VALUES (8649, 001 /* SETUP_DID */, 33556752)
+     , (8649, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8649, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8649, 007 /* CLOTHINGBASE_DID */, 268436035)
+     , (8649, 008 /* ICON_DID */, 100670767)
+     , (8649, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8649, 9, 0) /* LOCATIONS_INT */
-     , (8649, 1, 8388608) /* ITEM_TYPE_INT */
-     , (8649, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8649, 3, 90) /* PALETTE_TEMPLATE_INT */
-     , (8649, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (8649, 5, 5) /* ENCUMB_VAL_INT */
-     , (8649, 8, 50) /* MASS_INT */
-     , (8649, 12, 1) /* STACK_SIZE_INT */
-     , (8649, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (8649, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (8649, 16, 1) /* ITEM_USEABLE_INT */
-     , (8649, 19, 10) /* VALUE_INT */
-     , (8649, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (8649, 001 /* ITEM_TYPE_INT */, 8388608 /* TYPE_CRAFT_ALCHEMY_BASE */)
+     , (8649, 003 /* PALETTE_TEMPLATE_INT */, 90 /* DYEWINTERSILVER_PALETTE_TEMPLATE */)
+     , (8649, 005 /* ENCUMB_VAL_INT */, 5)
+     , (8649, 008 /* MASS_INT */, 50)
+     , (8649, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8649, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (8649, 012 /* STACK_SIZE_INT */, 1)
+     , (8649, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (8649, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (8649, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (8649, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8649, 019 /* VALUE_INT */, 10)
+     , (8649, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8649, 39, 2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (8649, 039 /* DEFAULT_SCALE_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8649, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (8649, 069 /* IS_SELLABLE_BOOL */, False);
 

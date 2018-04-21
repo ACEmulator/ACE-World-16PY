@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 12005;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12005, 'mosswartchiefcampgen', /* Generic_WeenieType */ 1);
+VALUES (12005, 'mosswartchiefcampgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12005, 1, 'mosswartchiefcampgen') /* NAME_STRING */;
+VALUES (12005, 001 /* NAME_STRING */, 'mosswartchiefcampgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12005, 1, 33555051) /* SETUP_DID */
-     , (12005, 8, 100667494) /* ICON_DID */;
+VALUES (12005, 001 /* SETUP_DID */, 33555051)
+     , (12005, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12005, 81, 5) /* MAX_GENERATED_OBJECTS_INT */
-     , (12005, 82, 4) /* INIT_GENERATED_OBJECTS_INT */
-     , (12005, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (12005, 081 /* MAX_GENERATED_OBJECTS_INT */, 5)
+     , (12005, 082 /* INIT_GENERATED_OBJECTS_INT */, 4)
+     , (12005, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12005, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (12005, 43, 3) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (12005, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (12005, 043 /* GENERATOR_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12005, 1, True) /* STUCK_BOOL */
-     , (12005, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (12005, 18, True) /* VISIBILITY_BOOL */;
+VALUES (12005, 001 /* STUCK_BOOL */, True)
+     , (12005, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (12005, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12005, 0.2, 211, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 1, 4, 0, 0.9537169, 0, 0, -0.3007058)/* Generate Mudlurk Mosswart (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

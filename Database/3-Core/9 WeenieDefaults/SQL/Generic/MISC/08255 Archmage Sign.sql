@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 8255;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8255, 'xarabydunarchmagesign', /* Generic_WeenieType */ 1);
+VALUES (8255, 'xarabydunarchmagesign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8255, 16, 'Chamber of Paradox. Zarri ibn Khaybi, Thaumaturgist of the Left Hand. WARNING!! Intense Empyrean-relic magilectrical activity within. Customers are warned to beware of static shocks and frizzy hair.') /* LONG_DESC_STRING */
-     , (8255, 1, 'Archmage Sign') /* NAME_STRING */;
+VALUES (8255, 001 /* NAME_STRING */, 'Archmage Sign')
+     , (8255, 016 /* LONG_DESC_STRING */, 'Chamber of Paradox. Zarri ibn Khaybi, Thaumaturgist of the Left Hand. WARNING!! Intense Empyrean-relic magilectrical activity within. Customers are warned to beware of static shocks and frizzy hair.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8255, 1, 33555909) /* SETUP_DID */
-     , (8255, 6, 67111860) /* PALETTE_BASE_DID */
-     , (8255, 7, 268435824) /* CLOTHINGBASE_DID */
-     , (8255, 8, 100668115) /* ICON_DID */;
+VALUES (8255, 001 /* SETUP_DID */, 33555909)
+     , (8255, 006 /* PALETTE_BASE_DID */, 67111860)
+     , (8255, 007 /* CLOTHINGBASE_DID */, 268435824)
+     , (8255, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8255, 1, 128) /* ITEM_TYPE_INT */
-     , (8255, 93, 24) /* PHYSICS_STATE_INT */
-     , (8255, 5, 9000) /* ENCUMB_VAL_INT */
-     , (8255, 16, 1) /* ITEM_USEABLE_INT */
-     , (8255, 8, 1800) /* MASS_INT */
-     , (8255, 19, 125) /* VALUE_INT */;
+VALUES (8255, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (8255, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (8255, 008 /* MASS_INT */, 1800)
+     , (8255, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8255, 019 /* VALUE_INT */, 125)
+     , (8255, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8255, 1, True) /* STUCK_BOOL */
-     , (8255, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (8255, 13, False) /* ETHEREAL_BOOL */
-     , (8255, 22, False) /* INSCRIBABLE_BOOL */
-     , (8255, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (8255, 001 /* STUCK_BOOL */, True)
+     , (8255, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (8255, 013 /* ETHEREAL_BOOL */, False)
+     , (8255, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (8255, 022 /* INSCRIBABLE_BOOL */, False);
 

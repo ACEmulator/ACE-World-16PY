@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 477;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (477, 'sign-rithwic1mile', /* Generic_WeenieType */ 1);
+VALUES (477, 'sign-rithwic1mile', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (477, 16, 'Hamlet of Rithwic: 1 mile.') /* LONG_DESC_STRING */
-     , (477, 1, 'Rithwic:1 mile') /* NAME_STRING */;
+VALUES (477, 001 /* NAME_STRING */, 'Rithwic:1 mile')
+     , (477, 016 /* LONG_DESC_STRING */, 'Hamlet of Rithwic: 1 mile.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (477, 1, 33555984) /* SETUP_DID */
-     , (477, 8, 100668115) /* ICON_DID */;
+VALUES (477, 001 /* SETUP_DID */, 33555984)
+     , (477, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (477, 1, 128) /* ITEM_TYPE_INT */
-     , (477, 93, 1048) /* PHYSICS_STATE_INT */
-     , (477, 5, 9000) /* ENCUMB_VAL_INT */
-     , (477, 16, 1) /* ITEM_USEABLE_INT */
-     , (477, 8, 1800) /* MASS_INT */
-     , (477, 19, 125) /* VALUE_INT */;
+VALUES (477, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (477, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (477, 008 /* MASS_INT */, 1800)
+     , (477, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (477, 019 /* VALUE_INT */, 125)
+     , (477, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (477, 1, True) /* STUCK_BOOL */
-     , (477, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (477, 13, False) /* ETHEREAL_BOOL */
-     , (477, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (477, 001 /* STUCK_BOOL */, True)
+     , (477, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (477, 013 /* ETHEREAL_BOOL */, False)
+     , (477, 022 /* INSCRIBABLE_BOOL */, False);
 

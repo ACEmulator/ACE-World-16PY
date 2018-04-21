@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 5411;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5411, 'scorebooksword', /* ScoreBook_WeenieType */ 48);
+VALUES (5411, 'scorebooksword', 48 /* ScoreBook_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5411, 32, 'no man or woman on Dereth has attained a level of swordsmanship worthy of this honor.') /* SCORE_NO_ENTRY_STRING */
-     , (5411, 1, 'The Blademasters') /* NAME_STRING */
-     , (5411, 28, '\n   %n, with a skill of %s,') /* SCORE_DEFAULT_ENTRY_FORMAT_STRING */
-     , (5411, 29, 'let it be known that:\n\n   %n, with a skill of %s,') /* SCORE_FIRST_ENTRY_FORMAT_STRING */
-     , (5411, 30, '\n   and %n, with a skill of %s,\n\nshall all live on as the eternal inspiration of aspiring blademasters.\n') /* SCORE_LAST_ENTRY_FORMAT_STRING */
-     , (5411, 31, 'the only swordsman to receive this honor is %n, with a Sword skill of %s.\n') /* SCORE_ONLY_ENTRY_FORMAT_STRING */;
+VALUES (5411, 001 /* NAME_STRING */, 'The Blademasters')
+     , (5411, 028 /* SCORE_DEFAULT_ENTRY_FORMAT_STRING */, '\n   %n, with a skill of %s,')
+     , (5411, 029 /* SCORE_FIRST_ENTRY_FORMAT_STRING */, 'let it be known that:\n\n   %n, with a skill of %s,')
+     , (5411, 030 /* SCORE_LAST_ENTRY_FORMAT_STRING */, '\n   and %n, with a skill of %s,\n\nshall all live on as the eternal inspiration of aspiring blademasters.\n')
+     , (5411, 031 /* SCORE_ONLY_ENTRY_FORMAT_STRING */, 'the only swordsman to receive this honor is %n, with a Sword skill of %s.\n')
+     , (5411, 032 /* SCORE_NO_ENTRY_STRING */, 'no man or woman on Dereth has attained a level of swordsmanship worthy of this honor.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5411, 1, 33554771) /* SETUP_DID */
-     , (5411, 8, 100668117) /* ICON_DID */;
+VALUES (5411, 001 /* SETUP_DID */, 33554771)
+     , (5411, 008 /* ICON_DID */, 100668117);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5411, 137, 3) /* SCORE_CONFIG_NUM_INT */
-     , (5411, 1, 8192) /* ITEM_TYPE_INT */
-     , (5411, 93, 1048) /* PHYSICS_STATE_INT */
-     , (5411, 5, 10) /* ENCUMB_VAL_INT */
-     , (5411, 16, 8) /* ITEM_USEABLE_INT */
-     , (5411, 136, 2) /* SCORE_PAGE_NUM_INT */
-     , (5411, 8, 5) /* MASS_INT */
-     , (5411, 138, 10) /* SCORE_NUM_SCORES_INT */
-     , (5411, 19, 25) /* VALUE_INT */;
+VALUES (5411, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (5411, 005 /* ENCUMB_VAL_INT */, 10)
+     , (5411, 008 /* MASS_INT */, 5)
+     , (5411, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5411, 019 /* VALUE_INT */, 25)
+     , (5411, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5411, 136 /* SCORE_PAGE_NUM_INT */, 2)
+     , (5411, 137 /* SCORE_CONFIG_NUM_INT */, 3)
+     , (5411, 138 /* SCORE_NUM_SCORES_INT */, 10);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5411, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (5411, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5411, 1, False) /* STUCK_BOOL */
-     , (5411, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (5411, 13, False) /* ETHEREAL_BOOL */
-     , (5411, 62, False) /* OPENS_ANY_LOCK_BOOL */
-     , (5411, 22, False) /* INSCRIBABLE_BOOL */
-     , (5411, 14, True) /* GRAVITY_STATUS_BOOL */;
+VALUES (5411, 001 /* STUCK_BOOL */, False)
+     , (5411, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (5411, 013 /* ETHEREAL_BOOL */, False)
+     , (5411, 014 /* GRAVITY_STATUS_BOOL */, True)
+     , (5411, 022 /* INSCRIBABLE_BOOL */, False)
+     , (5411, 062 /* OPENS_ANY_LOCK_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5411, 2, 2000) /* Book Data */;

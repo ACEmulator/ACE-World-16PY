@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 24339;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24339, 'chestolthoiinfected', /* Generic_WeenieType */ 1);
+VALUES (24339, 'chestolthoiinfected', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24339, 16, 'The olthoi''s shell looks unusually thin and pliant. You think you see things moving under the surface.') /* LONG_DESC_STRING */
-     , (24339, 1, 'Dead Olthoi') /* NAME_STRING */;
+VALUES (24339, 001 /* NAME_STRING */, 'Dead Olthoi')
+     , (24339, 016 /* LONG_DESC_STRING */, 'The olthoi''s shell looks unusually thin and pliant. You think you see things moving under the surface.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24339, 1, 33558341) /* SETUP_DID */
-     , (24339, 3, 536870932) /* SOUND_TABLE_DID */
-     , (24339, 6, 67113236) /* PALETTE_BASE_DID */
-     , (24339, 7, 268436599) /* CLOTHINGBASE_DID */
-     , (24339, 8, 100667623) /* ICON_DID */;
+VALUES (24339, 001 /* SETUP_DID */, 33558341)
+     , (24339, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (24339, 006 /* PALETTE_BASE_DID */, 67113236)
+     , (24339, 007 /* CLOTHINGBASE_DID */, 268436599)
+     , (24339, 008 /* ICON_DID */, 100667623);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24339, 1, 128) /* ITEM_TYPE_INT */
-     , (24339, 19, 3000) /* VALUE_INT */
-     , (24339, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (24339, 93, 1040) /* PHYSICS_STATE_INT */
-     , (24339, 5, 9000) /* ENCUMB_VAL_INT */
-     , (24339, 16, 1) /* ITEM_USEABLE_INT */
-     , (24339, 8, 3000) /* MASS_INT */;
+VALUES (24339, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (24339, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (24339, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (24339, 008 /* MASS_INT */, 3000)
+     , (24339, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (24339, 019 /* VALUE_INT */, 3000)
+     , (24339, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24339, 12, 0.5) /* SHADE_FLOAT */;
+VALUES (24339, 012 /* SHADE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24339, 1, True) /* STUCK_BOOL */
-     , (24339, 13, False) /* ETHEREAL_BOOL */;
+VALUES (24339, 001 /* STUCK_BOOL */, True)
+     , (24339, 013 /* ETHEREAL_BOOL */, False);
 

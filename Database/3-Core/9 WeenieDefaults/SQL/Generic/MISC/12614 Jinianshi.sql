@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 12614;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12614, 'jinianshisign', /* Generic_WeenieType */ 1);
+VALUES (12614, 'jinianshisign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12614, 16, 'Welcome to Jinianshi') /* LONG_DESC_STRING */
-     , (12614, 1, 'Jinianshi') /* NAME_STRING */;
+VALUES (12614, 001 /* NAME_STRING */, 'Jinianshi')
+     , (12614, 016 /* LONG_DESC_STRING */, 'Welcome to Jinianshi');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12614, 1, 33557463) /* SETUP_DID */
-     , (12614, 8, 100668115) /* ICON_DID */;
+VALUES (12614, 001 /* SETUP_DID */, 33557463)
+     , (12614, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12614, 1, 128) /* ITEM_TYPE_INT */
-     , (12614, 93, 1048) /* PHYSICS_STATE_INT */
-     , (12614, 5, 9000) /* ENCUMB_VAL_INT */
-     , (12614, 16, 1) /* ITEM_USEABLE_INT */
-     , (12614, 8, 1800) /* MASS_INT */
-     , (12614, 19, 125) /* VALUE_INT */;
+VALUES (12614, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (12614, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (12614, 008 /* MASS_INT */, 1800)
+     , (12614, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (12614, 019 /* VALUE_INT */, 125)
+     , (12614, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12614, 1, True) /* STUCK_BOOL */
-     , (12614, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (12614, 13, False) /* ETHEREAL_BOOL */
-     , (12614, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (12614, 001 /* STUCK_BOOL */, True)
+     , (12614, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (12614, 013 /* ETHEREAL_BOOL */, False)
+     , (12614, 022 /* INSCRIBABLE_BOOL */, False);
 

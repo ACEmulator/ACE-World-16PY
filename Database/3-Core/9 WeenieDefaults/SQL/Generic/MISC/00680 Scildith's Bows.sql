@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 680;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (680, 'cragstonebowyersign', /* Generic_WeenieType */ 1);
+VALUES (680, 'cragstonebowyersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (680, 16, 'Scildith''s Bows') /* LONG_DESC_STRING */
-     , (680, 1, 'Scildith''s Bows') /* NAME_STRING */;
+VALUES (680, 001 /* NAME_STRING */, 'Scildith''s Bows')
+     , (680, 016 /* LONG_DESC_STRING */, 'Scildith''s Bows');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (680, 1, 33555088) /* SETUP_DID */
-     , (680, 6, 67111092) /* PALETTE_BASE_DID */
-     , (680, 7, 268435654) /* CLOTHINGBASE_DID */
-     , (680, 8, 100668115) /* ICON_DID */;
+VALUES (680, 001 /* SETUP_DID */, 33555088)
+     , (680, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (680, 007 /* CLOTHINGBASE_DID */, 268435654)
+     , (680, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (680, 1, 128) /* ITEM_TYPE_INT */
-     , (680, 93, 1048) /* PHYSICS_STATE_INT */
-     , (680, 5, 9000) /* ENCUMB_VAL_INT */
-     , (680, 16, 1) /* ITEM_USEABLE_INT */
-     , (680, 8, 1800) /* MASS_INT */
-     , (680, 19, 125) /* VALUE_INT */;
+VALUES (680, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (680, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (680, 008 /* MASS_INT */, 1800)
+     , (680, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (680, 019 /* VALUE_INT */, 125)
+     , (680, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (680, 1, True) /* STUCK_BOOL */
-     , (680, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (680, 13, False) /* ETHEREAL_BOOL */
-     , (680, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (680, 001 /* STUCK_BOOL */, True)
+     , (680, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (680, 013 /* ETHEREAL_BOOL */, False)
+     , (680, 022 /* INSCRIBABLE_BOOL */, False);
 

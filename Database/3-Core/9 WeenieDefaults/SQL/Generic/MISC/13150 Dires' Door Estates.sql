@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 13150;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13150, 'diresdoorestatessign', /* Generic_WeenieType */ 1);
+VALUES (13150, 'diresdoorestatessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13150, 16, 'Welcome to Dires'' Door Estates') /* LONG_DESC_STRING */
-     , (13150, 1, 'Dires'' Door Estates') /* NAME_STRING */;
+VALUES (13150, 001 /* NAME_STRING */, 'Dires'' Door Estates')
+     , (13150, 016 /* LONG_DESC_STRING */, 'Welcome to Dires'' Door Estates');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13150, 1, 33557463) /* SETUP_DID */
-     , (13150, 8, 100668115) /* ICON_DID */;
+VALUES (13150, 001 /* SETUP_DID */, 33557463)
+     , (13150, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13150, 1, 128) /* ITEM_TYPE_INT */
-     , (13150, 93, 1048) /* PHYSICS_STATE_INT */
-     , (13150, 5, 9000) /* ENCUMB_VAL_INT */
-     , (13150, 16, 1) /* ITEM_USEABLE_INT */
-     , (13150, 8, 1800) /* MASS_INT */
-     , (13150, 19, 125) /* VALUE_INT */;
+VALUES (13150, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (13150, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (13150, 008 /* MASS_INT */, 1800)
+     , (13150, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (13150, 019 /* VALUE_INT */, 125)
+     , (13150, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13150, 1, True) /* STUCK_BOOL */
-     , (13150, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (13150, 13, False) /* ETHEREAL_BOOL */
-     , (13150, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (13150, 001 /* STUCK_BOOL */, True)
+     , (13150, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (13150, 013 /* ETHEREAL_BOOL */, False)
+     , (13150, 022 /* INSCRIBABLE_BOOL */, False);
 

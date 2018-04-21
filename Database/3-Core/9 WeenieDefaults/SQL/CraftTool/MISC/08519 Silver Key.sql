@@ -2,43 +2,43 @@
 DELETE FROM weenie WHERE class_Id = 8519;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8519, 'catacombkey', /* CraftTool_WeenieType */ 44);
+VALUES (8519, 'catacombkey', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8519, 16, 'A repaired silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island. Now that the key is repaired, you can see that worked into the pattern is a manta-winged form with a radiant eye.') /* LONG_DESC_STRING */
-     , (8519, 1, 'Silver Key') /* NAME_STRING */
-     , (8519, 14, 'This key has been completely repaired. Now you must find the lock.') /* USE_STRING */
-     , (8519, 15, 'A repaired key.') /* SHORT_DESC_STRING */;
+VALUES (8519, 001 /* NAME_STRING */, 'Silver Key')
+     , (8519, 014 /* USE_STRING */, 'This key has been completely repaired. Now you must find the lock.')
+     , (8519, 015 /* SHORT_DESC_STRING */, 'A repaired key.')
+     , (8519, 016 /* LONG_DESC_STRING */, 'A repaired silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island. Now that the key is repaired, you can see that worked into the pattern is a manta-winged form with a radiant eye.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8519, 1, 33554784) /* SETUP_DID */
-     , (8519, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8519, 8, 100670622) /* ICON_DID */
-     , (8519, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (8519, 001 /* SETUP_DID */, 33554784)
+     , (8519, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8519, 008 /* ICON_DID */, 100670622)
+     , (8519, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8519, 9, 0) /* LOCATIONS_INT */
-     , (8519, 1, 128) /* ITEM_TYPE_INT */
-     , (8519, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (8519, 5, 50) /* ENCUMB_VAL_INT */
-     , (8519, 8, 20) /* MASS_INT */
-     , (8519, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (8519, 12, 1) /* STACK_SIZE_INT */
-     , (8519, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (8519, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (8519, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (8519, 19, 0) /* VALUE_INT */
-     , (8519, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8519, 151, 2) /* HOOK_TYPE_INT */
-     , (8519, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8519, 94, 128) /* TARGET_TYPE_INT */
-     , (8519, 33, 1) /* BONDED_INT */;
+VALUES (8519, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (8519, 005 /* ENCUMB_VAL_INT */, 50)
+     , (8519, 008 /* MASS_INT */, 20)
+     , (8519, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8519, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (8519, 012 /* STACK_SIZE_INT */, 1)
+     , (8519, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (8519, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (8519, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (8519, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (8519, 019 /* VALUE_INT */, 0)
+     , (8519, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8519, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8519, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (8519, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8519, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8519, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (8519, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8519, 69, False) /* IS_SELLABLE_BOOL */
-     , (8519, 22, True) /* INSCRIBABLE_BOOL */
-     , (8519, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8519, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8519, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (8519, 069 /* IS_SELLABLE_BOOL */, False);
 

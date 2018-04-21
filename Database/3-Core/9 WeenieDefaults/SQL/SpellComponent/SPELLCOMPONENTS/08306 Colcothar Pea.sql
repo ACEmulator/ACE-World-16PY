@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 8306;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8306, 'peaalchemcolcothar', /* SpellComponent_WeenieType */ 32);
+VALUES (8306, 'peaalchemcolcothar', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8306, 16, 'A concentrated colcothar pea.') /* LONG_DESC_STRING */
-     , (8306, 1, 'Colcothar Pea') /* NAME_STRING */
-     , (8306, 15, 'A concentrated colcothar pea.') /* SHORT_DESC_STRING */;
+VALUES (8306, 001 /* NAME_STRING */, 'Colcothar Pea')
+     , (8306, 015 /* SHORT_DESC_STRING */, 'A concentrated colcothar pea.')
+     , (8306, 016 /* LONG_DESC_STRING */, 'A concentrated colcothar pea.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8306, 1, 33555209) /* SETUP_DID */
-     , (8306, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8306, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8306, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8306, 7, 268435719) /* CLOTHINGBASE_DID */
-     , (8306, 8, 100671039) /* ICON_DID */
-     , (8306, 29, 153) /* SPELL_COMPONENT_DID */;
+VALUES (8306, 001 /* SETUP_DID */, 33555209)
+     , (8306, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8306, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8306, 007 /* CLOTHINGBASE_DID */, 268435719)
+     , (8306, 008 /* ICON_DID */, 100671039)
+     , (8306, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8306, 029 /* SPELL_COMPONENT_DID */, 153);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8306, 9, 0) /* LOCATIONS_INT */
-     , (8306, 1, 4096) /* ITEM_TYPE_INT */
-     , (8306, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8306, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (8306, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (8306, 5, 10) /* ENCUMB_VAL_INT */
-     , (8306, 8, 50) /* MASS_INT */
-     , (8306, 12, 1) /* STACK_SIZE_INT */
-     , (8306, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (8306, 15, 625) /* STACK_UNIT_VALUE_INT */
-     , (8306, 16, 1) /* ITEM_USEABLE_INT */
-     , (8306, 19, 625) /* VALUE_INT */
-     , (8306, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8306, 33, 1) /* BONDED_INT */;
+VALUES (8306, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (8306, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (8306, 005 /* ENCUMB_VAL_INT */, 10)
+     , (8306, 008 /* MASS_INT */, 50)
+     , (8306, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8306, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (8306, 012 /* STACK_SIZE_INT */, 1)
+     , (8306, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (8306, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (8306, 015 /* STACK_UNIT_VALUE_INT */, 625)
+     , (8306, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8306, 019 /* VALUE_INT */, 625)
+     , (8306, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8306, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8306, 39, 0.33) /* DEFAULT_SCALE_FLOAT */;
+VALUES (8306, 039 /* DEFAULT_SCALE_FLOAT */, 0.33);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8306, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8306, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

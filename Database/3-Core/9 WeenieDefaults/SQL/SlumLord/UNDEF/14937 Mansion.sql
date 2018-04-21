@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 14937;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14937, 'slumlordmansion2641-2650', /* SlumLord_WeenieType */ 55);
+VALUES (14937, 'slumlordmansion2641-2650', 55 /* SlumLord_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14937, 1, 'Mansion') /* NAME_STRING */;
+VALUES (14937, 001 /* NAME_STRING */, 'Mansion');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14937, 1, 33557167) /* SETUP_DID */
-     , (14937, 2, 150995128) /* MOTION_TABLE_DID */
-     , (14937, 8, 100671884) /* ICON_DID */;
+VALUES (14937, 001 /* SETUP_DID */, 33557167)
+     , (14937, 002 /* MOTION_TABLE_DID */, 150995128)
+     , (14937, 008 /* ICON_DID */, 100671884);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14937, 16, 32) /* ITEM_USEABLE_INT */
-     , (14937, 86, 50) /* MIN_LEVEL_INT */
-     , (14937, 93, 1044) /* PHYSICS_STATE_INT */
-     , (14937, 163, 6) /* ALLEGIANCE_MIN_LEVEL_INT */;
+VALUES (14937, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (14937, 086 /* MIN_LEVEL_INT */, 50)
+     , (14937, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (14937, 163 /* ALLEGIANCE_MIN_LEVEL_INT */, 6);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14937, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
-     , (14937, 54, 3) /* USE_RADIUS_FLOAT */;
+VALUES (14937, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
+     , (14937, 054 /* USE_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14937, 1, True) /* STUCK_BOOL */
-     , (14937, 76, True) /* HOUSE_REQUIRES_MONARCH_BOOL */;
+VALUES (14937, 001 /* STUCK_BOOL */, True)
+     , (14937, 076 /* HOUSE_REQUIRES_MONARCH_BOOL */, True);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14937, 16, 273, 10000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */

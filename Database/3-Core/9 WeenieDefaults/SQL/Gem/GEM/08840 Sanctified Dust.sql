@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 8840;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8840, 'dustsanctified', /* Gem_WeenieType */ 38);
+VALUES (8840, 'dustsanctified', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8840, 1, 'Sanctified Dust') /* NAME_STRING */;
+VALUES (8840, 001 /* NAME_STRING */, 'Sanctified Dust');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8840, 1, 33554809) /* SETUP_DID */
-     , (8840, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8840, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (8840, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8840, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8840, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (8840, 8, 100668366) /* ICON_DID */;
+VALUES (8840, 001 /* SETUP_DID */, 33554809)
+     , (8840, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8840, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8840, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (8840, 008 /* ICON_DID */, 100668366)
+     , (8840, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8840, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8840, 9, 0) /* LOCATIONS_INT */
-     , (8840, 1, 2048) /* ITEM_TYPE_INT */
-     , (8840, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (8840, 3, 83) /* PALETTE_TEMPLATE_INT */
-     , (8840, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (8840, 5, 50) /* ENCUMB_VAL_INT */
-     , (8840, 8, 10) /* MASS_INT */
-     , (8840, 12, 1) /* STACK_SIZE_INT */
-     , (8840, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (8840, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (8840, 16, 1) /* ITEM_USEABLE_INT */
-     , (8840, 19, 0) /* VALUE_INT */
-     , (8840, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (8840, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8840, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
+     , (8840, 005 /* ENCUMB_VAL_INT */, 50)
+     , (8840, 008 /* MASS_INT */, 10)
+     , (8840, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8840, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (8840, 012 /* STACK_SIZE_INT */, 1)
+     , (8840, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (8840, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (8840, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (8840, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8840, 019 /* VALUE_INT */, 0)
+     , (8840, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8840, 22, True) /* INSCRIBABLE_BOOL */
-     , (8840, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8840, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8840, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

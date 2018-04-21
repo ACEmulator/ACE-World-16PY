@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 4143;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4143, 'pressure-plateactive', /* PressurePlate_WeenieType */ 24);
+VALUES (4143, 'pressure-plateactive', 24 /* PressurePlate_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4143, 1, 'Pressure Plate') /* NAME_STRING */;
+VALUES (4143, 001 /* NAME_STRING */, 'Pressure Plate');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4143, 1, 33555034) /* SETUP_DID */
-     , (4143, 2, 150994977) /* MOTION_TABLE_DID */
-     , (4143, 8, 100668114) /* ICON_DID */
-     , (4143, 23, 149) /* USE_SOUND_DID */;
+VALUES (4143, 001 /* SETUP_DID */, 33555034)
+     , (4143, 002 /* MOTION_TABLE_DID */, 150994977)
+     , (4143, 008 /* ICON_DID */, 100668114)
+     , (4143, 023 /* USE_SOUND_DID */, 149 /* Sound_TriggerActivated */);
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4143, 16, 0) /* ACTIVATION_TARGET_IID */;
+VALUES (4143, 016 /* ACTIVATION_TARGET_IID */, 0);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4143, 9, 0) /* LOCATIONS_INT */
-     , (4143, 1, 128) /* ITEM_TYPE_INT */
-     , (4143, 93, 1036) /* PHYSICS_STATE_INT */
-     , (4143, 5, 500) /* ENCUMB_VAL_INT */
-     , (4143, 16, 1) /* ITEM_USEABLE_INT */
-     , (4143, 8, 250) /* MASS_INT */
-     , (4143, 19, 1000) /* VALUE_INT */
-     , (4143, 119, 65535) /* ACTIVE_INT */;
+VALUES (4143, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4143, 005 /* ENCUMB_VAL_INT */, 500)
+     , (4143, 008 /* MASS_INT */, 250)
+     , (4143, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4143, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4143, 019 /* VALUE_INT */, 1000)
+     , (4143, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
+     , (4143, 119 /* ACTIVE_INT */, 65535);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4143, 1, True) /* STUCK_BOOL */
-     , (4143, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (4143, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (4143, 13, True) /* ETHEREAL_BOOL */
-     , (4143, 18, True) /* VISIBILITY_BOOL */;
+VALUES (4143, 001 /* STUCK_BOOL */, True)
+     , (4143, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (4143, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (4143, 013 /* ETHEREAL_BOOL */, True)
+     , (4143, 018 /* VISIBILITY_BOOL */, True);
 

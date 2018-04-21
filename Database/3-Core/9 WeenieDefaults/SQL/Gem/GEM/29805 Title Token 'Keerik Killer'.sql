@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 29805;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29805, 'tokenkeerikkiller', /* Gem_WeenieType */ 38);
+VALUES (29805, 'tokenkeerikkiller', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29805, 1, 'Title Token ''Keerik Killer''') /* NAME_STRING */
-     , (29805, 15, 'You may turn this token in to Guard Sorchia in Cragstone to change your title to ''Keerik Killer''.') /* SHORT_DESC_STRING */;
+VALUES (29805, 001 /* NAME_STRING */, 'Title Token ''Keerik Killer''')
+     , (29805, 015 /* SHORT_DESC_STRING */, 'You may turn this token in to Guard Sorchia in Cragstone to change your title to ''Keerik Killer''.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29805, 1, 33557280) /* SETUP_DID */
-     , (29805, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29805, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (29805, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29805, 6, 67111092) /* PALETTE_BASE_DID */
-     , (29805, 7, 268436298) /* CLOTHINGBASE_DID */
-     , (29805, 8, 100677159) /* ICON_DID */;
+VALUES (29805, 001 /* SETUP_DID */, 33557280)
+     , (29805, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29805, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (29805, 007 /* CLOTHINGBASE_DID */, 268436298)
+     , (29805, 008 /* ICON_DID */, 100677159)
+     , (29805, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (29805, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29805, 9, 0) /* LOCATIONS_INT */
-     , (29805, 1, 2048) /* ITEM_TYPE_INT */
-     , (29805, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (29805, 5, 10) /* ENCUMB_VAL_INT */
-     , (29805, 8, 10) /* MASS_INT */
-     , (29805, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (29805, 12, 1) /* STACK_SIZE_INT */
-     , (29805, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (29805, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (29805, 16, 1) /* ITEM_USEABLE_INT */
-     , (29805, 19, 0) /* VALUE_INT */
-     , (29805, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29805, 33, 1) /* BONDED_INT */
-     , (29805, 114, 1) /* ATTUNED_INT */;
+VALUES (29805, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (29805, 005 /* ENCUMB_VAL_INT */, 10)
+     , (29805, 008 /* MASS_INT */, 10)
+     , (29805, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29805, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (29805, 012 /* STACK_SIZE_INT */, 1)
+     , (29805, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (29805, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (29805, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (29805, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29805, 019 /* VALUE_INT */, 0)
+     , (29805, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (29805, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29805, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29805, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (29805, 022 /* INSCRIBABLE_BOOL */, True);
 

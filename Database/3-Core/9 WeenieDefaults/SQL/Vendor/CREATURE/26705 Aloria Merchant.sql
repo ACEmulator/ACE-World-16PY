@@ -2,84 +2,84 @@
 DELETE FROM weenie WHERE class_Id = 26705;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26705, 'aloriavendor', /* Vendor_WeenieType */ 12);
+VALUES (26705, 'aloriavendor', 12 /* Vendor_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26705, 1, 'Aloria Merchant') /* NAME_STRING */
-     , (26705, 3, 'Male') /* SEX_STRING */
-     , (26705, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
-     , (26705, 5, 'Merchant') /* TEMPLATE_STRING */;
+VALUES (26705, 001 /* NAME_STRING */, 'Aloria Merchant')
+     , (26705, 003 /* SEX_STRING */, 'Male')
+     , (26705, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
+     , (26705, 005 /* TEMPLATE_STRING */, 'Merchant');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26705, 1, 33554433) /* SETUP_DID */
-     , (26705, 2, 150994945) /* MOTION_TABLE_DID */
-     , (26705, 3, 536870913) /* SOUND_TABLE_DID */
-     , (26705, 4, 805306368) /* COMBAT_TABLE_DID */
-     , (26705, 8, 100667446) /* ICON_DID */;
+VALUES (26705, 001 /* SETUP_DID */, 33554433)
+     , (26705, 002 /* MOTION_TABLE_DID */, 150994945)
+     , (26705, 003 /* SOUND_TABLE_DID */, 536870913)
+     , (26705, 004 /* COMBAT_TABLE_DID */, 805306368)
+     , (26705, 008 /* ICON_DID */, 100667446);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26705, 1, 16) /* ITEM_TYPE_INT */
-     , (26705, 74, 264192) /* MERCHANDISE_ITEM_TYPES_INT */
-     , (26705, 2, 31) /* CREATURE_TYPE_INT */
-     , (26705, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (26705, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (26705, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (26705, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (26705, 8, 120) /* MASS_INT */
-     , (26705, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
-     , (26705, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */
-     , (26705, 16, 32) /* ITEM_USEABLE_INT */
-     , (26705, 146, 277) /* XP_OVERRIDE_INT */
-     , (26705, 25, 10) /* LEVEL_INT */
-     , (26705, 27, 0) /* ARMOR_TYPE_INT */
-     , (26705, 93, 2098204) /* PHYSICS_STATE_INT */
-     , (26705, 126, 125) /* VENDOR_HAPPY_MEAN_INT */
-     , (26705, 127, 125) /* VENDOR_HAPPY_VARIANCE_INT */;
+VALUES (26705, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (26705, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
+     , (26705, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (26705, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (26705, 008 /* MASS_INT */, 120)
+     , (26705, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (26705, 025 /* LEVEL_INT */, 10)
+     , (26705, 027 /* ARMOR_TYPE_INT */, 0)
+     , (26705, 074 /* MERCHANDISE_ITEM_TYPES_INT */, 264192 /*  */)
+     , (26705, 075 /* MERCHANDISE_MIN_VALUE_INT */, 0)
+     , (26705, 076 /* MERCHANDISE_MAX_VALUE_INT */, 1000000)
+     , (26705, 093 /* PHYSICS_STATE_INT */, 2098204 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
+     , (26705, 126 /* VENDOR_HAPPY_MEAN_INT */, 125)
+     , (26705, 127 /* VENDOR_HAPPY_VARIANCE_INT */, 125)
+     , (26705, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
+     , (26705, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (26705, 146 /* XP_OVERRIDE_INT */, 277);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26705, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (26705, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (26705, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (26705, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (26705, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (26705, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (26705, 3, 0.16) /* HEALTH_RATE_FLOAT */
-     , (26705, 68, 1) /* RESIST_COLD_FLOAT */
-     , (26705, 4, 5) /* STAMINA_RATE_FLOAT */
-     , (26705, 5, 1) /* MANA_RATE_FLOAT */
-     , (26705, 69, 1) /* RESIST_ACID_FLOAT */
-     , (26705, 37, 0.5) /* BUY_PRICE_FLOAT */
-     , (26705, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (26705, 38, 1.5) /* SELL_PRICE_FLOAT */
-     , (26705, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (26705, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (26705, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (26705, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (26705, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (26705, 11, 300) /* RESET_INTERVAL_FLOAT */
-     , (26705, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (26705, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (26705, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (26705, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (26705, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (26705, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (26705, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (26705, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (26705, 54, 3) /* USE_RADIUS_FLOAT */
-     , (26705, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (26705, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (26705, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (26705, 003 /* HEALTH_RATE_FLOAT */, 0.16)
+     , (26705, 004 /* STAMINA_RATE_FLOAT */, 5)
+     , (26705, 005 /* MANA_RATE_FLOAT */, 1)
+     , (26705, 011 /* RESET_INTERVAL_FLOAT */, 300)
+     , (26705, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
+     , (26705, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (26705, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (26705, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (26705, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (26705, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (26705, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (26705, 037 /* BUY_PRICE_FLOAT */, 0.5)
+     , (26705, 038 /* SELL_PRICE_FLOAT */, 1.5)
+     , (26705, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (26705, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (26705, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (26705, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (26705, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (26705, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (26705, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (26705, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (26705, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (26705, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (26705, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (26705, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (26705, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (26705, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (26705, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26705, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (26705, 1, True) /* STUCK_BOOL */
-     , (26705, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */
-     , (26705, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (26705, 19, False) /* ATTACKABLE_BOOL */;
+VALUES (26705, 001 /* STUCK_BOOL */, True)
+     , (26705, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (26705, 019 /* ATTACKABLE_BOOL */, False)
+     , (26705, 039 /* DEAL_MAGICAL_ITEMS_BOOL */, True)
+     , (26705, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26705, 1, 90, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (26705, 2, 90, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (26705, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (26705, 3, 85, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (26705, 4, 80, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (26705, 5, 40, 0, 0) /* FOCUS_ATTRIBUTE */
      , (26705, 6, 45, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -92,13 +92,13 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (26705, 4, 26070, -1, 0, 0, False) /* Create Aloria Portal Gem for Shop_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (26705, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
-     , (26705, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+VALUES (26705, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
      , (26705, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
      , (26705, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
      , (26705, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
      , (26705, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
      , (26705, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
      , (26705, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (26705, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+     , (26705, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
+     , (26705, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
 

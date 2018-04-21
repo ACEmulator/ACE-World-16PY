@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 12675;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12675, 'yukikazesign', /* Generic_WeenieType */ 1);
+VALUES (12675, 'yukikazesign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12675, 16, 'Welcome to Yukikaze ') /* LONG_DESC_STRING */
-     , (12675, 1, 'Yukikaze ') /* NAME_STRING */;
+VALUES (12675, 001 /* NAME_STRING */, 'Yukikaze ')
+     , (12675, 016 /* LONG_DESC_STRING */, 'Welcome to Yukikaze ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12675, 1, 33557463) /* SETUP_DID */
-     , (12675, 8, 100668115) /* ICON_DID */;
+VALUES (12675, 001 /* SETUP_DID */, 33557463)
+     , (12675, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12675, 1, 128) /* ITEM_TYPE_INT */
-     , (12675, 93, 1048) /* PHYSICS_STATE_INT */
-     , (12675, 5, 9000) /* ENCUMB_VAL_INT */
-     , (12675, 16, 1) /* ITEM_USEABLE_INT */
-     , (12675, 8, 1800) /* MASS_INT */
-     , (12675, 19, 125) /* VALUE_INT */;
+VALUES (12675, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (12675, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (12675, 008 /* MASS_INT */, 1800)
+     , (12675, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (12675, 019 /* VALUE_INT */, 125)
+     , (12675, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12675, 1, True) /* STUCK_BOOL */
-     , (12675, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (12675, 13, False) /* ETHEREAL_BOOL */
-     , (12675, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (12675, 001 /* STUCK_BOOL */, True)
+     , (12675, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (12675, 013 /* ETHEREAL_BOOL */, False)
+     , (12675, 022 /* INSCRIBABLE_BOOL */, False);
 

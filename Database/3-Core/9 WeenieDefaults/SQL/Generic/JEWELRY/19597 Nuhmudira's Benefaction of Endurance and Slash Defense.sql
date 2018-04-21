@@ -2,53 +2,53 @@
 DELETE FROM weenie WHERE class_Id = 19597;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19597, 'gorgetnuhmudiraenduranceslashlow', /* Generic_WeenieType */ 1);
+VALUES (19597, 'gorgetnuhmudiraenduranceslashlow', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19597, 16, 'A green gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of crystal skin. As you hold the gorget in your hand you feel a soft vibration.') /* LONG_DESC_STRING */
-     , (19597, 1, 'Nuhmudira''s Benefaction of Endurance and Slash Defense') /* NAME_STRING */
-     , (19597, 15, 'A green gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of crystal skin.') /* SHORT_DESC_STRING */;
+VALUES (19597, 001 /* NAME_STRING */, 'Nuhmudira''s Benefaction of Endurance and Slash Defense')
+     , (19597, 015 /* SHORT_DESC_STRING */, 'A green gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of crystal skin.')
+     , (19597, 016 /* LONG_DESC_STRING */, 'A green gorget, crafted from a strong metal, imbued with an elixir of vigor and elixir of crystal skin. As you hold the gorget in your hand you feel a soft vibration.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19597, 1, 33554687) /* SETUP_DID */
-     , (19597, 3, 536870932) /* SOUND_TABLE_DID */
-     , (19597, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (19597, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (19597, 6, 67111919) /* PALETTE_BASE_DID */
-     , (19597, 7, 268436388) /* CLOTHINGBASE_DID */
-     , (19597, 8, 100668632) /* ICON_DID */;
+VALUES (19597, 001 /* SETUP_DID */, 33554687)
+     , (19597, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (19597, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (19597, 007 /* CLOTHINGBASE_DID */, 268436388)
+     , (19597, 008 /* ICON_DID */, 100668632)
+     , (19597, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (19597, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19597, 9, 32768) /* LOCATIONS_INT */
-     , (19597, 1, 8) /* ITEM_TYPE_INT */
-     , (19597, 19, 5000) /* VALUE_INT */
-     , (19597, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (19597, 5, 150) /* ENCUMB_VAL_INT */
-     , (19597, 16, 1) /* ITEM_USEABLE_INT */
-     , (19597, 8, 150) /* MASS_INT */
-     , (19597, 18, 1) /* UI_EFFECTS_INT */
-     , (19597, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (19597, 151, 2) /* HOOK_TYPE_INT */
-     , (19597, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19597, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (19597, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (19597, 160, 15) /* WIELD_DIFFICULTY_INT */
-     , (19597, 33, 1) /* BONDED_INT */
-     , (19597, 106, 225) /* ITEM_SPELLCRAFT_INT */
-     , (19597, 107, 500) /* ITEM_CUR_MANA_INT */
-     , (19597, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (19597, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (19597, 114, 1) /* ATTUNED_INT */;
+VALUES (19597, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (19597, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (19597, 005 /* ENCUMB_VAL_INT */, 150)
+     , (19597, 008 /* MASS_INT */, 150)
+     , (19597, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
+     , (19597, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19597, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (19597, 019 /* VALUE_INT */, 5000)
+     , (19597, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (19597, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (19597, 106 /* ITEM_SPELLCRAFT_INT */, 225)
+     , (19597, 107 /* ITEM_CUR_MANA_INT */, 500)
+     , (19597, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (19597, 109 /* ITEM_DIFFICULTY_INT */, 120)
+     , (19597, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (19597, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (19597, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (19597, 158 /* WIELD_REQUIREMENTS_INT */, 7)
+     , (19597, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (19597, 160 /* WIELD_DIFFICULTY_INT */, 15);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19597, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (19597, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
+VALUES (19597, 005 /* MANA_RATE_FLOAT */, -0.033)
+     , (19597, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19597, 99, True) /* IVORYABLE_BOOL */
-     , (19597, 69, False) /* IS_SELLABLE_BOOL */
-     , (19597, 22, True) /* INSCRIBABLE_BOOL */
-     , (19597, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (19597, 022 /* INSCRIBABLE_BOOL */, True)
+     , (19597, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (19597, 069 /* IS_SELLABLE_BOOL */, False)
+     , (19597, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19597, 1357, 2) /* EnduranceOther3_SpellID */

@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 7831;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7831, 'cocoamixturemilky', /* CraftTool_WeenieType */ 44);
+VALUES (7831, 'cocoamixturemilky', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7831, 1, 'Milky Cocoa Mixture') /* NAME_STRING */
-     , (7831, 20, 'Milky Cocoa Mixtures') /* PLURAL_NAME_STRING */
-     , (7831, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (7831, 15, 'A thick, light brown mass with a pleasing smell.') /* SHORT_DESC_STRING */;
+VALUES (7831, 001 /* NAME_STRING */, 'Milky Cocoa Mixture')
+     , (7831, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (7831, 015 /* SHORT_DESC_STRING */, 'A thick, light brown mass with a pleasing smell.')
+     , (7831, 020 /* PLURAL_NAME_STRING */, 'Milky Cocoa Mixtures');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7831, 1, 33555968) /* SETUP_DID */
-     , (7831, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7831, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7831, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7831, 7, 268436027) /* CLOTHINGBASE_DID */
-     , (7831, 8, 100670853) /* ICON_DID */;
+VALUES (7831, 001 /* SETUP_DID */, 33555968)
+     , (7831, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7831, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7831, 007 /* CLOTHINGBASE_DID */, 268436027)
+     , (7831, 008 /* ICON_DID */, 100670853)
+     , (7831, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7831, 9, 0) /* LOCATIONS_INT */
-     , (7831, 1, 4194304) /* ITEM_TYPE_INT */
-     , (7831, 13, 20) /* STACK_UNIT_ENCUMB_INT */
-     , (7831, 5, 20) /* ENCUMB_VAL_INT */
-     , (7831, 8, 10) /* MASS_INT */
-     , (7831, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (7831, 12, 1) /* STACK_SIZE_INT */
-     , (7831, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (7831, 15, 20) /* STACK_UNIT_VALUE_INT */
-     , (7831, 16, 524296) /* ITEM_USEABLE_INT */
-     , (7831, 19, 20) /* VALUE_INT */
-     , (7831, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7831, 94, 4194336) /* TARGET_TYPE_INT */;
+VALUES (7831, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (7831, 005 /* ENCUMB_VAL_INT */, 20)
+     , (7831, 008 /* MASS_INT */, 10)
+     , (7831, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7831, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (7831, 012 /* STACK_SIZE_INT */, 1)
+     , (7831, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
+     , (7831, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (7831, 015 /* STACK_UNIT_VALUE_INT */, 20)
+     , (7831, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (7831, 019 /* VALUE_INT */, 20)
+     , (7831, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7831, 094 /* TARGET_TYPE_INT */, 4194336 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7831, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (7831, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7831, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (7831, 069 /* IS_SELLABLE_BOOL */, False);
 

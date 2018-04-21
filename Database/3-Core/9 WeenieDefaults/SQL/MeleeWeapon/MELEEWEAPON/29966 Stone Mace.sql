@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 29966;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29966, 'maceknighthigh', /* MeleeWeapon_WeenieType */ 6);
+VALUES (29966, 'maceknighthigh', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29966, 1, 'Stone Mace') /* NAME_STRING */;
+VALUES (29966, 001 /* NAME_STRING */, 'Stone Mace');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29966, 1, 33558587) /* SETUP_DID */
-     , (29966, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29966, 8, 100675764) /* ICON_DID */
-     , (29966, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29966, 001 /* SETUP_DID */, 33558587)
+     , (29966, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29966, 008 /* ICON_DID */, 100675764)
+     , (29966, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29966, 9, 1048576) /* LOCATIONS_INT */
-     , (29966, 1, 1) /* ITEM_TYPE_INT */
-     , (29966, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29966, 5, 5200) /* ENCUMB_VAL_INT */
-     , (29966, 16, 1) /* ITEM_USEABLE_INT */
-     , (29966, 8, 2080) /* MASS_INT */
-     , (29966, 19, 500) /* VALUE_INT */
-     , (29966, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (29966, 151, 2) /* HOOK_TYPE_INT */
-     , (29966, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (29966, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (29966, 107, 500) /* ITEM_CUR_MANA_INT */
-     , (29966, 44, 38) /* DAMAGE_INT */
-     , (29966, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (29966, 45, 4) /* DAMAGE_TYPE_INT */
-     , (29966, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (29966, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (29966, 47, 4) /* ATTACK_TYPE_INT */
-     , (29966, 48, 5) /* WEAPON_SKILL_INT */
-     , (29966, 49, 40) /* WEAPON_TIME_INT */
-     , (29966, 51, 1) /* COMBAT_USE_INT */;
+VALUES (29966, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (29966, 005 /* ENCUMB_VAL_INT */, 5200)
+     , (29966, 008 /* MASS_INT */, 2080)
+     , (29966, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (29966, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29966, 019 /* VALUE_INT */, 500)
+     , (29966, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (29966, 044 /* DAMAGE_INT */, 38)
+     , (29966, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (29966, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (29966, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (29966, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
+     , (29966, 049 /* WEAPON_TIME_INT */, 40)
+     , (29966, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (29966, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29966, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (29966, 107 /* ITEM_CUR_MANA_INT */, 500)
+     , (29966, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (29966, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (29966, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (29966, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29966, 39, 2) /* DEFAULT_SCALE_FLOAT */
-     , (29966, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (29966, 21, 1.24) /* WEAPON_LENGTH_FLOAT */
-     , (29966, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (29966, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (29966, 021 /* WEAPON_LENGTH_FLOAT */, 1.24)
+     , (29966, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (29966, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (29966, 039 /* DEFAULT_SCALE_FLOAT */, 2)
+     , (29966, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29966, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (29966, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29966, 1615, 2) /* BloodDrinker5_SpellID */

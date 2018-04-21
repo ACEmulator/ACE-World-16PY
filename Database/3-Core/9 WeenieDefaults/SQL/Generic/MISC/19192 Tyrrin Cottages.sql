@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 19192;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19192, 'tyrrincottagessign', /* Generic_WeenieType */ 1);
+VALUES (19192, 'tyrrincottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19192, 16, 'Welcome to Tyrrin Cottages') /* LONG_DESC_STRING */
-     , (19192, 1, 'Tyrrin Cottages') /* NAME_STRING */;
+VALUES (19192, 001 /* NAME_STRING */, 'Tyrrin Cottages')
+     , (19192, 016 /* LONG_DESC_STRING */, 'Welcome to Tyrrin Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19192, 1, 33557463) /* SETUP_DID */
-     , (19192, 8, 100668115) /* ICON_DID */;
+VALUES (19192, 001 /* SETUP_DID */, 33557463)
+     , (19192, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19192, 1, 128) /* ITEM_TYPE_INT */
-     , (19192, 93, 1048) /* PHYSICS_STATE_INT */
-     , (19192, 5, 9000) /* ENCUMB_VAL_INT */
-     , (19192, 16, 1) /* ITEM_USEABLE_INT */
-     , (19192, 8, 1800) /* MASS_INT */
-     , (19192, 19, 125) /* VALUE_INT */;
+VALUES (19192, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19192, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (19192, 008 /* MASS_INT */, 1800)
+     , (19192, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19192, 019 /* VALUE_INT */, 125)
+     , (19192, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19192, 1, True) /* STUCK_BOOL */
-     , (19192, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (19192, 13, False) /* ETHEREAL_BOOL */
-     , (19192, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (19192, 001 /* STUCK_BOOL */, True)
+     , (19192, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (19192, 013 /* ETHEREAL_BOOL */, False)
+     , (19192, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 609;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (609, 'chestkey6', /* Key_WeenieType */ 22);
+VALUES (609, 'chestkey6', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (609, 1, 'Key') /* NAME_STRING */
-     , (609, 13, 'chestkey6') /* KEY_CODE_STRING */
-     , (609, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+VALUES (609, 001 /* NAME_STRING */, 'Key')
+     , (609, 013 /* KEY_CODE_STRING */, 'chestkey6')
+     , (609, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (609, 1, 33554784) /* SETUP_DID */
-     , (609, 3, 536870932) /* SOUND_TABLE_DID */
-     , (609, 8, 100667485) /* ICON_DID */
-     , (609, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (609, 001 /* SETUP_DID */, 33554784)
+     , (609, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (609, 008 /* ICON_DID */, 100667485)
+     , (609, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (609, 1, 16384) /* ITEM_TYPE_INT */
-     , (609, 93, 1044) /* PHYSICS_STATE_INT */
-     , (609, 5, 50) /* ENCUMB_VAL_INT */
-     , (609, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (609, 8, 20) /* MASS_INT */
-     , (609, 91, 3) /* MAX_STRUCTURE_INT */
-     , (609, 19, 100) /* VALUE_INT */
-     , (609, 92, 3) /* STRUCTURE_INT */
-     , (609, 94, 640) /* TARGET_TYPE_INT */;
+VALUES (609, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (609, 005 /* ENCUMB_VAL_INT */, 50)
+     , (609, 008 /* MASS_INT */, 20)
+     , (609, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (609, 019 /* VALUE_INT */, 100)
+     , (609, 091 /* MAX_STRUCTURE_INT */, 3)
+     , (609, 092 /* STRUCTURE_INT */, 3)
+     , (609, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (609, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (609, 22, True) /* INSCRIBABLE_BOOL */
-     , (609, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (609, 022 /* INSCRIBABLE_BOOL */, True)
+     , (609, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

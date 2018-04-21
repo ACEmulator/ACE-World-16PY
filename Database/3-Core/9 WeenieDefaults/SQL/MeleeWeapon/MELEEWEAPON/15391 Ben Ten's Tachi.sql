@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 15391;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15391, 'tachibentenstatue-monsteronly', /* MeleeWeapon_WeenieType */ 6);
+VALUES (15391, 'tachibentenstatue-monsteronly', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15391, 1, 'Ben Ten''s Tachi') /* NAME_STRING */;
+VALUES (15391, 001 /* NAME_STRING */, 'Ben Ten''s Tachi');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15391, 1, 33554742) /* SETUP_DID */
-     , (15391, 3, 536870932) /* SOUND_TABLE_DID */
-     , (15391, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (15391, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (15391, 6, 67111919) /* PALETTE_BASE_DID */
-     , (15391, 7, 268436346) /* CLOTHINGBASE_DID */
-     , (15391, 8, 100668915) /* ICON_DID */;
+VALUES (15391, 001 /* SETUP_DID */, 33554742)
+     , (15391, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (15391, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (15391, 007 /* CLOTHINGBASE_DID */, 268436346)
+     , (15391, 008 /* ICON_DID */, 100668915)
+     , (15391, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (15391, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15391, 33, -2) /* BONDED_INT */
-     , (15391, 9, 1048576) /* LOCATIONS_INT */
-     , (15391, 1, 1) /* ITEM_TYPE_INT */
-     , (15391, 19, 460) /* VALUE_INT */
-     , (15391, 3, 27) /* PALETTE_TEMPLATE_INT */
-     , (15391, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15391, 5, 450) /* ENCUMB_VAL_INT */
-     , (15391, 16, 1) /* ITEM_USEABLE_INT */
-     , (15391, 8, 180) /* MASS_INT */
-     , (15391, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (15391, 44, 45) /* DAMAGE_INT */
-     , (15391, 45, 3) /* DAMAGE_TYPE_INT */
-     , (15391, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (15391, 47, 6) /* ATTACK_TYPE_INT */
-     , (15391, 48, 11) /* WEAPON_SKILL_INT */
-     , (15391, 49, 5) /* WEAPON_TIME_INT */
-     , (15391, 114, 1) /* ATTUNED_INT */
-     , (15391, 51, 1) /* COMBAT_USE_INT */;
+VALUES (15391, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (15391, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
+     , (15391, 005 /* ENCUMB_VAL_INT */, 450)
+     , (15391, 008 /* MASS_INT */, 180)
+     , (15391, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (15391, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15391, 019 /* VALUE_INT */, 460)
+     , (15391, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (15391, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (15391, 044 /* DAMAGE_INT */, 45)
+     , (15391, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (15391, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (15391, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (15391, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (15391, 049 /* WEAPON_TIME_INT */, 5)
+     , (15391, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (15391, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (15391, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15391, 39, 2.5) /* DEFAULT_SCALE_FLOAT */
-     , (15391, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (15391, 21, 1.1) /* WEAPON_LENGTH_FLOAT */
-     , (15391, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (15391, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (15391, 021 /* WEAPON_LENGTH_FLOAT */, 1.1)
+     , (15391, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (15391, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (15391, 039 /* DEFAULT_SCALE_FLOAT */, 2.5)
+     , (15391, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15391, 22, True) /* INSCRIBABLE_BOOL */
-     , (15391, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (15391, 022 /* INSCRIBABLE_BOOL */, True)
+     , (15391, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

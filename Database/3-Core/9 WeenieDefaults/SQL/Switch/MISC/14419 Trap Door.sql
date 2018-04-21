@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 14419;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14419, 'doortrapregicideexit', /* Switch_WeenieType */ 26);
+VALUES (14419, 'doortrapregicideexit', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14419, 1, 'Trap Door') /* NAME_STRING */;
+VALUES (14419, 001 /* NAME_STRING */, 'Trap Door');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14419, 1, 33557479) /* SETUP_DID */
-     , (14419, 2, 150995152) /* MOTION_TABLE_DID */
-     , (14419, 3, 536870947) /* SOUND_TABLE_DID */
-     , (14419, 24, 268435537) /* USE_TARGET_ANIMATION_DID */
-     , (14419, 8, 100672468) /* ICON_DID */
-     , (14419, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (14419, 001 /* SETUP_DID */, 33557479)
+     , (14419, 002 /* MOTION_TABLE_DID */, 150995152)
+     , (14419, 003 /* SOUND_TABLE_DID */, 536870947)
+     , (14419, 008 /* ICON_DID */, 100672468)
+     , (14419, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (14419, 024 /* USE_TARGET_ANIMATION_DID */, 268435537 /* Motion_Twitch1 */);
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14419, 16, 0) /* ACTIVATION_TARGET_IID */;
+VALUES (14419, 016 /* ACTIVATION_TARGET_IID */, 0);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14419, 1, 128) /* ITEM_TYPE_INT */
-     , (14419, 16, 48) /* ITEM_USEABLE_INT */
-     , (14419, 93, 16) /* PHYSICS_STATE_INT */
-     , (14419, 119, 1) /* ACTIVE_INT */;
+VALUES (14419, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14419, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (14419, 093 /* PHYSICS_STATE_INT */, 16 /* IGNORE_COLLISIONS_PS */)
+     , (14419, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14419, 54, 2.5) /* USE_RADIUS_FLOAT */;
+VALUES (14419, 054 /* USE_RADIUS_FLOAT */, 2.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14419, 1, True) /* STUCK_BOOL */
-     , (14419, 13, False) /* ETHEREAL_BOOL */
-     , (14419, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (14419, 001 /* STUCK_BOOL */, True)
+     , (14419, 013 /* ETHEREAL_BOOL */, False)
+     , (14419, 014 /* GRAVITY_STATUS_BOOL */, False);
 

@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 4598;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4598, 'servicerejuvenationother2', /* Generic_WeenieType */ 1);
+VALUES (4598, 'servicerejuvenationother2', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4598, 1, 'Rejuvenation Other II') /* NAME_STRING */;
+VALUES (4598, 001 /* NAME_STRING */, 'Rejuvenation Other II');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4598, 1, 33554667) /* SETUP_DID */
-     , (4598, 8, 100668299) /* ICON_DID */
-     , (4598, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (4598, 28, 184) /* SPELL_DID */;
+VALUES (4598, 001 /* SETUP_DID */, 33554667)
+     , (4598, 008 /* ICON_DID */, 100668299)
+     , (4598, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (4598, 028 /* SPELL_DID */, 184 /* RejuvenationOther2_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4598, 9, 0) /* LOCATIONS_INT */
-     , (4598, 1, 1048576) /* ITEM_TYPE_INT */
-     , (4598, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4598, 5, 0) /* ENCUMB_VAL_INT */
-     , (4598, 16, 1) /* ITEM_USEABLE_INT */
-     , (4598, 8, 0) /* MASS_INT */
-     , (4598, 19, 133) /* VALUE_INT */;
+VALUES (4598, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (4598, 005 /* ENCUMB_VAL_INT */, 0)
+     , (4598, 008 /* MASS_INT */, 0)
+     , (4598, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4598, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4598, 019 /* VALUE_INT */, 133)
+     , (4598, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4598, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (4598, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (4598, 022 /* INSCRIBABLE_BOOL */, False)
+     , (4598, 051 /* VENDOR_SERVICE_BOOL */, True);
 

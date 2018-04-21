@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 27329;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27329, 'manastonemassive', /* ManaStone_WeenieType */ 37);
+VALUES (27329, 'manastonemassive', 37 /* ManaStone_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27329, 1, 'Massive Mana Charge') /* NAME_STRING */;
+VALUES (27329, 001 /* NAME_STRING */, 'Massive Mana Charge');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27329, 1, 33555641) /* SETUP_DID */
-     , (27329, 8, 100676403) /* ICON_DID */;
+VALUES (27329, 001 /* SETUP_DID */, 33555641)
+     , (27329, 008 /* ICON_DID */, 100676403);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27329, 9, 0) /* LOCATIONS_INT */
-     , (27329, 1, 524288) /* ITEM_TYPE_INT */
-     , (27329, 5, 50) /* ENCUMB_VAL_INT */
-     , (27329, 16, 655368) /* ITEM_USEABLE_INT */
-     , (27329, 8, 50) /* MASS_INT */
-     , (27329, 18, 1) /* UI_EFFECTS_INT */
-     , (27329, 19, 65000) /* VALUE_INT */
-     , (27329, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (27329, 151, 2) /* HOOK_TYPE_INT */
-     , (27329, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27329, 94, 35103) /* TARGET_TYPE_INT */
-     , (27329, 107, 10000) /* ITEM_CUR_MANA_INT */
-     , (27329, 108, 10000) /* ITEM_MAX_MANA_INT */;
+VALUES (27329, 001 /* ITEM_TYPE_INT */, 524288 /* TYPE_MANASTONE */)
+     , (27329, 005 /* ENCUMB_VAL_INT */, 50)
+     , (27329, 008 /* MASS_INT */, 50)
+     , (27329, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27329, 016 /* ITEM_USEABLE_INT */, 655368 /* USEABLE_SOURCE_CONTAINED_TARGET_SELF_OR_CONTAINED */)
+     , (27329, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (27329, 019 /* VALUE_INT */, 65000)
+     , (27329, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (27329, 094 /* TARGET_TYPE_INT */, 35103 /*  */)
+     , (27329, 107 /* ITEM_CUR_MANA_INT */, 10000)
+     , (27329, 108 /* ITEM_MAX_MANA_INT */, 10000)
+     , (27329, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (27329, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27329, 137, 1) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (27329, 87, 1) /* ITEM_EFFICIENCY_FLOAT */;
+VALUES (27329, 087 /* ITEM_EFFICIENCY_FLOAT */, 1)
+     , (27329, 137 /* MANA_STONE_DESTROY_CHANCE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27329, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (27329, 022 /* INSCRIBABLE_BOOL */, True);
 

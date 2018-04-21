@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 11452;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11452, 'totemdoubleva-xp', /* CraftTool_WeenieType */ 44);
+VALUES (11452, 'totemdoubleva-xp', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11452, 16, 'A double totem representing two of the animas found on Palenqual. ') /* LONG_DESC_STRING */
-     , (11452, 1, 'Double Totem of Volkama and Audetaunga') /* NAME_STRING */
-     , (11452, 14, 'Use a single totem of Tanae on this combination double totem to create Palenqual''s Triple Totem of the Chase.') /* USE_STRING */
-     , (11452, 15, 'An Aun double totem.') /* SHORT_DESC_STRING */;
+VALUES (11452, 001 /* NAME_STRING */, 'Double Totem of Volkama and Audetaunga')
+     , (11452, 014 /* USE_STRING */, 'Use a single totem of Tanae on this combination double totem to create Palenqual''s Triple Totem of the Chase.')
+     , (11452, 015 /* SHORT_DESC_STRING */, 'An Aun double totem.')
+     , (11452, 016 /* LONG_DESC_STRING */, 'A double totem representing two of the animas found on Palenqual. ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11452, 1, 33557268) /* SETUP_DID */
-     , (11452, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11452, 8, 100671993) /* ICON_DID */
-     , (11452, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (11452, 001 /* SETUP_DID */, 33557268)
+     , (11452, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11452, 008 /* ICON_DID */, 100671993)
+     , (11452, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11452, 9, 0) /* LOCATIONS_INT */
-     , (11452, 1, 128) /* ITEM_TYPE_INT */
-     , (11452, 13, 200) /* STACK_UNIT_ENCUMB_INT */
-     , (11452, 5, 200) /* ENCUMB_VAL_INT */
-     , (11452, 8, 10) /* MASS_INT */
-     , (11452, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (11452, 12, 1) /* STACK_SIZE_INT */
-     , (11452, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (11452, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (11452, 16, 524296) /* ITEM_USEABLE_INT */
-     , (11452, 19, 0) /* VALUE_INT */
-     , (11452, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (11452, 151, 11) /* HOOK_TYPE_INT */
-     , (11452, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11452, 94, 128) /* TARGET_TYPE_INT */
-     , (11452, 33, 0) /* BONDED_INT */
-     , (11452, 114, 0) /* ATTUNED_INT */;
+VALUES (11452, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11452, 005 /* ENCUMB_VAL_INT */, 200)
+     , (11452, 008 /* MASS_INT */, 10)
+     , (11452, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11452, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (11452, 012 /* STACK_SIZE_INT */, 1)
+     , (11452, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
+     , (11452, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (11452, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (11452, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (11452, 019 /* VALUE_INT */, 0)
+     , (11452, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (11452, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11452, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11452, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
+     , (11452, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (11452, 151 /* HOOK_TYPE_INT */, 11 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11452, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (11452, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11452, 69, False) /* IS_SELLABLE_BOOL */
-     , (11452, 22, True) /* INSCRIBABLE_BOOL */
-     , (11452, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11452, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11452, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (11452, 069 /* IS_SELLABLE_BOOL */, False);
 

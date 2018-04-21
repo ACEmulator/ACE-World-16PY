@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 28096;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28096, 'renegadehiddenentrance', /* Portal_WeenieType */ 7);
+VALUES (28096, 'renegadehiddenentrance', 7 /* Portal_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28096, 1, 'Hidden Entrance') /* NAME_STRING */;
+VALUES (28096, 001 /* NAME_STRING */, 'Hidden Entrance');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28096, 1, 33558629) /* SETUP_DID */
-     , (28096, 3, 536871008) /* SOUND_TABLE_DID */
-     , (28096, 8, 100667499) /* ICON_DID */;
+VALUES (28096, 001 /* SETUP_DID */, 33558629)
+     , (28096, 003 /* SOUND_TABLE_DID */, 536871008)
+     , (28096, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28096, 9, 0) /* LOCATIONS_INT */
-     , (28096, 1, 65536) /* ITEM_TYPE_INT */
-     , (28096, 93, 2060) /* PHYSICS_STATE_INT */
-     , (28096, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (28096, 16, 1) /* ITEM_USEABLE_INT */
-     , (28096, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (28096, 111, 49) /* PORTAL_BITMASK_INT */;
+VALUES (28096, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
+     , (28096, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28096, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28096, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (28096, 093 /* PHYSICS_STATE_INT */, 2060 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, LIGHTING_ON_PS */)
+     , (28096, 111 /* PORTAL_BITMASK_INT */, 49 /* Player_NotRecallable_NotLinkable_NotSummonable_PortalEnum */)
+     , (28096, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28096, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (28096, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28096, 89, True) /* PORTAL_IGNORES_PK_ATTACK_TIMER_BOOL */
-     , (28096, 1, True) /* STUCK_BOOL */
-     , (28096, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (28096, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (28096, 13, True) /* ETHEREAL_BOOL */
-     , (28096, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (28096, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (28096, 001 /* STUCK_BOOL */, True)
+     , (28096, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (28096, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (28096, 013 /* ETHEREAL_BOOL */, True)
+     , (28096, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (28096, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (28096, 089 /* PORTAL_IGNORES_PK_ATTACK_TIMER_BOOL */, True);
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28096, 2, 24969581, 50, -210, 0.005, 1, 0, 0, 0) /* DESTINATION_POSITION */;

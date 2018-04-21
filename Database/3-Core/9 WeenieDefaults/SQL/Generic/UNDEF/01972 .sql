@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 1972;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1972, 'highdirelandsmountainsshadowgen', /* Generic_WeenieType */ 1);
+VALUES (1972, 'highdirelandsmountainsshadowgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1972, 1, 'highdirelandsmountainsshadowgen') /* NAME_STRING */;
+VALUES (1972, 001 /* NAME_STRING */, 'highdirelandsmountainsshadowgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1972, 1, 33555051) /* SETUP_DID */
-     , (1972, 8, 100667494) /* ICON_DID */;
+VALUES (1972, 001 /* SETUP_DID */, 33555051)
+     , (1972, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1972, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (1972, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (1972, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (1972, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (1972, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (1972, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1972, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (1972, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (1972, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (1972, 043 /* GENERATOR_RADIUS_FLOAT */, 15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1972, 1, True) /* STUCK_BOOL */
-     , (1972, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (1972, 18, True) /* VISIBILITY_BOOL */;
+VALUES (1972, 001 /* STUCK_BOOL */, True)
+     , (1972, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (1972, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1972, 0.02, 7237, 1800, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate golemdiamondcampgen (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

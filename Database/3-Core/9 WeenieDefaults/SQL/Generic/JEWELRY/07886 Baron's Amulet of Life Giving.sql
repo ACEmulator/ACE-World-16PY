@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 7886;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7886, 'amuletcoliermine', /* Generic_WeenieType */ 1);
+VALUES (7886, 'amuletcoliermine', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7886, 1, 'Baron''s Amulet of Life Giving') /* NAME_STRING */
-     , (7886, 15, 'In life, this object was the Baron of Colier''s most coveted item.') /* SHORT_DESC_STRING */;
+VALUES (7886, 001 /* NAME_STRING */, 'Baron''s Amulet of Life Giving')
+     , (7886, 015 /* SHORT_DESC_STRING */, 'In life, this object was the Baron of Colier''s most coveted item.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7886, 1, 33554680) /* SETUP_DID */
-     , (7886, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7886, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (7886, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7886, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7886, 7, 268435735) /* CLOTHINGBASE_DID */
-     , (7886, 8, 100670880) /* ICON_DID */;
+VALUES (7886, 001 /* SETUP_DID */, 33554680)
+     , (7886, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7886, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7886, 007 /* CLOTHINGBASE_DID */, 268435735)
+     , (7886, 008 /* ICON_DID */, 100670880)
+     , (7886, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7886, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7886, 9, 32768) /* LOCATIONS_INT */
-     , (7886, 1, 8) /* ITEM_TYPE_INT */
-     , (7886, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7886, 5, 30) /* ENCUMB_VAL_INT */
-     , (7886, 16, 1) /* ITEM_USEABLE_INT */
-     , (7886, 8, 30) /* MASS_INT */
-     , (7886, 106, 45) /* ITEM_SPELLCRAFT_INT */
-     , (7886, 18, 1) /* UI_EFFECTS_INT */
-     , (7886, 19, 2300) /* VALUE_INT */
-     , (7886, 107, 190) /* ITEM_CUR_MANA_INT */
-     , (7886, 108, 230) /* ITEM_MAX_MANA_INT */
-     , (7886, 109, 45) /* ITEM_DIFFICULTY_INT */;
+VALUES (7886, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (7886, 005 /* ENCUMB_VAL_INT */, 30)
+     , (7886, 008 /* MASS_INT */, 30)
+     , (7886, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
+     , (7886, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7886, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (7886, 019 /* VALUE_INT */, 2300)
+     , (7886, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7886, 106 /* ITEM_SPELLCRAFT_INT */, 45)
+     , (7886, 107 /* ITEM_CUR_MANA_INT */, 190)
+     , (7886, 108 /* ITEM_MAX_MANA_INT */, 230)
+     , (7886, 109 /* ITEM_DIFFICULTY_INT */, 45);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7886, 5, -0.033333) /* MANA_RATE_FLOAT */
-     , (7886, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (7886, 005 /* MANA_RATE_FLOAT */, -0.033333)
+     , (7886, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7886, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (7886, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7886, 1997, 2) /* LifeGiver_SpellID */;

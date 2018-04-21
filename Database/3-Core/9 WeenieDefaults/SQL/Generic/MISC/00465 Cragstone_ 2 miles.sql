@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 465;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (465, 'sign-cragstone2miles', /* Generic_WeenieType */ 1);
+VALUES (465, 'sign-cragstone2miles', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (465, 16, 'Town of Cragstone: 2 miles.') /* LONG_DESC_STRING */
-     , (465, 1, 'Cragstone: 2 miles') /* NAME_STRING */;
+VALUES (465, 001 /* NAME_STRING */, 'Cragstone: 2 miles')
+     , (465, 016 /* LONG_DESC_STRING */, 'Town of Cragstone: 2 miles.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (465, 1, 33555984) /* SETUP_DID */
-     , (465, 8, 100668115) /* ICON_DID */;
+VALUES (465, 001 /* SETUP_DID */, 33555984)
+     , (465, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (465, 1, 128) /* ITEM_TYPE_INT */
-     , (465, 93, 1048) /* PHYSICS_STATE_INT */
-     , (465, 5, 9000) /* ENCUMB_VAL_INT */
-     , (465, 16, 1) /* ITEM_USEABLE_INT */
-     , (465, 8, 1800) /* MASS_INT */
-     , (465, 19, 125) /* VALUE_INT */;
+VALUES (465, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (465, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (465, 008 /* MASS_INT */, 1800)
+     , (465, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (465, 019 /* VALUE_INT */, 125)
+     , (465, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (465, 1, True) /* STUCK_BOOL */
-     , (465, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (465, 13, False) /* ETHEREAL_BOOL */
-     , (465, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (465, 001 /* STUCK_BOOL */, True)
+     , (465, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (465, 013 /* ETHEREAL_BOOL */, False)
+     , (465, 022 /* INSCRIBABLE_BOOL */, False);
 

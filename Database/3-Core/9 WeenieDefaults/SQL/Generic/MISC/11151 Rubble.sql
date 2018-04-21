@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 11151;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11151, 'menhirrubblea-xp', /* Generic_WeenieType */ 1);
+VALUES (11151, 'menhirrubblea-xp', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11151, 16, 'A large, heavy piece of rubble, broken off from the menhir in the northwest of Marae Lassel.') /* LONG_DESC_STRING */
-     , (11151, 1, 'Rubble') /* NAME_STRING */
-     , (11151, 33, 'MenhirRubbleAPickUp') /* QUEST_STRING */
-     , (11151, 15, 'A large, heavy piece of rubble.') /* SHORT_DESC_STRING */;
+VALUES (11151, 001 /* NAME_STRING */, 'Rubble')
+     , (11151, 015 /* SHORT_DESC_STRING */, 'A large, heavy piece of rubble.')
+     , (11151, 016 /* LONG_DESC_STRING */, 'A large, heavy piece of rubble, broken off from the menhir in the northwest of Marae Lassel.')
+     , (11151, 033 /* QUEST_STRING */, 'MenhirRubbleAPickUp');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11151, 1, 33556735) /* SETUP_DID */
-     , (11151, 8, 100670227) /* ICON_DID */;
+VALUES (11151, 001 /* SETUP_DID */, 33556735)
+     , (11151, 008 /* ICON_DID */, 100670227);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11151, 9, 0) /* LOCATIONS_INT */
-     , (11151, 1, 128) /* ITEM_TYPE_INT */
-     , (11151, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11151, 5, 7625) /* ENCUMB_VAL_INT */
-     , (11151, 16, 1) /* ITEM_USEABLE_INT */
-     , (11151, 8, 25) /* MASS_INT */
-     , (11151, 19, 50) /* VALUE_INT */
-     , (11151, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (11151, 151, 9) /* HOOK_TYPE_INT */
-     , (11151, 33, 1) /* BONDED_INT */;
+VALUES (11151, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11151, 005 /* ENCUMB_VAL_INT */, 7625)
+     , (11151, 008 /* MASS_INT */, 25)
+     , (11151, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11151, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11151, 019 /* VALUE_INT */, 50)
+     , (11151, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (11151, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11151, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (11151, 151 /* HOOK_TYPE_INT */, 9 /*  */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11151, 22, True) /* INSCRIBABLE_BOOL */
-     , (11151, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11151, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11151, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

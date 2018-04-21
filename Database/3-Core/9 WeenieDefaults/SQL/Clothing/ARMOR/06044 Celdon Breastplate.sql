@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 6044;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6044, 'breastplateceldon', /* Clothing_WeenieType */ 2);
+VALUES (6044, 'breastplateceldon', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6044, 1, 'Celdon Breastplate') /* NAME_STRING */;
+VALUES (6044, 001 /* NAME_STRING */, 'Celdon Breastplate');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6044, 1, 33554642) /* SETUP_DID */
-     , (6044, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6044, 36, 234881042) /* MUTATE_FILTER_DID */
-     , (6044, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6044, 46, 939524146) /* TSYS_MUTATION_FILTER_DID */
-     , (6044, 6, 67108990) /* PALETTE_BASE_DID */
-     , (6044, 7, 268435848) /* CLOTHINGBASE_DID */
-     , (6044, 8, 100670403) /* ICON_DID */;
+VALUES (6044, 001 /* SETUP_DID */, 33554642)
+     , (6044, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6044, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (6044, 007 /* CLOTHINGBASE_DID */, 268435848)
+     , (6044, 008 /* ICON_DID */, 100670403)
+     , (6044, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6044, 036 /* MUTATE_FILTER_DID */, 234881042)
+     , (6044, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6044, 9, 512) /* LOCATIONS_INT */
-     , (6044, 1, 2) /* ITEM_TYPE_INT */
-     , (6044, 27, 32) /* ARMOR_TYPE_INT */
-     , (6044, 19, 1785) /* VALUE_INT */
-     , (6044, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (6044, 4, 1024) /* CLOTHING_PRIORITY_INT */
-     , (6044, 5, 2400) /* ENCUMB_VAL_INT */
-     , (6044, 16, 1) /* ITEM_USEABLE_INT */
-     , (6044, 8, 1200) /* MASS_INT */
-     , (6044, 28, 110) /* ARMOR_LEVEL_INT */
-     , (6044, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6044, 169, 118097668) /* TSYS_MUTATION_DATA_INT */;
+VALUES (6044, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (6044, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (6044, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
+     , (6044, 005 /* ENCUMB_VAL_INT */, 2400)
+     , (6044, 008 /* MASS_INT */, 1200)
+     , (6044, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
+     , (6044, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6044, 019 /* VALUE_INT */, 1785)
+     , (6044, 027 /* ARMOR_TYPE_INT */, 32)
+     , (6044, 028 /* ARMOR_LEVEL_INT */, 110)
+     , (6044, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6044, 169 /* TSYS_MUTATION_DATA_INT */, 118097668);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6044, 12, 0.33) /* SHADE_FLOAT */
-     , (6044, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (6044, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (6044, 110, 0.9) /* BULK_MOD_FLOAT */
-     , (6044, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (6044, 111, 1.3) /* SIZE_MOD_FLOAT */
-     , (6044, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (6044, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (6044, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (6044, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (6044, 012 /* SHADE_FLOAT */, 0.33)
+     , (6044, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (6044, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (6044, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (6044, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
+     , (6044, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
+     , (6044, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
+     , (6044, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
+     , (6044, 110 /* BULK_MOD_FLOAT */, 0.9)
+     , (6044, 111 /* SIZE_MOD_FLOAT */, 1.3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6044, 100, True) /* DYABLE_BOOL */
-     , (6044, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (6044, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6044, 100 /* DYABLE_BOOL */, True);
 

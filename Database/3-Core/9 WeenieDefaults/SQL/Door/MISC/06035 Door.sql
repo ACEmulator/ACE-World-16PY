@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 6035;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6035, 'doorempyreanfoundry', /* Door_WeenieType */ 19);
+VALUES (6035, 'doorempyreanfoundry', 19 /* Door_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6035, 1, 'Door') /* NAME_STRING */
-     , (6035, 12, 'keyempyreanfoundry') /* LOCK_CODE_STRING */
-     , (6035, 14, 'Use this item to open it.') /* USE_STRING */;
+VALUES (6035, 001 /* NAME_STRING */, 'Door')
+     , (6035, 012 /* LOCK_CODE_STRING */, 'keyempyreanfoundry')
+     , (6035, 014 /* USE_STRING */, 'Use this item to open it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6035, 1, 33555023) /* SETUP_DID */
-     , (6035, 2, 150994966) /* MOTION_TABLE_DID */
-     , (6035, 3, 536870946) /* SOUND_TABLE_DID */
-     , (6035, 8, 100668183) /* ICON_DID */
-     , (6035, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (6035, 001 /* SETUP_DID */, 33555023)
+     , (6035, 002 /* MOTION_TABLE_DID */, 150994966)
+     , (6035, 003 /* SOUND_TABLE_DID */, 536870946)
+     , (6035, 008 /* ICON_DID */, 100668183)
+     , (6035, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6035, 1, 128) /* ITEM_TYPE_INT */
-     , (6035, 16, 32) /* ITEM_USEABLE_INT */
-     , (6035, 8, 500) /* MASS_INT */
-     , (6035, 19, 0) /* VALUE_INT */
-     , (6035, 93, 24) /* PHYSICS_STATE_INT */
-     , (6035, 38, 999) /* RESIST_LOCKPICK_INT */;
+VALUES (6035, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (6035, 008 /* MASS_INT */, 500)
+     , (6035, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (6035, 019 /* VALUE_INT */, 0)
+     , (6035, 038 /* RESIST_LOCKPICK_INT */, 999)
+     , (6035, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6035, 11, 30) /* RESET_INTERVAL_FLOAT */
-     , (6035, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (6035, 011 /* RESET_INTERVAL_FLOAT */, 30)
+     , (6035, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6035, 1, True) /* STUCK_BOOL */
-     , (6035, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (6035, 2, False) /* OPEN_BOOL */
-     , (6035, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (6035, 3, True) /* LOCKED_BOOL */
-     , (6035, 35, True) /* DEFAULT_LOCKED_BOOL */
-     , (6035, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (6035, 13, False) /* ETHEREAL_BOOL */
-     , (6035, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (6035, 001 /* STUCK_BOOL */, True)
+     , (6035, 002 /* OPEN_BOOL */, False)
+     , (6035, 003 /* LOCKED_BOOL */, True)
+     , (6035, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (6035, 013 /* ETHEREAL_BOOL */, False)
+     , (6035, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (6035, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (6035, 034 /* DEFAULT_OPEN_BOOL */, False)
+     , (6035, 035 /* DEFAULT_LOCKED_BOOL */, True);
 

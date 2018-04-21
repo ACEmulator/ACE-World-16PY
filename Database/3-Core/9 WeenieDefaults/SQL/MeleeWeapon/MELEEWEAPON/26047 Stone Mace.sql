@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 26047;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26047, 'maceburunstoneuber', /* MeleeWeapon_WeenieType */ 6);
+VALUES (26047, 'maceburunstoneuber', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26047, 1, 'Stone Mace') /* NAME_STRING */;
+VALUES (26047, 001 /* NAME_STRING */, 'Stone Mace');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26047, 1, 33558587) /* SETUP_DID */
-     , (26047, 3, 536870932) /* SOUND_TABLE_DID */
-     , (26047, 8, 100675764) /* ICON_DID */
-     , (26047, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (26047, 001 /* SETUP_DID */, 33558587)
+     , (26047, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (26047, 008 /* ICON_DID */, 100675764)
+     , (26047, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26047, 9, 1048576) /* LOCATIONS_INT */
-     , (26047, 1, 1) /* ITEM_TYPE_INT */
-     , (26047, 93, 1044) /* PHYSICS_STATE_INT */
-     , (26047, 5, 5200) /* ENCUMB_VAL_INT */
-     , (26047, 16, 1) /* ITEM_USEABLE_INT */
-     , (26047, 8, 2080) /* MASS_INT */
-     , (26047, 19, 500) /* VALUE_INT */
-     , (26047, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (26047, 151, 2) /* HOOK_TYPE_INT */
-     , (26047, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (26047, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (26047, 107, 500) /* ITEM_CUR_MANA_INT */
-     , (26047, 44, 78) /* DAMAGE_INT */
-     , (26047, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (26047, 45, 4) /* DAMAGE_TYPE_INT */
-     , (26047, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (26047, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (26047, 47, 4) /* ATTACK_TYPE_INT */
-     , (26047, 48, 5) /* WEAPON_SKILL_INT */
-     , (26047, 49, 40) /* WEAPON_TIME_INT */
-     , (26047, 51, 1) /* COMBAT_USE_INT */;
+VALUES (26047, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (26047, 005 /* ENCUMB_VAL_INT */, 5200)
+     , (26047, 008 /* MASS_INT */, 2080)
+     , (26047, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (26047, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (26047, 019 /* VALUE_INT */, 500)
+     , (26047, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (26047, 044 /* DAMAGE_INT */, 78)
+     , (26047, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (26047, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (26047, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (26047, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
+     , (26047, 049 /* WEAPON_TIME_INT */, 40)
+     , (26047, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (26047, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (26047, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (26047, 107 /* ITEM_CUR_MANA_INT */, 500)
+     , (26047, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (26047, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (26047, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (26047, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26047, 39, 2) /* DEFAULT_SCALE_FLOAT */
-     , (26047, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (26047, 21, 1.24) /* WEAPON_LENGTH_FLOAT */
-     , (26047, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (26047, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (26047, 021 /* WEAPON_LENGTH_FLOAT */, 1.24)
+     , (26047, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (26047, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (26047, 039 /* DEFAULT_SCALE_FLOAT */, 2)
+     , (26047, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26047, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (26047, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26047, 2116, 2) /* Swiftkiller7_SpellID */

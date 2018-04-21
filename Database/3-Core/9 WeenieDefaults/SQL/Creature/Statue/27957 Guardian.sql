@@ -2,81 +2,81 @@
 DELETE FROM weenie WHERE class_Id = 27957;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27957, 'guardianhizkriwell80', /* Creature_WeenieType */ 10);
+VALUES (27957, 'guardianhizkriwell80', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27957, 1, 'Guardian') /* NAME_STRING */;
+VALUES (27957, 001 /* NAME_STRING */, 'Guardian');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27957, 1, 33558613) /* SETUP_DID */
-     , (27957, 2, 150995147) /* MOTION_TABLE_DID */
-     , (27957, 3, 536871052) /* SOUND_TABLE_DID */
-     , (27957, 4, 805306398) /* COMBAT_TABLE_DID */
-     , (27957, 8, 100675780) /* ICON_DID */
-     , (27957, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (27957, 001 /* SETUP_DID */, 33558613)
+     , (27957, 002 /* MOTION_TABLE_DID */, 150995147)
+     , (27957, 003 /* SOUND_TABLE_DID */, 536871052)
+     , (27957, 004 /* COMBAT_TABLE_DID */, 805306398)
+     , (27957, 008 /* ICON_DID */, 100675780)
+     , (27957, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415274);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27957, 1, 16) /* ITEM_TYPE_INT */
-     , (27957, 146, 39036) /* XP_OVERRIDE_INT */
-     , (27957, 2, 63) /* CREATURE_TYPE_INT */
-     , (27957, 133, 0) /* SHOWABLE_ON_RADAR_INT */
-     , (27957, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (27957, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27957, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (27957, 16, 32) /* ITEM_USEABLE_INT */
-     , (27957, 8, 120) /* MASS_INT */
-     , (27957, 25, 427) /* LEVEL_INT */
-     , (27957, 27, 0) /* ARMOR_TYPE_INT */
-     , (27957, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (27957, 95, 3) /* RADARBLIP_COLOR_INT */;
+VALUES (27957, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (27957, 002 /* CREATURE_TYPE_INT */, 63 /* Statue_CreatureType */)
+     , (27957, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (27957, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (27957, 008 /* MASS_INT */, 120)
+     , (27957, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (27957, 025 /* LEVEL_INT */, 427)
+     , (27957, 027 /* ARMOR_TYPE_INT */, 0)
+     , (27957, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
+     , (27957, 095 /* RADARBLIP_COLOR_INT */, 3 /* White */)
+     , (27957, 133 /* SHOWABLE_ON_RADAR_INT */, 0 /* Undef_RadarEnum */)
+     , (27957, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (27957, 146 /* XP_OVERRIDE_INT */, 39036);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27957, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (27957, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (27957, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (27957, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (27957, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (27957, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (27957, 3, 1.1) /* HEALTH_RATE_FLOAT */
-     , (27957, 68, 1) /* RESIST_COLD_FLOAT */
-     , (27957, 4, 0.5) /* STAMINA_RATE_FLOAT */
-     , (27957, 5, 2) /* MANA_RATE_FLOAT */
-     , (27957, 69, 1) /* RESIST_ACID_FLOAT */
-     , (27957, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (27957, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (27957, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
-     , (27957, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (27957, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (27957, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (27957, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (27957, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (27957, 13, 0.79) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27957, 14, 0.79) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27957, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27957, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27957, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27957, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27957, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27957, 54, 3) /* USE_RADIUS_FLOAT */
-     , (27957, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (27957, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (27957, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (27957, 003 /* HEALTH_RATE_FLOAT */, 1.1)
+     , (27957, 004 /* STAMINA_RATE_FLOAT */, 0.5)
+     , (27957, 005 /* MANA_RATE_FLOAT */, 2)
+     , (27957, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.79)
+     , (27957, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.79)
+     , (27957, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
+     , (27957, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (27957, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (27957, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (27957, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (27957, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
+     , (27957, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (27957, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (27957, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (27957, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (27957, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (27957, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (27957, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (27957, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (27957, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (27957, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (27957, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (27957, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (27957, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (27957, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (27957, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27957, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (27957, 1, True) /* STUCK_BOOL */
-     , (27957, 8, True) /* ALLOW_GIVE_BOOL */
-     , (27957, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
-     , (27957, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
-     , (27957, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (27957, 13, False) /* ETHEREAL_BOOL */
-     , (27957, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
-     , (27957, 19, False) /* ATTACKABLE_BOOL */
-     , (27957, 52, True) /* AI_IMMOBILE_BOOL */;
+VALUES (27957, 001 /* STUCK_BOOL */, True)
+     , (27957, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (27957, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (27957, 013 /* ETHEREAL_BOOL */, False)
+     , (27957, 019 /* ATTACKABLE_BOOL */, False)
+     , (27957, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
+     , (27957, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
+     , (27957, 052 /* AI_IMMOBILE_BOOL */, True)
+     , (27957, 082 /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */, True)
+     , (27957, 083 /* NPC_LOOKS_LIKE_OBJECT_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27957, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (27957, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (27957, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (27957, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (27957, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (27957, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
      , (27957, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -86,22 +86,22 @@ VALUES (27957, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27957, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (27957, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
-     , (27957, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+VALUES (27957, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (27957, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
      , (27957, 17, 64, 3, 0.75, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
      , (27957, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (27957, 32, 0, 3, 0, 900, 0, 1971.74919231982) /* ITEM_ENCHANTMENT_SKILL */;
+VALUES (27957, 32, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 1971.74919231982) /* ITEM_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (27957, 1, 6, 0, 27923 /* A Phial of Bloody Tears */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (27957, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+VALUES (27957, 1, 6 /* Give_EmoteCategory */, 0, 27923 /* A Phial of Bloody Tears */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (27957, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27957, 6, 0, 0, 10, 0, 1, NULL, 'You have pleased me. I will sup upon the tears of her soul this night and be sated for a time. Prepare for your reward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (27957, 6, 0, 1, 31, 0, 1, NULL, 'PhilterHizkRiTaken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (27957, 6, 0, 2, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3282, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */
-     , (27957, 7, 0, 0, 10, 0, 1, NULL, 'Within this well the wayward sister of Hizk Ri was cast beneath the world and bound by vile arts to suffer for all eternity. The restless souls, that make this place their home, have tormented the woman''s soul since its imprisonment here.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (27957, 7, 0, 1, 10, 2, 1, NULL, 'If you wish to meet Hizk Ri you shall need to garner her sister''s tears for me. You will need to collect them in an ancient philter, lost somewhere in this crypt. Collect them from the well and return them to me and I shall then let you pass. Go now and return to me only when you can hand me the phial of bloody tears.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
+VALUES (27957, 6 /* Give_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You have pleased me. I will sup upon the tears of her soul this night and be sated for a time. Prepare for your reward.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (27957, 6 /* Give_EmoteCategory */, 0, 1, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'PhilterHizkRiTaken', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (27957, 6 /* Give_EmoteCategory */, 0, 2, 19 /* CastSpellInstant_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3282 /* PortalSendingHizkRiGauntlet80_SpellID */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (27957, 7 /* Use_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Within this well the wayward sister of Hizk Ri was cast beneath the world and bound by vile arts to suffer for all eternity. The restless souls, that make this place their home, have tormented the woman''s soul since its imprisonment here.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (27957, 7 /* Use_EmoteCategory */, 0, 1, 10 /* Tell_EmoteType */, 2, 1, NULL, 'If you wish to meet Hizk Ri you shall need to garner her sister''s tears for me. You will need to collect them in an ancient philter, lost somewhere in this crypt. Collect them from the well and return them to me and I shall then let you pass. Go now and return to me only when you can hand me the phial of bloody tears.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

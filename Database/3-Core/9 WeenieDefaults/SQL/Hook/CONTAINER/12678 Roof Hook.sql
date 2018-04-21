@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 12678;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12678, 'hook-roof', /* Hook_WeenieType */ 56);
+VALUES (12678, 'hook-roof', 56 /* Hook_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12678, 1, 'Roof Hook') /* NAME_STRING */
-     , (12678, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (12678, 001 /* NAME_STRING */, 'Roof Hook')
+     , (12678, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12678, 1, 33557133) /* SETUP_DID */
-     , (12678, 8, 100671680) /* ICON_DID */
-     , (12678, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (12678, 001 /* SETUP_DID */, 33557133)
+     , (12678, 008 /* ICON_DID */, 100671680)
+     , (12678, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12678, 1, 512) /* ITEM_TYPE_INT */
-     , (12678, 5, 5) /* ENCUMB_VAL_INT */
-     , (12678, 6, 1) /* ITEMS_CAPACITY_INT */
-     , (12678, 151, 16) /* HOOK_TYPE_INT */
-     , (12678, 7, 0) /* CONTAINERS_CAPACITY_INT */
-     , (12678, 152, -1) /* HOOK_ITEM_TYPE_INT */
-     , (12678, 16, 48) /* ITEM_USEABLE_INT */
-     , (12678, 8, 5) /* MASS_INT */
-     , (12678, 19, 10) /* VALUE_INT */
-     , (12678, 93, 20) /* PHYSICS_STATE_INT */;
+VALUES (12678, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (12678, 005 /* ENCUMB_VAL_INT */, 5)
+     , (12678, 006 /* ITEMS_CAPACITY_INT */, 1)
+     , (12678, 007 /* CONTAINERS_CAPACITY_INT */, 0)
+     , (12678, 008 /* MASS_INT */, 5)
+     , (12678, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (12678, 019 /* VALUE_INT */, 10)
+     , (12678, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
+     , (12678, 151 /* HOOK_TYPE_INT */, 16 /* Roof_HookTypeEnum */)
+     , (12678, 152 /* HOOK_ITEM_TYPE_INT */, -1 /*  */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12678, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
-     , (12678, 135, 20) /* INVENTORY_OFFSET_FLOAT */
-     , (12678, 54, 50) /* USE_RADIUS_FLOAT */;
+VALUES (12678, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
+     , (12678, 054 /* USE_RADIUS_FLOAT */, 50)
+     , (12678, 135 /* INVENTORY_OFFSET_FLOAT */, 20);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12678, 1, True) /* STUCK_BOOL */
-     , (12678, 2, False) /* OPEN_BOOL */
-     , (12678, 12, False) /* REPORT_COLLISIONS_BOOL */
-     , (12678, 13, True) /* ETHEREAL_BOOL */
-     , (12678, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (12678, 001 /* STUCK_BOOL */, True)
+     , (12678, 002 /* OPEN_BOOL */, False)
+     , (12678, 012 /* REPORT_COLLISIONS_BOOL */, False)
+     , (12678, 013 /* ETHEREAL_BOOL */, True)
+     , (12678, 014 /* GRAVITY_STATUS_BOOL */, False);
 

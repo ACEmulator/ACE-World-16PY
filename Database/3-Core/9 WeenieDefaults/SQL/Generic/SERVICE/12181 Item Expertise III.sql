@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 12181;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12181, 'serviceitemexpertise3', /* Generic_WeenieType */ 1);
+VALUES (12181, 'serviceitemexpertise3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12181, 1, 'Item Expertise III') /* NAME_STRING */;
+VALUES (12181, 001 /* NAME_STRING */, 'Item Expertise III');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12181, 1, 33554667) /* SETUP_DID */
-     , (12181, 8, 100668352) /* ICON_DID */
-     , (12181, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (12181, 28, 728) /* SPELL_DID */;
+VALUES (12181, 001 /* SETUP_DID */, 33554667)
+     , (12181, 008 /* ICON_DID */, 100668352)
+     , (12181, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (12181, 028 /* SPELL_DID */, 728 /* ItemExpertiseSelf3_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12181, 9, 0) /* LOCATIONS_INT */
-     , (12181, 1, 1048576) /* ITEM_TYPE_INT */
-     , (12181, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12181, 5, 0) /* ENCUMB_VAL_INT */
-     , (12181, 16, 1) /* ITEM_USEABLE_INT */
-     , (12181, 8, 0) /* MASS_INT */
-     , (12181, 19, 1000) /* VALUE_INT */;
+VALUES (12181, 001 /* ITEM_TYPE_INT */, 1048576 /* TYPE_SERVICE */)
+     , (12181, 005 /* ENCUMB_VAL_INT */, 0)
+     , (12181, 008 /* MASS_INT */, 0)
+     , (12181, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (12181, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (12181, 019 /* VALUE_INT */, 1000)
+     , (12181, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12181, 51, True) /* VENDOR_SERVICE_BOOL */
-     , (12181, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (12181, 022 /* INSCRIBABLE_BOOL */, False)
+     , (12181, 051 /* VENDOR_SERVICE_BOOL */, True);
 

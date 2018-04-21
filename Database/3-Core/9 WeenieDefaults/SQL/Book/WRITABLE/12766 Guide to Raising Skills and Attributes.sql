@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 12766;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12766, 'bookskillattributeraisingacademy', /* Book_WeenieType */ 8);
+VALUES (12766, 'bookskillattributeraisingacademy', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12766, 1, 'Guide to Raising Skills and Attributes') /* NAME_STRING */;
+VALUES (12766, 001 /* NAME_STRING */, 'Guide to Raising Skills and Attributes');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12766, 1, 33554771) /* SETUP_DID */
-     , (12766, 3, 536870932) /* SOUND_TABLE_DID */
-     , (12766, 8, 100668117) /* ICON_DID */
-     , (12766, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (12766, 001 /* SETUP_DID */, 33554771)
+     , (12766, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (12766, 008 /* ICON_DID */, 100668117)
+     , (12766, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12766, 33, 1) /* BONDED_INT */
-     , (12766, 9, 0) /* LOCATIONS_INT */
-     , (12766, 1, 8192) /* ITEM_TYPE_INT */
-     , (12766, 93, 1044) /* PHYSICS_STATE_INT */
-     , (12766, 5, 5) /* ENCUMB_VAL_INT */
-     , (12766, 16, 8) /* ITEM_USEABLE_INT */
-     , (12766, 8, 5) /* MASS_INT */
-     , (12766, 19, 0) /* VALUE_INT */
-     , (12766, 114, 0) /* ATTUNED_INT */;
+VALUES (12766, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (12766, 005 /* ENCUMB_VAL_INT */, 5)
+     , (12766, 008 /* MASS_INT */, 5)
+     , (12766, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (12766, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (12766, 019 /* VALUE_INT */, 0)
+     , (12766, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (12766, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (12766, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (12766, 39, 1.22) /* DEFAULT_SCALE_FLOAT */
-     , (12766, 54, 0.3) /* USE_RADIUS_FLOAT */;
+VALUES (12766, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
+     , (12766, 054 /* USE_RADIUS_FLOAT */, 0.3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12766, 22, False) /* INSCRIBABLE_BOOL */
-     , (12766, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (12766, 022 /* INSCRIBABLE_BOOL */, False)
+     , (12766, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (12766, 2, 1000) /* Book Data */;

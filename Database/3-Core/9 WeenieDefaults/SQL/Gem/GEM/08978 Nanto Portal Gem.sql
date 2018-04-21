@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 8978;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8978, 'gemportalnanto', /* Gem_WeenieType */ 38);
+VALUES (8978, 'gemportalnanto', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8978, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
-     , (8978, 1, 'Nanto Portal Gem') /* NAME_STRING */
-     , (8978, 15, 'This portal summoning gem works best if used outside in a relatively flat area.') /* SHORT_DESC_STRING */;
+VALUES (8978, 001 /* NAME_STRING */, 'Nanto Portal Gem')
+     , (8978, 015 /* SHORT_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.')
+     , (8978, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8978, 1, 33556769) /* SETUP_DID */
-     , (8978, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8978, 28, 157) /* SPELL_DID */
-     , (8978, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (8978, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8978, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8978, 31, 8990) /* LINKED_PORTAL_ONE_DID */
-     , (8978, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (8978, 8, 100674864) /* ICON_DID */;
+VALUES (8978, 001 /* SETUP_DID */, 33556769)
+     , (8978, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8978, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8978, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (8978, 008 /* ICON_DID */, 100674864)
+     , (8978, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8978, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
+     , (8978, 031 /* LINKED_PORTAL_ONE_DID */, 8990 /* Nanto Portal */)
+     , (8978, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8978, 9, 0) /* LOCATIONS_INT */
-     , (8978, 1, 2048) /* ITEM_TYPE_INT */
-     , (8978, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (8978, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (8978, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (8978, 5, 10) /* ENCUMB_VAL_INT */
-     , (8978, 8, 10) /* MASS_INT */
-     , (8978, 12, 1) /* STACK_SIZE_INT */
-     , (8978, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (8978, 15, 500) /* STACK_UNIT_VALUE_INT */
-     , (8978, 16, 8) /* ITEM_USEABLE_INT */
-     , (8978, 18, 1) /* UI_EFFECTS_INT */
-     , (8978, 19, 500) /* VALUE_INT */
-     , (8978, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8978, 151, 2) /* HOOK_TYPE_INT */
-     , (8978, 93, 3092) /* PHYSICS_STATE_INT */
-     , (8978, 94, 16) /* TARGET_TYPE_INT */
-     , (8978, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (8978, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (8978, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (8978, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8978, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (8978, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8978, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (8978, 005 /* ENCUMB_VAL_INT */, 10)
+     , (8978, 008 /* MASS_INT */, 10)
+     , (8978, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8978, 011 /* MAX_STACK_SIZE_INT */, 25)
+     , (8978, 012 /* STACK_SIZE_INT */, 1)
+     , (8978, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (8978, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (8978, 015 /* STACK_UNIT_VALUE_INT */, 500)
+     , (8978, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (8978, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (8978, 019 /* VALUE_INT */, 500)
+     , (8978, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (8978, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (8978, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (8978, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (8978, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (8978, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (8978, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (8978, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8978, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8978, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (8978, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (8978, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (8978, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

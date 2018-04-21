@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 21918;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21918, 'rollingdeathfrost', /* ProjectileSpell_WeenieType */ 33);
+VALUES (21918, 'rollingdeathfrost', 33 /* ProjectileSpell_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21918, 1, 'Rolling Death') /* NAME_STRING */;
+VALUES (21918, 001 /* NAME_STRING */, 'Rolling Death');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21918, 1, 33557982) /* SETUP_DID */
-     , (21918, 3, 536870967) /* SOUND_TABLE_DID */
-     , (21918, 30, 89) /* PHYSICS_SCRIPT_DID */
-     , (21918, 22, 872415390) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21918, 6, 67114014) /* PALETTE_BASE_DID */
-     , (21918, 7, 268436468) /* CLOTHINGBASE_DID */
-     , (21918, 8, 100667494) /* ICON_DID */
-     , (21918, 28, 2793) /* SPELL_DID */;
+VALUES (21918, 001 /* SETUP_DID */, 33557982)
+     , (21918, 003 /* SOUND_TABLE_DID */, 536870967)
+     , (21918, 006 /* PALETTE_BASE_DID */, 67114014)
+     , (21918, 007 /* CLOTHINGBASE_DID */, 268436468)
+     , (21918, 008 /* ICON_DID */, 100667494)
+     , (21918, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415390)
+     , (21918, 028 /* SPELL_DID */, 2793 /* RollingDeathFrost_SpellID */)
+     , (21918, 030 /* PHYSICS_SCRIPT_DID */, 89 /* PS_Destroy */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21918, 66, 0) /* CHECKPOINT_STATUS_INT */
-     , (21918, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (21918, 8, 25) /* MASS_INT */
-     , (21918, 9, 0) /* LOCATIONS_INT */
-     , (21918, 93, 133140) /* PHYSICS_STATE_INT */;
+VALUES (21918, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (21918, 008 /* MASS_INT */, 25)
+     , (21918, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (21918, 066 /* CHECKPOINT_STATUS_INT */, 0)
+     , (21918, 093 /* PHYSICS_STATE_INT */, 133140 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS, INELASTIC_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21918, 79, 0) /* ELASTICITY_FLOAT */
-     , (21918, 39, 2.25) /* DEFAULT_SCALE_FLOAT */
-     , (21918, 78, 1) /* FRICTION_FLOAT */
-     , (21918, 26, 2) /* MAXIMUM_VELOCITY_FLOAT */;
+VALUES (21918, 026 /* MAXIMUM_VELOCITY_FLOAT */, 2)
+     , (21918, 039 /* DEFAULT_SCALE_FLOAT */, 2.25)
+     , (21918, 078 /* FRICTION_FLOAT */, 1)
+     , (21918, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21918, 17, True) /* INELASTIC_BOOL */
-     , (21918, 1, True) /* STUCK_BOOL */
-     , (21918, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (21918, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (21918, 24, True) /* UI_HIDDEN_BOOL */
-     , (21918, 16, True) /* SCRIPTED_COLLISION_BOOL */;
+VALUES (21918, 001 /* STUCK_BOOL */, True)
+     , (21918, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (21918, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (21918, 016 /* SCRIPTED_COLLISION_BOOL */, True)
+     , (21918, 017 /* INELASTIC_BOOL */, True)
+     , (21918, 024 /* UI_HIDDEN_BOOL */, True);
 

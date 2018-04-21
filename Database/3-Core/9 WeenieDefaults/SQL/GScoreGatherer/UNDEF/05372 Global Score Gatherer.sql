@@ -2,19 +2,19 @@
 DELETE FROM weenie WHERE class_Id = 5372;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5372, 'gscoregatherer', /* GScoreGatherer_WeenieType */ 47);
+VALUES (5372, 'gscoregatherer', 47 /* GScoreGatherer_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5372, 1, 'Global Score Gatherer') /* NAME_STRING */;
+VALUES (5372, 001 /* NAME_STRING */, 'Global Score Gatherer');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5372, 1, 33554722) /* SETUP_DID */
-     , (5372, 8, 100668125) /* ICON_DID */;
+VALUES (5372, 001 /* SETUP_DID */, 33554722)
+     , (5372, 008 /* ICON_DID */, 100668125);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5372, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (5372, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5372, 1, True) /* STUCK_BOOL */
-     , (5372, 18, True) /* VISIBILITY_BOOL */;
+VALUES (5372, 001 /* STUCK_BOOL */, True)
+     , (5372, 018 /* VISIBILITY_BOOL */, True);
 

@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 2322;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2322, 'forttethanabowyersign', /* Generic_WeenieType */ 1);
+VALUES (2322, 'forttethanabowyersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2322, 16, 'The Lone Arrow') /* LONG_DESC_STRING */
-     , (2322, 1, 'The Lone Arrow') /* NAME_STRING */;
+VALUES (2322, 001 /* NAME_STRING */, 'The Lone Arrow')
+     , (2322, 016 /* LONG_DESC_STRING */, 'The Lone Arrow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2322, 1, 33555088) /* SETUP_DID */
-     , (2322, 6, 67111092) /* PALETTE_BASE_DID */
-     , (2322, 7, 268435654) /* CLOTHINGBASE_DID */
-     , (2322, 8, 100668115) /* ICON_DID */;
+VALUES (2322, 001 /* SETUP_DID */, 33555088)
+     , (2322, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (2322, 007 /* CLOTHINGBASE_DID */, 268435654)
+     , (2322, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2322, 1, 128) /* ITEM_TYPE_INT */
-     , (2322, 93, 1048) /* PHYSICS_STATE_INT */
-     , (2322, 5, 9000) /* ENCUMB_VAL_INT */
-     , (2322, 16, 1) /* ITEM_USEABLE_INT */
-     , (2322, 8, 1800) /* MASS_INT */
-     , (2322, 19, 125) /* VALUE_INT */;
+VALUES (2322, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (2322, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (2322, 008 /* MASS_INT */, 1800)
+     , (2322, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (2322, 019 /* VALUE_INT */, 125)
+     , (2322, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2322, 1, True) /* STUCK_BOOL */
-     , (2322, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (2322, 13, False) /* ETHEREAL_BOOL */
-     , (2322, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (2322, 001 /* STUCK_BOOL */, True)
+     , (2322, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (2322, 013 /* ETHEREAL_BOOL */, False)
+     , (2322, 022 /* INSCRIBABLE_BOOL */, False);
 

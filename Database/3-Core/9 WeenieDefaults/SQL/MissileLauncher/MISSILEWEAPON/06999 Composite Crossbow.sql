@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 6999;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6999, 'crossbowcompositedmg2def1spd3atk0', /* MissileLauncher_WeenieType */ 3);
+VALUES (6999, 'crossbowcompositedmg2def1spd3atk0', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6999, 1, 'Composite Crossbow') /* NAME_STRING */;
+VALUES (6999, 001 /* NAME_STRING */, 'Composite Crossbow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6999, 1, 33556595) /* SETUP_DID */
-     , (6999, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6999, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6999, 6, 67112869) /* PALETTE_BASE_DID */
-     , (6999, 7, 268436006) /* CLOTHINGBASE_DID */
-     , (6999, 8, 100670690) /* ICON_DID */;
+VALUES (6999, 001 /* SETUP_DID */, 33556595)
+     , (6999, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6999, 006 /* PALETTE_BASE_DID */, 67112869)
+     , (6999, 007 /* CLOTHINGBASE_DID */, 268436006)
+     , (6999, 008 /* ICON_DID */, 100670690)
+     , (6999, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6999, 33, 1) /* BONDED_INT */
-     , (6999, 9, 4194304) /* LOCATIONS_INT */
-     , (6999, 1, 256) /* ITEM_TYPE_INT */
-     , (6999, 19, 375) /* VALUE_INT */
-     , (6999, 3, 40) /* PALETTE_TEMPLATE_INT */
-     , (6999, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6999, 5, 1920) /* ENCUMB_VAL_INT */
-     , (6999, 16, 1) /* ITEM_USEABLE_INT */
-     , (6999, 8, 640) /* MASS_INT */
-     , (6999, 44, 0) /* DAMAGE_INT */
-     , (6999, 46, 32) /* DEFAULT_COMBAT_STYLE_INT */
-     , (6999, 48, 3) /* WEAPON_SKILL_INT */
-     , (6999, 49, 90) /* WEAPON_TIME_INT */
-     , (6999, 50, 2) /* AMMO_TYPE_INT */
-     , (6999, 114, 1) /* ATTUNED_INT */
-     , (6999, 51, 2) /* COMBAT_USE_INT */
-     , (6999, 52, 2) /* PARENT_LOCATION_INT */
-     , (6999, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (6999, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (6999, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (6999, 003 /* PALETTE_TEMPLATE_INT */, 40 /* BRONZE_PALETTE_TEMPLATE */)
+     , (6999, 005 /* ENCUMB_VAL_INT */, 1920)
+     , (6999, 008 /* MASS_INT */, 640)
+     , (6999, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (6999, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6999, 019 /* VALUE_INT */, 375)
+     , (6999, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6999, 044 /* DAMAGE_INT */, 0)
+     , (6999, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
+     , (6999, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
+     , (6999, 049 /* WEAPON_TIME_INT */, 90)
+     , (6999, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
+     , (6999, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (6999, 052 /* PARENT_LOCATION_INT */, 2)
+     , (6999, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (6999, 060 /* WEAPON_RANGE_INT */, 192)
+     , (6999, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6999, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6999, 63, 2.2) /* DAMAGE_MOD_FLOAT */
-     , (6999, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
-     , (6999, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (6999, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
-     , (6999, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (6999, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (6999, 029 /* WEAPON_DEFENSE_FLOAT */, 1.02)
+     , (6999, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
+     , (6999, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (6999, 063 /* DAMAGE_MOD_FLOAT */, 2.2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6999, 69, False) /* IS_SELLABLE_BOOL */
-     , (6999, 22, True) /* INSCRIBABLE_BOOL */
-     , (6999, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6999, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6999, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (6999, 069 /* IS_SELLABLE_BOOL */, False);
 
