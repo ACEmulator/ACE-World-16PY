@@ -27,7 +27,7 @@ VALUES (23552, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (23552, 027 /* ARMOR_TYPE_INT */, 0)
      , (23552, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (23552, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (23552, 072 /* FRIEND_TYPE_INT */, 15)
+     , (23552, 072 /* FRIEND_TYPE_INT */, 15 /* Gromnie_CreatureType */)
      , (23552, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (23552, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (23552, 146 /* XP_OVERRIDE_INT */, 402394);

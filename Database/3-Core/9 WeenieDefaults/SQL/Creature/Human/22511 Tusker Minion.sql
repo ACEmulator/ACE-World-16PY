@@ -29,9 +29,9 @@ VALUES (22511, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (22511, 025 /* LEVEL_INT */, 35)
      , (22511, 027 /* ARMOR_TYPE_INT */, 0)
      , (22511, 068 /* TARGETING_TACTIC_INT */, 13)
-     , (22511, 072 /* FRIEND_TYPE_INT */, 8)
+     , (22511, 072 /* FRIEND_TYPE_INT */, 8 /* Tusker_CreatureType */)
      , (22511, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (22511, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131)
+     , (22511, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131 /* Unarmed_CombatStyle, OneHanded_CombatStyle, ThrownWeapon_CombatStyle */)
      , (22511, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (22511, 146 /* XP_OVERRIDE_INT */, 2405);
 

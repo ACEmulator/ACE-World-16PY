@@ -25,7 +25,7 @@ VALUES (7818, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (7818, 027 /* ARMOR_TYPE_INT */, 0)
      , (7818, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (7818, 068 /* TARGETING_TACTIC_INT */, 1)
-     , (7818, 072 /* FRIEND_TYPE_INT */, 14)
+     , (7818, 072 /* FRIEND_TYPE_INT */, 14 /* Undead_CreatureType */)
      , (7818, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (7818, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (7818, 146 /* XP_OVERRIDE_INT */, 0);

@@ -29,7 +29,7 @@ VALUES (11486, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (11486, 027 /* ARMOR_TYPE_INT */, 0)
      , (11486, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (11486, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (11486, 072 /* FRIEND_TYPE_INT */, 56)
+     , (11486, 072 /* FRIEND_TYPE_INT */, 56 /* Siraluun_CreatureType */)
      , (11486, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (11486, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (11486, 146 /* XP_OVERRIDE_INT */, 21766);

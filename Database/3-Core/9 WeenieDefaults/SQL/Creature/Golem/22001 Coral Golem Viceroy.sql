@@ -30,7 +30,7 @@ VALUES (22001, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (22001, 027 /* ARMOR_TYPE_INT */, 0)
      , (22001, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (22001, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (22001, 072 /* FRIEND_TYPE_INT */, 13)
+     , (22001, 072 /* FRIEND_TYPE_INT */, 13 /* Golem_CreatureType */)
      , (22001, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (22001, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (22001, 146 /* XP_OVERRIDE_INT */, 299711);

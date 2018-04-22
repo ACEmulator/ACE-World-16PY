@@ -36,8 +36,8 @@ VALUES (27838, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (27838, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (27838, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (27838, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (27838, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (27838, 159 /* WIELD_SKILLTYPE_INT */, 33)
+     , (27838, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (27838, 159 /* WIELD_SKILLTYPE_INT */, 33 /* LIFE_MAGIC_SKILL */)
      , (27838, 160 /* WIELD_DIFFICULTY_INT */, 290)
      , (27838, 166 /* SLAYER_CREATURE_TYPE_INT */, 19 /* Virindi_CreatureType */);
 

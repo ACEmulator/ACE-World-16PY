@@ -29,9 +29,9 @@ VALUES (15299, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (15299, 025 /* LEVEL_INT */, 43)
      , (15299, 027 /* ARMOR_TYPE_INT */, 0)
      , (15299, 068 /* TARGETING_TACTIC_INT */, 13)
-     , (15299, 072 /* FRIEND_TYPE_INT */, 19)
+     , (15299, 072 /* FRIEND_TYPE_INT */, 19 /* Virindi_CreatureType */)
      , (15299, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (15299, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131)
+     , (15299, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131 /* Unarmed_CombatStyle, OneHanded_CombatStyle, ThrownWeapon_CombatStyle */)
      , (15299, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (15299, 146 /* XP_OVERRIDE_INT */, 2949);
 

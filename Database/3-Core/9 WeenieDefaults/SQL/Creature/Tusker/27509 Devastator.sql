@@ -29,7 +29,7 @@ VALUES (27509, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (27509, 027 /* ARMOR_TYPE_INT */, 0)
      , (27509, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (27509, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (27509, 072 /* FRIEND_TYPE_INT */, 8)
+     , (27509, 072 /* FRIEND_TYPE_INT */, 8 /* Tusker_CreatureType */)
      , (27509, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (27509, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (27509, 146 /* XP_OVERRIDE_INT */, 126576);

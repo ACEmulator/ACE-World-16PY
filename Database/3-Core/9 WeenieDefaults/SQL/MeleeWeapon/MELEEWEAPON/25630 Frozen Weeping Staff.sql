@@ -43,8 +43,8 @@ VALUES (25630, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (25630, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (25630, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (25630, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (25630, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (25630, 159 /* WIELD_SKILLTYPE_INT */, 10)
+     , (25630, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (25630, 159 /* WIELD_SKILLTYPE_INT */, 10 /* STAFF_SKILL */)
      , (25630, 160 /* WIELD_DIFFICULTY_INT */, 325)
      , (25630, 166 /* SLAYER_CREATURE_TYPE_INT */, 31 /* Human_CreatureType */);
 

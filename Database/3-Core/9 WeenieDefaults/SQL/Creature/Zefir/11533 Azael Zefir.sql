@@ -28,7 +28,7 @@ VALUES (11533, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (11533, 025 /* LEVEL_INT */, 85)
      , (11533, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (11533, 068 /* TARGETING_TACTIC_INT */, 13)
-     , (11533, 072 /* FRIEND_TYPE_INT */, 29)
+     , (11533, 072 /* FRIEND_TYPE_INT */, 29 /* Zefir_CreatureType */)
      , (11533, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (11533, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (11533, 146 /* XP_OVERRIDE_INT */, 21361);

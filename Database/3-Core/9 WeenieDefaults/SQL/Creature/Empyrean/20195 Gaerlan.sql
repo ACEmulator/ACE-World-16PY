@@ -29,7 +29,7 @@ VALUES (20195, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (20195, 027 /* ARMOR_TYPE_INT */, 0)
      , (20195, 067 /* TOLERANCE_INT */, 64)
      , (20195, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (20195, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131)
+     , (20195, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131 /* Unarmed_CombatStyle, OneHanded_CombatStyle, ThrownWeapon_CombatStyle */)
      , (20195, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (20195, 134 /* PLAYER_KILLER_STATUS_INT */, 32 /* Baelzharon_PKStatus */)
      , (20195, 146 /* XP_OVERRIDE_INT */, 503834);

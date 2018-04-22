@@ -35,8 +35,8 @@ VALUES (21911, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (21911, 117 /* ITEM_MANA_COST_INT */, 4000)
      , (21911, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (21911, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21911, 158 /* WIELD_REQUIREMENTS_INT */, 8)
-     , (21911, 159 /* WIELD_SKILLTYPE_INT */, 34)
+     , (21911, 158 /* WIELD_REQUIREMENTS_INT */, 8 /* WIELD_REQUIRES_TRAINING_WieldRequirement */)
+     , (21911, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
      , (21911, 160 /* WIELD_DIFFICULTY_INT */, 2)
      , (21911, 166 /* SLAYER_CREATURE_TYPE_INT */, 1 /* Olthoi_CreatureType */);
 

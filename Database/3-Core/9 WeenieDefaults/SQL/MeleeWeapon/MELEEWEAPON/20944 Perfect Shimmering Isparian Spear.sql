@@ -41,8 +41,8 @@ VALUES (20944, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (20944, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 325)
      , (20944, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (20944, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20944, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (20944, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (20944, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (20944, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (20944, 160 /* WIELD_DIFFICULTY_INT */, 50)
      , (20944, 166 /* SLAYER_CREATURE_TYPE_INT */, 62 /* Elemental_CreatureType */);
 

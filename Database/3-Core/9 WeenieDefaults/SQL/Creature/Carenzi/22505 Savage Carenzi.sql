@@ -29,7 +29,7 @@ VALUES (22505, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (22505, 027 /* ARMOR_TYPE_INT */, 0)
      , (22505, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (22505, 068 /* TARGETING_TACTIC_INT */, 5)
-     , (22505, 072 /* FRIEND_TYPE_INT */, 55)
+     , (22505, 072 /* FRIEND_TYPE_INT */, 55 /* Carenzi_CreatureType */)
      , (22505, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (22505, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (22505, 146 /* XP_OVERRIDE_INT */, 48345);

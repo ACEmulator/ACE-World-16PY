@@ -31,7 +31,7 @@ VALUES (2612, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (2612, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (2612, 068 /* TARGETING_TACTIC_INT */, 9)
      , (2612, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (2612, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131)
+     , (2612, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 131 /* Unarmed_CombatStyle, OneHanded_CombatStyle, ThrownWeapon_CombatStyle */)
      , (2612, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (2612, 140 /* AI_OPTIONS_INT */, 1)
      , (2612, 146 /* XP_OVERRIDE_INT */, 148);

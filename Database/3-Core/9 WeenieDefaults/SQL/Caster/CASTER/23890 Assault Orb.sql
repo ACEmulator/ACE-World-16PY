@@ -36,8 +36,8 @@ VALUES (23890, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (23890, 109 /* ITEM_DIFFICULTY_INT */, 120)
      , (23890, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (23890, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (23890, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (23890, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (23890, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (23890, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (23890, 160 /* WIELD_DIFFICULTY_INT */, 30)
      , (23890, 166 /* SLAYER_CREATURE_TYPE_INT */, 6 /* Tumerok_CreatureType */);
 

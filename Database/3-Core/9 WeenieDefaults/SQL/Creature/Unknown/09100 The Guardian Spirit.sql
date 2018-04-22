@@ -25,7 +25,7 @@ VALUES (9100, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (9100, 027 /* ARMOR_TYPE_INT */, 0)
      , (9100, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (9100, 068 /* TARGETING_TACTIC_INT */, 1)
-     , (9100, 072 /* FRIEND_TYPE_INT */, 2)
+     , (9100, 072 /* FRIEND_TYPE_INT */, 2 /* Banderling_CreatureType */)
      , (9100, 093 /* PHYSICS_STATE_INT */, 1036 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (9100, 133 /* SHOWABLE_ON_RADAR_INT */, 3 /* ShowAttacking_RadarEnum */)
      , (9100, 146 /* XP_OVERRIDE_INT */, 0);

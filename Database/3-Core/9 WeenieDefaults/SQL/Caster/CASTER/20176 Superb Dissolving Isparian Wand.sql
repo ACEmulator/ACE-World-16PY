@@ -36,8 +36,8 @@ VALUES (20176, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (20176, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
      , (20176, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (20176, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (20176, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (20176, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (20176, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (20176, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (20176, 160 /* WIELD_DIFFICULTY_INT */, 40)
      , (20176, 166 /* SLAYER_CREATURE_TYPE_INT */, 42 /* Lightning_Elemental_CreatureType */);
 

@@ -44,8 +44,8 @@ VALUES (23909, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
      , (23909, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
      , (23909, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (23909, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (23909, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (23909, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (23909, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (23909, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (23909, 160 /* WIELD_DIFFICULTY_INT */, 30)
      , (23909, 166 /* SLAYER_CREATURE_TYPE_INT */, 6 /* Tumerok_CreatureType */);
 

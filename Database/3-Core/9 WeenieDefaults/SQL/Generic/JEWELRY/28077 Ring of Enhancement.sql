@@ -31,8 +31,8 @@ VALUES (28077, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
      , (28077, 107 /* ITEM_CUR_MANA_INT */, 1000)
      , (28077, 108 /* ITEM_MAX_MANA_INT */, 1000)
      , (28077, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (28077, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (28077, 159 /* WIELD_SKILLTYPE_INT */, 31)
+     , (28077, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (28077, 159 /* WIELD_SKILLTYPE_INT */, 31 /* CREATURE_ENCHANTMENT_SKILL */)
      , (28077, 160 /* WIELD_DIFFICULTY_INT */, 250);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

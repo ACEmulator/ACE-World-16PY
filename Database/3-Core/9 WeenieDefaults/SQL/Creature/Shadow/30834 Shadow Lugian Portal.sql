@@ -29,7 +29,7 @@ VALUES (30834, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (30834, 081 /* MAX_GENERATED_OBJECTS_INT */, 5)
      , (30834, 082 /* INIT_GENERATED_OBJECTS_INT */, 5)
      , (30834, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (30834, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 183)
+     , (30834, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 183 /* Unarmed_CombatStyle, OneHanded_CombatStyle, OneHandedAndShield_CombatStyle, Bow_CombatStyle, Crossbow_CombatStyle, ThrownWeapon_CombatStyle */)
      , (30834, 103 /* GENERATOR_DESTRUCTION_TYPE_INT */, 1 /* Nothing_GeneratorDestruct */)
      , (30834, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (30834, 146 /* XP_OVERRIDE_INT */, 200000);

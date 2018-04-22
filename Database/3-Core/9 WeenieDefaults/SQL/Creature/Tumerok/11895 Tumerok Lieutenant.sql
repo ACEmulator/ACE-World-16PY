@@ -27,7 +27,7 @@ VALUES (11895, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (11895, 027 /* ARMOR_TYPE_INT */, 0)
      , (11895, 068 /* TARGETING_TACTIC_INT */, 5)
      , (11895, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (11895, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 183)
+     , (11895, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 183 /* Unarmed_CombatStyle, OneHanded_CombatStyle, OneHandedAndShield_CombatStyle, Bow_CombatStyle, Crossbow_CombatStyle, ThrownWeapon_CombatStyle */)
      , (11895, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (11895, 140 /* AI_OPTIONS_INT */, 1)
      , (11895, 146 /* XP_OVERRIDE_INT */, 6305);

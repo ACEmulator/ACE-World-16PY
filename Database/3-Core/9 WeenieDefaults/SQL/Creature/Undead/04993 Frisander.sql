@@ -30,7 +30,7 @@ VALUES (4993, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (4993, 040 /* COMBAT_MODE_INT */, 1 /* NONCOMBAT_COMBAT_MODE */)
      , (4993, 068 /* TARGETING_TACTIC_INT */, 3)
      , (4993, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
-     , (4993, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 4)
+     , (4993, 101 /* AI_ALLOWED_COMBAT_STYLE_INT */, 4 /* OneHandedAndShield_CombatStyle */)
      , (4993, 133 /* SHOWABLE_ON_RADAR_INT */, 0 /* Undef_RadarEnum */)
      , (4993, 146 /* XP_OVERRIDE_INT */, 3315);
 

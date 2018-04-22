@@ -29,7 +29,7 @@ VALUES (9401, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (9401, 025 /* LEVEL_INT */, 44)
      , (9401, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (9401, 068 /* TARGETING_TACTIC_INT */, 3)
-     , (9401, 072 /* FRIEND_TYPE_INT */, 5)
+     , (9401, 072 /* FRIEND_TYPE_INT */, 5 /* Lugian_CreatureType */)
      , (9401, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (9401, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (9401, 146 /* XP_OVERRIDE_INT */, 6521);

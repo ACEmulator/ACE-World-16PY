@@ -35,8 +35,8 @@ VALUES (24463, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
      , (24463, 107 /* ITEM_CUR_MANA_INT */, 800)
      , (24463, 108 /* ITEM_MAX_MANA_INT */, 800)
      , (24463, 109 /* ITEM_DIFFICULTY_INT */, 100)
-     , (24463, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (24463, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (24463, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (24463, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (24463, 160 /* WIELD_DIFFICULTY_INT */, 20);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

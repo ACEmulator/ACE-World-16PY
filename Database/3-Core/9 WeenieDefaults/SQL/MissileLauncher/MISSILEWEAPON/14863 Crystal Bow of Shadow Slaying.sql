@@ -44,8 +44,8 @@ VALUES (14863, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
      , (14863, 109 /* ITEM_DIFFICULTY_INT */, 10)
      , (14863, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (14863, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 270)
-     , (14863, 158 /* WIELD_REQUIREMENTS_INT */, 1)
-     , (14863, 159 /* WIELD_SKILLTYPE_INT */, 2)
+     , (14863, 158 /* WIELD_REQUIREMENTS_INT */, 1 /* WIELD_REQUIRES_SKILL_WieldRequirement */)
+     , (14863, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
      , (14863, 160 /* WIELD_DIFFICULTY_INT */, 200)
      , (14863, 166 /* SLAYER_CREATURE_TYPE_INT */, 22 /* Shadow_CreatureType */);
 

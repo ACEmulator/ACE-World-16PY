@@ -31,7 +31,7 @@ VALUES (6080, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (6080, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (6080, 067 /* TOLERANCE_INT */, 2)
      , (6080, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (6080, 072 /* FRIEND_TYPE_INT */, 25)
+     , (6080, 072 /* FRIEND_TYPE_INT */, 25 /* Rabbit_CreatureType */)
      , (6080, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (6080, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (6080, 146 /* XP_OVERRIDE_INT */, 117255);

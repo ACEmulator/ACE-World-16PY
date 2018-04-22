@@ -31,7 +31,7 @@ VALUES (1605, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (1605, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (1605, 067 /* TOLERANCE_INT */, 64)
      , (1605, 068 /* TARGETING_TACTIC_INT */, 5)
-     , (1605, 072 /* FRIEND_TYPE_INT */, 12)
+     , (1605, 072 /* FRIEND_TYPE_INT */, 12 /* Cow_CreatureType */)
      , (1605, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (1605, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (1605, 146 /* XP_OVERRIDE_INT */, 534);

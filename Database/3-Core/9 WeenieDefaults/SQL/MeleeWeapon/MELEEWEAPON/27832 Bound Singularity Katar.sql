@@ -40,8 +40,8 @@ VALUES (27832, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (27832, 108 /* ITEM_MAX_MANA_INT */, 700)
      , (27832, 109 /* ITEM_DIFFICULTY_INT */, 200)
      , (27832, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (27832, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (27832, 159 /* WIELD_SKILLTYPE_INT */, 13)
+     , (27832, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (27832, 159 /* WIELD_SKILLTYPE_INT */, 13 /* UNARMED_COMBAT_SKILL */)
      , (27832, 160 /* WIELD_DIFFICULTY_INT */, 250)
      , (27832, 166 /* SLAYER_CREATURE_TYPE_INT */, 19 /* Virindi_CreatureType */);
 

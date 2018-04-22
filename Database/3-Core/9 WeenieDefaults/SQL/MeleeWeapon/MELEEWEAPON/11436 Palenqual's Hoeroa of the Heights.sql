@@ -41,8 +41,8 @@ VALUES (11436, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (11436, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (11436, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (11436, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (11436, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (11436, 159 /* WIELD_SKILLTYPE_INT */, 10)
+     , (11436, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (11436, 159 /* WIELD_SKILLTYPE_INT */, 10 /* STAFF_SKILL */)
      , (11436, 160 /* WIELD_DIFFICULTY_INT */, 250);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

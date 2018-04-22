@@ -43,8 +43,8 @@ VALUES (21022, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
      , (21022, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 250)
      , (21022, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (21022, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (21022, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (21022, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (21022, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (21022, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (21022, 160 /* WIELD_DIFFICULTY_INT */, 30)
      , (21022, 166 /* SLAYER_CREATURE_TYPE_INT */, 62 /* Elemental_CreatureType */);
 

@@ -30,7 +30,7 @@ VALUES (26677, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (26677, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (26677, 067 /* TOLERANCE_INT */, 64)
      , (26677, 068 /* TARGETING_TACTIC_INT */, 3)
-     , (26677, 072 /* FRIEND_TYPE_INT */, 5)
+     , (26677, 072 /* FRIEND_TYPE_INT */, 5 /* Lugian_CreatureType */)
      , (26677, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (26677, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (26677, 146 /* XP_OVERRIDE_INT */, 4432);

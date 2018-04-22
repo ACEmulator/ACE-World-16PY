@@ -28,8 +28,8 @@ VALUES (14842, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
      , (14842, 028 /* ARMOR_LEVEL_INT */, 190)
      , (14842, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (14842, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (14842, 158 /* WIELD_REQUIREMENTS_INT */, 7)
-     , (14842, 159 /* WIELD_SKILLTYPE_INT */, 1)
+     , (14842, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (14842, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
      , (14842, 160 /* WIELD_DIFFICULTY_INT */, 30);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

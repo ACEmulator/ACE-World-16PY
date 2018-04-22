@@ -30,7 +30,7 @@ VALUES (8544, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (8544, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (8544, 067 /* TOLERANCE_INT */, 2)
      , (8544, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (8544, 072 /* FRIEND_TYPE_INT */, 19)
+     , (8544, 072 /* FRIEND_TYPE_INT */, 19 /* Virindi_CreatureType */)
      , (8544, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (8544, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (8544, 146 /* XP_OVERRIDE_INT */, 21000);

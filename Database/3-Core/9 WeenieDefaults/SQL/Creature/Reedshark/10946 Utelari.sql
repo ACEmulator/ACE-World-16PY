@@ -28,7 +28,7 @@ VALUES (10946, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (10946, 025 /* LEVEL_INT */, 85)
      , (10946, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (10946, 068 /* TARGETING_TACTIC_INT */, 13)
-     , (10946, 072 /* FRIEND_TYPE_INT */, 58)
+     , (10946, 072 /* FRIEND_TYPE_INT */, 58 /* Hea_Tumerok_CreatureType */)
      , (10946, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (10946, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (10946, 146 /* XP_OVERRIDE_INT */, 20297);

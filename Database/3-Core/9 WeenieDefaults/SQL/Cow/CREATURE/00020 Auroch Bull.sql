@@ -30,7 +30,7 @@ VALUES (20, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (20, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (20, 067 /* TOLERANCE_INT */, 64)
      , (20, 068 /* TARGETING_TACTIC_INT */, 5)
-     , (20, 072 /* FRIEND_TYPE_INT */, 12)
+     , (20, 072 /* FRIEND_TYPE_INT */, 12 /* Cow_CreatureType */)
      , (20, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (20, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (20, 146 /* XP_OVERRIDE_INT */, 420);

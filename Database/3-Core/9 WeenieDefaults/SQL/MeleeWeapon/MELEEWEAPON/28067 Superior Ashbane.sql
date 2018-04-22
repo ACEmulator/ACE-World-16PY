@@ -33,8 +33,8 @@ VALUES (28067, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (28067, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
      , (28067, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (28067, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (28067, 158 /* WIELD_REQUIREMENTS_INT */, 2)
-     , (28067, 159 /* WIELD_SKILLTYPE_INT */, 11)
+     , (28067, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (28067, 159 /* WIELD_SKILLTYPE_INT */, 11 /* SWORD_SKILL */)
      , (28067, 160 /* WIELD_DIFFICULTY_INT */, 325);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

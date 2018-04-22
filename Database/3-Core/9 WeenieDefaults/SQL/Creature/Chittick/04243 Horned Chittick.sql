@@ -28,7 +28,7 @@ VALUES (4243, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (4243, 025 /* LEVEL_INT */, 53)
      , (4243, 040 /* COMBAT_MODE_INT */, 2 /* MELEE_COMBAT_MODE */)
      , (4243, 068 /* TARGETING_TACTIC_INT */, 9)
-     , (4243, 072 /* FRIEND_TYPE_INT */, 33)
+     , (4243, 072 /* FRIEND_TYPE_INT */, 33 /* Chittick_CreatureType */)
      , (4243, 093 /* PHYSICS_STATE_INT */, 1032 /* REPORT_COLLISIONS_PS, GRAVITY_PS */)
      , (4243, 133 /* SHOWABLE_ON_RADAR_INT */, 2 /* ShowMovement_RadarEnum */)
      , (4243, 146 /* XP_OVERRIDE_INT */, 7871);
