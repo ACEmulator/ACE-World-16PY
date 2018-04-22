@@ -39,5 +39,5 @@ VALUES (25544, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (25544, 108 /* ITEM_MAX_MANA_INT */, 100)
      , (25544, 109 /* ITEM_DIFFICULTY_INT */, 0)
      , (25544, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25544, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (25544, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 

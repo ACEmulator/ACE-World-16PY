@@ -34,7 +34,7 @@ VALUES (25373, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (25373, 109 /* ITEM_DIFFICULTY_INT */, 100)
      , (25373, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (25373, 150 /* HOOK_PLACEMENT_INT */, 104 /* XXXUnknown68 */)
-     , (25373, 151 /* HOOK_TYPE_INT */, 11 /*  */)
+     , (25373, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */)
      , (25373, 158 /* WIELD_REQUIREMENTS_INT */, 7)
      , (25373, 159 /* WIELD_SKILLTYPE_INT */, 1)
      , (25373, 160 /* WIELD_DIFFICULTY_INT */, 40);

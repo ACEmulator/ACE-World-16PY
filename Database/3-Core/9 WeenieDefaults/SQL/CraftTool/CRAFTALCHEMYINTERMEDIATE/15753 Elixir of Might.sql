@@ -33,9 +33,9 @@ VALUES (15753, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDI
      , (15753, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
      , (15753, 019 /* VALUE_INT */, 10)
      , (15753, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (15753, 094 /* TARGET_TYPE_INT */, 136 /*  */)
+     , (15753, 094 /* TARGET_TYPE_INT */, 136 /* TYPE_JEWELRY, TYPE_MISC */)
      , (15753, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (15753, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (15753, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15753, 023 /* DESTROY_ON_SELL_BOOL */, True);

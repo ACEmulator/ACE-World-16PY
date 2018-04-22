@@ -38,7 +38,7 @@ VALUES (25313, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
      , (25313, 108 /* ITEM_MAX_MANA_INT */, 1000)
      , (25313, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
      , (25313, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (25313, 151 /* HOOK_TYPE_INT */, 9 /*  */)
+     , (25313, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */)
      , (25313, 158 /* WIELD_REQUIREMENTS_INT */, 7)
      , (25313, 159 /* WIELD_SKILLTYPE_INT */, 1)
      , (25313, 160 /* WIELD_DIFFICULTY_INT */, 50);

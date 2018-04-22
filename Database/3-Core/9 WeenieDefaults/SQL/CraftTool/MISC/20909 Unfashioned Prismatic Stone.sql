@@ -33,7 +33,7 @@ VALUES (20909, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (20909, 019 /* VALUE_INT */, 0)
      , (20909, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (20909, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20909, 094 /* TARGET_TYPE_INT */, 33027 /*  */)
+     , (20909, 094 /* TARGET_TYPE_INT */, 33027 /* TYPE_ARMOR, TYPE_WEAPON_OR_CASTER */)
      , (20909, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

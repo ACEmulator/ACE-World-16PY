@@ -31,7 +31,7 @@ VALUES (14861, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (14861, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (14861, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (14861, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14861, 151 /* HOOK_TYPE_INT */, 3 /*  */);
+     , (14861, 151 /* HOOK_TYPE_INT */, 3 /* Floor_HookTypeEnum, Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14861, 029 /* WEAPON_DEFENSE_FLOAT */, 1);

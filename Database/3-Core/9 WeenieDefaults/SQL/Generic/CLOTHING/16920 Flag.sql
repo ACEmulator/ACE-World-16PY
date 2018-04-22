@@ -31,7 +31,7 @@ VALUES (16920, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
      , (16920, 028 /* ARMOR_LEVEL_INT */, 0)
      , (16920, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (16920, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (16920, 151 /* HOOK_TYPE_INT */, 24 /*  */);
+     , (16920, 151 /* HOOK_TYPE_INT */, 24 /* Yard_HookTypeEnum, Roof_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (16920, 012 /* SHADE_FLOAT */, 0);

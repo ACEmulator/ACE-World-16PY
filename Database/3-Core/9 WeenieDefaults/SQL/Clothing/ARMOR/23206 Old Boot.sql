@@ -32,7 +32,7 @@ VALUES (23206, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
      , (23206, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
      , (23206, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (23206, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (23206, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (23206, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23206, 012 /* SHADE_FLOAT */, 0.8)

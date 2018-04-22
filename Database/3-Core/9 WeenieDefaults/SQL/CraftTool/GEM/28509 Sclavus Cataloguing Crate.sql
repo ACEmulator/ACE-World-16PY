@@ -32,7 +32,7 @@ VALUES (28509, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
      , (28509, 019 /* VALUE_INT */, 0)
      , (28509, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (28509, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28509, 094 /* TARGET_TYPE_INT */, 2176 /*  */)
+     , (28509, 094 /* TARGET_TYPE_INT */, 2176 /* TYPE_MISC, TYPE_GEM */)
      , (28509, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
      , (28509, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (28509, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);

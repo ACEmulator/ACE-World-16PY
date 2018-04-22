@@ -34,5 +34,5 @@ VALUES (2461, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (2461, 090 /* BOOST_VALUE_INT */, 65)
      , (2461, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (2461, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (2461, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (2461, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 

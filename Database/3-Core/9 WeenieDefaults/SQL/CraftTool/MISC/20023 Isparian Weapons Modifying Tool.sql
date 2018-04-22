@@ -33,7 +33,7 @@ VALUES (20023, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (20023, 019 /* VALUE_INT */, 15000)
      , (20023, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
      , (20023, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20023, 094 /* TARGET_TYPE_INT */, 33153 /*  */)
+     , (20023, 094 /* TARGET_TYPE_INT */, 33153 /* TYPE_MISC, TYPE_WEAPON_OR_CASTER */)
      , (20023, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
      , (20023, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (20023, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);

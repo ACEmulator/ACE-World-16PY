@@ -33,7 +33,7 @@ VALUES (7599, 001 /* ITEM_TYPE_INT */, 8388608 /* TYPE_CRAFT_ALCHEMY_BASE */)
      , (7599, 019 /* VALUE_INT */, 0)
      , (7599, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (7599, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7599, 094 /* TARGET_TYPE_INT */, 75497472 /*  */)
+     , (7599, 094 /* TARGET_TYPE_INT */, 75497472 /* TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
      , (7599, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

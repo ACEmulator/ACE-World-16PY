@@ -22,7 +22,7 @@ VALUES (22730, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (22730, 019 /* VALUE_INT */, 500)
      , (22730, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (22730, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (22730, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (22730, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22730, 022 /* INSCRIBABLE_BOOL */, True);

@@ -32,7 +32,7 @@ VALUES (20908, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
      , (20908, 019 /* VALUE_INT */, 0)
      , (20908, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (20908, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20908, 094 /* TARGET_TYPE_INT */, 33027 /*  */)
+     , (20908, 094 /* TARGET_TYPE_INT */, 33027 /* TYPE_ARMOR, TYPE_WEAPON_OR_CASTER */)
      , (20908, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

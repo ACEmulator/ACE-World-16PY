@@ -31,7 +31,7 @@ VALUES (11140, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
      , (11140, 090 /* BOOST_VALUE_INT */, 120)
      , (11140, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (11140, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11140, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (11140, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11140, 023 /* DESTROY_ON_SELL_BOOL */, True);

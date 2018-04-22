@@ -40,7 +40,7 @@ VALUES (8997, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
      , (8997, 109 /* ITEM_DIFFICULTY_INT */, 10)
      , (8997, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
      , (8997, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (8997, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (8997, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8997, 039 /* DEFAULT_SCALE_FLOAT */, 1.3);

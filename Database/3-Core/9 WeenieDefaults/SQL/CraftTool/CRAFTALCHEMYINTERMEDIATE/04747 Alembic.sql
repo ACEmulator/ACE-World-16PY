@@ -29,5 +29,5 @@ VALUES (4747, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIA
      , (4747, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (4747, 094 /* TARGET_TYPE_INT */, 3013615 /* TYPE_ITEM */)
      , (4747, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (4747, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (4747, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 

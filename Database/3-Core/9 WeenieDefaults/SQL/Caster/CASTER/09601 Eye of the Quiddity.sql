@@ -36,7 +36,7 @@ VALUES (9601, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (9601, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
      , (9601, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
      , (9601, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9601, 151 /* HOOK_TYPE_INT */, 6 /*  */);
+     , (9601, 151 /* HOOK_TYPE_INT */, 6 /* Wall_HookTypeEnum, Ceiling_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9601, 005 /* MANA_RATE_FLOAT */, -0.025)

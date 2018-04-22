@@ -33,7 +33,7 @@ VALUES (9540, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
      , (9540, 090 /* BOOST_VALUE_INT */, 4)
      , (9540, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (9540, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (9540, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (9540, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9540, 012 /* SHADE_FLOAT */, 0)

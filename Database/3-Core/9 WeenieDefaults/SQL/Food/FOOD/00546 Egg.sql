@@ -30,5 +30,5 @@ VALUES (546, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
      , (546, 090 /* BOOST_VALUE_INT */, 4)
      , (546, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (546, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (546, 151 /* HOOK_TYPE_INT */, 15 /*  */);
+     , (546, 151 /* HOOK_TYPE_INT */, 15 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Ceiling_HookTypeEnum, Yard_HookTypeEnum */);
 

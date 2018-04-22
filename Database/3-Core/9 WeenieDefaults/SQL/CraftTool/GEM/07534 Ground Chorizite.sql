@@ -34,7 +34,7 @@ VALUES (7534, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
      , (7534, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (7534, 094 /* TARGET_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
      , (7534, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7534, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (7534, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7534, 023 /* DESTROY_ON_SELL_BOOL */, True)

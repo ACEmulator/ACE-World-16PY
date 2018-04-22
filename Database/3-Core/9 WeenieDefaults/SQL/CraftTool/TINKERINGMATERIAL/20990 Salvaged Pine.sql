@@ -34,10 +34,10 @@ VALUES (20990, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */
      , (20990, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (20990, 091 /* MAX_STRUCTURE_INT */, 100)
      , (20990, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (20990, 094 /* TARGET_TYPE_INT */, 35215 /*  */)
+     , (20990, 094 /* TARGET_TYPE_INT */, 35215 /* TYPE_JEWELRY, TYPE_MISC, TYPE_GEM, TYPE_REDIRECTABLE_ITEM_ENCHANTMENT_TARGET */)
      , (20990, 131 /* MATERIAL_TYPE_INT */, 76 /* Pine_MaterialType */)
      , (20990, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (20990, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (20990, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20990, 022 /* INSCRIBABLE_BOOL */, True)

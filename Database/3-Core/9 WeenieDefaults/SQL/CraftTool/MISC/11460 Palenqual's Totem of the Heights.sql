@@ -33,7 +33,7 @@ VALUES (11460, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (11460, 094 /* TARGET_TYPE_INT */, 33025 /* TYPE_WEAPON_OR_CASTER */)
      , (11460, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
      , (11460, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (11460, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (11460, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11460, 039 /* DEFAULT_SCALE_FLOAT */, 1);

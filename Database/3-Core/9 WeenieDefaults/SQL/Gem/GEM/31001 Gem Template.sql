@@ -34,5 +34,5 @@ VALUES (31001, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
      , (31001, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (31001, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
      , (31001, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (31001, 151 /* HOOK_TYPE_INT */, 11 /*  */);
+     , (31001, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 

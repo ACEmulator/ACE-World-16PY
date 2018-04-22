@@ -28,9 +28,9 @@ VALUES (7823, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
      , (7823, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
      , (7823, 019 /* VALUE_INT */, 3500)
      , (7823, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (7823, 094 /* TARGET_TYPE_INT */, 4194336 /*  */)
+     , (7823, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */)
      , (7823, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (7823, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (7823, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7823, 022 /* INSCRIBABLE_BOOL */, True);

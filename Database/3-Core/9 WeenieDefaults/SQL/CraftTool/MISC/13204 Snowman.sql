@@ -25,9 +25,9 @@ VALUES (13204, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (13204, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
      , (13204, 019 /* VALUE_INT */, 44)
      , (13204, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (13204, 094 /* TARGET_TYPE_INT */, 4194564 /*  */)
+     , (13204, 094 /* TARGET_TYPE_INT */, 4194564 /* TYPE_CLOTHING, TYPE_MISSILE_WEAPON, TYPE_CRAFT_COOKING_BASE */)
      , (13204, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (13204, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (13204, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13204, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);

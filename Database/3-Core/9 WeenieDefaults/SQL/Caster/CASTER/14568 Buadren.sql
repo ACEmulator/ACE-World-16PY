@@ -37,7 +37,7 @@ VALUES (14568, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
      , (14568, 109 /* ITEM_DIFFICULTY_INT */, 200)
      , (14568, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
      , (14568, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (14568, 151 /* HOOK_TYPE_INT */, 3 /*  */)
+     , (14568, 151 /* HOOK_TYPE_INT */, 3 /* Floor_HookTypeEnum, Wall_HookTypeEnum */)
      , (14568, 158 /* WIELD_REQUIREMENTS_INT */, 7)
      , (14568, 159 /* WIELD_SKILLTYPE_INT */, 1)
      , (14568, 160 /* WIELD_DIFFICULTY_INT */, 50);

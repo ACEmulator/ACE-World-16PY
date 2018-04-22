@@ -21,7 +21,7 @@ VALUES (30736, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (30736, 019 /* VALUE_INT */, 50000)
      , (30736, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (30736, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
-     , (30736, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (30736, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30736, 039 /* DEFAULT_SCALE_FLOAT */, 1);

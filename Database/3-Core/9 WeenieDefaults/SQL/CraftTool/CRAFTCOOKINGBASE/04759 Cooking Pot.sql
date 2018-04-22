@@ -27,9 +27,9 @@ VALUES (4759, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
      , (4759, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
      , (4759, 019 /* VALUE_INT */, 50)
      , (4759, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (4759, 094 /* TARGET_TYPE_INT */, 4194464 /*  */)
+     , (4759, 094 /* TARGET_TYPE_INT */, 4194464 /* TYPE_FOOD, TYPE_MISC, TYPE_CRAFT_COOKING_BASE */)
      , (4759, 150 /* HOOK_PLACEMENT_INT */, 101 /* Resting */)
-     , (4759, 151 /* HOOK_TYPE_INT */, 9 /*  */);
+     , (4759, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4759, 022 /* INSCRIBABLE_BOOL */, True)

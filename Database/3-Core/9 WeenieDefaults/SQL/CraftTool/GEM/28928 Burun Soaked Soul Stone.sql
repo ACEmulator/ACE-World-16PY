@@ -32,7 +32,7 @@ VALUES (28928, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
      , (28928, 019 /* VALUE_INT */, 0)
      , (28928, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
      , (28928, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
-     , (28928, 094 /* TARGET_TYPE_INT */, 33041 /*  */)
+     , (28928, 094 /* TARGET_TYPE_INT */, 33041 /* TYPE_CREATURE, TYPE_WEAPON_OR_CASTER */)
      , (28928, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
