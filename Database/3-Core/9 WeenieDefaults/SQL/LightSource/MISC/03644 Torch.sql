@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 3644;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3644, 'walltorchuseable', /* LightSource_WeenieType */ 29);
+VALUES (3644, 'walltorchuseable', 29 /* LightSource_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3644, 1, 'Torch') /* NAME_STRING */;
+VALUES (3644, 001 /* NAME_STRING */, 'Torch');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3644, 1, 33555053) /* SETUP_DID */
-     , (3644, 8, 100667506) /* ICON_DID */
-     , (3644, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (3644, 001 /* SETUP_DID */, 33555053)
+     , (3644, 008 /* ICON_DID */, 100667506)
+     , (3644, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3644, 1, 128) /* ITEM_TYPE_INT */
-     , (3644, 93, 20) /* PHYSICS_STATE_INT */
-     , (3644, 5, 50) /* ENCUMB_VAL_INT */
-     , (3644, 16, 48) /* ITEM_USEABLE_INT */
-     , (3644, 8, 25) /* MASS_INT */
-     , (3644, 19, 7) /* VALUE_INT */;
+VALUES (3644, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (3644, 005 /* ENCUMB_VAL_INT */, 50)
+     , (3644, 008 /* MASS_INT */, 25)
+     , (3644, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (3644, 019 /* VALUE_INT */, 7)
+     , (3644, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3644, 11, 300) /* RESET_INTERVAL_FLOAT */
-     , (3644, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (3644, 011 /* RESET_INTERVAL_FLOAT */, 300)
+     , (3644, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3644, 1, True) /* STUCK_BOOL */
-     , (3644, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (3644, 15, False) /* LIGHTS_STATUS_BOOL */;
+VALUES (3644, 001 /* STUCK_BOOL */, True)
+     , (3644, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (3644, 015 /* LIGHTS_STATUS_BOOL */, False);
 

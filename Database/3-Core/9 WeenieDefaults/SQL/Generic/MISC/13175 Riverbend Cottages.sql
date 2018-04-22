@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 13175;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13175, 'riverbendcottagessign', /* Generic_WeenieType */ 1);
+VALUES (13175, 'riverbendcottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13175, 16, 'Welcome to Riverbend Cottages') /* LONG_DESC_STRING */
-     , (13175, 1, 'Riverbend Cottages') /* NAME_STRING */;
+VALUES (13175, 001 /* NAME_STRING */, 'Riverbend Cottages')
+     , (13175, 016 /* LONG_DESC_STRING */, 'Welcome to Riverbend Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13175, 1, 33557463) /* SETUP_DID */
-     , (13175, 8, 100668115) /* ICON_DID */;
+VALUES (13175, 001 /* SETUP_DID */, 33557463)
+     , (13175, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13175, 1, 128) /* ITEM_TYPE_INT */
-     , (13175, 93, 1048) /* PHYSICS_STATE_INT */
-     , (13175, 5, 9000) /* ENCUMB_VAL_INT */
-     , (13175, 16, 1) /* ITEM_USEABLE_INT */
-     , (13175, 8, 1800) /* MASS_INT */
-     , (13175, 19, 125) /* VALUE_INT */;
+VALUES (13175, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (13175, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (13175, 008 /* MASS_INT */, 1800)
+     , (13175, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (13175, 019 /* VALUE_INT */, 125)
+     , (13175, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13175, 1, True) /* STUCK_BOOL */
-     , (13175, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (13175, 13, False) /* ETHEREAL_BOOL */
-     , (13175, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (13175, 001 /* STUCK_BOOL */, True)
+     , (13175, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (13175, 013 /* ETHEREAL_BOOL */, False)
+     , (13175, 022 /* INSCRIBABLE_BOOL */, False);
 

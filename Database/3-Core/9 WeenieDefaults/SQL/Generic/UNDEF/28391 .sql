@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 28391;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28391, 'generatorkiviklirmorgluukalive', /* Generic_WeenieType */ 1);
+VALUES (28391, 'generatorkiviklirmorgluukalive', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28391, 1, 'generatorkiviklirmorgluukalive') /* NAME_STRING */
-     , (28391, 34, 'EventKivikLirMorgluukAlive') /* GENERATOR_EVENT_STRING */;
+VALUES (28391, 001 /* NAME_STRING */, 'generatorkiviklirmorgluukalive')
+     , (28391, 034 /* GENERATOR_EVENT_STRING */, 'EventKivikLirMorgluukAlive');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28391, 1, 33555051) /* SETUP_DID */
-     , (28391, 8, 100667494) /* ICON_DID */;
+VALUES (28391, 001 /* SETUP_DID */, 33555051)
+     , (28391, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28391, 142, 3) /* GENERATOR_TIME_TYPE_INT */
-     , (28391, 81, 29) /* MAX_GENERATED_OBJECTS_INT */
-     , (28391, 145, 2) /* GENERATOR_END_DESTRUCTION_TYPE_INT */
-     , (28391, 82, 29) /* INIT_GENERATED_OBJECTS_INT */
-     , (28391, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (28391, 081 /* MAX_GENERATED_OBJECTS_INT */, 29)
+     , (28391, 082 /* INIT_GENERATED_OBJECTS_INT */, 29)
+     , (28391, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28391, 142 /* GENERATOR_TIME_TYPE_INT */, 3 /* Event_GeneratorTimeType */)
+     , (28391, 145 /* GENERATOR_END_DESTRUCTION_TYPE_INT */, 2 /* Destroy_GeneratorDestruct */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28391, 121, 0) /* GENERATOR_INITIAL_DELAY_FLOAT */
-     , (28391, 41, 300) /* REGENERATION_INTERVAL_FLOAT */
-     , (28391, 43, 20) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (28391, 041 /* REGENERATION_INTERVAL_FLOAT */, 300)
+     , (28391, 043 /* GENERATOR_RADIUS_FLOAT */, 20)
+     , (28391, 121 /* GENERATOR_INITIAL_DELAY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28391, 1, True) /* STUCK_BOOL */
-     , (28391, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (28391, 18, True) /* VISIBILITY_BOOL */;
+VALUES (28391, 001 /* STUCK_BOOL */, True)
+     , (28391, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (28391, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28391, -1, 28375, 0, 1, 1, 1, 4, -1, 0, 0, 1146028292, 35.99, 155.999, 1.9, -0.7071068, 0, 0, -0.7071068)/* Generate Falatacot Vault Seal (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

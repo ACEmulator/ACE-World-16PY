@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 5873;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5873, 'sealdericost', /* Key_WeenieType */ 22);
+VALUES (5873, 'sealdericost', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5873, 16, 'A small amulet on a chain, which bears the Royal Seal of Dericost.') /* LONG_DESC_STRING */
-     , (5873, 1, 'Seal') /* NAME_STRING */
-     , (5873, 13, 'sealdericost') /* KEY_CODE_STRING */
-     , (5873, 14, 'Use this item on a locked standing stone to unlock it.') /* USE_STRING */
-     , (5873, 15, 'A small amulet on a chain.') /* SHORT_DESC_STRING */;
+VALUES (5873, 001 /* NAME_STRING */, 'Seal')
+     , (5873, 013 /* KEY_CODE_STRING */, 'sealdericost')
+     , (5873, 014 /* USE_STRING */, 'Use this item on a locked standing stone to unlock it.')
+     , (5873, 015 /* SHORT_DESC_STRING */, 'A small amulet on a chain.')
+     , (5873, 016 /* LONG_DESC_STRING */, 'A small amulet on a chain, which bears the Royal Seal of Dericost.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5873, 1, 33554689) /* SETUP_DID */
-     , (5873, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5873, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5873, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5873, 7, 268435863) /* CLOTHINGBASE_DID */
-     , (5873, 8, 100670319) /* ICON_DID */;
+VALUES (5873, 001 /* SETUP_DID */, 33554689)
+     , (5873, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5873, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5873, 007 /* CLOTHINGBASE_DID */, 268435863)
+     , (5873, 008 /* ICON_DID */, 100670319)
+     , (5873, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5873, 1, 16384) /* ITEM_TYPE_INT */
-     , (5873, 91, 1) /* MAX_STRUCTURE_INT */
-     , (5873, 19, 200) /* VALUE_INT */
-     , (5873, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (5873, 5, 45) /* ENCUMB_VAL_INT */
-     , (5873, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (5873, 8, 30) /* MASS_INT */
-     , (5873, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (5873, 151, 2) /* HOOK_TYPE_INT */
-     , (5873, 92, 1) /* STRUCTURE_INT */
-     , (5873, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5873, 94, 640) /* TARGET_TYPE_INT */;
+VALUES (5873, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (5873, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (5873, 005 /* ENCUMB_VAL_INT */, 45)
+     , (5873, 008 /* MASS_INT */, 30)
+     , (5873, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (5873, 019 /* VALUE_INT */, 200)
+     , (5873, 091 /* MAX_STRUCTURE_INT */, 1)
+     , (5873, 092 /* STRUCTURE_INT */, 1)
+     , (5873, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5873, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
+     , (5873, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (5873, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5873, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
+VALUES (5873, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5873, 22, True) /* INSCRIBABLE_BOOL */
-     , (5873, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (5873, 022 /* INSCRIBABLE_BOOL */, True)
+     , (5873, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

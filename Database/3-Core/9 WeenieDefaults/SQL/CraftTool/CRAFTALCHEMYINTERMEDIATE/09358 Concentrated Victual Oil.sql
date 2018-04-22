@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 9358;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9358, 'concentratedvictualoil', /* CraftTool_WeenieType */ 44);
+VALUES (9358, 'concentratedvictualoil', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9358, 1, 'Concentrated Victual Oil') /* NAME_STRING */
-     , (9358, 20, 'Vials of Concentrated Victual Oil') /* PLURAL_NAME_STRING */
-     , (9358, 14, 'This item is used in cooking.') /* USE_STRING */;
+VALUES (9358, 001 /* NAME_STRING */, 'Concentrated Victual Oil')
+     , (9358, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (9358, 020 /* PLURAL_NAME_STRING */, 'Vials of Concentrated Victual Oil');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9358, 1, 33555967) /* SETUP_DID */
-     , (9358, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9358, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9358, 6, 67111919) /* PALETTE_BASE_DID */
-     , (9358, 7, 268435815) /* CLOTHINGBASE_DID */
-     , (9358, 8, 100671590) /* ICON_DID */;
+VALUES (9358, 001 /* SETUP_DID */, 33555967)
+     , (9358, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9358, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (9358, 007 /* CLOTHINGBASE_DID */, 268435815)
+     , (9358, 008 /* ICON_DID */, 100671590)
+     , (9358, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9358, 9, 0) /* LOCATIONS_INT */
-     , (9358, 1, 67108864) /* ITEM_TYPE_INT */
-     , (9358, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (9358, 3, 76) /* PALETTE_TEMPLATE_INT */
-     , (9358, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (9358, 5, 15) /* ENCUMB_VAL_INT */
-     , (9358, 8, 5) /* MASS_INT */
-     , (9358, 12, 1) /* STACK_SIZE_INT */
-     , (9358, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (9358, 15, 750) /* STACK_UNIT_VALUE_INT */
-     , (9358, 16, 524296) /* ITEM_USEABLE_INT */
-     , (9358, 19, 750) /* VALUE_INT */
-     , (9358, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (9358, 151, 11) /* HOOK_TYPE_INT */
-     , (9358, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9358, 94, 75498496) /* TARGET_TYPE_INT */
-     , (9358, 33, 1) /* BONDED_INT */;
+VALUES (9358, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
+     , (9358, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
+     , (9358, 005 /* ENCUMB_VAL_INT */, 15)
+     , (9358, 008 /* MASS_INT */, 5)
+     , (9358, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9358, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (9358, 012 /* STACK_SIZE_INT */, 1)
+     , (9358, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (9358, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (9358, 015 /* STACK_UNIT_VALUE_INT */, 750)
+     , (9358, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (9358, 019 /* VALUE_INT */, 750)
+     , (9358, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9358, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9358, 094 /* TARGET_TYPE_INT */, 75498496 /* TYPE_USELESS, TYPE_CRAFT_ALCHEMY_BASE, TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
+     , (9358, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (9358, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9358, 69, False) /* IS_SELLABLE_BOOL */
-     , (9358, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9358, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (9358, 069 /* IS_SELLABLE_BOOL */, False);
 

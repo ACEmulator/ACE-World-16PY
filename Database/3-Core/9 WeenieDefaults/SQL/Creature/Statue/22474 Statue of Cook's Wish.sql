@@ -2,82 +2,82 @@
 DELETE FROM weenie WHERE class_Id = 22474;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22474, 'statuetuskiecooking', /* Creature_WeenieType */ 10);
+VALUES (22474, 'statuetuskiecooking', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22474, 1, 'Statue of Cook''s Wish') /* NAME_STRING */;
+VALUES (22474, 001 /* NAME_STRING */, 'Statue of Cook''s Wish');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22474, 1, 33558124) /* SETUP_DID */
-     , (22474, 2, 150995147) /* MOTION_TABLE_DID */
-     , (22474, 3, 536871052) /* SOUND_TABLE_DID */
-     , (22474, 4, 805306379) /* COMBAT_TABLE_DID */
-     , (22474, 8, 100673831) /* ICON_DID */
-     , (22474, 22, 872415271) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (22474, 001 /* SETUP_DID */, 33558124)
+     , (22474, 002 /* MOTION_TABLE_DID */, 150995147)
+     , (22474, 003 /* SOUND_TABLE_DID */, 536871052)
+     , (22474, 004 /* COMBAT_TABLE_DID */, 805306379)
+     , (22474, 008 /* ICON_DID */, 100673831)
+     , (22474, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415271);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22474, 1, 16) /* ITEM_TYPE_INT */
-     , (22474, 2, 63) /* CREATURE_TYPE_INT */
-     , (22474, 3, 76) /* PALETTE_TEMPLATE_INT */
-     , (22474, 133, 0) /* SHOWABLE_ON_RADAR_INT */
-     , (22474, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (22474, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22474, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (22474, 16, 32) /* ITEM_USEABLE_INT */
-     , (22474, 8, 120) /* MASS_INT */
-     , (22474, 146, 13410) /* XP_OVERRIDE_INT */
-     , (22474, 25, 171) /* LEVEL_INT */
-     , (22474, 27, 0) /* ARMOR_TYPE_INT */
-     , (22474, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (22474, 95, 3) /* RADARBLIP_COLOR_INT */;
+VALUES (22474, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (22474, 002 /* CREATURE_TYPE_INT */, 63 /* Statue_CreatureType */)
+     , (22474, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
+     , (22474, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (22474, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (22474, 008 /* MASS_INT */, 120)
+     , (22474, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (22474, 025 /* LEVEL_INT */, 171)
+     , (22474, 027 /* ARMOR_TYPE_INT */, 0)
+     , (22474, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
+     , (22474, 095 /* RADARBLIP_COLOR_INT */, 3 /* White */)
+     , (22474, 133 /* SHOWABLE_ON_RADAR_INT */, 0 /* Undef_RadarEnum */)
+     , (22474, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (22474, 146 /* XP_OVERRIDE_INT */, 13410);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22474, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (22474, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (22474, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (22474, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (22474, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (22474, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (22474, 3, 1.1) /* HEALTH_RATE_FLOAT */
-     , (22474, 68, 1) /* RESIST_COLD_FLOAT */
-     , (22474, 4, 0.5) /* STAMINA_RATE_FLOAT */
-     , (22474, 5, 2) /* MANA_RATE_FLOAT */
-     , (22474, 69, 1) /* RESIST_ACID_FLOAT */
-     , (22474, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (22474, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (22474, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
-     , (22474, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (22474, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (22474, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (22474, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (22474, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (22474, 13, 0.79) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22474, 14, 0.79) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22474, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22474, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22474, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22474, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22474, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22474, 54, 3) /* USE_RADIUS_FLOAT */
-     , (22474, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (22474, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (22474, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (22474, 003 /* HEALTH_RATE_FLOAT */, 1.1)
+     , (22474, 004 /* STAMINA_RATE_FLOAT */, 0.5)
+     , (22474, 005 /* MANA_RATE_FLOAT */, 2)
+     , (22474, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.79)
+     , (22474, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.79)
+     , (22474, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
+     , (22474, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (22474, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (22474, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (22474, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (22474, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
+     , (22474, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (22474, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (22474, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (22474, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (22474, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (22474, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (22474, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (22474, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (22474, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (22474, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (22474, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (22474, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (22474, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (22474, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (22474, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22474, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (22474, 1, True) /* STUCK_BOOL */
-     , (22474, 8, True) /* ALLOW_GIVE_BOOL */
-     , (22474, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
-     , (22474, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
-     , (22474, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (22474, 13, False) /* ETHEREAL_BOOL */
-     , (22474, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
-     , (22474, 19, False) /* ATTACKABLE_BOOL */
-     , (22474, 52, True) /* AI_IMMOBILE_BOOL */;
+VALUES (22474, 001 /* STUCK_BOOL */, True)
+     , (22474, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (22474, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (22474, 013 /* ETHEREAL_BOOL */, False)
+     , (22474, 019 /* ATTACKABLE_BOOL */, False)
+     , (22474, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
+     , (22474, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
+     , (22474, 052 /* AI_IMMOBILE_BOOL */, True)
+     , (22474, 082 /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */, True)
+     , (22474, 083 /* NPC_LOOKS_LIKE_OBJECT_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22474, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (22474, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (22474, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (22474, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (22474, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (22474, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
      , (22474, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -87,77 +87,77 @@ VALUES (22474, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (22474, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (22474, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
-     , (22474, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+VALUES (22474, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (22474, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
      , (22474, 17, 64, 3, 0.75, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
      , (22474, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (22474, 0.5, 22, 0, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.7, 22, 1, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.85, 22, 2, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.95, 22, 3, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.9900001, 22, 4, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 1, 22, 5, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.5, 22, 6, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.7, 22, 7, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.85, 22, 8, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.95, 22, 9, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.9900001, 22, 10, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 1, 22, 11, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.5, 22, 12, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.7, 22, 13, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.85, 22, 14, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.95, 22, 15, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 0.9900001, 22, 16, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 1, 22, 17, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestSuccess_EmoteCategory */
-     , (22474, 1, 6, 0, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (22474, 1, 6, 1, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (22474, 1, 6, 2, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (22474, 1, 23, 0, NULL, NULL, NULL, 'cook', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
-     , (22474, 1, 23, 1, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
-     , (22474, 1, 23, 2, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL) /* TestFailure_EmoteCategory */
-     , (22474, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+VALUES (22474, 0.5, 22 /* TestSuccess_EmoteCategory */, 0, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 0.7, 22 /* TestSuccess_EmoteCategory */, 1, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 0.85, 22 /* TestSuccess_EmoteCategory */, 2, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 0.95, 22 /* TestSuccess_EmoteCategory */, 3, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 0.9900001, 22 /* TestSuccess_EmoteCategory */, 4, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 1, 22 /* TestSuccess_EmoteCategory */, 5, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 0.5, 22 /* TestSuccess_EmoteCategory */, 6, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 0.7, 22 /* TestSuccess_EmoteCategory */, 7, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 0.85, 22 /* TestSuccess_EmoteCategory */, 8, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 0.95, 22 /* TestSuccess_EmoteCategory */, 9, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 0.9900001, 22 /* TestSuccess_EmoteCategory */, 10, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 1, 22 /* TestSuccess_EmoteCategory */, 11, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 0.5, 22 /* TestSuccess_EmoteCategory */, 12, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 0.7, 22 /* TestSuccess_EmoteCategory */, 13, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 0.85, 22 /* TestSuccess_EmoteCategory */, 14, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 0.95, 22 /* TestSuccess_EmoteCategory */, 15, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 0.9900001, 22 /* TestSuccess_EmoteCategory */, 16, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 1, 22 /* TestSuccess_EmoteCategory */, 17, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 1, 6 /* Give_EmoteCategory */, 0, 22457 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 1, 6 /* Give_EmoteCategory */, 1, 22456 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 1, 6 /* Give_EmoteCategory */, 2, 22455 /* Fabled Tusker Paw */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 1, 23 /* TestFailure_EmoteCategory */, 0, NULL, NULL, NULL, 'cook', NULL, NULL, NULL)
+     , (22474, 1, 23 /* TestFailure_EmoteCategory */, 1, NULL, NULL, NULL, 'cook1', NULL, NULL, NULL)
+     , (22474, 1, 23 /* TestFailure_EmoteCategory */, 2, NULL, NULL, NULL, 'cook2', NULL, NULL, NULL)
+     , (22474, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22474, 22, 0, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 0, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 1, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 1, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 2, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 2, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 3, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 3, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 4, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 4, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 5, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 5, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 6, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 6, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 7, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 7, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 8, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 8, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 9, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 9, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 10, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 10, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 11, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 11, 1, 3, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 22, 12, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 13, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 14, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 15, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 16, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 22, 17, 0, 28, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* AwardSkillXP_EmoteType */
-     , (22474, 6, 0, 0, 45, 0, 1, NULL, 'cook', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqSkillTrained_EmoteType */
-     , (22474, 6, 1, 0, 45, 0, 1, NULL, 'cook1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqSkillTrained_EmoteType */
-     , (22474, 6, 2, 0, 45, 0, 1, NULL, 'cook2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqSkillTrained_EmoteType */
-     , (22474, 23, 0, 0, 10, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (22474, 23, 0, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22457 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 23, 1, 0, 10, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (22474, 23, 1, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 23, 2, 0, 10, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (22474, 23, 2, 1, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (22474, 7, 0, 0, 10, 0, 1, NULL, 'Hand me a Tusker Paw with one, two or three fingers to be granted a wish.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
+VALUES (22474, 22 /* TestSuccess_EmoteCategory */, 0, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 0, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 1, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 1, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 2, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 2, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 3, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 3, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 4, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 4, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 5, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 5, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 6, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 6, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 7, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 7, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 8, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 8, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 9, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 9, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 10, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 10, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 11, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 11, 1, 3 /* Give_EmoteType */, 0.5, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 12, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 1000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 13, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 500000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 14, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 250000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 15, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 100000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 16, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 50000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 22 /* TestSuccess_EmoteCategory */, 17, 0, 28 /* AwardSkillXP_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, 2000000, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 6 /* Give_EmoteCategory */, 0, 0, 45 /* InqSkillTrained_EmoteType */, 0, 1, NULL, 'cook', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 6 /* Give_EmoteCategory */, 1, 0, 45 /* InqSkillTrained_EmoteType */, 0, 1, NULL, 'cook1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 6 /* Give_EmoteCategory */, 2, 0, 45 /* InqSkillTrained_EmoteType */, 0, 1, NULL, 'cook2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 39, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 0, 1, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22457 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 1, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 1, 1, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22456 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 2, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You are not a cook and shall not benefit from this wish, take this back.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 23 /* TestFailure_EmoteCategory */, 2, 1, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 22455 /* Fabled Tusker Paw */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (22474, 7 /* Use_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Hand me a Tusker Paw with one, two or three fingers to be granted a wish.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

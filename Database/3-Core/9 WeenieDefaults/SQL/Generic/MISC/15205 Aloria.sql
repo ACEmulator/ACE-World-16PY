@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 15205;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15205, 'aloriasign', /* Generic_WeenieType */ 1);
+VALUES (15205, 'aloriasign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15205, 16, 'Welcome to Aloria') /* LONG_DESC_STRING */
-     , (15205, 1, 'Aloria') /* NAME_STRING */;
+VALUES (15205, 001 /* NAME_STRING */, 'Aloria')
+     , (15205, 016 /* LONG_DESC_STRING */, 'Welcome to Aloria');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15205, 1, 33557463) /* SETUP_DID */
-     , (15205, 8, 100668115) /* ICON_DID */;
+VALUES (15205, 001 /* SETUP_DID */, 33557463)
+     , (15205, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15205, 1, 128) /* ITEM_TYPE_INT */
-     , (15205, 93, 1048) /* PHYSICS_STATE_INT */
-     , (15205, 5, 9000) /* ENCUMB_VAL_INT */
-     , (15205, 16, 1) /* ITEM_USEABLE_INT */
-     , (15205, 8, 1800) /* MASS_INT */
-     , (15205, 19, 125) /* VALUE_INT */;
+VALUES (15205, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (15205, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (15205, 008 /* MASS_INT */, 1800)
+     , (15205, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15205, 019 /* VALUE_INT */, 125)
+     , (15205, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15205, 1, True) /* STUCK_BOOL */
-     , (15205, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (15205, 13, False) /* ETHEREAL_BOOL */
-     , (15205, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (15205, 001 /* STUCK_BOOL */, True)
+     , (15205, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (15205, 013 /* ETHEREAL_BOOL */, False)
+     , (15205, 022 /* INSCRIBABLE_BOOL */, False);
 

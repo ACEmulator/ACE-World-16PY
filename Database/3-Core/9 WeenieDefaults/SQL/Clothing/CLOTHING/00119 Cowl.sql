@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 119;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (119, 'cowlcloth', /* Clothing_WeenieType */ 2);
+VALUES (119, 'cowlcloth', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (119, 1, 'Cowl') /* NAME_STRING */;
+VALUES (119, 001 /* NAME_STRING */, 'Cowl');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (119, 1, 33555048) /* SETUP_DID */
-     , (119, 3, 536870932) /* SOUND_TABLE_DID */
-     , (119, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (119, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (119, 6, 67108990) /* PALETTE_BASE_DID */
-     , (119, 7, 268435466) /* CLOTHINGBASE_DID */
-     , (119, 8, 100667323) /* ICON_DID */;
+VALUES (119, 001 /* SETUP_DID */, 33555048)
+     , (119, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (119, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (119, 007 /* CLOTHINGBASE_DID */, 268435466)
+     , (119, 008 /* ICON_DID */, 100667323)
+     , (119, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (119, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (119, 9, 1) /* LOCATIONS_INT */
-     , (119, 1, 4) /* ITEM_TYPE_INT */
-     , (119, 19, 5) /* VALUE_INT */
-     , (119, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (119, 4, 16384) /* CLOTHING_PRIORITY_INT */
-     , (119, 5, 23) /* ENCUMB_VAL_INT */
-     , (119, 16, 1) /* ITEM_USEABLE_INT */
-     , (119, 8, 15) /* MASS_INT */
-     , (119, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (119, 151, 2) /* HOOK_TYPE_INT */
-     , (119, 27, 1) /* ARMOR_TYPE_INT */
-     , (119, 28, 0) /* ARMOR_LEVEL_INT */
-     , (119, 93, 1044) /* PHYSICS_STATE_INT */
-     , (119, 169, 218104080) /* TSYS_MUTATION_DATA_INT */;
+VALUES (119, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
+     , (119, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (119, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
+     , (119, 005 /* ENCUMB_VAL_INT */, 23)
+     , (119, 008 /* MASS_INT */, 15)
+     , (119, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
+     , (119, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (119, 019 /* VALUE_INT */, 5)
+     , (119, 027 /* ARMOR_TYPE_INT */, 1)
+     , (119, 028 /* ARMOR_LEVEL_INT */, 0)
+     , (119, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (119, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (119, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (119, 169 /* TSYS_MUTATION_DATA_INT */, 218104080);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (119, 12, 0.66) /* SHADE_FLOAT */
-     , (119, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (119, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (119, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (119, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (119, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (119, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (119, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (119, 012 /* SHADE_FLOAT */, 0.66)
+     , (119, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
+     , (119, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (119, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (119, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.2)
+     , (119, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.2)
+     , (119, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.1)
+     , (119, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (119, 100, True) /* DYABLE_BOOL */
-     , (119, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (119, 022 /* INSCRIBABLE_BOOL */, True)
+     , (119, 100 /* DYABLE_BOOL */, True);
 

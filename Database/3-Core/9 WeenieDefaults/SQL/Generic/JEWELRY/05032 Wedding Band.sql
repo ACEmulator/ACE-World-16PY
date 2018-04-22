@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 5032;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5032, 'hardunnaband', /* Generic_WeenieType */ 1);
+VALUES (5032, 'hardunnaband', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5032, 8, 'Aluvian Blessing') /* SCRIBE_NAME_STRING */
-     , (5032, 16, 'A silver wedding band, found in the Holtburg Redoubt. This ring belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */
-     , (5032, 1, 'Wedding Band') /* NAME_STRING */
-     , (5032, 33, 'HardunnaBandQuest') /* QUEST_STRING */
-     , (5032, 7, 'To: Let hearts bound as one never be sundered.') /* INSCRIPTION_STRING */;
+VALUES (5032, 001 /* NAME_STRING */, 'Wedding Band')
+     , (5032, 007 /* INSCRIPTION_STRING */, 'To: Let hearts bound as one never be sundered.')
+     , (5032, 008 /* SCRIBE_NAME_STRING */, 'Aluvian Blessing')
+     , (5032, 016 /* LONG_DESC_STRING */, 'A silver wedding band, found in the Holtburg Redoubt. This ring belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.')
+     , (5032, 033 /* QUEST_STRING */, 'HardunnaBandQuest');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5032, 1, 33554691) /* SETUP_DID */
-     , (5032, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5032, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5032, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5032, 7, 268435753) /* CLOTHINGBASE_DID */
-     , (5032, 8, 100667317) /* ICON_DID */;
+VALUES (5032, 001 /* SETUP_DID */, 33554691)
+     , (5032, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5032, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5032, 007 /* CLOTHINGBASE_DID */, 268435753)
+     , (5032, 008 /* ICON_DID */, 100667317)
+     , (5032, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5032, 33, 1) /* BONDED_INT */
-     , (5032, 9, 786432) /* LOCATIONS_INT */
-     , (5032, 1, 8) /* ITEM_TYPE_INT */
-     , (5032, 19, 0) /* VALUE_INT */
-     , (5032, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (5032, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5032, 5, 10) /* ENCUMB_VAL_INT */
-     , (5032, 16, 1) /* ITEM_USEABLE_INT */
-     , (5032, 8, 10) /* MASS_INT */
-     , (5032, 114, 1) /* ATTUNED_INT */;
+VALUES (5032, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (5032, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (5032, 005 /* ENCUMB_VAL_INT */, 10)
+     , (5032, 008 /* MASS_INT */, 10)
+     , (5032, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
+     , (5032, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5032, 019 /* VALUE_INT */, 0)
+     , (5032, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (5032, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5032, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5032, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (5032, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5032, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (5032, 022 /* INSCRIBABLE_BOOL */, True);
 

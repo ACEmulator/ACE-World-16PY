@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 7412;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7412, 'magmasluicebar', /* Generic_WeenieType */ 1);
+VALUES (7412, 'magmasluicebar', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7412, 16, 'A heavy titanium bar, used in pyreal forging mechanisms.') /* LONG_DESC_STRING */
-     , (7412, 1, 'Sluice Gate Bar') /* NAME_STRING */
-     , (7412, 15, 'A heavy titanium bar.') /* SHORT_DESC_STRING */;
+VALUES (7412, 001 /* NAME_STRING */, 'Sluice Gate Bar')
+     , (7412, 015 /* SHORT_DESC_STRING */, 'A heavy titanium bar.')
+     , (7412, 016 /* LONG_DESC_STRING */, 'A heavy titanium bar, used in pyreal forging mechanisms.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7412, 1, 33556621) /* SETUP_DID */
-     , (7412, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7412, 8, 100670803) /* ICON_DID */
-     , (7412, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7412, 001 /* SETUP_DID */, 33556621)
+     , (7412, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7412, 008 /* ICON_DID */, 100670803)
+     , (7412, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7412, 33, 1) /* BONDED_INT */
-     , (7412, 9, 0) /* LOCATIONS_INT */
-     , (7412, 1, 128) /* ITEM_TYPE_INT */
-     , (7412, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7412, 5, 1080) /* ENCUMB_VAL_INT */
-     , (7412, 16, 1) /* ITEM_USEABLE_INT */
-     , (7412, 8, 1080) /* MASS_INT */
-     , (7412, 19, 200) /* VALUE_INT */
-     , (7412, 114, 1) /* ATTUNED_INT */;
+VALUES (7412, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (7412, 005 /* ENCUMB_VAL_INT */, 1080)
+     , (7412, 008 /* MASS_INT */, 1080)
+     , (7412, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7412, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7412, 019 /* VALUE_INT */, 200)
+     , (7412, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7412, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7412, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7412, 39, 0.2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (7412, 039 /* DEFAULT_SCALE_FLOAT */, 0.2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7412, 22, True) /* INSCRIBABLE_BOOL */
-     , (7412, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7412, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7412, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 15709;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15709, 'shieldofvalorcottagessign', /* Generic_WeenieType */ 1);
+VALUES (15709, 'shieldofvalorcottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15709, 16, 'Welcome to Shield of Valor Cottages') /* LONG_DESC_STRING */
-     , (15709, 1, 'Shield of Valor Cottages') /* NAME_STRING */;
+VALUES (15709, 001 /* NAME_STRING */, 'Shield of Valor Cottages')
+     , (15709, 016 /* LONG_DESC_STRING */, 'Welcome to Shield of Valor Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15709, 1, 33557463) /* SETUP_DID */
-     , (15709, 8, 100668115) /* ICON_DID */;
+VALUES (15709, 001 /* SETUP_DID */, 33557463)
+     , (15709, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15709, 1, 128) /* ITEM_TYPE_INT */
-     , (15709, 93, 1048) /* PHYSICS_STATE_INT */
-     , (15709, 5, 9000) /* ENCUMB_VAL_INT */
-     , (15709, 16, 1) /* ITEM_USEABLE_INT */
-     , (15709, 8, 1800) /* MASS_INT */
-     , (15709, 19, 125) /* VALUE_INT */;
+VALUES (15709, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (15709, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (15709, 008 /* MASS_INT */, 1800)
+     , (15709, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15709, 019 /* VALUE_INT */, 125)
+     , (15709, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15709, 1, True) /* STUCK_BOOL */
-     , (15709, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (15709, 13, False) /* ETHEREAL_BOOL */
-     , (15709, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (15709, 001 /* STUCK_BOOL */, True)
+     , (15709, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (15709, 013 /* ETHEREAL_BOOL */, False)
+     , (15709, 022 /* INSCRIBABLE_BOOL */, False);
 

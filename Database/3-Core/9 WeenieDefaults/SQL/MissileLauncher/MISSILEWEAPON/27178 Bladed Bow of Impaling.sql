@@ -2,65 +2,65 @@
 DELETE FROM weenie WHERE class_Id = 27178;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27178, 'bowliazk4', /* MissileLauncher_WeenieType */ 3);
+VALUES (27178, 'bowliazk4', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27178, 16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LONG_DESC_STRING */
-     , (27178, 1, 'Bladed Bow of Impaling') /* NAME_STRING */;
+VALUES (27178, 001 /* NAME_STRING */, 'Bladed Bow of Impaling')
+     , (27178, 016 /* LONG_DESC_STRING */, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27178, 1, 33558633) /* SETUP_DID */
-     , (27178, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27178, 30, 87) /* PHYSICS_SCRIPT_DID */
-     , (27178, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (27178, 6, 67114956) /* PALETTE_BASE_DID */
-     , (27178, 7, 268436792) /* CLOTHINGBASE_DID */
-     , (27178, 8, 100675922) /* ICON_DID */;
+VALUES (27178, 001 /* SETUP_DID */, 33558633)
+     , (27178, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27178, 006 /* PALETTE_BASE_DID */, 67114956)
+     , (27178, 007 /* CLOTHINGBASE_DID */, 268436792)
+     , (27178, 008 /* ICON_DID */, 100675922)
+     , (27178, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (27178, 030 /* PHYSICS_SCRIPT_DID */, 87 /* PS_BreatheLightning */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27178, 9, 4194304) /* LOCATIONS_INT */
-     , (27178, 1, 256) /* ITEM_TYPE_INT */
-     , (27178, 19, 6000) /* VALUE_INT */
-     , (27178, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (27178, 5, 975) /* ENCUMB_VAL_INT */
-     , (27178, 16, 1) /* ITEM_USEABLE_INT */
-     , (27178, 8, 220) /* MASS_INT */
-     , (27178, 18, 1) /* UI_EFFECTS_INT */
-     , (27178, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (27178, 151, 2) /* HOOK_TYPE_INT */
-     , (27178, 93, 3092) /* PHYSICS_STATE_INT */
-     , (27178, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (27178, 159, 2) /* WIELD_SKILLTYPE_INT */
-     , (27178, 160, 335) /* WIELD_DIFFICULTY_INT */
-     , (27178, 106, 375) /* ITEM_SPELLCRAFT_INT */
-     , (27178, 107, 1200) /* ITEM_CUR_MANA_INT */
-     , (27178, 44, 9) /* DAMAGE_INT */
-     , (27178, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (27178, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (27178, 46, 16) /* DEFAULT_COMBAT_STYLE_INT */
-     , (27178, 48, 2) /* WEAPON_SKILL_INT */
-     , (27178, 49, 40) /* WEAPON_TIME_INT */
-     , (27178, 50, 1) /* AMMO_TYPE_INT */
-     , (27178, 51, 2) /* COMBAT_USE_INT */
-     , (27178, 52, 2) /* PARENT_LOCATION_INT */
-     , (27178, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (27178, 60, 200) /* WEAPON_RANGE_INT */;
+VALUES (27178, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (27178, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (27178, 005 /* ENCUMB_VAL_INT */, 975)
+     , (27178, 008 /* MASS_INT */, 220)
+     , (27178, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (27178, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (27178, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (27178, 019 /* VALUE_INT */, 6000)
+     , (27178, 044 /* DAMAGE_INT */, 9)
+     , (27178, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
+     , (27178, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
+     , (27178, 049 /* WEAPON_TIME_INT */, 40)
+     , (27178, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (27178, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (27178, 052 /* PARENT_LOCATION_INT */, 2)
+     , (27178, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (27178, 060 /* WEAPON_RANGE_INT */, 200)
+     , (27178, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (27178, 106 /* ITEM_SPELLCRAFT_INT */, 375)
+     , (27178, 107 /* ITEM_CUR_MANA_INT */, 1200)
+     , (27178, 108 /* ITEM_MAX_MANA_INT */, 1200)
+     , (27178, 109 /* ITEM_DIFFICULTY_INT */, 200)
+     , (27178, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (27178, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (27178, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (27178, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
+     , (27178, 160 /* WIELD_DIFFICULTY_INT */, 335);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27178, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
-     , (27178, 21, 0.75) /* WEAPON_LENGTH_FLOAT */
-     , (27178, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (27178, 63, 2.9) /* DAMAGE_MOD_FLOAT */
-     , (27178, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (27178, 136, 2.5) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (27178, 147, 0.15) /* CRITICAL_FREQUENCY_FLOAT */
-     , (27178, 26, 26.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (27178, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (27178, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (27178, 021 /* WEAPON_LENGTH_FLOAT */, 0.75)
+     , (27178, 026 /* MAXIMUM_VELOCITY_FLOAT */, 26.3)
+     , (27178, 029 /* WEAPON_DEFENSE_FLOAT */, 1.09)
+     , (27178, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (27178, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (27178, 063 /* DAMAGE_MOD_FLOAT */, 2.9)
+     , (27178, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 2.5)
+     , (27178, 147 /* CRITICAL_FREQUENCY_FLOAT */, 0.15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27178, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (27178, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (27178, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (27178, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (27178, 022 /* INSCRIBABLE_BOOL */, True)
+     , (27178, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27178, 1605, 2) /* Defender6_SpellID */

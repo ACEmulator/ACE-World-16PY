@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 30189;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30189, 'gemrarevolatileaxe', /* Gem_WeenieType */ 38);
+VALUES (30189, 'gemrarevolatileaxe', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30189, 16, 'A lovely template for a rare magical gem.') /* LONG_DESC_STRING */
-     , (30189, 1, 'Thorsten''s Crystal') /* NAME_STRING */;
+VALUES (30189, 001 /* NAME_STRING */, 'Thorsten''s Crystal')
+     , (30189, 016 /* LONG_DESC_STRING */, 'A lovely template for a rare magical gem.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30189, 1, 33554809) /* SETUP_DID */
-     , (30189, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30189, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (30189, 6, 67111919) /* PALETTE_BASE_DID */
-     , (30189, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (30189, 8, 100674739) /* ICON_DID */
-     , (30189, 28, 3685) /* SPELL_DID */;
+VALUES (30189, 001 /* SETUP_DID */, 33554809)
+     , (30189, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30189, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (30189, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (30189, 008 /* ICON_DID */, 100674739)
+     , (30189, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (30189, 028 /* SPELL_DID */, 3685 /* AxeMasteryRare_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30189, 9, 0) /* LOCATIONS_INT */
-     , (30189, 1, 2048) /* ITEM_TYPE_INT */
-     , (30189, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (30189, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (30189, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (30189, 5, 5) /* ENCUMB_VAL_INT */
-     , (30189, 8, 5) /* MASS_INT */
-     , (30189, 12, 1) /* STACK_SIZE_INT */
-     , (30189, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (30189, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (30189, 16, 8) /* ITEM_USEABLE_INT */
-     , (30189, 18, 1) /* UI_EFFECTS_INT */
-     , (30189, 19, 0) /* VALUE_INT */
-     , (30189, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (30189, 151, 11) /* HOOK_TYPE_INT */
-     , (30189, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30189, 94, 16) /* TARGET_TYPE_INT */;
+VALUES (30189, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (30189, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (30189, 005 /* ENCUMB_VAL_INT */, 5)
+     , (30189, 008 /* MASS_INT */, 5)
+     , (30189, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30189, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (30189, 012 /* STACK_SIZE_INT */, 1)
+     , (30189, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (30189, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (30189, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (30189, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (30189, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (30189, 019 /* VALUE_INT */, 0)
+     , (30189, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30189, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (30189, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (30189, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30189, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30189, 022 /* INSCRIBABLE_BOOL */, True);
 

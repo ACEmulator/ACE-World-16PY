@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 9612;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9612, 'scrollmanaineptitude5', /* Scroll_WeenieType */ 34);
+VALUES (9612, 'scrollmanaineptitude5', 34 /* Scroll_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9612, 16, 'When learned, this spell decreases the target''s Mana Conversion skill by 50%.') /* LONG_DESC_STRING */
-     , (9612, 1, 'Scroll of Mana Ineptitude Other V') /* NAME_STRING */
-     , (9612, 15, 'A magic scroll.') /* SHORT_DESC_STRING */;
+VALUES (9612, 001 /* NAME_STRING */, 'Scroll of Mana Ineptitude Other V')
+     , (9612, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
+     , (9612, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases the target''s Mana Conversion skill by 50%.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9612, 1, 33554826) /* SETUP_DID */
-     , (9612, 8, 100676466) /* ICON_DID */
-     , (9612, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9612, 28, 676) /* SPELL_DID */;
+VALUES (9612, 001 /* SETUP_DID */, 33554826)
+     , (9612, 008 /* ICON_DID */, 100676466)
+     , (9612, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (9612, 028 /* SPELL_DID */, 676 /* ManaIneptitudeOther5_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9612, 9, 0) /* LOCATIONS_INT */
-     , (9612, 1, 8192) /* ITEM_TYPE_INT */
-     , (9612, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9612, 5, 30) /* ENCUMB_VAL_INT */
-     , (9612, 16, 8) /* ITEM_USEABLE_INT */
-     , (9612, 8, 90) /* MASS_INT */
-     , (9612, 19, 200) /* VALUE_INT */;
+VALUES (9612, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (9612, 005 /* ENCUMB_VAL_INT */, 30)
+     , (9612, 008 /* MASS_INT */, 90)
+     , (9612, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9612, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (9612, 019 /* VALUE_INT */, 200)
+     , (9612, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9612, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9612, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9612, 22, True) /* INSCRIBABLE_BOOL */
-     , (9612, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9612, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9612, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

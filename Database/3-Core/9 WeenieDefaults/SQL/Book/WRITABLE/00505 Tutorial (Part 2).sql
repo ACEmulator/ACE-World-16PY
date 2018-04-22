@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 505;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (505, 'sign-arwictutorial2', /* Book_WeenieType */ 8);
+VALUES (505, 'sign-arwictutorial2', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (505, 1, 'Tutorial (Part 2)') /* NAME_STRING */;
+VALUES (505, 001 /* NAME_STRING */, 'Tutorial (Part 2)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (505, 1, 33555088) /* SETUP_DID */
-     , (505, 8, 100668115) /* ICON_DID */;
+VALUES (505, 001 /* SETUP_DID */, 33555088)
+     , (505, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (505, 1, 8192) /* ITEM_TYPE_INT */
-     , (505, 93, 1048) /* PHYSICS_STATE_INT */
-     , (505, 5, 9000) /* ENCUMB_VAL_INT */
-     , (505, 16, 48) /* ITEM_USEABLE_INT */
-     , (505, 8, 1800) /* MASS_INT */
-     , (505, 19, 125) /* VALUE_INT */;
+VALUES (505, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (505, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (505, 008 /* MASS_INT */, 1800)
+     , (505, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (505, 019 /* VALUE_INT */, 125)
+     , (505, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (505, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (505, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (505, 1, True) /* STUCK_BOOL */
-     , (505, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (505, 13, False) /* ETHEREAL_BOOL */
-     , (505, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (505, 001 /* STUCK_BOOL */, True)
+     , (505, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (505, 013 /* ETHEREAL_BOOL */, False)
+     , (505, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (505, 6, 1000) /* Book Data */;

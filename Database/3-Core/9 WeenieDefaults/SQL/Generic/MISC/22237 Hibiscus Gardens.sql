@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 22237;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22237, 'hibiscusgardenssign', /* Generic_WeenieType */ 1);
+VALUES (22237, 'hibiscusgardenssign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22237, 16, 'Hibiscus Gardens') /* LONG_DESC_STRING */
-     , (22237, 1, 'Hibiscus Gardens') /* NAME_STRING */;
+VALUES (22237, 001 /* NAME_STRING */, 'Hibiscus Gardens')
+     , (22237, 016 /* LONG_DESC_STRING */, 'Hibiscus Gardens');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22237, 1, 33558051) /* SETUP_DID */
-     , (22237, 8, 100667499) /* ICON_DID */;
+VALUES (22237, 001 /* SETUP_DID */, 33558051)
+     , (22237, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22237, 1, 128) /* ITEM_TYPE_INT */
-     , (22237, 93, 1048) /* PHYSICS_STATE_INT */
-     , (22237, 5, 9000) /* ENCUMB_VAL_INT */
-     , (22237, 16, 1) /* ITEM_USEABLE_INT */
-     , (22237, 8, 1800) /* MASS_INT */
-     , (22237, 19, 125) /* VALUE_INT */;
+VALUES (22237, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22237, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (22237, 008 /* MASS_INT */, 1800)
+     , (22237, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22237, 019 /* VALUE_INT */, 125)
+     , (22237, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22237, 1, True) /* STUCK_BOOL */
-     , (22237, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (22237, 13, False) /* ETHEREAL_BOOL */
-     , (22237, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (22237, 001 /* STUCK_BOOL */, True)
+     , (22237, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (22237, 013 /* ETHEREAL_BOOL */, False)
+     , (22237, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 1955;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1955, 'portalgateway', /* Portal_WeenieType */ 7);
+VALUES (1955, 'portalgateway', 7 /* Portal_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1955, 1, 'Gateway') /* NAME_STRING */
-     , (1955, 14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* USE_STRING */;
+VALUES (1955, 001 /* NAME_STRING */, 'Gateway')
+     , (1955, 014 /* USE_STRING */, 'You must use this portal to activate it. Walking through the portal will not activate it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1955, 1, 33556212) /* SETUP_DID */
-     , (1955, 2, 150994947) /* MOTION_TABLE_DID */
-     , (1955, 6, 67109370) /* PALETTE_BASE_DID */
-     , (1955, 7, 268435652) /* CLOTHINGBASE_DID */
-     , (1955, 8, 100667499) /* ICON_DID */;
+VALUES (1955, 001 /* SETUP_DID */, 33556212)
+     , (1955, 002 /* MOTION_TABLE_DID */, 150994947)
+     , (1955, 006 /* PALETTE_BASE_DID */, 67109370)
+     , (1955, 007 /* CLOTHINGBASE_DID */, 268435652)
+     , (1955, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1955, 1, 65536) /* ITEM_TYPE_INT */
-     , (1955, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (1955, 93, 2052) /* PHYSICS_STATE_INT */
-     , (1955, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (1955, 16, 32) /* ITEM_USEABLE_INT */
-     , (1955, 111, 1) /* PORTAL_BITMASK_INT */;
+VALUES (1955, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
+     , (1955, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (1955, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (1955, 093 /* PHYSICS_STATE_INT */, 2052 /* ETHEREAL_PS, LIGHTING_ON_PS */)
+     , (1955, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
+     , (1955, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1955, 12, 0.5) /* SHADE_FLOAT */
-     , (1955, 54, 0.75) /* USE_RADIUS_FLOAT */;
+VALUES (1955, 012 /* SHADE_FLOAT */, 0.5)
+     , (1955, 054 /* USE_RADIUS_FLOAT */, 0.75);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1955, 1, True) /* STUCK_BOOL */
-     , (1955, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (1955, 12, False) /* REPORT_COLLISIONS_BOOL */
-     , (1955, 13, True) /* ETHEREAL_BOOL */
-     , (1955, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (1955, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (1955, 001 /* STUCK_BOOL */, True)
+     , (1955, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (1955, 012 /* REPORT_COLLISIONS_BOOL */, False)
+     , (1955, 013 /* ETHEREAL_BOOL */, True)
+     , (1955, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (1955, 015 /* LIGHTS_STATUS_BOOL */, True);
 

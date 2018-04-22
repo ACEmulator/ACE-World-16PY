@@ -2,19 +2,19 @@
 DELETE FROM weenie WHERE class_Id = 9547;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9547, 'hud', /* HUD_WeenieType */ 52);
+VALUES (9547, 'hud', 52 /* HUD_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9547, 1, 'HUD') /* NAME_STRING */;
+VALUES (9547, 001 /* NAME_STRING */, 'HUD');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9547, 1, 33554673) /* SETUP_DID */
-     , (9547, 8, 100667460) /* ICON_DID */;
+VALUES (9547, 001 /* SETUP_DID */, 33554673)
+     , (9547, 008 /* ICON_DID */, 100667460);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9547, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (9547, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9547, 1, True) /* STUCK_BOOL */
-     , (9547, 18, True) /* VISIBILITY_BOOL */;
+VALUES (9547, 001 /* STUCK_BOOL */, True)
+     , (9547, 018 /* VISIBILITY_BOOL */, True);
 

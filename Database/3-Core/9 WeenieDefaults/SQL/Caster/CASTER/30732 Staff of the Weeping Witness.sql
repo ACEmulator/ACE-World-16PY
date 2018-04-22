@@ -2,55 +2,55 @@
 DELETE FROM weenie WHERE class_Id = 30732;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30732, 'staffweepingwitness', /* Caster_WeenieType */ 35);
+VALUES (30732, 'staffweepingwitness', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30732, 25, 'Caeryn Dryad') /* CRAFTSMAN_NAME_STRING */
-     , (30732, 1, 'Staff of the Weeping Witness') /* NAME_STRING */
-     , (30732, 7, 'This staff commemorates the efforts of Caeryn Dryad and her fellowship to decipher the mysterious prophecy of a world before this one.') /* INSCRIPTION_STRING */
-     , (30732, 8, '+Sarneho') /* SCRIBE_NAME_STRING */;
+VALUES (30732, 001 /* NAME_STRING */, 'Staff of the Weeping Witness')
+     , (30732, 007 /* INSCRIPTION_STRING */, 'This staff commemorates the efforts of Caeryn Dryad and her fellowship to decipher the mysterious prophecy of a world before this one.')
+     , (30732, 008 /* SCRIBE_NAME_STRING */, '+Sarneho')
+     , (30732, 025 /* CRAFTSMAN_NAME_STRING */, 'Caeryn Dryad');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30732, 1, 33555022) /* SETUP_DID */
-     , (30732, 27, 1073742048) /* USE_USER_ANIMATION_DID */
-     , (30732, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30732, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (30732, 6, 67111919) /* PALETTE_BASE_DID */
-     , (30732, 7, 268435796) /* CLOTHINGBASE_DID */
-     , (30732, 8, 100669104) /* ICON_DID */
-     , (30732, 28, 68) /* SPELL_DID */;
+VALUES (30732, 001 /* SETUP_DID */, 33555022)
+     , (30732, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30732, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (30732, 007 /* CLOTHINGBASE_DID */, 268435796)
+     , (30732, 008 /* ICON_DID */, 100669104)
+     , (30732, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (30732, 027 /* USE_USER_ANIMATION_DID */, 1073742048 /* Motion_UseMagicStaff */)
+     , (30732, 028 /* SPELL_DID */, 68 /* ShockWave5_SpellID */);
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30732, 38, 4294967295) /* ALLOWED_WIELDER_IID */;
+VALUES (30732, 038 /* ALLOWED_WIELDER_IID */, 4294967295);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30732, 9, 16777216) /* LOCATIONS_INT */
-     , (30732, 1, 32768) /* ITEM_TYPE_INT */
-     , (30732, 19, 4301) /* VALUE_INT */
-     , (30732, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (30732, 5, 50) /* ENCUMB_VAL_INT */
-     , (30732, 16, 1) /* ITEM_USEABLE_INT */
-     , (30732, 8, 50) /* MASS_INT */
-     , (30732, 18, 1) /* UI_EFFECTS_INT */
-     , (30732, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (30732, 151, 2) /* HOOK_TYPE_INT */
-     , (30732, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30732, 94, 16) /* TARGET_TYPE_INT */
-     , (30732, 106, 467) /* ITEM_SPELLCRAFT_INT */
-     , (30732, 107, 367) /* ITEM_CUR_MANA_INT */
-     , (30732, 108, 367) /* ITEM_MAX_MANA_INT */
-     , (30732, 109, 60) /* ITEM_DIFFICULTY_INT */
-     , (30732, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */;
+VALUES (30732, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (30732, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (30732, 005 /* ENCUMB_VAL_INT */, 50)
+     , (30732, 008 /* MASS_INT */, 50)
+     , (30732, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (30732, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (30732, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (30732, 019 /* VALUE_INT */, 4301)
+     , (30732, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (30732, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30732, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (30732, 106 /* ITEM_SPELLCRAFT_INT */, 467)
+     , (30732, 107 /* ITEM_CUR_MANA_INT */, 367)
+     , (30732, 108 /* ITEM_MAX_MANA_INT */, 367)
+     , (30732, 109 /* ITEM_DIFFICULTY_INT */, 60)
+     , (30732, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (30732, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30732, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (30732, 5, -0.055) /* MANA_RATE_FLOAT */
-     , (30732, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (30732, 005 /* MANA_RATE_FLOAT */, -0.055)
+     , (30732, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (30732, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30732, 69, False) /* IS_SELLABLE_BOOL */
-     , (30732, 84, True) /* IGNORE_CLO_ICONS_BOOL */
-     , (30732, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30732, 022 /* INSCRIBABLE_BOOL */, True)
+     , (30732, 069 /* IS_SELLABLE_BOOL */, False)
+     , (30732, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30732, 634, 2) /* WarMagicMasterySelf6_SpellID */;

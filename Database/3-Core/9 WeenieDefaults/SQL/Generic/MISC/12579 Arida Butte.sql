@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 12579;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (12579, 'aridabuttesign', /* Generic_WeenieType */ 1);
+VALUES (12579, 'aridabuttesign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12579, 16, 'Welcome to Arida Butte') /* LONG_DESC_STRING */
-     , (12579, 1, 'Arida Butte') /* NAME_STRING */;
+VALUES (12579, 001 /* NAME_STRING */, 'Arida Butte')
+     , (12579, 016 /* LONG_DESC_STRING */, 'Welcome to Arida Butte');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12579, 1, 33557463) /* SETUP_DID */
-     , (12579, 8, 100668115) /* ICON_DID */;
+VALUES (12579, 001 /* SETUP_DID */, 33557463)
+     , (12579, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (12579, 1, 128) /* ITEM_TYPE_INT */
-     , (12579, 93, 1048) /* PHYSICS_STATE_INT */
-     , (12579, 5, 9000) /* ENCUMB_VAL_INT */
-     , (12579, 16, 1) /* ITEM_USEABLE_INT */
-     , (12579, 8, 1800) /* MASS_INT */
-     , (12579, 19, 125) /* VALUE_INT */;
+VALUES (12579, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (12579, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (12579, 008 /* MASS_INT */, 1800)
+     , (12579, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (12579, 019 /* VALUE_INT */, 125)
+     , (12579, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12579, 1, True) /* STUCK_BOOL */
-     , (12579, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (12579, 13, False) /* ETHEREAL_BOOL */
-     , (12579, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (12579, 001 /* STUCK_BOOL */, True)
+     , (12579, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (12579, 013 /* ETHEREAL_BOOL */, False)
+     , (12579, 022 /* INSCRIBABLE_BOOL */, False);
 

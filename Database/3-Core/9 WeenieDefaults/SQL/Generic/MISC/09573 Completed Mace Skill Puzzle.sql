@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 9573;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9573, 'skillpuzzlecompletedmace', /* Generic_WeenieType */ 1);
+VALUES (9573, 'skillpuzzlecompletedmace', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9573, 16, 'A completed Mace Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* LONG_DESC_STRING */
-     , (9573, 1, 'Completed Mace Skill Puzzle') /* NAME_STRING */
-     , (9573, 15, 'A completed Mace Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.') /* SHORT_DESC_STRING */;
+VALUES (9573, 001 /* NAME_STRING */, 'Completed Mace Skill Puzzle')
+     , (9573, 015 /* SHORT_DESC_STRING */, 'A completed Mace Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.')
+     , (9573, 016 /* LONG_DESC_STRING */, 'A completed Mace Skill Puzzle.  Turn in to a Bestower Examiner to receive a title.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9573, 1, 33557028) /* SETUP_DID */
-     , (9573, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9573, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (9573, 8, 100671563) /* ICON_DID */
-     , (9573, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9573, 001 /* SETUP_DID */, 33557028)
+     , (9573, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9573, 008 /* ICON_DID */, 100671563)
+     , (9573, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (9573, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9573, 33, 1) /* BONDED_INT */
-     , (9573, 9, 0) /* LOCATIONS_INT */
-     , (9573, 1, 128) /* ITEM_TYPE_INT */
-     , (9573, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9573, 5, 10) /* ENCUMB_VAL_INT */
-     , (9573, 16, 1) /* ITEM_USEABLE_INT */
-     , (9573, 8, 10) /* MASS_INT */
-     , (9573, 19, 1000) /* VALUE_INT */
-     , (9573, 114, 1) /* ATTUNED_INT */;
+VALUES (9573, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9573, 005 /* ENCUMB_VAL_INT */, 10)
+     , (9573, 008 /* MASS_INT */, 10)
+     , (9573, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9573, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9573, 019 /* VALUE_INT */, 1000)
+     , (9573, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9573, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9573, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9573, 39, 1.67) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9573, 039 /* DEFAULT_SCALE_FLOAT */, 1.67);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9573, 69, False) /* IS_SELLABLE_BOOL */
-     , (9573, 22, True) /* INSCRIBABLE_BOOL */
-     , (9573, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9573, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9573, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (9573, 069 /* IS_SELLABLE_BOOL */, False);
 

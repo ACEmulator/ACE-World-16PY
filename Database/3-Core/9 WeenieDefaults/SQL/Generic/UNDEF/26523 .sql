@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 26523;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26523, 'templecryptspiritsgenerator', /* Generic_WeenieType */ 1);
+VALUES (26523, 'templecryptspiritsgenerator', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26523, 1, 'templecryptspiritsgenerator') /* NAME_STRING */;
+VALUES (26523, 001 /* NAME_STRING */, 'templecryptspiritsgenerator');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26523, 1, 33555051) /* SETUP_DID */
-     , (26523, 8, 100667494) /* ICON_DID */;
+VALUES (26523, 001 /* SETUP_DID */, 33555051)
+     , (26523, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26523, 81, 12) /* MAX_GENERATED_OBJECTS_INT */
-     , (26523, 82, 3) /* INIT_GENERATED_OBJECTS_INT */
-     , (26523, 83, 65536) /* ACTIVATION_RESPONSE_INT */
-     , (26523, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (26523, 081 /* MAX_GENERATED_OBJECTS_INT */, 12)
+     , (26523, 082 /* INIT_GENERATED_OBJECTS_INT */, 3)
+     , (26523, 083 /* ACTIVATION_RESPONSE_INT */, 65536 /* Generate_ActivationResponse */)
+     , (26523, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26523, 41, 0) /* REGENERATION_INTERVAL_FLOAT */
-     , (26523, 11, 0) /* RESET_INTERVAL_FLOAT */;
+VALUES (26523, 011 /* RESET_INTERVAL_FLOAT */, 0)
+     , (26523, 041 /* REGENERATION_INTERVAL_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26523, 1, True) /* STUCK_BOOL */
-     , (26523, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (26523, 18, True) /* VISIBILITY_BOOL */;
+VALUES (26523, 001 /* STUCK_BOOL */, True)
+     , (26523, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (26523, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26523, -1, 26520, 300, 1, 1, 1, 4, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Crypt Spirit (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

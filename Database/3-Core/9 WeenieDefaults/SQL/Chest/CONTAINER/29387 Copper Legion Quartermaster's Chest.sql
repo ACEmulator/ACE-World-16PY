@@ -2,54 +2,54 @@
 DELETE FROM weenie WHERE class_Id = 29387;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29387, 'chestquartermastercopper', /* Chest_WeenieType */ 20);
+VALUES (29387, 'chestquartermastercopper', 20 /* Chest_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29387, 16, 'A stout iron chest, wrought with icicle-shaped carvings.') /* LONG_DESC_STRING */
-     , (29387, 1, 'Copper Legion Quartermaster''s Chest') /* NAME_STRING */
-     , (29387, 12, 'keyultimatefrore') /* LOCK_CODE_STRING */
-     , (29387, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
-     , (29387, 15, 'A stout iron chest, wrought with icicle-shaped carvings.') /* SHORT_DESC_STRING */;
+VALUES (29387, 001 /* NAME_STRING */, 'Copper Legion Quartermaster''s Chest')
+     , (29387, 012 /* LOCK_CODE_STRING */, 'keyultimatefrore')
+     , (29387, 014 /* USE_STRING */, 'Use this item to open it and see its contents.')
+     , (29387, 015 /* SHORT_DESC_STRING */, 'A stout iron chest, wrought with icicle-shaped carvings.')
+     , (29387, 016 /* LONG_DESC_STRING */, 'A stout iron chest, wrought with icicle-shaped carvings.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29387, 1, 33554556) /* SETUP_DID */
-     , (29387, 2, 150994948) /* MOTION_TABLE_DID */
-     , (29387, 3, 536870945) /* SOUND_TABLE_DID */
-     , (29387, 8, 100667424) /* ICON_DID */
-     , (29387, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29387, 001 /* SETUP_DID */, 33554556)
+     , (29387, 002 /* MOTION_TABLE_DID */, 150994948)
+     , (29387, 003 /* SOUND_TABLE_DID */, 536870945)
+     , (29387, 008 /* ICON_DID */, 100667424)
+     , (29387, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29387, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
-     , (29387, 1, 512) /* ITEM_TYPE_INT */
-     , (29387, 5, 9000) /* ENCUMB_VAL_INT */
-     , (29387, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (29387, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (29387, 16, 48) /* ITEM_USEABLE_INT */
-     , (29387, 8, 3000) /* MASS_INT */
-     , (29387, 82, 4) /* INIT_GENERATED_OBJECTS_INT */
-     , (29387, 19, 2500) /* VALUE_INT */
-     , (29387, 83, 2) /* ACTIVATION_RESPONSE_INT */
-     , (29387, 93, 1048) /* PHYSICS_STATE_INT */
-     , (29387, 96, -1) /* ENCUMB_CAPACITY_INT */
-     , (29387, 100, 1) /* GENERATOR_TYPE_INT */
-     , (29387, 37, 30) /* RESIST_ITEM_APPRAISAL_INT */
-     , (29387, 38, 999) /* RESIST_LOCKPICK_INT */;
+VALUES (29387, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (29387, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (29387, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (29387, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (29387, 008 /* MASS_INT */, 3000)
+     , (29387, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (29387, 019 /* VALUE_INT */, 2500)
+     , (29387, 037 /* RESIST_ITEM_APPRAISAL_INT */, 30)
+     , (29387, 038 /* RESIST_LOCKPICK_INT */, 999)
+     , (29387, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
+     , (29387, 082 /* INIT_GENERATED_OBJECTS_INT */, 4)
+     , (29387, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
+     , (29387, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29387, 096 /* ENCUMB_CAPACITY_INT */, -1)
+     , (29387, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29387, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (29387, 43, 1) /* GENERATOR_RADIUS_FLOAT */
-     , (29387, 11, 66) /* RESET_INTERVAL_FLOAT */
-     , (29387, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (29387, 011 /* RESET_INTERVAL_FLOAT */, 66)
+     , (29387, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (29387, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
+     , (29387, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29387, 1, True) /* STUCK_BOOL */
-     , (29387, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (29387, 2, False) /* OPEN_BOOL */
-     , (29387, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (29387, 3, True) /* LOCKED_BOOL */
-     , (29387, 35, True) /* DEFAULT_LOCKED_BOOL */
-     , (29387, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (29387, 13, False) /* ETHEREAL_BOOL */;
+VALUES (29387, 001 /* STUCK_BOOL */, True)
+     , (29387, 002 /* OPEN_BOOL */, False)
+     , (29387, 003 /* LOCKED_BOOL */, True)
+     , (29387, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (29387, 013 /* ETHEREAL_BOOL */, False)
+     , (29387, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (29387, 034 /* DEFAULT_OPEN_BOOL */, False)
+     , (29387, 035 /* DEFAULT_LOCKED_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29387, -1, 26007, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Gelidite Robe (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */

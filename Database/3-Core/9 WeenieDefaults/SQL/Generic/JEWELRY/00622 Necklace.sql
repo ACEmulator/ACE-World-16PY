@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 622;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (622, 'necklace', /* Generic_WeenieType */ 1);
+VALUES (622, 'necklace', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (622, 1, 'Necklace') /* NAME_STRING */;
+VALUES (622, 001 /* NAME_STRING */, 'Necklace');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (622, 1, 33554689) /* SETUP_DID */
-     , (622, 3, 536870932) /* SOUND_TABLE_DID */
-     , (622, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (622, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (622, 6, 67111919) /* PALETTE_BASE_DID */
-     , (622, 7, 268435749) /* CLOTHINGBASE_DID */
-     , (622, 8, 100668752) /* ICON_DID */;
+VALUES (622, 001 /* SETUP_DID */, 33554689)
+     , (622, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (622, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (622, 007 /* CLOTHINGBASE_DID */, 268435749)
+     , (622, 008 /* ICON_DID */, 100668752)
+     , (622, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (622, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (622, 169, 33687300) /* TSYS_MUTATION_DATA_INT */
-     , (622, 9, 32768) /* LOCATIONS_INT */
-     , (622, 1, 8) /* ITEM_TYPE_INT */
-     , (622, 19, 50) /* VALUE_INT */
-     , (622, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (622, 93, 1044) /* PHYSICS_STATE_INT */
-     , (622, 5, 45) /* ENCUMB_VAL_INT */
-     , (622, 16, 1) /* ITEM_USEABLE_INT */
-     , (622, 8, 30) /* MASS_INT */;
+VALUES (622, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (622, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (622, 005 /* ENCUMB_VAL_INT */, 45)
+     , (622, 008 /* MASS_INT */, 30)
+     , (622, 009 /* LOCATIONS_INT */, 32768 /* NECK_WEAR_LOC */)
+     , (622, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (622, 019 /* VALUE_INT */, 50)
+     , (622, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (622, 169 /* TSYS_MUTATION_DATA_INT */, 33687300);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (622, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
+VALUES (622, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (622, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (622, 022 /* INSCRIBABLE_BOOL */, True);
 

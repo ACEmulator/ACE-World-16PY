@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 1886;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1886, 'scrollhidevalue', /* Scroll_WeenieType */ 34);
+VALUES (1886, 'scrollhidevalue', 34 /* Scroll_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1886, 16, 'When learned, this spell decreases a magic casting implement''s mana conversion bonus by 10%.') /* LONG_DESC_STRING */
-     , (1886, 1, 'Scroll of Hermetic Void') /* NAME_STRING */
-     , (1886, 15, 'A magic scroll.') /* SHORT_DESC_STRING */;
+VALUES (1886, 001 /* NAME_STRING */, 'Scroll of Hermetic Void')
+     , (1886, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
+     , (1886, 016 /* LONG_DESC_STRING */, 'When learned, this spell decreases a magic casting implement''s mana conversion bonus by 10%.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1886, 1, 33554826) /* SETUP_DID */
-     , (1886, 8, 100676671) /* ICON_DID */
-     , (1886, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (1886, 28, 1469) /* SPELL_DID */;
+VALUES (1886, 001 /* SETUP_DID */, 33554826)
+     , (1886, 008 /* ICON_DID */, 100676671)
+     , (1886, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (1886, 028 /* SPELL_DID */, 1469 /* HideValue1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1886, 9, 0) /* LOCATIONS_INT */
-     , (1886, 1, 8192) /* ITEM_TYPE_INT */
-     , (1886, 93, 1044) /* PHYSICS_STATE_INT */
-     , (1886, 5, 30) /* ENCUMB_VAL_INT */
-     , (1886, 16, 8) /* ITEM_USEABLE_INT */
-     , (1886, 8, 90) /* MASS_INT */
-     , (1886, 19, 1) /* VALUE_INT */;
+VALUES (1886, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (1886, 005 /* ENCUMB_VAL_INT */, 30)
+     , (1886, 008 /* MASS_INT */, 90)
+     , (1886, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (1886, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (1886, 019 /* VALUE_INT */, 1)
+     , (1886, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1886, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (1886, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1886, 22, True) /* INSCRIBABLE_BOOL */
-     , (1886, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (1886, 022 /* INSCRIBABLE_BOOL */, True)
+     , (1886, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

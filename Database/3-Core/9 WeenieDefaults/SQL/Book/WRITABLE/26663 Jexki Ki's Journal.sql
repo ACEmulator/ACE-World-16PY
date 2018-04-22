@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 26663;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26663, 'journaljexkiki', /* Book_WeenieType */ 8);
+VALUES (26663, 'journaljexkiki', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26663, 1, 'Jexki Ki''s Journal') /* NAME_STRING */;
+VALUES (26663, 001 /* NAME_STRING */, 'Jexki Ki''s Journal');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26663, 1, 33558620) /* SETUP_DID */
-     , (26663, 3, 536870932) /* SOUND_TABLE_DID */
-     , (26663, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (26663, 6, 67114959) /* PALETTE_BASE_DID */
-     , (26663, 8, 100675784) /* ICON_DID */;
+VALUES (26663, 001 /* SETUP_DID */, 33558620)
+     , (26663, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (26663, 006 /* PALETTE_BASE_DID */, 67114959)
+     , (26663, 008 /* ICON_DID */, 100675784)
+     , (26663, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26663, 9, 0) /* LOCATIONS_INT */
-     , (26663, 1, 8192) /* ITEM_TYPE_INT */
-     , (26663, 93, 1044) /* PHYSICS_STATE_INT */
-     , (26663, 5, 25) /* ENCUMB_VAL_INT */
-     , (26663, 16, 8) /* ITEM_USEABLE_INT */
-     , (26663, 8, 200) /* MASS_INT */
-     , (26663, 19, 90) /* VALUE_INT */;
+VALUES (26663, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (26663, 005 /* ENCUMB_VAL_INT */, 25)
+     , (26663, 008 /* MASS_INT */, 200)
+     , (26663, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (26663, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (26663, 019 /* VALUE_INT */, 90)
+     , (26663, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26663, 39, 1.22) /* DEFAULT_SCALE_FLOAT */;
+VALUES (26663, 039 /* DEFAULT_SCALE_FLOAT */, 1.22);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26663, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (26663, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (26663, 7, 1000) /* Book Data */;

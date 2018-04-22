@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 22717;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22717, 'totuskeremporiumsign', /* Generic_WeenieType */ 1);
+VALUES (22717, 'totuskeremporiumsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22717, 16, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)') /* LONG_DESC_STRING */
-     , (22717, 1, 'Not too far to the Tusker Emporium!') /* NAME_STRING */;
+VALUES (22717, 001 /* NAME_STRING */, 'Not too far to the Tusker Emporium!')
+     , (22717, 016 /* LONG_DESC_STRING */, 'Only a short way to the Tusker Emporium of Deadly Doom! (tm)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22717, 1, 33555984) /* SETUP_DID */
-     , (22717, 8, 100668115) /* ICON_DID */;
+VALUES (22717, 001 /* SETUP_DID */, 33555984)
+     , (22717, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22717, 1, 128) /* ITEM_TYPE_INT */
-     , (22717, 93, 1048) /* PHYSICS_STATE_INT */
-     , (22717, 5, 9000) /* ENCUMB_VAL_INT */
-     , (22717, 16, 1) /* ITEM_USEABLE_INT */
-     , (22717, 8, 1800) /* MASS_INT */
-     , (22717, 19, 125) /* VALUE_INT */;
+VALUES (22717, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22717, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (22717, 008 /* MASS_INT */, 1800)
+     , (22717, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22717, 019 /* VALUE_INT */, 125)
+     , (22717, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22717, 1, True) /* STUCK_BOOL */
-     , (22717, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (22717, 13, False) /* ETHEREAL_BOOL */
-     , (22717, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (22717, 001 /* STUCK_BOOL */, True)
+     , (22717, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (22717, 013 /* ETHEREAL_BOOL */, False)
+     , (22717, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 30401;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30401, 'hookerwallboundniffis', /* Hooker_WeenieType */ 64);
+VALUES (30401, 'hookerwallboundniffis', 64 /* Hooker_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30401, 16, 'A reward granted by the kindly Niffis Reijiri.') /* LONG_DESC_STRING */
-     , (30401, 1, 'Wallbound Niffis') /* NAME_STRING */
-     , (30401, 14, 'This item can be placed on wall hooks, where it can be used to cast its spells.') /* USE_STRING */;
+VALUES (30401, 001 /* NAME_STRING */, 'Wallbound Niffis')
+     , (30401, 014 /* USE_STRING */, 'This item can be placed on wall hooks, where it can be used to cast its spells.')
+     , (30401, 016 /* LONG_DESC_STRING */, 'A reward granted by the kindly Niffis Reijiri.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30401, 1, 33559117) /* SETUP_DID */
-     , (30401, 3, 536871010) /* SOUND_TABLE_DID */
-     , (30401, 6, 67112937) /* PALETTE_BASE_DID */
-     , (30401, 7, 268436039) /* CLOTHINGBASE_DID */
-     , (30401, 8, 100670961) /* ICON_DID */;
+VALUES (30401, 001 /* SETUP_DID */, 33559117)
+     , (30401, 003 /* SOUND_TABLE_DID */, 536871010)
+     , (30401, 006 /* PALETTE_BASE_DID */, 67112937)
+     , (30401, 007 /* CLOTHINGBASE_DID */, 268436039)
+     , (30401, 008 /* ICON_DID */, 100670961);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30401, 9, 0) /* LOCATIONS_INT */
-     , (30401, 1, 128) /* ITEM_TYPE_INT */
-     , (30401, 19, 2500) /* VALUE_INT */
-     , (30401, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (30401, 197, 16) /* HOOK_GROUP_INT */
-     , (30401, 5, 150) /* ENCUMB_VAL_INT */
-     , (30401, 16, 32) /* ITEM_USEABLE_INT */
-     , (30401, 8, 25) /* MASS_INT */
-     , (30401, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (30401, 151, 2) /* HOOK_TYPE_INT */
-     , (30401, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30401, 33, 1) /* BONDED_INT */;
+VALUES (30401, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (30401, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (30401, 005 /* ENCUMB_VAL_INT */, 150)
+     , (30401, 008 /* MASS_INT */, 25)
+     , (30401, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30401, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (30401, 019 /* VALUE_INT */, 2500)
+     , (30401, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (30401, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30401, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (30401, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (30401, 197 /* HOOK_GROUP_INT */, 16);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30401, 39, 0.5) /* DEFAULT_SCALE_FLOAT */
-     , (30401, 12, 0.5) /* SHADE_FLOAT */
-     , (30401, 54, 3) /* USE_RADIUS_FLOAT */;
+VALUES (30401, 012 /* SHADE_FLOAT */, 0.5)
+     , (30401, 039 /* DEFAULT_SCALE_FLOAT */, 0.5)
+     , (30401, 054 /* USE_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30401, 13, True) /* ETHEREAL_BOOL */
-     , (30401, 69, False) /* IS_SELLABLE_BOOL */
-     , (30401, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (30401, 013 /* ETHEREAL_BOOL */, True)
+     , (30401, 022 /* INSCRIBABLE_BOOL */, True)
+     , (30401, 069 /* IS_SELLABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (30401, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+VALUES (30401, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30401, 7, 0, 0, 19, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3758, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* CastSpellInstant_EmoteType */;
+VALUES (30401, 7 /* Use_EmoteCategory */, 0, 0, 19 /* CastSpellInstant_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 3758 /* CantripInkyArmor1_SpellID */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

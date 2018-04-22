@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 29883;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29883, 'bagsiraluuntidal1', /* CraftTool_WeenieType */ 44);
+VALUES (29883, 'bagsiraluuntidal1', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29883, 16, 'A nearly empty embroidered bag.  There is only one small bundle of Tidal Siraluun feathers in it.') /* LONG_DESC_STRING */
-     , (29883, 1, 'Embroidered Bag') /* NAME_STRING */
-     , (29883, 14, 'Use this on a small bundle of Tidal Siraluun feathers.') /* USE_STRING */;
+VALUES (29883, 001 /* NAME_STRING */, 'Embroidered Bag')
+     , (29883, 014 /* USE_STRING */, 'Use this on a small bundle of Tidal Siraluun feathers.')
+     , (29883, 016 /* LONG_DESC_STRING */, 'A nearly empty embroidered bag.  There is only one small bundle of Tidal Siraluun feathers in it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29883, 1, 33554769) /* SETUP_DID */
-     , (29883, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29883, 8, 100671838) /* ICON_DID */
-     , (29883, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29883, 001 /* SETUP_DID */, 33554769)
+     , (29883, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29883, 008 /* ICON_DID */, 100671838)
+     , (29883, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29883, 9, 0) /* LOCATIONS_INT */
-     , (29883, 1, 128) /* ITEM_TYPE_INT */
-     , (29883, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (29883, 5, 100) /* ENCUMB_VAL_INT */
-     , (29883, 8, 10) /* MASS_INT */
-     , (29883, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (29883, 12, 1) /* STACK_SIZE_INT */
-     , (29883, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (29883, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (29883, 16, 524296) /* ITEM_USEABLE_INT */
-     , (29883, 19, 0) /* VALUE_INT */
-     , (29883, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29883, 94, 128) /* TARGET_TYPE_INT */
-     , (29883, 33, 1) /* BONDED_INT */
-     , (29883, 114, 1) /* ATTUNED_INT */;
+VALUES (29883, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (29883, 005 /* ENCUMB_VAL_INT */, 100)
+     , (29883, 008 /* MASS_INT */, 10)
+     , (29883, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29883, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (29883, 012 /* STACK_SIZE_INT */, 1)
+     , (29883, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (29883, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (29883, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (29883, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (29883, 019 /* VALUE_INT */, 0)
+     , (29883, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (29883, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29883, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (29883, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29883, 22, True) /* INSCRIBABLE_BOOL */
-     , (29883, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (29883, 022 /* INSCRIBABLE_BOOL */, True)
+     , (29883, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

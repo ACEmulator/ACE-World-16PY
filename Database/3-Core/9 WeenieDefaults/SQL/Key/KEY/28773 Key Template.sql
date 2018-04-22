@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 28773;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28773, 'keydericostruinhalaetan', /* Key_WeenieType */ 22);
+VALUES (28773, 'keydericostruinhalaetan', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28773, 16, 'A template for a lovely key.') /* LONG_DESC_STRING */
-     , (28773, 1, 'Key Template') /* NAME_STRING */
-     , (28773, 13, 'chestkey1') /* KEY_CODE_STRING */;
+VALUES (28773, 001 /* NAME_STRING */, 'Key Template')
+     , (28773, 013 /* KEY_CODE_STRING */, 'chestkey1')
+     , (28773, 016 /* LONG_DESC_STRING */, 'A template for a lovely key.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28773, 1, 33554784) /* SETUP_DID */
-     , (28773, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28773, 8, 100667485) /* ICON_DID */
-     , (28773, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (28773, 001 /* SETUP_DID */, 33554784)
+     , (28773, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28773, 008 /* ICON_DID */, 100667485)
+     , (28773, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28773, 1, 16384) /* ITEM_TYPE_INT */
-     , (28773, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28773, 5, 5) /* ENCUMB_VAL_INT */
-     , (28773, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (28773, 8, 5) /* MASS_INT */
-     , (28773, 91, 1) /* MAX_STRUCTURE_INT */
-     , (28773, 19, 5) /* VALUE_INT */
-     , (28773, 92, 1) /* STRUCTURE_INT */
-     , (28773, 94, 640) /* TARGET_TYPE_INT */;
+VALUES (28773, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (28773, 005 /* ENCUMB_VAL_INT */, 5)
+     , (28773, 008 /* MASS_INT */, 5)
+     , (28773, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (28773, 019 /* VALUE_INT */, 5)
+     , (28773, 091 /* MAX_STRUCTURE_INT */, 1)
+     , (28773, 092 /* STRUCTURE_INT */, 1)
+     , (28773, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28773, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28773, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (28773, 022 /* INSCRIBABLE_BOOL */, True);
 

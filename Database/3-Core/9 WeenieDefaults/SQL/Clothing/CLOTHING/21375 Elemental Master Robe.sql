@@ -2,58 +2,58 @@
 DELETE FROM weenie WHERE class_Id = 21375;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21375, 'robegaerlanred', /* Clothing_WeenieType */ 2);
+VALUES (21375, 'robegaerlanred', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21375, 1, 'Elemental Master Robe') /* NAME_STRING */
-     , (21375, 15, 'A red robe trimmed in black, it is lined with an unknown material but feels like the perfect insulator.') /* SHORT_DESC_STRING */;
+VALUES (21375, 001 /* NAME_STRING */, 'Elemental Master Robe')
+     , (21375, 015 /* SHORT_DESC_STRING */, 'A red robe trimmed in black, it is lined with an unknown material but feels like the perfect insulator.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21375, 1, 33554854) /* SETUP_DID */
-     , (21375, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21375, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21375, 6, 67108990) /* PALETTE_BASE_DID */
-     , (21375, 7, 268436460) /* CLOTHINGBASE_DID */
-     , (21375, 8, 100673471) /* ICON_DID */;
+VALUES (21375, 001 /* SETUP_DID */, 33554854)
+     , (21375, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21375, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (21375, 007 /* CLOTHINGBASE_DID */, 268436460)
+     , (21375, 008 /* ICON_DID */, 100673471)
+     , (21375, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21375, 9, 32513) /* LOCATIONS_INT */
-     , (21375, 1, 4) /* ITEM_TYPE_INT */
-     , (21375, 19, 4000) /* VALUE_INT */
-     , (21375, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (21375, 4, 98048) /* CLOTHING_PRIORITY_INT */
-     , (21375, 5, 450) /* ENCUMB_VAL_INT */
-     , (21375, 16, 1) /* ITEM_USEABLE_INT */
-     , (21375, 8, 450) /* MASS_INT */
-     , (21375, 18, 1) /* UI_EFFECTS_INT */
-     , (21375, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21375, 151, 2) /* HOOK_TYPE_INT */
-     , (21375, 27, 1) /* ARMOR_TYPE_INT */
-     , (21375, 28, 80) /* ARMOR_LEVEL_INT */
-     , (21375, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21375, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (21375, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (21375, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (21375, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21375, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (21375, 107, 2000) /* ITEM_CUR_MANA_INT */
-     , (21375, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (21375, 109, 225) /* ITEM_DIFFICULTY_INT */;
+VALUES (21375, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
+     , (21375, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (21375, 004 /* CLOTHING_PRIORITY_INT */, 98048 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */)
+     , (21375, 005 /* ENCUMB_VAL_INT */, 450)
+     , (21375, 008 /* MASS_INT */, 450)
+     , (21375, 009 /* LOCATIONS_INT */, 32513 /* HEAD_WEAR_LOC, FOOT_WEAR_LOC, ARMOR_LOC */)
+     , (21375, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21375, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (21375, 019 /* VALUE_INT */, 4000)
+     , (21375, 027 /* ARMOR_TYPE_INT */, 1)
+     , (21375, 028 /* ARMOR_LEVEL_INT */, 80)
+     , (21375, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (21375, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21375, 106 /* ITEM_SPELLCRAFT_INT */, 400)
+     , (21375, 107 /* ITEM_CUR_MANA_INT */, 2000)
+     , (21375, 108 /* ITEM_MAX_MANA_INT */, 2000)
+     , (21375, 109 /* ITEM_DIFFICULTY_INT */, 225)
+     , (21375, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21375, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (21375, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (21375, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
+     , (21375, 160 /* WIELD_DIFFICULTY_INT */, 30);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21375, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (21375, 5, -0.5) /* MANA_RATE_FLOAT */
-     , (21375, 12, 0.5) /* SHADE_FLOAT */
-     , (21375, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (21375, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (21375, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (21375, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (21375, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (21375, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (21375, 005 /* MANA_RATE_FLOAT */, -0.5)
+     , (21375, 012 /* SHADE_FLOAT */, 0.5)
+     , (21375, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.75)
+     , (21375, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.75)
+     , (21375, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.75)
+     , (21375, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 2)
+     , (21375, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 2)
+     , (21375, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
+     , (21375, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21375, 69, False) /* IS_SELLABLE_BOOL */
-     , (21375, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21375, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21375, 069 /* IS_SELLABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21375, 1486, 2) /* Impenetrability6_SpellID */

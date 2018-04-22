@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 19484;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19484, 'fontessence', /* Generic_WeenieType */ 1);
+VALUES (19484, 'fontessence', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19484, 16, 'A rushing fountain of pure mana.') /* LONG_DESC_STRING */
-     , (19484, 1, 'Essence Font') /* NAME_STRING */
-     , (19484, 15, 'A rushing fountain of pure mana.') /* SHORT_DESC_STRING */;
+VALUES (19484, 001 /* NAME_STRING */, 'Essence Font')
+     , (19484, 015 /* SHORT_DESC_STRING */, 'A rushing fountain of pure mana.')
+     , (19484, 016 /* LONG_DESC_STRING */, 'A rushing fountain of pure mana.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19484, 1, 33557824) /* SETUP_DID */
-     , (19484, 3, 536870932) /* SOUND_TABLE_DID */
-     , (19484, 8, 100671324) /* ICON_DID */
-     , (19484, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (19484, 001 /* SETUP_DID */, 33557824)
+     , (19484, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (19484, 008 /* ICON_DID */, 100671324)
+     , (19484, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19484, 9, 0) /* LOCATIONS_INT */
-     , (19484, 1, 128) /* ITEM_TYPE_INT */
-     , (19484, 93, 1040) /* PHYSICS_STATE_INT */
-     , (19484, 5, 0) /* ENCUMB_VAL_INT */
-     , (19484, 16, 1) /* ITEM_USEABLE_INT */
-     , (19484, 8, 0) /* MASS_INT */
-     , (19484, 19, 0) /* VALUE_INT */;
+VALUES (19484, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19484, 005 /* ENCUMB_VAL_INT */, 0)
+     , (19484, 008 /* MASS_INT */, 0)
+     , (19484, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (19484, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19484, 019 /* VALUE_INT */, 0)
+     , (19484, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19484, 1, True) /* STUCK_BOOL */
-     , (19484, 13, False) /* ETHEREAL_BOOL */;
+VALUES (19484, 001 /* STUCK_BOOL */, True)
+     , (19484, 013 /* ETHEREAL_BOOL */, False);
 

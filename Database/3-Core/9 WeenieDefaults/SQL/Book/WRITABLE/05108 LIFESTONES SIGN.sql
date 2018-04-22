@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 5108;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5108, 'trainlifestonesign', /* Book_WeenieType */ 8);
+VALUES (5108, 'trainlifestonesign', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5108, 1, 'LIFESTONES SIGN') /* NAME_STRING */;
+VALUES (5108, 001 /* NAME_STRING */, 'LIFESTONES SIGN');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5108, 1, 33556014) /* SETUP_DID */
-     , (5108, 8, 100668115) /* ICON_DID */;
+VALUES (5108, 001 /* SETUP_DID */, 33556014)
+     , (5108, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5108, 1, 8192) /* ITEM_TYPE_INT */
-     , (5108, 93, 1048) /* PHYSICS_STATE_INT */
-     , (5108, 5, 9000) /* ENCUMB_VAL_INT */
-     , (5108, 16, 48) /* ITEM_USEABLE_INT */
-     , (5108, 8, 1800) /* MASS_INT */
-     , (5108, 19, 125) /* VALUE_INT */;
+VALUES (5108, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (5108, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (5108, 008 /* MASS_INT */, 1800)
+     , (5108, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (5108, 019 /* VALUE_INT */, 125)
+     , (5108, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5108, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (5108, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5108, 1, True) /* STUCK_BOOL */
-     , (5108, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (5108, 13, False) /* ETHEREAL_BOOL */
-     , (5108, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (5108, 001 /* STUCK_BOOL */, True)
+     , (5108, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (5108, 013 /* ETHEREAL_BOOL */, False)
+     , (5108, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5108, 1, 1000) /* Book Data */;

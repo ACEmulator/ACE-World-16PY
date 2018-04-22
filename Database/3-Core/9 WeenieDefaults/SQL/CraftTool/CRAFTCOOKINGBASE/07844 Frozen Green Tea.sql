@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 7844;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7844, 'greenteafrozen', /* CraftTool_WeenieType */ 44);
+VALUES (7844, 'greenteafrozen', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7844, 1, 'Frozen Green Tea') /* NAME_STRING */
-     , (7844, 20, 'Pitchers of Frozen Green Tea') /* PLURAL_NAME_STRING */
-     , (7844, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (7844, 15, 'Unsweetened frozen green tea mixed with cream.') /* SHORT_DESC_STRING */;
+VALUES (7844, 001 /* NAME_STRING */, 'Frozen Green Tea')
+     , (7844, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (7844, 015 /* SHORT_DESC_STRING */, 'Unsweetened frozen green tea mixed with cream.')
+     , (7844, 020 /* PLURAL_NAME_STRING */, 'Pitchers of Frozen Green Tea');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7844, 1, 33555977) /* SETUP_DID */
-     , (7844, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7844, 8, 100670876) /* ICON_DID */
-     , (7844, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7844, 001 /* SETUP_DID */, 33555977)
+     , (7844, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7844, 008 /* ICON_DID */, 100670876)
+     , (7844, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7844, 9, 0) /* LOCATIONS_INT */
-     , (7844, 1, 4194304) /* ITEM_TYPE_INT */
-     , (7844, 13, 20) /* STACK_UNIT_ENCUMB_INT */
-     , (7844, 5, 20) /* ENCUMB_VAL_INT */
-     , (7844, 8, 10) /* MASS_INT */
-     , (7844, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (7844, 12, 1) /* STACK_SIZE_INT */
-     , (7844, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (7844, 15, 90) /* STACK_UNIT_VALUE_INT */
-     , (7844, 16, 524296) /* ITEM_USEABLE_INT */
-     , (7844, 19, 90) /* VALUE_INT */
-     , (7844, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7844, 94, 4194336) /* TARGET_TYPE_INT */;
+VALUES (7844, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (7844, 005 /* ENCUMB_VAL_INT */, 20)
+     , (7844, 008 /* MASS_INT */, 10)
+     , (7844, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (7844, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (7844, 012 /* STACK_SIZE_INT */, 1)
+     , (7844, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
+     , (7844, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (7844, 015 /* STACK_UNIT_VALUE_INT */, 90)
+     , (7844, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (7844, 019 /* VALUE_INT */, 90)
+     , (7844, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7844, 094 /* TARGET_TYPE_INT */, 4194336 /* TYPE_FOOD, TYPE_CRAFT_COOKING_BASE */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7844, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (7844, 069 /* IS_SELLABLE_BOOL */, False);
 

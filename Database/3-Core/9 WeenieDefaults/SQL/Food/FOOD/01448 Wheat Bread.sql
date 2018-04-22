@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 1448;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1448, 'breadwheat', /* Food_WeenieType */ 18);
+VALUES (1448, 'breadwheat', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1448, 1, 'Wheat Bread') /* NAME_STRING */
-     , (1448, 20, 'Loaves of Wheat Bread') /* PLURAL_NAME_STRING */
-     , (1448, 14, 'Use this item to eat it.') /* USE_STRING */;
+VALUES (1448, 001 /* NAME_STRING */, 'Wheat Bread')
+     , (1448, 014 /* USE_STRING */, 'Use this item to eat it.')
+     , (1448, 020 /* PLURAL_NAME_STRING */, 'Loaves of Wheat Bread');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1448, 1, 33554806) /* SETUP_DID */
-     , (1448, 8, 100667455) /* ICON_DID */
-     , (1448, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (1448, 001 /* SETUP_DID */, 33554806)
+     , (1448, 008 /* ICON_DID */, 100667455)
+     , (1448, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1448, 9, 0) /* LOCATIONS_INT */
-     , (1448, 1, 32) /* ITEM_TYPE_INT */
-     , (1448, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (1448, 5, 100) /* ENCUMB_VAL_INT */
-     , (1448, 8, 50) /* MASS_INT */
-     , (1448, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (1448, 12, 1) /* STACK_SIZE_INT */
-     , (1448, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (1448, 15, 60) /* STACK_UNIT_VALUE_INT */
-     , (1448, 16, 8) /* ITEM_USEABLE_INT */
-     , (1448, 18, 16) /* UI_EFFECTS_INT */
-     , (1448, 19, 60) /* VALUE_INT */
-     , (1448, 89, 4) /* BOOSTER_ENUM_INT */
-     , (1448, 90, 18) /* BOOST_VALUE_INT */
-     , (1448, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (1448, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (1448, 005 /* ENCUMB_VAL_INT */, 100)
+     , (1448, 008 /* MASS_INT */, 50)
+     , (1448, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (1448, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (1448, 012 /* STACK_SIZE_INT */, 1)
+     , (1448, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (1448, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (1448, 015 /* STACK_UNIT_VALUE_INT */, 60)
+     , (1448, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (1448, 018 /* UI_EFFECTS_INT */, 16 /* UI_EFFECT_BOOST_STAMINA */)
+     , (1448, 019 /* VALUE_INT */, 60)
+     , (1448, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (1448, 090 /* BOOST_VALUE_INT */, 18)
+     , (1448, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 20989;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20989, 'materialoak', /* CraftTool_WeenieType */ 44);
+VALUES (20989, 'materialoak', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20989, 1, 'Salvaged Oak') /* NAME_STRING */
-     , (20989, 14, 'Apply this material to a treasure-generated weapon to decrease the weapon''s speed by 50.') /* USE_STRING */
-     , (20989, 15, 'A bundle of oak material salvaged from old items.') /* SHORT_DESC_STRING */;
+VALUES (20989, 001 /* NAME_STRING */, 'Salvaged Oak')
+     , (20989, 014 /* USE_STRING */, 'Apply this material to a treasure-generated weapon to decrease the weapon''s speed by 50.')
+     , (20989, 015 /* SHORT_DESC_STRING */, 'A bundle of oak material salvaged from old items.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20989, 1, 33554817) /* SETUP_DID */
-     , (20989, 3, 536870932) /* SOUND_TABLE_DID */
-     , (20989, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (20989, 6, 67111919) /* PALETTE_BASE_DID */
-     , (20989, 7, 268436430) /* CLOTHINGBASE_DID */
-     , (20989, 8, 100667436) /* ICON_DID */
-     , (20989, 50, 100673234) /* ICON_OVERLAY_DID */;
+VALUES (20989, 001 /* SETUP_DID */, 33554817)
+     , (20989, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (20989, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (20989, 007 /* CLOTHINGBASE_DID */, 268436430)
+     , (20989, 008 /* ICON_DID */, 100667436)
+     , (20989, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (20989, 050 /* ICON_OVERLAY_DID */, 100673234);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20989, 9, 0) /* LOCATIONS_INT */
-     , (20989, 1, 1073741824) /* ITEM_TYPE_INT */
-     , (20989, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (20989, 131, 75) /* MATERIAL_TYPE_INT */
-     , (20989, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (20989, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (20989, 5, 100) /* ENCUMB_VAL_INT */
-     , (20989, 8, 100) /* MASS_INT */
-     , (20989, 12, 1) /* STACK_SIZE_INT */
-     , (20989, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (20989, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (20989, 16, 524296) /* ITEM_USEABLE_INT */
-     , (20989, 19, 10) /* VALUE_INT */
-     , (20989, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (20989, 151, 9) /* HOOK_TYPE_INT */
-     , (20989, 91, 100) /* MAX_STRUCTURE_INT */
-     , (20989, 93, 1044) /* PHYSICS_STATE_INT */
-     , (20989, 94, 257) /* TARGET_TYPE_INT */
-     , (20989, 33, 1) /* BONDED_INT */;
+VALUES (20989, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
+     , (20989, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (20989, 005 /* ENCUMB_VAL_INT */, 100)
+     , (20989, 008 /* MASS_INT */, 100)
+     , (20989, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (20989, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (20989, 012 /* STACK_SIZE_INT */, 1)
+     , (20989, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (20989, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (20989, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (20989, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (20989, 019 /* VALUE_INT */, 10)
+     , (20989, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (20989, 091 /* MAX_STRUCTURE_INT */, 100)
+     , (20989, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (20989, 094 /* TARGET_TYPE_INT */, 257 /* TYPE_WEAPON */)
+     , (20989, 131 /* MATERIAL_TYPE_INT */, 75 /* Oak_MaterialType */)
+     , (20989, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (20989, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20989, 22, True) /* INSCRIBABLE_BOOL */
-     , (20989, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (20989, 022 /* INSCRIBABLE_BOOL */, True)
+     , (20989, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

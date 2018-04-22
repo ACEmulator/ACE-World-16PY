@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 2424;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2424, 'gemperidot', /* Gem_WeenieType */ 38);
+VALUES (2424, 'gemperidot', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2424, 1, 'Peridot') /* NAME_STRING */;
+VALUES (2424, 001 /* NAME_STRING */, 'Peridot');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2424, 1, 33554809) /* SETUP_DID */
-     , (2424, 3, 536870932) /* SOUND_TABLE_DID */
-     , (2424, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (2424, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (2424, 6, 67111919) /* PALETTE_BASE_DID */
-     , (2424, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (2424, 8, 100674751) /* ICON_DID */;
+VALUES (2424, 001 /* SETUP_DID */, 33554809)
+     , (2424, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (2424, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (2424, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (2424, 008 /* ICON_DID */, 100674751)
+     , (2424, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (2424, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2424, 9, 0) /* LOCATIONS_INT */
-     , (2424, 1, 2048) /* ITEM_TYPE_INT */
-     , (2424, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (2424, 131, 34) /* MATERIAL_TYPE_INT */
-     , (2424, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (2424, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (2424, 5, 5) /* ENCUMB_VAL_INT */
-     , (2424, 8, 5) /* MASS_INT */
-     , (2424, 12, 1) /* STACK_SIZE_INT */
-     , (2424, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (2424, 15, 250) /* STACK_UNIT_VALUE_INT */
-     , (2424, 16, 1) /* ITEM_USEABLE_INT */
-     , (2424, 19, 250) /* VALUE_INT */
-     , (2424, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2424, 169, 16777216) /* TSYS_MUTATION_DATA_INT */;
+VALUES (2424, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (2424, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (2424, 005 /* ENCUMB_VAL_INT */, 5)
+     , (2424, 008 /* MASS_INT */, 5)
+     , (2424, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (2424, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (2424, 012 /* STACK_SIZE_INT */, 1)
+     , (2424, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (2424, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (2424, 015 /* STACK_UNIT_VALUE_INT */, 250)
+     , (2424, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (2424, 019 /* VALUE_INT */, 250)
+     , (2424, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (2424, 131 /* MATERIAL_TYPE_INT */, 34 /* Peridot_MaterialType */)
+     , (2424, 169 /* TSYS_MUTATION_DATA_INT */, 16777216);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2424, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (2424, 022 /* INSCRIBABLE_BOOL */, True);
 

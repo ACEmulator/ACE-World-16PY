@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 8117;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8117, 'gemportalshendolain', /* Gem_WeenieType */ 38);
+VALUES (8117, 'gemportalshendolain', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8117, 16, 'This is a portal gem attuned to the energies of the Shendolain Chamber.') /* LONG_DESC_STRING */
-     , (8117, 1, 'Shendolain Portal Gem') /* NAME_STRING */
-     , (8117, 15, 'This is a portal gem attuned to the energies of the Shendolain Chamber.') /* SHORT_DESC_STRING */;
+VALUES (8117, 001 /* NAME_STRING */, 'Shendolain Portal Gem')
+     , (8117, 015 /* SHORT_DESC_STRING */, 'This is a portal gem attuned to the energies of the Shendolain Chamber.')
+     , (8117, 016 /* LONG_DESC_STRING */, 'This is a portal gem attuned to the energies of the Shendolain Chamber.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8117, 1, 33556769) /* SETUP_DID */
-     , (8117, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8117, 28, 2002) /* SPELL_DID */
-     , (8117, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (8117, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8117, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8117, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (8117, 8, 100670993) /* ICON_DID */;
+VALUES (8117, 001 /* SETUP_DID */, 33556769)
+     , (8117, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8117, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8117, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (8117, 008 /* ICON_DID */, 100670993)
+     , (8117, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (8117, 028 /* SPELL_DID */, 2002 /* PortalSendingShendolain_SpellID */)
+     , (8117, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8117, 9, 0) /* LOCATIONS_INT */
-     , (8117, 1, 2048) /* ITEM_TYPE_INT */
-     , (8117, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (8117, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (8117, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (8117, 5, 10) /* ENCUMB_VAL_INT */
-     , (8117, 8, 10) /* MASS_INT */
-     , (8117, 12, 1) /* STACK_SIZE_INT */
-     , (8117, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (8117, 15, 1500) /* STACK_UNIT_VALUE_INT */
-     , (8117, 16, 8) /* ITEM_USEABLE_INT */
-     , (8117, 18, 1) /* UI_EFFECTS_INT */
-     , (8117, 19, 1500) /* VALUE_INT */
-     , (8117, 93, 3092) /* PHYSICS_STATE_INT */
-     , (8117, 94, 16) /* TARGET_TYPE_INT */
-     , (8117, 33, 1) /* BONDED_INT */
-     , (8117, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (8117, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (8117, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (8117, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8117, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (8117, 114, 1) /* ATTUNED_INT */;
+VALUES (8117, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8117, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (8117, 005 /* ENCUMB_VAL_INT */, 10)
+     , (8117, 008 /* MASS_INT */, 10)
+     , (8117, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8117, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (8117, 012 /* STACK_SIZE_INT */, 1)
+     , (8117, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (8117, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (8117, 015 /* STACK_UNIT_VALUE_INT */, 1500)
+     , (8117, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (8117, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (8117, 019 /* VALUE_INT */, 1500)
+     , (8117, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8117, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (8117, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (8117, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (8117, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (8117, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (8117, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (8117, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (8117, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8117, 69, False) /* IS_SELLABLE_BOOL */
-     , (8117, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (8117, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (8117, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (8117, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (8117, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8117, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (8117, 069 /* IS_SELLABLE_BOOL */, False);
 

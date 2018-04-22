@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 28519;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28519, 'cratesclavuscataloguefull', /* Generic_WeenieType */ 1);
+VALUES (28519, 'cratesclavuscataloguefull', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28519, 16, 'This crate is now full of the Sclavus parts that Captain K''rank asked you to recover. You should return it to him for a reward. The Sclavus parts smell as though the heat is starting to make them sour.') /* LONG_DESC_STRING */
-     , (28519, 1, 'Sclavus Cataloguing Crate') /* NAME_STRING */;
+VALUES (28519, 001 /* NAME_STRING */, 'Sclavus Cataloguing Crate')
+     , (28519, 016 /* LONG_DESC_STRING */, 'This crate is now full of the Sclavus parts that Captain K''rank asked you to recover. You should return it to him for a reward. The Sclavus parts smell as though the heat is starting to make them sour.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28519, 1, 33554817) /* SETUP_DID */
-     , (28519, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28519, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28519, 6, 67111919) /* PALETTE_BASE_DID */
-     , (28519, 7, 268435832) /* CLOTHINGBASE_DID */
-     , (28519, 8, 100676965) /* ICON_DID */;
+VALUES (28519, 001 /* SETUP_DID */, 33554817)
+     , (28519, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28519, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (28519, 007 /* CLOTHINGBASE_DID */, 268435832)
+     , (28519, 008 /* ICON_DID */, 100676965)
+     , (28519, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28519, 33, 1) /* BONDED_INT */
-     , (28519, 9, 0) /* LOCATIONS_INT */
-     , (28519, 1, 128) /* ITEM_TYPE_INT */
-     , (28519, 19, 0) /* VALUE_INT */
-     , (28519, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (28519, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28519, 5, 750) /* ENCUMB_VAL_INT */
-     , (28519, 16, 1) /* ITEM_USEABLE_INT */
-     , (28519, 8, 180) /* MASS_INT */
-     , (28519, 114, 1) /* ATTUNED_INT */;
+VALUES (28519, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (28519, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (28519, 005 /* ENCUMB_VAL_INT */, 750)
+     , (28519, 008 /* MASS_INT */, 180)
+     , (28519, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28519, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28519, 019 /* VALUE_INT */, 0)
+     , (28519, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (28519, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28519, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28519, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (28519, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28519, 22, True) /* INSCRIBABLE_BOOL */
-     , (28519, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28519, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28519, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

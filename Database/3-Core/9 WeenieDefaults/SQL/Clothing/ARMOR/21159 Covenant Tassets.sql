@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 21159;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21159, 'tassetscovenant', /* Clothing_WeenieType */ 2);
+VALUES (21159, 'tassetscovenant', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21159, 1, 'Covenant Tassets') /* NAME_STRING */;
+VALUES (21159, 001 /* NAME_STRING */, 'Covenant Tassets');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21159, 1, 33554656) /* SETUP_DID */
-     , (21159, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21159, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (21159, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21159, 46, 939524130) /* TSYS_MUTATION_FILTER_DID */
-     , (21159, 6, 67108990) /* PALETTE_BASE_DID */
-     , (21159, 7, 268436451) /* CLOTHINGBASE_DID */
-     , (21159, 8, 100673372) /* ICON_DID */;
+VALUES (21159, 001 /* SETUP_DID */, 33554656)
+     , (21159, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21159, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (21159, 007 /* CLOTHINGBASE_DID */, 268436451)
+     , (21159, 008 /* ICON_DID */, 100673372)
+     , (21159, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21159, 036 /* MUTATE_FILTER_DID */, 234881046)
+     , (21159, 046 /* TSYS_MUTATION_FILTER_DID */, 939524130);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21159, 9, 8192) /* LOCATIONS_INT */
-     , (21159, 1, 2) /* ITEM_TYPE_INT */
-     , (21159, 27, 32) /* ARMOR_TYPE_INT */
-     , (21159, 19, 653) /* VALUE_INT */
-     , (21159, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (21159, 4, 256) /* CLOTHING_PRIORITY_INT */
-     , (21159, 5, 919) /* ENCUMB_VAL_INT */
-     , (21159, 16, 1) /* ITEM_USEABLE_INT */
-     , (21159, 8, 460) /* MASS_INT */
-     , (21159, 28, 200) /* ARMOR_LEVEL_INT */
-     , (21159, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21159, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21159, 169, 252313860) /* TSYS_MUTATION_DATA_INT */;
+VALUES (21159, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (21159, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (21159, 004 /* CLOTHING_PRIORITY_INT */, 256 /* OuterwearUpperLegs */)
+     , (21159, 005 /* ENCUMB_VAL_INT */, 919)
+     , (21159, 008 /* MASS_INT */, 460)
+     , (21159, 009 /* LOCATIONS_INT */, 8192 /* UPPER_LEG_ARMOR_LOC */)
+     , (21159, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21159, 019 /* VALUE_INT */, 653)
+     , (21159, 027 /* ARMOR_TYPE_INT */, 32)
+     , (21159, 028 /* ARMOR_LEVEL_INT */, 200)
+     , (21159, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (21159, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21159, 169 /* TSYS_MUTATION_DATA_INT */, 252313860);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21159, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (21159, 111, 1) /* SIZE_MOD_FLOAT */
-     , (21159, 39, 1.33) /* DEFAULT_SCALE_FLOAT */
-     , (21159, 12, 0.33) /* SHADE_FLOAT */
-     , (21159, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (21159, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (21159, 110, 1) /* BULK_MOD_FLOAT */
-     , (21159, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (21159, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (21159, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (21159, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (21159, 012 /* SHADE_FLOAT */, 0.33)
+     , (21159, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (21159, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
+     , (21159, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
+     , (21159, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
+     , (21159, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
+     , (21159, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
+     , (21159, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (21159, 039 /* DEFAULT_SCALE_FLOAT */, 1.33)
+     , (21159, 110 /* BULK_MOD_FLOAT */, 1)
+     , (21159, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21159, 100, True) /* DYABLE_BOOL */
-     , (21159, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21159, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21159, 100 /* DYABLE_BOOL */, True);
 

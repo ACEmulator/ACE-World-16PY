@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 21158;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21158, 'shieldcovenant', /* Generic_WeenieType */ 1);
+VALUES (21158, 'shieldcovenant', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21158, 1, 'Covenant Shield') /* NAME_STRING */;
+VALUES (21158, 001 /* NAME_STRING */, 'Covenant Shield');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21158, 1, 33557878) /* SETUP_DID */
-     , (21158, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21158, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (21158, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21158, 46, 939524164) /* TSYS_MUTATION_FILTER_DID */
-     , (21158, 6, 67111919) /* PALETTE_BASE_DID */
-     , (21158, 7, 268436441) /* CLOTHINGBASE_DID */
-     , (21158, 8, 100667362) /* ICON_DID */;
+VALUES (21158, 001 /* SETUP_DID */, 33557878)
+     , (21158, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21158, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (21158, 007 /* CLOTHINGBASE_DID */, 268436441)
+     , (21158, 008 /* ICON_DID */, 100667362)
+     , (21158, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21158, 036 /* MUTATE_FILTER_DID */, 234881046)
+     , (21158, 046 /* TSYS_MUTATION_FILTER_DID */, 939524164);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21158, 9, 2097152) /* LOCATIONS_INT */
-     , (21158, 1, 2) /* ITEM_TYPE_INT */
-     , (21158, 19, 300) /* VALUE_INT */
-     , (21158, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (21158, 5, 2040) /* ENCUMB_VAL_INT */
-     , (21158, 16, 1) /* ITEM_USEABLE_INT */
-     , (21158, 8, 680) /* MASS_INT */
-     , (21158, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21158, 151, 2) /* HOOK_TYPE_INT */
-     , (21158, 27, 2) /* ARMOR_TYPE_INT */
-     , (21158, 28, 200) /* ARMOR_LEVEL_INT */
-     , (21158, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21158, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21158, 169, 134285060) /* TSYS_MUTATION_DATA_INT */
-     , (21158, 51, 4) /* COMBAT_USE_INT */;
+VALUES (21158, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (21158, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (21158, 005 /* ENCUMB_VAL_INT */, 2040)
+     , (21158, 008 /* MASS_INT */, 680)
+     , (21158, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
+     , (21158, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21158, 019 /* VALUE_INT */, 300)
+     , (21158, 027 /* ARMOR_TYPE_INT */, 2)
+     , (21158, 028 /* ARMOR_LEVEL_INT */, 200)
+     , (21158, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (21158, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
+     , (21158, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21158, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21158, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (21158, 169 /* TSYS_MUTATION_DATA_INT */, 134285060);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21158, 111, 1.05) /* SIZE_MOD_FLOAT */
-     , (21158, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (21158, 39, 0.75) /* DEFAULT_SCALE_FLOAT */
-     , (21158, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (21158, 110, 1) /* BULK_MOD_FLOAT */
-     , (21158, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (21158, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (21158, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (21158, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (21158, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (21158, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (21158, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
+     , (21158, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
+     , (21158, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
+     , (21158, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
+     , (21158, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.6)
+     , (21158, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (21158, 039 /* DEFAULT_SCALE_FLOAT */, 0.75)
+     , (21158, 110 /* BULK_MOD_FLOAT */, 1)
+     , (21158, 111 /* SIZE_MOD_FLOAT */, 1.05);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21158, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21158, 022 /* INSCRIBABLE_BOOL */, True);
 

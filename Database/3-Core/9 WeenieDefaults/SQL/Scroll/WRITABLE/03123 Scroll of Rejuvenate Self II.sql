@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 3123;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3123, 'scrollrejuvenateself2', /* Scroll_WeenieType */ 34);
+VALUES (3123, 'scrollrejuvenateself2', 34 /* Scroll_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3123, 16, 'When learned, this spell increases the rate at which the caster regains Stamina by 50%.') /* LONG_DESC_STRING */
-     , (3123, 1, 'Scroll of Rejuvenate Self II') /* NAME_STRING */
-     , (3123, 15, 'A magic scroll.') /* SHORT_DESC_STRING */;
+VALUES (3123, 001 /* NAME_STRING */, 'Scroll of Rejuvenate Self II')
+     , (3123, 015 /* SHORT_DESC_STRING */, 'A magic scroll.')
+     , (3123, 016 /* LONG_DESC_STRING */, 'When learned, this spell increases the rate at which the caster regains Stamina by 50%.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3123, 1, 33554826) /* SETUP_DID */
-     , (3123, 8, 100676940) /* ICON_DID */
-     , (3123, 28, 189) /* SPELL_DID */;
+VALUES (3123, 001 /* SETUP_DID */, 33554826)
+     , (3123, 008 /* ICON_DID */, 100676940)
+     , (3123, 028 /* SPELL_DID */, 189 /* RejuvenationSelf2_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3123, 9, 0) /* LOCATIONS_INT */
-     , (3123, 1, 8192) /* ITEM_TYPE_INT */
-     , (3123, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3123, 5, 30) /* ENCUMB_VAL_INT */
-     , (3123, 16, 8) /* ITEM_USEABLE_INT */
-     , (3123, 8, 90) /* MASS_INT */
-     , (3123, 19, 5) /* VALUE_INT */;
+VALUES (3123, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (3123, 005 /* ENCUMB_VAL_INT */, 30)
+     , (3123, 008 /* MASS_INT */, 90)
+     , (3123, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (3123, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (3123, 019 /* VALUE_INT */, 5)
+     , (3123, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3123, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (3123, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3123, 22, True) /* INSCRIBABLE_BOOL */
-     , (3123, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (3123, 022 /* INSCRIBABLE_BOOL */, True)
+     , (3123, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

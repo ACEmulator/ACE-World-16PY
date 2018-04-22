@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 11691;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11691, 'seedlargevarb', /* Generic_WeenieType */ 1);
+VALUES (11691, 'seedlargevarb', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11691, 1, 'Little Green Seeds') /* NAME_STRING */
-     , (11691, 15, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.') /* SHORT_DESC_STRING */;
+VALUES (11691, 001 /* NAME_STRING */, 'Little Green Seeds')
+     , (11691, 015 /* SHORT_DESC_STRING */, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11691, 1, 33557130) /* SETUP_DID */
-     , (11691, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11691, 8, 100671704) /* ICON_DID */
-     , (11691, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (11691, 001 /* SETUP_DID */, 33557130)
+     , (11691, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11691, 008 /* ICON_DID */, 100671704)
+     , (11691, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11691, 9, 0) /* LOCATIONS_INT */
-     , (11691, 1, 128) /* ITEM_TYPE_INT */
-     , (11691, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11691, 5, 5) /* ENCUMB_VAL_INT */
-     , (11691, 16, 1) /* ITEM_USEABLE_INT */
-     , (11691, 8, 50) /* MASS_INT */
-     , (11691, 19, 50) /* VALUE_INT */;
+VALUES (11691, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11691, 005 /* ENCUMB_VAL_INT */, 5)
+     , (11691, 008 /* MASS_INT */, 50)
+     , (11691, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11691, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11691, 019 /* VALUE_INT */, 50)
+     , (11691, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (11691, 39, 1.6) /* DEFAULT_SCALE_FLOAT */;
+VALUES (11691, 039 /* DEFAULT_SCALE_FLOAT */, 1.6);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11691, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (11691, 022 /* INSCRIBABLE_BOOL */, True);
 

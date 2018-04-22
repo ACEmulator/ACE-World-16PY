@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 25958;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25958, 'tasselmagic', /* CraftTool_WeenieType */ 44);
+VALUES (25958, 'tasselmagic', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25958, 16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rheth Al'' Thok. Arcane powers cause the fringes of the tassel to glow with an unknown power.') /* LONG_DESC_STRING */
-     , (25958, 1, 'Woven Tassel of Sound Mind') /* NAME_STRING */
-     , (25958, 33, 'PickedUpTasselMagic') /* QUEST_STRING */;
+VALUES (25958, 001 /* NAME_STRING */, 'Woven Tassel of Sound Mind')
+     , (25958, 016 /* LONG_DESC_STRING */, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rheth Al'' Thok. Arcane powers cause the fringes of the tassel to glow with an unknown power.')
+     , (25958, 033 /* QUEST_STRING */, 'PickedUpTasselMagic');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25958, 1, 33554784) /* SETUP_DID */
-     , (25958, 3, 536870932) /* SOUND_TABLE_DID */
-     , (25958, 8, 100675675) /* ICON_DID */
-     , (25958, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (25958, 001 /* SETUP_DID */, 33554784)
+     , (25958, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (25958, 008 /* ICON_DID */, 100675675)
+     , (25958, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25958, 9, 0) /* LOCATIONS_INT */
-     , (25958, 1, 2048) /* ITEM_TYPE_INT */
-     , (25958, 13, 500) /* STACK_UNIT_ENCUMB_INT */
-     , (25958, 5, 500) /* ENCUMB_VAL_INT */
-     , (25958, 8, 10) /* MASS_INT */
-     , (25958, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (25958, 12, 1) /* STACK_SIZE_INT */
-     , (25958, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (25958, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (25958, 16, 524296) /* ITEM_USEABLE_INT */
-     , (25958, 18, 1) /* UI_EFFECTS_INT */
-     , (25958, 19, 0) /* VALUE_INT */
-     , (25958, 93, 1044) /* PHYSICS_STATE_INT */
-     , (25958, 94, 2) /* TARGET_TYPE_INT */
-     , (25958, 33, 1) /* BONDED_INT */
-     , (25958, 114, 1) /* ATTUNED_INT */;
+VALUES (25958, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (25958, 005 /* ENCUMB_VAL_INT */, 500)
+     , (25958, 008 /* MASS_INT */, 10)
+     , (25958, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (25958, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (25958, 012 /* STACK_SIZE_INT */, 1)
+     , (25958, 013 /* STACK_UNIT_ENCUMB_INT */, 500)
+     , (25958, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (25958, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (25958, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (25958, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (25958, 019 /* VALUE_INT */, 0)
+     , (25958, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (25958, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (25958, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (25958, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (25958, 39, 0.75) /* DEFAULT_SCALE_FLOAT */;
+VALUES (25958, 039 /* DEFAULT_SCALE_FLOAT */, 0.75);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25958, 22, True) /* INSCRIBABLE_BOOL */
-     , (25958, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (25958, 022 /* INSCRIBABLE_BOOL */, True)
+     , (25958, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 6438;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6438, 'ringwedding', /* Generic_WeenieType */ 1);
+VALUES (6438, 'ringwedding', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6438, 16, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.') /* LONG_DESC_STRING */
-     , (6438, 1, 'Wedding Ring') /* NAME_STRING */
-     , (6438, 15, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.') /* SHORT_DESC_STRING */;
+VALUES (6438, 001 /* NAME_STRING */, 'Wedding Ring')
+     , (6438, 015 /* SHORT_DESC_STRING */, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.')
+     , (6438, 016 /* LONG_DESC_STRING */, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.  It is customary to have the beloved inscribe the ring with a personal message, and then to exchange these rings during the marriage ceremony.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6438, 1, 33554690) /* SETUP_DID */
-     , (6438, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6438, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (6438, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6438, 6, 67111919) /* PALETTE_BASE_DID */
-     , (6438, 7, 268435754) /* CLOTHINGBASE_DID */
-     , (6438, 8, 100668562) /* ICON_DID */;
+VALUES (6438, 001 /* SETUP_DID */, 33554690)
+     , (6438, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6438, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (6438, 007 /* CLOTHINGBASE_DID */, 268435754)
+     , (6438, 008 /* ICON_DID */, 100668562)
+     , (6438, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6438, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6438, 33, 1) /* BONDED_INT */
-     , (6438, 9, 786432) /* LOCATIONS_INT */
-     , (6438, 1, 8) /* ITEM_TYPE_INT */
-     , (6438, 19, 0) /* VALUE_INT */
-     , (6438, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (6438, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6438, 5, 1) /* ENCUMB_VAL_INT */
-     , (6438, 16, 1) /* ITEM_USEABLE_INT */
-     , (6438, 8, 1) /* MASS_INT */;
+VALUES (6438, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (6438, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (6438, 005 /* ENCUMB_VAL_INT */, 1)
+     , (6438, 008 /* MASS_INT */, 1)
+     , (6438, 009 /* LOCATIONS_INT */, 786432 /* FINGER_WEAR_LOC */)
+     , (6438, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6438, 019 /* VALUE_INT */, 0)
+     , (6438, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6438, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6438, 39, 0.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (6438, 039 /* DEFAULT_SCALE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6438, 22, True) /* INSCRIBABLE_BOOL */
-     , (6438, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6438, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6438, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

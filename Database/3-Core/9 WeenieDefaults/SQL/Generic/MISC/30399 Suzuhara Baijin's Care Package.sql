@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 30399;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30399, 'suzuharapackage', /* Generic_WeenieType */ 1);
+VALUES (30399, 'suzuharapackage', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30399, 16, 'A care package from Suzuhara Baijin of Stonehold. It is filled with various ointments, poultices, and foodstuffs. Deliver this package to Suzuhara Sheshumi at the Northwest Osteth Beach Fort (76N, 49W).') /* LONG_DESC_STRING */
-     , (30399, 1, 'Suzuhara Baijin''s Care Package') /* NAME_STRING */
-     , (30399, 33, 'SuzuharaPackageAcquired1204') /* QUEST_STRING */;
+VALUES (30399, 001 /* NAME_STRING */, 'Suzuhara Baijin''s Care Package')
+     , (30399, 016 /* LONG_DESC_STRING */, 'A care package from Suzuhara Baijin of Stonehold. It is filled with various ointments, poultices, and foodstuffs. Deliver this package to Suzuhara Sheshumi at the Northwest Osteth Beach Fort (76N, 49W).')
+     , (30399, 033 /* QUEST_STRING */, 'SuzuharaPackageAcquired1204');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30399, 1, 33559120) /* SETUP_DID */
-     , (30399, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30399, 8, 100667416) /* ICON_DID */
-     , (30399, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (30399, 001 /* SETUP_DID */, 33559120)
+     , (30399, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30399, 008 /* ICON_DID */, 100667416)
+     , (30399, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30399, 33, 1) /* BONDED_INT */
-     , (30399, 9, 0) /* LOCATIONS_INT */
-     , (30399, 1, 128) /* ITEM_TYPE_INT */
-     , (30399, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30399, 5, 50) /* ENCUMB_VAL_INT */
-     , (30399, 16, 1) /* ITEM_USEABLE_INT */
-     , (30399, 8, 10) /* MASS_INT */
-     , (30399, 19, 0) /* VALUE_INT */
-     , (30399, 114, 1) /* ATTUNED_INT */;
+VALUES (30399, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (30399, 005 /* ENCUMB_VAL_INT */, 50)
+     , (30399, 008 /* MASS_INT */, 10)
+     , (30399, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (30399, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (30399, 019 /* VALUE_INT */, 0)
+     , (30399, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (30399, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30399, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30399, 22, True) /* INSCRIBABLE_BOOL */
-     , (30399, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (30399, 022 /* INSCRIBABLE_BOOL */, True)
+     , (30399, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

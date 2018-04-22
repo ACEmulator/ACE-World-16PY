@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 22057;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22057, 'bodyskeletal', /* Generic_WeenieType */ 1);
+VALUES (22057, 'bodyskeletal', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22057, 1, 'Skeletal Body') /* NAME_STRING */;
+VALUES (22057, 001 /* NAME_STRING */, 'Skeletal Body');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22057, 1, 33558008) /* SETUP_DID */
-     , (22057, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22057, 8, 100673703) /* ICON_DID */
-     , (22057, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (22057, 001 /* SETUP_DID */, 33558008)
+     , (22057, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22057, 008 /* ICON_DID */, 100673703)
+     , (22057, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22057, 33, 0) /* BONDED_INT */
-     , (22057, 9, 0) /* LOCATIONS_INT */
-     , (22057, 1, 128) /* ITEM_TYPE_INT */
-     , (22057, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22057, 5, 1400) /* ENCUMB_VAL_INT */
-     , (22057, 16, 1) /* ITEM_USEABLE_INT */
-     , (22057, 8, 800) /* MASS_INT */
-     , (22057, 19, 0) /* VALUE_INT */
-     , (22057, 114, 0) /* ATTUNED_INT */;
+VALUES (22057, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22057, 005 /* ENCUMB_VAL_INT */, 1400)
+     , (22057, 008 /* MASS_INT */, 800)
+     , (22057, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (22057, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22057, 019 /* VALUE_INT */, 0)
+     , (22057, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (22057, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22057, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22057, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (22057, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22057, 69, False) /* IS_SELLABLE_BOOL */
-     , (22057, 22, True) /* INSCRIBABLE_BOOL */
-     , (22057, 23, False) /* DESTROY_ON_SELL_BOOL */;
+VALUES (22057, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22057, 023 /* DESTROY_ON_SELL_BOOL */, False)
+     , (22057, 069 /* IS_SELLABLE_BOOL */, False);
 

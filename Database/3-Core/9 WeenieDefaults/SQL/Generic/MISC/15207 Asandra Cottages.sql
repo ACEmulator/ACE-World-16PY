@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 15207;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15207, 'asandracottagessign', /* Generic_WeenieType */ 1);
+VALUES (15207, 'asandracottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15207, 16, 'Welcome to Asandra Cottages') /* LONG_DESC_STRING */
-     , (15207, 1, 'Asandra Cottages') /* NAME_STRING */;
+VALUES (15207, 001 /* NAME_STRING */, 'Asandra Cottages')
+     , (15207, 016 /* LONG_DESC_STRING */, 'Welcome to Asandra Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15207, 1, 33557463) /* SETUP_DID */
-     , (15207, 8, 100668115) /* ICON_DID */;
+VALUES (15207, 001 /* SETUP_DID */, 33557463)
+     , (15207, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15207, 1, 128) /* ITEM_TYPE_INT */
-     , (15207, 93, 1048) /* PHYSICS_STATE_INT */
-     , (15207, 5, 9000) /* ENCUMB_VAL_INT */
-     , (15207, 16, 1) /* ITEM_USEABLE_INT */
-     , (15207, 8, 1800) /* MASS_INT */
-     , (15207, 19, 125) /* VALUE_INT */;
+VALUES (15207, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (15207, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (15207, 008 /* MASS_INT */, 1800)
+     , (15207, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15207, 019 /* VALUE_INT */, 125)
+     , (15207, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15207, 1, True) /* STUCK_BOOL */
-     , (15207, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (15207, 13, False) /* ETHEREAL_BOOL */
-     , (15207, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (15207, 001 /* STUCK_BOOL */, True)
+     , (15207, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (15207, 013 /* ETHEREAL_BOOL */, False)
+     , (15207, 022 /* INSCRIBABLE_BOOL */, False);
 

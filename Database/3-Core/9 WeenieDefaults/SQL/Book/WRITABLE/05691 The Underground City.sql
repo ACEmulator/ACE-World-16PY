@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 5691;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5691, 'lecternucity', /* Book_WeenieType */ 8);
+VALUES (5691, 'lecternucity', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5691, 1, 'The Underground City') /* NAME_STRING */;
+VALUES (5691, 001 /* NAME_STRING */, 'The Underground City');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5691, 1, 33556013) /* SETUP_DID */
-     , (5691, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5691, 8, 100668236) /* ICON_DID */
-     , (5691, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (5691, 001 /* SETUP_DID */, 33556013)
+     , (5691, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5691, 008 /* ICON_DID */, 100668236)
+     , (5691, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5691, 9, 0) /* LOCATIONS_INT */
-     , (5691, 1, 8192) /* ITEM_TYPE_INT */
-     , (5691, 93, 1040) /* PHYSICS_STATE_INT */
-     , (5691, 5, 25) /* ENCUMB_VAL_INT */
-     , (5691, 16, 8) /* ITEM_USEABLE_INT */
-     , (5691, 8, 5) /* MASS_INT */
-     , (5691, 19, 10) /* VALUE_INT */;
+VALUES (5691, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (5691, 005 /* ENCUMB_VAL_INT */, 25)
+     , (5691, 008 /* MASS_INT */, 5)
+     , (5691, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5691, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5691, 019 /* VALUE_INT */, 10)
+     , (5691, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5691, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (5691, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5691, 1, True) /* STUCK_BOOL */
-     , (5691, 13, False) /* ETHEREAL_BOOL */
-     , (5691, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (5691, 001 /* STUCK_BOOL */, True)
+     , (5691, 013 /* ETHEREAL_BOOL */, False)
+     , (5691, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5691, 12, 1000) /* Book Data */;

@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 11142;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11142, 'piepumpkinolthoi-xp', /* Gem_WeenieType */ 38);
+VALUES (11142, 'piepumpkinolthoi-xp', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11142, 16, 'A lightly baked, browned pumpkin pie made with olthoi Eggs: thick, savory, sweet... purple.') /* LONG_DESC_STRING */
-     , (11142, 1, 'Olthoi Pumpkin Pie') /* NAME_STRING */
-     , (11142, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (11142, 15, 'A lightly baked, browned pumpkin pie made with olthoi Eggs: thick, savory, sweet... purple.') /* SHORT_DESC_STRING */;
+VALUES (11142, 001 /* NAME_STRING */, 'Olthoi Pumpkin Pie')
+     , (11142, 014 /* USE_STRING */, 'Use this item to eat it.')
+     , (11142, 015 /* SHORT_DESC_STRING */, 'A lightly baked, browned pumpkin pie made with olthoi Eggs: thick, savory, sweet... purple.')
+     , (11142, 016 /* LONG_DESC_STRING */, 'A lightly baked, browned pumpkin pie made with olthoi Eggs: thick, savory, sweet... purple.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11142, 1, 33555978) /* SETUP_DID */
-     , (11142, 27, 318767233) /* USE_USER_ANIMATION_DID */
-     , (11142, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11142, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (11142, 6, 67111919) /* PALETTE_BASE_DID */
-     , (11142, 23, 64) /* USE_SOUND_DID */
-     , (11142, 7, 268436048) /* CLOTHINGBASE_DID */
-     , (11142, 8, 100671767) /* ICON_DID */
-     , (11142, 28, 2420) /* SPELL_DID */;
+VALUES (11142, 001 /* SETUP_DID */, 33555978)
+     , (11142, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11142, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (11142, 007 /* CLOTHINGBASE_DID */, 268436048)
+     , (11142, 008 /* ICON_DID */, 100671767)
+     , (11142, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (11142, 023 /* USE_SOUND_DID */, 64 /* Sound_Eat1 */)
+     , (11142, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
+     , (11142, 028 /* SPELL_DID */, 2420 /* PanoplyQueenslayer_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11142, 9, 0) /* LOCATIONS_INT */
-     , (11142, 1, 32) /* ITEM_TYPE_INT */
-     , (11142, 13, 75) /* STACK_UNIT_ENCUMB_INT */
-     , (11142, 5, 75) /* ENCUMB_VAL_INT */
-     , (11142, 8, 50) /* MASS_INT */
-     , (11142, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (11142, 12, 1) /* STACK_SIZE_INT */
-     , (11142, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (11142, 15, 8000) /* STACK_UNIT_VALUE_INT */
-     , (11142, 16, 8) /* ITEM_USEABLE_INT */
-     , (11142, 18, 1) /* UI_EFFECTS_INT */
-     , (11142, 19, 8000) /* VALUE_INT */
-     , (11142, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11142, 94, 16) /* TARGET_TYPE_INT */
-     , (11142, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (11142, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (11142, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (11142, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (11142, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (11142, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (11142, 005 /* ENCUMB_VAL_INT */, 75)
+     , (11142, 008 /* MASS_INT */, 50)
+     , (11142, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11142, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (11142, 012 /* STACK_SIZE_INT */, 1)
+     , (11142, 013 /* STACK_UNIT_ENCUMB_INT */, 75)
+     , (11142, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (11142, 015 /* STACK_UNIT_VALUE_INT */, 8000)
+     , (11142, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (11142, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (11142, 019 /* VALUE_INT */, 8000)
+     , (11142, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11142, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (11142, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (11142, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (11142, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (11142, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (11142, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11142, 69, False) /* IS_SELLABLE_BOOL */
-     , (11142, 22, True) /* INSCRIBABLE_BOOL */
-     , (11142, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11142, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11142, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (11142, 069 /* IS_SELLABLE_BOOL */, False);
 

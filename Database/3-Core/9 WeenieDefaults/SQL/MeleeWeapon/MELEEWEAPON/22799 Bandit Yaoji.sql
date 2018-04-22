@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 22799;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22799, 'yaojibanditmid', /* MeleeWeapon_WeenieType */ 6);
+VALUES (22799, 'yaojibanditmid', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22799, 1, 'Bandit Yaoji') /* NAME_STRING */;
+VALUES (22799, 001 /* NAME_STRING */, 'Bandit Yaoji');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22799, 1, 33554765) /* SETUP_DID */
-     , (22799, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22799, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (22799, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (22799, 6, 67111919) /* PALETTE_BASE_DID */
-     , (22799, 7, 268435775) /* CLOTHINGBASE_DID */
-     , (22799, 8, 100669075) /* ICON_DID */;
+VALUES (22799, 001 /* SETUP_DID */, 33554765)
+     , (22799, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22799, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (22799, 007 /* CLOTHINGBASE_DID */, 268435775)
+     , (22799, 008 /* ICON_DID */, 100669075)
+     , (22799, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (22799, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22799, 33, -2) /* BONDED_INT */
-     , (22799, 9, 1048576) /* LOCATIONS_INT */
-     , (22799, 1, 1) /* ITEM_TYPE_INT */
-     , (22799, 19, 220) /* VALUE_INT */
-     , (22799, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (22799, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22799, 5, 350) /* ENCUMB_VAL_INT */
-     , (22799, 16, 1) /* ITEM_USEABLE_INT */
-     , (22799, 8, 140) /* MASS_INT */
-     , (22799, 44, 16) /* DAMAGE_INT */
-     , (22799, 45, 3) /* DAMAGE_TYPE_INT */
-     , (22799, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (22799, 47, 486) /* ATTACK_TYPE_INT */
-     , (22799, 48, 11) /* WEAPON_SKILL_INT */
-     , (22799, 49, 1) /* WEAPON_TIME_INT */
-     , (22799, 114, 1) /* ATTUNED_INT */
-     , (22799, 51, 1) /* COMBAT_USE_INT */;
+VALUES (22799, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (22799, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (22799, 005 /* ENCUMB_VAL_INT */, 350)
+     , (22799, 008 /* MASS_INT */, 140)
+     , (22799, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (22799, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22799, 019 /* VALUE_INT */, 220)
+     , (22799, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (22799, 044 /* DAMAGE_INT */, 16)
+     , (22799, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (22799, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (22799, 047 /* ATTACK_TYPE_INT */, 486 /*  */)
+     , (22799, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (22799, 049 /* WEAPON_TIME_INT */, 1)
+     , (22799, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (22799, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22799, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22799, 29, 1.075) /* WEAPON_DEFENSE_FLOAT */
-     , (22799, 21, 0.8) /* WEAPON_LENGTH_FLOAT */
-     , (22799, 62, 1.075) /* WEAPON_OFFENSE_FLOAT */
-     , (22799, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (22799, 021 /* WEAPON_LENGTH_FLOAT */, 0.8)
+     , (22799, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (22799, 029 /* WEAPON_DEFENSE_FLOAT */, 1.075)
+     , (22799, 062 /* WEAPON_OFFENSE_FLOAT */, 1.075);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22799, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (22799, 022 /* INSCRIBABLE_BOOL */, True);
 

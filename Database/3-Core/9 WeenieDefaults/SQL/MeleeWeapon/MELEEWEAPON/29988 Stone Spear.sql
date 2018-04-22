@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 29988;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29988, 'spearruschkhigh', /* MeleeWeapon_WeenieType */ 6);
+VALUES (29988, 'spearruschkhigh', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29988, 1, 'Stone Spear') /* NAME_STRING */;
+VALUES (29988, 001 /* NAME_STRING */, 'Stone Spear');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29988, 1, 33558589) /* SETUP_DID */
-     , (29988, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29988, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (29988, 8, 100675768) /* ICON_DID */
-     , (29988, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29988, 001 /* SETUP_DID */, 33558589)
+     , (29988, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29988, 008 /* ICON_DID */, 100675768)
+     , (29988, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (29988, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29988, 33, -2) /* BONDED_INT */
-     , (29988, 9, 1048576) /* LOCATIONS_INT */
-     , (29988, 1, 1) /* ITEM_TYPE_INT */
-     , (29988, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (29988, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29988, 5, 700) /* ENCUMB_VAL_INT */
-     , (29988, 16, 1) /* ITEM_USEABLE_INT */
-     , (29988, 8, 140) /* MASS_INT */
-     , (29988, 19, 425) /* VALUE_INT */
-     , (29988, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (29988, 107, 500) /* ITEM_CUR_MANA_INT */
-     , (29988, 44, 22) /* DAMAGE_INT */
-     , (29988, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (29988, 45, 2) /* DAMAGE_TYPE_INT */
-     , (29988, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (29988, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (29988, 47, 2) /* ATTACK_TYPE_INT */
-     , (29988, 48, 9) /* WEAPON_SKILL_INT */
-     , (29988, 49, 30) /* WEAPON_TIME_INT */
-     , (29988, 51, 1) /* COMBAT_USE_INT */;
+VALUES (29988, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (29988, 005 /* ENCUMB_VAL_INT */, 700)
+     , (29988, 008 /* MASS_INT */, 140)
+     , (29988, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (29988, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29988, 019 /* VALUE_INT */, 425)
+     , (29988, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (29988, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (29988, 044 /* DAMAGE_INT */, 22)
+     , (29988, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (29988, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (29988, 047 /* ATTACK_TYPE_INT */, 2 /* Thrust_AttackType */)
+     , (29988, 048 /* WEAPON_SKILL_INT */, 9 /* SPEAR_SKILL */)
+     , (29988, 049 /* WEAPON_TIME_INT */, 30)
+     , (29988, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (29988, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29988, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (29988, 107 /* ITEM_CUR_MANA_INT */, 500)
+     , (29988, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (29988, 109 /* ITEM_DIFFICULTY_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29988, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (29988, 21, 1.5) /* WEAPON_LENGTH_FLOAT */
-     , (29988, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (29988, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (29988, 021 /* WEAPON_LENGTH_FLOAT */, 1.5)
+     , (29988, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (29988, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (29988, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29988, 22, True) /* INSCRIBABLE_BOOL */
-     , (29988, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (29988, 022 /* INSCRIBABLE_BOOL */, True)
+     , (29988, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29988, 1615, 2) /* BloodDrinker5_SpellID */

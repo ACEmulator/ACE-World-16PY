@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 550;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (550, 'baigha', /* Clothing_WeenieType */ 2);
+VALUES (550, 'baigha', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (550, 1, 'Baigha') /* NAME_STRING */;
+VALUES (550, 001 /* NAME_STRING */, 'Baigha');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (550, 1, 33555048) /* SETUP_DID */
-     , (550, 3, 536870932) /* SOUND_TABLE_DID */
-     , (550, 36, 234881042) /* MUTATE_FILTER_DID */
-     , (550, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (550, 46, 939524146) /* TSYS_MUTATION_FILTER_DID */
-     , (550, 6, 67108990) /* PALETTE_BASE_DID */
-     , (550, 7, 268435630) /* CLOTHINGBASE_DID */
-     , (550, 8, 100668240) /* ICON_DID */;
+VALUES (550, 001 /* SETUP_DID */, 33555048)
+     , (550, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (550, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (550, 007 /* CLOTHINGBASE_DID */, 268435630)
+     , (550, 008 /* ICON_DID */, 100668240)
+     , (550, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (550, 036 /* MUTATE_FILTER_DID */, 234881042)
+     , (550, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (550, 9, 1) /* LOCATIONS_INT */
-     , (550, 1, 2) /* ITEM_TYPE_INT */
-     , (550, 19, 653) /* VALUE_INT */
-     , (550, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (550, 4, 16384) /* CLOTHING_PRIORITY_INT */
-     , (550, 5, 533) /* ENCUMB_VAL_INT */
-     , (550, 16, 1) /* ITEM_USEABLE_INT */
-     , (550, 8, 200) /* MASS_INT */
-     , (550, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (550, 151, 2) /* HOOK_TYPE_INT */
-     , (550, 27, 32) /* ARMOR_TYPE_INT */
-     , (550, 28, 100) /* ARMOR_LEVEL_INT */
-     , (550, 93, 1044) /* PHYSICS_STATE_INT */
-     , (550, 169, 168429060) /* TSYS_MUTATION_DATA_INT */;
+VALUES (550, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (550, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (550, 004 /* CLOTHING_PRIORITY_INT */, 16384 /* Head */)
+     , (550, 005 /* ENCUMB_VAL_INT */, 533)
+     , (550, 008 /* MASS_INT */, 200)
+     , (550, 009 /* LOCATIONS_INT */, 1 /* HEAD_WEAR_LOC */)
+     , (550, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (550, 019 /* VALUE_INT */, 653)
+     , (550, 027 /* ARMOR_TYPE_INT */, 32)
+     , (550, 028 /* ARMOR_LEVEL_INT */, 100)
+     , (550, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (550, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (550, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (550, 169 /* TSYS_MUTATION_DATA_INT */, 168429060);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (550, 12, 0.66) /* SHADE_FLOAT */
-     , (550, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (550, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (550, 110, 1) /* BULK_MOD_FLOAT */
-     , (550, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (550, 111, 1) /* SIZE_MOD_FLOAT */
-     , (550, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (550, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (550, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (550, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (550, 012 /* SHADE_FLOAT */, 0.66)
+     , (550, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
+     , (550, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (550, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (550, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
+     , (550, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
+     , (550, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
+     , (550, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (550, 110 /* BULK_MOD_FLOAT */, 1)
+     , (550, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (550, 100, True) /* DYABLE_BOOL */
-     , (550, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (550, 022 /* INSCRIBABLE_BOOL */, True)
+     , (550, 100 /* DYABLE_BOOL */, True);
 

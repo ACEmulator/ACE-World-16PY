@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 3653;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3653, 'bookadvocatefane', /* Book_WeenieType */ 8);
+VALUES (3653, 'bookadvocatefane', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3653, 1, 'The Advocates'' Tome') /* NAME_STRING */;
+VALUES (3653, 001 /* NAME_STRING */, 'The Advocates'' Tome');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3653, 1, 33554772) /* SETUP_DID */
-     , (3653, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3653, 8, 100667470) /* ICON_DID */
-     , (3653, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (3653, 001 /* SETUP_DID */, 33554772)
+     , (3653, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3653, 008 /* ICON_DID */, 100667470)
+     , (3653, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3653, 9, 0) /* LOCATIONS_INT */
-     , (3653, 1, 8192) /* ITEM_TYPE_INT */
-     , (3653, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3653, 5, 5) /* ENCUMB_VAL_INT */
-     , (3653, 16, 8) /* ITEM_USEABLE_INT */
-     , (3653, 8, 5) /* MASS_INT */
-     , (3653, 19, 25) /* VALUE_INT */;
+VALUES (3653, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (3653, 005 /* ENCUMB_VAL_INT */, 5)
+     , (3653, 008 /* MASS_INT */, 5)
+     , (3653, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (3653, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (3653, 019 /* VALUE_INT */, 25)
+     , (3653, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3653, 39, 1.22) /* DEFAULT_SCALE_FLOAT */
-     , (3653, 54, 0.3) /* USE_RADIUS_FLOAT */;
+VALUES (3653, 039 /* DEFAULT_SCALE_FLOAT */, 1.22)
+     , (3653, 054 /* USE_RADIUS_FLOAT */, 0.3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3653, 22, False) /* INSCRIBABLE_BOOL */
-     , (3653, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (3653, 022 /* INSCRIBABLE_BOOL */, False)
+     , (3653, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (3653, 5, 1000) /* Book Data */;

@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 7398;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7398, 'keysylsfearchestmagichigh', /* Key_WeenieType */ 22);
+VALUES (7398, 'keysylsfearchestmagichigh', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7398, 16, 'An iron key found in Sylsfear, coated with bone dust and veined with dark rust.') /* LONG_DESC_STRING */
-     , (7398, 1, 'Laboratory Key') /* NAME_STRING */
-     , (7398, 33, 'sylsfeartreasurekey') /* QUEST_STRING */
-     , (7398, 13, 'KeySylsfearChestMagicHigh') /* KEY_CODE_STRING */
-     , (7398, 15, 'An iron key, coated with bone dust and veined with dark rust.') /* SHORT_DESC_STRING */;
+VALUES (7398, 001 /* NAME_STRING */, 'Laboratory Key')
+     , (7398, 013 /* KEY_CODE_STRING */, 'KeySylsfearChestMagicHigh')
+     , (7398, 015 /* SHORT_DESC_STRING */, 'An iron key, coated with bone dust and veined with dark rust.')
+     , (7398, 016 /* LONG_DESC_STRING */, 'An iron key found in Sylsfear, coated with bone dust and veined with dark rust.')
+     , (7398, 033 /* QUEST_STRING */, 'sylsfeartreasurekey');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7398, 1, 33554784) /* SETUP_DID */
-     , (7398, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7398, 8, 100667486) /* ICON_DID */
-     , (7398, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (7398, 001 /* SETUP_DID */, 33554784)
+     , (7398, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7398, 008 /* ICON_DID */, 100667486)
+     , (7398, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7398, 1, 16384) /* ITEM_TYPE_INT */
-     , (7398, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7398, 5, 50) /* ENCUMB_VAL_INT */
-     , (7398, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (7398, 8, 20) /* MASS_INT */
-     , (7398, 91, 1) /* MAX_STRUCTURE_INT */
-     , (7398, 19, 25) /* VALUE_INT */
-     , (7398, 92, 1) /* STRUCTURE_INT */
-     , (7398, 94, 640) /* TARGET_TYPE_INT */
-     , (7398, 33, 1) /* BONDED_INT */
-     , (7398, 114, 1) /* ATTUNED_INT */;
+VALUES (7398, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (7398, 005 /* ENCUMB_VAL_INT */, 50)
+     , (7398, 008 /* MASS_INT */, 20)
+     , (7398, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (7398, 019 /* VALUE_INT */, 25)
+     , (7398, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7398, 091 /* MAX_STRUCTURE_INT */, 1)
+     , (7398, 092 /* STRUCTURE_INT */, 1)
+     , (7398, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7398, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
+     , (7398, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7398, 22, True) /* INSCRIBABLE_BOOL */
-     , (7398, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7398, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7398, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

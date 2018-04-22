@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 758;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (758, 'alchemgypsum', /* SpellComponent_WeenieType */ 32);
+VALUES (758, 'alchemgypsum', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (758, 1, 'Gypsum') /* NAME_STRING */
-     , (758, 20, 'Gypsum Potions') /* PLURAL_NAME_STRING */;
+VALUES (758, 001 /* NAME_STRING */, 'Gypsum')
+     , (758, 020 /* PLURAL_NAME_STRING */, 'Gypsum Potions');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (758, 1, 33555209) /* SETUP_DID */
-     , (758, 3, 536870932) /* SOUND_TABLE_DID */
-     , (758, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (758, 6, 67111919) /* PALETTE_BASE_DID */
-     , (758, 7, 268435719) /* CLOTHINGBASE_DID */
-     , (758, 8, 100669698) /* ICON_DID */
-     , (758, 29, 42) /* SPELL_COMPONENT_DID */;
+VALUES (758, 001 /* SETUP_DID */, 33555209)
+     , (758, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (758, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (758, 007 /* CLOTHINGBASE_DID */, 268435719)
+     , (758, 008 /* ICON_DID */, 100669698)
+     , (758, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (758, 029 /* SPELL_COMPONENT_DID */, 42);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (758, 9, 0) /* LOCATIONS_INT */
-     , (758, 1, 4096) /* ITEM_TYPE_INT */
-     , (758, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (758, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (758, 13, 4) /* STACK_UNIT_ENCUMB_INT */
-     , (758, 5, 4) /* ENCUMB_VAL_INT */
-     , (758, 8, 50) /* MASS_INT */
-     , (758, 12, 1) /* STACK_SIZE_INT */
-     , (758, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (758, 15, 5) /* STACK_UNIT_VALUE_INT */
-     , (758, 16, 1) /* ITEM_USEABLE_INT */
-     , (758, 19, 5) /* VALUE_INT */
-     , (758, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (758, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (758, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (758, 005 /* ENCUMB_VAL_INT */, 4)
+     , (758, 008 /* MASS_INT */, 50)
+     , (758, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (758, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (758, 012 /* STACK_SIZE_INT */, 1)
+     , (758, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
+     , (758, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (758, 015 /* STACK_UNIT_VALUE_INT */, 5)
+     , (758, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (758, 019 /* VALUE_INT */, 5)
+     , (758, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

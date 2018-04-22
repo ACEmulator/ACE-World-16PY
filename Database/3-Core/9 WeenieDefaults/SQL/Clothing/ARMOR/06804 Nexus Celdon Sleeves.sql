@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 6804;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6804, 'sleevesceldonnexus', /* Clothing_WeenieType */ 2);
+VALUES (6804, 'sleevesceldonnexus', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6804, 16, 'A magnificent set of Celdon sleeves, infused with the essence of the Nexus Crystal.') /* LONG_DESC_STRING */
-     , (6804, 1, 'Nexus Celdon Sleeves') /* NAME_STRING */
-     , (6804, 15, 'A magnificent set of Celdon sleeves, infused with the essence of the Nexus Crystal.') /* SHORT_DESC_STRING */;
+VALUES (6804, 001 /* NAME_STRING */, 'Nexus Celdon Sleeves')
+     , (6804, 015 /* SHORT_DESC_STRING */, 'A magnificent set of Celdon sleeves, infused with the essence of the Nexus Crystal.')
+     , (6804, 016 /* LONG_DESC_STRING */, 'A magnificent set of Celdon sleeves, infused with the essence of the Nexus Crystal.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6804, 1, 33554655) /* SETUP_DID */
-     , (6804, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6804, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6804, 6, 67108990) /* PALETTE_BASE_DID */
-     , (6804, 7, 268435847) /* CLOTHINGBASE_DID */
-     , (6804, 8, 100670427) /* ICON_DID */;
+VALUES (6804, 001 /* SETUP_DID */, 33554655)
+     , (6804, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6804, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (6804, 007 /* CLOTHINGBASE_DID */, 268435847)
+     , (6804, 008 /* ICON_DID */, 100670427)
+     , (6804, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6804, 9, 6144) /* LOCATIONS_INT */
-     , (6804, 1, 2) /* ITEM_TYPE_INT */
-     , (6804, 27, 32) /* ARMOR_TYPE_INT */
-     , (6804, 19, 2870) /* VALUE_INT */
-     , (6804, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (6804, 4, 12288) /* CLOTHING_PRIORITY_INT */
-     , (6804, 5, 1800) /* ENCUMB_VAL_INT */
-     , (6804, 16, 1) /* ITEM_USEABLE_INT */
-     , (6804, 8, 700) /* MASS_INT */
-     , (6804, 28, 260) /* ARMOR_LEVEL_INT */
-     , (6804, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6804, 33, 1) /* BONDED_INT */;
+VALUES (6804, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (6804, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (6804, 004 /* CLOTHING_PRIORITY_INT */, 12288 /* OuterwearUpperArms, OuterwearLowerArms */)
+     , (6804, 005 /* ENCUMB_VAL_INT */, 1800)
+     , (6804, 008 /* MASS_INT */, 700)
+     , (6804, 009 /* LOCATIONS_INT */, 6144 /* UPPER_ARM_ARMOR_LOC, LOWER_ARM_ARMOR_LOC */)
+     , (6804, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6804, 019 /* VALUE_INT */, 2870)
+     , (6804, 027 /* ARMOR_TYPE_INT */, 32)
+     , (6804, 028 /* ARMOR_LEVEL_INT */, 260)
+     , (6804, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6804, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6804, 12, 0.1) /* SHADE_FLOAT */
-     , (6804, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (6804, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (6804, 110, 1) /* BULK_MOD_FLOAT */
-     , (6804, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (6804, 111, 1) /* SIZE_MOD_FLOAT */
-     , (6804, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (6804, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (6804, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (6804, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (6804, 012 /* SHADE_FLOAT */, 0.1)
+     , (6804, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (6804, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.3)
+     , (6804, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.3)
+     , (6804, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (6804, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (6804, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (6804, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (6804, 110 /* BULK_MOD_FLOAT */, 1)
+     , (6804, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6804, 22, True) /* INSCRIBABLE_BOOL */
-     , (6804, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6804, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6804, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

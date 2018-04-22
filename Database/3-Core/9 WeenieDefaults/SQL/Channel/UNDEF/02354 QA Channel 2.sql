@@ -2,19 +2,19 @@
 DELETE FROM weenie WHERE class_Id = 2354;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2354, 'channel-qa2', /* Channel_WeenieType */ 36);
+VALUES (2354, 'channel-qa2', 36 /* Channel_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2354, 1, 'QA Channel 2') /* NAME_STRING */;
+VALUES (2354, 001 /* NAME_STRING */, 'QA Channel 2');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2354, 1, 33555428) /* SETUP_DID */
-     , (2354, 8, 100667388) /* ICON_DID */;
+VALUES (2354, 001 /* SETUP_DID */, 33555428)
+     , (2354, 008 /* ICON_DID */, 100667388);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2354, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (2354, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2354, 1, True) /* STUCK_BOOL */
-     , (2354, 18, True) /* VISIBILITY_BOOL */;
+VALUES (2354, 001 /* STUCK_BOOL */, True)
+     , (2354, 018 /* VISIBILITY_BOOL */, True);
 

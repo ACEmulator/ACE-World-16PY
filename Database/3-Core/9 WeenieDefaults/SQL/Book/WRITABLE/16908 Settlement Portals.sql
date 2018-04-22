@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 16908;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (16908, 'statueresidentialhalls', /* Book_WeenieType */ 8);
+VALUES (16908, 'statueresidentialhalls', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (16908, 1, 'Settlement Portals') /* NAME_STRING */;
+VALUES (16908, 001 /* NAME_STRING */, 'Settlement Portals');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16908, 1, 33557660) /* SETUP_DID */
-     , (16908, 6, 67108990) /* PALETTE_BASE_DID */
-     , (16908, 7, 268436299) /* CLOTHINGBASE_DID */
-     , (16908, 8, 100668115) /* ICON_DID */;
+VALUES (16908, 001 /* SETUP_DID */, 33557660)
+     , (16908, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (16908, 007 /* CLOTHINGBASE_DID */, 268436299)
+     , (16908, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (16908, 1, 8192) /* ITEM_TYPE_INT */
-     , (16908, 19, 125) /* VALUE_INT */
-     , (16908, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (16908, 93, 1048) /* PHYSICS_STATE_INT */
-     , (16908, 5, 9000) /* ENCUMB_VAL_INT */
-     , (16908, 16, 48) /* ITEM_USEABLE_INT */
-     , (16908, 8, 1800) /* MASS_INT */;
+VALUES (16908, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (16908, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (16908, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (16908, 008 /* MASS_INT */, 1800)
+     , (16908, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (16908, 019 /* VALUE_INT */, 125)
+     , (16908, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (16908, 12, 0.1) /* SHADE_FLOAT */
-     , (16908, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (16908, 012 /* SHADE_FLOAT */, 0.1)
+     , (16908, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16908, 1, True) /* STUCK_BOOL */
-     , (16908, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (16908, 13, False) /* ETHEREAL_BOOL */
-     , (16908, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (16908, 001 /* STUCK_BOOL */, True)
+     , (16908, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (16908, 013 /* ETHEREAL_BOOL */, False)
+     , (16908, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (16908, 1, 1000) /* Book Data */;

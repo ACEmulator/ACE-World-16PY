@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 10753;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10753, 'slumlordtestexpensive', /* SlumLord_WeenieType */ 55);
+VALUES (10753, 'slumlordtestexpensive', 55 /* SlumLord_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10753, 1, 'Mansion') /* NAME_STRING */
-     , (10753, 34, 'MansionEventTest') /* GENERATOR_EVENT_STRING */;
+VALUES (10753, 001 /* NAME_STRING */, 'Mansion')
+     , (10753, 034 /* GENERATOR_EVENT_STRING */, 'MansionEventTest');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10753, 1, 33557167) /* SETUP_DID */
-     , (10753, 2, 150995128) /* MOTION_TABLE_DID */
-     , (10753, 8, 100671884) /* ICON_DID */;
+VALUES (10753, 001 /* SETUP_DID */, 33557167)
+     , (10753, 002 /* MOTION_TABLE_DID */, 150995128)
+     , (10753, 008 /* ICON_DID */, 100671884);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10753, 16, 32) /* ITEM_USEABLE_INT */
-     , (10753, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10753, 149, 0) /* HOUSE_STATUS_INT */
-     , (10753, 86, 40) /* MIN_LEVEL_INT */;
+VALUES (10753, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (10753, 086 /* MIN_LEVEL_INT */, 40)
+     , (10753, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (10753, 149 /* HOUSE_STATUS_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10753, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
-     , (10753, 54, 3) /* USE_RADIUS_FLOAT */;
+VALUES (10753, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
+     , (10753, 054 /* USE_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10753, 1, True) /* STUCK_BOOL */;
+VALUES (10753, 001 /* STUCK_BOOL */, True);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10753, 16, 273, 10000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */

@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 4902;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4902, 'keyguardiancrypttreasure', /* Key_WeenieType */ 22);
+VALUES (4902, 'keyguardiancrypttreasure', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4902, 16, 'This key opens a door in the Guardian Crypt dungeon.') /* LONG_DESC_STRING */
-     , (4902, 1, 'Key') /* NAME_STRING */
-     , (4902, 13, 'keyguardiancrypttreasure') /* KEY_CODE_STRING */
-     , (4902, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */
-     , (4902, 15, 'This key opens a door in the Guardian Crypt dungeon.') /* SHORT_DESC_STRING */;
+VALUES (4902, 001 /* NAME_STRING */, 'Key')
+     , (4902, 013 /* KEY_CODE_STRING */, 'keyguardiancrypttreasure')
+     , (4902, 014 /* USE_STRING */, 'Use this item on a locked door or chest to unlock it.')
+     , (4902, 015 /* SHORT_DESC_STRING */, 'This key opens a door in the Guardian Crypt dungeon.')
+     , (4902, 016 /* LONG_DESC_STRING */, 'This key opens a door in the Guardian Crypt dungeon.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4902, 1, 33554784) /* SETUP_DID */
-     , (4902, 3, 536870932) /* SOUND_TABLE_DID */
-     , (4902, 8, 100667483) /* ICON_DID */
-     , (4902, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (4902, 001 /* SETUP_DID */, 33554784)
+     , (4902, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (4902, 008 /* ICON_DID */, 100667483)
+     , (4902, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4902, 1, 16384) /* ITEM_TYPE_INT */
-     , (4902, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4902, 5, 50) /* ENCUMB_VAL_INT */
-     , (4902, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (4902, 8, 20) /* MASS_INT */
-     , (4902, 91, 1) /* MAX_STRUCTURE_INT */
-     , (4902, 19, 100) /* VALUE_INT */
-     , (4902, 92, 1) /* STRUCTURE_INT */
-     , (4902, 94, 640) /* TARGET_TYPE_INT */;
+VALUES (4902, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (4902, 005 /* ENCUMB_VAL_INT */, 50)
+     , (4902, 008 /* MASS_INT */, 20)
+     , (4902, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (4902, 019 /* VALUE_INT */, 100)
+     , (4902, 091 /* MAX_STRUCTURE_INT */, 1)
+     , (4902, 092 /* STRUCTURE_INT */, 1)
+     , (4902, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (4902, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4902, 22, True) /* INSCRIBABLE_BOOL */
-     , (4902, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (4902, 022 /* INSCRIBABLE_BOOL */, True)
+     , (4902, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

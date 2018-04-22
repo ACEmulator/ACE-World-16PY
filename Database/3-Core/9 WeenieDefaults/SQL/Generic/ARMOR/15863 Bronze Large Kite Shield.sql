@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 15863;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15863, 'shieldkitelargestatue-monsteronly', /* Generic_WeenieType */ 1);
+VALUES (15863, 'shieldkitelargestatue-monsteronly', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15863, 1, 'Bronze Large Kite Shield') /* NAME_STRING */;
+VALUES (15863, 001 /* NAME_STRING */, 'Bronze Large Kite Shield');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15863, 1, 33554788) /* SETUP_DID */
-     , (15863, 3, 536870932) /* SOUND_TABLE_DID */
-     , (15863, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (15863, 6, 67111919) /* PALETTE_BASE_DID */
-     , (15863, 7, 268435609) /* CLOTHINGBASE_DID */
-     , (15863, 8, 100667360) /* ICON_DID */;
+VALUES (15863, 001 /* SETUP_DID */, 33554788)
+     , (15863, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (15863, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (15863, 007 /* CLOTHINGBASE_DID */, 268435609)
+     , (15863, 008 /* ICON_DID */, 100667360)
+     , (15863, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15863, 9, 2097152) /* LOCATIONS_INT */
-     , (15863, 1, 2) /* ITEM_TYPE_INT */
-     , (15863, 27, 2) /* ARMOR_TYPE_INT */
-     , (15863, 19, 210) /* VALUE_INT */
-     , (15863, 3, 27) /* PALETTE_TEMPLATE_INT */
-     , (15863, 5, 650) /* ENCUMB_VAL_INT */
-     , (15863, 16, 1) /* ITEM_USEABLE_INT */
-     , (15863, 8, 460) /* MASS_INT */
-     , (15863, 28, 150) /* ARMOR_LEVEL_INT */
-     , (15863, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15863, 33, -2) /* BONDED_INT */
-     , (15863, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (15863, 114, 1) /* ATTUNED_INT */
-     , (15863, 51, 4) /* COMBAT_USE_INT */;
+VALUES (15863, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (15863, 003 /* PALETTE_TEMPLATE_INT */, 27 /* DARKGREENMETAL_PALETTE_TEMPLATE */)
+     , (15863, 005 /* ENCUMB_VAL_INT */, 650)
+     , (15863, 008 /* MASS_INT */, 460)
+     , (15863, 009 /* LOCATIONS_INT */, 2097152 /* SHIELD_LOC */)
+     , (15863, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15863, 019 /* VALUE_INT */, 210)
+     , (15863, 027 /* ARMOR_TYPE_INT */, 2)
+     , (15863, 028 /* ARMOR_LEVEL_INT */, 150)
+     , (15863, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (15863, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (15863, 051 /* COMBAT_USE_INT */, 4 /* COMBAT_USE_SHIELD */)
+     , (15863, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (15863, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15863, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (15863, 111, 1) /* SIZE_MOD_FLOAT */
-     , (15863, 39, 2.5) /* DEFAULT_SCALE_FLOAT */
-     , (15863, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (15863, 110, 1) /* BULK_MOD_FLOAT */
-     , (15863, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (15863, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (15863, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (15863, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (15863, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1.2)
+     , (15863, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.2)
+     , (15863, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
+     , (15863, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
+     , (15863, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1.2)
+     , (15863, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1.2)
+     , (15863, 039 /* DEFAULT_SCALE_FLOAT */, 2.5)
+     , (15863, 110 /* BULK_MOD_FLOAT */, 1)
+     , (15863, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15863, 22, True) /* INSCRIBABLE_BOOL */
-     , (15863, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (15863, 022 /* INSCRIBABLE_BOOL */, True)
+     , (15863, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

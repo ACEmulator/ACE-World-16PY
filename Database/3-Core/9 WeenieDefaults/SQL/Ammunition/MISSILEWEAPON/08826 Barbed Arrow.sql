@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 8826;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8826, 'arrowbarbed', /* Ammunition_WeenieType */ 5);
+VALUES (8826, 'arrowbarbed', 5 /* Ammunition_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8826, 16, 'A barbed arrow.') /* LONG_DESC_STRING */
-     , (8826, 1, 'Barbed Arrow') /* NAME_STRING */
-     , (8826, 15, 'A barbed arrow.') /* SHORT_DESC_STRING */;
+VALUES (8826, 001 /* NAME_STRING */, 'Barbed Arrow')
+     , (8826, 015 /* SHORT_DESC_STRING */, 'A barbed arrow.')
+     , (8826, 016 /* LONG_DESC_STRING */, 'A barbed arrow.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8826, 1, 33554724) /* SETUP_DID */
-     , (8826, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8826, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8826, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8826, 7, 268436303) /* CLOTHINGBASE_DID */
-     , (8826, 8, 100671227) /* ICON_DID */;
+VALUES (8826, 001 /* SETUP_DID */, 33554724)
+     , (8826, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8826, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8826, 007 /* CLOTHINGBASE_DID */, 268436303)
+     , (8826, 008 /* ICON_DID */, 100671227)
+     , (8826, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8826, 9, 8388608) /* LOCATIONS_INT */
-     , (8826, 1, 256) /* ITEM_TYPE_INT */
-     , (8826, 11, 250) /* MAX_STACK_SIZE_INT */
-     , (8826, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (8826, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (8826, 5, 10) /* ENCUMB_VAL_INT */
-     , (8826, 8, 2) /* MASS_INT */
-     , (8826, 12, 1) /* STACK_SIZE_INT */
-     , (8826, 14, 2) /* STACK_UNIT_MASS_INT */
-     , (8826, 15, 2) /* STACK_UNIT_VALUE_INT */
-     , (8826, 16, 1) /* ITEM_USEABLE_INT */
-     , (8826, 19, 2) /* VALUE_INT */
-     , (8826, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8826, 151, 2) /* HOOK_TYPE_INT */
-     , (8826, 93, 132116) /* PHYSICS_STATE_INT */
-     , (8826, 44, 11) /* DAMAGE_INT */
-     , (8826, 45, 2) /* DAMAGE_TYPE_INT */
-     , (8826, 50, 1) /* AMMO_TYPE_INT */
-     , (8826, 51, 3) /* COMBAT_USE_INT */;
+VALUES (8826, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (8826, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (8826, 005 /* ENCUMB_VAL_INT */, 10)
+     , (8826, 008 /* MASS_INT */, 2)
+     , (8826, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
+     , (8826, 011 /* MAX_STACK_SIZE_INT */, 250)
+     , (8826, 012 /* STACK_SIZE_INT */, 1)
+     , (8826, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (8826, 014 /* STACK_UNIT_MASS_INT */, 2)
+     , (8826, 015 /* STACK_UNIT_VALUE_INT */, 2)
+     , (8826, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8826, 019 /* VALUE_INT */, 2)
+     , (8826, 044 /* DAMAGE_INT */, 11)
+     , (8826, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (8826, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (8826, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
+     , (8826, 093 /* PHYSICS_STATE_INT */, 132116 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, INELASTIC_PS */)
+     , (8826, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8826, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8826, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (8826, 22, 0.33) /* DAMAGE_VARIANCE_FLOAT */
-     , (8826, 78, 1) /* FRICTION_FLOAT */
-     , (8826, 79, 0) /* ELASTICITY_FLOAT */
-     , (8826, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (8826, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.33)
+     , (8826, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (8826, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (8826, 078 /* FRICTION_FLOAT */, 1)
+     , (8826, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8826, 69, False) /* IS_SELLABLE_BOOL */
-     , (8826, 17, True) /* INELASTIC_BOOL */;
+VALUES (8826, 017 /* INELASTIC_BOOL */, True)
+     , (8826, 069 /* IS_SELLABLE_BOOL */, False);
 

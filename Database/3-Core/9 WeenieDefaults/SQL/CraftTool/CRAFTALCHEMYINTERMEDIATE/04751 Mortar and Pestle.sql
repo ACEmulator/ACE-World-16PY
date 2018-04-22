@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 4751;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4751, 'mortarandpestle', /* CraftTool_WeenieType */ 44);
+VALUES (4751, 'mortarandpestle', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4751, 16, 'A tool employed by fine alchemists.') /* LONG_DESC_STRING */
-     , (4751, 1, 'Mortar and Pestle') /* NAME_STRING */
-     , (4751, 20, 'Sets of Mortar and Pestle') /* PLURAL_NAME_STRING */
-     , (4751, 14, 'This item is used in alchemy.') /* USE_STRING */;
+VALUES (4751, 001 /* NAME_STRING */, 'Mortar and Pestle')
+     , (4751, 014 /* USE_STRING */, 'This item is used in alchemy.')
+     , (4751, 016 /* LONG_DESC_STRING */, 'A tool employed by fine alchemists.')
+     , (4751, 020 /* PLURAL_NAME_STRING */, 'Sets of Mortar and Pestle');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4751, 1, 33555966) /* SETUP_DID */
-     , (4751, 3, 536870932) /* SOUND_TABLE_DID */
-     , (4751, 8, 100670116) /* ICON_DID */
-     , (4751, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (4751, 001 /* SETUP_DID */, 33555966)
+     , (4751, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (4751, 008 /* ICON_DID */, 100670116)
+     , (4751, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4751, 9, 0) /* LOCATIONS_INT */
-     , (4751, 1, 67108864) /* ITEM_TYPE_INT */
-     , (4751, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (4751, 5, 50) /* ENCUMB_VAL_INT */
-     , (4751, 8, 25) /* MASS_INT */
-     , (4751, 11, 2) /* MAX_STACK_SIZE_INT */
-     , (4751, 12, 1) /* STACK_SIZE_INT */
-     , (4751, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (4751, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (4751, 16, 524296) /* ITEM_USEABLE_INT */
-     , (4751, 19, 10) /* VALUE_INT */
-     , (4751, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (4751, 151, 9) /* HOOK_TYPE_INT */
-     , (4751, 93, 1044) /* PHYSICS_STATE_INT */
-     , (4751, 94, 4201088) /* TARGET_TYPE_INT */;
+VALUES (4751, 001 /* ITEM_TYPE_INT */, 67108864 /* TYPE_CRAFT_ALCHEMY_INTERMEDIATE */)
+     , (4751, 005 /* ENCUMB_VAL_INT */, 50)
+     , (4751, 008 /* MASS_INT */, 25)
+     , (4751, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (4751, 011 /* MAX_STACK_SIZE_INT */, 2)
+     , (4751, 012 /* STACK_SIZE_INT */, 1)
+     , (4751, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (4751, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (4751, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (4751, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (4751, 019 /* VALUE_INT */, 10)
+     , (4751, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (4751, 094 /* TARGET_TYPE_INT */, 4201088 /* TYPE_LOCKABLE_MAGIC_TARGET, TYPE_GEM, TYPE_SPELL_COMPONENTS, TYPE_CRAFT_COOKING_BASE */)
+     , (4751, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (4751, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 

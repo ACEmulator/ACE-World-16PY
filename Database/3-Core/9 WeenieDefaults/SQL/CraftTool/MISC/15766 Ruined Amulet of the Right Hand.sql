@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 15766;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15766, 'amuletruineditem', /* CraftTool_WeenieType */ 44);
+VALUES (15766, 'amuletruineditem', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15766, 16, 'An Amulet crafted in pyreal that bears the symbol of item enchantment. The amulet is damaged, seemingly beyond repair.') /* LONG_DESC_STRING */
-     , (15766, 1, 'Ruined Amulet of the Right Hand') /* NAME_STRING */
-     , (15766, 14, 'This might fit into a setting created for it.') /* USE_STRING */
-     , (15766, 15, 'An amulet crafted in pyreal that bears the symbol of item enchantment.') /* SHORT_DESC_STRING */;
+VALUES (15766, 001 /* NAME_STRING */, 'Ruined Amulet of the Right Hand')
+     , (15766, 014 /* USE_STRING */, 'This might fit into a setting created for it.')
+     , (15766, 015 /* SHORT_DESC_STRING */, 'An amulet crafted in pyreal that bears the symbol of item enchantment.')
+     , (15766, 016 /* LONG_DESC_STRING */, 'An Amulet crafted in pyreal that bears the symbol of item enchantment. The amulet is damaged, seemingly beyond repair.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15766, 1, 33554680) /* SETUP_DID */
-     , (15766, 3, 536870932) /* SOUND_TABLE_DID */
-     , (15766, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (15766, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (15766, 6, 67111919) /* PALETTE_BASE_DID */
-     , (15766, 7, 268436095) /* CLOTHINGBASE_DID */
-     , (15766, 8, 100672811) /* ICON_DID */;
+VALUES (15766, 001 /* SETUP_DID */, 33554680)
+     , (15766, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (15766, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (15766, 007 /* CLOTHINGBASE_DID */, 268436095)
+     , (15766, 008 /* ICON_DID */, 100672811)
+     , (15766, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (15766, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15766, 9, 0) /* LOCATIONS_INT */
-     , (15766, 1, 128) /* ITEM_TYPE_INT */
-     , (15766, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (15766, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (15766, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (15766, 5, 10) /* ENCUMB_VAL_INT */
-     , (15766, 8, 10) /* MASS_INT */
-     , (15766, 12, 1) /* STACK_SIZE_INT */
-     , (15766, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (15766, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (15766, 16, 524296) /* ITEM_USEABLE_INT */
-     , (15766, 19, 0) /* VALUE_INT */
-     , (15766, 93, 1044) /* PHYSICS_STATE_INT */
-     , (15766, 94, 2) /* TARGET_TYPE_INT */
-     , (15766, 33, 1) /* BONDED_INT */
-     , (15766, 114, 1) /* ATTUNED_INT */;
+VALUES (15766, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (15766, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (15766, 005 /* ENCUMB_VAL_INT */, 10)
+     , (15766, 008 /* MASS_INT */, 10)
+     , (15766, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (15766, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (15766, 012 /* STACK_SIZE_INT */, 1)
+     , (15766, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (15766, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (15766, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (15766, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (15766, 019 /* VALUE_INT */, 0)
+     , (15766, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (15766, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (15766, 094 /* TARGET_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (15766, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15766, 39, 0.67) /* DEFAULT_SCALE_FLOAT */;
+VALUES (15766, 039 /* DEFAULT_SCALE_FLOAT */, 0.67);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15766, 22, True) /* INSCRIBABLE_BOOL */
-     , (15766, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (15766, 022 /* INSCRIBABLE_BOOL */, True)
+     , (15766, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

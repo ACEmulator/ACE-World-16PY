@@ -2,50 +2,50 @@
 DELETE FROM weenie WHERE class_Id = 9096;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9096, 'leggingsunkindledthau', /* Generic_WeenieType */ 1);
+VALUES (9096, 'leggingsunkindledthau', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9096, 16, 'A pair of thaumaturgic plate leggings. A Kindling Stone must be applied to them before they may be worn.') /* LONG_DESC_STRING */
-     , (9096, 1, 'Unkindled Thaumaturgic Plate Leggings') /* NAME_STRING */
-     , (9096, 15, 'A pair of leggings. You cannot wear them.') /* SHORT_DESC_STRING */;
+VALUES (9096, 001 /* NAME_STRING */, 'Unkindled Thaumaturgic Plate Leggings')
+     , (9096, 015 /* SHORT_DESC_STRING */, 'A pair of leggings. You cannot wear them.')
+     , (9096, 016 /* LONG_DESC_STRING */, 'A pair of thaumaturgic plate leggings. A Kindling Stone must be applied to them before they may be worn.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9096, 1, 33554856) /* SETUP_DID */
-     , (9096, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9096, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9096, 6, 67108990) /* PALETTE_BASE_DID */
-     , (9096, 7, 268436115) /* CLOTHINGBASE_DID */
-     , (9096, 8, 100671365) /* ICON_DID */;
+VALUES (9096, 001 /* SETUP_DID */, 33554856)
+     , (9096, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9096, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (9096, 007 /* CLOTHINGBASE_DID */, 268436115)
+     , (9096, 008 /* ICON_DID */, 100671365)
+     , (9096, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9096, 9, 0) /* LOCATIONS_INT */
-     , (9096, 1, 2) /* ITEM_TYPE_INT */
-     , (9096, 27, 32) /* ARMOR_TYPE_INT */
-     , (9096, 19, 25) /* VALUE_INT */
-     , (9096, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (9096, 4, 0) /* CLOTHING_PRIORITY_INT */
-     , (9096, 5, 75) /* ENCUMB_VAL_INT */
-     , (9096, 16, 1) /* ITEM_USEABLE_INT */
-     , (9096, 8, 200) /* MASS_INT */
-     , (9096, 28, 0) /* ARMOR_LEVEL_INT */
-     , (9096, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9096, 33, 1) /* BONDED_INT */
-     , (9096, 114, 1) /* ATTUNED_INT */;
+VALUES (9096, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (9096, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (9096, 004 /* CLOTHING_PRIORITY_INT */, 0 /* 0 */)
+     , (9096, 005 /* ENCUMB_VAL_INT */, 75)
+     , (9096, 008 /* MASS_INT */, 200)
+     , (9096, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9096, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9096, 019 /* VALUE_INT */, 25)
+     , (9096, 027 /* ARMOR_TYPE_INT */, 32)
+     , (9096, 028 /* ARMOR_LEVEL_INT */, 0)
+     , (9096, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9096, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9096, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9096, 12, 0.5) /* SHADE_FLOAT */
-     , (9096, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9096, 14, 0) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9096, 110, 1) /* BULK_MOD_FLOAT */
-     , (9096, 15, 0) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9096, 111, 1) /* SIZE_MOD_FLOAT */
-     , (9096, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9096, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9096, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9096, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (9096, 012 /* SHADE_FLOAT */, 0.5)
+     , (9096, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0)
+     , (9096, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0)
+     , (9096, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0)
+     , (9096, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0)
+     , (9096, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0)
+     , (9096, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0)
+     , (9096, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
+     , (9096, 110 /* BULK_MOD_FLOAT */, 1)
+     , (9096, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9096, 69, False) /* IS_SELLABLE_BOOL */
-     , (9096, 22, True) /* INSCRIBABLE_BOOL */
-     , (9096, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9096, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9096, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (9096, 069 /* IS_SELLABLE_BOOL */, False);
 

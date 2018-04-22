@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 14418;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14418, 'doortrapregicide', /* Switch_WeenieType */ 26);
+VALUES (14418, 'doortrapregicide', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14418, 1, 'Trap Door') /* NAME_STRING */;
+VALUES (14418, 001 /* NAME_STRING */, 'Trap Door');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14418, 1, 33557478) /* SETUP_DID */
-     , (14418, 2, 150995151) /* MOTION_TABLE_DID */
-     , (14418, 3, 536870947) /* SOUND_TABLE_DID */
-     , (14418, 24, 268435537) /* USE_TARGET_ANIMATION_DID */
-     , (14418, 8, 100672468) /* ICON_DID */
-     , (14418, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (14418, 001 /* SETUP_DID */, 33557478)
+     , (14418, 002 /* MOTION_TABLE_DID */, 150995151)
+     , (14418, 003 /* SOUND_TABLE_DID */, 536870947)
+     , (14418, 008 /* ICON_DID */, 100672468)
+     , (14418, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (14418, 024 /* USE_TARGET_ANIMATION_DID */, 268435537 /* Motion_Twitch1 */);
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14418, 16, 0) /* ACTIVATION_TARGET_IID */;
+VALUES (14418, 016 /* ACTIVATION_TARGET_IID */, 0);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14418, 1, 128) /* ITEM_TYPE_INT */
-     , (14418, 16, 48) /* ITEM_USEABLE_INT */
-     , (14418, 93, 16) /* PHYSICS_STATE_INT */
-     , (14418, 119, 1) /* ACTIVE_INT */;
+VALUES (14418, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14418, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (14418, 093 /* PHYSICS_STATE_INT */, 16 /* IGNORE_COLLISIONS_PS */)
+     , (14418, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14418, 54, 2.5) /* USE_RADIUS_FLOAT */;
+VALUES (14418, 054 /* USE_RADIUS_FLOAT */, 2.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14418, 1, True) /* STUCK_BOOL */
-     , (14418, 13, False) /* ETHEREAL_BOOL */
-     , (14418, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (14418, 001 /* STUCK_BOOL */, True)
+     , (14418, 013 /* ETHEREAL_BOOL */, False)
+     , (14418, 014 /* GRAVITY_STATUS_BOOL */, False);
 

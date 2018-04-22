@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 22578;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22578, 'nannerbunch', /* Food_WeenieType */ 18);
+VALUES (22578, 'nannerbunch', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22578, 1, 'Bunch of Nanners') /* NAME_STRING */
-     , (22578, 20, 'Bunches of Nanners') /* PLURAL_NAME_STRING */
-     , (22578, 15, 'A bunch of good smelling fruit.') /* SHORT_DESC_STRING */;
+VALUES (22578, 001 /* NAME_STRING */, 'Bunch of Nanners')
+     , (22578, 015 /* SHORT_DESC_STRING */, 'A bunch of good smelling fruit.')
+     , (22578, 020 /* PLURAL_NAME_STRING */, 'Bunches of Nanners');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22578, 1, 33558106) /* SETUP_DID */
-     , (22578, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22578, 8, 100673809) /* ICON_DID */
-     , (22578, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (22578, 001 /* SETUP_DID */, 33558106)
+     , (22578, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22578, 008 /* ICON_DID */, 100673809)
+     , (22578, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22578, 9, 0) /* LOCATIONS_INT */
-     , (22578, 1, 4194304) /* ITEM_TYPE_INT */
-     , (22578, 13, 30) /* STACK_UNIT_ENCUMB_INT */
-     , (22578, 5, 30) /* ENCUMB_VAL_INT */
-     , (22578, 8, 25) /* MASS_INT */
-     , (22578, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (22578, 12, 1) /* STACK_SIZE_INT */
-     , (22578, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (22578, 15, 50) /* STACK_UNIT_VALUE_INT */
-     , (22578, 16, 8) /* ITEM_USEABLE_INT */
-     , (22578, 19, 50) /* VALUE_INT */
-     , (22578, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (22578, 151, 2) /* HOOK_TYPE_INT */
-     , (22578, 89, 4) /* BOOSTER_ENUM_INT */
-     , (22578, 90, 6) /* BOOST_VALUE_INT */
-     , (22578, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (22578, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (22578, 005 /* ENCUMB_VAL_INT */, 30)
+     , (22578, 008 /* MASS_INT */, 25)
+     , (22578, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (22578, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (22578, 012 /* STACK_SIZE_INT */, 1)
+     , (22578, 013 /* STACK_UNIT_ENCUMB_INT */, 30)
+     , (22578, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (22578, 015 /* STACK_UNIT_VALUE_INT */, 50)
+     , (22578, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (22578, 019 /* VALUE_INT */, 50)
+     , (22578, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (22578, 090 /* BOOST_VALUE_INT */, 6)
+     , (22578, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22578, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (22578, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 

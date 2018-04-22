@@ -2,62 +2,62 @@
 DELETE FROM weenie WHERE class_Id = 6989;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6989, 'crossbowcompositedmg1def3spd3atk2', /* MissileLauncher_WeenieType */ 3);
+VALUES (6989, 'crossbowcompositedmg1def3spd3atk2', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6989, 1, 'Composite Crossbow with Handle') /* NAME_STRING */;
+VALUES (6989, 001 /* NAME_STRING */, 'Composite Crossbow with Handle');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6989, 1, 33556596) /* SETUP_DID */
-     , (6989, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6989, 37, 3) /* ITEM_SKILL_LIMIT_DID */
-     , (6989, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6989, 6, 67112869) /* PALETTE_BASE_DID */
-     , (6989, 7, 268436004) /* CLOTHINGBASE_DID */
-     , (6989, 8, 100670692) /* ICON_DID */;
+VALUES (6989, 001 /* SETUP_DID */, 33556596)
+     , (6989, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6989, 006 /* PALETTE_BASE_DID */, 67112869)
+     , (6989, 007 /* CLOTHINGBASE_DID */, 268436004)
+     , (6989, 008 /* ICON_DID */, 100670692)
+     , (6989, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6989, 037 /* ITEM_SKILL_LIMIT_DID */, 3);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6989, 9, 4194304) /* LOCATIONS_INT */
-     , (6989, 1, 256) /* ITEM_TYPE_INT */
-     , (6989, 19, 375) /* VALUE_INT */
-     , (6989, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (6989, 5, 1920) /* ENCUMB_VAL_INT */
-     , (6989, 16, 1) /* ITEM_USEABLE_INT */
-     , (6989, 8, 640) /* MASS_INT */
-     , (6989, 18, 1) /* UI_EFFECTS_INT */
-     , (6989, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (6989, 151, 2) /* HOOK_TYPE_INT */
-     , (6989, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6989, 33, 1) /* BONDED_INT */
-     , (6989, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (6989, 107, 0) /* ITEM_CUR_MANA_INT */
-     , (6989, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (6989, 44, 0) /* DAMAGE_INT */
-     , (6989, 109, 140) /* ITEM_DIFFICULTY_INT */
-     , (6989, 46, 32) /* DEFAULT_COMBAT_STYLE_INT */
-     , (6989, 48, 3) /* WEAPON_SKILL_INT */
-     , (6989, 49, 90) /* WEAPON_TIME_INT */
-     , (6989, 50, 2) /* AMMO_TYPE_INT */
-     , (6989, 114, 1) /* ATTUNED_INT */
-     , (6989, 51, 2) /* COMBAT_USE_INT */
-     , (6989, 115, 210) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (6989, 52, 2) /* PARENT_LOCATION_INT */
-     , (6989, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (6989, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (6989, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (6989, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (6989, 005 /* ENCUMB_VAL_INT */, 1920)
+     , (6989, 008 /* MASS_INT */, 640)
+     , (6989, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (6989, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6989, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (6989, 019 /* VALUE_INT */, 375)
+     , (6989, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (6989, 044 /* DAMAGE_INT */, 0)
+     , (6989, 046 /* DEFAULT_COMBAT_STYLE_INT */, 32 /* Crossbow_CombatStyle */)
+     , (6989, 048 /* WEAPON_SKILL_INT */, 3 /* CROSSBOW_SKILL */)
+     , (6989, 049 /* WEAPON_TIME_INT */, 90)
+     , (6989, 050 /* AMMO_TYPE_INT */, 2 /* AMMO_BOLT */)
+     , (6989, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (6989, 052 /* PARENT_LOCATION_INT */, 2)
+     , (6989, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (6989, 060 /* WEAPON_RANGE_INT */, 192)
+     , (6989, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6989, 106 /* ITEM_SPELLCRAFT_INT */, 200)
+     , (6989, 107 /* ITEM_CUR_MANA_INT */, 0)
+     , (6989, 108 /* ITEM_MAX_MANA_INT */, 500)
+     , (6989, 109 /* ITEM_DIFFICULTY_INT */, 140)
+     , (6989, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (6989, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 210)
+     , (6989, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (6989, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6989, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (6989, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (6989, 63, 1.6) /* DAMAGE_MOD_FLOAT */
-     , (6989, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
-     , (6989, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (6989, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (6989, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (6989, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (6989, 029 /* WEAPON_DEFENSE_FLOAT */, 1.06)
+     , (6989, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
+     , (6989, 062 /* WEAPON_OFFENSE_FLOAT */, 1.04)
+     , (6989, 063 /* DAMAGE_MOD_FLOAT */, 1.6);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6989, 99, True) /* IVORYABLE_BOOL */
-     , (6989, 69, False) /* IS_SELLABLE_BOOL */
-     , (6989, 22, True) /* INSCRIBABLE_BOOL */
-     , (6989, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6989, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6989, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (6989, 069 /* IS_SELLABLE_BOOL */, False)
+     , (6989, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6989, 1614, 2) /* BloodDrinker4_SpellID */

@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 14456;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14456, 'trap-portalsend-hallofhollowssurface', /* Switch_WeenieType */ 26);
+VALUES (14456, 'trap-portalsend-hallofhollowssurface', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14456, 1, 'Trap Door') /* NAME_STRING */
-     , (14456, 22, 'The trap door is stuck. Try again.') /* ACTIVATION_FAILURE_STRING */;
+VALUES (14456, 001 /* NAME_STRING */, 'Trap Door')
+     , (14456, 022 /* ACTIVATION_FAILURE_STRING */, 'The trap door is stuck. Try again.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14456, 1, 33554809) /* SETUP_DID */
-     , (14456, 3, 536870932) /* SOUND_TABLE_DID */
-     , (14456, 8, 100667499) /* ICON_DID */
-     , (14456, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (14456, 28, 2632) /* SPELL_DID */;
+VALUES (14456, 001 /* SETUP_DID */, 33554809)
+     , (14456, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (14456, 008 /* ICON_DID */, 100667499)
+     , (14456, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (14456, 028 /* SPELL_DID */, 2632 /* PortalSendingHallofHollowsSurface_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14456, 1, 128) /* ITEM_TYPE_INT */
-     , (14456, 93, 20) /* PHYSICS_STATE_INT */
-     , (14456, 5, 6000) /* ENCUMB_VAL_INT */
-     , (14456, 16, 1) /* ITEM_USEABLE_INT */
-     , (14456, 8, 3000) /* MASS_INT */
-     , (14456, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (14456, 19, 200) /* VALUE_INT */
-     , (14456, 106, 1000) /* ITEM_SPELLCRAFT_INT */
-     , (14456, 119, 1) /* ACTIVE_INT */;
+VALUES (14456, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14456, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (14456, 008 /* MASS_INT */, 3000)
+     , (14456, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (14456, 019 /* VALUE_INT */, 200)
+     , (14456, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (14456, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
+     , (14456, 106 /* ITEM_SPELLCRAFT_INT */, 1000)
+     , (14456, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (14456, 11, 1) /* RESET_INTERVAL_FLOAT */;
+VALUES (14456, 011 /* RESET_INTERVAL_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14456, 1, True) /* STUCK_BOOL */
-     , (14456, 12, False) /* REPORT_COLLISIONS_BOOL */
-     , (14456, 13, True) /* ETHEREAL_BOOL */
-     , (14456, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (14456, 18, True) /* VISIBILITY_BOOL */;
+VALUES (14456, 001 /* STUCK_BOOL */, True)
+     , (14456, 012 /* REPORT_COLLISIONS_BOOL */, False)
+     , (14456, 013 /* ETHEREAL_BOOL */, True)
+     , (14456, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (14456, 018 /* VISIBILITY_BOOL */, True);
 

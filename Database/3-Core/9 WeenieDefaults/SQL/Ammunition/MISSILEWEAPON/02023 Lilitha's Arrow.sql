@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 2023;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2023, 'arrowlilitha', /* Ammunition_WeenieType */ 5);
+VALUES (2023, 'arrowlilitha', 5 /* Ammunition_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2023, 1, 'Lilitha''s Arrow') /* NAME_STRING */;
+VALUES (2023, 001 /* NAME_STRING */, 'Lilitha''s Arrow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2023, 1, 33554724) /* SETUP_DID */
-     , (2023, 3, 536870932) /* SOUND_TABLE_DID */
-     , (2023, 8, 100667622) /* ICON_DID */
-     , (2023, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (2023, 001 /* SETUP_DID */, 33554724)
+     , (2023, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (2023, 008 /* ICON_DID */, 100667622)
+     , (2023, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2023, 9, 8388608) /* LOCATIONS_INT */
-     , (2023, 1, 256) /* ITEM_TYPE_INT */
-     , (2023, 13, 25) /* STACK_UNIT_ENCUMB_INT */
-     , (2023, 5, 25) /* ENCUMB_VAL_INT */
-     , (2023, 8, 5) /* MASS_INT */
-     , (2023, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (2023, 12, 1) /* STACK_SIZE_INT */
-     , (2023, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (2023, 15, 2) /* STACK_UNIT_VALUE_INT */
-     , (2023, 16, 1) /* ITEM_USEABLE_INT */
-     , (2023, 19, 2) /* VALUE_INT */
-     , (2023, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (2023, 151, 2) /* HOOK_TYPE_INT */
-     , (2023, 93, 1044) /* PHYSICS_STATE_INT */
-     , (2023, 44, 10) /* DAMAGE_INT */
-     , (2023, 45, 2) /* DAMAGE_TYPE_INT */
-     , (2023, 50, 1) /* AMMO_TYPE_INT */
-     , (2023, 51, 3) /* COMBAT_USE_INT */;
+VALUES (2023, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (2023, 005 /* ENCUMB_VAL_INT */, 25)
+     , (2023, 008 /* MASS_INT */, 5)
+     , (2023, 009 /* LOCATIONS_INT */, 8388608 /* MISSILE_AMMO_LOC */)
+     , (2023, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (2023, 012 /* STACK_SIZE_INT */, 1)
+     , (2023, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
+     , (2023, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (2023, 015 /* STACK_UNIT_VALUE_INT */, 2)
+     , (2023, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (2023, 019 /* VALUE_INT */, 2)
+     , (2023, 044 /* DAMAGE_INT */, 10)
+     , (2023, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
+     , (2023, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (2023, 051 /* COMBAT_USE_INT */, 3 /* COMBAT_USE_AMMO */)
+     , (2023, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (2023, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (2023, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2023, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (2023, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (2023, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (2023, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (2023, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (2023, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 

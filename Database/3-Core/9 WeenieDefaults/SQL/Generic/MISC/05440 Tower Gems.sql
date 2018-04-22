@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 5440;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5440, 'toutoujewelersign', /* Generic_WeenieType */ 1);
+VALUES (5440, 'toutoujewelersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5440, 16, 'Tower Gems') /* LONG_DESC_STRING */
-     , (5440, 1, 'Tower Gems') /* NAME_STRING */;
+VALUES (5440, 001 /* NAME_STRING */, 'Tower Gems')
+     , (5440, 016 /* LONG_DESC_STRING */, 'Tower Gems');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5440, 1, 33555594) /* SETUP_DID */
-     , (5440, 6, 67111782) /* PALETTE_BASE_DID */
-     , (5440, 7, 268435690) /* CLOTHINGBASE_DID */
-     , (5440, 8, 100668115) /* ICON_DID */;
+VALUES (5440, 001 /* SETUP_DID */, 33555594)
+     , (5440, 006 /* PALETTE_BASE_DID */, 67111782)
+     , (5440, 007 /* CLOTHINGBASE_DID */, 268435690)
+     , (5440, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5440, 1, 128) /* ITEM_TYPE_INT */
-     , (5440, 93, 1048) /* PHYSICS_STATE_INT */
-     , (5440, 5, 9000) /* ENCUMB_VAL_INT */
-     , (5440, 16, 1) /* ITEM_USEABLE_INT */
-     , (5440, 8, 1800) /* MASS_INT */
-     , (5440, 19, 125) /* VALUE_INT */;
+VALUES (5440, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (5440, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (5440, 008 /* MASS_INT */, 1800)
+     , (5440, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5440, 019 /* VALUE_INT */, 125)
+     , (5440, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5440, 1, True) /* STUCK_BOOL */
-     , (5440, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (5440, 13, False) /* ETHEREAL_BOOL */
-     , (5440, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (5440, 001 /* STUCK_BOOL */, True)
+     , (5440, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (5440, 013 /* ETHEREAL_BOOL */, False)
+     , (5440, 022 /* INSCRIBABLE_BOOL */, False);
 

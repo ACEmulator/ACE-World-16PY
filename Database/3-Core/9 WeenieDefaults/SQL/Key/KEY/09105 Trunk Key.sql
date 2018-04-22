@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 9105;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9105, 'keysasalia', /* Key_WeenieType */ 22);
+VALUES (9105, 'keysasalia', 22 /* Key_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9105, 1, 'Trunk Key') /* NAME_STRING */
-     , (9105, 33, 'Feb01CLQuest11') /* QUEST_STRING */
-     , (9105, 13, 'KeySasalia') /* KEY_CODE_STRING */;
+VALUES (9105, 001 /* NAME_STRING */, 'Trunk Key')
+     , (9105, 013 /* KEY_CODE_STRING */, 'KeySasalia')
+     , (9105, 033 /* QUEST_STRING */, 'Feb01CLQuest11');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9105, 1, 33554784) /* SETUP_DID */
-     , (9105, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9105, 8, 100667485) /* ICON_DID */
-     , (9105, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9105, 001 /* SETUP_DID */, 33554784)
+     , (9105, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9105, 008 /* ICON_DID */, 100667485)
+     , (9105, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9105, 1, 16384) /* ITEM_TYPE_INT */
-     , (9105, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9105, 5, 20) /* ENCUMB_VAL_INT */
-     , (9105, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (9105, 8, 20) /* MASS_INT */
-     , (9105, 91, 1) /* MAX_STRUCTURE_INT */
-     , (9105, 19, 5) /* VALUE_INT */
-     , (9105, 92, 1) /* STRUCTURE_INT */
-     , (9105, 94, 640) /* TARGET_TYPE_INT */
-     , (9105, 33, 1) /* BONDED_INT */
-     , (9105, 114, 1) /* ATTUNED_INT */;
+VALUES (9105, 001 /* ITEM_TYPE_INT */, 16384 /* TYPE_KEY */)
+     , (9105, 005 /* ENCUMB_VAL_INT */, 20)
+     , (9105, 008 /* MASS_INT */, 20)
+     , (9105, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (9105, 019 /* VALUE_INT */, 5)
+     , (9105, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9105, 091 /* MAX_STRUCTURE_INT */, 1)
+     , (9105, 092 /* STRUCTURE_INT */, 1)
+     , (9105, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9105, 094 /* TARGET_TYPE_INT */, 640 /* TYPE_LOCKABLE_MAGIC_TARGET */)
+     , (9105, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9105, 22, True) /* INSCRIBABLE_BOOL */
-     , (9105, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9105, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9105, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 547;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (547, 'mushroom', /* Food_WeenieType */ 18);
+VALUES (547, 'mushroom', 18 /* Food_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (547, 1, 'Brimstone-cap Mushroom') /* NAME_STRING */
-     , (547, 14, 'Use this item to eat it.') /* USE_STRING */;
+VALUES (547, 001 /* NAME_STRING */, 'Brimstone-cap Mushroom')
+     , (547, 014 /* USE_STRING */, 'Use this item to eat it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (547, 1, 33554805) /* SETUP_DID */
-     , (547, 3, 536870932) /* SOUND_TABLE_DID */
-     , (547, 8, 100668116) /* ICON_DID */
-     , (547, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (547, 001 /* SETUP_DID */, 33554805)
+     , (547, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (547, 008 /* ICON_DID */, 100668116)
+     , (547, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (547, 9, 0) /* LOCATIONS_INT */
-     , (547, 1, 32) /* ITEM_TYPE_INT */
-     , (547, 13, 50) /* STACK_UNIT_ENCUMB_INT */
-     , (547, 5, 50) /* ENCUMB_VAL_INT */
-     , (547, 8, 25) /* MASS_INT */
-     , (547, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (547, 12, 1) /* STACK_SIZE_INT */
-     , (547, 14, 25) /* STACK_UNIT_MASS_INT */
-     , (547, 15, 6) /* STACK_UNIT_VALUE_INT */
-     , (547, 16, 8) /* ITEM_USEABLE_INT */
-     , (547, 19, 6) /* VALUE_INT */
-     , (547, 89, 4) /* BOOSTER_ENUM_INT */
-     , (547, 90, 4) /* BOOST_VALUE_INT */
-     , (547, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (547, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (547, 005 /* ENCUMB_VAL_INT */, 50)
+     , (547, 008 /* MASS_INT */, 25)
+     , (547, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (547, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (547, 012 /* STACK_SIZE_INT */, 1)
+     , (547, 013 /* STACK_UNIT_ENCUMB_INT */, 50)
+     , (547, 014 /* STACK_UNIT_MASS_INT */, 25)
+     , (547, 015 /* STACK_UNIT_VALUE_INT */, 6)
+     , (547, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (547, 019 /* VALUE_INT */, 6)
+     , (547, 089 /* BOOSTER_ENUM_INT */, 4 /* STAMINA_ATTRIBUTE_2ND */)
+     , (547, 090 /* BOOST_VALUE_INT */, 4)
+     , (547, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 

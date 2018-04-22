@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 375;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (375, 'portalbelligtowertop', /* Portal_WeenieType */ 7);
+VALUES (375, 'portalbelligtowertop', 7 /* Portal_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (375, 1, 'Bellig Tower') /* NAME_STRING */;
+VALUES (375, 001 /* NAME_STRING */, 'Bellig Tower');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (375, 1, 33554867) /* SETUP_DID */
-     , (375, 2, 150994947) /* MOTION_TABLE_DID */
-     , (375, 8, 100667499) /* ICON_DID */;
+VALUES (375, 001 /* SETUP_DID */, 33554867)
+     , (375, 002 /* MOTION_TABLE_DID */, 150994947)
+     , (375, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (375, 1, 65536) /* ITEM_TYPE_INT */
-     , (375, 93, 3084) /* PHYSICS_STATE_INT */
-     , (375, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (375, 16, 32) /* ITEM_USEABLE_INT */
-     , (375, 111, 1) /* PORTAL_BITMASK_INT */;
+VALUES (375, 001 /* ITEM_TYPE_INT */, 65536 /* TYPE_PORTAL */)
+     , (375, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (375, 093 /* PHYSICS_STATE_INT */, 3084 /* ETHEREAL_PS, REPORT_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (375, 111 /* PORTAL_BITMASK_INT */, 1 /* Player_Passable_PortalEnum */)
+     , (375, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (375, 54, -0.1) /* USE_RADIUS_FLOAT */;
+VALUES (375, 054 /* USE_RADIUS_FLOAT */, -0.1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (375, 1, True) /* STUCK_BOOL */
-     , (375, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (375, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (375, 13, True) /* ETHEREAL_BOOL */
-     , (375, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (375, 001 /* STUCK_BOOL */, True)
+     , (375, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (375, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (375, 013 /* ETHEREAL_BOOL */, True)
+     , (375, 015 /* LIGHTS_STATUS_BOOL */, True);
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (375, 2, 30671281, 61.8, -22.45, 30, -0.6911347, 0, 0, -0.722726) /* DESTINATION_POSITION */;

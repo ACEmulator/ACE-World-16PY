@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 30872;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (30872, 'orbfallen', /* Caster_WeenieType */ 35);
+VALUES (30872, 'orbfallen', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30872, 1, 'Eye of the Fallen') /* NAME_STRING */;
+VALUES (30872, 001 /* NAME_STRING */, 'Eye of the Fallen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30872, 1, 33559279) /* SETUP_DID */
-     , (30872, 27, 1073741873) /* USE_USER_ANIMATION_DID */
-     , (30872, 3, 536870932) /* SOUND_TABLE_DID */
-     , (30872, 8, 100677502) /* ICON_DID */
-     , (30872, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (30872, 001 /* SETUP_DID */, 33559279)
+     , (30872, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (30872, 008 /* ICON_DID */, 100677502)
+     , (30872, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (30872, 027 /* USE_USER_ANIMATION_DID */, 1073741873 /* Motion_MagicHeal */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (30872, 9, 16777216) /* LOCATIONS_INT */
-     , (30872, 1, 32768) /* ITEM_TYPE_INT */
-     , (30872, 93, 1044) /* PHYSICS_STATE_INT */
-     , (30872, 5, 50) /* ENCUMB_VAL_INT */
-     , (30872, 16, 1) /* ITEM_USEABLE_INT */
-     , (30872, 8, 50) /* MASS_INT */
-     , (30872, 19, 10000) /* VALUE_INT */
-     , (30872, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (30872, 151, 2) /* HOOK_TYPE_INT */
-     , (30872, 94, 16) /* TARGET_TYPE_INT */
-     , (30872, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30872, 159, 34) /* WIELD_SKILLTYPE_INT */
-     , (30872, 160, 330) /* WIELD_DIFFICULTY_INT */
-     , (30872, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (30872, 107, 1000) /* ITEM_CUR_MANA_INT */
-     , (30872, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (30872, 45, 64) /* DAMAGE_TYPE_INT */
-     , (30872, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */;
+VALUES (30872, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (30872, 005 /* ENCUMB_VAL_INT */, 50)
+     , (30872, 008 /* MASS_INT */, 50)
+     , (30872, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (30872, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (30872, 019 /* VALUE_INT */, 10000)
+     , (30872, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
+     , (30872, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (30872, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (30872, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (30872, 106 /* ITEM_SPELLCRAFT_INT */, 250)
+     , (30872, 107 /* ITEM_CUR_MANA_INT */, 1000)
+     , (30872, 108 /* ITEM_MAX_MANA_INT */, 1000)
+     , (30872, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (30872, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (30872, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (30872, 159 /* WIELD_SKILLTYPE_INT */, 34 /* WAR_MAGIC_SKILL */)
+     , (30872, 160 /* WIELD_DIFFICULTY_INT */, 330);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (30872, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (30872, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (30872, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
-     , (30872, 152, 1.08) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (30872, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */;
+VALUES (30872, 005 /* MANA_RATE_FLOAT */, -0.025)
+     , (30872, 029 /* WEAPON_DEFENSE_FLOAT */, 1.08)
+     , (30872, 039 /* DEFAULT_SCALE_FLOAT */, 0.6)
+     , (30872, 136 /* CRITICAL_MULTIPLIER_FLOAT */, 1)
+     , (30872, 152 /* ELEMENTAL_DAMAGE_MOD_FLOAT */, 1.08);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30872, 22, True) /* INSCRIBABLE_BOOL */
-     , (30872, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (30872, 022 /* INSCRIBABLE_BOOL */, True)
+     , (30872, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30872, 2287, 2) /* ManaMasterySelf7_SpellID */

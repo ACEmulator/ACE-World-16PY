@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 629;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (629, 'healingkitplain', /* Healer_WeenieType */ 28);
+VALUES (629, 'healingkitplain', 28 /* Healer_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (629, 1, 'Adept Healing Kit') /* NAME_STRING */;
+VALUES (629, 001 /* NAME_STRING */, 'Adept Healing Kit');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (629, 1, 33555194) /* SETUP_DID */
-     , (629, 8, 100676336) /* ICON_DID */;
+VALUES (629, 001 /* SETUP_DID */, 33555194)
+     , (629, 008 /* ICON_DID */, 100676336);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (629, 89, 2) /* BOOSTER_ENUM_INT */
-     , (629, 9, 0) /* LOCATIONS_INT */
-     , (629, 1, 128) /* ITEM_TYPE_INT */
-     , (629, 5, 50) /* ENCUMB_VAL_INT */
-     , (629, 16, 2228232) /* ITEM_USEABLE_INT */
-     , (629, 8, 25) /* MASS_INT */
-     , (629, 91, 25) /* MAX_STRUCTURE_INT */
-     , (629, 19, 50) /* VALUE_INT */
-     , (629, 90, 75) /* BOOST_VALUE_INT */
-     , (629, 92, 25) /* STRUCTURE_INT */
-     , (629, 93, 1044) /* PHYSICS_STATE_INT */
-     , (629, 94, 16) /* TARGET_TYPE_INT */;
+VALUES (629, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (629, 005 /* ENCUMB_VAL_INT */, 50)
+     , (629, 008 /* MASS_INT */, 25)
+     , (629, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (629, 016 /* ITEM_USEABLE_INT */, 2228232 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE_OR_SELF */)
+     , (629, 019 /* VALUE_INT */, 50)
+     , (629, 089 /* BOOSTER_ENUM_INT */, 2 /* HEALTH_ATTRIBUTE_2ND */)
+     , (629, 090 /* BOOST_VALUE_INT */, 75)
+     , (629, 091 /* MAX_STRUCTURE_INT */, 25)
+     , (629, 092 /* STRUCTURE_INT */, 25)
+     , (629, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (629, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (629, 100, 1) /* HEALKIT_MOD_FLOAT */;
+VALUES (629, 100 /* HEALKIT_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (629, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (629, 022 /* INSCRIBABLE_BOOL */, True);
 

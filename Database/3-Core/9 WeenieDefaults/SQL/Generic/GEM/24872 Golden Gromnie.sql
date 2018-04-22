@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 24872;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (24872, 'dollrewardgoldgromnie-ulgrimstuck', /* Generic_WeenieType */ 1);
+VALUES (24872, 'dollrewardgoldgromnie-ulgrimstuck', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24872, 8, 'Ulgrim') /* SCRIBE_NAME_STRING */
-     , (24872, 16, 'The gromnie appears to be nailed to the floor... twice.') /* LONG_DESC_STRING */
-     , (24872, 1, 'Golden Gromnie') /* NAME_STRING */
-     , (24872, 7, 'This time Really no one will be taking my golden gromnie! Don''t Touch!') /* INSCRIPTION_STRING */;
+VALUES (24872, 001 /* NAME_STRING */, 'Golden Gromnie')
+     , (24872, 007 /* INSCRIPTION_STRING */, 'This time Really no one will be taking my golden gromnie! Don''t Touch!')
+     , (24872, 008 /* SCRIBE_NAME_STRING */, 'Ulgrim')
+     , (24872, 016 /* LONG_DESC_STRING */, 'The gromnie appears to be nailed to the floor... twice.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24872, 1, 33554487) /* SETUP_DID */
-     , (24872, 2, 150995122) /* MOTION_TABLE_DID */
-     , (24872, 22, 872415260) /* PHYSICS_EFFECT_TABLE_DID */
-     , (24872, 6, 67109547) /* PALETTE_BASE_DID */
-     , (24872, 7, 268436171) /* CLOTHINGBASE_DID */
-     , (24872, 8, 100671514) /* ICON_DID */;
+VALUES (24872, 001 /* SETUP_DID */, 33554487)
+     , (24872, 002 /* MOTION_TABLE_DID */, 150995122)
+     , (24872, 006 /* PALETTE_BASE_DID */, 67109547)
+     , (24872, 007 /* CLOTHINGBASE_DID */, 268436171)
+     , (24872, 008 /* ICON_DID */, 100671514)
+     , (24872, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415260);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (24872, 9, 0) /* LOCATIONS_INT */
-     , (24872, 1, 2048) /* ITEM_TYPE_INT */
-     , (24872, 19, 10) /* VALUE_INT */
-     , (24872, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (24872, 93, 1044) /* PHYSICS_STATE_INT */
-     , (24872, 5, 10) /* ENCUMB_VAL_INT */
-     , (24872, 16, 1) /* ITEM_USEABLE_INT */
-     , (24872, 8, 10) /* MASS_INT */
-     , (24872, 94, 16) /* TARGET_TYPE_INT */;
+VALUES (24872, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (24872, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (24872, 005 /* ENCUMB_VAL_INT */, 10)
+     , (24872, 008 /* MASS_INT */, 10)
+     , (24872, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (24872, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (24872, 019 /* VALUE_INT */, 10)
+     , (24872, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (24872, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24872, 39, 0.4) /* DEFAULT_SCALE_FLOAT */
-     , (24872, 12, 0.5) /* SHADE_FLOAT */;
+VALUES (24872, 012 /* SHADE_FLOAT */, 0.5)
+     , (24872, 039 /* DEFAULT_SCALE_FLOAT */, 0.4);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24872, 1, True) /* STUCK_BOOL */
-     , (24872, 22, True) /* INSCRIBABLE_BOOL */
-     , (24872, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (24872, 001 /* STUCK_BOOL */, True)
+     , (24872, 022 /* INSCRIBABLE_BOOL */, True)
+     , (24872, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

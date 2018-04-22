@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 19502;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19502, 'ingotcrossbowispariangood', /* Gem_WeenieType */ 38);
+VALUES (19502, 'ingotcrossbowispariangood', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19502, 16, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.') /* LONG_DESC_STRING */
-     , (19502, 1, 'Good Isparian Crossbow Ingot') /* NAME_STRING */
-     , (19502, 15, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.') /* SHORT_DESC_STRING */;
+VALUES (19502, 001 /* NAME_STRING */, 'Good Isparian Crossbow Ingot')
+     , (19502, 015 /* SHORT_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.')
+     , (19502, 016 /* LONG_DESC_STRING */, 'An diamond infused ingot, enhanced and stamped with an crossbow glyph.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19502, 1, 33555677) /* SETUP_DID */
-     , (19502, 3, 536870932) /* SOUND_TABLE_DID */
-     , (19502, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (19502, 6, 67111919) /* PALETTE_BASE_DID */
-     , (19502, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (19502, 8, 100672971) /* ICON_DID */;
+VALUES (19502, 001 /* SETUP_DID */, 33555677)
+     , (19502, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (19502, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (19502, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (19502, 008 /* ICON_DID */, 100672971)
+     , (19502, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19502, 9, 0) /* LOCATIONS_INT */
-     , (19502, 1, 128) /* ITEM_TYPE_INT */
-     , (19502, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (19502, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (19502, 13, 1000) /* STACK_UNIT_ENCUMB_INT */
-     , (19502, 5, 1000) /* ENCUMB_VAL_INT */
-     , (19502, 8, 1000) /* MASS_INT */
-     , (19502, 12, 1) /* STACK_SIZE_INT */
-     , (19502, 14, 1000) /* STACK_UNIT_MASS_INT */
-     , (19502, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (19502, 16, 1) /* ITEM_USEABLE_INT */
-     , (19502, 19, 0) /* VALUE_INT */
-     , (19502, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19502, 33, 1) /* BONDED_INT */
-     , (19502, 114, 1) /* ATTUNED_INT */;
+VALUES (19502, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19502, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (19502, 005 /* ENCUMB_VAL_INT */, 1000)
+     , (19502, 008 /* MASS_INT */, 1000)
+     , (19502, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (19502, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (19502, 012 /* STACK_SIZE_INT */, 1)
+     , (19502, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
+     , (19502, 014 /* STACK_UNIT_MASS_INT */, 1000)
+     , (19502, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (19502, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19502, 019 /* VALUE_INT */, 0)
+     , (19502, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (19502, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (19502, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19502, 69, False) /* IS_SELLABLE_BOOL */
-     , (19502, 22, True) /* INSCRIBABLE_BOOL */
-     , (19502, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (19502, 022 /* INSCRIBABLE_BOOL */, True)
+     , (19502, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (19502, 069 /* IS_SELLABLE_BOOL */, False);
 

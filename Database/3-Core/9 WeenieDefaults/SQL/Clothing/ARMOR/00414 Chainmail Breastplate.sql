@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 414;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (414, 'breastplatechainmail', /* Clothing_WeenieType */ 2);
+VALUES (414, 'breastplatechainmail', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (414, 1, 'Chainmail Breastplate') /* NAME_STRING */;
+VALUES (414, 001 /* NAME_STRING */, 'Chainmail Breastplate');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (414, 1, 33554642) /* SETUP_DID */
-     , (414, 3, 536870932) /* SOUND_TABLE_DID */
-     , (414, 36, 234881042) /* MUTATE_FILTER_DID */
-     , (414, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (414, 46, 939524146) /* TSYS_MUTATION_FILTER_DID */
-     , (414, 6, 67108990) /* PALETTE_BASE_DID */
-     , (414, 7, 268435494) /* CLOTHINGBASE_DID */
-     , (414, 8, 100670263) /* ICON_DID */;
+VALUES (414, 001 /* SETUP_DID */, 33554642)
+     , (414, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (414, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (414, 007 /* CLOTHINGBASE_DID */, 268435494)
+     , (414, 008 /* ICON_DID */, 100670263)
+     , (414, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (414, 036 /* MUTATE_FILTER_DID */, 234881042)
+     , (414, 046 /* TSYS_MUTATION_FILTER_DID */, 939524146);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (414, 9, 512) /* LOCATIONS_INT */
-     , (414, 1, 2) /* ITEM_TYPE_INT */
-     , (414, 27, 16) /* ARMOR_TYPE_INT */
-     , (414, 19, 506) /* VALUE_INT */
-     , (414, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (414, 4, 1024) /* CLOTHING_PRIORITY_INT */
-     , (414, 5, 932) /* ENCUMB_VAL_INT */
-     , (414, 16, 1) /* ITEM_USEABLE_INT */
-     , (414, 8, 560) /* MASS_INT */
-     , (414, 28, 50) /* ARMOR_LEVEL_INT */
-     , (414, 93, 1044) /* PHYSICS_STATE_INT */
-     , (414, 169, 118097668) /* TSYS_MUTATION_DATA_INT */;
+VALUES (414, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (414, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (414, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
+     , (414, 005 /* ENCUMB_VAL_INT */, 932)
+     , (414, 008 /* MASS_INT */, 560)
+     , (414, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
+     , (414, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (414, 019 /* VALUE_INT */, 506)
+     , (414, 027 /* ARMOR_TYPE_INT */, 16)
+     , (414, 028 /* ARMOR_LEVEL_INT */, 50)
+     , (414, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (414, 169 /* TSYS_MUTATION_DATA_INT */, 118097668);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (414, 12, 0.66) /* SHADE_FLOAT */
-     , (414, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (414, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (414, 110, 1.33) /* BULK_MOD_FLOAT */
-     , (414, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (414, 111, 2.5) /* SIZE_MOD_FLOAT */
-     , (414, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (414, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (414, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (414, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (414, 012 /* SHADE_FLOAT */, 0.66)
+     , (414, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.2)
+     , (414, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (414, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
+     , (414, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.6)
+     , (414, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.6)
+     , (414, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.5)
+     , (414, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
+     , (414, 110 /* BULK_MOD_FLOAT */, 1.33)
+     , (414, 111 /* SIZE_MOD_FLOAT */, 2.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (414, 100, True) /* DYABLE_BOOL */
-     , (414, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (414, 022 /* INSCRIBABLE_BOOL */, True)
+     , (414, 100 /* DYABLE_BOOL */, True);
 

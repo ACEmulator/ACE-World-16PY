@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 10812;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10812, 'tuskerrampagervirindicampgen', /* Generic_WeenieType */ 1);
+VALUES (10812, 'tuskerrampagervirindicampgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10812, 1, 'tuskerrampagervirindicampgen') /* NAME_STRING */;
+VALUES (10812, 001 /* NAME_STRING */, 'tuskerrampagervirindicampgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10812, 1, 33555051) /* SETUP_DID */
-     , (10812, 8, 100667494) /* ICON_DID */;
+VALUES (10812, 001 /* SETUP_DID */, 33555051)
+     , (10812, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10812, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
-     , (10812, 82, 3) /* INIT_GENERATED_OBJECTS_INT */
-     , (10812, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (10812, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
+     , (10812, 082 /* INIT_GENERATED_OBJECTS_INT */, 3)
+     , (10812, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10812, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (10812, 43, 3) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (10812, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (10812, 043 /* GENERATOR_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10812, 1, True) /* STUCK_BOOL */
-     , (10812, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (10812, 18, True) /* VISIBILITY_BOOL */;
+VALUES (10812, 001 /* STUCK_BOOL */, True)
+     , (10812, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (10812, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10812, 0.2, 10810, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 8, 0, 0, -4.371139E-08, 0, 0, -1)/* Generate Rampager (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

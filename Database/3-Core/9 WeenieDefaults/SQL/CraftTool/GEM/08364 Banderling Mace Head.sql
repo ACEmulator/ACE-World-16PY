@@ -2,42 +2,42 @@
 DELETE FROM weenie WHERE class_Id = 8364;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8364, 'maceheadbanderling', /* CraftTool_WeenieType */ 44);
+VALUES (8364, 'maceheadbanderling', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8364, 16, 'A large and heavy stone with strange markings on the side.') /* LONG_DESC_STRING */
-     , (8364, 1, 'Banderling Mace Head') /* NAME_STRING */
-     , (8364, 33, 'BanderlingMaceHead') /* QUEST_STRING */
-     , (8364, 14, 'Combine with Mace shaft to make ceremonial weapon.') /* USE_STRING */
-     , (8364, 15, 'A large and heavy stone.') /* SHORT_DESC_STRING */;
+VALUES (8364, 001 /* NAME_STRING */, 'Banderling Mace Head')
+     , (8364, 014 /* USE_STRING */, 'Combine with Mace shaft to make ceremonial weapon.')
+     , (8364, 015 /* SHORT_DESC_STRING */, 'A large and heavy stone.')
+     , (8364, 016 /* LONG_DESC_STRING */, 'A large and heavy stone with strange markings on the side.')
+     , (8364, 033 /* QUEST_STRING */, 'BanderlingMaceHead');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8364, 1, 33554669) /* SETUP_DID */
-     , (8364, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8364, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8364, 6, 67111919) /* PALETTE_BASE_DID */
-     , (8364, 7, 268436017) /* CLOTHINGBASE_DID */
-     , (8364, 8, 100671137) /* ICON_DID */;
+VALUES (8364, 001 /* SETUP_DID */, 33554669)
+     , (8364, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8364, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (8364, 007 /* CLOTHINGBASE_DID */, 268436017)
+     , (8364, 008 /* ICON_DID */, 100671137)
+     , (8364, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8364, 9, 0) /* LOCATIONS_INT */
-     , (8364, 1, 2048) /* ITEM_TYPE_INT */
-     , (8364, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (8364, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (8364, 13, 1000) /* STACK_UNIT_ENCUMB_INT */
-     , (8364, 5, 1000) /* ENCUMB_VAL_INT */
-     , (8364, 8, 40) /* MASS_INT */
-     , (8364, 12, 1) /* STACK_SIZE_INT */
-     , (8364, 14, 40) /* STACK_UNIT_MASS_INT */
-     , (8364, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (8364, 16, 524296) /* ITEM_USEABLE_INT */
-     , (8364, 19, 10) /* VALUE_INT */
-     , (8364, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8364, 94, 2048) /* TARGET_TYPE_INT */
-     , (8364, 33, 1) /* BONDED_INT */
-     , (8364, 114, 1) /* ATTUNED_INT */;
+VALUES (8364, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8364, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (8364, 005 /* ENCUMB_VAL_INT */, 1000)
+     , (8364, 008 /* MASS_INT */, 40)
+     , (8364, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8364, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (8364, 012 /* STACK_SIZE_INT */, 1)
+     , (8364, 013 /* STACK_UNIT_ENCUMB_INT */, 1000)
+     , (8364, 014 /* STACK_UNIT_MASS_INT */, 40)
+     , (8364, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (8364, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (8364, 019 /* VALUE_INT */, 10)
+     , (8364, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8364, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8364, 094 /* TARGET_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (8364, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8364, 22, True) /* INSCRIBABLE_BOOL */
-     , (8364, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8364, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8364, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

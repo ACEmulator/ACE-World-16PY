@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 4308;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4308, 'banderlingbreedercampgen', /* Generic_WeenieType */ 1);
+VALUES (4308, 'banderlingbreedercampgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4308, 1, 'banderlingbreedercampgen') /* NAME_STRING */;
+VALUES (4308, 001 /* NAME_STRING */, 'banderlingbreedercampgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4308, 1, 33555051) /* SETUP_DID */
-     , (4308, 8, 100667494) /* ICON_DID */;
+VALUES (4308, 001 /* SETUP_DID */, 33555051)
+     , (4308, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4308, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
-     , (4308, 82, 3) /* INIT_GENERATED_OBJECTS_INT */
-     , (4308, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (4308, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
+     , (4308, 082 /* INIT_GENERATED_OBJECTS_INT */, 3)
+     , (4308, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4308, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (4308, 43, 5) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (4308, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (4308, 043 /* GENERATOR_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4308, 1, True) /* STUCK_BOOL */
-     , (4308, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (4308, 18, True) /* VISIBILITY_BOOL */;
+VALUES (4308, 001 /* STUCK_BOOL */, True)
+     , (4308, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (4308, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4308, 0.35, 1668, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -4.5, -2, 0, 0.3987491, 0, 0, -0.9170601)/* Generate Banderling Breeder (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

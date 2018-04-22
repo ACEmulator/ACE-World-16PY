@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 26646;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26646, 'templeburungenerator', /* Generic_WeenieType */ 1);
+VALUES (26646, 'templeburungenerator', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26646, 1, 'templeburungenerator') /* NAME_STRING */;
+VALUES (26646, 001 /* NAME_STRING */, 'templeburungenerator');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26646, 1, 33555051) /* SETUP_DID */
-     , (26646, 8, 100667494) /* ICON_DID */;
+VALUES (26646, 001 /* SETUP_DID */, 33555051)
+     , (26646, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26646, 81, 10) /* MAX_GENERATED_OBJECTS_INT */
-     , (26646, 82, 10) /* INIT_GENERATED_OBJECTS_INT */
-     , (26646, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (26646, 081 /* MAX_GENERATED_OBJECTS_INT */, 10)
+     , (26646, 082 /* INIT_GENERATED_OBJECTS_INT */, 10)
+     , (26646, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (26646, 41, 30) /* REGENERATION_INTERVAL_FLOAT */
-     , (26646, 43, 0) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (26646, 041 /* REGENERATION_INTERVAL_FLOAT */, 30)
+     , (26646, 043 /* GENERATOR_RADIUS_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26646, 1, True) /* STUCK_BOOL */
-     , (26646, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (26646, 18, True) /* VISIBILITY_BOOL */;
+VALUES (26646, 001 /* STUCK_BOOL */, True)
+     , (26646, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (26646, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26646, 0.1, 26016, 600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Burun Ruuk Ruffian (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

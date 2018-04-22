@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 7634;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7634, 'breastplateceldonshadowlessernewacid', /* Clothing_WeenieType */ 2);
+VALUES (7634, 'breastplateceldonshadowlessernewacid', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7634, 1, 'Lesser Celdon Breastplate of Acid') /* NAME_STRING */;
+VALUES (7634, 001 /* NAME_STRING */, 'Lesser Celdon Breastplate of Acid');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7634, 1, 33554642) /* SETUP_DID */
-     , (7634, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7634, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7634, 6, 67108990) /* PALETTE_BASE_DID */
-     , (7634, 7, 268435848) /* CLOTHINGBASE_DID */
-     , (7634, 8, 100670402) /* ICON_DID */;
+VALUES (7634, 001 /* SETUP_DID */, 33554642)
+     , (7634, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7634, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (7634, 007 /* CLOTHINGBASE_DID */, 268435848)
+     , (7634, 008 /* ICON_DID */, 100670402)
+     , (7634, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7634, 9, 512) /* LOCATIONS_INT */
-     , (7634, 1, 2) /* ITEM_TYPE_INT */
-     , (7634, 27, 32) /* ARMOR_TYPE_INT */
-     , (7634, 19, 2680) /* VALUE_INT */
-     , (7634, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (7634, 4, 1024) /* CLOTHING_PRIORITY_INT */
-     , (7634, 5, 2100) /* ENCUMB_VAL_INT */
-     , (7634, 16, 1) /* ITEM_USEABLE_INT */
-     , (7634, 8, 1200) /* MASS_INT */
-     , (7634, 28, 130) /* ARMOR_LEVEL_INT */
-     , (7634, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7634, 33, 1) /* BONDED_INT */
-     , (7634, 36, 9999) /* RESIST_MAGIC_INT */
-     , (7634, 114, 1) /* ATTUNED_INT */;
+VALUES (7634, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (7634, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (7634, 004 /* CLOTHING_PRIORITY_INT */, 1024 /* OuterwearChest */)
+     , (7634, 005 /* ENCUMB_VAL_INT */, 2100)
+     , (7634, 008 /* MASS_INT */, 1200)
+     , (7634, 009 /* LOCATIONS_INT */, 512 /* CHEST_ARMOR_LOC */)
+     , (7634, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7634, 019 /* VALUE_INT */, 2680)
+     , (7634, 027 /* ARMOR_TYPE_INT */, 32)
+     , (7634, 028 /* ARMOR_LEVEL_INT */, 130)
+     , (7634, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7634, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (7634, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (7634, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7634, 12, 0.9) /* SHADE_FLOAT */
-     , (7634, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (7634, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (7634, 110, 1) /* BULK_MOD_FLOAT */
-     , (7634, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (7634, 111, 1) /* SIZE_MOD_FLOAT */
-     , (7634, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (7634, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (7634, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (7634, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (7634, 012 /* SHADE_FLOAT */, 0.9)
+     , (7634, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.3)
+     , (7634, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (7634, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (7634, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.2)
+     , (7634, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1.2)
+     , (7634, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 2)
+     , (7634, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0)
+     , (7634, 110 /* BULK_MOD_FLOAT */, 1)
+     , (7634, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7634, 69, False) /* IS_SELLABLE_BOOL */
-     , (7634, 22, True) /* INSCRIBABLE_BOOL */
-     , (7634, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7634, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7634, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (7634, 069 /* IS_SELLABLE_BOOL */, False);
 

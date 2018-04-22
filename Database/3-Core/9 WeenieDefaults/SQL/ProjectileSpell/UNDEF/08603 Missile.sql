@@ -2,35 +2,35 @@
 DELETE FROM weenie WHERE class_Id = 8603;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8603, 'missileyellow', /* ProjectileSpell_WeenieType */ 33);
+VALUES (8603, 'missileyellow', 33 /* ProjectileSpell_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8603, 1, 'Missile') /* NAME_STRING */;
+VALUES (8603, 001 /* NAME_STRING */, 'Missile');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8603, 1, 33555469) /* SETUP_DID */
-     , (8603, 3, 536870971) /* SOUND_TABLE_DID */
-     , (8603, 8, 100667494) /* ICON_DID */
-     , (8603, 30, 89) /* PHYSICS_SCRIPT_DID */
-     , (8603, 22, 872415246) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8603, 28, 86) /* SPELL_DID */;
+VALUES (8603, 001 /* SETUP_DID */, 33555469)
+     , (8603, 003 /* SOUND_TABLE_DID */, 536870971)
+     , (8603, 008 /* ICON_DID */, 100667494)
+     , (8603, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415246)
+     , (8603, 028 /* SPELL_DID */, 86 /* ForceBolt1_SpellID */)
+     , (8603, 030 /* PHYSICS_SCRIPT_DID */, 89 /* PS_Destroy */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8603, 66, 0) /* CHECKPOINT_STATUS_INT */
-     , (8603, 8, 25) /* MASS_INT */
-     , (8603, 9, 0) /* LOCATIONS_INT */
-     , (8603, 93, 133140) /* PHYSICS_STATE_INT */;
+VALUES (8603, 008 /* MASS_INT */, 25)
+     , (8603, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8603, 066 /* CHECKPOINT_STATUS_INT */, 0)
+     , (8603, 093 /* PHYSICS_STATE_INT */, 133140 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, LIGHTING_ON_PS, INELASTIC_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8603, 78, 1) /* FRICTION_FLOAT */
-     , (8603, 79, 0) /* ELASTICITY_FLOAT */
-     , (8603, 26, 30) /* MAXIMUM_VELOCITY_FLOAT */;
+VALUES (8603, 026 /* MAXIMUM_VELOCITY_FLOAT */, 30)
+     , (8603, 078 /* FRICTION_FLOAT */, 1)
+     , (8603, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8603, 17, True) /* INELASTIC_BOOL */
-     , (8603, 1, True) /* STUCK_BOOL */
-     , (8603, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (8603, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (8603, 24, True) /* UI_HIDDEN_BOOL */
-     , (8603, 16, True) /* SCRIPTED_COLLISION_BOOL */;
+VALUES (8603, 001 /* STUCK_BOOL */, True)
+     , (8603, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (8603, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (8603, 016 /* SCRIPTED_COLLISION_BOOL */, True)
+     , (8603, 017 /* INELASTIC_BOOL */, True)
+     , (8603, 024 /* UI_HIDDEN_BOOL */, True);
 

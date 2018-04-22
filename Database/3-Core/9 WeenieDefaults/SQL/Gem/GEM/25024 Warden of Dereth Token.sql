@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 25024;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (25024, 'tokenhigholthoi', /* Gem_WeenieType */ 38);
+VALUES (25024, 'tokenhigholthoi', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25024, 1, 'Warden of Dereth Token') /* NAME_STRING */
-     , (25024, 15, 'This token will grant the title Warden of Dereth when turned into the High Queen, or a royal guard who grant this title.') /* SHORT_DESC_STRING */;
+VALUES (25024, 001 /* NAME_STRING */, 'Warden of Dereth Token')
+     , (25024, 015 /* SHORT_DESC_STRING */, 'This token will grant the title Warden of Dereth when turned into the High Queen, or a royal guard who grant this title.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25024, 1, 33557280) /* SETUP_DID */
-     , (25024, 3, 536870932) /* SOUND_TABLE_DID */
-     , (25024, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (25024, 6, 67111092) /* PALETTE_BASE_DID */
-     , (25024, 7, 268436301) /* CLOTHINGBASE_DID */
-     , (25024, 8, 100674710) /* ICON_DID */;
+VALUES (25024, 001 /* SETUP_DID */, 33557280)
+     , (25024, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (25024, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (25024, 007 /* CLOTHINGBASE_DID */, 268436301)
+     , (25024, 008 /* ICON_DID */, 100674710)
+     , (25024, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (25024, 9, 0) /* LOCATIONS_INT */
-     , (25024, 1, 2048) /* ITEM_TYPE_INT */
-     , (25024, 13, 5) /* STACK_UNIT_ENCUMB_INT */
-     , (25024, 5, 5) /* ENCUMB_VAL_INT */
-     , (25024, 8, 5) /* MASS_INT */
-     , (25024, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (25024, 12, 1) /* STACK_SIZE_INT */
-     , (25024, 14, 5) /* STACK_UNIT_MASS_INT */
-     , (25024, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (25024, 16, 1) /* ITEM_USEABLE_INT */
-     , (25024, 19, 0) /* VALUE_INT */
-     , (25024, 93, 1044) /* PHYSICS_STATE_INT */
-     , (25024, 33, 1) /* BONDED_INT */
-     , (25024, 114, 1) /* ATTUNED_INT */;
+VALUES (25024, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (25024, 005 /* ENCUMB_VAL_INT */, 5)
+     , (25024, 008 /* MASS_INT */, 5)
+     , (25024, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (25024, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (25024, 012 /* STACK_SIZE_INT */, 1)
+     , (25024, 013 /* STACK_UNIT_ENCUMB_INT */, 5)
+     , (25024, 014 /* STACK_UNIT_MASS_INT */, 5)
+     , (25024, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (25024, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (25024, 019 /* VALUE_INT */, 0)
+     , (25024, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (25024, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (25024, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25024, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (25024, 022 /* INSCRIBABLE_BOOL */, True);
 

@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 27106;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27106, 'braceletelysabangle2', /* Generic_WeenieType */ 1);
+VALUES (27106, 'braceletelysabangle2', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27106, 16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LONG_DESC_STRING */
-     , (27106, 1, 'Elysa''s Bangle') /* NAME_STRING */;
+VALUES (27106, 001 /* NAME_STRING */, 'Elysa''s Bangle')
+     , (27106, 016 /* LONG_DESC_STRING */, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27106, 1, 33554683) /* SETUP_DID */
-     , (27106, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27106, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (27106, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (27106, 6, 67111919) /* PALETTE_BASE_DID */
-     , (27106, 7, 268436286) /* CLOTHINGBASE_DID */
-     , (27106, 8, 100675929) /* ICON_DID */;
+VALUES (27106, 001 /* SETUP_DID */, 33554683)
+     , (27106, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27106, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (27106, 007 /* CLOTHINGBASE_DID */, 268436286)
+     , (27106, 008 /* ICON_DID */, 100675929)
+     , (27106, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (27106, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27106, 9, 196608) /* LOCATIONS_INT */
-     , (27106, 1, 8) /* ITEM_TYPE_INT */
-     , (27106, 19, 700) /* VALUE_INT */
-     , (27106, 3, 82) /* PALETTE_TEMPLATE_INT */
-     , (27106, 5, 15) /* ENCUMB_VAL_INT */
-     , (27106, 16, 1) /* ITEM_USEABLE_INT */
-     , (27106, 8, 15) /* MASS_INT */
-     , (27106, 18, 1) /* UI_EFFECTS_INT */
-     , (27106, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (27106, 151, 2) /* HOOK_TYPE_INT */
-     , (27106, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27106, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (27106, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (27106, 160, 35) /* WIELD_DIFFICULTY_INT */
-     , (27106, 106, 125) /* ITEM_SPELLCRAFT_INT */
-     , (27106, 107, 600) /* ITEM_CUR_MANA_INT */
-     , (27106, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27106, 109, 100) /* ITEM_DIFFICULTY_INT */;
+VALUES (27106, 001 /* ITEM_TYPE_INT */, 8 /* TYPE_JEWELRY */)
+     , (27106, 003 /* PALETTE_TEMPLATE_INT */, 82 /* PINKPURPLE_PALETTE_TEMPLATE */)
+     , (27106, 005 /* ENCUMB_VAL_INT */, 15)
+     , (27106, 008 /* MASS_INT */, 15)
+     , (27106, 009 /* LOCATIONS_INT */, 196608 /* WRIST_WEAR_LOC */)
+     , (27106, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (27106, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (27106, 019 /* VALUE_INT */, 700)
+     , (27106, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (27106, 106 /* ITEM_SPELLCRAFT_INT */, 125)
+     , (27106, 107 /* ITEM_CUR_MANA_INT */, 600)
+     , (27106, 108 /* ITEM_MAX_MANA_INT */, 600)
+     , (27106, 109 /* ITEM_DIFFICULTY_INT */, 100)
+     , (27106, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (27106, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (27106, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (27106, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
+     , (27106, 160 /* WIELD_DIFFICULTY_INT */, 35);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (27106, 5, -0.033333) /* MANA_RATE_FLOAT */;
+VALUES (27106, 005 /* MANA_RATE_FLOAT */, -0.033333);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27106, 22, True) /* INSCRIBABLE_BOOL */
-     , (27106, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (27106, 022 /* INSCRIBABLE_BOOL */, True)
+     , (27106, 023 /* DESTROY_ON_SELL_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27106, 271, 2) /* MagicResistanceOther4_SpellID */;

@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 27392;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27392, 'gemquestgibbering', /* Gem_WeenieType */ 38);
+VALUES (27392, 'gemquestgibbering', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27392, 16, 'Deliver all non-viable test subjects to the oubliette for disposal. This stone is imprinted with the location. The Director also requests a status report on the one surviving subject there. Its tenacity is of interest.') /* LONG_DESC_STRING */
-     , (27392, 1, 'Oubliette') /* NAME_STRING */
-     , (27392, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* USE_STRING */;
+VALUES (27392, 001 /* NAME_STRING */, 'Oubliette')
+     , (27392, 014 /* USE_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)')
+     , (27392, 016 /* LONG_DESC_STRING */, 'Deliver all non-viable test subjects to the oubliette for disposal. This stone is imprinted with the location. The Director also requests a status report on the one surviving subject there. Its tenacity is of interest.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27392, 1, 33556769) /* SETUP_DID */
-     , (27392, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27392, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (27392, 6, 67111919) /* PALETTE_BASE_DID */
-     , (27392, 31, 27403) /* LINKED_PORTAL_ONE_DID */
-     , (27392, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (27392, 8, 100668364) /* ICON_DID */
-     , (27392, 50, 100676404) /* ICON_OVERLAY_DID */
-     , (27392, 28, 157) /* SPELL_DID */;
+VALUES (27392, 001 /* SETUP_DID */, 33556769)
+     , (27392, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27392, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (27392, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (27392, 008 /* ICON_DID */, 100668364)
+     , (27392, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (27392, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
+     , (27392, 031 /* LINKED_PORTAL_ONE_DID */, 27403 /* Oubliette */)
+     , (27392, 050 /* ICON_OVERLAY_DID */, 100676404);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27392, 9, 0) /* LOCATIONS_INT */
-     , (27392, 1, 2048) /* ITEM_TYPE_INT */
-     , (27392, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (27392, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (27392, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (27392, 5, 10) /* ENCUMB_VAL_INT */
-     , (27392, 8, 10) /* MASS_INT */
-     , (27392, 12, 1) /* STACK_SIZE_INT */
-     , (27392, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (27392, 15, 500) /* STACK_UNIT_VALUE_INT */
-     , (27392, 16, 8) /* ITEM_USEABLE_INT */
-     , (27392, 19, 500) /* VALUE_INT */
-     , (27392, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (27392, 151, 2) /* HOOK_TYPE_INT */
-     , (27392, 93, 3092) /* PHYSICS_STATE_INT */
-     , (27392, 94, 16) /* TARGET_TYPE_INT */
-     , (27392, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (27392, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (27392, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27392, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27392, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (27392, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (27392, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (27392, 005 /* ENCUMB_VAL_INT */, 10)
+     , (27392, 008 /* MASS_INT */, 10)
+     , (27392, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27392, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (27392, 012 /* STACK_SIZE_INT */, 1)
+     , (27392, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (27392, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (27392, 015 /* STACK_UNIT_VALUE_INT */, 500)
+     , (27392, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (27392, 019 /* VALUE_INT */, 500)
+     , (27392, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (27392, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (27392, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (27392, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (27392, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (27392, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (27392, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (27392, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (27392, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27392, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (27392, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (27392, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (27392, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (27392, 022 /* INSCRIBABLE_BOOL */, True)
+     , (27392, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

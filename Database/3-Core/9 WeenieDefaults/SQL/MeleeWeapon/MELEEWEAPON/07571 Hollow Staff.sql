@@ -2,53 +2,53 @@
 DELETE FROM weenie WHERE class_Id = 7571;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7571, 'nabuthollow', /* MeleeWeapon_WeenieType */ 6);
+VALUES (7571, 'nabuthollow', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7571, 16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* LONG_DESC_STRING */
-     , (7571, 1, 'Hollow Staff') /* NAME_STRING */
-     , (7571, 15, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)') /* SHORT_DESC_STRING */;
+VALUES (7571, 001 /* NAME_STRING */, 'Hollow Staff')
+     , (7571, 015 /* SHORT_DESC_STRING */, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)')
+     , (7571, 016 /* LONG_DESC_STRING */, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon is unenchantable and ignores modified armor and protection values.)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7571, 1, 33556647) /* SETUP_DID */
-     , (7571, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7571, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (7571, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7571, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7571, 7, 268435795) /* CLOTHINGBASE_DID */
-     , (7571, 8, 100669105) /* ICON_DID */;
+VALUES (7571, 001 /* SETUP_DID */, 33556647)
+     , (7571, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7571, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7571, 007 /* CLOTHINGBASE_DID */, 268435795)
+     , (7571, 008 /* ICON_DID */, 100669105)
+     , (7571, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7571, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7571, 33, 1) /* BONDED_INT */
-     , (7571, 9, 1048576) /* LOCATIONS_INT */
-     , (7571, 1, 1) /* ITEM_TYPE_INT */
-     , (7571, 19, 2000) /* VALUE_INT */
-     , (7571, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (7571, 93, 3092) /* PHYSICS_STATE_INT */
-     , (7571, 5, 450) /* ENCUMB_VAL_INT */
-     , (7571, 16, 1) /* ITEM_USEABLE_INT */
-     , (7571, 8, 110) /* MASS_INT */
-     , (7571, 36, 9999) /* RESIST_MAGIC_INT */
-     , (7571, 44, 32) /* DAMAGE_INT */
-     , (7571, 45, 4) /* DAMAGE_TYPE_INT */
-     , (7571, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7571, 47, 6) /* ATTACK_TYPE_INT */
-     , (7571, 48, 10) /* WEAPON_SKILL_INT */
-     , (7571, 49, 20) /* WEAPON_TIME_INT */
-     , (7571, 114, 1) /* ATTUNED_INT */
-     , (7571, 51, 1) /* COMBAT_USE_INT */;
+VALUES (7571, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (7571, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (7571, 005 /* ENCUMB_VAL_INT */, 450)
+     , (7571, 008 /* MASS_INT */, 110)
+     , (7571, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (7571, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7571, 019 /* VALUE_INT */, 2000)
+     , (7571, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (7571, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (7571, 044 /* DAMAGE_INT */, 32)
+     , (7571, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (7571, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (7571, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (7571, 048 /* WEAPON_SKILL_INT */, 10 /* STAFF_SKILL */)
+     , (7571, 049 /* WEAPON_TIME_INT */, 20)
+     , (7571, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (7571, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (7571, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7571, 39, 0.67) /* DEFAULT_SCALE_FLOAT */
-     , (7571, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (7571, 21, 1.33) /* WEAPON_LENGTH_FLOAT */
-     , (7571, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */
-     , (7571, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (7571, 021 /* WEAPON_LENGTH_FLOAT */, 1.33)
+     , (7571, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (7571, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (7571, 039 /* DEFAULT_SCALE_FLOAT */, 0.67)
+     , (7571, 062 /* WEAPON_OFFENSE_FLOAT */, 1.05);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7571, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
-     , (7571, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
-     , (7571, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (7571, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (7571, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (7571, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (7571, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7571, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (7571, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
+     , (7571, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
 

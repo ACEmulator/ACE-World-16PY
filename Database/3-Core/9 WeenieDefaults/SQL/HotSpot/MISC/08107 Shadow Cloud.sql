@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 8107;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8107, 'shadowcloudsmall', /* HotSpot_WeenieType */ 13);
+VALUES (8107, 'shadowcloudsmall', 13 /* HotSpot_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8107, 1, 'Shadow Cloud') /* NAME_STRING */
-     , (8107, 17, 'The black mist boils %i points of flesh from your bones!') /* ACTIVATION_TALK_STRING */;
+VALUES (8107, 001 /* NAME_STRING */, 'Shadow Cloud')
+     , (8107, 017 /* ACTIVATION_TALK_STRING */, 'The black mist boils %i points of flesh from your bones!');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8107, 1, 33556025) /* SETUP_DID */
-     , (8107, 3, 536871007) /* SOUND_TABLE_DID */
-     , (8107, 8, 100667465) /* ICON_DID */;
+VALUES (8107, 001 /* SETUP_DID */, 33556025)
+     , (8107, 003 /* SOUND_TABLE_DID */, 536871007)
+     , (8107, 008 /* ICON_DID */, 100667465);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8107, 9, 0) /* LOCATIONS_INT */
-     , (8107, 1, 128) /* ITEM_TYPE_INT */
-     , (8107, 45, 32) /* DAMAGE_TYPE_INT */
-     , (8107, 93, 12) /* PHYSICS_STATE_INT */
-     , (8107, 5, 1) /* ENCUMB_VAL_INT */
-     , (8107, 16, 1) /* ITEM_USEABLE_INT */
-     , (8107, 8, 1) /* MASS_INT */
-     , (8107, 19, 1) /* VALUE_INT */
-     , (8107, 44, 10) /* DAMAGE_INT */
-     , (8107, 119, 0) /* ACTIVE_INT */;
+VALUES (8107, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (8107, 005 /* ENCUMB_VAL_INT */, 1)
+     , (8107, 008 /* MASS_INT */, 1)
+     , (8107, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (8107, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8107, 019 /* VALUE_INT */, 1)
+     , (8107, 044 /* DAMAGE_INT */, 10)
+     , (8107, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (8107, 093 /* PHYSICS_STATE_INT */, 12 /* ETHEREAL_PS, REPORT_COLLISIONS_PS */)
+     , (8107, 119 /* ACTIVE_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8107, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
-     , (8107, 105, 3) /* HOTSPOT_CYCLE_TIME_FLOAT */
-     , (8107, 106, 0.25) /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */
-     , (8107, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (8107, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (8107, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
+     , (8107, 105 /* HOTSPOT_CYCLE_TIME_FLOAT */, 3)
+     , (8107, 106 /* HOTSPOT_CYCLE_TIME_VARIANCE_FLOAT */, 0.25);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8107, 1, True) /* STUCK_BOOL */
-     , (8107, 65, True) /* IGNORE_MAGIC_RESIST_BOOL */
-     , (8107, 18, True) /* VISIBILITY_BOOL */
-     , (8107, 66, True) /* IGNORE_MAGIC_ARMOR_BOOL */
-     , (8107, 11, False) /* IGNORE_COLLISIONS_BOOL */
-     , (8107, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (8107, 13, True) /* ETHEREAL_BOOL */
-     , (8107, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (8107, 55, True) /* IS_HOT_BOOL */
-     , (8107, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (8107, 001 /* STUCK_BOOL */, True)
+     , (8107, 011 /* IGNORE_COLLISIONS_BOOL */, False)
+     , (8107, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (8107, 013 /* ETHEREAL_BOOL */, True)
+     , (8107, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (8107, 018 /* VISIBILITY_BOOL */, True)
+     , (8107, 024 /* UI_HIDDEN_BOOL */, True)
+     , (8107, 055 /* IS_HOT_BOOL */, True)
+     , (8107, 065 /* IGNORE_MAGIC_RESIST_BOOL */, True)
+     , (8107, 066 /* IGNORE_MAGIC_ARMOR_BOOL */, True);
 

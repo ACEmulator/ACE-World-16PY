@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 792;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (792, 'turquoise', /* SpellComponent_WeenieType */ 32);
+VALUES (792, 'turquoise', 32 /* SpellComponent_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (792, 1, 'Powdered Turquoise') /* NAME_STRING */
-     , (792, 20, 'Powdered Turquoise') /* PLURAL_NAME_STRING */;
+VALUES (792, 001 /* NAME_STRING */, 'Powdered Turquoise')
+     , (792, 020 /* PLURAL_NAME_STRING */, 'Powdered Turquoise');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (792, 1, 33555208) /* SETUP_DID */
-     , (792, 3, 536870932) /* SOUND_TABLE_DID */
-     , (792, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (792, 6, 67111919) /* PALETTE_BASE_DID */
-     , (792, 7, 268435778) /* CLOTHINGBASE_DID */
-     , (792, 8, 100668378) /* ICON_DID */
-     , (792, 29, 36) /* SPELL_COMPONENT_DID */;
+VALUES (792, 001 /* SETUP_DID */, 33555208)
+     , (792, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (792, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (792, 007 /* CLOTHINGBASE_DID */, 268435778)
+     , (792, 008 /* ICON_DID */, 100668378)
+     , (792, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (792, 029 /* SPELL_COMPONENT_DID */, 36);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (792, 9, 0) /* LOCATIONS_INT */
-     , (792, 1, 4096) /* ITEM_TYPE_INT */
-     , (792, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (792, 3, 77) /* PALETTE_TEMPLATE_INT */
-     , (792, 13, 4) /* STACK_UNIT_ENCUMB_INT */
-     , (792, 5, 4) /* ENCUMB_VAL_INT */
-     , (792, 8, 100) /* MASS_INT */
-     , (792, 12, 1) /* STACK_SIZE_INT */
-     , (792, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (792, 15, 5) /* STACK_UNIT_VALUE_INT */
-     , (792, 16, 1) /* ITEM_USEABLE_INT */
-     , (792, 19, 5) /* VALUE_INT */
-     , (792, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (792, 001 /* ITEM_TYPE_INT */, 4096 /* TYPE_SPELL_COMPONENTS */)
+     , (792, 003 /* PALETTE_TEMPLATE_INT */, 77 /* BLUEGREEN_PALETTE_TEMPLATE */)
+     , (792, 005 /* ENCUMB_VAL_INT */, 4)
+     , (792, 008 /* MASS_INT */, 100)
+     , (792, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (792, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (792, 012 /* STACK_SIZE_INT */, 1)
+     , (792, 013 /* STACK_UNIT_ENCUMB_INT */, 4)
+     , (792, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (792, 015 /* STACK_UNIT_VALUE_INT */, 5)
+     , (792, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (792, 019 /* VALUE_INT */, 5)
+     , (792, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (792, 69, False) /* IS_SELLABLE_BOOL */;
+VALUES (792, 069 /* IS_SELLABLE_BOOL */, False);
 

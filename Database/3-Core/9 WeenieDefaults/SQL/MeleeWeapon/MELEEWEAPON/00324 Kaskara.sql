@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 324;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (324, 'kaskara', /* MeleeWeapon_WeenieType */ 6);
+VALUES (324, 'kaskara', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (324, 1, 'Kaskara') /* NAME_STRING */;
+VALUES (324, 001 /* NAME_STRING */, 'Kaskara');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (324, 1, 33554533) /* SETUP_DID */
-     , (324, 3, 536870932) /* SOUND_TABLE_DID */
-     , (324, 36, 234881053) /* MUTATE_FILTER_DID */
-     , (324, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (324, 46, 939524101) /* TSYS_MUTATION_FILTER_DID */
-     , (324, 6, 67111919) /* PALETTE_BASE_DID */
-     , (324, 7, 268435769) /* CLOTHINGBASE_DID */
-     , (324, 8, 100669025) /* ICON_DID */;
+VALUES (324, 001 /* SETUP_DID */, 33554533)
+     , (324, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (324, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (324, 007 /* CLOTHINGBASE_DID */, 268435769)
+     , (324, 008 /* ICON_DID */, 100669025)
+     , (324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (324, 036 /* MUTATE_FILTER_DID */, 234881053)
+     , (324, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (324, 9, 1048576) /* LOCATIONS_INT */
-     , (324, 1, 1) /* ITEM_TYPE_INT */
-     , (324, 19, 200) /* VALUE_INT */
-     , (324, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (324, 5, 425) /* ENCUMB_VAL_INT */
-     , (324, 16, 1) /* ITEM_USEABLE_INT */
-     , (324, 8, 170) /* MASS_INT */
-     , (324, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (324, 151, 2) /* HOOK_TYPE_INT */
-     , (324, 93, 1044) /* PHYSICS_STATE_INT */
-     , (324, 169, 101255170) /* TSYS_MUTATION_DATA_INT */
-     , (324, 44, 9) /* DAMAGE_INT */
-     , (324, 45, 3) /* DAMAGE_TYPE_INT */
-     , (324, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (324, 47, 6) /* ATTACK_TYPE_INT */
-     , (324, 48, 11) /* WEAPON_SKILL_INT */
-     , (324, 49, 35) /* WEAPON_TIME_INT */
-     , (324, 51, 1) /* COMBAT_USE_INT */;
+VALUES (324, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (324, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (324, 005 /* ENCUMB_VAL_INT */, 425)
+     , (324, 008 /* MASS_INT */, 170)
+     , (324, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (324, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (324, 019 /* VALUE_INT */, 200)
+     , (324, 044 /* DAMAGE_INT */, 9)
+     , (324, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (324, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (324, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (324, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (324, 049 /* WEAPON_TIME_INT */, 35)
+     , (324, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (324, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (324, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (324, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (324, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (324, 21, 0.86) /* WEAPON_LENGTH_FLOAT */
-     , (324, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (324, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (324, 021 /* WEAPON_LENGTH_FLOAT */, 0.86)
+     , (324, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (324, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (324, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (324, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (324, 022 /* INSCRIBABLE_BOOL */, True);
 

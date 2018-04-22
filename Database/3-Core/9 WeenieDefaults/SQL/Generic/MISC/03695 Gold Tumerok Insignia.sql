@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 3695;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3695, 'tumerokinsignia', /* Generic_WeenieType */ 1);
+VALUES (3695, 'tumerokinsignia', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3695, 1, 'Gold Tumerok Insignia') /* NAME_STRING */;
+VALUES (3695, 001 /* NAME_STRING */, 'Gold Tumerok Insignia');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3695, 1, 33554680) /* SETUP_DID */
-     , (3695, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3695, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (3695, 8, 100667330) /* ICON_DID */
-     , (3695, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (3695, 001 /* SETUP_DID */, 33554680)
+     , (3695, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3695, 008 /* ICON_DID */, 100667330)
+     , (3695, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (3695, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3695, 9, 0) /* LOCATIONS_INT */
-     , (3695, 1, 128) /* ITEM_TYPE_INT */
-     , (3695, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3695, 5, 150) /* ENCUMB_VAL_INT */
-     , (3695, 16, 1) /* ITEM_USEABLE_INT */
-     , (3695, 8, 50) /* MASS_INT */
-     , (3695, 19, 200) /* VALUE_INT */;
+VALUES (3695, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (3695, 005 /* ENCUMB_VAL_INT */, 150)
+     , (3695, 008 /* MASS_INT */, 50)
+     , (3695, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (3695, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (3695, 019 /* VALUE_INT */, 200)
+     , (3695, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3695, 39, 0.37) /* DEFAULT_SCALE_FLOAT */;
+VALUES (3695, 039 /* DEFAULT_SCALE_FLOAT */, 0.37);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3695, 22, True) /* INSCRIBABLE_BOOL */
-     , (3695, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (3695, 022 /* INSCRIBABLE_BOOL */, True)
+     , (3695, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

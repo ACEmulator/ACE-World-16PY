@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 22835;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22835, 'pedestalvasesnowflower4', /* Generic_WeenieType */ 1);
+VALUES (22835, 'pedestalvasesnowflower4', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22835, 1, 'Pedestal with a Floral Arrangement') /* NAME_STRING */
-     , (22835, 14, 'This item is floor-hookable.') /* USE_STRING */
-     , (22835, 15, 'An ornamental pedestal adorned with a crystal vase with a quartet of snowflowers. ') /* SHORT_DESC_STRING */;
+VALUES (22835, 001 /* NAME_STRING */, 'Pedestal with a Floral Arrangement')
+     , (22835, 014 /* USE_STRING */, 'This item is floor-hookable.')
+     , (22835, 015 /* SHORT_DESC_STRING */, 'An ornamental pedestal adorned with a crystal vase with a quartet of snowflowers. ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22835, 1, 33558163) /* SETUP_DID */
-     , (22835, 8, 100673924) /* ICON_DID */;
+VALUES (22835, 001 /* SETUP_DID */, 33558163)
+     , (22835, 008 /* ICON_DID */, 100673924);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22835, 1, 128) /* ITEM_TYPE_INT */
-     , (22835, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22835, 5, 70) /* ENCUMB_VAL_INT */
-     , (22835, 16, 1) /* ITEM_USEABLE_INT */
-     , (22835, 8, 70) /* MASS_INT */
-     , (22835, 19, 10000) /* VALUE_INT */
-     , (22835, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (22835, 151, 1) /* HOOK_TYPE_INT */;
+VALUES (22835, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22835, 005 /* ENCUMB_VAL_INT */, 70)
+     , (22835, 008 /* MASS_INT */, 70)
+     , (22835, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (22835, 019 /* VALUE_INT */, 10000)
+     , (22835, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22835, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (22835, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22835, 13, True) /* ETHEREAL_BOOL */
-     , (22835, 69, False) /* IS_SELLABLE_BOOL */
-     , (22835, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (22835, 013 /* ETHEREAL_BOOL */, True)
+     , (22835, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22835, 069 /* IS_SELLABLE_BOOL */, False);
 

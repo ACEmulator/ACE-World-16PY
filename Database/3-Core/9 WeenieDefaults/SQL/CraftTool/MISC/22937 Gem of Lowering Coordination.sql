@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 22937;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22937, 'attributegemdowncoordination', /* CraftTool_WeenieType */ 44);
+VALUES (22937, 'attributegemdowncoordination', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22937, 1, 'Gem of Lowering Coordination') /* NAME_STRING */
-     , (22937, 33, 'AttributeLoweringGemPickedUp') /* QUEST_STRING */
-     , (22937, 14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of coordination to another attribute.') /* USE_STRING */;
+VALUES (22937, 001 /* NAME_STRING */, 'Gem of Lowering Coordination')
+     , (22937, 014 /* USE_STRING */, 'Combine this gem with an attribute raising gem to transfer up to 10 points of coordination to another attribute.')
+     , (22937, 033 /* QUEST_STRING */, 'AttributeLoweringGemPickedUp');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22937, 1, 33558087) /* SETUP_DID */
-     , (22937, 6, 67111919) /* PALETTE_BASE_DID */
-     , (22937, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (22937, 8, 100673789) /* ICON_DID */
-     , (22937, 50, 100673962) /* ICON_OVERLAY_DID */;
+VALUES (22937, 001 /* SETUP_DID */, 33558087)
+     , (22937, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (22937, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (22937, 008 /* ICON_DID */, 100673789)
+     , (22937, 050 /* ICON_OVERLAY_DID */, 100673962);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22937, 1, 128) /* ITEM_TYPE_INT */
-     , (22937, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (22937, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (22937, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (22937, 5, 10) /* ENCUMB_VAL_INT */
-     , (22937, 8, 10) /* MASS_INT */
-     , (22937, 12, 1) /* STACK_SIZE_INT */
-     , (22937, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (22937, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (22937, 16, 524296) /* ITEM_USEABLE_INT */
-     , (22937, 19, 0) /* VALUE_INT */
-     , (22937, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22937, 94, 128) /* TARGET_TYPE_INT */
-     , (22937, 33, 1) /* BONDED_INT */
-     , (22937, 114, 1) /* ATTUNED_INT */;
+VALUES (22937, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22937, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (22937, 005 /* ENCUMB_VAL_INT */, 10)
+     , (22937, 008 /* MASS_INT */, 10)
+     , (22937, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (22937, 012 /* STACK_SIZE_INT */, 1)
+     , (22937, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (22937, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (22937, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (22937, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (22937, 019 /* VALUE_INT */, 0)
+     , (22937, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (22937, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22937, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (22937, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22937, 22, True) /* INSCRIBABLE_BOOL */
-     , (22937, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (22937, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22937, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

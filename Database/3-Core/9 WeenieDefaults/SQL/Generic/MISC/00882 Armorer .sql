@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 882;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (882, 'armorersign', /* Generic_WeenieType */ 1);
+VALUES (882, 'armorersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (882, 16, 'Armor') /* LONG_DESC_STRING */
-     , (882, 1, 'Armorer ') /* NAME_STRING */;
+VALUES (882, 001 /* NAME_STRING */, 'Armorer ')
+     , (882, 016 /* LONG_DESC_STRING */, 'Armor');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (882, 1, 33555088) /* SETUP_DID */
-     , (882, 6, 67111092) /* PALETTE_BASE_DID */
-     , (882, 7, 268435653) /* CLOTHINGBASE_DID */
-     , (882, 8, 100668115) /* ICON_DID */;
+VALUES (882, 001 /* SETUP_DID */, 33555088)
+     , (882, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (882, 007 /* CLOTHINGBASE_DID */, 268435653)
+     , (882, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (882, 1, 128) /* ITEM_TYPE_INT */
-     , (882, 93, 1048) /* PHYSICS_STATE_INT */
-     , (882, 5, 9000) /* ENCUMB_VAL_INT */
-     , (882, 16, 1) /* ITEM_USEABLE_INT */
-     , (882, 8, 1800) /* MASS_INT */
-     , (882, 19, 125) /* VALUE_INT */;
+VALUES (882, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (882, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (882, 008 /* MASS_INT */, 1800)
+     , (882, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (882, 019 /* VALUE_INT */, 125)
+     , (882, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (882, 1, True) /* STUCK_BOOL */
-     , (882, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (882, 13, False) /* ETHEREAL_BOOL */
-     , (882, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (882, 001 /* STUCK_BOOL */, True)
+     , (882, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (882, 013 /* ETHEREAL_BOOL */, False)
+     , (882, 022 /* INSCRIBABLE_BOOL */, False);
 

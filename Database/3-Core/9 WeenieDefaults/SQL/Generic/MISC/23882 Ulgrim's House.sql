@@ -2,32 +2,32 @@
 DELETE FROM weenie WHERE class_Id = 23882;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23882, 'signulgrimshouse', /* Generic_WeenieType */ 1);
+VALUES (23882, 'signulgrimshouse', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23882, 16, 'Ulgrim''s House. Be Respectful! -Ulgrim') /* LONG_DESC_STRING */
-     , (23882, 1, 'Ulgrim''s House') /* NAME_STRING */;
+VALUES (23882, 001 /* NAME_STRING */, 'Ulgrim''s House')
+     , (23882, 016 /* LONG_DESC_STRING */, 'Ulgrim''s House. Be Respectful! -Ulgrim');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23882, 1, 33555088) /* SETUP_DID */
-     , (23882, 6, 67111092) /* PALETTE_BASE_DID */
-     , (23882, 7, 268435662) /* CLOTHINGBASE_DID */
-     , (23882, 8, 100668115) /* ICON_DID */;
+VALUES (23882, 001 /* SETUP_DID */, 33555088)
+     , (23882, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (23882, 007 /* CLOTHINGBASE_DID */, 268435662)
+     , (23882, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23882, 1, 128) /* ITEM_TYPE_INT */
-     , (23882, 93, 1048) /* PHYSICS_STATE_INT */
-     , (23882, 5, 9000) /* ENCUMB_VAL_INT */
-     , (23882, 16, 1) /* ITEM_USEABLE_INT */
-     , (23882, 8, 1800) /* MASS_INT */
-     , (23882, 19, 125) /* VALUE_INT */;
+VALUES (23882, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (23882, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (23882, 008 /* MASS_INT */, 1800)
+     , (23882, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (23882, 019 /* VALUE_INT */, 125)
+     , (23882, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23882, 54, 3) /* USE_RADIUS_FLOAT */;
+VALUES (23882, 054 /* USE_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23882, 1, True) /* STUCK_BOOL */
-     , (23882, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (23882, 13, False) /* ETHEREAL_BOOL */
-     , (23882, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (23882, 001 /* STUCK_BOOL */, True)
+     , (23882, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (23882, 013 /* ETHEREAL_BOOL */, False)
+     , (23882, 022 /* INSCRIBABLE_BOOL */, False);
 

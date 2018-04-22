@@ -2,44 +2,44 @@
 DELETE FROM weenie WHERE class_Id = 23965;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23965, 'coatknorrinfusedexarchred', /* CraftTool_WeenieType */ 44);
+VALUES (23965, 'coatknorrinfusedexarchred', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23965, 1, 'Infused Plate Coat') /* NAME_STRING */
-     , (23965, 14, 'This coat has been infused with an unknown power, it seems unstable and cannot be worn. It must be fired in a forge of mana fires to complete.') /* USE_STRING */
-     , (23965, 15, 'A once vibrant coat worn by the Order of Heiromancers teeming with an unknown power.') /* SHORT_DESC_STRING */;
+VALUES (23965, 001 /* NAME_STRING */, 'Infused Plate Coat')
+     , (23965, 014 /* USE_STRING */, 'This coat has been infused with an unknown power, it seems unstable and cannot be worn. It must be fired in a forge of mana fires to complete.')
+     , (23965, 015 /* SHORT_DESC_STRING */, 'A once vibrant coat worn by the Order of Heiromancers teeming with an unknown power.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23965, 1, 33554669) /* SETUP_DID */
-     , (23965, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23965, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (23965, 6, 67111919) /* PALETTE_BASE_DID */
-     , (23965, 7, 268435968) /* CLOTHINGBASE_DID */
-     , (23965, 8, 100674127) /* ICON_DID */;
+VALUES (23965, 001 /* SETUP_DID */, 33554669)
+     , (23965, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23965, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (23965, 007 /* CLOTHINGBASE_DID */, 268435968)
+     , (23965, 008 /* ICON_DID */, 100674127)
+     , (23965, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23965, 9, 0) /* LOCATIONS_INT */
-     , (23965, 1, 128) /* ITEM_TYPE_INT */
-     , (23965, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (23965, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (23965, 13, 250) /* STACK_UNIT_ENCUMB_INT */
-     , (23965, 5, 250) /* ENCUMB_VAL_INT */
-     , (23965, 8, 50) /* MASS_INT */
-     , (23965, 12, 1) /* STACK_SIZE_INT */
-     , (23965, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (23965, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (23965, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (23965, 19, 0) /* VALUE_INT */
-     , (23965, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23965, 94, 128) /* TARGET_TYPE_INT */
-     , (23965, 33, 1) /* BONDED_INT */
-     , (23965, 114, 1) /* ATTUNED_INT */;
+VALUES (23965, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (23965, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (23965, 005 /* ENCUMB_VAL_INT */, 250)
+     , (23965, 008 /* MASS_INT */, 50)
+     , (23965, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (23965, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (23965, 012 /* STACK_SIZE_INT */, 1)
+     , (23965, 013 /* STACK_UNIT_ENCUMB_INT */, 250)
+     , (23965, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (23965, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (23965, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (23965, 019 /* VALUE_INT */, 0)
+     , (23965, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (23965, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (23965, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (23965, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23965, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (23965, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23965, 69, False) /* IS_SELLABLE_BOOL */
-     , (23965, 22, True) /* INSCRIBABLE_BOOL */
-     , (23965, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (23965, 022 /* INSCRIBABLE_BOOL */, True)
+     , (23965, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (23965, 069 /* IS_SELLABLE_BOOL */, False);
 

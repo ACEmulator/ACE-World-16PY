@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 6886;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6886, 'notegormling', /* Book_WeenieType */ 8);
+VALUES (6886, 'notegormling', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6886, 16, 'A short note from Gormling of Neydisa Castle to Jourgensson the bandit.') /* LONG_DESC_STRING */
-     , (6886, 1, 'Gormling''s Note') /* NAME_STRING */
-     , (6886, 15, 'A short note.') /* SHORT_DESC_STRING */;
+VALUES (6886, 001 /* NAME_STRING */, 'Gormling''s Note')
+     , (6886, 015 /* SHORT_DESC_STRING */, 'A short note.')
+     , (6886, 016 /* LONG_DESC_STRING */, 'A short note from Gormling of Neydisa Castle to Jourgensson the bandit.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6886, 1, 33554773) /* SETUP_DID */
-     , (6886, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6886, 8, 100668176) /* ICON_DID */
-     , (6886, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (6886, 001 /* SETUP_DID */, 33554773)
+     , (6886, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6886, 008 /* ICON_DID */, 100668176)
+     , (6886, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6886, 9, 0) /* LOCATIONS_INT */
-     , (6886, 1, 8192) /* ITEM_TYPE_INT */
-     , (6886, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6886, 5, 25) /* ENCUMB_VAL_INT */
-     , (6886, 16, 8) /* ITEM_USEABLE_INT */
-     , (6886, 8, 5) /* MASS_INT */
-     , (6886, 19, 5) /* VALUE_INT */
-     , (6886, 114, 1) /* ATTUNED_INT */;
+VALUES (6886, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (6886, 005 /* ENCUMB_VAL_INT */, 25)
+     , (6886, 008 /* MASS_INT */, 5)
+     , (6886, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (6886, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (6886, 019 /* VALUE_INT */, 5)
+     , (6886, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6886, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6886, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (6886, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6886, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (6886, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6886, 1, 1000) /* Book Data */;

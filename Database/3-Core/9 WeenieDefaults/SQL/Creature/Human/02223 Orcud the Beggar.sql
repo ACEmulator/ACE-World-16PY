@@ -2,83 +2,83 @@
 DELETE FROM weenie WHERE class_Id = 2223;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2223, 'dryreachbeggara', /* Creature_WeenieType */ 10);
+VALUES (2223, 'dryreachbeggara', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2223, 1, 'Orcud the Beggar') /* NAME_STRING */
-     , (2223, 3, 'Male') /* SEX_STRING */
-     , (2223, 4, 'Aluvian') /* HERITAGE_GROUP_STRING */
-     , (2223, 5, 'Beggar') /* TEMPLATE_STRING */
-     , (2223, 24, 'Dryreach') /* TOWN_NAME_STRING */;
+VALUES (2223, 001 /* NAME_STRING */, 'Orcud the Beggar')
+     , (2223, 003 /* SEX_STRING */, 'Male')
+     , (2223, 004 /* HERITAGE_GROUP_STRING */, 'Aluvian')
+     , (2223, 005 /* TEMPLATE_STRING */, 'Beggar')
+     , (2223, 024 /* TOWN_NAME_STRING */, 'Dryreach');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2223, 1, 33554433) /* SETUP_DID */
-     , (2223, 2, 150994945) /* MOTION_TABLE_DID */
-     , (2223, 3, 536870913) /* SOUND_TABLE_DID */
-     , (2223, 4, 805306368) /* COMBAT_TABLE_DID */
-     , (2223, 6, 67108990) /* PALETTE_BASE_DID */
-     , (2223, 7, 268435545) /* CLOTHINGBASE_DID */
-     , (2223, 8, 100667446) /* ICON_DID */;
+VALUES (2223, 001 /* SETUP_DID */, 33554433)
+     , (2223, 002 /* MOTION_TABLE_DID */, 150994945)
+     , (2223, 003 /* SOUND_TABLE_DID */, 536870913)
+     , (2223, 004 /* COMBAT_TABLE_DID */, 805306368)
+     , (2223, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (2223, 007 /* CLOTHINGBASE_DID */, 268435545)
+     , (2223, 008 /* ICON_DID */, 100667446);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2223, 1, 16) /* ITEM_TYPE_INT */
-     , (2223, 2, 31) /* CREATURE_TYPE_INT */
-     , (2223, 3, 9) /* PALETTE_TEMPLATE_INT */
-     , (2223, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (2223, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (2223, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (2223, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (2223, 16, 32) /* ITEM_USEABLE_INT */
-     , (2223, 8, 120) /* MASS_INT */
-     , (2223, 146, 73) /* XP_OVERRIDE_INT */
-     , (2223, 25, 4) /* LEVEL_INT */
-     , (2223, 27, 0) /* ARMOR_TYPE_INT */
-     , (2223, 93, 2098200) /* PHYSICS_STATE_INT */
-     , (2223, 95, 8) /* RADARBLIP_COLOR_INT */;
+VALUES (2223, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (2223, 002 /* CREATURE_TYPE_INT */, 31 /* Human_CreatureType */)
+     , (2223, 003 /* PALETTE_TEMPLATE_INT */, 9 /* GREY_PALETTE_TEMPLATE */)
+     , (2223, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (2223, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (2223, 008 /* MASS_INT */, 120)
+     , (2223, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (2223, 025 /* LEVEL_INT */, 4)
+     , (2223, 027 /* ARMOR_TYPE_INT */, 0)
+     , (2223, 093 /* PHYSICS_STATE_INT */, 2098200 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS */)
+     , (2223, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
+     , (2223, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
+     , (2223, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (2223, 146 /* XP_OVERRIDE_INT */, 73);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2223, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (2223, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (2223, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (2223, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (2223, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (2223, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (2223, 3, 0.16) /* HEALTH_RATE_FLOAT */
-     , (2223, 68, 1) /* RESIST_COLD_FLOAT */
-     , (2223, 4, 5) /* STAMINA_RATE_FLOAT */
-     , (2223, 5, 1) /* MANA_RATE_FLOAT */
-     , (2223, 69, 1) /* RESIST_ACID_FLOAT */
-     , (2223, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (2223, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (2223, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (2223, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (2223, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (2223, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (2223, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (2223, 12, 0.5) /* SHADE_FLOAT */
-     , (2223, 13, 0.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (2223, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (2223, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (2223, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (2223, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (2223, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (2223, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (2223, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (2223, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (2223, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (2223, 003 /* HEALTH_RATE_FLOAT */, 0.16)
+     , (2223, 004 /* STAMINA_RATE_FLOAT */, 5)
+     , (2223, 005 /* MANA_RATE_FLOAT */, 1)
+     , (2223, 012 /* SHADE_FLOAT */, 0.5)
+     , (2223, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.9)
+     , (2223, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (2223, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1.1)
+     , (2223, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.4)
+     , (2223, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.4)
+     , (2223, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (2223, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.6)
+     , (2223, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (2223, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (2223, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (2223, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (2223, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (2223, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (2223, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (2223, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (2223, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (2223, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (2223, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (2223, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (2223, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (2223, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2223, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (2223, 1, True) /* STUCK_BOOL */
-     , (2223, 8, True) /* ALLOW_GIVE_BOOL */
-     , (2223, 19, False) /* ATTACKABLE_BOOL */
-     , (2223, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (2223, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (2223, 13, False) /* ETHEREAL_BOOL */;
+VALUES (2223, 001 /* STUCK_BOOL */, True)
+     , (2223, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (2223, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (2223, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (2223, 013 /* ETHEREAL_BOOL */, False)
+     , (2223, 019 /* ATTACKABLE_BOOL */, False)
+     , (2223, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2223, 1, 40, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (2223, 2, 40, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (2223, 4, 40, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (2223, 3, 70, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (2223, 4, 40, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (2223, 5, 20, 0, 0) /* FOCUS_ATTRIBUTE */
      , (2223, 6, 20, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -93,63 +93,63 @@ VALUES (2223, 2, 2592, 0, 4, 0.8, False) /* Create Tunic for Wield_DestinationTy
      , (2223, 2, 132, 0, 9, 1, False) /* Create Shoes for Wield_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (2223, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */
-     , (2223, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
+VALUES (2223, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */
      , (2223, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0, 0.44, 0.17, 0) /* CHEST */
      , (2223, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0, 0, 0.17, 0) /* ABDOMEN */
      , (2223, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0, 0.23, 0.03, 0) /* UPPER_ARM */
      , (2223, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0, 0, 0.3, 0) /* LOWER_ARM */
      , (2223, 5, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0, 0, 0.2, 0) /* HAND */
      , (2223, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18, 0, 0.13, 0.18) /* UPPER_LEG */
-     , (2223, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */;
+     , (2223, 7, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6, 0, 0, 0.6) /* LOWER_LEG */
+     , (2223, 8, 4, 2, 0.75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22, 0, 0, 0.22) /* FOOT */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (2223, 0.005, 5, 0, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (2223, 0.015, 5, 1, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (2223, 0.016, 5, 2, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (2223, 0.026, 5, 3, NULL, 2147483709, 1090519043, NULL, NULL, NULL, NULL) /* HeartBeat_EmoteCategory */
-     , (2223, 0.05, 6, 0, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 0.25, 6, 1, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 0.55, 6, 2, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 0.8, 6, 3, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 1, 6, 4, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 1, 6, 5, 27435 /* Large Golden Coin */, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteCategory */
-     , (2223, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */;
+VALUES (2223, 0.005, 5 /* HeartBeat_EmoteCategory */, 0, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (2223, 0.015, 5 /* HeartBeat_EmoteCategory */, 1, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (2223, 0.016, 5 /* HeartBeat_EmoteCategory */, 2, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (2223, 0.026, 5 /* HeartBeat_EmoteCategory */, 3, NULL, 2147483709 /* Standing */, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL)
+     , (2223, 0.05, 6 /* Give_EmoteCategory */, 0, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 0.25, 6 /* Give_EmoteCategory */, 1, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 0.55, 6 /* Give_EmoteCategory */, 2, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 0.8, 6 /* Give_EmoteCategory */, 3, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 1, 6 /* Give_EmoteCategory */, 4, 273 /* Pyreal */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 1, 6 /* Give_EmoteCategory */, 5, 27435 /* Large Golden Coin */, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2223, 5, 0, 0, 8, 0, 15, NULL, 'Could you spare me some money?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Say_EmoteType */
-     , (2223, 5, 1, 0, 4, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0) /* MoveHome_EmoteType */
-     , (2223, 5, 2, 0, 1, 0, 1, NULL, 'The wind carries a strong odor of tumeroks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Act_EmoteType */
-     , (2223, 5, 3, 0, 6, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, -3.891, 10.9, 0, 0.4383712, 0, 0, -0.8987941) /* Move_EmoteType */
-     , (2223, 5, 3, 1, 5, 10, 1, 1090519059, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 0, 0, 10, 0, 1, NULL, 'Thanks!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 1, 0, 10, 0, 1, NULL, 'You''re very kind...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 1, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 6, 1, 2, 5, 1, 1, 318767229, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 1, 3, 10, 2.25, 1, NULL, 'Wing collectors will reward you for the wings of gold phyntos wasps that are found in the Direlands, but no one else will.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 2, 0, 10, 0, 1, NULL, 'You''re very kind...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 2, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 6, 2, 2, 5, 1, 1, 318767229, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 2, 3, 10, 2.25, 1, NULL, 'Near the main tumerok camp, outside of town, is a portal into the Direlands.  Supposedly there''s a portal that comes back from the Direlands, too, but it''s guarded by tumeroks on the other side.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 3, 0, 10, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 3, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 6, 3, 2, 5, 1, 1, 318767250, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 3, 3, 10, 0, 1, NULL, 'I heard that a few brave men and women live in the Direlands in isolated outposts.  But even so, there aren''t any towns as big or as extensive as, say, Cragstone.  Direlands travel is dangerous, no matter how you look at it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 4, 0, 10, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 4, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 6, 4, 2, 5, 1, 1, 318767307, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 4, 3, 10, 0, 1, NULL, 'I heard about some mage who got captured by Tumeroks. Heh! These absent-minded wizards. I think she''s got some rare spell components on her. Her sister, Yu Vuo-Ki, sometimes walks around to the northwest of here. But good luck finding her!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 5, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 6, 5, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 6, 5, 2, 10, 0, 1, NULL, 'Thank you stranger! I can get a good meal and a hot bath with this!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 5, 3, 18, 2, 1, NULL, 'The snake sighs and uncoils from the coin.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (2223, 6, 5, 4, 18, 1, 1, NULL, '"You have lifted the curse. Finally, I may rest." The small snake coils in on itself biting its tail.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (2223, 6, 5, 5, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 27444 /* Serpent Ring */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (2223, 6, 5, 6, 10, 1, 1, NULL, 'Here, a small token of my gratitude.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */
-     , (2223, 6, 5, 7, 3, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 27436 /* Philanthropist Title Token */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Give_EmoteType */
-     , (2223, 6, 5, 8, 31, 0, 1, NULL, 'CoinAttachmentPickup', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (2223, 7, 0, 0, 5, 0, 1, 1090519043, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 7, 0, 1, 12, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* TurnToTarget_EmoteType */
-     , (2223, 7, 0, 2, 5, 1, 1, 318767229, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Motion_EmoteType */
-     , (2223, 7, 0, 3, 10, 1, 1, NULL, 'Could you spare me some money so I can buy food for my family?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Tell_EmoteType */;
+VALUES (2223, 5 /* HeartBeat_EmoteCategory */, 0, 0, 8 /* Say_EmoteType */, 0, 15, NULL, 'Could you spare me some money?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 5 /* HeartBeat_EmoteCategory */, 1, 0, 4 /* MoveHome_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0)
+     , (2223, 5 /* HeartBeat_EmoteCategory */, 2, 0, 1 /* Act_EmoteType */, 0, 1, NULL, 'The wind carries a strong odor of tumeroks.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 5 /* HeartBeat_EmoteCategory */, 3, 0, 6 /* Move_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, -3.891, 10.9, 0, 0.4383712, 0, 0, -0.8987941)
+     , (2223, 5 /* HeartBeat_EmoteCategory */, 3, 1, 5 /* Motion_EmoteType */, 10, 1, 1090519059 /* Motion_Sitting */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 0, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thanks!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 1, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You''re very kind...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 1, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 1, 2, 5 /* Motion_EmoteType */, 1, 1, 318767229 /* Motion_BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 1, 3, 10 /* Tell_EmoteType */, 2.25, 1, NULL, 'Wing collectors will reward you for the wings of gold phyntos wasps that are found in the Direlands, but no one else will.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 2, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'You''re very kind...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 2, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 2, 2, 5 /* Motion_EmoteType */, 1, 1, 318767229 /* Motion_BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 2, 3, 10 /* Tell_EmoteType */, 2.25, 1, NULL, 'Near the main tumerok camp, outside of town, is a portal into the Direlands.  Supposedly there''s a portal that comes back from the Direlands, too, but it''s guarded by tumeroks on the other side.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 3, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 3, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 3, 2, 5 /* Motion_EmoteType */, 1, 1, 318767250 /* Motion_Kneel */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 3, 3, 10 /* Tell_EmoteType */, 0, 1, NULL, 'I heard that a few brave men and women live in the Direlands in isolated outposts.  But even so, there aren''t any towns as big or as extensive as, say, Cragstone.  Direlands travel is dangerous, no matter how you look at it.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 4, 0, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thank you.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 4, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 4, 2, 5 /* Motion_EmoteType */, 1, 1, 318767307 /* Motion_Mock */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 4, 3, 10 /* Tell_EmoteType */, 0, 1, NULL, 'I heard about some mage who got captured by Tumeroks. Heh! These absent-minded wizards. I think she''s got some rare spell components on her. Her sister, Yu Vuo-Ki, sometimes walks around to the northwest of here. But good luck finding her!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 0, 5 /* Motion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 2, 10 /* Tell_EmoteType */, 0, 1, NULL, 'Thank you stranger! I can get a good meal and a hot bath with this!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 3, 18 /* DirectBroadcast_EmoteType */, 2, 1, NULL, 'The snake sighs and uncoils from the coin.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 4, 18 /* DirectBroadcast_EmoteType */, 1, 1, NULL, '"You have lifted the curse. Finally, I may rest." The small snake coils in on itself biting its tail.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 5, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 27444 /* Serpent Ring */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 6, 10 /* Tell_EmoteType */, 1, 1, NULL, 'Here, a small token of my gratitude.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 7, 3 /* Give_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 27436 /* Philanthropist Title Token */, 1, 0, 0, False, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 6 /* Give_EmoteCategory */, 5, 8, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'CoinAttachmentPickup', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 7 /* Use_EmoteCategory */, 0, 0, 5 /* Motion_EmoteType */, 0, 1, 1090519043 /* Motion_Ready */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 7 /* Use_EmoteCategory */, 0, 1, 12 /* TurnToTarget_EmoteType */, 0, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 7 /* Use_EmoteCategory */, 0, 2, 5 /* Motion_EmoteType */, 1, 1, 318767229 /* Motion_BowDeep */, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (2223, 7 /* Use_EmoteCategory */, 0, 3, 10 /* Tell_EmoteType */, 1, 1, NULL, 'Could you spare me some money so I can buy food for my family?', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

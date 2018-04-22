@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 500;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (500, 'sign-arwicshopblacksmith', /* Generic_WeenieType */ 1);
+VALUES (500, 'sign-arwicshopblacksmith', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (500, 16, 'Carsith''s Forge                                                                                                                                      Use side door.') /* LONG_DESC_STRING */
-     , (500, 1, 'Carsith''s Forge') /* NAME_STRING */;
+VALUES (500, 001 /* NAME_STRING */, 'Carsith''s Forge')
+     , (500, 016 /* LONG_DESC_STRING */, 'Carsith''s Forge                                                                                                                                      Use side door.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (500, 1, 33555593) /* SETUP_DID */
-     , (500, 6, 67111092) /* PALETTE_BASE_DID */
-     , (500, 7, 268435670) /* CLOTHINGBASE_DID */
-     , (500, 8, 100668115) /* ICON_DID */;
+VALUES (500, 001 /* SETUP_DID */, 33555593)
+     , (500, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (500, 007 /* CLOTHINGBASE_DID */, 268435670)
+     , (500, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (500, 1, 128) /* ITEM_TYPE_INT */
-     , (500, 93, 1048) /* PHYSICS_STATE_INT */
-     , (500, 5, 9000) /* ENCUMB_VAL_INT */
-     , (500, 16, 1) /* ITEM_USEABLE_INT */
-     , (500, 8, 1800) /* MASS_INT */
-     , (500, 19, 125) /* VALUE_INT */;
+VALUES (500, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (500, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (500, 008 /* MASS_INT */, 1800)
+     , (500, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (500, 019 /* VALUE_INT */, 125)
+     , (500, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (500, 1, True) /* STUCK_BOOL */
-     , (500, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (500, 13, False) /* ETHEREAL_BOOL */
-     , (500, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (500, 001 /* STUCK_BOOL */, True)
+     , (500, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (500, 013 /* ETHEREAL_BOOL */, False)
+     , (500, 022 /* INSCRIBABLE_BOOL */, False);
 

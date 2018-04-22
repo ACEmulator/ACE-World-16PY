@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 23962;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23962, 'orbinfusionred', /* CraftTool_WeenieType */ 44);
+VALUES (23962, 'orbinfusionred', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23962, 1, 'Orb of Infusion') /* NAME_STRING */
-     , (23962, 14, 'Use this orb to prepare an existing suit of Thaumaturgic or Exarch plate crafted by the Order of the Heiromancers. The armor will become useless until reforged in a flame stoked by pure mana.') /* USE_STRING */
-     , (23962, 15, 'A deep red orb with no apparent use.') /* SHORT_DESC_STRING */;
+VALUES (23962, 001 /* NAME_STRING */, 'Orb of Infusion')
+     , (23962, 014 /* USE_STRING */, 'Use this orb to prepare an existing suit of Thaumaturgic or Exarch plate crafted by the Order of the Heiromancers. The armor will become useless until reforged in a flame stoked by pure mana.')
+     , (23962, 015 /* SHORT_DESC_STRING */, 'A deep red orb with no apparent use.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23962, 1, 33554669) /* SETUP_DID */
-     , (23962, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23962, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (23962, 6, 67111928) /* PALETTE_BASE_DID */
-     , (23962, 7, 268435751) /* CLOTHINGBASE_DID */
-     , (23962, 8, 100674147) /* ICON_DID */;
+VALUES (23962, 001 /* SETUP_DID */, 33554669)
+     , (23962, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23962, 006 /* PALETTE_BASE_DID */, 67111928)
+     , (23962, 007 /* CLOTHINGBASE_DID */, 268435751)
+     , (23962, 008 /* ICON_DID */, 100674147)
+     , (23962, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23962, 9, 0) /* LOCATIONS_INT */
-     , (23962, 1, 128) /* ITEM_TYPE_INT */
-     , (23962, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (23962, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (23962, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (23962, 5, 15) /* ENCUMB_VAL_INT */
-     , (23962, 8, 50) /* MASS_INT */
-     , (23962, 12, 1) /* STACK_SIZE_INT */
-     , (23962, 14, 50) /* STACK_UNIT_MASS_INT */
-     , (23962, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (23962, 16, 524296) /* ITEM_USEABLE_INT */
-     , (23962, 19, 0) /* VALUE_INT */
-     , (23962, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (23962, 151, 2) /* HOOK_TYPE_INT */
-     , (23962, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23962, 94, 130) /* TARGET_TYPE_INT */
-     , (23962, 33, 1) /* BONDED_INT */
-     , (23962, 114, 1) /* ATTUNED_INT */;
+VALUES (23962, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (23962, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (23962, 005 /* ENCUMB_VAL_INT */, 15)
+     , (23962, 008 /* MASS_INT */, 50)
+     , (23962, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (23962, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (23962, 012 /* STACK_SIZE_INT */, 1)
+     , (23962, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (23962, 014 /* STACK_UNIT_MASS_INT */, 50)
+     , (23962, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (23962, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (23962, 019 /* VALUE_INT */, 0)
+     , (23962, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (23962, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (23962, 094 /* TARGET_TYPE_INT */, 130 /* TYPE_ARMOR, TYPE_MISC */)
+     , (23962, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (23962, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (23962, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23962, 39, 0.8) /* DEFAULT_SCALE_FLOAT */;
+VALUES (23962, 039 /* DEFAULT_SCALE_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23962, 84, True) /* IGNORE_CLO_ICONS_BOOL */
-     , (23962, 22, True) /* INSCRIBABLE_BOOL */
-     , (23962, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (23962, 022 /* INSCRIBABLE_BOOL */, True)
+     , (23962, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (23962, 084 /* IGNORE_CLO_ICONS_BOOL */, True);
 

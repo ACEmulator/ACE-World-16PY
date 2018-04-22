@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 5361;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5361, 'jambiyaabmim', /* MeleeWeapon_WeenieType */ 6);
+VALUES (5361, 'jambiyaabmim', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5361, 1, 'Abmim''s Jambiya') /* NAME_STRING */
-     , (5361, 33, 'JambiyaAbmimPickup') /* QUEST_STRING */
-     , (5361, 7, 'Taken from the hand of a fat merchant, the first of many successes in this new world!') /* INSCRIPTION_STRING */
-     , (5361, 8, 'Abmim ibn Ibsar') /* SCRIBE_NAME_STRING */;
+VALUES (5361, 001 /* NAME_STRING */, 'Abmim''s Jambiya')
+     , (5361, 007 /* INSCRIPTION_STRING */, 'Taken from the hand of a fat merchant, the first of many successes in this new world!')
+     , (5361, 008 /* SCRIBE_NAME_STRING */, 'Abmim ibn Ibsar')
+     , (5361, 033 /* QUEST_STRING */, 'JambiyaAbmimPickup');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5361, 1, 33554887) /* SETUP_DID */
-     , (5361, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5361, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5361, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5361, 7, 268435784) /* CLOTHINGBASE_DID */
-     , (5361, 8, 100668885) /* ICON_DID */;
+VALUES (5361, 001 /* SETUP_DID */, 33554887)
+     , (5361, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5361, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5361, 007 /* CLOTHINGBASE_DID */, 268435784)
+     , (5361, 008 /* ICON_DID */, 100668885)
+     , (5361, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5361, 9, 1048576) /* LOCATIONS_INT */
-     , (5361, 1, 1) /* ITEM_TYPE_INT */
-     , (5361, 19, 30) /* VALUE_INT */
-     , (5361, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (5361, 5, 30) /* ENCUMB_VAL_INT */
-     , (5361, 16, 1) /* ITEM_USEABLE_INT */
-     , (5361, 8, 20) /* MASS_INT */
-     , (5361, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (5361, 151, 2) /* HOOK_TYPE_INT */
-     , (5361, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5361, 33, 1) /* BONDED_INT */
-     , (5361, 44, 3) /* DAMAGE_INT */
-     , (5361, 45, 3) /* DAMAGE_TYPE_INT */
-     , (5361, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (5361, 47, 6) /* ATTACK_TYPE_INT */
-     , (5361, 48, 4) /* WEAPON_SKILL_INT */
-     , (5361, 49, 15) /* WEAPON_TIME_INT */
-     , (5361, 114, 1) /* ATTUNED_INT */
-     , (5361, 51, 1) /* COMBAT_USE_INT */;
+VALUES (5361, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (5361, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (5361, 005 /* ENCUMB_VAL_INT */, 30)
+     , (5361, 008 /* MASS_INT */, 20)
+     , (5361, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (5361, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (5361, 019 /* VALUE_INT */, 30)
+     , (5361, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (5361, 044 /* DAMAGE_INT */, 3)
+     , (5361, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (5361, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (5361, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (5361, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
+     , (5361, 049 /* WEAPON_TIME_INT */, 15)
+     , (5361, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (5361, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5361, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (5361, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (5361, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5361, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (5361, 21, 0.4) /* WEAPON_LENGTH_FLOAT */
-     , (5361, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (5361, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (5361, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
+     , (5361, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
+     , (5361, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (5361, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5361, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (5361, 022 /* INSCRIBABLE_BOOL */, True);
 

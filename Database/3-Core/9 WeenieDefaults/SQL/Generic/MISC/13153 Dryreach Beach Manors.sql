@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 13153;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13153, 'dryreachbeachmanorssign', /* Generic_WeenieType */ 1);
+VALUES (13153, 'dryreachbeachmanorssign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13153, 16, 'Welcome to Dryreach Beach Manors') /* LONG_DESC_STRING */
-     , (13153, 1, 'Dryreach Beach Manors') /* NAME_STRING */;
+VALUES (13153, 001 /* NAME_STRING */, 'Dryreach Beach Manors')
+     , (13153, 016 /* LONG_DESC_STRING */, 'Welcome to Dryreach Beach Manors');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13153, 1, 33557463) /* SETUP_DID */
-     , (13153, 8, 100668115) /* ICON_DID */;
+VALUES (13153, 001 /* SETUP_DID */, 33557463)
+     , (13153, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13153, 1, 128) /* ITEM_TYPE_INT */
-     , (13153, 93, 1048) /* PHYSICS_STATE_INT */
-     , (13153, 5, 9000) /* ENCUMB_VAL_INT */
-     , (13153, 16, 1) /* ITEM_USEABLE_INT */
-     , (13153, 8, 1800) /* MASS_INT */
-     , (13153, 19, 125) /* VALUE_INT */;
+VALUES (13153, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (13153, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (13153, 008 /* MASS_INT */, 1800)
+     , (13153, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (13153, 019 /* VALUE_INT */, 125)
+     , (13153, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13153, 1, True) /* STUCK_BOOL */
-     , (13153, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (13153, 13, False) /* ETHEREAL_BOOL */
-     , (13153, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (13153, 001 /* STUCK_BOOL */, True)
+     , (13153, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (13153, 013 /* ETHEREAL_BOOL */, False)
+     , (13153, 022 /* INSCRIBABLE_BOOL */, False);
 

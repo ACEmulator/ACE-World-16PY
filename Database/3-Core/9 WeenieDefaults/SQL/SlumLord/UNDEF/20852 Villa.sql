@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 20852;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20852, 'slumlordvilla6201-6240', /* SlumLord_WeenieType */ 55);
+VALUES (20852, 'slumlordvilla6201-6240', 55 /* SlumLord_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20852, 1, 'Villa') /* NAME_STRING */;
+VALUES (20852, 001 /* NAME_STRING */, 'Villa');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20852, 1, 33557167) /* SETUP_DID */
-     , (20852, 2, 150995128) /* MOTION_TABLE_DID */
-     , (20852, 8, 100671884) /* ICON_DID */;
+VALUES (20852, 001 /* SETUP_DID */, 33557167)
+     , (20852, 002 /* MOTION_TABLE_DID */, 150995128)
+     , (20852, 008 /* ICON_DID */, 100671884);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20852, 16, 32) /* ITEM_USEABLE_INT */
-     , (20852, 86, 35) /* MIN_LEVEL_INT */
-     , (20852, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (20852, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (20852, 086 /* MIN_LEVEL_INT */, 35)
+     , (20852, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20852, 39, 1.2) /* DEFAULT_SCALE_FLOAT */
-     , (20852, 54, 3) /* USE_RADIUS_FLOAT */;
+VALUES (20852, 039 /* DEFAULT_SCALE_FLOAT */, 1.2)
+     , (20852, 054 /* USE_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20852, 1, True) /* STUCK_BOOL */;
+VALUES (20852, 001 /* STUCK_BOOL */, True);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20852, 16, 273, 2000000, 0, 0, False) /* Create Pyreal for HouseBuy_DestinationType */

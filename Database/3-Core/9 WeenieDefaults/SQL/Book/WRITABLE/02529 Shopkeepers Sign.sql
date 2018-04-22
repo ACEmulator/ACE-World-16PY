@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 2529;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2529, 'shopkeeperssign', /* Book_WeenieType */ 8);
+VALUES (2529, 'shopkeeperssign', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2529, 1, 'Shopkeepers Sign') /* NAME_STRING */;
+VALUES (2529, 001 /* NAME_STRING */, 'Shopkeepers Sign');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2529, 1, 33555088) /* SETUP_DID */
-     , (2529, 8, 100668115) /* ICON_DID */;
+VALUES (2529, 001 /* SETUP_DID */, 33555088)
+     , (2529, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2529, 1, 8192) /* ITEM_TYPE_INT */
-     , (2529, 93, 1048) /* PHYSICS_STATE_INT */
-     , (2529, 5, 9000) /* ENCUMB_VAL_INT */
-     , (2529, 16, 48) /* ITEM_USEABLE_INT */
-     , (2529, 8, 1800) /* MASS_INT */
-     , (2529, 19, 125) /* VALUE_INT */;
+VALUES (2529, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (2529, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (2529, 008 /* MASS_INT */, 1800)
+     , (2529, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (2529, 019 /* VALUE_INT */, 125)
+     , (2529, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2529, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (2529, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2529, 1, True) /* STUCK_BOOL */
-     , (2529, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (2529, 13, False) /* ETHEREAL_BOOL */
-     , (2529, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (2529, 001 /* STUCK_BOOL */, True)
+     , (2529, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (2529, 013 /* ETHEREAL_BOOL */, False)
+     , (2529, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (2529, 1, 1000) /* Book Data */;

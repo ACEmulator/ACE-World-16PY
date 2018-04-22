@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 4328;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4328, 'skeletoncaptaincampgen', /* Generic_WeenieType */ 1);
+VALUES (4328, 'skeletoncaptaincampgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4328, 1, 'skeletoncaptaincampgen') /* NAME_STRING */;
+VALUES (4328, 001 /* NAME_STRING */, 'skeletoncaptaincampgen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4328, 1, 33555051) /* SETUP_DID */
-     , (4328, 8, 100667494) /* ICON_DID */;
+VALUES (4328, 001 /* SETUP_DID */, 33555051)
+     , (4328, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4328, 81, 4) /* MAX_GENERATED_OBJECTS_INT */
-     , (4328, 82, 3) /* INIT_GENERATED_OBJECTS_INT */
-     , (4328, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (4328, 081 /* MAX_GENERATED_OBJECTS_INT */, 4)
+     , (4328, 082 /* INIT_GENERATED_OBJECTS_INT */, 3)
+     , (4328, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4328, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (4328, 43, 3) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (4328, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (4328, 043 /* GENERATOR_RADIUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4328, 1, True) /* STUCK_BOOL */
-     , (4328, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (4328, 18, True) /* VISIBILITY_BOOL */;
+VALUES (4328, 001 /* STUCK_BOOL */, True)
+     , (4328, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (4328, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4328, 0.5, 1761, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 3, 0, 0, 0.7071068, 0, 0, -0.7071068)/* Generate Skeleton Captain (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

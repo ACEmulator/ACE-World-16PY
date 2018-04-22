@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 7324;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (7324, 'clubfrostmonsteronly', /* MeleeWeapon_WeenieType */ 6);
+VALUES (7324, 'clubfrostmonsteronly', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7324, 1, 'Frost Club') /* NAME_STRING */;
+VALUES (7324, 001 /* NAME_STRING */, 'Frost Club');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7324, 1, 33555722) /* SETUP_DID */
-     , (7324, 3, 536870932) /* SOUND_TABLE_DID */
-     , (7324, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (7324, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (7324, 6, 67111919) /* PALETTE_BASE_DID */
-     , (7324, 7, 268435761) /* CLOTHINGBASE_DID */
-     , (7324, 8, 100667587) /* ICON_DID */;
+VALUES (7324, 001 /* SETUP_DID */, 33555722)
+     , (7324, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (7324, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (7324, 007 /* CLOTHINGBASE_DID */, 268435761)
+     , (7324, 008 /* ICON_DID */, 100667587)
+     , (7324, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (7324, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (7324, 9, 1048576) /* LOCATIONS_INT */
-     , (7324, 1, 1) /* ITEM_TYPE_INT */
-     , (7324, 19, 250) /* VALUE_INT */
-     , (7324, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (7324, 93, 1044) /* PHYSICS_STATE_INT */
-     , (7324, 5, 350) /* ENCUMB_VAL_INT */
-     , (7324, 16, 1) /* ITEM_USEABLE_INT */
-     , (7324, 8, 140) /* MASS_INT */
-     , (7324, 18, 128) /* UI_EFFECTS_INT */
-     , (7324, 33, -2) /* BONDED_INT */
-     , (7324, 37, 9999) /* RESIST_ITEM_APPRAISAL_INT */
-     , (7324, 44, 5) /* DAMAGE_INT */
-     , (7324, 45, 8) /* DAMAGE_TYPE_INT */
-     , (7324, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (7324, 47, 4) /* ATTACK_TYPE_INT */
-     , (7324, 48, 5) /* WEAPON_SKILL_INT */
-     , (7324, 49, 40) /* WEAPON_TIME_INT */
-     , (7324, 51, 1) /* COMBAT_USE_INT */;
+VALUES (7324, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (7324, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (7324, 005 /* ENCUMB_VAL_INT */, 350)
+     , (7324, 008 /* MASS_INT */, 140)
+     , (7324, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (7324, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (7324, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
+     , (7324, 019 /* VALUE_INT */, 250)
+     , (7324, 033 /* BONDED_INT */, -2 /* Destroy_BondedStatus */)
+     , (7324, 037 /* RESIST_ITEM_APPRAISAL_INT */, 9999)
+     , (7324, 044 /* DAMAGE_INT */, 5)
+     , (7324, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
+     , (7324, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (7324, 047 /* ATTACK_TYPE_INT */, 4 /* Slash_AttackType */)
+     , (7324, 048 /* WEAPON_SKILL_INT */, 5 /* MACE_SKILL */)
+     , (7324, 049 /* WEAPON_TIME_INT */, 40)
+     , (7324, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (7324, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (7324, 39, 1.25) /* DEFAULT_SCALE_FLOAT */
-     , (7324, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (7324, 21, 0.68) /* WEAPON_LENGTH_FLOAT */
-     , (7324, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (7324, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (7324, 021 /* WEAPON_LENGTH_FLOAT */, 0.68)
+     , (7324, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (7324, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (7324, 039 /* DEFAULT_SCALE_FLOAT */, 1.25)
+     , (7324, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7324, 22, True) /* INSCRIBABLE_BOOL */
-     , (7324, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (7324, 022 /* INSCRIBABLE_BOOL */, True)
+     , (7324, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

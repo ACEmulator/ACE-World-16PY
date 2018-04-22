@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 1788;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1788, 'tufa2miles', /* Generic_WeenieType */ 1);
+VALUES (1788, 'tufa2miles', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1788, 16, 'Town of Tufa: 2 miles.') /* LONG_DESC_STRING */
-     , (1788, 1, 'Tufa: 2 miles') /* NAME_STRING */;
+VALUES (1788, 001 /* NAME_STRING */, 'Tufa: 2 miles')
+     , (1788, 016 /* LONG_DESC_STRING */, 'Town of Tufa: 2 miles.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1788, 1, 33555985) /* SETUP_DID */
-     , (1788, 8, 100668115) /* ICON_DID */;
+VALUES (1788, 001 /* SETUP_DID */, 33555985)
+     , (1788, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1788, 1, 128) /* ITEM_TYPE_INT */
-     , (1788, 93, 1048) /* PHYSICS_STATE_INT */
-     , (1788, 5, 9000) /* ENCUMB_VAL_INT */
-     , (1788, 16, 1) /* ITEM_USEABLE_INT */
-     , (1788, 8, 1800) /* MASS_INT */
-     , (1788, 19, 125) /* VALUE_INT */;
+VALUES (1788, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (1788, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (1788, 008 /* MASS_INT */, 1800)
+     , (1788, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (1788, 019 /* VALUE_INT */, 125)
+     , (1788, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1788, 1, True) /* STUCK_BOOL */
-     , (1788, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (1788, 13, False) /* ETHEREAL_BOOL */
-     , (1788, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (1788, 001 /* STUCK_BOOL */, True)
+     , (1788, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (1788, 013 /* ETHEREAL_BOOL */, False)
+     , (1788, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,26 +2,26 @@
 DELETE FROM weenie WHERE class_Id = 2122;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (2122, 'cluenewbiegharundimgen', /* Generic_WeenieType */ 1);
+VALUES (2122, 'cluenewbiegharundimgen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2122, 1, 'Newbie Gharundim Clue Generator') /* NAME_STRING */;
+VALUES (2122, 001 /* NAME_STRING */, 'Newbie Gharundim Clue Generator');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2122, 1, 33555051) /* SETUP_DID */
-     , (2122, 8, 100667494) /* ICON_DID */;
+VALUES (2122, 001 /* SETUP_DID */, 33555051)
+     , (2122, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (2122, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (2122, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (2122, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (2122, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (2122, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (2122, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2122, 41, 900) /* REGENERATION_INTERVAL_FLOAT */
-     , (2122, 43, 1) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (2122, 041 /* REGENERATION_INTERVAL_FLOAT */, 900)
+     , (2122, 043 /* GENERATOR_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (2122, 1, True) /* STUCK_BOOL */
-     , (2122, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (2122, 18, True) /* VISIBILITY_BOOL */;
+VALUES (2122, 001 /* STUCK_BOOL */, True)
+     , (2122, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (2122, 018 /* VISIBILITY_BOOL */, True);
 

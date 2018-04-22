@@ -2,56 +2,56 @@
 DELETE FROM weenie WHERE class_Id = 28591;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28591, 'gauntletsbalancetestlow', /* Clothing_WeenieType */ 2);
+VALUES (28591, 'gauntletsbalancetestlow', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28591, 1, 'Low Balance Testing Gauntlets') /* NAME_STRING */;
+VALUES (28591, 001 /* NAME_STRING */, 'Low Balance Testing Gauntlets');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28591, 1, 33554648) /* SETUP_DID */
-     , (28591, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28591, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (28591, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28591, 6, 67108990) /* PALETTE_BASE_DID */
-     , (28591, 7, 268436636) /* CLOTHINGBASE_DID */
-     , (28591, 8, 100674345) /* ICON_DID */;
+VALUES (28591, 001 /* SETUP_DID */, 33554648)
+     , (28591, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28591, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (28591, 007 /* CLOTHINGBASE_DID */, 268436636)
+     , (28591, 008 /* ICON_DID */, 100674345)
+     , (28591, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (28591, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28591, 9, 32) /* LOCATIONS_INT */
-     , (28591, 1, 2) /* ITEM_TYPE_INT */
-     , (28591, 27, 32) /* ARMOR_TYPE_INT */
-     , (28591, 19, 5500) /* VALUE_INT */
-     , (28591, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (28591, 4, 32768) /* CLOTHING_PRIORITY_INT */
-     , (28591, 5, 450) /* ENCUMB_VAL_INT */
-     , (28591, 16, 1) /* ITEM_USEABLE_INT */
-     , (28591, 8, 460) /* MASS_INT */
-     , (28591, 28, 150) /* ARMOR_LEVEL_INT */
-     , (28591, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28591, 33, 1) /* BONDED_INT */
-     , (28591, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (28591, 107, 4000) /* ITEM_CUR_MANA_INT */
-     , (28591, 44, 8) /* DAMAGE_INT */
-     , (28591, 108, 4000) /* ITEM_MAX_MANA_INT */
-     , (28591, 45, 4) /* DAMAGE_TYPE_INT */
-     , (28591, 114, 1) /* ATTUNED_INT */;
+VALUES (28591, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (28591, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (28591, 004 /* CLOTHING_PRIORITY_INT */, 32768 /* Hands */)
+     , (28591, 005 /* ENCUMB_VAL_INT */, 450)
+     , (28591, 008 /* MASS_INT */, 460)
+     , (28591, 009 /* LOCATIONS_INT */, 32 /* HAND_WEAR_LOC */)
+     , (28591, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28591, 019 /* VALUE_INT */, 5500)
+     , (28591, 027 /* ARMOR_TYPE_INT */, 32)
+     , (28591, 028 /* ARMOR_LEVEL_INT */, 150)
+     , (28591, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (28591, 044 /* DAMAGE_INT */, 8)
+     , (28591, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (28591, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28591, 106 /* ITEM_SPELLCRAFT_INT */, 350)
+     , (28591, 107 /* ITEM_CUR_MANA_INT */, 4000)
+     , (28591, 108 /* ITEM_MAX_MANA_INT */, 4000)
+     , (28591, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28591, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (28591, 5, 0) /* MANA_RATE_FLOAT */
-     , (28591, 12, 0.66) /* SHADE_FLOAT */
-     , (28591, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (28591, 110, 1) /* BULK_MOD_FLOAT */
-     , (28591, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (28591, 111, 1) /* SIZE_MOD_FLOAT */
-     , (28591, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (28591, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (28591, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (28591, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (28591, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (28591, 005 /* MANA_RATE_FLOAT */, 0)
+     , (28591, 012 /* SHADE_FLOAT */, 0.66)
+     , (28591, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1)
+     , (28591, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (28591, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (28591, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
+     , (28591, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
+     , (28591, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
+     , (28591, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8)
+     , (28591, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
+     , (28591, 110 /* BULK_MOD_FLOAT */, 1)
+     , (28591, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28591, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (28591, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28591, 1537, 2) /* LightningBane3_SpellID */

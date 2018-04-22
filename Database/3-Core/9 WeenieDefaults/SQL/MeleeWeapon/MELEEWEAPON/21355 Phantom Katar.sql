@@ -2,59 +2,59 @@
 DELETE FROM weenie WHERE class_Id = 21355;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21355, 'katarphantom', /* MeleeWeapon_WeenieType */ 6);
+VALUES (21355, 'katarphantom', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21355, 16, 'A katar with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* LONG_DESC_STRING */
-     , (21355, 1, 'Phantom Katar') /* NAME_STRING */
-     , (21355, 15, 'A katar with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)') /* SHORT_DESC_STRING */;
+VALUES (21355, 001 /* NAME_STRING */, 'Phantom Katar')
+     , (21355, 015 /* SHORT_DESC_STRING */, 'A katar with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)')
+     , (21355, 016 /* LONG_DESC_STRING */, 'A katar with a ghostly blade crafted from pure chorizite, resistant to any enchantment. (Note: This weapon is unenchantable.)');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21355, 1, 33556655) /* SETUP_DID */
-     , (21355, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21355, 36, 234881044) /* MUTATE_FILTER_DID */
-     , (21355, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (21355, 6, 67111919) /* PALETTE_BASE_DID */
-     , (21355, 7, 268435789) /* CLOTHINGBASE_DID */
-     , (21355, 8, 100668925) /* ICON_DID */;
+VALUES (21355, 001 /* SETUP_DID */, 33556655)
+     , (21355, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21355, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (21355, 007 /* CLOTHINGBASE_DID */, 268435789)
+     , (21355, 008 /* ICON_DID */, 100668925)
+     , (21355, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (21355, 036 /* MUTATE_FILTER_DID */, 234881044);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21355, 9, 1048576) /* LOCATIONS_INT */
-     , (21355, 1, 1) /* ITEM_TYPE_INT */
-     , (21355, 19, 5000) /* VALUE_INT */
-     , (21355, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (21355, 5, 135) /* ENCUMB_VAL_INT */
-     , (21355, 16, 1) /* ITEM_USEABLE_INT */
-     , (21355, 8, 90) /* MASS_INT */
-     , (21355, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (21355, 151, 2) /* HOOK_TYPE_INT */
-     , (21355, 93, 3092) /* PHYSICS_STATE_INT */
-     , (21355, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (21355, 159, 13) /* WIELD_SKILLTYPE_INT */
-     , (21355, 160, 275) /* WIELD_DIFFICULTY_INT */
-     , (21355, 33, 1) /* BONDED_INT */
-     , (21355, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21355, 44, 0) /* DAMAGE_INT */
-     , (21355, 45, 3) /* DAMAGE_TYPE_INT */
-     , (21355, 46, 1) /* DEFAULT_COMBAT_STYLE_INT */
-     , (21355, 47, 1) /* ATTACK_TYPE_INT */
-     , (21355, 48, 13) /* WEAPON_SKILL_INT */
-     , (21355, 49, 20) /* WEAPON_TIME_INT */
-     , (21355, 114, 1) /* ATTUNED_INT */
-     , (21355, 179, -2147483648) /* IMBUED_EFFECT_INT */
-     , (21355, 51, 1) /* COMBAT_USE_INT */;
+VALUES (21355, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (21355, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (21355, 005 /* ENCUMB_VAL_INT */, 135)
+     , (21355, 008 /* MASS_INT */, 90)
+     , (21355, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (21355, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (21355, 019 /* VALUE_INT */, 5000)
+     , (21355, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (21355, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (21355, 044 /* DAMAGE_INT */, 0)
+     , (21355, 045 /* DAMAGE_TYPE_INT */, 3 /*  */)
+     , (21355, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1 /* Unarmed_CombatStyle */)
+     , (21355, 047 /* ATTACK_TYPE_INT */, 1 /* Punch_AttackType */)
+     , (21355, 048 /* WEAPON_SKILL_INT */, 13 /* UNARMED_COMBAT_SKILL */)
+     , (21355, 049 /* WEAPON_TIME_INT */, 20)
+     , (21355, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (21355, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (21355, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (21355, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (21355, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (21355, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (21355, 159 /* WIELD_SKILLTYPE_INT */, 13 /* UNARMED_COMBAT_SKILL */)
+     , (21355, 160 /* WIELD_DIFFICULTY_INT */, 275)
+     , (21355, 179 /* IMBUED_EFFECT_INT */, -2147483648);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21355, 76, 0.7) /* TRANSLUCENCY_FLOAT */
-     , (21355, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (21355, 21, 0.52) /* WEAPON_LENGTH_FLOAT */
-     , (21355, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */
-     , (21355, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (21355, 021 /* WEAPON_LENGTH_FLOAT */, 0.52)
+     , (21355, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (21355, 029 /* WEAPON_DEFENSE_FLOAT */, 1.05)
+     , (21355, 062 /* WEAPON_OFFENSE_FLOAT */, 1.15)
+     , (21355, 076 /* TRANSLUCENCY_FLOAT */, 0.7);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21355, 99, True) /* IVORYABLE_BOOL */
-     , (21355, 69, False) /* IS_SELLABLE_BOOL */
-     , (21355, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (21355, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (21355, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21355, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (21355, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21355, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (21355, 069 /* IS_SELLABLE_BOOL */, False)
+     , (21355, 099 /* IVORYABLE_BOOL */, True);
 

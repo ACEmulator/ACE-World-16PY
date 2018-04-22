@@ -2,55 +2,55 @@
 DELETE FROM weenie WHERE class_Id = 20176;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (20176, 'wandispariansuperbstingingmajor', /* Caster_WeenieType */ 35);
+VALUES (20176, 'wandispariansuperbstingingmajor', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20176, 1, 'Superb Dissolving Isparian Wand') /* NAME_STRING */;
+VALUES (20176, 001 /* NAME_STRING */, 'Superb Dissolving Isparian Wand');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20176, 1, 33557783) /* SETUP_DID */
-     , (20176, 3, 536870932) /* SOUND_TABLE_DID */
-     , (20176, 37, 16) /* ITEM_SKILL_LIMIT_DID */
-     , (20176, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (20176, 6, 67111919) /* PALETTE_BASE_DID */
-     , (20176, 7, 268436395) /* CLOTHINGBASE_DID */
-     , (20176, 8, 100672995) /* ICON_DID */;
+VALUES (20176, 001 /* SETUP_DID */, 33557783)
+     , (20176, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (20176, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (20176, 007 /* CLOTHINGBASE_DID */, 268436395)
+     , (20176, 008 /* ICON_DID */, 100672995)
+     , (20176, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (20176, 037 /* ITEM_SKILL_LIMIT_DID */, 16);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (20176, 9, 16777216) /* LOCATIONS_INT */
-     , (20176, 1, 32768) /* ITEM_TYPE_INT */
-     , (20176, 19, 6000) /* VALUE_INT */
-     , (20176, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (20176, 5, 150) /* ENCUMB_VAL_INT */
-     , (20176, 16, 1) /* ITEM_USEABLE_INT */
-     , (20176, 8, 10) /* MASS_INT */
-     , (20176, 18, 1) /* UI_EFFECTS_INT */
-     , (20176, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (20176, 151, 2) /* HOOK_TYPE_INT */
-     , (20176, 93, 1044) /* PHYSICS_STATE_INT */
-     , (20176, 94, 16) /* TARGET_TYPE_INT */
-     , (20176, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (20176, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (20176, 160, 40) /* WIELD_DIFFICULTY_INT */
-     , (20176, 33, 1) /* BONDED_INT */
-     , (20176, 36, 9999) /* RESIST_MAGIC_INT */
-     , (20176, 166, 42) /* SLAYER_CREATURE_TYPE_INT */
-     , (20176, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (20176, 107, 600) /* ITEM_CUR_MANA_INT */
-     , (20176, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (20176, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (20176, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */;
+VALUES (20176, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (20176, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (20176, 005 /* ENCUMB_VAL_INT */, 150)
+     , (20176, 008 /* MASS_INT */, 10)
+     , (20176, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (20176, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (20176, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (20176, 019 /* VALUE_INT */, 6000)
+     , (20176, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (20176, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (20176, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (20176, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (20176, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (20176, 106 /* ITEM_SPELLCRAFT_INT */, 300)
+     , (20176, 107 /* ITEM_CUR_MANA_INT */, 600)
+     , (20176, 108 /* ITEM_MAX_MANA_INT */, 600)
+     , (20176, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 200)
+     , (20176, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (20176, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (20176, 158 /* WIELD_REQUIREMENTS_INT */, 7 /* WIELD_REQUIRES_LEVEL_WieldRequirement */)
+     , (20176, 159 /* WIELD_SKILLTYPE_INT */, 1 /* AXE_SKILL */)
+     , (20176, 160 /* WIELD_DIFFICULTY_INT */, 40)
+     , (20176, 166 /* SLAYER_CREATURE_TYPE_INT */, 42 /* Lightning_Elemental_CreatureType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20176, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (20176, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (20176, 39, 1) /* DEFAULT_SCALE_FLOAT */
-     , (20176, 138, 3) /* SLAYER_DAMAGE_BONUS_FLOAT */;
+VALUES (20176, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (20176, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (20176, 039 /* DEFAULT_SCALE_FLOAT */, 1)
+     , (20176, 138 /* SLAYER_DAMAGE_BONUS_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20176, 69, False) /* IS_SELLABLE_BOOL */
-     , (20176, 22, True) /* INSCRIBABLE_BOOL */
-     , (20176, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (20176, 022 /* INSCRIBABLE_BOOL */, True)
+     , (20176, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (20176, 069 /* IS_SELLABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20176, 632, 2) /* WarMagicMasterySelf4_SpellID */

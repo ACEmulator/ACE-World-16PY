@@ -2,24 +2,24 @@
 DELETE FROM weenie WHERE class_Id = 287;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (287, 'pedestal', /* Generic_WeenieType */ 1);
+VALUES (287, 'pedestal', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (287, 1, 'Pedestal') /* NAME_STRING */;
+VALUES (287, 001 /* NAME_STRING */, 'Pedestal');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (287, 1, 33555061) /* SETUP_DID */
-     , (287, 8, 100668129) /* ICON_DID */;
+VALUES (287, 001 /* SETUP_DID */, 33555061)
+     , (287, 008 /* ICON_DID */, 100668129);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (287, 1, 128) /* ITEM_TYPE_INT */
-     , (287, 93, 1040) /* PHYSICS_STATE_INT */
-     , (287, 5, 50) /* ENCUMB_VAL_INT */
-     , (287, 16, 1) /* ITEM_USEABLE_INT */
-     , (287, 8, 25) /* MASS_INT */
-     , (287, 19, 7) /* VALUE_INT */;
+VALUES (287, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (287, 005 /* ENCUMB_VAL_INT */, 50)
+     , (287, 008 /* MASS_INT */, 25)
+     , (287, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (287, 019 /* VALUE_INT */, 7)
+     , (287, 093 /* PHYSICS_STATE_INT */, 1040 /* IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (287, 1, True) /* STUCK_BOOL */
-     , (287, 13, False) /* ETHEREAL_BOOL */;
+VALUES (287, 001 /* STUCK_BOOL */, True)
+     , (287, 013 /* ETHEREAL_BOOL */, False);
 

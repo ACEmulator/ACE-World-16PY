@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 29601;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29601, 'bloodpuzzle8pints', /* CraftTool_WeenieType */ 44);
+VALUES (29601, 'bloodpuzzle8pints', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29601, 16, 'A water skin filled with 8 pints of blood.') /* LONG_DESC_STRING */
-     , (29601, 1, 'Water Skin (8 pints)') /* NAME_STRING */
-     , (29601, 14, 'Use this item on a well.') /* USE_STRING */;
+VALUES (29601, 001 /* NAME_STRING */, 'Water Skin (8 pints)')
+     , (29601, 014 /* USE_STRING */, 'Use this item on a well.')
+     , (29601, 016 /* LONG_DESC_STRING */, 'A water skin filled with 8 pints of blood.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29601, 1, 33554799) /* SETUP_DID */
-     , (29601, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29601, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (29601, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29601, 6, 67111919) /* PALETTE_BASE_DID */
-     , (29601, 8, 100668541) /* ICON_DID */;
+VALUES (29601, 001 /* SETUP_DID */, 33554799)
+     , (29601, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29601, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (29601, 008 /* ICON_DID */, 100668541)
+     , (29601, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (29601, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29601, 9, 0) /* LOCATIONS_INT */
-     , (29601, 1, 4194304) /* ITEM_TYPE_INT */
-     , (29601, 13, 80) /* STACK_UNIT_ENCUMB_INT */
-     , (29601, 5, 80) /* ENCUMB_VAL_INT */
-     , (29601, 8, 80) /* MASS_INT */
-     , (29601, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (29601, 12, 1) /* STACK_SIZE_INT */
-     , (29601, 14, 80) /* STACK_UNIT_MASS_INT */
-     , (29601, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (29601, 16, 2097160) /* ITEM_USEABLE_INT */
-     , (29601, 19, 0) /* VALUE_INT */
-     , (29601, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29601, 94, 4194304) /* TARGET_TYPE_INT */;
+VALUES (29601, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (29601, 005 /* ENCUMB_VAL_INT */, 80)
+     , (29601, 008 /* MASS_INT */, 80)
+     , (29601, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29601, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (29601, 012 /* STACK_SIZE_INT */, 1)
+     , (29601, 013 /* STACK_UNIT_ENCUMB_INT */, 80)
+     , (29601, 014 /* STACK_UNIT_MASS_INT */, 80)
+     , (29601, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (29601, 016 /* ITEM_USEABLE_INT */, 2097160 /* USEABLE_SOURCE_CONTAINED_TARGET_REMOTE */)
+     , (29601, 019 /* VALUE_INT */, 0)
+     , (29601, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29601, 094 /* TARGET_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29601, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (29601, 022 /* INSCRIBABLE_BOOL */, True);
 

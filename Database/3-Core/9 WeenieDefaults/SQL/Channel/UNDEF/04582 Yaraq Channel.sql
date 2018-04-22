@@ -2,25 +2,25 @@
 DELETE FROM weenie WHERE class_Id = 4582;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4582, 'channel-yaraq', /* Channel_WeenieType */ 36);
+VALUES (4582, 'channel-yaraq', 36 /* Channel_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4582, 1, 'Yaraq Channel') /* NAME_STRING */;
+VALUES (4582, 001 /* NAME_STRING */, 'Yaraq Channel');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4582, 1, 33555579) /* SETUP_DID */
-     , (4582, 6, 67109300) /* PALETTE_BASE_DID */
-     , (4582, 7, 268435725) /* CLOTHINGBASE_DID */
-     , (4582, 8, 100669116) /* ICON_DID */;
+VALUES (4582, 001 /* SETUP_DID */, 33555579)
+     , (4582, 006 /* PALETTE_BASE_DID */, 67109300)
+     , (4582, 007 /* CLOTHINGBASE_DID */, 268435725)
+     , (4582, 008 /* ICON_DID */, 100669116);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4582, 3, 61) /* PALETTE_TEMPLATE_INT */
-     , (4582, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (4582, 003 /* PALETTE_TEMPLATE_INT */, 61 /* WHITE_PALETTE_TEMPLATE */)
+     , (4582, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4582, 12, 0.5) /* SHADE_FLOAT */;
+VALUES (4582, 012 /* SHADE_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4582, 1, True) /* STUCK_BOOL */
-     , (4582, 18, True) /* VISIBILITY_BOOL */;
+VALUES (4582, 001 /* STUCK_BOOL */, True)
+     , (4582, 018 /* VISIBILITY_BOOL */, True);
 

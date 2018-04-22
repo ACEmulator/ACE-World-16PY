@@ -2,40 +2,40 @@
 DELETE FROM weenie WHERE class_Id = 29560;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29560, 'gemnoblestrength', /* CraftTool_WeenieType */ 44);
+VALUES (29560, 'gemnoblestrength', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29560, 16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Strength Spell that will affect the wearer. ') /* LONG_DESC_STRING */
-     , (29560, 1, 'Gem of Inner Might') /* NAME_STRING */
-     , (29560, 14, 'Combine with a piece of Noble Armor to infuse the armor with the Inner Might spell.') /* USE_STRING */;
+VALUES (29560, 001 /* NAME_STRING */, 'Gem of Inner Might')
+     , (29560, 014 /* USE_STRING */, 'Combine with a piece of Noble Armor to infuse the armor with the Inner Might spell.')
+     , (29560, 016 /* LONG_DESC_STRING */, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Strength Spell that will affect the wearer. ');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29560, 1, 33554809) /* SETUP_DID */
-     , (29560, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29560, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29560, 6, 67111919) /* PALETTE_BASE_DID */
-     , (29560, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (29560, 8, 100677139) /* ICON_DID */;
+VALUES (29560, 001 /* SETUP_DID */, 33554809)
+     , (29560, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29560, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (29560, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (29560, 008 /* ICON_DID */, 100677139)
+     , (29560, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29560, 9, 0) /* LOCATIONS_INT */
-     , (29560, 1, 2048) /* ITEM_TYPE_INT */
-     , (29560, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (29560, 3, 83) /* PALETTE_TEMPLATE_INT */
-     , (29560, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (29560, 5, 10) /* ENCUMB_VAL_INT */
-     , (29560, 8, 10) /* MASS_INT */
-     , (29560, 12, 1) /* STACK_SIZE_INT */
-     , (29560, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (29560, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (29560, 16, 524296) /* ITEM_USEABLE_INT */
-     , (29560, 19, 0) /* VALUE_INT */
-     , (29560, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (29560, 151, 2) /* HOOK_TYPE_INT */
-     , (29560, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29560, 94, 2050) /* TARGET_TYPE_INT */;
+VALUES (29560, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (29560, 003 /* PALETTE_TEMPLATE_INT */, 83 /* AMBER_PALETTE_TEMPLATE */)
+     , (29560, 005 /* ENCUMB_VAL_INT */, 10)
+     , (29560, 008 /* MASS_INT */, 10)
+     , (29560, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29560, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (29560, 012 /* STACK_SIZE_INT */, 1)
+     , (29560, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (29560, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (29560, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (29560, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (29560, 019 /* VALUE_INT */, 0)
+     , (29560, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29560, 094 /* TARGET_TYPE_INT */, 2050 /* TYPE_ARMOR, TYPE_GEM */)
+     , (29560, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (29560, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29560, 69, False) /* IS_SELLABLE_BOOL */
-     , (29560, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (29560, 022 /* INSCRIBABLE_BOOL */, True)
+     , (29560, 069 /* IS_SELLABLE_BOOL */, False);
 

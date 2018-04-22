@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 19756;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19756, 'nutboltshadow-event', /* Generic_WeenieType */ 1);
+VALUES (19756, 'nutboltshadow-event', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19756, 1, 'Unique Bronze Nuts and Bolts from a Native Cast') /* NAME_STRING */
-     , (19756, 37, 'EventShadowKiller') /* QUEST_RESTRICTION_STRING */
-     , (19756, 15, 'A unique bronze gear taken from the ruins of the Native Cast that created the Shadow Statues. The Arcanum Tinker would be gratified to meet the bearer of this trophy, that he might reward the one who successfully defeated the Statues menacing the towns of Kara and Wai Jhou.') /* SHORT_DESC_STRING */;
+VALUES (19756, 001 /* NAME_STRING */, 'Unique Bronze Nuts and Bolts from a Native Cast')
+     , (19756, 015 /* SHORT_DESC_STRING */, 'A unique bronze gear taken from the ruins of the Native Cast that created the Shadow Statues. The Arcanum Tinker would be gratified to meet the bearer of this trophy, that he might reward the one who successfully defeated the Statues menacing the towns of Kara and Wai Jhou.')
+     , (19756, 037 /* QUEST_RESTRICTION_STRING */, 'EventShadowKiller');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19756, 1, 33557679) /* SETUP_DID */
-     , (19756, 8, 100672954) /* ICON_DID */;
+VALUES (19756, 001 /* SETUP_DID */, 33557679)
+     , (19756, 008 /* ICON_DID */, 100672954);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19756, 33, 1) /* BONDED_INT */
-     , (19756, 9, 0) /* LOCATIONS_INT */
-     , (19756, 1, 128) /* ITEM_TYPE_INT */
-     , (19756, 93, 1044) /* PHYSICS_STATE_INT */
-     , (19756, 5, 40) /* ENCUMB_VAL_INT */
-     , (19756, 16, 1) /* ITEM_USEABLE_INT */
-     , (19756, 8, 90) /* MASS_INT */
-     , (19756, 19, 0) /* VALUE_INT */;
+VALUES (19756, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19756, 005 /* ENCUMB_VAL_INT */, 40)
+     , (19756, 008 /* MASS_INT */, 90)
+     , (19756, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (19756, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19756, 019 /* VALUE_INT */, 0)
+     , (19756, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (19756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19756, 39, 3) /* DEFAULT_SCALE_FLOAT */;
+VALUES (19756, 039 /* DEFAULT_SCALE_FLOAT */, 3);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19756, 22, True) /* INSCRIBABLE_BOOL */
-     , (19756, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (19756, 022 /* INSCRIBABLE_BOOL */, True)
+     , (19756, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

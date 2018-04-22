@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 14297;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (14297, 'alvadorsign', /* Generic_WeenieType */ 1);
+VALUES (14297, 'alvadorsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (14297, 16, 'Welcome to Alvador') /* LONG_DESC_STRING */
-     , (14297, 1, 'Alvador') /* NAME_STRING */;
+VALUES (14297, 001 /* NAME_STRING */, 'Alvador')
+     , (14297, 016 /* LONG_DESC_STRING */, 'Welcome to Alvador');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14297, 1, 33557463) /* SETUP_DID */
-     , (14297, 8, 100668115) /* ICON_DID */;
+VALUES (14297, 001 /* SETUP_DID */, 33557463)
+     , (14297, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (14297, 1, 128) /* ITEM_TYPE_INT */
-     , (14297, 93, 1048) /* PHYSICS_STATE_INT */
-     , (14297, 5, 9000) /* ENCUMB_VAL_INT */
-     , (14297, 16, 1) /* ITEM_USEABLE_INT */
-     , (14297, 8, 1800) /* MASS_INT */
-     , (14297, 19, 125) /* VALUE_INT */;
+VALUES (14297, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (14297, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (14297, 008 /* MASS_INT */, 1800)
+     , (14297, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (14297, 019 /* VALUE_INT */, 125)
+     , (14297, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14297, 1, True) /* STUCK_BOOL */
-     , (14297, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (14297, 13, False) /* ETHEREAL_BOOL */
-     , (14297, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (14297, 001 /* STUCK_BOOL */, True)
+     , (14297, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (14297, 013 /* ETHEREAL_BOOL */, False)
+     , (14297, 022 /* INSCRIBABLE_BOOL */, False);
 

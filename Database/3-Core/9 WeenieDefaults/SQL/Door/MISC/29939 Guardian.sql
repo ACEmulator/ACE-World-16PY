@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 29939;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29939, 'doorstatuetemple-light', /* Door_WeenieType */ 19);
+VALUES (29939, 'doorstatuetemple-light', 19 /* Door_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29939, 1, 'Guardian') /* NAME_STRING */;
+VALUES (29939, 001 /* NAME_STRING */, 'Guardian');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29939, 1, 33558955) /* SETUP_DID */
-     , (29939, 2, 150995277) /* MOTION_TABLE_DID */
-     , (29939, 3, 536871053) /* SOUND_TABLE_DID */
-     , (29939, 8, 100677141) /* ICON_DID */
-     , (29939, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (29939, 001 /* SETUP_DID */, 33558955)
+     , (29939, 002 /* MOTION_TABLE_DID */, 150995277)
+     , (29939, 003 /* SOUND_TABLE_DID */, 536871053)
+     , (29939, 008 /* ICON_DID */, 100677141)
+     , (29939, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29939, 1, 128) /* ITEM_TYPE_INT */
-     , (29939, 16, 1) /* ITEM_USEABLE_INT */
-     , (29939, 8, 500) /* MASS_INT */
-     , (29939, 19, 0) /* VALUE_INT */
-     , (29939, 83, 2) /* ACTIVATION_RESPONSE_INT */
-     , (29939, 93, 24) /* PHYSICS_STATE_INT */;
+VALUES (29939, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (29939, 008 /* MASS_INT */, 500)
+     , (29939, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29939, 019 /* VALUE_INT */, 0)
+     , (29939, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
+     , (29939, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29939, 11, 8) /* RESET_INTERVAL_FLOAT */
-     , (29939, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (29939, 011 /* RESET_INTERVAL_FLOAT */, 8)
+     , (29939, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29939, 1, True) /* STUCK_BOOL */
-     , (29939, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (29939, 2, False) /* OPEN_BOOL */
-     , (29939, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (29939, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (29939, 13, False) /* ETHEREAL_BOOL */
-     , (29939, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (29939, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (29939, 001 /* STUCK_BOOL */, True)
+     , (29939, 002 /* OPEN_BOOL */, False)
+     , (29939, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (29939, 013 /* ETHEREAL_BOOL */, False)
+     , (29939, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (29939, 024 /* UI_HIDDEN_BOOL */, True)
+     , (29939, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (29939, 034 /* DEFAULT_OPEN_BOOL */, False);
 

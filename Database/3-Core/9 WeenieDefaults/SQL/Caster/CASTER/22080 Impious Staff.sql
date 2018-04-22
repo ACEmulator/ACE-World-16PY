@@ -2,54 +2,54 @@
 DELETE FROM weenie WHERE class_Id = 22080;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22080, 'staffimpiousnew', /* Caster_WeenieType */ 35);
+VALUES (22080, 'staffimpiousnew', 35 /* Caster_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22080, 16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LONG_DESC_STRING */
-     , (22080, 1, 'Impious Staff') /* NAME_STRING */
-     , (22080, 15, 'This staff is made from a metal alloy and carbonized iron.') /* SHORT_DESC_STRING */;
+VALUES (22080, 001 /* NAME_STRING */, 'Impious Staff')
+     , (22080, 015 /* SHORT_DESC_STRING */, 'This staff is made from a metal alloy and carbonized iron.')
+     , (22080, 016 /* LONG_DESC_STRING */, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22080, 1, 33557877) /* SETUP_DID */
-     , (22080, 27, 1073742049) /* USE_USER_ANIMATION_DID */
-     , (22080, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22080, 37, 34) /* ITEM_SKILL_LIMIT_DID */
-     , (22080, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (22080, 6, 67111919) /* PALETTE_BASE_DID */
-     , (22080, 7, 268436442) /* CLOTHINGBASE_DID */
-     , (22080, 8, 100673510) /* ICON_DID */
-     , (22080, 28, 2814) /* SPELL_DID */;
+VALUES (22080, 001 /* SETUP_DID */, 33557877)
+     , (22080, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22080, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (22080, 007 /* CLOTHINGBASE_DID */, 268436442)
+     , (22080, 008 /* ICON_DID */, 100673510)
+     , (22080, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (22080, 027 /* USE_USER_ANIMATION_DID */, 1073742049 /* Motion_UseMagicWand */)
+     , (22080, 028 /* SPELL_DID */, 2814 /* ImpiousCurse_SpellID */)
+     , (22080, 037 /* ITEM_SKILL_LIMIT_DID */, 34);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22080, 9, 16777216) /* LOCATIONS_INT */
-     , (22080, 1, 32768) /* ITEM_TYPE_INT */
-     , (22080, 19, 12000) /* VALUE_INT */
-     , (22080, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (22080, 5, 50) /* ENCUMB_VAL_INT */
-     , (22080, 16, 6291460) /* ITEM_USEABLE_INT */
-     , (22080, 8, 25) /* MASS_INT */
-     , (22080, 18, 1) /* UI_EFFECTS_INT */
-     , (22080, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (22080, 151, 2) /* HOOK_TYPE_INT */
-     , (22080, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22080, 94, 16) /* TARGET_TYPE_INT */
-     , (22080, 33, 1) /* BONDED_INT */
-     , (22080, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (22080, 107, 600) /* ITEM_CUR_MANA_INT */
-     , (22080, 108, 3600) /* ITEM_MAX_MANA_INT */
-     , (22080, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (22080, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (22080, 46, 512) /* DEFAULT_COMBAT_STYLE_INT */
-     , (22080, 114, 1) /* ATTUNED_INT */
-     , (22080, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (22080, 117, 150) /* ITEM_MANA_COST_INT */;
+VALUES (22080, 001 /* ITEM_TYPE_INT */, 32768 /* TYPE_CASTER */)
+     , (22080, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (22080, 005 /* ENCUMB_VAL_INT */, 50)
+     , (22080, 008 /* MASS_INT */, 25)
+     , (22080, 009 /* LOCATIONS_INT */, 16777216 /* HELD_LOC */)
+     , (22080, 016 /* ITEM_USEABLE_INT */, 6291460 /* USEABLE_SOURCE_WIELDED_TARGET_REMOTE_NEVER_WALK */)
+     , (22080, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (22080, 019 /* VALUE_INT */, 12000)
+     , (22080, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (22080, 046 /* DEFAULT_COMBAT_STYLE_INT */, 512 /* Magic_CombatStyles */)
+     , (22080, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22080, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (22080, 106 /* ITEM_SPELLCRAFT_INT */, 325)
+     , (22080, 107 /* ITEM_CUR_MANA_INT */, 600)
+     , (22080, 108 /* ITEM_MAX_MANA_INT */, 3600)
+     , (22080, 109 /* ITEM_DIFFICULTY_INT */, 50)
+     , (22080, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (22080, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (22080, 115 /* ITEM_SKILL_LEVEL_LIMIT_INT */, 270)
+     , (22080, 117 /* ITEM_MANA_COST_INT */, 150)
+     , (22080, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (22080, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (22080, 39, 0.6) /* DEFAULT_SCALE_FLOAT */
-     , (22080, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (22080, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (22080, 039 /* DEFAULT_SCALE_FLOAT */, 0.6);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22080, 99, True) /* IVORYABLE_BOOL */
-     , (22080, 22, True) /* INSCRIBABLE_BOOL */
-     , (22080, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (22080, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22080, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (22080, 099 /* IVORYABLE_BOOL */, True);
 

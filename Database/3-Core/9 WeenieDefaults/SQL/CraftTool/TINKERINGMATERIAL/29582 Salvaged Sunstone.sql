@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 29582;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29582, 'materialsunstone100', /* CraftTool_WeenieType */ 44);
+VALUES (29582, 'materialsunstone100', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29582, 1, 'Salvaged Sunstone') /* NAME_STRING */
-     , (29582, 14, 'Apply this material to a treasure-generated weapon to imbue the target with Armor Rending. Armor Rending gives the item the ability to ignore some of its opponent''s armor. The amount of armor it ignores depends on the attack skill of the wielder.') /* USE_STRING */
-     , (29582, 15, 'Chips of sunstone material salvaged from old items.') /* SHORT_DESC_STRING */;
+VALUES (29582, 001 /* NAME_STRING */, 'Salvaged Sunstone')
+     , (29582, 014 /* USE_STRING */, 'Apply this material to a treasure-generated weapon to imbue the target with Armor Rending. Armor Rending gives the item the ability to ignore some of its opponent''s armor. The amount of armor it ignores depends on the attack skill of the wielder.')
+     , (29582, 015 /* SHORT_DESC_STRING */, 'Chips of sunstone material salvaged from old items.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29582, 1, 33554817) /* SETUP_DID */
-     , (29582, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29582, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29582, 6, 67111919) /* PALETTE_BASE_DID */
-     , (29582, 7, 268436874) /* CLOTHINGBASE_DID */
-     , (29582, 8, 100677144) /* ICON_DID */;
+VALUES (29582, 001 /* SETUP_DID */, 33554817)
+     , (29582, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29582, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (29582, 007 /* CLOTHINGBASE_DID */, 268436874)
+     , (29582, 008 /* ICON_DID */, 100677144)
+     , (29582, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29582, 9, 0) /* LOCATIONS_INT */
-     , (29582, 1, 1073741824) /* ITEM_TYPE_INT */
-     , (29582, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (29582, 131, 41) /* MATERIAL_TYPE_INT */
-     , (29582, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (29582, 13, 100) /* STACK_UNIT_ENCUMB_INT */
-     , (29582, 5, 100) /* ENCUMB_VAL_INT */
-     , (29582, 8, 100) /* MASS_INT */
-     , (29582, 12, 1) /* STACK_SIZE_INT */
-     , (29582, 14, 100) /* STACK_UNIT_MASS_INT */
-     , (29582, 15, 10) /* STACK_UNIT_VALUE_INT */
-     , (29582, 16, 524296) /* ITEM_USEABLE_INT */
-     , (29582, 19, 10) /* VALUE_INT */
-     , (29582, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (29582, 151, 9) /* HOOK_TYPE_INT */
-     , (29582, 91, 100) /* MAX_STRUCTURE_INT */
-     , (29582, 92, 100) /* STRUCTURE_INT */
-     , (29582, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29582, 94, 257) /* TARGET_TYPE_INT */
-     , (29582, 33, 1) /* BONDED_INT */
-     , (29582, 105, 100) /* ITEM_WORKMANSHIP_INT */
-     , (29582, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+VALUES (29582, 001 /* ITEM_TYPE_INT */, 1073741824 /* TYPE_TINKERING_MATERIAL */)
+     , (29582, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (29582, 005 /* ENCUMB_VAL_INT */, 100)
+     , (29582, 008 /* MASS_INT */, 100)
+     , (29582, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (29582, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (29582, 012 /* STACK_SIZE_INT */, 1)
+     , (29582, 013 /* STACK_UNIT_ENCUMB_INT */, 100)
+     , (29582, 014 /* STACK_UNIT_MASS_INT */, 100)
+     , (29582, 015 /* STACK_UNIT_VALUE_INT */, 10)
+     , (29582, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (29582, 019 /* VALUE_INT */, 10)
+     , (29582, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (29582, 091 /* MAX_STRUCTURE_INT */, 100)
+     , (29582, 092 /* STRUCTURE_INT */, 100)
+     , (29582, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29582, 094 /* TARGET_TYPE_INT */, 257 /* TYPE_WEAPON */)
+     , (29582, 105 /* ITEM_WORKMANSHIP_INT */, 100)
+     , (29582, 131 /* MATERIAL_TYPE_INT */, 41 /* Sunstone_MaterialType */)
+     , (29582, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (29582, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */)
+     , (29582, 170 /* NUM_ITEMS_IN_MATERIAL_INT */, 10);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29582, 22, True) /* INSCRIBABLE_BOOL */
-     , (29582, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (29582, 022 /* INSCRIBABLE_BOOL */, True)
+     , (29582, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

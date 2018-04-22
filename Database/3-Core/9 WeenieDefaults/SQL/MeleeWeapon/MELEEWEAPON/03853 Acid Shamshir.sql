@@ -2,49 +2,49 @@
 DELETE FROM weenie WHERE class_Id = 3853;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3853, 'shamshiracid', /* MeleeWeapon_WeenieType */ 6);
+VALUES (3853, 'shamshiracid', 6 /* MeleeWeapon_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3853, 1, 'Acid Shamshir') /* NAME_STRING */;
+VALUES (3853, 001 /* NAME_STRING */, 'Acid Shamshir');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3853, 1, 33555767) /* SETUP_DID */
-     , (3853, 3, 536870932) /* SOUND_TABLE_DID */
-     , (3853, 36, 234881053) /* MUTATE_FILTER_DID */
-     , (3853, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (3853, 46, 939524101) /* TSYS_MUTATION_FILTER_DID */
-     , (3853, 6, 67111919) /* PALETTE_BASE_DID */
-     , (3853, 7, 268435765) /* CLOTHINGBASE_DID */
-     , (3853, 8, 100667604) /* ICON_DID */;
+VALUES (3853, 001 /* SETUP_DID */, 33555767)
+     , (3853, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (3853, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (3853, 007 /* CLOTHINGBASE_DID */, 268435765)
+     , (3853, 008 /* ICON_DID */, 100667604)
+     , (3853, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (3853, 036 /* MUTATE_FILTER_DID */, 234881053)
+     , (3853, 046 /* TSYS_MUTATION_FILTER_DID */, 939524101);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3853, 9, 1048576) /* LOCATIONS_INT */
-     , (3853, 1, 1) /* ITEM_TYPE_INT */
-     , (3853, 19, 600) /* VALUE_INT */
-     , (3853, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (3853, 5, 450) /* ENCUMB_VAL_INT */
-     , (3853, 16, 1) /* ITEM_USEABLE_INT */
-     , (3853, 8, 180) /* MASS_INT */
-     , (3853, 18, 256) /* UI_EFFECTS_INT */
-     , (3853, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (3853, 151, 2) /* HOOK_TYPE_INT */
-     , (3853, 93, 1044) /* PHYSICS_STATE_INT */
-     , (3853, 169, 101255170) /* TSYS_MUTATION_DATA_INT */
-     , (3853, 44, 9) /* DAMAGE_INT */
-     , (3853, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3853, 46, 2) /* DEFAULT_COMBAT_STYLE_INT */
-     , (3853, 47, 6) /* ATTACK_TYPE_INT */
-     , (3853, 48, 11) /* WEAPON_SKILL_INT */
-     , (3853, 49, 40) /* WEAPON_TIME_INT */
-     , (3853, 51, 1) /* COMBAT_USE_INT */;
+VALUES (3853, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
+     , (3853, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (3853, 005 /* ENCUMB_VAL_INT */, 450)
+     , (3853, 008 /* MASS_INT */, 180)
+     , (3853, 009 /* LOCATIONS_INT */, 1048576 /* MELEE_WEAPON_LOC */)
+     , (3853, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (3853, 018 /* UI_EFFECTS_INT */, 256 /* UI_EFFECT_ACID */)
+     , (3853, 019 /* VALUE_INT */, 600)
+     , (3853, 044 /* DAMAGE_INT */, 9)
+     , (3853, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
+     , (3853, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
+     , (3853, 047 /* ATTACK_TYPE_INT */, 6 /*  */)
+     , (3853, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
+     , (3853, 049 /* WEAPON_TIME_INT */, 40)
+     , (3853, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
+     , (3853, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3853, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (3853, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (3853, 169 /* TSYS_MUTATION_DATA_INT */, 101255170);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3853, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (3853, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (3853, 21, 1.06) /* WEAPON_LENGTH_FLOAT */
-     , (3853, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (3853, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (3853, 021 /* WEAPON_LENGTH_FLOAT */, 1.06)
+     , (3853, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.5)
+     , (3853, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (3853, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (3853, 062 /* WEAPON_OFFENSE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3853, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (3853, 022 /* INSCRIBABLE_BOOL */, True);
 

@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 1401;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1401, 'directionsyanshitunnel', /* Book_WeenieType */ 8);
+VALUES (1401, 'directionsyanshitunnel', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1401, 1, 'Yanshi Tunnel Directions') /* NAME_STRING */;
+VALUES (1401, 001 /* NAME_STRING */, 'Yanshi Tunnel Directions');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1401, 1, 33554773) /* SETUP_DID */
-     , (1401, 3, 536870932) /* SOUND_TABLE_DID */
-     , (1401, 8, 100668176) /* ICON_DID */
-     , (1401, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (1401, 001 /* SETUP_DID */, 33554773)
+     , (1401, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (1401, 008 /* ICON_DID */, 100668176)
+     , (1401, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1401, 9, 0) /* LOCATIONS_INT */
-     , (1401, 1, 8192) /* ITEM_TYPE_INT */
-     , (1401, 93, 1044) /* PHYSICS_STATE_INT */
-     , (1401, 5, 25) /* ENCUMB_VAL_INT */
-     , (1401, 16, 8) /* ITEM_USEABLE_INT */
-     , (1401, 8, 5) /* MASS_INT */
-     , (1401, 19, 5) /* VALUE_INT */;
+VALUES (1401, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (1401, 005 /* ENCUMB_VAL_INT */, 25)
+     , (1401, 008 /* MASS_INT */, 5)
+     , (1401, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (1401, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (1401, 019 /* VALUE_INT */, 5)
+     , (1401, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1401, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (1401, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1401, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (1401, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1401, 1, 1000) /* Book Data */;

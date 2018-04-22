@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 13222;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (13222, 'peppermintstick', /* CraftTool_WeenieType */ 44);
+VALUES (13222, 'peppermintstick', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13222, 1, 'Peppermint Stick') /* NAME_STRING */
-     , (13222, 20, 'Peppermint Sticks') /* PLURAL_NAME_STRING */
-     , (13222, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (13222, 15, 'A small stick of peppermint candy.') /* SHORT_DESC_STRING */;
+VALUES (13222, 001 /* NAME_STRING */, 'Peppermint Stick')
+     , (13222, 014 /* USE_STRING */, 'This item is used in cooking.')
+     , (13222, 015 /* SHORT_DESC_STRING */, 'A small stick of peppermint candy.')
+     , (13222, 020 /* PLURAL_NAME_STRING */, 'Peppermint Sticks');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13222, 1, 33557442) /* SETUP_DID */
-     , (13222, 3, 536870932) /* SOUND_TABLE_DID */
-     , (13222, 8, 100672415) /* ICON_DID */
-     , (13222, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (13222, 001 /* SETUP_DID */, 33557442)
+     , (13222, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (13222, 008 /* ICON_DID */, 100672415)
+     , (13222, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (13222, 9, 0) /* LOCATIONS_INT */
-     , (13222, 1, 4194304) /* ITEM_TYPE_INT */
-     , (13222, 13, 15) /* STACK_UNIT_ENCUMB_INT */
-     , (13222, 5, 15) /* ENCUMB_VAL_INT */
-     , (13222, 8, 15) /* MASS_INT */
-     , (13222, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (13222, 12, 1) /* STACK_SIZE_INT */
-     , (13222, 14, 15) /* STACK_UNIT_MASS_INT */
-     , (13222, 15, 14) /* STACK_UNIT_VALUE_INT */
-     , (13222, 16, 524296) /* ITEM_USEABLE_INT */
-     , (13222, 19, 14) /* VALUE_INT */
-     , (13222, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (13222, 151, 9) /* HOOK_TYPE_INT */
-     , (13222, 93, 1044) /* PHYSICS_STATE_INT */
-     , (13222, 94, 4194464) /* TARGET_TYPE_INT */;
+VALUES (13222, 001 /* ITEM_TYPE_INT */, 4194304 /* TYPE_CRAFT_COOKING_BASE */)
+     , (13222, 005 /* ENCUMB_VAL_INT */, 15)
+     , (13222, 008 /* MASS_INT */, 15)
+     , (13222, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (13222, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (13222, 012 /* STACK_SIZE_INT */, 1)
+     , (13222, 013 /* STACK_UNIT_ENCUMB_INT */, 15)
+     , (13222, 014 /* STACK_UNIT_MASS_INT */, 15)
+     , (13222, 015 /* STACK_UNIT_VALUE_INT */, 14)
+     , (13222, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (13222, 019 /* VALUE_INT */, 14)
+     , (13222, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (13222, 094 /* TARGET_TYPE_INT */, 4194464 /* TYPE_FOOD, TYPE_MISC, TYPE_CRAFT_COOKING_BASE */)
+     , (13222, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (13222, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 

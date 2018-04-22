@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 491;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (491, 'sign-talismandungeonriddle', /* Book_WeenieType */ 8);
+VALUES (491, 'sign-talismandungeonriddle', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (491, 1, 'Talisman Dungeon Sign') /* NAME_STRING */;
+VALUES (491, 001 /* NAME_STRING */, 'Talisman Dungeon Sign');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (491, 1, 33555088) /* SETUP_DID */
-     , (491, 8, 100668115) /* ICON_DID */;
+VALUES (491, 001 /* SETUP_DID */, 33555088)
+     , (491, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (491, 1, 8192) /* ITEM_TYPE_INT */
-     , (491, 93, 1048) /* PHYSICS_STATE_INT */
-     , (491, 5, 9000) /* ENCUMB_VAL_INT */
-     , (491, 16, 48) /* ITEM_USEABLE_INT */
-     , (491, 8, 1800) /* MASS_INT */
-     , (491, 19, 125) /* VALUE_INT */;
+VALUES (491, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (491, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (491, 008 /* MASS_INT */, 1800)
+     , (491, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (491, 019 /* VALUE_INT */, 125)
+     , (491, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (491, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (491, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (491, 1, True) /* STUCK_BOOL */
-     , (491, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (491, 13, False) /* ETHEREAL_BOOL */
-     , (491, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (491, 001 /* STUCK_BOOL */, True)
+     , (491, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (491, 013 /* ETHEREAL_BOOL */, False)
+     , (491, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (491, 1, 1000) /* Book Data */;

@@ -2,56 +2,56 @@
 DELETE FROM weenie WHERE class_Id = 29240;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (29240, 'bowelectric', /* MissileLauncher_WeenieType */ 3);
+VALUES (29240, 'bowelectric', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29240, 1, 'Electric Bow') /* NAME_STRING */;
+VALUES (29240, 001 /* NAME_STRING */, 'Electric Bow');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29240, 1, 33559031) /* SETUP_DID */
-     , (29240, 3, 536870932) /* SOUND_TABLE_DID */
-     , (29240, 36, 234881053) /* MUTATE_FILTER_DID */
-     , (29240, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (29240, 46, 939524167) /* TSYS_MUTATION_FILTER_DID */
-     , (29240, 6, 67115373) /* PALETTE_BASE_DID */
-     , (29240, 7, 268436873) /* CLOTHINGBASE_DID */
-     , (29240, 8, 100668815) /* ICON_DID */;
+VALUES (29240, 001 /* SETUP_DID */, 33559031)
+     , (29240, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (29240, 006 /* PALETTE_BASE_DID */, 67115373)
+     , (29240, 007 /* CLOTHINGBASE_DID */, 268436873)
+     , (29240, 008 /* ICON_DID */, 100668815)
+     , (29240, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (29240, 036 /* MUTATE_FILTER_DID */, 234881053)
+     , (29240, 046 /* TSYS_MUTATION_FILTER_DID */, 939524167);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (29240, 9, 4194304) /* LOCATIONS_INT */
-     , (29240, 1, 256) /* ITEM_TYPE_INT */
-     , (29240, 19, 400) /* VALUE_INT */
-     , (29240, 3, 20) /* PALETTE_TEMPLATE_INT */
-     , (29240, 5, 980) /* ENCUMB_VAL_INT */
-     , (29240, 16, 1) /* ITEM_USEABLE_INT */
-     , (29240, 8, 140) /* MASS_INT */
-     , (29240, 204, 0) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (29240, 18, 64) /* UI_EFFECTS_INT */
-     , (29240, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (29240, 151, 2) /* HOOK_TYPE_INT */
-     , (29240, 93, 1044) /* PHYSICS_STATE_INT */
-     , (29240, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (29240, 159, 2) /* WIELD_SKILLTYPE_INT */
-     , (29240, 160, 315) /* WIELD_DIFFICULTY_INT */
-     , (29240, 169, 101187850) /* TSYS_MUTATION_DATA_INT */
-     , (29240, 44, 0) /* DAMAGE_INT */
-     , (29240, 45, 64) /* DAMAGE_TYPE_INT */
-     , (29240, 46, 16) /* DEFAULT_COMBAT_STYLE_INT */
-     , (29240, 48, 2) /* WEAPON_SKILL_INT */
-     , (29240, 49, 45) /* WEAPON_TIME_INT */
-     , (29240, 50, 1) /* AMMO_TYPE_INT */
-     , (29240, 51, 2) /* COMBAT_USE_INT */
-     , (29240, 52, 2) /* PARENT_LOCATION_INT */
-     , (29240, 53, 3) /* PLACEMENT_POSITION_INT */
-     , (29240, 60, 192) /* WEAPON_RANGE_INT */;
+VALUES (29240, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (29240, 003 /* PALETTE_TEMPLATE_INT */, 20 /* SILVER_PALETTE_TEMPLATE */)
+     , (29240, 005 /* ENCUMB_VAL_INT */, 980)
+     , (29240, 008 /* MASS_INT */, 140)
+     , (29240, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (29240, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (29240, 018 /* UI_EFFECTS_INT */, 64 /* UI_EFFECT_LIGHTNING */)
+     , (29240, 019 /* VALUE_INT */, 400)
+     , (29240, 044 /* DAMAGE_INT */, 0)
+     , (29240, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
+     , (29240, 046 /* DEFAULT_COMBAT_STYLE_INT */, 16 /* Bow_CombatStyle */)
+     , (29240, 048 /* WEAPON_SKILL_INT */, 2 /* BOW_SKILL */)
+     , (29240, 049 /* WEAPON_TIME_INT */, 45)
+     , (29240, 050 /* AMMO_TYPE_INT */, 1 /* AMMO_ARROW */)
+     , (29240, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (29240, 052 /* PARENT_LOCATION_INT */, 2)
+     , (29240, 053 /* PLACEMENT_POSITION_INT */, 3)
+     , (29240, 060 /* WEAPON_RANGE_INT */, 192)
+     , (29240, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (29240, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (29240, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (29240, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
+     , (29240, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
+     , (29240, 160 /* WIELD_DIFFICULTY_INT */, 315)
+     , (29240, 169 /* TSYS_MUTATION_DATA_INT */, 101187850)
+     , (29240, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 0);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29240, 63, 1.5) /* DAMAGE_MOD_FLOAT */
-     , (29240, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (29240, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (29240, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (29240, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (29240, 026 /* MAXIMUM_VELOCITY_FLOAT */, 27.3)
+     , (29240, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (29240, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (29240, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (29240, 063 /* DAMAGE_MOD_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29240, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (29240, 022 /* INSCRIBABLE_BOOL */, True);
 

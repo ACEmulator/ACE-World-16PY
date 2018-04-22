@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 1510;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1510, 'directionsrobberc', /* Book_WeenieType */ 8);
+VALUES (1510, 'directionsrobberc', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1510, 1, 'Traveler''s Rumor') /* NAME_STRING */;
+VALUES (1510, 001 /* NAME_STRING */, 'Traveler''s Rumor');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1510, 1, 33554773) /* SETUP_DID */
-     , (1510, 3, 536870932) /* SOUND_TABLE_DID */
-     , (1510, 8, 100675770) /* ICON_DID */
-     , (1510, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (1510, 001 /* SETUP_DID */, 33554773)
+     , (1510, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (1510, 008 /* ICON_DID */, 100675770)
+     , (1510, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1510, 9, 0) /* LOCATIONS_INT */
-     , (1510, 1, 8192) /* ITEM_TYPE_INT */
-     , (1510, 93, 1044) /* PHYSICS_STATE_INT */
-     , (1510, 5, 25) /* ENCUMB_VAL_INT */
-     , (1510, 16, 8) /* ITEM_USEABLE_INT */
-     , (1510, 8, 5) /* MASS_INT */
-     , (1510, 19, 5) /* VALUE_INT */;
+VALUES (1510, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (1510, 005 /* ENCUMB_VAL_INT */, 25)
+     , (1510, 008 /* MASS_INT */, 5)
+     , (1510, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (1510, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (1510, 019 /* VALUE_INT */, 5)
+     , (1510, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (1510, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (1510, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1510, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (1510, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1510, 1, 1000) /* Book Data */;

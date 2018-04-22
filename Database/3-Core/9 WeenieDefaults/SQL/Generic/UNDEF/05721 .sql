@@ -2,31 +2,31 @@
 DELETE FROM weenie WHERE class_Id = 5721;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5721, 'betavetphase2gen', /* Generic_WeenieType */ 1);
+VALUES (5721, 'betavetphase2gen', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5721, 1, 'betavetphase2gen') /* NAME_STRING */;
+VALUES (5721, 001 /* NAME_STRING */, 'betavetphase2gen');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5721, 1, 33555051) /* SETUP_DID */
-     , (5721, 8, 100667494) /* ICON_DID */;
+VALUES (5721, 001 /* SETUP_DID */, 33555051)
+     , (5721, 008 /* ICON_DID */, 100667494);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5721, 142, 1) /* GENERATOR_TIME_TYPE_INT */
-     , (5721, 143, 940588500) /* GENERATOR_START_TIME_INT */
-     , (5721, 144, 940740900) /* GENERATOR_END_TIME_INT */
-     , (5721, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (5721, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (5721, 93, 1044) /* PHYSICS_STATE_INT */;
+VALUES (5721, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (5721, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (5721, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5721, 142 /* GENERATOR_TIME_TYPE_INT */, 1 /* RealTime_GeneratorTimeType */)
+     , (5721, 143 /* GENERATOR_START_TIME_INT */, 940588500)
+     , (5721, 144 /* GENERATOR_END_TIME_INT */, 940740900);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (5721, 41, 60) /* REGENERATION_INTERVAL_FLOAT */
-     , (5721, 43, 15) /* GENERATOR_RADIUS_FLOAT */;
+VALUES (5721, 041 /* REGENERATION_INTERVAL_FLOAT */, 60)
+     , (5721, 043 /* GENERATOR_RADIUS_FLOAT */, 15);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5721, 1, True) /* STUCK_BOOL */
-     , (5721, 11, True) /* IGNORE_COLLISIONS_BOOL */
-     , (5721, 18, True) /* VISIBILITY_BOOL */;
+VALUES (5721, 001 /* STUCK_BOOL */, True)
+     , (5721, 011 /* IGNORE_COLLISIONS_BOOL */, True)
+     , (5721, 018 /* VISIBILITY_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5721, 0.2, 5710, 600, 1, 1, 1, 4, -1, 0, 0, 0, -9.5, -1, 40, 0.7071068, 0, 0, -0.7071068)/* Generate Flare (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

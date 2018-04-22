@@ -2,55 +2,55 @@
 DELETE FROM weenie WHERE class_Id = 8251;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8251, 'jackolanternsuperiorcook', /* Missile_WeenieType */ 4);
+VALUES (8251, 'jackolanternsuperiorcook', 4 /* Missile_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8251, 1, 'Superior Jack o'' Lantern') /* NAME_STRING */
-     , (8251, 20, 'Superior Jack o'' Lanterns') /* PLURAL_NAME_STRING */
-     , (8251, 15, 'A finely crafted jack o'' lantern, made with a carving knife.') /* SHORT_DESC_STRING */;
+VALUES (8251, 001 /* NAME_STRING */, 'Superior Jack o'' Lantern')
+     , (8251, 015 /* SHORT_DESC_STRING */, 'A finely crafted jack o'' lantern, made with a carving knife.')
+     , (8251, 020 /* PLURAL_NAME_STRING */, 'Superior Jack o'' Lanterns');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8251, 1, 33556812) /* SETUP_DID */
-     , (8251, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8251, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8251, 6, 67112968) /* PALETTE_BASE_DID */
-     , (8251, 7, 268436044) /* CLOTHINGBASE_DID */
-     , (8251, 8, 100671019) /* ICON_DID */;
+VALUES (8251, 001 /* SETUP_DID */, 33556812)
+     , (8251, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8251, 006 /* PALETTE_BASE_DID */, 67112968)
+     , (8251, 007 /* CLOTHINGBASE_DID */, 268436044)
+     , (8251, 008 /* ICON_DID */, 100671019)
+     , (8251, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8251, 9, 4194304) /* LOCATIONS_INT */
-     , (8251, 1, 256) /* ITEM_TYPE_INT */
-     , (8251, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8251, 3, 76) /* PALETTE_TEMPLATE_INT */
-     , (8251, 13, 20) /* STACK_UNIT_ENCUMB_INT */
-     , (8251, 5, 20) /* ENCUMB_VAL_INT */
-     , (8251, 8, 20) /* MASS_INT */
-     , (8251, 12, 1) /* STACK_SIZE_INT */
-     , (8251, 14, 20) /* STACK_UNIT_MASS_INT */
-     , (8251, 15, 50) /* STACK_UNIT_VALUE_INT */
-     , (8251, 16, 1) /* ITEM_USEABLE_INT */
-     , (8251, 19, 50) /* VALUE_INT */
-     , (8251, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8251, 151, 11) /* HOOK_TYPE_INT */
-     , (8251, 93, 134164) /* PHYSICS_STATE_INT */
-     , (8251, 44, 14) /* DAMAGE_INT */
-     , (8251, 45, 4) /* DAMAGE_TYPE_INT */
-     , (8251, 46, 128) /* DEFAULT_COMBAT_STYLE_INT */
-     , (8251, 48, 12) /* WEAPON_SKILL_INT */
-     , (8251, 49, 10) /* WEAPON_TIME_INT */
-     , (8251, 51, 2) /* COMBAT_USE_INT */;
+VALUES (8251, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (8251, 003 /* PALETTE_TEMPLATE_INT */, 76 /* ORANGE_PALETTE_TEMPLATE */)
+     , (8251, 005 /* ENCUMB_VAL_INT */, 20)
+     , (8251, 008 /* MASS_INT */, 20)
+     , (8251, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (8251, 011 /* MAX_STACK_SIZE_INT */, 100)
+     , (8251, 012 /* STACK_SIZE_INT */, 1)
+     , (8251, 013 /* STACK_UNIT_ENCUMB_INT */, 20)
+     , (8251, 014 /* STACK_UNIT_MASS_INT */, 20)
+     , (8251, 015 /* STACK_UNIT_VALUE_INT */, 50)
+     , (8251, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8251, 019 /* VALUE_INT */, 50)
+     , (8251, 044 /* DAMAGE_INT */, 14)
+     , (8251, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (8251, 046 /* DEFAULT_COMBAT_STYLE_INT */, 128 /* ThrownWeapon_CombatStyle */)
+     , (8251, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (8251, 049 /* WEAPON_TIME_INT */, 10)
+     , (8251, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (8251, 093 /* PHYSICS_STATE_INT */, 134164 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS, INELASTIC_PS */)
+     , (8251, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8251, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8251, 12, 0.5) /* SHADE_FLOAT */
-     , (8251, 62, 1) /* WEAPON_OFFENSE_FLOAT */
-     , (8251, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (8251, 78, 1) /* FRICTION_FLOAT */
-     , (8251, 79, 0) /* ELASTICITY_FLOAT */
-     , (8251, 27, 2) /* ROTATION_SPEED_FLOAT */
-     , (8251, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+VALUES (8251, 012 /* SHADE_FLOAT */, 0.5)
+     , (8251, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.25)
+     , (8251, 027 /* ROTATION_SPEED_FLOAT */, 2)
+     , (8251, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (8251, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (8251, 078 /* FRICTION_FLOAT */, 1)
+     , (8251, 079 /* ELASTICITY_FLOAT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8251, 69, False) /* IS_SELLABLE_BOOL */
-     , (8251, 15, True) /* LIGHTS_STATUS_BOOL */
-     , (8251, 17, True) /* INELASTIC_BOOL */;
+VALUES (8251, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (8251, 017 /* INELASTIC_BOOL */, True)
+     , (8251, 069 /* IS_SELLABLE_BOOL */, False);
 

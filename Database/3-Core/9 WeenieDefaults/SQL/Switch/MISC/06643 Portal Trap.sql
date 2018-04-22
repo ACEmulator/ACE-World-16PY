@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 6643;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6643, 'trapportal', /* Switch_WeenieType */ 26);
+VALUES (6643, 'trapportal', 26 /* Switch_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6643, 1, 'Portal Trap') /* NAME_STRING */
-     , (6643, 22, 'You hear a faint clicking sound.') /* ACTIVATION_FAILURE_STRING */;
+VALUES (6643, 001 /* NAME_STRING */, 'Portal Trap')
+     , (6643, 022 /* ACTIVATION_FAILURE_STRING */, 'You hear a faint clicking sound.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6643, 1, 33554667) /* SETUP_DID */
-     , (6643, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6643, 8, 100667494) /* ICON_DID */
-     , (6643, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (6643, 28, 1634) /* SPELL_DID */;
+VALUES (6643, 001 /* SETUP_DID */, 33554667)
+     , (6643, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6643, 008 /* ICON_DID */, 100667494)
+     , (6643, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (6643, 028 /* SPELL_DID */, 1634 /* PortalSending1_SpellID */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6643, 1, 128) /* ITEM_TYPE_INT */
-     , (6643, 93, 20) /* PHYSICS_STATE_INT */
-     , (6643, 5, 6000) /* ENCUMB_VAL_INT */
-     , (6643, 134, 8) /* PLAYER_KILLER_STATUS_INT */
-     , (6643, 16, 1) /* ITEM_USEABLE_INT */
-     , (6643, 8, 3000) /* MASS_INT */
-     , (6643, 83, 4096) /* ACTIVATION_RESPONSE_INT */
-     , (6643, 19, 200) /* VALUE_INT */
-     , (6643, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (6643, 119, 1) /* ACTIVE_INT */;
+VALUES (6643, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (6643, 005 /* ENCUMB_VAL_INT */, 6000)
+     , (6643, 008 /* MASS_INT */, 3000)
+     , (6643, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (6643, 019 /* VALUE_INT */, 200)
+     , (6643, 083 /* ACTIVATION_RESPONSE_INT */, 4096 /* CastSpell_ActivationResponse */)
+     , (6643, 093 /* PHYSICS_STATE_INT */, 20 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS */)
+     , (6643, 106 /* ITEM_SPELLCRAFT_INT */, 100)
+     , (6643, 119 /* ACTIVE_INT */, 1)
+     , (6643, 134 /* PLAYER_KILLER_STATUS_INT */, 8 /* Creature_PKStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6643, 11, 30) /* RESET_INTERVAL_FLOAT */;
+VALUES (6643, 011 /* RESET_INTERVAL_FLOAT */, 30);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6643, 1, True) /* STUCK_BOOL */
-     , (6643, 12, False) /* REPORT_COLLISIONS_BOOL */
-     , (6643, 13, True) /* ETHEREAL_BOOL */
-     , (6643, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (6643, 18, True) /* VISIBILITY_BOOL */;
+VALUES (6643, 001 /* STUCK_BOOL */, True)
+     , (6643, 012 /* REPORT_COLLISIONS_BOOL */, False)
+     , (6643, 013 /* ETHEREAL_BOOL */, True)
+     , (6643, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (6643, 018 /* VISIBILITY_BOOL */, True);
 

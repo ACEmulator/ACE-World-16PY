@@ -2,46 +2,46 @@
 DELETE FROM weenie WHERE class_Id = 5802;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (5802, 'flamingkimchi', /* Gem_WeenieType */ 38);
+VALUES (5802, 'flamingkimchi', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5802, 16, 'Kimchi so hot, it''ll keep you warm for a while.') /* LONG_DESC_STRING */
-     , (5802, 1, 'Flaming Kimchi') /* NAME_STRING */
-     , (5802, 15, 'Kimchi so hot, it''ll keep you warm for a while.') /* SHORT_DESC_STRING */;
+VALUES (5802, 001 /* NAME_STRING */, 'Flaming Kimchi')
+     , (5802, 015 /* SHORT_DESC_STRING */, 'Kimchi so hot, it''ll keep you warm for a while.')
+     , (5802, 016 /* LONG_DESC_STRING */, 'Kimchi so hot, it''ll keep you warm for a while.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5802, 1, 33554669) /* SETUP_DID */
-     , (5802, 27, 318767233) /* USE_USER_ANIMATION_DID */
-     , (5802, 3, 536870932) /* SOUND_TABLE_DID */
-     , (5802, 28, 1030) /* SPELL_DID */
-     , (5802, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (5802, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (5802, 6, 67111919) /* PALETTE_BASE_DID */
-     , (5802, 8, 100670313) /* ICON_DID */
-     , (5802, 23, 64) /* USE_SOUND_DID */;
+VALUES (5802, 001 /* SETUP_DID */, 33554669)
+     , (5802, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (5802, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (5802, 008 /* ICON_DID */, 100670313)
+     , (5802, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (5802, 023 /* USE_SOUND_DID */, 64 /* Sound_Eat1 */)
+     , (5802, 027 /* USE_USER_ANIMATION_DID */, 318767233 /* Motion_MimeEat */)
+     , (5802, 028 /* SPELL_DID */, 1030 /* ColdProtectionSelf1_SpellID */)
+     , (5802, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (5802, 9, 0) /* LOCATIONS_INT */
-     , (5802, 1, 32) /* ITEM_TYPE_INT */
-     , (5802, 13, 25) /* STACK_UNIT_ENCUMB_INT */
-     , (5802, 5, 25) /* ENCUMB_VAL_INT */
-     , (5802, 8, 35) /* MASS_INT */
-     , (5802, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (5802, 12, 1) /* STACK_SIZE_INT */
-     , (5802, 14, 35) /* STACK_UNIT_MASS_INT */
-     , (5802, 15, 125) /* STACK_UNIT_VALUE_INT */
-     , (5802, 16, 8) /* ITEM_USEABLE_INT */
-     , (5802, 18, 2) /* UI_EFFECTS_INT */
-     , (5802, 19, 125) /* VALUE_INT */
-     , (5802, 93, 1044) /* PHYSICS_STATE_INT */
-     , (5802, 94, 16) /* TARGET_TYPE_INT */
-     , (5802, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (5802, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (5802, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (5802, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (5802, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (5802, 001 /* ITEM_TYPE_INT */, 32 /* TYPE_FOOD */)
+     , (5802, 005 /* ENCUMB_VAL_INT */, 25)
+     , (5802, 008 /* MASS_INT */, 35)
+     , (5802, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (5802, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (5802, 012 /* STACK_SIZE_INT */, 1)
+     , (5802, 013 /* STACK_UNIT_ENCUMB_INT */, 25)
+     , (5802, 014 /* STACK_UNIT_MASS_INT */, 35)
+     , (5802, 015 /* STACK_UNIT_VALUE_INT */, 125)
+     , (5802, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (5802, 018 /* UI_EFFECTS_INT */, 2 /* UI_EFFECT_POISONED */)
+     , (5802, 019 /* VALUE_INT */, 125)
+     , (5802, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (5802, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (5802, 106 /* ITEM_SPELLCRAFT_INT */, 50)
+     , (5802, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (5802, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (5802, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (5802, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5802, 69, False) /* IS_SELLABLE_BOOL */
-     , (5802, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (5802, 022 /* INSCRIBABLE_BOOL */, True)
+     , (5802, 069 /* IS_SELLABLE_BOOL */, False);
 

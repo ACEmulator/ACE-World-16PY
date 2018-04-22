@@ -2,51 +2,51 @@
 DELETE FROM weenie WHERE class_Id = 3964;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (3964, 'chestglitterlowlocked', /* Chest_WeenieType */ 20);
+VALUES (3964, 'chestglitterlowlocked', 20 /* Chest_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (3964, 1, 'Chest') /* NAME_STRING */
-     , (3964, 12, 'nokey') /* LOCK_CODE_STRING */
-     , (3964, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+VALUES (3964, 001 /* NAME_STRING */, 'Chest')
+     , (3964, 012 /* LOCK_CODE_STRING */, 'nokey')
+     , (3964, 014 /* USE_STRING */, 'Use this item to open it and see its contents.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3964, 1, 33554556) /* SETUP_DID */
-     , (3964, 2, 150994948) /* MOTION_TABLE_DID */
-     , (3964, 3, 536870945) /* SOUND_TABLE_DID */
-     , (3964, 8, 100667424) /* ICON_DID */
-     , (3964, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (3964, 001 /* SETUP_DID */, 33554556)
+     , (3964, 002 /* MOTION_TABLE_DID */, 150994948)
+     , (3964, 003 /* SOUND_TABLE_DID */, 536870945)
+     , (3964, 008 /* ICON_DID */, 100667424)
+     , (3964, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (3964, 81, 1) /* MAX_GENERATED_OBJECTS_INT */
-     , (3964, 1, 512) /* ITEM_TYPE_INT */
-     , (3964, 5, 9000) /* ENCUMB_VAL_INT */
-     , (3964, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (3964, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (3964, 16, 48) /* ITEM_USEABLE_INT */
-     , (3964, 8, 3000) /* MASS_INT */
-     , (3964, 82, 1) /* INIT_GENERATED_OBJECTS_INT */
-     , (3964, 19, 2500) /* VALUE_INT */
-     , (3964, 83, 2) /* ACTIVATION_RESPONSE_INT */
-     , (3964, 93, 1048) /* PHYSICS_STATE_INT */
-     , (3964, 96, 500) /* ENCUMB_CAPACITY_INT */
-     , (3964, 100, 1) /* GENERATOR_TYPE_INT */
-     , (3964, 37, 30) /* RESIST_ITEM_APPRAISAL_INT */
-     , (3964, 38, 20) /* RESIST_LOCKPICK_INT */;
+VALUES (3964, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (3964, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (3964, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (3964, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (3964, 008 /* MASS_INT */, 3000)
+     , (3964, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (3964, 019 /* VALUE_INT */, 2500)
+     , (3964, 037 /* RESIST_ITEM_APPRAISAL_INT */, 30)
+     , (3964, 038 /* RESIST_LOCKPICK_INT */, 20)
+     , (3964, 081 /* MAX_GENERATED_OBJECTS_INT */, 1)
+     , (3964, 082 /* INIT_GENERATED_OBJECTS_INT */, 1)
+     , (3964, 083 /* ACTIVATION_RESPONSE_INT */, 2 /* Use_ActivationResponse */)
+     , (3964, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (3964, 096 /* ENCUMB_CAPACITY_INT */, 500)
+     , (3964, 100 /* GENERATOR_TYPE_INT */, 1 /* Relative_GeneratorType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (3964, 41, 600) /* REGENERATION_INTERVAL_FLOAT */
-     , (3964, 43, 1) /* GENERATOR_RADIUS_FLOAT */
-     , (3964, 54, 1) /* USE_RADIUS_FLOAT */;
+VALUES (3964, 041 /* REGENERATION_INTERVAL_FLOAT */, 600)
+     , (3964, 043 /* GENERATOR_RADIUS_FLOAT */, 1)
+     , (3964, 054 /* USE_RADIUS_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3964, 1, True) /* STUCK_BOOL */
-     , (3964, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (3964, 2, False) /* OPEN_BOOL */
-     , (3964, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (3964, 3, True) /* LOCKED_BOOL */
-     , (3964, 35, True) /* DEFAULT_LOCKED_BOOL */
-     , (3964, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (3964, 13, False) /* ETHEREAL_BOOL */;
+VALUES (3964, 001 /* STUCK_BOOL */, True)
+     , (3964, 002 /* OPEN_BOOL */, False)
+     , (3964, 003 /* LOCKED_BOOL */, True)
+     , (3964, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (3964, 013 /* ETHEREAL_BOOL */, False)
+     , (3964, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (3964, 034 /* DEFAULT_OPEN_BOOL */, False)
+     , (3964, 035 /* DEFAULT_LOCKED_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3964, 1, 16, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Undead (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;

@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 27467;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (27467, 'cookingpotburun3', /* Generic_WeenieType */ 1);
+VALUES (27467, 'cookingpotburun3', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27467, 1, 'Zairente''s Cooking Pot') /* NAME_STRING */;
+VALUES (27467, 001 /* NAME_STRING */, 'Zairente''s Cooking Pot');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27467, 1, 33555972) /* SETUP_DID */
-     , (27467, 3, 536870932) /* SOUND_TABLE_DID */
-     , (27467, 8, 100669994) /* ICON_DID */
-     , (27467, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (27467, 001 /* SETUP_DID */, 33555972)
+     , (27467, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (27467, 008 /* ICON_DID */, 100669994)
+     , (27467, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (27467, 9, 0) /* LOCATIONS_INT */
-     , (27467, 1, 128) /* ITEM_TYPE_INT */
-     , (27467, 93, 1044) /* PHYSICS_STATE_INT */
-     , (27467, 5, 400) /* ENCUMB_VAL_INT */
-     , (27467, 16, 1) /* ITEM_USEABLE_INT */
-     , (27467, 8, 200) /* MASS_INT */
-     , (27467, 19, 5) /* VALUE_INT */;
+VALUES (27467, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (27467, 005 /* ENCUMB_VAL_INT */, 400)
+     , (27467, 008 /* MASS_INT */, 200)
+     , (27467, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (27467, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (27467, 019 /* VALUE_INT */, 5)
+     , (27467, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27467, 1, True) /* STUCK_BOOL */
-     , (27467, 14, True) /* GRAVITY_STATUS_BOOL */
-     , (27467, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (27467, 001 /* STUCK_BOOL */, True)
+     , (27467, 014 /* GRAVITY_STATUS_BOOL */, True)
+     , (27467, 024 /* UI_HIDDEN_BOOL */, True);
 

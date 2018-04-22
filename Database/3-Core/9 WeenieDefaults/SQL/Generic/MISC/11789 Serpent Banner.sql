@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 11789;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (11789, 'bannerserpent', /* Generic_WeenieType */ 1);
+VALUES (11789, 'bannerserpent', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11789, 16, 'A banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LONG_DESC_STRING */
-     , (11789, 1, 'Serpent Banner') /* NAME_STRING */
-     , (11789, 15, 'A banner with a Serpent on it.') /* SHORT_DESC_STRING */;
+VALUES (11789, 001 /* NAME_STRING */, 'Serpent Banner')
+     , (11789, 015 /* SHORT_DESC_STRING */, 'A banner with a Serpent on it.')
+     , (11789, 016 /* LONG_DESC_STRING */, 'A banner with a Serpent on it.  It is somewhat tattered, and the colors seem to be washed out.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11789, 1, 33557239) /* SETUP_DID */
-     , (11789, 3, 536870932) /* SOUND_TABLE_DID */
-     , (11789, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (11789, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (11789, 6, 67113338) /* PALETTE_BASE_DID */
-     , (11789, 7, 268436204) /* CLOTHINGBASE_DID */
-     , (11789, 8, 100671892) /* ICON_DID */;
+VALUES (11789, 001 /* SETUP_DID */, 33557239)
+     , (11789, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (11789, 006 /* PALETTE_BASE_DID */, 67113338)
+     , (11789, 007 /* CLOTHINGBASE_DID */, 268436204)
+     , (11789, 008 /* ICON_DID */, 100671892)
+     , (11789, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (11789, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (11789, 33, 1) /* BONDED_INT */
-     , (11789, 9, 0) /* LOCATIONS_INT */
-     , (11789, 1, 128) /* ITEM_TYPE_INT */
-     , (11789, 93, 1044) /* PHYSICS_STATE_INT */
-     , (11789, 5, 100) /* ENCUMB_VAL_INT */
-     , (11789, 16, 1) /* ITEM_USEABLE_INT */
-     , (11789, 8, 5) /* MASS_INT */
-     , (11789, 19, 0) /* VALUE_INT */
-     , (11789, 114, 1) /* ATTUNED_INT */;
+VALUES (11789, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (11789, 005 /* ENCUMB_VAL_INT */, 100)
+     , (11789, 008 /* MASS_INT */, 5)
+     , (11789, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (11789, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (11789, 019 /* VALUE_INT */, 0)
+     , (11789, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (11789, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (11789, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11789, 22, True) /* INSCRIBABLE_BOOL */
-     , (11789, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (11789, 022 /* INSCRIBABLE_BOOL */, True)
+     , (11789, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

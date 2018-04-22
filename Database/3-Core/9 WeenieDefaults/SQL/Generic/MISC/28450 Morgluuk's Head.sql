@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 28450;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28450, 'headmorgluukpike', /* Generic_WeenieType */ 1);
+VALUES (28450, 'headmorgluukpike', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28450, 16, 'Morgluuk''s head has been set on a pike here to remind all Isparians of a time when the Burun threatened to take this world from us. They failed, and this head is to warn future Burun that they will suffer the same fate as their once fearsome leader.') /* LONG_DESC_STRING */
-     , (28450, 1, 'Morgluuk''s Head') /* NAME_STRING */;
+VALUES (28450, 001 /* NAME_STRING */, 'Morgluuk''s Head')
+     , (28450, 016 /* LONG_DESC_STRING */, 'Morgluuk''s head has been set on a pike here to remind all Isparians of a time when the Burun threatened to take this world from us. They failed, and this head is to warn future Burun that they will suffer the same fate as their once fearsome leader.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28450, 1, 33558855) /* SETUP_DID */
-     , (28450, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28450, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28450, 6, 67114919) /* PALETTE_BASE_DID */
-     , (28450, 7, 268436789) /* CLOTHINGBASE_DID */
-     , (28450, 8, 100676955) /* ICON_DID */;
+VALUES (28450, 001 /* SETUP_DID */, 33558855)
+     , (28450, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28450, 006 /* PALETTE_BASE_DID */, 67114919)
+     , (28450, 007 /* CLOTHINGBASE_DID */, 268436789)
+     , (28450, 008 /* ICON_DID */, 100676955)
+     , (28450, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28450, 9, 0) /* LOCATIONS_INT */
-     , (28450, 1, 128) /* ITEM_TYPE_INT */
-     , (28450, 19, 0) /* VALUE_INT */
-     , (28450, 3, 70) /* PALETTE_TEMPLATE_INT */
-     , (28450, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28450, 5, 300) /* ENCUMB_VAL_INT */
-     , (28450, 16, 1) /* ITEM_USEABLE_INT */
-     , (28450, 8, 360) /* MASS_INT */;
+VALUES (28450, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (28450, 003 /* PALETTE_TEMPLATE_INT */, 70 /* PURPLESLIME_PALETTE_TEMPLATE */)
+     , (28450, 005 /* ENCUMB_VAL_INT */, 300)
+     , (28450, 008 /* MASS_INT */, 360)
+     , (28450, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28450, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28450, 019 /* VALUE_INT */, 0)
+     , (28450, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28450, 39, 2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (28450, 039 /* DEFAULT_SCALE_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28450, 1, True) /* STUCK_BOOL */
-     , (28450, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28450, 001 /* STUCK_BOOL */, True)
+     , (28450, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

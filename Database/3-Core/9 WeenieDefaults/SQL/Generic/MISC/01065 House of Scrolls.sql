@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 1065;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (1065, 'qalabarhealersign', /* Generic_WeenieType */ 1);
+VALUES (1065, 'qalabarhealersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1065, 16, 'House of Scrolls') /* LONG_DESC_STRING */
-     , (1065, 1, 'House of Scrolls') /* NAME_STRING */;
+VALUES (1065, 001 /* NAME_STRING */, 'House of Scrolls')
+     , (1065, 016 /* LONG_DESC_STRING */, 'House of Scrolls');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1065, 1, 33555909) /* SETUP_DID */
-     , (1065, 6, 67111860) /* PALETTE_BASE_DID */
-     , (1065, 7, 268435822) /* CLOTHINGBASE_DID */
-     , (1065, 8, 100668115) /* ICON_DID */;
+VALUES (1065, 001 /* SETUP_DID */, 33555909)
+     , (1065, 006 /* PALETTE_BASE_DID */, 67111860)
+     , (1065, 007 /* CLOTHINGBASE_DID */, 268435822)
+     , (1065, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (1065, 1, 128) /* ITEM_TYPE_INT */
-     , (1065, 93, 24) /* PHYSICS_STATE_INT */
-     , (1065, 5, 9000) /* ENCUMB_VAL_INT */
-     , (1065, 16, 1) /* ITEM_USEABLE_INT */
-     , (1065, 8, 1800) /* MASS_INT */
-     , (1065, 19, 125) /* VALUE_INT */;
+VALUES (1065, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (1065, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (1065, 008 /* MASS_INT */, 1800)
+     , (1065, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (1065, 019 /* VALUE_INT */, 125)
+     , (1065, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1065, 1, True) /* STUCK_BOOL */
-     , (1065, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (1065, 13, False) /* ETHEREAL_BOOL */
-     , (1065, 22, False) /* INSCRIBABLE_BOOL */
-     , (1065, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (1065, 001 /* STUCK_BOOL */, True)
+     , (1065, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (1065, 013 /* ETHEREAL_BOOL */, False)
+     , (1065, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (1065, 022 /* INSCRIBABLE_BOOL */, False);
 

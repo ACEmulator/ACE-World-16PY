@@ -2,51 +2,51 @@
 DELETE FROM weenie WHERE class_Id = 28225;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28225, 'atlatlroyalfrost', /* MissileLauncher_WeenieType */ 3);
+VALUES (28225, 'atlatlroyalfrost', 3 /* MissileLauncher_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28225, 1, 'Freezing Royal Atlatl') /* NAME_STRING */;
+VALUES (28225, 001 /* NAME_STRING */, 'Freezing Royal Atlatl');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28225, 1, 33557857) /* SETUP_DID */
-     , (28225, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28225, 36, 234881053) /* MUTATE_FILTER_DID */
-     , (28225, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28225, 46, 939524106) /* TSYS_MUTATION_FILTER_DID */
-     , (28225, 6, 67111919) /* PALETTE_BASE_DID */
-     , (28225, 7, 268436432) /* CLOTHINGBASE_DID */
-     , (28225, 8, 100673250) /* ICON_DID */;
+VALUES (28225, 001 /* SETUP_DID */, 33557857)
+     , (28225, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28225, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (28225, 007 /* CLOTHINGBASE_DID */, 268436432)
+     , (28225, 008 /* ICON_DID */, 100673250)
+     , (28225, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (28225, 036 /* MUTATE_FILTER_DID */, 234881053)
+     , (28225, 046 /* TSYS_MUTATION_FILTER_DID */, 939524106);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28225, 9, 4194304) /* LOCATIONS_INT */
-     , (28225, 1, 256) /* ITEM_TYPE_INT */
-     , (28225, 19, 200) /* VALUE_INT */
-     , (28225, 3, 2) /* PALETTE_TEMPLATE_INT */
-     , (28225, 5, 400) /* ENCUMB_VAL_INT */
-     , (28225, 16, 1) /* ITEM_USEABLE_INT */
-     , (28225, 8, 16) /* MASS_INT */
-     , (28225, 204, 4) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (28225, 18, 128) /* UI_EFFECTS_INT */
-     , (28225, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (28225, 151, 2) /* HOOK_TYPE_INT */
-     , (28225, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28225, 169, 101189386) /* TSYS_MUTATION_DATA_INT */
-     , (28225, 44, 0) /* DAMAGE_INT */
-     , (28225, 45, 8) /* DAMAGE_TYPE_INT */
-     , (28225, 46, 1024) /* DEFAULT_COMBAT_STYLE_INT */
-     , (28225, 48, 12) /* WEAPON_SKILL_INT */
-     , (28225, 49, 25) /* WEAPON_TIME_INT */
-     , (28225, 50, 4) /* AMMO_TYPE_INT */
-     , (28225, 51, 2) /* COMBAT_USE_INT */
-     , (28225, 60, 120) /* WEAPON_RANGE_INT */;
+VALUES (28225, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
+     , (28225, 003 /* PALETTE_TEMPLATE_INT */, 2 /* BLUE_PALETTE_TEMPLATE */)
+     , (28225, 005 /* ENCUMB_VAL_INT */, 400)
+     , (28225, 008 /* MASS_INT */, 16)
+     , (28225, 009 /* LOCATIONS_INT */, 4194304 /* MISSILE_WEAPON_LOC */)
+     , (28225, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28225, 018 /* UI_EFFECTS_INT */, 128 /* UI_EFFECT_FROST */)
+     , (28225, 019 /* VALUE_INT */, 200)
+     , (28225, 044 /* DAMAGE_INT */, 0)
+     , (28225, 045 /* DAMAGE_TYPE_INT */, 8 /* COLD_DAMAGE_TYPE */)
+     , (28225, 046 /* DEFAULT_COMBAT_STYLE_INT */, 1024 /* Atlatl_CombatStyle */)
+     , (28225, 048 /* WEAPON_SKILL_INT */, 12 /* THROWN_WEAPON_SKILL */)
+     , (28225, 049 /* WEAPON_TIME_INT */, 25)
+     , (28225, 050 /* AMMO_TYPE_INT */, 4 /* AMMO_ARROW_CRYSTAL */)
+     , (28225, 051 /* COMBAT_USE_INT */, 2 /* COMBAT_USE_MISSILE */)
+     , (28225, 060 /* WEAPON_RANGE_INT */, 120)
+     , (28225, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28225, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (28225, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
+     , (28225, 169 /* TSYS_MUTATION_DATA_INT */, 101189386)
+     , (28225, 204 /* ELEMENTAL_DAMAGE_BONUS_INT */, 4);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28225, 63, 2.45) /* DAMAGE_MOD_FLOAT */
-     , (28225, 39, 1.1) /* DEFAULT_SCALE_FLOAT */
-     , (28225, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
-     , (28225, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (28225, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (28225, 026 /* MAXIMUM_VELOCITY_FLOAT */, 24.9)
+     , (28225, 029 /* WEAPON_DEFENSE_FLOAT */, 1)
+     , (28225, 039 /* DEFAULT_SCALE_FLOAT */, 1.1)
+     , (28225, 062 /* WEAPON_OFFENSE_FLOAT */, 1)
+     , (28225, 063 /* DAMAGE_MOD_FLOAT */, 2.45);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28225, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (28225, 022 /* INSCRIBABLE_BOOL */, True);
 

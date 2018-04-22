@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 9028;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9028, 'doortesthigh', /* Door_WeenieType */ 19);
+VALUES (9028, 'doortesthigh', 19 /* Door_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9028, 1, 'The Third Threshold') /* NAME_STRING */
-     , (9028, 17, 'The door swings wide, and a melodious voice in your mind says, "Beyond lays the last and most grueling test. Once you jump into the abyss, you may not return this way. You must enter the test grounds again later."') /* ACTIVATION_TALK_STRING */
-     , (9028, 14, 'Use this item to open it.') /* USE_STRING */;
+VALUES (9028, 001 /* NAME_STRING */, 'The Third Threshold')
+     , (9028, 014 /* USE_STRING */, 'Use this item to open it.')
+     , (9028, 017 /* ACTIVATION_TALK_STRING */, 'The door swings wide, and a melodious voice in your mind says, "Beyond lays the last and most grueling test. Once you jump into the abyss, you may not return this way. You must enter the test grounds again later."');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9028, 1, 33555953) /* SETUP_DID */
-     , (9028, 2, 150995078) /* MOTION_TABLE_DID */
-     , (9028, 3, 536870947) /* SOUND_TABLE_DID */
-     , (9028, 8, 100668183) /* ICON_DID */
-     , (9028, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9028, 001 /* SETUP_DID */, 33555953)
+     , (9028, 002 /* MOTION_TABLE_DID */, 150995078)
+     , (9028, 003 /* SOUND_TABLE_DID */, 536870947)
+     , (9028, 008 /* ICON_DID */, 100668183)
+     , (9028, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9028, 1, 128) /* ITEM_TYPE_INT */
-     , (9028, 16, 32) /* ITEM_USEABLE_INT */
-     , (9028, 8, 500) /* MASS_INT */
-     , (9028, 19, 0) /* VALUE_INT */
-     , (9028, 83, 16) /* ACTIVATION_RESPONSE_INT */
-     , (9028, 93, 24) /* PHYSICS_STATE_INT */
-     , (9028, 119, 1) /* ACTIVE_INT */;
+VALUES (9028, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9028, 008 /* MASS_INT */, 500)
+     , (9028, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (9028, 019 /* VALUE_INT */, 0)
+     , (9028, 083 /* ACTIVATION_RESPONSE_INT */, 16 /* Talk_ActivationResponse */)
+     , (9028, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */)
+     , (9028, 119 /* ACTIVE_INT */, 1);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9028, 11, 60) /* RESET_INTERVAL_FLOAT */
-     , (9028, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (9028, 011 /* RESET_INTERVAL_FLOAT */, 60)
+     , (9028, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9028, 1, True) /* STUCK_BOOL */
-     , (9028, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (9028, 2, False) /* OPEN_BOOL */
-     , (9028, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (9028, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (9028, 13, False) /* ETHEREAL_BOOL */
-     , (9028, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (9028, 001 /* STUCK_BOOL */, True)
+     , (9028, 002 /* OPEN_BOOL */, False)
+     , (9028, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (9028, 013 /* ETHEREAL_BOOL */, False)
+     , (9028, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (9028, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (9028, 034 /* DEFAULT_OPEN_BOOL */, False);
 

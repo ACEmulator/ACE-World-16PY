@@ -2,37 +2,37 @@
 DELETE FROM weenie WHERE class_Id = 563;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (563, 'door10', /* Door_WeenieType */ 19);
+VALUES (563, 'door10', 19 /* Door_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (563, 1, 'Door') /* NAME_STRING */
-     , (563, 14, 'Use this item to open it.') /* USE_STRING */;
+VALUES (563, 001 /* NAME_STRING */, 'Door')
+     , (563, 014 /* USE_STRING */, 'Use this item to open it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (563, 1, 33555023) /* SETUP_DID */
-     , (563, 2, 150994966) /* MOTION_TABLE_DID */
-     , (563, 3, 536870946) /* SOUND_TABLE_DID */
-     , (563, 8, 100668183) /* ICON_DID */
-     , (563, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (563, 001 /* SETUP_DID */, 33555023)
+     , (563, 002 /* MOTION_TABLE_DID */, 150994966)
+     , (563, 003 /* SOUND_TABLE_DID */, 536870946)
+     , (563, 008 /* ICON_DID */, 100668183)
+     , (563, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (563, 1, 128) /* ITEM_TYPE_INT */
-     , (563, 16, 32) /* ITEM_USEABLE_INT */
-     , (563, 8, 500) /* MASS_INT */
-     , (563, 19, 0) /* VALUE_INT */
-     , (563, 93, 24) /* PHYSICS_STATE_INT */
-     , (563, 38, 50) /* RESIST_LOCKPICK_INT */;
+VALUES (563, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (563, 008 /* MASS_INT */, 500)
+     , (563, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (563, 019 /* VALUE_INT */, 0)
+     , (563, 038 /* RESIST_LOCKPICK_INT */, 50)
+     , (563, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (563, 11, 300) /* RESET_INTERVAL_FLOAT */
-     , (563, 54, 2) /* USE_RADIUS_FLOAT */;
+VALUES (563, 011 /* RESET_INTERVAL_FLOAT */, 300)
+     , (563, 054 /* USE_RADIUS_FLOAT */, 2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (563, 1, True) /* STUCK_BOOL */
-     , (563, 33, False) /* RESET_MESSAGE_PENDING_BOOL */
-     , (563, 2, False) /* OPEN_BOOL */
-     , (563, 34, False) /* DEFAULT_OPEN_BOOL */
-     , (563, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (563, 13, False) /* ETHEREAL_BOOL */
-     , (563, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (563, 001 /* STUCK_BOOL */, True)
+     , (563, 002 /* OPEN_BOOL */, False)
+     , (563, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (563, 013 /* ETHEREAL_BOOL */, False)
+     , (563, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (563, 033 /* RESET_MESSAGE_PENDING_BOOL */, False)
+     , (563, 034 /* DEFAULT_OPEN_BOOL */, False);
 

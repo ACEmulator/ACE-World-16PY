@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 496;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (496, 'sign-arwicshopmirinda', /* Generic_WeenieType */ 1);
+VALUES (496, 'sign-arwicshopmirinda', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (496, 16, 'Mirinda''s Miscellaneous') /* LONG_DESC_STRING */
-     , (496, 1, 'Miranda''s Miscellaneous') /* NAME_STRING */;
+VALUES (496, 001 /* NAME_STRING */, 'Miranda''s Miscellaneous')
+     , (496, 016 /* LONG_DESC_STRING */, 'Mirinda''s Miscellaneous');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (496, 1, 33555593) /* SETUP_DID */
-     , (496, 6, 67111092) /* PALETTE_BASE_DID */
-     , (496, 7, 268435681) /* CLOTHINGBASE_DID */
-     , (496, 8, 100668115) /* ICON_DID */;
+VALUES (496, 001 /* SETUP_DID */, 33555593)
+     , (496, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (496, 007 /* CLOTHINGBASE_DID */, 268435681)
+     , (496, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (496, 1, 128) /* ITEM_TYPE_INT */
-     , (496, 93, 1048) /* PHYSICS_STATE_INT */
-     , (496, 5, 9000) /* ENCUMB_VAL_INT */
-     , (496, 16, 1) /* ITEM_USEABLE_INT */
-     , (496, 8, 1800) /* MASS_INT */
-     , (496, 19, 125) /* VALUE_INT */;
+VALUES (496, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (496, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (496, 008 /* MASS_INT */, 1800)
+     , (496, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (496, 019 /* VALUE_INT */, 125)
+     , (496, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (496, 1, True) /* STUCK_BOOL */
-     , (496, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (496, 13, False) /* ETHEREAL_BOOL */
-     , (496, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (496, 001 /* STUCK_BOOL */, True)
+     , (496, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (496, 013 /* ETHEREAL_BOOL */, False)
+     , (496, 022 /* INSCRIBABLE_BOOL */, False);
 

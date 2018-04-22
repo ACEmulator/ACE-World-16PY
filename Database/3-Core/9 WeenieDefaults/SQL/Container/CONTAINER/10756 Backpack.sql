@@ -2,39 +2,39 @@
 DELETE FROM weenie WHERE class_Id = 10756;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (10756, 'backpackhouse', /* Container_WeenieType */ 21);
+VALUES (10756, 'backpackhouse', 21 /* Container_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10756, 1, 'Backpack') /* NAME_STRING */
-     , (10756, 15, 'Property of the National Bank of Dereth.') /* SHORT_DESC_STRING */;
+VALUES (10756, 001 /* NAME_STRING */, 'Backpack')
+     , (10756, 015 /* SHORT_DESC_STRING */, 'Property of the National Bank of Dereth.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10756, 1, 33554769) /* SETUP_DID */
-     , (10756, 3, 536870932) /* SOUND_TABLE_DID */
-     , (10756, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (10756, 6, 67111919) /* PALETTE_BASE_DID */
-     , (10756, 7, 268435867) /* CLOTHINGBASE_DID */
-     , (10756, 8, 100670383) /* ICON_DID */;
+VALUES (10756, 001 /* SETUP_DID */, 33554769)
+     , (10756, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (10756, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (10756, 007 /* CLOTHINGBASE_DID */, 268435867)
+     , (10756, 008 /* ICON_DID */, 100670383)
+     , (10756, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (10756, 9, 0) /* LOCATIONS_INT */
-     , (10756, 1, 512) /* ITEM_TYPE_INT */
-     , (10756, 19, 65) /* VALUE_INT */
-     , (10756, 3, 21) /* PALETTE_TEMPLATE_INT */
-     , (10756, 5, 15) /* ENCUMB_VAL_INT */
-     , (10756, 6, 120) /* ITEMS_CAPACITY_INT */
-     , (10756, 7, 0) /* CONTAINERS_CAPACITY_INT */
-     , (10756, 16, 56) /* ITEM_USEABLE_INT */
-     , (10756, 8, 200) /* MASS_INT */
-     , (10756, 93, 1044) /* PHYSICS_STATE_INT */
-     , (10756, 96, 2000) /* ENCUMB_CAPACITY_INT */;
+VALUES (10756, 001 /* ITEM_TYPE_INT */, 512 /* TYPE_CONTAINER */)
+     , (10756, 003 /* PALETTE_TEMPLATE_INT */, 21 /* GOLD_PALETTE_TEMPLATE */)
+     , (10756, 005 /* ENCUMB_VAL_INT */, 15)
+     , (10756, 006 /* ITEMS_CAPACITY_INT */, 120)
+     , (10756, 007 /* CONTAINERS_CAPACITY_INT */, 0)
+     , (10756, 008 /* MASS_INT */, 200)
+     , (10756, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (10756, 016 /* ITEM_USEABLE_INT */, 56 /* USEABLE_CONTAINED_VIEWED_REMOTE */)
+     , (10756, 019 /* VALUE_INT */, 65)
+     , (10756, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (10756, 096 /* ENCUMB_CAPACITY_INT */, 2000);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (10756, 39, 1.75) /* DEFAULT_SCALE_FLOAT */
-     , (10756, 54, 0.5) /* USE_RADIUS_FLOAT */;
+VALUES (10756, 039 /* DEFAULT_SCALE_FLOAT */, 1.75)
+     , (10756, 054 /* USE_RADIUS_FLOAT */, 0.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10756, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (10756, 022 /* INSCRIBABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10756, 1, 2625, 100, 0, 1, False) /* Create Trade Note (10,000) for Contain_DestinationType */

@@ -2,41 +2,41 @@
 DELETE FROM weenie WHERE class_Id = 6325;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6325, 'glyphmace', /* CraftTool_WeenieType */ 44);
+VALUES (6325, 'glyphmace', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6325, 16, 'A glyph with the image of a mace emblazoned upon it.') /* LONG_DESC_STRING */
-     , (6325, 1, 'Mace Glyph') /* NAME_STRING */
-     , (6325, 14, 'Use this on a Pyreal Ingot.') /* USE_STRING */
-     , (6325, 15, 'A glyph with the image of a mace emblazoned upon it.') /* SHORT_DESC_STRING */;
+VALUES (6325, 001 /* NAME_STRING */, 'Mace Glyph')
+     , (6325, 014 /* USE_STRING */, 'Use this on a Pyreal Ingot.')
+     , (6325, 015 /* SHORT_DESC_STRING */, 'A glyph with the image of a mace emblazoned upon it.')
+     , (6325, 016 /* LONG_DESC_STRING */, 'A glyph with the image of a mace emblazoned upon it.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6325, 1, 33556438) /* SETUP_DID */
-     , (6325, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6325, 8, 100670479) /* ICON_DID */
-     , (6325, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (6325, 001 /* SETUP_DID */, 33556438)
+     , (6325, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6325, 008 /* ICON_DID */, 100670479)
+     , (6325, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6325, 9, 0) /* LOCATIONS_INT */
-     , (6325, 1, 128) /* ITEM_TYPE_INT */
-     , (6325, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (6325, 5, 10) /* ENCUMB_VAL_INT */
-     , (6325, 8, 10) /* MASS_INT */
-     , (6325, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (6325, 12, 1) /* STACK_SIZE_INT */
-     , (6325, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (6325, 15, 5000) /* STACK_UNIT_VALUE_INT */
-     , (6325, 16, 524296) /* ITEM_USEABLE_INT */
-     , (6325, 19, 5000) /* VALUE_INT */
-     , (6325, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (6325, 151, 11) /* HOOK_TYPE_INT */
-     , (6325, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6325, 94, 128) /* TARGET_TYPE_INT */;
+VALUES (6325, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (6325, 005 /* ENCUMB_VAL_INT */, 10)
+     , (6325, 008 /* MASS_INT */, 10)
+     , (6325, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (6325, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (6325, 012 /* STACK_SIZE_INT */, 1)
+     , (6325, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (6325, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (6325, 015 /* STACK_UNIT_VALUE_INT */, 5000)
+     , (6325, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (6325, 019 /* VALUE_INT */, 5000)
+     , (6325, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (6325, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (6325, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (6325, 151 /* HOOK_TYPE_INT */, 11 /* Floor_HookTypeEnum, Wall_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (6325, 39, 0.2) /* DEFAULT_SCALE_FLOAT */;
+VALUES (6325, 039 /* DEFAULT_SCALE_FLOAT */, 0.2);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6325, 22, True) /* INSCRIBABLE_BOOL */
-     , (6325, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (6325, 022 /* INSCRIBABLE_BOOL */, True)
+     , (6325, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

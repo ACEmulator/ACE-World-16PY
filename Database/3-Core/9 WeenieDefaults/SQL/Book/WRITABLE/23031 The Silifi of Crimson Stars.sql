@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 23031;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (23031, 'rumorsilificrimsonstars', /* Book_WeenieType */ 8);
+VALUES (23031, 'rumorsilificrimsonstars', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23031, 1, 'The Silifi of Crimson Stars') /* NAME_STRING */;
+VALUES (23031, 001 /* NAME_STRING */, 'The Silifi of Crimson Stars');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23031, 1, 33554773) /* SETUP_DID */
-     , (23031, 3, 536870932) /* SOUND_TABLE_DID */
-     , (23031, 8, 100668176) /* ICON_DID */
-     , (23031, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (23031, 001 /* SETUP_DID */, 33554773)
+     , (23031, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (23031, 008 /* ICON_DID */, 100668176)
+     , (23031, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (23031, 9, 0) /* LOCATIONS_INT */
-     , (23031, 1, 8192) /* ITEM_TYPE_INT */
-     , (23031, 93, 1044) /* PHYSICS_STATE_INT */
-     , (23031, 5, 10) /* ENCUMB_VAL_INT */
-     , (23031, 16, 8) /* ITEM_USEABLE_INT */
-     , (23031, 8, 5) /* MASS_INT */
-     , (23031, 19, 10) /* VALUE_INT */;
+VALUES (23031, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (23031, 005 /* ENCUMB_VAL_INT */, 10)
+     , (23031, 008 /* MASS_INT */, 5)
+     , (23031, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (23031, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (23031, 019 /* VALUE_INT */, 10)
+     , (23031, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23031, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (23031, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23031, 1, 1000) /* Book Data */;

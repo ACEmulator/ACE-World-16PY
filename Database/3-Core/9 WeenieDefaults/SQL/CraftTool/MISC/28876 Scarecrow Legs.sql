@@ -2,42 +2,42 @@
 DELETE FROM weenie WHERE class_Id = 28876;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28876, 'legscarecrow', /* CraftTool_WeenieType */ 44);
+VALUES (28876, 'legscarecrow', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28876, 1, 'Scarecrow Legs') /* NAME_STRING */
-     , (28876, 14, 'Use these on a scarecrow torso fitted with either one or two arms.') /* USE_STRING */
-     , (28876, 15, 'The lower trunk of a scarecrow, complete with legs.') /* SHORT_DESC_STRING */;
+VALUES (28876, 001 /* NAME_STRING */, 'Scarecrow Legs')
+     , (28876, 014 /* USE_STRING */, 'Use these on a scarecrow torso fitted with either one or two arms.')
+     , (28876, 015 /* SHORT_DESC_STRING */, 'The lower trunk of a scarecrow, complete with legs.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28876, 1, 33558999) /* SETUP_DID */
-     , (28876, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28876, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (28876, 6, 67108990) /* PALETTE_BASE_DID */
-     , (28876, 7, 268436866) /* CLOTHINGBASE_DID */
-     , (28876, 8, 100677089) /* ICON_DID */;
+VALUES (28876, 001 /* SETUP_DID */, 33558999)
+     , (28876, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28876, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (28876, 007 /* CLOTHINGBASE_DID */, 268436866)
+     , (28876, 008 /* ICON_DID */, 100677089)
+     , (28876, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28876, 9, 0) /* LOCATIONS_INT */
-     , (28876, 1, 128) /* ITEM_TYPE_INT */
-     , (28876, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (28876, 3, 4) /* PALETTE_TEMPLATE_INT */
-     , (28876, 13, 200) /* STACK_UNIT_ENCUMB_INT */
-     , (28876, 5, 200) /* ENCUMB_VAL_INT */
-     , (28876, 8, 800) /* MASS_INT */
-     , (28876, 12, 1) /* STACK_SIZE_INT */
-     , (28876, 14, 800) /* STACK_UNIT_MASS_INT */
-     , (28876, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (28876, 16, 524296) /* ITEM_USEABLE_INT */
-     , (28876, 19, 0) /* VALUE_INT */
-     , (28876, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (28876, 151, 1) /* HOOK_TYPE_INT */
-     , (28876, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28876, 94, 128) /* TARGET_TYPE_INT */
-     , (28876, 33, 0) /* BONDED_INT */
-     , (28876, 114, 0) /* ATTUNED_INT */;
+VALUES (28876, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (28876, 003 /* PALETTE_TEMPLATE_INT */, 4 /* BROWN_PALETTE_TEMPLATE */)
+     , (28876, 005 /* ENCUMB_VAL_INT */, 200)
+     , (28876, 008 /* MASS_INT */, 800)
+     , (28876, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28876, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (28876, 012 /* STACK_SIZE_INT */, 1)
+     , (28876, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
+     , (28876, 014 /* STACK_UNIT_MASS_INT */, 800)
+     , (28876, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (28876, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (28876, 019 /* VALUE_INT */, 0)
+     , (28876, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (28876, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28876, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (28876, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
+     , (28876, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (28876, 151 /* HOOK_TYPE_INT */, 1 /* Floor_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28876, 22, True) /* INSCRIBABLE_BOOL */
-     , (28876, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28876, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28876, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

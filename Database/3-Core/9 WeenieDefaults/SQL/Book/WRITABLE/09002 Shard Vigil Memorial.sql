@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 9002;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9002, 'monumentthistledown', /* Book_WeenieType */ 8);
+VALUES (9002, 'monumentthistledown', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9002, 1, 'Shard Vigil Memorial') /* NAME_STRING */;
+VALUES (9002, 001 /* NAME_STRING */, 'Shard Vigil Memorial');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002, 1, 33556953) /* SETUP_DID */
-     , (9002, 8, 100671330) /* ICON_DID */;
+VALUES (9002, 001 /* SETUP_DID */, 33556953)
+     , (9002, 008 /* ICON_DID */, 100671330);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9002, 1, 8192) /* ITEM_TYPE_INT */
-     , (9002, 93, 1048) /* PHYSICS_STATE_INT */
-     , (9002, 5, 10000) /* ENCUMB_VAL_INT */
-     , (9002, 133, 4) /* SHOWABLE_ON_RADAR_INT */
-     , (9002, 16, 48) /* ITEM_USEABLE_INT */
-     , (9002, 8, 10000) /* MASS_INT */
-     , (9002, 19, 0) /* VALUE_INT */
-     , (9002, 95, 8) /* RADARBLIP_COLOR_INT */;
+VALUES (9002, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (9002, 005 /* ENCUMB_VAL_INT */, 10000)
+     , (9002, 008 /* MASS_INT */, 10000)
+     , (9002, 016 /* ITEM_USEABLE_INT */, 48 /* USEABLE_VIEWED_REMOTE */)
+     , (9002, 019 /* VALUE_INT */, 0)
+     , (9002, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9002, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
+     , (9002, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9002, 54, 5) /* USE_RADIUS_FLOAT */;
+VALUES (9002, 054 /* USE_RADIUS_FLOAT */, 5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9002, 1, True) /* STUCK_BOOL */
-     , (9002, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (9002, 13, False) /* ETHEREAL_BOOL */
-     , (9002, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (9002, 001 /* STUCK_BOOL */, True)
+     , (9002, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (9002, 013 /* ETHEREAL_BOOL */, False)
+     , (9002, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9002, 9, 1000) /* Book Data */;

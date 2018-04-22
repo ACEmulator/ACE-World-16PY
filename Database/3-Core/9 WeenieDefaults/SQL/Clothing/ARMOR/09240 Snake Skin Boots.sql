@@ -2,48 +2,48 @@
 DELETE FROM weenie WHERE class_Id = 9240;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9240, 'bootssnakeskin', /* Clothing_WeenieType */ 2);
+VALUES (9240, 'bootssnakeskin', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9240, 16, 'Boots made out of the hide of a Sclavus.  They are faintly iridescent, and shimmer when you walk.') /* LONG_DESC_STRING */
-     , (9240, 1, 'Snake Skin Boots') /* NAME_STRING */;
+VALUES (9240, 001 /* NAME_STRING */, 'Snake Skin Boots')
+     , (9240, 016 /* LONG_DESC_STRING */, 'Boots made out of the hide of a Sclavus.  They are faintly iridescent, and shimmer when you walk.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9240, 1, 33556683) /* SETUP_DID */
-     , (9240, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9240, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (9240, 6, 67108990) /* PALETTE_BASE_DID */
-     , (9240, 7, 268436146) /* CLOTHINGBASE_DID */
-     , (9240, 8, 100668177) /* ICON_DID */;
+VALUES (9240, 001 /* SETUP_DID */, 33556683)
+     , (9240, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9240, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (9240, 007 /* CLOTHINGBASE_DID */, 268436146)
+     , (9240, 008 /* ICON_DID */, 100668177)
+     , (9240, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9240, 9, 384) /* LOCATIONS_INT */
-     , (9240, 1, 2) /* ITEM_TYPE_INT */
-     , (9240, 27, 4) /* ARMOR_TYPE_INT */
-     , (9240, 19, 1200) /* VALUE_INT */
-     , (9240, 3, 8) /* PALETTE_TEMPLATE_INT */
-     , (9240, 4, 65536) /* CLOTHING_PRIORITY_INT */
-     , (9240, 5, 450) /* ENCUMB_VAL_INT */
-     , (9240, 16, 1) /* ITEM_USEABLE_INT */
-     , (9240, 8, 230) /* MASS_INT */
-     , (9240, 28, 100) /* ARMOR_LEVEL_INT */
-     , (9240, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9240, 44, 3) /* DAMAGE_INT */
-     , (9240, 45, 4) /* DAMAGE_TYPE_INT */;
+VALUES (9240, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
+     , (9240, 003 /* PALETTE_TEMPLATE_INT */, 8 /* GREEN_PALETTE_TEMPLATE */)
+     , (9240, 004 /* CLOTHING_PRIORITY_INT */, 65536 /* Feet */)
+     , (9240, 005 /* ENCUMB_VAL_INT */, 450)
+     , (9240, 008 /* MASS_INT */, 230)
+     , (9240, 009 /* LOCATIONS_INT */, 384 /* LOWER_LEG_WEAR_LOC, FOOT_WEAR_LOC */)
+     , (9240, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9240, 019 /* VALUE_INT */, 1200)
+     , (9240, 027 /* ARMOR_TYPE_INT */, 4)
+     , (9240, 028 /* ARMOR_LEVEL_INT */, 100)
+     , (9240, 044 /* DAMAGE_INT */, 3)
+     , (9240, 045 /* DAMAGE_TYPE_INT */, 4 /* BLUDGEON_DAMAGE_TYPE */)
+     , (9240, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9240, 12, 0.1) /* SHADE_FLOAT */
-     , (9240, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9240, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9240, 110, 1) /* BULK_MOD_FLOAT */
-     , (9240, 15, 0.7) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9240, 111, 1) /* SIZE_MOD_FLOAT */
-     , (9240, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9240, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9240, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9240, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9240, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */;
+VALUES (9240, 012 /* SHADE_FLOAT */, 0.1)
+     , (9240, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 1.4)
+     , (9240, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 1)
+     , (9240, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.7)
+     , (9240, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1.4)
+     , (9240, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (9240, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.4)
+     , (9240, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.4)
+     , (9240, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.75)
+     , (9240, 110 /* BULK_MOD_FLOAT */, 1)
+     , (9240, 111 /* SIZE_MOD_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9240, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (9240, 022 /* INSCRIBABLE_BOOL */, True);
 

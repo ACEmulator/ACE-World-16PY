@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 15240;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (15240, 'midhillcottagessign', /* Generic_WeenieType */ 1);
+VALUES (15240, 'midhillcottagessign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (15240, 16, 'Welcome to Midhill Cottages') /* LONG_DESC_STRING */
-     , (15240, 1, 'Midhill Cottages') /* NAME_STRING */;
+VALUES (15240, 001 /* NAME_STRING */, 'Midhill Cottages')
+     , (15240, 016 /* LONG_DESC_STRING */, 'Welcome to Midhill Cottages');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15240, 1, 33557463) /* SETUP_DID */
-     , (15240, 8, 100668115) /* ICON_DID */;
+VALUES (15240, 001 /* SETUP_DID */, 33557463)
+     , (15240, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (15240, 1, 128) /* ITEM_TYPE_INT */
-     , (15240, 93, 1048) /* PHYSICS_STATE_INT */
-     , (15240, 5, 9000) /* ENCUMB_VAL_INT */
-     , (15240, 16, 1) /* ITEM_USEABLE_INT */
-     , (15240, 8, 1800) /* MASS_INT */
-     , (15240, 19, 125) /* VALUE_INT */;
+VALUES (15240, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (15240, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (15240, 008 /* MASS_INT */, 1800)
+     , (15240, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (15240, 019 /* VALUE_INT */, 125)
+     , (15240, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15240, 1, True) /* STUCK_BOOL */
-     , (15240, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (15240, 13, False) /* ETHEREAL_BOOL */
-     , (15240, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (15240, 001 /* STUCK_BOOL */, True)
+     , (15240, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (15240, 013 /* ETHEREAL_BOOL */, False)
+     , (15240, 022 /* INSCRIBABLE_BOOL */, False);
 

@@ -2,30 +2,30 @@
 DELETE FROM weenie WHERE class_Id = 4644;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4644, 'alarqasshopkeepsign', /* Generic_WeenieType */ 1);
+VALUES (4644, 'alarqasshopkeepsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4644, 16, 'General Goods and Supplies') /* LONG_DESC_STRING */
-     , (4644, 1, 'General Goods and Supplies') /* NAME_STRING */;
+VALUES (4644, 001 /* NAME_STRING */, 'General Goods and Supplies')
+     , (4644, 016 /* LONG_DESC_STRING */, 'General Goods and Supplies');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4644, 1, 33555909) /* SETUP_DID */
-     , (4644, 6, 67111860) /* PALETTE_BASE_DID */
-     , (4644, 7, 268435821) /* CLOTHINGBASE_DID */
-     , (4644, 8, 100668115) /* ICON_DID */;
+VALUES (4644, 001 /* SETUP_DID */, 33555909)
+     , (4644, 006 /* PALETTE_BASE_DID */, 67111860)
+     , (4644, 007 /* CLOTHINGBASE_DID */, 268435821)
+     , (4644, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4644, 1, 128) /* ITEM_TYPE_INT */
-     , (4644, 93, 24) /* PHYSICS_STATE_INT */
-     , (4644, 5, 9000) /* ENCUMB_VAL_INT */
-     , (4644, 16, 1) /* ITEM_USEABLE_INT */
-     , (4644, 8, 1800) /* MASS_INT */
-     , (4644, 19, 125) /* VALUE_INT */;
+VALUES (4644, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4644, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (4644, 008 /* MASS_INT */, 1800)
+     , (4644, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4644, 019 /* VALUE_INT */, 125)
+     , (4644, 093 /* PHYSICS_STATE_INT */, 24 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4644, 1, True) /* STUCK_BOOL */
-     , (4644, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (4644, 13, False) /* ETHEREAL_BOOL */
-     , (4644, 22, False) /* INSCRIBABLE_BOOL */
-     , (4644, 14, False) /* GRAVITY_STATUS_BOOL */;
+VALUES (4644, 001 /* STUCK_BOOL */, True)
+     , (4644, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (4644, 013 /* ETHEREAL_BOOL */, False)
+     , (4644, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (4644, 022 /* INSCRIBABLE_BOOL */, False);
 

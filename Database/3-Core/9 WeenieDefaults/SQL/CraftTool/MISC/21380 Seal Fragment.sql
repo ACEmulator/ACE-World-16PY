@@ -2,38 +2,38 @@
 DELETE FROM weenie WHERE class_Id = 21380;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (21380, 'sealfragment3', /* CraftTool_WeenieType */ 44);
+VALUES (21380, 'sealfragment3', 44 /* CraftTool_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21380, 1, 'Seal Fragment') /* NAME_STRING */
-     , (21380, 33, 'ProvingGroundsFloorWalk') /* QUEST_STRING */
-     , (21380, 14, 'This fragment appears to be a piece from a larger version. Use this on another fragment to combine them.') /* USE_STRING */
-     , (21380, 15, 'A seal fragment with odd glyphs and sigils.') /* SHORT_DESC_STRING */;
+VALUES (21380, 001 /* NAME_STRING */, 'Seal Fragment')
+     , (21380, 014 /* USE_STRING */, 'This fragment appears to be a piece from a larger version. Use this on another fragment to combine them.')
+     , (21380, 015 /* SHORT_DESC_STRING */, 'A seal fragment with odd glyphs and sigils.')
+     , (21380, 033 /* QUEST_STRING */, 'ProvingGroundsFloorWalk');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21380, 1, 33557975) /* SETUP_DID */
-     , (21380, 3, 536870932) /* SOUND_TABLE_DID */
-     , (21380, 8, 100673505) /* ICON_DID */
-     , (21380, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (21380, 001 /* SETUP_DID */, 33557975)
+     , (21380, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (21380, 008 /* ICON_DID */, 100673505)
+     , (21380, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (21380, 9, 0) /* LOCATIONS_INT */
-     , (21380, 1, 128) /* ITEM_TYPE_INT */
-     , (21380, 13, 200) /* STACK_UNIT_ENCUMB_INT */
-     , (21380, 5, 200) /* ENCUMB_VAL_INT */
-     , (21380, 8, 200) /* MASS_INT */
-     , (21380, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (21380, 12, 1) /* STACK_SIZE_INT */
-     , (21380, 14, 200) /* STACK_UNIT_MASS_INT */
-     , (21380, 15, 0) /* STACK_UNIT_VALUE_INT */
-     , (21380, 16, 524296) /* ITEM_USEABLE_INT */
-     , (21380, 19, 0) /* VALUE_INT */
-     , (21380, 93, 1044) /* PHYSICS_STATE_INT */
-     , (21380, 94, 128) /* TARGET_TYPE_INT */
-     , (21380, 33, 1) /* BONDED_INT */
-     , (21380, 114, 1) /* ATTUNED_INT */;
+VALUES (21380, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (21380, 005 /* ENCUMB_VAL_INT */, 200)
+     , (21380, 008 /* MASS_INT */, 200)
+     , (21380, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (21380, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (21380, 012 /* STACK_SIZE_INT */, 1)
+     , (21380, 013 /* STACK_UNIT_ENCUMB_INT */, 200)
+     , (21380, 014 /* STACK_UNIT_MASS_INT */, 200)
+     , (21380, 015 /* STACK_UNIT_VALUE_INT */, 0)
+     , (21380, 016 /* ITEM_USEABLE_INT */, 524296 /* USEABLE_SOURCE_CONTAINED_TARGET_CONTAINED */)
+     , (21380, 019 /* VALUE_INT */, 0)
+     , (21380, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (21380, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (21380, 094 /* TARGET_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (21380, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21380, 69, False) /* IS_SELLABLE_BOOL */
-     , (21380, 22, True) /* INSCRIBABLE_BOOL */;
+VALUES (21380, 022 /* INSCRIBABLE_BOOL */, True)
+     , (21380, 069 /* IS_SELLABLE_BOOL */, False);
 

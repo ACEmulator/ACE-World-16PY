@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 19387;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (19387, 'ivorygatesign', /* Generic_WeenieType */ 1);
+VALUES (19387, 'ivorygatesign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19387, 16, 'Ivory Gate') /* LONG_DESC_STRING */
-     , (19387, 1, 'Ivory Gate') /* NAME_STRING */;
+VALUES (19387, 001 /* NAME_STRING */, 'Ivory Gate')
+     , (19387, 016 /* LONG_DESC_STRING */, 'Ivory Gate');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19387, 1, 33557695) /* SETUP_DID */
-     , (19387, 8, 100667499) /* ICON_DID */;
+VALUES (19387, 001 /* SETUP_DID */, 33557695)
+     , (19387, 008 /* ICON_DID */, 100667499);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (19387, 1, 128) /* ITEM_TYPE_INT */
-     , (19387, 93, 1048) /* PHYSICS_STATE_INT */
-     , (19387, 5, 9000) /* ENCUMB_VAL_INT */
-     , (19387, 16, 1) /* ITEM_USEABLE_INT */
-     , (19387, 8, 1800) /* MASS_INT */
-     , (19387, 19, 125) /* VALUE_INT */;
+VALUES (19387, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (19387, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (19387, 008 /* MASS_INT */, 1800)
+     , (19387, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (19387, 019 /* VALUE_INT */, 125)
+     , (19387, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19387, 1, True) /* STUCK_BOOL */
-     , (19387, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (19387, 13, False) /* ETHEREAL_BOOL */
-     , (19387, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (19387, 001 /* STUCK_BOOL */, True)
+     , (19387, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (19387, 013 /* ETHEREAL_BOOL */, False)
+     , (19387, 022 /* INSCRIBABLE_BOOL */, False);
 

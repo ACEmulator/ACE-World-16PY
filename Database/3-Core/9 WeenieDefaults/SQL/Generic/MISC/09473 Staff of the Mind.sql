@@ -2,33 +2,33 @@
 DELETE FROM weenie WHERE class_Id = 9473;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9473, 'staffhumanmind', /* Generic_WeenieType */ 1);
+VALUES (9473, 'staffhumanmind', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9473, 1, 'Staff of the Mind') /* NAME_STRING */
-     , (9473, 15, 'A Lugian gift, traded in return for the Sceptre of the Mind') /* SHORT_DESC_STRING */;
+VALUES (9473, 001 /* NAME_STRING */, 'Staff of the Mind')
+     , (9473, 015 /* SHORT_DESC_STRING */, 'A Lugian gift, traded in return for the Sceptre of the Mind');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9473, 1, 33557010) /* SETUP_DID */
-     , (9473, 3, 536870932) /* SOUND_TABLE_DID */
-     , (9473, 8, 100671497) /* ICON_DID */
-     , (9473, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (9473, 001 /* SETUP_DID */, 33557010)
+     , (9473, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (9473, 008 /* ICON_DID */, 100671497)
+     , (9473, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9473, 33, 1) /* BONDED_INT */
-     , (9473, 9, 0) /* LOCATIONS_INT */
-     , (9473, 1, 128) /* ITEM_TYPE_INT */
-     , (9473, 93, 1044) /* PHYSICS_STATE_INT */
-     , (9473, 5, 150) /* ENCUMB_VAL_INT */
-     , (9473, 16, 1) /* ITEM_USEABLE_INT */
-     , (9473, 8, 150) /* MASS_INT */
-     , (9473, 19, 0) /* VALUE_INT */
-     , (9473, 114, 1) /* ATTUNED_INT */;
+VALUES (9473, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9473, 005 /* ENCUMB_VAL_INT */, 150)
+     , (9473, 008 /* MASS_INT */, 150)
+     , (9473, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9473, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9473, 019 /* VALUE_INT */, 0)
+     , (9473, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (9473, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (9473, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9473, 39, 1.5) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9473, 039 /* DEFAULT_SCALE_FLOAT */, 1.5);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9473, 22, True) /* INSCRIBABLE_BOOL */
-     , (9473, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (9473, 022 /* INSCRIBABLE_BOOL */, True)
+     , (9473, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

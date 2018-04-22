@@ -2,36 +2,36 @@
 DELETE FROM weenie WHERE class_Id = 28893;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28893, 'torsoarmoredundead', /* Generic_WeenieType */ 1);
+VALUES (28893, 'torsoarmoredundead', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28893, 1, 'Armored Undead Torso') /* NAME_STRING */
-     , (28893, 14, 'Either armored undead legs or an armored undead arm can be added to this item.') /* USE_STRING */
-     , (28893, 15, 'An armored undead''s torso and head, with one arm still attached.') /* SHORT_DESC_STRING */;
+VALUES (28893, 001 /* NAME_STRING */, 'Armored Undead Torso')
+     , (28893, 014 /* USE_STRING */, 'Either armored undead legs or an armored undead arm can be added to this item.')
+     , (28893, 015 /* SHORT_DESC_STRING */, 'An armored undead''s torso and head, with one arm still attached.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28893, 1, 33559002) /* SETUP_DID */
-     , (28893, 3, 536870932) /* SOUND_TABLE_DID */
-     , (28893, 8, 100677093) /* ICON_DID */
-     , (28893, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (28893, 001 /* SETUP_DID */, 33559002)
+     , (28893, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (28893, 008 /* ICON_DID */, 100677093)
+     , (28893, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28893, 9, 0) /* LOCATIONS_INT */
-     , (28893, 1, 128) /* ITEM_TYPE_INT */
-     , (28893, 93, 1044) /* PHYSICS_STATE_INT */
-     , (28893, 5, 200) /* ENCUMB_VAL_INT */
-     , (28893, 16, 1) /* ITEM_USEABLE_INT */
-     , (28893, 8, 800) /* MASS_INT */
-     , (28893, 19, 0) /* VALUE_INT */
-     , (28893, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (28893, 151, 9) /* HOOK_TYPE_INT */
-     , (28893, 33, 0) /* BONDED_INT */
-     , (28893, 114, 0) /* ATTUNED_INT */;
+VALUES (28893, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (28893, 005 /* ENCUMB_VAL_INT */, 200)
+     , (28893, 008 /* MASS_INT */, 800)
+     , (28893, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (28893, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (28893, 019 /* VALUE_INT */, 0)
+     , (28893, 033 /* BONDED_INT */, 0 /* Normal_BondedStatus */)
+     , (28893, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (28893, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
+     , (28893, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (28893, 151 /* HOOK_TYPE_INT */, 9 /* Floor_HookTypeEnum, Yard_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28893, 39, 1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (28893, 039 /* DEFAULT_SCALE_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28893, 22, True) /* INSCRIBABLE_BOOL */
-     , (28893, 23, False) /* DESTROY_ON_SELL_BOOL */;
+VALUES (28893, 022 /* INSCRIBABLE_BOOL */, True)
+     , (28893, 023 /* DESTROY_ON_SELL_BOOL */, False);
 

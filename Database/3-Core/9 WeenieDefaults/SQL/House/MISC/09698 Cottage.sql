@@ -2,34 +2,34 @@
 DELETE FROM weenie WHERE class_Id = 9698;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (9698, 'housecottage6', /* House_WeenieType */ 53);
+VALUES (9698, 'housecottage6', 53 /* House_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9698, 1, 'Cottage') /* NAME_STRING */;
+VALUES (9698, 001 /* NAME_STRING */, 'Cottage');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9698, 1, 33557058) /* SETUP_DID */
-     , (9698, 8, 100671878) /* ICON_DID */
-     , (9698, 42, 6) /* HOUSEID_DID */
-     , (9698, 44, 151) /* RESTRICTION_EFFECT_DID */;
+VALUES (9698, 001 /* SETUP_DID */, 33557058)
+     , (9698, 008 /* ICON_DID */, 100671878)
+     , (9698, 042 /* HOUSEID_DID */, 6)
+     , (9698, 044 /* RESTRICTION_EFFECT_DID */, 151 /* PS_WeddingSteele */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (9698, 9, 0) /* LOCATIONS_INT */
-     , (9698, 1, 128) /* ITEM_TYPE_INT */
-     , (9698, 93, 52) /* PHYSICS_STATE_INT */
-     , (9698, 5, 10) /* ENCUMB_VAL_INT */
-     , (9698, 16, 1) /* ITEM_USEABLE_INT */
-     , (9698, 8, 10) /* MASS_INT */
-     , (9698, 155, 1) /* HOUSE_TYPE_INT */
-     , (9698, 19, 0) /* VALUE_INT */;
+VALUES (9698, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (9698, 005 /* ENCUMB_VAL_INT */, 10)
+     , (9698, 008 /* MASS_INT */, 10)
+     , (9698, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (9698, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (9698, 019 /* VALUE_INT */, 0)
+     , (9698, 093 /* PHYSICS_STATE_INT */, 52 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, NODRAW_PS */)
+     , (9698, 155 /* HOUSE_TYPE_INT */, 1 /* Cottage_HouseType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (9698, 39, 0.1) /* DEFAULT_SCALE_FLOAT */;
+VALUES (9698, 039 /* DEFAULT_SCALE_FLOAT */, 0.1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9698, 1, True) /* STUCK_BOOL */
-     , (9698, 71, True) /* NODRAW_BOOL */
-     , (9698, 13, True) /* ETHEREAL_BOOL */
-     , (9698, 14, False) /* GRAVITY_STATUS_BOOL */
-     , (9698, 24, True) /* UI_HIDDEN_BOOL */;
+VALUES (9698, 001 /* STUCK_BOOL */, True)
+     , (9698, 013 /* ETHEREAL_BOOL */, True)
+     , (9698, 014 /* GRAVITY_STATUS_BOOL */, False)
+     , (9698, 024 /* UI_HIDDEN_BOOL */, True)
+     , (9698, 071 /* NODRAW_BOOL */, True);
 

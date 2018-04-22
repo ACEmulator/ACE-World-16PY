@@ -2,28 +2,28 @@
 DELETE FROM weenie WHERE class_Id = 6420;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (6420, 'rumorempbridge', /* Book_WeenieType */ 8);
+VALUES (6420, 'rumorempbridge', 8 /* Book_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6420, 1, 'The Obsidian Span') /* NAME_STRING */;
+VALUES (6420, 001 /* NAME_STRING */, 'The Obsidian Span');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6420, 1, 33554773) /* SETUP_DID */
-     , (6420, 3, 536870932) /* SOUND_TABLE_DID */
-     , (6420, 8, 100668176) /* ICON_DID */
-     , (6420, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (6420, 001 /* SETUP_DID */, 33554773)
+     , (6420, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (6420, 008 /* ICON_DID */, 100668176)
+     , (6420, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (6420, 9, 0) /* LOCATIONS_INT */
-     , (6420, 1, 8192) /* ITEM_TYPE_INT */
-     , (6420, 93, 1044) /* PHYSICS_STATE_INT */
-     , (6420, 5, 25) /* ENCUMB_VAL_INT */
-     , (6420, 16, 8) /* ITEM_USEABLE_INT */
-     , (6420, 8, 5) /* MASS_INT */
-     , (6420, 19, 3) /* VALUE_INT */;
+VALUES (6420, 001 /* ITEM_TYPE_INT */, 8192 /* TYPE_WRITABLE */)
+     , (6420, 005 /* ENCUMB_VAL_INT */, 25)
+     , (6420, 008 /* MASS_INT */, 5)
+     , (6420, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (6420, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (6420, 019 /* VALUE_INT */, 3)
+     , (6420, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6420, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (6420, 022 /* INSCRIBABLE_BOOL */, False);
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6420, 1, 1000) /* Book Data */;

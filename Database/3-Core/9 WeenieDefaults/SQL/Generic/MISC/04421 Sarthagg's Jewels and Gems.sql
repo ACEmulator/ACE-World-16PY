@@ -2,29 +2,29 @@
 DELETE FROM weenie WHERE class_Id = 4421;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (4421, 'lytelthorpejewelersign', /* Generic_WeenieType */ 1);
+VALUES (4421, 'lytelthorpejewelersign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4421, 16, 'Sarthagg''s Jewels and Gems') /* LONG_DESC_STRING */
-     , (4421, 1, 'Sarthagg''s Jewels and Gems') /* NAME_STRING */;
+VALUES (4421, 001 /* NAME_STRING */, 'Sarthagg''s Jewels and Gems')
+     , (4421, 016 /* LONG_DESC_STRING */, 'Sarthagg''s Jewels and Gems');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4421, 1, 33555593) /* SETUP_DID */
-     , (4421, 6, 67111092) /* PALETTE_BASE_DID */
-     , (4421, 7, 268435675) /* CLOTHINGBASE_DID */
-     , (4421, 8, 100668115) /* ICON_DID */;
+VALUES (4421, 001 /* SETUP_DID */, 33555593)
+     , (4421, 006 /* PALETTE_BASE_DID */, 67111092)
+     , (4421, 007 /* CLOTHINGBASE_DID */, 268435675)
+     , (4421, 008 /* ICON_DID */, 100668115);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (4421, 1, 128) /* ITEM_TYPE_INT */
-     , (4421, 93, 1048) /* PHYSICS_STATE_INT */
-     , (4421, 5, 9000) /* ENCUMB_VAL_INT */
-     , (4421, 16, 1) /* ITEM_USEABLE_INT */
-     , (4421, 8, 1800) /* MASS_INT */
-     , (4421, 19, 125) /* VALUE_INT */;
+VALUES (4421, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (4421, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (4421, 008 /* MASS_INT */, 1800)
+     , (4421, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (4421, 019 /* VALUE_INT */, 125)
+     , (4421, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4421, 1, True) /* STUCK_BOOL */
-     , (4421, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (4421, 13, False) /* ETHEREAL_BOOL */
-     , (4421, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (4421, 001 /* STUCK_BOOL */, True)
+     , (4421, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (4421, 013 /* ETHEREAL_BOOL */, False)
+     , (4421, 022 /* INSCRIBABLE_BOOL */, False);
 

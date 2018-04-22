@@ -2,27 +2,27 @@
 DELETE FROM weenie WHERE class_Id = 16899;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (16899, 'senmaicourtsign', /* Generic_WeenieType */ 1);
+VALUES (16899, 'senmaicourtsign', 1 /* Generic_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (16899, 16, 'Senmai Court') /* LONG_DESC_STRING */
-     , (16899, 1, 'Senmai Court') /* NAME_STRING */;
+VALUES (16899, 001 /* NAME_STRING */, 'Senmai Court')
+     , (16899, 016 /* LONG_DESC_STRING */, 'Senmai Court');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16899, 1, 33557653) /* SETUP_DID */
-     , (16899, 8, 100672342) /* ICON_DID */;
+VALUES (16899, 001 /* SETUP_DID */, 33557653)
+     , (16899, 008 /* ICON_DID */, 100672342);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (16899, 1, 128) /* ITEM_TYPE_INT */
-     , (16899, 93, 1048) /* PHYSICS_STATE_INT */
-     , (16899, 5, 9000) /* ENCUMB_VAL_INT */
-     , (16899, 16, 1) /* ITEM_USEABLE_INT */
-     , (16899, 8, 1800) /* MASS_INT */
-     , (16899, 19, 125) /* VALUE_INT */;
+VALUES (16899, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
+     , (16899, 005 /* ENCUMB_VAL_INT */, 9000)
+     , (16899, 008 /* MASS_INT */, 1800)
+     , (16899, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (16899, 019 /* VALUE_INT */, 125)
+     , (16899, 093 /* PHYSICS_STATE_INT */, 1048 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (16899, 1, True) /* STUCK_BOOL */
-     , (16899, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (16899, 13, False) /* ETHEREAL_BOOL */
-     , (16899, 22, False) /* INSCRIBABLE_BOOL */;
+VALUES (16899, 001 /* STUCK_BOOL */, True)
+     , (16899, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (16899, 013 /* ETHEREAL_BOOL */, False)
+     , (16899, 022 /* INSCRIBABLE_BOOL */, False);
 

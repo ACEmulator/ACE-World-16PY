@@ -2,82 +2,82 @@
 DELETE FROM weenie WHERE class_Id = 28977;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (28977, 'statuelauallanalnpc', /* Creature_WeenieType */ 10);
+VALUES (28977, 'statuelauallanalnpc', 10 /* Creature_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28977, 16, 'A well carved statue of Lauallana. It is masterfully crafted and looks very well made. Kir Loz may know more about this.') /* LONG_DESC_STRING */
-     , (28977, 1, 'Statue of Lauallana') /* NAME_STRING */;
+VALUES (28977, 001 /* NAME_STRING */, 'Statue of Lauallana')
+     , (28977, 016 /* LONG_DESC_STRING */, 'A well carved statue of Lauallana. It is masterfully crafted and looks very well made. Kir Loz may know more about this.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28977, 1, 33558989) /* SETUP_DID */
-     , (28977, 2, 150995147) /* MOTION_TABLE_DID */
-     , (28977, 3, 536871052) /* SOUND_TABLE_DID */
-     , (28977, 4, 805306398) /* COMBAT_TABLE_DID */
-     , (28977, 8, 100677077) /* ICON_DID */
-     , (28977, 22, 872415274) /* PHYSICS_EFFECT_TABLE_DID */;
+VALUES (28977, 001 /* SETUP_DID */, 33558989)
+     , (28977, 002 /* MOTION_TABLE_DID */, 150995147)
+     , (28977, 003 /* SOUND_TABLE_DID */, 536871052)
+     , (28977, 004 /* COMBAT_TABLE_DID */, 805306398)
+     , (28977, 008 /* ICON_DID */, 100677077)
+     , (28977, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415274);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (28977, 1, 16) /* ITEM_TYPE_INT */
-     , (28977, 146, 39036) /* XP_OVERRIDE_INT */
-     , (28977, 2, 63) /* CREATURE_TYPE_INT */
-     , (28977, 133, 0) /* SHOWABLE_ON_RADAR_INT */
-     , (28977, 6, -1) /* ITEMS_CAPACITY_INT */
-     , (28977, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (28977, 7, -1) /* CONTAINERS_CAPACITY_INT */
-     , (28977, 16, 32) /* ITEM_USEABLE_INT */
-     , (28977, 8, 120) /* MASS_INT */
-     , (28977, 25, 427) /* LEVEL_INT */
-     , (28977, 27, 0) /* ARMOR_TYPE_INT */
-     , (28977, 93, 6292504) /* PHYSICS_STATE_INT */
-     , (28977, 95, 3) /* RADARBLIP_COLOR_INT */;
+VALUES (28977, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (28977, 002 /* CREATURE_TYPE_INT */, 63 /* Statue_CreatureType */)
+     , (28977, 006 /* ITEMS_CAPACITY_INT */, -1)
+     , (28977, 007 /* CONTAINERS_CAPACITY_INT */, -1)
+     , (28977, 008 /* MASS_INT */, 120)
+     , (28977, 016 /* ITEM_USEABLE_INT */, 32 /* USEABLE_REMOTE */)
+     , (28977, 025 /* LEVEL_INT */, 427)
+     , (28977, 027 /* ARMOR_TYPE_INT */, 0)
+     , (28977, 093 /* PHYSICS_STATE_INT */, 6292504 /* REPORT_COLLISIONS_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, REPORT_COLLISIONS_AS_ENVIRONMENT_PS, EDGE_SLIDE_PS */)
+     , (28977, 095 /* RADARBLIP_COLOR_INT */, 3 /* White */)
+     , (28977, 133 /* SHOWABLE_ON_RADAR_INT */, 0 /* Undef_RadarEnum */)
+     , (28977, 134 /* PLAYER_KILLER_STATUS_INT */, 16 /* RubberGlue_PKStatus */)
+     , (28977, 146 /* XP_OVERRIDE_INT */, 39036);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (28977, 64, 1) /* RESIST_SLASH_FLOAT */
-     , (28977, 65, 1) /* RESIST_PIERCE_FLOAT */
-     , (28977, 1, 5) /* HEARTBEAT_INTERVAL_FLOAT */
-     , (28977, 66, 1) /* RESIST_BLUDGEON_FLOAT */
-     , (28977, 2, 0) /* HEARTBEAT_TIMESTAMP_FLOAT */
-     , (28977, 67, 1) /* RESIST_FIRE_FLOAT */
-     , (28977, 3, 1.1) /* HEALTH_RATE_FLOAT */
-     , (28977, 68, 1) /* RESIST_COLD_FLOAT */
-     , (28977, 4, 0.5) /* STAMINA_RATE_FLOAT */
-     , (28977, 5, 2) /* MANA_RATE_FLOAT */
-     , (28977, 69, 1) /* RESIST_ACID_FLOAT */
-     , (28977, 70, 1) /* RESIST_ELECTRIC_FLOAT */
-     , (28977, 71, 1) /* RESIST_HEALTH_BOOST_FLOAT */
-     , (28977, 39, 1.5) /* DEFAULT_SCALE_FLOAT */
-     , (28977, 104, 10) /* OBVIOUS_RADAR_RANGE_FLOAT */
-     , (28977, 72, 1) /* RESIST_STAMINA_DRAIN_FLOAT */
-     , (28977, 73, 1) /* RESIST_STAMINA_BOOST_FLOAT */
-     , (28977, 74, 1) /* RESIST_MANA_DRAIN_FLOAT */
-     , (28977, 75, 1) /* RESIST_MANA_BOOST_FLOAT */
-     , (28977, 13, 0.79) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (28977, 14, 0.79) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (28977, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (28977, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (28977, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (28977, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (28977, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (28977, 54, 3) /* USE_RADIUS_FLOAT */
-     , (28977, 125, 1) /* RESIST_HEALTH_DRAIN_FLOAT */;
+VALUES (28977, 001 /* HEARTBEAT_INTERVAL_FLOAT */, 5)
+     , (28977, 002 /* HEARTBEAT_TIMESTAMP_FLOAT */, 0)
+     , (28977, 003 /* HEALTH_RATE_FLOAT */, 1.1)
+     , (28977, 004 /* STAMINA_RATE_FLOAT */, 0.5)
+     , (28977, 005 /* MANA_RATE_FLOAT */, 2)
+     , (28977, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.79)
+     , (28977, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.79)
+     , (28977, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 0.8)
+     , (28977, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 1)
+     , (28977, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 1)
+     , (28977, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 1)
+     , (28977, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 1)
+     , (28977, 039 /* DEFAULT_SCALE_FLOAT */, 1.5)
+     , (28977, 054 /* USE_RADIUS_FLOAT */, 3)
+     , (28977, 064 /* RESIST_SLASH_FLOAT */, 1)
+     , (28977, 065 /* RESIST_PIERCE_FLOAT */, 1)
+     , (28977, 066 /* RESIST_BLUDGEON_FLOAT */, 1)
+     , (28977, 067 /* RESIST_FIRE_FLOAT */, 1)
+     , (28977, 068 /* RESIST_COLD_FLOAT */, 1)
+     , (28977, 069 /* RESIST_ACID_FLOAT */, 1)
+     , (28977, 070 /* RESIST_ELECTRIC_FLOAT */, 1)
+     , (28977, 071 /* RESIST_HEALTH_BOOST_FLOAT */, 1)
+     , (28977, 072 /* RESIST_STAMINA_DRAIN_FLOAT */, 1)
+     , (28977, 073 /* RESIST_STAMINA_BOOST_FLOAT */, 1)
+     , (28977, 074 /* RESIST_MANA_DRAIN_FLOAT */, 1)
+     , (28977, 075 /* RESIST_MANA_BOOST_FLOAT */, 1)
+     , (28977, 104 /* OBVIOUS_RADAR_RANGE_FLOAT */, 10)
+     , (28977, 125 /* RESIST_HEALTH_DRAIN_FLOAT */, 1);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28977, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
-     , (28977, 1, True) /* STUCK_BOOL */
-     , (28977, 8, True) /* ALLOW_GIVE_BOOL */
-     , (28977, 82, True) /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */
-     , (28977, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
-     , (28977, 12, True) /* REPORT_COLLISIONS_BOOL */
-     , (28977, 13, False) /* ETHEREAL_BOOL */
-     , (28977, 83, True) /* NPC_LOOKS_LIKE_OBJECT_BOOL */
-     , (28977, 19, False) /* ATTACKABLE_BOOL */
-     , (28977, 52, True) /* AI_IMMOBILE_BOOL */;
+VALUES (28977, 001 /* STUCK_BOOL */, True)
+     , (28977, 008 /* ALLOW_GIVE_BOOL */, True)
+     , (28977, 012 /* REPORT_COLLISIONS_BOOL */, True)
+     , (28977, 013 /* ETHEREAL_BOOL */, False)
+     , (28977, 019 /* ATTACKABLE_BOOL */, False)
+     , (28977, 041 /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */, True)
+     , (28977, 042 /* ALLOW_EDGE_SLIDE_BOOL */, True)
+     , (28977, 052 /* AI_IMMOBILE_BOOL */, True)
+     , (28977, 082 /* DONT_TURN_OR_MOVE_WHEN_GIVING_BOOL */, True)
+     , (28977, 083 /* NPC_LOOKS_LIKE_OBJECT_BOOL */, True);
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28977, 1, 380, 0, 0) /* STRENGTH_ATTRIBUTE */
      , (28977, 2, 340, 0, 0) /* ENDURANCE_ATTRIBUTE */
-     , (28977, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (28977, 3, 250, 0, 0) /* QUICKNESS_ATTRIBUTE */
+     , (28977, 4, 330, 0, 0) /* COORDINATION_ATTRIBUTE */
      , (28977, 5, 250, 0, 0) /* FOCUS_ATTRIBUTE */
      , (28977, 6, 285, 0, 0) /* SELF_ATTRIBUTE */;
 
@@ -87,23 +87,23 @@ VALUES (28977, 1, 200, 0, 0, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28977, 5, 201, 0, 0, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
-VALUES (28977, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
-     , (28977, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+VALUES (28977, 0, 8, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 1, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* HEAD */
+     , (28977, 16, 64, 3, 0.5, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4) /* TORSO */
      , (28977, 17, 64, 3, 0.75, 20, 16, 16, 16, 20, 20, 20, 20, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* TAIL */
      , (28977, 21, 64, 3, 0.5, 10, 8, 8, 8, 10, 10, 10, 10, 0, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2) /* WINGS */;
 
 INSERT INTO `weenie_properties_skill` (`object_Id`, `type`, `level_From_P_P`, `s_a_c`, `p_p`, `init_Level`, `resistance_At_Last_Check`, `last_Used_Time`)
-VALUES (28977, 32, 0, 3, 0, 900, 0, 2083.53871542415) /* ITEM_ENCHANTMENT_SKILL */;
+VALUES (28977, 32, 0, 3 /* SPECIALIZED_SKILL_ADVANCEMENT_CLASS */, 0, 900, 0, 2083.53871542415) /* ITEM_ENCHANTMENT_SKILL */;
 
 INSERT INTO `weenie_properties_emote` (`object_Id`, `probability`, `category`, `emote_Set_Id`, `weenie_Class_Id`, `style`, `substyle`, `quest`, `vendor_Type`, `min_Health`, `max_Health`)
-VALUES (28977, 1, 7, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Use_EmoteCategory */
-     , (28977, 1, 12, 0, NULL, NULL, NULL, 'RoadsKirLoz', NULL, NULL, NULL) /* QuestSuccess_EmoteCategory */
-     , (28977, 1, 13, 0, NULL, NULL, NULL, 'RoadsKirLoz', NULL, NULL, NULL) /* QuestFailure_EmoteCategory */;
+VALUES (28977, 1, 7 /* Use_EmoteCategory */, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (28977, 1, 12 /* QuestSuccess_EmoteCategory */, 0, NULL, NULL, NULL, 'RoadsKirLoz', NULL, NULL, NULL)
+     , (28977, 1, 13 /* QuestFailure_EmoteCategory */, 0, NULL, NULL, NULL, 'RoadsKirLoz', NULL, NULL, NULL);
 
 INSERT INTO `weenie_properties_emote_action` (`object_Id`, `emote_Category`, `emote_Set_Id`, `order`, `type`, `delay`, `extent`, `motion`, `message`, `test_String`, `min`, `max`, `min_64`, `max_64`, `min_Dbl`, `max_Dbl`, `stat`, `display`, `amount`, `amount_64`, `hero_X_P_64`, `percent`, `spell_Id`, `wealth_Rating`, `treasure_Class`, `treasure_Type`, `p_Script`, `sound`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28977, 7, 0, 0, 21, 0, 1, NULL, 'RoadsKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* InqQuest_EmoteType */
-     , (28977, 12, 0, 0, 18, 0, 1, NULL, 'Your choice has been made.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */
-     , (28977, 12, 0, 1, 22, 0, 1, NULL, 'RoadsFailedKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* StampQuest_EmoteType */
-     , (28977, 12, 0, 2, 31, 0, 1, NULL, 'RoadsKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* EraseQuest_EmoteType */
-     , (28977, 13, 0, 0, 18, 0, 1, NULL, 'A well carved statue of Lauallana. It is masterfully crafted and looks very well made. Kir Loz may know more about this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* DirectBroadcast_EmoteType */;
+VALUES (28977, 7 /* Use_EmoteCategory */, 0, 0, 21 /* InqQuest_EmoteType */, 0, 1, NULL, 'RoadsKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (28977, 12 /* QuestSuccess_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'Your choice has been made.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (28977, 12 /* QuestSuccess_EmoteCategory */, 0, 1, 22 /* StampQuest_EmoteType */, 0, 1, NULL, 'RoadsFailedKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (28977, 12 /* QuestSuccess_EmoteCategory */, 0, 2, 31 /* EraseQuest_EmoteType */, 0, 1, NULL, 'RoadsKirLoz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+     , (28977, 13 /* QuestFailure_EmoteCategory */, 0, 0, 18 /* DirectBroadcast_EmoteType */, 0, 1, NULL, 'A well carved statue of Lauallana. It is masterfully crafted and looks very well made. Kir Loz may know more about this.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 

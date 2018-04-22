@@ -2,47 +2,47 @@
 DELETE FROM weenie WHERE class_Id = 26639;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (26639, 'gemportalxarabydun', /* Gem_WeenieType */ 38);
+VALUES (26639, 'gemportalxarabydun', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26639, 16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LONG_DESC_STRING */
-     , (26639, 1, 'Xarabydun Portal Summoning Gem') /* NAME_STRING */;
+VALUES (26639, 001 /* NAME_STRING */, 'Xarabydun Portal Summoning Gem')
+     , (26639, 016 /* LONG_DESC_STRING */, 'This portal summoning gem works best if used outside in a relatively flat area.');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26639, 1, 33556769) /* SETUP_DID */
-     , (26639, 3, 536870932) /* SOUND_TABLE_DID */
-     , (26639, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (26639, 6, 67111919) /* PALETTE_BASE_DID */
-     , (26639, 31, 28269) /* LINKED_PORTAL_ONE_DID */
-     , (26639, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (26639, 8, 100674856) /* ICON_DID */
-     , (26639, 28, 157) /* SPELL_DID */;
+VALUES (26639, 001 /* SETUP_DID */, 33556769)
+     , (26639, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (26639, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (26639, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (26639, 008 /* ICON_DID */, 100674856)
+     , (26639, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (26639, 028 /* SPELL_DID */, 157 /* SummonPortal1_SpellID */)
+     , (26639, 031 /* LINKED_PORTAL_ONE_DID */, 28269 /* Portal to Xarabydun */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (26639, 9, 0) /* LOCATIONS_INT */
-     , (26639, 1, 2048) /* ITEM_TYPE_INT */
-     , (26639, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (26639, 3, 77) /* PALETTE_TEMPLATE_INT */
-     , (26639, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (26639, 5, 10) /* ENCUMB_VAL_INT */
-     , (26639, 8, 10) /* MASS_INT */
-     , (26639, 12, 1) /* STACK_SIZE_INT */
-     , (26639, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (26639, 15, 500) /* STACK_UNIT_VALUE_INT */
-     , (26639, 16, 8) /* ITEM_USEABLE_INT */
-     , (26639, 18, 1) /* UI_EFFECTS_INT */
-     , (26639, 19, 500) /* VALUE_INT */
-     , (26639, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (26639, 151, 2) /* HOOK_TYPE_INT */
-     , (26639, 93, 3092) /* PHYSICS_STATE_INT */
-     , (26639, 94, 16) /* TARGET_TYPE_INT */
-     , (26639, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (26639, 107, 50) /* ITEM_CUR_MANA_INT */
-     , (26639, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (26639, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (26639, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (26639, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (26639, 003 /* PALETTE_TEMPLATE_INT */, 77 /* BLUEGREEN_PALETTE_TEMPLATE */)
+     , (26639, 005 /* ENCUMB_VAL_INT */, 10)
+     , (26639, 008 /* MASS_INT */, 10)
+     , (26639, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (26639, 011 /* MAX_STACK_SIZE_INT */, 25)
+     , (26639, 012 /* STACK_SIZE_INT */, 1)
+     , (26639, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (26639, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (26639, 015 /* STACK_UNIT_VALUE_INT */, 500)
+     , (26639, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (26639, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (26639, 019 /* VALUE_INT */, 500)
+     , (26639, 093 /* PHYSICS_STATE_INT */, 3092 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS, LIGHTING_ON_PS */)
+     , (26639, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (26639, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (26639, 107 /* ITEM_CUR_MANA_INT */, 50)
+     , (26639, 108 /* ITEM_MAX_MANA_INT */, 50)
+     , (26639, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (26639, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0)
+     , (26639, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (26639, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (26639, 23, True) /* DESTROY_ON_SELL_BOOL */
-     , (26639, 15, True) /* LIGHTS_STATUS_BOOL */;
+VALUES (26639, 015 /* LIGHTS_STATUS_BOOL */, True)
+     , (26639, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

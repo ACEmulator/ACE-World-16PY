@@ -2,45 +2,45 @@
 DELETE FROM weenie WHERE class_Id = 22876;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (22876, 'gemarmorprot6', /* Gem_WeenieType */ 38);
+VALUES (22876, 'gemarmorprot6', 38 /* Gem_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22876, 1, 'Armor Protection Gem') /* NAME_STRING */
-     , (22876, 15, 'A gem of armor protection') /* SHORT_DESC_STRING */;
+VALUES (22876, 001 /* NAME_STRING */, 'Armor Protection Gem')
+     , (22876, 015 /* SHORT_DESC_STRING */, 'A gem of armor protection');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22876, 1, 33554809) /* SETUP_DID */
-     , (22876, 3, 536870932) /* SOUND_TABLE_DID */
-     , (22876, 28, 1317) /* SPELL_DID */
-     , (22876, 36, 234881046) /* MUTATE_FILTER_DID */
-     , (22876, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (22876, 6, 67111919) /* PALETTE_BASE_DID */
-     , (22876, 7, 268435723) /* CLOTHINGBASE_DID */
-     , (22876, 8, 100673898) /* ICON_DID */;
+VALUES (22876, 001 /* SETUP_DID */, 33554809)
+     , (22876, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (22876, 006 /* PALETTE_BASE_DID */, 67111919)
+     , (22876, 007 /* CLOTHINGBASE_DID */, 268435723)
+     , (22876, 008 /* ICON_DID */, 100673898)
+     , (22876, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275)
+     , (22876, 028 /* SPELL_DID */, 1317 /* ArmorOther6_SpellID */)
+     , (22876, 036 /* MUTATE_FILTER_DID */, 234881046);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (22876, 9, 0) /* LOCATIONS_INT */
-     , (22876, 1, 2048) /* ITEM_TYPE_INT */
-     , (22876, 11, 1) /* MAX_STACK_SIZE_INT */
-     , (22876, 3, 14) /* PALETTE_TEMPLATE_INT */
-     , (22876, 13, 10) /* STACK_UNIT_ENCUMB_INT */
-     , (22876, 5, 10) /* ENCUMB_VAL_INT */
-     , (22876, 8, 10) /* MASS_INT */
-     , (22876, 12, 1) /* STACK_SIZE_INT */
-     , (22876, 14, 10) /* STACK_UNIT_MASS_INT */
-     , (22876, 15, 200) /* STACK_UNIT_VALUE_INT */
-     , (22876, 16, 8) /* ITEM_USEABLE_INT */
-     , (22876, 18, 1) /* UI_EFFECTS_INT */
-     , (22876, 19, 200) /* VALUE_INT */
-     , (22876, 93, 1044) /* PHYSICS_STATE_INT */
-     , (22876, 94, 16) /* TARGET_TYPE_INT */
-     , (22876, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (22876, 107, 100) /* ITEM_CUR_MANA_INT */
-     , (22876, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (22876, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (22876, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+VALUES (22876, 001 /* ITEM_TYPE_INT */, 2048 /* TYPE_GEM */)
+     , (22876, 003 /* PALETTE_TEMPLATE_INT */, 14 /* RED_PALETTE_TEMPLATE */)
+     , (22876, 005 /* ENCUMB_VAL_INT */, 10)
+     , (22876, 008 /* MASS_INT */, 10)
+     , (22876, 009 /* LOCATIONS_INT */, 0 /* NONE_LOC */)
+     , (22876, 011 /* MAX_STACK_SIZE_INT */, 1)
+     , (22876, 012 /* STACK_SIZE_INT */, 1)
+     , (22876, 013 /* STACK_UNIT_ENCUMB_INT */, 10)
+     , (22876, 014 /* STACK_UNIT_MASS_INT */, 10)
+     , (22876, 015 /* STACK_UNIT_VALUE_INT */, 200)
+     , (22876, 016 /* ITEM_USEABLE_INT */, 8 /* USEABLE_CONTAINED */)
+     , (22876, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (22876, 019 /* VALUE_INT */, 200)
+     , (22876, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (22876, 094 /* TARGET_TYPE_INT */, 16 /* TYPE_CREATURE */)
+     , (22876, 106 /* ITEM_SPELLCRAFT_INT */, 210)
+     , (22876, 107 /* ITEM_CUR_MANA_INT */, 100)
+     , (22876, 108 /* ITEM_MAX_MANA_INT */, 200)
+     , (22876, 109 /* ITEM_DIFFICULTY_INT */, 0)
+     , (22876, 110 /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */, 0);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22876, 22, True) /* INSCRIBABLE_BOOL */
-     , (22876, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (22876, 022 /* INSCRIBABLE_BOOL */, True)
+     , (22876, 023 /* DESTROY_ON_SELL_BOOL */, True);
 

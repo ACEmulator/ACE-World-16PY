@@ -2,60 +2,60 @@
 DELETE FROM weenie WHERE class_Id = 8133;
 
 INSERT INTO weenie (`class_Id`, `class_Name`, `type`)
-VALUES (8133, 'robeaerfalle', /* Clothing_WeenieType */ 2);
+VALUES (8133, 'robeaerfalle', 2 /* Clothing_WeenieType */);
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8133, 16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LONG_DESC_STRING */
-     , (8133, 1, 'Aerfalle''s Pallium') /* NAME_STRING */
-     , (8133, 33, 'PalliumObtained') /* QUEST_STRING */
-     , (8133, 15, 'A black robe, woven from unusual material.') /* SHORT_DESC_STRING */;
+VALUES (8133, 001 /* NAME_STRING */, 'Aerfalle''s Pallium')
+     , (8133, 015 /* SHORT_DESC_STRING */, 'A black robe, woven from unusual material.')
+     , (8133, 016 /* LONG_DESC_STRING */, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.')
+     , (8133, 033 /* QUEST_STRING */, 'PalliumObtained');
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8133, 1, 33554854) /* SETUP_DID */
-     , (8133, 3, 536870932) /* SOUND_TABLE_DID */
-     , (8133, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */
-     , (8133, 6, 67108990) /* PALETTE_BASE_DID */
-     , (8133, 7, 268435853) /* CLOTHINGBASE_DID */
-     , (8133, 8, 100670350) /* ICON_DID */;
+VALUES (8133, 001 /* SETUP_DID */, 33554854)
+     , (8133, 003 /* SOUND_TABLE_DID */, 536870932)
+     , (8133, 006 /* PALETTE_BASE_DID */, 67108990)
+     , (8133, 007 /* CLOTHINGBASE_DID */, 268435853)
+     , (8133, 008 /* ICON_DID */, 100670350)
+     , (8133, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415275);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
-VALUES (8133, 9, 32512) /* LOCATIONS_INT */
-     , (8133, 1, 4) /* ITEM_TYPE_INT */
-     , (8133, 19, 10710) /* VALUE_INT */
-     , (8133, 3, 39) /* PALETTE_TEMPLATE_INT */
-     , (8133, 4, 81664) /* CLOTHING_PRIORITY_INT */
-     , (8133, 5, 200) /* ENCUMB_VAL_INT */
-     , (8133, 16, 1) /* ITEM_USEABLE_INT */
-     , (8133, 8, 150) /* MASS_INT */
-     , (8133, 18, 1) /* UI_EFFECTS_INT */
-     , (8133, 150, 103) /* HOOK_PLACEMENT_INT */
-     , (8133, 151, 2) /* HOOK_TYPE_INT */
-     , (8133, 27, 1) /* ARMOR_TYPE_INT */
-     , (8133, 28, 0) /* ARMOR_LEVEL_INT */
-     , (8133, 93, 1044) /* PHYSICS_STATE_INT */
-     , (8133, 33, 1) /* BONDED_INT */
-     , (8133, 36, 9999) /* RESIST_MAGIC_INT */
-     , (8133, 106, 275) /* ITEM_SPELLCRAFT_INT */
-     , (8133, 107, 440) /* ITEM_CUR_MANA_INT */
-     , (8133, 108, 855) /* ITEM_MAX_MANA_INT */
-     , (8133, 109, 275) /* ITEM_DIFFICULTY_INT */
-     , (8133, 114, 1) /* ATTUNED_INT */;
+VALUES (8133, 001 /* ITEM_TYPE_INT */, 4 /* TYPE_CLOTHING */)
+     , (8133, 003 /* PALETTE_TEMPLATE_INT */, 39 /* BLACK_PALETTE_TEMPLATE */)
+     , (8133, 004 /* CLOTHING_PRIORITY_INT */, 81664 /* OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */)
+     , (8133, 005 /* ENCUMB_VAL_INT */, 200)
+     , (8133, 008 /* MASS_INT */, 150)
+     , (8133, 009 /* LOCATIONS_INT */, 32512 /* FOOT_WEAR_LOC, ARMOR_LOC */)
+     , (8133, 016 /* ITEM_USEABLE_INT */, 1 /* USEABLE_NO */)
+     , (8133, 018 /* UI_EFFECTS_INT */, 1 /* UI_EFFECT_MAGICAL */)
+     , (8133, 019 /* VALUE_INT */, 10710)
+     , (8133, 027 /* ARMOR_TYPE_INT */, 1)
+     , (8133, 028 /* ARMOR_LEVEL_INT */, 0)
+     , (8133, 033 /* BONDED_INT */, 1 /* Bonded_BondedStatus */)
+     , (8133, 036 /* RESIST_MAGIC_INT */, 9999)
+     , (8133, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
+     , (8133, 106 /* ITEM_SPELLCRAFT_INT */, 275)
+     , (8133, 107 /* ITEM_CUR_MANA_INT */, 440)
+     , (8133, 108 /* ITEM_MAX_MANA_INT */, 855)
+     , (8133, 109 /* ITEM_DIFFICULTY_INT */, 275)
+     , (8133, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
+     , (8133, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
+     , (8133, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (8133, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (8133, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (8133, 12, 0.1) /* SHADE_FLOAT */
-     , (8133, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (8133, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (8133, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (8133, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (8133, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (8133, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */;
+VALUES (8133, 005 /* MANA_RATE_FLOAT */, -0.05)
+     , (8133, 012 /* SHADE_FLOAT */, 0.1)
+     , (8133, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0.8)
+     , (8133, 014 /* ARMOR_MOD_VS_PIERCE_FLOAT */, 0.8)
+     , (8133, 015 /* ARMOR_MOD_VS_BLUDGEON_FLOAT */, 1)
+     , (8133, 016 /* ARMOR_MOD_VS_COLD_FLOAT */, 0.8)
+     , (8133, 017 /* ARMOR_MOD_VS_FIRE_FLOAT */, 0.8)
+     , (8133, 018 /* ARMOR_MOD_VS_ACID_FLOAT */, 0.8)
+     , (8133, 019 /* ARMOR_MOD_VS_ELECTRIC_FLOAT */, 0.8);
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8133, 99, True) /* IVORYABLE_BOOL */
-     , (8133, 22, True) /* INSCRIBABLE_BOOL */
-     , (8133, 23, True) /* DESTROY_ON_SELL_BOOL */;
+VALUES (8133, 022 /* INSCRIBABLE_BOOL */, True)
+     , (8133, 023 /* DESTROY_ON_SELL_BOOL */, True)
+     , (8133, 099 /* IVORYABLE_BOOL */, True);
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8133, 1455, 2) /* WillpowerOther5_SpellID */
