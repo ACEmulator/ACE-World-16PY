@@ -24,8 +24,8 @@ VALUES (5388, 001 /* ITEM_TYPE_INT */, 128 /* TYPE_MISC */)
      , (5388, 095 /* RADARBLIP_COLOR_INT */, 8 /* Yellow */)
      , (5388, 133 /* SHOWABLE_ON_RADAR_INT */, 4 /* ShowAlways_RadarEnum */)
      , (5388, 142 /* GENERATOR_TIME_TYPE_INT */, 1 /* RealTime_GeneratorTimeType */)
-     , (5388, 143 /* GENERATOR_START_TIME_INT */, 1036213260)
-     , (5388, 144 /* GENERATOR_END_TIME_INT */, 1036558740)
+     , (5388, 143 /* GENERATOR_START_TIME_INT */, 1036213260 /* 11/2/2002 10:01:00 AM */)
+     , (5388, 144 /* GENERATOR_END_TIME_INT */, 1036558740 /* 11/6/2002 9:59:00 AM */)
      , (5388, 145 /* GENERATOR_END_DESTRUCTION_TYPE_INT */, 2 /* Destroy_GeneratorDestruct */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
