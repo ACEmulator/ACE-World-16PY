@@ -16,7 +16,7 @@ VALUES (24181, 081 /* MAX_GENERATED_OBJECTS_INT */, 5)
      , (24181, 082 /* INIT_GENERATED_OBJECTS_INT */, 0)
      , (24181, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (24181, 142 /* GENERATOR_TIME_TYPE_INT */, 1 /* RealTime_GeneratorTimeType */)
-     , (24181, 143 /* GENERATOR_START_TIME_INT */, 1057035660)
+     , (24181, 143 /* GENERATOR_START_TIME_INT */, 1057035660 /* 7/1/2003 9:01:00 AM */)
      , (24181, 145 /* GENERATOR_END_DESTRUCTION_TYPE_INT */, 2 /* Destroy_GeneratorDestruct */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
