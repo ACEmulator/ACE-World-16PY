@@ -29,7 +29,7 @@ VALUES (23713, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (23713, 044 /* DAMAGE_INT */, 13)
      , (23713, 045 /* DAMAGE_TYPE_INT */, 64 /* ELECTRIC_DAMAGE_TYPE */)
      , (23713, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (23713, 047 /* ATTACK_TYPE_INT */, 486 /*  */)
+     , (23713, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
      , (23713, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
      , (23713, 049 /* WEAPON_TIME_INT */, 1)
      , (23713, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
@@ -39,7 +39,7 @@ VALUES (23713, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (23713, 108 /* ITEM_MAX_MANA_INT */, 500)
      , (23713, 109 /* ITEM_DIFFICULTY_INT */, 0)
      , (23713, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (23713, 179 /* IMBUED_EFFECT_INT */, 4);
+     , (23713, 179 /* IMBUED_EFFECT_INT */, 4 /* ArmorRending_ImbuedEffectType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23713, 021 /* WEAPON_LENGTH_FLOAT */, 0.8)

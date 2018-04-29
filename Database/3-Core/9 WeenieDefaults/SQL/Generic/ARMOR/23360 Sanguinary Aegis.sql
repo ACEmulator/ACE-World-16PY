@@ -33,7 +33,7 @@ VALUES (23360, 001 /* ITEM_TYPE_INT */, 2 /* TYPE_ARMOR */)
      , (23360, 114 /* ATTUNED_INT */, 0 /* Normal_AttunedStatus */)
      , (23360, 150 /* HOOK_PLACEMENT_INT */, 103 /* Hook */)
      , (23360, 151 /* HOOK_TYPE_INT */, 2 /* Wall_HookTypeEnum */)
-     , (23360, 179 /* IMBUED_EFFECT_INT */, 536870912);
+     , (23360, 179 /* IMBUED_EFFECT_INT */, 536870912 /* IgnoreSomeMagicProjectileDamage_ImbuedEffectType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23360, 013 /* ARMOR_MOD_VS_SLASH_FLOAT */, 0)

@@ -39,7 +39,7 @@ VALUES (21348, 001 /* ITEM_TYPE_INT */, 256 /* TYPE_MISSILE_WEAPON */)
      , (21348, 158 /* WIELD_REQUIREMENTS_INT */, 2 /* WIELD_REQUIRES_RAW_SKILL_WieldRequirement */)
      , (21348, 159 /* WIELD_SKILLTYPE_INT */, 2 /* BOW_SKILL */)
      , (21348, 160 /* WIELD_DIFFICULTY_INT */, 230)
-     , (21348, 179 /* IMBUED_EFFECT_INT */, -2147483648);
+     , (21348, 179 /* IMBUED_EFFECT_INT */, -2147483648 /* IgnoreAllArmor_ImbuedEffectType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (21348, 022 /* DAMAGE_VARIANCE_FLOAT */, 0.3)
