@@ -28,13 +28,13 @@ VALUES (22791, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (22791, 044 /* DAMAGE_INT */, 30)
      , (22791, 045 /* DAMAGE_TYPE_INT */, 2 /* PIERCE_DAMAGE_TYPE */)
      , (22791, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (22791, 047 /* ATTACK_TYPE_INT */, 130 /*  */)
+     , (22791, 047 /* ATTACK_TYPE_INT */, 130 /* Thrust_AttackType, DoubleThrust_AttackType */)
      , (22791, 048 /* WEAPON_SKILL_INT */, 11 /* SWORD_SKILL */)
      , (22791, 049 /* WEAPON_TIME_INT */, 1)
      , (22791, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
      , (22791, 093 /* PHYSICS_STATE_INT */, 1044 /* ETHEREAL_PS, IGNORE_COLLISIONS_PS, GRAVITY_PS */)
      , (22791, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (22791, 179 /* IMBUED_EFFECT_INT */, 4);
+     , (22791, 179 /* IMBUED_EFFECT_INT */, 4 /* ArmorRending_ImbuedEffectType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22791, 021 /* WEAPON_LENGTH_FLOAT */, 0.95)

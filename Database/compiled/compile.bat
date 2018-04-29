@@ -45,6 +45,12 @@ echo This will not take long.
 copy /b ACE-World-CE16PY.sql + "..\3-Core\2 SpellTableExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql
 
+echo Compiling Recipes... No output will be displayed except if error occurs.
+echo This will not take long.
+
+copy /b ACE-World-CE16PY.sql + "..\3-Core\4 CraftTable\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
+echo. >> ACE-World-CE16PY.sql
+
 echo Compiling House Portals... No output will be displayed except if error occurs.
 echo This will not take long.
 

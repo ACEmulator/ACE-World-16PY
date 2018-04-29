@@ -26,7 +26,7 @@ VALUES (30002, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (30002, 044 /* DAMAGE_INT */, 8)
      , (30002, 045 /* DAMAGE_TYPE_INT */, 32 /* ACID_DAMAGE_TYPE */)
      , (30002, 046 /* DEFAULT_COMBAT_STYLE_INT */, 2 /* OneHanded_CombatStyle */)
-     , (30002, 047 /* ATTACK_TYPE_INT */, 486 /*  */)
+     , (30002, 047 /* ATTACK_TYPE_INT */, 486 /* Thrust_AttackType, Slash_AttackType, DoubleSlash_AttackType, TripleSlash_AttackType, DoubleThrust_AttackType, TripleThrust_AttackType */)
      , (30002, 048 /* WEAPON_SKILL_INT */, 4 /* DAGGER_SKILL */)
      , (30002, 049 /* WEAPON_TIME_INT */, 1)
      , (30002, 051 /* COMBAT_USE_INT */, 1 /* COMBAT_USE_MELEE */)
@@ -36,7 +36,7 @@ VALUES (30002, 001 /* ITEM_TYPE_INT */, 1 /* TYPE_MELEE_WEAPON */)
      , (30002, 108 /* ITEM_MAX_MANA_INT */, 500)
      , (30002, 109 /* ITEM_DIFFICULTY_INT */, 0)
      , (30002, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */)
-     , (30002, 179 /* IMBUED_EFFECT_INT */, 4);
+     , (30002, 179 /* IMBUED_EFFECT_INT */, 4 /* ArmorRending_ImbuedEffectType */);
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30002, 021 /* WEAPON_LENGTH_FLOAT */, 0.4)
