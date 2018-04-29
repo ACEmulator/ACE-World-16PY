@@ -12,11 +12,11 @@ VALUES (4446, 294 /* Amulet */, 21071 /* Salvaged Rose Quartz */)
      , (4446, 1443 /* Ring */, 21071 /* Salvaged Rose Quartz */)
      , (4446, 2367 /* Gorget */, 21071 /* Salvaged Rose Quartz */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4446, 0, 0, '')
-     , (4446, 1, 1, '')
-     , (4446, 1, 1, '')
-     , (4446, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4446, 0, 0, '') /* Target */
+     , (4446, 1, 1, '') /* Salvaged Rose Quartz */
+     , (4446, 1, 1, '') /* Target */
+     , (4446, 1, 1, '') /* Salvaged Rose Quartz */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4446, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

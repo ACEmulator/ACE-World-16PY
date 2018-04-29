@@ -4,11 +4,11 @@ VALUES (4693, 0, 18 /* ITEM_APPRAISAL_SKILL */, 100, 0, 0, 0, 'You emboss the sh
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4693, 25843 /* Nefane Shield */, 22098 /* Chess Stamp */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4693, 0, 0, '')
-     , (4693, 1, 1, '')
-     , (4693, 0, 0, '')
-     , (4693, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4693, 0, 0, '') /* Target */
+     , (4693, 1, 1, '') /* Chess Stamp */
+     , (4693, 0, 0, '') /* Target */
+     , (4693, 1, 1, '') /* Chess Stamp */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4693, 181 /* CHESS_RANK_INT */, 1800, 2, 'Your Chess Ranking needs to be 1800 or higher to create this shield.');

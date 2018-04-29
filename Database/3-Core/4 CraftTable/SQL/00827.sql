@@ -4,11 +4,11 @@ VALUES (827, 0, 0 /* UNDEF_SKILL */, 0, 0, 6378 /* Fine Shadow Atlan Sword */, 1
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (827, 6309 /* Fine Atlan Sword */, 6357 /* Shadow Stone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (827, 1, 1, '')
-     , (827, 0.100000001490116, 1, 'Shadow Stone was destroyed.')
-     , (827, 1, 1, '')
-     , (827, 0.100000001490116, 1, 'Shadow Stone was destroyed.');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (827, 1, 1, '') /* Target */
+     , (827, 0.100000001490116, 1, 'Shadow Stone was destroyed.') /* Shadow Stone */
+     , (827, 1, 1, '') /* Target */
+     , (827, 0.100000001490116, 1, 'Shadow Stone was destroyed.') /* Shadow Stone */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (827, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

@@ -272,11 +272,11 @@ VALUES (3857, 12463 /* Atlatl */, 20989 /* Salvaged Oak */)
      , (3857, 7797 /* Acid Naginata */, 20989 /* Salvaged Oak */)
      , (3857, 7798 /* Electric Naginata */, 20989 /* Salvaged Oak */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3857, 0, 0, '')
-     , (3857, 1, 1, '')
-     , (3857, 1, 1, '')
-     , (3857, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3857, 0, 0, '') /* Target */
+     , (3857, 1, 1, '') /* Salvaged Oak */
+     , (3857, 1, 1, '') /* Target */
+     , (3857, 1, 1, '') /* Salvaged Oak */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3857, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

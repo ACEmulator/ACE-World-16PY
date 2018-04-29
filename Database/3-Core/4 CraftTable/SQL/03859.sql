@@ -159,11 +159,11 @@ VALUES (3859, 24173 /* Jaleh's Leggings */, 20991 /* Salvaged Reedshark Hide */)
      , (3859, 6047 /* Amuli Leggings */, 20991 /* Salvaged Reedshark Hide */)
      , (3859, 6048 /* Celdon Sleeves */, 20991 /* Salvaged Reedshark Hide */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3859, 0, 0, '')
-     , (3859, 1, 1, '')
-     , (3859, 1, 1, '')
-     , (3859, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3859, 0, 0, '') /* Target */
+     , (3859, 1, 1, '') /* Salvaged Reedshark Hide */
+     , (3859, 1, 1, '') /* Target */
+     , (3859, 1, 1, '') /* Salvaged Reedshark Hide */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3859, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

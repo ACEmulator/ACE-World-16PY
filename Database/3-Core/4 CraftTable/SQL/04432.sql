@@ -496,11 +496,11 @@ VALUES (4432, 12463 /* Atlatl */, 21080 /* Salvaged Teak */)
      , (4432, 27231 /* Nariyid Leggings */, 21080 /* Salvaged Teak */)
      , (4432, 27232 /* Nariyid Sleeves */, 21080 /* Salvaged Teak */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4432, 0, 0, '')
-     , (4432, 1, 1, '')
-     , (4432, 1, 1, '')
-     , (4432, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4432, 0, 0, '') /* Target */
+     , (4432, 1, 1, '') /* Salvaged Teak */
+     , (4432, 1, 1, '') /* Target */
+     , (4432, 1, 1, '') /* Salvaged Teak */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4432, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

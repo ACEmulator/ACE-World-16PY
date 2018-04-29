@@ -159,11 +159,11 @@ VALUES (3847, 25636 /* Leather Helm */, 20981 /* Salvaged Armoredillo Hide */)
      , (3847, 8488 /* Armet */, 20981 /* Salvaged Armoredillo Hide */)
      , (3847, 8489 /* Heaume */, 20981 /* Salvaged Armoredillo Hide */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3847, 0, 0, '')
-     , (3847, 1, 1, '')
-     , (3847, 1, 1, '')
-     , (3847, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3847, 0, 0, '') /* Target */
+     , (3847, 1, 1, '') /* Salvaged Armoredillo Hide */
+     , (3847, 1, 1, '') /* Target */
+     , (3847, 1, 1, '') /* Salvaged Armoredillo Hide */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3847, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

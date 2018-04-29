@@ -496,11 +496,11 @@ VALUES (3851, 25636 /* Leather Helm */, 20984 /* Salvaged Gold */)
      , (3851, 8488 /* Armet */, 20984 /* Salvaged Gold */)
      , (3851, 8489 /* Heaume */, 20984 /* Salvaged Gold */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3851, 0, 0, '')
-     , (3851, 1, 1, '')
-     , (3851, 1, 1, '')
-     , (3851, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3851, 0, 0, '') /* Target */
+     , (3851, 1, 1, '') /* Salvaged Gold */
+     , (3851, 1, 1, '') /* Target */
+     , (3851, 1, 1, '') /* Salvaged Gold */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3851, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

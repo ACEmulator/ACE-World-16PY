@@ -4,11 +4,11 @@ VALUES (2610, 0, 38 /* ALCHEMY_SKILL */, 90, 0, 15408 /* Bloodhunter Oil */, 1, 
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (2610, 4748 /* Aqua Incanta */, 15407 /* Bloodhunter Infusion */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (2610, 1, 1, '')
-     , (2610, 1, 1, '')
-     , (2610, 1, 1, '')
-     , (2610, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (2610, 1, 1, '') /* Target */
+     , (2610, 1, 1, '') /* Bloodhunter Infusion */
+     , (2610, 1, 1, '') /* Target */
+     , (2610, 1, 1, '') /* Bloodhunter Infusion */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (2610, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

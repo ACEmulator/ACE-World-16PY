@@ -563,11 +563,11 @@ VALUES (3865, 141 /* Bowl */, 29582 /* Salvaged Sunstone */)
      , (3865, 29264 /* Piercing Sceptre */, 29582 /* Salvaged Sunstone */)
      , (3865, 29265 /* Slashing Sceptre */, 29582 /* Salvaged Sunstone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3865, 0, 0, '')
-     , (3865, 1, 1, '')
-     , (3865, 1, 1, '')
-     , (3865, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3865, 0, 0, '') /* Target */
+     , (3865, 1, 1, '') /* Salvaged Sunstone */
+     , (3865, 1, 1, '') /* Target */
+     , (3865, 1, 1, '') /* Salvaged Sunstone */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3865, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -12,11 +12,11 @@ VALUES (4443, 294 /* Amulet */, 21043 /* Salvaged Carnelian */)
      , (4443, 1443 /* Ring */, 21043 /* Salvaged Carnelian */)
      , (4443, 2367 /* Gorget */, 21043 /* Salvaged Carnelian */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4443, 0, 0, '')
-     , (4443, 1, 1, '')
-     , (4443, 1, 1, '')
-     , (4443, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4443, 0, 0, '') /* Target */
+     , (4443, 1, 1, '') /* Salvaged Carnelian */
+     , (4443, 1, 1, '') /* Target */
+     , (4443, 1, 1, '') /* Salvaged Carnelian */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4443, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

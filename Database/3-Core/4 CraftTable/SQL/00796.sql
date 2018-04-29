@@ -4,11 +4,11 @@ VALUES (796, 0, 13 /* UNARMED_COMBAT_SKILL */, 190, 0, 6340 /* Superb Infused Py
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (796, 6331 /* Quality Pyreal Ingot */, 6323 /* Claw Glyph */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (796, 1, 1, '')
-     , (796, 1, 1, '')
-     , (796, 1, 1, '')
-     , (796, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (796, 1, 1, '') /* Target */
+     , (796, 1, 1, '') /* Claw Glyph */
+     , (796, 1, 1, '') /* Target */
+     , (796, 1, 1, '') /* Claw Glyph */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (796, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

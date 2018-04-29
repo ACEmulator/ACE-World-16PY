@@ -4,11 +4,11 @@ VALUES (565, 0, 0 /* UNDEF_SKILL */, 0, 0, 6214 /* Superior Sparking Atlan Dagge
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (565, 6208 /* Superior Atlan Dagger */, 6318 /* Minor Sparking Stone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (565, 1, 1, '')
-     , (565, 0, 0, '')
-     , (565, 1, 1, '')
-     , (565, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (565, 1, 1, '') /* Target */
+     , (565, 0, 0, '') /* Minor Sparking Stone */
+     , (565, 1, 1, '') /* Target */
+     , (565, 0, 0, '') /* Minor Sparking Stone */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (565, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

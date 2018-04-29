@@ -159,11 +159,11 @@ VALUES (3846, 27215 /* Chiran Coat */, 20980 /* Salvaged Alabaster */)
      , (3846, 25652 /* Leather Tassets */, 20980 /* Salvaged Alabaster */)
      , (3846, 25661 /* Leather Boots */, 20980 /* Salvaged Alabaster */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3846, 0, 0, '')
-     , (3846, 1, 1, '')
-     , (3846, 1, 1, '')
-     , (3846, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3846, 0, 0, '') /* Target */
+     , (3846, 1, 1, '') /* Salvaged Alabaster */
+     , (3846, 1, 1, '') /* Target */
+     , (3846, 1, 1, '') /* Salvaged Alabaster */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3846, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

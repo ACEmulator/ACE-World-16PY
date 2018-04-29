@@ -159,11 +159,11 @@ VALUES (3862, 24173 /* Jaleh's Leggings */, 20995 /* Salvaged Wool */)
      , (3862, 6047 /* Amuli Leggings */, 20995 /* Salvaged Wool */)
      , (3862, 6048 /* Celdon Sleeves */, 20995 /* Salvaged Wool */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3862, 0, 0, '')
-     , (3862, 1, 1, '')
-     , (3862, 1, 1, '')
-     , (3862, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3862, 0, 0, '') /* Target */
+     , (3862, 1, 1, '') /* Salvaged Wool */
+     , (3862, 1, 1, '') /* Target */
+     , (3862, 1, 1, '') /* Salvaged Wool */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3862, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

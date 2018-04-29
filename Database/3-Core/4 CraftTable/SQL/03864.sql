@@ -563,11 +563,11 @@ VALUES (3864, 301 /* Battle Axe */, 29575 /* Salvaged Fire Opal */)
      , (3864, 251 /* Platter */, 29575 /* Salvaged Fire Opal */)
      , (3864, 254 /* Stoup */, 29575 /* Salvaged Fire Opal */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3864, 0, 0, '')
-     , (3864, 1, 1, '')
-     , (3864, 1, 1, '')
-     , (3864, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3864, 0, 0, '') /* Target */
+     , (3864, 1, 1, '') /* Salvaged Fire Opal */
+     , (3864, 1, 1, '') /* Target */
+     , (3864, 1, 1, '') /* Salvaged Fire Opal */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3864, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

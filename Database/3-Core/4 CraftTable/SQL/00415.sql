@@ -4,11 +4,11 @@ VALUES (415, 0, 37 /* FLETCHING_SKILL */, 225, 0, 23863 /* Deadly Lightning Spik
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (415, 23857 /* Bundle of Spiketails */, 15416 /* Bundle of Deadly Lightning Arrowheads */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (415, 1, 1, '')
-     , (415, 1, 1, '')
-     , (415, 1, 1, '')
-     , (415, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (415, 1, 1, '') /* Target */
+     , (415, 1, 1, '') /* Bundle of Deadly Lightning Arrowheads */
+     , (415, 1, 1, '') /* Target */
+     , (415, 1, 1, '') /* Bundle of Deadly Lightning Arrowheads */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (415, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

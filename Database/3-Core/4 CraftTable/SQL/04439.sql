@@ -12,11 +12,11 @@ VALUES (4439, 294 /* Amulet */, 21044 /* Salvaged Citrine */)
      , (4439, 1443 /* Ring */, 21044 /* Salvaged Citrine */)
      , (4439, 2367 /* Gorget */, 21044 /* Salvaged Citrine */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4439, 0, 0, '')
-     , (4439, 1, 1, '')
-     , (4439, 1, 1, '')
-     , (4439, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4439, 0, 0, '') /* Target */
+     , (4439, 1, 1, '') /* Salvaged Citrine */
+     , (4439, 1, 1, '') /* Target */
+     , (4439, 1, 1, '') /* Salvaged Citrine */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4439, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -4,11 +4,11 @@ VALUES (346, 0, 37 /* FLETCHING_SKILL */, 160, 0, 5318 /* Greater Armor Piercing
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (346, 5339 /* Bundle of Quarrelshafts */, 5356 /* Bundle of Greater Armor Piercing Arrowheads */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (346, 1, 1, '')
-     , (346, 1, 1, '')
-     , (346, 1, 1, '')
-     , (346, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (346, 1, 1, '') /* Target */
+     , (346, 1, 1, '') /* Bundle of Greater Armor Piercing Arrowheads */
+     , (346, 1, 1, '') /* Target */
+     , (346, 1, 1, '') /* Bundle of Greater Armor Piercing Arrowheads */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (346, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

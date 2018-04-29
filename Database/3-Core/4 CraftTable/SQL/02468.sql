@@ -4,11 +4,11 @@ VALUES (2468, 0, 0 /* UNDEF_SKILL */, 0, 0, 12757 /* Academy Staff */, 1, 'As yo
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (2468, 12743 /* Training Staff */, 12711 /* Oil of Rendering */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (2468, 1, 1, '')
-     , (2468, 1, 1, '')
-     , (2468, 1, 1, '')
-     , (2468, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (2468, 1, 1, '') /* Target */
+     , (2468, 1, 1, '') /* Oil of Rendering */
+     , (2468, 1, 1, '') /* Target */
+     , (2468, 1, 1, '') /* Oil of Rendering */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (2468, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

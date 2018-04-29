@@ -241,11 +241,11 @@ VALUES (3853, 141 /* Bowl */, 20986 /* Salvaged Iron */)
      , (3853, 7797 /* Acid Naginata */, 20986 /* Salvaged Iron */)
      , (3853, 7798 /* Electric Naginata */, 20986 /* Salvaged Iron */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3853, 0, 0, '')
-     , (3853, 1, 1, '')
-     , (3853, 1, 1, '')
-     , (3853, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3853, 0, 0, '') /* Target */
+     , (3853, 1, 1, '') /* Salvaged Iron */
+     , (3853, 1, 1, '') /* Target */
+     , (3853, 1, 1, '') /* Salvaged Iron */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3853, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

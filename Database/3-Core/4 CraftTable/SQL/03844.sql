@@ -3162,11 +3162,11 @@ VALUES (3844, 21150 /* Covenant Sollerets */, 8044 /* Hennacin Dye Pot */)
      , (3844, 21157 /* Covenant Pauldrons */, 8043 /* Verdalim Dye Pot */)
      , (3844, 21159 /* Covenant Tassets */, 8043 /* Verdalim Dye Pot */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3844, 0, 0, '')
-     , (3844, 1, 1, '')
-     , (3844, 0, 0, '')
-     , (3844, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3844, 0, 0, '') /* Target */
+     , (3844, 1, 1, '') /* Verdalim Dye Pot */
+     , (3844, 0, 0, '') /* Target */
+     , (3844, 1, 1, '') /* Verdalim Dye Pot */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3844, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

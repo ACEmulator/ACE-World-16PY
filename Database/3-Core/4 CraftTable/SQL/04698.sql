@@ -4,11 +4,11 @@ VALUES (4698, 0, 21 /* HEALING_SKILL */, 150, 0, 0, 0, 'You emboss the shield wi
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4698, 25843 /* Nefane Shield */, 22101 /* Wi Stamp */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4698, 0, 0, '')
-     , (4698, 1, 1, '')
-     , (4698, 0, 0, '')
-     , (4698, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4698, 0, 0, '') /* Target */
+     , (4698, 1, 1, '') /* Wi Stamp */
+     , (4698, 0, 0, '') /* Target */
+     , (4698, 1, 1, '') /* Wi Stamp */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4698, 043 /* NUM_DEATHS_INT */, 500, 2, 'You do not yet merit this shield.');

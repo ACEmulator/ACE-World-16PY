@@ -4,11 +4,11 @@ VALUES (332, 0, 37 /* FLETCHING_SKILL */, 10, 0, 3604 /* Broadhead Quarrel */, 1
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (332, 5339 /* Bundle of Quarrelshafts */, 5345 /* Bundle of Broad Arrowheads */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (332, 1, 1, '')
-     , (332, 1, 1, '')
-     , (332, 1, 1, '')
-     , (332, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (332, 1, 1, '') /* Target */
+     , (332, 1, 1, '') /* Bundle of Broad Arrowheads */
+     , (332, 1, 1, '') /* Target */
+     , (332, 1, 1, '') /* Bundle of Broad Arrowheads */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (332, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

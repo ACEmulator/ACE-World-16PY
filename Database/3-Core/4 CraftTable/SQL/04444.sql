@@ -12,11 +12,11 @@ VALUES (4444, 294 /* Amulet */, 21057 /* Salvaged Lapis Lazuli */)
      , (4444, 1443 /* Ring */, 21057 /* Salvaged Lapis Lazuli */)
      , (4444, 2367 /* Gorget */, 21057 /* Salvaged Lapis Lazuli */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4444, 0, 0, '')
-     , (4444, 1, 1, '')
-     , (4444, 1, 1, '')
-     , (4444, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4444, 0, 0, '') /* Target */
+     , (4444, 1, 1, '') /* Salvaged Lapis Lazuli */
+     , (4444, 1, 1, '') /* Target */
+     , (4444, 1, 1, '') /* Salvaged Lapis Lazuli */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4444, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

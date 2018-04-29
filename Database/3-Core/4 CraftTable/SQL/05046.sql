@@ -4,11 +4,11 @@ VALUES (5046, 0, 0 /* UNDEF_SKILL */, 0, 0, 0, 0, 'You attach the Fetish of the 
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (5046, 29243 /* Piercing Bow */, 27795 /* Fetish of the Dark Idols */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (5046, 0, 0, '')
-     , (5046, 1, 1, '')
-     , (5046, 0, 0, '')
-     , (5046, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (5046, 0, 0, '') /* Target */
+     , (5046, 1, 1, '') /* Fetish of the Dark Idols */
+     , (5046, 0, 0, '') /* Target */
+     , (5046, 1, 1, '') /* Fetish of the Dark Idols */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (5046, 179 /* IMBUED_EFFECT_INT */, 536870912 /* IgnoreSomeMagicProjectileDamage_ImbuedEffectType */, 3, 'This weapon has already been empowered with the Fetish of the Dark Idols!');

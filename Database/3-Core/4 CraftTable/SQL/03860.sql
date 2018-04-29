@@ -293,11 +293,11 @@ VALUES (3860, 7897 /* Steel Toed Boots */, 20993 /* Salvaged Steel */)
      , (3860, 6047 /* Amuli Leggings */, 20993 /* Salvaged Steel */)
      , (3860, 6048 /* Celdon Sleeves */, 20993 /* Salvaged Steel */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3860, 0, 0, '')
-     , (3860, 1, 1, '')
-     , (3860, 1, 1, '')
-     , (3860, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3860, 0, 0, '') /* Target */
+     , (3860, 1, 1, '') /* Salvaged Steel */
+     , (3860, 1, 1, '') /* Target */
+     , (3860, 1, 1, '') /* Salvaged Steel */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3860, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -4,11 +4,11 @@ VALUES (4672, 0, 18 /* ITEM_APPRAISAL_SKILL */, 100, 0, 0, 0, 'You emboss the sh
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4672, 25811 /* Shield of Power */, 20858 /* Fish Stamp */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4672, 0, 0, '')
-     , (4672, 1, 1, '')
-     , (4672, 0, 0, '')
-     , (4672, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4672, 0, 0, '') /* Target */
+     , (4672, 1, 1, '') /* Fish Stamp */
+     , (4672, 0, 0, '') /* Target */
+     , (4672, 1, 1, '') /* Fish Stamp */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4672, 192 /* FAKE_FISHING_SKILL_INT */, 100, 2, 'You need to be an Angler of 100 skill or higher to create this shield.');

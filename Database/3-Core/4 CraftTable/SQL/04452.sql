@@ -563,11 +563,11 @@ VALUES (4452, 141 /* Bowl */, 29580 /* Salvaged Red Garnet */)
      , (4452, 29264 /* Piercing Sceptre */, 21069 /* Salvaged Red Garnet */)
      , (4452, 29265 /* Slashing Sceptre */, 21069 /* Salvaged Red Garnet */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4452, 0, 0, '')
-     , (4452, 1, 1, '')
-     , (4452, 1, 1, '')
-     , (4452, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4452, 0, 0, '') /* Target */
+     , (4452, 1, 1, '') /* Salvaged Red Garnet */
+     , (4452, 1, 1, '') /* Target */
+     , (4452, 1, 1, '') /* Salvaged Red Garnet */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4452, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

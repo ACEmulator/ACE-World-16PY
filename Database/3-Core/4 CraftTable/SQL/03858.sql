@@ -496,11 +496,11 @@ VALUES (3858, 8371 /* Kireth Gown with Band */, 20990 /* Salvaged Pine */)
      , (3858, 7798 /* Electric Naginata */, 20990 /* Salvaged Pine */)
      , (3858, 7897 /* Steel Toed Boots */, 20990 /* Salvaged Pine */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3858, 0, 0, '')
-     , (3858, 1, 1, '')
-     , (3858, 1, 1, '')
-     , (3858, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3858, 0, 0, '') /* Target */
+     , (3858, 1, 1, '') /* Salvaged Pine */
+     , (3858, 1, 1, '') /* Target */
+     , (3858, 1, 1, '') /* Salvaged Pine */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3858, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -14,11 +14,11 @@ VALUES (3979, 2366 /* Orb */, 21065 /* Salvaged Opal */)
      , (3979, 29264 /* Piercing Sceptre */, 21065 /* Salvaged Opal */)
      , (3979, 29265 /* Slashing Sceptre */, 21065 /* Salvaged Opal */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3979, 0, 0, '')
-     , (3979, 1, 1, '')
-     , (3979, 1, 1, '')
-     , (3979, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3979, 0, 0, '') /* Target */
+     , (3979, 1, 1, '') /* Salvaged Opal */
+     , (3979, 1, 1, '') /* Target */
+     , (3979, 1, 1, '') /* Salvaged Opal */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3979, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

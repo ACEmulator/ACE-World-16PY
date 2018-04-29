@@ -21,11 +21,11 @@ VALUES (3654, 16920 /* Flag */, 8650 /* Lapyan Dye Pot */)
      , (3654, 16920 /* Flag */, 11476 /* Colban Dye Pot */)
      , (3654, 16920 /* Flag */, 11477 /* Relanim Dye Pot */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3654, 0, 0, '')
-     , (3654, 1, 1, '')
-     , (3654, 0, 0, '')
-     , (3654, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3654, 0, 0, '') /* Target */
+     , (3654, 1, 1, '') /* Relanim Dye Pot */
+     , (3654, 0, 0, '') /* Target */
+     , (3654, 1, 1, '') /* Relanim Dye Pot */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3654, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

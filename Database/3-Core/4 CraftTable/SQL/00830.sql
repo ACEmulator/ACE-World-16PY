@@ -4,11 +4,11 @@ VALUES (830, 0, 0 /* UNDEF_SKILL */, 0, 0, 6162 /* Fine Atlan Axe */, 1, 'You''v
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (830, 6360 /* Fine Shadow Atlan Axe */, 6127 /* Stone Tool */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (830, 1, 1, '')
-     , (830, 0.100000001490116, 1, 'Stone Tool was destroyed.')
-     , (830, 1, 1, '')
-     , (830, 0.100000001490116, 1, 'Stone Tool was destroyed.');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (830, 1, 1, '') /* Target */
+     , (830, 0.100000001490116, 1, 'Stone Tool was destroyed.') /* Stone Tool */
+     , (830, 1, 1, '') /* Target */
+     , (830, 0.100000001490116, 1, 'Stone Tool was destroyed.') /* Stone Tool */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (830, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

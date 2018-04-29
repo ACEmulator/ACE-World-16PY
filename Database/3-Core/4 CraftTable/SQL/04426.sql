@@ -496,11 +496,11 @@ VALUES (4426, 35 /* Chainmail Basinet */, 21059 /* Salvaged Leather */)
      , (4426, 29264 /* Piercing Sceptre */, 21059 /* Salvaged Leather */)
      , (4426, 29265 /* Slashing Sceptre */, 21059 /* Salvaged Leather */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4426, 0, 0, '')
-     , (4426, 1, 1, '')
-     , (4426, 0, 0, '')
-     , (4426, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4426, 0, 0, '') /* Target */
+     , (4426, 1, 1, '') /* Salvaged Leather */
+     , (4426, 0, 0, '') /* Target */
+     , (4426, 1, 1, '') /* Salvaged Leather */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4426, 092 /* STRUCTURE_INT */, 100, 2, 'The material is not complete!');

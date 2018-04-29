@@ -4,11 +4,11 @@ VALUES (378, 0, 37 /* FLETCHING_SKILL */, 30, 0, 5342 /* Bundle of Frost Arrowhe
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (378, 5347 /* Bundle of Armor Piercing Arrowheads */, 5331 /* Frost Oil */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (378, 1, 1, '')
-     , (378, 1, 1, '')
-     , (378, 1, 1, '')
-     , (378, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (378, 1, 1, '') /* Target */
+     , (378, 1, 1, '') /* Frost Oil */
+     , (378, 1, 1, '') /* Target */
+     , (378, 1, 1, '') /* Frost Oil */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (378, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

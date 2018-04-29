@@ -35,11 +35,11 @@ VALUES (4700, 23793 /* Brilliant Celdon Breastplate */, 25815 /* Blue Armor Pain
      , (4700, 23823 /* Searing Celdon Sleeves */, 25815 /* Blue Armor Paint */)
      , (4700, 23824 /* Solid Celdon Sleeves */, 25815 /* Blue Armor Paint */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4700, 0, 0, '')
-     , (4700, 1, 1, '')
-     , (4700, 0, 0, '')
-     , (4700, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4700, 0, 0, '') /* Target */
+     , (4700, 1, 1, '') /* Blue Armor Paint */
+     , (4700, 0, 0, '') /* Target */
+     , (4700, 1, 1, '') /* Blue Armor Paint */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4700, 1, 0, 0, 0, 0, 0, 0, True, 0, 0, 0)

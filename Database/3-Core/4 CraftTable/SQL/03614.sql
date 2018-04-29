@@ -4,11 +4,11 @@ VALUES (3614, 0, 0 /* UNDEF_SKILL */, 0, 0, 19491 /* Perfect Isparian Axe Ingot 
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (3614, 19515 /* Perfect Diamond Infused Pyreal Ingot */, 19401 /* New Axe Glyph */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3614, 1, 1, '')
-     , (3614, 1, 1, '')
-     , (3614, 1, 1, '')
-     , (3614, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3614, 1, 1, '') /* Target */
+     , (3614, 1, 1, '') /* New Axe Glyph */
+     , (3614, 1, 1, '') /* Target */
+     , (3614, 1, 1, '') /* New Axe Glyph */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3614, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

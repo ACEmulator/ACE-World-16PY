@@ -159,11 +159,11 @@ VALUES (3856, 35 /* Chainmail Basinet */, 21061 /* Salvaged Marble */)
      , (3856, 27231 /* Nariyid Leggings */, 21061 /* Salvaged Marble */)
      , (3856, 27232 /* Nariyid Sleeves */, 21061 /* Salvaged Marble */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3856, 0, 0, '')
-     , (3856, 1, 1, '')
-     , (3856, 1, 1, '')
-     , (3856, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3856, 0, 0, '') /* Target */
+     , (3856, 1, 1, '') /* Salvaged Marble */
+     , (3856, 1, 1, '') /* Target */
+     , (3856, 1, 1, '') /* Salvaged Marble */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3856, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

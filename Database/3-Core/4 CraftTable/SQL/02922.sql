@@ -4,11 +4,11 @@ VALUES (2922, 0, 0 /* UNDEF_SKILL */, 0, 0, 20045 /* Perfect Chilling Isparian A
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (2922, 20044 /* Perfect Isparian Atlatl */, 6123 /* Major Shivering Stone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (2922, 1, 1, '')
-     , (2922, 0, 0, '')
-     , (2922, 1, 1, '')
-     , (2922, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (2922, 1, 1, '') /* Target */
+     , (2922, 0, 0, '') /* Major Shivering Stone */
+     , (2922, 1, 1, '') /* Target */
+     , (2922, 0, 0, '') /* Major Shivering Stone */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (2922, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

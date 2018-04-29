@@ -4,11 +4,11 @@ VALUES (1854, 0, 34 /* WAR_MAGIC_SKILL */, 340, 0, 9035 /* Exarch Plate Girth */
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (1854, 9085 /* Thaumaturgic Plate Girth */, 9076 /* Sea Blue Kindling Stone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (1854, 1, 1, '')
-     , (1854, 1, 1, '')
-     , (1854, 1, 1, '')
-     , (1854, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (1854, 1, 1, '') /* Target */
+     , (1854, 1, 1, '') /* Sea Blue Kindling Stone */
+     , (1854, 1, 1, '') /* Target */
+     , (1854, 1, 1, '') /* Sea Blue Kindling Stone */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (1854, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

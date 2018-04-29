@@ -4,11 +4,11 @@ VALUES (198, 0, 39 /* COOKING_SKILL */, 200, 0, 5801 /* Hearty Mana Hot Kimchi *
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (198, 5798 /* Mana Hot Kimchi */, 5336 /* Victual Oil */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (198, 1, 1, '')
-     , (198, 1, 1, '')
-     , (198, 1, 1, '')
-     , (198, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (198, 1, 1, '') /* Target */
+     , (198, 1, 1, '') /* Victual Oil */
+     , (198, 1, 1, '') /* Target */
+     , (198, 1, 1, '') /* Victual Oil */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (198, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

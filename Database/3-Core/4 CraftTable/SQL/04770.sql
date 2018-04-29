@@ -4,11 +4,11 @@ VALUES (4770, 0, 32 /* ITEM_ENCHANTMENT_SKILL */, 300, 0, 27650 /* Head of the H
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4770, 27649 /* Head of the Homunculus */, 8425 /* Idol Gem */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4770, 1, 1, '')
-     , (4770, 1, 1, '')
-     , (4770, 1, 1, '')
-     , (4770, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4770, 1, 1, '') /* Target */
+     , (4770, 1, 1, '') /* Idol Gem */
+     , (4770, 1, 1, '') /* Target */
+     , (4770, 1, 1, '') /* Idol Gem */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4770, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

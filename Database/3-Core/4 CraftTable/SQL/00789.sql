@@ -4,11 +4,11 @@ VALUES (789, 0, 38 /* ALCHEMY_SKILL */, 150, 0, 6331 /* Quality Pyreal Ingot */,
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (789, 6329 /* Pyreal Bar */, 6329 /* Pyreal Bar */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (789, 1, 1, '')
-     , (789, 1, 1, '')
-     , (789, 1, 1, '')
-     , (789, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (789, 1, 1, '') /* Target */
+     , (789, 1, 1, '') /* Pyreal Bar */
+     , (789, 1, 1, '') /* Target */
+     , (789, 1, 1, '') /* Pyreal Bar */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (789, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

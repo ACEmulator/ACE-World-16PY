@@ -158,11 +158,11 @@ VALUES (4433, 27215 /* Chiran Coat */, 21089 /* Salvaged Zircon */)
      , (4433, 25652 /* Leather Tassets */, 21089 /* Salvaged Zircon */)
      , (4433, 25661 /* Leather Boots */, 21089 /* Salvaged Zircon */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4433, 0, 0, '')
-     , (4433, 1, 1, '')
-     , (4433, 1, 1, '')
-     , (4433, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4433, 0, 0, '') /* Target */
+     , (4433, 1, 1, '') /* Salvaged Zircon */
+     , (4433, 1, 1, '') /* Target */
+     , (4433, 1, 1, '') /* Salvaged Zircon */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4433, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

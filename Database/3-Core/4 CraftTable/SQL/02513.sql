@@ -4,11 +4,11 @@ VALUES (2513, 0, 39 /* COOKING_SKILL */, 150, 0, 14756 /* Chicken Dumplings */, 
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (2513, 262 /* Chicken */, 14787 /* Rice Dough */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (2513, 1, 1, '')
-     , (2513, 1, 1, '')
-     , (2513, 1, 1, '')
-     , (2513, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (2513, 1, 1, '') /* Target */
+     , (2513, 1, 1, '') /* Rice Dough */
+     , (2513, 1, 1, '') /* Target */
+     , (2513, 1, 1, '') /* Rice Dough */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (2513, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

@@ -496,11 +496,11 @@ VALUES (3978, 35 /* Chainmail Basinet */, 21062 /* Salvaged Moonstone */)
      , (3978, 29264 /* Piercing Sceptre */, 21062 /* Salvaged Moonstone */)
      , (3978, 29265 /* Slashing Sceptre */, 21062 /* Salvaged Moonstone */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3978, 0, 0, '')
-     , (3978, 1, 1, '')
-     , (3978, 1, 1, '')
-     , (3978, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3978, 0, 0, '') /* Target */
+     , (3978, 1, 1, '') /* Salvaged Moonstone */
+     , (3978, 1, 1, '') /* Target */
+     , (3978, 1, 1, '') /* Salvaged Moonstone */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3978, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

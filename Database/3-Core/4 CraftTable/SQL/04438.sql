@@ -12,11 +12,11 @@ VALUES (4438, 294 /* Amulet */, 21060 /* Salvaged Malachite */)
      , (4438, 1443 /* Ring */, 21060 /* Salvaged Malachite */)
      , (4438, 2367 /* Gorget */, 21060 /* Salvaged Malachite */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4438, 0, 0, '')
-     , (4438, 1, 1, '')
-     , (4438, 1, 1, '')
-     , (4438, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4438, 0, 0, '') /* Target */
+     , (4438, 1, 1, '') /* Salvaged Malachite */
+     , (4438, 1, 1, '') /* Target */
+     , (4438, 1, 1, '') /* Salvaged Malachite */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4438, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

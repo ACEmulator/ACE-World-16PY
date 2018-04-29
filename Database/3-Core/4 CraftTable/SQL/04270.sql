@@ -4,11 +4,11 @@ VALUES (4270, 0, 0 /* UNDEF_SKILL */, 0, 0, 6876 /* Sturdy Iron Key */, 1, 'You 
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4270, 23194 /* Sturdy Iron Keyring */, 9295 /* Intricate Carving Tool */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4270, 0, 0, '')
-     , (4270, 0, 0, '')
-     , (4270, 0, 0, '')
-     , (4270, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4270, 0, 0, '') /* Target */
+     , (4270, 0, 0, '') /* Intricate Carving Tool */
+     , (4270, 0, 0, '') /* Target */
+     , (4270, 0, 0, '') /* Intricate Carving Tool */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4270, 193 /* NUM_KEYS_INT */, 0, 1, 'This keyring is already empty!');

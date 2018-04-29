@@ -4,11 +4,11 @@ VALUES (4686, 0, 18 /* ITEM_APPRAISAL_SKILL */, 200, 0, 0, 0, 'You emboss the sh
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4686, 25843 /* Nefane Shield */, 20856 /* Bael'Zharon Stamp */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4686, 0, 0, '')
-     , (4686, 1, 1, '')
-     , (4686, 0, 0, '')
-     , (4686, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4686, 0, 0, '') /* Target */
+     , (4686, 1, 1, '') /* Bael'Zharon Stamp */
+     , (4686, 0, 0, '') /* Target */
+     , (4686, 1, 1, '') /* Bael'Zharon Stamp */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4686, 134 /* PLAYER_KILLER_STATUS_INT */, 4, 2, 'You need to be a Player Killer to use this stamp.');

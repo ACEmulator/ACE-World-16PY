@@ -563,11 +563,11 @@ VALUES (4454, 141 /* Bowl */, 29577 /* Salvaged Imperial Topaz */)
      , (4454, 29264 /* Piercing Sceptre */, 21054 /* Salvaged Imperial Topaz */)
      , (4454, 29265 /* Slashing Sceptre */, 21054 /* Salvaged Imperial Topaz */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4454, 0, 0, '')
-     , (4454, 1, 1, '')
-     , (4454, 1, 1, '')
-     , (4454, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4454, 0, 0, '') /* Target */
+     , (4454, 1, 1, '') /* Salvaged Imperial Topaz */
+     , (4454, 1, 1, '') /* Target */
+     , (4454, 1, 1, '') /* Salvaged Imperial Topaz */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4454, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -11,11 +11,11 @@ VALUES (4703, 23833 /* Brilliant Koujia Leggings */, 25816 /* Violet Armor Paint
      , (4703, 23839 /* Searing Koujia Leggings */, 25816 /* Violet Armor Paint */)
      , (4703, 23840 /* Solid Koujia Leggings */, 25816 /* Violet Armor Paint */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4703, 0, 0, '')
-     , (4703, 1, 1, '')
-     , (4703, 0, 0, '')
-     , (4703, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4703, 0, 0, '') /* Target */
+     , (4703, 1, 1, '') /* Violet Armor Paint */
+     , (4703, 0, 0, '') /* Target */
+     , (4703, 1, 1, '') /* Violet Armor Paint */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4703, 1, 0, 0, 0, 0, 0, 0, True, 0, 0, 0)

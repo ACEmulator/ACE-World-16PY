@@ -35,11 +35,11 @@ VALUES (4707, 23777 /* Brilliant Amuli Coat */, 25817 /* Red Armor Paint */)
      , (4707, 23847 /* Searing Koujia Sleeves */, 25817 /* Red Armor Paint */)
      , (4707, 23848 /* Solid Koujia Sleeves */, 25817 /* Red Armor Paint */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4707, 0, 0, '')
-     , (4707, 1, 1, '')
-     , (4707, 0, 0, '')
-     , (4707, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4707, 0, 0, '') /* Target */
+     , (4707, 1, 1, '') /* Red Armor Paint */
+     , (4707, 0, 0, '') /* Target */
+     , (4707, 1, 1, '') /* Red Armor Paint */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4707, 1, 0, 0, 0, 0, 0, 0, True, 0, 0, 0)

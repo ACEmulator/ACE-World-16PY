@@ -684,11 +684,11 @@ VALUES (3977, 15447 /* Deadly Hollow Axe */, 21055 /* Salvaged Ivory */)
      , (3977, 14507 /* Frigid Bracelet */, 21055 /* Salvaged Ivory */)
      , (3977, 14920 /* Wedding Ring */, 21055 /* Salvaged Ivory */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3977, 0, 0, '')
-     , (3977, 1, 1, '')
-     , (3977, 0, 0, '')
-     , (3977, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3977, 0, 0, '') /* Target */
+     , (3977, 1, 1, '') /* Salvaged Ivory */
+     , (3977, 0, 0, '') /* Target */
+     , (3977, 1, 1, '') /* Salvaged Ivory */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3977, 114 /* ATTUNED_INT */, 1 /* Attuned_AttunedStatus */, 5, 'The target is not attuned to your soul!')

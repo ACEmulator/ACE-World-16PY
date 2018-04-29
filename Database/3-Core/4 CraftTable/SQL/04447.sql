@@ -12,11 +12,11 @@ VALUES (4447, 294 /* Amulet */, 21078 /* Salvaged Smoky Quartz */)
      , (4447, 1443 /* Ring */, 21078 /* Salvaged Smoky Quartz */)
      , (4447, 2367 /* Gorget */, 21078 /* Salvaged Smoky Quartz */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4447, 0, 0, '')
-     , (4447, 1, 1, '')
-     , (4447, 1, 1, '')
-     , (4447, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4447, 0, 0, '') /* Target */
+     , (4447, 1, 1, '') /* Salvaged Smoky Quartz */
+     , (4447, 1, 1, '') /* Target */
+     , (4447, 1, 1, '') /* Salvaged Smoky Quartz */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4447, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

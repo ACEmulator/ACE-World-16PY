@@ -4,11 +4,11 @@ VALUES (8, 0, 38 /* ALCHEMY_SKILL */, 75, 0, 5330 /* Acid Oil */, 1, 'You create
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (8, 4748 /* Aqua Incanta */, 5322 /* Acid Infusion */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (8, 1, 1, '')
-     , (8, 1, 1, '')
-     , (8, 1, 1, '')
-     , (8, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (8, 1, 1, '') /* Target */
+     , (8, 1, 1, '') /* Acid Infusion */
+     , (8, 1, 1, '') /* Target */
+     , (8, 1, 1, '') /* Acid Infusion */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (8, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

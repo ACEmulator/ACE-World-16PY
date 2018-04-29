@@ -4,11 +4,11 @@ VALUES (288, 0, 39 /* COOKING_SKILL */, 50, 0, 7922 /* Ground Rabbit */, 1, 'You
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (288, 5212 /* Rabbit Piece */, 7823 /* Heavy Grinder */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (288, 1, 1, '')
-     , (288, 0, 0, '')
-     , (288, 1, 1, '')
-     , (288, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (288, 1, 1, '') /* Target */
+     , (288, 0, 0, '') /* Heavy Grinder */
+     , (288, 1, 1, '') /* Target */
+     , (288, 0, 0, '') /* Heavy Grinder */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (288, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

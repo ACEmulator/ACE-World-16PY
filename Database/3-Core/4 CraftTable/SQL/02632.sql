@@ -4,11 +4,11 @@ VALUES (2632, 0, 37 /* FLETCHING_SKILL */, 75, 0, 15414 /* Bundle of Deadly Blun
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (2632, 15423 /* Wrapped Bundle of Deadly Blunt Arrowheads */, 5778 /* Whittling Knife */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (2632, 1, 1, '')
-     , (2632, 0, 0, '')
-     , (2632, 1, 1, '')
-     , (2632, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (2632, 1, 1, '') /* Target */
+     , (2632, 0, 0, '') /* Whittling Knife */
+     , (2632, 1, 1, '') /* Target */
+     , (2632, 0, 0, '') /* Whittling Knife */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (2632, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

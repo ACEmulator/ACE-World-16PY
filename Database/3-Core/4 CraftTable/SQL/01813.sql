@@ -4,11 +4,11 @@ VALUES (1813, 0, 0 /* UNDEF_SKILL */, 0, 0, 0, 0, 'You attach the Bandit Hilt to
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (1813, 3828 /* Flaming Khanjar */, 8899 /* Bandit Blade Hilt */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (1813, 0, 0, '')
-     , (1813, 1, 1, '')
-     , (1813, 0, 0, '')
-     , (1813, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (1813, 0, 0, '') /* Target */
+     , (1813, 1, 1, '') /* Bandit Blade Hilt */
+     , (1813, 0, 0, '') /* Target */
+     , (1813, 1, 1, '') /* Bandit Blade Hilt */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (1813, 171 /* NUM_TIMES_TINKERED_INT */, 0, 4, 'You can''t hilt a weapon that has been tinkered.')

@@ -65,11 +65,11 @@ VALUES (3855, 306 /* Longbow */, 29579 /* Salvaged Mahogany */)
      , (3855, 29257 /* Piercing Atlatl */, 29579 /* Salvaged Mahogany */)
      , (3855, 29258 /* Slashing Atlatl */, 29579 /* Salvaged Mahogany */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3855, 0, 0, '')
-     , (3855, 1, 1, '')
-     , (3855, 1, 1, '')
-     , (3855, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3855, 0, 0, '') /* Target */
+     , (3855, 1, 1, '') /* Salvaged Mahogany */
+     , (3855, 1, 1, '') /* Target */
+     , (3855, 1, 1, '') /* Salvaged Mahogany */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (3855, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

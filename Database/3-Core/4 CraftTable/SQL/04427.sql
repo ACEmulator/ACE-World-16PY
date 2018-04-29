@@ -496,11 +496,11 @@ VALUES (4427, 12463 /* Atlatl */, 21077 /* Salvaged Silver */)
      , (4427, 27231 /* Nariyid Leggings */, 21077 /* Salvaged Silver */)
      , (4427, 27232 /* Nariyid Sleeves */, 21077 /* Salvaged Silver */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4427, 0, 0, '')
-     , (4427, 1, 1, '')
-     , (4427, 1, 1, '')
-     , (4427, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4427, 0, 0, '') /* Target */
+     , (4427, 1, 1, '') /* Salvaged Silver */
+     , (4427, 1, 1, '') /* Target */
+     , (4427, 1, 1, '') /* Salvaged Silver */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4427, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

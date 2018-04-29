@@ -4,11 +4,11 @@ VALUES (4370, 0, 33 /* LIFE_MAGIC_SKILL */, 330, 0, 23974 /* Infused Helm of Kno
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4370, 23945 /* Runic Helm of Knorr */, 23962 /* Orb of Infusion */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4370, 1, 1, '')
-     , (4370, 1, 1, '')
-     , (4370, 1, 1, '')
-     , (4370, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4370, 1, 1, '') /* Target */
+     , (4370, 1, 1, '') /* Orb of Infusion */
+     , (4370, 1, 1, '') /* Target */
+     , (4370, 1, 1, '') /* Orb of Infusion */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4370, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

@@ -563,11 +563,11 @@ VALUES (4450, 141 /* Bowl */, 21048 /* Salvaged Emerald */)
      , (4450, 362 /* Yari */, 29574 /* Salvaged Emerald */)
      , (4450, 363 /* Yumi */, 29574 /* Salvaged Emerald */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4450, 0, 0, '')
-     , (4450, 1, 1, '')
-     , (4450, 1, 1, '')
-     , (4450, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4450, 0, 0, '') /* Target */
+     , (4450, 1, 1, '') /* Salvaged Emerald */
+     , (4450, 1, 1, '') /* Target */
+     , (4450, 1, 1, '') /* Salvaged Emerald */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4450, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

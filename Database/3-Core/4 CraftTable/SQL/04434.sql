@@ -158,11 +158,11 @@ VALUES (4434, 27215 /* Chiran Coat */, 21088 /* Salvaged Yellow Topaz */)
      , (4434, 25652 /* Leather Tassets */, 21088 /* Salvaged Yellow Topaz */)
      , (4434, 25661 /* Leather Boots */, 21088 /* Salvaged Yellow Topaz */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4434, 0, 0, '')
-     , (4434, 1, 1, '')
-     , (4434, 1, 1, '')
-     , (4434, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4434, 0, 0, '') /* Target */
+     , (4434, 1, 1, '') /* Salvaged Yellow Topaz */
+     , (4434, 1, 1, '') /* Target */
+     , (4434, 1, 1, '') /* Salvaged Yellow Topaz */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4434, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

@@ -12,11 +12,11 @@ VALUES (4437, 1443 /* Ring */, 21038 /* Salvaged Azurite */)
      , (4437, 623 /* Heavy Necklace */, 21038 /* Salvaged Azurite */)
      , (4437, 624 /* Ring */, 21038 /* Salvaged Azurite */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4437, 0, 0, '')
-     , (4437, 1, 1, '')
-     , (4437, 1, 1, '')
-     , (4437, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4437, 0, 0, '') /* Target */
+     , (4437, 1, 1, '') /* Salvaged Azurite */
+     , (4437, 1, 1, '') /* Target */
+     , (4437, 1, 1, '') /* Salvaged Azurite */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4437, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

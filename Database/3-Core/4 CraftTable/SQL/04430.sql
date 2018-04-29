@@ -496,11 +496,11 @@ VALUES (4430, 35 /* Chainmail Basinet */, 21067 /* Salvaged Porcelain */)
      , (4430, 29264 /* Piercing Sceptre */, 21067 /* Salvaged Porcelain */)
      , (4430, 29265 /* Slashing Sceptre */, 21067 /* Salvaged Porcelain */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4430, 0, 0, '')
-     , (4430, 1, 1, '')
-     , (4430, 1, 1, '')
-     , (4430, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4430, 0, 0, '') /* Target */
+     , (4430, 1, 1, '') /* Salvaged Porcelain */
+     , (4430, 1, 1, '') /* Target */
+     , (4430, 1, 1, '') /* Salvaged Porcelain */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4430, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

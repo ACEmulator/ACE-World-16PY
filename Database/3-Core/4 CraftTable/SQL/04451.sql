@@ -563,11 +563,11 @@ VALUES (4451, 141 /* Bowl */, 29578 /* Salvaged Jet */)
      , (4451, 29264 /* Piercing Sceptre */, 21056 /* Salvaged Jet */)
      , (4451, 29265 /* Slashing Sceptre */, 21056 /* Salvaged Jet */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4451, 0, 0, '')
-     , (4451, 1, 1, '')
-     , (4451, 1, 1, '')
-     , (4451, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4451, 0, 0, '') /* Target */
+     , (4451, 1, 1, '') /* Salvaged Jet */
+     , (4451, 1, 1, '') /* Target */
+     , (4451, 1, 1, '') /* Salvaged Jet */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4451, 105 /* ITEM_WORKMANSHIP_INT */, 1, 2, 'The target item cannot be tinkered!')

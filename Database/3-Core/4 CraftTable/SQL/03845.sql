@@ -21,11 +21,11 @@ VALUES (3845, 15714 /* Wedding Raiment */, 8651 /* Minalim Dye Pot */)
      , (3845, 14906 /* Wedding Raiment */, 8652 /* Argenory Dye Pot */)
      , (3845, 15714 /* Wedding Raiment */, 8650 /* Lapyan Dye Pot */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (3845, 0, 0, '')
-     , (3845, 1, 1, '')
-     , (3845, 0, 0, '')
-     , (3845, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (3845, 0, 0, '') /* Target */
+     , (3845, 1, 1, '') /* Lapyan Dye Pot */
+     , (3845, 0, 0, '') /* Target */
+     , (3845, 1, 1, '') /* Lapyan Dye Pot */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (3845, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)

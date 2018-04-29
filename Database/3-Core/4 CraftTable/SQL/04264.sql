@@ -4,11 +4,11 @@ VALUES (4264, 0, 0 /* UNDEF_SKILL */, 0, 0, 0, 0, 'You add the key to the keyrin
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4264, 23094 /* Granite Key */, 23198 /* Granite Keyring */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4264, 1, 1, '')
-     , (4264, 0, 0, '')
-     , (4264, 1, 1, '')
-     , (4264, 0, 0, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4264, 1, 1, '') /* Target */
+     , (4264, 0, 0, '') /* Granite Keyring */
+     , (4264, 1, 1, '') /* Target */
+     , (4264, 0, 0, '') /* Granite Keyring */;
 
 INSERT INTO `recipe_requirements_int` (`recipe_Id`, `stat`, `value`, `enum`, `message`)
 VALUES (4264, 193 /* NUM_KEYS_INT */, 24, 3, 'This keyring is full.')

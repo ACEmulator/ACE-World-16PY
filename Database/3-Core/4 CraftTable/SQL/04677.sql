@@ -4,11 +4,11 @@ VALUES (4677, 0, 18 /* ITEM_APPRAISAL_SKILL */, 200, 0, 0, 0, 'You emboss the sh
 INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
 VALUES (4677, 25811 /* Shield of Power */, 20863 /* Virindi Stamp */);
 
-INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
-VALUES (4677, 0, 0, '')
-     , (4677, 1, 1, '')
-     , (4677, 0, 0, '')
-     , (4677, 1, 1, '');
+INSERT INTO `recipe_component` (`recipe_Id`, `destroy_Chance`, `destroy_Amount`, `destroy_Message`)
+VALUES (4677, 0, 0, '') /* Target */
+     , (4677, 1, 1, '') /* Virindi Stamp */
+     , (4677, 0, 0, '') /* Target */
+     , (4677, 1, 1, '') /* Virindi Stamp */;
 
 INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
 VALUES (4677, 1, 0, 0, 0, 0, 0, 0, True, 0, 0, 0)
