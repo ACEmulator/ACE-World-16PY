@@ -1,0 +1,22 @@
+INSERT INTO `recipe` (`recipe_Id`, `unknown_1`, `skill`, `difficulty`, `salvage_Type`, `success_W_C_I_D`, `success_Amount`, `success_Message`, `fail_W_C_I_D`, `fail_Amount`, `fail_Message`, `data_Id`)
+VALUES (3867, 0, 4 /* DAGGER_SKILL */, 0, 0, 21354 /* Phantom Dagger */, 1, 'You imbue your Ravenous Dagger with the deadly power of the Bloodhunter Oil.', 0, 1, 'You fail.', 0);
+
+INSERT INTO `cook_book` (`recipe_Id`, `target_W_C_I_D`, `source_W_C_I_D`)
+VALUES (3867, 7566 /* Ravenous Dagger */, 15408 /* Bloodhunter Oil */);
+
+INSERT INTO `recipe_component` (`recipe_Id`, `percent`, `unknown_2`, `message`)
+VALUES (3867, 1, 1, '')
+     , (3867, 1, 1, '')
+     , (3867, 1, 1, '')
+     , (3867, 1, 1, '');
+
+INSERT INTO `recipe_mod` (`recipe_Id`, `mod_Set_Id`, `health`, `unknown_2`, `mana`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `data_Id`, `unknown_9`, `instance_Id`)
+VALUES (3867, 1, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 2, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 3, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 4, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 5, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 6, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 7, 0, 0, 0, 0, 0, 0, False, 0, 0, 0)
+     , (3867, 8, 0, 0, 0, 0, 0, 0, False, 0, 0, 0);
+
