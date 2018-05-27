@@ -17,7 +17,14 @@ VALUES (19261, 001 /* SETUP_DID */, 33557327)
      , (19261, 008 /* ICON_DID */, 100667449)
      , (19261, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (19261, 032 /* WIELDED_TREASURE_TYPE_DID */, 128)
-     , (19261, 035 /* DEATH_TREASURE_TYPE_DID */, 127);
+     /* Wield  Budiaq (308)   Chance: 12% */
+     /* Wield  Khanjar (328)   Chance: 25% */
+     /* Wield  Spear (348)   Chance: 13% */
+     /* Wield 10x Throwing Dart (316)   Chance: 5% */
+     /* Wield 10x Shouken (343)   Chance: 5% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 5% */
+     /* Wield  Djarid (317)   Chance: 10% */
+     , (19261, 035 /* DEATH_TREASURE_TYPE_DID */, 127 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19261, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

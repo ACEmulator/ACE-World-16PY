@@ -16,7 +16,10 @@ VALUES (2442, 001 /* SETUP_DID */, 33554484)
      , (2442, 007 /* CLOTHINGBASE_DID */, 268435834)
      , (2442, 008 /* ICON_DID */, 100667445)
      , (2442, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415339)
-     , (2442, 035 /* DEATH_TREASURE_TYPE_DID */, 73);
+     , (2442, 035 /* DEATH_TREASURE_TYPE_DID */, 73)
+     /* Contain  Stale Bread (5088)   Chance: 16% */
+     /* Contain  Old Cheese (5089)   Chance: 16% */
+     /* Contain  Bruised Apple (5090)   Chance: 16% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2442, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

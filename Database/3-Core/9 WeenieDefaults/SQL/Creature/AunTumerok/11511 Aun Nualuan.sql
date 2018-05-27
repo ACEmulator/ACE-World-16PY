@@ -17,7 +17,17 @@ VALUES (11511, 001 /* SETUP_DID */, 33557117)
      , (11511, 008 /* ICON_DID */, 100671756)
      , (11511, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11511, 032 /* WIELDED_TREASURE_TYPE_DID */, 381)
-     , (11511, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Palenqual's Tewhate (12111)   Chance: 17% */
+     /* Wield  Palenqual's Okane (12114)   Chance: 17% */
+     /* Wield  Palenqual's Waaika (12117)   Chance: 17% */
+     /* Wield  Palenqual's Taiaha (12120)   Chance: 17% */
+     /* Wield  Palenqual's Hoeroa (12123)   Chance: 17% */
+     /* Wield  Kaskara (324)   Chance: 3% */
+     /* Wield  Long Sword (351)   Chance: 3% */
+     /* Wield  Silifi (344)   Chance: 3% */
+     /* Wield  Tachi (353)   Chance: 3% */
+     /* Wield  War Hammer (359)   Chance: 3% */
+     , (11511, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11511, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

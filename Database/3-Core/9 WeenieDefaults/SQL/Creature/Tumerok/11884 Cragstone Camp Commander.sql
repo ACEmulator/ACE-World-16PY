@@ -18,7 +18,17 @@ VALUES (11884, 001 /* SETUP_DID */, 33554496)
      , (11884, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11884, 031 /* LINKED_PORTAL_ONE_DID */, 11845 /* Cragstone Reinforcements Camp Portal */)
      , (11884, 032 /* WIELDED_TREASURE_TYPE_DID */, 195)
-     , (11884, 035 /* DEATH_TREASURE_TYPE_DID */, 201);
+     /* Wield  Yumi (23735)   Chance: 20% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   Chance: 40% */
+     /* Wield 20x Quarrel (305)   Chance: 100% */
+     /* Wield  Katar (23675)   Chance: 14% */
+     /* Wield  Cestus (23638)   Chance: 7% */
+     /* Wield  Nekode (23681)   Chance: 6% */
+     /* Wield  Tachi (23701)   Chance: 6% */
+     /* Wield  Spear (23697)   Chance: 6% */
+     /* Wield  Kite Shield (23685)   Chance: 75% */
+     , (11884, 035 /* DEATH_TREASURE_TYPE_DID */, 201 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11884, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

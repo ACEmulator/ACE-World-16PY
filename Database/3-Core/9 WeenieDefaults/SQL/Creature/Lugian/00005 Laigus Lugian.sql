@@ -17,7 +17,12 @@ VALUES (5, 001 /* SETUP_DID */, 33557003)
      , (5, 008 /* ICON_DID */, 100667447)
      , (5, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415262)
      , (5, 032 /* WIELDED_TREASURE_TYPE_DID */, 109)
-     , (5, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Rock (23747)   Chance: 75% */
+     /* Wield  Lugian Axe (23741)   Chance: 15% */
+     /* Wield  Lugian Club (23751)   Chance: 20% */
+     /* Wield  Lugian Hammer (23755)   Chance: 20% */
+     /* Wield  Lugian Morning Star (23767)   Chance: 20% */
+     , (5, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

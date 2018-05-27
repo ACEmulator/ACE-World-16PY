@@ -17,7 +17,8 @@ VALUES (19303, 001 /* SETUP_DID */, 33554510)
      , (19303, 008 /* ICON_DID */, 100667446)
      , (19303, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19303, 032 /* WIELDED_TREASURE_TYPE_DID */, 398)
-     , (19303, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Ben Ten's Tachi (15391)   Chance: 100% */
+     , (19303, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19303, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

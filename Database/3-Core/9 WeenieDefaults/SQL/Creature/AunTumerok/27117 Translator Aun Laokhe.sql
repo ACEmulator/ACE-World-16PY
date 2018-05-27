@@ -15,7 +15,8 @@ VALUES (27117, 001 /* SETUP_DID */, 33557175)
      , (27117, 006 /* PALETTE_BASE_DID */, 67113280)
      , (27117, 007 /* CLOTHINGBASE_DID */, 268436193)
      , (27117, 008 /* ICON_DID */, 100671756)
-     , (27117, 032 /* WIELDED_TREASURE_TYPE_DID */, 380);
+     , (27117, 032 /* WIELDED_TREASURE_TYPE_DID */, 380)
+     /* Wield  Buadren (11971)   Chance: 100% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27117, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

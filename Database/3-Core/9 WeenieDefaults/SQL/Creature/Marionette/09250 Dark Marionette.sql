@@ -16,7 +16,7 @@ VALUES (9250, 001 /* SETUP_DID */, 33556995)
      , (9250, 007 /* CLOTHINGBASE_DID */, 268435558)
      , (9250, 008 /* ICON_DID */, 100671420)
      , (9250, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415372)
-     , (9250, 035 /* DEATH_TREASURE_TYPE_DID */, 463);
+     , (9250, 035 /* DEATH_TREASURE_TYPE_DID */, 463 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9250, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

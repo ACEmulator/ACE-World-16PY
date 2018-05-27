@@ -17,7 +17,9 @@ VALUES (19312, 001 /* SETUP_DID */, 33554433)
      , (19312, 008 /* ICON_DID */, 100667446)
      , (19312, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19312, 032 /* WIELDED_TREASURE_TYPE_DID */, 403)
-     , (19312, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Cragstone's Axe (15389)   Chance: 100% */
+     /* Wield  Cragstone's Shield (15402)   Chance: 100% */
+     , (19312, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19312, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

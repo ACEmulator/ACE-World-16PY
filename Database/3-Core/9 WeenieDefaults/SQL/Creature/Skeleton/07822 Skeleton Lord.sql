@@ -15,7 +15,22 @@ VALUES (7822, 001 /* SETUP_DID */, 33555464)
      , (7822, 008 /* ICON_DID */, 100669124)
      , (7822, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (7822, 032 /* WIELDED_TREASURE_TYPE_DID */, 466)
-     , (7822, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Broad Sword (350)   Chance: 8% */
+     /* Wield  Long Sword (351)   Chance: 8% */
+     /* Wield  Ken (327)   Chance: 8% */
+     /* Wield  Scimitar (339)   Chance: 8% */
+     /* Wield  Tachi (353)   Chance: 8% */
+     /* Wield  Takuba (354)   Chance: 8% */
+     /* Wield  Kaskara (324)   Chance: 8% */
+     /* Wield  Shamshir (340)   Chance: 8% */
+     /* Wield  Battle Axe (301)   Chance: 8% */
+     /* Wield  Silifi (344)   Chance: 8% */
+     /* Wield  Ono (336)   Chance: 8% */
+     /* Wield  Morning Star (332)   Chance: 8% */
+     /* Wield  Large Kite Shield (92)   Chance: 30% */
+     /* Wield  Large Round Shield (94)   Chance: 30% */
+     /* Wield  Kite Shield (91)   Chance: 20% */
+     , (7822, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7822, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

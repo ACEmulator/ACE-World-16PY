@@ -17,7 +17,11 @@ VALUES (22898, 001 /* SETUP_DID */, 33558024)
      , (22898, 008 /* ICON_DID */, 100667453)
      , (22898, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (22898, 032 /* WIELDED_TREASURE_TYPE_DID */, 423)
-     , (22898, 035 /* DEATH_TREASURE_TYPE_DID */, 449);
+     /* Wield 25x Frost Throwing Club (23130)   Chance: 20% */
+     /* Wield 25x Fire Throwing Club (23129)   Chance: 20% */
+     /* Wield  Flaming Club (23127)   Chance: 25% */
+     /* Wield  Frost Club (23128)   Chance: 25% */
+     , (22898, 035 /* DEATH_TREASURE_TYPE_DID */, 449 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22898, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

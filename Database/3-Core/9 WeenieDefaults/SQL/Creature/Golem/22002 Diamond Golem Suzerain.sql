@@ -17,7 +17,7 @@ VALUES (22002, 001 /* SETUP_DID */, 33556439)
      , (22002, 008 /* ICON_DID */, 100667940)
      , (22002, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415322)
      , (22002, 031 /* LINKED_PORTAL_ONE_DID */, 21406 /* Citadel Valley */)
-     , (22002, 035 /* DEATH_TREASURE_TYPE_DID */, 461);
+     , (22002, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22002, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

@@ -17,7 +17,7 @@ VALUES (10956, 001 /* SETUP_DID */, 33554497)
      , (10956, 008 /* ICON_DID */, 100667943)
      , (10956, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415273)
      , (10956, 031 /* LINKED_PORTAL_ONE_DID */, 10983 /* Habitat Tower Portal */)
-     , (10956, 035 /* DEATH_TREASURE_TYPE_DID */, 462);
+     , (10956, 035 /* DEATH_TREASURE_TYPE_DID */, 462 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10956, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

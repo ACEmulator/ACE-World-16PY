@@ -17,7 +17,9 @@ VALUES (11875, 001 /* SETUP_DID */, 33554496)
      , (11875, 008 /* ICON_DID */, 100667452)
      , (11875, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11875, 032 /* WIELDED_TREASURE_TYPE_DID */, 366)
-     , (11875, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Hafted Falcon Spear (11751)   Chance: 80% */
+     /* Wield  Reinforced Falcon Spear (11777)   Chance: 20% */
+     , (11875, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11875, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

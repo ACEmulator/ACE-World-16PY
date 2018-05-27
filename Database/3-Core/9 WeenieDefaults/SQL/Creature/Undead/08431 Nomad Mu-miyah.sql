@@ -17,7 +17,14 @@ VALUES (8431, 001 /* SETUP_DID */, 33554433)
      , (8431, 008 /* ICON_DID */, 100669122)
      , (8431, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (8431, 032 /* WIELDED_TREASURE_TYPE_DID */, 335)
-     , (8431, 035 /* DEATH_TREASURE_TYPE_DID */, 460);
+     /* Wield  Acid Yari (23722)   Chance: 20% */
+     /* Wield  Yari (23730)   Chance: 25% */
+     /* Wield  Acid Spear (23688)   Chance: 10% */
+     /* Wield  Spear (23696)   Chance: 10% */
+     /* Wield  Fire Tachi (23707)   Chance: 10% */
+     /* Wield  Tachi (23700)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 55% */
+     , (8431, 035 /* DEATH_TREASURE_TYPE_DID */, 460 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8431, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

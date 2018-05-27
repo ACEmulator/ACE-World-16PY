@@ -17,7 +17,15 @@ VALUES (14426, 001 /* SETUP_DID */, 33554433)
      , (14426, 008 /* ICON_DID */, 100667446)
      , (14426, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415381)
      , (14426, 032 /* WIELDED_TREASURE_TYPE_DID */, 396)
-     , (14426, 035 /* DEATH_TREASURE_TYPE_DID */, 86);
+     /* Wield  Bow of the Quiddity (9597)   Chance: 100% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Blade of the Quiddity (11916)   Chance: 34% */
+     /* Wield  Lance of the Quiddity (11913)   Chance: 33% */
+     /* Wield  Mace of the Quiddity (11907)   Chance: 33% */
+     /* Wield  Cap (118) Palette: RED_PALETTE_TEMPLATE (14) Shade: 1) Chance: 100% */
+     /* Wield  Canescent Mattekar Robe (10870) Palette: YELLOW_PALETTE_TEMPLATE (17) Shade: 0.7) Chance: 100% */
+     /* Wield  Pants (12254) Palette: PURPLE_PALETTE_TEMPLATE (13) Shade: 0.8) Chance: 100% */
+     , (14426, 035 /* DEATH_TREASURE_TYPE_DID */, 86 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14426, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

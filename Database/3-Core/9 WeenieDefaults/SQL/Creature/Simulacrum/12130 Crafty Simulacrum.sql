@@ -17,7 +17,16 @@ VALUES (12130, 001 /* SETUP_DID */, 33554433)
      , (12130, 008 /* ICON_DID */, 100667446)
      , (12130, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415381)
      , (12130, 032 /* WIELDED_TREASURE_TYPE_DID */, 393)
-     , (12130, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Bow of the Quiddity (9597)   Chance: 100% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Blade of the Quiddity (11916)   Chance: 34% */
+     /* Wield  Lance of the Quiddity (11913)   Chance: 33% */
+     /* Wield  Mace of the Quiddity (11907)   Chance: 33% */
+     /* Wield  Chainmail Leggings (80) Palette: BLUE_PALETTE_TEMPLATE (2) Shade: 0.6) Chance: 100% */
+     /* Wield  Chainmail Hauberk (71) Palette: BLUE_PALETTE_TEMPLATE (2) Shade: 0.6) Chance: 100% */
+     /* Wield  Pants (12254) Palette: PURPLE_PALETTE_TEMPLATE (13) Shade: 0.6) Chance: 100% */
+     /* Wield  Steel Toed Boots (7897) Palette: BROWN_PALETTE_TEMPLATE (4) Shade: 0.6) Chance: 100% */
+     , (12130, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12130, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

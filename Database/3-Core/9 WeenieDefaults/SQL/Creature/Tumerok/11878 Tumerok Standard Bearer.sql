@@ -17,7 +17,9 @@ VALUES (11878, 001 /* SETUP_DID */, 33554496)
      , (11878, 008 /* ICON_DID */, 100667452)
      , (11878, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11878, 032 /* WIELDED_TREASURE_TYPE_DID */, 369)
-     , (11878, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Hafted Reedshark Spear (11754)   Chance: 80% */
+     /* Wield  Reinforced Reedshark Spear (11780)   Chance: 20% */
+     , (11878, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11878, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

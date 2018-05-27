@@ -17,7 +17,33 @@ VALUES (2487, 001 /* SETUP_DID */, 33554496)
      , (2487, 008 /* ICON_DID */, 100667452)
      , (2487, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (2487, 032 /* WIELDED_TREASURE_TYPE_DID */, 229)
-     , (2487, 035 /* DEATH_TREASURE_TYPE_DID */, 230);
+     /* Wield 10x Throwing Dart (316)   Chance: 10% */
+     /* Wield 10x Shouken (343)   Chance: 5% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 10% */
+     /* Wield 4x Javelin (320)   Chance: 10% */
+     /* Wield 3x Djarid (317)   Chance: 10% */
+     /* Wield 5x Throwing Club (310)   Chance: 25% */
+     /* Wield 5x Throwing Axe (304)   Chance: 25% */
+     /* Wield  Budiaq (308)   Chance: 5% */
+     /* Wield  Tumerok Board with Nail (7766)   Chance: 5% */
+     /* Wield  Dabus (313)   Chance: 5% */
+     /* Wield  Dagger (314)   Chance: 5% */
+     /* Wield  Hand Axe (303)   Chance: 5% */
+     /* Wield  Jambiya (319)   Chance: 2% */
+     /* Wield  Jitte (321)   Chance: 5% */
+     /* Wield  Kasrullah (325)   Chance: 5% */
+     /* Wield  Katar (326)   Chance: 5% */
+     /* Wield  Khanjar (328)   Chance: 5% */
+     /* Wield  Knife (329)   Chance: 3% */
+     /* Wield  Mace (331)   Chance: 5% */
+     /* Wield  Short Sword (352)   Chance: 5% */
+     /* Wield  Shou-ono (342)   Chance: 5% */
+     /* Wield  Simi (345)   Chance: 5% */
+     /* Wield  Spear (348)   Chance: 5% */
+     /* Wield  Tofun (356)   Chance: 10% */
+     /* Wield  Yaoji (361)   Chance: 15% */
+     /* Wield  Yari (362)   Chance: 5% */
+     , (2487, 035 /* DEATH_TREASURE_TYPE_DID */, 230 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2487, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

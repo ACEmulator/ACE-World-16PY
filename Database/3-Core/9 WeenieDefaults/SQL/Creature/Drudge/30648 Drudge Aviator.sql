@@ -17,7 +17,14 @@ VALUES (30648, 001 /* SETUP_DID */, 33556445)
      , (30648, 008 /* ICON_DID */, 100667445)
      , (30648, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (30648, 032 /* WIELDED_TREASURE_TYPE_DID */, 273)
-     , (30648, 035 /* DEATH_TREASURE_TYPE_DID */, 452);
+     /* Wield 10x Frost Throwing Club (23660)   Chance: 33% */
+     /* Wield 10x Fire Throwing Club (23656)   Chance: 33% */
+     /* Wield 10x Throwing Club (23652)   Chance: 34% */
+     /* Wield  Lightning Tachi (23703)   Chance: 25% */
+     /* Wield  Yaoji (23709)   Chance: 25% */
+     /* Wield  Fire Tachi (23706)   Chance: 25% */
+     /* Wield  Tachi (23699)   Chance: 25% */
+     , (30648, 035 /* DEATH_TREASURE_TYPE_DID */, 452 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30648, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

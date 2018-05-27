@@ -17,7 +17,17 @@ VALUES (25965, 001 /* SETUP_DID */, 33554433)
      , (25965, 008 /* ICON_DID */, 100667446)
      , (25965, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415236)
      , (25965, 032 /* WIELDED_TREASURE_TYPE_DID */, 419)
-     , (25965, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     /* Wield  Clean, Dry Towel (10758) Palette: BLUE_PALETTE_TEMPLATE (2)  Chance: 50% */
+     /* Wield  Clean, Dry Towel (10758) Palette: GREEN_PALETTE_TEMPLATE (8)  Chance: 50% */
+     /* Wield  Bandit Dagger (22778)   Chance: 12.5% */
+     /* Wield  Jambiya (22781)   Chance: 12.5% */
+     /* Wield  Khanjar (22784)   Chance: 12.5% */
+     /* Wield  Knife (22787)   Chance: 12.5% */
+     /* Wield  Bandit Simi (22790)   Chance: 12.5% */
+     /* Wield  Bandit Rapier (22793)   Chance: 12.5% */
+     /* Wield  Bandit Short Sword (22796)   Chance: 12.5% */
+     /* Wield  Bandit Yaoji (22799)   Chance: 12.5% */
+     , (25965, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25965, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

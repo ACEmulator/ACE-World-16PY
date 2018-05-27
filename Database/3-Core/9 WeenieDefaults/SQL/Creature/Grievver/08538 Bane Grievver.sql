@@ -18,7 +18,7 @@ VALUES (8538, 001 /* SETUP_DID */, 33556698)
      , (8538, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415364)
      , (8538, 030 /* PHYSICS_SCRIPT_DID */, 85 /* PS_BreatheFrost */)
      , (8538, 031 /* LINKED_PORTAL_ONE_DID */, 8533 /* Cathedral Ruins Portal */)
-     , (8538, 035 /* DEATH_TREASURE_TYPE_DID */, 315);
+     , (8538, 035 /* DEATH_TREASURE_TYPE_DID */, 315 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8538, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

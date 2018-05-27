@@ -17,7 +17,45 @@ VALUES (6019, 001 /* SETUP_DID */, 33554496)
      , (6019, 008 /* ICON_DID */, 100667452)
      , (6019, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (6019, 032 /* WIELDED_TREASURE_TYPE_DID */, 224)
-     , (6019, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield 10x Throwing Dart (316)   Chance: 5% */
+     /* Wield 10x Shouken (343)   Chance: 5% */
+     /* Wield 10x Throwing Dagger (315)   Chance: 8% */
+     /* Wield 5x Javelin (320)   Chance: 8% */
+     /* Wield 4x Djarid (317)   Chance: 8% */
+     /* Wield 4x Throwing Club (310)   Chance: 8% */
+     /* Wield 6x Throwing Axe (304)   Chance: 8% */
+     /* Wield  Yag (360)   Chance: 8% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Shortbow (307)   Chance: 9% */
+     /* Wield 17x Arrow (300)   Chance: 100% */
+     /* Wield  Shouyumi (341)   Chance: 8% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Light Crossbow (312)   Chance: 20% */
+     /* Wield 16x Quarrel (305)   Chance: 100% */
+     /* Wield  Budiaq (308)   Chance: 5% */
+     /* Wield  Club (309)   Chance: 5% */
+     /* Wield  Dabus (313)   Chance: 5% */
+     /* Wield  Dagger (314)   Chance: 5% */
+     /* Wield  Hand Axe (303)   Chance: 5% */
+     /* Wield  Jambiya (319)   Chance: 2% */
+     /* Wield  Jitte (321)   Chance: 5% */
+     /* Wield  Kasrullah (325)   Chance: 5% */
+     /* Wield  Katar (326)   Chance: 5% */
+     /* Wield  Khanjar (328)   Chance: 5% */
+     /* Wield  Knife (329)   Chance: 3% */
+     /* Wield  Mace (331)   Chance: 5% */
+     /* Wield  Short Sword (352)   Chance: 5% */
+     /* Wield  Shou-ono (342)   Chance: 5% */
+     /* Wield  Simi (345)   Chance: 5% */
+     /* Wield  Spear (348)   Chance: 5% */
+     /* Wield  Tofun (356)   Chance: 5% */
+     /* Wield  Tungi (357)   Chance: 5% */
+     /* Wield  Yaoji (361)   Chance: 5% */
+     /* Wield  Yari (362)   Chance: 5% */
+     /* Wield  Buckler (44)   Chance: 20% */
+     /* Wield  Kite Shield (91)   Chance: 10% */
+     /* Wield  Round Shield (93)   Chance: 10% */
+     , (6019, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6019, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

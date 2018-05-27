@@ -19,7 +19,7 @@ VALUES (27427, 001 /* SETUP_DID */, 33556251)
      , (27427, 008 /* ICON_DID */, 100670398)
      , (27427, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415331)
      , (27427, 031 /* LINKED_PORTAL_ONE_DID */, 27560 /* Consumed Wraith's Tower */)
-     , (27427, 035 /* DEATH_TREASURE_TYPE_DID */, 461);
+     , (27427, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27427, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
