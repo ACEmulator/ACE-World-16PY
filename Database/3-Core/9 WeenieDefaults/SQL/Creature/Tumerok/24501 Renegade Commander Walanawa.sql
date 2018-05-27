@@ -119,7 +119,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (24501, 2, 24569, 0, 0, 0, False) /* Create Renegade Crossbow for Wield_DestinationType */
      , (24501, 2, 15440, 250, 0, 0, False) /* Create Deadly Armor Piercing Quarrel for Wield_DestinationType */
      , (24501, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24501, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (24501, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (24501, 9, 24559, 0, 0, 0.665, False) /* Create Renegade Crossbow for ContainTreasure_DestinationType */
      , (24501, 9, 24556, 0, 0, 0.335, False) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */;
 

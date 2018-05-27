@@ -148,7 +148,7 @@ VALUES (8816, 1, 90, 0, 0, 178) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8816, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8816, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8816, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (8816, 1, 8785, 0, 0, 0, False) /* Create Empyrean Scalemail Shirt for Contain_DestinationType */
      , (8816, 1, 8788, 0, 0, 0, False) /* Create Obsidian Dagger for Contain_DestinationType */
      , (8816, 1, 8786, 0, 0, 0, False) /* Create Barbed Fletching Tool for Contain_DestinationType */;

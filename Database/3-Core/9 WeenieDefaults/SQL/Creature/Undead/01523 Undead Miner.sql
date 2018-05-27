@@ -109,9 +109,9 @@ VALUES (1523, 1, 10, 0, 0, 53) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1523, 9, 1532, 0, 0, 1, False) /* Create The Baron's Key for ContainTreasure_DestinationType */
-     , (1523, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1523, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (1523, 9, 1538, 0, 0, 1, False) /* Create Scratched Key for ContainTreasure_DestinationType */
-     , (1523, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1523, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (1523, 10, 331, 0, 0, 0.1, False) /* Create Mace for WieldTreasure_DestinationType */
      , (1523, 10, 5753, 0, 0, 0.1, False) /* Create Pickaxe for WieldTreasure_DestinationType */
      , (1523, 10, 352, 0, 0, 0.1, False) /* Create Short Sword for WieldTreasure_DestinationType */

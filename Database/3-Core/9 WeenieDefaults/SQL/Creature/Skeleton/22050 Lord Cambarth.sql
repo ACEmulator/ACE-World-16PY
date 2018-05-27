@@ -99,7 +99,7 @@ VALUES (22050, 1, 300, 0, 0, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22050, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (22050, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (22050, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (22050, 2, 7973, 0, 0, 0, False) /* Create Flaming Tachi for Wield_DestinationType */
      , (22050, 1, 5679, 0, 0, 0, False) /* Create Torn Journal for Contain_DestinationType */;
 
