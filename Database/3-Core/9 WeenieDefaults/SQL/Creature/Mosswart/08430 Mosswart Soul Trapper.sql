@@ -17,7 +17,10 @@ VALUES (8430, 001 /* SETUP_DID */, 33557327)
      , (8430, 008 /* ICON_DID */, 100667449)
      , (8430, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (8430, 032 /* WIELDED_TREASURE_TYPE_DID */, 333)
-     , (8430, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Spear (23697)   Chance: 35% */
+     /* Wield  Tachi (23701)   Chance: 25% */
+     /* Wield  Yari (23731)   Chance: 40% */
+     , (8430, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8430, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -111,11 +114,11 @@ VALUES (8430, 1, 80, 0, 0, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8430, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (8430, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8430, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (8430, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (8430, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8430, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (8430, 9, 15767, 0, 0, 0.02, False) /* Create Ruined Amulet of the Heart for ContainTreasure_DestinationType */
-     , (8430, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (8430, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8430, 0, 4, 0, 0, 180, 70, 103, 103, 45, 72, 203, 126, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

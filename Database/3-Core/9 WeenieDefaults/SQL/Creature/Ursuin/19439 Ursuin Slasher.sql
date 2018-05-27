@@ -14,7 +14,7 @@ VALUES (19439, 001 /* SETUP_DID */, 33556773)
      , (19439, 004 /* COMBAT_TABLE_DID */, 805306409)
      , (19439, 008 /* ICON_DID */, 100670959)
      , (19439, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415366)
-     , (19439, 035 /* DEATH_TREASURE_TYPE_DID */, 457);
+     , (19439, 035 /* DEATH_TREASURE_TYPE_DID */, 457 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19439, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,7 +90,7 @@ VALUES (19439, 1, 80, 0, 0, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19439, 9, 19475, 0, 0, 0.03, False) /* Create Large Ursuin Hide with head for ContainTreasure_DestinationType */
-     , (19439, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (19439, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (19439, 0, 2, 25, 0.75, 160, 85, 128, 85, 85, 115, 85, 85, 0, 1, 0.4, 0.1, 0, 0.4, 0.1, 0, 0, 0, 0, 0, 0, 0) /* HEAD */

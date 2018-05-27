@@ -16,7 +16,7 @@ VALUES (23568, 001 /* SETUP_DID */, 33556773)
      , (23568, 007 /* CLOTHINGBASE_DID */, 268436633)
      , (23568, 008 /* ICON_DID */, 100670959)
      , (23568, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415366)
-     , (23568, 035 /* DEATH_TREASURE_TYPE_DID */, 455);
+     , (23568, 035 /* DEATH_TREASURE_TYPE_DID */, 455 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23568, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -89,9 +89,9 @@ VALUES (23568, 1, 4850, 0, 0, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23568, 9, 8665, 0, 0, 0.05, False) /* Create Ursuin Scalp for ContainTreasure_DestinationType */
-     , (23568, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (23568, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (23568, 9, 12219, 0, 0, 0.05, False) /* Create Ursuin Head for ContainTreasure_DestinationType */
-     , (23568, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (23568, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23568, 0, 2, 130, 0.75, 390, 218, 312, 218, 218, 285, 218, 218, 0, 1, 0.4, 0.1, 0, 0.4, 0.1, 0, 0, 0, 0, 0, 0, 0) /* HEAD */

@@ -16,7 +16,7 @@ VALUES (1470, 001 /* SETUP_DID */, 33557327)
      , (1470, 007 /* CLOTHINGBASE_DID */, 268436292)
      , (1470, 008 /* ICON_DID */, 100667449)
      , (1470, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
-     , (1470, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     , (1470, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1470, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -89,12 +89,12 @@ VALUES (1470, 1, 20, 0, 0, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1470, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1470, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1470, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1470, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (1470, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (1470, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate  (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
+VALUES (1470, 1, 131, 600, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate 1x Fire Auroch Meat (1446) 12% of the time, 1x Super Cheese (1452) 12% of the time, 1x Fresh Fish (1445) 12% of the time, 1x Wheat Bread (1448) 12% of the time, 1x Tart Apple (1447) 12% of the time, 1x Royal Cabbage (1449) 12% of the time, 1x Salmon (1450) 14% of the time, 1x Special Cheese (1451) 14% of the time from Wielded Treasure Table (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1470, 0, 4, 0, 0, 20, 4, 0, 0, 7, 8, 12, 14, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

@@ -16,7 +16,7 @@ VALUES (19544, 001 /* SETUP_DID */, 33557484)
      , (19544, 007 /* CLOTHINGBASE_DID */, 268436246)
      , (19544, 008 /* ICON_DID */, 100667940)
      , (19544, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415323)
-     , (19544, 035 /* DEATH_TREASURE_TYPE_DID */, 33);
+     , (19544, 035 /* DEATH_TREASURE_TYPE_DID */, 33 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19544, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -104,7 +104,7 @@ VALUES (19544, 1, 4900, 0, 0, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19544, 9, 6353, 0, 0, 0.02, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (19544, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (19544, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19544, -1, 14512, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Frost (x6 up to max of 6) - Destruction_RegenerationType - Scatter_RegenLocationType */;

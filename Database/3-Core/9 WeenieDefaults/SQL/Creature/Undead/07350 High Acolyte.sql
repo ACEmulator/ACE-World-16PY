@@ -18,7 +18,31 @@ VALUES (7350, 001 /* SETUP_DID */, 33554839)
      , (7350, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (7350, 031 /* LINKED_PORTAL_ONE_DID */, 7347 /* Soul-Fearing Vestry Dungeon (Area 4) */)
      , (7350, 032 /* WIELDED_TREASURE_TYPE_DID */, 248)
-     , (7350, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield 6x Throwing Axe (304)   Chance: 10% */
+     /* Wield  Nayin (334)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Longbow (306)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Yumi (363)   Chance: 10% */
+     /* Wield 14x Arrow (300)   Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   Chance: 60% */
+     /* Wield 15x Quarrel (305)   Chance: 100% */
+     /* Wield  Battle Axe (301)   Chance: 14% */
+     /* Wield  Broad Sword (350)   Chance: 7% */
+     /* Wield  Kaskara (324)   Chance: 6% */
+     /* Wield  Ken (327)   Chance: 6% */
+     /* Wield  Long Sword (351)   Chance: 6% */
+     /* Wield  Morning Star (332)   Chance: 10% */
+     /* Wield  Scimitar (339)   Chance: 6% */
+     /* Wield  Shamshir (340)   Chance: 6% */
+     /* Wield  Ono (336)   Chance: 13% */
+     /* Wield  Silifi (344)   Chance: 13% */
+     /* Wield  Tachi (353)   Chance: 6% */
+     /* Wield  Takuba (354)   Chance: 6% */
+     /* Wield  Large Kite Shield (92)   Chance: 30% */
+     /* Wield  Kite Shield (91)   Chance: 20% */
+     /* Wield  Large Round Shield (94)   Chance: 20% */
+     , (7350, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7350, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -139,11 +163,11 @@ VALUES (7350, 12, 49218197, 51.7, -69.7, 0, -0.7071068, 0, 0, -0.7071068) /* POR
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7350, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7350, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (7350, 9, 7810, 0, 0, 1, False) /* Create Yucky Key for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7350, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (7350, 9, 7817, 0, 0, 1, False) /* Create Skull of High Acolyte for ContainTreasure_DestinationType */
-     , (7350, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (7350, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7350, 1, 7818, 30, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate an evil presence (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -17,7 +17,7 @@ VALUES (25845, 001 /* SETUP_DID */, 33558554)
      , (25845, 008 /* ICON_DID */, 100675661)
      , (25845, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415401)
      , (25845, 030 /* PHYSICS_SCRIPT_DID */, 83 /* PS_PortalExit */)
-     , (25845, 035 /* DEATH_TREASURE_TYPE_DID */, 32);
+     , (25845, 035 /* DEATH_TREASURE_TYPE_DID */, 32 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25845, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -117,9 +117,9 @@ VALUES (25845, 1, 8725, 0, 0, 9000) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25845, 9, 25907, 1, 0, 1, False) /* Create Gikar's Dream for ContainTreasure_DestinationType */
-     , (25845, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25845, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (25845, 9, 30823, 0, 0, 0.15, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25845, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (25845, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25845, -1, 25862, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Helcan Margul (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

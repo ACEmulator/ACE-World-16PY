@@ -17,7 +17,18 @@ VALUES (937, 001 /* SETUP_DID */, 33558024)
      , (937, 008 /* ICON_DID */, 100667453)
      , (937, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (937, 032 /* WIELDED_TREASURE_TYPE_DID */, 52)
-     , (937, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Battle Axe (301)   Chance: 10% */
+     /* Wield  Club (309)   Chance: 8% */
+     /* Wield  Dabus (313)   Chance: 10% */
+     /* Wield  Kasrullah (325)   Chance: 7% */
+     /* Wield  Mace (331)   Chance: 10% */
+     /* Wield  Morning Star (332)   Chance: 20% */
+     /* Wield  Shou-ono (342)   Chance: 10% */
+     /* Wield  Silifi (344)   Chance: 10% */
+     /* Wield  Tofun (356)   Chance: 10% */
+     /* Wield 4x Throwing Axe (304)   Chance: 1% */
+     /* Wield 4x Throwing Club (310)   Chance: 1% */
+     , (937, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (937, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,7 +101,7 @@ VALUES (937, 1, 40, 0, 0, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (937, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (937, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (937, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (937, 0, 4, 0, 0, 90, 42, 31, 50, 42, 63, 31, 54, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

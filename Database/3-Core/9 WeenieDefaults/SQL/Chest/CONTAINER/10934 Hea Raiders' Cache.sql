@@ -67,5 +67,5 @@ VALUES (10934, -1, 10959, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Gen
      , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Ahruenga Portal Gem (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Ahruenga Portal Gem (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (10934, -1, 10974, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Ahruenga Portal Gem (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
-     , (10934, -1, 365, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Parchment (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
+     , (10934, -1, 365, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 3 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 

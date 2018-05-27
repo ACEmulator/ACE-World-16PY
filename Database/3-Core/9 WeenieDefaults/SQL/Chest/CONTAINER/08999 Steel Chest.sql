@@ -48,7 +48,7 @@ VALUES (8999, 001 /* STUCK_BOOL */, True)
      , (8999, 035 /* DEFAULT_LOCKED_BOOL */, True);
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Quarter Staff (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */
+VALUES (8999, -1, 338, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 6 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */
      , (8999, -1, 20179, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Superb Mana Charge (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (8999, 0.005, 7509, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Scroll of Searing Disc (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (8999, 0.01, 7510, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Scroll of Horizon's Blades (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */

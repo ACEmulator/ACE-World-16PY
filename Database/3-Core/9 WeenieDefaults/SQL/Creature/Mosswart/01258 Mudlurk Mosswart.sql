@@ -17,7 +17,17 @@ VALUES (1258, 001 /* SETUP_DID */, 33557327)
      , (1258, 008 /* ICON_DID */, 100667449)
      , (1258, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (1258, 032 /* WIELDED_TREASURE_TYPE_DID */, 136)
-     , (1258, 035 /* DEATH_TREASURE_TYPE_DID */, 138);
+     /* Wield  Budiaq (308)   Chance: 15% */
+     /* Wield  Scimitar (339)   Chance: 12% */
+     /* Wield  Shamshir (340)   Chance: 12% */
+     /* Wield  Spear (348)   Chance: 25% */
+     /* Wield  Tachi (353)   Chance: 11% */
+     /* Wield 10x Throwing Dart (316)   Chance: 5% */
+     /* Wield 10x Shouken (343)   Chance: 5% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 5% */
+     /* Wield 4x Javelin (320)   Chance: 2% */
+     /* Wield  Djarid (317)   Chance: 10% */
+     , (1258, 035 /* DEATH_TREASURE_TYPE_DID */, 138 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1258, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,7 +100,7 @@ VALUES (1258, 1, 30, 0, 0, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1258, 9, 1266, 0, 0, 1, False) /* Create Key for ContainTreasure_DestinationType */
-     , (1258, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (1258, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1258, 0, 4, 0, 0, 55, 15, 20, 20, 37, 22, 3, 39, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

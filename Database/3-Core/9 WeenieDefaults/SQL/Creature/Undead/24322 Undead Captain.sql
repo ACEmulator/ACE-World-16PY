@@ -17,7 +17,20 @@ VALUES (24322, 001 /* SETUP_DID */, 33554839)
      , (24322, 008 /* ICON_DID */, 100667942)
      , (24322, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (24322, 032 /* WIELDED_TREASURE_TYPE_DID */, 203)
-     , (24322, 035 /* DEATH_TREASURE_TYPE_DID */, 448);
+     /* Wield  Yumi (23734)   Chance: 20% */
+     /* Wield 20x Deadly Arrow (15429)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23665)   Chance: 40% */
+     /* Wield 20x Deadly Quarrel (15438)   Chance: 100% */
+     /* Wield  Katar (23674)   Chance: 12% */
+     /* Wield  Cestus (23637)   Chance: 12% */
+     /* Wield  Nekode (23680)   Chance: 12% */
+     /* Wield  Tachi (23700)   Chance: 12% */
+     /* Wield  Spear (23696)   Chance: 12% */
+     /* Wield  Fire Yaoji (23718)   Chance: 12% */
+     /* Wield  Yaoji (23710)   Chance: 12% */
+     /* Wield  Fire Tachi (23707)   Chance: 12% */
+     /* Wield  Kite Shield (23684)   Chance: 75% */
+     , (24322, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24322, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -93,7 +106,7 @@ VALUES (24322, 1, 225, 0, 0, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24322, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24322, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (24322, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24322, 0, 4, 0, 0, 240, 240, 240, 240, 240, 240, 240, 240, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

@@ -16,7 +16,7 @@ VALUES (25848, 001 /* SETUP_DID */, 33554489)
      , (25848, 007 /* CLOTHINGBASE_DID */, 268436731)
      , (25848, 008 /* ICON_DID */, 100667939)
      , (25848, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415268)
-     , (25848, 035 /* DEATH_TREASURE_TYPE_DID */, 32);
+     , (25848, 035 /* DEATH_TREASURE_TYPE_DID */, 32 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25848, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,9 +90,9 @@ VALUES (25848, 1, 8700, 0, 0, 9000) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25848, 9, 25902, 0, 0, 1, False) /* Create Plaguefang's Hide for ContainTreasure_DestinationType */
-     , (25848, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25848, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (25848, 9, 30823, 0, 0, 0.1, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25848, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (25848, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25848, 0, 2, 200, 0.75, 600, 510, 210, 510, 390, 450, 420, 480, 0, 2, 0.4, 0.1, 0, 0.4, 0.1, 0, 0, 0, 0, 0, 0, 0) /* HEAD */

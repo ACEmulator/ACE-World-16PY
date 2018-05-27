@@ -17,7 +17,31 @@ VALUES (8672, 001 /* SETUP_DID */, 33554839)
      , (8672, 008 /* ICON_DID */, 100667942)
      , (8672, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (8672, 032 /* WIELDED_TREASURE_TYPE_DID */, 248)
-     , (8672, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield 6x Throwing Axe (304)   Chance: 10% */
+     /* Wield  Nayin (334)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Longbow (306)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Yumi (363)   Chance: 10% */
+     /* Wield 14x Arrow (300)   Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   Chance: 60% */
+     /* Wield 15x Quarrel (305)   Chance: 100% */
+     /* Wield  Battle Axe (301)   Chance: 14% */
+     /* Wield  Broad Sword (350)   Chance: 7% */
+     /* Wield  Kaskara (324)   Chance: 6% */
+     /* Wield  Ken (327)   Chance: 6% */
+     /* Wield  Long Sword (351)   Chance: 6% */
+     /* Wield  Morning Star (332)   Chance: 10% */
+     /* Wield  Scimitar (339)   Chance: 6% */
+     /* Wield  Shamshir (340)   Chance: 6% */
+     /* Wield  Ono (336)   Chance: 13% */
+     /* Wield  Silifi (344)   Chance: 13% */
+     /* Wield  Tachi (353)   Chance: 6% */
+     /* Wield  Takuba (354)   Chance: 6% */
+     /* Wield  Large Kite Shield (92)   Chance: 30% */
+     /* Wield  Kite Shield (91)   Chance: 20% */
+     /* Wield  Large Round Shield (94)   Chance: 20% */
+     , (8672, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8672, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -94,9 +118,9 @@ VALUES (8672, 1, 100, 0, 0, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8672, 9, 7041, 0, 0, 0.03, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (8672, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8672, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (8672, 9, 5873, 0, 0, 0.03, False) /* Create Seal for ContainTreasure_DestinationType */
-     , (8672, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (8672, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8672, 0, 4, 0, 0, 150, 120, 71, 98, 5, 75, 98, 108, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

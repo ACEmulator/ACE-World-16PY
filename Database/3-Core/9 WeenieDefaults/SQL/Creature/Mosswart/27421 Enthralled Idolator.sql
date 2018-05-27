@@ -16,7 +16,7 @@ VALUES (27421, 001 /* SETUP_DID */, 33557327)
      , (27421, 007 /* CLOTHINGBASE_DID */, 268436294)
      , (27421, 008 /* ICON_DID */, 100667449)
      , (27421, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
-     , (27421, 035 /* DEATH_TREASURE_TYPE_DID */, 452);
+     , (27421, 035 /* DEATH_TREASURE_TYPE_DID */, 452 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27421, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -95,9 +95,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (27421, 10, 23688, 0, 0, 0.4, False) /* Create Acid Spear for WieldTreasure_DestinationType */
      , (27421, 10, 23692, 0, 0, 0.4, False) /* Create Frost Spear for WieldTreasure_DestinationType */
      , (27421, 9, 27391, 0, 0, 0.003, False) /* Create Lair of The Homunculus for ContainTreasure_DestinationType */
-     , (27421, 9, 0, 0, 0, 0.997, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (27421, 9, 0, 0, 0, 0.997, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (27421, 9, 8146, 0, 0, 0.05, False) /* Create Mosswart Head for ContainTreasure_DestinationType */
-     , (27421, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (27421, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27421, 0, 4, 0, 0, 320, 416, 480, 448, 320, 224, 416, 288, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

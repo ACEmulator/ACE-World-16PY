@@ -16,7 +16,7 @@ VALUES (30895, 001 /* SETUP_DID */, 33558545)
      , (30895, 008 /* ICON_DID */, 100671421)
      , (30895, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415373)
      , (30895, 030 /* PHYSICS_SCRIPT_DID */, 86 /* PS_BreatheAcid */)
-     , (30895, 035 /* DEATH_TREASURE_TYPE_DID */, 461);
+     , (30895, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30895, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -97,10 +97,10 @@ VALUES (30895, 1, 1375, 0, 0, 1550) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30895, 9, 25893, 0, 0, 0.0075, False) /* Create Doll's Eye for ContainTreasure_DestinationType */
-     , (30895, 9, 0, 0, 0, 0.9925, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (30895, 9, 0, 0, 0, 0.9925, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (30895, 9, 30870, 0, 0, 1, False) /* Create Katar of the Fallen for ContainTreasure_DestinationType */
      , (30895, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30895, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (30895, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (30895, 0, 1, 0, 0, 500, 500, 600, 500, 400, 500, 500, 425, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

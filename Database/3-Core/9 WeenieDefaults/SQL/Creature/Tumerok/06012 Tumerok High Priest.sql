@@ -17,7 +17,15 @@ VALUES (6012, 001 /* SETUP_DID */, 33554496)
      , (6012, 008 /* ICON_DID */, 100667452)
      , (6012, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (6012, 032 /* WIELDED_TREASURE_TYPE_DID */, 202)
-     , (6012, 035 /* DEATH_TREASURE_TYPE_DID */, 448);
+     /* Wield  Yumi (23734)   Chance: 25% */
+     /* Wield 20x Deadly Armor Piercing Arrow (15431)   Chance: 100% */
+     /* Wield  Yumi (23734)   Chance: 25% */
+     /* Wield 17x Deadly Arrow (15429)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23665)   Chance: 25% */
+     /* Wield 20x Deadly Quarrel (15438)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23665)   Chance: 25% */
+     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   Chance: 100% */
+     , (6012, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6012, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -124,9 +132,9 @@ VALUES (6012, 1, 200, 0, 0, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6012, 9, 3695, 0, 0, 0.1, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (6012, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (6012, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (6012, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (6012, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (6012, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (6012, 0, 4, 0, 0, 220, 220, 220, 220, 220, 220, 220, 220, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

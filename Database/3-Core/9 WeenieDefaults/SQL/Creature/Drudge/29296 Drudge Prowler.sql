@@ -17,7 +17,23 @@ VALUES (29296, 001 /* SETUP_DID */, 33556445)
      , (29296, 008 /* ICON_DID */, 100667445)
      , (29296, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (29296, 032 /* WIELDED_TREASURE_TYPE_DID */, 74)
-     , (29296, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Club (309)   Chance: 5% */
+     /* Wield  Dabus (313)   Chance: 10% */
+     /* Wield  Dagger (314)   Chance: 5% */
+     /* Wield  Kasrullah (325)   Chance: 5% */
+     /* Wield  Khanjar (328)   Chance: 5% */
+     /* Wield  Mace (331)   Chance: 10% */
+     /* Wield  Short Sword (352)   Chance: 10% */
+     /* Wield  Simi (345)   Chance: 10% */
+     /* Wield  Tofun (356)   Chance: 10% */
+     /* Wield  Yaoji (361)   Chance: 10% */
+     /* Wield  Drudge Board with Nail (7767)   Chance: 15% */
+     /* Wield 10x Shouken (343)   Chance: 4% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 5% */
+     /* Wield 4x Javelin (320)   Chance: 2% */
+     /* Wield  Djarid (317)   Chance: 1% */
+     /* Wield 4x Throwing Club (310)   Chance: 1% */
+     , (29296, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29296, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,17 +106,17 @@ VALUES (29296, 1, 25, 0, 0, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29296, 9, 3669, 0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (29296, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (29296, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (29296, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (29296, 9, 8701, 0, 0, 0.02, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (29296, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (29296, 9, 8702, 0, 0, 0.06, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (29296, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (29296, 9, 13222, 0, 0, 0.1, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (29296, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (29296, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (29296, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (29296, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (29296, 0, 4, 0, 0, 10, 9, 10, 11, 6, 6, 10, 6, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

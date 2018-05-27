@@ -17,7 +17,19 @@ VALUES (11523, 001 /* SETUP_DID */, 33554496)
      , (11523, 008 /* ICON_DID */, 100667452)
      , (11523, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11523, 032 /* WIELDED_TREASURE_TYPE_DID */, 389)
-     , (11523, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Blade of the Quiddity (11917)   Chance: 25% */
+     /* Wield  Lance of the Quiddity (11914)   Chance: 25% */
+     /* Wield  Mace of the Quiddity (11908)   Chance: 25% */
+     /* Wield  Kaskara (324)   Chance: 3% */
+     /* Wield  Long Sword (351)   Chance: 3% */
+     /* Wield  Silifi (344)   Chance: 3% */
+     /* Wield  Tachi (353)   Chance: 2% */
+     /* Wield  War Hammer (359)   Chance: 2% */
+     /* Wield 5x Javelin (320)   Chance: 3% */
+     /* Wield 5x Djarid (317)   Chance: 3% */
+     /* Wield 4x Throwing Club (310)   Chance: 3% */
+     /* Wield 6x Throwing Axe (304)   Chance: 3% */
+     , (11523, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11523, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -89,11 +101,11 @@ VALUES (11523, 1, 40, 0, 0, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11523, 9, 11454, 0, 0, 0.03, False) /* Create Totem of Audetaunga for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (11523, 9, 11455, 0, 0, 0.03, False) /* Create Totem of Tanae for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (11523, 9, 11456, 0, 0, 0.03, False) /* Create Totem of Volkama for ContainTreasure_DestinationType */
-     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (11523, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (11523, 0, 4, 0, 0, 100, 100, 100, 100, 100, 100, 100, 100, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

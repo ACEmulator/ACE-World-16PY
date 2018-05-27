@@ -17,7 +17,7 @@ VALUES (22598, 001 /* SETUP_DID */, 33558137)
      , (22598, 008 /* ICON_DID */, 100667443)
      , (22598, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415271)
      , (22598, 031 /* LINKED_PORTAL_ONE_DID */, 22705 /* Antechamber */)
-     , (22598, 035 /* DEATH_TREASURE_TYPE_DID */, 354);
+     , (22598, 035 /* DEATH_TREASURE_TYPE_DID */, 354 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22598, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -94,7 +94,7 @@ VALUES (22598, 12, 1581449475, 19.9864, -9.242, 0.005, -4.371139E-08, 0, 0, -1) 
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22598, 9, 22578, 10, 0, 1, False) /* Create Bunch of Nanners for ContainTreasure_DestinationType */
-     , (22598, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (22598, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (22598, 0, 4, 0, 0, 750, 375, 600, 525, 525, 525, 525, 225, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

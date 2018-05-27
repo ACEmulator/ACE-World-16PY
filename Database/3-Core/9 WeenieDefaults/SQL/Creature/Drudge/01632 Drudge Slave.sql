@@ -17,7 +17,33 @@ VALUES (1632, 001 /* SETUP_DID */, 33556445)
      , (1632, 008 /* ICON_DID */, 100667445)
      , (1632, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (1632, 032 /* WIELDED_TREASURE_TYPE_DID */, 68)
-     , (1632, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Budiaq (308)   Chance: 3% */
+     /* Wield  Club (309)   Chance: 3% */
+     /* Wield  Dabus (313)   Chance: 3% */
+     /* Wield  Dagger (314)   Chance: 3% */
+     /* Wield  Hand Axe (303)   Chance: 3% */
+     /* Wield  Jambiya (319)   Chance: 1% */
+     /* Wield  Jitte (321)   Chance: 3% */
+     /* Wield  Kasrullah (325)   Chance: 3% */
+     /* Wield  Katar (326)   Chance: 3% */
+     /* Wield  Khanjar (328)   Chance: 3% */
+     /* Wield  Knife (329)   Chance: 2% */
+     /* Wield  Mace (331)   Chance: 3% */
+     /* Wield  Short Sword (352)   Chance: 3% */
+     /* Wield  Shou-ono (342)   Chance: 3% */
+     /* Wield  Simi (345)   Chance: 3% */
+     /* Wield  Spear (348)   Chance: 3% */
+     /* Wield  Tofun (356)   Chance: 5% */
+     /* Wield  Yaoji (361)   Chance: 5% */
+     /* Wield  Yari (362)   Chance: 3% */
+     /* Wield 10x Throwing Dart (316)   Chance: 2% */
+     /* Wield 10x Shouken (343)   Chance: 3% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 3% */
+     /* Wield 4x Javelin (320)   Chance: 5% */
+     /* Wield  Djarid (317)   Chance: 5% */
+     /* Wield 5x Throwing Club (310)   Chance: 5% */
+     /* Wield 5x Throwing Axe (304)   Chance: 5% */
+     , (1632, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1632, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -91,17 +117,17 @@ VALUES (1632, 1, 30, 0, 0, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1632, 9, 3669, 0, 0, 0.08, False) /* Create Drudge Charm for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1632, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1632, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1632, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1632, 9, 8701, 0, 0, 0.06, False) /* Create Lucky Gold Letter for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1632, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1632, 9, 8702, 0, 0, 0.08, False) /* Create Scarlet Red Letter for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1632, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1632, 9, 13222, 0, 0, 0.05, False) /* Create Peppermint Stick for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1632, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1632, 9, 20854, 0, 0, 0.03, False) /* Create Academy Stamp for ContainTreasure_DestinationType */
-     , (1632, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (1632, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1632, 0, 4, 0, 0, 20, 4, 5, 1, 12, 12, 5, 12, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

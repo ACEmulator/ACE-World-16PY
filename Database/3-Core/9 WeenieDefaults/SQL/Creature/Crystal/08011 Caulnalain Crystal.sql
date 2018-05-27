@@ -16,7 +16,7 @@ VALUES (8011, 001 /* SETUP_DID */, 33556732)
      , (8011, 007 /* CLOTHINGBASE_DID */, 268435859)
      , (8011, 008 /* ICON_DID */, 100670283)
      , (8011, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415347)
-     , (8011, 035 /* DEATH_TREASURE_TYPE_DID */, 27);
+     , (8011, 035 /* DEATH_TREASURE_TYPE_DID */, 27 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8011, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -107,15 +107,15 @@ VALUES (8011, 1, 510, 0, 0, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (8011, 9, 8111, 0, 0, 1, False) /* Create Caulnalain Gem for ContainTreasure_DestinationType */
-     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (8011, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (8011, 0, 4, 90, 0.75, 300, 420, 330, 300, 450, 600, 420, 300, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */

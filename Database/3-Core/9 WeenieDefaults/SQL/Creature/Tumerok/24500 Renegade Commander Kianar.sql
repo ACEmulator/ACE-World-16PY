@@ -16,7 +16,7 @@ VALUES (24500, 001 /* SETUP_DID */, 33554496)
      , (24500, 007 /* CLOTHINGBASE_DID */, 268436645)
      , (24500, 008 /* ICON_DID */, 100667452)
      , (24500, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
-     , (24500, 035 /* DEATH_TREASURE_TYPE_DID */, 26);
+     , (24500, 035 /* DEATH_TREASURE_TYPE_DID */, 26 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24500, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -91,7 +91,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (24500, 2, 24568, 0, 0, 0, False) /* Create Renegade Bow for Wield_DestinationType */
      , (24500, 2, 15431, 250, 0, 0, False) /* Create Deadly Armor Piercing Arrow for Wield_DestinationType */
      , (24500, 9, 24477, 0, 0, 0.05, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24500, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (24500, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (24500, 9, 24558, 0, 0, 0.665, False) /* Create Renegade Bow for ContainTreasure_DestinationType */
      , (24500, 9, 24556, 0, 0, 0.335, False) /* Create Tumerok Hunting Brace for ContainTreasure_DestinationType */;
 

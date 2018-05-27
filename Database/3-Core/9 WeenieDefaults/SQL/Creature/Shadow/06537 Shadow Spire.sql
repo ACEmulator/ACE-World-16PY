@@ -19,7 +19,42 @@ VALUES (6537, 001 /* SETUP_DID */, 33556558)
      , (6537, 008 /* ICON_DID */, 100670397)
      , (6537, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415331)
      , (6537, 032 /* WIELDED_TREASURE_TYPE_DID */, 170)
-     , (6537, 035 /* DEATH_TREASURE_TYPE_DID */, 182);
+     /* Wield 10x Throwing Dart (316)   Chance: 5% */
+     /* Wield 10x Shouken (343)   Chance: 5% */
+     /* Wield 10x Throwing Dagger (315)   Chance: 8% */
+     /* Wield 5x Javelin (320)   Chance: 8% */
+     /* Wield  Djarid (317)   Chance: 8% */
+     /* Wield 6x Throwing Axe (304)   Chance: 8% */
+     /* Wield 4x Throwing Club (310)   Chance: 8% */
+     /* Wield  Yag (360)   Chance: 8% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Shortbow (307)   Chance: 9% */
+     /* Wield 17x Arrow (300)   Chance: 100% */
+     /* Wield  Shouyumi (341)   Chance: 8% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Light Crossbow (312)   Chance: 20% */
+     /* Wield 16x Quarrel (305)   Chance: 100% */
+     /* Wield  Budiaq (308)   Chance: 5% */
+     /* Wield  Club (309)   Chance: 5% */
+     /* Wield  Dabus (313)   Chance: 5% */
+     /* Wield  Dagger (314)   Chance: 5% */
+     /* Wield  Hand Axe (303)   Chance: 5% */
+     /* Wield  Jambiya (319)   Chance: 2% */
+     /* Wield  Jitte (321)   Chance: 5% */
+     /* Wield  Kasrullah (325)   Chance: 5% */
+     /* Wield  Katar (326)   Chance: 5% */
+     /* Wield  Khanjar (328)   Chance: 5% */
+     /* Wield  Knife (329)   Chance: 3% */
+     /* Wield  Mace (331)   Chance: 5% */
+     /* Wield  Short Sword (352)   Chance: 5% */
+     /* Wield  Shou-ono (342)   Chance: 5% */
+     /* Wield  Simi (345)   Chance: 5% */
+     /* Wield  Spear (348)   Chance: 5% */
+     /* Wield  Tofun (356)   Chance: 5% */
+     /* Wield  Tungi (357)   Chance: 5% */
+     /* Wield  Yaoji (361)   Chance: 5% */
+     /* Wield  Yari (362)   Chance: 5% */
+     , (6537, 035 /* DEATH_TREASURE_TYPE_DID */, 182 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6537, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -122,7 +157,7 @@ VALUES (6537, 1, 50, 0, 0, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6537, 9, 6060, 0, 0, 0.02, False) /* Create Dark Speck for ContainTreasure_DestinationType */
-     , (6537, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (6537, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6537, 1, 6535, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Small Shadow Child (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -17,7 +17,21 @@ VALUES (23488, 001 /* SETUP_DID */, 33555608)
      , (23488, 008 /* ICON_DID */, 100669120)
      , (23488, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415280)
      , (23488, 032 /* WIELDED_TREASURE_TYPE_DID */, 165)
-     , (23488, 035 /* DEATH_TREASURE_TYPE_DID */, 448);
+     /* Wield  Yumi (23734)   Chance: 80% */
+     /* Wield 14x Deadly Arrow (15429)   Chance: 100% */
+     /* Wield  Katar (23674)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Nekode (23680)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Cestus (23637)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Spear (23696)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Tachi (23700)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Yari (23730)   Chance: 50% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     , (23488, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23488, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -107,13 +121,13 @@ VALUES (23488, 1, 100, 0, 0, 228) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23488, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (23488, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (23488, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (23488, 9, 7046, 0, 0, 0.03, False) /* Create Sclavus Tongue for ContainTreasure_DestinationType */
-     , (23488, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (23488, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (23488, 9, 9259, 0, 0, 0.02, False) /* Create Large Sclavus Hide for ContainTreasure_DestinationType */
-     , (23488, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (23488, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (23488, 9, 20861, 0, 0, 0.03, False) /* Create Moons Stamp for ContainTreasure_DestinationType */
-     , (23488, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (23488, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (23488, 0, 4, 0, 0, 290, 232, 189, 128, 203, 189, 61, 61, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

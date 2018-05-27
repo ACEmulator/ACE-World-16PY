@@ -1,0 +1,15 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (203, 23734 /* Yumi */, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, True, True, False, 0, 0, 0, 0)
+     , (203, 15429 /* Deadly Arrow */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (203, 23665 /* Heavy Crossbow */, 0, 0, 0, 0, 0, 0.4, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (203, 15438 /* Deadly Quarrel */, 0, 0, 0, 20, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (203, 23674 /* Katar */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (203, 23637 /* Cestus */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23680 /* Nekode */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23700 /* Tachi */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23696 /* Spear */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23718 /* Fire Yaoji */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23710 /* Yaoji */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23707 /* Fire Tachi */, 0, 0, 0, 0, 0, 0.12, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (203, 23684 /* Kite Shield */, 0, 0, 0, 0, 0, 0.75, 0, 0, 0, True, False, False, 0, 0, 0, 0);
+

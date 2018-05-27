@@ -14,7 +14,7 @@ VALUES (14514, 001 /* SETUP_DID */, 33557486)
      , (14514, 004 /* COMBAT_TABLE_DID */, 805306368)
      , (14514, 008 /* ICON_DID */, 100672513)
      , (14514, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
-     , (14514, 035 /* DEATH_TREASURE_TYPE_DID */, 464);
+     , (14514, 035 /* DEATH_TREASURE_TYPE_DID */, 464 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14514, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -101,7 +101,7 @@ VALUES (14514, 1, 280, 0, 0, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14514, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (14514, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (14514, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (14514, 0, 32, 0, 0, 260, 260, 260, 260, 260, 260, 260, 286, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

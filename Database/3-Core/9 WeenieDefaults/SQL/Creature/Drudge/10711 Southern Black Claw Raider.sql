@@ -18,7 +18,13 @@ VALUES (10711, 001 /* SETUP_DID */, 33556445)
      , (10711, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (10711, 031 /* LINKED_PORTAL_ONE_DID */, 10715 /* Southern Black Claw Outpost Portal */)
      , (10711, 032 /* WIELDED_TREASURE_TYPE_DID */, 85)
-     , (10711, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Yari (362)   Chance: 40% */
+     /* Wield  Tachi (353)   Chance: 10% */
+     /* Wield  Spear (348)   Chance: 20% */
+     /* Wield  Shamshir (340)   Chance: 10% */
+     /* Wield  Scimitar (339)   Chance: 10% */
+     /* Wield  Budiaq (308)   Chance: 10% */
+     , (10711, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10711, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -108,7 +114,7 @@ VALUES (10711, 1, 50, 0, 0, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10711, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (10711, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (10711, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (10711, 0, 4, 0, 0, 150, 129, 104, 135, 129, 135, 129, 54, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

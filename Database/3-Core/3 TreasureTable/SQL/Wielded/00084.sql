@@ -1,0 +1,18 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (84, 309 /* Club */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (84, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 314 /* Dagger */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 328 /* Khanjar */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 331 /* Mace */, 0, 0, 0, 0, 0, 0.04, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 352 /* Short Sword */, 0, 0, 0, 0, 0, 0.07, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 345 /* Simi */, 0, 0, 0, 0, 0, 0.07, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 361 /* Yaoji */, 0, 0, 0, 0, 0, 0.06, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 316 /* Throwing Dart */, 0, 0, 0, 10, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 343 /* Shouken */, 0, 0, 0, 10, 0.1, 0.04, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 315 /* Throwing Dagger */, 0, 0, 0, 6, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 320 /* Javelin */, 0, 0, 0, 4, 0.1, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 317 /* Djarid */, 0, 0, 0, 0, 0, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (84, 310 /* Throwing Club */, 0, 0, 0, 4, 0.1, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0);
+

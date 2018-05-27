@@ -17,7 +17,22 @@ VALUES (1668, 001 /* SETUP_DID */, 33558024)
      , (1668, 008 /* ICON_DID */, 100667453)
      , (1668, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (1668, 032 /* WIELDED_TREASURE_TYPE_DID */, 46)
-     , (1668, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Jo (322)   Chance: 3% */
+     /* Wield  Nabut (333)   Chance: 3% */
+     /* Wield  Quarter Staff (338)   Chance: 4% */
+     /* Wield  Shou-ono (342)   Chance: 8% */
+     /* Wield  Tungi (357)   Chance: 8% */
+     /* Wield  Hand Axe (303)   Chance: 9% */
+     /* Wield  Budiaq (308)   Chance: 12% */
+     /* Wield  Spear (348)   Chance: 13% */
+     /* Wield  Kasrullah (325)   Chance: 17% */
+     /* Wield  Club (309)   Chance: 38% */
+     /* Wield 2x Javelin (320)   Chance: 1% */
+     /* Wield 3x Throwing Club (310)   Chance: 1% */
+     /* Wield  Djarid (317)   Chance: 1% */
+     /* Wield 2x Javelin (320)   Chance: 1% */
+     /* Wield 3x Throwing Club (310)   Chance: 1% */
+     , (1668, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1668, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,9 +105,9 @@ VALUES (1668, 1, 40, 0, 0, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1668, 9, 3693, 0, 0, 0.02, False) /* Create Banderling Scalp for ContainTreasure_DestinationType */
-     , (1668, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (1668, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (1668, 9, 7825, 0, 0, 0.03, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (1668, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (1668, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1668, 0, 4, 0, 0, 30, 9, 3, 7, 9, 21, 3, 18, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

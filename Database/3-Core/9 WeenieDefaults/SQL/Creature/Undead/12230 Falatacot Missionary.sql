@@ -17,7 +17,28 @@ VALUES (12230, 001 /* SETUP_DID */, 33554839)
      , (12230, 008 /* ICON_DID */, 100667942)
      , (12230, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (12230, 032 /* WIELDED_TREASURE_TYPE_DID */, 249)
-     , (12230, 035 /* DEATH_TREASURE_TYPE_DID */, 239);
+     /* Wield 4x Throwing Club (23654)   Chance: 10% */
+     /* Wield  Yumi (23735)   Chance: 10% */
+     /* Wield 18x Arrow (300)   Chance: 100% */
+     /* Wield  Yumi (23735)   Chance: 10% */
+     /* Wield 20x Fire Arrow (1437)   Chance: 100% */
+     /* Wield  Yumi (23735)   Chance: 10% */
+     /* Wield 10x Acid Arrow (4181)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
+     /* Wield 12x Quarrel (305)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
+     /* Wield 14x Fire Quarrel (4188)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
+     /* Wield 16x Acid Quarrel (4185)   Chance: 100% */
+     /* Wield  Katar (23675)   Chance: 15% */
+     /* Wield  Cestus (23638)   Chance: 15% */
+     /* Wield  Nekode (23681)   Chance: 15% */
+     /* Wield  Spear (23697)   Chance: 15% */
+     /* Wield  Tachi (23701)   Chance: 15% */
+     /* Wield  Yari (23731)   Chance: 15% */
+     /* Wield  Kite Shield (23685)   Chance: 50% */
+     /* Wield  Tower Shield (95)   Chance: 25% */
+     , (12230, 035 /* DEATH_TREASURE_TYPE_DID */, 239 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12230, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -133,13 +154,13 @@ VALUES (12230, 1, 90, 0, 0, 178) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12230, 9, 12226, 0, 0, 0.08, False) /* Create Crest of the Falatacot Lords for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.92, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (12230, 9, 5873, 0, 0, 0.01, False) /* Create Seal for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (12230, 9, 7041, 0, 0, 0.02, False) /* Create Undead Thighbone for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12230, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (12230, 9, 9312, 0, 0, 0.04, False) /* Create A Small Mnemosyne for ContainTreasure_DestinationType */
-     , (12230, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (12230, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12230, 0.33, 1630, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Lich Lord (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

@@ -16,7 +16,7 @@ VALUES (11992, 001 /* SETUP_DID */, 33556428)
      , (11992, 007 /* CLOTHINGBASE_DID */, 268436247)
      , (11992, 008 /* ICON_DID */, 100667940)
      , (11992, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415326)
-     , (11992, 035 /* DEATH_TREASURE_TYPE_DID */, 24);
+     , (11992, 035 /* DEATH_TREASURE_TYPE_DID */, 24 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11992, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -102,9 +102,9 @@ VALUES (11992, 1, 20, 0, 0, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11992, 9, 3673, 0, 0, 0.25, False) /* Create Wood Heart for ContainTreasure_DestinationType */
-     , (11992, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11992, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */
      , (11992, 9, 6353, 0, 0, 0.2, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (11992, 9, 0, 0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (11992, 9, 0, 0, 0, 0.8, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11992, 0.25, 942, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Wood Golem (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

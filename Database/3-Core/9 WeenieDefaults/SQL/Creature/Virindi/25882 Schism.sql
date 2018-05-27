@@ -14,7 +14,7 @@ VALUES (25882, 001 /* SETUP_DID */, 33558550)
      , (25882, 004 /* COMBAT_TABLE_DID */, 805306407)
      , (25882, 008 /* ICON_DID */, 100671702)
      , (25882, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415375)
-     , (25882, 035 /* DEATH_TREASURE_TYPE_DID */, 461);
+     , (25882, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25882, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -104,7 +104,7 @@ VALUES (25882, 1, 1010, 0, 0, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25882, 9, 30823, 0, 0, 0.05, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (25882, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (25882, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25882, 0.25, 25852, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -2, -1, 9, 0.8191521, 0, 0, -0.5735765)/* Generate Ravager (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */

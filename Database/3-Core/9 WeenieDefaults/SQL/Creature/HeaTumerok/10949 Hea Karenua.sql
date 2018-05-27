@@ -16,7 +16,7 @@ VALUES (10949, 001 /* SETUP_DID */, 33554496)
      , (10949, 007 /* CLOTHINGBASE_DID */, 268436628)
      , (10949, 008 /* ICON_DID */, 100667452)
      , (10949, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
-     , (10949, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     , (10949, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10949, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -144,7 +144,7 @@ VALUES (10949, 1, 180, 0, 0, 330) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10949, 9, 10969, 0, 0, 1, False) /* Create Awakener for ContainTreasure_DestinationType */
-     , (10949, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (10949, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */
      , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */
      , (10949, 1, 10968, 1, 0, 0, False) /* Create Karenua's Key for Contain_DestinationType */

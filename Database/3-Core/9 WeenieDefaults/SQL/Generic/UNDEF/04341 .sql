@@ -30,5 +30,5 @@ VALUES (4341, 0.2, 195, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 6, 0, 0, 0.9659258, 0, 0,
      , (4341, 0.4, 195, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -1, 0, 0.9238795, 0, 0, -0.3826835)/* Generate Granite Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (4341, 0.7, 195, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 0, 0, 0.1736482, 0, 0, -0.9848077)/* Generate Granite Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (4341, 0.95, 195, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, 0.7660444, 0, 0, -0.6427876)/* Generate Granite Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
-     , (4341, 1, 15, 1800, 1, 1, 2, 68, -1, 0, 0, 0, 0, 0, 0, 0.7660444, 0, 0, -0.6427876)/* Generate  (x1 up to max of 1) - PickUp_RegenerationType - SpecificTreasure_RegenLocationType */;
+     , (4341, 1, 15, 1800, 1, 1, 2, 68, -1, 0, 0, 0, 0, 0, 0, 0.7660444, 0, 0, -0.6427876)/* Generate RANDOM TREASURE from Loot Tier 3 (x1 up to max of 1) - PickUp_RegenerationType - SpecificTreasure_RegenLocationType */;
 

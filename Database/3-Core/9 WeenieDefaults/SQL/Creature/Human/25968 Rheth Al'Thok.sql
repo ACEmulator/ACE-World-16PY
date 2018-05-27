@@ -17,7 +17,17 @@ VALUES (25968, 001 /* SETUP_DID */, 33554433)
      , (25968, 008 /* ICON_DID */, 100667446)
      , (25968, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415236)
      , (25968, 032 /* WIELDED_TREASURE_TYPE_DID */, 418)
-     , (25968, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     /* Wield  Clean, Dry Towel (10758) Palette: BLUE_PALETTE_TEMPLATE (2)  Chance: 50% */
+     /* Wield  Clean, Dry Towel (10758) Palette: GREEN_PALETTE_TEMPLATE (8)  Chance: 50% */
+     /* Wield  Bandit Dagger (22777)   Chance: 12.5% */
+     /* Wield  Jambiya (22780)   Chance: 12.5% */
+     /* Wield  Khanjar (22783)   Chance: 12.5% */
+     /* Wield  Knife (22786)   Chance: 12.5% */
+     /* Wield  Bandit Simi (22789)   Chance: 12.5% */
+     /* Wield  Bandit Rapier (22792)   Chance: 12.5% */
+     /* Wield  Bandit Short Sword (22795)   Chance: 12.5% */
+     /* Wield  Bandit Yaoji (22798)   Chance: 12.5% */
+     , (25968, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25968, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -126,7 +136,7 @@ VALUES (25968, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_Desti
      , (25968, 9, 25958, 0, 0, 1, False) /* Create Woven Tassel of Sound Mind for ContainTreasure_DestinationType */
      , (25968, 9, 25958, 0, 0, 1, False) /* Create Woven Tassel of Sound Mind for ContainTreasure_DestinationType */
      , (25968, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (25968, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (25968, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25968, 0, 4, 0, 0, 280, 252, 280, 308, 112, 112, 280, 168, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

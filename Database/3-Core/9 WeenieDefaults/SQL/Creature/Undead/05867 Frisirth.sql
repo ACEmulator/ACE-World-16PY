@@ -17,7 +17,12 @@ VALUES (5867, 001 /* SETUP_DID */, 33554839)
      , (5867, 008 /* ICON_DID */, 100667942)
      , (5867, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (5867, 032 /* WIELDED_TREASURE_TYPE_DID */, 250)
-     , (5867, 035 /* DEATH_TREASURE_TYPE_DID */, 235);
+     /* Wield  Katar (23675)   Chance: 25% */
+     /* Wield  Nekode (23681)   Chance: 25% */
+     /* Wield  Cestus (23638)   Chance: 25% */
+     /* Wield  Tachi (23701)   Chance: 25% */
+     /* Wield  Kite Shield (23685)   Chance: 85% */
+     , (5867, 035 /* DEATH_TREASURE_TYPE_DID */, 235 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5867, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -115,7 +120,7 @@ VALUES (5867, 1, 150, 0, 0, 285) /* MAX_HEALTH_ATTRIBUTE_2ND */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5867, 1, 5882, 0, 0, 1, False) /* Create An Ancient Book for Contain_DestinationType */
      , (5867, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (5867, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (5867, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5867, 1, 5869, 3600, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Sir Joffre Tremblant (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -14,7 +14,7 @@ VALUES (8470, 001 /* SETUP_DID */, 33555670)
      , (8470, 004 /* COMBAT_TABLE_DID */, 805306404)
      , (8470, 008 /* ICON_DID */, 100671186)
      , (8470, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415332)
-     , (8470, 035 /* DEATH_TREASURE_TYPE_DID */, 460);
+     , (8470, 035 /* DEATH_TREASURE_TYPE_DID */, 460 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8470, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -102,7 +102,7 @@ VALUES (8470, 1, 200, 0, 0, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8470, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8470, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8470, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (8470, 2, 4804, 10, 0, 0, False) /* Create Slithis Spine for Wield_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

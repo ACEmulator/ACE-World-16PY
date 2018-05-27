@@ -17,7 +17,12 @@ VALUES (7122, 001 /* SETUP_DID */, 33555464)
      , (7122, 008 /* ICON_DID */, 100669124)
      , (7122, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (7122, 032 /* WIELDED_TREASURE_TYPE_DID */, 288)
-     , (7122, 035 /* DEATH_TREASURE_TYPE_DID */, 448);
+     /* Wield  Yumi (23734)   Chance: 50% */
+     /* Wield 16x Deadly Acid Arrow (15430)   Chance: 100% */
+     /* Wield  Kite Shield (23684)   Chance: 50% */
+     /* Wield  Acid Spear (23688)   Chance: 25% */
+     /* Wield  Acid Yari (23722)   Chance: 25% */
+     , (7122, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7122, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -99,13 +104,13 @@ VALUES (7122, 1, 180, 0, 0, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7122, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (7122, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7122, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (7122, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (7122, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7122, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (7122, 9, 9310, 0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (7122, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7122, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (7122, 9, 22100, 0, 0, 0.03, False) /* Create Skull Stamp for ContainTreasure_DestinationType */
-     , (7122, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (7122, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7122, 0, 4, 0, 0, 90, 43, 32, 45, 22, 77, 29, 44, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

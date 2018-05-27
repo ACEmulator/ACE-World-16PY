@@ -1,0 +1,18 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (74, 309 /* Club */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (74, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 314 /* Dagger */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 328 /* Khanjar */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 331 /* Mace */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 352 /* Short Sword */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 345 /* Simi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 361 /* Yaoji */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 7767 /* Drudge Board with Nail */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 343 /* Shouken */, 0, 0, 0, 10, 0.1, 0.04, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 315 /* Throwing Dagger */, 0, 0, 0, 6, 0.1, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 320 /* Javelin */, 0, 0, 0, 4, 0.1, 0.02, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 317 /* Djarid */, 0, 0, 0, 0, 0, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (74, 310 /* Throwing Club */, 0, 0, 0, 4, 0.1, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0);
+

@@ -17,7 +17,15 @@ VALUES (24494, 001 /* SETUP_DID */, 33557003)
      , (24494, 008 /* ICON_DID */, 100667447)
      , (24494, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415262)
      , (24494, 032 /* WIELDED_TREASURE_TYPE_DID */, 438)
-     , (24494, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     /* Wield  Rock (23748)   Chance: 90% */
+     /* Wield  Rock (23746)   Chance: 10% */
+     /* Wield  Lugian Axe (23742)   Chance: 17.5% */
+     /* Wield  Lugian Morning Star (23768)   Chance: 17.5% */
+     /* Wield  Lugian Club (23752)   Chance: 17.5% */
+     /* Wield  Lugian Mace (23760)   Chance: 17.5% */
+     /* Wield  Lugian Axe (23740)   Chance: 5% */
+     /* Wield  Lugian Morning Star (23766)   Chance: 5% */
+     , (24494, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24494, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -92,9 +100,9 @@ VALUES (24494, 1, 260, 0, 0, 390) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24494, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (24494, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (24494, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (24494, 9, 7043, 0, 0, 0.03, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (24494, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (24494, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (24494, 0, 4, 2, 0.3, 250, 143, 143, 143, 90, 43, 215, 200, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

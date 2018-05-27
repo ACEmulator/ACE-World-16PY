@@ -16,7 +16,11 @@ VALUES (7372, 001 /* SETUP_DID */, 33555465)
      , (7372, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (7372, 031 /* LINKED_PORTAL_ONE_DID */, 7417 /* Aerfalle Keep Portal */)
      , (7372, 032 /* WIELDED_TREASURE_TYPE_DID */, 289)
-     , (7372, 035 /* DEATH_TREASURE_TYPE_DID */, 25);
+     /* Wield  Yumi (23736)   Chance: 50% */
+     /* Wield 16x Greater Fire Arrow (5305)   Chance: 100% */
+     /* Wield  Kite Shield (23686)   Chance: 50% */
+     /* Wield  Fire Tachi (23708)   Chance: 50% */
+     , (7372, 035 /* DEATH_TREASURE_TYPE_DID */, 25 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7372, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -101,9 +105,9 @@ VALUES (7372, 12, 3102408716, 47, 95, 36, 0.9238795, 0, 0, -0.3826835) /* PORTAL
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7372, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (7372, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (7372, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (7372, 9, 28056, 0, 0, 1, False) /* Create Ring of the Watchman for ContainTreasure_DestinationType */
-     , (7372, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (7372, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7372, 0.5, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Relic Bones (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

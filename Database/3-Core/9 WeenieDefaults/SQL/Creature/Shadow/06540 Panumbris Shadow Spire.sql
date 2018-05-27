@@ -18,7 +18,7 @@ VALUES (6540, 001 /* SETUP_DID */, 33556251)
      , (6540, 007 /* CLOTHINGBASE_DID */, 268435871)
      , (6540, 008 /* ICON_DID */, 100670398)
      , (6540, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415331)
-     , (6540, 035 /* DEATH_TREASURE_TYPE_DID */, 180);
+     , (6540, 035 /* DEATH_TREASURE_TYPE_DID */, 180 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6540, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -125,7 +125,7 @@ VALUES (6540, 1, 300, 0, 0, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6540, 9, 6058, 0, 0, 0.01, False) /* Create Dark Shard for ContainTreasure_DestinationType */
-     , (6540, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (6540, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6540, 1, 1757, 60, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Lieutenant (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */;

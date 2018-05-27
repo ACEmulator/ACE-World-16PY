@@ -45,6 +45,15 @@ echo This will not take long.
 copy /b ACE-World-CE16PY.sql + "..\3-Core\2 SpellTableExtendedData\SQL\*.sql" ACE-World-CE16PY.sql 1>NUL
 echo. >> ACE-World-CE16PY.sql
 
+echo Compiling Treasure... No output will be displayed except if error occurs.
+echo This will not take long.
+
+set compileddir=%cd%
+FOR /R "..\3-Core\3 TreasureTable\SQL\" %%G in (.) DO (
+ Pushd %%G
+ copy /b "%compileddir%\ACE-World-CE16PY.sql" + *.sql "%compileddir%\ACE-World-CE16PY.sql" 1>NUL
+ Popd )
+
 echo Compiling Recipes... No output will be displayed except if error occurs.
 echo This will not take long.
 

@@ -16,7 +16,7 @@ VALUES (11616, 001 /* SETUP_DID */, 33556792)
      , (11616, 007 /* CLOTHINGBASE_DID */, 268436085)
      , (11616, 008 /* ICON_DID */, 100671140)
      , (11616, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415367)
-     , (11616, 035 /* DEATH_TREASURE_TYPE_DID */, 328);
+     , (11616, 035 /* DEATH_TREASURE_TYPE_DID */, 328 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11616, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -89,7 +89,7 @@ VALUES (11616, 1, 150, 0, 0, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11616, 9, 9292, 0, 0, 0.04, False) /* Create Virindi Singularity Key for ContainTreasure_DestinationType */
-     , (11616, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11616, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (11616, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */
      , (11616, 9, 11626, 0, 0, 1, False) /* Create Quiddity Ingot for ContainTreasure_DestinationType */;
 

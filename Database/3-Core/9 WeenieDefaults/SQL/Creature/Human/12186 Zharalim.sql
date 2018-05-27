@@ -16,7 +16,7 @@ VALUES (12186, 001 /* SETUP_DID */, 33554510)
      , (12186, 004 /* COMBAT_TABLE_DID */, 805306368)
      , (12186, 008 /* ICON_DID */, 100667446)
      , (12186, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415236)
-     , (12186, 035 /* DEATH_TREASURE_TYPE_DID */, 448);
+     , (12186, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12186, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -102,9 +102,9 @@ VALUES (12186, 2, 12192, 0, 0, 1, False) /* Create Shadow's Garb for Wield_Desti
      , (12186, 10, 12196, 0, 0, 0.1, False) /* Create Assassin's Lightning Simi for WieldTreasure_DestinationType */
      , (12186, 10, 12197, 0, 0, 0.1, False) /* Create Assassin's Flaming Simi for WieldTreasure_DestinationType */
      , (12186, 10, 12198, 0, 0, 0.1, False) /* Create Assassin's Frost Simi for WieldTreasure_DestinationType */
-     , (12186, 10, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for WieldTreasure_DestinationType */
+     , (12186, 10, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for WieldTreasure_DestinationType */
      , (12186, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (12186, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (12186, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (12186, 0, 4, 0, 0, 240, 240, 240, 240, 240, 240, 192, 216, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

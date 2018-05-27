@@ -14,7 +14,7 @@ VALUES (10822, 001 /* SETUP_DID */, 33554497)
      , (10822, 004 /* COMBAT_TABLE_DID */, 805306381)
      , (10822, 008 /* ICON_DID */, 100667943)
      , (10822, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415273)
-     , (10822, 035 /* DEATH_TREASURE_TYPE_DID */, 245);
+     , (10822, 035 /* DEATH_TREASURE_TYPE_DID */, 245 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10822, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -123,11 +123,11 @@ VALUES (10822, 1, 50, 0, 0, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (10822, 9, 3696, 0, 0, 0.05, False) /* Create Blue Gem for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (10822, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (10822, 9, 9291, 0, 0, 0.03, False) /* Create Virindi Master Key for ContainTreasure_DestinationType */
-     , (10822, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (10822, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (10822, 9, 10766, 0, 0, 1, False) /* Create Shackles of Obedience for ContainTreasure_DestinationType */
      , (10822, 9, 10805, 0, 0, 1, False) /* Create Obsidian Shard for ContainTreasure_DestinationType */;
 

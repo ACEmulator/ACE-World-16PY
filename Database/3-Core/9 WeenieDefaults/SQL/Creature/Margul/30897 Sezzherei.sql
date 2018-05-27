@@ -17,7 +17,7 @@ VALUES (30897, 001 /* SETUP_DID */, 33558554)
      , (30897, 008 /* ICON_DID */, 100675661)
      , (30897, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415401)
      , (30897, 030 /* PHYSICS_SCRIPT_DID */, 83 /* PS_PortalExit */)
-     , (30897, 035 /* DEATH_TREASURE_TYPE_DID */, 32);
+     , (30897, 035 /* DEATH_TREASURE_TYPE_DID */, 32 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30897, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -127,7 +127,7 @@ VALUES (30897, 9, 30858, 1, 0, 1, False) /* Create Sezzherei Slayer Token for Co
      , (30897, 9, 30881, 1, 0, 1, False) /* Create Salvager's Helm for ContainTreasure_DestinationType */
      , (30897, 9, 30881, 1, 0, 1, False) /* Create Salvager's Helm for ContainTreasure_DestinationType */
      , (30897, 9, 30823, 0, 0, 0.15, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (30897, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (30897, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30897, -1, 25862, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Helcan Margul (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

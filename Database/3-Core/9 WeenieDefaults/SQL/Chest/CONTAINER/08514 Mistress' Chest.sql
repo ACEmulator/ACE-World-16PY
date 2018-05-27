@@ -58,5 +58,5 @@ VALUES (8514, -1, 8530, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Gener
      , (8514, -1, 8552, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate The Healer's Heart (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (8514, -1, 8505, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Damp Scroll (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
      , (8514, -1, 8509, 0, 1, 1, 2, 8, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Tear-Stained Parchment (x1 up to max of 1) - PickUp_RegenerationType - Contain_RegenLocationType */
-     , (8514, -1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Arwic: 2 miles (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
+     , (8514, -1, 460, 0, 1, 1, 2, 72, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate RANDOM TREASURE from Loot Tier 4 (x1 up to max of 1) - PickUp_RegenerationType - ContainTreasure_RegenLocationType */;
 

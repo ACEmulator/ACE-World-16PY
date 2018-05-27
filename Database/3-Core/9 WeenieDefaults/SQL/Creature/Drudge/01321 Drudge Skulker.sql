@@ -17,7 +17,12 @@ VALUES (1321, 001 /* SETUP_DID */, 33556445)
      , (1321, 008 /* ICON_DID */, 100667445)
      , (1321, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (1321, 032 /* WIELDED_TREASURE_TYPE_DID */, 80)
-     , (1321, 035 /* DEATH_TREASURE_TYPE_DID */, 81);
+     /* Wield  Jambiya (319)   Chance: 16% */
+     /* Wield  Knife (329)   Chance: 17% */
+     /* Wield 10x Throwing Dart (316)   Chance: 5% */
+     /* Wield 10x Shouken (343)   Chance: 4% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 5% */
+     , (1321, 035 /* DEATH_TREASURE_TYPE_DID */, 81 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1321, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

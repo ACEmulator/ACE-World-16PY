@@ -17,7 +17,21 @@ VALUES (11518, 001 /* SETUP_DID */, 33554496)
      , (11518, 008 /* ICON_DID */, 100667452)
      , (11518, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11518, 032 /* WIELDED_TREASURE_TYPE_DID */, 384)
-     , (11518, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Shortbow (307)   Chance: 5% */
+     /* Wield 25x Arrow (300)   Chance: 100% */
+     /* Wield  Shouyumi (341)   Chance: 5% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Light Crossbow (312)   Chance: 10% */
+     /* Wield 15x Quarrel (305)   Chance: 100% */
+     /* Wield  Balister of the Quiddity (11892)   Chance: 45% */
+     /* Wield 20x Quarrel (305)   Chance: 100% */
+     /* Wield  Longbow (306)   Chance: 10% */
+     /* Wield 22x Arrow (300)   Chance: 100% */
+     /* Wield  Yumi (363)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   Chance: 15% */
+     /* Wield 15x Quarrel (305)   Chance: 100% */
+     , (11518, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11518, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

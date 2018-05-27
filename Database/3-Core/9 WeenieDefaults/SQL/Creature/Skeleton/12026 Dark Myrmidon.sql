@@ -17,7 +17,11 @@ VALUES (12026, 001 /* SETUP_DID */, 33555465)
      , (12026, 008 /* ICON_DID */, 100669124)
      , (12026, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (12026, 032 /* WIELDED_TREASURE_TYPE_DID */, 289)
-     , (12026, 035 /* DEATH_TREASURE_TYPE_DID */, 21);
+     /* Wield  Yumi (23736)   Chance: 50% */
+     /* Wield 16x Greater Fire Arrow (5305)   Chance: 100% */
+     /* Wield  Kite Shield (23686)   Chance: 50% */
+     /* Wield  Fire Tachi (23708)   Chance: 50% */
+     , (12026, 035 /* DEATH_TREASURE_TYPE_DID */, 21 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12026, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -101,11 +105,11 @@ VALUES (12026, 1, 300, 0, 0, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12026, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (12026, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12026, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (12026, 9, 9310, 0, 0, 0.6, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (12026, 9, 0, 0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12026, 9, 0, 0, 0, 0.4, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (12026, 9, 23537, 0, 0, 0.3, False) /* Create Osseous Mace for ContainTreasure_DestinationType */
-     , (12026, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (12026, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12026, 0.25, 7179, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Relic Bones (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

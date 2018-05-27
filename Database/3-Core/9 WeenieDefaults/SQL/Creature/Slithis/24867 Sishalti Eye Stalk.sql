@@ -14,7 +14,7 @@ VALUES (24867, 001 /* SETUP_DID */, 33555670)
      , (24867, 004 /* COMBAT_TABLE_DID */, 805306404)
      , (24867, 008 /* ICON_DID */, 100671186)
      , (24867, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415332)
-     , (24867, 035 /* DEATH_TREASURE_TYPE_DID */, 464);
+     , (24867, 035 /* DEATH_TREASURE_TYPE_DID */, 464 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24867, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -102,7 +102,7 @@ VALUES (24867, 1, 350, 0, 0, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24867, 9, 24477, 0, 0, 0.01, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (24867, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (24867, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (24867, 2, 22545, 10, 0, 0, False) /* Create Obsidian Spines for Wield_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

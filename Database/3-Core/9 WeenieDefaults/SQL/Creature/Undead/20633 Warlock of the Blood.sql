@@ -17,7 +17,16 @@ VALUES (20633, 001 /* SETUP_DID */, 33554839)
      , (20633, 008 /* ICON_DID */, 100667942)
      , (20633, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (20633, 032 /* WIELDED_TREASURE_TYPE_DID */, 291)
-     , (20633, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     /* Wield 5x Frost Throwing Club (23663)   Chance: 40% */
+     /* Wield 5x Throwing Club (23655)   Chance: 30% */
+     /* Wield  Yumi (23736)   Chance: 30% */
+     /* Wield 18x Greater Arrow (5304)   Chance: 100% */
+     /* Wield  Frost Yari (23728)   Chance: 25% */
+     /* Wield  Yari (23732)   Chance: 25% */
+     /* Wield  Frost Spear (23694)   Chance: 15% */
+     /* Wield  Spear (23698)   Chance: 15% */
+     /* Wield  Tachi (23702)   Chance: 20% */
+     , (20633, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20633, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -123,9 +132,9 @@ VALUES (20633, 1, 150, 0, 0, 285) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20633, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (20633, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (20633, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (20633, 9, 7045, 0, 0, 0.03, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (20633, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (20633, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (20633, 0, 4, 0, 0, 180, 144, 95, 122, 23, 90, 122, 131, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

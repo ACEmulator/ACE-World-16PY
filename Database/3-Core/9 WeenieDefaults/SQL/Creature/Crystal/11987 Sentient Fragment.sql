@@ -16,7 +16,7 @@ VALUES (11987, 001 /* SETUP_DID */, 33556226)
      , (11987, 007 /* CLOTHINGBASE_DID */, 268435869)
      , (11987, 008 /* ICON_DID */, 100670395)
      , (11987, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415348)
-     , (11987, 035 /* DEATH_TREASURE_TYPE_DID */, 21);
+     , (11987, 035 /* DEATH_TREASURE_TYPE_DID */, 21 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11987, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -113,9 +113,9 @@ VALUES (11987, 1, 100, 0, 0, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11987, 9, 6056, 0, 0, 0.5, False) /* Create Small Shard for ContainTreasure_DestinationType */
-     , (11987, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11987, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (11987, 9, 23541, 0, 0, 0.3, False) /* Create Crystal Sword for ContainTreasure_DestinationType */
-     , (11987, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (11987, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11987, 0.25, 6041, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Dual Fragment (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

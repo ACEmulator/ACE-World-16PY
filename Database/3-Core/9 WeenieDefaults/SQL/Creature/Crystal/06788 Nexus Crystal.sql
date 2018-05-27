@@ -16,7 +16,7 @@ VALUES (6788, 001 /* SETUP_DID */, 33556224)
      , (6788, 007 /* CLOTHINGBASE_DID */, 268435859)
      , (6788, 008 /* ICON_DID */, 100670283)
      , (6788, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415347)
-     , (6788, 035 /* DEATH_TREASURE_TYPE_DID */, 464);
+     , (6788, 035 /* DEATH_TREASURE_TYPE_DID */, 464 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6788, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -109,7 +109,7 @@ VALUES (6788, 1, 6807, 1, 0, 0, False) /* Create Nexus Core Gem for Contain_Dest
      , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
      , (6788, 1, 6621, 1, 0, 0, False) /* Create Scintillating Gem for Contain_DestinationType */
      , (6788, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (6788, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (6788, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (6788, 0, 4, 50, 0.75, 200, 200, 200, 200, 200, 240, 216, 20000, 0, 1, 0.5, 0.2, 0, 0.5, 0.2, 0, 0, 0, 0, 0, 0, 0) /* HEAD */

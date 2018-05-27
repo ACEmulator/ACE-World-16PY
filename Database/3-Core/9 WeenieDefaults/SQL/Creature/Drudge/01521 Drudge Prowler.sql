@@ -17,7 +17,23 @@ VALUES (1521, 001 /* SETUP_DID */, 33556445)
      , (1521, 008 /* ICON_DID */, 100667445)
      , (1521, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (1521, 032 /* WIELDED_TREASURE_TYPE_DID */, 74)
-     , (1521, 035 /* DEATH_TREASURE_TYPE_DID */, 77);
+     /* Wield  Club (309)   Chance: 5% */
+     /* Wield  Dabus (313)   Chance: 10% */
+     /* Wield  Dagger (314)   Chance: 5% */
+     /* Wield  Kasrullah (325)   Chance: 5% */
+     /* Wield  Khanjar (328)   Chance: 5% */
+     /* Wield  Mace (331)   Chance: 10% */
+     /* Wield  Short Sword (352)   Chance: 10% */
+     /* Wield  Simi (345)   Chance: 10% */
+     /* Wield  Tofun (356)   Chance: 10% */
+     /* Wield  Yaoji (361)   Chance: 10% */
+     /* Wield  Drudge Board with Nail (7767)   Chance: 15% */
+     /* Wield 10x Shouken (343)   Chance: 4% */
+     /* Wield 6x Throwing Dagger (315)   Chance: 5% */
+     /* Wield 4x Javelin (320)   Chance: 2% */
+     /* Wield  Djarid (317)   Chance: 1% */
+     /* Wield 4x Throwing Club (310)   Chance: 1% */
+     , (1521, 035 /* DEATH_TREASURE_TYPE_DID */, 77 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1521, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,7 +106,7 @@ VALUES (1521, 1, 30, 0, 0, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1521, 9, 1531, 0, 0, 1, False) /* Create Cell Key for ContainTreasure_DestinationType */
-     , (1521, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (1521, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (1521, 0, 4, 0, 0, 15, 14, 15, 17, 9, 9, 15, 9, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

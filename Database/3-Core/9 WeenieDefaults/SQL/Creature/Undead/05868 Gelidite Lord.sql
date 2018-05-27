@@ -17,7 +17,16 @@ VALUES (5868, 001 /* SETUP_DID */, 33554839)
      , (5868, 008 /* ICON_DID */, 100667942)
      , (5868, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (5868, 032 /* WIELDED_TREASURE_TYPE_DID */, 291)
-     , (5868, 035 /* DEATH_TREASURE_TYPE_DID */, 266);
+     /* Wield 5x Frost Throwing Club (23663)   Chance: 40% */
+     /* Wield 5x Throwing Club (23655)   Chance: 30% */
+     /* Wield  Yumi (23736)   Chance: 30% */
+     /* Wield 18x Greater Arrow (5304)   Chance: 100% */
+     /* Wield  Frost Yari (23728)   Chance: 25% */
+     /* Wield  Yari (23732)   Chance: 25% */
+     /* Wield  Frost Spear (23694)   Chance: 15% */
+     /* Wield  Spear (23698)   Chance: 15% */
+     /* Wield  Tachi (23702)   Chance: 20% */
+     , (5868, 035 /* DEATH_TREASURE_TYPE_DID */, 266 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5868, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

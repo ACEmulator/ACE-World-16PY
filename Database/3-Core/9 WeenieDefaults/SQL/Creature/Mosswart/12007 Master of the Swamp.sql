@@ -17,7 +17,15 @@ VALUES (12007, 001 /* SETUP_DID */, 33557327)
      , (12007, 008 /* ICON_DID */, 100667449)
      , (12007, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (12007, 032 /* WIELDED_TREASURE_TYPE_DID */, 124)
-     , (12007, 035 /* DEATH_TREASURE_TYPE_DID */, 22);
+     /* Wield  Budiaq (308)   Chance: 10% */
+     /* Wield  Scimitar (339)   Chance: 10% */
+     /* Wield  Shamshir (340)   Chance: 10% */
+     /* Wield  Spear (348)   Chance: 20% */
+     /* Wield  Tachi (353)   Chance: 10% */
+     /* Wield  Yari (362)   Chance: 40% */
+     /* Wield 4x Javelin (320)   Chance: 5% */
+     /* Wield  Djarid (317)   Chance: 5% */
+     , (12007, 035 /* DEATH_TREASURE_TYPE_DID */, 22 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12007, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -116,9 +124,9 @@ VALUES (12007, 1, 50, 0, 0, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12007, 9, 3694, 0, 0, 0.25, False) /* Create Swamp Stone for ContainTreasure_DestinationType */
-     , (12007, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12007, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (12007, 9, 7825, 0, 0, 0.05, False) /* Create Brown Beans for ContainTreasure_DestinationType */
-     , (12007, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (12007, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12007, 0.25, 1619, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Mosswart Shaman (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

@@ -17,7 +17,32 @@ VALUES (25804, 001 /* SETUP_DID */, 33558396)
      , (25804, 008 /* ICON_DID */, 100669124)
      , (25804, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (25804, 032 /* WIELDED_TREASURE_TYPE_DID */, 199)
-     , (25804, 035 /* DEATH_TREASURE_TYPE_DID */, 452);
+     /* Wield  Yumi (23733)   Chance: 6% */
+     /* Wield 20x Deadly Armor Piercing Arrow (15431)   Chance: 100% */
+     /* Wield  Yumi (23733)   Chance: 6% */
+     /* Wield 17x Deadly Arrow (15429)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
+     /* Wield 20x Deadly Quarrel (15438)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
+     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   Chance: 100% */
+     /* Wield  Yumi (23733)   Chance: 6% */
+     /* Wield 20x Deadly Broadhead Arrow (15433)   Chance: 100% */
+     /* Wield  Yumi (23733)   Chance: 6% */
+     /* Wield 17x Deadly Blunt Arrow (15432)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
+     /* Wield 20x Deadly Broadhead Quarrel (15442)   Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
+     /* Wield 16x Deadly Blunt Quarrel (15441)   Chance: 100% */
+     /* Wield  Katar (23673)   Chance: 12% */
+     /* Wield  Cestus (23636)   Chance: 12% */
+     /* Wield  Nekode (23679)   Chance: 12% */
+     /* Wield  Tachi (23699)   Chance: 12% */
+     /* Wield  Spear (23695)   Chance: 12% */
+     /* Wield  Fire Yaoji (23717)   Chance: 12% */
+     /* Wield  Yaoji (23709)   Chance: 12% */
+     /* Wield  Fire Tachi (23706)   Chance: 12% */
+     /* Wield  Kite Shield (23683)   Chance: 75% */
+     , (25804, 035 /* DEATH_TREASURE_TYPE_DID */, 452 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25804, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,17 +115,17 @@ VALUES (25804, 1, 335, 0, 0, 475) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25804, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (25804, 9, 9310, 0, 0, 0.05, False) /* Create A Large Mnemosyne for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (25804, 9, 24477, 0, 0, 0.02, False) /* Create Sturdy Steel Key for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (25804, 9, 28874, 0, 0, 0.05, False) /* Create Armored Skeletal Legs for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (25804, 9, 28871, 0, 0, 0.05, False) /* Create Armored Skeletal Arm  for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (25804, 9, 28892, 0, 0, 0.05, False) /* Create Armored Skeletal Torso for ContainTreasure_DestinationType */
-     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (25804, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (25804, 0, 4, 0, 0, 400, 400, 400, 400, 400, 400, 400, 400, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

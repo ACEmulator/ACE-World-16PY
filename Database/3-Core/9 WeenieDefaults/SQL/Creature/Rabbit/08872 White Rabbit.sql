@@ -17,7 +17,7 @@ VALUES (8872, 001 /* SETUP_DID */, 33555579)
      , (8872, 008 /* ICON_DID */, 100669116)
      , (8872, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415277)
      , (8872, 030 /* PHYSICS_SCRIPT_DID */, 86 /* PS_BreatheAcid */)
-     , (8872, 035 /* DEATH_TREASURE_TYPE_DID */, 157);
+     , (8872, 035 /* DEATH_TREASURE_TYPE_DID */, 157 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8872, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -106,7 +106,7 @@ VALUES (8872, 1, 2266, 0, 0, 2599) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8872, 9, 6876, 0, 0, 1, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (8872, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (8872, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (8872, 1, 8400, 0, 0, 1, False) /* Create Orb of the Bunny Booty for Contain_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

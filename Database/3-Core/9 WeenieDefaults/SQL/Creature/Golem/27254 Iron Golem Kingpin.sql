@@ -16,7 +16,7 @@ VALUES (27254, 001 /* SETUP_DID */, 33556426)
      , (27254, 007 /* CLOTHINGBASE_DID */, 268435981)
      , (27254, 008 /* ICON_DID */, 100667940)
      , (27254, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415323)
-     , (27254, 035 /* DEATH_TREASURE_TYPE_DID */, 34);
+     , (27254, 035 /* DEATH_TREASURE_TYPE_DID */, 34 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27254, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -102,11 +102,11 @@ VALUES (27254, 1, 1400, 0, 0, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27254, 9, 3672, 0, 0, 0.05, False) /* Create Iron Heart for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (27254, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (27254, 9, 6353, 0, 0, 0.005, False) /* Create Pyreal Mote for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (27254, 9, 0, 0, 0, 0.995, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (27254, 9, 10759, 0, 0, 0.03, False) /* Create Muddy Towel for ContainTreasure_DestinationType */
-     , (27254, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (27254, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27254, -1, 197, 10, 8, 8, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Iron Golem (x8 up to max of 8) - Destruction_RegenerationType - Scatter_RegenLocationType */;

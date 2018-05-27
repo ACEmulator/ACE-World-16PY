@@ -17,7 +17,7 @@ VALUES (11981, 001 /* SETUP_DID */, 33554478)
      , (11981, 008 /* ICON_DID */, 100667936)
      , (11981, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415254)
      , (11981, 030 /* PHYSICS_SCRIPT_DID */, 83 /* PS_PortalExit */)
-     , (11981, 035 /* DEATH_TREASURE_TYPE_DID */, 24);
+     , (11981, 035 /* DEATH_TREASURE_TYPE_DID */, 24 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11981, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -95,7 +95,7 @@ VALUES (11981, 1, 60, 0, 0, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11981, 9, 7039, 0, 0, 0.25, False) /* Create Fire Auroch Horn for ContainTreasure_DestinationType */
-     , (11981, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (11981, 9, 0, 0, 0, 0.75, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11981, 0.25, 1606, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Auroch Fire Cow (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

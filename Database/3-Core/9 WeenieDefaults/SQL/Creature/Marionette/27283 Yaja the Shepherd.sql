@@ -14,7 +14,7 @@ VALUES (27283, 001 /* SETUP_DID */, 33558542)
      , (27283, 004 /* COMBAT_TABLE_DID */, 805306410)
      , (27283, 008 /* ICON_DID */, 100671420)
      , (27283, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415372)
-     , (27283, 035 /* DEATH_TREASURE_TYPE_DID */, 20);
+     , (27283, 035 /* DEATH_TREASURE_TYPE_DID */, 20 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27283, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -112,7 +112,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (27283, 9, 27300, 0, 0, 1, False) /* Create Yaja's Reach for ContainTreasure_DestinationType */
      , (27283, 9, 27300, 0, 0, 1, False) /* Create Yaja's Reach for ContainTreasure_DestinationType */
      , (27283, 9, 30823, 0, 0, 0.03, False) /* Create Broken Black Marrow Key for ContainTreasure_DestinationType */
-     , (27283, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (27283, 9, 0, 0, 0, 0.97, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (27283, 0, 4, 160, 0.75, 700, 630, 560, 525, 525, 665, 665, 560, 0, 1, 0.44, 0.3, 0, 0.4, 0.1, 0, 0.44, 0.3, 0, 0.4, 0.1, 0) /* HEAD */

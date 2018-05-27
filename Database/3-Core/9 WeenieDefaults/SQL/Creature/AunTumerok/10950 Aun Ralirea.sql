@@ -16,7 +16,7 @@ VALUES (10950, 001 /* SETUP_DID */, 33557117)
      , (10950, 007 /* CLOTHINGBASE_DID */, 268436193)
      , (10950, 008 /* ICON_DID */, 100671756)
      , (10950, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
-     , (10950, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     , (10950, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10950, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -142,12 +142,12 @@ VALUES (10950, 2, 10995, 0, 0, 1, False) /* Create Ebon Spine Harpoon for Wield_
      , (10950, 9, 4237, 0, 0, 0.7, False) /* Create Thick Gromnie Hide for ContainTreasure_DestinationType */
      , (10950, 9, 4236, 0, 0, 0.2, False) /* Create Ivory Gromnie Hide for ContainTreasure_DestinationType */
      , (10950, 9, 4235, 0, 0, 0.1, False) /* Create Thin Gromnie Hide for ContainTreasure_DestinationType */
-     , (10950, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (10950, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (10950, 9, 4241, 0, 0, 0.7, False) /* Create Mattekar Hide for ContainTreasure_DestinationType */
      , (10950, 9, 4240, 0, 0, 0.2, False) /* Create Small Mattekar Hide for ContainTreasure_DestinationType */
      , (10950, 9, 9412, 0, 0, 0.05, False) /* Create Dire Mattekar Paw for ContainTreasure_DestinationType */
      , (10950, 9, 9413, 0, 0, 0.05, False) /* Create Dread Mattekar Paw for ContainTreasure_DestinationType */
-     , (10950, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (10950, 9, 0, 0, 0, 0, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10950, -1, 11508, 90, 2, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Aun Elder Shaman (x2 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */

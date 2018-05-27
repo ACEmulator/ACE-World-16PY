@@ -14,7 +14,7 @@ VALUES (30892, 001 /* SETUP_DID */, 33558550)
      , (30892, 004 /* COMBAT_TABLE_DID */, 805306407)
      , (30892, 008 /* ICON_DID */, 100671702)
      , (30892, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415375)
-     , (30892, 035 /* DEATH_TREASURE_TYPE_DID */, 461);
+     , (30892, 035 /* DEATH_TREASURE_TYPE_DID */, 461 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30892, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -104,7 +104,7 @@ VALUES (30892, 1, 1510, 0, 0, 1600) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30892, 9, 30857, 0, 0, 0.5, False) /* Create Sezzherei's Lair for ContainTreasure_DestinationType */
-     , (30892, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (30892, 9, 0, 0, 0, 0.5, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (30892, 9, 30868, 0, 0, 1, False) /* Create Crossbow of the Fallen for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

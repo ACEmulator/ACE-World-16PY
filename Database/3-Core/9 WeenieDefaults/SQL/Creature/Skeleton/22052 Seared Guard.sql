@@ -15,7 +15,11 @@ VALUES (22052, 001 /* SETUP_DID */, 33554521)
      , (22052, 008 /* ICON_DID */, 100669124)
      , (22052, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (22052, 032 /* WIELDED_TREASURE_TYPE_DID */, 289)
-     , (22052, 035 /* DEATH_TREASURE_TYPE_DID */, 264);
+     /* Wield  Yumi (23736)   Chance: 50% */
+     /* Wield 16x Greater Fire Arrow (5305)   Chance: 100% */
+     /* Wield  Kite Shield (23686)   Chance: 50% */
+     /* Wield  Fire Tachi (23708)   Chance: 50% */
+     , (22052, 035 /* DEATH_TREASURE_TYPE_DID */, 264 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22052, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -90,8 +94,8 @@ VALUES (22052, 1, 200, 0, 0, 340) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22052, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (22052, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
-     , (22052, 9, 0, 0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (22052, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
+     , (22052, 9, 0, 0, 0, 0.93, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (22052, 2, 7973, 0, 0, 0, False) /* Create Flaming Tachi for Wield_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

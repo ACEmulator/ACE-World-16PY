@@ -17,7 +17,12 @@ VALUES (26012, 001 /* SETUP_DID */, 33558582)
      , (26012, 008 /* ICON_DID */, 100675761)
      , (26012, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415402)
      , (26012, 032 /* WIELDED_TREASURE_TYPE_DID */, 470)
-     , (26012, 035 /* DEATH_TREASURE_TYPE_DID */, 451);
+     /* Wield  Stone Axe (26025)   Chance: 20% */
+     /* Wield  Bone Dagger (26034)   Chance: 20% */
+     /* Wield  Stone Mace (26046)   Chance: 20% */
+     /* Wield  Stone Spear (26051)   Chance: 20% */
+     /* Wield  Bone Sword (26055)   Chance: 20% */
+     , (26012, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (26012, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -107,9 +112,9 @@ VALUES (26012, 1, 125, 0, 0, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26012, 9, 28984, 0, 0, 0.02, False) /* Create Bloodied Burun Hide for ContainTreasure_DestinationType */
-     , (26012, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (26012, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (26012, 9, 28887, 0, 0, 0.05, False) /* Create Burun Ruuk Head for ContainTreasure_DestinationType */
-     , (26012, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (26012, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (26012, 0, 4, 0, 0, 65, 55, 68, 65, 65, 39, 81, 59, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

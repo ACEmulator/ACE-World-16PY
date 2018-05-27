@@ -16,7 +16,9 @@ VALUES (8537, 001 /* SETUP_DID */, 33554839)
      , (8537, 007 /* CLOTHINGBASE_DID */, 268435558)
      , (8537, 008 /* ICON_DID */, 100667942)
      , (8537, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
-     , (8537, 032 /* WIELDED_TREASURE_TYPE_DID */, 337);
+     , (8537, 032 /* WIELDED_TREASURE_TYPE_DID */, 337)
+     /* Wield 2x Asmolum's Throwing Dagger (8525)   Chance: 100% */
+     /* Wield  Asmolum's Dagger (8524)   Chance: 100% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8537, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

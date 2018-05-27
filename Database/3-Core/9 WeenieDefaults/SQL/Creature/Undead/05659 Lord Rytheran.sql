@@ -16,7 +16,7 @@ VALUES (5659, 001 /* SETUP_DID */, 33554839)
      , (5659, 007 /* CLOTHINGBASE_DID */, 268435558)
      , (5659, 008 /* ICON_DID */, 100667942)
      , (5659, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
-     , (5659, 035 /* DEATH_TREASURE_TYPE_DID */, 235);
+     , (5659, 035 /* DEATH_TREASURE_TYPE_DID */, 235 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5659, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -128,9 +128,9 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (5659, 8, 5666, 0, 0, 1, False) /* Create Letter for Treasure_DestinationType */
      , (5659, 9, 7410, 0, 0, 1, False) /* Create Rytheran's Key for ContainTreasure_DestinationType */
      , (5659, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (5659, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (5659, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (5659, 9, 7045, 0, 0, 0.02, False) /* Create Dark Revenant Thighbone for ContainTreasure_DestinationType */
-     , (5659, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (5659, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (5659, 0, 4, 0, 0, 210, 168, 273, 210, 84, 105, 210, 189, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

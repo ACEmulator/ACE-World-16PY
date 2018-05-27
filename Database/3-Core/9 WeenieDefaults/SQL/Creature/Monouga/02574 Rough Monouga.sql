@@ -17,7 +17,13 @@ VALUES (2574, 001 /* SETUP_DID */, 33555199)
      , (2574, 008 /* ICON_DID */, 100669117)
      , (2574, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415257)
      , (2574, 032 /* WIELDED_TREASURE_TYPE_DID */, 119)
-     , (2574, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Club (3943)   Chance: 45% */
+     /* Wield  Dabus (3944)   Chance: 5% */
+     /* Wield  Kasrullah (3945)   Chance: 5% */
+     /* Wield  Mace (3947)   Chance: 10% */
+     /* Wield  Tofun (3946)   Chance: 5% */
+     /* Wield 10x Throwing Club (310)   Chance: 30% */
+     , (2574, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2574, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -91,7 +97,7 @@ VALUES (2574, 1, 50, 0, 0, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2574, 9, 12253, 0, 0, 0.06, False) /* Create Monougat for ContainTreasure_DestinationType */
-     , (2574, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (2574, 9, 0, 0, 0, 0.94, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (2574, 0, 4, 0, 0, 30, 5, 22, 1, 18, 1, 11, 2, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

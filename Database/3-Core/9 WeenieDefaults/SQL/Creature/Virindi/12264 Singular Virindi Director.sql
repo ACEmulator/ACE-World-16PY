@@ -16,7 +16,7 @@ VALUES (12264, 001 /* SETUP_DID */, 33554497)
      , (12264, 007 /* CLOTHINGBASE_DID */, 268435649)
      , (12264, 008 /* ICON_DID */, 100667943)
      , (12264, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415273)
-     , (12264, 035 /* DEATH_TREASURE_TYPE_DID */, 243);
+     , (12264, 035 /* DEATH_TREASURE_TYPE_DID */, 243 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12264, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -128,9 +128,9 @@ VALUES (12264, 1, 70, 0, 0, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12264, 9, 3698, 0, 0, 0.05, False) /* Create White Jewel for ContainTreasure_DestinationType */
-     , (12264, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12264, 9, 0, 0, 0, 0.95, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (12264, 9, 8154, 0, 0, 0.1, False) /* Create Broken Virindi Mask for ContainTreasure_DestinationType */
-     , (12264, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12264, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 4 for ContainTreasure_DestinationType */
      , (12264, 8, 12252, 1, 0, 0, False) /* Create Obsidian Director's Mask for Treasure_DestinationType */
      , (12264, 8, 12280, 1, 0, 0, False) /* Create Singular Obsidian Message Shard for Treasure_DestinationType */;
 

@@ -17,7 +17,12 @@ VALUES (11996, 001 /* SETUP_DID */, 33557003)
      , (11996, 008 /* ICON_DID */, 100667447)
      , (11996, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415262)
      , (11996, 032 /* WIELDED_TREASURE_TYPE_DID */, 107)
-     , (11996, 035 /* DEATH_TREASURE_TYPE_DID */, 22);
+     /* Wield  Rock (23747)   Chance: 100% */
+     /* Wield  Lugian Axe (23741)   Chance: 40% */
+     /* Wield  Lugian Mace (23759)   Chance: 20% */
+     /* Wield  Lugian Hammer (23755)   Chance: 20% */
+     /* Wield  Lugian Morning Star (23767)   Chance: 20% */
+     , (11996, 035 /* DEATH_TREASURE_TYPE_DID */, 22 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11996, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -96,11 +101,11 @@ VALUES (11996, 1, 150, 0, 0, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11996, 9, 6876, 0, 0, 0.01, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11996, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (11996, 9, 7043, 0, 0, 0.33, False) /* Create Large Lugian Sinew for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0, 0.67, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (11996, 9, 0, 0, 0, 0.67, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (11996, 9, 23540, 0, 0, 0.3, False) /* Create Soul Staff for ContainTreasure_DestinationType */
-     , (11996, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (11996, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11996, 0.25, 24940, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Gotrok Gigas (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

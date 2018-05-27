@@ -17,7 +17,11 @@ VALUES (22050, 001 /* SETUP_DID */, 33555464)
      , (22050, 008 /* ICON_DID */, 100669124)
      , (22050, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (22050, 032 /* WIELDED_TREASURE_TYPE_DID */, 289)
-     , (22050, 035 /* DEATH_TREASURE_TYPE_DID */, 375);
+     /* Wield  Yumi (23736)   Chance: 50% */
+     /* Wield 16x Greater Fire Arrow (5305)   Chance: 100% */
+     /* Wield  Kite Shield (23686)   Chance: 50% */
+     /* Wield  Fire Tachi (23708)   Chance: 50% */
+     , (22050, 035 /* DEATH_TREASURE_TYPE_DID */, 375 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22050, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -95,7 +99,7 @@ VALUES (22050, 1, 300, 0, 0, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22050, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (22050, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (22050, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 5 for ContainTreasure_DestinationType */
      , (22050, 2, 7973, 0, 0, 0, False) /* Create Flaming Tachi for Wield_DestinationType */
      , (22050, 1, 5679, 0, 0, 0, False) /* Create Torn Journal for Contain_DestinationType */;
 

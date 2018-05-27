@@ -15,7 +15,21 @@ VALUES (7490, 001 /* SETUP_DID */, 33555465)
      , (7490, 008 /* ICON_DID */, 100669124)
      , (7490, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (7490, 032 /* WIELDED_TREASURE_TYPE_DID */, 178)
-     , (7490, 035 /* DEATH_TREASURE_TYPE_DID */, 453);
+     /* Wield  Yumi (23734)   Chance: 20% */
+     /* Wield 14x Deadly Fire Arrow (15435)   Chance: 100% */
+     /* Wield  Yumi (23734)   Chance: 20% */
+     /* Wield 14x Deadly Arrow (15429)   Chance: 100% */
+     /* Wield  Katar (23674)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Nekode (23680)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Cestus (23637)   Chance: 10% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Tachi (23700)   Chance: 35% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Fire Tachi (23707)   Chance: 35% */
+     /* Wield  Kite Shield (23684)   Chance: 100% */
+     , (7490, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7490, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -86,7 +100,7 @@ VALUES (7490, 1, 50, 0, 0, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7490, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (7490, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (7490, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 1 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)
 VALUES (7490, 0, 4, 0, 0, 70, 19, 12, 35, 13, 56, 1, 13, 0, 1, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0, 0.33, 0, 0) /* HEAD */

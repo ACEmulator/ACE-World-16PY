@@ -19,7 +19,21 @@ VALUES (6453, 001 /* SETUP_DID */, 33556558)
      , (6453, 008 /* ICON_DID */, 100670397)
      , (6453, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415331)
      , (6453, 032 /* WIELDED_TREASURE_TYPE_DID */, 175)
-     , (6453, 035 /* DEATH_TREASURE_TYPE_DID */, 253);
+     /* Wield  Yumi (23735)   Chance: 20% */
+     /* Wield 14x Fire Arrow (1437)   Chance: 100% */
+     /* Wield  Yumi (23735)   Chance: 20% */
+     /* Wield 14x Arrow (300)   Chance: 100% */
+     /* Wield  Katar (23675)   Chance: 10% */
+     /* Wield  Kite Shield (23685)   Chance: 100% */
+     /* Wield  Nekode (23681)   Chance: 10% */
+     /* Wield  Kite Shield (23685)   Chance: 100% */
+     /* Wield  Cestus (23638)   Chance: 10% */
+     /* Wield  Kite Shield (23685)   Chance: 100% */
+     /* Wield  Tachi (23701)   Chance: 35% */
+     /* Wield  Kite Shield (23685)   Chance: 100% */
+     /* Wield  Fire Yaoji (23719)   Chance: 35% */
+     /* Wield  Kite Shield (23685)   Chance: 100% */
+     , (6453, 035 /* DEATH_TREASURE_TYPE_DID */, 253 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6453, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -123,7 +137,7 @@ VALUES (6453, 1, 70, 0, 0, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6453, 9, 6059, 0, 0, 0.01, False) /* Create Dark Sliver for ContainTreasure_DestinationType */
-     , (6453, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (6453, 9, 0, 0, 0, 0.99, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6453, 1, 1756, 20, 1, 2, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Shadow Child (x1 up to max of 2) - Destruction_RegenerationType - Scatter_RegenLocationType */;

@@ -16,7 +16,7 @@ VALUES (19543, 001 /* SETUP_DID */, 33556439)
      , (19543, 007 /* CLOTHINGBASE_DID */, 268435983)
      , (19543, 008 /* ICON_DID */, 100667940)
      , (19543, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415322)
-     , (19543, 035 /* DEATH_TREASURE_TYPE_DID */, 32);
+     , (19543, 035 /* DEATH_TREASURE_TYPE_DID */, 32 /* Loot Tier: 6 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19543, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -107,13 +107,13 @@ VALUES (19543, 1, 17700, 0, 0, 18000) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (19543, 9, 7338, 0, 0, 0.15, False) /* Create Diamond Heart for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (19543, 9, 6876, 0, 0, 0.02, False) /* Create Sturdy Iron Key for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.98, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (19543, 9, 6354, 0, 0, 0.04, False) /* Create Pyreal Nugget for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (19543, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */
      , (19543, 9, 12689, 0, 0, 0.04, False) /* Create Diamond Powder for ContainTreasure_DestinationType */
-     , (19543, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (19543, 9, 0, 0, 0, 0.96, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 6 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19543, -1, 7094, 10, 6, 6, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Synnast (x6 up to max of 6) - Destruction_RegenerationType - Scatter_RegenLocationType */;

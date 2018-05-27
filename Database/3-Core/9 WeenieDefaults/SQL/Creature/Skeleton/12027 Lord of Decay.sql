@@ -17,7 +17,31 @@ VALUES (12027, 001 /* SETUP_DID */, 33555465)
      , (12027, 008 /* ICON_DID */, 100669124)
      , (12027, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (12027, 032 /* WIELDED_TREASURE_TYPE_DID */, 185)
-     , (12027, 035 /* DEATH_TREASURE_TYPE_DID */, 22);
+     /* Wield 6x Throwing Axe (304)   Chance: 10% */
+     /* Wield  Nayin (334)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Longbow (306)   Chance: 10% */
+     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Yumi (363)   Chance: 10% */
+     /* Wield 14x Arrow (300)   Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   Chance: 60% */
+     /* Wield 15x Quarrel (305)   Chance: 100% */
+     /* Wield  Battle Axe (301)   Chance: 14% */
+     /* Wield  Broad Sword (350)   Chance: 7% */
+     /* Wield  Kaskara (324)   Chance: 6% */
+     /* Wield  Ken (327)   Chance: 6% */
+     /* Wield  Long Sword (351)   Chance: 6% */
+     /* Wield  Morning Star (332)   Chance: 10% */
+     /* Wield  Scimitar (339)   Chance: 6% */
+     /* Wield  Shamshir (340)   Chance: 6% */
+     /* Wield  Ono (336)   Chance: 13% */
+     /* Wield  Silifi (344)   Chance: 13% */
+     /* Wield  Tachi (353)   Chance: 6% */
+     /* Wield  Takuba (354)   Chance: 6% */
+     /* Wield  Large Kite Shield (92)   Chance: 30% */
+     /* Wield  Kite Shield (91)   Chance: 20% */
+     /* Wield  Large Round Shield (94)   Chance: 20% */
+     , (12027, 035 /* DEATH_TREASURE_TYPE_DID */, 22 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12027, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -94,11 +118,11 @@ VALUES (12027, 1, 70, 0, 0, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12027, 9, 3687, 0, 0, 0.1, False) /* Create Skeleton's Skull for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12027, 9, 0, 0, 0, 0.9, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (12027, 9, 9314, 0, 0, 0.45, False) /* Create A Tiny Mnemosyne for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0, 0.55, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (12027, 9, 0, 0, 0, 0.55, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */
      , (12027, 9, 23534, 0, 0, 0.3, False) /* Create Skeletal Atlatl for ContainTreasure_DestinationType */
-     , (12027, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */;
+     , (12027, 9, 0, 0, 0, 0.7, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 2 for ContainTreasure_DestinationType */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12027, 0.25, 1760, 20, 1, 1, 1, 2, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0)/* Generate Skeleton Warrior (x1 up to max of 1) - Destruction_RegenerationType - Scatter_RegenLocationType */

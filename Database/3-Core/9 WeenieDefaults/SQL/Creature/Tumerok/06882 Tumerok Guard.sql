@@ -16,7 +16,7 @@ VALUES (6882, 001 /* SETUP_DID */, 33554496)
      , (6882, 007 /* CLOTHINGBASE_DID */, 268436630)
      , (6882, 008 /* ICON_DID */, 100667452)
      , (6882, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
-     , (6882, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     , (6882, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6882, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
@@ -113,7 +113,7 @@ VALUES (6882, 1, 120, 0, 0, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6882, 9, 3695, 0, 0, 0.15, False) /* Create Gold Tumerok Insignia for ContainTreasure_DestinationType */
-     , (6882, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE for ContainTreasure_DestinationType */
+     , (6882, 9, 0, 0, 0, 0.85, False) /* Create RANDOMLY GENERATED TREASURE from Loot Tier 3 for ContainTreasure_DestinationType */
      , (6882, 1, 6880, 0, 0, 1, False) /* Create Bone Engraved Key for Contain_DestinationType */;
 
 INSERT INTO `weenie_properties_body_part` (`object_Id`, `key`, `d_Type`, `d_Val`, `d_Var`, `base_Armor`, `armor_Vs_Slash`, `armor_Vs_Pierce`, `armor_Vs_Bludgeon`, `armor_Vs_Cold`, `armor_Vs_Fire`, `armor_Vs_Acid`, `armor_Vs_Electric`, `armor_Vs_Nether`, `b_h`, `h_l_f`, `m_l_f`, `l_l_f`, `h_r_f`, `m_r_f`, `l_r_f`, `h_l_b`, `m_l_b`, `l_l_b`, `h_r_b`, `m_r_b`, `l_r_b`)

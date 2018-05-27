@@ -17,7 +17,8 @@ VALUES (7336, 001 /* SETUP_DID */, 33556445)
      , (7336, 008 /* ICON_DID */, 100667445)
      , (7336, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (7336, 032 /* WIELDED_TREASURE_TYPE_DID */, 298)
-     , (7336, 035 /* DEATH_TREASURE_TYPE_DID */, 450);
+     /* Wield 15x Flaming Javelin (7311)   Chance: 100% */
+     , (7336, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7336, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
