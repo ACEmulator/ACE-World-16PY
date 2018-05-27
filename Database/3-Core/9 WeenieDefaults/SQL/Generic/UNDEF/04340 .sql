@@ -30,5 +30,5 @@ VALUES (4340, 0.2, 202, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 6, 0, 0, 0.9238795, 0, 0,
      , (4340, 0.4, 202, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 2, -1, 0, 0.9659258, 0, 0, -0.258819)/* Generate Sandstone Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (4340, 0.7, 202, 1800, 1, 1, 1, 4, -1, 0, 0, 0, -3.4, 0, 0, -0.6427876, 0, 0, -0.7660444)/* Generate Sandstone Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
      , (4340, 0.95, 202, 1800, 1, 1, 1, 4, -1, 0, 0, 0, 0, -4, 0, 0.7071068, 0, 0, -0.7071068)/* Generate Sandstone Golem (x1 up to max of 1) - Destruction_RegenerationType - Specific_RegenLocationType */
-     , (4340, 1, 15, 1800, 1, 1, 2, 68, -1, 0, 0, 0, 0, 0, 0, 0.7071068, 0, 0, -0.7071068)/* Generate  (x1 up to max of 1) - PickUp_RegenerationType - SpecificTreasure_RegenLocationType */;
+     , (4340, 1, 15, 1800, 1, 1, 2, 68, -1, 0, 0, 0, 0, 0, 0, 0.7071068, 0, 0, -0.7071068)/* Generate RANDOM TREASURE from Loot Tier 3 (x1 up to max of 1) - PickUp_RegenerationType - SpecificTreasure_RegenLocationType */;
 
