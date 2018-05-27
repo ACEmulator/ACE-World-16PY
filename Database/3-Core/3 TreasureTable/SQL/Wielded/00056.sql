@@ -1,0 +1,15 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (56, 322 /* Jo */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (56, 333 /* Nabut */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 338 /* Quarter Staff */, 0, 0, 0, 0, 0, 0.04, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 342 /* Shou-ono */, 0, 0, 0, 0, 0, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 357 /* Tungi */, 0, 0, 0, 0, 0, 0.08, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 303 /* Hand Axe */, 0, 0, 0, 0, 0, 0.09, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 308 /* Budiaq */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 348 /* Spear */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 309 /* Club */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 320 /* Javelin */, 0, 0, 0, 4, 0.1, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 310 /* Throwing Club */, 0, 0, 0, 5, 0.1, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (56, 317 /* Djarid */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0);
+

@@ -1,0 +1,16 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (167, 23733 /* Yumi */, 0, 0, 0, 0, 0, 0.8, 0, 0, 0, True, True, False, 0, 0, 0, 0)
+     , (167, 15429 /* Deadly Arrow */, 0, 0, 0, 14, 0.1, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23673 /* Katar */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23679 /* Nekode */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23636 /* Cestus */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23695 /* Spear */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23699 /* Tachi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (167, 23729 /* Yari */, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, True, True, True, 0, 0, 0, 0)
+     , (167, 23683 /* Kite Shield */, 0, 0, 0, 0, 0, 1, 0, 0, 0, True, False, False, 0, 0, 0, 0);
+

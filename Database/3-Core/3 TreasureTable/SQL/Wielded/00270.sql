@@ -1,0 +1,15 @@
+INSERT INTO `treasure_wielded` (`treasure_Type`, `weenie_Class_Id`, `palette_Id`, `unknown_1`, `shade`, `stack_Size`, `unknown_2`, `probability`, `unknown_3`, `unknown_4`, `unknown_5`, `unknown_6`, `unknown_7`, `unknown_8`, `unknown_9`, `unknown_10`, `unknown_11`, `unknown_12`)
+VALUES (270, 304 /* Throwing Axe */, 0, 0, 0, 3, 0, 0.01, 0, 0, 0, True, False, False, 0, 0, 0, 0)
+     , (270, 310 /* Throwing Club */, 0, 0, 0, 3, 0, 0.01, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 301 /* Battle Axe */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 309 /* Club */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 313 /* Dabus */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 322 /* Jo */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 325 /* Kasrullah */, 0, 0, 0, 0, 0, 0.05, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 331 /* Mace */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 332 /* Morning Star */, 0, 0, 0, 0, 0, 0.15, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 333 /* Nabut */, 0, 0, 0, 0, 0, 0.03, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 342 /* Shou-ono */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 344 /* Silifi */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0)
+     , (270, 356 /* Tofun */, 0, 0, 0, 0, 0, 0.1, 0, 0, 0, False, False, False, 0, 0, 0, 0);
+
