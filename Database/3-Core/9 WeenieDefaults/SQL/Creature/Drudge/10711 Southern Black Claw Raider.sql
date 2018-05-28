@@ -18,12 +18,12 @@ VALUES (10711, 001 /* SETUP_DID */, 33556445)
      , (10711, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (10711, 031 /* LINKED_PORTAL_ONE_DID */, 10715 /* Southern Black Claw Outpost Portal */)
      , (10711, 032 /* WIELDED_TREASURE_TYPE_DID */, 85)
-     /* Wield  Yari (362)   Chance: 40% */
-     /* Wield  Tachi (353)   Chance: 10% */
-     /* Wield  Spear (348)   Chance: 20% */
-     /* Wield  Shamshir (340)   Chance: 10% */
-     /* Wield  Scimitar (339)   Chance: 10% */
-     /* Wield  Budiaq (308)   Chance: 10% */
+     /* Wield  Yari (362)   | Chance: 40% */
+     /* Wield  Tachi (353)   | Chance: 10% */
+     /* Wield  Spear (348)   | Chance: 20% */
+     /* Wield  Shamshir (340)   | Chance: 10% */
+     /* Wield  Scimitar (339)   | Chance: 10% */
+     /* Wield  Budiaq (308)   | Chance: 10% */
      , (10711, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

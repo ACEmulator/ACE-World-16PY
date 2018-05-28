@@ -17,8 +17,8 @@ VALUES (11887, 001 /* SETUP_DID */, 33554496)
      , (11887, 008 /* ICON_DID */, 100667452)
      , (11887, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11887, 032 /* WIELDED_TREASURE_TYPE_DID */, 368)
-     /* Wield  Hafted Mask Spear (11753)   Chance: 80% */
-     /* Wield  Reinforced Mask Spear (11779)   Chance: 20% */
+     /* Wield  Hafted Mask Spear (11753)   | Chance: 80% */
+     /* Wield  Reinforced Mask Spear (11779)   | Chance: 20% */
      , (11887, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

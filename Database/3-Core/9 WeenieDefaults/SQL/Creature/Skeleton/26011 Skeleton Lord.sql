@@ -15,14 +15,14 @@ VALUES (26011, 001 /* SETUP_DID */, 33555464)
      , (26011, 008 /* ICON_DID */, 100669124)
      , (26011, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (26011, 032 /* WIELDED_TREASURE_TYPE_DID */, 216)
-     /* Wield  Nayin (334)   Chance: 25% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Longbow (306)   Chance: 25% */
-     /* Wield 18x Arrow (300)   Chance: 100% */
-     /* Wield  Yumi (363)   Chance: 25% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Heavy Crossbow (311)   Chance: 25% */
-     /* Wield 15x Quarrel (305)   Chance: 100% */
+     /* Wield  Nayin (334)   | Chance: 25% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Longbow (306)   | Chance: 25% */
+     /* Wield 18x Arrow (300)   | Chance: 100% */
+     /* Wield  Yumi (363)   | Chance: 25% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   | Chance: 25% */
+     /* Wield 15x Quarrel (305)   | Chance: 100% */
      , (26011, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

@@ -17,15 +17,15 @@ VALUES (19282, 001 /* SETUP_DID */, 33554521)
      , (19282, 008 /* ICON_DID */, 100669124)
      , (19282, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19282, 032 /* WIELDED_TREASURE_TYPE_DID */, 400)
-     /* Wield  Bronze Heavy Crossbow (15875)   Chance: 67% */
-     /* Wield 20x Greater Acid Quarrel (5314)   Chance: 16% */
-     /* Wield 20x Greater Lightning Quarrel (5316)   Chance: 16% */
-     /* Wield 20x Greater Fire Quarrel (5317)   Chance: 17% */
-     /* Wield 20x Greater Frost Quarrel (5315)   Chance: 17% */
-     /* Wield 20x Greater Armor Piercing Quarrel (5318)   Chance: 17% */
-     /* Wield 20x Frog Crotch Quarrel (3605)   Chance: 17% */
-     /* Wield  Bronze Cestus (15874)   Chance: 50% */
-     /* Wield  Bronze Battle Axe (15871)   Chance: 50% */
+     /* Wield  Bronze Heavy Crossbow (15875)   | Chance: 67% */
+     /* Wield 20x Greater Acid Quarrel (5314)   | Chance: 16% */
+     /* Wield 20x Greater Lightning Quarrel (5316)   | Chance: 16% */
+     /* Wield 20x Greater Fire Quarrel (5317)   | Chance: 17% */
+     /* Wield 20x Greater Frost Quarrel (5315)   | Chance: 17% */
+     /* Wield 20x Greater Armor Piercing Quarrel (5318)   | Chance: 17% */
+     /* Wield 20x Frog Crotch Quarrel (3605)   | Chance: 17% */
+     /* Wield  Bronze Cestus (15874)   | Chance: 50% */
+     /* Wield  Bronze Battle Axe (15871)   | Chance: 50% */
      , (19282, 035 /* DEATH_TREASURE_TYPE_DID */, 406 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

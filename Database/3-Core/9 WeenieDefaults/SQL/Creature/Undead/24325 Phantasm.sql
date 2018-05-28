@@ -17,31 +17,31 @@ VALUES (24325, 001 /* SETUP_DID */, 33554839)
      , (24325, 008 /* ICON_DID */, 100667942)
      , (24325, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (24325, 032 /* WIELDED_TREASURE_TYPE_DID */, 199)
-     /* Wield  Yumi (23733)   Chance: 6% */
-     /* Wield 20x Deadly Armor Piercing Arrow (15431)   Chance: 100% */
-     /* Wield  Yumi (23733)   Chance: 6% */
-     /* Wield 17x Deadly Arrow (15429)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
-     /* Wield 20x Deadly Quarrel (15438)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
-     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   Chance: 100% */
-     /* Wield  Yumi (23733)   Chance: 6% */
-     /* Wield 20x Deadly Broadhead Arrow (15433)   Chance: 100% */
-     /* Wield  Yumi (23733)   Chance: 6% */
-     /* Wield 17x Deadly Blunt Arrow (15432)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
-     /* Wield 20x Deadly Broadhead Quarrel (15442)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23664)   Chance: 6% */
-     /* Wield 16x Deadly Blunt Quarrel (15441)   Chance: 100% */
-     /* Wield  Katar (23673)   Chance: 12% */
-     /* Wield  Cestus (23636)   Chance: 12% */
-     /* Wield  Nekode (23679)   Chance: 12% */
-     /* Wield  Tachi (23699)   Chance: 12% */
-     /* Wield  Spear (23695)   Chance: 12% */
-     /* Wield  Fire Yaoji (23717)   Chance: 12% */
-     /* Wield  Yaoji (23709)   Chance: 12% */
-     /* Wield  Fire Tachi (23706)   Chance: 12% */
-     /* Wield  Kite Shield (23683)   Chance: 75% */
+     /* Wield  Yumi (23733)   | Chance: 6% */
+     /* Wield 20x Deadly Armor Piercing Arrow (15431)   | Chance: 100% */
+     /* Wield  Yumi (23733)   | Chance: 6% */
+     /* Wield 17x Deadly Arrow (15429)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   | Chance: 6% */
+     /* Wield 20x Deadly Quarrel (15438)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   | Chance: 6% */
+     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   | Chance: 100% */
+     /* Wield  Yumi (23733)   | Chance: 6% */
+     /* Wield 20x Deadly Broadhead Arrow (15433)   | Chance: 100% */
+     /* Wield  Yumi (23733)   | Chance: 6% */
+     /* Wield 17x Deadly Blunt Arrow (15432)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   | Chance: 6% */
+     /* Wield 20x Deadly Broadhead Quarrel (15442)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23664)   | Chance: 6% */
+     /* Wield 16x Deadly Blunt Quarrel (15441)   | Chance: 100% */
+     /* Wield  Katar (23673)   | Chance: 12% */
+     /* Wield  Cestus (23636)   | Chance: 12% */
+     /* Wield  Nekode (23679)   | Chance: 12% */
+     /* Wield  Tachi (23699)   | Chance: 12% */
+     /* Wield  Spear (23695)   | Chance: 12% */
+     /* Wield  Fire Yaoji (23717)   | Chance: 12% */
+     /* Wield  Yaoji (23709)   | Chance: 12% */
+     /* Wield  Fire Tachi (23706)   | Chance: 12% */
+     /* Wield  Kite Shield (23683)   | Chance: 75% */
      , (24325, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

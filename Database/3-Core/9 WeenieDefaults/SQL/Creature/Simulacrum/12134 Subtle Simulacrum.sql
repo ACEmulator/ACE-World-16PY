@@ -17,13 +17,13 @@ VALUES (12134, 001 /* SETUP_DID */, 33554433)
      , (12134, 008 /* ICON_DID */, 100667446)
      , (12134, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415381)
      , (12134, 032 /* WIELDED_TREASURE_TYPE_DID */, 392)
-     /* Wield  Bow of the Quiddity (9597)   Chance: 100% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Blade of the Quiddity (11916)   Chance: 34% */
-     /* Wield  Lance of the Quiddity (11913)   Chance: 33% */
-     /* Wield  Mace of the Quiddity (11907)   Chance: 33% */
-     /* Wield  Faran Robe (5850) Palette: GREY_PALETTE_TEMPLATE (9) Shade: 0.1) Chance: 100% */
-     /* Wield  Pants (12254) Palette: PURPLE_PALETTE_TEMPLATE (13) Shade: 0.8) Chance: 100% */
+     /* Wield  Bow of the Quiddity (9597)   | Chance: 100% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Blade of the Quiddity (11916)   | Chance: 34% */
+     /* Wield  Lance of the Quiddity (11913)   | Chance: 33% */
+     /* Wield  Mace of the Quiddity (11907)   | Chance: 33% */
+     /* Wield  Faran Robe (5850) | Palette: GREY_PALETTE_TEMPLATE (9) | Shade: 0.1 | Chance: 100% */
+     /* Wield  Pants (12254) | Palette: PURPLE_PALETTE_TEMPLATE (13) | Shade: 0.8 | Chance: 100% */
      , (12134, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

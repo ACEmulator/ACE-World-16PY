@@ -17,11 +17,11 @@ VALUES (1404, 001 /* SETUP_DID */, 33554839)
      , (1404, 008 /* ICON_DID */, 100667942)
      , (1404, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (1404, 032 /* WIELDED_TREASURE_TYPE_DID */, 250)
-     /* Wield  Katar (23675)   Chance: 25% */
-     /* Wield  Nekode (23681)   Chance: 25% */
-     /* Wield  Cestus (23638)   Chance: 25% */
-     /* Wield  Tachi (23701)   Chance: 25% */
-     /* Wield  Kite Shield (23685)   Chance: 85% */
+     /* Wield  Katar (23675)   | Chance: 25% */
+     /* Wield  Nekode (23681)   | Chance: 25% */
+     /* Wield  Cestus (23638)   | Chance: 25% */
+     /* Wield  Tachi (23701)   | Chance: 25% */
+     /* Wield  Kite Shield (23685)   | Chance: 85% */
      , (1404, 035 /* DEATH_TREASURE_TYPE_DID */, 240 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

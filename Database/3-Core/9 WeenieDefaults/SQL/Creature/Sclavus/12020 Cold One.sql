@@ -17,13 +17,13 @@ VALUES (12020, 001 /* SETUP_DID */, 33555608)
      , (12020, 008 /* ICON_DID */, 100669120)
      , (12020, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415280)
      , (12020, 032 /* WIELDED_TREASURE_TYPE_DID */, 376)
-     /* Wield 5x Javelin (8620)   Chance: 25% */
-     /* Wield 4x Acid Javelin (8621)   Chance: 25% */
-     /* Wield  Serpent's Fang (12028)   Chance: 100% */
-     /* Wield  Large Kite Shield (92)   Chance: 10% */
-     /* Wield  Kite Shield (91)   Chance: 10% */
-     /* Wield  Large Round Shield (94)   Chance: 20% */
-     /* Wield  Tower Shield (95)   Chance: 15% */
+     /* Wield 5x Javelin (8620)   | Chance: 25% */
+     /* Wield 4x Acid Javelin (8621)   | Chance: 25% */
+     /* Wield  Serpent's Fang (12028)   | Chance: 100% */
+     /* Wield  Large Kite Shield (92)   | Chance: 10% */
+     /* Wield  Kite Shield (91)   | Chance: 10% */
+     /* Wield  Large Round Shield (94)   | Chance: 20% */
+     /* Wield  Tower Shield (95)   | Chance: 15% */
      , (12020, 035 /* DEATH_TREASURE_TYPE_DID */, 19 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

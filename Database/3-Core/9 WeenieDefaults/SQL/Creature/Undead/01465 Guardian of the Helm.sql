@@ -17,8 +17,8 @@ VALUES (1465, 001 /* SETUP_DID */, 33554839)
      , (1465, 008 /* ICON_DID */, 100667942)
      , (1465, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (1465, 032 /* WIELDED_TREASURE_TYPE_DID */, 237)
-     /* Wield  Fiery Shield (1517)   Chance: 100% */
-     /* Wield  Superior Helmet (1518)   Chance: 100% */
+     /* Wield  Fiery Shield (1517)   | Chance: 100% */
+     /* Wield  Superior Helmet (1518)   | Chance: 100% */
      , (1465, 035 /* DEATH_TREASURE_TYPE_DID */, 236 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

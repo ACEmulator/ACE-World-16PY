@@ -17,14 +17,14 @@ VALUES (7103, 001 /* SETUP_DID */, 33557327)
      , (7103, 008 /* ICON_DID */, 100667449)
      , (7103, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (7103, 032 /* WIELDED_TREASURE_TYPE_DID */, 280)
-     /* Wield 5x Fire Throwing Club (23659)   Chance: 25% */
-     /* Wield 4x Frost Throwing Club (23662)   Chance: 25% */
-     /* Wield  Acid Yari (23723)   Chance: 15% */
-     /* Wield  Yari (23731)   Chance: 25% */
-     /* Wield  Tachi (23701)   Chance: 15% */
-     /* Wield  Acid Spear (23689)   Chance: 15% */
-     /* Wield  Spear (23697)   Chance: 15% */
-     /* Wield  Fire Yaoji (23719)   Chance: 15% */
+     /* Wield 5x Fire Throwing Club (23659)   | Chance: 25% */
+     /* Wield 4x Frost Throwing Club (23662)   | Chance: 25% */
+     /* Wield  Acid Yari (23723)   | Chance: 15% */
+     /* Wield  Yari (23731)   | Chance: 25% */
+     /* Wield  Tachi (23701)   | Chance: 15% */
+     /* Wield  Acid Spear (23689)   | Chance: 15% */
+     /* Wield  Spear (23697)   | Chance: 15% */
+     /* Wield  Fire Yaoji (23719)   | Chance: 15% */
      , (7103, 035 /* DEATH_TREASURE_TYPE_DID */, 450 /* Loot Tier: 3 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

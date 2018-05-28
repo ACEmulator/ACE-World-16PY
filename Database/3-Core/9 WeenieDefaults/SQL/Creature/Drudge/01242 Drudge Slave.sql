@@ -17,32 +17,32 @@ VALUES (1242, 001 /* SETUP_DID */, 33556445)
      , (1242, 008 /* ICON_DID */, 100667445)
      , (1242, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415258)
      , (1242, 032 /* WIELDED_TREASURE_TYPE_DID */, 68)
-     /* Wield  Budiaq (308)   Chance: 3% */
-     /* Wield  Club (309)   Chance: 3% */
-     /* Wield  Dabus (313)   Chance: 3% */
-     /* Wield  Dagger (314)   Chance: 3% */
-     /* Wield  Hand Axe (303)   Chance: 3% */
-     /* Wield  Jambiya (319)   Chance: 1% */
-     /* Wield  Jitte (321)   Chance: 3% */
-     /* Wield  Kasrullah (325)   Chance: 3% */
-     /* Wield  Katar (326)   Chance: 3% */
-     /* Wield  Khanjar (328)   Chance: 3% */
-     /* Wield  Knife (329)   Chance: 2% */
-     /* Wield  Mace (331)   Chance: 3% */
-     /* Wield  Short Sword (352)   Chance: 3% */
-     /* Wield  Shou-ono (342)   Chance: 3% */
-     /* Wield  Simi (345)   Chance: 3% */
-     /* Wield  Spear (348)   Chance: 3% */
-     /* Wield  Tofun (356)   Chance: 5% */
-     /* Wield  Yaoji (361)   Chance: 5% */
-     /* Wield  Yari (362)   Chance: 3% */
-     /* Wield 10x Throwing Dart (316)   Chance: 2% */
-     /* Wield 10x Shouken (343)   Chance: 3% */
-     /* Wield 6x Throwing Dagger (315)   Chance: 3% */
-     /* Wield 4x Javelin (320)   Chance: 5% */
-     /* Wield  Djarid (317)   Chance: 5% */
-     /* Wield 5x Throwing Club (310)   Chance: 5% */
-     /* Wield 5x Throwing Axe (304)   Chance: 5% */
+     /* Wield  Budiaq (308)   | Chance: 3% */
+     /* Wield  Club (309)   | Chance: 3% */
+     /* Wield  Dabus (313)   | Chance: 3% */
+     /* Wield  Dagger (314)   | Chance: 3% */
+     /* Wield  Hand Axe (303)   | Chance: 3% */
+     /* Wield  Jambiya (319)   | Chance: 1% */
+     /* Wield  Jitte (321)   | Chance: 3% */
+     /* Wield  Kasrullah (325)   | Chance: 3% */
+     /* Wield  Katar (326)   | Chance: 3% */
+     /* Wield  Khanjar (328)   | Chance: 3% */
+     /* Wield  Knife (329)   | Chance: 2% */
+     /* Wield  Mace (331)   | Chance: 3% */
+     /* Wield  Short Sword (352)   | Chance: 3% */
+     /* Wield  Shou-ono (342)   | Chance: 3% */
+     /* Wield  Simi (345)   | Chance: 3% */
+     /* Wield  Spear (348)   | Chance: 3% */
+     /* Wield  Tofun (356)   | Chance: 5% */
+     /* Wield  Yaoji (361)   | Chance: 5% */
+     /* Wield  Yari (362)   | Chance: 3% */
+     /* Wield 10x Throwing Dart (316)   | Chance: 2% */
+     /* Wield 10x Shouken (343)   | Chance: 3% */
+     /* Wield 6x Throwing Dagger (315)   | Chance: 3% */
+     /* Wield 4x Javelin (320)   | Chance: 5% */
+     /* Wield  Djarid (317)   | Chance: 5% */
+     /* Wield 5x Throwing Club (310)   | Chance: 5% */
+     /* Wield 5x Throwing Axe (304)   | Chance: 5% */
      , (1242, 035 /* DEATH_TREASURE_TYPE_DID */, 69 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

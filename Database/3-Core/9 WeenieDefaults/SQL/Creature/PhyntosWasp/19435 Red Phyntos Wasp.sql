@@ -17,7 +17,7 @@ VALUES (19435, 001 /* SETUP_DID */, 33558817)
      , (19435, 008 /* ICON_DID */, 100667450)
      , (19435, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415266)
      , (19435, 035 /* DEATH_TREASURE_TYPE_DID */, 153)
-     /* Contain 5x Pyreal (273)   Chance: 20% */;
+     /* Contain 5x Pyreal (273)   | Chance: 20% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19435, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

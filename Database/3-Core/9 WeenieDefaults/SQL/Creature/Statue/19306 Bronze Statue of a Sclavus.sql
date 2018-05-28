@@ -17,14 +17,14 @@ VALUES (19306, 001 /* SETUP_DID */, 33555608)
      , (19306, 008 /* ICON_DID */, 100669120)
      , (19306, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19306, 032 /* WIELDED_TREASURE_TYPE_DID */, 402)
-     /* Wield  Bronze Longbow (15873)   Chance: 67% */
-     /* Wield 20x Greater Acid Arrow (5306)   Chance: 16% */
-     /* Wield 20x Greater Lightning Arrow (5308)   Chance: 16% */
-     /* Wield 20x Greater Fire Arrow (5305)   Chance: 17% */
-     /* Wield 20x Greater Frost Arrow (5307)   Chance: 17% */
-     /* Wield 20x Greater Armor Piercing Arrow (5309)   Chance: 17% */
-     /* Wield 20x Greater Frog Crotch Arrow (5312)   Chance: 17% */
-     /* Wield  Bronze Morning Star (15877)   Chance: 100% */
+     /* Wield  Bronze Longbow (15873)   | Chance: 67% */
+     /* Wield 20x Greater Acid Arrow (5306)   | Chance: 16% */
+     /* Wield 20x Greater Lightning Arrow (5308)   | Chance: 16% */
+     /* Wield 20x Greater Fire Arrow (5305)   | Chance: 17% */
+     /* Wield 20x Greater Frost Arrow (5307)   | Chance: 17% */
+     /* Wield 20x Greater Armor Piercing Arrow (5309)   | Chance: 17% */
+     /* Wield 20x Greater Frog Crotch Arrow (5312)   | Chance: 17% */
+     /* Wield  Bronze Morning Star (15877)   | Chance: 100% */
      , (19306, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

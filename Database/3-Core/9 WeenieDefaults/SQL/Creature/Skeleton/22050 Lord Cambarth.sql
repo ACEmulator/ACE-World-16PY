@@ -17,10 +17,10 @@ VALUES (22050, 001 /* SETUP_DID */, 33555464)
      , (22050, 008 /* ICON_DID */, 100669124)
      , (22050, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (22050, 032 /* WIELDED_TREASURE_TYPE_DID */, 289)
-     /* Wield  Yumi (23736)   Chance: 50% */
-     /* Wield 16x Greater Fire Arrow (5305)   Chance: 100% */
-     /* Wield  Kite Shield (23686)   Chance: 50% */
-     /* Wield  Fire Tachi (23708)   Chance: 50% */
+     /* Wield  Yumi (23736)   | Chance: 50% */
+     /* Wield 16x Greater Fire Arrow (5305)   | Chance: 100% */
+     /* Wield  Kite Shield (23686)   | Chance: 50% */
+     /* Wield  Fire Tachi (23708)   | Chance: 50% */
      , (22050, 035 /* DEATH_TREASURE_TYPE_DID */, 375 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

@@ -15,8 +15,8 @@ VALUES (8562, 001 /* SETUP_DID */, 33555464)
      , (8562, 008 /* ICON_DID */, 100669124)
      , (8562, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (8562, 032 /* WIELDED_TREASURE_TYPE_DID */, 336)
-     /* Wield  Dericostian Longbow (8560)   Chance: 100% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
+     /* Wield  Dericostian Longbow (8560)   | Chance: 100% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
      , (8562, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

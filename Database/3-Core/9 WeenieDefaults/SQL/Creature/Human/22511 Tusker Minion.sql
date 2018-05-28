@@ -17,16 +17,16 @@ VALUES (22511, 001 /* SETUP_DID */, 33554510)
      , (22511, 008 /* ICON_DID */, 100667446)
      , (22511, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415236)
      , (22511, 032 /* WIELDED_TREASURE_TYPE_DID */, 419)
-     /* Wield  Clean, Dry Towel (10758) Palette: BLUE_PALETTE_TEMPLATE (2)  Chance: 50% */
-     /* Wield  Clean, Dry Towel (10758) Palette: GREEN_PALETTE_TEMPLATE (8)  Chance: 50% */
-     /* Wield  Bandit Dagger (22778)   Chance: 12.5% */
-     /* Wield  Jambiya (22781)   Chance: 12.5% */
-     /* Wield  Khanjar (22784)   Chance: 12.5% */
-     /* Wield  Knife (22787)   Chance: 12.5% */
-     /* Wield  Bandit Simi (22790)   Chance: 12.5% */
-     /* Wield  Bandit Rapier (22793)   Chance: 12.5% */
-     /* Wield  Bandit Short Sword (22796)   Chance: 12.5% */
-     /* Wield  Bandit Yaoji (22799)   Chance: 12.5% */
+     /* Wield  Clean, Dry Towel (10758) | Palette: BLUE_PALETTE_TEMPLATE (2)  | Chance: 50% */
+     /* Wield  Clean, Dry Towel (10758) | Palette: GREEN_PALETTE_TEMPLATE (8)  | Chance: 50% */
+     /* Wield  Bandit Dagger (22778)   | Chance: 12.5% */
+     /* Wield  Jambiya (22781)   | Chance: 12.5% */
+     /* Wield  Khanjar (22784)   | Chance: 12.5% */
+     /* Wield  Knife (22787)   | Chance: 12.5% */
+     /* Wield  Bandit Simi (22790)   | Chance: 12.5% */
+     /* Wield  Bandit Rapier (22793)   | Chance: 12.5% */
+     /* Wield  Bandit Short Sword (22796)   | Chance: 12.5% */
+     /* Wield  Bandit Yaoji (22799)   | Chance: 12.5% */
      , (22511, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

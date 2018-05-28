@@ -17,19 +17,19 @@ VALUES (11983, 001 /* SETUP_DID */, 33558024)
      , (11983, 008 /* ICON_DID */, 100667453)
      , (11983, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (11983, 032 /* WIELDED_TREASURE_TYPE_DID */, 47)
-     /* Wield 3x Throwing Axe (304)   Chance: 1% */
-     /* Wield 3x Throwing Club (310)   Chance: 1% */
-     /* Wield  Battle Axe (301)   Chance: 15% */
-     /* Wield  Club (309)   Chance: 5% */
-     /* Wield  Dabus (313)   Chance: 10% */
-     /* Wield  Jo (322)   Chance: 3% */
-     /* Wield  Kasrullah (325)   Chance: 5% */
-     /* Wield  Mace (331)   Chance: 10% */
-     /* Wield  Morning Star (332)   Chance: 15% */
-     /* Wield  Nabut (333)   Chance: 3% */
-     /* Wield  Shou-ono (342)   Chance: 10% */
-     /* Wield  Silifi (344)   Chance: 10% */
-     /* Wield  Tofun (356)   Chance: 10% */
+     /* Wield 3x Throwing Axe (304)   | Chance: 1% */
+     /* Wield 3x Throwing Club (310)   | Chance: 1% */
+     /* Wield  Battle Axe (301)   | Chance: 15% */
+     /* Wield  Club (309)   | Chance: 5% */
+     /* Wield  Dabus (313)   | Chance: 10% */
+     /* Wield  Jo (322)   | Chance: 3% */
+     /* Wield  Kasrullah (325)   | Chance: 5% */
+     /* Wield  Mace (331)   | Chance: 10% */
+     /* Wield  Morning Star (332)   | Chance: 15% */
+     /* Wield  Nabut (333)   | Chance: 3% */
+     /* Wield  Shou-ono (342)   | Chance: 10% */
+     /* Wield  Silifi (344)   | Chance: 10% */
+     /* Wield  Tofun (356)   | Chance: 10% */
      , (11983, 035 /* DEATH_TREASURE_TYPE_DID */, 24 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

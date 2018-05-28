@@ -17,8 +17,8 @@ VALUES (24287, 001 /* SETUP_DID */, 33555199)
      , (24287, 008 /* ICON_DID */, 100669117)
      , (24287, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415257)
      , (24287, 032 /* WIELDED_TREASURE_TYPE_DID */, 271)
-     /* Wield  Club (23646)   Chance: 30% */
-     /* Wield  Club (23649)   Chance: 30% */
+     /* Wield  Club (23646)   | Chance: 30% */
+     /* Wield  Club (23649)   | Chance: 30% */
      , (24287, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

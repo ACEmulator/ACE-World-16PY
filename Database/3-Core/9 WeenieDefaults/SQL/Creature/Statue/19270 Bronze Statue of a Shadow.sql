@@ -17,9 +17,9 @@ VALUES (19270, 001 /* SETUP_DID */, 33554433)
      , (19270, 008 /* ICON_DID */, 100670397)
      , (19270, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19270, 032 /* WIELDED_TREASURE_TYPE_DID */, 399)
-     /* Wield  Bronze Tower Shield (15865)   Chance: 100% */
-     /* Wield  Bronze Spear (15879)   Chance: 50% */
-     /* Wield  Bronze Long Sword (15880)   Chance: 50% */
+     /* Wield  Bronze Tower Shield (15865)   | Chance: 100% */
+     /* Wield  Bronze Spear (15879)   | Chance: 50% */
+     /* Wield  Bronze Long Sword (15880)   | Chance: 50% */
      , (19270, 035 /* DEATH_TREASURE_TYPE_DID */, 407 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

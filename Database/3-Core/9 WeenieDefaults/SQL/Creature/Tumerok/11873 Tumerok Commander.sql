@@ -17,8 +17,8 @@ VALUES (11873, 001 /* SETUP_DID */, 33554496)
      , (11873, 008 /* ICON_DID */, 100667452)
      , (11873, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11873, 032 /* WIELDED_TREASURE_TYPE_DID */, 370)
-     /* Wield  Hafted Serpent Spear (11755)   Chance: 80% */
-     /* Wield  Reinforced Serpent Spear (11781)   Chance: 20% */
+     /* Wield  Hafted Serpent Spear (11755)   | Chance: 80% */
+     /* Wield  Reinforced Serpent Spear (11781)   | Chance: 20% */
      , (11873, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

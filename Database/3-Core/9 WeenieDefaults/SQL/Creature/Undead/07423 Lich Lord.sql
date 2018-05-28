@@ -17,27 +17,27 @@ VALUES (7423, 001 /* SETUP_DID */, 33554839)
      , (7423, 008 /* ICON_DID */, 100667942)
      , (7423, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (7423, 032 /* WIELDED_TREASURE_TYPE_DID */, 249)
-     /* Wield 4x Throwing Club (23654)   Chance: 10% */
-     /* Wield  Yumi (23735)   Chance: 10% */
-     /* Wield 18x Arrow (300)   Chance: 100% */
-     /* Wield  Yumi (23735)   Chance: 10% */
-     /* Wield 20x Fire Arrow (1437)   Chance: 100% */
-     /* Wield  Yumi (23735)   Chance: 10% */
-     /* Wield 10x Acid Arrow (4181)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
-     /* Wield 12x Quarrel (305)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
-     /* Wield 14x Fire Quarrel (4188)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23666)   Chance: 10% */
-     /* Wield 16x Acid Quarrel (4185)   Chance: 100% */
-     /* Wield  Katar (23675)   Chance: 15% */
-     /* Wield  Cestus (23638)   Chance: 15% */
-     /* Wield  Nekode (23681)   Chance: 15% */
-     /* Wield  Spear (23697)   Chance: 15% */
-     /* Wield  Tachi (23701)   Chance: 15% */
-     /* Wield  Yari (23731)   Chance: 15% */
-     /* Wield  Kite Shield (23685)   Chance: 50% */
-     /* Wield  Tower Shield (95)   Chance: 25% */
+     /* Wield 4x Throwing Club (23654)   | Chance: 10% */
+     /* Wield  Yumi (23735)   | Chance: 10% */
+     /* Wield 18x Arrow (300)   | Chance: 100% */
+     /* Wield  Yumi (23735)   | Chance: 10% */
+     /* Wield 20x Fire Arrow (1437)   | Chance: 100% */
+     /* Wield  Yumi (23735)   | Chance: 10% */
+     /* Wield 10x Acid Arrow (4181)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   | Chance: 10% */
+     /* Wield 12x Quarrel (305)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   | Chance: 10% */
+     /* Wield 14x Fire Quarrel (4188)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23666)   | Chance: 10% */
+     /* Wield 16x Acid Quarrel (4185)   | Chance: 100% */
+     /* Wield  Katar (23675)   | Chance: 15% */
+     /* Wield  Cestus (23638)   | Chance: 15% */
+     /* Wield  Nekode (23681)   | Chance: 15% */
+     /* Wield  Spear (23697)   | Chance: 15% */
+     /* Wield  Tachi (23701)   | Chance: 15% */
+     /* Wield  Yari (23731)   | Chance: 15% */
+     /* Wield  Kite Shield (23685)   | Chance: 50% */
+     /* Wield  Tower Shield (95)   | Chance: 25% */
      , (7423, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

@@ -17,8 +17,8 @@ VALUES (22514, 001 /* SETUP_DID */, 33554433)
      , (22514, 008 /* ICON_DID */, 100667446)
      , (22514, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415236)
      , (22514, 032 /* WIELDED_TREASURE_TYPE_DID */, 416)
-     /* Wield  Clean, Dry Towel (10758) Palette: BLUE_PALETTE_TEMPLATE (2)  Chance: 50% */
-     /* Wield  Clean, Dry Towel (10758) Palette: GREEN_PALETTE_TEMPLATE (8)  Chance: 50% */
+     /* Wield  Clean, Dry Towel (10758) | Palette: BLUE_PALETTE_TEMPLATE (2)  | Chance: 50% */
+     /* Wield  Clean, Dry Towel (10758) | Palette: GREEN_PALETTE_TEMPLATE (8)  | Chance: 50% */
      , (22514, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

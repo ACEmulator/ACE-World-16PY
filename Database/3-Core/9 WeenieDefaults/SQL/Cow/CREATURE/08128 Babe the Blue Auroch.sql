@@ -17,7 +17,7 @@ VALUES (8128, 001 /* SETUP_DID */, 33554478)
      , (8128, 008 /* ICON_DID */, 100667936)
      , (8128, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415254)
      , (8128, 035 /* DEATH_TREASURE_TYPE_DID */, 38)
-     /* Contain 2x Side of Beef (4753)   Chance: 100% */;
+     /* Contain 2x Side of Beef (4753)   | Chance: 100% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8128, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)
