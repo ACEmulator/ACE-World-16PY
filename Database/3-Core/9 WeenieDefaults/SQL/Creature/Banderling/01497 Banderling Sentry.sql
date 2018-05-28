@@ -17,17 +17,17 @@ VALUES (1497, 001 /* SETUP_DID */, 33558024)
      , (1497, 008 /* ICON_DID */, 100667453)
      , (1497, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (1497, 032 /* WIELDED_TREASURE_TYPE_DID */, 52)
-     /* Wield  Battle Axe (301)   Chance: 10% */
-     /* Wield  Club (309)   Chance: 8% */
-     /* Wield  Dabus (313)   Chance: 10% */
-     /* Wield  Kasrullah (325)   Chance: 7% */
-     /* Wield  Mace (331)   Chance: 10% */
-     /* Wield  Morning Star (332)   Chance: 20% */
-     /* Wield  Shou-ono (342)   Chance: 10% */
-     /* Wield  Silifi (344)   Chance: 10% */
-     /* Wield  Tofun (356)   Chance: 10% */
-     /* Wield 4x Throwing Axe (304)   Chance: 1% */
-     /* Wield 4x Throwing Club (310)   Chance: 1% */;
+     /* Wield  Battle Axe (301)   | Chance: 10% */
+     /* Wield  Club (309)   | Chance: 8% */
+     /* Wield  Dabus (313)   | Chance: 10% */
+     /* Wield  Kasrullah (325)   | Chance: 7% */
+     /* Wield  Mace (331)   | Chance: 10% */
+     /* Wield  Morning Star (332)   | Chance: 20% */
+     /* Wield  Shou-ono (342)   | Chance: 10% */
+     /* Wield  Silifi (344)   | Chance: 10% */
+     /* Wield  Tofun (356)   | Chance: 10% */
+     /* Wield 4x Throwing Axe (304)   | Chance: 1% */
+     /* Wield 4x Throwing Club (310)   | Chance: 1% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1497, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

@@ -18,11 +18,11 @@ VALUES (7433, 001 /* SETUP_DID */, 33554839)
      , (7433, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (7433, 031 /* LINKED_PORTAL_ONE_DID */, 7341 /* Soul-Fearing Vestry Dungeon */)
      , (7433, 032 /* WIELDED_TREASURE_TYPE_DID */, 296)
-     /* Wield  Yumi (23735)   Chance: 50% */
-     /* Wield 16x Acid Arrow (4181)   Chance: 100% */
-     /* Wield  Kite Shield (23685)   Chance: 50% */
-     /* Wield  Acid Spear (23689)   Chance: 25% */
-     /* Wield  Acid Yari (23723)   Chance: 25% */
+     /* Wield  Yumi (23735)   | Chance: 50% */
+     /* Wield 16x Acid Arrow (4181)   | Chance: 100% */
+     /* Wield  Kite Shield (23685)   | Chance: 50% */
+     /* Wield  Acid Spear (23689)   | Chance: 25% */
+     /* Wield  Acid Yari (23723)   | Chance: 25% */
      , (7433, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

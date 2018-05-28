@@ -16,9 +16,9 @@ VALUES (2443, 001 /* SETUP_DID */, 33554491)
      , (2443, 008 /* ICON_DID */, 100667450)
      , (2443, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415340)
      , (2443, 035 /* DEATH_TREASURE_TYPE_DID */, 152)
-     /* Contain  Stale Bread (5088)   Chance: 16% */
-     /* Contain  Old Cheese (5089)   Chance: 16% */
-     /* Contain  Bruised Apple (5090)   Chance: 16% */;
+     /* Contain  Stale Bread (5088)   | Chance: 16% */
+     /* Contain  Old Cheese (5089)   | Chance: 16% */
+     /* Contain  Bruised Apple (5090)   | Chance: 16% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (2443, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

@@ -15,19 +15,19 @@ VALUES (29351, 001 /* SETUP_DID */, 33558024)
      , (29351, 008 /* ICON_DID */, 100667453)
      , (29351, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415255)
      , (29351, 032 /* WIELDED_TREASURE_TYPE_DID */, 56)
-     /* Wield  Jo (322)   Chance: 3% */
-     /* Wield  Nabut (333)   Chance: 3% */
-     /* Wield  Quarter Staff (338)   Chance: 4% */
-     /* Wield  Shou-ono (342)   Chance: 8% */
-     /* Wield  Tungi (357)   Chance: 8% */
-     /* Wield  Hand Axe (303)   Chance: 9% */
-     /* Wield  Budiaq (308)   Chance: 10% */
-     /* Wield  Spear (348)   Chance: 10% */
-     /* Wield  Kasrullah (325)   Chance: 10% */
-     /* Wield  Club (309)   Chance: 10% */
-     /* Wield 4x Javelin (320)   Chance: 10% */
-     /* Wield 5x Throwing Club (310)   Chance: 10% */
-     /* Wield  Djarid (317)   Chance: 5% */
+     /* Wield  Jo (322)   | Chance: 3% */
+     /* Wield  Nabut (333)   | Chance: 3% */
+     /* Wield  Quarter Staff (338)   | Chance: 4% */
+     /* Wield  Shou-ono (342)   | Chance: 8% */
+     /* Wield  Tungi (357)   | Chance: 8% */
+     /* Wield  Hand Axe (303)   | Chance: 9% */
+     /* Wield  Budiaq (308)   | Chance: 10% */
+     /* Wield  Spear (348)   | Chance: 10% */
+     /* Wield  Kasrullah (325)   | Chance: 10% */
+     /* Wield  Club (309)   | Chance: 10% */
+     /* Wield 4x Javelin (320)   | Chance: 10% */
+     /* Wield 5x Throwing Club (310)   | Chance: 10% */
+     /* Wield  Djarid (317)   | Chance: 5% */
      , (29351, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

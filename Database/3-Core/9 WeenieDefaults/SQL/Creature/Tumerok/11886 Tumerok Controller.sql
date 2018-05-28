@@ -17,8 +17,8 @@ VALUES (11886, 001 /* SETUP_DID */, 33554496)
      , (11886, 008 /* ICON_DID */, 100667452)
      , (11886, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11886, 032 /* WIELDED_TREASURE_TYPE_DID */, 367)
-     /* Wield  Hafted Gromnie Spear (11752)   Chance: 80% */
-     /* Wield  Reinforced Gromnie Spear (11778)   Chance: 20% */
+     /* Wield  Hafted Gromnie Spear (11752)   | Chance: 80% */
+     /* Wield  Reinforced Gromnie Spear (11778)   | Chance: 20% */
      , (11886, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

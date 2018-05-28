@@ -17,44 +17,44 @@ VALUES (6021, 001 /* SETUP_DID */, 33554496)
      , (6021, 008 /* ICON_DID */, 100667452)
      , (6021, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (6021, 032 /* WIELDED_TREASURE_TYPE_DID */, 226)
-     /* Wield 5x Javelin (320)   Chance: 10% */
-     /* Wield 6x Djarid (317)   Chance: 10% */
-     /* Wield 4x Throwing Club (310)   Chance: 5% */
-     /* Wield 6x Throwing Axe (304)   Chance: 5% */
-     /* Wield  Yag (360)   Chance: 5% */
-     /* Wield 23x Arrow (300)   Chance: 100% */
-     /* Wield  Shortbow (307)   Chance: 5% */
-     /* Wield 25x Arrow (300)   Chance: 100% */
-     /* Wield  Shouyumi (341)   Chance: 5% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Light Crossbow (312)   Chance: 16% */
-     /* Wield 15x Quarrel (305)   Chance: 100% */
-     /* Wield  Nayin (334)   Chance: 6% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Longbow (306)   Chance: 11% */
-     /* Wield 22x Arrow (300)   Chance: 100% */
-     /* Wield  Yumi (363)   Chance: 6% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Heavy Crossbow (311)   Chance: 16% */
-     /* Wield 15x Quarrel (305)   Chance: 100% */
-     /* Wield  Battle Axe (301)   Chance: 6% */
-     /* Wield  Budiaq (308)   Chance: 6% */
-     /* Wield  Dabus (313)   Chance: 6% */
-     /* Wield  Kaskara (324)   Chance: 5% */
-     /* Wield  Long Sword (351)   Chance: 5% */
-     /* Wield  Mace (331)   Chance: 7% */
-     /* Wield  Ono (336)   Chance: 5% */
-     /* Wield  Scimitar (339)   Chance: 10% */
-     /* Wield  Shamshir (340)   Chance: 5% */
-     /* Wield  Silifi (344)   Chance: 5% */
-     /* Wield  Spear (348)   Chance: 7% */
-     /* Wield  Tachi (353)   Chance: 5% */
-     /* Wield  Tofun (356)   Chance: 6% */
-     /* Wield  War Hammer (359)   Chance: 10% */
-     /* Wield  Yari (362)   Chance: 10% */
-     /* Wield  Large Kite Shield (92)   Chance: 30% */
-     /* Wield  Kite Shield (91)   Chance: 20% */
-     /* Wield  Large Round Shield (94)   Chance: 20% */
+     /* Wield 5x Javelin (320)   | Chance: 10% */
+     /* Wield 6x Djarid (317)   | Chance: 10% */
+     /* Wield 4x Throwing Club (310)   | Chance: 5% */
+     /* Wield 6x Throwing Axe (304)   | Chance: 5% */
+     /* Wield  Yag (360)   | Chance: 5% */
+     /* Wield 23x Arrow (300)   | Chance: 100% */
+     /* Wield  Shortbow (307)   | Chance: 5% */
+     /* Wield 25x Arrow (300)   | Chance: 100% */
+     /* Wield  Shouyumi (341)   | Chance: 5% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Light Crossbow (312)   | Chance: 16% */
+     /* Wield 15x Quarrel (305)   | Chance: 100% */
+     /* Wield  Nayin (334)   | Chance: 6% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Longbow (306)   | Chance: 11% */
+     /* Wield 22x Arrow (300)   | Chance: 100% */
+     /* Wield  Yumi (363)   | Chance: 6% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   | Chance: 16% */
+     /* Wield 15x Quarrel (305)   | Chance: 100% */
+     /* Wield  Battle Axe (301)   | Chance: 6% */
+     /* Wield  Budiaq (308)   | Chance: 6% */
+     /* Wield  Dabus (313)   | Chance: 6% */
+     /* Wield  Kaskara (324)   | Chance: 5% */
+     /* Wield  Long Sword (351)   | Chance: 5% */
+     /* Wield  Mace (331)   | Chance: 7% */
+     /* Wield  Ono (336)   | Chance: 5% */
+     /* Wield  Scimitar (339)   | Chance: 10% */
+     /* Wield  Shamshir (340)   | Chance: 5% */
+     /* Wield  Silifi (344)   | Chance: 5% */
+     /* Wield  Spear (348)   | Chance: 7% */
+     /* Wield  Tachi (353)   | Chance: 5% */
+     /* Wield  Tofun (356)   | Chance: 6% */
+     /* Wield  War Hammer (359)   | Chance: 10% */
+     /* Wield  Yari (362)   | Chance: 10% */
+     /* Wield  Large Kite Shield (92)   | Chance: 30% */
+     /* Wield  Kite Shield (91)   | Chance: 20% */
+     /* Wield  Large Round Shield (94)   | Chance: 20% */
      , (6021, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

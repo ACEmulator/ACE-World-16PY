@@ -17,32 +17,32 @@ VALUES (12131, 001 /* SETUP_DID */, 33554433)
      , (12131, 008 /* ICON_DID */, 100667446)
      , (12131, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415381)
      , (12131, 032 /* WIELDED_TREASURE_TYPE_DID */, 372)
-     /* Wield 5x Javelin (320)   Chance: 10% */
-     /* Wield 5x Djarid (317)   Chance: 10% */
-     /* Wield 4x Throwing Club (310)   Chance: 5% */
-     /* Wield 6x Throwing Axe (304)   Chance: 5% */
-     /* Wield  Shortbow (307)   Chance: 3% */
-     /* Wield 25x Arrow (300)   Chance: 100% */
-     /* Wield  Shouyumi (341)   Chance: 3% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Light Crossbow (312)   Chance: 11% */
-     /* Wield 15x Quarrel (305)   Chance: 100% */
-     /* Wield  Balister of the Quiddity (11892)   Chance: 26% */
-     /* Wield 20x Quarrel (305)   Chance: 100% */
-     /* Wield  Longbow (306)   Chance: 6% */
-     /* Wield 22x Arrow (300)   Chance: 100% */
-     /* Wield  Yumi (363)   Chance: 4% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Heavy Crossbow (311)   Chance: 14% */
-     /* Wield 15x Quarrel (305)   Chance: 100% */
-     /* Wield  Blade of the Quiddity (11916)   Chance: 25% */
-     /* Wield  Lance of the Quiddity (11913)   Chance: 25% */
-     /* Wield  Mace of the Quiddity (11907)   Chance: 25% */
-     /* Wield  Kaskara (324)   Chance: 3% */
-     /* Wield  Long Sword (351)   Chance: 3% */
-     /* Wield  Silifi (344)   Chance: 5% */
-     /* Wield  Tachi (353)   Chance: 5% */
-     /* Wield  War Hammer (359)   Chance: 5% */
+     /* Wield 5x Javelin (320)   | Chance: 10% */
+     /* Wield 5x Djarid (317)   | Chance: 10% */
+     /* Wield 4x Throwing Club (310)   | Chance: 5% */
+     /* Wield 6x Throwing Axe (304)   | Chance: 5% */
+     /* Wield  Shortbow (307)   | Chance: 3% */
+     /* Wield 25x Arrow (300)   | Chance: 100% */
+     /* Wield  Shouyumi (341)   | Chance: 3% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Light Crossbow (312)   | Chance: 11% */
+     /* Wield 15x Quarrel (305)   | Chance: 100% */
+     /* Wield  Balister of the Quiddity (11892)   | Chance: 26% */
+     /* Wield 20x Quarrel (305)   | Chance: 100% */
+     /* Wield  Longbow (306)   | Chance: 6% */
+     /* Wield 22x Arrow (300)   | Chance: 100% */
+     /* Wield  Yumi (363)   | Chance: 4% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   | Chance: 14% */
+     /* Wield 15x Quarrel (305)   | Chance: 100% */
+     /* Wield  Blade of the Quiddity (11916)   | Chance: 25% */
+     /* Wield  Lance of the Quiddity (11913)   | Chance: 25% */
+     /* Wield  Mace of the Quiddity (11907)   | Chance: 25% */
+     /* Wield  Kaskara (324)   | Chance: 3% */
+     /* Wield  Long Sword (351)   | Chance: 3% */
+     /* Wield  Silifi (344)   | Chance: 5% */
+     /* Wield  Tachi (353)   | Chance: 5% */
+     /* Wield  War Hammer (359)   | Chance: 5% */
      , (12131, 035 /* DEATH_TREASURE_TYPE_DID */, 391 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

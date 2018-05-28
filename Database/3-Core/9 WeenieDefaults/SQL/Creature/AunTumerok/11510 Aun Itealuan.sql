@@ -17,18 +17,18 @@ VALUES (11510, 001 /* SETUP_DID */, 33557117)
      , (11510, 008 /* ICON_DID */, 100671756)
      , (11510, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11510, 032 /* WIELDED_TREASURE_TYPE_DID */, 377)
-     /* Wield  Shortbow (307)   Chance: 22% */
-     /* Wield 25x Greater Fire Arrow (5305)   Chance: 100% */
-     /* Wield  Shouyumi (341)   Chance: 23% */
-     /* Wield 20x Greater Acid Arrow (5306)   Chance: 100% */
-     /* Wield  Light Crossbow (312)   Chance: 11% */
-     /* Wield 15x Greater Armor Piercing Quarrel (5318)   Chance: 100% */
-     /* Wield  Longbow (306)   Chance: 16% */
-     /* Wield 22x Greater Lightning Arrow (5308)   Chance: 100% */
-     /* Wield  Yumi (363)   Chance: 14% */
-     /* Wield 20x Greater Frost Arrow (5307)   Chance: 100% */
-     /* Wield  Heavy Crossbow (311)   Chance: 14% */
-     /* Wield 15x Greater Armor Piercing Quarrel (5318)   Chance: 100% */
+     /* Wield  Shortbow (307)   | Chance: 22% */
+     /* Wield 25x Greater Fire Arrow (5305)   | Chance: 100% */
+     /* Wield  Shouyumi (341)   | Chance: 23% */
+     /* Wield 20x Greater Acid Arrow (5306)   | Chance: 100% */
+     /* Wield  Light Crossbow (312)   | Chance: 11% */
+     /* Wield 15x Greater Armor Piercing Quarrel (5318)   | Chance: 100% */
+     /* Wield  Longbow (306)   | Chance: 16% */
+     /* Wield 22x Greater Lightning Arrow (5308)   | Chance: 100% */
+     /* Wield  Yumi (363)   | Chance: 14% */
+     /* Wield 20x Greater Frost Arrow (5307)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   | Chance: 14% */
+     /* Wield 15x Greater Armor Piercing Quarrel (5318)   | Chance: 100% */
      , (11510, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

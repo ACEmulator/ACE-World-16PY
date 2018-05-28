@@ -19,20 +19,20 @@ VALUES (12228, 001 /* SETUP_DID */, 33554433)
      , (12228, 008 /* ICON_DID */, 100670397)
      , (12228, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415331)
      , (12228, 032 /* WIELDED_TREASURE_TYPE_DID */, 178)
-     /* Wield  Yumi (23734)   Chance: 20% */
-     /* Wield 14x Deadly Fire Arrow (15435)   Chance: 100% */
-     /* Wield  Yumi (23734)   Chance: 20% */
-     /* Wield 14x Deadly Arrow (15429)   Chance: 100% */
-     /* Wield  Katar (23674)   Chance: 10% */
-     /* Wield  Kite Shield (23684)   Chance: 100% */
-     /* Wield  Nekode (23680)   Chance: 10% */
-     /* Wield  Kite Shield (23684)   Chance: 100% */
-     /* Wield  Cestus (23637)   Chance: 10% */
-     /* Wield  Kite Shield (23684)   Chance: 100% */
-     /* Wield  Tachi (23700)   Chance: 35% */
-     /* Wield  Kite Shield (23684)   Chance: 100% */
-     /* Wield  Fire Tachi (23707)   Chance: 35% */
-     /* Wield  Kite Shield (23684)   Chance: 100% */
+     /* Wield  Yumi (23734)   | Chance: 20% */
+     /* Wield 14x Deadly Fire Arrow (15435)   | Chance: 100% */
+     /* Wield  Yumi (23734)   | Chance: 20% */
+     /* Wield 14x Deadly Arrow (15429)   | Chance: 100% */
+     /* Wield  Katar (23674)   | Chance: 10% */
+     /* Wield  Kite Shield (23684)   | Chance: 100% */
+     /* Wield  Nekode (23680)   | Chance: 10% */
+     /* Wield  Kite Shield (23684)   | Chance: 100% */
+     /* Wield  Cestus (23637)   | Chance: 10% */
+     /* Wield  Kite Shield (23684)   | Chance: 100% */
+     /* Wield  Tachi (23700)   | Chance: 35% */
+     /* Wield  Kite Shield (23684)   | Chance: 100% */
+     /* Wield  Fire Tachi (23707)   | Chance: 35% */
+     /* Wield  Kite Shield (23684)   | Chance: 100% */
      , (12228, 035 /* DEATH_TREASURE_TYPE_DID */, 183 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

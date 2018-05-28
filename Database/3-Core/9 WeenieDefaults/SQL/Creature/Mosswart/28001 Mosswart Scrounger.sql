@@ -17,9 +17,9 @@ VALUES (28001, 001 /* SETUP_DID */, 33557327)
      , (28001, 008 /* ICON_DID */, 100667449)
      , (28001, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415264)
      , (28001, 032 /* WIELDED_TREASURE_TYPE_DID */, 297)
-     /* Wield  Tachi (23699)   Chance: 33% */
-     /* Wield  Yaoji (23709)   Chance: 33% */
-     /* Wield  Acid Yari (23721)   Chance: 34% */
+     /* Wield  Tachi (23699)   | Chance: 33% */
+     /* Wield  Yaoji (23709)   | Chance: 33% */
+     /* Wield  Acid Yari (23721)   | Chance: 34% */
      , (28001, 035 /* DEATH_TREASURE_TYPE_DID */, 452 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

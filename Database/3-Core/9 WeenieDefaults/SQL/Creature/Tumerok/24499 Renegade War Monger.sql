@@ -17,14 +17,14 @@ VALUES (24499, 001 /* SETUP_DID */, 33554496)
      , (24499, 008 /* ICON_DID */, 100667452)
      , (24499, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (24499, 032 /* WIELDED_TREASURE_TYPE_DID */, 202)
-     /* Wield  Yumi (23734)   Chance: 25% */
-     /* Wield 20x Deadly Armor Piercing Arrow (15431)   Chance: 100% */
-     /* Wield  Yumi (23734)   Chance: 25% */
-     /* Wield 17x Deadly Arrow (15429)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23665)   Chance: 25% */
-     /* Wield 20x Deadly Quarrel (15438)   Chance: 100% */
-     /* Wield  Heavy Crossbow (23665)   Chance: 25% */
-     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   Chance: 100% */
+     /* Wield  Yumi (23734)   | Chance: 25% */
+     /* Wield 20x Deadly Armor Piercing Arrow (15431)   | Chance: 100% */
+     /* Wield  Yumi (23734)   | Chance: 25% */
+     /* Wield 17x Deadly Arrow (15429)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23665)   | Chance: 25% */
+     /* Wield 20x Deadly Quarrel (15438)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (23665)   | Chance: 25% */
+     /* Wield 16x Deadly Armor Piercing Quarrel (15440)   | Chance: 100% */
      , (24499, 035 /* DEATH_TREASURE_TYPE_DID */, 452 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

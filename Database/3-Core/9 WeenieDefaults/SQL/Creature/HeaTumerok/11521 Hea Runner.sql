@@ -17,18 +17,18 @@ VALUES (11521, 001 /* SETUP_DID */, 33554496)
      , (11521, 008 /* ICON_DID */, 100667452)
      , (11521, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11521, 032 /* WIELDED_TREASURE_TYPE_DID */, 388)
-     /* Wield  Blade of the Quiddity (11915)   Chance: 25% */
-     /* Wield  Lance of the Quiddity (11912)   Chance: 25% */
-     /* Wield  Mace of the Quiddity (11906)   Chance: 25% */
-     /* Wield  Kaskara (324)   Chance: 3% */
-     /* Wield  Long Sword (351)   Chance: 3% */
-     /* Wield  Silifi (344)   Chance: 3% */
-     /* Wield  Tachi (353)   Chance: 2% */
-     /* Wield  War Hammer (359)   Chance: 2% */
-     /* Wield 5x Javelin (320)   Chance: 3% */
-     /* Wield 5x Djarid (317)   Chance: 3% */
-     /* Wield 4x Throwing Club (310)   Chance: 3% */
-     /* Wield 6x Throwing Axe (304)   Chance: 3% */
+     /* Wield  Blade of the Quiddity (11915)   | Chance: 25% */
+     /* Wield  Lance of the Quiddity (11912)   | Chance: 25% */
+     /* Wield  Mace of the Quiddity (11906)   | Chance: 25% */
+     /* Wield  Kaskara (324)   | Chance: 3% */
+     /* Wield  Long Sword (351)   | Chance: 3% */
+     /* Wield  Silifi (344)   | Chance: 3% */
+     /* Wield  Tachi (353)   | Chance: 2% */
+     /* Wield  War Hammer (359)   | Chance: 2% */
+     /* Wield 5x Javelin (320)   | Chance: 3% */
+     /* Wield 5x Djarid (317)   | Chance: 3% */
+     /* Wield 4x Throwing Club (310)   | Chance: 3% */
+     /* Wield 6x Throwing Axe (304)   | Chance: 3% */
      , (11521, 035 /* DEATH_TREASURE_TYPE_DID */, 453 /* Loot Tier: 1 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

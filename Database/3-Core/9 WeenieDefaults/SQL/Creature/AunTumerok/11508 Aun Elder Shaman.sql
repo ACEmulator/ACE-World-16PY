@@ -17,7 +17,7 @@ VALUES (11508, 001 /* SETUP_DID */, 33557175)
      , (11508, 008 /* ICON_DID */, 100671756)
      , (11508, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415270)
      , (11508, 032 /* WIELDED_TREASURE_TYPE_DID */, 380)
-     /* Wield  Buadren (11971)   Chance: 100% */
+     /* Wield  Buadren (11971)   | Chance: 100% */
      , (11508, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

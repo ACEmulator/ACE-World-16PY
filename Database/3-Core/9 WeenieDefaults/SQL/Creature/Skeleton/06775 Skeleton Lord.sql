@@ -15,30 +15,30 @@ VALUES (6775, 001 /* SETUP_DID */, 33555464)
      , (6775, 008 /* ICON_DID */, 100669124)
      , (6775, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (6775, 032 /* WIELDED_TREASURE_TYPE_DID */, 189)
-     /* Wield  Battle Axe (301)   Chance: 9% */
-     /* Wield  Broad Sword (350)   Chance: 4% */
-     /* Wield  Kaskara (324)   Chance: 4% */
-     /* Wield  Ken (327)   Chance: 4% */
-     /* Wield  Long Sword (351)   Chance: 4% */
-     /* Wield  Morning Star (332)   Chance: 6% */
-     /* Wield  Scimitar (339)   Chance: 4% */
-     /* Wield  Shamshir (340)   Chance: 4% */
-     /* Wield  Ono (336)   Chance: 8% */
-     /* Wield  Silifi (344)   Chance: 8% */
-     /* Wield  Tachi (353)   Chance: 5% */
-     /* Wield  Takuba (354)   Chance: 5% */
-     /* Wield 6x Throwing Axe (304)   Chance: 6% */
-     /* Wield  Nayin (334)   Chance: 6% */
-     /* Wield 16x Arrow (300)   Chance: 100% */
-     /* Wield  Longbow (306)   Chance: 6% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Yumi (363)   Chance: 6% */
-     /* Wield 20x Arrow (300)   Chance: 100% */
-     /* Wield  Heavy Crossbow (311)   Chance: 11% */
-     /* Wield 16x Quarrel (305)   Chance: 100% */
-     /* Wield  Large Kite Shield (92)   Chance: 30% */
-     /* Wield  Kite Shield (91)   Chance: 20% */
-     /* Wield  Large Round Shield (94)   Chance: 20% */
+     /* Wield  Battle Axe (301)   | Chance: 9% */
+     /* Wield  Broad Sword (350)   | Chance: 4% */
+     /* Wield  Kaskara (324)   | Chance: 4% */
+     /* Wield  Ken (327)   | Chance: 4% */
+     /* Wield  Long Sword (351)   | Chance: 4% */
+     /* Wield  Morning Star (332)   | Chance: 6% */
+     /* Wield  Scimitar (339)   | Chance: 4% */
+     /* Wield  Shamshir (340)   | Chance: 4% */
+     /* Wield  Ono (336)   | Chance: 8% */
+     /* Wield  Silifi (344)   | Chance: 8% */
+     /* Wield  Tachi (353)   | Chance: 5% */
+     /* Wield  Takuba (354)   | Chance: 5% */
+     /* Wield 6x Throwing Axe (304)   | Chance: 6% */
+     /* Wield  Nayin (334)   | Chance: 6% */
+     /* Wield 16x Arrow (300)   | Chance: 100% */
+     /* Wield  Longbow (306)   | Chance: 6% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Yumi (363)   | Chance: 6% */
+     /* Wield 20x Arrow (300)   | Chance: 100% */
+     /* Wield  Heavy Crossbow (311)   | Chance: 11% */
+     /* Wield 16x Quarrel (305)   | Chance: 100% */
+     /* Wield  Large Kite Shield (92)   | Chance: 30% */
+     /* Wield  Kite Shield (91)   | Chance: 20% */
+     /* Wield  Large Round Shield (94)   | Chance: 20% */
      , (6775, 035 /* DEATH_TREASURE_TYPE_DID */, 190 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

@@ -17,7 +17,7 @@ VALUES (25579, 001 /* SETUP_DID */, 33558437)
      , (25579, 008 /* ICON_DID */, 100674805)
      , (25579, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415272)
      , (25579, 032 /* WIELDED_TREASURE_TYPE_DID */, 446)
-     /* Wield  Khopesh (25499)   Chance: 98% */
+     /* Wield  Khopesh (25499)   | Chance: 98% */
      , (25579, 035 /* DEATH_TREASURE_TYPE_DID */, 146 /* Loot Tier: 5 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

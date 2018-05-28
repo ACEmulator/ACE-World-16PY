@@ -17,11 +17,11 @@ VALUES (8543, 001 /* SETUP_DID */, 33555464)
      , (8543, 008 /* ICON_DID */, 100669124)
      , (8543, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415269)
      , (8543, 032 /* WIELDED_TREASURE_TYPE_DID */, 288)
-     /* Wield  Yumi (23734)   Chance: 50% */
-     /* Wield 16x Deadly Acid Arrow (15430)   Chance: 100% */
-     /* Wield  Kite Shield (23684)   Chance: 50% */
-     /* Wield  Acid Spear (23688)   Chance: 25% */
-     /* Wield  Acid Yari (23722)   Chance: 25% */;
+     /* Wield  Yumi (23734)   | Chance: 50% */
+     /* Wield 16x Deadly Acid Arrow (15430)   | Chance: 100% */
+     /* Wield  Kite Shield (23684)   | Chance: 50% */
+     /* Wield  Acid Spear (23688)   | Chance: 25% */
+     /* Wield  Acid Yari (23722)   | Chance: 25% */;
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8543, 001 /* ITEM_TYPE_INT */, 16 /* TYPE_CREATURE */)

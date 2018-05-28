@@ -17,20 +17,20 @@ VALUES (19315, 001 /* SETUP_DID */, 33554433)
      , (19315, 008 /* ICON_DID */, 100667446)
      , (19315, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415349)
      , (19315, 032 /* WIELDED_TREASURE_TYPE_DID */, 404)
-     /* Wield  Bronze Longbow (15873)   Chance: 40% */
-     /* Wield 20x Greater Fire Arrow (5305)   Chance: 25% */
-     /* Wield 20x Greater Arrow (5304)   Chance: 25% */
-     /* Wield 20x Greater Frost Arrow (5307)   Chance: 25% */
-     /* Wield 20x Greater Armor Piercing Arrow (5309)   Chance: 25% */
-     /* Wield  Bronze Atlatl (15870)   Chance: 60% */
-     /* Wield 20x Armor Piercing Atlatl Dart (15280)   Chance: 16% */
-     /* Wield 20x Greater Fire Atlatl Dart (15293)   Chance: 16% */
-     /* Wield 20x Greater Atlatl Dart (15287)   Chance: 17% */
-     /* Wield 20x Armor Piercing Atlatl Dart (15280)   Chance: 17% */
-     /* Wield 20x Greater Frost Atlatl Dart (15295)   Chance: 17% */
-     /* Wield 20x Greater Lightning Atlatl Dart (15292)   Chance: 17% */
-     /* Wield  Bronze Zharalim Simi (15390)   Chance: 50% */
-     /* Wield  Bronze Quarter Staff (15878)   Chance: 50% */
+     /* Wield  Bronze Longbow (15873)   | Chance: 40% */
+     /* Wield 20x Greater Fire Arrow (5305)   | Chance: 25% */
+     /* Wield 20x Greater Arrow (5304)   | Chance: 25% */
+     /* Wield 20x Greater Frost Arrow (5307)   | Chance: 25% */
+     /* Wield 20x Greater Armor Piercing Arrow (5309)   | Chance: 25% */
+     /* Wield  Bronze Atlatl (15870)   | Chance: 60% */
+     /* Wield 20x Armor Piercing Atlatl Dart (15280)   | Chance: 16% */
+     /* Wield 20x Greater Fire Atlatl Dart (15293)   | Chance: 16% */
+     /* Wield 20x Greater Atlatl Dart (15287)   | Chance: 17% */
+     /* Wield 20x Armor Piercing Atlatl Dart (15280)   | Chance: 17% */
+     /* Wield 20x Greater Frost Atlatl Dart (15295)   | Chance: 17% */
+     /* Wield 20x Greater Lightning Atlatl Dart (15292)   | Chance: 17% */
+     /* Wield  Bronze Zharalim Simi (15390)   | Chance: 50% */
+     /* Wield  Bronze Quarter Staff (15878)   | Chance: 50% */
      , (19315, 035 /* DEATH_TREASURE_TYPE_DID */, 451 /* Loot Tier: 2 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)

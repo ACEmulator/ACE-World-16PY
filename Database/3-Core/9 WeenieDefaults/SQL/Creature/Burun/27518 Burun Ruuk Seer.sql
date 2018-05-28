@@ -17,11 +17,11 @@ VALUES (27518, 001 /* SETUP_DID */, 33558582)
      , (27518, 008 /* ICON_DID */, 100675761)
      , (27518, 022 /* PHYSICS_EFFECT_TABLE_DID */, 872415402)
      , (27518, 032 /* WIELDED_TREASURE_TYPE_DID */, 468)
-     /* Wield  Stone Axe (26023)   Chance: 20% */
-     /* Wield  Bone Dagger (26032)   Chance: 20% */
-     /* Wield  Stone Mace (26044)   Chance: 20% */
-     /* Wield  Stone Spear (26049)   Chance: 20% */
-     /* Wield  Bone Sword (26053)   Chance: 20% */
+     /* Wield  Stone Axe (26023)   | Chance: 20% */
+     /* Wield  Bone Dagger (26032)   | Chance: 20% */
+     /* Wield  Stone Mace (26044)   | Chance: 20% */
+     /* Wield  Stone Spear (26049)   | Chance: 20% */
+     /* Wield  Bone Sword (26053)   | Chance: 20% */
      , (27518, 035 /* DEATH_TREASURE_TYPE_DID */, 448 /* Loot Tier: 4 */);
 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
